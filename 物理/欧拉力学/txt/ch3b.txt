@@ -1,0 +1,8718 @@
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 141
+
+CHAPTER THREE Continued.
+CONCERNING THE RECTILINEAR MOTION OF A FREE POINT
+ACTED ON BY ABSOLUTE FORCES
+[p. 115 ]
+
+PROPOSITION 35.
+
+PROBLEM. 286. If the centripetal force is inversely proportional to the square of the distance from the centre C (Fig.28) and the body falls from A as far as C, the time is to be found in which the body traverses any portion of this distance AC.
+
+SOLUTION. By keeping AC = a and the distance, in which the centripetal force of gravity is equal to f, and CP = y and the speed at P corresponds to the height v. Therefore, on account of n = ­ 2 , by Prop. 32 (264),
+
+v
+
+=
+
+f
+
+2
+
+
+
+a- y ay
+
+
+
+and
+
+v= f
+
+a- y ay
+
+.
+
+Therefore the element of the time is given by :
+
+dy v
+
+f = dv ay =
+f (a-y)
+
+a v
+
+.
+
+ydy .
+(ay- y2 )
+
+Consequently, the time to traverse PC is given by :
+
+.a
+v
+
+ydy
+(ay- y2 ) . Indeed,
+
+  ydy ( ay- y2 ) = -
+
+( ay- y2 ) +
+
+1 ady
+
+2
+( ay- y2
+
+)
+
+.
+
+Whereby with the semi-circle AMC described on AC, and with
+
+ the ordinate PM drawn, then CM =
+
+1 2
+
+ady
+
+( ay- y2
+
+)
+
+and
+
+PM
+
+=
+
+( ay- y2 ) .
+
+[Taking C as the origin, PM = x, and PM = y, then the equation of the circle is x2 = ay ­ y2; the above integral change follows by elementary means as
+
+ydy
+
+=
+
+-
+
+1 2
+
+d
+
+(ay
+
+-
+
+y2)
+
++
+
+1 2
+
+ady
+
+,
+
+etc.
+
+Finally,
+
+the
+
+arc
+
+length
+
+ds = (dx2 + dy2) = dx (1 + (dy / dx) 2 and again the result follows by elementary means
+
+on finding dy/dx and simplifying.]
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 142
+
+Whereby the time for to travel the distance is given by : CP =
+
+a f
+
+(CM
+
+-
+
+PM ) ,
+
+and
+
+from
+
+this, the time for the total descent through
+
+AC
+
+is
+
+equal
+
+to
+
+AMC f
+
+a.
+
+Therefore the time in
+
+which the part AP is completed is
+
+a f
+
+( AM
+
++
+
+PM
+
+)
+
+.
+
+Q.
+
+E.
+
+I.
+
+Corollary 1.
+
+287. Therefore, on denoting the ratio of the diameter of the circle to the circumference by
+
+1
+
+:
+
+
+
+then
+
+AMC
+
+=
+
+1 2
+
+a
+
+, then the time of descent through AC =
+
+a a 2f
+
+. From which it is
+
+understood that the times of descent to C of most falling bodies are in the ratio of the
+
+distances raised to the 3/2 power [i. e. those under an inverse square law, which obey
+
+Kepler's Third Law]. [p. 116]
+
+Corollary 2.
+288. And thus bodies fall in times to different centres of force of this kind, which are in the ratio composed from the product of the three on two power of the distances and inversely as the square root of the effectiveness. For the effectiveness varies directly as the square of the distance f. [Recall that the effectiveness for gravitational forces is the size of the central attracting mass, such as the sun, etc.]
+
+Scholium.
+289. If the centripetal force varies inversely as the cube of the distance, then n = - 3 and
+
+v=
+
+f3 2
+
+ 
+
+a2 - y2 a2 y2
+
+ 
+
+.
+
+Therefore
+
+v
+
+=
+
+f ay
+
+(a
+
+2
+
+- 2
+
+y
+
+2
+
+)
+
+,
+
+and
+
+the
+
+time
+
+to
+
+cross
+
+the
+
+distance
+
+CP
+
+is equal to :
+
+. a 2
+ff
+
+ydy = a
+(a2-y2 ) f
+
+2 f
+
+. a
+
+-
+
+(a2 - y2)  .
+
+Moreover, in the quadrant of the circle, PM = (a2 - y2 ) ; the time in which CP is
+
+completed is therefore a 2 .(AC - PM ), and the time in which the whole distance AC is ff
+
+traversed is a 2 .AC or a2 2 . Consequently the time in which the part AP is traversed,
+
+ff
+
+ff
+
+[on subtracting,] is equal to AC.PM 2 . Therefore in this case the time can be shown
+ff
+
+algebraically, and that shall also be these cases in which n is the terminus of this series
+
+-
+
+5 3
+
+,
+
+-
+
+7 5
+
+,
+
+-
+
+9 7
+
+,
+
+-
+
+11 9
+
+etc.
+
+Which
+
+moreover
+
+at
+
+least
+
+shall
+
+be
+
+the
+
+times
+
+for
+
+the
+
+whole
+
+descents
+
+through AC , which we are about to investigate.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+PROPOSITION 36.
+
+page 143
+
+PROBLEM.
+
+290. To determine the times of descent through the distance AC to the centre of the force
+
+C (Fig. 28),if the centripetal force is proportional to the reciprocal of the distances
+
+considered, and the exponent of this distance is
+
+2m+1 2m-1
+
+,
+
+with
+
+the
+
+number
+
+m
+
+denoting
+
+a
+
+whole positive number. [p. 117]
+
+SOLUTION.
+
+With
+
+a,
+
+f,
+
+y,
+
+and
+
+v
+
+retaining
+
+the
+
+same
+
+values
+
+as
+
+above,
+
+then
+
+let
+
+n
+
+=
+
+-2m-1 2m-1
+
+.Concerning
+
+which,
+
+[on substituting into
+
+v
+
+=
+
+an+1- yn+1 (n+1) f n
+
+from (264)]
+
+v
+
+=
+
+2m-1 2
+
+f
+
+2m 2m
+
++1 -1
+
+   
+
+a
+
+2 2 m -1
+
+-y
+
+2 2 m -1
+
+a
+
+2 2m-1 y
+
+2 2 m -1
+
+   
+
+and thus the time taken is given by :
+
+ dy = v
+
+2
+. 2a 2m-1 2 m+1
+(2m-1) f 2m-1
+
+1
+
+y 2 m-1dy
+
+,
+
+
+
+a
+
+2
+
+2 m-1
+
+-
+
+y
+
+2
+
+2 m-1
+
+
+
+
+
+
+
+from which with y = 0 put in place the integral vanishes, as required. From which
+
+product, if y = a is put in place, then the time sought for the whole descent through AC
+
+2
+
+2
+
+1
+
+2m-3
+
+is produced. Put
+
+y 2m-1 = z and a 2m-1 = b, then y 2m-1 =
+
+z
+
+and
+
+dy
+
+=
+
+2m-1 2
+
+z
+
+2
+
+dz , from
+
+which on substitution, the integral becomes
+
+ dy = v
+
+2
+
+.  ( 2m-1)a 2 m-1 2 m+1 2 f 2 m-1
+
+z m-1dz
+(b-z )
+
+.
+
+ In order to evaluate
+
+z m-1dz
+(b-z )
+
+,
+
+put
+
+b
+
+­
+
+z
+
+=
+
+u2,
+
+then
+
+z = b ­ u2 and
+
+dz = -2udu
+
+and thus
+
+z m -1dz
+(b - z )
+
+=
+
+-2du(b
+
+-
+
+u2 )m-1
+
+=
+
+-2du(bm-1
+
+-
+
+(m-1) 1
+
+b m - 2u 2
+
++
+
+(m-1)(m-2) 1.2
+
+bm -3u 4
+
+-
+
+etc.)
+
+,
+
+the
+
+integral of which is
+
+C
+
+-
+
+2u(bm-1
+
+-
+
+(m-1) 1.3
+
+b m - 2u 2
+
++
+
+(m-1)(m-2) 1.2.5
+
+b m -3u 4
+
+-
+
+etc.)
+
+,
+
+which quantity must vanish when the factor y or z = 0, i. e. u2 = b, then the constant is
+
+given by [p. 118]
+
+:
+
+C
+
+=
+
+m- 1
+2b 2
+
+(1 -
+
+(m-1) 1.3
+
++
+
+(m-1)(m-2) 1.2.5
+
+-
+
+etc.)
+
+.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 144
+
+Moreover since the time for the whole descent arises when y = a or z = b, i. e. u = 0,
+
+then only the constant quantity C remains for the value of the integral of
+
+z m -1dz
+(b - z )
+
+,
+
+which
+
+m-1
+with a restored in place of 2b 2 is equal to :
+
+2a(1 -
+
+(m-1) 1.3
+
++
+
+(m-1)(m-2) 1.2.5
+
+-
+
+(m-1)(m-2)(m-3) 1.2.3.7
+
++
+
+etc.)
+
+.
+
+Therefore
+
+the
+
+whole
+
+time
+
+of
+
+the
+
+descent
+
+2m
+
+through AC is equal to the product of
+
+a 2m-1
+2m
+
+f 2m-1
+
+2(2m -1) f
+
+by this series
+
+1
+
+-
+
+(m-1) 1.3
+
++
+
+(m-1)(m-2) 1.2.5
+
+-
+
+(m-1)(m-2)(m-3) 1.2.5.7
+
++
+
+etc. ,
+
+the
+
+sum
+
+of
+
+which
+
+is
+
+made
+
+finite
+
+when
+
+the
+
+amount m is a positive integer. Therefore in these cases the time can be shown by a finite
+
+algebraic expression. Q. E. I.
+
+Corollary 1.
+
+291. Let m = 1, in which case n = - 3, and the series is equal to 1; therefore the time of
+
+2
+
+2
+
+descent through AC arises equal to
+
+a
+2
+
+f
+
+2f = a
+f
+
+2 , as has been found above (289).
+f
+
+Corollary 2.
+
+292. Let m = 2, in which case
+
+n=
+
+-5 3
+
+,
+
+and
+
+the
+
+value
+
+of
+
+the
+
+series
+
+is
+
+2 3
+
+,
+
+and
+
+the
+
+time
+
+of
+
+4
+
+the whole descent is equal to
+
+2 3
+
+.
+
+a
+
+3 4
+
+f3
+
+6f .
+
+But if
+
+m = 3, then n =
+
+-7 3
+
+,
+
+the series is
+
+2 3
+
+.
+
+4 5
+
+,
+
+6
+
+and the time for the descent is
+
+2.4a 5
+6
+
+3.5 f 5
+
+10 f . [p. 119] In the same manner, if m = 4, then
+
+8
+
+n=
+
+-9 7
+
+,
+
+and
+
+the
+
+time
+
+arises
+
+:
+
+2.4.6a 7
+8
+
+3.5.7 f 7
+
+14 f .
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 145
+
+Corollary 3.
+
+293. From these, the value of the sum of the general series is gathered to be equal
+
+to
+
+2.4.6...(2m-2) 3.5.7...(2m-1)
+
+.
+
+Therefore
+
+the
+
+time
+
+of
+
+descent
+
+in
+
+general
+
+is
+
+given
+
+by
+
+:
+
+2m
+2.4.6...(2m-2)a 2m-1
+2m
+3.5.7...(2m-1) f 2m-1
+
+2(2m -1) f .
+
+If indeed
+
+n=
+
+-2m -1 2m-1
+
+or
+
+m
+
+=
+
+n-1 2n+1
+
+,
+
+where
+
+m
+
+is
+
+a
+
+positive
+
+integer.
+
+Corollary 4.
+
+294. Therefore with the successive positive values 1, 2, 3, 4 etc. put in place for m, the
+
+following
+
+values
+
+of
+
+the
+
+series
+
+constitute
+
+a
+
+progression
+
+1,
+
+2 3
+
+,
+
+2.4 3.5
+
+,
+
+2.4.6 3.5.7
+
+etc.,
+
+in
+
+which
+
+it
+
+is
+
+conceded that circle quadrature can be shown from the intermediate term. For if m =
+
+1 2
+
+,
+
+the corresponding terminus [i. e. limit] is found to be
+
+ 2
+
+,
+
+with
+
+1
+
+:
+
+
+
+denoting the ratio of
+
+the diameter to the circumference, if m =
+
+3 2
+
+,
+
+the corresponding terminus is
+
+1 2
+
+.
+
+ 2
+
+, and
+
+thus again if m denotes
+
+5 2
+
+,
+
+7 2
+
+,
+
+9 2
+
+etc. .
+
+these
+
+terms
+
+arise
+
+:
+
+1.3. 2.4.2
+
+,
+
+1.3.5. 2.4.6.2
+
+,
+
+1.3.5.7. 2.4.6.8.2
+
+etc.
+
+[Note initially that since m is no longer a positive integer, the series for the descent
+
+time does not end, and the finite product for the finite sum becomes an infinite product
+
+for an infinite sum. The Wallis infinite product was well known to Euler, and the relevant
+
+form
+
+can
+
+be
+
+written
+
+here
+
+as
+
+:
+
+2.4.6.8.10.... 1.3.5.7.9.11..
+
+=
+
+ 2
+
+.
+
+We
+
+will
+
+digress
+
+a
+
+little
+
+and
+
+examine
+
+a
+
+formula in E019 : 'De Progressionibus Transcentibus, seu quarum termini generales
+
+algebraice dari nequeunt.', or Concerning transcendental progressions, or those for which
+
+the general terms cannot be given algebraically, in which Euler sets out his ideas, most
+
+of which relate to the beta functions B(m, n), which can be viewed as generalised
+
+binomial coefficients turned into functions either of real or complex variables; a
+
+translation of this paper has been given by Stacy G. Langton, which is available from the
+
+Euler Archive. Later we will evaluate Euler's integrals using the properties of Beta and
+
+Gamma functions, which indicate that there may be a discrepancy by a factor of ½ in
+
+Euler's values.
+
+In the above paper, Euler considers initially the following general infinite product,
+
+from which the product for n =
+
+1 2
+
+above can be derived as a special case :
+
+(n)
+
+=
+
+1.2n 1+ n
+
+·
+
+21-n.3n 2+n
+
+·
+
+31-n.4n 3+n
+
+·
+
+41-n.5n 4+n
+
+·etc., which
+
+he
+
+considers
+
+to
+
+be
+
+useful
+
+for
+
+interpolating
+
+between integer values. There was no thought of convergence or divergence in these
+
+days. Thus, on setting n =
+
+1 2
+
+,
+
+he
+
+finds
+
+that
+
+(and
+
+we
+
+include
+
+the
+
+working
+
+as
+
+it
+
+seems
+
+interesting) :
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 146
+
+(
+
+1 2
+
+)
+
+=
+
+1. 2
+3 2
+
+·
+
+2. 3
+
+5
+
+·
+
+2
+
+3. 4
+
+7
+
+·
+
+2
+
+4.
+9
+
+5 ·etc =
+
+2
+
+2. 4 · 3.3
+
+4. 6 · 5.5
+
+6. 8 · 7.7
+
+8. 10 ·etc =
+9.9
+
+2.4 3
+
+·
+
+6 5
+
+·
+
+8 7
+
+·
+
+10 9
+
+· etc
+
+=
+
+1 2
+
+·
+
+2.4.6.8.10.... 3.5.7.9.11....
+
+=
+
+ 2
+
+,
+
+on
+
+identifying
+
+with
+
+the
+
+Wallis
+
+product.
+
+Hence,
+
+2.4.6.8.10.... 3.5.7.9.11....
+
+=
+
+ 2
+
+,
+
+as
+
+required
+
+above.
+
+We
+
+will
+
+now
+
+examine
+
+Euler's
+
+integrals
+
+using the appropriate B(m, n) integrals. Thus, if we start with the above integral
+
+  zm-1dz (b-z )
+
+,
+
+which
+
+can
+
+be
+
+written
+
+in
+
+the
+
+form
+
+z m-1dz
+b (1-z / b )
+
+, and on defining z' = z/b, we
+
+ have dz' = dz/b, and zm-1 = bm-1z'm-1 hence the integral becomes
+
+bm-12 z 'm-1 dz
+(1-z ')
+
+'
+
+.
+
+Now,
+
+ -1
+the integral xm-1 (1-x) 2 dx is a beta function, which has the general form B(m, n)
+
+=
+
+x m-1
+
+(1-
+
+x )n-1
+
+dx
+
+integrated
+
+between
+
+0
+
+and
+
+1.
+
+In
+
+this
+
+case
+
+the
+
+integrals
+
+are
+
+thus
+
+B(m,
+
+1 2
+
+).
+
+Then, in the first instance, when m =
+
+1 2
+
+,
+
+the
+
+integral
+
+becomes
+
+B(
+
+1 2
+
+,
+
+1 2
+
+).
+
+Beta
+
+functions
+
+are evaluated from their associated Gamma functions, according to the definition :
+
+B(m,n)=
+
+(m)(n) (m+n)
+
+Hence,
+
+B(
+
+1 2
+
+,
+
+1 2
+
+)
+
+=
+
+2 (1/ 2) (1)
+
+= .
+1
+
+This does not agree with Euler's result,
+
+which
+
+is
+
+/2.
+
+Similarly, when m =
+
+3 2
+
+,
+
+the
+
+value
+
+of
+
+the
+
+integral
+
+is
+
+B(
+
+3 2
+
+,
+
+1 2
+
+),
+
+which
+
+is
+
+hence
+
+equal
+
+to
+
+(3 / 2),(1/ 2) (2)
+
+=
+
+ /2 1
+
+
+
+=
+
+1 2
+
+.
+
+,
+
+which
+
+is
+
+Euler's
+
+first
+
+result.
+
+Again,
+
+when
+
+m
+
+=
+
+5 2
+
+,
+
+the
+
+integral
+
+becomes
+
+(5 / 2),(1/ 2) (3)
+
+=
+
+3
+
+ /4 2
+
+
+
+= 3 8
+
+= 1.3  ; and if m =
+2.4
+
+7 2
+
+,
+
+then
+
+the
+
+integral
+
+becomes
+
+(7 / 2),(1/ 2) (4)
+
+= 1.3.5  / 8 3.21
+
+
+
+=
+
+1.3.5  ,
+2.4.6
+
+etc.
+
+Thus,
+
+it appears that Euler's results
+
+differ by a
+
+factor
+
+of
+
+1 2
+
+consistently from what has been written down here by referring to a table of Gamma
+
+functions and their properties. Perhaps he thought that his first integral gave the Wallis
+
+result /2 rather than . Someone may feel inclined to do some more work on this issue,
+
+(as there may be a mistake in the E019 paper). We will of course use Euler's values for
+
+his integrals henceforth.]
+
+Corollary 5.
+
+295. Therefore the time of descent through AC is known in these cases also. For if m =
+
+1 2
+
+,then
+
+in
+
+this
+
+case
+
+n=
+
+-  , in which case the time is always indefinitely small. [p. 120]
+
+Therefore let m =
+
+3 2
+
+,
+
+and
+
+n
+
+becomes
+
+equal
+
+to
+
+-
+
+2,
+
+and
+
+the
+
+descent
+
+time
+
+is
+
+equal
+
+to
+
+3
+
+1. .a 2
+3
+2.2. f 2
+
+4f
+
+=
+
+
+
+.a. 2f
+
+a , again as we have found (287). Let m =
+
+5 2
+
+,
+
+then
+
+n
+
+=
+
+-3 2
+
+and the
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 147
+
+5
+
+descent
+
+time
+
+is
+
+equal
+
+to
+
+1.3.. .a 4
+5
+
+.
+
+2f
+
+. And if m =
+
+7 2
+
+,
+
+then
+
+n
+
+=
+
+-4 3
+
+and the descent time
+
+2.4. f 4
+
+7
+
+is
+
+equal
+
+to
+
+1.3.5. .a 6
+7
+
+.
+
+3f
+
+.
+
+2.4.6. f 6
+
+Corollary 6.
+
+296. Generally therefore if m =
+
+2k +1 2
+
+,
+
+in
+
+which
+
+case
+
+n=
+
+-k -1 k
+
+,
+
+and
+
+the
+
+descent
+
+time
+
+is
+
+2k +1
+
+equal
+
+to
+
+1.3.5.......(2k -1) 2.4.6........2k
+
+.
+
+
+
+.a 2k 2k +1
+
+kf .
+
+f 2k
+
+PROPOSITION 37.
+
+PROBLEM. 297. To determine the time of descent through AC (Fig. 28) to the centre of force C, if the
+
+centripetal force varies inversely with the reciprocal of the distance, the exponent of
+
+which is raised to the power
+
+m-1 m
+
+,
+
+with
+
+m
+
+denoting
+
+some
+
+positive
+
+integer.
+
+[This
+
+may
+
+be
+
+compared
+
+with
+
+the
+
+previous
+
+proposition,
+
+for
+
+which
+
+the
+
+power
+
+is
+
+2m+1 2m-1
+
+.]
+
+[p. 121]
+
+SOLUTION.
+
+11
+
+Thus,
+
+we
+
+set
+
+n
+
+=
+
+1-m m
+
+and
+
+since
+
+v
+
+=
+
+am -ym
+
+1- m
+
+1 m
+
+f
+
+m
+
+= mf
+
+m -1 m
+
+
+
+a
+
+1 m
+
+-
+
+1
+ym
+
+.
+
+Therefore
+
+the
+
+element
+
+of time , that is dy , is equal to dy :
+v
+
+mf
+
+m -1 m
+
+
+
+a
+
+1 m
+
+-
+
+1
+ym
+
+
+
+,
+
+and
+
+the
+
+time
+
+to
+
+descend
+
+through PC is equal to :
+
+ 1 m -1
+
+dy
+
+.
+
+11
+
+mf m
+
+(am -ym )
+
+Putting
+
+1
+am
+
+= b and
+
+1
+ym
+
+=
+
+z ,then
+
+dy
+
+= mzm-1dz; and
+
+hence
+
+the
+
+time
+
+to
+
+pass
+
+through
+
+PC
+
+is equal to :
+
+1-m
+mf m
+
+
+
+z m -1dz
+(b-z)
+
+.
+
+But for the integral of
+
+z m-1dz
+(b-z)
+
+,
+
+in
+
+the
+
+same
+
+manner
+
+as
+
+taken
+
+in
+
+the
+
+preceding
+
+Prop.,
+
+we
+
+have :
+
+2b
+
+2 m -1 2
+
+(1
+
+-
+
+(m-1) 1.3
+
++
+
+(m-1)(m-2) 1.2.5
+
+-
+
+(m-1)(m-2)(m-3) 1.2.5.7
+
++
+
+etc.)
+
+.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 148
+
+2 m-1
+
+2 m-1
+
+On account of which the time for the descent through AC, with a 2m in place of b 2 ,
+
+2m-1 1-m
+becomes equal to 2 ma m f m multiplied by this series :
+
+2b
+
+2 m -1 2
+
+(1 -
+
+(m-1) 1.3
+
++
+
+(m-1)(m-2) 1.2.5
+
+-
+
+(m-1)(m-2)(m-3) 1.2.5.7
+
++
+
+etc.)
+
+Thus as the amount m is a positive integer, so the series total is finite, in order that the
+
+time sought can thus be expressed algebraically. E. I.
+
+Corollary 1.
+298. Let m = 1, in which case n = 0, and the centripetal force is uniform and therefore
+equal to gravity. Hence the series is equal to 1, and the time to fall through AC = 2 a , as everything has now been found as in §219 with the letter m ignored. [p. 122]
+
+Corollary 2.
+
+3 -1
+
+299. Let m = 2, as now
+
+n=
+
+-1 2
+
+;
+
+then
+
+the
+
+time
+
+to
+
+fall
+
+is
+
+2 3
+
+.2a
+
+4
+
+f
+
+4
+
+2.
+
+Let m = 3, as now n =
+
+-2 3
+
+;
+
+and
+
+the
+
+whole
+
+time
+
+to
+
+descent
+
+is
+
+equal
+
+to
+
+5 -1
+
+2.4 3.5
+
+.2a
+
+6
+
+f
+
+3
+
+3.
+
+In a similar manner, if
+
+m = 4 and on this account, n =
+
+-3 4
+
+,
+
+and
+
+the
+
+time
+
+to
+
+fall
+
+produced
+
+7 -3
+
+is equal to :
+
+2.4.6 3.5.7
+
+.2a
+
+8
+
+f
+
+8
+
+4 etc.
+
+Corollary 3.
+
+300. Generally therefore for whatever m shall be, and thus
+
+n=
+
+1-m m
+
+;
+
+the
+
+time
+
+to
+
+fall
+
+the
+
+whole distance AC
+
+2m-1 1-m
+
+=
+
+2.4.6......(2m- 2) 3.5.7.....(2m-1)
+
+.2a
+
+2m
+
+f
+
+2m
+
+m.
+
+Corollary 4.
+
+301. With the same interpolations used as above (294) the times of descent can be
+
+assigned,
+
+if
+
+m
+
+is
+
+any
+
+positive
+
+integer
+
++
+
+1 2
+
+.
+
+Clearly
+
+for
+
+m=
+
+1 2
+
+,
+
+in
+
+which
+
+case
+
+n = 1; the
+
+time
+
+of
+
+descent
+
+is
+
+equal
+
+to
+
+ 2
+
+2 f , in short as in § 283, where the same case, in which
+
+n = 1 or the centripetal force is proportional to the distance, has been explored.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 149
+
+Corollary 5.
+
+4 -1
+
+302. If
+
+m=
+
+3 2
+
+,
+
+or
+
+n
+
+=
+
+-1 3
+
+,
+
+the
+
+time
+
+of
+
+descent is equal to
+
+1 2
+
+.
+
+ 2
+
+3
+6.a f
+
+3
+;
+
+if m =
+
+5 2
+
+,
+
+8 -3
+
+or n =
+
+-3 5
+
+,
+
+the
+
+time
+
+of
+
+descent
+
+produced
+
+is
+
+1 2
+
+.
+
+3 4
+
+.
+
+ 2
+
+55
+10.a f . And in the general case,
+
+in
+
+which
+
+n
+
+=
+
+1-m m
+
+,
+
+the
+
+descent
+
+time
+
+is
+
+found
+
+:
+
+2m-1 1-m
+
+1.3.5......(2m-2) 2.5.6.....(2m-1)
+
+.
+
+ 2
+
+m
+4m 2a
+
+m
+f.
+
+[p. 123]
+
+Scholium.
+
+303. From these it is understood, that for whatever cases the times of descent can be
+
+expressed algebraically, where
+
+n
+
+=
+
+-2m-1 2m-1
+
+or
+
+n
+
+=
+
+1-m m
+
+and m specifies some positive
+
+integer. And besides these cases I doubt that any other is given. Then the cases also
+
+appear in which the times depend on the quadrature of the circle, and these occur, if
+
+either
+
+n
+
+=
+
+-m-1 2m-1
+
+or
+
+n
+
+=
+
+1-2m 1+2m
+
+with m denoting as above positive integer. Indeed nor are these all the cases which can be
+
+deduced from the quadrature of the circle, for there is the singular case, for which n = ­1,
+
+which depends on the quadrature of the circle too, as we will show in the following
+
+proposition. For indeed this is a different case from these, since here in the expression for
+
+the time not  but  occurs; and besides also only the whole time of descent can be
+
+shown involving  , since the time for any indefinite interval can be shown except for
+
+the quadrature of the whole transcendental curve
+
+PROPOSITION 38.
+
+THEOREM.
+304. With the centripetal force present varying inversely as the distance from the centre of force C (Fig. 28) the time of descent through the whole distance AC = a  , with a
+f
+denoting the distance AC, f the distance at which the centripetal force is equal to the force of gravity, and  : 1 the ratio of the periphery to the diameter of a circle. [p. 124]
+
+DEMONSTRATION.
+
+Since the speed
+
+fl
+
+a y
+
+corresponds
+
+to
+
+the
+
+height
+
+the
+
+body
+
+descends
+
+from
+
+some
+
+point
+
+P
+
+(266), then the speed itself is equal to
+
+fl
+
+a y
+
+and the time to fall the distance PC is equal
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 150
+
+ to 1 . dy . Therefore with the integral of this thus taken, in order that is vanishes
+
+f
+
+la
+
+y
+
+when y = 0, the time to pass through PC is indeed given. Whereby if y = a now is substituted in this expression, the total time to descend through AC is given. Moreover
+
+on putting y = a z, there is obtained
+
+a f
+
+.
+
+dz . Truly I have established the
+-lz
+
+quantity  dz in the Commentariis Academiae Scientiarum Petropol, for the year 1730, -lz
+
+and if z = 1 or y = a is put in place, resulting in the definition of this 1, 2, 6, 24 etc., the
+
+terminus
+
+of
+
+which,
+
+with
+
+the
+
+index
+
+equal
+
+to
+
+-
+
+1 2
+
+,
+
+is
+
+equal
+
+to
+
+ , that has been shown by
+
+another method in the same place. [Vide : E 019; and also Opera Omnia, series II, vol. 5,
+
+Sur le temps de la chute d'un corps ....pp. 250 ­ 260.] From which it is understood that
+
+the total time to descend through AC is a  . Q. E. D.
+f
+
+Corollary.
+305. Therefore if many bodies are released from different distances to the same centre C, the times of descent are in proportion to the distances.
+
+Scholium 1.
+
+306. In this proposition I have neglected the fraction
+
+1 250
+
+,
+
+by
+
+which
+
+the
+
+expression
+
+of
+
+the
+
+time, elicited from the integration of the element of distance divided by the square root of
+
+the speed corresponding to the height, is to be multiplied (222), clearly in order that the
+
+time can be inserted in seconds, if the lengths are expressed in scruples of Rhenish feet.
+
+[p. 125] Also in a similar manner for the following times that I am about to define, unless
+
+the times are wanted in seconds, these will be avoided as encumbrances. Indeed it is
+
+easily seen that nothing else is to be found by expressing the time in seconds, unless the
+
+use is forced upon us, in which case the expressions of time are divided by 250 and the
+
+lengths are shown in scruples of Rhenish feet.
+
+Scholium 2.
+
+307. This paradox is quite apparent, since for the integral of dz , with z put equal to 1
+- lz
+
+[in the upper limit], it becomes equal to  . For no one is able to directly show this
+
+result by any method ; I myself only knew about this equality later, as can be seen from
+
+  the cited paper. Therefore these two integrals dz and 2 dz give the same
+
+-lz
+
+(1- z 2 )
+
+value, if z is put equal to one after the integration, and yet they are not equal to each
+
+other ; indeed they cannot to be compared.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+PROPOSITION 39.
+
+page 151
+
+THEOREM.
+
+308. If the centripetal force is as the power of the exponent of the distance n and many
+
+bodies are released to fall from different distances, the times of the descents are
+
+proportional
+
+to
+
+the
+
+powers
+
+of
+
+the
+
+distances,
+
+of
+
+which
+
+the
+
+exponent
+
+is
+
+1-n 2
+
+.
+
+DEMONSTRATION. Let AC = a be the distance of any body from the centre C and f the distance at which the
+
+centripetal force is equal to the force of gravity [p. 126]. Then when it arrives at P, CP is put equal to y and the height corresponding to the speed in this place is equal to v, then
+
+v
+
+=
+
+an+1- yn+1 (n+1) f n
+
+.
+
+Therefore the time, in which the distance CP is completed, is equal to
+
+ (n +1) f n
+
+dy .
+an+1 - y n+1
+
+Because this integral cannot be evaluated for all n, yet thus it may be compared, as the as
+
+a
+
+and
+
+y
+
+have
+
+the
+
+same
+
+dimension
+
+1-n 2
+
+for
+
+the
+
+individual
+
+terms
+
+of
+
+a
+
+and
+
+y,
+
+since
+
+in
+
+the
+
+differential they make a number of the same dimension, with dy as one dimension. As if
+
+after integration, y is put equal to a, in which case the time for the whole descent arises,
+
+only
+
+a
+
+will
+
+have
+
+just
+
+the
+
+same
+
+dimensions,
+
+obviously
+
+1-n
+
+,
+
+or
+
+it
+
+will
+
+be
+
+a
+
+multiple
+
+of
+
+1-n
+a2 .
+
+2
+
+Whereby, since another factor is not included apart from f , the numbers thus retain the
+
+1- n
+same value, however a is varied, and the different times of descent will be as a 2 , i. e.
+
+as the powers of the distances, the exponent of which is
+
+1-n 2
+
+.
+
+Q.
+
+E.
+
+D.
+
+[A power series
+
+expansion of the inverse square root can be made in powers of
+
+the variable
+
+(
+
+y a
+
+1-n
+)2
+
+;
+
+this
+
+involves the same integral whatever the value of a, but it is associated with the power
+
+1-n
+a 2 , which obviously gives the variation.]
+
+Corollary 1.
+309. Therefore when all the times of descent are equal to each other, it is necessary that
+1- n
+a 2 be a constant quantity, whatever a may be changed into, and since that happens if n
+= 1, or the centripetal force is directly proportional to the distance, as we have seen (283). [p. 127]
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 152
+
+Corollary 2.
+
+310. In a similar manner it is at once apparent from these, that if the centripetal force
+
+varies inversely as the square of the distance or n = ­ 2, the times of descent to this
+
+centre are to each other as the distance raised to the power
+
+3 2
+
+,
+
+or
+
+in
+
+the
+
+three
+
+on
+
+two
+
+ratio
+
+of the distances (287).
+
+Corollary 3.
+
+311. If there were many similar attractive centres of force, but with different strengths [or
+
+measures of effectiveness], and to these bodies are released from equal distances, then the
+
+n
+times will be between themselves as f 2 , since a is considered as a constant, and f
+
+indeed is the variable. Truly the strength is as the centripetal force at a given distance, for example 1, therefore fn will vary inversely with the strength, and these times are in the
+
+inverse square root ratio with the ratio of the strengths of the centres of force (285).
+
+Corollary 4.
+
+312. And if to the different centres of force of this kind bodies are released from any
+
+distances,
+
+the
+
+times
+
+of
+
+descent
+
+of
+
+these
+
+are
+
+in
+
+a
+
+ratio
+
+composed
+
+from
+
+the
+
+direct
+
+1-n 2
+
+power
+
+of the distance, and inversely as the square root of the effectiveness [or strength of the
+
+attracting source].
+
+Scholium.
+
+313. From these propositions, which have been discussed above concerning centripetal
+
+forces, it has been made abundantly clear how the motion of bodies should be found, if
+
+the centrifugal force is substituted in place of the centripetal force, or a force repelling the
+
+body from the centre.
+
+[It is important to note that Euler's usage of the term 'centrifugal force' is different from
+
+what is now understood: in Euler's day it was a true repulsive force, while in modern
+
+times it has come to mean an apparent or fictitious force.]
+
+Indeed everything remains as in the preceding discussions, except that in place of the
+
+formula expressing the centripetal force, which was
+
+yn fn
+
+(264) [p. 128], the negative of
+
+this must be used. Yet neither do I judge it superfluous to report on certain other cases;
+
+for these are known from the general rules pertaining to forces for general motion, which
+
+cannot be deduced from a single calculation. Moreover these rules pertain to the action of
+
+forces on a body at rest, to which our calculation, clearly when the increment of the speed
+
+with respect to the first is infinitely small, is not so well adapted, with the thing itself
+
+reduced to absurdity, unless the first element of the distance is traversed in an infinitely
+
+short element of time. Moreover I make use of this axiom in order to elucidate the matter,
+
+that a body placed anywhere will always be repelled from the centre of force, even if the
+
+centrifugal force for that point is indefinitely small or zero ; and because that happens,
+
+when the power of the distances to which the centrifugal force is in proportion is a
+
+number greater than zero or positive.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+PROPOSITION 40.
+
+page 153
+
+PROBLEM.
+
+314. From the centre of force C (Fig. 29) with the body itself being repelled in the ratio of the nth power of the distances along the line CP; it is required to find the speed of this
+body at any point P and the time in which the interval CP is traversed.
+
+SOLUTION.
+
+If f is the distance at which the centrifugal force is equal to the force
+
+of gravity, and CP is called y, to which the corresponding height of the
+
+speed at P is v. [p. 129] Therefore the force, by which the body at P is
+
+pressed
+
+upon,
+
+is
+
+equal
+
+to
+
+yn fn
+
+and
+
+therefore
+
+dv
+
+=
+
+y n dy fn
+
+(213), since the
+
+body is driven forwards with an accelerated motion. Whereby, since
+
+the
+
+body
+
+is
+
+given
+
+zero
+
+speed
+
+at
+
+C,
+
+then
+
+v
+
+=
+
+y n+1 (n+1) f
+
+n
+
+,
+
+if
+
+n
+
++
+
+1
+
+is
+
+a
+
+positive number; but if it is negative, then v becomes infinite. From
+
+this the time is produced, in which the distance CP is traversed,
+
+ = (n +1) f n
+
+n +1
+
+dy : y 2
+
+=
+
+2 1-n
+
+(n + 1) f n y1-n ,
+
+if indeed y1-n is 0 with y = 0. For if it were infinite, the time too would become infinite on
+
+account of adding on a constant of infinite magnitude ; from that it may be deduced that the body never leaves C. Therefore the time will be equal to
+
+2 1-n
+
+(n + 1) f n y1-n ,
+
+as often as both the amounts 1 ­ n and n + 1 are taken as positive numbers. Q. E. I.
+
+Corollary 1.
+315. Indeed both these numbers 1 ­ n and n + 1 are positive, if n is contained between the limits ­ 1 et + 1. And if n has crossed that limit ­ 1, the speed everywhere shall be infinite ; and thus if + 1 is crossed, the time will be infinite.
+
+Corollary 2.
+316. Moreover it is agreed from the nature of things, that if n is a positive number, then the body would never be leaving C (313) [Thus, on physical grounds, the initial force must be zero at C, otherwise the body has a finite speed at this point, in contradiction with the formula for the speed, which is zero at C]. On this account it is necessary that the calculation fails, although n is contained between 0 and + 1, and in this calculation used it is clear that a finite time is considered to have passed, [whereas only an elemental time is allowed]. [p. 130]
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 154
+
+Corollary 3.
+
+317. These times moreover follow from the speeds, and hence from these the speed must
+
+be considered absurd, whenever n is understood to be between 0 and + 1. Neither indeed
+
+are these speeds possible to be generated, since the body never leaves C.
+
+Scholion 1.
+318. Let the curve AM (Fig. 30) be such, that with AP denoting y and the applied abscissa PM is equal to v. This curve, with n contained between the limits 0 and + 1, has this property, as it merges with the axis from A and in this place the curvature has an infinite magnitude, truly the vanishing radius of curvature.
+
+Corollary 4.
+319. Therefore as it often happens, the scale of the speeds or rather of the heights of release corresponding to the speeds have a form of this kind, just as often as it is judged to have been generated by a zero force, even if a calculation shows otherwise, for it can be no more than a case within the imagination and in the nature of things to be non-existent.
+
+Scholium 2.
+320. The reason for this aberration of the calculation from nature in the beginning of the motion has without doubt been established, and this other universal law in place concerning the increment of the speed produced from the forces is wrongly used. [p. 131] Since indeed, as now we have noticed (313), this law is only put in place when the body has a finite speed, and this is always rashly used at the beginning of the motion. Moreover since that error only belongs to the first element, and generally is infinitely small and on this account is not required to be considered. Truly it is infinitely small, just as the first element of distance is traversed in an infinitely small length of time, then indeed neither the increment in the speed nor the increment in the time will be able to produce an examinable distinction. This happens, if the force, which the body in the beginning of its motion is acted upon, is either of finite or even infinite magnitude ; indeed this is evident in the case of the first element of time for the point to pass through. But if the force, as in our case has come about in use, in the beginning is infinitely small or rather zero, so much for the first element being completed in a finite manner, for rather it is necessary for the an infinite time, since the body is at rest with no force pushing and it will never leave its place. In certain of the remaining cases, for which n is not only greater than zero, but also greater than one, the error is so great, that even the calculation of the first element shows an infinite time. Truly, if n is understood to lie between 0 and 1, the flaw in the calculation is noticed; and the use is seen for this idea, since in these cases the scales of the forces has the form of the curve AM (Fig. 31), which meets with the axis AP at A at right angles. Indeed suddenly in the proximity of the point A with the line ab expressing an infinitely greater force than the length of the sagitta Aa; moreover likewise in the computation of the motion, or the element considered that
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 155
+
+the body runs through from the action of the force, which in the beginning it does, or that,
+
+by which it is acted on up to the boundary. [p.132] Moreover in this case it being
+
+apparent that the error has an opportunity to arise, if the body is considered to be acted
+
+upon through the whole element Aa by the force ab.
+
+PROPOSITION 41.
+
+PROBLEM.
+
+321. If the centripetal force is proportional to some function of the distance from the centre C (Fig. 32), and the body is dropped towards C from A, the speed of the body is to be found at any point P and the time in which the interval AP is traversed.
+
+SOLUTION. The curve BMD represents the scale of the forces or the law of the centripetal force, thus in order that the body at P is drawn towards C by the force PM, which is in the ratio to the force of gravity thus as this line PM is to the line of constant length AE, by which the force of gravity is expressed. Now let AP = x, PM = p, AE = 1 and the height corresponding to the speed at P is equal to v. The accelerating force is p, and therefore, with the element Pp = dx, it follows that dv = pdx (213). From which by
+
+  integration v = pdx is produced. But pdx
+
+expresses the
+
+ABMP; and on account of this we have v =
+
+ABMP AE
+
+,
+
+which
+
+is
+
+made
+
+completely homogeneous by taking the line AE = 1. Now with the height v known, the
+
+ time in which the distance AP is traversed, equal to dx , which, since p is given  pdx
+
+through the distance x, can be found by quadrature. Q.E.I.
+
+Corollary 1.
+322. From these it is evident that if the body with the speed that it acquired at C, moves back up again, then the ascending motion of the body is similar to that of the descent and it has the same speed at the point P [p. 133] that it had before, and hence the time to ascend through CP must be equal to the time falling through the same interval.
+
+Corollary 2.
+323. Here we have put the body at A to have no speed and to begin the motion from rest. But the calculation is not more difficult to perform if the body is given some speed at A ; for in this case with the differential pdx thus can be integrated, as with x = 0, the integral
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 156
+
+ pdx departs from the height of the initial corresponding speed. Therefore the time
+
+ pdx with this reasoning accepted is found in the same way as above.
+
+Scholium 1.
+324. Indeed we have assumed that p is a function of x itself, and therefore not with respect to the centre of force C, by only of the initial motion A. Yet the solution is held in place to no lesser degree if indeed p is a function of the distance CP from the centre of force C, that we may call y, and y = a ­ x , with the whole interval put in place AC = a, and because of this, p denotes a function of a ­ x, i. e. a function of x and of a constant, as we have assumed. Truly our solution extends to more cases, for it determines the motion of the body acted on by any force, not with respect to having any certain fixed point, and provided these forces keep acting in the same direction everywhere. Indeed unless this [latter] condition is made, the body will stop moving along a line and begin to move on a curve, the motion of which we will set out in the following chapters. [p. 134]
+Scholium 2.
+325. Up to the present we have determined the rectilinear motions of a body under given forces ; now indeed the other part of this chapter remains to be explored, from which it is required to define the law governing the forces from the given condition of the motion. This indeed shall be either from the speeds or times, and moreover each of the two ways is to be investigated. Indeed this will be with regard to either a single descent or ascent, in the individual points of which either the speeds or the times are given, in which certain parts of the interval are traversed. Or an infinite number of descents to a fixed point from different heights are to be made, in which either the final speeds or the individual times taken to complete the whole interval are given. Therefore from these in the first place four problems arise, the solutions of which it is necessary to display here. Besides these other questions will be brought forward, in which neither the speeds alone nor the times alone are given, but a certain other amount, that is composed from both, and indeed the questions of this kind, since a great many can be devised, some more conspicuous, and likewise from the solutions of these the remainder of the solutions can be understood that we advance in the discussion.
+
+PROPOSITION 42.
+PROBLEM.
+326. With the speed of the body traveling on the line AP given at the individual points (Fig. 22), the law of the force acting is to be found that brings about this motion. [p. 135]
+SOLUTION. For whatever interval AP traversed, which we put equal to x, the height corresponding to the speed of the body at P is set equal to v, which hence is given, and a certain function of
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 157
+
+x itself and of the constant is be put in place. Truly the force acting at P that we seek is
+
+put equal to p, which hence can be found from the acceleration of the body dv, while it
+
+runs through the element Pp = dx,. Since indeed dv = pdx (213),then
+
+p
+
+=
+
+dv dx
+
+,
+
+or
+
+the
+
+force
+
+sought itself will be found relative to the force of gravity, as the increment of the height
+
+corresponding to the speed is to the element of distance that the body has travelled
+
+through meantime. Q.E.I.
+
+Corollary 1.
+
+327. If v = x or the distance described by the body itself is equal to the appropriate height
+
+for the speed, becomes dv = dx and p = 1, which indicates that this force produces a
+
+motion that is uniform and equal to gravity itself.
+
+Corollary 2.
+
+328. If the speeds themselves are placed in proportion to the distances traversed, then
+
+v
+
+=
+
+x2 f
+
+,
+
+with
+
+f
+
+denoting
+
+the
+
+required
+
+constant;
+
+hence
+
+this
+
+becomes
+
+dv
+
+=
+
+2 xdx f
+
+and
+
+p
+
+=
+
+2x f
+
+.
+
+On account of which the force will be proportional to the distances traversed.
+
+Scholium 1.
+
+329. But it is agreed from above that it is not possible for this case to exist ; for since the
+
+force at the start of the motion at A is zero, [p. 136] the body never leaves this point, but
+
+remains at rest here for ever. The same can be pointed out for the time computed for the
+
+ distance AP , which is equal to
+
+dx x
+
+f , which is an infinite quantity, if with the integral
+
+thus accepted, as it vanishes with x put equal to 0.
+
+Corollary 3.
+
+330. Therefore for this situation not to arise, it is necessary that
+
+dv dx
+
+shall be a quantity of
+
+this kind, which does not vanish by making v = 0, but which shall be either a finite or
+
+infinite quantity. From which it is evident that the scale of height with the corresponding
+
+speeds AM (Fig. 30) in which by taking AP = x with the lines PM that represent these
+
+heights v, must not coincide with the axis at A, for it is necessary that it is set at some
+
+finite angle to that axis. [Thus, asymptotic tangents are not allowed.]
+
+Scholium 2.
+331. These are to be understood to apply only to these cases, in which the speed of the body is put vanishing at A and with the scale AM meeting the axis at A. Otherwise the following occurs, if the body at A now has a speed, by which, even if the force is zero, yet it is able to progress under the action of the force, as thus it is not necessary for an infinite time to be spent for the distance AP to be completed.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+PROPOSITION 43.
+
+page 158
+
+PROBLEM.
+
+332. With the time given, in which the body progressing on the straight line AC (Fig. 32) passes through the particular interval AP, it is necessary to define the law of the force which is effected, in order that the body is carried forwards by this motion. [p. 137]
+
+SOLUTION. With the given distance AP = x and with the time in which it is transversed equal to
+
+t , since the square of the expression of the time has the single dimension t [for
+
+convenience as the expression is eventually squared, the time T is written as T = t ], the force sought is equal to p and the height corresponding to the speed at P = v; this indeed is necessary in order that p can be found, although it must emerge from the calculation.
+
+ With these put in place it will be as before : dv = pdx and v = pdx . Therefore the time
+
+ t = dx , from which equation by differentiation there is produced :  pdx
+
+ dt =
+2 dt
+
+dx and
+ pdx
+
+pdx
+
+=
+
+4tdx 2 dt 2
+
+,
+
+for
+
+which
+
+with
+
+the
+
+differential
+
+is
+
+taken
+
+again
+
+and
+
+dx
+
+held constant there remains :
+
+p=
+
+4dx dt
+
+-
+
+8tdxddt dt 3
+
+.
+
+Q.E.I.
+
+[Thus, as the integral is a function of t,
+
+on differentiating :
+
+pdx
+
+=
+
+4 dx 2 dt 2
+
+dt
+
+-
+
+8tdx 2 ddt dt 3
+
+,
+
+giving the above result.]
+
+Corollary 1.
+333. If the time itself is put equal to T with the homogeneity ignored, then t = T2, and it
+
+is found that
+
+p
+
+=
+
+-
+
+2dxddT dT 3
+
+.
+
+Which simpler expression is superior and easier to adapt for
+
+special cases.
+
+Corollary 2.
+
+334. If the times are made proportional to the distances described, then T = x and ddT =
+
+0, on account of which dx is constant. Consequently the force will be zero, by which the
+
+body is indicated to continue this steady motion with this force in place.
+
+Scholium.
+335. Here it is to be observed that a function of the same kind is to be taken for x, which as it becomes zero when x = 0, then with increasing x it also increases. [p. 138] Indeed it is not able to be entirely the same, as if the body continues to move, the time may be
+
+made smaller. We may put, for example, T = (2ax - x2) , which quantity increases with
+
+increasing x to a certain limit, then indeed it decreases. Therefore it becomes :
+
+dT =
+
+adx - xdx ( 2ax- x2 )
+
+and
+
+ddT
+
+=
+
+- a 2 dx 2 ( 2ax- x2 )3/ 2
+
+. From these make
+
+p
+
+=
+
+2a2 (a-x)3
+
+,
+
+or
+
+from
+
+the
+
+position AC = a the body is acted on from P to C by a force that varies inversely with the
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 159
+
+cube of the distance from C. Therefore the time (2ax - x2) will not prevail beyond C,
+
+for which x = a. But in this case it has acted thus (289). Whereby from this it is seen to be concluded that the body, when it arrives at C, never leaves from there, which can thus be
+
+conceived possible. Because on approach, since
+
+v
+
+=
+
+dx dT
+
+=
+
+( 2ax- x2 a-x
+
+)
+
+,
+
+the
+
+speed
+
+of
+
+the
+
+body, as it might proceed beyond C, should become negative, and thus the body does not
+
+depart from C, but is approaching C [from below], which thus is in contradiction [with
+
+the first condition of approaching from above], as these are unable to be reconciled.
+
+Corollary 3.
+
+336. Since the element of time dT = dx , the speed of the body at some place
+v
+
+v
+
+=
+
+dx dT
+
+;
+
+therefore from the given law of the times the speed of the body at individual points
+
+likewise will become known, since indeed from the connection between the speeds and
+
+the times consequently without regard to the force (37). [p. 139]
+
+PROPOSITION 44.
+
+PROBLEM.
+
+337. If the body thus falls along the line AP (Fig. 33), so that it has the speed at P in the same time as it has traversed the distance AP, with which it could traverse the distance PM of the adjoining given curve AM with this uniform speed; it is necessary to determine the law of the force acting, by which such motion is generated.
+
+SOLUTION. By putting AP = x and PM = s will be a function of x on account of the given curve AM. Again let the force acting on the body at P be equal to p, with the height corresponding to the speed at P equal to v and the time, in which the distance AP is completed is equal to T. As now the distance s is completed in the same time T with
+
+the speed v by a uniform motion, then the time
+
+ becomes T = s and T = dx , on account of which
+
+v
+
+ pdx
+
+ we have : dx = s , or with the final v in place  pdx  pdx
+
+  of pdx , from which the calculation is more neatly returned, it becomes dx = s . vv
+
+Which expression on differentiation, gives dx = ds - sdv , from which this equation
+v v 2v v
+
+ can be deduced :
+
+dx v
+
+=
+
+2ds s
+
+-
+
+2dx s
+
+;
+
+the
+
+integral
+
+of
+
+which
+
+is:
+
+lv = 2ls - 2
+
+dx s
+
+,
+
+or
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 160
+
+v
+
+=
+
+e-2
+
+dx s
+
+s2
+
+,
+
+with
+
+e
+
+denoting
+
+the
+
+number
+
+of
+
+which
+
+the
+
+logarithm
+
+is
+
+1.
+
+With
+
+the
+
+differential
+
+taken
+
+again,
+
+there
+
+is
+
+produced
+
+:
+
+dv
+
+=
+
+pdx
+
+=
+
+2e-2
+
+dx
+s (sds
+
+-
+
+sdx) .
+
+[For
+
+dv v
+
+=
+
+2ds s
+
+-
+
+2
+
+dx s
+
+.]
+
+From
+
+which
+
+finally
+
+it
+
+is
+
+found
+
+that
+
+:
+
+p
+
+=
+
+2se-2
+
+dx s
+
+(
+
+ds - dx
+
+)
+
+.
+
+dx
+
+Therefore the force will be known for the p sought for this equation, since s is given it
+
+terms of x. Q.E.I.
+
+[p. 143]
+
+Corollary 1.
+
+338.
+
+Since
+
+[the
+
+corresponding
+
+height]
+
+is
+
+given
+
+by
+
+v
+
+=
+
+e-2
+
+s dx
+s
+
+2
+
+,
+
+then
+
+the
+
+speed
+
+of
+
+the
+
+body at P is hence given by
+
+v
+
+=
+
+e-
+
+dx s
+
+s
+
+.
+
+Moreover
+
+as
+
+we
+
+will
+
+soon
+
+establish,
+
+a
+
+constant
+
+from the integration
+
+dx s
+
+must be added.
+
+Corollary 2.
+
+339. The time T also, in which the distance AP is traversed, is easily deduced from these.
+
+For since the time is equal to T =
+
+s
+
+,
+
+[from
+
+above]
+
+we
+
+have
+
+:
+
+T
+
+=
+
+e
+
+dx s
+
+.
+
+Therefore
+
+since
+
+v
+
+the time T should vanish with x made equal to 0, it is required that
+
+dx s
+
+thus
+
+to
+
+be
+
+integrated,
+
+in
+
+order
+
+that
+
+e
+
+dx s
+
+vanishes
+
+when
+
+x
+
+=
+
+0.
+
+On
+
+account
+
+of
+
+which
+
+it
+
+is
+
+required
+
+that
+
+ the integral becomes
+
+dx s
+
+=
+
+-
+
+
+
+,
+
+if
+
+x
+
+is
+
+put
+
+equal
+
+to
+
+0.
+
+Corollary 3.
+
+ 340. If we put s = nx ,then the integral
+
+dx s
+
+=
+
+1 n
+
+lx
+
++
+
+lc
+
+.
+
+Therefore
+
+for
+
+any
+
+c
+
+that
+
+may
+
+be
+
+ denoted, it shall always be the case that
+
+dx s
+
+fit
+
+=
+
+-
+
+
+
+with
+
+x
+
+=
+
+0.
+
+Whereby
+
+[on
+
+taking
+
+the
+
+exponentials]
+
+:
+
+e
+
+dx s
+
+=
+
+1
+cx n
+
+=T
+
+.
+
+Consequently
+
+on
+
+substitution
+
+into
+
+the
+
+above
+
+formula
+
+:
+
+p
+
+=
+
+2n( n-1) c2
+
+n-2
+xn
+
+and
+
+v
+
+=
+
+n c
+
+n-1
+xn
+
+.
+
+Corollary 4.
+
+341. If s = x , it is evident that the motion along AP must be uniform, which can also be
+
+shown by calculation. Indeed if we set n = 1 thus p = 0 and
+
+v
+
+=
+
+n c
+
+or to be constant. [p.
+
+144]
+
+Corollary 5.
+
+342. If n is made smaller than one, then the speed at the point A is made infinitely large,
+
+and also the force p will vary inversely with the power of the exponent
+
+2-n n
+
+of the
+
+distance traversed.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 161
+
+Corollary 6.
+
+343. If n is greater than one, and yet less than two, then the speed is certainly zero at A,
+
+but the force remains infinitely great at A, and it decreases in the ratio of a certain
+
+multiple of the distance traversed.
+
+Corollary 7.
+
+344. If
+
+n = 2, we have the case of the uniform force. Indeed it happens that
+
+p
+
+=
+
+4 c2
+
+and
+
+v
+
+=
+
+2 c
+
+x . And we have demonstrated this property from proposition 230, where we
+
+shown the body under the hypothesis of this uniform force acquiring a certain speed
+
+descending from rest through some distance, for which in the same time, falling with the
+
+same final speed, it would travel through twice the distance.
+
+Corollary 8.
+345. Truly if n should be greater than 2, those cases are produced, that we have discussed (319) that it is not possible to obtain in physical circumstances, even though the calculation shows otherwise. For it happens that the speed at A is zero, and the force in that place vanishes, on account of the body being unable to leave A, not according to the opposing calculation, which shows a finite time T for the body to traverse any finite distance AP. [p. 142]
+Scholium.
+346. Hence the case of this proposition is of this kind, in order that the given motion is in agreement with the speed and the time combined together, from which the law of the force should be elicited. Indeed many examples of this kind can be shown to be redundant, since from a single one the method of solving all the others is evident.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+PROPOSITION 45.
+
+page 162
+
+PROBLEM.
+
+347. With the speeds given which a body acquires, falling from any distances towards the centre of force C (Fig. 34), to define the law of the centripetal force producing the descents of this kind, with the position in which the body begins its individual descents taken from rest.
+
+SOLUTION.
+
+Let CM represent the altitude scale [i. e. graph; Euler
+
+uses the word scala, which means 'ladder', or 'steps'.] for
+
+the heights corresponding to the speeds which the body
+
+acquires at the point C, so that PM is thus the height
+
+corresponding to the speed that the body gains on starting
+
+its descent from P towards C. Truly the curve DN is the
+
+scale of the forces sought, of which it is agreed that the
+
+applied lines PN show the centripetal force acting on the
+
+body at the point P; and indeed the line CB marks the
+
+centripetal force equal to the force of gravity. With these
+
+in place, and with the body falling from P to C, the
+
+height corresponding to the speed at C is equal to the applied area CDNP to the line BC
+
+(321). On account of which
+
+PM
+
+=
+
+CDNP BC
+
+. Now CP is called y, PM
+
+v, and PN
+
+p; [p.143]
+
+ and with BC = 1 then v = pdy and on being differentiated, dv = pdy. Whereby since v is
+
+given in terms of y, it follows that
+
+p
+
+=
+
+dv dy
+
+.
+
+Q.E.I.
+
+[Thus, if we want a modern equivalent to Euler's derivation, we can consider the area CDNP to be the work done by the centripetal force on unit mass over the distance CP, which is equivalent to the work done on unit mass in the uniform gravitational field case over the distance PM.]
+
+Corollary 1.
+348. Let the speeds acquired at C be as the distances traversed : v is as y consequently p is as y. Therefore the centripetal force is proportional to the distance from the centre C.
+
+Corollary 2.
+349. If the speeds acquired at C are made proportional to the exponent n of the distances from the centre C, then v will be as y2n , and hence p is as y2n-1 . Therefore the
+centripetal force is in proportion to the distances raised to the power 2n ­ 1. [Note : n = 1 above.]
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 163
+
+Corollary 3.
+
+350. Since the speed acquired at C, since y = 0, should also be equal to zero and besides
+
+for the greater distance y the larger the corresponding speed should be, then n is signified
+
+by a positive number. [Thus, a body released at C has no speed at C.]
+
+Corollary 4.
+
+351.
+
+Moreover
+
+the
+
+force
+
+p
+
+is
+
+constant
+
+when
+
+n
+
+=
+
+1 2
+
+;
+
+and for
+
+which
+
+if
+
+the
+
+number
+
+n
+
+were
+
+<
+
+1 2
+
+,
+
+the
+
+centripetal
+
+force
+
+varies
+
+inversely
+
+as
+
+some
+
+power
+
+of
+
+the
+
+distance
+
+from
+
+the
+
+centre
+
+C. But if n were
+
+>
+
+1 2
+
+, then p varies directly as a certain power of this kind.
+
+In the
+
+former case the centripetal force at C will hence be infinitely great and decreases with
+
+increasing distances ; indeed in the other case when the force is zero at C, it increases
+
+with increasing distances. [p. 144]
+
+Corollary 5.
+
+352. Since
+
+PM
+
+=
+
+CDNP CB
+
+,
+
+it
+
+is
+
+evident
+
+that
+
+the
+
+curve
+
+CM
+
+is
+
+also
+
+the
+
+scale
+
+of
+
+the
+
+heights
+
+for the corresponding speeds, when the body moves away from C along the straight line
+
+CP, with the centripetal force changed into a centrifugal force, and the motion beginning
+
+from rest at C. (321)
+
+Scholium.
+353. Moreover though in this manner a problem can be reduced to Proposition 42 (326), by changing the centripetal force into a centrifugal force, yet the ascent time through CP in the case of the centrifugal force will not be equal to the time of descent through PC in case of the centripetal force. Nor indeed are the speeds equal, which are generated in each case by equal distances being generated, that leads to equal times, but that is also apparent to be the opposite upon consideration. For just as the centripetal force at C is zero, the centrifugal force also disappears [in Prop. 45] ; on account of which the ascent time along CP is infinite (314), while the descent time is still completed in a finite time. Therefore there is no basis from that likeness of the speed for supplying the needs to solve the following problems. Moreover in the following propositions the times are to be given, in which the individual descents are completed, and that not only is the most difficult for the solution, for from the scale of the times no certain scale of the forces can be established. On which account we will include only special cases for this proposition, the solution of which is not prevented by our forces. [p. 145]
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+PROPOSITION 46.
+
+page 164
+
+PROBLEM.
+
+354. If the times, in which the body (Fig. 35) reaches the centre of force C from any distances PC, are in the ratio of some multiple of the distances, then the law of the centripetal force can be defined.
+
+SOLUTION. These times are as the powers of the distances of the exponent n, and the curve DN is the scale of the centripetal force sought, thus as the line v applied sets out the force by which the body present at  is acted upon towards C, with CB representing the force of gravity. With these in place the body descends from some point P, and the distance PC is put equal to a, and hence the descent time through PC is as an, on account of which we put that equal to Can, with C denoting some constant quantity, which does not contain a , since a on account of the variable point P is indeed itself a variable quantity. Now the body arrives at some place  for which C is called x, the height of that place corresponding to the speed is equal to
+
+[v
+
+=]
+
+PNv BC
+
+=
+
+CPND -CvD BC
+
+(321) [Thus, the linear case gv in modern terms is equal to
+
+ the non-linear case ady , where a is the non-linear acceleration]. Moreover the area
+
+CPND is put equal to A and the area CvD = X and BC = 1; therefore the height corresponding to the speed at  is equal to A ­ X and the speed itself is equal to
+
+( A - X ). Here it is to be noted moreover that X is some function of x and of the
+
+constant, in which a is not present; indeed the area CvD does not depend on the point P, but keeps the same value, wherever the point P is taken, since the distance C remains the same. But the quantity X is such a function of x, just as A is a function of a; indeed by changing x into a the function X is changed in A. [p. 146] Now the time, in which this
+
+ descent of the distance C travelled through, is equal to dx , as the integral thus (A- X )
+
+must be taken so that with x made equal to 0, the integral should itself vanish. Therefore from this expression the total time can be found for the descent along PC, if x is put in place equal to a, in which case X too is changed into A. Moreover, since this resulting quantity thus must be able to be compared, as in that a may have the dimension n. On
+
+account of which also the formula of the differential dx has dimensions n, (for the
+( A- X )
+integral is required to be equal to Can), and it is likewise necessary in the indefinite
+
+ integral dx that a and x have dimensions n everywhere. On account of which also ( A- X )
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 165
+
+the formula of the differential dx has dimensions n, and it is established that as a
+( A- X )
+
+and x are to have a single dimension as also dx. Therefore it is evident that a and x
+
+should have the dimensions 1 - n in A - X , and 2 - 2n in A - X . But since a is not present in X, X must be a function of dimension 2 - 2n of x only; therefore X cannot be any other function than bx2-2n , and therefore A = ba2-2n . Indeed a constant amount can be added to bx2-2n , when that, since to ba2-2n has to be added equally, may again exceed that from A - X . For if we put X = bx2-2n + bc2-2n and hence A - X = b(a2-2n - x2-2n ) . But since X denotes the area CvD, it should vanish when x
+
+= 0, on account of which, if 2 - 2n is a positive number, it must always be the case that bc2-2n = 0 ; but if 2 - 2n is a positive number, the quantity bc2-2n will be assigned to a negative infinite quantity [in the integral, which cannot happen]. Therefore whatever is shall be, bc2-2n must be b02-2n ; indeed with this, if 2 - 2n or 1 - n is a positive number [p. 147], it freely vanishes, and if 1 - n is negative, it presents an infinitely large number.
+
+But when the proposition shall be to find the law of the centripetal force, nothing is returned, as this constant quantity is either zero or an infinitely large number. And with
+
+ the centripetal force at  = p = v, the area X = CvD= pdx . On account of which we
+
+ have bx2-2n + bc2-2n = pdx , and with the differentials taken, there is produced
+
+p = (2 - 2n)bx1-2n . Consequently, the centripetal force must be in the ratio of the
+
+(1 - 2n ) power of the distances. Q.E.I.
+
+Corollary 1.
+355. Therefore, when all the descents to the centre C are to be isochronous or completed in equal times, n should be put equal to zero, with which put into effect it comes about that the centripetal force is directly proportional to the distance. Indeed now we turn our attention to the case when all the descents to the centre are isochronous. (283).
+
+Corollary 2.
+356. If we put n = 1, as the times of descent are in proportion to the distances traversed, with 2 ­ 2n vanishing, the centripetal force also disappears. [Correction made by Paul Stackel, the editor of this volume of the Opera Omnia.]
+
+Corollary 3.
+
+357.
+
+If
+
+n
+
+=
+
+1 2
+
+,
+
+or
+
+the times
+
+are
+
+in
+
+the
+
+inverse
+
+square root
+
+ratio
+
+of
+
+the
+
+distances,
+
+the
+
+centripetal force is constant, as besides we have elicited that property above (218). If
+
+therefore
+
+n
+
+>
+
+1 2
+
+,
+
+the centripetal force decreases with increasing distance, but if
+
+n
+
+<
+
+1 2
+
+,
+
+it
+
+increases with increasing distance. [p. 148]
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 166
+
+Scholium.
+
+358. Indeed these properties all follow from Proposition 39 (308), where we have shown, that if the centripetal force is set out as the nth power of the distances, the times of descent
+
+are
+
+in
+
+the
+
+ratio
+
+of
+
+the
+
+1-n 2
+
+power
+
+of
+
+the
+
+distances.
+
+Which
+
+proposition
+
+is
+
+in
+
+close
+
+agreement
+
+with our other arguments;
+
+for with n put in place of
+
+1- n 2
+
+there is produced 1 ­ 2n in
+
+place of n. Yet it has never been considered by me to have an influence on this
+
+proposition, for here from the first, by the analytical method from the given condition of
+
+the times, the law of the centripetal force has been elicited, where I might have been led
+
+to the same in the reverse order. Neither in addition was it certain before that these other
+
+laws found for centripetal forces were not satisfactory. Truly the incredible solution in the
+
+latter excels in usefulness. For since it is purely analytical and it is my own personal
+
+development, as no one until now has embraced the use of the method, and which enables
+
+the solutions to be deduced for many other problems, which by other methods are
+
+attempted in vain. Thus since a method of this kind has been hitherto unknown, neither
+
+isochronous descents nor tautochronous curves have been found before in this way, but
+
+rather have been found by examining either the centripetal force proportion with distance,
+
+or the cycloid curve, from which these the properties have arisen unexpectedly for
+
+Geometers.
+
+[Thus in his own quiet modest way, Euler sets out his claims for the new analytical tools
+
+he has developed : this particular chapter of this book marks a sort of watershed in Euler's
+
+works : for the older semi-geometrical methods are to be laid to rest for ever and to give
+
+way to this modern vibrant analytical tool, that has grown in stature from his earlier
+
+papers. One has to remember that these thoughts by Euler were set in print in 1733 a few
+
+years after the death of Newton, and that some 18 years previously Taylor had produced
+
+his Calculus based on Newton's methods and notation : the latter was doomed to oblivion
+
+despite its brilliance due mainly to its obscure notation, and Euler's methods are still with
+
+us. It is even more remarkable, perhaps, that only 100 years before, Briggs was perfecting
+
+logarithms with no symbols in sight, and Harriot's book essentially on Vieta's forward
+
+looking algebra involving the first use of symbol methods, had just been published.]
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 167
+
+PROPOSITION 47.
+
+PROBLEM.
+
+359. From the given scales of the forces BND (Fig. 36), by which the body is acted upon falling through the distance AC, to find innumerable others such as  , by which the
+body acted on by a force at C always acquires the same speed, with the body always starting from rest at A. [p. 149]
+
+SOLUTION.
+
+Since for the graph [scala] of the forces BND, the
+
+height corresponding to the speed that the body has at C,
+
+is
+
+equal
+
+to
+
+ABCD CE
+
+(321), with CE set out as the force of
+
+gravity, and for that scale  with the height equal to
+
+AC CE
+
+(cit.),
+
+the
+
+area
+
+ABDC
+
+should
+
+be
+
+equal
+
+to
+
+AC
+
+,
+
+certainly a property that an infinite number of curves can
+
+have. Indeed with the point P anywhere in the interval
+
+AC, the point cannot have this equal area property, as it must have the areas ABNP = AP , unless the curve
+
+ falls on the other curve BND. Therefore there will be a certain difference between
+
+these areas, that we may call Z, thus, in order that AP = ABNP - Z , which difference
+
+Z thus ought to be compared, in order that it vanishes with the point P incident on A as on C. On this account some other curve AMC is constructed on the axis AC, which crosses the axis at the points A and C, and the applied line PM can be use in place of this Z; indeed it will vanish with the point P transferred to either A or C. Moreover when from the same curve AMC innumerable curves  can be deduced, it is expedient to use
+
+some function of the applied line PM in place of Z as itself. Truly this function must have
+this property, that it becomes equal to zero, if PM has disappeared. Now with these thus in place, put AC = a, AP = x, PN = y, P = Y and PM = z, of which quantities a, x,
+
+y, and z, as well as Z, a function of z, are be considered to be given, then truly the unknown quantity will be Y, [p. 150] which is defined from this equation
+
+  Ydx = ydx - Z . Indeed by taking the differentials, the equation
+
+Y
+
+=
+
+y
+
+-
+
+dZ dx
+
+is produced ,
+
+from which equation the curve  can be constructed. Q.E.I.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 168
+
+Corollary 1.
+
+360. Let
+
+Z
+
+= nz2 , the
+
+dZ
+
+= 2nzdz and
+
+Y
+
+=
+
+y-
+
+2nzdz dx
+
+.
+
+But
+
+2nzdz dx
+
+denotes
+
+the
+
+subnormal
+
+to
+
+the curve AMC, drawn to the normal MR at the point M. If thus N is taken, which is the
+
+line equal to y - Y , equal to some multiple of the subnormal PR,  will satisfy the
+
+curve sought.
+
+Corollary 2.
+361. We can also put dZ = pzdz , with p denoting some function of z. Here indeed we
+
+have no need to consider that above, since Z can always be taken to vanish, as it becomes zero with z put equal to zero. For any function taken in place of p, the integral itself pzdz always thus can be taken, as it becomes zero with the position z = 0. On account of this
+
+we have this equation :
+
+Y
+
+=
+
+y
+
+-
+
+pzdz dx
+
+=
+
+y
+
+-
+
+p.PR
+
+or
+
+N
+
+=
+
+p.PR,
+
+which
+
+construction
+
+appears to have the widest use.
+
+Scholium.
+362. Here it is to be noted that it is not necessary that the regular curves BND and AMC are adhered to, which are retained by reliable equations. For the curves  to be
+constructed, also it is sufficient for especially irregular curves to be accepted with no equation satisfied. Equally indeed the construction for determining the subnormals is successful.[p. 151]
+
+PROPOSITION 48.
+
+PROBLEM.
+
+363. From the given scales of the forces BND (Fig. 36) , by which a body acted upon traverses the interval AC, to find innumerable other curves such as  , by which it is
+effected, that the body completes the interval AC in the same time.
+
+SOLUTION. For any interval taken AP let the time, in which this is completed with the scale of the forces acting BND, be equal to t and the time, in which the same interval is completed with the scale acting  is equal T, and put T = t + Z , which quantity Z vanishes with
+
+the point P transferred to A or C. On this account as before, with this Z made a function of the applied line PM, with the curve AMC crossing the axis AC at A and C, such that it vanishes by making PM = z = 0 ; now we call AP x, PN y and Pv Y, and the time
+
+  t = dx and T = dx , wherefore we have this equation :
+
+ ydx
+
+ Ydx
+
+  dx = dx + Z, from which Y can be determined. For on differentiating, we have
+
+ Ydx
+
+ ydx
+
+dx =
+ Ydx
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+dx + dZ , from which is produced :
+ ydx
+
+page 169
+
+  Ydx = dx  ydx and Ydx = dx2  ydx .
+
+dx+dZ  ydx
+
+( dx+dZ  ydx )2
+
+Since indeed this quantity can be constructed from the given x, y and Z to be constructed,
+
+for that integral to be put equal to P, and hence : Ydx = dP; consequently Y
+
+= dP
+dx
+
+can be
+
+found Q.E.I. [p. 152]
+
+Corollary 1.
+
+364. Let
+
+dZ = pzdz
+
+as before with p denoting some function of
+
+z, then
+
+zdz dx
+
+is
+
+equal
+
+to
+
+the subnormal PR, that we put equal to r. From that done we have P =  ydx and
+(1+rp  ydx )2
+
+Y
+
+=
+
+dP dx
+
+.
+
+Corollary 2.
+365. Let the given curve BND be a straight line parallel to the axis AC, in order thus that the force is constant; indeed a constant force is given always, which is effective, so that the distance AC is completed in a given time. Putting AB = PN = b ; then the integral
+
+ ydx = bx. Hence we have P = bx , and from this by differentiation Y = dP is
+
+(1+rp bx )2
+
+dx
+
+obtained.
+
+Scholium.
+366. These two final propositions are almost alike and thus are connected to each other, since also they require to be solved in a special way, the usefulness of which is apparent when the method is used again in the following chapter. Moreover indeed these propositions are not inelegant and bring to a conclusion all the cases to be explained regarding rectilinear motion produced by the forces which we have set in place, and which by necessity had to be inserted. Nor indeed has it seemed suitable to adapt these to specific cases, on account of the exceedingly extended calculations that would have arisen. Therefore from these we move on to consider rectilinear motion of a medium with resistance.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 170
+
+CAPUT TERTIUM
+DE MOTU RECTILINEO PUNCTI LIBERI A POTENTIIS ABSOLUTIS SOLLICITATI
+[p. 115]
+
+PROPOSITIO 35.
+
+PROBLEMA. 286. Si fuerit vis centripeta quadratis distantiarum a centro C (Fig.28) reciproc proportionalis et corpus ex A in C usque delabatur, inveniendum est tempus, quo corpus quamvis huius spatii AC portionem percurrat.
+
+SOLUTIO.
+
+Manente AC = a et distantia, in qua vis centripeta gravitati aequalis est, f, sit CP = y et celeritas in P debita
+
+altitudini v. Erit ergo ob n = - 2, ex prop. 32 (264),
+
+v
+
+=
+
+f
+
+2
+
+
+
+a- y ay
+
+
+
+et
+
+v= f
+
+a- y ay
+
+.
+
+Elementum igitur temporis
+
+dy fit = dv ay =
+
+v
+
+f (a- y)
+
+a v
+
+.
+
+ydy .
+(ay- y2 )
+
+. Consequenter tempus per PC est
+
+a v
+
+ydy
+( ay- y2 ) . Est
+
+  vero
+
+ydy ( ay- y2 ) = -
+
+( ay- y2 ) +
+
+1 2
+
+ady
+
+( ay- y2 )
+
+.
+
+Quare descripto super AC semicirculo AMC ductaque ordinata PM, erit CM =
+
+1 2
+
+ady
+
+( ay- y2
+
+)
+
+et
+
+PM
+
+=
+
+(ay- y2 ) . Propterea prodibit tempus per CP =
+
+a f
+
+(CM
+
+-
+
+PM ) atque
+
+ex
+
+hoc
+
+tempus
+
+totius
+
+descensus
+
+per
+
+AC
+
+=
+
+AMC f
+
+a . Tempus ergo, quo portio AP
+
+absolvitur, est
+
+a f
+
+( AM
+
++
+
+PM ) .
+
+Q.
+
+E.
+
+I.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 171
+
+Corollarium 1.
+
+287.
+
+Denotante
+
+igitur
+
+1
+
+:
+
+
+
+rationem
+
+diametri
+
+ad
+
+peripheriam
+
+erit
+
+AMC
+
+=
+
+1 2
+
+a
+
+.
+
+Ideoque
+
+erit
+
+tempus
+
+descensus
+
+per AC
+
+=
+
+a a 2f
+
+.
+
+Ex
+
+quo
+
+intelligitur
+
+plurium corporum
+
+ad
+
+C
+
+delabentium tempora descensuum esse in sesquiplicata ratione distantiarum.
+
+[p. 116]
+
+Corollarium 2.
+288. Atque ad diversa huiusmodi centra virium corpora accedent temporibus, quae sint in ratione composita ex directa sesquiplicata distantiarum et inversa subduplicata efficaciarum. Est enim efficicaiia directe ut distance f quadratum.
+
+Scholion.
+289. Si sit vis centripeta reciproca ut cubus distantiae, prodit n = - 3 et
+
+v=
+
+f3 2
+
+ 
+
+a2 - y2 a2 y2
+
+ 
+
+.
+
+Est
+
+igitur
+
+v
+
+=
+
+f ay
+
+(a
+
+2
+
+- 2
+
+y
+
+2
+
+)
+
+,
+
+et
+
+tempus
+
+per
+
+CP
+
+. =
+
+a f
+
+2 f
+
+ydy = a
+(a2-y2 ) f
+
+2 f
+
+. a
+
+-
+
+(a2 - y2)  .
+
+In circuli autem quadrante est PM = (a2 - y2 ) ; tempus ergo, quo CP absolvitur, est
+
+a 2 .(AC - PM ), et tempus, quo totum spatium AC percurritur, erit a 2 .AC seu a2 2 .
+
+ff
+
+ff
+
+ff
+
+Consequenter tempus, quo portio AP percurritur, erit AC.PM 2 . In hoc igitur casu
+ff
+
+tempus algebraice potest exhiberi, id quod etiam fit in hisce casibus, quibus n est
+
+terminus
+
+huius
+
+seriei
+
+-
+
+5 3
+
+,
+
+-
+
+7 5
+
+,
+
+-
+
+9 7
+
+,
+
+-
+
+11 9
+
+etc.
+
+Quae
+
+autem
+
+sint
+
+ipsa
+
+tempora
+
+saltem
+
+integra
+
+descensuum per AC, sumus investigaturi.
+
+PROPOSITIO 36.
+
+PROBLEMA.
+
+290. Determinare tempus descensus per AC ad centrum virium C (Fig. 28), si vis
+
+centripeta proportionalia est reciproce huic distantiarum dignitati, cuius expons est
+
+2m+1 2m-1
+
+denotante
+
+m
+
+numerum
+
+integrum
+
+affirmativum.
+
+[p.
+
+117]
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 172
+
+SOLUTIO.
+
+Retenentibus
+
+a,
+
+f,
+
+y,
+
+et
+
+v
+
+eosdem
+
+quos
+
+supra
+
+valores
+
+erit
+
+n
+
+=
+
+-2m-1 2m-1
+
+.Quo
+
+circa
+
+fit
+
+v
+
+=
+
+2m-1 2
+
+f
+
+2m 2m
+
++1 -1
+
+   
+
+a
+
+2 2 m -1
+
+-
+
+y
+
+2 2 m -1
+
+a
+
+2 2 m -1
+
+y
+
+2 2 m -1
+
+   
+
+adeoque
+
+ dy = v
+
+2
+
+ 2a
+
+2 m -1 2 m +1
+
+.
+
+(2m-1) f 2m-1
+
+1
+
+y 2 m-1dy
+
+,
+
+ 
+
+a
+
+2
+
+2 m-1
+
+-
+
+y
+
+2
+
+2 m-1
+
+ 
+
+quod integrale ita debet accipi, ut evanescat posito y = 0. Quo facto si ponatur y = a,
+
+prodibit tempus totius descensus per AC quaesitum. Ponatur
+
+2
+
+2
+
+1
+
+2m-3
+
+y 2m-1 = z et a 2m-1 = b, erit y 2m-1 =
+
+z
+
+et
+
+dy
+
+=
+
+2m-1 2
+
+z
+
+2
+
+dz , quibus substitutis fiet
+
+ dy = v
+
+2
+
+ (2m-1)a 2m-1 2 m +1
+
+.
+
+2 f 2m-1
+
+z m-1dz
+(b-z )
+
+.
+
+ Ad
+
+z m-1dz
+(b-z )
+
+inveniendum pono b ­ z = u2, erit z = b ­ u2 et dz = -2udu
+
+ideoque
+
+z m -1dz
+(b - z )
+
+=
+
+-2du(b
+
+- u2 )m-1
+
+=
+
+-2du(bm-1
+
+-
+
+(m-1) 1
+
+b m - 2u 2
+
++
+
+(m-1)(m-2) 1.2
+
+bm -3u 4
+
+-
+
+etc.)
+
+,
+
+cuius integrale est
+
+C
+
+-
+
+2u(bm-1
+
+-
+
+(m-1) 1.3
+
+b m - 2u 2
+
++
+
+(m-1)(m-2) 1.2.5
+
+b m -3u 4
+
+-
+
+etc.)
+
+,
+
+quae quantitas cum debeat evanescere facto y seu z = 0, i. e. u2 = b, erit [p. 118]
+
+C
+
+=
+
+m-
+2b
+
+1 2
+
+(1 -
+
+(m-1) 1.3
+
++
+
+(m-1)(m-2) 1.2.5
+
+-
+
+etc.)
+
+.
+
+Quia autem integrum tempus provenit facto y = a seu z = b, i. e. u = 0, remanebit pro
+
+integrali ipsius
+
+z m -1dz
+(b - z )
+
+sola quantitas C, quae loco
+
+m-
+2b
+
+1 2
+
+restituto
+
+a
+
+est
+
+=
+
+2a(1
+
+-
+
+(m-1) 1.3
+
++
+
+(m-1)(m-2) 1.2.5
+
+-
+
+(m-1)(m-2)(m-3) 1.2.5.7
+
++
+
+etc.)
+
+.
+
+Totum
+
+ergo
+
+descensus
+
+tempus
+
+per
+
+AC
+
+2m
+
+aequalibitur facto
+
+ex
+
+a 2m-1
+2m
+
+f 2m-1
+
+2(2m -1) f in hanc seriem
+
+1-
+
+(m-1) 1.3
+
++
+
+(m-1)(m-2) 1.2.5
+
+-
+
+(m-1)(m-2)(m-3) 1.2.3.7
+
++
+
+etc.,
+
+quae
+
+toties
+
+abrumpitur,
+
+quoties
+
+m
+
+est
+
+numeris
+
+integer affirmativus. His igitur in casibus tempus algebraice potest exhiberi. Q. E. I.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 173
+
+Corollarium 1.
+
+291. Sit m = 1, quo casu est n = - 3, erit series = 1; tempus ergo descensus per AC
+
+2
+
+2
+
+prodibit
+
+=
+
+a
+2
+
+f
+
+2f = a
+f
+
+2 , ut supra (289) est inventum.
+f
+
+Corollarium 2.
+
+292. Sit m = 2, quo casu fit n =
+
+-5 3
+
+, erit series valor
+
+=
+
+2 3
+
+atque
+
+tempus
+
+totius
+
+descensus
+
+4
+
+=
+
+2 3
+
+.
+
+a
+
+3 4
+
+f3
+
+6
+
+6f .
+
+Sin est m = 3, erit n =
+
+-7 3
+
+et series
+
+2 3
+
+.
+
+4 5
+
+tempusque
+
+2.4a 5
+6
+
+3.5 f 5
+
+10 f . Simili
+
+8
+
+[p. 119] modo, si est m = 4, fit n =
+
+-9 7
+
+,
+
+atque
+
+tempus
+
+prodibit
+
+=
+
+2.4.6a 7
+8
+
+3.5.7 f 7
+
+14 f .
+
+Corollarium 3.
+
+293. Colligitur ex his seriei valor generalis
+
+=
+
+2.4.6...(2m-2) 3.5.7...(2m-1)
+
+.
+
+Generatim igitur tempus
+
+2m
+
+descensus erit
+
+2.4.6...(2m-2)a 2m-1
+2m
+
+3.5.7...(2m-1) f 2m-1
+
+2(2m -1) f . Si quidem est n =
+
+-2m -1 2m-1
+
+seu
+
+m
+
+=
+
+n-1 2n+1
+
+.
+
+Corollarium 4.
+
+294. Successive ergo loco m positis valoribus 1, 2, 3, 4 etc. seriei valores sequentem
+
+constituent
+
+progressionem
+
+1,
+
+2 3
+
+,
+
+2.4 3.5
+
+,
+
+2.4.6 3.5.7
+
+etc., in
+
+qua
+
+concessa
+
+circuli
+
+quadratura
+
+termini
+
+intermedii possunt exhiberi. Si enim est m =
+
+1 2
+
+, terminus respondens invenitur
+
+ 2
+
+,
+
+denotante 1 :  rationem diametri ad peripheriam; si m =
+
+3 2
+
+,
+
+erit
+
+respondens
+
+termiuns
+
+1 2
+
+.
+
+ 2
+
+, et ita porro si m denotet
+
+5 2
+
+,
+
+7 2
+
+,
+
+9 2
+
+etc. . proveient hi termini
+
+1.3. 2.4.2
+
+,
+
+1.3.5. 2.4.6.2
+
+,
+
+1.3.5.7. 2.4.6.8.2
+
+etc.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+Corollarium 5.
+
+page 174
+
+295. Innotescit ergo etiam in his casibus tempus descendus per AC. Nam si est m =
+
+1 2
+
+, fit
+
+n=
+
+-  , quo casu tempus semper est infinite parvum.
+
+[p. 120] Sit ergo m =
+
+3 2
+
+,
+
+fiet
+
+n
+
+=
+
+-
+
+3
+
+2, et tempus
+
+descensus =
+
+1. .a 2
+3
+
+2
+
+2.2. f
+
+4f
+
+=
+
+ .a. 2f
+
+a
+
+,
+
+prorsus
+
+ut
+
+iam
+
+invenimus
+
+(287).
+
+Sit
+
+5
+
+m=
+
+5 2
+
+,
+
+erit
+
+n=
+
+-3 2
+
+et
+
+tempus descensus
+
+=
+
+1.3.. .a 4
+5
+
+.
+
+2f
+
+. Atque si m =
+
+7 2
+
+,
+
+erit
+
+n
+
+=
+
+-4 3
+
+et
+
+2.4. f 4
+
+7
+
+tempus
+
+descensus
+
+=
+
+1.3.5. .a 6
+7
+
+.
+
+3f
+
+.
+
+2.4.6. f 6
+
+Corollarium 6.
+
+296. Generaliter igitur si fuerit m =
+
+2k +1 2
+
+,
+
+quo
+
+casu
+
+fit
+
+n=
+
+-k -1 k
+
+,
+
+erit
+
+tempus
+
+descensus
+
+2k +1
+
+1.3.5.......(2k -1) 2.4.6........2k
+
+.
+
+
+
+.a
+2
+
+2k k +1
+
+kf .
+
+f 2k
+
+PROPOSITIO 37.
+
+PROBLEMA.
+
+297. Determinare tempus descensus per AC (Fig. 28) ad centrum virium C, si vis
+
+centripeta proportionalis est reciproce huic distantiarum dignitati, cuius expons est
+
+m-1 m
+
+denotante
+
+m
+
+numerum
+
+integrum
+
+affirmativum.
+
+[p.
+
+121]
+
+SOLUTIO.
+
+11
+
+Est
+
+itaque
+
+n
+
+=
+
+1-m m
+
+et
+
+propterea
+
+v
+
+=
+
+am -ym
+
+1- m
+
+1 m
+
+f
+
+m
+
+= mf
+
+m -1 m
+
+
+
+a
+
+1 m
+
+-
+
+1
+ym
+
+.
+
+Elementum
+
+igitur
+
+temporis, quod est dy , erit = dy :
+v
+
+mf
+
+m -1 m
+
+
+
+a
+
+1 m
+
+-
+
+1
+ym
+
+
+
+et
+
+tempus
+
+ipsum
+
+per
+
+PC
+
+=
+
+ 1 m -1
+
+dy .
+11
+
+mf m
+
+(am -ym )
+
+Ponatur
+
+1
+am
+
+= b et
+
+1
+ym
+
+=
+
+z
+
+,
+
+erit
+
+dy
+
+=
+
+mzm-1dz; fit
+
+igitur
+
+tempus
+
+per
+
+PC
+
+=
+
+1-m
+mf m
+
+
+
+z m -1dz
+(b-z)
+
+.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 175
+
+At integrale ipsius
+
+z m-1dz
+(b-z)
+
+,
+
+eodem
+
+modo
+
+quo
+
+in
+
+praecedente
+
+prop.
+
+sumtum,
+
+est
+
+2b
+
+2 m -1 2
+
+(1
+
+-
+
+(m-1) 1.3
+
++
+
+(m-1)(m-2) 1.2.5
+
+-
+
+(m-1)(m-2)(m-3) 1.2.5.7
+
++
+
+etc.)
+
+.
+
+2 m -1
+
+2 m -1
+
+Quamobrem integrum tempus descensus per AC, posito a 2m loco b 2 , erit
+
+2m-1 1-m
+= 2 ma m f m ducto in hanc seriem
+
+2b
+
+2 m -1 2
+
+(1 -
+
+(m-1) 1.3
+
++
+
+(m-1)(m-2) 1.2.5
+
+-
+
+(m-1)(m-2)(m-3) 1.2.5.7
+
++
+
+etc.)
+
+Quoties igitur m est numerus integer affirmativus, toties series abrumpitur, ita ut tempus
+
+quaesitum algebraice exprimatur. Q. E. I.
+
+Corollarium 1.
+298. Sit m = 1, quo casu est n = 0, est vis centripeta propterea uniformis ac gravitati
+
+aequalis. Series ergo erit = 1, et tempus descensus per AC = 2 a , omnino ut iam §219
+
+est inventum modo neglecta littera m.
+
+[p. 122]
+
+Corollarium 2.
+
+3 -1
+
+299. Sit m = 2, ut sit n =
+
+-1 2
+
+;
+
+erit
+
+tempus
+
+totius
+
+descensus
+
+2 3
+
+.2a
+
+4
+
+f
+
+4
+
+2.
+
+Sit m = 3, ut sit n =
+
+-2 3
+
+;
+
+totumque
+
+tempus
+
+totius
+
+descensus
+
+5 -1
+
+=
+
+2.4 3.5
+
+.2a
+
+6
+
+f
+
+3
+
+3.
+
+Simili modo, si m = 4 et propterea n =
+
+-3 4
+
+,
+
+prodit
+
+tempus
+
+descensus
+
+7 -3
+
+=
+
+2.4.6 3.5.7
+
+.2a
+
+8
+
+f
+
+8
+
+4 etc.
+
+Corollarium 3.
+
+300. Generaliter igitur quicquid sit m ideoque
+
+n=
+
+1-m m
+
+;
+
+erit
+
+tempus
+
+totius
+
+descensus
+
+totius per AC
+
+2m-1 1-m
+
+=
+
+2.4.6......(2m- 2) 3.5.7.....(2m-1)
+
+.2a
+
+2m
+
+f
+
+2m
+
+m.
+
+Corollarium 4.
+
+301. Iisdem quibus supra (294) interpolationibus adhibitis poterunt tempora descensuum
+
+assignari,
+
+si
+
+m
+
+est
+
+numerus
+
+quicunque
+
+integer
+
+affirmativus
+
++
+
+1 2
+
+.
+
+Sit
+
+nimirum
+
+m
+
+=
+
+1 2
+
+,
+
+quo
+
+casu
+
+fit
+
+n
+
+=
+
+1;
+
+erit
+
+tempus
+
+descensus
+
+=
+
+ 2
+
+2 f prorsus ut § 283, ubi idem casus, quo n = 1
+
+seu vis centripeta distantiis proportionalis, est pertractatus.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 176
+
+Corollarium 5.
+
+4 -1
+
+302. Si
+
+m=
+
+3 2
+
+,
+
+seu
+
+n
+
+=
+
+-1 3
+
+,
+
+sit
+
+tempus
+
+descensus =
+
+1 2
+
+.
+
+ 2
+
+3
+6.a f
+
+3
+
+;
+
+si m =
+
+5 2
+
+,
+
+8 -3
+
+seu n =
+
+-3 5
+
+,
+
+prodit
+
+tempus
+
+descensus =
+
+1 2
+
+.
+
+3 4
+
+.
+
+ 2
+
+55
+10.a f . Atque generaliter casu, quo
+
+n
+
+=
+
+1-m m
+
+,
+
+reperitur
+
+tempus
+
+descensus
+
+2m-1 1-m
+
+=
+
+1.3.5......(2m-2) 2.5.6.....(2m-1)
+
+.
+
+ 2
+
+m
+4m 2a
+
+m
+f.
+
+[p. 123]
+
+Scholion.
+
+303. Intelligitur ex hisce, quibus casibus tempora descensuum algebraice possit exprimi,
+
+vidilicet, quando est
+
+n=
+
+-2m-1 2m-1
+
+vel
+
+n
+
+=
+
+1-m m
+
+et m significat numerum affirmativum
+
+integrum quemcunque. Atque praeter hos casus dubito, an quisquam alius detur. Deinde
+
+etiam apparent casus, quibus temporis definitio a circuli quadratura pendet, hique
+
+habentur, si fuerit
+
+vel
+
+n
+
+=
+
+-m-1 2m-1
+
+vel
+
+n
+
+=
+
+1-2m 1+2m
+
+denotante m ut supra numerum quemcunque integrum affirmativum. Neque vero hi sunt
+
+omnes casus, qui ad circuli quadraturam deducuntur; namque singularis casus, si n = - 1,
+
+quoque a circuli quadratura pendet, ut sequenti propositione demonstrabimus. At vero
+
+hoc differt iste casus ab illis, quod hic in temporis expressione non , sed  occurrat; et
+
+praeterea etiam totum duntaxat descensus tempus  involvat, dum tempus per quodvis
+
+spatium indefinitum nonnisi quadraturis transcendentium curvarum potest exhiberi.
+
+PROPOSITIO 38.
+
+THEOREMA.
+304. Existente vi centripeta reciproce distantiis a centro virium C (Fig. 28) proportioni erit tempus descensus integri per AC = a  denotantes a spatium AC, f distantium, in
+f
+qua vis centripeta est gravitati aequalis, et  : 1 rationem peripheriae ad diametrum. [p. 124]
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 177
+
+DEMONSTRATIO.
+
+Quia in quovis puncto P altitudo celeritati debita est
+
+fl
+
+a y
+
+(266),
+
+erit
+
+ipsa
+
+celeritas
+
+=
+
+ fl
+
+a y
+
+et tempus per spatium PC =
+
+1 f
+
+.
+
+dy . Huius ergo integrale ita acceptum, ut
+la
+
+y
+
+evanescat facto y = 0, dabit verum tempus per PC. Quare si in hac expressione tum ponatur y = a, prodibit totum descensus tempus per AC. Ponatur autem y = az et
+
+habebitur a .  dz . Demonstravi vero in Commentariis Academiae Scientiarum
+
+f
+
+-lz
+
+Petropol. Anno 1730 hanc quantitatem  dz , si ponatur z = 1 seu y = a, definire in hac
+-lz
+
+progressione
+
+1,
+
+2,
+
+6,
+
+24
+
+etc.
+
+eum
+
+terminum,
+
+cuius
+
+index
+
+sit
+
+=
+
+-
+
+1 2
+
+,
+
+quem
+
+alia
+
+methodo
+
+ibidem ostendi esse =  . [Vide : E 019; et quoque Opera Omnia, series II, vol. 5, Sur le
+
+temps de la chute d'un corps ....pp. 250 ­ 260.] Ex quo intelligitur tempus totius
+
+descensus per AC esse a  . Q. E. D.
+f
+
+Corollarium.
+305. Si ergo plura corpora ad idem centrum C ex diverse diatantiis delabantur, erunt eorum tempora descensuum ipsis distantiis proportionalia.
+
+Scholion 1.
+
+306. Neglexi in
+
+hac propositione fractionem
+
+1 250
+
+, quae in temporis expressinem,
+
+integratione spatii elementi per radicem quadratam altitudinis celeritati debitae divisi
+
+erutam, est multiplicanda (222), quippe quae ad tempus in minutis secundis inveniendum
+
+inservit, si longitudines in scupulis pedis Rhenani exponitur. Simili modo etiam in [p.
+
+125] sequentibus tempora, nisi in minutis secundis desiderentur, sum definiturus, ad
+
+ambages vitandas. Facile enim apparet ad numerum minutorum secundorum
+
+inveniendum nil aliud esse faciendum, nisi ut huiusmodi temporis expressiones per 250
+
+dividantur atque longitudines in scupulis pedis Rhenani exhibeantur, uti iam saepius est
+
+inculcatum.
+
+Scholion 2.
+
+307. Omnino paradoxon hoc videbitur, quod integrale ipsius dz posito z = 1, fiat
+- lz
+
+=  . Nullo enim modo quisquam hoc directe poterit demonstrare; neque ego hanc
+
+aequalitatem nisi a posteriori cognovi, quemadmodum ex citata dissertationes videre
+
+  licet. Eosdem igitur reddunt valores haec duo integralia dz et 2 dz , si post
+
+-lz
+
+(1- z2 )
+
+integrationem ponatur z = 1, neque tamen ipsa sunt inter se aequalia; immo nequidem se possunt comparari.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+PROPOSITIO 39.
+
+page 178
+
+THEOREMA.
+
+308. Si vis centripeta fuerit ut potestas exponentis n distantiarum et plura corpora ex
+
+diversis distantiis ad idem centrum delabantur, erunt descensuum tempora potestatibus
+
+distantiarum,
+
+quarum
+
+expones
+
+est
+
+1-n 2
+
+,
+
+proportionalia.
+
+DEMONSTRATIO. Sit corporis cuiusvis a centro C distantia AC = a et f distantia, in qua vis centripeta
+
+gravitati aequalis est. [p. 126] Deinde cum pervenerit corpus in P, ponatur CP = y et
+
+altitudo celeritati in hoc loco debita = v, erit
+
+v
+
+=
+
+an+1- yn+1 (n+1) f n
+
+.
+
+Tempus ergo, quo CP absolvitur, est
+
+ = (n +1) f n
+
+dy .
+an+1 - y n+1
+
+Quod integrale quanquam exhiberi non potest, tamen ita erit comparatum, ut a et y in
+
+singulis terminis
+
+1- n 2
+
+dimensions constituant, quia in differentiali eundem dimensionum
+
+numerum efficiunt, considerato dy tanquam una dimensione. Quamobrem si post
+
+integrationem ponatur y = a, quo casu tempus totius descensus provenit, habebit solum a
+
+totidem,
+
+videlicet
+
+1-n
+
+,
+
+dimensiones
+
+seu
+
+erit
+
+multiplum
+
+ipsius
+
+1-n
+a2 .
+
+Quare,
+
+cum
+
+alter
+
+2
+
+factor non complectatur nisi f et numeros ideoque eundem valorem retineat, utcunque a
+
+1- n
+varietur, erunt diversorum descensuum tempora ut a 2 , i. e. ut potestates distantiarum,
+
+quarum
+
+expons
+
+est
+
+1-n 2
+
+.
+
+Q.
+
+E.
+
+D.
+
+Corollarium 1.
+1- n
+309. Quo igitur omnia descensuum tempora sint inter se aequalia, oportet, ut a 2 sit
+quantitas constans, utcunque a mutetur, id quod accidit, si n = 1 seu vis centripeta distantiis directe proportionalis, uti iam observavimus (283). [p. 127]
+
+Corollarium 2.
+
+310. Simili modo ex his statim apparet, si vis centripeta est reciproce ut quadratum
+
+distantiae seu n = - 2, tempora descensuum ad hoc centrum esse inter se ut distantiae
+
+elevatae ad exponentem
+
+3 2
+
+seu
+
+in
+
+sesquiplacata
+
+distantiarum
+
+ratione
+
+(287).
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 179
+
+Corollarium 3.
+
+311. Si fuerint plura similiter attrahentia virium centra, sed efficacia differentia, et ad ea
+n
+corpora ex aequalibus distantiis delabantur, erunt tempora inter se ut f 2 , quia a ut
+
+constans, f vero variabilis consideratur. Est vero efficacia ut vis centripeta in data distantia, puta 1, erit ergo fn reciproce ut efficacia, atque tempora illa inter se in reciproca
+
+subduplicata efficaciarum ratione (285).
+
+Corollarium 4.
+
+312. Et si ad diversa huiusmodi virium centra corpora ex quibuscunque distantiis
+
+delabantur,
+
+erunt
+
+eorum
+
+tempora
+
+descensuum
+
+in
+
+ratione
+
+composita
+
+ex
+
+directa
+
+1-n 2
+
+-plica
+
+distantiarum et reciproca subduplicata efficaciarum.
+
+Scholion.
+
+313. Ex his, quae de viribus centripetis dicta sunt, abunde perspicitur, quomodo motus
+
+corporum inveniri oporteat, si loco vis centripetae vis centrifuga seu pellens corpus de centro substituatur. Omnia enim manent ut in praecedentibus, nisi quod loco formulae
+
+vim centripetam exprimentis, [p. 128] quae erat
+
+yn fn
+
+(264), eius negativa debeat adhiberi.
+
+Neque tamen superfluum iudico de has casibus quaedam afferre; cognoscentur enim ex his generales quaedam regulae ad motus generationem a potentiis pertinentes, quae ex solo calculo non possunt deduci. Respiciunt ea autem actionem potentiarum in corpora
+
+quiescentia, ad quae calculus noster, quippe quo ponitur celeritatis incrementum respectu prioris infinite parvum, minus recte accommodatur et reipsa absurdi quid praebet, nisi
+
+primum spatii elementum tempusculo infinite parvo percurritur. Ad hoc autem dilucidandum hoc utor axiomate, quod corpus in ipso centro virium repellente positum
+
+perpetuo ibi sit permansurum, si vis centrifuga in ipso illo puncto fuerit infinite parva seu nulla; id quod evenit, quando exponens dignitatis distantiarum, cui vis centrifuga est proportionalis, est numerus nihilo maior seu positivus.
+
+PROPOSITIO 40.
+
+PROBLEMA.
+
+314. E centro virium C (Fig. 29) a se repellente in ratione n-plicata distantiarum egrediatur corpus in recta CP; requiritur eius celeritas in loco quovis P et tempus, quo spatium CP percurritur.
+
+SOLUTIO.
+
+Si f distantia, in qua vis centrifuga aequalis est gravitati,
+
+et vocetur CP y atque altitudo celeritati in P debita v. [p.
+
+129]
+
+Erit
+
+ergo
+
+vis,
+
+qua
+
+corpus
+
+in
+
+P
+
+urgetur,
+
+=
+
+yn fn
+
+et
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 180
+
+proptera
+
+dv =
+
+y n dy fn
+
+(213), quia corpus motu accelerato propellitur. Quare, cum corpus in
+
+C
+
+celeritatem
+
+nullam
+
+habere
+
+ponatur,
+
+erit
+
+v
+
+=
+
+y n+1 (n+1) f
+
+n
+
+,
+
+si
+
+fuerit
+
+n
+
++
+
+1
+
+numerus
+
+positivus;
+
+sin autem negativus, fiet v infinitum. Ex hoc prodit tempus, quo spatium CP percurritur,
+
+ = (n +1) f n
+
+n +1
+
+dy : y 2
+
+=
+
+2 1-n
+
+(n + 1) f n y1-n ,
+
+si quidem y1-n sit = 0 posito y = 0. Nam si fuerit infinitum, tempus quoque prodiret
+
+infinitum ob addendam constantem infinite magnam; id quod inducio esset corpus
+
+nunquam ex C egressurum. Tempus igitur erit
+
+=
+
+2 1-n
+
+(n + 1) f n y1-n ,
+
+quoties et 1 ­ n et n + 1 fuerint numeri positivi. Q. E. I.
+
+Corollarium 1.
+315. Sunt vero hi ambo numeri 1 ­ n et n + 1 affirmativi, si n contineatur intra hos limites ­ 1 et + 1. Atque si n illum terminum ­ 1 transcendit, celeritas ubique erit infinita; et se hunc + 1 transgreditur, tempus erit infinitum.
+
+Corollarium 2.
+316. Constat corpus nunquam esse egressurum autem ex ipsa rei natura, si n fuerit numerus nihilo maior, (313). Hanc ob rem necesse est, etsi n contineatur intra 0 et + 1, calculum hic adhibitum, quippe qui tempus indicat finitum, fallere. [p. 130]
+
+Corollarium 3.
+317. Tempora haec autem sequuntur ex celeritatibus, ergo et in his ipsis absurdum inesse debebit, quoties n comprehenditur intra 0 et + 1. Neque enim hae celeritates generari poterunt, cum corpus nunquam ex C egrediatur.
+Scholion 1.
+318. Sit curva AM (Fig. 30) talis, ut denotantibus abscissis AP = y applicata PM sit = v. Haec curva, contento n intra hos limites 0 et + 1, hanc habebit proprietatem, ut ipsa in A cum axe confundatur hocque loco curvedinem habeat infinite magnam, nempe radium oscili evanescentem.
+
+Corollarium 4.
+319. Quoties igitur accidit, ut scala celeritatum seu potius altitudinum celeritatibus debitarum huiusmodi habeat formam, toties iudicandum est eam a nulla potentia generari potuisse, etiamsi calculus aliter ostendat, sed esse casum penitus imaginarium ac in rerum natura non existentem.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 181
+
+Scholion 2.
+
+320. Ratio huius aberrationis calculi a natura in ipso
+
+principio motus sine dubio est sita, atque hoc loco lex
+
+alias universalis de celeritatis incremento a potentiis
+
+producto perperam adhibetur. Quoniam enim, ut iam
+
+animadvertimus (313), haec lex locum habet tantum,
+
+quando corpus finitam iam habet celeritatem, semper in
+
+principio motus temere usurpatur. [p. 131]Cum autem
+
+iste error in ipso primi tantum elemento insit, plerumque
+
+est infinite parvus et hanc ob rem non est respiciendus.
+
+Est vero infinite parvus, quoties primum elementum
+
+spatii tempusculo infinite parvo percurritur, tum enim
+
+neque in celeritatibus neque in temporibus considerabile discrimen poterit producere.
+
+Evenit hoc, si potentia, qua corpus in ipso principio motus sollicitatur, est finitae
+
+magnitudinis vel etiam infinitae magnae; perspicuum enim est hoc casu primum
+
+elementum temporis puncto percurri. At si potentia, ut in nostro casu usu venit, in
+
+principio est infinite parva seu potius nulla, ad primum tantum elementum absolvendum
+
+non modo finito, sed etiam infinitio opus est tempore, quia corpus quiescens a nulla
+
+potentia pulsum de loco suo nunquam excedet. In reliquis quidem casibus, quibus n est
+
+non solum nihilo, sed etiam unitate maior, tantus est error, ut etiam calculus infinitum
+
+tempus per primum elementum ostendat. Verum, si n intra 0 et 1 comprehenditur, vitium
+
+calculi animadvertitur; hocque idea, uti videtur, quia his casibus scala potentiarum
+
+formam habet curvae AM (Fig. 31), quae axi AP in A ad angulos rectos occurrit. Statim
+
+enim in proximo ipsi A puncto a linea ab potentiam exprimens infinite maior est sagitta
+
+Aa; perinde autem est in motus computatione, sive corpus elementum percurrens
+
+consideretur a potentia, quae initio agit, sollicitatum, sive ea, qua in fine elementi urgetur.
+
+In hoc autem casu evidens est errorem nasci oportere [p.132] , si corpus per totum
+
+elementum Aa a potentia ab sollicitatum consideretur.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+PROPOSITIO 41.
+
+page 182
+
+PROBLEMA.
+
+321. Si fuerit vis centripeta functioni cuicunque distantiarum a centro C (Fig. 32) proportionalis corpusque ex A ad id delabatur, requiritur celeritas eius in puncto quocunque P atque tempus, quo spatium AP percurritur.
+
+SOLUTIO. Repraesentet curva BMD scalam potentiarum seu legem vis centripetae, ita ut corpus in P trahatur ad C a potentia PM, quae sit ad vim gravitatis ut haec PM ad rectam constantem AE, qua vis gravitatis exprimitur. Sit nunc AP = x, PM = p, AE = 1 et altitudo celeritati in P = v. Vis igitur accelerans est p, et propterea, sumpto elemento Pp = dx, erit dv = pdx (213). Ex qua prodit
+
+  integrando v = pdx . At pdx exprimit aream
+
+ABMP;
+
+hanc
+
+ob
+
+rem
+
+habebitur
+
+v
+
+=
+
+ABMP AE
+
+,
+
+completa homogeneitate recte AE = 1. Cognita nunc altutidine v erit tempus, quo spatium
+
+ AP percurritur, = dx , quod, quia p per x dari ponitur, per quadraturas innotescit.  pdx
+
+Q.E.I.
+
+Corollarium 1.
+322. Perspicitur ex his, si corpus ea celeritate, quam in C acquisivit, retro moveatur sursum, motum eius ascensus similem fore descensui atque in puncto P [p. 133] eandem habiturum esse celeritatem, quam habuit ante, et proinde tempus quoque ascensus per CP aequale esse debere tempori descensus per idem spatium.
+
+Corollarium 2.
+323. Posuimus hic corpus in A celeritatem habere nullam atque ex quiete motum inchoare. Sed non difficilior evadit calculus, si ei in A celeritas quaecunque tribuatur; hoc
+ enim casu differentiale pdx ita debet integrari, ut facto x = 0 ipsum pdx preabeat  altitudinem celeritati initiali debitam. Tempus vero ex pdx hac ratione accepto
+invenietur similiter ut supra.
+
+Scholion 1.
+324. Assumsimus quidem p esse functionem ipsius x et propterea non respicere centrum virium C, sed tantum motus initium A. Nihilo tamen minus casus propositionis in solutione continetur; si enim p est functio ipsius distantiae CP a centro virium C, quam vocemus y, erit y = a ­ x , posito toto spatio AC = a, et hanc ob rem p denotabit
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 183
+
+functionem ipsius a ­ x, i. e. functionem ipsius x et constantium, ut assumsimus. Nostra
+
+vero solutio latius patet, determinat enim motum corporis a quacunque potentia sollicitati,
+
+nullo respectu ad certum aliquod punctum fixum habito, dummodo hae potentiae ubivis
+
+eandem directionem teneant. Nisi enim hoc fiat, corpus cessabit in linea recta moveri, sed
+
+in curva incedet, de quo motu in sequentibus tractibimus. [p. 134]
+
+Scholion 2.
+325. Determinavimus hactenus motus corporis rectilineos ex data potentia; nunc vero pertractanda restat altera huius capitis pars, qua ex data motus conditione potentiarum legem definiri oportet. Sit vero hoc vel ex datis celeritatibus vel temporibus, utrumque autem duplici modo est pertractandum. Vel enim respicitur ad unicum descensum seu ascensum, in cuius singulis punctis datae ponuntur vel celeritates vel tempora, quibus quaeque spatii portiones percurruntur. Vel considerantur infiniti descensus ad punctum fixum ex diversis altitudinibus facti, in quibus dantur vel celeritates ultimae vel tempora, quibus singuli descensus integri absolvuntur. Ex his igitur quatuor oriuntur problemata primaria, quorum solutiones hic exhiberi oportet. Praeter haec vero aliae afferuntur quaestiones, in quibus neque solae celeritates neque sola tempora dantur, sed aliud quiddam, quod ex utrisque sit compositum; cuiusmodi vero quaestiones, cum innumerabiles possent excogitari, aliquas tantum magis insignes, et ex quarum solutionibus simul reliquarum solutiones possint intelligi, in medium proferemus.
+PROPOSITIO 42.
+
+PROBLEMA.
+
+326. Data corporis rectam AP (Fig. 22) percurrentis in singulis punctis celeritate, requiritur potentiae lex, quae hunc motum corpus sollicitando efficere valet. [p. 135]
+
+SOLUTIO.
+
+Percurso quovis spatio AP, quod ponimus = x, sit altitudo celeritati, quam corpus in P
+
+habet, debita = v, quae proinde data et ipsius x et constantium functio quaedam esse
+
+ponitur. Potentia vero in P agens, quam quaerimus, sit = p, quae ergo ex corporis
+
+acceleratatine dv, dum elementum Pp = dx percurrit, inveniri poterit. Cum enim sit dv =
+
+pdx (213), erit
+
+p
+
+=
+
+dv dx
+
+,
+
+seu
+
+ista
+
+potentia
+
+quaesita
+
+se
+
+habebit
+
+ad
+
+vim
+
+gravitatis
+
+ut
+
+incrementum altitudinis celeritati debitae ad spatii elementum, quod interea percurritur.
+
+Q.E.I.
+
+Corollarium 1.
+
+327. Si fuerit v = x seu spatium descriptum ea ipsa altitudo celeritati debita, fiet dv = dx
+
+et p = 1, id quod indicat potentiam hunc motum producentem esse uniformem et ipsi
+
+gravitati aequalem.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+Corollarium 2.
+
+page 184
+
+328.
+
+Si
+
+ipsae
+
+celeritates
+
+ponantur
+
+spatiis
+
+percurris
+
+proportionales,
+
+erit
+
+v
+
+=
+
+x2 f
+
+,
+
+denotante
+
+f
+
+constantem
+
+requisitam;
+
+fit
+
+ergo
+
+dv
+
+=
+
+2 xdx f
+
+et
+
+p
+
+=
+
+2x f
+
+.
+
+Quamobrem
+
+potentia
+
+erit
+
+spatiis
+
+percurris proportionalis.
+Scholion 1.
+329. Constat autem ex superioribus hunc casum existere non posse; nam quia potentia in ipso motus initio A est nulla, [p. 136] corpus ex hoc puncto nunquam egreditur, sed ibi
+
+ perpetuo quiescet. Idem commonstrat temporis per AP computatio, quod erit =
+
+dx x
+
+f,
+
+quae quantitas est infinita, si quidem integrale ita accipitur, ut evanescat posito x = 0.
+
+Corollarium 3.
+
+330. Quo igitur hoc non eveniat, oportet, ut
+
+dv dx
+
+sit eiusmodi quantitas, quae facto v = 0
+
+non evanescat, sed quae vel fiat finita vel infinita. Ex quo perspicitur scalam altitudinum
+
+celeritatibus debitarum AM (Fig. 30) in qua sumtis AP = x applicatae PM repraesentent
+
+has altitudines v, non debere in A in axem incidere, sed angulum cum eo finitum
+
+constituere oportere.
+
+Scholion 2.
+
+331. Haec intelligenda sunt tantum de iis casibus, quibus corporis celeritas in A
+
+evanescens ponitur et scala AM cum axe in A concurrit. Aliter enim se res habet, si corpus
+
+in A celeritatem iam habet, qua, etiamsi potentia sit nulla, tamen ex A progredi
+
+potentiaeque actionem subire potest, ita ut non opus sit tempore infinito ad spatium AP
+
+absolvendum.
+
+PROPOSITIO 43.
+
+PROBLEMA.
+
+332. Dato tempore, quo corpus in recta AC (Fig. 32) progrediens percurrit singula spatia AP, oportet definire legem potentiarum, qua efficitur, ut corpus hoc motu feratur.
+[p. 137] SOLUTIO.
+
+Dato spatio AP = x et tempore, quo percurritur, = t , quia expressionis temporis
+
+quadratum unicam habet dimensionem, sit potentia quaesita = p et altitudo celeritati in P = v; hac enim opus est ad inveniendum p, quamvis ex calculo exire debeat. His positis
+
+  erit ut ante dv = pdx et v = pdx . Tempus igitur t = dx , ex qua aequatione sumtis  pdx
+
+ differentialibus prodit dt = 2 dt
+
+dx and
+ pdx
+
+pdx
+
+=
+
+4tdx 2 dt 2
+
+,cuius
+
+si
+
+denuo
+
+sumatur
+
+differentialis posito dx constante habebitur
+
+p
+
+=
+
+4dx dt
+
+-
+
+8tdxddt dt 3
+
+.
+
+Q.E.I.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 185
+
+Corollarium 1.
+333. Si ponatur tempus ipsum = T neglecta homogeneitate, erit t = T2, atque prodibit
+
+p
+
+=
+
+-
+
+2dxddT dT 3
+
+.
+
+Quae expressio simplicior est superiore et facilius ad casus speciales
+
+accommodatur.
+
+Corollarium 2.
+
+334. Si tempora ponantur spatiis descriptis proportionalia, erit T = x et ddT = 0, ob dx
+
+constans. Consequenter potentia erit nulla, qua indicatur corpus vi insita hunc motum
+
+aequabilem continuare.
+
+Scholion.
+335. Notandum hic est pro T eiusmodi accipi debere functionem ipsius x, quae cum fiat = 0, posito x = 0, tum crescentibus x crescat quoque. [p. 138] Fieri enim omnino non
+
+potest,ut corpus moveri pergat, tempus vero diminuatur. Ponamus v. g. T = (2ax - x2) ,
+
+quae quantitas ad certum tantum terminum crescit crescente x, tum vero decrescit. Erit
+
+ergo dT =
+
+adx - xdx ( 2ax- x2 )
+
+et
+
+ddT
+
+=
+
+- a 2 dx 2 ( 2ax- x2 )3/ 2
+
+. Ex his fit
+
+p
+
+=
+
+2a2 (a-x)3
+
+,
+
+seu
+
+posito
+
+AC
+
+=
+
+a
+
+sollicitabitur corpus in P ad C vi cubo distantiae a C reciproce proportionali. Tempus
+
+vero (2ax - x2) ulterius non valet quam usque ad C, quo x = a. Sed de hoc casu iam
+
+est actum (289). Quare ex hoc concludi videtur corpus, cum in C pervenerit, ex eo nunquam esse egressurum, quod autem quomodo fieri possit, cum celeritas eiuss in C sit
+
+infinite magna, nullo modo concipi potest. Accedit quod, cum sit
+
+v
+
+=
+
+dx dT
+
+=
+
+(
+
+2ax- x2 a-x
+
+)
+
+,
+
+celeritas corporis, cum ultra C progrediatur, deberet esse negativa, ideoque corpus a C
+
+non recederet, sed ad C accederet, quae ita pugnant, ut etiam nunc conciliari nequeant.
+
+Corollarium 3.
+
+336. Cum sit elementum temporis dT = dx , erit celeritas corporis in quovis loco
+v
+
+v
+
+=
+
+dx dT
+
+;
+
+ex
+
+data
+
+ergo
+
+temporum lege
+
+simul
+
+celeritas
+
+corporis
+
+in
+
+sungulis
+
+locis
+
+innotescit, quod quidem ex ipso nexu inter celeritates et tempora consequenter nullo
+
+respectu habito ad potentiam (37). [p. 139]
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+PROPOSITIO 44.
+
+page 186
+
+PROBLEMA.
+
+337. Si corpus in recte AP (Fig. 33) ita descendat, ut ea celeritate, quam in P habet,
+
+eodem tempore, quo spatium AP percurrit, progredi possit motu uniformi per spatium
+
+PM, applicatum curvae AM datae, determinari oportet legem potentiae sollicitantis, qua
+
+talis motus generatur.
+
+SOLUTIO.
+
+Posito AP = x et PM = s, erit s ob datam curvam AM
+
+functio ipsius x. Sit porro potentia in P corpus sollicitans
+
+= p, altitudo celeritati in P debita = v et tempus, quo
+
+spatium AP absolvitur, = T. Quam iam spatium s tempore
+
+T celeritate v absolvitur motu aequabili, erit T = s et
+v
+
+  T = dx , quocirca habebitur dx = s , vel
+
+ pdx
+
+ pdx  pdx
+
+ relicto v loco pdx , quo calculus concinnior reddatur,
+
+ erit dx = s . Quae differentiata dat dx = ds - sdv ,
+
+vv
+
+v v 2v v
+
+ ex qua deducitur haec equatio
+
+dx v
+
+=
+
+2ds s
+
+-
+
+2dx s
+
+,
+
+cuius
+
+integralis
+
+est
+
+lv = 2ls - 2
+
+dx s
+
+,
+
+seu
+
+v
+
+=
+
+e-2
+
+dx s
+
+s2
+
+,
+
+denotante
+
+e
+
+numerum,
+
+cuius
+
+logarithmus
+
+est
+
+1.
+
+Sumantur
+
+iterum
+
+differentialia,
+
+prodibit
+
+dv
+
+=
+
+pdx
+
+=
+
+2e-2
+
+dx s
+
+(sds
+
+-
+
+sdx) .
+
+Ex
+
+qua
+
+tandem
+
+elicitur
+
+p
+
+=
+
+2se-2
+
+dx s
+
+(
+
+ds - dx dx
+
+)
+
+.
+
+Innotescit igitur potentia quaesita p ex ista aequatione, quia s in x dari ponitur. Q.E.I.
+
+[p. 143]
+
+Corollarium 1.
+
+338.
+
+Quia
+
+est
+
+v
+
+=
+
+e-2
+
+dx s
+
+s2
+
+,
+
+habebitur
+
+hinc
+
+ipsa
+
+corporis,
+
+quam
+
+in
+
+P
+
+habet,
+
+celeritas
+
+v
+
+=
+
+e-
+
+dx s
+
+s
+
+.
+
+Quam
+
+autem
+
+constantem
+
+in
+
+integratione
+
+ipsius
+
+dx addi oporteat, mox
+
+s
+
+docebitur.
+
+Corollarium 2.
+
+339. Tempus quoque T, quo spatium AP percurritur, facile ex hisce deducitur. Nam cum
+
+sit T =
+
+s
+
+,
+
+habebitur
+
+T
+
+=
+
+e
+
+dx s
+
+.
+
+Cum
+
+igitur
+
+debeat
+
+T
+
+evanescere
+
+facto
+
+x
+
+=
+
+0,
+
+oportet
+
+v
+
+ipsum
+
+dx
+
+ita integrari, ut
+
+e
+
+dx s
+
+evanescat
+
+facto
+
+x
+
+=
+
+0.
+
+Quamobrem
+
+necesse
+
+est,
+
+ut
+
+fiat
+
+s
+
+ dx s
+
+=
+
+-
+
+
+
+,
+
+si
+
+ponatur
+
+x
+
+=
+
+0.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 187
+
+Corollarium 3.
+
+  340. Sit s = nx , erit
+
+dx s
+
+=
+
+1 n
+
+lx
+
++
+
+lc .
+
+Quicquid
+
+igitur
+
+c
+
+denotet,
+
+semper
+
+dx s
+
+fit
+
+=
+
+-
+
+
+
+posito
+
+x
+
+=
+
+0.
+
+Quare
+
+erit
+
+e
+
+dx s
+
+=
+
+1
+cx n
+
+=T
+
+.
+
+Consequenter
+
+prodibit
+
+p
+
+=
+
+2n( n-1) c2
+
+n-2
+xn
+
+atque
+
+v
+
+=
+
+n c
+
+n-1
+xn
+
+.
+
+Corollarium 4.
+
+341. Si ponatur s = x , perspicuum est motum in AP uniformem esse debere, id quod
+
+etiam calculus ostendit. Fit enim n = 1 adeoque p = 0 et
+
+v
+
+=
+
+n c
+
+seu constanti. [p. 144]
+
+Corollarium 5.
+
+342. Si n est unitate minor, celeritas in ipso puncto A fit infinite magna, atque etiam
+
+potentia p ; erit enim reciproce ut potestas exponentis
+
+2-n n
+
+spatiorum
+
+percursorum.
+
+Corollarium 6.
+
+343. Si n est unitate maior, attamen binario minor, sit quidem celeritas in A = 0, sed
+
+potentia manet in A infinite magna decrescitque in ratione quadam multiplicata spatiorum
+
+percursorum.
+
+Corollarium 7.
+
+344. Si n = 2, habemus casum potentiae uniformis. Fit enim
+
+p
+
+=
+
+4 c2
+
+et
+
+v
+
+=
+
+2 c
+
+x.
+
+Hancque proprietatem iam demonstravimus propositione 230, ubi ostendimus corpus in
+
+hac potentiae uniformis hypothesi ex quiete descendens tantam quovis spatio percurso
+
+acquirere celeritatem, quo eadem tempore uniformiter posset duplum spatium percurrere.
+
+Corollarium 8.
+345. Sin vero n binarium excedat, prodeunt ii casus, quos diximus (319) in rerum natura locum obtinere non posse, quamvis calculus aliter ostendat. Fit enim celeritas in A nulla, ibidemque potentia sollicitans evanescit, quamobrem corpus nunquam ex A exire poterit, non obstante calculo, qui tempus T per spatium quodvis AP exhibet finitum. [p. 142]
+Scholion.
+346. Huius propositionis casus est ergo eiusmodi, ut data motus conditio sit ex celeritate et tempore permixta, ex qua legem potentiarum erui oporteat. Plura vero huiusmodi exempla afferre supervacaneum foret, cum ex hoc uno omnium reliquorum solvendorum modus perspiciatur.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 188
+
+PROPOSITIO 45.
+
+PROBLEMA.
+
+347. Datis celeritatibus, quas corpus ex quibuscunque distantiis ad centum virium C (Fig. 34) accedens in ipso centro C acquirit, definire legem vis centripetae huiusmodi descensus producentis, posito, quod corpus singulos descensus ex quiete incipiat.
+
+SOLUTIO.
+
+Repraesentet CM scalam altitudinum celeritatibus,
+
+quas corpus in puncto C acquirit, debitarum, ita ut PM sit
+
+ipsa altitudo debita celeritati, quam corpus ex P
+
+descensum inchoans in C adipiscitur. Curva vero DN sit
+
+scala potentiarum quaesita, cuius scilicet applicatae PN
+
+exhibeant vim centripentam corpus in punctis P
+
+sollicantem; linea vero CB designet vim centripetam vi
+
+gravitatis aequalem. His positis atque corpore ex P ad C
+
+descendente erit altitudo celeritati eius in C debita
+
+aequalis areae CDNP applicatae ad BC (321).
+
+Quamobrem
+
+erit
+
+PM
+
+=
+
+CDNP BC
+
+.
+
+Vocentur
+
+nunc
+
+CP
+
+y,
+
+PM
+
+ v et PN p; [p.143] positoque BC = 1 erit p = pdy et differentiando dv = pdy. Quare cum
+
+detur v in y, erit
+
+p=
+
+dv dy
+
+.
+
+Q.E.I.
+
+Corollarium 1.
+348. Sint celeritates in C acquisitae ut spatia percursa, erit v ut y et conseqenter p ut y. Vis centripeta igitur proportionalis est distantiis a centro C.
+Corollarium 2.
+349. Si celeritates in C acquisitae dignitati exponentis n distantiarum a centro C proportionales ponantur, erit v ut y2n , ergo p ut y2n-1 . Potentia igitur seu vis centripeta distantiarum dignitati 2n ­ 1 est proportionalis.
+
+Corollarium 3.
+
+350. Quia celeritas in C acquisita, cum fuerit y = 0, debet esse quoque = 0 et praeterea
+
+maiori distantiae y maiori celeritas respondere debeat, non poterit non n numerum
+
+affirmativum significare.
+
+Corollarium 4.
+
+351.
+
+Potentia
+
+autem
+
+p
+
+erit
+
+constans,
+
+cum sit
+
+n=
+
+1 2
+
+;
+
+quo
+
+numero
+
+si
+
+n
+
+fuerit
+
+minor,
+
+erit
+
+vis
+
+centripeta reciproce ut dignitas quaedam distantiarum a centro C. Sin n fuerit
+
+>
+
+1 2
+
+, erit p
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 189
+
+directe ut huiusmodi dignitas quaedam. In illo casu ergo vis centripeta in C erit infinite
+
+magna et decrescet crescentibus distantiis; hoc vero casu erit in C = 0 crescetque
+
+crescentibus distantiis. [p. 144]
+
+Corollarium 5.
+
+352.
+
+Cum
+
+sit
+
+PM
+
+=
+
+CDNP CB
+
+,
+
+perspicuum
+
+est
+
+curvam
+
+CM
+
+esse
+
+etiam
+
+scalam
+
+altitudinem
+
+celeritatibus debitarum, cum corpus ex C egrediatur in recta CP, vi centripeta in
+
+centrifugam mutata, atque motum a quiete incipiat. (321)
+
+Scholion.
+353. Quanquam autem hoc modo problema reductum sit ad prop. 42 (326) transmutata vi centripeta in centrifugam, tempus tamen ascensus per CP in casu vis centrifugae non erit aequale tempori descensus per PC in casu vis centripetae. Neque enim aequalitas celeritatum, quae in utroque casu per aequalia spatia generantur, temporum aequalitatem inducit, sed ex ipso etiam intuitu contrarium apparet. Nam quoties vis centripeta in C est = 0, etiam vis centrifuga in evanescit ; quamobrem tempus ascensus per CP erit infinitum (314), cum tamen descensus absolvatur tempore finito. Nullum igitur adminiculum ex ista similitudine celeritatum ad solutionem sequentis problematis suppeditatur. In sequenti autem propositione dari ponuntur tempora, quibus singuli descensus absolvuntur, eaque non solum est difficillima solutu, sed ex scala temporum nequidem scala potentiarum ullo modo potest construi. Quocirca non nisi casus particulares in hac propositione complectemur, quorum solutio vires nostras non superat. [p. 145]
+
+PROPOSITIO 46.
+
+PROBLEMA.
+
+354. Si fuerit tempora, quibus corpus ex quibuscunque distantiis PC (Fig. 35) ad centrum virium C pervenit, in ratione quacunque multiplicata distantiarum, definire legem vis centripetae.
+
+SOLUTIO.
+
+Sint ista tempora ut potestates distantiarum exponentis
+
+n, sitque curva DN scala vis centripetae quaesita, ita ut
+
+applicata v exponat potentiam, qua corpus in  existens
+
+ad C urgetur, repraesentante CB vim gravitatis. His
+
+positis descendat corpus ex puncto quocunque P, et
+
+ponatur distantia PC = a, erit ergo tempus descensus per PC ut an, quamobrem id ponamus = Can, denotante C
+
+quantitatem constantem, in qua a non insit, quia a ob
+
+punctum P variabile reipsa est quantitas variabilis.
+
+Pervenerit nunc corpus in locum quemcunque  et vocetur C = x, erit altitudo celeritati eius in hoc loco
+
+debita =
+
+PNv BC
+
+=
+
+CPND-CvD BC
+
+(321).
+
+Ponatur autem area CPND = A et area CvD = X
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 190
+
+atque BC = 1; erit ergo altitudo celeritati in  debita = A ­ X et ipsa celeritas = ( A - X ).
+
+Notandum hic autem est X esse functionem quandam ipsius x et constantium, in qua non sit a; area enim CvD non pendet a puncto P, sed retinet eundem valorem, ubicunque accipiatur punctum P, dummodo distantia C maneat eadem. Qualis autem X est functio ipsius x, talis etiam esse debebit A functio ipsius a; abeunte enim x in a functio X transmutabitur in A. [p. 146] Iam tempus, quo hoc descensu spatium C percurritur, erit =
+ dx , quod integrale ita debet esse sumtum, ut facto x = 0 ipsum evanescat. Ex hac ( A- X )
+
+igitur expressione habebitur integrum tempus descensus per PC, si ponaturx = a, quo casu X quoque transmutatur in A. Quia autem haec resultans quantitas ita debet esse comparata, ut in ea a habeat n dimensiones (oportet enim eam aequalem esse ipsi Can), in
+ indefinito integrali dx a et x simul habeant necesse est ubique n dimensiones. (A- X )
+
+Quamobrem etiam formula differentialis dx n habebit dimensiones,
+( A- X )
+
+dimensionemque unam constituere existimanda sunt tam a et x quam dx. Perspicuum
+
+igitur est in A - X 1 - n inesse debere dimensiones atque in A - X 2 - 2n dimensiones ipsarum a et x. Sed quia in X non inest a, debebit X functio
+
+esse 2 - 2n dimensionum solius x; aliud ergo X esse non poterit nisi bx2-2n , et propterea erit A = ba2-2n . Constans quidem quantitas ad bx2-2n addici potest, cum ea, quia ad ba2-2n pariter est addenda, ex A - X iterum excedat. Nam si ponatur X = bx2-2n + bc2-2n et idcirco A - X = b(a2-2n - x2-2n ) . Sed quia X denotat aream
+CvD, evanescere debet facto x = 0, quamobrem, si est 2 - 2n numerus positivus, semper debet esse bc2-2n = 0 ; at si 2 - 2n evadet numerus negativus, quantitas bc2-2n designabit quantitatem infinitam negativam. Quicquid igitur sit, bc2-2n debet esse b02-2n ; hoc enim, si 2 - 2n seu 1 - n est numerus affirmativus [p. 147], sponte evanescit, et si 1 - n est negativum, praebet infinitum requisitum. Sed cum sit propositum legem vis centripetae invenire, nihil refert, sive haec quantitas constans sit = 0 sive infinita. Namque posita vi centripeta in  = p = v, erit area
+  CvD= pdx . Quamobrem habibitur bx2-2n + bc2-2n = pdx , et sumtis differentialibus
+
+prodibit p = (2 - 2n)bx1-2n . Consequenter vis centripeta debet esse in (1 - 2n )-plicata
+
+ratione distantiarum. Q.E.I.
+
+Corollarium 1.
+355. Quo igitur omnes descensus ad centrum C sint isochroni seu absolvantur aequalibus temporibus, poni debet n = 0, quo facto provenit vis centripeta distantiis directe proportionalis. Iam quidem animadvertimus hoc casu omnes descensus ad centrum esse isochronos (283).
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 191
+
+Corollarium 2.
+
+356. Si ponatur n = 1, ut tempora descensuum sint spatiis percursis proportionalia,
+
+invenitur vis centripeta distantiis reciproce proportionalis. [Correxit P. St.]
+
+Corollarium 3.
+
+357.
+
+Si
+
+n
+
+=
+
+1 2
+
+seu
+
+tempora
+
+in
+
+ratione
+
+subduplicata
+
+distantiarum,
+
+vis
+
+centripeta
+
+habetur
+
+constans,
+
+quam
+
+proprietatem
+
+iam
+
+supra
+
+eruimus
+
+(218).
+
+Si
+
+ergo
+
+n
+
+>
+
+1 2
+
+,
+
+vis
+
+centripeta
+
+crescente
+
+distantia
+
+descrescet,
+
+sin
+
+n
+
+<
+
+1 2
+
+,
+
+crescet
+
+crescente
+
+distantia.
+
+[p.
+
+148]
+
+Scholion.
+
+358. Hae quidem proprietates omnes consequuntur ex propositione 39 (308), ubi
+
+demonstravimus, si vis centrepeta fuerit ut potestas exponentis n distantiarum, tempora
+
+descensuum
+
+fore
+
+in
+
+ratio
+
+1-n 2
+
+-plicata
+
+distantiarum.
+
+Quae
+
+propositio
+
+egregie
+
+cum
+
+hac
+
+nostra conspirat; posito enim n loco
+
+1- n 2
+
+prodibit 1 ­ 2n loco n. Neque tamen me hac
+
+propositione acta egisse putandum est, nam hic a priori modo analytico ex data temporum
+
+conditione legem vis centripetae erui, cum ibi inverso ordine ad idem fuerim perductus.
+
+Neque praeterea ante certum erat praeter has inventas virium centripetarum leges alias
+
+non satisfacere. Ipsa vero solutio incredibilem in posterum praestat utilitatem. Nam quia
+
+mere est analytica et peculiarem a nemine adhuc adhibitam methodum complectitur, ad
+
+plurima alia problemata solvenda deducere potest, quae aliis methodis frustra tentantur.
+
+Ita cum huiusmodi methodus adhuc incognita esset, neque isochroni descensus neque
+
+curva tautochrona a priori sunt inventa, sed examinantes vel vim centripetam distantiis
+
+proportionalem vel curvam cycloidem inopinato in istas proprietates inciderunt
+
+Geometrae.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+PROPOSITIO 47.
+
+page 192
+
+PROBLEMA.
+
+359. Data scala potentiarum BND (Fig. 36) , quibus corpus per spatium AC descendens sollicitatur, invenire innumerabiles alias ut  , quibus corpus sollicitatum in C eadem
+acquirit celeritatem, posito corpore semper in A motum ex quiete inchoante. [p. 149]
+
+SOLUTIO. Cum pro scala potentiarum BND altitudo debita celeritati, quam corpus in C habebit, aequalis sit areae
+
+ABCD CE
+
+(321), exponente CE vim gravitatis, et pro scala
+
+
+
+ista altitudo =
+
+AC CE
+
+(cit.),
+
+debebit
+
+esse
+
+ABDC
+
+=
+
+AC , quam propietatem utique infinitae curvae habere
+
+possunt. In quocunque quidem spatii AC puncto P haec proprietas locum habere nequit, ut esset ABNP = AP ,
+
+nisi curva  incidat in alteram BND. Erit ergo
+
+discrimen quoddam inter has areas, quod vocemus Z, ita ut sit AP = ABNP - Z , quae differentia Z ita debet esse comparata, ut evanescat
+
+puncto P tam in A incidente quam in C. Hanc ob rem constructa super axe AC curva quacunque AMC, quae in punctis A et C cum axe occurrat, poterit eius applicata PM loco huius Z usurpari; evanescit enim puncto P et in A et in C translato. Quo autem ex eadem curva AMC innumerabiles curvae  deduce queant, expedit functionem quandam
+
+ipsius applicatae PM loco Z adhibere quam ipsam. Haec vero functio hanc habere debebit
+proprietatem, ut fiat = 0, si evanescit PM. His iam ita institutis ponatur AC = a, AP = x, PN = y, P = Y et PM = z, quarum quantitatum a, x, y, et z nec
+
+non Z, functio ipsius z, tanquam datae considerari possunt, incognita vero quantitas erit Y,
+
+  [p. 150] quae ex hac aequatione Ydx = ydx - Z definietur. Sumtis enim differentialibus
+
+prodit
+
+Y
+
+=
+
+y
+
+-
+
+dZ dx
+
+,
+
+ex qua aequatione curva  construi poterit. Q.E.I.
+
+Corollarium 1.
+
+360. Sit
+
+Z
+
+= nz2 , erit
+
+dZ
+
+= 2nzdz et
+
+Y
+
+=
+
+y
+
+-
+
+2nzdz dx
+
+. At
+
+2nzdz dx
+
+denotat
+
+subnormalem
+
+in
+
+curva AMC, ducta normali MR in puncto M. Si itaque accipiatur N , quae linea est =
+
+y - Y , aequalis cuicunque multiplo subnormalis PR, curva  quaesito satisfaciet.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Three (part b).
+
+Translated and annotated by Ian Bruce.
+
+page 193
+
+Corollarium 2.
+
+361. Possumus etiam ponere dZ = pzdz , denotante p functionem quamcunque ipsius z.
+
+Hic enim non opus habemus ad hoc respicere, quod Z evanescere debeat posito z = 0.
+
+Nam quaecunque functio loco p acciriatur, integrale ipsius pdzdz semper ita potest accipi,
+
+ut fiat = 0 posito z = 0. Hanc ob rem habebimus
+
+Y
+
+=
+
+y-
+
+pzdz dx
+
+=
+
+y-
+
+p.PR seu
+
+N
+
+=
+
+p.PR,
+
+quae constructio latissime patet.
+
+Scholion.
+362. Notandum hic est non necesse esse, ut loco curvarum BND et AMC curvae regulares, quae aequationibus certis contineantur, adhibeantur. Sed ad construendas curvas  sufficit curvas etiam vel maxime irregulares nulla aequatione contentas accipere. Pariter enim constructio determinandis subnormalibus succedit. [p. 151]
+PROPOSITIO 48.
+
+PROBLEMA.
+
+363. Data scala potentiarum BND (Fig. 36) , quibus corpus spatium AC percurrens sollicitatur, invenire innumerabiles alias ut  , quibus efficiatur, ut corpus eodem
+tempore spatium AC absolvat.
+
+SOLUTIO.
+Sumto quocunque spatio AP sit tempus, quo hoc absolvitur urgente scala potentiarum BND, = t et tempus, quo idem spatium agente scala  absolvitur, sit = T, ponatur
+
+T = t + Z , quae quantitas Z evanescat puncto P tam in A quam in C translato. Hanc ob rem ut ante facio Z functionem applicatae PM curvae AMC in A et C cum axe AC occurrentis, talem, ut evanescat facto PM = z = 0 . Dicantur nunc AP x, PN y et Pv Y, et
+
+  erit t = dx atque T = dx , quocirca hanc habebimus aequationem
+
+ ydx
+
+ Ydx
+
+  dx = dx + Z, ex qua Y determinari poterit. Nam differentiando habebitur
+
+ Ydx
+
+ ydx
+
+  dx = dx + dZ , ex qua prodit
+ Ydx  ydx
+
+Ydx = dx  ydx atque Ydx = dx2  ydx .
+
+dx+dZ  ydx
+
+(dx+dZ  ydx )2
+
+Quia vero ista quantitas ob datas x, y et Z construi potest, ponatur ea = P, eritque
+
+Ydx
+
+=
+
+dP;
+
+consequenter
+
+invenitur
+
+Y
+
+=
+
+dP dx
+
+.
+
+Q.E.I.
+
+[p.
+
+152]
+
+Corollarium 1.
+
+364. Sit dZ = pzdz ut ante denotante p functionem quamcunque ipsius z, erit
+
+zdz dx
+
+=.
+
+subnormali PR, quam ponamus = r. Quo facto habebitur P =  ydx
+(1+rp  ydx )2
+
+atque
+
+Y
+
+=
+
+dP dx
+
+.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Three (part b).
+Translated and annotated by Ian Bruce.
+
+page 194
+
+Corollarium 2.
+365. Sit curva data BND linea parallela axi AC, ita ut potentia sit uniformis; semper enim potentia uniformis datur, quae efficiat, ut corpus dato tempore spatium AC absolvat.
+
+ Ponatur AB = PN = b ; erit ydx = bx. Unde habebitur P = bx , hacque (1+rp bx )2
+
+differentiata
+
+obtinetur
+
+Y
+
+=
+
+dP dx
+
+.
+
+Scholium.
+366. Duas has posteriores propositiones inter se fere similes ideo innexi, quia peculiarem etiam solvendi modum requirunt, cuius utilitas in sequentibus reddetur conspicua. Ceterum vero ipsae propositiones non sunt inelegantes et huic capiti, in quo omnes casus motum rectilineum a potentiis productum respicientes exponere constituimus, necessario erant inserendae. Neque vero eas ad casus speciales accommodare idoneum visum est, ob nimis prolixum calculum, ad quem fuisset perveniendum. His igitur relictis pergimus ad motus rectilineos in medio resistente.
+
+

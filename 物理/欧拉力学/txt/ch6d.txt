@@ -1,0 +1,2199 @@
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 681
+
+CHAPTER SIX (Part d).
+CONCERNING THE CURVILINEAR MOTION OF A FREE POINT IN A RESISTIVE MEDIUM
+[p. 454]
+PROPOSITION 126.
+PROBLEM. 1063. If the curve AM is given (Fig.93), on which the body is moving, and the angular motion about the centre of force C, to find both the centripetal force attracting the body towards C as well as the resistance at individual places.
+SOLUTION. As before by placing CM = y, CT = p, Mm = ds, with the speed at M corresponding to the height v, the centripetal force equal to P and the resistive force equal to R, the periphery ELl of a circle is taken described with centre C and with radius EC = 1 on which the body [p. 455] is carried around C with the same angular motion C as the body is carried around the curve AM. Hence the element Ll is completed in the same time as the element Mm. Now let the speed along the element Ll correspond to the height u; and u is given, since the angular motion is given. And it is found that :
+
+Truly we have : and consequently,
+
+Ll
+
+:
+
+mr
+
+=1:
+
+y
+
+or
+
+Ll
+
+=
+
+mr y
+
+, again
+
+it
+
+is
+
+the
+
+case
+
+that
+
+mr : Mm =
+
+p:
+
+y and likewise
+
+mr
+
+=
+
+p.Mm y
+
+,
+
+On account of this :
+
+Ll
+
+=
+
+p.Mm y2
+
+.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+Now from this ratio found for v, it is the case that (1005) :
+
+page 682
+
+(1007). And if the resistance is itself put proportional to the square of the speeds, and the exponent of the resistance is equal to q, then the exponent becomes :
+
+Q.E.I.
+
+Corollary 1.
+
+1064.
+
+If
+
+the
+
+centripetal
+
+force
+
+P
+
+is
+
+proportional
+
+to
+
+dp p3dy
+
+,
+
+and
+
+since
+
+that
+
+happens
+
+when
+
+the
+
+body moves in a vacuum, then u varies inversely as y4 . Whereby the angular speed then
+
+varies inversely as the square of the distance of the body from the centre. Moreover, with
+
+y4u put constant, it is evident that the resistance R vanishes from the other equation.
+
+Corollary 2.
+1065. If the body approaches the centre C, thus as y decreases we have:
+
+Whereby the resistance becomes :
+
+From which it is understood, if y4u is the power of this y, [p. 456] of which the exponent is a positive number, then the resistance also becomes positive. But if the exponent of this power of y is negative, then the resistance also is negative.
+Corollary 3.
+1066. If the angular motion is made uniform or u is constant, then du = 0 and likewise
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 683
+
+Corollary 4.
+
+1067. Let the angular speed be as the power of the exponent n of the distance y or
+
+u=
+
+y2n f 2n-1
+
+,
+
+then
+
+the
+
+resistance
+
+the centripetal force
+
+and for the resistance of the medium in the square ratio of the speed, the exponent of the resistance is given by :
+
+Example.
+1068. Let the curve AM again be the hyperbolic spiral expressed by the equation :
+
+and the angular speed is as yn or as before
+
+u=
+
+y2n f 2n-1
+
+.
+
+Moreover
+
+since
+
+then [p. 457]
+
+and the centripetal force
+
+If the resistance is put proportional to the speed itself, then the exponent of the resistance is equal to [Recall that the exponent of the resistance goes with the corresponding height or the square of the speed] :
+But on the contrary if the resistance is put proportional to the square of the speed and the exponent of the resistance is q, then we have
+Which clearly agrees with these which have been treated in the above example (1061).
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 684
+
+PROPOSITION 127.
+
+PROBLEM. 1069. If the resistance is given by some power of the speed and likewise the exponent of the resistance, also in addition the angular motion of the body about the centre C is given (Fig.93), from these to find the curve that the body describes, and the centripetal force pulling towards the centre C.
+
+SOLUTION. [p.433]
+
+On putting CM = y, CT = p, Mm = ds, with the height corresponding to the speed at
+
+M equal to v, the centripetal force equal to P ,
+
+the resistance R is given by
+
+R=
+
+vm qm
+
+,
+
+where q is given in terms of y. Then the angular motion is considered as before [p. 458]
+
+as the motion performed by a point on the periphery of the circle ELl, the radius of which
+
+CE = 1. Now with the speed put in place in which Ll is describes, corresponding to the
+
+height u, we can elucidate as in the preceding proposition,
+
+Moreover this last equation, in which u and q are given quantities, expresses the nature of the given curve, for which we therefore have :
+or
+Truly from the known nature of the described curve, or from the equation between p and y, the centripetal force becomes known at once, clearly it is
+
+Q.E.I.
+Corollary 1.
+1070. If the angular speed is to become constant, which cannot happen in a vacuum unless the body moves in a circle, then du = 0 and this produces the equation for the curve sought :
+Hence with q given in terms of y, this equation between p and y is integrable, from which the curve can be constructed.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Six (part d).
+
+Translated and annotated by Ian Bruce.
+
+Corollary 2.
+
+1071. If
+
+u is given in terms of
+
+y as
+
+u=
+
+y2n f 2n-1
+
+,
+
+then
+
+[p.
+
+459]
+
+page 685
+
+Which equation between y and p is also integrable, and likewise is sufficient for the curve to be constructed.
+Corollary 3.
+1072. If the angular speed is given through the arc EL or du through the element of this
+
+(1063), thus in order that
+
+there becomes :
+
+(
+
+dy y2- p2
+
+)
+
+=
+
+g k ydu uk p
+
+.
+
+With
+
+this
+
+value
+
+substituted
+
+the
+
+equation
+
+becomes
+
+:
+
+and
+
+From the equation the value of p substituted into the equation du = uk pdy determines u in terms of y. Hence also the equation between p and y is
+gk y ( y2- p2 )
+obtained.
+
+Corollary 4.
+
+1073. If the resistance should be in the simple ratio of the speed or
+
+m
+
+=
+
+1 2
+
+, the equation
+
+immediately gives u in terms of y. [p. 460] Which value substituted in the equation du = uk pdy gives the equation between y and p.
+gk y ( y2- p2 )
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 686
+
+Example 1.
+1074. The medium offers resistance in the square ratio of the distances and the exponent
+
+of the medium is
+
+q
+
+=
+
+y 
+
+. Truly the angular motion is taken as uniform or
+
+u = b. Then m
+
+= 1 and 4 ( y2 - p2 ) = y (1070). Hence there is produced :
+
+Whereby the curve described is a logarithmic spiral, in which the sine of the angle that
+
+the radius makes with the tangent is
+
+(16- 2 ) 4
+
+and the cosine is equal to
+
+ 4
+
+. Truly the
+
+centripetal
+
+force
+
+is
+
+equal
+
+to
+
+32by 16- 2
+
+.
+
+But if the medium is made uniform or q = c, then the equation becomes :
+
+Example 2.
+
+1075. The medium offers resistance in the simple ratio of the speed and that is uniform,
+
+also
+
+the
+
+angular
+
+speed
+
+is
+
+made
+
+constant;
+
+then
+
+m
+
+=
+
+1 2
+
+,q
+
+=
+
+c,u
+
+=
+
+b. With
+
+these
+
+substituted
+
+we have this equation for the curve described :
+
+Which curve is also a logarithmic spiral, in which the sine of the angle of intersection is
+
+4 bc , the cosine is equal to 1 , and the tangent is equal to 4 bc . Truly in
+
+(1+16bc )
+
+(1+16bc )
+
+this case the centripetal force is equal to
+
+y(1+16bc 8c
+
+)
+
+.
+
+Because in these formulas uniformity of dimensions is not observed, the reason for is because we have put the radius of the circle EC equal to 1. Therefore by this means
+
+uniformity with unity is restored.
+
+Scholium. [p. 461]
+1076. There are many central forces that we do not consider in this chapter, since also in this case as in a vacuum, hardly any can equations can be deduced in order to determine the motion. If a certain centre of force attracts in the simple ratio of the distances, any number greater than one have no difficulty in attracting in the simple ratio of the distances, as we have shown above (702). And this agreement applies equally with a resisting medium in place of the vacuum. On account of which, when now we consider one centre of force attracting in the simple ratio of the distances, there is no need for us to
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Six (part d).
+
+Translated and annotated by Ian Bruce.
+
+page 687
+
+go through the motions of including several more of the same kind. Therefore we
+
+progress to the case of the widest applicability, in which all the motions produced in the
+
+same plane are dealt with. Obviously we consider two absolute forces the directions of
+
+which are mutually perpendicular to each other, and the individual forces making up each
+
+kind are parallel to each other. For it is agreed that any forces existing in the same plane
+
+can be resolved into two forces of this kind. Besides in this treatment not only do we
+
+embrace all the cases of absolute forces, but also it is allowed to observe certain special
+
+cases concerning centripetal forces, which were barely evident in the preceding. For here
+
+we can immediately reduce the description of the curve to an equation between the
+
+orthogonal coordinates, because in this case the distance between the centre and the
+
+perpendicular to the tangent has been found for any point on the curve. [p. 462]
+
+PROPOSITION 128.
+
+PROBLEM. 1077. If the body at M (Fig.94) is acted on by two forces, of which the one has the direction MP normal toe the given line AC, and the other truly has the direction MQ parallel to AC itself or normal to BC, to determine the curve AM which the body describes in any medium with resistance due to action of these forces.
+
+SOLUTION.
+Calling CP = MQ = x, PM = CQ = y, the element Mm = ds; and with drawing mp and mq there is produced Pp = ­ dx and Qq = dy and ds = ( dx2 + dy2 ). Let the force, by which the body
+is drawn along MP be equal to P and the force, by which the body is drawn along MQ, be equal to Q, truly the resistance is equal to R and the speed at M corresponds to the height v. Now the forces P and Q are resolved into normal and tangential forces with the help of the perpendiculars sent from P and Q to the tangent Tt ; hence the normal force arising from P is equal to :
+
+and the tangential force is equal to : Truly by resolution from the force Q the tangential force is equal to :
+
+and the normal force is equal to :
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+Therefore the total normal force is equal to :
+
+page 688
+
+and the total tangential force emerging is equal to :
+which force is diminished by the resistance R, and from which total the accelerating force produces the motion. Hence from these with the radius of osculation at M put equal to r , it follows that
+(866). [p. 463] Hence on eliminating v from these equations the equation arises expressing the nature of the described curve. Q.E.I.
+Corollary 1.
+1078. If the element ds of the curve is placed constant, then the radius of osculation
+Therefore with this value substituted there is
+Corollary 2.
+1079. From the equations solved together it is found that
+From which, if the relation between P and Q is given, the equation is immediately obtained, for which the curve is given in terms of v alone.
+Corollary 3.
+1080. If the body is always attracted by some force towards the centre C, then P : Q = y : x. Therefore this equation is then obtained : Which on putting y = px results in this equation :
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Six (part d).
+
+Translated and annotated by Ian Bruce.
+
+page 689
+
+Corollary 4.
+
+1081. In a vacuum, in which R vanishes and the body is attracted towards the centre, this
+
+becomes :
+
+Besides truly there is : [p. 464]
+
+From which this equation is obtained :
+
+or by taking Q in place of P this equation :
+
+Corollary 5.
+1082. If the centripetal force attracting towards C is equal to
+
+Therefore in a vacuum this equation is obtained for the described curve :
+With B put in place for - Af n and with dx constant, this equation arises from differentiation : Truly with dp made constant, this equation is produced :
+
+On
+
+making
+
+x
+
+=
+
+1 q
+
+,
+
+this
+
+becomes
+
+:
+
+Of these equations although the integration is not apparent, yet the integral is which was found in the previous chapter.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 690
+
+[This has been solved by Paul Stackel in the O.O. : With MC = ( xx + yy ) = z the
+
+equation is found (601, 685)
+
+Let
+then we have
+or On substituting thus in order that :
+there is made :
+With which equations solved there is obtained : ]
+Corollary 6.
+1083. Nevertheless although this equation :
+
+is of second order differentials, yet it is more convenient than the differential equation of the first order in determining the curves [p. 465], which the projected body describes attracted either in the simple ratio of the distances or inversely as the square of the distances.
+
+For in the simple ratio there is n = 1 and 2Bq3ddq + dp2 = 0. On making dp = wdq; on
+
+account of
+
+dp being constant we have
+
+ddq
+
+=
+
+-
+
+dwdq w
+
+,
+
+hence
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+Hence there is obtained :
+
+page 691
+
+or (with the meaning of the symbols changed)
+since B is a negative quantity.
+Corollary 7.
+1084. If n = ­2 or the body is attracted in the reciprocal ratio of the distances squared, it is in the vacuum the described curve
+
+with B taken negative, as is required. Hence on integrating it becomes :
+
+and on integrating again :
+Of which each curve is the section of a cone; that one indeed an ellipse, yet all of these are embraced.
+Scholium 1.
+1085. In the preceding chapter, in which we presented the motion of bodies in a vacuum, we also determined curves which a body described with a centripetal force either proportional to the distances or inversely proportional to the square of the distances; and it was convenient to find these curves from these laws in the given corollaries. [p. 466] Indeed the methods are maximally different; for there we arrived at algebraic equations from the comparison of circular arcs, here truly by integration an algebraic equation between the coordinates is spontaneously given. Truly this method, although it is more convenient in the two cases already given, yet in other cases it is troubled with difficulties. For in other hypotheses of centripetal force this method indeed is unable to give a differential equation for the curve described, that yet can always be done with equal ease by the other direct method to give the curve described. Yet this should be ascribed to defective analysis rather than to the method, when we may know the integral of the second order differentials [This is referred to as a differential of the differential equation in the text] of the equation
+that is
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Six (part d).
+
+Translated and annotated by Ian Bruce.
+
+page 692
+
+from the method used in the preceding chapter, truly we may not be able to elicit this
+
+integral from the second order equation.
+
+Scholium 2.
+
+1086. The problems of reciprocal natures that can be proposed around these forces, this
+
+has now been solved in Cor. 2, in which from a given curve, with the resistance of the
+
+medium and the speed at individual points given also, the forces acting along MP and
+
+MQ are sought which produce this motion. As if the curve AMB is a circle with centre at
+
+C and having radius
+
+AC = a and the resistance is equal to
+
+v c
+
+and speed is constant, truly
+
+v = b, then it is x2 + y2 = a2 and [p. 467]
+
+In a similar manner, since there are five things that are arrived at in the consideration : truly the two forces P and Q, thirdly the resistance R, in the fourth place the speed at the individual places or v, and in the fifth place the nature of the curve described or the equation between x and y, always three of these can be taken as given and the two remaining are to be found from these. On this account there are ten problems that can be formed from the number of combinations, in which three are taken from five. But so that we are not detained to any extent in working these out, and from which not much can be deduced that is useful, we treat a single problem, in which the medium offers resistance in the square ratio of the speed and the curve described is sought from a given centripetal force.
+
+PROPOSITION 129.
+
+PROBLEM. 1087. If a body moves in a medium that resists as the square ratio of the speed, and if the force P is to the force Q as MP to MQ (Fig.94) or, which is the same, if the body is drawn to the centre C by some force, to determine the curve AMB described by the body.
+
+SOLUTION.
+
+As before on placing CP = x, PM = y, Mm = ds and y = px, let the speed at M
+
+correspond
+
+to
+
+the
+
+height
+
+v
+
+and
+
+the
+
+exponent
+
+of
+
+the
+
+resistance
+
+is
+
+q;
+
+that
+
+is,
+
+R
+
+=
+
+v q
+
+.
+
+And
+
+since there is the ratio P : Q = y : x, then this gives
+
+(1080). [p. 468] Which equation divided by vxdp becomes this equation :
+
+the integral of which is
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 693
+
+Truly this equation :
+
+(1079) multiplied by
+
+e
+
+
+
+ds q
+
+ds
+
+dx
+2
+
+and
+
+integrated
+
+gives
+
+in which the value of v found substituted gives :
+
+This equation is differentiated with dx placed constant, and it becomes :
+
+Which is the equation for the curve sought. Q.E.I.
+
+Corollary 1.
+
+1088. This equation for the curve found does not differ from the equation found in a
+
+  vacuum(1081), except that this has
+
+e
+
+ds q
+
+Qdx
+
+,
+
+when
+
+there
+
+-
+
+Adx 2 x 4 dp 2
+
+is equal to
+
+Qdx
+
+only.
+
+Corollary 2.
+1089. If the element dp is assumed for the constant, then this equation is produced :
+
+[p.
+
+469]
+
+In
+
+which
+
+if
+
+we
+
+put
+
+x
+
+=
+
+1 z
+
+,
+
+there
+
+arises
+
+:
+
+Corollary 3.
+1090. If the centripetal force attracting towards C is equal to :
+
+Whereby we have this equation for the curve given :
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+Which with the logarithms taken and differentiated , gives
+Truly this is :
+Corollary 4.
+1091. With everything the same in place : giving
+Put z = e udp and this equation is produced :
+
+page 694
+
+Scholium.
+1092. I doubt that this second order differential equation can in any case be reduced to a differential equation of the first order [p. 470]; or yet that which we put in place above, where we considered the customary centripetal forces (1020). Therefore in a medium with resistance the method of working does not yet seem to be useful, as much as it brought in a vacuum, even for the cases in which n is either 1 or ­2. On this account, since in this matter hardly anything more can be expected, I leave the motion made in a plane with a resisting medium, and I proceed to consider non­coplanar motion, connecting the body with the absolute forces and the force of resistance acting on it. Where in this business it is alright for a little easy understanding to lead to apparent knowledge, I am content to expound the rules, from which we are able to arrive at an equation for any proposed problem.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 695
+
+PROPOSITION 130.
+
+PROBLEM.
+1093. In a medium with some resistance acting a body is acted on by three forces, of which one is along the tangent, and the remaining two are normal to the direction of the body, and in two planes with the normals between each normal in turn; to determine the motion of the body and the curve which it describes.
+SOLUTION. From the element Mm (Fig. 95) which the body describes, from the ends M and m the perpendiculars MQ and mq are sent, and from the points Q and q the perpendiculars QP and qp are sent to the fixed axis AP in the fixed plane APQ [p. 471]. Then put AP = x, PQ = y and QM = z, with the height corresponding to the speed at M equal to v. Now let the tangential force be equal to T. The first of the normals , the direction of which lies in the plane Mq, is equal to N and the other, the direction of which is normal to the plane Mq, is equal to M. The force of the resistance is truly equal to V. Moreover since the force of the resistance V does not affect the normal forces, but only has a little effect on the tangential force, the effect of the normal forces N and M remains unchanged, but in effect the tangential force has to be defined by putting T ­ V in place of T. Whereby, when we determine the effect of these forces now above (809), the same equations prevail given there and here, if in this way T ­ V is put in place of T. On this account these equations are produced for the resisting medium :
+
+and
+(809). From which with v eliminated there are two equations involving the three coordinates x, y, z, which express the nature of the curve sought. Moreover it is assumed that the element dx is assumed to be constant in these equations. Q.E.I. [p. 472]
+Corollary 1.
+1094. The two latter equations can be solved together in order that v is eliminated and give this equation :
+Which are equally valid for some medium and for a vacuum (810).
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 696
+
+Corollary 2.
+1095. It is evident from this equation, if N or M vanishes, the motion of the body is of such a kind. For on putting N = 0 it becomes :
+
+Truly dz is the tangent of the angle, by which the element Mm is inclined to Qq.
+( dx2 +dy2 )
+Whereby this angle is constant; since QM has a given ratio to the projection BQ of the described curve in the plane APQ.
+Corollary 3.
+1096. If M = 0, then ddy = 0 and thus the projection BQ is a straight line. Therefore the total curve described by the body is put in a plane normal to the plane APQ and cutting the line BQ.
+Corollary 4.
+1097. From the equation (1094) there arises
+Whereby, since it becomes
+then
+
+1098. Whereby, if
+
+Corollary 5.
+
+then the body also moves in a plane, since then ddz = 0 and dz = dx. For the projection of the described curve is a straight line in the plane normal to the plane [p. 473] APQ with the normal AP.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+Corollary 6.
+1099. Moreover the plane, in which the two elements Mm and m have been placed (Fig. 96) which the body describes, is determined in a like manner to that in the vacuum, since the determination of this plane only depends on the coordinates x, y and z. Truly if this plane is SMR, and it cuts the plane APQ in the line OR, then
+
+page 697
+
+And the tangent of the angle that the
+
+plane RMS constitutes with the plane
+
+APQ, or
+
+MQ QV
+
+,
+
+is
+
+equal
+
+to
+
+(812).
+
+Corollary 7.
+
+1100. Therefore the tangent of the angle, which the plane RMS makes with the plane
+
+APQ , is equal to the secant of the angle POR taken by
+
+ddz ddy
+
+.
+
+Corollary 8.
+1101. Therefore in the case, in which the force N vanishes, since it is given by :
+
+the tangent of the angle POR
+
+=
+
+dx dy
+
+or POR = RQS. Therefore it then follows that QV falls
+
+on QS. Truly the tangent of the angle, that RMS makes with RQS , is equal to
+
+Whereby this angle is constant, on account of (1095). Truly it is found that :
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 698
+
+Corollary 9. [p. 474]
+1102. As in corollary 1, the ratio is given between ddy and ddz for the normal forces M and N, and if the proportionals are substituted in their place then the position of the plane RMS is determined by a first order differential equation. But all these apply equally well for a vacuum and for a resisting medium. Whereby also this result agrees with these that were presented above in proposition 98 in a straightforward manner.
+PROPOSITION 131.
+PROBLEM. 1103. If a body M (Fig.97) in some resisting medium is drawn by three forces, of which the direction of one is Mf parallel to the AP, the direction of another Mg is parallel to the applied line PQ placed in the plane APQ and the direction of the third is MQ sent normally to the plane APQ from M, to find the motion of the body and the line that it describes.
+SOLUTIO. As before by putting AP = x. PQ = y and QM = z and with the speed at M corresponding to the height v, let the force drawing along Mf be equal to P, the force drawing along Mg be equal to Q, and the force drawing along MQ equal to R, and the force of the resistance at M is equal to V. These three forces can be resolved into three others, the directions of which agree with these in the previous proposition, [p. 475] and the tangential force produced
+(these are the normal forces)
+and
+(823). For here we use the same denominators, as with these in Proposition 99. Therefore with these values substituted in the preceding formulas we have the following three equations :
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 699
+
+and
+Which three equations with v eliminated give two equations in the coordinates x, y and z, which express the nature of the curve described. Moreover in these formulae the element dx has been assumed constant. Q.E.I.
+Corollary 1.
+1104. The two last equations agree perfectly with these that we found for the vacuum (823). Whereby the equations which follow from these have a place, as in the vacuum case so in the resistive case. Moreover the whole distinction that lies between the motion in the vacuum case and the motion with resistance, depends on the first equation.
+Corollary 2.
+1105. Moreover from the final two equations solved together there arises this ratio : On account of which in place of second normal equation, which makes up the greater part, this substitution can be made [p. 476]
+or
+which does not involve v.
+Corollary 3.
+1105a. With the help of this ratio
+the determination of the plane RMS is found in terms of first order differentials as follows :
+the tangent of the angle POR is equal to
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Six (part d).
+
+Translated and annotated by Ian Bruce.
+
+page 700
+
+and the tangent of the angle of inclination of the plane RMS to the fixed plane RQS is
+
+equal to
+
+(825).
+Corollary 4.
+1106. If two of the forces P, Q, R vanish, the motion by necessity becomes that in a plane. For if P and Q vanish, this makes ddy = 0 ; if P and R vanish, this makes (if Q and R vanish, this makes ddz = 0;) dzddy = dyddz or dz = dy. Which all indicate that the motion lies in a plane.
+Corollary 5.
+1107. If P, Q and R are proportionals of x, y et z, then the body is always attracted to the point A, and thus the motion of this body becomes that in a plane. The formulae indicate the same; for set AO = 0. But because
+
+then it follows that
+
+xddy xdy- ydx
+
+=
+
+xddz xdz - zdx
+
+and on integrating
+
+xdy - ydx = xdz - zdx.
+
+Whereby ddz = ddy, thus the proposal is agreed upon. [p. 477]
+
+Corollary 6.
+1108. If the force P vanishes, then the ratio becomes ddy : ddz = Q : R and
+
+With these values P, Q and R in place in the equation, by which dv is defined, on substitution there arises
+
+Where, if the resistance V is put equal to
+
+v c
+
+and on placing
+
+( dx2 + dy2 + dz2 ) , or Mm
+
+equal to ds, there becomes
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+Corollary 7.
+1109. If the force R vanishes, the ratio becomes
+and
+
+Therefore we have
+
+Where,
+
+if
+
+V
+
+=
+
+v c
+
+,
+
+there
+
+becomes
+
+In a like manner, if Q vanishes, there is produced :
+
+page 701
+
+Scholium.
+1110. All the forces can be reduced to these three forces P, Q and R, in whatever way they are able to be devised. On account of which, whatever problem that is proposed, two equations can be elicited that contain the nature of the described curve[p. 478]. Truly of these one is a differential equation of the second degree, and the other a differential equation of the third degree, if indeed the value of v found from the equation
+
+is differentiated and with the differential is substituted in place of dv in the equation
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 702
+
+PROPOSITION 132.
+
+PROBLEM. 1111. In a uniform medium, which resists in the simple ratio of the speeds, the body is always attracted normally to the line AP (Fig.97); to define the curve that the body describes projected in any manner.
+SOLUTION. As before these are put in place : AP = x, PQ = y, QM = z, the speed at M = v the exponent of the resistance is equal to c, the force by which the body at M is drawn along MP , = S. With these in place, the resistance is given by
+
+hence the ratio Q:R = y: z. On account of which we have ddy:ddz = y:z and The integral of this equation is ydz - zdy = dx. Again also, as P = 0 we have this equation :
+(1108) on placing ds = ( dx2 + dy2 + dz2 ) . The integral of this is
+With this value substituted, there is produced :
+Putting z = py; [p. 479] we have the following two equations, from which the nature of the curves described ought to be determined,
+Q.E.I.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 703
+
+Corollary 1.
+
+ 1112. Since it is the case that 2
+
+cv
+
+=
+
+ds dx
+
+(b
+
+-
+
+x
+
+),
+
+the
+
+element
+
+of
+
+time
+
+ds v
+
+=
+
+2dx c b-x
+
+.
+
+Therefore the whole time, in which the body is moved horizontally along AP by the
+
+motion, is equal to 2
+
+c
+
+l
+
+b b-x
+
+.
+
+Therefore the horizontal motion agrees with the motion in the same resisting medium
+
+along the line AP with no force acting, with the initial speed at A corresponding to the
+
+height bb : 4c.
+
+Corollary 2.
+1113. Truly neither does the motion have this special amount of time only in place if the body is drawn along MP or if Q : R = y : z, but it always prevails if P = 0. For this follows from (1108), in which P is put equal to zero.
+
+Corollary 3.
+1114. Therefore the progressive motion of the body along AP has been slowed down, and it cannot go beyond the limit, which is x = b. Moreover the time taken is infinitely great for the body to be able to reach this limit. [p. 480]
+
+Example.
+1115. We put the force by which the body is attracted to the line AP to be in proportion to the distances MP or
+
+Therefore in order to determine the curve we have these equations
+
+in that equation is put y = e udx and it becomes
+
+Which
+
+equation
+
+becomes
+
+separable
+
+on
+
+putting
+
+u
+
+=
+
+q b-x
+
+;
+
+for
+
+it
+
+produces
+
+Therefore with q given and on also on account of u given in terms of x. Consequently
+
+also y in terms of x is known, from which the projection of the curve described in the
+
+plane APQ is obtained. Then from the given y in terms of x, also p is given in terms of x
+
+on account of
+
+dp
+
+=
+
+dx y2
+
+,
+
+and likewise z in terms of x. On account of which the whole
+
+curve described by the body can be constructed.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 704
+
+Corollary 4.
+1116. If b vanishes, likewise also the progressive motion of the body along AP vanishes and on account of this the body moves in the plane through A normally to AP and is attracted to A in the ratio of the distances. Moreover the curve, which the body describes in this case, can also be constructed (1027) along with the others.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 705
+
+CAPUT SEXTUM
+DE MOTU CURVILINEO PUNCTI LIBERI IN MEDIO RESISTENTE
+[p. 454] .
+PROPOSITIO 126.
+PROBLEMA. 1063. Si datur curva AM (Fig.93), in qua corpus movetur, et motus angularis circa centrum virium C, invenire tam vim centripetam ad A tendentem quam resistantiam in singulis locis.
+SOLUTIO. Positis ut hactenus CM = y, CT =
+p, Mm = ds, celeritate in M debita altitudini v, vi centripeta = P et vi resistentiae = R, concipiatur centro C radio EC = 1 descripta peripheria circuli ELl, in qua [p. 455] corpus eodem motu angulari circa C feratur, quo corpus in curva AM. Elementum ergo Ll eodem tempore absolvitur, quo elementum Mm. Sit nunc celeritas per Ll debita altitudini u; erit u data, quia motus angularis datur. Atque habebitur
+
+Est vero et consequenter
+
+Ll
+
+:
+
+mr
+
+=
+
+1:
+
+y
+
+seu
+
+Ll
+
+=
+
+mr y
+
+,porro
+
+est
+
+mr
+
+: Mm =
+
+p:
+
+y ideoque mr
+
+=
+
+p.Mm y
+
+,
+
+Ll
+
+=
+
+p.Mm y2
+
+.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+Hanc ob rem habebitur
+Inventa iam hac ratione v, erit (1005)
+
+page 706
+
+(1007). Atque se resistentia ponatur quadratis celeritatum proportionalis et exponens resistentiae = q, erit
+
+Q.E.I.
+
+Corollarium 1.
+
+1064. Si vis centripeta P proportionalis est ipsi
+
+dp p3dy
+
+,
+
+id
+
+quod
+
+accidit,
+
+quando
+
+corpus
+
+movetur in vacuo, erit u reciproce ut y4 . Quare celeritas angularis tum est reciproce ut
+
+quadratum distantiae corporis a centro. Facto autem y4u constante ex aequatione altera
+
+perspicitur evanescere resistentiam R.
+
+Corollarium 2.
+1065. Si corpus ad centrum C accedit, ita ut y decrescat,erit
+
+Quare erit resistentia
+Ex quo intelligitur, si y4u fuerit potestas ipsius y, [p. 456] cuius exponens est numerus affirmativus, resistentiam fore affirmativam. At si exponens illius potestatis ipsius u fuerit negativus, resistentia quoque erit negativa.
+Corollarium 3.
+1066. Si motus angularis debeat esse aequabilis seu u constans, erit du = 0 ideoque
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 707
+
+Corollarium 4.
+
+1067. Sit celeritas angularis ut potestas exponentis n distantia y seu
+
+u=
+
+y2n f 2n-1
+
+,
+
+erit
+
+resistentia
+
+vis centripeta atque pro medio resistenta in duplicata ratione celeritatum erit exponens resistantiae
+
+Exemplum.
+1068. Sit curva AM iterum spiralis hyperbolica aequatione
+
+expressa et celeritas angularis sit ut
+
+yn seu ut ante
+
+u=
+
+y2n f 2n-1
+
+.
+
+Cum
+
+autem
+
+sit
+
+erit [p. 457]
+
+et vis centripeta
+
+Si resistentia ponatur ipsis celeritatibus proportionalis, erit expons resistentiae =
+
+Sin autem resistentia quadratis celeritatum ponatur proportionalis et exponens resistentiae sit q, erit
+Quae prosus conveniunt cum iis, quae superiore exemplo (1061) sunt tradita.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 708
+
+PROPOSITIO 127.
+
+PROBLEMA. 1069. Si detur resistentia per quamvis celeritatum potestatem simulque exponens resistentiae, praeterea etiam datus sit motus angularis corporis circa centrum C (Fig.93),ex his invenire curvam, quam corpus describet, et vim centripetam ad centrum C tendentem.
+
+SOLUTIO. [p.433]
+
+Positis CM = y, CT = p, Mm = ds, altitudine celeritati in M debita = v, vi centripeta =
+
+P,
+
+resistentiae = R sit resistentia
+
+R=
+
+vm qm
+
+, ubi q detur per y. Deinde motus angularis
+
+consideretur ut ante [p. 458] tanquam motus puncti factus in peripheria circuli ELl, cuius
+
+radius CE = 1. Positis nunc celeritate, qua Ll describitur, debita altutudini u, erit in
+
+praecedente propositione elicuimus,
+
+Haec posterior aequatio autem, quia u et q sunt quantitates datae, exprimet naturam curvae quaesitae, pro qua ergo habebitur
+seu
+Cognita vero curvae descriptae natura seu aequatione inter p et y innotescet statim vis centripeta P, quippe est
+
+Q.E.I.
+Corollarium 1.
+1070. Si celeritas angularis debeat esse aequabilis, quod in vacuo nisi in circulo fieri nequit, erit du = 0 haecque prodibit pro curva quaesita aequatio
+Data ergo q per y aequatio haec est integralis inter p et y, ex qua curva potest construi.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 709
+
+Corollarium 2.
+
+1071. Si fuerit u per y data ut
+
+u=
+
+y2n f 2n-1
+
+, erit [p. 459]
+
+Quae quoque est integralis inter y et p ideoque ad curvam construendam est idonea.
+Corollarium 3.
+1072. Si celeritas angularis detur per arcum EL seu du per eius elementum
+
+(1063), ita ut sit
+
+erit
+
+(
+
+dy y2- p2
+
+)
+
+=
+
+g k ydu uk p
+
+.
+
+Hoc
+
+valore
+
+substituto
+
+habebitur
+
+atque
+
+Ex qua aequatione valor ipsius p substitutus in aequatione du = uk pdy determinabit u in y. Unde quoque aequatio inter p et y obtinebitur.
+gk y ( y2- p2 )
+
+Corollarium 4.
+
+1073. Si resistentia fuerit in simplii ratione celeritatum seu
+
+m
+
+=
+
+1 2
+
+, aequatio
+
+statim dabit u per y. [p. 460] Qui valor in aequatione du = uk pdy substitutus dabit
+gk y ( y2- p2 )
+aequationem inter y et p.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 710
+
+Exemplum 1.
+
+1074.
+
+Resistat
+
+medium
+
+in
+
+duplicata
+
+ratione
+
+distantiarum
+
+sitque
+
+medii
+
+exponens
+
+q
+
+=
+
+y 
+
+.
+
+Motus vero angularis sit aequabilis seu u = b. Erit m = 1 atque 4 ( y2 - p2 ) = y
+
+(1070). Unde prodit
+
+Quare curva descripta erit spiralis logarithmica, in qua anguli, quem radis cum tangente
+
+conficit, sinus est
+
+(16- 2 ) 4
+
+et cosinus
+
+=
+
+ 4
+
+. Vis centripeta vero erit
+
+=
+
+32by 16- 2
+
+.
+
+Sin autem medium ponatur uniforme seu q = c, erit
+
+Exemplum 2.
+
+1075. Resistat medium in simplici ratione celeritatum sitque id uniforme, ponatur vero
+
+etiam
+
+motus
+
+angularis
+
+uniformis;
+
+erit
+
+m
+
+=
+
+1 2
+
+,
+
+q
+
+= c,u
+
+= b. His
+
+substitutis
+
+habebitur
+
+pro
+
+curva descripta haec aequatio
+
+Quae curva quoque est spiralis logarithmica, in qua anguli intersectionis sinus est
+
+4 bc , cosinus = 1 , atque tangens = 4 bc . Vis centripeta vero erit =
+
+(1+16bc )
+
+(1+16bc )
+
+y(
+
+1+16bc 8c
+
+)
+
+.
+
+Quod in his formulis uniformitas dimensionum non observetur, ratio est, quod radium circuli EC posuimus = 1. Hac igitur unitate uniformitas dimensionum est restituenda.
+
+Scholion. [p. 461]
+1076. Plura centra virium in hoc capite non condiderabimus, cum in vacuo etiam pro hoc casu vix quicquam ad motum determinandum deduci potuerit. Si centra quidem attrahant in simplici ratione distantiarum, quotcunque centra plus non habent difficultatis quam unum in eadem ratione attrahens, quemadmodum ostendimus supra (702). Haecque convenientia in medio resistente aeque locum habet ac in vacuo. Quamobrem cum iam unum centrum in simplici ratione distantiarum attrahens consideraverimus, non opus est, ut de pluribus eiusdem naturae verba faciamus. Progrediemur igitur ad casum latissime patentem, in quo omnes motus, qui fiunt in eodem plano, comprehenduntur. Considerabimus scilicit duas vires absolutas, quarum directiones sunt ad se invicem normales, singulae vero interse parallelae. Ad huiusmodi enim duas vires quasvis
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Six (part d).
+
+Translated and annotated by Ian Bruce.
+
+page 711
+
+potentias in eodem plano existentes resolvi posse constat. Praeterea in hac tractione non
+
+solum omnes casus potentiarum absolutarum complectemur, sed etiam quaedam eximia
+
+pro vacuo observare licebit circa vires centripetas, quae in praecedentibus difficulter
+
+patent. Namque hic statim curvam descriptam ad aequationem inter coordinatas
+
+orthogonales reducemus, quod ibi inter distantiam a centro et perpendiculum in
+
+tangentem est factum. [p. 462]
+
+PROPOSITIO 128.
+
+PROBLEMA. 1077. Si corpus in M (Fig.94), a duabus viribus sollicitur, quarm una habeat directionem MP normalem ad datam AC, altera vero directionem MQ parallelam ipsi AC seu normalem in BC, determinare curvam AM, quam corpus in quocunque medio resistente ab his potentiis sollicitatum describet.
+SOLUTIO.
+Vocetur CP = MQ = x, PM = CQ = y, elementum Mm = ds; ductisque mp et mq erit Pp = ­ dx et Qq = dy atque ds = ( dx2 + dy2 ). Sit vis, qua corpus secundum MP trahitur, = P et vis, qua corpus secundum MQ trahitur, = Q, resistentia vero sit = R et celeritas in M debita altitudini v. Resolvantur nunc vires P et Q in normales et tangentiales ope demissorum perpendiculurom ex P et Q in tangentem Tt ; erit ergo vis normalis ex P orta =
+
+et vis tangentialis = Ex vi Q vero resoluta oritur vis tangentialis =
+
+et vis normalis =
+
+Tota ergo vis normalis erit =
+
+et vis tangentialis promovens =
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 712
+
+quae vi resistentiae R debet diminui, quo tota vis motum accelerans prodeat. Ex his ergo posito r radio osculi in M erit
+(866). [p. 463] Eliminata ergo v ex his aequationibus orietur aequatio naturam curvae descriptae exprimens. Q.E.I.
+Corollarium 1.
+1078. Si ponatur elementum curvae ds constant, erit radius osculi
+
+Hoc igitur valore substituto erit
+
+Corollarium 2.
+1079. Ex aequationibus inventis coniungendis reperietur
+Ex quibus, si relatio inter P et Q datur, statim habetur aequatio, in qua v per solam curvam invenitur.
+Corollarium 3.
+1080. Si corpus perpetuo a vi quacunque ad centrum C attrahatur, erit P : Q = y : x. Tunc igitur habebitur ista aequatio Quae posito y = px abit in hanc
+Corollarium 4.
+1081. In vacuo, quo R evanescit et corpus ad centrum C attrahitur, erit
+Praeterea vero erit [p. 464]
+Quare habebitur ista aequatio
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 713
+
+seu assumto Q loco P haec aequatio
+
+Corollarium 5.
+1082. Si vis centripeta ad C tendens fuerit =
+
+In vacuo igitur pro curva descripta habebitur haec aequatio Posito B pro - Af n et dx constante orietur differentiando haec aequatio Posito vero dp constante prodisset haec aequatio
+
+Fiat
+
+x=
+
+1 q
+
+, erit
+
+Harum aequationum quamvis integratio non appareat, tamen integralis est
+
+quae ex capite praecedente invenitur. [ Positis MC = ( xx + yy ) = z reperitur (601, 685) aequatio
+
+Sit erit sive
+
+Substituatur ita ut sit
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 714
+
+fit
+
+Quibus aequationibus coniunctis habetur
+Paul St.]
+Corollarium 6.
+1083. Quanquam autem haec aequatio
+
+est differentialis secundi gradus, tamen commodior est [p. 465] quam differentialis primi ad curvas determindas, quas corpus proiectum describit attractum vel in simplici distantiarum rationem vel in reciproce duplicata.
+
+In simplici enim ratione habebitur n = 1 atque 2Bq3ddq + dp2 = 0. Fiat dp = wdq; ob
+
+dp
+
+constans
+
+erit
+
+ddq
+
+=
+
+-
+
+dwdq w
+
+,
+
+unde
+
+Erit ergo
+seu (mutata significatione) quia B est quantitas negativa.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 715
+
+Corollarium 7.
+1084. Si est n = ­2 seu si corpus in reciproce duplicata ratione distantiarum attrahitur, erit in vacuo curva descripta
+
+sumpto B negativo, ut oportet. Integrando ergo erit
+denuoque integrando
+Quarum curvarum utraque est sectio conica; illa quidem ellipsis tantum, haec vero omnes complectitur.
+Scholion 1.
+1085. In capite praecedente, quo de motu corporum in vacuo egimus, curvas quoque determinavimus, quas corpus a vi centripeta vel ipsis distantiis vel reciproce earum quadratis proportionali describit; easque convenientes invenimus cum his in corollariis datis. [p. 466] Modi quidem maxime sunt diversi; nam ibi ex comparatione arcuum circularium aequationes algebraicas sumus adepti, hic vero ipsa integratio sponte aequationem algebraicam inter coordinatas dedit. Haec vero methodus, quamvis in praefatis casibus duobus multo sit commodior, tamen aliis laborat defectibus. Nam in aliis vis centripetae hypothesibus nequidem hac methodo aequatio differentialis dari potest pro curva descripta, quod tamen illa directa methodo semper aeque facile fieri potest. Hoc tamen ipsius analyseos defectui potius est adscribendum quam methodo, cum aequationis differentio-differentialis
+integralem
+esse sciamus ex ipsa methodo capite praecedente usitata, hanc vero integralem ex ipsa aequatione differentio-differentiali eruere nequeamus.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 716
+
+Scholion 2.
+
+1086. Problematum reciprocorum, quae circa has potentias proponi possunt, hoc iam est
+
+solutum corollario 2, quo ex data curva, medio resistente et celeritate in singularis punctis
+
+quoque data quaeruntur vires secundum MP et MQ tendentes, quae hunc motum
+
+producant. Ut si curva AMB fuerit circulus centrum in C et radium AC = a habens et
+
+resistentia sit =
+
+v c
+
+atque celeritas constans, nempe v = b, erit
+
+x2 +
+
+y2
+
+= a2 et [p. 467]
+
+Simili modo, cum sint quinque res, quae in considerationem veniunt, nempe duae potentiae P et Q, tertio resistenta R, quarto celeritas in singulis locis seu v et quinto natura curvae descriptae seu aequatio inter x et y, semper tria horum tanquam data accipi possunt et duo reliqua ex iis inveniri. Hanc ob rem decem formari possent problemata pro numero combinationum, quo tria ex quinque accipi possunt. Sed ne nimis detineamur in his evolvendis, e quibus non multum ad usum deduce poterit, unicum problem, quo in medio resistente in duplicata ratione celeritatum ex data vi centripeta curva descripta quaeritur, tractemus.
+
+PROPOSITIO 129.
+
+PROBLEMA. 1087. Si corpus moveatur in medio, quod in duplicata ratione celeritatum resistit, et si potentia P fuerit ad Q ut MP ad MQ (Fig.94) seu, quod idem est, si corpus trahatur ad centrum C vi quacunque, determinare curvam AMB, quam corpus describet.
+
+SOLUTIO
+
+Positis ut ante CP = x, PM = y, Mm = ds et y = px, sit celeritas in M debita altitudini v
+
+et
+
+exponens
+
+resistentiae
+
+q;
+
+erit
+
+R
+
+=
+
+v q
+
+.
+
+Et
+
+cum
+
+sit
+
+P:Q
+
+=
+
+y
+
+: x,
+
+erit
+
+(1080). [p. 468] Quae aequatio divisa per vxdp abit in hanc
+
+cuius integralis est
+
+Haec vero aequatio
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+(1079) per
+
+e
+
+
+
+ds q
+
+dx
+
+ds 2
+
+multiplicata
+
+et
+
+integrata
+
+dat
+
+in qua ille valor ipsius v inventus substitutus dat
+
+page 717
+
+Differentietur haec aequatio posito dx constante, erit
+
+Quae est aequatio pro curva quaesita. Q.E.I.
+
+Corollarium 1.
+
+1088. Aequatio haec curva descripta non differt ab aequatione in vacuo inventa (1081),
+
+  nisi quod hic habeatur
+
+e
+
+ds q
+
+Qdx
+
+,
+
+cum
+
+ibi
+
+ipsi
+
+-
+
+Adx 2 x 4 dp 2
+
+aequaretur tantum
+
+Qdx .
+
+Corollarium 2.
+1089. Si elementum dp pro constante fuisset assumtum, tum prodiisset haec aequatio
+
+[p. 469] In qua si ponatur
+
+x=
+
+1 z
+
+,
+
+orietur
+
+Corollarium 3.
+1090. Si vis centripeta ad C tendens fuerit =
+
+Quare pro curva descripta habebitur ista aequatio
+
+Quae sumtis logarithmis et differentiata dat
+
+Est vero
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+1091. Iisdem manentibus sit erit
+
+Corollarium 4.
+
+Ponatur z = e udp atque prodibit ista aequatio
+
+page 718
+
+Scholion.
+1092. Hanc aequationem differentialem secundi gradus dubito an in quoquam casu ad differentialem primi gradus possit reduci [p. 470]; id quod tamen supra, ubi vires centripetas ex instituto consideravimus, fecimus (1020). In medio igitur resistente haec operandi ratio non tantam utilitatem afferre videtur, quantam in vacuo attulit, saltem pro casibus, quibus n est vel 1 vel ­2. Quamobrem, cum in hac re vix quicam amplius sperari possit, hic motum in medio resistente, qui in plano fit, relinquo atque ad motus non in plano factos considerandos progredior, coniuncta cum potentiis absolutis corpus sollicitantibus vi resistentiae. Quo in negotio, cum facile intelligatur parum ad evidentem cognitionem perducere licere, contentus ero regulas generales tradidisse, quibus pro quovis problemate proposito ad aequationem pervenire poterimus.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 719
+
+PROPOSITIO 130.
+
+PROBLEMA. 1093. In medio quocunque resistente sollicitetur corpus a tribus potentiis, quarum una sit tangentialis, reliquae duae normales ad directionem corporis et in duobus planis inter se normalibus ad se invicem normales; determinare motum corporis et curvam, quam describet.
+SOLUTIO. Ex elementi Mm (Fig. 95), quod corpus describit, terminis M et m in planum fixum APQ demittantur [p. 471] perpendicula (MQ et mq atque ex punctis Q et q in axem fixum AP perpendicula) QP et qp. Deinde ponatur AP = x, PQ = y et QM = z, altitudo celeritati in M debita = v. Iam sit vis tangentialis = T. Normalium altera, cuius directio in plano Mq est sita, sit = N et altera, cuius directio ad planum Mq est normalis, sit = M. Vis resistentiae vero sit = V. Quia autem vis resistentiae V vires normales non afficit, sed tantum effectum vis tangentialis minuit, effectus virium N et M immutatus manet, sed in effectu vis tangentialis definiendo loco T poni debet T ­ V. Quare, cum harum virium effectus iam supra (809) determinaverimus, eadem aequationes ibi datae et hic valebunt, si modo T ­ V loco T ponatur. Hanc ob rem pro medio resistente prodibunt hae aequationes
+
+atque
+(809). Ex quibus eliminata v duae habebuntur aequationes tres coordinatas x, y, z involventes, quae naturam curvae quaesitae exprimit. In illis autem aequationibus elementum dx constans est assumtum. Q.E.I. [p. 472]
+Corollarium 1.
+1094. Duae posteriores aequationes coniunctae eliminanda v dant aequationem hanc
+Quae pro medio quocunque aeque ac pro vacuo valet (810).
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 720
+
+Corollarium 2.
+1095. Perspicitur ex hac aequatione, si vel N vel M evanescit, qualis sit motus corporis. Nam posito N = 0 erit
+
+Est vero dz tangens anguli, quo elementum Mm inclinat ad Qq. Quare hic
+( dx2 +dy2 )
+angulus est constans; propterea QM habet ad proiectionem BQ curvae descriptae in plano APQ datam rationem.
+Corollarium 3.
+1096. Si M = 0, erit ddy = 0 ideoque proiectio BQ erit linea recta. Tota igitur curva a corpore descripta posita erit in plano ad planum APQ normali idque secante recta BQ.
+Corollarium 4.
+1097. Ex aequatione (1094) erit
+Quare, cum sit
+erit
+
+1098. Quare, si fuerit
+
+Corollarium 5.
+
+corpus etiam movebitur in plano, cum tunc sit ddz = 0 et dz = dx. Proiectio enim curvae [p. 473]descriptae in plano ad planum APQ in AP normali erit linea recta.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+Corollarium 6.
+1099. Planum autem, in quo posita sunt duo elementa Mm et m (Fig. 96), quae corpus describit, simili modo quo in vacuo determinatur, cum eius determinatio tantum a coordinatis x, y et z pendeat. Nempe si hoc planum sit SMR et secet planum APQ recta OR, erit
+
+page 721
+
+Atque tangens anguli, quem planum
+
+RMS cum plano APQ constituit, seu
+
+MQ QV
+
+,=
+
+(812).
+
+Corollarium 7.
+
+1100. Erit igitur tangens anguli, quem planum RMS cum plano APQ constituit, aequalis
+
+secanti anguli POR ductae in
+
+ddz ddy
+
+.
+
+Corollarium 8.
+1101. In casu igitur, quo vis N evanescit, cum sit
+
+erit tangens anguli POR
+
+=
+
+dx dy
+
+seu POR = RQS. Tum igitur QV in QS, incidet. Tangens
+
+vero anguli RMS cum RQS constuit est =
+
+Quare hic angulus est constans ob (1095). Reperitur vero
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 722
+
+Corollarium 9. [p. 474]
+1102. Cum in corollario 1 ratio detur inter ddy et ddz per vires normales M et N, si eorum proportionalia ipsorum loco substituantur, determinabitur positio plani RMS per differentialia primi gradus. Sed haec omnia non magis ad medium resistens respiciunt quam ad vacuum. Quare etiam haec prorsus conveniunt cum iis, quae supra propositione 98 sunt tradita.
+
+PROPOSITIO 131.
+
+PROBLEMA. 1103. Si corpus M (Fig.97) in medio quocunque resistente trahatur a tribus viribus, quarum unius directio sit Mf parallela axi AP, alterius directo Mg parallela ipsi PQ applicatae in plano APQ positae et tertiae directio sit ipsa MQ ex M in planum APQ normaliter demissa, invenire motum corporis et lineam, quam describet.
+SOLUTIO. Positis ut ante AP = x. PQ = y et QM = z atque celeritate in M debita altitudini v, sit vis secundum Mf trahens = P, vis secundum Mg trahens = Q et vis secundum MQ trahens = R atque resistentiae in M = V. Hae tres vires se resolvantur in tres alias, quarum directiones cum iis in propositione praecedente conveniunt, [p. 475] prodit vis tangentialis
+
+(vires normales sunt)
+
+atque
+
+(823). Iisdem enim hic denominationibus utimur, quibus ibi propositione 99. His igitur valoribus in formulis praecedente propositione inventis substitutis habebuntur sequentes tres aequationes
+
+atque
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 723
+
+Quae tres aequationes eliminata v dabunt duas aequationes coordinatas x, y et z continentes, quae naturam curvae descriptae exprimunt. In his autem formulis elementum dx constans est assumtum. Q.E.I.
+
+Corollarium 1.
+1104. Duae posteriores aequationes cum iis, quas pro vacuo invenimus (823), perfecte conveniunt. Quare quae ex iis sequuntur, tam in vacuo quam medio quocunque resistente locum habent. Discrimen autem totum, quod inter motum in vacuo et medio resistente interest, a prima pendet aequatione.
+
+Corollarium 2.
+1105. Ex duabus posterioribus aequationibus autem coniunctis oritur haec analogia
+
+Quamobrem loco secundae aequationis, quae reliquis magis est composita, substitutui potest haec [p. 476]
+
+vel
+
+quae v non involvit.
+
+1105a. Ope analogiae
+
+Corollarium 3.
+
+invenitur determinatio plani RMS in differentialibus primi gradus, ut sequitur :
+
+tangens anguli POR = atque tangens anguli inclinationis plani RMS ad planum fixum RQS = (825).
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 724
+
+Corollarium 4.
+1106. Si virium P, Q, R duae evanescent, motum corporis in plano fieri necesse est. Nam si P et Q evanescunt, fit ddy = 0; si P et R evanescunt, fit (ddz = 0; si Q et R evanescunt, fit) dzddy = dyddz seu dz = dy. Quae omnia indicant motum fieri in plano.
+
+Corollarium 5.
+1107. Si P, Q et R sint proportionales ipsis x, y et z, corpus perpetuo ad punctum A trahetur ideoque motus eius fiet in plano. Hoc idem indicant formulae ; fiet enim AO = 0. At ob
+
+est
+
+xddy xdy- ydx
+
+=
+
+xddz xdz - zdx
+
+et integrando
+
+xdy - ydx = xdz - zdx.
+
+Quare est ddz = ddy, unde constat propostum. [p. 477]
+
+Corollarium 6.
+1108. Si vis P evanescit, erit ddy : ddz = Q : R atque
+
+His valoribus loco P, Q et R in aequatione, qua dv definitur, substitutis oritur
+
+Ubi, si resistentia V fuerit =
+
+v c
+
+ponaturque
+
+( dx2 + dy2 + dz2 ) , seu Mm, = ds, erit
+
+1109. Si vis R evanescit, erit
+
+Corollarium 7.
+
+atque
+
+Erit igitur
+
+Ubi,
+
+si
+
+V
+
+=
+
+v c
+
+,
+
+erit
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+Simili modo, si Q evanescit, prodit
+
+page 725
+
+Scholion.
+1110. Ad has tres vires P, Q et R omnes potentiae, quaecunque excogitari queant, reduci possunt. Quamobrem, quodcunque problema propositum fuerit, [p. 478] duae aequationes erui possunt naturam curvae descriptae continentes. Harum vero altera erit differentialis secundi gradus, altera differertialis tertii gradus, si quidem valor ipsius v inventus ex aequatione
+differentietur et differentiale loco dv in aequatione
+substituatur.
+PROPOSITIO 132.
+PROBLEMA. 1111. In medio uniformi, quod resistit in simplici ratione celeritatum, trahatur corpus perpetuo normaliter ad rectam AP (Fig.97); definire curvam, quam corpus utcunque proiectum describet.
+SOLUTIO. Ponatur ut hactenus AP = x, PQ = y, QM = z, celeritas in M = v exponens resistentiae = c, vis, qua corpus in M iuxta MP traitur, = S. His positis erit resistentia
+unde fit Q:R = y: z. Quamobrem habebitur ddy:ddz = y:z atque
+Cuius aequatione integralis est ydz - zdy = dx. Porro quoque ob P = 0 haec habebitur aequatio
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 726
+
+(1108) posito ds = ( dx2 + dy2 + dz2 ) . Cuius integralis est Hoc valore substituto prodibit
+
+Ponatur z = py; [p. 479] habebuntur sequentes duae aequationes, ex quibus natura curvae descriptae debet determinari,
+
+Q.E.I.
+
+Corollarium 1.
+
+ 1112. Cum sit 2
+
+cv
+
+=
+
+ds dx
+
+(
+
+b
+
+-
+
+x
+
+),
+
+erit
+
+elementum
+
+temporis
+
+ds v
+
+=
+
+2 dx b-
+
+c x
+
+.
+
+Integrum
+
+ergo tempus, quo corpus motu horizontali secundum AP est promotum, erit = 2
+
+c
+
+l
+
+b b-x
+
+.
+
+Motus igitur horizontalis convenit cum motu corporis in eodem medio resistente per
+
+rectam AP a nulla potentia sollicitati, celeritate initiali in A debita altitudine bb : 4c.
+
+Corollarium 2.
+1113. Neque vero haec temporis proprietas tantum locum habet, si corpus secundum MP trahitur seu si fuerit Q : R = y : z, sed semper valet, si modo est P = 0. Sequitur enim ex (1108), quo non nisi P = 0 ponebatur.
+
+Corollarium 3.
+1114. Motus igitur progressivus corporis secundum AP est retardatus et non ultra datum terminum, qui est x = b, fieri potest. Tempus autem est infinite magnum, quo corpus ad hunc terminum pertingere potest. [p. 480]
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part d).
+Translated and annotated by Ian Bruce.
+
+page 727
+
+Exemplum.
+1115. Ponamus vim, qua corpus ad rectam AP attrahitur, esse ipsis distantiis MP proportionalem seu
+
+Ad curvam igitur determinandam habebuntur hae aequationes
+
+in illa ponatur y = e udx fietque
+
+Quae
+
+aequatio
+
+separabilis
+
+fit
+
+ponendo
+
+u
+
+=
+
+q b-x
+
+;
+
+prodit
+
+enim
+
+Dabitur igitur q et propterea etiam u in x. Consequenter etiam y per x cognoscetur, ex quo
+
+habebitur proiectio curvae descriptae in plano APQ. Deinde ex dato y per x dabitur
+
+quoque
+
+p
+
+ob
+
+dp
+
+=
+
+dx y2
+
+per
+
+x
+
+et
+
+propterea
+
+simul
+
+z
+
+per
+
+x.
+
+Quocirca
+
+tota
+
+curva
+
+a
+
+corpore
+
+descripta poterit construi.
+
+Corollarium 3.
+1116. Si b evanescit, simul quoque motus progressivus corporis secundum AP evanescit et hanc ob rem corpus in plani in A ad AP normali movebitur attractum ad A in ratione distantiarum. Curvam autem, quam hoc casu corpus describit, quoque construere licuit (1027) et sequentibus.
+
+

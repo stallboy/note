@@ -1,0 +1,569 @@
+EULER'S MECHANICA VOL. 1.
+Preface.
+Translated and annotated by Ian Bruce.
+
+page 1
+
+PREFACE
+For a long time in the past, a discourse on mechanics involved two possible different meanings, and indeed at that time two sciences were called by that name : on the one hand as an account of the principles, or wholly as an account of the interactions of different materials between each other, [as in simple machines and structures]. Indeed the name mechanics is usually applied to that science which deals with the equilibrium of forces, and comparisons between them, rather than to these circumstance in which the nature of the motion, its generation and changes, can also be explained. Although indeed, in these more recent discussions too on the general principles, forces especially are to be considered, since it is from these that motion can be both generated and changed ; yet there is much disagreement in the early science, on account of their derivations. Therefore it is best to avoid all the ambiguity that arises from the comparison and equilibrium of forces, which is to be called Statics here, and truly the name Mechanics alone remains for that science of motion, and for which it is understood that these names are always to be applied. Besides, there is a huge expanse of time between these disciplines : For the development of Statics had begun before the time of Archimedes, but truly the first foundations of Mechanics were laid at length by Galileo, while he investigated falling weights. Truly from these beginnings, following the discovery of infinitesimal analysis, knowledge had grown to such an extent that before very long the principles had been elicited in accordance with this method, in which quantities are compared just before they vanish. Indeed so much has been found from this analysis, by means of which this science has increased and advanced to such an extent to the present time, and that material has been scattered throughout so many journals and learned works, that now it is most difficult for a student to read and to overcome the difficulties encountered. Besides, and what is the cause of the greatest difficulty, some works have been undertaken by authors who do not have a thorough grasp of analysis; others have been fortified by exceedingly intricate and elaborate old-fashioned demonstrations; and yet others indeed with derivations from obscure principles, and who, neither by the expenditure of their greatest labour and time devoted to the task, have themselves been able to understand and to arrange matters in a suitable manner.
+The work produced by Varignon, in two matching volumes written in the French language, restricts itself to Statics, and is almost completely taken up by numerical examples. For even if it bears the title Mechanicae, yet the whole is occupied in the definition of the equilibrium of forces and applications of this kind to bodies ; and there is hardly anything presented pertaining to the science of motion, and which we have indicated here by the name Mechanics. The celebrated Wolfe, in his Mathescos Elementis, especially in the latest edition, has set out considerations of both Statics and Mechanics much more clearly, but nevertheless jointly and without any distinction made between these sciences. Moreover, the account of these established works does not seem to have permitted prearranged boundaries to be set so that these two sciences can be distinguished from each other in turn, though each is set out fully enough. On which account, I am unaware of any other work that has been published up to the present, apart for Hermann's Phoronomiam, in which the science of motion has been treated separately, and the whole science enriched by the treatment of so many selected topics to be found within. And indeed Herman, has not only increased our understanding of the science the
+
+EULER'S MECHANICA VOL. 1.
+
+Preface.
+
+Translated and annotated by Ian Bruce.
+
+page 2
+
+most with additional material, but he has likewise added the contributions of others that
+
+were made at the time. But even if that was not enough, the great work also contains
+
+related sciences besides Mechanics. Statics obviously is included, with Hydrostatics and
+
+Hydraulics, and an exceedingly small space remains for setting out Mechanics; where in
+
+truth as with everything pertaining to that science, it has been summarised and presented
+
+very briefly. Besides, and what distracts the reader the most, is the fact that everything is
+
+carried out synthetically, with the demonstrations presented in the manner of the old
+
+geometry, and the analysis hidden, and recognition of which is given only at the end of
+
+the work. Hermann's work is not a great deal different also, from the manner of the
+
+composition of Newton's Principia Mathematica Philosophiae, from which the science of
+
+motion has benefitted the most. But as with all writings composed without analysis, and
+
+that mainly falls to be the lot of Mechanics, for the reader to be convinced of the very
+
+truth of these propositions offered, an examination of these propositions cannot be
+
+followed with sufficient clarity and distinction : thus as the same questions, if changed a
+
+little, cannot be resolved from what is given, unless one enquires using analysis, and
+
+these same propositions are explained by the analytical method. Thus, I always have the
+
+same trouble, when I might chance to glance through Newton's Principia or Hermann's
+
+Phoronomiam, that comes about in using these, that whenever the solutions of problems
+
+seem to be sufficiently well understood by me, that yet by making only a small change, I
+
+might not be able to solve the new problem using this method. Thus I have endeavoured
+
+or a long time now, to use the old synthetic method to elicit the same propositions that are
+
+more readily handled by my own analytical method, and so by working with this latter
+
+method I have gained a perceptible increase in my understanding. Then in like manner
+
+also, everything regarding the writings about this science that I have pursued, is scattered
+
+everywhere, whereas I have set out my own method in a plain and well-ordered manner,
+
+and with everything arranged in a suitable order. Being engaged in this business, not only
+
+have I fallen upon many questions not to be found in previous tracts, to which I have
+
+been happy to provide solutions: but also I have increased our knowledge of the science
+
+by providing it with many unusual methods, by which it must be admitted that both
+
+mechanics and analysis are evidently augmented more than a just a little.
+
+Hence this treatise on motion has been produced, in which those things that I have
+
+found in the writings of others on the motion of bodies, together with my own
+
+considerations, have been set out conveniently in order, and demonstrated by the
+
+analytical method. Moreover I have striven in the classification of the work to distinguish
+
+between bodies which can be moved and those which are fixed, as being either free or
+
+not. The division supplied by me has taken into account the innate character of the bodies
+
+themselves, as in the first case I shall investigate the motion of infinitely small bodies, or
+
+as it were of points, then indeed I shall move on to investigate bodies of finite size and
+
+these can be either rigid or flexible, or I may proceed to extended bodies which in turn
+
+are entirely free. For as in geometry, in which the measurement of bodies is discussed, it
+
+is customary to begin with a discussion of points, thus also the motion of bodies of finite
+
+sizes cannot be explained, unless first the motion of points, from which the bodies are
+
+considered to be composed, has been carefully examined. And if the motion of a body
+
+having a finite size cannot be considered or determined otherwise, except as it may be
+
+defined as a point, then such a body has the motion of a particle or point also. Whereupon
+
+this part, concerning the treatment of the motion of points, is fundamental and particular
+
+EULER'S MECHANICA VOL. 1.
+
+Preface.
+
+Translated and annotated by Ian Bruce.
+
+page 3
+
+to the whole of Mechanics, and on which all the remaining parts rely. Therefore, I have
+
+resolved that these two first volumes be designated to an inquiry of the motion of points,
+
+in the first of which the points can move freely, and in the second the points certainly are
+
+observed not to be free. But more widely and fully, and which I have related in these
+
+books, they show that on many occasions the motion of finite bodies can be determined
+
+from that of a single point taken in place of these bodies; obviously not indeed included
+
+are these in which the individual parts can move amongst themselves. Indeed from that
+
+hypothesis, since a point projected in a vacuum may describe a parabola, it is understood
+
+that if some finite bodies are projected also, then they too move in parabolas, and the law
+
+is therefore not in agreement with the motion of the individual parts; but this kind of
+
+inquiry is appropriate for the books to follow, in which the motion of finite bodies is
+
+defined. In a like manner also, Newton has shown, concerning the motion of bodies acted
+
+on by centripetal forces, that the forces only prevail for points, and yet indeed
+
+meanwhile they can be correctly transferred to the motion of planets.
+
+In this first volume I make free points the subject to be examined, and I investigate
+
+whatever changes are brought about by the forces acting on the motion: moreover I
+
+consider a body to be free, when nothing impedes it, and when the body moves less with
+
+that speed and in that same direction, but rather on account of the motion now put in
+
+place, and it progresses by reason of the forces acting. Thus the planets, and on earth,
+
+bodies either dropped or projected, are said to be moving freely, since they follow in the
+
+motion, both the inertial force and the effect of the external forces acting; but a body
+
+descending on an inclined plane or a pendulum executing oscillations is not free to move;
+
+indeed the plane placed under, or the fixed end of the pendulum impedes the motion, by
+
+which the body descends less than it falls directly, as postulated by the force of gravity.
+
+Therefore in the first chapter I explain the general properties of motion, and the usual
+
+properties of speed, distance, and time are given, and I show the general laws of nature,
+
+which a free body not affected by any forces observes. Where clearly a body of this kind,
+
+if once it comes to rest, must remain in a state of rest for ever, but if it is moving, then it
+
+must always move with the same speed in the same direction, and for each a law under
+
+the name of conservation most conveniently grasps the situation. From which it follows
+
+that a state of conservation is an essential property of all bodies, and all bodies, in as
+
+much as they are such, have the strength or facility to remain permanently in their state,
+
+which is called nothing other than the force of inertia. Indeed, calling the inertial effect a
+
+force for the source of this conservation is less than suitable, since it is not a force of the
+
+same kind as the other forces thus properly discussed, such as the force of gravity, nor
+
+can it be compared with these; into which error many are accustomed to fall, especially
+
+those involved in metaphysics, from the ambiguity of their deceptive discussions.
+
+Therefore as every body, by its nature, perseveres in the same state of rest or motion, then
+
+if the body is not following this law, it must be yielding to external influences, and either
+
+it procedes with a non-uniform motion, or it may proceed along some curved line. Truly
+
+external powers of this kind are forces, the equilibrium and comparison of which is to be
+
+set out in Statics, and which, when they act on a free body, change its state, and that
+
+either make it move, by accelerating or decelerating, or changing its direction.
+
+In the second Chapter, I pursue this kind of effect for any force acting on a free point,
+
+which must be either at rest or to be in a state of motion. Hence the principles of
+
+mechanics are applied, by which any change concerning the motion is to be set out; in
+
+EULER'S MECHANICA VOL. 1.
+
+Preface.
+
+Translated and annotated by Ian Bruce.
+
+page 4
+
+which, as hitherto by the previous methods employed, the motions might barely be
+
+confirmed; thus now I have shown not only with certainty, but also indeed by necessity,
+
+how the motions are to be understood.
+
+With the principles explained, from which it can be understood, how the motion is
+
+either conserved, or again either produced or changed by forces, I progress to the
+
+determination and the examination of the motion of bodies under the action of any
+
+manner of forces. And first indeed I consider rectilinear motion as it is the easiest to be
+
+determined, and which arises, if a free point either at rest or moving is acted on by a
+
+single force, which now by this force either changes its direction of motion, or it is
+
+accelerated or decelerated. To this enquiry I have devoted Chapters Three and Four : in
+
+which in the first, rectilinear motion in vacuo is presented, while in the latter rectilinear
+
+motion in some medium with resistance is discussed. Indeed although particular
+
+resistances may be able to be reduced to the proper forces thus discussed, yet in this
+
+treatment the decision is seen to be that the change in the motion due to the resistance
+
+should be handled on its own. Instead I might have followed other writers on this topic,
+
+there exists an essential difference between resistive forces and absolute forces. Indeed
+
+the absolute forces are thus said to be properly determined as above, and which have not
+
+got a direction that depends on the direction of the body, and which act equally on a
+
+moving body or on one at rest; but since the direction of the resistance is always in the
+
+oppose direction to the motion of the body in place, and its magnitude may depend on the
+
+speed of the body, [then it cannot be regarded as an absolute force]. Although in nature
+
+besides the resistance which is proportional to the square of the speed, no other is
+
+observed, yet I have dealt with other forms of resistance, so that I might explain likewise
+
+the solutions of more problems concerning motion in mediums with resistance acting,
+
+especially as it shall also be an occasion for more unusual examples of calculations to be
+
+produced. [Euler considers resistive forces as absolute forces, with the proviso that they
+
+oppose the motion; thus, the medium itself is always at rest and he need not bother here
+
+with relative forces.]
+
+Finally in the two last Chapters I consider the motions of bodies which arise, when the
+
+direction of the forces acting is not in agreement with the direction in which the body is
+
+projected. Indeed in this case the body is always withdrawn from the straight path and is
+
+known to be moving along a curved line. In Chapter Five I have set out the motion along
+
+this kind of curve in a vacuum, and in Chapter Six I have likewise considered the motion
+
+is a resistive medium. Therefore in the first place in these problems encountered in these
+
+final chapters revolve around this, in order that for the projection of some body and from
+
+some forces acting, the curve along which it moves is to be found, and likewise the speed
+
+of the body at any point of the curve is to be indicated, and this in a vacuum as in a
+
+medium with resistance. Indeed other propositions arise from these first propositions, in
+
+which either for a given curve described by a body, or from a certain given innate motion,
+
+then the forces acting as well as the resistance are sought. I have watched over this
+
+undertaking with special care, in order that I might embrace everything provided by
+
+Newton and others, as well as the problems considered here in this tract, and I might
+
+provide genuine solutions by the analytical method. Therefore with these the first book is
+
+completed, that I have thus made ready and written down in sequence, so that anyone
+
+who had been trained sufficiently in finite as well as infinite analysis, by this wonderful
+
+EULER'S MECHANICA VOL. 1.
+
+Preface.
+
+Translated and annotated by Ian Bruce.
+
+page 5
+
+facility, should be able to read through this whole work and to understand everything
+
+without any guidance.
+
+PRAEFATIO
+Mechanicae vox longo ab hinc temporis intervallo duplicem obtinuit significationem, et hoc quidem tempore eo nomine appellantur duae scientiae tam ratione principiorum quam ratione materiae inter se prorsus diversae. Mechanicae enim nomen tum ei scientiae tribui solet, quae de aequilibrio potentiarum tractat earumque inter se comparatione, tum etiam ei, in qua ipsa motus natura, generatio et alteratio explicatur. Quanquam enim in hac posteriore disciplina potentiae quoque praecipue considerantur cum iis motus et generetur et immutetur; tamen tractionis ratio multum discrepat a priore scientia. Ad vitandam igitur omnem ambiguitatem iuvabit illam scientiam, quae de potentiarum aequilibrio et comparatione agit, Staticam appellasse, alteri vero motus scientiae soli Mechanicae nomen reliquisse, quo quidem sensu hae voces passim sunt usurpari solitae. Temporis praeterea ingens intercedit discrimen inter has disciplinas : Statica enim iam ante Archimedis tempora excoli ceopit, Mechanicae vero prima demum iecit fundamenta Galilaeus, dum gravium descensum investigavit. His vero posterioribus temporibus post inventam Analysin infinitorum tanta ultraque scientia cepit incrementa, ut, quae ante tam longo temporis intervallo erant eruta, prae his propemodum evanescant. Ista vero tam multa inventa, quibus hae scientiae ad hoc usque tempus sunt adauctae et promotae, per tot diaria et opera sunt sparsa, ut harum rerum studioso sit difficillimum ea conquirere et pervolvere. Praeteria, quod maximam parit molestiam, alia sine omni analysi et demonstatione sunt proposita, alia nimis perplexis et more veterum concinnatis demonstrationibus sunt munita, alia vero ex alienis et minus genuinis principiis derivata, ut nisi cum summo labore maximoque temporis dispendio cognosci et digeri nequeant.
+Quod quidem ad Staticam attinet, completum fere et omnibus numeris absolutum opus prodiit Varignonii, duobus constans voluminibus, Gallico idiomate conscriptum. Quod etiamsi Mechanicae titulum prae se ferat, tamen totum est occupatum in definiendo aequilibrio potentiarum cuiusque modi corporibus applicatarum; neque ibi vix quicquam continetur, quod ad motum eamque scientiam, quam hic Mechanicae nomine indicamus, pertineat. Celeb. Wolfius etiam in suis Mathescos Elementis praesertim novissimae editionis multa praeclara cum ad Staticam tum ad Mechanicam spectantia in Elementis Mechanicis exposuit, coniunctim quidem neque ullo discrimine inter has scientias facto. Praestituti autem limites ipsaque operis ratio ipsi non permisisse videntur tum has scientias a se invicem discernere, tum utramque satis ampliter explicare. Quamobrem nescio an praeter Hermanni Phoronomiam unquam aliud in publicum prodierit opus, in quo haec de moto scientia seorsim et tot tantisque eximiis inventis locupletata esset pertractata. Etenim Hermannus cum ipse hanc scientiam plurimus adauxit accessionibus tum, quae illo tempore aliorum industria erant detecta, simul adiecit. At cum in illo non satis magno opera praeter Mechanicam constituisset reliquas quoque affinies scientias. Staticam scilicet et Hydrostaticam una cum Hydraulica complecti, nimis exiguum spatium pertractandae Mechanicae restabat; quo factum est, ut omnia,quae ad hanc scientiam pertinet, nimis breviter et concise proferre cogeretur. Praeterea, quod lectorem
+
+EULER'S MECHANICA VOL. 1.
+
+Preface.
+
+Translated and annotated by Ian Bruce.
+
+page 6
+
+maxime distinet, omnia more veterum syntheticae geometricis demonstrationibus est
+
+persecutus, atque analysin, qua ad completam harum rerum cognitionem pervenitur,
+
+celavit. Non multum dissimili quoque modo conscripta sunt Neutoni Principia
+
+Mathematica Philosophiae, quibus haec motus scientia maxima est adepta incrementa.
+
+Sed quod omnibus scriptis, quae sine analysi sunt composita, id potissimum Mechanicis
+
+obtingit, ut Lector, etiamsi de veritate eorum, quae proferuntur, convincatur, tamen non
+
+satis claram et distinctam eorum cognitionem assequatur, ita ut easdem quaestiones, si
+
+tantillum immutentur, proprio marte vix resolvere valeat, nisi ipse in analysin inquirat
+
+easdemque propositiones analytica methodo evolvat. Idem omnino mihi,cum Neutoni
+
+Principia et Hermann Phoronomiam perlustrare coepissem, usu venit, ut, quamvis
+
+plurium problematum solutiones satis percepisse mihi viderere, tamen parum tantum
+
+discrepantia problemata resolvere non potuerim. Illo igitur iam tempore, quantum potui,
+
+conatus sum ex synthetica illa methodo elicere easdemque propositiones ad meam
+
+utilitatem analytice pertractare, quo negotio insigne cognitionis meae augmentum
+
+percepi. Simili deinde modo alia quoque passim dispersa ad hanc scientiam spectantia
+
+scripta sum persecutus, quae omnia ad meum usum methodo plana et aequabili exposui
+
+atque in ordinem idoneum digessi. Hoc in negotio occupatus non solum in plurimas antea
+
+nondum tractatas incidi quaestiones, quas feliciter solutas dedi : sed etiam complures
+
+peculiares methodos sum adeptus, quibus tam mechanica quam ipsa analysis non parum
+
+augmenti accepisse videantur.
+
+Hinc igitur natus est iste de motu tractatus, in quo cum ea, quae in aliorum scriptis
+
+de motu corporum inveni, tum quae ipse sum meditatus, methodo analytica et commodo
+
+ordine exposui. Operis autem partitionem tum ab ipso corporum, quae moventur,
+
+discrimine, tum ab eorum statu vel libero vel non libero petii. Ipsa corpurum indoles mihi
+
+hanc suppeditavit divisionem, ut primo corporum infinite parvorum et quasi punctorum
+
+motum investigarem, tum vero ad corpora finitae magnitudinis eaque vel rigida vel
+
+flexibilia vel ex partibus a se invicem omnino dissolutis progrederer. Quemadmodum
+
+enim in Geometria, in qua dimensio corporum traditur, tractatio a punctis ordiri solet, ita
+
+etiam corporum finitae magnitudinis motus explicari non potest, nisi prius punctorum, ex
+
+quibus corpora composita concipienda sunt, motus sit diligenter examinatus. Namque
+
+corporis finitam habentis magnitudinem motus aliter considerari et determinari non
+
+potest, nisi ut definiatur, qualem quaeque eius particula seu punctum habeat motum.
+
+Quocirca haec de motu punctorum tractatio est fundamentum et praecipua pars totius
+
+Mechanicae, cui reliquae partes omnes innituntur. Huic igitur disquisitioni de motu
+
+punctorum duos hos priores Tomos destinavi, in quorum altera puncta libera, in altero
+
+vero non libera contemplatue. Latius autem pleraque, quae in his libris tradidi, patent
+
+quam sola puncta ex iisque saepenumero corporum finitorum motus potest determinari,
+
+totalis scilicet non, vero is, quo partes singulae inter se moventur. Ex eo enim, quod
+
+punctum in vacuo proiectum parabolam describat, quoque intelligitur quaeque corpora
+
+finita, si proiiciantur, in parabolis moveri debere, motus vero singularum partium lex inde
+
+non constat, set haec inquisitio propria est sequentium Librorum, in quibus corporum
+
+finitorum motus definietur. Simili quoque modo, quae Neutonus de motu corporum a
+
+viribus centripetis sollicitatorum demonstravit, de punctis tantum valent, interim vero
+
+tamen ea ad motum planetarum recte transtulit.
+
+In hoc itaque primo Tomo puncto libera examini subiicio atque, quamnam motus
+
+alterationem quaeque potentiae sollicitantes iis inferant, investigo : liberum autem mihi
+
+EULER'S MECHANICA VOL. 1.
+
+Preface.
+
+Translated and annotated by Ian Bruce.
+
+page 7
+
+est corpus, quando nihil impedit, quo minus corpus ea celeritate et secundum eam
+
+directionem, quas tum ratione motus iam insiti, tum ratione potentiarum sollicitantium
+
+habere debet, progrediatur. Ita planetae et in terra corpora vel delabentia vel proiecta
+
+libere moveri dicuntur, quia in motu et vim insitam et effectum potentiae sollicitandis
+
+sequuntur; at corpus super plano inclinato descendens aut pendulum oscillationes
+
+peragens non libere movetur; planum enim subiectum vel pendulum alterno termino
+
+fixum impedit, quominus corpus directe descendat, ut vis gravitatis postulat.
+
+Expono igitur Capito primo generales motus proprietates, et quae de celeritate,
+
+spatio et tempore tradi solent, atque demonstro leges naturae universales, quas corpus
+
+liberum a nullis potentiis sollicitatum observat. Quod scilicet huiusmodi corpus, si semel
+
+quieverit, perpetuo in quiete perseverare debeat, at si motion habuerit, perpetuo eadem
+
+celeritate in directum progredi debeat; quarum utraque lex sub nomine conservationis
+
+status commodissime comprehendi potest. Ex quo sequitur conservationem status esse
+
+corporum omnium propritatem essentialem atque omnia corpora, quatenus sunt talia,
+
+habere vim seu facultatem in statu suo perpetuo permanendi, quae nil aliud est nisi ipsa
+
+vis inertia. Minus quidem apte vis nomem huius conservationis causae tribuitur, quia non
+
+est homogenea cum aliis viribus proprie sic dictis, cuiusmodi est vis gravitatis, neque
+
+cum iis comparari potest; in quo errore plures in imprimis Metaphysici versari solent,
+
+vocis ambiguitate decepti. Cum ergo omne corpus natura sua in statu eodem sive quietis
+
+sive motus perseveret, externis viribus tribuendum est, si corpus hanc legem non
+
+sequatur, sed vel motu inaequabili vel secundum lineam curvam progrediatur. Huiusmodi
+
+vero externae vires sunt potentiae, de quarum aequilibrio et comparatione in Statica est
+
+tractandum, quae, quando in corpus agunt, eius statum perturbant, id vel movendo vel
+
+accelerando vel retardando vel directionem mutando.
+
+In secundo igitur Capite persequor, cuiusmodi effectum quaque potentia in
+
+punctum liberum sive quiescens sive motum exercere debeat. Hinc conficiuntur vera
+
+Mechanicae principia, ex quibus, quicquid ad motus alterationem pertinet, explicari
+
+debet; quae, cum adhuc nimis leviter essent confirmata, ita demonstravi, ut non solum
+
+certa, sed etiam necessario vera esse intelligantur.
+
+Expositis principiis, ex quibus intelligi potest, quamadmodum motus tum
+
+conservetur, tum a potentiis vel generitur vel alteretur, progredior ad ipsum motum
+
+corporum a potentiis utcunque sollicitatorum determinandum et examinandum. Atque
+
+primo quidem motum considero rectlineum tanquam determinatu facillimum, qui oritur,
+
+si punctum liberum ab unica potentia vel quiescens ad motum sollicitatur vel iam motum
+
+in ipsa potentiae directione sive acceleratur sive retardatur, cui disquisitioni Capita
+
+tertium et quartum dicavi, in quorum priore motum rectilineun in vacuo, in posteriore
+
+vero motum rectilineum in medio quamodcunque resistente pertracto. Quamvis enim
+
+resistentia ad potentias proprie sic dictas reduci queat, tamen in hac tractatione consultum
+
+visum est alterationem motus a resistentia seorsim tradere, cum ut alios, qui hac de re
+
+scripserunt, sequerer, tum etiam propter essentialem, quae inter potentias absolutas et
+
+resistentiam intercedit, differentiam. Potentia enim absoluta seu proprie sic dicta
+
+determinatam et a motu corporis non pendentem habet directionem atque insuper in
+
+corpus motum aeque agit ac in quiescens; cum contra resistentiae directio sit semper in
+
+ipsa corporis moti directione sita eiusque quantitas a celeritate corporis pendeat. Etsi vero
+
+in natura praeter resistentiam, quae quadratis celeritatum est proportionalis, alia non
+
+observetur, tamen alias etiam quasque resistentias pertractavi, cum ut plurium circa
+
+EULER'S MECHANICA VOL. 1.
+
+Preface.
+
+Translated and annotated by Ian Bruce.
+
+page 8
+
+motum in medio resistente agitatorum problematum solutiones simul exponerem, tum
+
+vero imprimis ut plurima egregia calculi specimina afferendi esset occasio.
+
+In duobus denique postremis Capitibus motus corporum sum contemplatus, qui
+
+oriuntur, quando potentiarum sollicitantium directio cum corporis proiecti directione non
+
+congruit. Hoc enim casu corpus perpetuo a rect tramite retrahitur et in linea curva moveri
+
+cogitur. In quinto quidem Capite motum huiusmodi curvilineum in vacuo exposi, in sexto
+
+vero Capite medii resistentiam simul consideravi. Primaria ergo problemata, quae in his
+
+Capitibus continentur, in hoc versantur, ut corporis utcunque proiecti et a quibuscunque
+
+potentiis sollicitati curva, in qua moveatur, determinetur atque simul corporis celeritas in
+
+singulis curvae punctis indicetur hocque tam in vacuo quam in medio resistente. Ex his
+
+vero primariis propositionibus tunc aliae sunt natae, in quibus vel data curva a corpore
+
+descripta, vel ex data motus quadam indole tum potentiae sollicitantes tum resistantia
+
+quaeruntur. In quo negotio in id imprimis incubui, ut omnia tam a Neutono quam ab aliis
+
+tractata hucque spectantia problemata complecterer atque solutiones genuinas methodo
+
+analytica traderem. His igitur Tomus iste primus absolitur, quem pariter ac sequentem ita
+
+conscripsi, ut, qui in analysi tam finitorum quam infinitorum satis fuerit exercitatus, is
+
+mira facitate omnia intelligere atque sine ulla manuductione integrem hoc opus perlegere
+
+queat.
+
+

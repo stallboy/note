@@ -1,0 +1,5773 @@
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 303
+
+CHAPTER FIVE.
+CONCERNING THE CURVILINEAR MOTION OF FREE POINTS ACTED ON BY ABSOLUTE FORCES OF ANY KIND.
+[p. 225]
+DEFINITION 21.
+543. A body describes the curved line AMB (Fig. 47) when acted upon by a force. The tangential force on the body is the component of the force along the direction of the tangent TMt to the curve at the point M.
+Corollary 1.
+544. Therefore the tangential force exerts no other effect on the body while the element Mm is traversed, except that the motion of the body is either accelerated or retarded, since clearly the body is pulled either following the direction of MT or Mt.
+Corollary 2.
+545. Therefore when a body is moving along a curved line, the tangential force continually changes its direction and exerts its influence at another place.
+Scholium.
+546. Indeed a tangential force is hardly ever able to arise of its own accord in the nature of things; truly nothing is known of this wider use. For a force acting has a direction that can always be resolved into two parts, one of which is placed along direction of the tangent. [p. 226]
+DEFINITION 22.
+547. The normal force is the force acting on the body describing the line AMB (Fig. 47), the direction of which MR is normal to the element of the curve Mm or the tangent MT .
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 304
+
+Corollary 1.
+548. Therefore the normal force can neither increase nor decrease the speed of the body, since its direction MR is always at right angles to the direction of motion. (164).
+
+Corollary 2.
+549. The effect of this force is agreed upon, as we show in what follows, as only the direction of the body can be changed and affected, because by itself the body progresses along a straight line, and the action of the normal force makes it move along a curve (165).
+
+Scholium 1.
+550. If a body moves in the same plane, and also the directions of the forces acting on it are in put in the same plane, then the individual forces can be resolved into two parts, one of which is the normal, and the other the tangent, as is apparent from the principles of statics. Whereby when we have determined the effect of the tangential and normal forces on the body, then likewise also, [p. 227] the effect of any oblique force is also known. Moreover we call all forces acting on the body oblique, which are neither along the normal nor the tangent.
+Scholion 2.
+551. Hence the first division of this chapter arises. For in the first part we consider these motions that have their paths in the same plane, and likewise all the forces are agreed to be acting in the same plane. Following this, we are to consider motions that follow paths that do not lie in the same plane; for which it is understood that it is not sufficient to resolve the individual forces into two parts, for these are required to be resolved into three parts, on account of the three dimensions in which the body is moving.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 305
+
+PROPOSITION 70.
+
+PROBLEM. 552. If a body, as it traverses the element Mm (Fig. 47) in a plane, is acted on by two forces, the one normal and the other tangential, to determine the effect of each in altering the motion of the body.
+
+SOLUTION. Let the speed of the body describing the element Mm correspond to the height v, the force pulling along the normal MR is equal to N, and the tangential force pulling along MT is equal to T, the element Mm = ds and the radius of osculation at M = r. [Which we now usually call the radius of curvature.] To determine the effect of the force N, since the direction of this is along the normal at Mm, we use the formula (165), which is npr = Ac2 . [p. 228]
+
+This becomes
+
+pr = 2Av (209). But here N has been put in place of
+
+p A
+
+for us ; for we
+
+understand by N not only the impression of the force N on the body, but the strength of
+
+the acceleration or the absolute force divided by the mass of the body, [which is A] (213).
+
+Whereby here in place of
+
+p A
+
+must be substituted N, with which done we have :
+
+Nr = 2v .
+
+Q. E.D. for the first part. [Thus in modern terms, we have the centripetal acceleration at
+
+the point M , ac = V 2 / r , where V is the tangential speed at this point.]
+
+Then to determine the effect of the tangential force T, I use this rule :
+
+Acdc = npds (166), or in place of this, it is modified to give : Adv = pds (209). And on
+
+account of the reasons offered, here in place of
+
+p A
+
+I
+
+substitute
+
+T,
+
+and
+
+it
+
+becomes
+
+dv = Tds .
+
+Q. E.D. for the second part. [We may wish to consider Tds as the increase in the kinetic
+
+energy of the body supplied by the force T acting along the tangent on a unit mass
+
+through the increment ds, while dv is the corresponding change in a hypothetical
+
+gravitational potential energy of a unit mass under unit gravitational acceleration. One
+
+needs to look at Euler's work in Ch. 2 to see how relations equivalent to these can be
+
+found without recourse to work­energy relations. ]
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+page 306
+
+Corollary 1.
+
+553. Because the acceleration of gravity is put equal to 1 [here called force, but in the
+
+sense force per unit mass], the normal acceleration is to the acceleration of gravity as the
+
+height corresponding to the speed to half the radius of osculation [curvature] ; which ratio
+
+follows from the equation Nr = 2v .
+
+[In modern terms, the centripetal acceleration ac = V 2 / r = 2gh / r = 2.1.v / r = N . ]
+
+Corollary 2.
+554. Therefore with the given acceleration to the normal, and the curve that the body
+
+describes, the speed of the body is known at once, for the speed is expressed by v , and
+
+v=
+
+Nr 2
+
+.
+
+Corollary 3.
+
+555. Truly the increment of the height corresponding to the speed is always equal to the
+
+product of the tangential acceleration and the element of distance traversed by the body
+
+[p. 229]. Or the element of v is to the element of distance described ds as the tangential
+
+acceleration is to the acceleration of gravity.
+
+PROPOSITION 71.
+PROBLEM. 556. If the body, while it traverses the element Mm (Fig. 47), is acted on by some oblique force in the direction MC, then it is required to determine the effect of this force in changing the motion of the body.
+SOLUTION. Let this oblique force be in the ratio to the force of gravity, if on the surface of the earth, as P to 1, the element Mm = ds and the speed at M corresponds to the height v. Since the obliqueness of the force MC has been given, the angle CMT is given, and on account of this the triangles CMT and Mmt, which come from the perpendiculars dropped from C to MT and from m to MC, are as shown. We can therefore put Mr = dy and mr = dx, then ds2 = dx2 + dy2 , and the ratio between both ds, dx, and dy is given. They are now brought together with these equations (161, 163) that have been presented before (208). For these that we wish to find here are
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 307
+
+completely similar to these previous ones,; only in this respect do they differ, as for us here the ratio is P:1, while there it was p : A. On this account, we have :
+dv = Pdy ,
+
+and with the radius of osculation MR at M put equal to r this equation is found :
+Pr dx = 2vds
+
+(208), I write P in place of
+
+p A
+
+.
+
+Of
+
+these
+
+equations
+
+:
+
+dv = Pdy defines the increment of the speed, as the body travels through the element
+
+Mm. [p. 230] Truly the other,
+
+Pr dx = 2vds or
+
+r=
+
+2vds Pdx
+
+shows the lines of the curvatures
+
+at M described by the body. Hence the whole effect of the oblique force on the motion of
+
+the body can become known. Q. E. I.
+
+[The component of P along the curve at M is Pcos = Pdy / ds : hence at .ds = dv , where
+
+at is the tangential acceleration, as in the previous chapters ; the component of P normal
+
+to the curve, or the normal acceleration an , is given by
+
+an = P sin = Pdx / ds = V 2 / r = 2v / r , where P is taken as the acceleration of a body of
+
+unit mass along MC. ]
+
+Corollary 1.
+557. If the oblique force is put in place at an obtuse angle with the element Mm (Fig. 48), everything remains as before, except that the line element mr =dy must be taken
+(1 - 2 ) =  . Hence dv = -Pdy , and the other equation
+Pr dx = 2dvds remains as before.
+
+Corollary 2.
+558. Therefore if the direction of the force MC falls between the normal MR and the element Mm as in Fig. 47, then the motion of the body is one of acceleration. But if CM falls outside each, as in Fig. 48, the motion is one of retardation.
+
+Corollary 3.
+559. If the direction of the force MC falls on the tangent MT, then the angle mMr, Mr is made equal to Mm or dx = 0 and dy = ds. Therefore we have dv = Pds and r = , which indicates that the direction of the body is not affected by this tangential force.
+
+Corollary 4.
+560. If the direction of the force MC (Fig. 48) on the other part Mt, in which case Mr = dx = 0 and dy = ds,giving dv = -Pds and r = as before. Therefore only the
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+page 308
+
+tangential speed of the body is affected, and the direction of the motion is clearly not
+
+changed.(544). [p. 231]
+
+Corollary 5.
+561. The direction of the force MC falls on the normal MR, where the effect of the normal force is known. Hence in this case dy = 0 and dx = ds .And consequently
+dv = 0 and Pr = 2v is produced. Hence the normal force does not affect the speed, but only the direction of the motion. (548).
+
+Scholium 1.
+562. Therefore both the effect of the normal force and of the tangential force on the motion of the body is known. On which account, when all the forces, as many as act on the body, are put in a plane in the same way in two's, they can be resolved with one part normal and the other tangential, and the effect of any forces on the motion of the body can become known.
+Scholium 2.
+563. Hence it will be most convenient for motion in the same plane to be subdivided, as in the first place the directions of all the forces acting are parallel to each other, as in our region, the directions of the weights are observed to be parallel to each other. Then we will consider the case, in which the directions of all the forces converge to a single point, to which also the body is always attracted, and which is the case of the centripetal force, such as the singular discoveries made by Newton Part I of the Princ. Phil. Nat. Truly in the third place we introduce and investigate any forces acting on a body [p. 232], which the motion shall always be about to follow. Moreover we will turn from these individual cases, as at first we propose direct questions, then indeed also inverse questions, as far as we have done at this stage, that we may be able to resolve. Always finally, as much as is permitted, we will progress from the more simple to the more complicated and difficult cases. [Euler now solves simple projectile motion using his general equations.]
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 309
+
+PROPOSITION 72.
+PROBLEM. 564. If there is a constant force the direction of which is normal everywhere to the right line AB (Fig. 49) and if a body is projected from A with a given speed along the direction AH, then it is required to find the curve AMDB described by the body, and the motion of the body on this curve.
+SOLUTION. The force acting is called g, and the speed with which the body is projected from A corresponds to the height c and the cosine of the angle HAB = , with the whole sine taken equal to 1. Now with the body travelling through the element Mm = ds , the speed at M corresponds to the height v, and PM = y and likewise the radius of
+osculation at M = r. On account of which Mr = dx and mr = dy, and it is apparent that
+this case can be referred to Fig. 48, where the motion of the body is slowing down. [Note however that the elemental triangle in Fig. 48 has been rotated counterclockwise about M, resulting in x and y being interchanged in the diagram, but not in the equations.] Therefore we have : dv = -gdy and grdx = 2vds (557). From the first of these equations there arises : v = C - gy , and C must
+be found from this, that with y = 0, it must become v = c. Therefore we have : [p. 233]
+v = c - gy .
+[Note also that v and c are actually multiplied by 1, which is the assumed acceleration of gravity in Euler's units on earth, in order that the equation has the correct dimensions of L2/T2. Thus, g also is one on earth, but it has been made more general in the equation. It is probably a good idea to refresh our memory of the derivation of the radius of curvature for a function y(x) at some regular point. In the extra sketch, the component of the force or acceleration along the normal to the curve shown is g cos = gdx / ds , while the component along the tangent is g sin = gdy / ds . Hence the equation grdx = 2vds can be
+reduced to the familiar form V 2 / r = gdx / ds . The radius of curvature is given
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+page 310
+
+by r = ds / d = ( ds / dx )( dx / d ; now the element of arc ds2 = dx2 + dy2 , and
+
+dy / dx = tan , leading to d 2 y / dx2 = sec2  .d / dx and hence
+
+d / dx = ( d 2 y / dx2 ) /(1 + tan2  ) = ddy / ds2 . From which it follows
+
+that r = ( ds / dx )( ds2 / ddy ) = ds3 / dxddy . The negative sign is applied for a convex
+
+curve as we have here. ]
+
+Now from the other equation, this value found is put in place of v and the equation is
+
+produced :
+
+grdx 2 ds
+
+=
+
+c
+
+-
+
+gy
+
+.
+
+Truly,
+
+r
+
+=
+
+ds3 -dxddy
+
+with constant dx put in place [i. e. x is an independent variable], with
+
+which substituted, the equation becomes :
+
+- gds2 2ddy
+
+= c - gy
+
+or
+
+2cddy = 2gyddy - gdx2 - gdy2
+
+with dx2 + dy2 in place of ds2 . The integral of this equation can be found:
+
+dx =
+ds
+
+C c - gy
+
+.
+
+[This can be shown be assuming ( ds / dx )2 = p( y ) , differentiating w.r.t. x, and
+
+substituting in the original equation -gds2 = c - gy . ]
+2ddy
+
+Moreover with y = 0 we designate C = 2c . We therefore have :
+
+dx = 
+ds
+
+c c - gy
+
+and
+
+hence
+
+dy c = dx .
+( c(1-2 )- gy )
+
+The integral of which is :
+
+C - 2 ( c(1 - 2 ) - gy ) = gx = 2 c(1 - 2 ) - 2 ( c(1 - 2 ) - gy ) ,
+c
+with the constant C determined, so that y vanishes by putting x = 0. For the sake of brevity, the sine of the angle HAB or (1 - 2 ) =  , then
+
+and hence, Hence also we have : and
+
+gx = 2c - 2 ( 2c2 - gcy )
+
+y
+
+=
+
+x 
+
+-
+
+gx 2 42c
+
+.
+
+v
+
+=
+
+c
+
+-
+
+gx 
+
++
+
+g 2 x2 42c
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+ds2
+
+=
+
+dx2(1 +
+
+2 2
+
+-
+
+gx 3c
+
++
+
+g2x2 44c 2
+
+)=
+
+dx 2 2
+
+(1-
+
+gx c
+
++
+
+g 2 x2 44 c 2
+
+).
+
+Consequently the equation arises :
+
+ds 2 v
+
+= dx2
+2c
+
+and
+
+ ds = x v c
+
+page 311
+
+is equal to the time, in which the arc AM is travelled through. Q.E.I.
+
+Corollary 1.
+
+565. Therefore the body falls back on the horizontal line AB at the point B with
+
+AB
+
+=
+
+4c g
+
+.
+
+Indeed
+
+the
+
+time,
+
+in
+
+which
+
+the
+
+body
+
+is
+
+turning
+
+above
+
+AB
+
+and
+
+the
+
+curve
+
+ADB
+
+is completed, is given by
+
+4 g
+
+c.
+
+Corollary 2.
+566. Moreover 2 denotes the sine of the angle, which is twice the sine of the angle
+
+HAB.
+
+Whereby,
+
+if
+
+the
+
+sine
+
+of
+
+this
+
+angle
+
+is
+
+called
+
+,
+
+[p.
+
+234]
+
+then
+
+AB
+
+=
+
+2 g
+
+c
+
+. From which
+
+it is apparent that the distance AB to be a maximum, if  = 1 and thus the angle HAB is
+
+half a right angle, if indeed the body is projected with the same speed c .
+
+Corollary 3.
+567. It is also understood that the horizontal motion of the body is uniform. For the times, in which any arc is described, are proportional to the corresponding abscissa on the line AB.
+
+Corollary 4.
+568. If the body is always projected with the same speed c , but at different angles with AB, the times in which the motion above AB is completed, are to each other as the sines of the angles HAB (565).
+
+Corollary 5.
+
+569. The maximum height DE, to which the body can reach, is the vertical line through
+
+the point E, taken from
+
+AE =
+
+2c g
+
+.
+
+From
+
+which
+
+it
+
+is
+
+apparent
+
+that
+
+AE
+
+is
+
+half
+
+of
+
+AB.
+
+Truly the maximum height itself DE is equal to
+
+ 2c g
+
+,
+
+which
+
+hence
+
+is
+
+in
+
+proportion
+
+to
+
+the
+
+square of the sine of the angle HAB.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 312
+
+Corollary 6.
+
+570.
+
+From
+
+the
+
+equation
+
+y
+
+=
+
+x 
+
+-
+
+gx 2 42c
+
+it is seen that the curve ADB is a parabola,
+
+the axis
+
+of which is the line DE and the parameter is equal to AE2 = 42c . Therefore the
+DE g
+
+parameter is proportional to the square of the cosine of the angle HAB. [p. 235]
+
+Corollary 8.
+
+571. Hence the vertex of this parabola is the point D, and the distance DF of the focus F
+
+from the vertex D is equal to
+
+2c g
+
+.
+
+Whereby
+
+if
+
+the
+
+line
+
+MF
+
+is
+
+drawn,
+
+this
+
+will
+
+be
+
+MF = DQ + DF from the nature of the parabola. [For MF 2 = ( y - a )2 + y2 = ( y + a )2.]
+
+Corollary 8.
+
+572.
+
+Moreover
+
+also
+
+MF
+
+=
+
+DE - MP + DF
+
+[=
+
+c g
+
+-(
+
+y - a ) + a] =
+
+c g
+
+-
+
+y
+
+=
+
+c - gy g
+
+.
+
+Since
+
+truly
+
+v = c - gy is the height corresponding to the speed at M = g.MF. Therefore it is also
+
+apparent that
+
+AF
+
+=
+
+c g
+
+,
+
+[as
+
+c = g.AF ].
+
+Corollary 9.
+573. Therefore it is evident that the body describing this parabola has the same speed at some point M, as the same body acted on by the same uniform force falling straight down can acquire from that height, which is equal to the distance of the point M from the focus of the parabola.
+
+Corollary 10.
+
+574.
+
+The
+
+cosine
+
+of
+
+the
+
+angle
+
+FAE
+
+is
+
+equal
+
+to
+
+AE AF
+
+=
+
+2
+
+=
+
+
+
+.
+
+From
+
+which
+
+it
+
+is
+
+evident
+
+that
+
+the angle FAE is equal to the complement of twice the angle HAE to the right angle or
+
+rather the excess of twice the angle over the right angle. [ cos FAE = 2 = sin 2HAB ;
+
+FAE = 90 - 2HAB or 2HAB - 90]
+
+Corollary 11.
+575. Since the angle AFD is the supplement of the angle AFE, then the angle AFD is twice the angle HAB. [p. 236] [AFD = 180 - AFE = 90 + FAE = 2HAB. ]
+
+Scholium 1.
+576. Therefore the construction of the parabola is easily deduced from these, that describes the projection of the body with a given speed in a given direction. For with AG drawn normal to AB, and the angle GAF taken equal to twice the angle HAE, and in this direction AF is taken equal to the height, from which the same body falling in a straight line acquires the speed equal to this, with which it is projected from A, from which the focus point F of the parabola sought is found (573, 575). Again the normal DE through F
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+page 313
+
+drawn to the line AB is the axis of this parabola, and the vertex D is found by taking
+
+DF
+
+=
+
+AF -FE 2
+
+.
+
+Therefore
+
+when
+
+the
+
+parameter
+
+is
+
+equal
+
+to
+
+4DF,
+
+the
+
+description
+
+of
+
+the
+
+parabola is brought into view.
+
+Scholium 2.
+577. If g = 1, then we have the case of terrestrial gravity. Concerning which, if there should be no air present, which might impede the motion of the body on account of resistance, all projected bodies move in parabolas. Galileo first elicited this truth, and after him all the writers of mechanics have demonstrated this fact. And indeed it can be arrived at in a much shorter way without differential equations and differentiation, but we have preferred to use a general method, which can be widely extended, rather than apply ourselves too much with the particular solutions, which can only be adapted to that one case. [p. 237]
+
+PROPOSITION 73.
+
+PROBLEM. 578. If the body at A (Fig. 50) with a given speed and projected in a given direction is always attracted to the line AB in some ratio of some function of the distances from this line, to determine the curve ADB, that the body thus acted upon describes and the whole motion on this curve.
+
+SOLUTION.
+
+Let the speed at A = c and the sine of the angle HAB =  , with the whole sine taken as
+
+1, and the cosine equal to . The speed of the body at M corresponds to the height v and the element Mm = ds , and likewise the abscissa AP = x, with the applied line PM = y and the radius of curvature MR = r. Moreover while the body is traversing the element Mm, it is meanwhile pulled by a given force , which shall be equal to P, for a certain function of y, in the direction MP. With these put in place, dv = -Pdy , et Pr dx = 2dvds (557).
+
+ Moreover, Pdy = Y and Y is such a function of y, which is made equal to 0 with y put
+
+equal to 0. Hence, on this account, v = c - Y . Then from the first equation, the value of
+
+P, i. e.
+
+-dv dy
+
+,
+
+is
+
+substituted
+
+into
+
+the
+
+other
+
+equation
+
+Pr dx = 2dvds , and there is obtained :
+
+-dv v
+
+=
+
+2dyds rdx
+
+.
+
+It
+
+is
+
+true,
+
+and
+
+with
+
+ds
+
+made
+
+constant,
+
+that
+
+with
+
+r
+
+=
+
+dyds ddx
+
+,
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+page 314
+
+[The reason for introducing the new curvature condition is of course to allow the
+
+variables to be separated.] and hence
+
+- dv v
+
+=
+
+2ddx dx
+
+and by integrating,
+
+l
+
+C
+
+-
+
+l
+
+v
+
+=
+
+l
+
+dx 2 ds 2
+
+.
+
+The constant C is determined from this , that at the point in which
+
+v = c , put
+
+dx ds
+
+=.
+
+According to which, l C = l c + 2l again with the numbers taken
+
+2cds2 = vdx2 . [p. 238] From this equation the element of the time is at once found : ds = dx .
+v c
+Moreover the equation of the curve AMDB is obtained from the two equations found : v = c - Y et 2cds2 = vdx2 ; by eliminating v there arises :
+2cds2 = cdx 2 - Ydx2 = 2cdx2 + 2cdy2.
+
+Bus since 1 - 2 =  2 , it gives
+
+dx = dy c ,
+(  2c-Y )
+
+in which equation, since the variables x and y can be separated from each other, the curve ADB can be constructed. Q.E.I.
+Corollary 1.
+579. Therefore the times in which any arcs AM are described, are in the ratio of the corresponding abscissae AP. Indeed the time to traverse AM is equal to x .
+c
+[Since ds = dx .]
+v c
+Scholium 1.
+580. The motion of the body on the curve AM can be considered to be resolved into two other motions, of which the one becomes lines parallel to the line AB, and the other follows the perpendiculars to this line AB. In that motion the body progresses following the line AB, and indeed it either rises or falls with respect to the line AB. Now indeed it is evident that the progression of the horizontal motion is not to be changed by a force, the direction of which is always perpendicular to AB, and for this reason this motion must always be regular and made with the same speed, which arises from the resolution of the initial motion. Since the direction of the initial motion is along the line AH, the speed of
+this c to the progressive speed along AB is as the whole sine 1 to the cosine of the
+angle HAB, which is . [p. 239] Therefore the speed of progression along AB is  c , from which the time, in which the horizontal motion is completed through the distance AP = x , comes to equal x , as we have found.
+c
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 315
+
+Corollary 2.
+581. If the body with the speed c rises from A perpendicularly along AC and we take AL = PM = y , then the speed at L is equal to the speed at M, clearly v . For dv = -Pdy and v = c - Y , as we have found for the point M.
+
+Corollary 3.
+582. If AC is the total height, to which the body projected up from A with the speed c is able to reach, then the height CL is that by which the body acquires the same speed by falling, that it had at M.
+
+Corollary 4.
+583. The maximum height DE is found by making dy = 0 , in which case Y =  2c , from
+which equation the value of y extracted must give the height DE, and the speed at D is of such as size as that acquired by the body falling from the height CI.
+[We can perhaps also see this from energy conservation: The initial kinetic energy of the body at A is partitioned into a constant amount for the horizontal motion Eh, and an amount that is all transformed into potential energy at D, Ev. Now, Eh + Ev is constant, and is equal to the potential energy at C if the body is projected straight up, in which case the amount of kinetic energy gained in falling is the same as Eh , as the potential energy is the same at D and I in each case.]
+
+Corollary 5.
+
+584.
+
+Moreover,
+
+we
+
+have
+
+also
+
+found
+
+that
+
+v
+
+=
+
+2 cds 2 dx 2
+
+.
+
+Whereby,
+
+when
+
+at
+
+the
+
+point
+
+D
+
+,
+
+dx = ds , and the speed at D =  c , which is equal to the horizontal speed that the body
+
+has progressing along AB. [p. 240]
+
+Scholium 2.
+585. Indeed the size of AB is not apparent from the equation, since it cannot be integrated. Yet it is evident that the parts AE and EB are required to be equal, and the branch DB is similar and equal to the arc DA. For after the body arrives at D, it is accelerated again in a similar way, in which it was retarded before along AD; because the force is the same in these same distances from AB and in this way the motion is again perfectly restored.
+
+Scholium 3.
+586. Hence also the inverse problem can be resolved easily, where for a given curve ADB and with the speed of the body at A, the law of the force is sought which must be put in place, in order that the body moves on that curve. For from the equation :
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 316
+
+dx =
+
+dy c (  2c-Y )
+
+it
+
+is
+
+found
+
+that
+
+Y
+
+=
+
+ 2c
+
+-
+
+2 cdy 2 dx 2
+
+and
+
+dY
+
+=
+
+Pdy
+
+=
+
+-22cdyddy dx 2
+
+with
+
+dx
+
+constant.
+
+Since
+
+r
+
+=
+
+ds 2 -dxddy
+
+with
+
+dx
+
+placed
+
+constant,
+
+then
+
+P
+
+=
+
+22cds3 rdx3
+
+,
+
+which
+
+is
+
+equal
+
+to
+
+the force acting on the body at M, following the direction MP.
+
+PROPOSITION 74.
+
+PROBLEM. 587. A body is projected at A and everywhere it is pulled (Fig. 51) towards the centre of force C by some centripetal force, and it is required to determine the nature of the curve AM, in which the body is moving, and the motion of the body on this curve. [p. 241]
+
+SOLUTION. The centripetal force acting on the body at M towards C is put equal to P, and the speed of the body at M shall correspond to the height v. Then the distance CM is called y, the element of length Mm is equal to ds and the perpendicular CT to the tangent of the curve MT is called p, also the element Mr is dx and the radius of curvature MR is called r. Therefore because of the similar triangles Mmr and CMT
+
+ds ( y2 - p2 ) = ydy and dx ( y2 - p2 ) = pdy [where MT = ( y2 - p2 ) ]. And the
+
+radius
+
+of
+
+curvature
+
+is
+
+found
+
+r
+
+=
+
+ydy dp
+
+.
+
+[For on drawing the other tangent at m, and considering the equality of the small angle
+
+between these tangents and the angle MCm,
+
+dp MT
+
+= ds
+r
+
+or
+
+r
+
+=
+
+ds dp
+
+.MT
+
+=
+
+ydy dp
+
+.
+
+See
+
+sketch
+
+added to (601)] With these put in place we have : dv = -Pdy and Pr dx = 2vds (557). With these
+
+equations collated with the elimination of P ,
+
+we have :
+
+rdvdx
+
+=
+
+-2vdsdy
+
+or
+
+dv v
+
+=
+
+-2dsdy rdx
+
+.
+
+Substituting
+
+ydy dp
+
+in
+
+place
+
+of
+
+r
+
+and
+
+y p
+
+in
+
+place
+
+of
+
+ds dx
+
+,
+
+there
+
+is
+
+produced
+
+:
+
+dv v
+
+=
+
+-2dp p
+
+.
+
+Which on integrating gives :
+
+v=
+
+C p2
+
+.
+
+This constant C is defined from the given initial speed at A, which corresponds to the
+
+height c, and with the direction of projection, that we define thus, in order that with the
+
+distance CA = a , and the perpendicular CD to the tangent at AD is equal to h. On account
+
+of which C = ch2 and
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+v
+
+=
+
+ch2 p2
+
+.
+
+page 317
+
+Hence we have ds = pds , which is equal to the element of the time required to traverse
+v hc
+the element Mm. Consequently as pds = 2MCm the time [i. e. twice the area of the
+
+elemental triangle MCm, leading to Kepler's law for equal areas described in equal times
+
+in
+
+the
+
+inverse
+
+square
+
+law
+
+instance;
+
+we
+
+note
+
+also
+
+that
+
+v
+
+=
+
+ch2 p2
+
+is the formula for the
+
+conservation of angular momentum of the unit point mass], in which the arc AM is traversed,
+
+= 2.ACM .
+hc
+
+The curve itself can be determined by substituting
+
+ch 2 p2
+
+in place of v in the equation
+
+Pr dx = 2vds , and with this done the equation is produced : Pp2rdx = 2ch2ds . This
+
+equation, with the values
+
+ydy dp
+
+and
+
+y p
+
+substituted
+
+in
+
+the
+
+equation,
+
+in
+
+place
+
+of
+
+r
+
+and
+
+ds dx
+
+,
+
+is
+
+changed into this :
+
+Pdy
+
+=
+
+2ch2dp p3
+
+.
+
+Which equation, whatever the function of y P shall be, can be constructed on account of the separate variables. Q.E.I. [p. 242]
+
+Corollary 1.
+588. Because the time, in which the arc AM is traversed, is 2.ACM , the times, in which
+hc
+any arcs can be described, are as the areas taken described by the arc and with the line drawn from the centre C.
+
+Corollary 2.
+
+589.
+
+Then
+
+since
+
+v
+
+=
+
+ch2 p2
+
+,
+
+it
+
+follows
+
+that
+
+v
+
+=
+
+hc p
+
+.
+
+Therefore
+
+the
+
+speed
+
+of
+
+the
+
+body
+
+at
+
+any location of the curve traversed varies inversely as the perpendicular from the centre
+
+C sent to the tangent at that point.
+
+Scholium 1.
+590. This description of the equality of the areas has been established in Newton's first proposition, from which nearly everything is deduced. Moreover these two properties are the most general and they only require that the direction of the centripetal force is always directed towards the centre of the circle. For whatever the size of the centripetal force, either by a function of the lengths CM, or otherwise expressed, yet each is prevailing equally. For as in these calculations that we have come across, from the calculation the centripetal force P might be removed, but yet in these only the direction is abandoned in the consideration.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 318
+
+Corollary 3.
+
+591. It is necessary that the centripetal force itself should be known for the given curve
+
+described by the body, [p. 243] and from that the equation of the curve can be found. For
+
+Pdy
+
+=
+
+2ch2dp p3
+
+expresses
+
+the
+
+nature
+
+of
+
+the
+
+curve,
+
+if
+
+P
+
+is
+
+a
+
+given
+
+quantity.
+
+Corollary 4.
+
+592. Since
+
+ydy dp
+
+= r , also we can put
+
+P
+
+=
+
+2ch2 y p3r
+
+.
+
+This
+
+is
+
+De
+
+Moivre's
+
+Theorem,
+
+P
+
+=
+
+2ch2dp p3dy
+
+,truly
+
+that
+
+Keill
+
+first
+
+contended
+
+to
+
+have
+
+come
+
+across.
+
+[Abraham de Moivre (1667­1754) : Some simple properties of the conic sections deduced
+
+from the nature of the foci; with general theorems of centripetal force, by means of which
+
+the law of the centripetal force tending to the foci of the sections, the velocities of bodies
+
+revolving in them, and the description of the orbits, may be easily determined.
+
+Philosophical Transactions 1717, p. 622; cf. Miscellanea analytica de seriebus et
+
+quadraturis, London 1730, p.233.
+
+John Keill (1671­1721) : Of the laws of centripetal force, Philosophical Transactions
+
+1708, p. 174; " The learned Mr. Halley having showed me a theorem, by which the law of
+
+centripetal force can be exhibited in finite quantities, which was communicated to him by
+
+Mr. De Moivre, who said that Mr. Is. Newton had before discovered a similar theorem,
+
+and as the demonstration of the theorem is very easy, I wish to communicate it to the
+
+public, with some other thoughts in the same subject."
+
+Noted by Paul Stackel in the 1912 edition of Tom I, which is available from the Gallica
+
+website, which is used in this translation. You will have to use JSTOR perhaps to access
+
+the papers quoted, to which I do not have acces any more.]
+
+Scholium 2.
+593. These equations are useful in two ways : For in the first place from the given law of the centripetal force, the nature of the curve can be determined that a body projected describes. Then also in turn with the help of these equations, if the curve is given, that the body describes around the centre of force C, it is possible to define the centripetal force bringing about the motion at any place, in order that the body is free to move on this curve.
+
+Corollary 5.
+594. Since also dv = -Pdy , it is evident, if P is a function of y, the speed everywhere
+depends on the distance of the body from the centre and at the same distances the body must have the same speed.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+page 319
+
+Corollary 6.
+
+595. Therefore just as P is a function of y, so also the curve described can thus be
+
+compared, as with equal distances from the centre the tangents dropped are always equal
+
+to each other, since the speeds vary inversely as the lengths of these perpendiculars (589).
+
+[p. 244 : Later of course considered to be an aspect of the conservation of the angular
+
+momentum of the rotating body.]
+
+Scholium 3.
+596. And always, if P is a function of y, a line EC can be assigned, along which a body acted on by the centripetal force in falling to the individual points N has the same speed, that it has on the curve AM at points M with the points equally distant from the centre. For take CN = CM = y and Nn = mr = dy , if the speed at N is equal to the speed at M,
+clearly corresponding to the height v, it is also the case, as the body traverses through the element Nn, that dv = -Pdy . From which it is understood that the speed at n is always
+equal to the speed at m. And thus the body has a speed at the individual points of the line EC, as great as it has on the curve AM at the same distances from C. If therefore the initial motion starts from E at which the speed is zero, the speed of the body at the individual points on the curve AM is known from the given line EC. Therefore we will use this line EC in later results in defining the speeds of the motion of the body and we will call that the distance defining the speeds.
+
+Corollary 7.
+597. Therefore with the speed given at A, clearly corresponding to the height c, from this the whole distance EC can be found. For only the distant point E from C needs to be taken, as the body falling from E is acted upon by this centripetal force and acquires a
+speed equal to c at A. [p. 245]
+
+Corollary 8.
+
+598. If the angle MCm = dw, then
+
+dw
+
+=
+
+dx y
+
+=
+
+y
+
+pdy . Hence there arises
+( y2- p2 )
+
+p = y2dw . Truly the time element, in which the angle MCm is resolved, is equal
+( y2dw2 +dy2 )
+
+to pds = pydy . Therefore this element of time is equal to y2dw .
+
+h c h c( y2 - p2 )
+
+hc
+
+Corollary 9.
+
+599. If we wish to measure the angular speed, or that in which MCm is traversed, by
+
+dividing this angle by the time, the angular speed at M is produced equal to
+
+hc y2
+
+.
+
+Therefore the speed of the angle [our angular velocity] varies inversely as the square of
+
+the distance of the body from the centre C.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 320
+
+Scholium 4.
+600. Moreover since the curve that a body describes acted upon by a given centripetal force, cannot be known otherwise than from the equation between the distance of the body from the centre and the perpendicular dropped on the tangent from the centre, generally to be judged with difficulty, such is the curve found, when we are accustomed to explain the nature of the curves by equations between orthogonal coordinates. Yet nevertheless equations of this kind between the distance from the centre and the perpendicular to the tangent, provided they are either of algebraic or differential forms, in which the variables can be separated from each other, are sufficient for the curves sought to be constructed. But where is possible to investigate thoroughly the nature and order of these curves, [p. 246] we will give here the method in which these equations between the distance and the perpendicular can be reduced to ordinary equations between the coordinates.
+
+PROPOSITION 75.
+
+PROBLEM. 601. The nature of the curve AM (Fig. 52), that a body acted upon by some centripetal force is to be described, in order the equation between the orthogonal coordinates CP and PM referred to fixed axes AC can be defined.
+
+SOLUTION.
+
+As before with the initial speed at A = c ,
+
+AC = a and with the perpendicular from C dropped to the tangent at A equal to h and in addition CM = y, CT = p and the centripetal force at M is equal to P, which is a certain function of y, then CP is called equal to x and PM = z, then
+
+CM = ( x2 + z2 ) = y or z = ( y2 - x2 ) ; for
+
+we keep y in place of z in the calculation, since in this manner the calculation is easier and shorter, and after handling the whole operation, with z in readiness to be introduced in place of y. With these in place :
+
+Mm = ( dx2 + dz2 ) = ( y2dy2 -2 yxdydx+ y2dx2 ) and Mr = - ydx+ xdy.
+
+( y2 -x2 )
+
+( y2-x2 )
+
+[This use of this auxillary coordinate y, which is just the radial distance of the body from the centre of force, eases the calculation, where dz2 is found from z2 = y2 - x2 and mr =
+
+dy, giving Mr2 = Mm2 - dy2 , leading to Mr.] Therefore we have [see Prop. 74 and
+
+following sketch for the similar triangles]:
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+[cos( )
+
+=]
+
+Mr Mm
+
+=
+
+p y
+
+=
+
+- ydx+ xdy. ( y2dy2 -2 yxdydx+ y2dx2 )
+
+and consequently
+
+p=
+
+yxdy- y2dx
+
+.
+
+( y2dy2 -2 yxdydx+ y2dx2 )
+
+But for the curve AM , we have elicited the
+
+equation
+
+previously
+
+(591)
+
+:
+
+Pdy
+
+=
+
+2ch2dp p3
+
+.
+
+Moreover we set Y for the integral of Pdy
+
+thus assumed, [Y is related to the work
+
+done by the centripetal force as the body
+
+moves along y, and hence is the potential
+
+energy function for unit mass and gravity;]
+
+so that it vanishes with y = a. With this
+
+done,
+
+then
+
+Y
+
+=
+
+C
+
+-
+
+ch2 p2
+
+, where the
+
+constant C on account of p = h, if y = a,
+
+must be equal to c. Hence there comes
+
+about :
+
+Y
+
+=
+
+cp2 -ch2 p2
+
+,
+
+[p.
+
+247]
+
+from
+
+which
+
+there is produced :
+
+p= h c .
+( c-Y )
+
+page 321
+
+[We note that h c is the initial angular momentum of unit mass at the point in the orbit
+
+where the speed and the distance from C are perpendicular; while Y is the height corresponding to the change in the potenial energy of unit mass in a uniform field of g =
+
+1, and hence c - Y is the speed elsewhere corresponding to the perpendicular distance
+
+p, giving the same angular momentum. ]
+
+Which quantity, when Y is a function of y, is also a certain function of y. Hence for this
+
+reason, we have this equation :
+
+[ p =] h c =
+
+yxdy- y2dx
+
+.
+
+( c-Y ) ( y2dy2 -2 yxdydx+ y2dx2 )
+
+We put x = uy and h c = Q for the sake of brevity, then Q =
+
+- y2dx
+
+,
+
+( c-Y )
+
+( dy 2 -u 2dy 2 + y 2du 2 )
+
+from which there arises :
+
+du = Qdy =
+
+hdy c
+
+(1-u2 ) y ( y2 -Q2 ) y ( cy2 -ch2 - y2Y )
+
+with h c restored in place of Q. Therefore which equation, when the variables u
+y ( c-Y )
+
+and y in that equation are separated [note that u is the cosine of the angle ' between MC and PC; thus y and ' are the polar coordinates of M as noted in the next cor.], can always be constructed. Q.E.I.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 322
+
+Corollary 1.
+
+602.
+
+Since
+
+u
+
+=
+
+x y
+
+,
+
+u
+
+expresses the
+
+cosine
+
+of
+
+the
+
+angle
+
+MCA.
+
+And
+
+for
+
+this
+
+reason,
+
+this
+
+final
+
+equation is separated into the distance of the body from the centre and the cosine of the
+
+angle ACM. Indeed from this equation there emerges immediately the equation between
+
+x and z. [Thus, in this remarkable manner, the equation has been separated into angular
+
+and radial components for the general case. ]
+
+Corollary 2.
+
+ 603. Truly the equation cannot be algebraic, unless
+
+hdy c
+
+denotes the arc of
+
+y ( cy2 -ch2 - y2Y )
+
+ a circle commensurable with the arc du . [Note that on putting u = cos' , this (1-u2 )
+
+integrand becomes ­d'.]
+
+Corollary 3.
+
+604. Therefore whenever
+
+hdy c
+
+can be reduced to a form of the kind
+
+y ( cy2 -ch2 - y2Y )
+
+dZ and  is a rational number, so an algebraic equation for the curve sought can
+( A2 -Z 2 )
+
+be shown. [p. 248]
+
+Scholium 1.
+
+605. But if du is equal to a quantity of the kind dZ , with the integration
+
+(1-u 2 )
+
+( A2 -Z 2 )
+
+carried put with imaginary logarithms, this equation is obtained :
+
+(1-u2 )+u (1-u 2 )-u
+
+-1 -1
+
+=
+
+
+
+( A2 -C 2 )-C ( A2 -C 2 )+C
+
+-1 -1
+
+
+
+
+
+( A2 -Z 2 )+Z ( A2 -Z 2 )-Z
+
+-1 -1
+
+
+
+.
+
+[Note that if u = cos , where we have now taken the angle MCA = , then
+
+(1-u2 )+u (1-u2 )-u
+
+-1 -1
+
+=
+
+sin +i cos sin -i cos
+
+= -ei.-2 ;
+
+similarly,
+
+if
+
+Z
+
+=
+
+A cos 
+
+, then
+
+( ) 
+
+( A2 -Z 2 )+Z ( A2 -Z 2 )-Z
+
+-1 -1
+
+
+
+=
+
+A sin + Ai cos A sin - Ai cos
+
+
+
+= ( -1) ei.-2
+
+,
+
+and
+
+similarly,
+
+if
+
+C
+
+=
+
+Acos
+
+,
+
+then 
+
+( A2 -C2 )-C ( A2 -C2 )+C
+
+-1 -1
+
+
+
+= ( -1) ei.2 .
+
+Hence, the result of the integration can be
+
+written in the convenient form : ei. = i( Aei. ) .( Aei.- ) / A2 ; hence, u = cos gives
+
+the expression for u subsequently quoted below.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+Note also that the angle  in the original integral can be written as
+
+2i
+
+= i
+
++ i
+
+= log ei
+
+- log e-i
+
+= log
+
+sin +i cos sin -i cos
+
+.]
+
+page 323
+
+Truly here C is a constant quantity to be determined from this equation, since if CM ( y ) = CA( a ) , then likewise too, x = a or u = 1. Moreover from the above equation,
+
+this equation can be constructed :
+
+( ) ( ) ( ) ( ) 
+
+
+
+
+
+
+
+u = ( A2 -C 2 )-C -1
+
+( A2 -Z 2 )+Z -1 - ( A2 -C 2 )+C -1 2 A2 -1
+
+( A2 -Z 2 )-Z -1 .
+
+Which, whenever  is a rational number, it is free to be returned from the affects of the
+
+imaginary -1 and transformed into an algebraic equation of a certain order. [Various
+
+values
+
+of
+
+
+
+corrrespond
+
+to
+
+well-known
+
+curves
+
+to
+
+be
+
+investigated;
+
+e.
+
+g.
+
+
+
+=
+
+1 2
+
+,1
+
+and
+
+correspond to ellipses with different centripetal forces.]
+
+Corollary 4.
+
+606. Since x = uy , this equation is put in place :
+
+( ) ( ) ( ) ( ) 
+
+
+
+
+
+
+
+x = ( A2 -C 2 )-C -1
+
+( A2 -Z 2 )+Z -1 y- ( A2 -C 2 )+C -1 2 A2 -1
+
+( A2 -Z 2 )-Z -1 y
+,
+
+which, since Z is a function of y and y = ( x2 + z2 ) ,can easily be changed into an
+
+equation between x and z.
+
+Scholium 2.
+
+607. The above equation can also be transformed into this :
+
+Z
+
+=
+
+2
+
+1 -1
+
+
+
+(1-u2 ) +u
+
+1
+-1  
+
+( A2 - C2 ) + C
+
+-1 - 
+
+(1-u2 ) -u
+
+1
+-1  
+
+( A2 - C2 ) - C
+
+- 1  ,
+
+[p. 249] which is more convenient, if
+
+1 
+
+is a positive whole number.
+
+[Thus, from ei. = i( Aei. ) .( Aei.- ) / A2 , we have ei = ei( + / 2 ) /  .ei ; from
+
+which Z = Acos can be found.]
+
+Scholion 3.
+
+608. But if  is a negative number, equal to = - , we have :
+
+( ) ( ) ( ) ( ) 
+
+
+
+
+
+
+
+( A2 -C 2 )+C -1
+
+( A2 -Z 2 )-Z -1 - ( A2 -C 2 )-C -1 2 A2 -1
+
+( A2 -Z 2 )+Z -1 = u
+
+From which it is apparent, if  is negative, the value of u can only be negative, indeed
+
+that which is understood from the differential equation. Truly in a similar manner,
+
+Z
+
+=
+
+2
+
+1 -1
+
+
+
+(1- u2 ) - u
+
+1
+-1  
+
+( A2 - C2 ) + C
+
+-1 - 
+
+(1- u2 ) + u
+
+1
+-1  
+
+( A2 - C2 ) - C
+
+- 1 .
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 324
+
+Corollary 5.
+
+609. If  = 1, then u = Z
+
+( A2 -C2 )-C A2
+
+( A2 -Z 2 )
+
+and x = Zy
+
+( A2 -C 2 )-Cy A2
+
+( A2 -Z 2 ) .
+
+If  = -1, also u or x has to be taken negative.
+
+610. If  = 2 , then
+
+Corollary 6.
+
+u = 2Z( A2 -2C 2 )
+
+( A2 -Z 2 )-2C( A2 -2Z 2 ) A4
+
+( A2 -C2 ) .
+
+But
+
+if
+
+
+
+=
+
+1 2
+
+,
+
+then
+
+Z
+
+=C
+
+- 2Cu2
+
++ 2u
+
+( A2 - C2 )(1 - u2 ). [p. 250]
+
+PROPOSITION 76.
+
+THEOREM. 611. If the centripetal force is as some function of the distance from the centre C (Fig. 53), and a body at A is projected following the direction normal to AC with a speed, of which the corresponding height has a ratio to half AC as the centripetal force at A is to the force of gravity 1, then this body moves uniformly on the circumference of the circle AMBA, the centre of which is C.
+
+DEMONSTRATION.
+
+Indeed the body moves in this circle ; since
+
+the distance of this from the centre of the circle
+
+does not change ever from the centripetal force
+
+acting towards C, also for any function of the
+
+distance if it is in proportion to the centripetal
+
+force. And since it is acting towards the centre
+
+C, the direction of the force acting is always
+
+normal to any small portion of the curve, along
+
+which the body is moving. On this account it is
+
+always acted on by a normal force, and
+
+nowhere by one along the tangent, and hence,
+
+and for this reason this speed always remains
+
+the same (561), and thus the body describes the periphery with a uniform motion. Then
+
+since the centripetal or normal force is always the same, put this equal to g and likewise
+
+the constant speed corresponds to the height c and the radius AC = a, which quantity a is
+
+everywhere shown to be the radius of curvature. Therefore with these in place ag = 2c
+
+(561)[ dv = 0 and Pr = 2v ]. From which this ratio arises : As the height to the speed of
+
+the body, with which it is initially projected from A, there corresponds c to half the
+
+distance AC,
+
+1 2
+
+a
+
+,
+
+thus
+
+as
+
+the
+
+centripetal
+
+force
+
+g
+
+to
+
+the
+
+force
+
+of
+
+gravity
+
+1.
+
+Q.E.D.
+
+[p. 251]
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+page 325
+
+Corollary 1.
+
+612. Therefore when the body has once described an arc of the circle, the centre of which
+
+is itself the centre of force C, then it rotates for ever on the periphery of that circle. If
+
+indeed the centripetal force only depends on the distances from the centre, thus as with
+
+equal distances, the centripetal force is always equal.
+
+Corollary 2.
+
+613. With the ratio of the diameter to the periphery put as 1 : , the periphery of the circle in which the body is moving is equal to 2a. Then since the speed, with which the
+
+body is moving, is equal to
+
+c=
+
+ag 2
+
+,
+
+the
+
+time
+
+of
+
+one period
+
+along
+
+the
+
+whole
+
+periphery
+
+is equal to 2 2a .
+g
+
+Corollary 3.
+
+614. If therefore many bodies are moving in different circles, the time of the revolutions are in the square root ratio composed as directly from the radii of the circles and inversely as the centripetal forces.
+
+Corollary 4.
+615. If the body is projected from A perpendicularly to AC, but with a speed either
+
+greater or less than
+
+ag 2
+
+,
+
+then
+
+the
+
+body
+
+describes
+
+the
+
+arc
+
+of a
+
+circle,
+
+the radius
+
+of
+
+which
+
+is either greater or less than AC. [p. 252]
+
+Corollary 5.
+616. Therefore in this case, when the body begins to move along the arc of the circle, the centre of which is not at C, suddenly it approaches more towards, or recedes from, the centre of the force. And this sudden motion arises from the action of another centripetal force, unless perhaps the centripetal force is the same everywhere.
+
+Scholium.
+617. Moreover the body is projected with some speed from A (Fig. 54), but the direction of this is a perpendicular crossing the line AC through the centre of force C, and the curve BMAND has this property, in order that the potions AMB and AND of this, placed on this side and the other side of AC are similar and equal to each other, and AC is the axis and diameter of this curve. For since, as we have now agreed, the centripetal force is proportional to a certain function of the distances from the centre, the body either above or below AC is acted on by an equal force at the same distance from C, and for this reason this body must move
+towards A in the same way along DNA, as it moves away from A along AMB, and also it has the same speed at the homologous points M and N.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 326
+
+Corollary 6.
+618. Therefore every line drawn from the centre C, which is normal to the curve, is likewise a diameter of the curve ; thus in order that the parts of the curve on placed on this or that side of this line are equal and similar to each other.[p. 253]
+
+PROPOSITION 77.
+
+THEOREM. 619. If more bodies are moving around the centre of force C (Fig. 55) and describe the similar curves AM and am about C, the speeds at the similar points M and m are in the square root ratio composed from the ratios of the homologous sides and of the centripetal forces at the homologous points M and m.
+
+DEMONSTRATION.
+
+Because AC : aC = MC : mC, also the
+
+radius of osculation at M is in the same ratio
+
+to the radius of osculation at m, as also is the
+
+perpendicular CT to Ct. From proposition 74 (587) it is truly apparent that Pr dx = 2vds ,
+
+[i. e. the centripetal force equation normal to
+
+the curve with radius of curvature r] or, with
+
+y p
+
+put in place of
+
+ds dx
+
+,
+
+Ppr = 2vy . Hence
+
+therefore the speed is given by :
+
+v=
+
+Ppr 2y
+
+.
+
+From which this ratio is produced : the speed at M is to the speed at m in the square root ratio composed from the direct ratios of the centripetal forces at M and m and the perpendiculars CT to cT, and in the inverse ratio of the distances MC to mC. Since truly CT is to cT as MC is to mC and the radius of osculation at M is to the radius of osculation at m as MC is to mC, then the speed at M to the speed at m is in the square root ratio composed from the ratios of the centripetal forces at M and m and of the homologous sides MC to mC. Q.E.D.
+
+Corollary 1.
+
+620. If therefore we call AC = A, aC = a, CD = H and Cd= h, and likewise the speed at
+
+A=
+
+C and at a =
+
+c , the angular speed at M =
+
+HC MC 2
+
+[p. 254] and the angular speed at
+
+m=
+
+hC mC 2
+
+(599). But since H : h = MC : mC = A : a, the angular speeds at M and m are
+
+as
+
+C A
+
+to
+
+c a
+
+,
+
+i.
+
+e.
+
+in
+
+a
+
+constant
+
+ratio.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 327
+
+Corollary 2.
+621. Therefore the times, in which the equal angles ACM and aCm or the homologous distances AM and am are completed, are reciprocally as the angular speeds at M and m, i. e. directly as the homologous sides and reciprocally as the speeds at the homologous points.
+Scholium 1.
+622. Indeed the speeds at the homologous points maintain the same ratio everywhere. For
+
+the speed at M =
+
+HC CT
+
+and the speed at m =
+
+hc Ct
+
+(589). On account of which, since H : h
+
+= CT : Ct, the speed at M to the speed at m is in the ratio C to c , i. e. as the speed at
+
+A to the speed at a.
+
+Corollary 3.
+623. Moreover from this proposition it is evident that the speed at A, C , to the speed at
+a, c , are in the square root ratio composed from the ratios of the centripetal forces at A and a and of the homologous sides A and a. Whereby if the said centripetal force at A = G and the centripetal force at a = g, then we have the ratio :
+C : c = AG : ag . [p. 255]
+
+Corollary 4.
+624. Consequently the time to pass through AM is to the time to pass through am as
+
+A G
+
+:
+
+a g
+
+,
+
+i.
+
+e.
+
+in
+
+ratio
+
+composed
+
+with
+
+the
+
+square
+
+root
+
+from
+
+the
+
+direct
+
+proportions
+
+of
+
+the
+
+homologous sides and inversely as the centripetal forces at the points A and a. Therefore this ratio is constant, and the whole times of the revolutions must keep the same values between each other.
+
+Scholium 2.
+
+625. Also in this case, in which several similar figures are described around the centre C,
+
+the centripetal forces in the homologous points must maintain the same ratio. For since
+
+the force
+
+P
+
+=
+
+2ch2 y p3r
+
+(592), the centripetal force at M to the centripetal force at m is
+
+directly as the square of the speed at A to the square of the speed at a and inversely as AC
+
+to aC, which is a constant ratio. On account of which, when more similar figures are to be
+
+described around the centre C, it is required that a centripetal force of this kind of the
+
+distances can be expressed by a function, which presents the centripetal forces in the
+
+same ratio at the homologous positions. Clearly with the centripetal force P put at the
+
+distance y and Q at the distance my, P to Q must have a constant ratio, in which y is not
+
+present. For unless this is done, then it cannot be made to happen, that more similar
+
+figures can be described around the centre C.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 328
+
+Corollary 5.
+
+626. Moreover it is not possible to obtain this result, unless P is a certain power of y, such
+
+as
+
+yn fn
+
+.
+
+[p.
+
+256]
+
+For
+
+in
+
+this
+
+case,
+
+Q
+
+=
+
+mn yn fn
+
+,
+
+and
+
+the
+
+ratio
+
+P
+
+:
+
+Q
+
+is
+
+1
+
+:
+
+mn,
+
+which
+
+is
+
+constant.
+
+Corollary 6.
+
+627. Therefore unless the centripetal force is in proportion to a certain power of the
+
+distance from the centre C, then indeed it is not possible to happen, that more similar
+
+figures can be described around the centre C. And only with these cases do they have the
+
+properties in place, that we have elicited from this proposition.
+
+Corollary 7.
+
+628. Moreover, if
+
+P
+
+=
+
+yn fn
+
+, then
+
+G
+
+=
+
+An fn
+
+and
+
+g
+
+=
+
+an fn
+
+. Therefore the speeds at the
+
+n+1
+
+n+1
+
+homologous places maintain the ratio A 2 to a 2 .
+
+Corollary 8.
+
+629. And the times, in which similar arcs AM and am are completed, are in the ratio
+
+1-n
+
+1-n
+
+A 2 to a 2 or in the ratio of a multiple of the homologous sides, the exponent of which is
+
+1-n 2
+
+.
+
+Scholium 3.
+630. In the preceding and in this proposition all the theorems are in place, which Huygens put as an appendix concerning centrifugal forces to his tract de Horologio. [p. 257] And that part of the appendix that I have placed here, is the part usually deduced from these propositions. [The reader can view a translation of these at the end of the Horologium on this website.]
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 329
+
+PROPOSITION 78.
+
+PROBLEM. 631. If the centre of force C attracts directly in the ratio of the distances (Fig. 56) and a body is projected from A following the direction normal to a given radius AC, to determine the curve AMDBH that the body describes, and the speed of the body at particular points.
+
+SOLUTION.
+
+The distance CA is put equal to a, and the
+
+perpendicular dropped from C on the direction
+
+of the motion is equal to a. Truly the speed at A
+
+corresponds to the height c. On arriving at M,
+
+the distance CM = y; and the perpendicular CT
+
+from C sent to the tangent at M is put equal to
+
+p, and the speed at M corresponds to the height
+
+v. Again the distance at which the centripetal
+
+force is equal to the force of gravity is f; and
+
+the centripetal force at
+
+M=
+
+y f
+
+,
+
+with
+
+the
+
+force
+
+of
+
+gravity
+
+equal
+
+to
+
+1.
+
+When
+
+these
+
+are
+
+compared
+
+with
+
+Prop.75
+
+(601),
+
+P
+
+=
+
+y f
+
+and
+
+Y
+
+=
+
+y2 -a2 2f
+
+.
+
+On
+
+account
+
+of
+
+which
+
+we
+
+have
+
+:
+
+p=
+
+a 2cf .
+a2 +2cf - y2
+
+For truly
+
+v=
+
+a2c p2
+
+(587), from which it follows that
+
+v=
+
+a2 +2cf - y2 2f
+
+. Moreover, as the
+
+element of the curve is equal to ydy , the element of time is equal to :
+y2- p2
+
+ydy 2 f
+
+.
+
+a2 y2 +2cfy2 - y4 -2a2cf
+
+For the perpendicular MP dropped from M at CA is called CP = x, and x = uy. [p. 258]
+
+With these in place,
+
+du =
+
+ady 2cf
+
+(1-u 2 ) y 2cfy2 -2a2cf - y4 +a2 y2
+
+(601). Put y =
+
+1
+
+, and there comes about
+
+(q
+
++ 2cf + a 2 4 a 2cf
+
+)
+
+du =
+(1-u2 )
+
+-
+
+1 2
+
+dq
+
+.
+
+(( a2-2cf 4 a 2cf
+
+)2 -q2
+
+From which, collated with the formula dZ (604) there is produced :
+( A2 -Z 2 )
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 330
+
+
+
+=
+
+1 2
+
+,Z
+
+=
+
+-q and
+
+A=
+
+a2 -2cf 4a 2cf
+
+.
+
+Moreover from this equation there arises ;
+
+Z = -q = C - 2Cu2 + 2u
+
+( A2 - C2 )(1 - u2 ) =
+
+a2 +2cf 4a 2cf
+
+-
+
+1 y2
+
+.
+
+(610). The constant amount C can be determined from this equation, since by making
+
+u
+
+=
+
+1
+
+it
+
+comes
+
+about
+
+that
+
+y
+
+=
+
+a.
+
+Hence
+
+therefore,
+
+C
+
+=
+
+2cf -a2 4a 2cf
+
+,
+
+thus
+
+( A2 - C2 ) = 0 .
+
+With these in place we have :
+
+1 - 1 = ( a2 -2cf )u2 = ( a2 -2cf )x2
+
+2cf y2
+
+4a 2 cf
+
+4a 2cfy 2
+
+on
+
+account
+
+of
+
+u
+
+=
+
+x y
+
+.
+
+Therefore
+
+this
+
+equation
+
+results
+
+:
+
+a2 y2 - a2 2cf = ( a2 - 2cf )x2 .
+
+The applied line MP is put equal to z, and y2 = x2 + z2 . Hence the following equation is
+
+produced between the orthogonal coordinates for the curve sought:
+
+a2z2 + 2cfx2 = 2a2cf .
+
+This is the equation for an ellipse, the centre of which is situated at C, and AB = 2a is the
+
+length of one axis, and indeed the length of the other DH = 2 2cf . Q.E.I.
+
+Corollary 1.
+
+632. The height v corresponding to the speed at M is equal to
+
+a2 +2cf - y2 2f
+
+. Moreover since
+
+a2 + 2cf = AC2 + CD2 = AD2 , then
+
+v
+
+=
+
+AD2 -CM 2 2f
+
+.
+
+Corollary 2.
+633. In a similar manner the perpendicular CT dropped on the tangent MT is given by : p = AC.CD and the tangent itself : [p. 259]
+( AD2 -CM 2 )
+
+MT = if indeed AC > CD.
+
+( AD2 .CM 2 -CM 4 - AC 2 .CD2 ) = ( AD2 -CD2 ).CP.PM
+
+( AD2 -CM 2 )
+
+AC.CD ( AD2 -CM 2 )
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 331
+
+Corollary 3.
+634. In this case, when AC > CD, AB is the transverse axis of the ellipse, and on which
+
+the foci F and G are placed. But CF = CH = ( AC2 - CD2 ) , and hence
+
+MT =
+
+CF 2 .CP.PM
+
+.
+
+AC.CD ( AD2 -CM 2 )
+
+Corollary 4.
+635. Therefore the sine of the angle TMC, which the direction of the body at M makes with the radius MC , is equal to :
+
+AC .CD CM ( AD2 -CM 2 )
+
+and the cosine is equal to:
+
+CF 2 .CP.PM
+
+.
+
+CM .AC.CD ( AD2 -CM 2 )
+
+Scholion 1.
+636. The distance determining the speeds CE (596, 597) is always equal to the subtangent AD. For by putting CE = k the body falls from E towards C drawn by the centripetal force; the body must have, when it arrives at A, a speed corresponding to the height c. On account of which, k = ( a2 + 2cf ) (275). Moreover since
+AC = a and CD = 2cf , then CE = ( AC2 + CD2 ) = AD .
+
+Corollary 5.
+
+637. The height corresponding to the speed, which the body moving along the line EC
+
+can acquire, when it comes to C , is given by :
+
+k 2 = a2 +2cf = AD2 .
+
+2f 2f
+
+2f
+
+Corollary 6.
+638. The time, in which the arc AM is absolved, is equal to 2.ACM (588) as h = a in this
+ac
+case. [p. 260] On this account the time of the whole revolution around the perimeter of the ellipse ADBHA is equal to 2.Area of Ellipse . With the ratio of the diameter to the
+ac
+periphery put in place 1 :  , the elliptic distance is equal to a 2cf . Consequently the
+time of one revolution is 2 2 f .
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 332
+
+Corollary 7.
+639. Therefore if more bodies are rotating in ellipses around the same centre of force attracting in the direct ratio of the distances, the times for the whole revolutions are equal to each other.
+
+Scholium 2.
+640. When the initial direction of the body at the point A is not put normal to the radius AC, the calculation does not present an ellipse for the curve described by the body, but another curve of the fourth order, which yet cannot be considered to be satisfactory. The reason for this disagreement between the calculation and the truth depends on this, that the expression of the sine of the angle, which is put in place by the curve with the radius, taken in y and u always avoids being equal to 1, with y put equal to a and u = 1, even if the following hypothesis must produce another quantity. For the sine of the angle, which the curve makes with the radius, is given by :
+
+ydu
+
+,
+
+dy2 -u 2dy 2 + y2du 2
+
+which expression with u made equal to 1 evidently departs from unity, when yet it should
+
+give
+
+h a
+
+.
+
+On
+
+account
+
+of
+
+this
+
+it
+
+is
+
+evident,
+
+unless
+
+h
+
+is
+
+put
+
+equal
+
+to
+
+a,
+
+a calculation set up in
+
+this way can never agree with the truth, if indeed the equation between u and y must be
+
+found. Therefore this rule must always be stretched, [p. 261] as often as the curve to be
+
+investigated follows the teaching of Prop.75 (601). Moreover the method handled in this
+
+proposition has only been found to be convenient for algebraic curves ; and indeed it is
+
+required to use another method, if the curves are transcendental. But all algebraic curves
+
+enjoy the use of this property, so that in these from any point it is possible to draw a
+
+perpendicular.
+
+[In the Opera Omnia there is a note added by Paul Stackel :
+
+'This proposition seized upon by Euler without demonstration is easily shown to be false
+
+by considering Neil's parabola ' . However , this curve is not a closed orbit, as it is a
+
+3
+function of the form y = ax 2 , and it appears that Euler is concerned here with closed or
+
+negative energy orbits, for which there must be turning points in a physical sense, at which the radius is perpendicualar to the curve, so that the body can return to its original position. There are of course open or positive energy hyperbolic and parabolic orbits where this condition is satisfied, but which do not have a finite period. Comets, for example, may have bound orbits and return periodically, or be free on hyperbolic orbits and never return. Other motions such as the two dimensional mass on a massless spring are performing bound orbits. I have not had time to check the results in this last proposition; if someone feels they would like to do so, I would be glad to hear from them regarding their conclusions. ] Concerning which, as often as the body revolves on an algebraic curve around the centre of curvature, always one of more points can be assigned, at which the radius is perpendicular to the curve. Therefore the body should be put to begin moving at points of this kind, and the calculation is always in agreement with the truth. Moreover from such a solution the speed of the body is easily found at any other place, and hence by the inverse method from the given speed of the body at a point, at which the radius is not normal to
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+page 333
+
+the curve, the speed may be found at a place, where the radius falls normal to the curve.
+
+Moreover how this should be effected, is evident from the following proposition.
+
+Truly from the properties of algebraic curves recalled above, where from any given
+
+point a perpendicular can be dropped on these, but not all transcendental curves agree
+
+with this. For in the logarithmic spiral no radius can be drawn from the centre normal to
+
+the curve, but always with at some constant angle that has been found.
+
+When finally the ratio can be realised, whereby
+
+ydu
+
+dy2 -u 2dy 2 + y2du 2
+
+u is always made equal to 1, can be changed into one, since still any other angle too, besides a right angle, can be produced from that formula, u departing from one should be considered 1, [p. 262] and the element du is to vanish before dy, unless the tangent at A is normal to the radius AC. Hence on this account by putting u = 1 the element
+
+dy2(1 - u2 ) is not to be neglected with the ratio y2du2 , since each vanishes, as ydu in
+
+the numerator. By which it happens, that the sine of any arbitrary angle from that formula by making u = 1 can be expressed. But since this warning in the calculation cannot be observed, except the case h = a the calculation cannot show the true curve anywhere.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 334
+
+CAPUT QUINTUM
+DE MOTU CURVILINEO PUNCTI LIBERI A QUIBUSCUNQUE PONTENTIIS ABSOLUTIS SOLLICITATI
+[p. 225]
+DEFINITIO 21.
+543. Vis tangentialis est potentia corpus, quod lineam curvam AMB (Fig. 47) describit,sollicitans, cuius directio incidit in tangentem TMt puncti M, in quo corpus, cum sollicitatur, versatur.
+Corollarium 1.
+544. Vis igitur tangentialis in corpus, dum elementum Mm percurrit, alium effectum non exerit, nisi quod motum eius vel acceleret vel retardet, prout scilicet corpus trahit vel secundum directionem MT vel Mt.
+Corollarium 2.
+545. Cum igitur corpus in linea curva movetur, vis tangentialis directionem suam perpetuo mutat et secundum aliam plagam effectum suum exerit.
+Scholion.
+546. Vis quidem tangentialis per se in rerum natura vix unquam oriri potest ; nihil vero eius usus latissime patet. Quamcunque enim potentia sollicitans habeat directionem, ea [p. 226] semper in duas alias potest resolvi, quarum alterius directio in tangente sit sita.
+DEFINITIO 22.
+547. Vis normalis est potentia corpus lineam AMB (Fig. 47) describens sollicitans, cuius directio MR est normalis in curvae elementum Mm seu tangentem MT.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 335
+
+Corollarium 1.
+548. Vis igitur normalis corporis celeritatem neque auget neque minuit, quia eius directio MR neque in sequentia neque in antecedentia vergit (164).
+
+Corollarium 2.
+549. In hoc vero eius effectus constitit, ut in sequentibus ostendetur, ut corporis tantum directum immutet et efficiat, ut corpus, quod per se in recta esset progressurum, in linea curva promoveatur. (165).
+
+Scholion 1.
+550. Si corpus in eodem plano moveatur in eoque etiam positae sint potentiarum sollicitantium directiones, singulae potentiae resolvi possunt in binas, quarum altera sit normalis, altera tangentialis, quamadmodum ex principiis staticis apparet. Quare cum virium tangentialis et normalis effectus in corpus determinaverimus, simul quoque [p. 227] cuiusque potentiae obliquae effectus innotescet. Vocamus autem potentiam seu vim obliquam omnes potentias corpus sollicitantes, quae neque normales sint neque tangentiales.
+Scholion 2.
+551. Hinc oritur primaria huius capitis divisio. Primo enim eos motus considerabimus, quorum semitae sunt in eodem plano atque simul omnes potentiae sollictantes in eodem ipso plano constitutae. Deinceps autem de iis motibus explicabimus, quorum semitae non sunt positae in eodem plano; ad quos cognoscendos singulas potentias in binas resolvere non sufficit, sed eas in ternas resolvi oportet, propter tres spatii, in quo corpus movetur, dimensiones.
+PROPOSITIO 70.
+
+PROBLEMA. 552. Si corpus, dum elementum Mm (Fig. 47) percurrit, sollicitatur a duabus potentiis, altera normali, altera tangentiali, determinare utriusque effectum in motu corporis alterando.
+
+SOLUTIO. Sit corporis elementum Mm describentis celeritas debita altitudini v et vis normalis secundum MR trahens = N et vis tangentialis secundum MT trahens = T, ponaturque elementum Mm = ds et radius osculi in M = . Ad effectum vis N determinandum, quia eius directio est normalis in Mm, utemur
+
+formula [p. 228] (165), quae erat npr = Ac2 . Haec vero transmutata est in hanc
+
+pr = 2Av (209). Quod autem hic nobis est N, id in citatis locis erat
+
+p A
+
+;
+
+intelligimus
+
+enim
+
+per N non impressionem solum potentiae N in corpus, sed ipsam vim acceleratricem seu
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+page 336
+
+potentiam absolute consideratam divisam per massam corporis (213). Quare loco
+
+p A
+
+hic
+
+substituti debet N, quo facto habebitur.
+
+Nr = 2v .
+
+Q. E. Alteram.
+
+Deinde ad effectum vis tangentialis T determinandum adhibeo canonem hunc
+
+Acdc = npds (166) seu huius loco mutatum Adv = pds (209). Atque ob allegatas rationes
+
+hic loco
+
+p A
+
+substituo
+
+T,
+
+erit
+
+Q. E. Alteram.
+
+dv = Tds .
+
+Corollarium 1.
+553. Quia vis gravitatis ponitur 1, erit vis normalis ad vim gravitatis ut altitudo celeritati debita ad dimidium radii osculi curvae; quae analogia sequitur ex aequatione Nr = 2v .
+
+Corollarium 2.
+554. Ex data igitur vi normali et curva, quam corpus describit,statim innotescit corporis
+
+celeritas. Nam expressa celeritate per
+
+v erit
+
+v=
+
+Nr 2
+
+.
+
+Corollarium 3.
+555. Incrementum vero altitudinis celeritatem exponentis semper aequale est facto ex vi tangentiali [p. 229] et spatiolo a corpore percurso. Seu hoc elementum ipsius v est ad spatiolum descriptum ds ut vis tangentialis ad vim gravitatis.
+
+PROPOSITIO 71.
+
+PROBLEMA. 556. Si corpus, dum elementum Mm (Fig. 47) percurrit, sollicitatur a potentia quacunque obliqua directionis MC, oportet determinare effectum huius potentiae in corporis motu alterando.
+SOLUTIO. Sit potentia haec obliqua ad corporis gravitatem, si in superficie terrae esset positum, ut P ad 1, elementum Mm = ds et celeritas in M debita altitudini v. Quia vero obliquitas potentiae MC data esse ponitur, angulus CMT datus erit, et propterea triangula CMT, Mmt, quae oriuntur ex C in MT et ex m in MC perpendiculis demissis, erunt specie data. Ponamus igitur Mr = dy et mr = dx, erit ds2 = dx2 + dy2 , et ratio inter ds et dx et dy data
+erit. Conferantur iam cum his, quae supra (161, 163) nec non postea (208) tradita sunt. Ea enim prorsus similia sunt hisce, de quibus hic quaerimus; hoc tantum differunt, quod hic nobis sit P:1, quod ibi erat p : A. Hanc ob rem habebimus
+dv = Pdy ,
+posito radio osculi MR in M = r habebitur haec aequatio Pr dx = 2vds
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+page 337
+
+(208), scripto P loco
+
+p A
+
+.
+
+Harum
+
+aequationum
+
+illa
+
+dv = Pdy
+
+definit celeritatis
+
+incrementum, dum corpus elementum Mm percurrit. [p. 230] Altero vero
+
+Pr dx = 2vds seu
+
+r
+
+=
+
+2vds Pdx
+
+exhibet lineae a corpore descriptae curvaturam in M.
+
+Innotescit ergo totius potentiae oblique effectus in corpus motum. Q. E. I.
+
+Corollarium 1.
+557. Si potentia obliqua constituit angulum obtusum cum elementum Mm (Fig. 48), omnia manent ut ante, nisi quod lineola mr =dy accipi debeat negativa. Erit ergo dv = -Pdy , et
+altera aequatio Pr dx = 2dvds ut ante.
+
+Corollarium 2.
+558. Si ergo potentiae directio MC intra normalem MR et elementum Mm cadit, ut in Fig. 47, motus corporis accelleratur. At si CM extra utramque cadit, ut in Fig. 48, motus retardatur.
+
+Corollarium 3.
+559. Si directio potentiae MC incidit in tangentem MT, evanescit angulus mMr, et fit Mr = Mm seu dx = 0 et dy = ds. Habebitur itaque dv = Pds et r = , id quod indicat corporis directionem ab hac potentia tangentiali non affici.
+
+Corollarium 4.
+560. Si directio potentiae MC (Fig. 48) incidit in alteram partem Mt, quo casu fit Mr = dx = 0 et dy = ds,erit dv = -Pds et r = ut ante. Vis igitur tangentialis celeritatem
+tantum afficit, directionem vero prorsus non immutat. (544). [p. 231]
+
+Corollarium 5.
+561. Incidat potentiae MC in normalem MR, quo effectum vis normalis cognoscamus. Hoc ergo casu erit dy = 0 et dx = ds . Et consequenter prodit dv = 0 et Pr = 2v. Vis ergo
+normalis celeritatem non afficit, sed tantum motus directionem (548).
+
+Scholion 1.
+562. Hinc igitur tam vis normalis quam vis tangentalis effectus in corpus motum cognoscuntur. Quamobrem cum omnes potentiae, quotquot corpus sollicitant, modo sint in eodem plano positae cum motus directione, in binas, alteram normalem, alteram tangentialem, possint resolvi, etiam quaruncunque potentiarum effectus in corpus motum cognoscitur.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 338
+
+Scholion 2.
+563. Hanc ergo priorem partem de motu in eodem plano facto ita subdivididi maxime convenit, ut primo directiones potentiae sollicitantis sint inter se parallelae, quemadmodum in nostris regionibus vis gravitatis directiones sibi parallelae observantur. Deinde contemplabimur casus, quibus potentiae directiones omnes in uno puncto convergunt, quo etiam corpora perpetuo attrahuntur, et qui est casus virium centripetarum, qua de re tam egregiae inventiones a Neutono sunt factae in Princ. Phil. Nat. Parte I. Tertio vero potentias [p. 232] quascunque corpus sollicitantes inducemus et investigabimus, qui motus sit perpetuo secuturus. Ita autem in his singulis versabimur, ut primo quaestiones directas proponamus, tum vero etiam quaestiones quasque inversas, ut hactenus fecimus, simus resoluturi. Perpetuo denique, quantum licet, a casibus simplicioribus ad magis compositos et difficiliores progrediemur.
+
+PROPOSITIO 72.
+
+PROBLEMA. 564. Si fuerit potentia constans eiusque directio ubique normalis ad rectam AB (Fig. 49) atque ex A data celeritate secundum directionem AH proiiciatur corpus, determinari oportet curvam AMDB, quam corpus describet, motumque corporis in hac curva.
+
+SOLUTIO.
+
+Vocetur potentia sollicitans g, et sit
+
+celeritas, qua corpus in A proiicitur, debita
+
+altitudini c atque cosinus anguli HAB = , posito sinu toto = 1. Iam percurrente corpore elementum Mm = ds sit celeritas in M debita altitudini v, et PM = y itemque radius osculi
+
+in M = r. Propterea erit Mr = dx et mr = dy, ex quo apparet hunc
+
+casum referri ad Fig. 48, quo corporis motus retardabatur. Habebimus ergo dv = -gdy et grdx = 2vds (557). Ex altera
+
+harum vero aequationum illa oritur v = C - gy , in qua constans C ex hoc debet determinari, quod posito y = 0 fieri debeat v
+
+= c. Habetur ergo [p. 233]
+
+v = c - gy .
+
+In altera nunc aequatione loco v substituatur hic valor inventus, et prodibit
+
+grdx 2 ds
+
+=
+
+c
+
+-
+
+gy .
+
+Est vero
+
+r
+
+=
+
+ds3 -2dxddy
+
+posito dx constante, quo substituto erit
+
+- gds2 2ddy
+
+= c - gy
+
+seu
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+2cddy = 2gyddy - gdx2 - gdy2
+posito dx2 + dy2 loco ds2 . Huius aequationis integralis reperitur
+
+page 339
+
+dx ds
+
+=
+
+C c - gy
+
+.
+
+Posito autem y = 0 designat
+
+C = 2c . Habebimus igitur
+
+dx ds
+
+=
+
+c c - gy
+
+et hinc
+
+Cuis integralis est
+
+dy c = dx .
+( c(1-2 )- gy )
+
+C - 2 ( c(1- 2 ) - gy ) = gx = 2 c(1- 2 ) - 2 ( c(1- 2 ) - gy ) ,
+c
+ita determinate constante C, ut evanescat y posito x = 0. Ponatur brevitatis gratia sinus
+
+anguli HAB seu (1 - 2 ) =  , erit gx = 2c - 2 ( 2c2 - gcy )
+
+atque hinc Erit ergo etiam et
+
+y
+
+=
+
+x 
+
+-
+
+gx 2 42c
+
+.
+
+v
+
+=
+
+c
+
+-
+
+gx 
+
++
+
+g 2 x2 42c
+
+ds2
+
+=
+
+dx2(1 +
+
+2 2
+
+-
+
+gx 3c
+
++
+
+g2x2 44c 2
+
+)=
+
+dx 2 2
+
+(1-
+
+gx c
+
++
+
+g 2 x2 44 c 2
+
+).
+
+Consequenter erit
+
+ds 2 v
+
+= dx2
+2c
+
+et
+
+ ds = x v c
+
+= tempori, quo arcus AM percurritur. Q.E.I.
+
+Corollarium 1.
+
+565. Recidet ergo corpus in puncto B in lineam horizontalem AB sumpta
+
+AB =
+
+4c g
+
+.
+
+Tempus vero, quo corpus supra AB versatur et curvam ADB absolvit, est =
+
+4 g
+
+c.
+
+Corollarium 2.
+
+566. Denotat autem 2 sinum anguli, qui est duplus anguli HAB. Quare, si huius dupli
+
+anguli sinus vocetur , [p. 234] erit
+
+AB
+
+=
+
+2c g
+
+. Ex quo apparet distantiam AB fore
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+page 340
+
+maximam, si fuerit  = 1 ideoque angulus HAB semirectus, si quidem corpus eadem
+
+celeritate c proiiciatur.
+
+Corollarium 3.
+567. Intelligitur etiam motum corporis horizontalem esse aequabilem. Tempora enim, quibus quilibet arcus describitur, sunt respondentibus abscissis in recta AB proportionalia.
+
+Corollarium 4.
+568. Si corpus perpetui eadem celeritate c proiiciatur, sed sub diversis angulis cum AB, erunt tempora, quibus supra AB versabitur, inter se ut sinus angulorum HAB (565) .
+
+Corollarium 5.
+
+569. Maxima altitudo DE, ad quam corpus pertintet, erit applicata in puncto E, sumto
+
+AE
+
+=
+
+2c g
+
+.
+
+Ex
+
+quo
+
+apparet
+
+esse
+
+AE
+
+subduplam
+
+ipsius
+
+AB.
+
+Ipsa
+
+vero
+
+maxima
+
+altitudo
+
+DE
+
+erit =
+
+ 2c g
+
+,
+
+quae
+
+proinde
+
+quadrato
+
+sinus
+
+anguli
+
+HAB
+
+est
+
+proportionalis.
+
+Corollarium 6.
+
+570.
+
+Ex
+
+aequatione
+
+y
+
+=
+
+x 
+
+-
+
+gx 2 42c
+
+perspicitur curvam ADB esse parabolam, cuius axis sit
+
+recta sit recta DE et parameter = AE2 = 42c . Parameter ergo proportionalis est quadrato
+DE g
+
+cosinus anguli HAB. [p. 235]
+
+Corollarium 7.
+
+571. Huius ergo parabolae vertex erit punctum D, et distantia DF foci F a vertice D est
+
+=
+
+2c g
+
+.
+
+Quare
+
+si
+
+ducatur
+
+recta
+
+MF,
+
+erit
+
+haec
+
+MF
+
+=
+
+DQ +
+
+DF
+
+ex
+
+natura
+
+parabolae.
+
+Corollarium 8.
+
+572.
+
+Porro
+
+autem
+
+erit
+
+MF
+
+=
+
+DE
+
+- MP +
+
+DF
+
+=
+
+c g
+
+-
+
+y
+
+=
+
+c - gy g
+
+.
+
+Quia
+
+vero
+
+est
+
+v
+
+=c-
+
+gy ,
+
+erit altitudo debita celeritati in
+
+M
+
+= g.MF.
+
+Patet ergo etiam fore
+
+AF
+
+=
+
+c g
+
+.
+
+Corollarium 9.
+573. Perspicuum igitur est corpus hanc parabolam describens in loco quovis M tantam habere celeritatem, quantam corpus idem ab eadem potentia uniformi g sollicitatum recta descendens acquire potest ex altitudine, quae aequalis sit distantiae puncti M a foco F parabolae
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 341
+
+Corollarium 10.
+
+574. Cosinus anguli FAE est =
+
+AE AF
+
+= 2 =  . Ex quo manifestum est angulum FAE
+
+esse complementum dupli anguli HAE ad rectum seu potius excessum huius dupli anguli
+
+super angulum rectum.
+
+Corollarium 11.
+575. Quia angulus AFD est deinceps positus anguli AFE hicque complementum anguli FAE, erit angulus AFD duplus anguli HAB. [p. 236]
+
+Scholion 1.
+
+576. Facile ergo ex his deducitur constructio parabolae, quam corpus data celeritate et in
+
+data directione proiectum describet. Ducta enim AG normali ad AB capiatur angulus GAF
+
+= duplo angulo HAE, et in hac directione sumatur AF aequalis altitudini, ex qua idem
+
+corpus recta descendens acquirit celeritatem aequalem ei, qua ex A proiicitur, quo facto
+
+erit punctum F focus parabolae quaesitae (573, 575). Normalis porro DE per F in rectam
+
+AB
+
+ducta
+
+erit
+
+axis
+
+huius
+
+parabolae,
+
+atque
+
+vertex
+
+D reperitur
+
+sumendo
+
+DF
+
+=
+
+AF -FE 2
+
+.
+
+Cum igitur parameter aequalis sit 4DF, in promtu erit parabolae descriptio.
+
+Scholion 2.
+577. Si est g = 1, habemus casum gravitatis terrestris. Quocirca, si nullus adesset aer, qui ob resistentiam corpora mota impediret, omna corpora proiecta moverentur in parabolis. Hanc veritatem primus elicuit Galilaeus, et post eum omnes scriptores mechanici demonstravere. Plerique quidem multo breviore modo et sine differentio­differentialibus ad eam pervenerunt, sed nos hic maluimus uti methodo universali, quae latissime pateret, quam nimis particulari, quae ad hunc solum casum esset accommodata. [p. 237]
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 342
+
+PROPOSITION 73.
+
+PROBLEMA. 578. Si corpus in A (Fig. 50) data celeritate et in data directione proiectum perpetuo attrahatur ad rectam AB in ratione quarumcunque functionum distantiarum ab hac recta, determinare curvam ADB, quam corpus ita sollicitatum describet et motum totum in hac curva.
+
+SOLUTIO.
+
+Sit celeritas in A = c et sinus anguli HAB =  , posito sinu toto = 1, et cosinus = .
+
+Ponatur celeritas corporis in M debita altitudini v et elementum Mm = ds , itemque abscissa AP = x, applicata PM = y et radius osculi MR = r. Dum autem corpus elementum Mm percurrit, trahitur interea a potentia data, quae sit = P, functioni cuidam ipsius y, in directione MP. His positis erit dv = -Pdy , et
+
+Pr dx = 2dvds (557).
+
+ Sit autem Pdy = Y atque Y talis functio ipsius
+
+y, quae fiat = 0 posito y = 0. Hanc ob rem erit v = c - Y . Deinde ex priore aequatione
+
+valor ipsius P, i. e.
+
+-dv dy
+
+,
+
+substituatur
+
+in
+
+altera
+
+Pr dx = 2dvds , et habebitur
+
+-dv v
+
+=
+
+2dyds rdx
+
+.
+
+Est vero, posito ds constante,
+
+r
+
+=
+
+dyds ddx
+
+,
+
+unde
+
+fit
+
+- dv v
+
+=
+
+2ddx dx
+
+et integrando
+
+l
+
+C
+
+-
+
+l
+
+v
+
+=
+
+l
+
+dx 2 ds 2
+
+.
+
+Constans C determinabitur ex hoc , quod in puncto, in quo fit
+
+v = c , fiat
+
+dx ds
+
+=.
+
+Quocirca erit l C = l c + 2l porro sumendis numeris
+
+2cds2 = vdx2 .
+
+[p. 238] Ex hac aequatione statim habetur elementum temporis ds = dx .
+v c
+Pro ipsa autem curva AMDB habebitur aequatio ex duabus aequationibus inventis v = c - Y et 2cds2 = vdx2 ; eliminando v orietur enim
+
+2cds2 = cdx 2 - Ydx2 = 2cdx2 + 2cdy2.
+
+Sed quia 1 - 2 =  2 , prodibit
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+dx = dy c ,
+(  2c-Y )
+
+page 343
+
+in qua aequatione, cum sint indeterminatae x et y a se invicem separatae, construi poterit curva quaesita ADB. Q.E.I.
+
+Corollarium 1.
+579. Tempora igitur, quibus arcus quicunque AM describuntur, sunt ut abscissae respondentes AP. Est enim tempus per AM = x .
+c
+
+Scholion 1.
+580. Motus corporis in curva AM in duos alios cogitatione potest resolvi, quorum alter fiat secundum parallelas rectae AB, alter secundum perpendiculares in hanc AB. Illo motu corpus progreditur secundum rectam AB, isto vero vel ascendit vel descendit respectu huius rectae AB. Iam vero perspicuum est a potentia, cuius directio perpetuo est in perpendicularis ad AB, motum progressivum horizontalem non immutari, et hanc ob rem hic motus perpetuo esse debebit aequabilis et ea celeritate factus, quae oritur ex simili motus resolutione initialis. Cum vero motus initialis directio sit recta AH, erit eius
+celeritas c ad celeritatem progressivam secundum AB ut sinus totus 1 ad cosinum
+anguli HAB, [p. 239] qui est . Celeritas ergo progressiva secundum AB erit  c , ex
+qua tempus, quo motus horizontalis perficitur per spatium AP = x , provenit = x , ut
+c
+invenimus.
+
+Corollarium 2.
+581. Si corpus celeritate c ex A perpendiculariter ascendat in AC et sumatur AL = PM = y , erit celeritas in L aequalis celeritati in M, nempe = v . Est enim dv = -Pdy atque v = c - Y , quemadmodum pro puncto M invenimus.
+
+Corollarium 3.
+582. Si fuerit AC tota altitudo, ad quam corpus ex A celeritate c sursum proiectum pertingere potest, erit CL altitudo, ex quo corpus cadendo eandem acquirit celeritatem, quam habet in M.
+Corollarium 4.
+583. Maxima altitudo DE reperitur faciendo dy = 0 , quo casu erit Y =  2c , ex qua aequatione valor ipsius y erutus dabit altitudinem DE, et celeritas in D tanta erit, quantam corpus ex altitudine CI delapsum acquirit.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 344
+
+Corollarium 5.
+
+584.
+
+Invenimus
+
+autem
+
+quoque
+
+v
+
+=
+
+2 cds 2 dx 2
+
+.
+
+Quare,
+
+cum
+
+in
+
+puncto
+
+D
+
+sit
+
+dx
+
+=
+
+ds
+
+,
+
+erit
+
+celeritas in D =  c , quae est aequalis ipsi celeritati horizontali, qua corpus secundum
+
+AB progreditur. [p. 240]
+
+Scholion 2.
+585. Amplitudo quidem AB ex aequatione, quia non potest integrari, non apparet. Nihilo tamen minus perspicuum est partes AE et EB opportere esse aequales et ramum DB similem et aequalem ipsi arcui DA. Namque postquam corpus in D pervenit, simili modo rursus accelerabitur, quo ante per AD erat retardatum; quia potentia in iisdem ab AB distantiis est eadem hocque modo motus iterum perfecte restituitur.
+
+Scholion 3.
+586. Facile hinc etiam problema reciprocum, quo ex data curva ADB et celeritate corporis in A quaeritur potentiarum lex, quae faciat, ut corpus in hac curva moveatur,
+
+resolvi poterit. Ex aequatione enim dx =
+
+dy c (  2c-Y )
+
+habetur
+
+Y
+
+=
+
+ 2c
+
+-
+
+2 cdy 2 dx 2
+
+atque
+
+dY
+
+=
+
+Pdy
+
+=
+
+-22cdyddy dx 2
+
+posito
+
+dx
+
+constante.
+
+Quia
+
+est
+
+vero r
+
+=
+
+ds 2 -dxddy
+
+eodem
+
+dx
+
+posito
+
+constante,
+
+erit
+
+P
+
+=
+
+22cds3 rdx3
+
+=
+
+potentiae
+
+sollicatanti
+
+corpus
+
+in
+
+M
+
+secundum
+
+directum
+
+MP.
+
+PROPOSITIO 74.
+
+PROBLEMA. 587. Trahatur corpus in A (Fig. 51) proiectum ubique ad virium centrum C a vi centripeta quacunque, oporteatque determinari naturam curvae AM, in qua corpus movebitur, et motum corporis in hac curva. [p. 241]
+SOLUTIO. Ponatur vis centripeta corpus in M ad C sollicitans = P, et celeritas corporis in M debita sit altitudine v. Vocentur deinde distantia CM y, elementum Mm ds et perpendiculum CT in tangentem curvae MT p, nec non elementum Mr dx et radius osculi MR r. Erit ergo ob triangula similia Mmr et CMT
+ds ( y2 - p2 ) = ydy et dx ( y2 - p2 ) = pdy .
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 345
+
+Atque
+
+radius
+
+osculi
+
+r
+
+reperitur
+
+=
+
+ydy dp
+
+.
+
+His
+
+positis
+
+habebimus
+
+dv
+
+=
+
+-Pdy et
+
+Pr dx = 2vds (557). His aequationibus coniunctis eliminato P erit
+
+rdvdx
+
+=
+
+-2vdsdy
+
+seu
+
+dv v
+
+=
+
+-2dsdy rdx
+
+.
+
+Substituantur
+
+ydy dp
+
+loco
+
+r
+
+et
+
+y p
+
+loco
+
+ds dx
+
+,
+
+prodibitque
+
+dv v
+
+=
+
+-2dp p
+
+.
+
+Quae integrata dat
+
+v=
+
+C p2
+
+.
+
+Constans haec C definietur ex data celeritate initiali in A, quae sit debita altitudini c, et directione proiectionis, quam ita definiemus, ut posita distantia CA = a perpendiculum
+
+CD in tangentem AD sit = h. Propterea erit C = ch2 et
+
+v
+
+=
+
+ch2 p2
+
+.
+
+Hinc erit ds = pds = elemento temporis per Mm. Consequenter ob pds = 2MCm erit
+v hc
+tempus, quo arcus AM percurritur,
+
+= 2.ACM .
+hc
+
+Ipsa curva vero determinabitur substituendo
+
+ch2 p2
+
+loco v in aequatione
+
+Pr dx = 2vds ,
+
+quo facto prodibit
+
+Pp2rdx = 2ch2ds . Haec aequatio, loco r et
+
+ds dx
+
+substitutis valoribus
+
+ydy dp
+
+et
+
+y p
+
+,
+
+transmutabitur
+
+in
+
+hanc
+
+Pdy
+
+=
+
+2ch2dp p3
+
+.
+
+Quae aequatio, quaecunque P sit functio ipsius y, ob indeterminatas separatas poterit construi. Q.E.I. [p. 242]
+
+Corollarium 1.
+588. Quia tempus, quo arcus AM percurritur, est 2.ACM , erunt tempora, quibus arcus
+hc
+quicunque describuntur, ut areae comprehensae arcu descripto et rectis ad centrum C ductis.
+
+Corollarium 2.
+
+589.
+
+Deinde
+
+cum
+
+sit
+
+v
+
+=
+
+ch2 p2
+
+,
+
+erit
+
+v
+
+=
+
+hc p
+
+.
+
+Celeritas
+
+igitur
+
+corporis
+
+in
+
+quocunque
+
+loco
+
+curvae percursae est reciproce ut perpendiculum ex centro C in tangentem in illo puncto
+
+demissum.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 346
+
+Scholion 1.
+590. Haec arearum aequabilis descripto constituit apud Neutonum primam propositionem, ex qua sequentia fere omnia deducit. Sunt autem hae duae proprietates maxime generales et id tantum requirunt, ut vis centripetae directio sit perpetuo versus centrum. Quaecunque enim vis centripeta quantitate, sive ipsarum CM functione, sive secus exprimatur, aeque tamen utraque valet. Nam cum in eas incidissemus, ex calculo vis centripeta P exterminabatur, eiusque tantum directio in consideratione relinquebatur.
+
+Corollarium 3.
+
+591. Ad curvam, quam corpus describit, cognoscendam ipsam vim centripetam dari
+
+oportet,
+
+[p.
+
+243]
+
+ex
+
+hacque
+
+data
+
+aequatio
+
+pro
+
+curva
+
+habebitur.
+
+Est
+
+enim
+
+Pdy
+
+=
+
+2ch2dp p3
+
+,
+
+quae exprimit curvae naturam, si P fuerit quantitas data.
+
+Corollarium 4.
+
+592. Quia est
+
+ydy dp
+
+= r , erit etiam
+
+P
+
+=
+
+2ch2 y p3r
+
+.
+
+Atque
+
+hoc
+
+est
+
+Theorema
+
+Moivreanum,
+
+illud
+
+vero
+
+P
+
+=
+
+2ch2dp p3dy
+
+Keillius primus se invenisse contendit.
+
+[Abraham de Moivre (1667­1754) : Some simple properties of the concic sections
+
+deduced from the nature of the foci; with general theoremsof centripetal force, by means
+
+of which the law of the centripetal force tending to the foci of the sections, the velocities
+
+of bodies revolving in them, and the description of the orbits, may be easily determined.
+
+Philosophical Transactions 1717, p. 622; cf. Miscellanea analytica de seriebus et
+
+quadraturis, London 1730, p.233.
+
+John Keill (1671­1721) : Of the laws of centripetal force, Philosophical Transactions
+
+1708, p. 174; " The learned Mr. Halley having showed me a theorem, by which the law of
+
+centripetal force can be exhibited in finite quantities, which was communicated to him by
+
+Mr. De Moivre, who said that Mr. Is. Newton had before discovered a similar theorem,
+
+and as the demonstration of the theorem is very easy, I wish to communicate it to the
+
+public,with some other thoughts in the same subject."
+
+Noted by Paul Stackel in the 1912 edition of Tom I, which is available from the Gallica
+
+website.]
+
+Scholion 2.
+593. Hae aequationes duplicem habent utilitatem : Primo enim ex data vi centripeta poterit natura curvae, quam corpus proiectum describit, determinari. Deinde etiam vicissim ope harum aequationum, si fuerit data curva, quam corpus circa virium centrum C describit, definiri potest in quovis loco vis centripeta efficiens, ut corpus in hac curva libere moveatur.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 347
+
+Corollarium 5.
+594. Quia est etiam dv = -Pdy , perspicuum est, si P fuerit functio ipsius y, celeritatem ubique a distantia corporis a centro pendere et in iisdem distantiis corpus eandem habere debere celeritatem.
+Corollarium 6.
+595. Quoties igitur P est functio ipsius y, toties etiam curva descripta ita erit comparata, ut in aequalibus a centro distantiis perpendicula ex centro in tangentes demissa sint inter aequalia, quia celeritates sunt reciproce ut haec perpendicula (589). [p. 244]
+Scholion 3.
+596. Atque semper, si P fuerit functio ipsius y, poterit assignari recta EC, in qua corpus a vi centripeta sollicitatum descendens in singulis punctis N eandem habebit celeritatem, quam habet in curva AM motum in punctis M aequaliter a centro distantibus. Sumto enim CN = CM = y et Nn = mr = dy , si fuerit celeritas in N aequalis celeritati in M, scilicet debita altitudini v, erit etiam, dum corpus per elementum Nn moveatur, dv = -Pdy . Ex quo intelligitur celeritatem in n aequalem fore celeritati in m. Atque ita in singulis punctis rectae EC corpus tantam habebit celeritatem, quantam habet in curva AM in iisdem a centro C distantiis. Si ergo fuerit E motus initium, in quo celeritas est = 0, ex data linea EC corporis in curva AM moti in singulis punctis innotescet celeritas. Hac igitur recta EC in posterum utemur ad celeritates corporis in curva moti definiendas eamque vocabimus distantiam celeritates determinantem.
+Corollarium 7.
+597. Cum igitur data sit celeritas in A, nempe debita altitudini c, ex hoc tota distantia EC reperiatur. Tantum enim punctum E distans a C accipi debet, ut corpus ex E hac vi centripeta sollicitatum descendens in A acquirat celeritatem = c . [p. 245]
+
+Corollarium 8.
+
+598. Si vocatur angulus MCm = dw, erit dw = dx = pdy . Unde prodit
+y y ( y2- p2 )
+
+p = y2dw . Tempusculum vero, quo angulus MCm absolvitur, est =
+( y2dw2 +dy2 )
+
+pds = pydy . Hoc igitur tempusculum erit = y2dw .
+
+h c h c( y2 - p2 )
+
+hc
+
+Corollarium 9.
+
+599. Si celeritatem angularem seu eam, qua angulus MCm percurritur, metiri velimus
+
+ipso hoc angulo per tempus diviso, prodibit celeritas angularis in M =
+
+hc y2
+
+. Celeritas
+
+igitur angularis est reciproce ut quadratum distantiae corporis a centro C.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 348
+
+Scholion 4.
+600. Quia autem curva, quam corpus a data vi centripeta sollicitatum describit, aliter non cognoscitur nisi per aequationem inter corporis distantiam a centro et perpendicularum in tangentem ex centro demissum, difficile plerumque est iudicare, qualis sit curva inventa, cum curvarum naturas consueverimus aequationibus inter coordinatas orthogonales exponere. Interim tamen huiusmodi aequationes inter distantiam a centro et perpendiculaum in tangentem, se modo sint vel algebraicae vel differentiales, in quibus indeterminatae sint a se invicem separatae, sufficiunt ad curvas quaesits construendas. Sed quo natura et ordo curvarum harum penitus possit investigari, [p. 246] dabimus hic methodum aequationes inter distantiam et perpendiculum ad consuetas aequationes inter coordinatas reducendi.
+
+PROPOSITIO 75.
+
+PROBLEMA. 601. Naturam curvae AM (Fig. 52), quam corpus a quacunque vi centripeta sollicitatum describit, definire aequatione inter coordinatas orthogonales CP et PM ad axem fixum AC relatus.
+
+SOLUTIO.
+
+Positis ut ante celerate initiali in A = c , AC = a et
+
+perpendiculo ex C in tangentem in A demisso = h atque praeterae CM = y, CT = p et vi centripeta in M = P, quae sit functio quaedam ipsius y, vocetur deinde CP = x et
+
+PM = z, erit CM = ( x2 + z2 ) = y seu z = ( y2 - x2 ) ;
+
+retinebimus enim loco z in calculo y, quia hoc modo calculus fit facilior et brevior atque post peractam totam operationem in promptu est z loco y introducere. His positis erit
+
+Mm = ( dx2 + dz2 ) = ( y2dy2 -2 yxdydx+ y2dx2 ) et Mr = - ydx+ xdy.
+
+( y2-x2 )
+
+( y2-x2 )
+
+Fiet igitur
+
+Mr = p =
+
+- ydx+ xdy.
+
+Mm y ( y2dy2 -2 yxdydx+ y2dx2 )
+
+et consequenter
+
+p=
+
+yxdy- y2dx
+
+.
+
+( y2dy2 -2 yxdydx+ y2dx2 )
+
+Sed
+
+pro
+
+curva
+
+AM
+
+hanc
+
+ante
+
+(591) elicuimus
+
+aequationem
+
+Pdy
+
+=
+
+2ch2dp p3
+
+.
+
+Ponamus
+
+autem
+
+Y integrale ipsius Pdy ita assumtum, ut evanescat posito y = a. Quo facto erit
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+page 349
+
+Y
+
+=
+
+C
+
+-
+
+ch2 p2
+
+,
+
+ubi
+
+constans
+
+C
+
+ob
+
+p
+
+=
+
+h,
+
+si
+
+est
+
+y
+
+=
+
+a,
+
+debet
+
+esse
+
+=
+
+c.
+
+Erit
+
+ergo
+
+Y
+
+=
+
+cp2 -ch2 p2
+
+,
+
+[p. 247] ex qua prodit
+
+p= h c .
+( c-Y )
+
+Quae quantitas, cum sit Y functio ipsius y, est quoque functio quaedam ipsius y. Hanc ob
+
+rem habebimus hanc aequationem
+
+hc =
+
+yxdy- y2dx
+
+.
+
+( c-Y ) ( y2dy2 -2 yxdydx+ y2dx2 )
+
+Ponamus x = uy et h c = Q brevitatis gratia, erit Q =
+
+- y2dx
+
+,
+
+( c-Y )
+
+( dy 2 -u 2dy 2 + y 2du 2 )
+
+ex qua oritur
+
+du = Qdy =
+
+hdy c
+
+(1-u2 ) y ( y2 -Q2 ) y ( cy2 -ch2 - y2Y )
+
+restituto h c loco Q. Quae igitur aequatio, cum in ea indeterminatae u et y sint
+y ( c-Y )
+
+separatae, semper poterit construi. Q.E.I.
+
+Corollarium 1.
+
+602.
+
+Quia
+
+est
+
+u
+
+=
+
+x y
+
+,
+
+exprimet
+
+u
+
+cosinum
+
+anguli
+
+MCA.
+
+Et
+
+hanc
+
+ob
+
+rem
+
+ultima
+
+aequatio
+
+separata erit inter distantiam corporis a centro et anguli ACM cosinum. Ex hac vero
+
+aequatione sponte oritur aequatio inter x et z.
+
+Corollarium 2.
+
+ 603. Aequatio vero nunquam esse poterit algebraica, nisi denotet
+
+hdy c
+
+y ( cy2 -ch2 - y2Y )
+
+ arcum circuli commensurabilem cum arcu du . (1-u 2 )
+
+Corollarium 3.
+
+604. Quoties ergo
+
+hdy c
+
+reduci poterit ad formam huiusmodi dZ et sit
+
+y ( cy2 -ch2 - y2Y )
+
+( A2 -Z 2 )
+
+ numerus rationalis, aequatio algebraica pro curva quaesita poterit exhiberi. [p. 248]
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 350
+
+Scholion 1.
+
+605. Sin autem du aequabitur huiusmodi quantitati dZ , habebitur
+
+(1-u 2 )
+
+( A2 -Z 2 )
+
+integratione per logarithmos imaginarios peracta haec aequatio
+
+(1-u2 )+u (1-u 2 )-u
+
+-1 -1
+
+=
+
+
+
+( A2 -C2 )-C ( A2 -C2 )+C
+
+-1 -1
+
+
+
+
+
+( A2 -Z 2 )+Z ( A2 -Z 2 )-Z
+
+-1 -1
+
+
+
+.
+
+Est vero hic C constans quantitas ex eo determinanda, quod, si fit CM ( y ) = CA( a ) ,
+
+simul quoque fieri debeat x = a seu u = 1. Ex illa autem aequatione conficitur ista
+
+( ) ( ) ( ) ( ) 
+
+
+
+
+
+
+
+u = ( A2 -C 2 )-C -1
+
+( A2 -Z 2 )+Z -1 - ( A2 -C 2 )+C -1 2 A2 -1
+
+( A2 -Z 2 )-Z -1 .
+
+Quae, quoties  est numerus rationalis, ab imaginariis -1 affectis libera redditur et in
+
+algebraicam certi ordinis transmutatur.
+
+Corollarium 4.
+
+606. Quia est x = uy , habebitur ista aequatio
+
+( ) ( ) ( ) ( ) 
+
+
+
+
+
+
+
+x = ( A2 -C 2 )-C -1
+
+( A2 -Z 2 )+Z -1 y- ( A2 -C 2 )+C -1 2 A2 -1
+
+( A2 -Z 2 )-Z -1 y ,
+
+quae, cum sit Z functio ipsius y et y = ( x2 + z2 ) , facile in aequationem inter x et z
+
+mutatur.
+
+Scholion 2.
+
+607. Superior aequatio etiam in hanc potest transmutari
+
+Z
+
+=
+
+2
+
+1 -1
+
+
+
+(1-u2 ) +u
+
+1
+-1  
+
+( A2 - C2 ) + C
+
+-1 - 
+
+(1-u2 ) -u
+
+1
+-1  
+
+( A2 - C2 ) - C
+
+- 1  ,
+
+[p. 249] quae commodior est, si
+
+1 
+
+fuerit numerus integer affirmativus.
+
+Scholion 3.
+
+608. At si  fuerit numerus negativum = - , habebitur
+
+( ) ( ) ( ) ( ) 
+
+
+
+
+
+
+
+( A2 -C 2 )+C -1
+
+( A2 -Z 2 )-Z -1 - ( A2 -C 2 ) -C -1 2 A2 -1
+
+( A2 -Z 2 )+Z -1 = u
+
+Ex quo apparet, si  fuerit negatimum, ipsius u valorem tantum fieri negativum, id quod
+
+quidem ex aequatione differentiali intelligitur. Simili vero modo erit etiam
+
+Z
+
+=
+
+2
+
+1 -1
+
+
+
+(1- u2 ) - u
+
+1
+-1  
+
+( A2 - C2 ) + C
+
+-1 - 
+
+(1- u2 ) + u
+
+1
+-1  
+
+( A2 - C2 ) - C
+
+- 1 .
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 351
+
+Corollarium 5.
+
+609. Si fuerit  = 1, erit u = Z
+
+( A2 -C 2 )-C A2
+
+( A2 -Z 2 )
+
+et x = Zy
+
+( A2 -C 2 )-Cy A2
+
+( A2 -Z 2 ) .
+
+Si fuerit  = -1, etiam u vel x sumi debet negativum.
+
+610. Si fuerit  = 2 , erit
+
+Corollarium 6.
+
+u = 2Z( A2 -2C 2 )
+
+( A2 -Z 2 )-2C( A2 -2Z 2 ) A4
+
+( A2 -C2 ) .
+
+At
+
+si
+
+fuerit
+
+
+
+=
+
+1 2
+
+,
+
+erit
+
+Z
+
+=
+
+C - 2Cu2
+
++ 2u
+
+(1- u2 )( A2 - C2 ).[p. 250]
+
+PROPOSITIO 76.
+
+THEOREMA. 611. Si fuerit vis centripeta ut functio quaecunque distantiarum a centro C (Fig. 53), et corpus in A proiiciatur secundum directionem normalem in AC celeritate, cuius altitudo debita se habeat ad dimidiam AC ut vis centripeta in A ad vim gravitas 1, hoc corpus in peripheria circuli AMBA, cuius centrum est C, movebitur aequaliter.
+
+DEMONSTRATIO.
+
+Moveatur enim corpus in hoc circulo ; quia
+
+eius distantia a centro non variatur perpetuo ab
+
+eadem vi centripeta versus C sollicitabitur,
+
+cuicunque functioni distantiarum etiam si sit
+
+proportionalis vis centripeta. Atque quia ad
+
+centrum C sollicitatur, erit directio potentiae
+
+sollicitantis normalis semper in curvae
+
+portiunculam, in qua corpus movetur.
+
+Quodcirca corpus sollicitabitur perpetuo a vi
+
+normali, nunquam a tangentiali, et hanc ob rem
+
+eius celeritas semper manebit eadem (561), ac
+
+ideo corpus motu aequabili peripheriam
+
+describet. Deinde quia vis centripeta seu normalis ubique est eadem, ponatur ea = g et
+
+celeritas itidem constans debita altitudini c atque radius AC = a, quae quantitas a ubique
+
+exhibet curvae radium osculi. His igitur positis erit ag = 2c (561). Ex quo haec oritur
+
+analogia : Ut altitudo celeritati corporis, qua initio in A proiicitur, debita c ad dimidian
+
+distantiam AC,
+
+1 2
+
+a
+
+,
+
+ita
+
+vis
+
+centripeta
+
+g
+
+ad
+
+vim
+
+gravitatis
+
+1.
+
+Q.E.D.
+
+[p. 251]
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 352
+
+Corollarium 1.
+612. Quando ergo corpus semel arcum circuli describit,cuius centrum est in ipso centro virium C, tum perpetuo in ea circuli peripheria revolvetur. Si quidem vis centripeta a solis distantiis a centro pendeat, ita ut in aequalibus distantiis vis centripeta sit aequalis.
+
+Corollarium 2.
+613. Posita ratione diametri ad peripheriam 1 :  erit peripheria circuli, in quo corpus
+
+movetur, = 2a. Quia deinde celeritas, qua corpus movetur, est =
+
+c=
+
+ag 2
+
+, erit tempus
+
+unius periodi per totam peripheriam = 2 2a .
+g
+
+Corollarium 3.
+
+614. Si ergo plura corpores in diversis circulis moveantur, erunt tempora revolutionum in subduplicata ratione composita ex directa radiorum circulorum et inversa virium centripetarum.
+
+Corollarium 4.
+615. Si corpus ex A perpendiculariter ad AC proiiaciatur, set celeritate vel maiore vel
+
+minore quam
+
+ag 2
+
+,
+
+corpus
+
+arculum
+
+circuli
+
+describet,
+
+cuius
+
+radius
+
+erit
+
+vel
+
+maior
+
+vel
+
+minor quam AC. [p. 252]
+
+Corollarium 5.
+616. Hoc ergo casu, quo corpus incipit in arcu circulari moveri, cuius centrum non est in C, statim ad centrum vel magis accedet vel magis ab eo recedet. Et hanc ob rem statim ab alia sollicitabitur vi centripeta, nisi forte vis centripeta ubique est eadem.
+
+Scholion.
+617. Quacunque autem corpus in A (Fig. 54) celeritate proiiciatur, modo sit eius directio in rectam AC per centrum virium C transeuntem perpendicularis, curva BMAND hanc habebit proproprietatem, ut eius portiones AMB, AND, cis et ultra rectam AC positae sint inter se similes et aequales, atque AC axis et diameter huius curvae. Nam quia, ut iam innuimus, vis centripeta functioni cuidam distantiarum a centro est proportionalis, corpus sive supra sive infra AC in aequalibus a C distantiis aequaliter sollicitatur et hanc ob rem eodem modo per DNA ad A accedere debet, quo ab A per AMB recedit, atque in punctis homologis M et N eandem quoque habebit celeritatem.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 353
+
+Corollarium 6.
+618. Omnis igitur recta ex centro C ducta, quae in curvam est normalis, erit simul curvae diameter ; ita ut curvae partes cis et ultra hanc rectam positae sint inter se similes et aequales. [p. 253]
+PROPOSITIO 77.
+
+THEOREMA. 619. Si plura corpora circa centrum virium C (Fig. 55) moveantur atque, describant curvas AM, am circa C similes, erunt celeritates in punctis similibus M et m in subduplicitata ratione composita ex rationibus laterum homologorum et virium centripetarum in locis homologis M et m.
+
+DEMONSTRATIO.
+
+Quia est AC : aC = MC : mC, erit etiam radius
+
+osculi in M ad radium osculi in m in eadem ratione,
+
+nec non etiam perpendiculum CT ad Ct. Ex
+
+propositione 74 (587) vero apparet esse
+
+Pr dx = 2vds , seu, loco
+
+ds dx
+
+posito
+
+y p
+
+.
+
+Ppr = 2vy .
+
+Hinc ergo erit celeritas
+
+v=
+
+Ppr 2y
+
+.
+
+Ex quo prodit haec analogia : celeritas in M est ad celeritatem in m in ratione subduplicata composita ex directis virium centripetarum in M et m atque perpendiculorum CT ad cT, atque ratio inverse distantiarum MC ad mC. Quia vero est CT ad cT ut MC ad mC et radius osculi in M ad radium osculi in m ut MC ad mC, erit celeritas in M ad celeritatem in m in ratione subduplicata composita ex rationibus virium centripetarum in M et m et laterum homologorum MC ad mC. Q.E.D.
+
+Corollarium 1.
+
+620. Si ergo dicatur AC = A, aC = a, CD = H et Cd= h, itemque celeritas in A = C et in
+
+a=
+
+c , erit celeritas angularis in M =
+
+HC MC 2
+
+[p. 254] et celeritas angularis in m =
+
+hC mC 2
+
+(599). Quia autem est H : h = MC : mC = A : a, erunt celeritates angulares in M et m ut
+
+C A
+
+ad
+
+c a
+
+,
+
+i.
+
+e.
+
+in
+
+ratione
+
+constante.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 354
+
+Corollarium 2.
+621. Tempora igitur, quibus aequales anguli ACM, aCm seu spatio homologia AM et am absolventur, sunt reciproce ut celeritates angulares in M et m, i. e. directe ut latera homologa et reciproca ut celeritates in punctis homologis.
+
+Scholion 1.
+622. Quin etiam celeritates in punctis homologis ubique eandem tenent rationem. Est
+
+enim celeritates in M =
+
+HC CT
+
+et celeritates in m =
+
+hc Ct
+
+(589). Quamobrem, cum sit H : h
+
+= CT : Ct, erit celeritas in M ad celeritatem in m ut C ad c , i. e. ut celeritates in A ad
+
+celeritatem in a.
+
+Corollarium 3.
+623. Ex ipsa autem propositione perspicitur esse celeritatem in A, C , ad celeritatem in
+a, c , in ratione subduplicata composita ex rationibus virium centripetarum in A et a et laterum homologorum A et a. Quare si dicatur vis centripeta in A = G et vis centripeta in a = g, erit
+C : c = AG : ag . [p. 255]
+
+Corollarium 4.
+
+624. Consequenter tempus per AM erit ad tempus per am ut
+
+A G
+
+:
+
+a g
+
+,
+
+i.
+
+e.
+
+in
+
+ratione
+
+subduplicata composita ex directa laterum homologorum et inversa virium centripetarum in punctis A et a. Quae ergo ratio est constans, eandemque tenere debent inter se integra revolutionum tempora.
+
+Scholion 2.
+
+625. Hoc etiam casu, quo plures figures similes circa centrum C describuntur, vires
+
+centripetae in punctis homologis eandem ubique tenere debent rationem. Quia enim est
+
+P
+
+=
+
+2ch2 y p3r
+
+(592), erit vis centripeta in M ad vim centripetam in m directe ut quadratum
+
+celeritatis in A ad quadratum celeritatis in a et reciproce ut AC ad aC, quae est ratio
+
+constans. Quamobrem, quo possint plures figurae similes circa centrum C describi,
+
+oportet, ut vis centripeta huiusmodi distantiarum functione exprimatur, quae in locis
+
+homologis vires centripetas eandem rationem tenentes praebeat. Scilicet posita P vi
+
+centripeta in distantia y et Q in distantia my, debebit P ad Q habere rationem constantem,
+
+in qua non insit y. Hoc enim nisi fuerit, fieri non potest, ut circa centrum C plures figurae
+
+similes describantur.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 355
+
+Corollarium 5.
+
+626. Hoc autem obtineri non potest, nisi sit P potestas quaedam ipsius y, ut
+
+yn fn
+
+.
+
+[p.
+
+256]
+
+Hoc
+
+enim
+
+casu
+
+fit
+
+Q
+
+=
+
+mn yn fn
+
+,
+
+et
+
+ratio
+
+P
+
+:
+
+Q
+
+erit
+
+1
+
+:
+
+mn,
+
+quae
+
+est
+
+constans.
+
+Corollarium 6.
+627. Nisi ergo vis centripeta cuidam dignitati distantiarum a centro C sit proportionalis, ne fieri quidem potest, ut plures figurae similes circa centrum C describantur. Atque in his solis casibus locum habebunt proprietates, quas ex hac propositione eruimus.
+
+Corollarium 7.
+
+628. Si autem fuerit
+
+P=
+
+yn fn
+
+, erit
+
+G
+
+=
+
+An fn
+
+et
+
+g
+
+=
+
+an fn
+
+. Celeritates ergo in locis homologis
+
+n+1
+
+n+1
+
+tenebunt rationem A 2 ad a 2 .
+
+Corollarium 8.
+
+629. Atque tempora, quibus arcus similes AM et am absolvuntur, erunt in ratione
+
+1-n
+A2
+
+1-n
+ad a 2
+
+seu in ratione multiplicata laterum homologorum, cuius exponens est
+
+1-n .
+
+2
+
+Scholion 3.
+630. In praecedente et hac propositione continentur omnia theoremata, quae Huygenius de viribus centrifugis in tractatu suo de Horologio oscillatorio annexit. [p. 257] Eaque partim re ipsa hic apposui, partim eventissime ex ipsis propositionibus deduci possunt.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 356
+
+PROPOSITIO 78.
+
+PROBLEMA. 631. Si centrum virium C attrahat in ratione distantiarum directa (Fig. 56) et corpus ex A secundum directionem ad radium AC normalem data cum celeritate proiiciatur, determinare curvam AMDBH, quam corpus describet, corporisque celeritatem in singulis locis.
+
+SOLUTIO.
+
+Ponatur distantia CA = a, erit perpendiculum,
+
+quod ex centro C in motus directionem
+
+demittitur, = a. Celeritas vero in A debita sit
+
+altitudini c. Pervenerit corpus in M, sitque CM
+
+= y; et perpendiculum ex C in tangentem in M
+
+demissum CT ponatur = p, atque celeritas in M
+
+debita sit altitudini v. Sit porro distantia, in quia
+
+vis centripeta aequalis est gravitati, f; erit vis
+
+centripeta in M =
+
+y f
+
+,
+
+posita
+
+vi
+
+gravitatis
+
+=
+
+1.
+
+Y
+
+=
+
+y2 -a2 2f
+
+.
+
+Quamobrem
+
+habebitur
+
+p=
+
+His
+
+cum
+
+prop.
+
+75
+
+(601)
+
+comparitis
+
+erit
+
+P
+
+=
+
+y r
+
+et
+
+a 2cf .
+a2 +2cf - y2
+
+Est vero
+
+v=
+
+a2c p2
+
+(587), ex quo erit
+
+v=
+
+a2 +2cf - y2 2f
+
+. Ob elementum curvae autem
+
+= ydy erit elementum temporis
+
+ydy 2 f
+
+.
+
+y2 - p2
+
+a2 y2 +2cfy2 - y4 -2a2cf
+
+Demisso ex M in CA perpendiculo MP vocetur CP = x, ponaturque x = uy. [p. 258]
+
+His positis erit
+
+du =
+
+ady 2cf
+
+(1-u 2 ) y 2cfy2 -2a2cf - y4 +a2 y2
+
+(601). Fiat y =
+
+1
+
+,
+
+y
+
+(q
+
++ 2cf + a 2 4a 2cf
+
+)
+
+et prodibit
+
+du =
+(1-u2 )
+
+-
+
+1 2
+
+dq
+
+.
+
+(( a2-2cf 4 a 2cf
+
+)2 -q2
+
+Quo collato cum formula dZ (604) erit
+( A2 -Z 2 )
+
+
+
+=
+
+1 2
+
+,Z
+
+= -q et
+
+A=
+
+a2 -2cf 4a 2 cf
+
+.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part a).
+
+Translated and annotated by Ian Bruce.
+
+Ex his autem invenitur
+
+Z = -q = C-2Cu2 + 2u
+
+( A2 - C2 )(1 - u2 ) =
+
+a2 +2cf 4a 2cf
+
+-
+
+1 y2
+
+.
+
+page 357
+
+(610). Constans quantitas C ex hoc determinabitur, quod facto u = 1 fieri debeat y = a.
+
+Hinc ergo erit
+
+C=
+
+2cf -a2 4a 2cf
+
+,
+
+unde
+
+fit
+
+( A2 - C2 ) = 0 . His substitutis habebitur
+
+1 2cf
+
+-
+
+1 y2
+
+=
+
+(
+
+a2 -2cf 4a 2 cf
+
+)u 2
+
+=
+
+(
+
+a2 -2cf )x2 4a 2cfy 2
+
+ob
+
+u
+
+=
+
+x y
+
+.
+
+Aequatio
+
+igitur
+
+resultabit
+
+ista
+
+a2 y2 - a2 2cf = ( a2 - 2cf )x2 .
+
+Ponatur applicata MP = z, erit y2 = x2 + z2 . Hinc sequens prodibit pro curva quaesita
+
+aequatio inter coordinatas orthogonales a2z2 + 2cfx2 = 2a2cf .
+
+Haec aequatio est ad ellipsin, cuius centrum in C est situm,et AB = 2a est alter eius axis,
+
+alter vero DH = 2 2cf . Q.E.I.
+
+Corollarium 1.
+
+632. Attitudo celerati in M debita v est =
+
+a2 +2cf - y2 2f
+
+. Quia autem est
+
+a2 + 2cf = AC2 + CD2 = AD2 , erit
+
+v
+
+=
+
+AD2 -CM 2 2f
+
+.
+
+Corollarium 2.
+633. Simili modo perpendiculum CT in tangentem MT demissum erit p =
+et ipsa tangens [p. 259]
+
+AC .CD ( AD2 -CM 2 )
+
+MT = ( AD2 .CM 2 -CM 4 - AC 2 .CD2 ) = ( AD2 -CD2 ).CP.PM
+
+( AD2 -CM 2 )
+
+AC.CD ( AD2 -CM 2 )
+
+si quidem est AC > CD.
+
+Corollarium 3.
+634. Hoc autem casu, quo AC > CD, erit AB ellipsis axis transversus, in eoque foci F et
+
+G siti. Erit autem CF = CH = ( AC2 - CD2 ) . Adeoque
+
+MT =
+
+CF 2 .CP.PM
+
+.
+
+AC.CD ( AD2 -CM 2 )
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 358
+
+Corollarium 4.
+635. Anguli ergo TMC, quem corporis in M directio cum radio MC constituit, sinus est,
+
+=
+
+AC .CD
+
+CM ( AD2 -CM 2 )
+
+et cosinus
+
+=
+
+CF 2 .CP.PM
+
+.
+
+CM .AC.CD ( AD2 -CM 2 )
+
+Scholion 1.
+636. Distantia celeritas deteminans CE (596, 597) aequalis est semper subtensae AD. Nam posita CE = k descendat corpus ex E versus C a vi centripeta tractum; habere debebit corpus, cum in A pervenerit, celeritatem altitutudini c debitam. Quamobrem erit k = ( a2 + 2cf ) (275). Quia autem est
+AC = a et CD = 2cf ,erit CE = ( AC2 + CD2 ) = AD .
+
+Corollarium 5.
+
+637. Altitudo debita celeritati, quam corpus in recta EC motum acquiret, cum in C
+
+pervenerit, erit
+
+k 2 = a2 +2cf = AD2 .
+
+2f 2f
+
+2f
+
+Corollarium 6.
+638. Tempus, quo arcus AM absolvitur, est = 2.ACM (588) ob h = a hoc casu. [p. 260]
+ac
+Quamobrem tempus totius revolutionis per ellipsis perimetrum ADBHA erit = 2.Areae Ellipticae . Est vero posita ratione diametri ad peripheriam 1 :  spatium
+ac
+ellipticum = a 2cf . Consequenter tempus unius revolutionis erit 2 2 f .
+
+Corollarium 7.
+639. Si ergo plura corpora circa idem centrum virium attrahens in ratione distantiarum revolvantur in ellipsibus, erunt singulorum tempora integrarum revolutionum inter se aequlia.
+Scholion 2.
+640. Quando corporis directio initialis in puncto A non ponitur normalis ad radium AC, calculus non praebet ellipsin pro curva a corpora descripta, set aliam curvam ordinis quarti, quae tamen nullo modo satisfacere potest. Causa huius discrepentiae calculi a veritate in hoc consistit, quod expressio sinus anguli, quem curva cum radio constituit, in y et u sumta semper evadet = 1, posito y = a et u = 1, etiamsi secundum hypothesin alia prodire debeat quantitas. Sinus enim anguli, quem curva cum radio comprehendit, est
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part a).
+Translated and annotated by Ian Bruce.
+
+page 359
+
+ydu
+
+,
+
+dy2 -u 2dy 2 + y2du 2
+
+quae expressio facto u = 1 evidenter abit in unitatem, cum tamen prodire debeat
+
+h a
+
+.
+
+Quamobrem perspicuum est, nisi ponatur h = a, calculum hoc modo institutum nunquam
+
+cum veritate conspirare posse, si quidem aequatio inter u et y quaeri debeat. Haec ergo
+
+regula perpetuo est tendenda, [p. 261] quoties curva descripta secundum praecepta
+
+propositionis 75 (601) investigabitur. Methodus autem hac propositione tradita ad curvas
+
+algebraicas tantum inveniendas est accommodata; alia enim methodo, si curvae sint
+
+transcendentes, uti oportet. At omnes curvae algebraicae hac gaudent proprietate, ut in
+
+eas ex puncto quocunque duci possit perpendicularis. [Hanc propositionem ab Eulero sine
+
+demonstratione usurpatam falsam esse ex consideratione parabolae Neilianae facile
+
+perspicitur. Notari per Paul Stackel in Opera Omnia] Quocirca, quoties corpus in curva
+
+algebraica circa centrum virium revolvitur, semper in ea vel unum vel plura poterunt
+
+assignari puncta, in quibus radius ad curvam sit perpendicularis. In huiusmodi igitur
+
+punctis corpus motum inchoare ponendum est, atque calculus semper veritati erit
+
+consentaneus. Ex tali autem solutione facile invenietur corporis in quovis alio loco
+
+celeritas, atque hinc methodo inversa data corporis celeritate in loco, in quo radius non
+
+est ad curvam normalis, reperietur celeritas in loco, ubi radius in curvae normalem
+
+incidit. Quomodo autem hoc effici debeat, ex propositione sequente perspicietur.
+
+Supra memorata curvarum algebraicarum proprietas vero, qua ex quocunque puncto
+
+dato in eas perpendicularis potest demitti, non in omnes curvas transcendentes competit.
+
+In spirali enim logarithmica nullum radium ex cento ad curvam ductum esse normalem,
+
+sed perpetuo cum ea constantem constituere angulum cuique est notum.
+
+Quo tandem ratio intelligatur, quare
+
+=
+
+ydu
+
+dy 2 -u 2dy 2 + y2du 2
+
+semper facto u = 1 mutetur in unitatem, cum tamen quivis alius quoque angulus praeter rectum ex ea produci deberet, animadvertendum est abeunte u in 1 [p. 262] elementum du evanescere prae dy, nisi sit tangens in A ad radium AC normalis. Hancque ob causam posito u = 1 elementum dy2(1 - u2 ) non est negligendum ratione y2du2 , cum utrumque
+
+evanescat, ut in numerator ydu. Quo fit, ut cuiusvis arbitrarii anguli sinus illa formula facto u = 1 possit exprimi. Sed quoniam haec cautela in calculo non potest observari, praeter casus h = a calculus nunquam veram curvam exhibet.
+
+

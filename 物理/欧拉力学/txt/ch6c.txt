@@ -1,0 +1,2840 @@
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 637
+
+CHAPTER SIX (Part c).
+CONCERNING THE CURVILINEAR MOTION OF A FREE POINT IN A RESISTIVE MEDIUM
+[p. 428] .
+PROPOSITION 120.
+
+PROBLEM. 1005. A body is always attracted by some force in a medium with some kind of resistance towards the fixed point C (Fig.91); to determine the curve AM that the body describes projected in some manner.
+
+SOLUTION. When the body is at M, the distance of this from the centre MC is equal to y, the element Mm is equal to ds; the speed at M corresponds to the height v. Also from M the normal Mr is drawn to mC, and mr = dy. Again with the tangent MT drawn, let the perpendicular CT = p be sent from C to that line and the radius of osculation at M is equal to r,
+
+which is equal to
+
+ydy dp
+
+.
+
+Now
+
+let
+
+the
+
+force
+
+which
+
+draws
+
+the
+
+body at M towards C be equal to P and the force of resistance at M is equal to R. Moreover by resolving the force P, the
+
+normal force
+
+Pp y
+
+and
+
+the
+
+tangential
+
+force
+
+-
+
+Pdy ds
+
+are
+
+produced,
+
+since
+
+the
+
+motion
+
+of
+
+the
+
+body is retarded. Moreover from the normal force this equation is had (552) :
+
+Besides since the tangential force with a small resistance is given by
+
+-
+
+Pdy ds
+
+-
+
+R,
+
+we
+
+have
+
+(cit.). From these equations solved together, first the speed at particular points on the
+curve, and then the curve itself AM is known. Q.E.I.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Six (part c).
+
+Translated and annotated by Ian Bruce.
+
+page 638
+
+[Recall in (910) we gave a sketch for determining the radius of curvature for rectilinear
+
+coordinates; here we repeat briefly the procedure for polar coordinates, illustrating Euler's
+
+amazing grasp of elemental triangles :
+
+]
+Corollary 1.
+1006. On account of the similar triangles Mmr, CMT , we have
+In which on substitution there is produced :
+Therefore with v eliminated there is obtained an equation between y et p, which suffices to determine the curve. [p. 429]
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 639
+
+Corollary 2.
+
+1007.
+
+Since
+
+P
+
+=
+
+2vdp pdy
+
+, this value is substituted in the other equation. With this done there
+
+is produced
+
+From which equation, if R is a force of v, then the value of v itself can be found.
+
+Corollary 3.
+
+1008. Let the resistance be proportional to the square of the velocity and the medium
+
+uniform, thus in order that
+
+R
+
+=
+
+v c
+
+. Hence we have therefore
+
+dv
+
++
+
+2vdp p
+
+=
+
+-
+
+vds c
+
+,
+
+which
+
+equation
+
+on
+
+integrating
+
+gives
+
+vp2
+
+=
+
+bh2e-
+
+s c
+
+,
+
+where
+
+b
+
+is
+
+the
+
+height
+
+corresponding
+
+to
+
+the
+
+initial speed at A and h is the perpendicular from C sent to the tangent at A.
+
+Corollary 4.
+
+1009. Therefore according to this hypothesis of the resistance, since
+
+v=
+
+bh 2
+s
+
+, the force
+
+p2ec
+
+is given by
+
+Therefore when P is given in terms of y, this equation is the equation sought for the curve [p.430] AM; moreover the speed at any place M varies inversely as the perpendicular to the tangent and also inversely to the number the logarithm of which is the path length divided by 2c shown.
+
+Corollary 5.
+
+1010. Therefore according to this hypothesis of resistance, the body describes the same
+
+path
+
+acted
+
+on
+
+by
+
+the
+
+centripetal
+
+force
+
+V
+s
+
+, as it describes in a vacuum acted on by the
+
+ec
+
+force
+
+V.
+
+For
+
+in
+
+either
+
+case
+
+the
+
+equation
+
+sought
+
+for
+
+the
+
+curve
+
+is
+
+this
+
+:
+
+Vdy
+
+=
+
+2bh2dp p3
+
+.
+
+Whereby, as the body in this medium with resistance, describes the same curve as the
+
+body in a vacuum, the centripetal force must decrease in the ratio the logarithm of which
+
+is the distance described to the value of c applied.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 640
+
+Corollary 6.
+1011. Let the resistance of the proportional speeds be as the 2mth power of the exponent
+
+and with the medium uniform, thus in order that
+
+R
+
+=
+
+vm cm
+
+. Therefore we have
+
+dv
+
++
+
+2vdp p
+
+=
+
+-
+
+v m ds cm
+
+.
+
+Which
+
+integrates
+
+to
+
+give
+
+Corollary 7. [p.431]
+
+1012.
+
+Let
+
+the
+
+resistance
+
+be
+
+proportional
+
+to
+
+the
+
+speed,
+
+or
+
+m
+
+=
+
+1 2
+
+,
+
+this
+
+gives
+
+ Moreover pds expresses twice the area ACM, which we take to be S. And taking away
+the constant, this gives
+with b and h having the same values as in coroll. 3.
+Corollary 8.
+1013. Therefore in this hypothesis for the resistance, the speed of the body disappears when the sector of the body or the area completed is equal to h bc . Therefore this area is of such a size that the body is never able to complete this area. And the speed of the body at M varies directly as this absolute area of space now made very small, and inversely as the perpendicular to the tangent.
+Corollary 9.
+1014. According to the same hypothesis of resistance
+Therefore the centripetal force is equal to
+
+Then truly the time, in which the arc AM is completed, is equal to
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 641
+
+Hence an infinite time is needed before the body completes the area equal to h bc , or
+
+before all the motion is reduced to zero.
+
+Scholium. [p.432]
+1015. Therefore these are the general laws obeyed by a body in a resisting medium acted on by some centripetal force. Moreover I have deduced these further in the cases where the resistance is proportional to the speed or to the square of the speed, while it is clear that this cannot be done in other hypothetical cases of resistance; consequently in the following we take to be our main concern these two resistances that we have been concerned with up to this stage. Moreover now we take the given centripetal forces as proportional to powers of the distances, and we investigate what differences resistance introduces to the curves described. Then just as in the preceding, we put in place the given curve that arises, together with enquiring about either the centripetal force, resistance, or speed in the remainder of the motion.
+
+PROPOSITION 121.
+PROBLEM. 1016. If the centripetal force varies as some power of the distances from the centre, and the body moves in a medium with constant resistance, which resists in the square ratio of the speed, to determine the curve AM (Fig.91) that the body describes, and the motion of the body on this curve.
+SOLUTION. [p.433] By keeping as before: CM = y, CT = p, Mm = ds, with the speed at M corresponding to v there becomes :
+
+Hence this equation is found for the curve sought :
+
+However not a lot can be understood from that equation about the curve put in place, on
+s
+account of the complicating factor ec ; whereby with the logarithms taken, there is
+and
+on taking dy constant. Since indeed ds = ydy , we have
+( y2- p2 )
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+Which is the equation between y and p sought for the curve. Q.E.I.
+
+page 642
+
+Corollary 1.
+1017. From which an equation is produced, if the force is proportional to the distance or inversely proportional to the square of the distance, that is readily apparent from the equation found, if 1 or ­ 2 is substituted in place of n. Moreover all the substitutions of this kind do not help in bringing about the tractability of the general equation.
+
+Corollary 2.
+
+1018. If the medium put in place is not uniform, but the exponent of this is the variable
+
+q, in place of
+
+s
+ec there is put
+
+e
+
+ds q
+
+(873) [p.434] and this equation is found for the curve
+
+described :
+
+Where, if q is made proportional to the distance y, the equation can be reduced to a differential equation of the first degree.
+
+Corollary 2.
+
+1019.
+
+Therefore
+
+let
+
+the
+
+exponent
+
+of
+
+the
+
+resistance q
+
+=
+
+y 
+
+,
+
+and
+
+the
+
+curve
+
+described
+
+can
+
+be
+
+expressed by the following equation :
+
+In which, since the number of dimensions of the individual terms vanishes, reduction to a differential equation of the first degree can be put in place.
+Corollary 3.
+1020. Moreover in this manner the differential equation of the first degree is found. Putting
+
+there is
+
+Whereby the equation becomes
+
+ddt
+
+=
+
+-
+
+dzdt z
+
+-
+
+sdt2 .
+
+Again
+
+we
+
+have
+
+and
+
+From which we find :
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 643
+
+Corollary 5.
+1021. If the centripetal force is put to vary inversely as the cube of the distance, then n = -3 . [p.435] Hence the curve described is contained in this equation :
+Corollary 6.
+1022. If the centripetal force varies in proportion to the inverse square of the distance, then n = -2 . And the curve described is expressed by the following equation :
+In the same manner, if the centripetal force is proportional to the distances or n = 1 to be put in place, there is produced :
+Corollary 7.
+1023. All these equations give curves in the vacuum if  = 0 is put in place. For in this case the exponent of the resistance is made infinitely great, and therefore the resistance infinitely small. Moreover, this equation is found :
+Scholium.
+1024. Therefore when the exponent of the resisting medium, which is put to resist as the square of the ratio of the speeds, is proportional to the distances from the centre, then the equation for the curve described can be reduced to a differential equation of the first degree ; which is hardly possible to be done for the other hypotheses of the exponents of the resistance. Moreover I understand that such values of q, which only depend on the distances from the centre y, are clearly the only ones admitted to be put as a ratio. [p.436] Indeed it is not fitting to give q in terms of p, i. e. through the curve itself, which is still unknown. Yet meanwhile the differentio-differential equation can always be reduced to a first order equation [note that Euler considers differential equations as those written with
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Six (part c).
+
+Translated and annotated by Ian Bruce.
+
+page 644
+
+single derivatives such as dx, dy, etc; while he considers the ratio of differentials such as
+
+e. g. dy/dx to be the ratio of a differential by a differential], as long as q is given as a
+
+function of a single dimension of y and p taken together. But with these equations, even if
+
+they are differentials of the first order, they are neither able to be separated nor
+
+integrated, and they serve no useful purpose. On this account, we consider the resistance
+
+proportional to the speed when it is joined with a centripetal force to any power of the
+
+distances.
+
+[Thus, there are now three kinds of variables to be considered : the power law
+
+governing the central attraction; the relation of the resistance to the speed; and the form
+
+of the function formed from the exponent of the resistance; only a small portion of these
+
+cases is soluble.]
+
+PROPOSITION 122.
+
+PROBLEM. 1025. In a uniform medium, which resists in the simple ratio of the speed, the body moves attracted to the centre C (Fig.91) by a force proportional to some power of the distance ; the determine the curve AM that the body describes.
+
+SOLUTION.
+
+By putting CM = y, CT = p, Mm = ds, with the speed at M corresponding to the height
+
+v and with the exponent of the resistance equal to q, the centripetal force is equal to
+
+yn fn
+
+and the
+
+ area
+
+ACM
+
+=
+
+1 2
+
+pds = S.
+
+With these put in place we have
+
+(1012 and 1014), [p.437] where b is the height at A corresponding to the speed, and h is the perpendicular from C sent to the tangent at A. From which S can be eliminated, and the equation found put in this form :
+
+From which by differentiation with dp put constant there arises :
+
+or
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Six (part c).
+
+Translated and annotated by Ian Bruce.
+
+page 645
+
+Which equation expresses the kind of the curve AM described. Truly by knowing this, at
+
+once the speed of the body can become known from the area of the curves and from the
+
+perpendicular p. Q.E.I.
+
+Corollary 1.
+1026. If in place of dp the element dy is assumed constant, then this equation is produced:
+
+Moreover nothing can be concluded from this equation, since it cannot be reduced to a first order differential equation.
+Corollary 2.
+1027. The above reduction can always be put in place (1020), if in the differential equation the indeterminates [p.438] p and y are agreed to have the same number of dimensions. Moreover, this happens if n = 1, i. e. if the centripetal force is proportional to the distance from the centre. Then indeed for the curve sought :
+with dy put constant.
+Corollary 3.
+1028. Hence therefore for this hypothesis, put :
+and there is produced :
+With these substituted it is found that
+
+Or by putting tz = u there is produced:
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 646
+
+Corollary 4.
+3
+1029. This equation is possible to be integrated, if it is divided by tt(1 + u )2 u ;
+from which there is produced :
+
+The integral of which is
+or
+Corollary 5. [p.439]
+1030. Truly on the strength of the substitutions made:
+On account of which we have the equation for the curve sought:
+Corollary 6.
+1031. Moreover when the differentials are made rational, there arises :
+by restoring p = yt. Therefore the following equation is found, in which the indeterminates y and t are in turn separated from each other, From which the equation for the curve can be constructed.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 647
+
+Scholium.
+1032. I will not delay any more over this equation, although I suspect that it is possible to be integrated anew. This indeed is certain, if C 2c = - f ; in which case as the integral is made composite, as here I did not wish to make the change. From which it is understood that the integral obtained is very complicated, so thus hardly anything could be deduced about understanding the motion. On which account with these in place I go on to the inverse problems.
+PROPOSITION 123. [p.440]
+PROBLEM. 1033. If the curve AM is given (Fig.91) that the body describes, and the resistance is given at the individual points M, to determine the centripetal force always directed towards the centre C, and the speed of the body at individual points.
+SOLUTION. As before there are put in place CM = y, Mm = ds, CT = p, with the height corresponding to the speed at M equal to v, with the resistance equal to R, and the centripetal force equal to P. With these in place this equation is found :
+
+(1007), from which, since the curve AM and the resistance R are given, v is found from
+
+the integral
+
+ p2v = -
+
+Rp2ds
+
+,
+
+truly
+
+v
+
+=
+
+-
+
+ Rp2ds p2
+
+.
+
+Moreover
+
+with
+
+v
+
+found,
+
+again
+
+it
+
+is
+
+found
+
+that
+
+(1005). Q.E.I.
+Corollary 1.
+1034. If the initial speed at A is put equal to b and the perpendicular to the tangent at A sent from C is equal to h, then in the case of zero resistance or in a vacuum, these equations are produced:
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 648
+
+Corollary 2.
+ 1035. Therefore in a medium with resistance, if Rp2ds is thus taken, as it vanishes with
+the arc AM, this becomes
+
+Corollary 3. [p.441]
+1036. If the body in a vacuum is moving along the curve AM with the same initial speed
+at A, and if the speed that the body has at M is said to be u , and the centripetal force at M is equal to V, then there arises :
+
+Whereby we have :
+
+Corollary 4.
+1037. Therefore since in this problem, in which the curve AM and the initial speed at A is given, the centripetal force is truly sought, now it is as the solution in the preceding chapter, and from the same solution likewise this problem is solved. For with
+ Rp2ds found, at once the difference of the centripetal forces in a vacuum and in the
+resisting medium becomes known, and thus the centripetal force in the resisting medium itself.
+Example 1.
+1038. If the curve AM is a circle of radius a having its centre at C and the same resistance everywhere R equal to a constant , then y = p = a and h = a.Whereby there is found :
+
+Therefore the speed is always decreasing and Cleary vanishes with the arc described
+
+equal to
+
+b 
+
+,
+
+in
+
+which
+
+place
+
+also
+
+the
+
+centripetal
+
+force
+
+goes
+
+to
+
+zero.
+
+Moreover
+
+this
+
+centripetal force is everywhere as the square of the speed. [p.442]Besides the time, in
+
+which the arc AM is traversed, is equal to
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Six (part c).
+
+Translated and annotated by Ian Bruce.
+
+and the time in which the body is returned to rest is equal to
+
+2b 
+
+.
+
+page 649
+
+Example 2.
+
+1039. Let the curve AMC (Fig. 92) be a logarithmic spiral, the centre of which is C, and
+
+the resistance is as some power of the distance CM, truly
+
+R=
+
+yn fn
+
+. Hence we have
+
+p = y and with
+
+
+
+=
+
+(1-2 )
+
+ds
+
+=
+
+-
+
+dy 
+
+.
+
+Therefore with AC = a, we have h = a . Therefore the equation
+
+[in this prop. above] becomes :
+
+and hence
+
+And In which case, when n = -3 , for which the integral which depends on logarithms, is And
+
+Corollary 5.
+1040. If the initial speed impressed on the body at A is such that
+then also everywhere
+Therefore in this case the centripetal force P is to the resistance R as 2 to ( n + 3 ) , i. e. in the given ratio.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+Corollary 6. [p.443]
+1041. In the same case we have :
+and
+
+page 650
+
+Therefore the resistance is in the
+
+2n n+1
+
+-
+
+multiple
+
+ratio
+
+of
+
+the
+
+speeds
+
+with
+
+the
+
+medium
+
+present
+
+being
+
+uniform,
+
+clearly
+
+the
+
+exponent
+
+of
+
+this
+
+is
+
+(
+
+f n+3 )
+
+.
+
+Corollary 7.
+
+1042. If n = 1, then the resistance is in the ratio of the speeds and the exponent of the
+
+medium is
+
+f 4
+
+. Therefore the body can describe a logarithmic spiral in this medium, if
+
+the centripetal force is in proportion to the distance, truly equal to
+
+y 2f
+
+, and if initially it
+
+is projected from A with the speed a . Besides in any medium with a uniform
+2 f
+
+resistance, a spiral can be described by the body, except in the case in which the resistance is proportional to the square of the speed.
+
+Scholium. [p.444]
+1043. Centripetal force and resistance of such a kind may be required in order that the body moves in a logarithmic spiral, now to be cited more often by Newton and Bernoulli set out in the Princip. Phil. and in the Act. Lips. 1713. In the following therefore, we offer more examples concerning this.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 651
+
+PROPOSITION 124.
+
+PROBLEM. 1044. If the resistance is proportional to some power of the speed and the exponent at particular places is given, the centripetal force arising is to be found in order that the body moves on the given curve AM (Fig.91).
+
+SOLUTION.
+
+With CM = y, CT = p, Mm = ds, remaining as before, with the speed at M equal to
+
+v
+
+and with
+
+the
+
+exponent
+
+of
+
+the resistance
+
+equal
+
+to
+
+q
+
+, let
+
+the
+
+resistance
+
+R
+
+=
+
+vm qm
+
+and the
+
+centripetal force equal to P. With these put in place (1005) :
+
+(1007). On integrating, this equation gives :
+
+Truly in the case when m = 1 , it is given by [p.445]
+
+Moreover from finding v likewise P becomes known from the equation
+
+P=
+
+2vdp pdy
+
+.
+
+Q.E.I.
+
+Corollary 1.
+1043. If the speed, by which the body is projected at A, corresponds to the altitude b, and the perpendicular from C sent to the tangent at A is equal to h. And
+
+is thus taken, in order that it vanishes by making s = 0 or M is incident on A ; and thus with the integral put equal to S. Therefore with the constant added, it becomes :
+Now make S = 0, then p = h and v = b and thus C = b1-mh2(1-m ) . Hence with the constant C determined, we have :
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 652
+
+Corollary 2.
+
+ 1046. In the case m = 1, which requires a special integration, if
+
+ds q
+
+is thus taken in order
+
+that it vanishes on making s = 0, then it becomes :
+
+In a vacuum it produces
+
+[p.445] Hence the centripetal force in a vacuum to the centripetal force in this medium
+
+with
+
+resistance
+
+is
+
+as
+
+1
+
+to
+
+e-
+
+ds q
+
+.
+
+Corollary 3.
+1047. Moreover with m denoting some number other than one,
+
+From which is produced
+
+In a vacuum the centripetal force equal to
+
+2bh2dp p3dy
+
+is produced; which if it is said to be
+
+equal to V, gives the ratio
+
+And hence
+
+Corollary 4.
+
+1048. Whereby if the centripetal force is found, which produces the given curve AM in a
+
+vacuum, from this with the help of this ratio the centripetal force can be found for any
+
+ resistance present, if the value of this integral is determined
+
+(
+
+m-1 ) p2(1-m )ds qm
+
+.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 653
+
+Example 1.
+1049. If the given curve is a circle having the centre C, of which the radius MC = a, y = p = a and h = a. [p.447] Besides let the medium be uniform or q = c; then the integral becomes :
+Therefore we have :
+or
+
+Thus there arises :
+
+If
+
+the
+
+resistance
+
+is
+
+in
+
+the
+
+simple
+
+ratio
+
+to
+
+the
+
+speed,
+
+then
+
+m
+
+=
+
+1 2
+
+and
+
+then the speed itself is given by 2 bc -s and the time, in which the body completes the arc
+2c
+AM , is given by :
+
+Hence an infinite time is needed , before the body completes the arc equal to 2 bc ; in which when it arrives, all the motion has gone and likewise the centripetal force has vanished. If the resistance is in proportion to the square of the speed, then
+
+Moreover the motion of the body in the periphery of the circle clearly agrees with the rectilinear motion, in which the motion of the body has been lost by the impressed resistance. For the centripetal force, which is always normal, clearly does not affect the speed, but yet turns the body in a circle.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 654
+
+Example 2. [p.448]
+
+1050. The body descends from A towards the centre C in a logarithmic spiral AM (Fig.
+
+92) and the exponent of the resistance q is put as any power of the distance MC = y, thus
+
+in order that
+
+q=
+
+y n+1 fn
+
+. From the nature of the logarithmic spiral it follows that
+
+p = y and
+
+with AC = a then h = a and by putting  = (1 -  2 ) there becomes
+
+Hence there arises
+
+Besides let then
+
+Therefore the centripetal force varies inversely as the power of the distance, the exponent
+
+of
+
+which
+
+is
+
+mn 1-m
+
+.
+
+Corollary 5.
+1051. If the centripetal force is equal to the constant
+
+the body is able to move in a logarithmic spiral, of which the angles of intersection of the radii with the cosine on the curve is , with the exponent of the resistance being equal to y [p.449] and with the initial speed corresponding to the height
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 655
+
+Corollary 6.
+1052. If the centripetal force is as the distance y raised to the power k, then
+hence
+
+Therefore the exponent of the resistance must become
+
+Corollary 7.
+1053. Besides the time in which the arc AM is completed is equal to :
+
+Therefore the time, in which the body descends as far as the centre C, is finite if k < 1 or k > 1.
+
+Corollary 8.
+
+1054. Let the resistance be proportional to the square of the speed, and the exponent of
+
+the resistance be equal to
+
+y 
+
+;
+
+then
+
+[p.450]
+
+Hence it is found that
+
+Therefore in a medium with this resistance a body can describe some kind of logarithmic
+
+spiral, if the centripetal force is equal to
+
+2by i -2 ai-2
+
+and the exponent of resistance is equal to
+
+y i
+
+.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 656
+
+Scholion.
+
+1055. Therefore all the cases are contained in this example and adjoining corollaries, in
+
+which the body is able to describe a logarithmic spiral in a medium with some kind of
+
+resistance, acted upon by a centripetal force in proportion to some power of the distance.
+
+Where the case arises, in which the resistance is proportional to the square of the speed
+
+and the exponent varies as the distances from the centre, then in this special case it occurs
+
+that immediately the centripetal force can be given proportional to some power of the
+
+distance, which in other hypotheses of resistance are finally obtained after the
+
+determination of the initial speed in a certain way. Moreover in that hypothesis of the
+
+resistance,
+
+with
+
+the
+
+exponent
+
+of
+
+the
+
+resistance
+
+being
+
+y 
+
+,
+
+if
+
+the
+
+body
+
+is
+
+projected
+
+at
+
+A
+
+with
+
+some speed b along a direction at an angle of inclination to AC, of which the cosine is
+
+, and the centripetal force at A is equal to
+
+2b a
+
+,
+
+then
+
+the
+
+body
+
+always
+
+moves
+
+in
+
+a
+
+logarithmic spiral, [p.451] if in addition the centripetal force varies as yi-3 ; moreover i
+
+is
+
+given,
+
+since i
+
+=
+
+ 
+
+.
+
+Therefore for
+
+these,
+
+in
+
+which the
+
+motion
+
+observed
+
+is a logarithmic
+
+spiral, the cases have been explained well enough.
+
+PROPOSITION 125.
+PROBLEM. 1056. If the curve AM is given (Fig.91) which the curve describes, and the centripetal force acts towards the centre C, to find the requisite resistance at the individual points M and the speed of the body.
+SOLUTION. By putting CM = y, CT = p, Mm = ds, let the centripetal force at M be equal to P. Then the resistance at M is put equal to R and the height corresponding to the speed at M is equal to v. With these in place we have (1005)
+
+(1007). On account of the given curve and centripetal force, from that equation, it is
+
+found
+
+that
+
+v
+
+=
+
+Ppdy 2dp
+
+and
+
+by
+
+differentiating
+
+with
+
+dy
+
+placed
+
+as
+
+constant,
+
+it
+
+becomes
+
+In which place with the values v and dv substituted, there results
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 657
+
+If the resistance is in proportion to the square of the speed, the exponent of this is taken
+
+as
+
+q,
+
+then
+
+R
+
+=
+
+v q
+
+et q
+
+=
+
+v R
+
+.
+
+Whereby
+
+it is found
+
+that
+
+:
+
+[p.452] Hence from the given curve or the equation between y and p, we have found the centripetal force, as well as the resistance R and the speed, at individual points. Q.E.I.
+Corollary 1.
+1057. The resistance can be expressed in another way :
+
+From which it is evident, if
+
+P varies as
+
+dp p3dy
+
+,
+
+that
+
+the
+
+resistance
+
+vanishes.
+
+For
+
+indeed
+
+in
+
+this case the centripetal force is sufficient to produce the given curve.
+
+Corollary 2.
+1058. With the initial speed at A put equal to b and with the perpendicular sent from C to the tangent at A equal to h let the centripetal force be equal to V, which can be produced in the vacuum in order that the body moves along this curve; then it is given by
+
+(591). Hence on this account
+
+Corollary 3.
+
+1059. If the body moves in a vacuum in this curve acted on by the force V , the speed of
+
+this
+
+at
+
+M
+
+corresponds
+
+to
+
+the
+
+height
+
+u
+
+and
+
+it
+
+becomes
+
+u
+
+=
+
+bh2 p2
+
+.
+
+Thus
+
+we
+
+have
+
+this
+
+ratio
+
+u : v = V : P. And in general this theorem is obtained : the speeds of the body at the same
+
+place M are in the square root ratio of the centripetal forces [in the vacuum and with
+
+resistance]. [p.453]
+
+Corollary 4.
+1060. If the centripetal force is constant or P = g, then we have
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 658
+
+Example.
+1061. The body descends in an hyperbolic spiral AM, the nature of this is expressed by this equation :
+
+and if the centripetal force is raised by some power of the distance from the centre of the
+
+spiral C, evidently
+
+P=
+
+yn fn
+
+. There is the equation :
+
+Thus there is produced :
+
+and from these we find :
+
+Therefore if medium resists in the square ratio of the speed, then the exponent of the
+
+resistance is equal to
+
+(
+
+a2 + y2 n+3
+
+)
+
+.
+
+But
+
+if
+
+the
+
+medium
+
+resists
+
+in
+
+the
+
+simple
+
+ratio
+
+of
+
+the
+
+speed, and the exponent of the resistance is q, then we have
+
+Therefore in this hypothesis of the resistance the medium is uniform if n = -1;that is, if
+
+the centripetal force is in the inverse ratio of the distances. For indeed it becomes
+
+q
+
+=
+
+a2 f
+
+.
+
+But
+
+if
+
+the
+
+centripetal
+
+force
+
+is
+
+inversely
+
+as
+
+the
+
+square
+
+of
+
+the
+
+distances,
+
+then
+
+the
+
+exponent of the resistance becomes equal to [p.454]
+
+2a2 y f2
+
+,
+
+or
+
+it
+
+is
+
+in
+
+proportion
+
+to
+
+the
+
+distances themselves from the centre.
+
+Scholium.
+1062. Just as here the problem ought to follow our custom, in which the centripetal force as well as the resistance are sought from the given curve and the speeds at individual places; but since the solution of this is much easier and from the rules given above (1007), it immediately becomes soluble and besides from that, nothing noteworthy can be deduced, and so I pass over this; moreover it is found that
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Six (part c).
+
+Translated and annotated by Ian Bruce.
+
+page 659
+
+which formulae solve the problem. Truly I add in place of this problem another related
+
+problem, in which besides the curve the angular motion around the centre of force is
+
+given and so the centripetal force as well as the resistance is sought.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 660
+
+CAPUT SEXTUM
+DE MOTU CURVILINEO PUNCTI LIBERI IN MEDIO RESISTENTE
+[p. 428] .
+PROPOSITIO 120.
+
+PROBLEMA. 1005. Attrahatur corpus in medio quocunque resistente perpetuo ad punctum fixum C (Fig.91) vi quacuncue; determinare curvam AM, quam corpus utcunque proiectum describit.
+
+SOLUTIO. Cum corpus est in M, ponatur eius distantia a centro MC = y, elementum Mm = ds; celeritas in M sit debita altitudini v. Ducatur mC et ex M in eam normalis Mr, erit mr = dy. Porro ducta tangente MT sit ex C perpendiculum in eam
+
+demissum CT = p et radius osculi in M = r, qui erit =
+
+ydy dp
+
+.
+
+Iam sit vis, qua corpus in M ad C trahitur, = P et vis resistentiae in M = R. Ex potentia autem P resoluta prodit vis
+
+normalis =
+
+Pp y
+
+et tangentialis =
+
+-
+
+Pdy ds
+
+;
+
+retardabit
+
+enim
+
+corporis motum. Ex vi autem normali habebitur haec aequatio (552)
+
+Cum
+
+praeterea
+
+vis
+
+tangentialis
+
+resistentia
+
+minuta
+
+sit
+
+-
+
+Pdy ds
+
+-
+
+R,
+
+erit
+
+(cit.). Ex quibus aequationibus coniunctis tum celeritas corporis in singulis locis tum
+ipsa curva AM cognoscitur. Q.E.I.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+Corollarium 1.
+1006. Ob similia triangula Mmr, CMT erit
+
+page 661
+
+Quo substituto prodibit
+
+Eliminata igitur v obtinebitur aequatio inter y et p, quae sufficit ad curvam determinandam. [p. 429]
+
+Corollarium 2.
+
+1007. Quia est
+
+P=
+
+2vdp pdy
+
+, substituatur hic valor in altera aequatione. Quo facto prodibit
+
+Ex qua aequatione, si R fuerit potentia ipsius v, poterit valor ipsius v inveniri.
+
+Corollarium 3.
+
+1008. Sit resistentia quadratis celeritatum proportionalis et medium uniforme, ita ut sit
+
+R= v
+
+. Hinc igitur erit
+
+dv + 2vdp = - vds , quae aequatio integrata dat
+
+vp2
+
+=
+
+bh
+
+2e-
+
+s c
+
+,
+
+ubi
+
+c
+
+p
+
+c
+
+b est altitudo debita celeritati in initio A et h est perpendiculum ex C in tangentem in A
+
+demissum.
+
+Corollarium 4.
+
+1009. Cum igitur in hac resistentiae hypothesi sit
+
+v=
+
+bh 2
+s
+
+, erit vis
+
+p2ec
+
+Quando igitur P in y datur, haec aequatio erit aequatio [p.430] quaesita pro curva AM; celeritas autem in quovis loco M est reciproce ut perpendiculum in tangentem et ut numerus, cuius logarithmus est via descripta per 2c divisa, coniunctim.
+
+Corollarium 5.
+
+1010. In hac igitur resistentiae hypothesi corpus eandem curvam describet sollicitatum a
+
+vi centripeta
+
+V
+s
+
+, quam describit in vacuo sollicitatum a vi V. In utroque enim casu
+
+ec
+
+aequatio pro curva quaesita erit haec Vdy =
+
+2bh2dp p3
+
+.
+
+Quare, quo corpus in hoc medio
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Six (part c).
+
+Translated and annotated by Ian Bruce.
+
+page 662
+
+resistente eandem quam in vacuo curvam describat, vis centripeta perpetuo debet
+
+decrescere in ratione, cuius logarithmus est spatium descriptum ad c applicatum.
+
+Corollarium 6.
+
+1011. Sit resistentia potestati exponentis 2m celeritatum proportionalis et medium
+
+uniforme,
+
+ita
+
+ut
+
+sit
+
+R
+
+=
+
+vm cm
+
+.
+
+Erit
+
+igitur
+
+dv +
+
+2vdp p
+
+=
+
+-
+
+v m ds cm
+
+.
+
+Quae
+
+integrata
+
+dat
+
+Corollarium 7. [p.431]
+
+1012.
+
+Sit
+
+resistentia
+
+celeritatibus
+
+proportionalis
+
+seu
+
+m=
+
+1 2
+
+,
+
+erit
+
+ Exprimit autem pds duplam aream ACM, quae nobis sit S. Et detracta constante erit
+habentibus b et h eosdem quos ante coroll. 3 valores.
+Corollarium 8.
+1013. In his igitur resistentiae hypothesi celeritas corporis evanescit, quando corpus sectorem seu aream absolverit aequalem ipsi h bc . Hoc igitur spatium tantum est, ut corpus nunquam possit aream ipsi aequalem abscindere. Atque celeritas corporis in M est directe ut hoc spatium area iam absoluta minutum et reciproce ut perpendiculum in tangentem.
+Corollarium 9.
+1014. In eadem resistentiae hypothesi est
+
+Vis igitur centripeta erit =
+Deinde vero tempus, quo arcus AM absolvitur, est =
+Tempore ergo infinito opus est, antequam corpus aream abscindat = h bc seu antequam omnem motum amittat.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 663
+
+Scholion. [p.432]
+1015. Hae igitur sunt generales leges, quas corpus in medio resistente a vi centripeta quacunque sollicitatum observat. Eas autem pro resistentia ipsis celeritatibus et celeritatum quadratis proportioni fusius deduxi, tum quia licuit, quod in aliis hypothesibus fieri non potuisset, tum quia in sequentibus has duas resistentias, ut hactenus fecimus, potissimum sumus consideraturi. Nunc autem datas sumemus vires centipetas, ut quae sint distantiarum potestatibus proportionales, et investigabimus, quales differentias resistentia curvis descriptis inducat. Deinde iuxta institutum in praecedentibus adhibitum curvam datam ponemus una cum vel vi centripeta vel resistentia vel celeritate in reliqua inquiremus.
+
+PROPOSITIO 121.
+
+PROBLEMA. 1016. Si vis centripeta fuerit distantiarum potestati cuicunque a centro proportionalis corpusque moveatur in medio resistente uniformi, quod resistat in duplicata celeritatum ratione, determinare curvam AM (Fig.91), quam corpus describet, et motum corporis in ea.
+
+SOLUTIO. [p.433]
+
+Manentibus ut ante CM = y, CT = p, Mm = ds, celeritate in M debita altitudini v erit
+
+P=
+
+yn fn
+
+et R =
+
+v c
+
+.
+
+Hinc habebitur pro curva quaesita haec aequatio
+
+Ex illa autem aequatione non multum ad curvam cognoscendum proficitur ob
+s
+ec involutum; quare sumtis logarithmis erit
+atque
+sumto dy constante. Quia vero est ds = ydy , erit
+( y2- p2 )
+Quae est aequatio inter y et p pro curva quaesita. Q.E.I.
+Corollarium 1.
+1017. Quaenam proditura sit aequatio, si vis centripeta fuerit vel distantiis vel reciproce quadratis distantiarum proportionalis, ex aequatione inventa facile apparet, si modo 1 vel
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+­ 2 loco n substituatur. Huiusmodi autem substitutiones omnes nihil iuvant ad aequationem generalem tractabiliorem efficiendam.
+
+page 664
+
+Corollarium 2.
+
+1018. Si medium non positum fuisset uniforme, sed eius exponens variabilis q, loco
+
+s
+ec prodisset
+
+e
+
+ds q
+
+(873) [p.434] atque pro curva descripta haec aequatio
+
+Ubi, si q distantiae y fiat proportionalis, aequatio ad differentialem primi gradus poterit
+
+reduci.
+
+Corollarium 2.
+
+1019.
+
+Sit
+
+igitur
+
+exponens
+
+resistentiae
+
+q
+
+=
+
+y 
+
+,
+
+atque
+
+curva
+
+descripta
+
+sequente
+
+aequatione
+
+exprimetur
+
+In qua cum in singulis terminis dimensionum numerus evanescat, reductio ad differentialem primi gradus locum habet.
+Corollarium 3.
+1020. Hoc autem modo reperietur aequatio differentialis primi gradus. Ponatur
+
+erit
+
+Quare
+
+erit
+
+ddt
+
+=
+
+- dzdt
+z
+
+-
+
+sdt2 .
+
+Porro
+
+erit
+
+et
+
+Ex quibus reperietur
+
+Corollarium 5.
+1021. Si vis centripta reciproce proportionalis ponatur cubis distantiarum, erit n = -3 . [p.435] Curva ergo descripta continebitur hac aequatione
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 665
+
+Corollarium 6.
+1022. Si vis centripeta fuerit reciproce proportionalis quadratis distantiarum, erit n = -2 . Atque curva descripta sequente exprimetur aequatione
+Eadem modo, si vis centripeta ipsis distantiis proportionalis seu n = 1 posita esset, prodisset
+Corollarium 7.
+1023. Omnes hae aequationes curvas in vacuo descriptas dabunt, si ponatur  = 0 . Hoc enim casu fit resistentiae exponens infinite magnus atque ideo resistentia infinita parva. Habebitur autem haec aequatio
+Scholion.
+1024. Quando igitur exponens medii resistentis, quod in duplicata celeritatum ratione resistere ponitur, proportionalis est distantiis a centro, aequatio pro curva descripta ad differentialem primi gradus reduci potest; ad quod in aliis exponentis resistentiae q hypothesibus vix fieri potest. Intelligo autem tales ipsius q valores, qui a solis distantiis y pendent, quippe quae positio sola admitti potest ratione. [p.436] Incongruum enim esset q per p, i. e. per ipsam curvam, quae adhuc est incognita, dare. Interim tamen aequatio differentio-differentialis semper ad differentialem primi gradus potest reduci, quoties q fuerit functio unius dimensionis ipsarum y et p coniunctim. Sed cum hae aequationes, tametsi sunt differentiales primi gradus, neque integrari neque separari queant, nihil praestant utilitatis. Hanc ob rem resistentiam, quae celeritatibus ipsis est proportionalis, considerabimus cum vi centipeta cuicunque distantiarum potestati proportionali coniunctam.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 666
+
+PROPOSITIO 122.
+
+PROBLEMA. 1025. In medio uniformi, quod resistit in simplici celeritatum ratione, moveatur corpus attractum ad centrum C (Fig.91) vi potestati cuicunque distantiarum proportionali; determinare curvam AM, quam corpus describet.
+
+SOLUTIO.
+
+Positis CM = y, CT = p, Mm = ds, celeritate in M debita altitudini v et exponente
+
+resistantiae = q sit vis centripeta =
+
+yn fn
+
+et
+
+His praemissis erit
+
+ area
+
+ACM
+
+=
+
+1 2
+
+pds = S.
+
+(1012 et 1014), [p.437] ubi b est altitudo celeritati in A debita et h perpendiculum ex C in tangentem in A demissum. Quo eliminetur S, aequationi inventae haec inducatur forma
+
+Ex qua differentiando posito dp constante oritur
+
+seu
+Quae aequatio naturam curvae descriptae AM exprimit. Hac vero cognita statim innotescit celeritas corporis ex area curvae et perpendicularo p. Q.E.I.
+Corollarium 1.
+1026. Si loco dp assumtum fuisset elementum dy constans, prodisset ista aequatio
+
+Ex quibus aequationibus autem, quia ad differentiales primi gradus reduci nequeunt, nihil potest concludi.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 667
+
+Corollarium 2.
+1027. Reductio supra (1020) adhibita semper locum habet, si in aequatione differerentiodifferentiali [p.438] indeterminatae p et y eundem demensionum numerum constituunt. Hoc autem accidit, si n = 1, i. e. si vis centripeta fuerit ipsis distantiis a centro proportionalis. Erit tum enim pro curva quaesita
+
+posito dy constante.
+Corollarium 3.
+1028. Hac igitur hypothesi ponatur
+unde fit
+His substitutis habebitur
+
+Seu posito tz = u prodibit
+Corollarium 4.
+3
+1029. Aequatio haec integrationem admittit, si dividatur per tt(1 + u )2 u ; prodibit enim
+Cuius integralis est seu
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+Corollarium 5. [p.439]
+1030. Est vero vi substitutionum factarum
+Quamobrem pro curva quaesita erit
+
+page 668
+
+Corollarium 6.
+1031. Quo autem differentialia fiant rationalia, est
+restituto p = yt. Habebitur ergo sequens aequatio, in qua indeterminatae y et t sunt a se invicem separatae,
+Ex qua aequatione curva construi poterit.
+Scholion.
+1032. Huic aequationi ulterius reducendae non immoror, etsi suspicor eam denuo posse integrari. Hoc quidem certum, si fuerit C 2c = - f ; quo casu integrale tam fit compositum, ut huc transferre noluerim. Ex quo intelligi potest integrale generaliter sumtum maxime fore perplexum, ita ut vix quicquam ad motum cognoscendum inde deduci posset. Quamobrem his missis ad inversa problemata pergo.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 669
+
+PROPOSITIO 123. [p.440]
+
+PROBLEMA. 1033. Si data fuerit curva AM (Fig.91), quam corpus describit, et resistentia in singulis locis M, determinare vim centripetam ad centrum C perpetuo directam et celeritatem in singulis locis.
+SOLUTIO. Ponantur ut ante CM = y, Mm = ds, CT = p, altitudo debita celeritati in M = v, resistentia = R et vis centripeta = P. His positis habebitur ista aequatio
+
+(1007), ex qua, cum curva AM et resistantia R dentur, invenietur v ex aequatione integrali
+
+ p2v = -
+
+Rp2ds
+
+,
+
+nempe
+
+v
+
+=
+
+-
+
+ Rp2ds p2
+
+.
+
+Inventa
+
+autem
+
+v
+
+reperietur
+
+(1005). Q.E.I.
+Corollarium 1.
+1034. Si celeritas in initio A ponatur b et perpendiculum in tangentem in A ex C dimissum = h, in casu nullius resistentiae seu in vacuo prodissent hae aequationes
+
+Corollarium 2.
+ 1035. In medio igitur resistente, si Rp2ds ita capiatur, ut evanescat evanescente arcu
+AM, erit
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 670
+
+Corollarium 3. [p.441]
+1036. Si corpus in vacuo moveatur in curva AM eadem celeritate initiali in A et si dicatur
+celeritas, quam in M habiturum esset, u et vis centipeta in M = V, tum foret
+
+Quare erit
+
+Corollarium 4.
+1037. Cum igitur hoc problema, quo curva AM et celeritas initialis in A datur, vis centripeta vero quaeritur, iam sit solutum in capite praecedente, ex eadem solutione simul
+ hoc problema solvitur. Inventa enim Rp2ds statim innotescit differentia virium
+centripetarum in vacuo et medio resistente atque ideo ipsa vis centripeta in media resistente.
+Exemplum 1.
+1038. Si curva AM fuerit circulus radii a centrum in C habens et resistentia ubique eadem seu R = constanti , erit y = p = a et h = a.Quare habebitur
+
+Celeritas ergo perpetuo descescit et prorsus evanescit descripto arcu =
+
+b 
+
+,
+
+quo
+
+loco
+
+etiam
+
+vis centripetam in nihilum abit. Est autem vis centripeta ubique ut quadratum celeritatis.
+
+[p.442]Tempus praeterae, quo arcus AM percurritur, est
+
+et tempus, quo corpus ad quietem redigitur, est
+
+2b 
+
+.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 671
+
+Exemplum 2.
+
+1039. Sit curva AMC (Fig. 92) logarithmica spiralis, cuius centrum in C, et resistentia sit
+
+potestas quaecunque distantiae CM, nempe
+
+R=
+
+yn fn
+
+. Erit ergo
+
+p = y et posito  = (1 -  2 )
+
+ds
+
+=
+
+-
+
+dy 
+
+.
+
+Ponatur vero AC = a, erit h = a . Fiet igitur
+
+hincque
+
+Atque
+In casu vero, quo n = -3 , qui a logarithmis pendet, est Atque
+Corollarium 5.
+1040. Si tanta corpori in A imprimatur celeritas initialis, ut sit
+
+erit etiam ubique
+Hoc igitur casu vis centipeta P erit ad resistentiam R ut 2 ad ( n + 3 ) , i. e. in data ratione.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+1041. Eodem hoc casu est
+
+Corollarium 6. [p.443]
+
+atque
+
+page 672
+
+Resistentia igitur erit in
+
+2n n+1
+
+-
+
+plicata
+
+ratione
+
+celeritatum
+
+medio
+
+existente
+
+uniformi,
+
+quippe cuius exponens est
+
+f ( n+3 )
+
+.
+
+Corollarium 7.
+
+1042. Si n = 1, erit resistentia in ratione celeritatum et medii exponens
+
+f 4
+
+. In hoc igitur
+
+medio corpus spiralem logarithmicam describere poterit, si vis contripeta fuerit distantiis
+
+proportionalis, nempe =
+
+y 2f
+
+, et si initio in A proiiciatur celeritate
+
+2
+
+a f
+
+. In quocunque
+
+praeterae medio resistente uniformi spiralis data poterit describi a corpore, excepto casu, quo resistentia est quadratis celeritatum proportionalis.
+
+Scholion. [p.444]
+1043. Qualis vis centripeta et qualis resistentia requiratur ad id, ut corpus in spirali logarithmica moveatur, Viri iam saepius citati Neutonus et Bernoullius in Princip. Phil. et Act. Lips. 1713 exposuere. In sequentibus deinde exemplis plura hac de re afferemus.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 673
+
+PROPOSITIO 124.
+
+PROBLEMA. 1044. Si resistentia fuerit cuicunque celeritatum potestati proportionalis eiusque exponens in singulis locis detur, invenire vim centipetam, quae faciat, ut corpus in data curva AM (Fig.91) moveatur.
+
+SOLUTIO.
+
+Manentibus ut ante CM = y, CT = p, Mm = ds, celeritate in M = v et exponente
+
+resistentiae
+
+=
+
+q
+
+sit
+
+resistentia
+
+R
+
+=
+
+vm qm
+
+et vis centripeta = P.
+
+His positis erit (1005)
+
+(1007). Haec aequatio integrata dat
+
+Casu vero, quo m = 1 , est [p.445]
+
+Inventa autem v simul innotescit P ex aequatione
+
+P=
+
+2vdp pdy
+
+.
+
+Q.E.I.
+
+Corollarium 1.
+1043. Si celeritas, qua corpus in A proiicitur, debita altitudini b et perpendiculum ex C in tangentem in A demissum = h. Atque
+
+ita sumatur, ut evanescat facto s = 0 seu M in A incidente; hocque integrale ponatur = S. Addita igitur constante erit
+
+Fiat nunc S = 0, erit p = h et v = b ideoque C = b1-mh2(1-m ) . Determinata ergo constante C habibitur
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 674
+
+Corollarium 2.
+
+ 1046. In casu m = 1, qui peculiarem integrationem requirit, si
+
+ds q
+
+ita sumatur, ut
+
+evanescat facto s = 0, erit
+
+In vacuo prodisset
+
+[p.445] Erit ergo vis centripeta in vacuo ad vim centipetam in hoc medio resistante ut 1
+
+ad
+
+e-
+
+ds q
+
+.
+
+Corollarium 3.
+1047. Denotante autem m quemcunque alium numerum praeter 1 est
+
+Ex quo prodit
+
+In vacuo vero prodiisset vis centipeta =
+
+2bh2dp p3dy
+
+;
+
+quae
+
+si
+
+dicatur
+
+=
+
+V,
+
+erit
+
+Atque hinc
+
+Corollarium 4.
+
+1048. Quare si reperta fuerit vis centripeta, quae in vacuo datam curvam AM producit, ex
+
+ea ope huius analogiae invenietur vis centipeta, quae idem quocuncue resistente
+
+ praestabit, si modo determinetur valor ipsius
+
+(
+
+m-1 ) p2( 1-m )ds qm
+
+.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 675
+
+Exemplum 1.
+1049. Si curva data fuerit circulis centrum in C habens, cuius radius MC = a, erit y = p = a et h = a. [p.447] Sit praeterea medium uniforme seu q = c; erit
+
+Habibitur igitur
+
+seu
+
+Unde oritur
+
+Si
+
+resistantia
+
+fuerit
+
+in
+
+simplici
+
+ratione
+
+celeritatum,
+
+erit
+
+m
+
+=
+
+1 2
+
+et
+
+unde ipsa celeritas erit = 2 bc -s et tempus, quo corpus arcum AM absolvit,
+2c
+
+Opus ergo est tempore infinito, antequam corpus arcum absolvat = 2 bc ; quo cum pervenerit, omnen motum amittit et simul vis centipeta evanescit. Si resistantia fuerit quadratis celeritatum proportionalis, erit
+
+Ceterum motus corporis in peripheria circuli prorsus congruit cum motu rectilineo, quo corpus motum impressum a resistentia amittit. Vis enim centipeta, quia semper est normalis, celeritatem prorsus non afficit, sed tantum motum in circulum inflectit.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 676
+
+Exemplum 2. [p.448]
+
+1050. Descendat corpus ex A versus centrum C in logarithmica spirali AM (Fig. 92)
+
+sitque exponens resistentiae q ut dignitas quaecunque distantiae MC = y, ita ut sit
+
+q=
+
+y n+1 fn
+
+. Ex natura spiralis logarithmicae est
+
+p = y atque facta AC = a erit
+
+h = a et
+
+posito  = (1 -  2 ) erit
+
+Hinc erit
+
+Sit praeterea erit
+
+Vis
+
+centripeta
+
+igitur
+
+erit
+
+reciproce
+
+ut
+
+potestas
+
+distantiae,
+
+cuius
+
+exponens
+
+est
+
+mn 1-m
+
+.
+
+Corollarium 5.
+1051. Si vis centipeta est constans =
+
+corpus in spirali logarithmica, cuius anguli intersectionis radiorum cum curva cosinus est , moveri poterit, existente exponente resistentiae = y [p.449] et celeritate initiali debita altitudini
+
+Corollarium 6.
+1052. Si vis centripeta fuerit ut distantia y elevata ad k, erit
+
+unde
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+Resistantiae ergo exponens debet esse =
+
+page 677
+
+Corollarium 7.
+1053. Tempus praeterea, quo arcus AM absolvitur, est
+
+Tempus igitur, quo corpus in centrum C usque descendit, est finitum, si k < 1 vel k > 1.
+
+Corollarium 8.
+
+1054.
+
+Sit
+
+resistentia
+
+quadratis
+
+celeritatum
+
+proportionalis
+
+et
+
+exponens
+
+resistentiae
+
+=
+
+y 
+
+;
+
+erit [p.450]
+
+Hinc erit
+
+In medio igitur hoc resistente corpus quamcunque logarithmicam spiralem describere
+
+poterit, si fuerit vis centripeta =
+
+2by i -2 ai-2
+
+et exponens resistentiae =
+
+y i
+
+.
+
+Scholion.
+
+1055. In hoc igitur exemplo et corollariis annexis omnes continentur casus, quibus corpus
+
+in medio quocunque resistente logarithmicam spiralem describere potest, sollicitatum a vi
+
+centripeta potestati cuicunque distantiarum proportinali. Ubi casus, quo resistantia
+
+proportionalis est quadratis celeritatum et eius exponens distantiis a centro, hoc habet
+
+peculiare, ut statim det vim centripetam potestati distantiarum proportionalem, quod in
+
+aliis resestentiae hypothesibus demum post certo modo determinatam celeritatem
+
+initialem obtinebatur. In illa autem resistentiae hypothesi, existente exponente resistentiae
+
+y 
+
+,
+
+si
+
+corpus
+
+in
+
+A
+
+celeritate
+
+quacunque
+
+b secundum directionem, cuius cum AC
+
+inclinationis cosinus est , proiiciatur et vis centripeta in A fuerit =
+
+2b a
+
+, corpus semper in
+
+logarithmica spirali movebitur, [p.451] si praeterea vis centripeta fuerit ut yi-3 ; datur
+
+autem
+
+i,
+
+quia
+
+est
+
+i
+
+=
+
+ 
+
+.
+
+In
+
+his
+
+igitur
+
+satis
+
+sunt
+
+exposita,
+
+quae
+
+motum
+
+in
+
+spirali
+
+logarithmica spectant.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+PROPOSITIO 125.
+
+page 678
+
+PROBLEMA. 1056. Si detur curva AM (Fig.91), quam corpus describit, et vis centripeta ad centrum C tendens, invenire resistentiam requisitam in singulis locis M et celeritatem corporis.
+SOLUTIO. Positis CM = y, CT = p, Mm = ds, sit vis centripeta in M = P. Deinde ponatur resistantia in M = R et altitudo debita celeritati in M = v. His positis erit (1005)
+
+(1007).
+
+Ob
+
+datam
+
+curvam
+
+et
+
+vim
+
+centripetam
+
+ex
+
+illa
+
+aequatione
+
+invenitur
+
+v
+
+=
+
+Ppdy 2dp
+
+et
+
+differentiando posito dy constante est
+
+Quibus loco v et dv valoribus substitutis erit
+
+Si resistentia fuerit quadratis celeritatum proportionalis, eius exponens ponatur q, erit
+
+R
+
+=
+
+v q
+
+et
+
+q
+
+=
+
+v R
+
+.
+
+Quare
+
+habebitur
+
+[p.452] Ex data ergo curva seu aequatione inter y et p et vi centripeta tam resistentiam R quam celeritatem in singulis locis determinavimus. Q.E.I.
+Corollarium 1.
+1057. Alio exprimendi modo erit resistantia
+
+Ex quo perspicitur, si fuerit P ut
+
+dp p3dy
+
+,
+
+evanescere
+
+resistentiam.
+
+Hoc
+
+enim
+
+casu
+
+vis
+
+centripeta sola sufficit ad curvam datam productendam.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Six (part c).
+Translated and annotated by Ian Bruce.
+
+page 679
+
+Corollarium 2.
+1058. Posita celeritate initiali in A = b et perpendiculo ex C in tangentem in A demisso = h sit vis centripeta, quae in vacuo faciat, ut corpus in hac curva moveatur, = V; erit
+
+(591). Hanc ob rem
+
+Corollarium 3.
+
+1059. Si corpus in hac curva in vacuo a vi V sollicitatum moveatur, sit eius celeritas in M
+
+debita
+
+altutidini
+
+u
+
+eritque
+
+u
+
+=
+
+bh2 p2
+
+.
+
+Unde
+
+hae
+
+habebitur
+
+analogia
+
+u
+
+:v
+
+=V
+
+:
+
+P.
+
+Atque
+
+generaliter hoc theorema obtinetur: celeritates corporis in eodem loco M sunt in
+
+subduplicata ratione virium centripetarum. [p.453]
+
+Corollarium 4.
+1060. Si vis centripeta fuerit constans seu P = g, erit
+
+Exemplum.
+1061. Descendat corpus in spirali hyperbolica AM, cuius natura hac aequatione exprimitur
+
+et si vis centripeta ut dignitas quaecunque a centro spiralis C, scilicet
+
+P=
+
+yn fn
+
+. Erit
+
+Unde prodit atque ex his
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Six (part c).
+
+Translated and annotated by Ian Bruce.
+
+page 680
+
+Si medium ergo resistit in duplicata celeritatum ratione, erit exponens resistentiae =
+
+(
+
+a2 + y2 n+3
+
+)
+
+.
+
+At
+
+si
+
+medium
+
+resistat
+
+in
+
+simplici
+
+ratione
+
+celeritatum
+
+et
+
+exponens
+
+resistentiae
+
+sit q, erit
+
+In hac igitur resistentiae hypothesi medium erit uniforme, si n = -1;hoc est, si vis
+
+centripeta
+
+est
+
+in
+
+reciproca
+
+ratione
+
+distantiarum.
+
+Fit
+
+enim
+
+q
+
+=
+
+a2 f
+
+.
+
+At
+
+si
+
+vis
+
+centripeta
+
+est
+
+reciproce ut quadratum distantiae, [p.454] fiet resistantiae exponens =
+
+2a2 y f2
+
+seu erit
+
+proportionalis ipsis a centro distantiis.
+
+Scholion.
+1062. Sequi hic deberet iuxta nostrum institutum problema, quo ex data curva et celeritate in singulis locis quaeruntur tam vis centripeta quam resistentia; sed cum huis solutio sit facillima et ex ipsis canonibus supra (1007) datis sponte fluat atque praeterae ex eo nihil notatu digni deduci queat, hic praetermitto, invenitur autem
+
+quae formulae problema solvunt. Adiccio vero loco huius problematis aliud affine, quo praeter curvam motus angularis circa centrum virium datur et tam vis centripeta quam vis resistentiae quaeruntur.
+
+

@@ -1,0 +1,2653 @@
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 448
+
+CHAPTER FIVE (Part d).
+CONCERNING THE CURVILINEAR MOTION OF FREE POINTS ACTED ON BY ABSOLUTE FORCES OF ANY KIND.
+.
+PROPOSITION 92. [p. 316]
+PROBLEM. 763. To find the centripetal forces acting towards two centres C and D (Fig. 69), which can be composed, in order that the body moves on a given curve AMB and with the speed given at individual points M.
+SOLUTION. 764. The body is moving from A through M to B and its speed at M corresponds to the height v; and putting CM = y, DM = z. Truly with the tangent TV drawn at that point, and with perpendiculars CT and DV sent from C and D , called CT = p and DV = q. Again the centripetal force, that attracts towards C is equal to P, and that which pulls towards D is equal to Q. Therefore the normal force arising from each is equal to
+and the tangential force accelerating the motion of the body is equal to
+for falling tangents as previously. Therefore with the radius of osculation at M equal to r and with the element of the curve equal to ds then [p. 317]
+(561) and
+(559). Truly we have :
+and hence dv = -Pdy - Qdz. From these two equations joined together [on eliminating ds] we have :
+
+and For indeed:
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 449
+
+hence
+Finally, calling CD = k then from which P and Q can be determined as you please. Q.E.I.
+Corollary 1.
+764. If the body should be moving with uniform motion on the curve, thus in order that v = c and dv = 0, then we have :
+
+And
+
+Corollary 2.
+
+765.
+
+If
+
+we
+
+have
+
+v
+
+=
+
+ch2 p2
+
+or
+
+the
+
+speed
+
+of
+
+the
+
+body
+
+varies
+
+inversely
+
+as
+
+the
+
+perpendicular
+
+sent, then
+
+dv
+
+=
+
+2ch2dp p3
+
+.
+
+With
+
+these
+
+put
+
+in
+
+place,
+
+then
+
+Q
+
+=
+
+0;
+
+for
+
+And,
+
+(714). For this force alone is acting, in order that the body moves on this curve in this way.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 450
+
+Example.
+766. Let the given curve AMB be an ellipse and the centres C and D its foci. The transverse axis AB = A and the latus rectum = L , and from the nature of the ellipse [p. 318]
+
+But in addition : From which there is produced ; and thus
+
+PROPOSITION 93.
+PROBLEM.
+767. A body is moving with a given speed on a curve also given AMB (Fig. 70), and it is required to find the centripetal force acting towards the centre C together with a force always acting normally to the line AB pulling the body in the direction MP, which two forces have the effect that the body is free to move on this curve with the prescribed speed.
+SOLUTION.
+Let the speed of the body present at the point M correspond to the height v and the distance MC = y, and the perpendicular MP = z. The force pulling the body towards the centre C is put equal to P and the force acting along MP is equal to Q. With the tangent MV at M drawn, the perpendiculars CT and PG are sent to that, which are called p and q. With these put in place, the normal force arising from both these forces is equal to
+and the tangential force is equal to
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 451
+
+Hence with the radius of curvature at M = r put in place : (561) and (559). From these it is thus found that :
+Moreover, on putting CP = x, we have : [p. 319] and with dx made constant, we have : Moreover, again we have : With these substituted, we have : and Q.E.I.
+Corollary 1.
+768. If the body is required to move uniformly on the curve, thus so that v = c and dv = 0, then we have :
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 452
+
+Corollary 2.
+
+769. If the curve is a circle, the centre of which is present at C, and the radius is called a,
+
+then
+
+r
+
+=
+
+a,
+
+y
+
+=
+
+a,
+
+p
+
+=
+
+a
+
+and
+
+q
+
+=
+
+z2 a
+
+.
+
+Whereby
+
+the
+
+forces
+
+are
+
+produced:
+
+Therefore
+
+with
+
+Q
+
+known,
+
+then
+
+P
+
+=
+
+2v a
+
+-
+
+Qz a
+
+.
+
+And if v = c and dv = 0, then
+
+Q
+
+=0
+
+and
+
+P
+
+=
+
+2c a
+
+.
+
+Scholium.
+770. Observe that from this proposition, in which the curve described by the body is given, [conversely] a little of the usefulness follows in the determination of curves which bodies describe, acted on by composite forces. Indeed it is true that it is permitted to progress from this to other propositions, in which the curves described by bodies are not themselves given, but they are generated under the motion of one or more given forces, as in the above propositions in which the motion of the apsides has been treated.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 453
+
+PROPOSITION 94. [p. 320]
+
+PROBLEM.
+
+771. If the body is moving on the curve AMB (Fig. 71) in whatever manner, while the curve itself is revolving around the central fixed point C, it is required to find two forces, one of which is always acting towards the fixed point C, and the other is directed normally to the line in the given position PC, which two forces have the effect that the body is free to move in this orbit.
+
+SOLUTION.
+
+Let the speed of the body present at
+
+M, in which it traverses the element
+
+of the curve itself Mm, correspond to
+
+the height v, and the angular speed of
+
+the body in the orbit to the true
+
+angular speed of the body be in the
+
+ratio about C as 1 to w, or the angular
+
+speed of the body in orbit to the
+
+angular speed of the orbit itself,
+
+while the body is at M, is as 1 to w ­
+
+1. [If a ,o , and b / o are the
+
+absolute, orbital, and relative to the
+
+orbital, angular speeds of the body
+
+then a = o + b / o ; Euler sets
+
+b / o a
+
+=
+
+1 
+
+, then
+
+b / o a -b / o
+
+=
+
+b / o o
+
+=
+
+1  -1
+
+]
+
+The
+
+radius
+
+CM is put equal to y and the
+
+perpendicular CT from C sent to the tangent of the orbit at M is equal to p, while the
+
+tangent itself MT is equal to q, thus in order that q = ( y2 - p2 ) . From M the
+
+perpendicular MP which is called z, is sent to the position of the given line DP, and CP
+
+is called x, thus in order that x = ( y2 - z2 ) . Now while the element Mm is traversed,
+
+meanwhile the orbital angle is put equal to mC of the circumference; as from the composite motion of the body it arrives at , with C = Cm , M is an element of the
+
+true curve in which the body is moving, in which produced the perpendicular C is sent from C. With centre C the little arc Mn is described, [p. 321] where we have : mn =  = dy et Mn : Mv = 1 : w . Truly, we have
+
+Mm
+
+=
+
+ydy q
+
+,
+
+hence from which is found :
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+Mv
+
+=
+
+wpdy q
+
+,
+
+and again, [as CM and M are similar triangles :]
+
+page 454
+
+and
+
+The ratio is made Mm : M =
+
+v:
+
+v( w2 p2 +q2 ) y
+
+, the square of which
+
+v( w2 p2 +q2 ) y2
+
+shows
+
+the height corresponding the true speed of the body ; therefore the increment of this is
+
+equal to
+
+Moreover, the radius of osculation of the true curve, in which the body falls, is equal to :
+
+With the whole sine put as 1, the sine of the angle CMP is equal to
+
+x y
+
+and the
+
+cosine is
+
+equal to z . But the sine of the angle CM is equal to wp and the cosine of this
+
+y
+
+( w2 p2 +q2 )
+
+is equal to
+
+q
+
+. From which the sine of the angle PM is equal to qpz-qz
+
+( w2 p2 +q2 )
+
+y ( w2 p2 +q2 )
+
+and the cosine of this is equal to wpx+qz .
+y ( w2 p2 +q2 )
+
+By sending the perpendicular PQ from P to the tangent M , then
+
+And with the body traversing the element M the increment of the line PM is
+From which equation the relation between w and x becomes known and likewise the position of the apsidal line AB with respect to the line CP can be found.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part d).
+
+Translated and annotated by Ian Bruce.
+
+page 455
+
+Now put the force acting on the body towards MC equal to P and the force pulling
+
+along MP equal to Q, [p. 322] from which there arises the tangential force retarding the
+
+motion of the body, which is equal to :
+
+which therefore taken by
+
+dy q
+
+( w2 p2 + q2 ) can be put equal to :
+
+thus in order to give :
+
+Moreover, the normal force arising from both is equal to : which must be equal to : (561), whereby we have : From which equations solved for P and Q, we have : and Truly the angle, that the apsis line AB makes with the line CP, is equal to
+thus the position of this is known for any time. Q.E.I.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+Corollary 1.
+
+772. Since
+
+dz =
+
+wpxdy + qzdy qy
+
+, putting
+
+z
+
+= ty then there comes
+
+about
+
+page 456
+
+From which equation, if w is given in terms of y, in which also on account of the given curve AMB, p and q are expressed, t can be found and likewise also z and x.
+
+Corollary 2.
+
+773. If the speed of the body in the orbit v varies inversely as the perpendicular CT
+
+sent
+
+from
+
+C
+
+to
+
+the
+
+tangent
+
+or
+
+v
+
+=
+
+a2c p2
+
+,
+
+then
+
+we
+
+can
+
+write
+
+:
+
+Corollary 3. [p. 323]
+774. If in this case w is constant, the force Q vanishes and there remains alone
+
+pulling towards the centre C, which effects the motion, as the body progresses in the orbit AMB moving around C, evidently as has been found above (734)
+
+Corollary 4.
+
+775. If v is not
+
+a2c p2
+
+,
+
+but
+
+w
+
+is
+
+constant,
+
+thus
+
+as
+
+the
+
+angular
+
+motion
+
+of
+
+the
+
+orbit
+
+is
+
+proportional to the angular motion of the body in the orbit truly as w ­ 1 to 1, then we
+
+have
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 457
+
+Example.
+
+776. On putting
+
+v=
+
+a2c p2
+
+the curve AMB is an ellipse having C in either focus. Therefore
+
+if the transverse axis of this ellipse is called A and the latus rectum L, then
+
+Whereby we have
+
+Scholion 1.
+777. These formulae for the curve of the ellipse can be made simpler in various ways, if the curve in which the body is moving is approximately circular. And in this case it is of some use in the theoretical motion of the moon to be defined. [p. 324] For the earth is put at rest at C and the sun on the line CP perpendicular at C is considered equally as being at rest ; with which put in place and with these forces compared both with the forces of the sun and the earth, the synodal motion of the moon is elicited for some position of the apsidal line and likewise the motion of the apsidal line, which only differs slightly from the true motion of the moon.
+Scholium 2.
+778. This proposition certainly appears of greater extent than the above (729), in which all the force was directed towards the centre of rotation of the orbit; indeed the former is included with the force Q vanishing. Yet the quadrature cannot account perfectly for the motion of the moon because the proportional force in P varies inversely with the cube of the distance MC (773). Because of this we offer other orbits besides the gyrations in the middle, and which appear wider and agree more with the physics questions. Of this kind are the motions of orbits by which curves are always in orbits parallel to themselves, which on contemplation deserve to be preferred from others, since the forces acting are both easier to find and the formulas are simpler to understand. Moreover there is an outstanding need for this, and the following theorem is presented.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 458
+
+PROPOSITION 95.
+THEOREM.
+779. The body is moving along the curve AM (Fig. 72), by some force acting around the point C, and in addition [p. 325] both the body and the point C are acted on by a force in the same direction; there is the relative motion of the body M with respect to the point C or the motion of the body M such as is seen from C, and likewise, if this new force is not to be added..
+DEMONSTRATION.
+With the point C at rest in the element of time dt the body arrives at the point m from M in m. Therefore in this small finite time the body M is apart from C by the interval mC and makes the angle mCA with a certain fixed line AC expressed in the region. Now with the body put present at M , both the body M and the point C are to be acted on by a force towards the same place, thus in order that the point C can be advanced through Cc in the small time dt. Therefore in the same short time dt the body M, if at rest, by this force is carried through the distance Mn parallel and itself equal to Cc. But since the body M now has the motion in place, in which element of time dt it traverses the distance Mm, then with both motions connected together it describes the diagonal M to complete the parallelogram Mmn. Wherefore with the occurrence of this new force, the body M in the short finite time dt is at a distance from the point C, that meanwhile is translated to c by the interval c, and with the line ac drawn parallel to AC in the fixed direction, it makes the angle ca. But since mCc is a parallelogram c = mC and the angle mCA is equal to the angle ca. Consequently the force is acting equally at each point M and C equally and acting along the same direction, it does not change the motion of M relative to the point C. Q.E.D. [p. 326]
+Corollary 1.
+780. Therefore whatever the force acting at the point C, if the same likewise acts on the body M along the same direction, then the relative motion of the body M with respect to the point C does not change.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 459
+
+Corollary 2.
+781. Therefore a force of this kind can be put into effect acting equally on M and C, in order that the body M is moving in the moving orbit AM in some manner. Moreover the orbit by its own motion is able to follow the motion of the point C, as its position always remains parallel to the position of that point.
+Corollary 3.
+782. It is also seen from the demonstration of the proposition, if an equal speed is impressed on both the point C and the body M along the same direction, then the relative motion is not going to be disturbed.
+Corollary 4.
+783. With such motion impressed on the point C, it continues to move indefinitely in some direction without the continuation of any force, and the body M follows moving uniformly around the point C, that can be equally progressing or at rest. For this situation is only maintained, provided the same direction and speed of the body C are added to the body M.
+
+Corollary 5.
+784. Therefore the body is free to describe the same curve about the centre of force C that is progressing uniformly [p. 327], that it describes about C at rest, but to M must be added as well as much speed as has been accepted by the centre of force.
+Corollary 6.
+785. Moreover, as the body left to itself is unable by itself to progress along the curved line, nor to move unequally along a straight line; thus the body moving around the moving centre of force, either in performing the required curved motion or changes in the direction, cannot describe the same curve that is does for the resting position, but it is always urged on by the above force, to the extent required to maintain the motion along its own path.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 460
+
+PROPOSITION 96.
+
+PROBLEMA.
+
+786. If the body M (Fig. 71) is revolving around the centre of force L at rest in the curve BM, to determine the force that is effective in order that the body in the same orbit following the same curve AL is moving in a direction always parallel to itself.
+
+SOLUTION.
+
+Since the body M is freely moving in the
+
+orbit BM about the centre of force L at rest,
+
+then, with the distance LM = y and with the
+
+perpendicular sent from L to the tangent at M
+
+equal to p, the height corresponding to the
+
+speed at M
+
+=
+
+a2c p2
+
+(589) and the centripetal
+
+force acting towards L is equal to
+
+2a 2cdp p3dy
+
+(592). Now the centre L is put to be moving
+
+on the curve AL attracted to the centre of force
+
+C, and CL = c and the perpendicular sent from C to the tangent [p. 328] at L is equal to
+
+w.
+
+With
+
+which
+
+put
+
+in
+
+place
+
+the
+
+height
+
+corresponding
+
+to
+
+the
+
+speed
+
+at
+
+L
+
+=
+
+b2e w2
+
+and
+
+the
+
+force
+
+attracting the point L to C is equal to
+
+2b2edw w3ds
+
+(592). Moreover the speed impressed on the
+
+first point L along the tangent is equal to
+
+be w
+
+and it is also the same for the body M
+
+following the direction parallel to this tangent; and it is evident, if no additional force
+
+acts on the point L, but only this impressed motion is conserved, then the motion of the
+
+body M gone through is thus obtained following the motion of the point L , moving
+
+freely on the same curve BM, in order that the axis BL always remains parallel to the
+
+motion of L (783). But when the body M is moving in the same way around the
+
+advancing point L on the curve AL, it is required, as such a force is itself always acting,
+
+that it is of such a size as is necessary to keep the point L on this curve AL (781).
+
+Therefore, with MN drawn parallel to LC, the body M besides the force by which it is
+
+urged towards L, must also be acted on by a force equal to
+
+2b2edw w3ds
+
+along the direction
+
+MN. Whereby this two-fold force has the effect of solving the problem of the motion. For
+
+which moreover it is apparent, since the body M is acted on by the force with respect to
+
+the point C and to the fixed line AC parallel to BL, that the forces acting along MN and
+
+ML on the body M are to be resolved in two others, of which one has the direction MC,
+
+and the other MP, which line MP has been drawn perpendicular to AC. To this
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part d).
+
+Translated and annotated by Ian Bruce.
+
+page 461
+
+outstanding line MP is drawn the parallel line KLN cutting the line MC at O and the
+
+distance LI = x, MI = z, CK = r, KL = t and CP = X, PM = Z and CM = Y. On this
+
+account,
+
+And again,
+
+[p. 329] Besides indeed X = r + x and Z = t + z. Whereby on account of the given curves AL and BM since z, y, and p in x, and likewise t, s, and w in r are given, all these quantities in X, Z, and Y are able to be shown. Truly the equation between X and Z can be deduced from that, because the increment of the time through BM is equal to the increment through AL. Hence we therefore have :
+
+and from the integrals taken, the area ACL ± some constant area is to the area BLM
+
+as b e to a c . Therefore the force pulling along ML is resolved into two forces pulling
+
+along MO and LO or MI, and in a similar way the force along MN is resolved into two
+
+forces pulling along MO and NO , of which the latter acts on the opposite direction to MI
+
+on the body M ; to which resolved forces put in place it is necessary to know the angles.
+
+For indeed the angle MLO is equal to the angle LMI and therefore the sine of this is equal
+
+to
+
+x y
+
+and the cosine
+
+z y
+
+,
+
+by
+
+taking
+
+1
+
+for
+
+the
+
+total
+
+sine.
+
+Similarly
+
+the
+
+angles
+
+MON and
+
+CMP are equal, therefore the sine of this is
+
+X Y
+
+and the cosine
+
+Z Y
+
+.
+
+Therefore
+
+the
+
+sine
+
+of
+
+the angle LMO, which is the difference of these, is equal to
+
+Xz - Zx Yy
+
+.
+
+And
+
+finally
+
+the
+
+angles MNQ and CLK are equal, whereby the sine is equal to
+
+r s
+
+and
+
+the
+
+cosine
+
+t s
+
+.
+
+Consequently as NMO = NMO = MNQ ­ MON the sine of this angle is
+
+Zr - Xt Ys
+
+.
+
+Also,
+
+Xx - Zx = Zr - Xt as X = r + x and Z = t + z.
+
+From these the ratio of
+
+MN:MO or
+
+X Y
+
+:
+
+r s
+
+can be made
+
+and thus the ratio of the force
+
+pulling
+
+along
+
+MN
+
+,
+
+2b2edw w3ds
+
+to the force along
+
+MC, which hence is equal to
+
+And the ratio MN:NO or
+
+X Y
+
+:
+
+Zr - Xt Ys
+
+,
+
+thus
+
+the
+
+force
+
+along
+
+MN
+
+,
+
+2b2edw w3ds
+
+,
+
+to
+
+the
+
+force
+
+along
+
+ON, [p. 330] which is equal to
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part d).
+
+Translated and annotated by Ian Bruce.
+
+page 462
+
+In
+
+a
+
+like
+
+manner
+
+the
+
+ratio
+
+ML :
+
+MO
+
+=
+
+X Y
+
+:
+
+x y
+
+,
+
+and
+
+thus
+
+the
+
+ratio
+
+of
+
+the
+
+force
+
+along
+
+ML,
+
+2a 2cdp w3dy
+
+,
+
+to
+
+the
+
+force
+
+along
+
+MC,
+
+which
+
+is
+
+hence
+
+equal
+
+to
+
+And
+
+ML : MO =
+
+X Y
+
+:
+
+Zr - Xt Yy
+
+, and thus the ratio of the force along ML,
+
+2a 2cdp p3dy
+
+, to the force
+
+along OL or MP, which is hence equal to
+
+2a
+
+2cdp( Zr - Xyp3dy
+
+Xt
+
+)
+
+.
+
+From these collected together the body M is acted on by a force pulling in the direction of MC equal to:
+
+and by a force along MP :
+
+Which expressions can all be shown in terms of X, Z and Y and besides an equation can be assigned between these quantities which relate to the true curve described by the body M. Q.E.I.
+Corollary 1.
+787. If the curve AL is the periphery of a circle, the centre of which is C and the radius AC = b, then s = w = b and r2 + t2 = b2 . Therefore in this case the force pulling along MC is equal to :
+
+and the force along MP is equal to :
+And e is the height corresponds to the speed of the point L.
+Corollary 2.
+788. Let the curve BM be an ellipse having the centre at L, and BL= a is the transverse semi-axis of this curve, thus in order that the height corresponding to the speed at B is equal to c, and indeed the other axis is set equal to h. And the equations arise :
+Whereby the force along MC becomes equal to :
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+[p. 331] And the force along MP is equal to :
+
+page 463
+
+Corollary 3.
+789. And if the curve AL is the circle as in Cor.1 and the curve BM the ellipse as in Cor. 2, then the force along MC is equal to :
+
+and the force along MP is equal to :
+where r and t and x are to be determined in terms of X, Z, and Y from these equations : Moreover the equation emerging rises to the fourth power.
+Corollary 4.
+790. If the ellipse BM is put infinitely small or even extremely small with respect to the circle AL, yet thus, as the periodic time of the ellipse is a finite quantity, then
+and
+Corollary 5.
+791. If the curve BM is also a circle having centre L, we can place h = a and thus from which on putting b2 - a2 = f 2 it is found that
+and
+
+And,
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 464
+
+Scholium 1. [p. 332]
+792. Finally we can add this corollary, as it is apparent that such forces are required for a body to be turning in an epicycle about a centre of force, as the adherents of Ptolemy considered the planets to move.
+
+Corollary 6.
+
+793. From the hypothesis of Cor. 3 it is understood, that if
+
+e b2
+
+=
+
+c h2
+
+, or the speed of the
+
+body L to the speed of the body M at B as the diameter of the circle AL is to the conjugate
+
+axis of the ellipse BM, then the true curve described by the body M is an ellipse with the
+
+centre at C, when the force acting towards C becomes equal to
+
+2eY b2
+
+and with the force
+
+along MP vanishing. The semi-major axis of this ellipse is b + a, and the minor truly
+
+b + h.
+
+Scholium 2.
+
+794. I have therefore especially reported on this Proposition, because in an appendix to
+
+the new edition of Newton's Principia in English, the most distinguished Machin asserts
+
+[John Machin (1680-1751), The mathematical principles of natural philosophy translated
+
+into English, London 1729; to which book the Appendix has been added : The laws of the
+
+motion of the moon. P. St.] that the motion of the moon can be considered as in an ellipse,
+
+the transverse axis of which shall be in the ratio of 2 : 1 to the conjugate axis made
+
+around the centre of the ellipse, while meanwhile with that ellipse itself moving parallel
+
+to the periphery of a circle, on which it progresses freely, as I have explained in Cor. 3.
+
+For my part, I do not deny that this motion is extremely similar to the motion that the
+
+moon can show, but I would doubt very much that it was an exact ratio. Moreover in the
+
+following proposition I have decided to determine, what needs to be indicated to
+
+determine the motion of the moon, [p. 333]. Even if indeed this proposition pertains to
+
+astronomy, yet it is assumed that the method reported here can be used to examine
+
+fundamental questions of this kind that are to be resolved.
+
+[At this time, the laws governing angular momentum and the conservation of energy were
+
+not yet fully understood; in the following proposition the inverse square law solution is
+
+taken for the earth in a circular orbit, and the moon is assumed to rotate about the earth in
+
+an elliptical orbit according to the same law. The moon is given, along with the sun, the
+
+negative of the earth's centripetal acceleration, resulting in the moon's orbit being
+
+transported parallel to itself according to a person on the earth, Thus, the problem is
+
+reduced to one of kinematics.]
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 465
+
+PROPOSITION 97.
+
+PROBLEM.
+
+795. With the sun at rest at S (Fig. 74) and with the earth T moving around it uniformly in the circle TD while the moon L is attracted to the earth T as to the sun S in the inverse square of the distances; with which put in place it is required to determine the motion of the moon, such as can be seen from the earth T.
+
+SOLUTION.
+
+The distance of the earth from the sun ST is put
+
+equal to a and the force, and the force which
+
+attracts the earth to the sun is equal to
+
+f a2
+
+. The
+
+distance of the moon from the earth is equal to y
+
+and the distance of the moon from the sun LS is
+
+equal to z. The force, by which the moon is
+
+attracted to the earth, is equal to
+
+h y2
+
+;
+
+and
+
+indeed
+
+the
+
+force, by which the moon is attracted to the sun
+
+along LS, is equal to
+
+f z2
+
+.
+
+[Paul
+
+Stackel's
+
+note
+
+:
+
+In
+
+the formulas
+
+f a2
+
+and
+
+f z2
+
+,
+
+the
+
+letter
+
+f
+
+does
+
+not
+
+have
+
+the same value. On this account the solution to the problem would have to be modified.
+
+This translator's note : Euler always deals with accelerations, or the forces per unit mass;
+
+thus, I am inclined to believe he has the accelerations of the bodies in mind here, rather
+
+than the actual forces, in which case the formulas are the same and so are correct. Euler
+
+talks about forces or strengths of forces where we would use the word acceleration.]
+
+Therefore from these forces acting, such lunar motion produced is to be investigated. But
+
+since it is agreed that such motion of the moon is to be viewed from the earth, then the
+
+earth is considered at rest ; when it is done, while the motion for the whole system is
+
+viewed relative to the earth, then equal and likewise opposite accelerations must be
+
+applied to that which the earth receives from the sun [and the moon], with the moon and
+
+the sun known to be carried round in the opposite direction to their true motion. [Euler is
+
+concerned with a kinematic problem involving relative accelerations; the basic physics
+
+has been attended to already in the setting up of the orbits. There is no question of an
+
+earth-centred dynamics problem being solved. He tries to fit a solution to this vexing
+
+problem.][p. 334] Moreover the speed of the earth in the orbit TD corresponds to the
+
+height
+
+f 2a
+
+,
+
+as
+
+can
+
+be
+
+gathered
+
+from
+
+the
+
+force
+
+f a2
+
+by which the earth is drawn towards the
+
+sun. Therefore such a speed must be impressed both on the sun and the moon along the
+
+direction normal to TS. Besides, since the earth is drawn to the sun by the force
+
+f a2
+
+, it is
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part d).
+
+Translated and annotated by Ian Bruce.
+
+page 466
+
+necessary that the effect of this force is the destruction of the original force, and if the sun
+
+is always attracted to the earth by such a force, then the moon truly is acted on by the
+
+same force along the line LN parallel to ST itself [meaning that they have a common
+
+acceleration which is the opposite of the centripetal acceleration of the earth towards the
+
+sun]. With this done the sun describes a circle SE around the earth T at rest with the same
+
+speed, which before the earth was carried around the sun. Truly the moon besides the
+
+forces
+
+pulling
+
+along
+
+LT
+
+and
+
+LS
+
+above
+
+is
+
+urged
+
+by
+
+a
+
+force
+
+equal
+
+to
+
+f a2
+
+in the direction LN .
+
+With
+
+LM drawn parallel to TS
+
+also, the force acting along LS
+
+f z2
+
+is
+
+resolved
+
+into
+
+these
+
+two forces, of which one is in the direction LT, and the other along LM. Hence by
+
+considering
+
+the
+
+triangle
+
+LTS
+
+the
+
+force
+
+arises
+
+acting
+
+along
+
+LT
+
+equal
+
+to
+
+fy z3
+
+and
+
+the
+
+force
+
+pulling along LM equal to
+
+af z3
+
+. Whereby with these forces combined, the moon is pulled
+
+in the direction LT by a force equal to :
+
+and in the direction LM by a force equal to :
+
+from which forces the motion of the moon must be determined. Moreover it is to be noted that the direction LM is not constant but variable, clearly always parallel to the radius TS, which on account of the motion of the sun is carried along the periphery SE. Therefore with ST produced in A, in order that AB is the line of the conjunctions, and from L by sending the perpendicular LP to the line AB, TP is equal and parallel to LM. [p. 335] In the small interval of time dt the moon travels from L to l, and moreover the sun from S to s; and therefore meanwhile the line of conjunctions is carried to ab and the moon at l is acted on in part by a force along lT, and in part by a force pulling along the line parallel to Tp, clearly with the perpendicular lp sent from l to Ta. Moreover from these forces resolved, the normal and tangential force can be found, of which either gives the speed of the moon. Moreover these two equations can be solved to eliminate the speed, and present the equation of the curve ABL, in which the moon can be determined to move. Q.E.I.
+Scholium 1.
+796. The equations which hence are deduced for the motion of the moon, become so complex that from them neither the orbit of the moon nor the position of the apsides of this motion can be exactly determined. Moreover truly from the same calculation by neglecting very small quantities in a certain way approximate conclusions for the use of astronomy can be drawn, as the great Newton did in Book III of the Phil. Princ. Moreover even if this inconvenient calculation does not work, yet from this proposition without a great deal of rigor, the motion of the moon may soon be demonstrated. For we have put the sun forwards again as being at rest, which in a short while disagrees with the truth; then we consider the earth moving in a circle, and the orbit of the moon placed in
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part d).
+
+Translated and annotated by Ian Bruce.
+
+page 467
+
+the same plane with the earth, which likewise they have otherwise. Yet meanwhile it is
+
+certain, if the solution of this proposition can evolve and from that a table constructed,
+
+then it would be of the most use in astronomy. [p. 336]
+
+Corollary 1.
+797. Since the distance of the moon from the earth is very small with respect to the distance of the earth from the sun, it is possible to put z = a without sensible error and it is almost possible to put in that case the force acting along LM to vanish and the only force drawing the moon to the earth is equal to :
+
+Corollary 2.
+798. When the orbit of the moon does not differ much from a circle, it is possible in that case to consider the form of the moving ellipse, as we have done in Prop. 91 (747). Whereby a knowledge of the motion of the apsides is obtained from Coroll. 3 of this Proposition (750).
+and the moon arrives at the apogee from the perigee from the absolute angular motion around the earth by turning through an angle equal to :
+
+where y, which does not change much, can be considered as a constant.
+
+Scholium 2.
+
+799. Therefore the line of the apsides of the moon's motion is continually regressing,
+
+since
+
+a3h+ fy3 a3h+4 fy3
+
+is less than one, which is contrary to observation. Truly the reason for this
+
+error is that we have considered the quantity z as being constant. For although [the sun-
+
+moon distance] z is neither much increased or decreased in the ratio of this to itself, yet
+
+the increments and decrements with respect to the increments of y are small enough to be
+
+disregarded. [p. 337] Whereby, when the differential of P must be taken, in that equation
+
+we have wrongly considered z as constant and put a in its place. Moreover, since z
+
+cannot be given by y, the motion of the apsides cannot be determined in this way.
+
+Meanwhile nevertheless this is gathered, if it is the case that ady > ydz, then the line of
+
+apsides is as in the preceding, but if ady < ydz, as a consequence it is to be moving
+
+forwards, if indeed we stop thinking about a force acting along LM .
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 468
+
+Corollary 3.
+
+800. With LM = TP = x then we have approximately z = a + x , where x very small with
+
+respect to a. Therefore by ignoring x before a then the force, which pulls the moon to the
+
+earth is equal to
+
+h y2
+
++
+
+fy a3
+
+and
+
+the
+
+force
+
+which
+
+is
+
+pulling
+
+along
+
+LM
+
+is
+
+equal
+
+to
+
+3 fx a3
+
+.
+
+This
+
+therefore vanishes when the moon is at right angles in its orbit to the earth, and is a
+
+maximum when the moon is in conjugation.
+
+Scholium 3.
+801. Moreover since this is not the place to pursue considerations of the motion of the moon in more detail, which are clearly pertinent to the theoretical astronomy, we will proceed to piece together what remains from our present arrangement. For the principles are sufficiently well understood to the extent that tables of the movements can be constructed for any case of interest and the respective motions can be found from the tables. Moreover, the motions of free bodies which are not made in the same plane remain to be included in this chapter [p. 338]. Indeed from the preceding it is evident that for a singe centripetal force present, the motion of the body always takes place in the same plane as the body was initially projected; and if there are several centres of force placed in the same plane in which the body is projected, then the curve described by the body is likewise completely in the same plane. What follows must therefore refer to the situation when a body is acted on by several forces, the directions of which lie in different planes; or also when the direction, along which the body is initially projected, is not in situated in that plane in which the directions of the forces are placed. Therefore in these cases, the motion of the body must be considered as if a certain curve is described on a certain convex or concave surface. Moreover the nature of the surface is expressed by an equation involving three variables, and from the nature of the line drawn on that surface that same equation is solved with another equation either in these three variables as well, or only two. For from these, the projection of the curved line onto a given plane can become known, and from the projection and the surface, likewise the curve described by the body placed on the surface is known. Again as in the co-planar case, the forces can be reduced to two, along the normal and the tangent, thus in this current business, the forces can be reduced to three (551), and what effect they exert on the body, we are about to find out. [p. 339]
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 469
+
+CAPUT QUINTUM
+DE MOTU CURVILINEO PUNCTI LIBERI A QUIBUSCUNQUE PONTENTIIS ABSOLUTIS SOLLICITATI
+.
+PROPOSITIO 92. [p. 316]
+PROBLEMA. 763. Invenire vires centripetas tendentes ad duo virium centra C et D (Fig. 69), quae faciant, ut corpus in data curva AMB et data in singulis punctis M celeritate moveatur.
+SOLUTIO. 764. Moveatur corpus ab A per M ad B et sit eius celeritas in M debita altitudini v; ponatur CM = y et DM = z. Ducta vero tangente TV in eamque ex C et D demissis perpendiculis CT et DV dicantur CT = p et DV = q. Vis centipeta porro, quae ad C tendit, sit = P, et ea, quae ad D trahit, sit = Q. Vis igitur normalis ex utraque orta erit =
+et vis tangentialis accelerans motum corporis erit =
+cadentibus tangentibus in antecedentia. Posito ergo radio osculi in M = r et elemento curvae = ds erit [p. 317]
+(561) et
+(559). Est vero
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+ideoque dv = -Pdy - Qdz. Ex his duabus aequationibus coniunctis habebitur
+et
+Est vero
+
+page 470
+
+ergo
+Tandem dicta CD = k erit ex quibus P et Q, prout libuerit, determinari possunt. Q.E.I.
+Corollarium 1.
+764. Si corpus in curva motu aequabili debeat moveri, ita ut sit v = c et dv = 0, erit
+
+Atque
+
+Corollarium 2.
+
+765.
+
+Si
+
+fuerit
+
+v
+
+=
+
+ch2 p2
+
+seu
+
+celeritas
+
+corporis
+
+reciproce
+
+ut
+
+perpendiculum
+
+ex
+
+centro
+
+in
+
+tangentem
+
+demissum,
+
+erit
+
+dv
+
+=
+
+2ch2dp p3
+
+.
+
+His
+
+substitutis
+
+fit
+
+Q
+
+=
+
+0;
+
+erit
+
+enim
+
+Atque
+
+(714). Haec enim vis sola efficiet, ut corpus hoc modo in ista curva moveatur
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 471
+
+Exemplum.
+766. Sit curva data AMB ellipsis et centra C et D eius foci. Ponatur eius axis transversus AB = A et latus rectum = L eritque ex natura ellipsis [p. 318]
+
+At praeterea erit Ex quo prodibit ideoque
+
+PROPOSITIO 93.
+PROBLEMA.
+767. Moveatur corpus data celeritate in curva etiam data AMB (Fig. 70), et oportet inveniri vim centripetam ad centrum C tendentem una cum vi perpetuo ad rectam AB normaliter in directione MP corpus trahente, quae duae vires efficiant, ut corpus in hac curvae cum praescripta celeritate libere moveatur.
+SOLUTIO.
+Sit corporis in puncto M existentis celeritas debita altitudini v et distantia MC = y, perpendicularis vero MP = z. Ponatur vis corpus ad centrum C trahens = P et vis secundum MP trahens = Q. Ducta tangente MV in M demittuntur in eam perpendicula CT et PG, quae dicantur p et q. His factis erit vis normalis ex utraque orta
+et vis tangentialis
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+Posito ergo radio osculi in M = r erit
+(561) et (559). Ex his itaque reperietur
+Ponatur autem CP = x, erit
+
+page 472
+
+[p. 319] et posito dx constante est Erit autem porro His substitutis prodibit et Q.E.I.
+Corollarium 1.
+768. Si corpus aequabiliter in curva moveri debeat, ita ut sit v = c et dv = 0, erit
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 473
+
+Corollarium 2.
+
+769. Si curva sit circulus, cuius centrum in C existat, et radius dicatur = a, erit r = a, y = a, p = a et q = z2 . Quare prodibit
+a
+
+Ergo cognita Q erit
+
+P
+
+=
+
+2v a
+
+-
+
+Qz a
+
+.
+
+Atque si est v = c et dv = 0, erit
+
+Q=0
+
+et P =
+
+2c a
+
+.
+
+Scholion.
+770. Ex hac propositione in se specta, qua ipsa curva a corpore descripta datur, parum utilitatis consequitur ad curvas, quas corpora a compositis viribus sollicitata describunt, determinandas. Ab hac vero ad alias propositiones progredi licet, in quibus curvae a corporibus descriptae non ipsae dantur, sed generantur ex motu unius pluriumve datarum, quemadmodum in superioribus propositionibus, in quibus de motu apsidum tractavimus, est factum.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 474
+
+PROPOSITIO 94. [p. 320]
+
+PROBLEMA.
+
+771. Si moveatur corpus utcunque in curva AMB (Fig. 71), ipsa vero curva interea revolvatur circa punctum fixum C, inveniri oportet duas vires, quarum altera perpetuo ad punctum fixum C, altera normaliter ad rectum positione datam PC set directa, quae duae vires efficiant, ut corpus in hac orbita mobili libere moveatur .
+
+SOLUTIO.
+
+Sit corporis in M existentis celeritas, qua in ipsa curva elementum Mm percurrit, debita altitudini v, atque celeritas angularis corporis in orbita ad veram celeritatem angularem corporis circa C ut 1 ad w, seu celeritas angularis corporis in orbita ad celeritatem angularem ipsius orbitae, dum corpus est in M, ut 1 ad w ­ 1. Ponatur radius CM = y et perpendiculum CT ex C in tangentem orbitae in M demissum = p, ipsa vero tangens MT = q, ita ut sit
+
+q = ( y2 - p2 ) . Ex M in rectam
+
+positione datam DP demittatur perpendiculum MP, quod dicatur z, et
+
+CP x, ita ut sit x = ( y2 - z2 ) . Iam
+
+dum corpus elementum Mm percurrit, ponatur orbita interea angulo = mC circumferri; quamobrem motu composito
+corporis in  perveniet, sumto C = Cm , eritque M elementum verae curvae, in qua
+
+corpus movetur, in quod productum demittatur ex C perpendiculum C . Centro C describatur arculus Mn , [p. 321] erit mn =  = dy et Mn : Mv = 1 : w . Est vero
+
+Mm
+
+=
+
+ydy q
+
+,
+
+unde
+
+Mv
+
+=
+
+wpdy q
+
+,
+
+ex quo habebitur
+
+atque porro
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 475
+
+et
+
+Fiet Mm : M =
+
+v:
+
+v( w2 p2 +q2 ) y
+
+, cuius quadratum
+
+v( w2 p2 +q2 ) y2
+
+exhibet altitudinem
+
+debitam verae corporis celeritati; huius igitur incrementum est =
+
+Radius osculi autem verae curvae, in qua corpus incedit, est =
+
+Posito sinu toto = 1, erit sinus anguli CMP =
+
+x y
+
+et cosinus =
+
+z y
+
+.
+
+At
+
+anguli
+
+CM sinus
+
+erit = wp
+
+eiusque cosinins =
+
+q
+
+. Ex quibus reperitur anguli PM
+
+( w2 p2 +q2 )
+
+( w2 p2 +q2 )
+
+sinus = qpz-qz eiusque cosinus = wpx+qz .
+
+y ( w2 p2 +q2 )
+
+y ( w2 p2 +q2 )
+
+Demisso ex P in tangentem M perpendiculo PQ erit
+
+Atque percurrente corpore elementum M erit linea PM incrementum
+Ex qua aequatione relatio inter w et x innotescit et simul posito lineae absidum AB respectu rectae CP inveniri potest.
+Iam ponatur vis corpus sollicitans versus MC = P et vis secundum MP trahens = Q, [p. 322] ex quibus oritur vis tangentialis motum corporis retardans =
+
+quae ergo ducta in
+
+dy q
+
+( w2 p2 + q2 ) aequalis poni debet =
+
+ita ut prodeat
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 476
+
+Vis autem normalis ex ultraque orta est quae aequalis esse debet =
+
+(561), quare habebitur Ex quibus aequationibus coniunctis obtinetur atque Angulus vero, quem linea absidum AB facit cum recta CP, erit =
+
+unde eius positio quovis tempore innotescit. Q.E.I.
+
+Corollarium 1.
+
+772.
+
+Quia
+
+est
+
+dz
+
+=
+
+wpxdy+qzdy qy
+
+,
+
+ponatur
+
+z
+
+= ty eritque
+
+Ex qua aequatione, si detur w in y, in qua etiam ob curvam AMB datam p et q exprimuntur, invenietur t idioque etiam z et x.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 477
+
+Corollarium 2.
+
+773. Si fuerit celeritas corporis in orbita v reciproce ut perpendiculum CT ex C in
+
+tangentem
+
+demissum
+
+seu
+
+v
+
+=
+
+a2c p2
+
+,
+
+erit
+
+Corollarium 3. [p. 323]
+774. Si hoc casu est w constans, evanescit vis Q et sola remanet
+
+ad centrum C tendens, quae efficiet, ut corpus in orbita AMB circa C mobili progrediatur, prorsus ut supra inventum est (734)
+
+Corollarium 4.
+
+775.
+
+Si
+
+v
+
+non
+
+est
+
+=
+
+a2c p2
+
+,
+
+sed
+
+w
+
+constans,
+
+ita
+
+ut
+
+motus
+
+angularis
+
+orbitae
+
+proportionalis
+
+sit
+
+motui angulari corporis in orbita, nempe ut w ­ 1 ad 1, erit
+
+Exemplum.
+
+776. Posito
+
+v=
+
+a2c p2
+
+sit curva AMB ellipsis alterutrum focum in C habens. Cuius igitur
+
+axis transversus si vocetur A et latus rectum L, erit
+
+Quare habebitur
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 478
+
+Scholion 1.
+777. Hae formulae existente curva ellipsi variis modis simpliciores effici possunt, si curva, in qua corpus movetur, ad circulum proxime accedat. Atque hic casus tum non parum habebit utilitatis in motu lunae theoretice definiendo. [p. 324] Terra enim ut in C quiescens ponatur et sol in recta CP in C perpendiculari parite tanquam quiescens consideretur; quo facto et his viribus cum viribus solis et terrae comparatis elicietur motus lunae synodicus pro quavis lineae absidum positione et simul ipsius lineae absidum motus, qui a vero lunae motu quam minime differet.
+Scholion 2.
+778. Multo latius quidem patet ista propositio quam superior (729), in qua vis omnis ad centrum rotationis orbitae erat directa; haec enim illam in se complectitur evanescente vi Q. Neque tamen perfecte ad motum lunae explicandum quadrat propter vim reciproce cubo distantiae MC proportionalem in vi P (773). Hanc ob rem alios orbitae motus praeter gyratorium in medium proferemus, que et latius pateant et magis cum quaestionibus physicis congruant. Huiusmodi sunt motus orbitarum per quasque curvas manente orbita sibi semper parallela, quae contemplatio aliis ideo anteferri meretur, quod vires sollicitantes et facile invenire et simplicioribus formulis possint comprehendi. Ad hoc autem praestandum opus est sequens theorema praemitti.
+
+PROPOSITIO 95.
+THEOREMA.
+779. Moveatur corpus in curva AM (Fig. 72), a vi quacunque sollicitantum circa punctum C, atque insuper [p. 325] et corpus et punctum C ab aequali vi et in eadem directione sollicitentur; erit motus relativus corporis M respectu puncti C seu motus corporis M, qualis ex C spectatur, idem, ac si haec nova vis non accessisset.
+DEMONSTRATIO.
+Puncto C quiescente perveniat puncto temporis dt corpus ex M in m. Hoc igitur tempusculo finito corpus M distabit a C intervallo mC et cum plaga quadam fixa recta AC expressa constituet angulum mCA. Ponatur iam corpore existente in M et corpus M et punctum C ab aequali et in eandem plagam tendente vi urgeri, ita ut punctum C ab hac vi tempusculo dt promoveatur per Cc. Eodem igitur tempusculo dt corpus M, si quiesceret, ab hac vi transferretur per Mn parallelam et aequalem ipsi Cc. At quia corpus M iam habet motum insitum, quo
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part d).
+
+Translated and annotated by Ian Bruce.
+
+page 479
+
+tempusculo dt elementum Mm percurrit, utroque motu coniuncto describet diagonalem
+
+M completo parallelogrammo Mmn. Quocirca accidente hac nova vi corpus M finito
+
+tempusculo dt distabit a puncto C, quod interea in c est translatum, intervallo c et ducta
+
+ac parallera ipsi AC cum plaga fixa constituet angulum ca. At est ob mCc
+
+parallelogrammum c = mC et ang. mCA = ang. ca. Consequenter vis utrumque
+
+punctum M et C aequaliter et secundum eandem directionem sollicitans non immutat
+
+motum relativum corporis M respectu punctum C. Q.E.D. [p. 326]
+
+Corollarium 1.
+780. Quaecunque igitur vis punctum C sollicitat, si eadem simul corpus M secundem eandem plagam urgeat, motus relativus corporis M respectu puncti C non mutabitur.
+
+Corollarium 2.
+781. Huiusmodi ergo vi M et C aequaliter sollicitante effici potest, ut corpus M in orbita AM quomodocunque mobili moveatur. Orbita autem ipsa motu suo ita sequetur puncti C motum, ut eius positio sibi semper maneat parallela.
+
+Corollarium 3.
+782. Perspicitur etiam ex demonstratione propositionis, si et puncto C et corpori M aequalis celeritas imprimatur secundum eandem plagam, motum relativum non perturbatum iri.
+Corollarium 4.
+783. Atque cum talis motus puncto C impressus perpetuo duret aequabilis in directum sine ulla vis continuatione, sequitur corpus M circa punctum C aequabiliter in directum progrediens aeque moveri possi ac circa quiescens. Hoc enim obtinebitur, si modo corpori M aequalis celeritas in eandem plagam directa adiiciatur.
+
+Corollarium 5.
+784. Corpus ergo circa centrum virium uniformiter in directum progrediens eandem curvam [p. 327] libere describere poterit, quam circa quiescens describeret, modo ei superaddatur tanta celeritas, quantam accepit centrum virium.
+
+Corollarium 6.
+785. Quemadmodum autem corpus sibi ipsum relictum non potest in linea curva progredi neque inaequabiliter in recta, ita corpus circa centrum virium vel in curva motum vel difformiter in directum non potest libere circa id eandem curvam describere quam circa quiescens, sed perpetuo tanta vi insuper urgeri debet, quanta ad centrum in sua via retinendum requiritur.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 480
+
+PROPOSITIO 96.
+
+PROBLEMA.
+
+786. Si corpus M (Fig. 71), circa centrum virium L quiescens revolvatur in curva BM, determinare vim, quae efficit, ut corpus in eadem orbita secundum curvam AL sibi ipsi semper parallela mota ingrediatur.
+
+SOLUTIO.
+
+Quia corpus M in orbita BM libere movetur circa centrum virium quiescens L, erit,
+
+posita distantia LM = y et perpendiculo ex L
+
+in tangentem in M demisso = p, altitudino
+
+debita celeritati in M
+
+=
+
+a2c p2
+
+(589) et vis
+
+centrapeta ad L tendens
+
+=
+
+2a 2 cdp p3dy
+
+(592). Iam
+
+ponatur centrum L in curva AL moveri
+
+attractum ad centrum virium C, sitque CL = c
+
+et perpendiculum ex C in tangentem [p. 328]
+
+in L demissum = w. Quo posito erit altitudo
+
+debita
+
+celeritati
+
+in
+
+L
+
+=
+
+b2e w2
+
+et
+
+vis
+
+punctum
+
+L
+
+ad
+
+C trahens
+
+=
+
+2b2edw w3ds
+
+(592). Ponatur autem primo puncto L celeritas secundum tangentem
+
+imprimi
+
+=
+
+be w
+
+eademque etiam corpori M secundum directionem huic tangenti
+
+parallelam; atque perspicium erit, si nulla insuper vis punctum L sollicet, sed tantum hunc
+
+motum impressum conservet, corpus M libere in eadem curva BM motum puncti L ita
+
+sequente, ut axis BL sibi semper maneat parallelus, motum iri (783). At quo corpus M
+
+eodem modo circa punctum L in curva AL incedens moveatur, oporteat, ut ipsi perpetuo
+
+tanta vis imprimatur, quanta requiritur ad punctum L in hac curva AL retinendum (781).
+
+Ducta igitur MN parallela ipsi LC corpus M praeter vim, qua ad L urgetur, sollicitari
+
+debebit vi
+
+=
+
+2b2edw w3ds
+
+secundum directionem MN. Quare haec duplex vis efficiet, ut
+
+problemati satisfiat. Quo autem appareat, quanam vi corpus M respectu puncti C et rectae
+
+fixae AC ipsi BL parallelae sollicitari opporteat, resolvantur vires corpus M secundum
+
+MN et ML trahentes in duas alias quarum altera habeat directionem MC, altera MP, quae
+
+linea MP ad AC perpendiculariter est ducta. Ad hoc praestandum ipsi MP ducatur parallel
+
+KLN rectam MC in O secans et vocetur LI = x, MI = z, CK = r, KL = t atque CP = X, PM
+
+= Z et CM = Y. Quocirca erit
+
+Atque porro
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 481
+
+[p. 329] Praeterea vero erit X = r + x et Z = t + z. Quare cum ob curvas AL et BM datas, z, y, et p in x, itemque t, s, et w in r dentur, poterunt hae omnes quantitates in X, Z, et Y exhibiri. Aequatio vero inter X et Z ex eo deducetur, quod temporis incrementum per BM aequale esse debeat temporis incremento per AL. Hinc ergo erit
+
+et integrabilis sumtis erit area ACL ± constante quadam area ad aream BLM ut b e ad
+
+a c . Vis igitur secundum ML trahens resolvatur in binas secundum MO et LO seu MI
+
+trahentes et simili modo vis secundum MN in binas secundum MO et NO trahentes,
+
+quarum posterior corpus M secundum directionem ipsi MI contrariam sollicitabit; ad quas
+
+resolutiones instituendas angulos nosse oportet. Est vero MLO = LMI eiusque igitur sinus
+
+=
+
+x y
+
+et cosinus
+
+=
+
+z y
+
+,
+
+sumto
+
+1
+
+pro
+
+sinu
+
+toto.
+
+Similiter
+
+est
+
+MON
+
+=
+
+CMP,
+
+huius
+
+igitur
+
+sinus
+
+=X
+Y
+
+et
+
+cosinus
+
+=
+
+Z Y
+
+.
+
+Anguli
+
+ergo
+
+LMO,
+
+qui
+
+horum
+
+est
+
+differentia,
+
+sinus
+
+erit
+
+=
+
+Xz - Zx Yy
+
+.
+
+Denique
+
+est
+
+MNQ
+
+=
+
+CLK,
+
+quare
+
+eius
+
+sinus
+
+est
+
+=
+
+r s
+
+et
+
+cosinus
+
+=
+
+t s
+
+.
+
+Consequenter
+
+ob
+
+NMO
+
+=
+
+NMO
+
+=
+
+MNQ
+
+­
+
+MON
+
+erit
+
+sinus
+
+=
+
+Zr - Xt Ys
+
+.
+
+Est
+
+vero
+
+Xx - Zx = Zr - Xt ob X = r + x et Z = t + z.
+
+Ex his fiet MN:MO seu
+
+X Y
+
+:
+
+r s
+
+ita vis secundum MN tendens
+
+2b2edw w3ds
+
+ad vim secundum
+
+MC, quae ergo erit =
+
+Atque MN:NO seu
+
+X Y
+
+:
+
+Zr - Xt Ys
+
+ita vis secundum MN
+
+2b2edw w3ds
+
+ad
+
+vim
+
+secundum
+
+ON,
+
+[p.
+
+330] quae ergo est =
+
+Simili modo erit
+
+ML : MO =
+
+X Y
+
+:
+
+x y
+
+ita vis secundum ML
+
+2a 2 cdp w3dy
+
+ad vim secundum
+
+MC, quae ergo erit =
+
+Atque
+
+ML : MO =
+
+X Y
+
+:
+
+Zr - Xt Yy
+
+ita vis secundum ML
+
+2a 2cdp p3dy
+
+ad
+
+vim
+
+secundum
+
+OL
+
+seu
+
+MP,
+
+quae ergo est =
+
+2a
+
+2
+
+cdp( Zr - Xyp3dy
+
+Xt
+
+)
+
+.
+
+Ex quibus colligitur corpus M trahi debere a vi tendente secundum MC =
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+atque a vi secundum MP =
+
+page 482
+
+Quae expressiones omnes in X, Z et Y exhiberi poterunt et praeterea inter has quantitates, quae veram curvam a corpore M descriptam pertinent, aequatio assignari. Q.E.I.
+
+Corollarium 1.
+787. Si curva AL sit peripheria circuli, cuius centrum in C et radius AC = b, erit s = w = b et r2 + t2 = b2 . Hoc ergo casu vis secundum MC trahens erit =
+et vis secundum MP =
+Atque e erit altitudo debita celeritati, quam habet punctum L.
+Corollarium 2.
+788. Sit curva BM ellipsis centrum habens in L, et BL eius semiaxis transversus = a, ita ut altitudino debita celeritati in B sit = c, alter vero semiaxis fit = h. Eritque
+Quare vis secundum MC fit =
+[p. 331] Atque vis secundum MP =
+Corollarium 3.
+789. Si et curva AL fuerit circulus ut coroll. 1 et curva BM ellipsis ut coroll. 2, erit vis secundum MC =
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+et vis secundum MP =
+
+page 483
+
+ubi r et t et x in X, Z, et Y poterunt determinari ex his aequationibus Aequatio autem emergens ad quatuor dimensiones ascendit.
+Corollarium 4.
+790. Si ellipsis BM ponatur infinite parva seu saltem perquam exigua respectu circuli AL, ita tamen, ut tempus periodicum ellipsis sit finite magnum, erit
+et
+Corollarium 5.
+791. Si curva BM fuerit quoque circulus in L centrum habens, fiet h = a ideoque ex quibus positio b2 - a2 = f 2 reperiatur
+et
+Atque
+Scholion 1. [p. 332]
+792. Extremum hoc corollarium adiecimus, ut appareat, quales vires requirantur ad corpus in epicyclo circa centrum virium circumagendum, quemadmodum Ptolemaici planetas moveri existimaverunt.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 484
+
+Corollarium 6.
+
+793. Ex hypothesi coroll. 3 intelligitur, si fuerit
+
+e b2
+
+=
+
+c h2
+
+, seu celeritas corporis L ad
+
+celeritatem corporis M in B ut diameter circuli AL ad axem coniugatum ellipsis BM, tum
+
+veram curvam a corpore M descriptam fore ellipsin centrum habentem in C, cum vis
+
+sollicitans ad C tendens sit
+
+2eY b2
+
+evanescente vi secundum MP. Huius ellipsis semiaxis
+
+maior erit b + a, minor vero b + h.
+
+Scholion 2.
+
+794. Propositionem hanc ideo praecipue attuli, quod in appendice novae Principiorum
+
+Neutoni editionis anglicae Cl. Machin assererat [John Machin (1680-1751), The
+
+mathematical principles of natural philisophy translated into english, London 1729; cui
+
+libro Appendix addita est : The laws of the motion of the moon. P. St.] lunae motum
+
+considerari posse tanquam in ellipsi, cuius axis transversus sit ad coniugatum ut 2 : 1,
+
+circa centrum factum, dum interea ipsa ellipsis motu sibi semper parallelo secundum
+
+peripheriam circuli libere progrediatur, quemadmodum in coroll. 3 explicui. Equidem
+
+non nego hac ratione motum perquam conformem motui lunae posse exhiberi, sed, an
+
+exacte congruat, vehementer dubito. Sequente autem propositione determinare statui, [p.
+
+333] quid ad lunae motum indicandum requiratur. Etiamsi vero ista proposito ad
+
+astronomiam pertineat, tamen eam, ut genuina huiusmodi quaestiones resolvendi
+
+methodus perspiciatur, hic afferre e re visum est.
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 485
+
+PROPOSITIO 97.
+
+PROBLEMA.
+
+795. Quiescente sole in S (Fig. 74) et terra T circa eum in circulo TD uniformiter mota attrahatur luna L tum ad terram T tum ad solem S in reciproce distantiarum duplicata; quibus positis determinari oporteat motum lunae,qualis ex terrae T spectatur.
+
+SOLUTIO.
+
+Ponatur distantia terrae a sole ST = a et vis, qua
+
+terra ad solem trahitur, =
+
+f a2
+
+. Distantia lunae a
+
+terrae sit = y et distantia lunae a sole LS sit = z.
+
+Vis, qua luna ad terram trahitur, sit =
+
+h y2
+
+;
+
+vis
+
+vero,
+
+qua luna ad solem trahitur secundum LS, erit =
+
+f z2
+
+.
+
+[In
+
+formulis
+
+f a2
+
+et
+
+f z2
+
+littera
+
+f
+
+non
+
+eundem
+
+valorem
+
+repraesentat. Quamobrem problematis solutio
+
+modificanda est. P. St. ]
+
+Ab his igitur viribus lunam sollicitantibus qualis
+
+motus producatur, est investigandum. At quia lunae
+
+motus, qualis a spectore in terra constituto observatur, definiri debet, terra tanquam quiescens est consideranda; id quod fit, dum toti systemati motus ei, quem terra habet, aequalis et contrarius imprimitur simulque sollicitationes, quas terra a sole recipit, contrario modo in lunam et solem cogitatione transferuntur. [p. 334] Celeritas autem
+
+terrae in circulo TD debita est altitudini
+
+f 2a
+
+,
+
+uti
+
+ex
+
+vi
+
+f a2
+
+, qua terra ad solem urgetur,
+
+colligi potest. Tanta igitur celeritas et soli et lunae secundum directionem ad TS
+
+normalem imprimi debet. Praeterea, quia terra ad solem trahitur vi
+
+f a2
+
+, oportet ad huius
+
+vis effectum destruendum res ita concipi, ac si sol perpetuo tanta vi ad terram traheretur,
+
+luna vero eadem vi secundum LN ipsi ST parallam. Hoc facto sol describet circa terram in
+
+T quiescentem circulum SE eadem celeritate, qua ante terra circa solem ferebatur. Luna
+
+vero
+
+praeter
+
+vires
+
+secundum
+
+LT
+
+et
+
+LS
+
+tendentes
+
+insuper
+
+urgibitur
+
+versus
+
+LN
+
+vi
+
+=
+
+f a2
+
+.
+
+Ducta LM parallela quoque ipsi TS resolvatur vis secundum LS agens
+
+fy z3
+
+in has duas,
+
+quarum alterius directio sit LT, alterius LM. Ex consideratione ergo triangulo LTS orietur
+
+vis secundum LT agens =
+
+fy z3
+
+et
+
+vis
+
+secundum
+
+LM
+
+trahens
+
+=
+
+af z3
+
+. Quare omnibus
+
+coniunctis luna trahetur versus LT vi =
+
+EULER'S MECHANICA VOL. 1.
+Chapter Five (part d).
+Translated and annotated by Ian Bruce.
+
+page 486
+
+atque versus LM vi =
+ex quibus viribus motus lunae debet determinari. Notandum autem directionem LM non esse constantem sed variabilem, quippe perpetuo parallelam radio TS, qui ob motum solis secundum peripheriam SE circumfertur. Producta igitur ST in A, ut AB sit linea syzygiarum, et ex L in eam demisso perpendiculo LP erit TP aequalis et parallela ipsi LM. [p. 335] Perveniat tempusculo dt luna ex L in l, sol autem ex S in s; transferetur ergo interia linea syzygiarum in ab et luna in l sollicitabitur partim a vi secundum lT, partim a vi secundum parallelam ipsi Tp trahente, demisso scilicet ex l in Ta perpendiculo lp. Ex his autem viribus resolvendis reperiuntur vis normalis et tangentialis, quarum utraque celeritatem lunae dabit. Hae autem aequationes coniunctae eliminata celeritate praebebunt aequationem pro curva ABL, in qua luna moveri cernitur. Q.E.I.
+Scholion 1.
+796. Aequationes, quae hinc ad motum lunae deducuntur, tam fiunt complexae, ut ex iis neque lunae neque orbita neque positio lineae absidum eiusque motus exacte possint determinari. Vero autem proxime ex eodem calculo neglegendis quantitatibus vehementer exiguis quadammodo conclusiones in usum astronomiae possunt elici, quemadmodum fecit Summus Neutonus in Phil. Princ. Libr. III. Etiamsi autem hoc incommodo calculus non laboraret, tamen ista proposito non summo rigore motum lunae esset exhibitura. Posuimus enim solem prorsuns quiescere, quod a vero parumper discrepat; deinde terrram in circulo motam consideramus et orbitam lunae in ipso terrae plano positam, quae itidem re ipsa secus se habent. Interim tamen certum est, si huius propositionis solutio posset evolvi ex eaque tabula confici, [p. 336] hoc in astronomia maximam habiturum esse utilitatem.
+Corollarium 1.
+797. Quia lunae a terrae distantia est admodum parvum respectu distantiae terrae a sole, sine sensibili errore fere poterit poni z = a, quo casu vis secundum LM agens evanescit et luna tantum ad terram trahetur vi =
+Corollarium 2.
+798. Cum orbita lunae non multum differat a circulo, poterit ea instar ellipsis mobilis considerari, ut fecimus prop. 91 (747). Quare ad motum absidum cognoscendum erit ex illius prop. coroll. 3 (750)
+atque luna a perigaeo ad apogaeum perveniet absoluto motu angulari circa terram angulo
+
+ubi y, quia non multum variatur, tanquam constans est considerandum.
+
+EULER'S MECHANICA VOL. 1.
+
+Chapter Five (part d).
+
+Translated and annotated by Ian Bruce.
+
+page 487
+
+Scholion 2.
+
+799. Regrederetur ergo perpetuo linea absidum motus lunaris, quia
+
+a3h+ fy3 a3h+4 fy3
+
+minor est
+
+unitate, id quod est contra observationes. Ratio vero huius erroris est, quod z ut
+
+constantem quantitatem consideravimus. Nam etsi z non multum neque augeatur neque
+
+minuatur ratione sui ipsius, tamen eius incrementa et decrementa respectu incrementorum
+
+ipsius y minime negligi possunt. [p. 337] Quare, cum ipsius P differentiale sit
+
+accipiendum, in eo perperam z tanquam constantem sumus contemplati eiusque loco a
+
+posuimus. Quia autem z non potest dari per y, motus absidum non potest hoc modo
+
+determinari. Interim tamen hoc colligitur, si fuerit ady > ydz, lineam absidum in
+
+antecedentia, at si ady < ydz, in consequentia promoveri, si quidem cogitatem
+
+abstrahamus a vi secundum LM agente.
+
+Corollarium 3.
+800. Posito LM = TP = x erit proxime z = a + x , ubi x est admodum parvum respectu a.
+
+Neglecto ergo x prae a erit vis, qua luna ad terram trahitur,
+
+=
+
+h y2
+
++ fy
+a3
+
+et vis, qua
+
+secundum
+
+LM
+
+trahitur,
+
+=
+
+3 fx a3
+
+.
+
+Haec
+
+igitur
+
+evanescit,
+
+quando
+
+luna
+
+est
+
+in
+
+quadraturis,
+
+maxima vero est, quando luna est in syzygiis.
+
+Scholion 3.
+801. Cum autem non sit huius loci haec ad motum lunae spectantia fusius persequi, quippe quae ad astronomiam theoreticam pertinent, ad reliqua instituto nostro accommodata progrediemur. Sufficere enim possunt ista ad intelligendum, quomodo canones motuum trahiti ad quosvis casus motusque respectivos inveniendos in usum verti queant. Quae autem in hoc capite restant, motum corporum liberum, qui non fit in eadem plano, [p. 338] complectuntur. Ex praecedentibus quidem manifestum est unica existente vi centripeta motum corporis semper fieri in eodem plano, quomodocunque etiam corpus initio fuerit proiectum; et si plura sint centra virium in eodem plano sita in eodemque plano corporis fiat proiectio, curva a corpora descripta similite tota in eodem plano erit posita. Ad sequentia igitur referri debet, quando corpus in pluribus viribus, quarum directiones in diversis planis existunt, sollicitatur, vel etiam quando directio, secundum quam corpus initio proiicitur, non in eo, in quo sunt virium directiones, sita est plano. His igitur in casibus motus corporis ita debet considerari, quasi fieret in superficie quadam convexa seu concava in eaque lineam quandam describeret. Natura autem superficiei exprimitur aequatione tres indeterminantas involvente, et lineae in ea superficie ductae natura continetur eadem illa aequatione coniuncta cum alia aequatione verl tres quoque illas indeterminatas complectente vel duas tantum. Ex his enim deduci poterit curvae lineae proiecto in dato plano et ex proiectione et superficie simul innotescit ipsa curva a corpora descripta et in superficie posita. Quemadmodum porro in plano quaevis vires ad duas, normalem et tangentialem, possunt reduci, ita in hoc negotio virium reductio ad tres fieri debet (551), quae, quales in corpus exerant effectus, primum sumus investigaturi. [p. 339]
+
+
