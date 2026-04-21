@@ -114,7 +114,7 @@ interface CastMode {
         startupTime: FloatValue;
         
         startupTags: list<str> ->gameplaytag;
-        cuesDuringStartup: list<str> ->cue_key;
+        cuesDuringStartup: list<str> ->cue_key_loop;
         commitPolicy: StartupCommitPolicy;
     }
 
@@ -126,7 +126,7 @@ interface CastMode {
         chargeProgressVar: str ->var_key; // 将 0~1 的蓄力进度写入 instanceState
         
         chargingTags: list<str> ->gameplaytag;
-        cuesDuringCharge: list<str> ->cue_key;
+        cuesDuringCharge: list<str> ->cue_key_loop;
         commitPolicy: ChargeCommitPolicy;
     }
 
@@ -139,7 +139,7 @@ interface CastMode {
         finisherEffect: list<Effect>; // 收尾技
         
         channelingTags: list<str> ->gameplaytag;
-        cuesDuringChannel: list<str> ->cue_key;
+        cuesDuringChannel: list<str> ->cue_key_loop;
         commitPolicy: ChannelCommitPolicy;
     }
 }
@@ -240,7 +240,7 @@ Ability 在运行时的四大核心阶段（Phase）：`Activating`、`Processin
 struct RecoveryConfig {
     duration: FloatValue;
     recoveryTags: list<str> ->gameplaytag;   // 如 ["State.Recovery"]
-    cuesDuringRecovery: list<str> ->cue_key; 
+    cuesDuringRecovery: list<str> ->cue_key_loop; 
 }
 ```
 

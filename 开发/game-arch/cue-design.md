@@ -15,10 +15,10 @@ sidebar:
 * **数据流转契约 (Data Flow Contract)**：上下游基于标准接口（如 `OnSetup`）进行单向通信。引擎资产被动接收**高度浓缩的上下文载荷**——包含瞬时强度（`magnitude`）、实体引用（`instigator / target`）与环境修饰（`tags`），随后由资产内部逻辑自主解析这些抽象数据，并驱动内部的粒子、组件或全局渲染管线。
 
     ```csharp
-    public interface ICueInstance {
-        void OnSetupCue(CueEvent ctx);
-        void OnUpdateCue(UpdateCueEvent ctx);   
-        void OnDetachCue(); 
+    public interface ICueHandler {
+        void OnSetupCue(in CueContext ctx);
+        void OnUpdateCue(in CueParams parameters);   
+        void OnDetachCue();
     }
     ```
 
@@ -30,50 +30,51 @@ sidebar:
 当底层管线触发效果时，系统向目标 Actor 的表现组件广播 `CueEvent`。
 
 ```csharp
-record CueEvent(
-    // 0：瞬时Cue, 无需生命周期管理
-    // 非0：代表(StatusInstance.uid / SpawnObj.uid)，需要生命周期管理
-    long bindingId,  
-    int cueId,  // 对应能力系统中的 cue_key (如 "Hit.Physical")
+public static class CueDispatcher
+{
+    public static void FireCue(DCueKeyInstant cue, in CueContext ctx){}
+    // 持续挂载
+    public static void AttachCue(long bindingId, DCueKeyLoop cue,
+                                 in CueContext ctx){}
+    // 刷新：连 Context 都不需要，只需要路由键和变化的值
+    public static void UpdateCue(long bindingId, DCueKeyLoop cue, 
+                                Actor target, CueParams parameters){}
+    // 卸载
+    public static void DetachCue(long bindingId, DCueKeyLoop cue, 
+                                Actor target){}
+}
+
+public readonly record struct CueContext(
+    Actor Target,       // 承受者 / 表现锚点宿主
+    Actor Instigator,   // 发起者
+    Actor Causer,       // 媒介 (如飞行中的子弹实例)
     
-    Actor target,       // 承受者 / 表现锚点宿主
-    Actor instigator,   // 发起者
-    Actor causer,       // 媒介 (如飞行中的子弹实例)
-    
-    IntList contextTags,// Event的瞬态标签快照 (如 ["Damage.Element.Fire"])
-    float magnitude,    // 强度数值 (用于决定爆炸缩放、叠层表现等)
-    CueParams parameters);
+    IntList ContextTags,// Event的瞬态标签快照 (如 ["Damage.Element.Fire"])
+    CueParams Parameters
+);
 
-record UpdateCueEvent(
-    long bindingId, 
-    int cueId, 
-    float magnitude, 
-    CueParams parameters);
-
-record DetachCueEvent(
-    long bindingId, 
-    int cueId);
-
-class CueParams {
+public struct CueParams {
+    private float magnitude; // 强度数值
     private int[] keys; // var_key
     private float[] values;
     private int size;
 }
 ```
 
-表现层采用**异步单向广播**机制。逻辑层仅负责在关键生命周期节点派发事件，不干预具体的表现实现。
+表现层采用**单向广播**机制。逻辑层仅负责在关键生命周期节点派发事件，不干预具体的表现实现。
 
-### 触发与装载 (CueEvent)
-表现意图的入口。根据 `bindingId` 划分为两种生命周期模式：
-* **瞬态模式 (`bindingId == 0`)**：即放即走（Fire-and-forget）。引擎层触发后立即执行，无需缓存句柄，由资产内部逻辑（如粒子时效、动画长度）自决销毁。
-* **持久模式 (`bindingId != 0`)**：有状态表现。引擎层需建立 `bindingId` 与表现实例的映射缓存，直至收到显式卸载指令。
+### 触发(FireCueEvent)
+瞬态模式 Fire-and-forget。引擎层触发后立即执行，无需缓存句柄，由资产内部逻辑（如粒子时效、动画长度）自决销毁。
 
-### 状态刷新 (UpdateCueEvent)
+### 装载 （AttachCueEvent）
+有状态表现。引擎层需建立 `bindingId` 与表现实例的映射缓存，直至收到显式卸载指令。
+
+### 刷新 (UpdateCueEvent)
 **仅作用于持久模式表现**。当逻辑状态改变（如 Buff 叠层、数值衰减）但未终止时派发。
 * **核心契约**：引擎层通过 `bindingId` 检索活跃实例，调用其 `OnUpdate` 接口。
 * **应用场景**：驱动特效范围缩放、改变材质参数（如护盾透明度）或同步 UI 数值。
 
-### 逻辑卸载 (DetachCueEvent)
+### 卸载 (DetachCueEvent)
 **仅作用于持久模式表现**。当状态过期、宿主死亡或逻辑实体销毁时派发。
 * **核心契约**：**“逻辑终止”不等于“物理销毁”**。
 * **行为规范**：引擎层收到指令后，应立即解除 `bindingId` 映射，并通知资产进入退出阶段。资产应执行平滑过渡逻辑（如音效淡出、特效停止发射、材质渐变），待表现完全结束后自行销毁。
