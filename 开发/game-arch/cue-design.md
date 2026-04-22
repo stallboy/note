@@ -14,15 +14,45 @@ sidebar:
 * **引擎资产层 (Engine Asset Layer)**：视听细节被**严格封装为绝对黑盒**。诸如激光轨迹运算 (`LineVFX`)、屏幕震动 (`CameraShake`)、顿帧定格 (`HitStop`) 或定制化文本等复合表现，均在引擎预制体内自闭环实现，**严禁**在 `Cue` 的通信协议中向下穿透或进行字段膨胀。
 * **数据流转契约 (Data Flow Contract)**：上下游基于标准接口（如 `OnSetup`）进行单向通信。引擎资产被动接收**高度浓缩的上下文载荷**——包含瞬时强度（`magnitude`）、实体引用（`instigator / target`）与环境修饰（`tags`），随后由资产内部逻辑自主解析这些抽象数据，并驱动内部的粒子、组件或全局渲染管线。
 
-    ```csharp
-    public interface ICueHandler {
-        void OnSetupCue(in CueContext ctx);
-        void OnUpdateCue(in CueParams parameters);   
-        void OnDetachCue();
-    }
-    ```
-
 这种设计确保了协议层的极度收敛：TA 和表现美术可以在引擎侧自由拼装极其复杂的复合视听反馈，而无需增加逻辑系统的心智负担和表结构复杂度。
+
+### 数据流转契约
+
+```csharp
+public interface IInstantCueHandler {
+    /// <summary>
+    /// 点火执行。
+    /// </summary>
+    /// <returns>返回预计的存活时间，供上层管理器进行自动并发释放</returns>
+    float OnFireCue(in CueContext ctx);
+
+    /// <summary>
+    /// 强制掐断。
+    /// 仅在并发池满且策略为 StopOldest 时，由全局并发管理器调用。
+    /// 资产应立即停止发射粒子/淡出音效，准备被对象池回收。
+    /// </summary>
+    void OnForceStopCue(); 
+}
+
+public interface ILoopCueHandler {
+    /// <summary>
+    /// 首次装载。无需返回时间，生命周期由逻辑层完全接管。
+    /// </summary>
+    void OnAttachCue(in CueContext ctx);
+
+    /// <summary>
+    /// 状态刷新。接收最高水位决断后的聚合强度参数。
+    /// </summary>
+    void OnUpdateCue(in CueParams parameters);
+
+    /// <summary>
+    /// 平滑卸载。引用计数归零时调用，资产应执行淡出逻辑并自我回收。
+    /// </summary>
+    void OnDetachCue();
+}
+```
+
+
 
 
 ## 运行时上下文
@@ -30,18 +60,16 @@ sidebar:
 当底层管线触发效果时，系统向目标 Actor 的表现组件广播 `CueEvent`。
 
 ```csharp
-public static class CueDispatcher
+public interface ICueDispatcher
 {
-    public static void FireCue(DCueKeyInstant cue, in CueContext ctx){}
+    // 触发
+    void FireCue(DCueKeyInstant cue, in CueContext ctx);
     // 持续挂载
-    public static void AttachCue(long bindingId, DCueKeyLoop cue,
-                                 in CueContext ctx){}
-    // 刷新：连 Context 都不需要，只需要路由键和变化的值
-    public static void UpdateCue(long bindingId, DCueKeyLoop cue, 
-                                Actor target, CueParams parameters){}
+    void AttachCue(long bindingId, DCueKeyLoop cue, in CueContext ctx);
+    // 刷新
+    void UpdateCue(long bindingId, DCueKeyLoop cue, Actor target, CueParams parameters);
     // 卸载
-    public static void DetachCue(long bindingId, DCueKeyLoop cue, 
-                                Actor target){}
+    void DetachCue(long bindingId, DCueKeyLoop cue, Actor target);
 }
 
 public readonly record struct CueContext(
@@ -61,23 +89,41 @@ public struct CueParams {
 }
 ```
 
-表现层采用**单向广播**机制。逻辑层仅负责在关键生命周期节点派发事件，不干预具体的表现实现。
+表现层基于**单向广播**机制运作。逻辑层仅负责在生命周期的关键节点派发标准事件，严格恪守“黑盒”边界，绝不向下干涉具体的视听实现。
 
-### 触发(FireCueEvent)
-瞬态模式 Fire-and-forget。引擎层触发后立即执行，无需缓存句柄，由资产内部逻辑（如粒子时效、动画长度）自决销毁。
+通信契约按生命周期特征划分为**瞬态**与**持久**两大类：
 
-### 装载 （AttachCueEvent）
-有状态表现。引擎层需建立 `bindingId` 与表现实例的映射缓存，直至收到显式卸载指令。
+### 瞬态指令
+* **FireCue (触发)**：即放即走。引擎层收到指令后立即交由资产管线生成，**不进入任何状态缓存**。实例的物理生命周期由底层资产（如粒子时长、音频长度）自决，播放完毕后自动销毁。
 
-### 刷新 (UpdateCueEvent)
-**仅作用于持久模式表现**。当逻辑状态改变（如 Buff 叠层、数值衰减）但未终止时派发。
-* **核心契约**：引擎层通过 `bindingId` 检索活跃实例，调用其 `OnUpdate` 接口。
-* **应用场景**：驱动特效范围缩放、改变材质参数（如护盾透明度）或同步 UI 数值。
+**并发与生命周期管辖：**
+由于瞬态表现极易引发同屏性能过载（如多发散弹同帧命中引发的爆音与掉帧），其生命周期统一由表现底层的 **全局并发管理器 (ConcurrencyManager)** 接管，严格执行“额度申请 -> 托管释放”的闭环机制：
+1. **全局限流 (Track)**：基于 `asset_concurrency` 组规则申请并发名额。满载时，系统将根据 `ResolveRule` 策略直接拒绝新请求或强杀最老实例。
+2. **资产自报寿命 (Self-Reporting)**：实例生成后，底层的 `IInstantCueHandler.OnFireCue` 必须返回一个 `float` 类型的预计播放时长（如粒子寿命与音频长度的最大值）。
+3. **上层强制托管 (Schedule Release)**：管线获取该时长后，将其送入全局定时器，到期自动归还该并发名额。
+4. **1 秒兜底法则 (Fallback)**：若底层资产加载失败、未挂载 `IInstantCueHandler` 脚本或返回了异常时长（<= 0），系统将强制采用 **1.0 秒** 的兜底时间进行名额释放。这确保了在任何极端错误下，并发池绝对不会发生永久死锁与额度泄漏。
 
-### 卸载 (DetachCueEvent)
-**仅作用于持久模式表现**。当状态过期、宿主死亡或逻辑实体销毁时派发。
-* **核心契约**：**“逻辑终止”不等于“物理销毁”**。
-* **行为规范**：引擎层收到指令后，应立即解除 `bindingId` 映射，并通知资产进入退出阶段。资产应执行平滑过渡逻辑（如音效淡出、特效停止发射、材质渐变），待表现完全结束后自行销毁。
+### 持久指令 
+* **AttachCue (装载)**：状态表现的起点。引擎层需将逻辑源的唯一标识（`bindingId`）与表现实例建立映射缓存，正式接管其生命周期。
+* **UpdateCue (刷新)**：状态演进。当逻辑状态发生变更（如 Buff 叠层、数值动态衰减）时，系统调用对应资产的 `OnUpdateCue` 接口，驱动特效缩放、材质参数等动态视觉变化。
+* **DetachCue (卸载)**：状态终结。严格遵循**“逻辑终止 ≠ 物理销毁”**的核心契约。系统收到指令后立即解除 `bindingId` 映射，并通知底层资产进入退出阶段。资产应执行平滑过渡（如音效淡出、粒子停止发射），待表现优雅收尾后再自行销毁回收。
+
+### 单体视觉唯一性与引用计数 (CueComponent)
+
+为彻底根除同类状态并发时引发的视觉穿模、音频相位抵消及 GPU Overdraw 灾难，系统在 Actor 级别的 `CueComponent` 中确立**单体视觉唯一性法则**：**同一 Actor 身上，同一种持续表现（`CueId`）最多仅允许存在一个底层资产实例。**
+
+系统通过内置的**引用计数与高水位机制**来支撑该法则，实现了逻辑源与视觉实体之间的完美解耦：
+
+1. **降维寻址 (Dimensionality Reduction)**
+   表现层内部放弃复杂的逻辑溯源，直接以表现标识（`CueId`）作为缓存池的主键，从数据结构层面物理阻断重复渲染。
+2. **引用计数防误卸 (Ref Counting)**
+   * **Attach 时**：记录请求来源的 `bindingId`，并使对应 `CueId` 的引用计数 +1。**仅当计数由 0 变 1 时，才真正实例化底层资产。**
+   * **Detach 时**：精准移除对应的 `bindingId` 记录，引用计数 -1。**仅当计数彻底归零时，才真正调用底层资产的 `OnDetachCue` 进行物理卸载。** 此机制完美规避了多来源状态时间交错造成的“提前卸载” Bug。
+3. **高水位参数决断 (High-Water Mark)**
+   当多个独立逻辑源（不同 `bindingId`）并发请求同一表现，且主张不同的表现强度（如 A 施加 1 层毒，B 施加 5 层毒）时：
+   * `CueComponent` 会自动轮询当前该 `CueId` 下活跃的 `bindingId` 集合。
+   * 提取其中**最高的 Magnitude（强度值）**，统一将其下发给底层唯一资产的 `OnUpdateCue` 接口。确保唯一的视觉实例始终忠实且平滑地反映当前最极致的逻辑状态。
+
 
 ---
 
@@ -158,7 +204,7 @@ struct MaterialOverride {
 table vfx_metadata[asset] {
     asset: str; 
     description: text;
-    concurrency: str -> cue_concurrency;
+    concurrency: int -> asset_concurrency;
     entries: list<VfxAsset> (block=1);
 }
 
@@ -166,7 +212,7 @@ table vfx_metadata[asset] {
 table sfx_metadata[asset] {
     asset: str; 
     description: text;
-    concurrency: str -> cue_concurrency;
+    concurrency: int -> asset_concurrency;
     cooldown: float; // 时间防爆音冷却
     entries: list<TagAsset> (block=1);
 }
@@ -183,7 +229,7 @@ table mat_metadata[asset] {
 table floating_text_metadata[asset] {
     asset: str;
     description: text;
-    concurrency: str -> cue_concurrency;
+    concurrency: int -> asset_concurrency;
     hideIfBelowMagnitude: float; // 忽略机制
     mergeMode: TextMergeMode;
     mergeWindow: float; // 聚合时间窗口 (如 0.2s)
@@ -215,8 +261,8 @@ enum TextMergeMode {
 
 ```cfg
 // 并发组规则表
-table cue_concurrency[groupId] {
-    groupId: str;  // 例如："LightHits" (轻受击), "HeavyExplosions" (大爆炸), "Ambient" (环境)
+table asset_concurrency[groupId] {
+    groupId: int;
     maxCount: int; // 该通道的全局最大存活数量
     resolveRule: ResolveRule; // 超出限制时的解决策略
 }
@@ -234,6 +280,12 @@ enum ResolveRule {
 2. **`sfx_metadata` (音效)**：拦数量 (Concurrency) + 拦时间频次 (Cooldown)
 3. **`floating_text_metadata` (UI)**：拦数量 (Concurrency) + 清洗聚合 (Merge & Threshold)
 4. **`mat_metadata` (材质)**：仅靠优先级决断 (Priority Stack)，**不设并发拦截**，绝对忠实于状态语义。
+
+### 边界界定：全局控制 vs 单体约束
+
+本系统中的表现层防过载由两道防线构成，各司其职：
+1. **逻辑层的单体约束（CueComponent 引用计数）**：解决 **“同源重叠”**（同一个怪物身上挂了十层毒，只播一团毒雾）。关注点在于逻辑上的严密合一与单体防穿模。
+2. **资产层的全局控制（asset_concurrency）**：解决 **“多源同类爆发”**（一个法术同时点燃了同屏 50 个怪物，为了防掉帧和爆音，最多只渲染 10 团火）。关注点在于硬件性能兜底与视听焦点的清洗。
 
 ---
 
@@ -287,7 +339,10 @@ $$S = \text{Count}(\text{A.Tags} \cap \text{Event.Tags}) \times 100 + \text{Coun
 | `Status` 移除 (过期/驱散/死亡) | DetachCueEvent | host | `StatusInstance.uid` |
 | `SpawnObj` (子弹/法阵) 诞生 | CueEvent | self | `SpawnObj.uid` |
 | `SpawnObj` (子弹/法阵) 销毁 | DetachCueEvent | self | `SpawnObj.uid` |
+| `Ability` 进入前摇/蓄力/引导 | AttachCueEvent | owner | AbilityInstance.uid | 
+| `Ability` 阶段切换/被打断/结束 | DetachCueEvent | owner | AbilityInstance.uid | 
 
+> 注：bindingId 作为逻辑层实例的唯一身份证，在事件总线中起到了“精确路由”与“引用计数鉴权”的关键作用，表现层必须妥善记录来源以应对复杂的状态重入与多源叠加。有个约束要满足：同一个Actor下的bindingId必须不重叠。
 
 ---
 
@@ -296,7 +351,7 @@ $$S = \text{Count}(\text{A.Tags} \cap \text{Event.Tags}) \times 100 + \text{Coun
 ### 材质优先级调度
 对于 `MaterialOverride`，针对每个 Actor 维护一个**活跃材质映射表**，利用 `bindingId` 实现无序的精准移除，并基于 `priority` 动态裁决最终渲染
 
-### 飘字聚合策略 (Floating Text Batching)
+### 飘字聚合策略
 针对割草类游戏的高频伤害，表现层提供内置聚合：
 * **Batch (批处理)**：在 `mergeWindow` (如 0.2s) 内收到的所有伤害，合并为一个数字弹出。
 * **Rolling (滚动刷新)**：第一个数字弹出后，后续数字在原 UI 位置累加，并重置 UI 的消失动画时间。
