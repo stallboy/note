@@ -1,0 +1,111 @@
+Summary of Volume One of the Theory of Motion of Rigid Bodies.
+
+This is mainly a transcription from the French of the editor Charles Blanc's Preface to the Opera Omnia edition of this work (Series 2, vol. III). Much interesting material is presented here that clarifies Euler's treatise, and the appropriate sections should be consulted here when reading the English version.
+
+The Theory of motion is preceded by an introduction of 6 chapters, dedicated to the
+
+mechanics of a point mass. In effect, one finds here the principles of dynamics that can then be
+
+applied well enough for the study of solids. This introduction is not just a simple summary of the
+
+Mechanica, but sets out the progress made since the publication of that work.
+
+The first chapter sets out the kinematics of a point mass; the idea of using the methods of
+
+analytical geometry for studying the motion of a single point is one so familiar to us that we would
+
+do well to remember that it was then quite new; one does not find the intrinsic equations for the
+
+dynamics of a point until the equations appeared in Cartesian coordinates in 1742 with Maclaurin's
+
+treatise : A complete system of fluxions.
+
+The second chapter is dedicated to that study which one would now call inertial systems;
+
+the third introduces the principles of the dynamics of a point mass, which contains the essential
+
+ideas of mass, force, inertia, speed, and acceleration. Putting these quantities into the laws
+
+enunciated necessitated the use of units, and Euler dedicates chapter four to a suitable choice of
+
+units. This system depends on the magnitude of a length : it is sufficient for that to consider the
+
+second as a magnitude without dimension, and to replace the mass of a body by its weight
+
+multiplied by a coefficient suitably chosen. It is necessary then to introduce into the equations a
+
+number given by the observation of the fall of heavy bodies : that will be the height of the fall in
+
+the first second; Euler writes this as g (in modern terms, this would be
+
+g
+2
+
+); this coefficient has the
+
+dimension of length, the time being without dimension in this system.
+
+The final two chapters of the introduction give the application of these principles and choice
+
+of units to the dynamics of a point ; one finds for § 205 and the following sections the intrinsic
+
+equations of motion along curves, from § 218 the treatment involves planes, and from § 228 the
+
+study of a point in a channel. Finally, in chapter 6, Euler writes down the equations of relative
+
+motion w.r.t. a reference point, such as a ship and a landmark.
+
+We progress finally to the treaty proper. The whole science of dynamics rests, with Euler,
+
+on the application of d' Alembert's principle or on the principle of action and reaction, which can be
+
+stated in the following fashion : one defines in statics, what is called a system of equivalent forces
+
+(applied to a solid) ; Euler assumes that this idea is known to his reader (see § 279); he introduces
+
+the idea of the elementary force (i.e. the force of inertia), tied to that concerning the cohesion of the
+
+solid (§ 295 ­ § 304) ; he calls the elementary force applied to a point of the solid, at some instant
+
+in its motion, the force that would be applied for which, were the point free, there would be the
+
+same motion. This force is then by Newton's law, proportional to the acceleration, vector wise. D'
+
+Alembert's principle postulates (§ 295) that these elementary forces form a system equivalent to
+
+these external forces providing the motion.
+
+The determination of the motion due to these given forces will thus always be done in the
+
+following manner: one considers some motion of the solid, on calculates the elementary forces
+
+which result in this, which allows all the equivalent systems of forces to be given. If one gives then
+
+gives the external forces, it suffices to express the system of elementary forces to which they are equivalent to produce the motion.
+Some of the different chapters of the treatise are dedicated to general problems of the dynamics of solids, others to particular problems that need to be resolved with the help of the general theory, and there is but one didactic aim, as an introduction to the more difficult problems.
+In the first chapter, Euler treats the special problem of the motion of a body under the effect of forces acting on each element, parallel to each other and proportional to the mass of the elements (§ 275­§ 279). The movement is then a translation; or such forces are equivalent to a single force applied at a determined point , independent of their direction (§ 280­§ 288); this point, which he calls the centre of inertia (Euler makes the comment that it is inappropriate to use the term centre of gravity, since the force acts here in a manner considered different from the force of gravity). Also, each time these forces act on a solid, they form a system equivalent to a single force applied to the centre of inertia, the motion will be a translation (§ 289­§ 294).
+Euler shows much later (§ 690) that the whole motion is able at any instant, to be decomposed into a translation and a rotation about an axis, where he has studied at length the importance of rotational motion; chapters 2 and 4 treat the dynamics of these motions; the two following chapters are dedicated to the notion of the moment of inertia, which is fundamental in their study.
+Chapter 2 treats the motion of a solid about a fixed axis (in space and in the solid) in the absence of external forces besides those which hold the axis of rotation in place. After some definitions and kinematic considerations (§ 309­§ 320) , Euler establishes that the angular speed remains constant (§ 321­§ 326) , then he moves on to the problem : to determine the forces which keep the axis in its position (we would now say, to determine the reaction from the axis); these forces are equivalent to elementary forces (§ 327­§ 331) ; their reduction can be effected in different ways : if the solid can itself be reduced to a plane figure, perpendicular to the axis, one can reduce these forces to a unique resultant (§ 332­§ 337) ; in the case of a solid the reduction gives in general two forces. But that is always possible in an infinite number of ways (§ 338­§ 342) ; one can, for example put in place the two points of application (§ 343­§ 346); in passing, Euler considers the case where one or the points of application is at infinity, which is equivalent to our notion of a couple.
+In chapter 3, Euler studies the motion of a solid which is rotating about an axis. Calculating the elementary forces, a system of forces is formed equivalent to all the systems of forces that are able to produce the motion sought (§ 352­§ 356); this system can be reduced in an infinite number of ways to two forces only (§ 357­§ 360) ; if the solid has been submitted to some system of forces, the axis reaction put in place, then with these forces, a system is reduced to a system equivalent to elementary forces (§ 361­§ 369); now the moments from two equivalent systems are equal, and the moments of the reactions from the axis are zero, then the motion does not depend on the external moments. From this proposition one has a law similar to Newton's law: the angular acceleration is proportional to the moment of the external forces and inversely proportional to a magnitude which depends on the solid and on the axis, and which is called the moment of inertia. The end of the chapter is then devoted to the calculation of the reactions of the axis in different cases; one looks in particular for that case in which the reaction is zero, where the idea of the centre of oscillation arises.
+It is then easy to study the rotation at some instant (chapter 4), Euler determines first of all the elementary forces corresponding to a given angular acceleration (§ 398­§ 407), then he
+
+calculates the acceleration produced by the given forces (§ 408­§ 412), and finally the reaction of the axis in such a motion (§ 413­§ 417).
+There has been a question before about the moment of inertia (§ 363); chapter 5 has been dedicated to a systematic study of this magnitude. Having recalled the definition and enunciated some evident properties (§ 422­§ 426), Euler studies the variation of the moment of inertia when the axis is varied : at first (§ 428­§ 431) in a parallel displacement, then (§ 432­§ 437) after a rotation about the centre of inertia. Euler did not perceive the so convenient notion of the ellipsoid of inertia; his discussion of the value of the moment of inertia relative to some axis from the centre of inertia (§ 438­§ 463) has been rendered rather long. The principal axes of inertia have been defined from their extreme properties; Euler admits as evident the existence of a maximum for the whole function continued over the surface of a sphere; the existence of the principal axes follows from that.
+The case of a variable axis about a point other than the centre of inertia follows from a like study (§ 445). The end of the chapter (§ 464­§ 470) considers the moment of inertia of a solid formed from the union of two given solids.
+In chapter 6, Euler calculates various moments of inertia : a wire (§ 471­§ 476); plane figures (§ 477­§ 500) and noteworthy solids (§ 501­§ 521).
+Among gyratory motions, the movement of a pendulum formed from a heavy body is the most immediate. This study becomes the object of chapter 7. The search for an analogy with translational motion leads to a certain point being considered, the centre of oscillation, or what amounts to the same thing, by considering a particular simple pendulum, the equivalent simple pendulum (§ 522­§ 546); then, and always with numerical examples, there is the study of pendulums formed from a number of solid parts (§ 547­§ 560), and finally the reaction of the axis (§ 561­§ 571).
+The three chapters that follow are dedicated to the rotational movement about a variable axis; they constitute one of the essential elements of the treatise. In chapter 8, Euler determines the permanent axes of a solid, calling these the free axes, that is to say the axis about which a rotation can be made without the reaction of a support. A rotation about such an axis can be sustained without being changed if there are no external forces. It is easy, by means of the results of chapter 2 (§ 338), to find what these axes are : they are the principal axes of inertia (§ 572­§ 581). Hence the existence has been established of three permanent axes (three or less, but in certain cases an infinite number).
+Next one resolves the problem : a solid is rotating about a permanent axis, what are the conditions that must be satisfied by a system of external forces for the motion to persist about that axis? It is sufficient that the resultant of these forces acting in each plane perpendicular to the axis must be zero (§ 582­§ 584); the value of the angular acceleration under the action of the given forces is then determined, the axis meanwhile remains fixed (§ 585).
+Finally, Euler considers the motions composed from a uniform translation and from the rotation about a permanent axis (mixed motions) ; he studies the conditions for the permanence of such a motion, taking successively the various cases which arise, but which are always limited to the rotation about a fixed axis.
+It is necessary to move on to the more general motions of a solid. Always, Euler again studies the start of such a motion (chapter 9). Here anew, he begins by studying the inverse problem, that is to say the problem of finding the forces for a known movement; he treats the problem : a solid being at rest, to determine the two forces inducing a rotation about a given axis, one of the forces being applied to the centre of inertia (§ 624 and those following); it suffices then
+
+to invert the equations obtained to have the solution to the problem (§ 632) : to determine the initial rotation produced on a solid at rest by the two forces, given that the resultant force is zero, and one of these is applied at the centre of inertia. The axis for this rotation will be called by Lagrange (Oeuvres completes, 11, p. 311­312) the spontaneous axis of rotation.
+On projecting (§ 639 and those following) the given forces and the rotation vector on to the principal axes, one obtains simpler relations which present Euler's equations in some order. The chapter ends with the consideration of some forces : with one for rotation is to be added one for translation.
+In chapter 10, Euler treats the variation of rotation under the effect of the forces given. He begins with a preliminary problem, which is a kinematics problem : a solid body turns at the time t = 0 about an axis passing through the centre of inertia; to that body at that instant are applied forces that impress on the body, if it should be at rest, a rotation about a certain axis (which does not necessarily coincide with the first), to determine the variation in the rotation (§ 650­§ 660); It is then possible to determine the resultant rotation of given a finite rotation and a given infinitesimal rotation.
+After which, Euler resolves successively the following problems, the sequence of which is quite natural :
+A solid body rotates about an axis passing through the centre of inertia, to determine the elemental forces, that is to say, the forces which act to modify the motion (§ 661­§ 664); these forces being known, to determine the instantaneous rotation which they impress on the body considered, as if it should be at rest (§ 665­§ 668), this constitutes an application of the problem treated in§ 639, finally :
+the solid body being animated by a given rotation about an axis passing through the centre of inertia, to determine the instantaneous variation of this axis ; this comes down in effect to writing the differential equations for the motion of a solid body about the centre of inertia in the absence of external forces. Euler chooses to fix the angular speed by its magnitude and by the three angles which it makes with the principal axis of the body; thus he obtains the equations which, all being perfectly equivalent to these which are to-day called Euler's equations, without external forces, these appear in a rather complicated form (having to do with the equation in § 669 given d and the equations from § 674).
+The end of the chapter is dedicated to the following problem, the solution of which is enabled by passing from a system of reference adopted with the axis fixed in the body to a system fixed in space : knowing the position of the body at some given instant thus which are composed from the angular speeds according to the principal axes fixed in the body, to determine the motion of the solid body from the relation to the fixed axes; in other words, the parameters chosen above are to be given as a differential function of the parameters fixing the position by relating to the absolute axes. These differentials are given in § 678.
+He begins again by integrating these differential equations for the motion. True to his method, Euler does not go at first directly to the solution of the general problem : in three chapters he goes on to treat successively the case of a body of which the three principal moments of inertia are equal, then the case of two equal moments, and finally the general case in which the three moments are unequal.
+
+

@@ -1,0 +1,2438 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 344
+
+Chapter 5
+
+Concerning the Moment of Inertia.
+
+DEFINITION 7
+422. The moment of inertia of a body with respect to some axis is the sum of all the products which arise, if the individual elements of the body are multiplied by the square of their distances from the axis.
+
+COROLLARY 1
+423. Because both the elements of the body as well as the square of the distances are always positive, it is necessary that all these products are positive ; hence with an increase of the mass of the body clearly the moment of inertia of this is increased.
+
+COROLLARY 2
+424. Hence the moment of inertia can be considered as the product from the mass of the body by the square of a certain line; thus if the mass of the body is equal to M, then the moment of inertia with respect to some axis has a form of this kind Mkk.
+
+COROLLARY 3
+
+425. Therefore with the moment of inertia found with respect to an axis, around which that we assumed to be rotating about before, and that is equal to Mkk. Thus if the moment of the forces acting is Vf and the angular speed is equal to  , then
+
+d
+
+=
+
+2Vfgdt Mkk
+
+.
+
+EXPLANATION
+426. The reasoning behind this derivation has been chosen from the similarity to progressive [i. e. linear] motion ; for just as in progressive motion, if a body is accelerated by a force along its own direction, the increment of the speed is as the force acting divided by the mass or the inertia, thus in gyratory motion, because in place of the force acting it is required to consider the moment of this, that
+expression  rrdM , which is put in place of the inertia in the calculation, we can call
+the moment of inertia, as the increment of the angular speed in a similar manner becomes proportional to the moment of the force acting divided by the moment of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 345
+
+inertia. Which is closer in its likeness to that, because it is required to multiply each by the element of the time dt and by twice the line 2g, in order that the increment in the speed may be expressed.
+
+SCHOLIUM
+427. Since the same body can be referred to infinite axis, with respect to which it has certain moments of inertia, from which the moment of inertia cannot be defined absolutely, unless it is referred to a determined axis. Yet meanwhile it is not always a help, if the moment of inertia of the same body has to be found with respect to several
+axes, that the calculation is extricated afresh from the formula  rrdM ; but it happens
+often that, as we have come upon the moment of inertia with respect to one axis, from that we can easily gather together the moments of inertia of the same body with respect to an infinite number of other axes. But in the first place this [proposition] has an advantage, when the axes are parallel, thus in order that from a known moment of inertia for one axis from that it is possible to assign easily the moment of inertia for some other parallel axis, which we show in the following problem.
+
+PROBLEM 25
+428. For the given moment of inertia of a certain body with respect to the axis OA, to find the moment of inertia of the same body with respect to another axis oa parallel to that axis(Fig. 46).
+SOLUTION
+Let Oo = c be the separation of these axis, in the plane of which there is taken the directrix OB normal to OA and in the third place OC perpendicular to each. Some element of the body dM of the whole mass M is considered at Z, thus with the perpendicular ZY sent to the plane AOB and with the normal YX drawn from Y to OA, which produced to the other axis oa crosses that at x; and there is put in place for the given axis OA the coordinates OX = x, XY = y and YZ = z. Therefore since the moment of inertia is given with respect to this axis OA, let that be equal to Mkk, and then
+ (yy + zz)dM = Mkk .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 346
+
+Now for the new axis oa, on account of ox = x, xY = c + y and YZ = z , then the
+
+moment of inertia is equal to
+
+ ((c + y)2 + zz)dM =  ccdM + 2 cydM +  (yy + zz)dM .
+
+Therefore as the integral
+
+ (yy + zz)dM = Mkk et  ccdM = Mcc,
+
+for the term 2 cydM = 2c ydM the centre of inertia of the body is considered, that is
+
+at I, thus to the plane of the axes there is sent the perpendicular IK and from K normal to the axes KGg, and then
+
+ ydM = M GK .
+
+Hence the moment of inertia with respect to the axis oa is equal to Mkk + Mcc + 2Mc GK ,
+
+but on account of Gg = c and cc + 2c.GK = gK 2 - GK 2 thus is expressed so that it
+
+becomes :
+
+Mkk + M  gK 2 - M GK 2 ,
+
+and thus from the known moment of inertia with respect to the axis OA, which is equal to Mkk, the moment of inertia with respect of other axis parallel to that oa is easily found.
+
+COROLLARY 1
+429. If the axis oa is more distant from the centre of inertia I than the axis OA, then the moment of inertia with respect to the axis oa is greater than with respect to the axis OA. Indeed the moment of inertia with respect to the axis
+oa = Mkk + M  gI 2 - M GI 2 .
+
+COROLLARY 2
+430. If therefore the infinitude of axes are considered parallel amongst themselves, the momentum if inertia will be a minimum with respect to that axis, which is itself drawn through the centre of inertia. Clearly, if the centre of inertia should be at G and the axis OA should pass through that, with respect to this the moment of inertia is equal to Mkk, and with respect to the axis oa the moment of inertia is equal to
+Mkk + M Gg 2 .
+
+COROLLARIUM 3
+431. Therefore if the moment of inertia Mkk is given with respect to a certain axis passing through the centre of inertia of the body, then the moment of inertia with respect to some other axis parallel to that, surpasses that by the product of the mass of the body by the square of the distance from the centre of inertia.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 347
+
+SCHOLIUM
+432. Hence the investigation of the moment of inertia of a certain body is restricted only to the axis of this drawn through the centre of inertia, with respect to which if moments of inertia were to be investigated, then for any other axis the moments of inertia could be gathered easily. And this property of the centre of inertia, because the moment of inertia with respect to the axis passing through that shall be the smallest among all with respect to the other parallel axis taken, altogether is remarkable, since also it indicates the outstanding nature of the rotational motion about this centre. Now it is possible to draw innumerable axes through the centre of inertia, of which there is strong disagreement with regard to the moments of inertia among themselves, nor is it apparent how the rest are able to be defined from the others given. Yet meanwhile, because none of these are able either to vanish or to grow indefinitely, among themselves it is necessary that both a maximum and a minimum are given, which enquiry as it is considered to be entirely worthwhile, as that may be undertaken more carefully. But in order that this may succeed more easily, it is convenient for the kinds of moment of inertia to be expressed by a calculation with respect to any axis drawn through the centre of inertia.
+PROBLEM 26
+433. If the nature of the body is expressed by an equation between three coordinates, to find the moment of inertia of this body with respect to any axis drawn through its centre of inertia.
+SOLUTION
+Let I be the centre of inertia of the body, in which likewise the coincidence of the three directrices IA, IB, IC is established, normal to each other (Fig. 47), from which for some element of the body dM placed at Z the parallel coordinates are : IX = x, XY = y, YZ = z; thus, if from which of the directrices should be taken for the axis, the moment of inertia can be assigned easily with respect to that. Now that [i. e. the new moment of inertia] has be defined with respect to some other axis IG, through which a
+plane drawn normal to AIB cutting this in the right line IF, and the angle is put in place AIF =  and the angle FIG =  ; hence the question arises, how the point Z may
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 348
+
+be expressed by three other coordinates, of which one is taken with the axis IG itself. We may move the three directrices in the first place thus, so that one shall be IF, with IC remaining, while the third shall be normal to these, and on drawing YX' normal to IF the three coordinates will become x', y', z',
+IX ' = x' = x cos + y sin , X ' Y = y' = y cos - x sin et YZ = z' = z ; [Thus, in the first place, a rotation through the angle takes place in the AIB or xy
+plane about the fixed IC or z axis. ] In a like manner hence the transition can be made to the three new coordinates x", y", z", of which x" is taken on the axis IG, and there becomes :
+x" = x' cos + z' sin , z" = z' cos - x' sin , y" = y' , [Thus, in the second place, a similar rotation through the angle takes place in the FIG or x'z' plane about the fixed YX' or y' axis. ] thus with the values substituted there is given :
+x" = x cos cos + y sin cos + z sin ,
+y" = y cos - x sin ,
+and
+z"=z cos - x cos sin - y sin sin .
+And hence the square of the distance of the point Z from the axis IG produces :
+
+y" y"+ z" z" = x2 sin2  + y2 cos2  + z2 cos2  - 2xy sin cos - 2xz cos sin cos -2 yz sin sin cos + x2 cos2 sin2  + y2 sin2  sin2  + 2xy sin cos sin2  .
+
+Now we put in place the following integrals of the extended body :
+
+ xxdM = A,  yydM = B,  zzdM = C,  xydM = D,  xzdM = E,  yzdM = F ,
+
+and the moments of inertia sought with respect to the axis IG :
+
+A( sin2 + cos2  sin2  ) + B( cos2  + sin2  sin2  ) + C cos2  -2D sin cos cos2  - 2E cos sin cos - 2F sin sin cos .
+
+COROLLARY 1
+434. Here the quantities A, B, C by necessity are positive, and the rest truly D, E, F on account of the body can be either positive or negative.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 349
+
+COROLLARY 2
+435. The moment of inertia with respect to the axis IA is equal to B + C , with respect to the axis IB = A + C and with respect to the axis IC = A + B . Therefore from these three moments the values A, B, and C are known.
+
+COROLLARY 3
+436. For however the angles  and  are taken, the moment of inertia found is never
+able to vanish, but a positive value is always obtained.
+
+SCHOLIUM
+437. If we wish to determine not only the motion of the body about the axis IG, but also the forces sustained by the axis, we must know besides the moment of inertia with respect to this axis, also the values of the integral formulas
+ x" y" dM and  x" z" dM . Moreover the formulae in terms of the coordinates x, y, z
+become:
+
+ x" y" dM =  dM (x cos cos + y sin cos + z sin )(y cos - x sin)
+and
+ x" z" dM =  dM (x cos cos + y sin cos + z sin )( - x cos sin - y sin sin + z cos )
+
+Whereby, if here the above values are substituted, we have :
+
+ x" y" dM = - A sin cos cos + B sin cos cos + D( cos2 - sin2 ) cos
+-E sin sin + F cos sin
+ x" z" dM = - Acos2 sin cos - B sin2  sin cos + Csin cos
+-2D sin cos sin cos + E cos( cos2  - sin2  ) + F sin( cos2  - sin2  ),
+
+which values from that are to be noted more, because they vanish in the cases, in which the moment of inertia shall be a maximum or minimum, as we shall soon see.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 350
+
+PROBLEM 27
+438. Among all the axes drawn through the centre of inertia of a given body, to define that with respect to which the moment of inertia is either a maximum or a minimum.
+SOLUTION
+Everything remains as in the previous problem, and let IG be such an axis sought, so that it is thus required to determine the angles AIF =  and FIG =  . Since the moment of inertia with respect to this axis shall be :
+ (y" y"+z" z" )dM =A sin2  + Acos2  sin2  + B cos2 + B sin2 sin2  + C cos2 
+-2D sin cos cos2  - 2E cos sin cos - 2F sin sin cos , it may be differentiated in two ways, on taking first  and then  as the variable, and with each differential put equal to zero. Therefore from the first this equation is produced :
+2A sin cos cos2  - 2B sin cos cos2  - 2D cos2  cos2  +2D sin2  cos2  + 2E sin sin cos - 2F cos sin cos = 0,
+
+which divided by -2 cos presents :
+-(A - B) sin cos cos + D( cos2  - sin2) cos -E sin sin + F cos sin = 0
+
+or  x" y" dM = 0; thus on collecting terms :
+
+sin cos
+
+= tang
+
+=
+
+-(A-
+
+B)
+
+sin E
+
+cos + D( cos2 sin -F cos
+
+
+
+-
+
+sin2
+
+
+
+)
+
+.
+
+But on taking  for the variable we come upon this equation : 2Acos2  sin cos + 2B sin2  sin cos - 2C sin cos
++4D sin cos sin cos - 2E cos( cos2  - sin2  )
+-2F sin( cos2  - sin2  ) = 0,
+which is the formula equal to -2 x" z" dM . Now since
+2 sin cos = sin 2 and cos2  - sin2  = cos 2 , there then becomes:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 351
+
+Acos2  sin 2 + B sin2  sin 2 - C sin 2 +2D sin cos sin 2 - 2E cos cos 2 - 2F sin cos 2 = 0,
+
+thus it follows that :
+
+sin 2 cos 2
+
+= tang2
+
+=
+
+2E cos +2F sin Acos2  + B sin2  -C +2D sin cos
+
+,
+
+from which values equated together there is (E cos + F sin)(E sin - F cos)2 = (E cos + F sin)((B - A) sin cos + D( cos2 - sin2 ))2 +(E sin - F cos)((B - A) sin cos + D( cos2  - sin2))(Acos2 + B sin2 - C +2D sin cos) =((B - A) sin cos + D( cos2  - sin2))(E(B sin - C sin +D cos ) - F (Acos - C cos +D sin)).
+
+Now since sin and cos everywhere occupy the same dimensions, if we put
+
+sin cos
+
+= tang = t,
+
+then we obtain this equation :
+(E + Ft)(F - Et)2 =(D + (B - A)t - Dt2 )(DE - AF + CF + (BE - CE - DF )t),
+which on reduction in order gives 0 = EFF - DDE + (A - C)DF + t(F 3 - 2EEF + DDF + (A - 2B + C)DE - (A - B)(A - C)F )
+
++t2 (E3 - 2EFF + DDE + (A - 2B + C)DF - (A - B)(A - C)E)
+
++t3(EEF - DDF + (B - C)DE),
+
+thus so that from this cubic equation the value of t must itself be elicited.
+
+COROLLARY 1
+
+439. Since the equation, from which the value of t must be found, is a cubic, certainly
+
+it always has one real root, which provides the tangent of the angle AIF =  , from
+
+which the other angle found FIG =  thus is defined, so that it becomes
+
+tang
+
+=
+
+(B- A) sin cos + D( cos2  -sin2  ) E sin -F cos
+
+=
+
+1 2
+
+(B
+
+-
+
+A)
+
+sin
+
+2
+
++
+
+D
+
+cos
+
+2
+
+E sin -F cos
+
+.
+
+COROLLARY 2
+440. But it can happen that all the three roots are real, in which case three axis are given in the body, with respect to which axes the moments of inertia are either a maximum or a minimum.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 352
+
+SCHOLIUM
+441. But from the nature of the problem it is understood that in any body with more than one such axis present, with respect to this, the moment of inertia shall be either a maximum or a minimum; for if one is axis is given, then with respect to this the moment shall be generally either a maximum or minimum, hence in some other case the axis by necessity is given, with respect of which the moment shall be either a minimum or a maximum. And hence it is possible to conclude, the cubic equation found not only has one but two real roots, from which thus all three roots are always real, which indeed can hardly be observed from the form of this equation. Now indeed with one such axis known, without difficulty the rest of the same kind can be found, which it will be worth the effort to show in the following problem.
+
+PROBLEM 28
+
+442. For one given axis passing through the centre of the body, with respect to which the moment of inertia is a maximum or a minimum, to find the remaining drawn through the centre of this, for which the same property is agreed.
+
+SOLUTION
+With the centre of inertia I of the body arising, let IA be the axis given for that, with respect of which the moment of inertia is either a maximum or a minimum, and from the preceding problem it is agreed that this property cannot be in place unless it
+shall be that  xydM = 0 and  xzdM = 0 ; whereby from the above formulas we have
+D = 0 and E = 0. But if now IG should be another axis of this kind, for which as before there is put the angle AIF =  and FIG =  , as with respect to this the moment of
+inertia shall be (A sin2 + cos2  sin2  ) + B( cos2  + sin2  sin2  ) + C cos2  - 2F sin sin cos ,
+
+the method of maxima and minima provides these two equations :
+
+I. (A - B) sin cos cos2  - F cos sin cos = 0,
+
+II. (Acos2  + B sin2 ) sin cos - C sin cos - F sin( cos2  - sin2  ) = 0. Of which the former since divided by cos cos , is either cos = 0 or cos = 0 ;
+
+indeed the third root of this
+
+tang 
+
+= (A-B) sin
+F
+
+defines nothing on substitution into the other equation, since the angle  clearly
+
+escaped from the calculation. Therefore let
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 353
+
+cos = 0 and thus  = AIF a right-angle and sin = 1, and the other equation
+
+presents:
+
+B sin cos - C sin cos - F( cos2  - sin2  ) = 0
+
+or
+
+1 2
+
+(B
+
+- C)
+
+sin 2
+
+=
+
+F
+
+cos 2
+
+and
+
+tang
+
+2
+
+=
+
+2F B-C
+
+;
+
+thus for the angle FIG a twofold value is produced, either FIG =  or FIG =  + 90o . And thus from the one given axis IA always two of the new are gathered together rejoicing in the same property of maxima or minima, which three axis hence correspond to the three roots of the equation found before. But from the first equation the root cos = 0 clearly makes nothing here; since indeed the angle FIG should be right, and the angle AIF =  is varied in some manner, the right line IG keeps the
+same position IC always and nor from differentiation does it keep this place, now on
+account of  = 90o the momentum of inertia in respect of the axis IG is equal to
+
+A + B sin2  + C cos2  - 2F sin cos ,
+
+but in respect of the given axis IA it is equal to B + C .
+
+COROLLARY 1
+443. Therefore since the angle AIF =  becomes right, both the remaining axes are normal to IA and, since they make a right angle to that in turn, in every body three axes are given drawn through the centre of inertia I and normal to each other, in respect of which the moments of inertia are either a maximum or a minimum.
+COROLLARY 2
+444. But if therefore these lines themselves IA, IB and IC were these three axes, with respect of which the moments of inertia are either a maximum or a minimum, then
+ xydM = D = 0,  xzdM = E = 0, and  yzdM = F = 0.
+SCHOLIUM
+445. In these problems we have indeed selected the point I to be the centre of inertia of the body, because we have tied together firmly the calculation of the moment of inertia to axis of this kind only, which pass through the centre of inertia of the body ; now in the whole calculation of each problem there is nothing involved, because the nature of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 354
+
+the centre of inertia is joined with the point I. Whereby these problems appear much wider, thus as on taking some point I among all the axes passing through it always three are able to be defined, with respect of which the moments of inertia shall be either a maximum or a minimum, and in order that these three axes are normal between themselves. Now here I consider only that property as convenient with the centre of inertia, and to know that for any body it [i. e. the centre of inertia] lies between these three axes, since from these the moments of inertia in respect of any axis can easily be found.
+
+DEFINITION 8
+446. The principal axes of any body are these three axes passing through the centre of inertia of this body, with respect to which the moments of inertia are either a maximum or a minimum.
+
+COROLLARY 1
+447. From the preceding, it is understood that for any body not only three such principle axes are to be given, but these also are to be normal amongst themselves ; thus these most conveniently may be taken for the three directrices to which the body is referred.
+
+COROLLARY 2
+448. But if therefore IA, IB, IC were the principal axis of any body (Fig. 47) and from these for the element of the body dM placed at Z there are put in place the coordinates IX = x, XY = y, YZ = z, then not only will
+ xdM = 0,  ydM = 0,  zdM = 0,
+but also
+ xydM = 0,  xzdM = 0, et  yzdM = 0.
+
+COROLLARY 3
+449. Now moreover, if there is put
+ xxdM = A,  yydM = B,  zzdM = C.
+then the moments of inertia of the body will be : with respect to the axis IA = B + C, with respect to the axis IB = A + C, with respect to the axis IC = A + B,
+which are either maxima or minima.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 355
+
+SCHOLIUM
+450. Certainly it is true of the maximum moments, that in every body they are given by three such axes, and the demonstration of this has certainly been made clear from the preceding. For on taking some three directrices IA, IB, IC, which in turn intersect each other normally at the centre of inertia I, we have instructed how to defined one principle axis of this kind IG with the help of the resolution of a cubic equation, then with now knowing one the two left are assigned easily. Now truly it will scarcely happen for a body to be so irregular that not as much as a single axis will be unknown, thus so that henceforth the two remaining axes will be produced easily. Whereby previously we assume that these three axis are to be known by us; of which provided we know the moments of inertia with respect to which, for all other axes are able to be shown most promptly, as will be apparent from the following problem.
+EXPLANATION
+451. Just as the reasoning of the maxima and minima may be agreed upon for these three principal axes, thus it is not easily seen through. For since between these there is certainly one axis of which the moment of inertia shall be the greatest of all, and likewise one, with respect of which the moment of inertia shall be the least of all, but it is necessary that with respect to the third the moment of inertia shall be neither the greatest nor the least of all, unless perhaps it should agree with either of these, which sometimes can happen. Now the calculation of the maxima and minima on many occasions indicates quantities of the same kind, which absolutely are neither maxima nor minima, as from that calculation nothing more is declared, because, if you withdraw an infinitely small distance from the place found, neither an increase nor decrease is produced. Thus if IA shall be the axis of the maximum taken absolutely and IC the axis of the minimum taken absolutely (Fig. 47), with respect to the axis IB the moment of inertia will be neither the greatest nor the least of all, but yet it will possess a mean value of this kind, so that, if another axes an infinitely small distance from this is assumed in some direction, the moment of inertia of this neither increases nor decreases. And on this account between these three axis a large distinction intervenes, because it deserves especially to be observed, that of these one has the maximum moment, one the smallest, now the third a mean, that yet in the calculation is able to be seen as a maximum or a minimum, and the reason for this will be shown more in the following problem.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 356
+
+PROBLEM 29
+452. Of the given moments of inertia of a certain body with respect to the three principal axes, to find the moment of inertia of this body with respect to any axis drawn through the centre of inertia.
+SOLUTIO
+Let IA, IB, IC be the three principal axes of the body (Fig. 47) mutually crossing each other normally at the centre of mass I, and with the mass of the body put equal to M let the moment of inertia of this with respect to the axis IA = Maa, with respect to the axis IB = Mbb and with respect to the axis IC = Mcc ; thus the moment of inertia with respect to some axis IG must be found, which is inclined to the plane AIB by the angle GIF =  , and let the angle AIF =  . Now the element of the body dM is considered at Z, and the
+coordinates of this point shall be IX = x, XY = y and YZ = z; and with the integrals put in place
+
+ xxdM = A,  yydM = B,  zzdM = C.
+then
+ xydM = D = 0,  xzdM = E = 0, and  yzdM = F = 0.
+
+Thus from § 433, the moment of inertia about the axis IG is equal to :
+
+A( sin2  + cos2  sin2  ) + B( cos2  + B sin2  sin2  ) + C cos2  .
+
+But since from the three given moments there shall be : Maa = B + C, Mbb = A + C, Mcc = A + B,
+
+hence in turn there is gathered :
+
+A
+
+=
+
+1 2
+
+M
+
+(bb
+
++
+
+cc
+
+-
+
+aa),
+
+B
+
+=
+
+1 2
+
+M
+
+(aa
+
++
+
+cc
+
+- bb),
+
+C
+
+=
+
+1 2
+
+M
+
+(aa
+
++
+
+bb
+
+-
+
+cc),
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 357
+
+from which values substituted there will be the sought moment of inertia about the axis IG equal to :
+
+M (aa cos2  cos2  + bb sin2  cos2  + cc sin2  ).
+
+Where it may be observed that cos cos = cos AIG, sin cos = cos BIG and sin = cos CIG .
+
+Whereby, if the differences of the axis IG from the three given principal axes are put
+in place : AIG =  , BIG =  , CIG =  ,
+
+then the moment of inertia about the axis IG is equal to
+
+Maa cos2  + Mbb cos2  + Mcc cos2  ,
+but these angles ,  , are to be compared thus, so that always cos2  + cos2  + cos2  =1.
+
+COROLLARY 1
+
+453. On putting in place the moment of inertia about the IG = Mkk this can be expressed in the following ways :
+Mkk = Maa - M (aa - bb) cos2  - M (aa - cc) cos2  ,
+Mkk = Mbb + M (aa - bb) cos2  - M (bb - cc) cos2  ,
+Mkk = Mcc - M (aa - cc) cos2  + M (bb - cc) cos2  and in any of these expressions two angles are able to be assumed freely.
+
+COROLLARY 2
+
+454. If it should be that aa > bb and bb > cc, then the momentum of inertia about the axis IA will be the greatest of all but about the axis IC it will be the smallest of all, moreover the mean holds the moment of inertia about the axis IB.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 358
+
+COROLLARIUM 3
+455. If it should be that (aa - bb) cos2  > (bb - cc) cos2  ,
+then the momentum of inertia about the IG is greater than the mean Mbb, with the opposite it is truly less. But if is should be that
+(aa - bb) cos2  = (bb - cc) cos2  , that can happen in an infinite number of places, here all the moments of inertia are equal to each other.
+COROLLARY 4
+456. If it should be that aa = bb = cc, that is, if the principal moments of inertia are equal to each other, about all the axis drawn through the centre of inertia the principal moments of inertia are equal to each other, and thus any axis can be given for the principal axis.
+SCHOLION
+457. These are able to be represented elegantly in spherical trigonometry in the customary manner (Fig. 48). For with centre of inertia I at the centre of a sphere let the extremities of the principal axes be the points A, B, C that are defined on the surface of a sphere, thus so that the arcs AB, AC, and BC are quadrants, and to the end points at A, B, and C there correspond the moments of inertia Maa, Mbb, Mcc, of which the first shall be the maximum, the second the mean, and the third the minimum. But if now some other axis should be considered passing through the centre of inertia, which cuts the surface of the sphere at the point S, with respect to this the moment of inertia shall be : Maa cos2 AS + Mbb cos2 BS + Mcc cos2 CS, on account of which cos2 AS + cos2 BS + cos2 CS = 1
+from these rules it is possible to be expressed by :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 359
+
+Maa - M (aa - bb) cos2 BS - M (aa - cc) cos2 CS, or Mbb + M (aa - bb) cos2 AS - M (bb - cc) cos2 CS, or Mcc - M (aa - cc) cos2 AS + M (bb - cc) cos2 BS.
+
+Hence, if S shall be considered in the quadrant BC at D, then the momentum of inertia with respect to the axis ID
+= M (bb cos2 BD + cc cos2 CD),
+=Mbb - M (bb - cc) cos2 CD,
+= Mcc + M (bb - cc) cos2 BD
+
+or the moment of inertia with respect to the axis ID will be
+
+Mbb - M (bb - cc) sin2 BD = Mcc + M (bb - cc)sin2CD.
+
+In a similar manner the moment of inertia with respect to the axis IE is equal to
+
+Maa - M (aa - cc) sin2 AE = Mcc + M (aa - cc)sin2CE;
+
+moreover the moment of inertia with respect to the axis IF becomes :
+
+Maa - M (aa - bb) sin2 AF = Mbb + M (aa - bb)sin2BF. [All on account of the complementary angles on the arcs.]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 360
+
+PROBLEM 30
+458. To find all the axes drawn through the centre of inertia, with respect to which all the moments of inertia are equal to each other.
+
+SOLUTION
+Let the moments of inertia with respect to the principal axis IA, IB, IC (Fig. 48) be Maa, Mbb, Mcc respectively, and aa > bb > cc and all the axes are sought drawn through the centre of inertia I, with respect to which the moments of inertia are equal to each other, and indeed equal to that which corresponds to the axis IE with E taken in the quadrant AC, since from A to C all the moments of this body from the maximum to the minimum occur. Let IS be such an axis, and we have this equation : Maa - M (aa - cc) sin2 AE
+= Maa - M (aa - bb) cos2 BS - M (aa - cc)cos2CS
+or
+(aa - cc)sin2 AE = (aa - bb) cos2 BS + (aa - cc)cos2CS;
+
+now on account of cos2 BS = sin2 AS - cos2 CS
+then (aa - cc)sin2 AE = (aa - bb) sin2 AS + (bb - cc)cos2CS.
+
+[Recall the cosine rule for spherical triangles, where a, b, and c are the arcs defining the triangle, and  ,  , are the corresponding angles between the arcs :
+cos a = cos b cos c + sin a sin b cos , etc. ]
+
+The angle CAS is introduced, and because cos CS = sin AS cos CAS ,then
+
+(aa - cc)sin2 AE = (aa - bb) sin2 AS + (bb - cc) sin2 AS cos2 CAS,
+
+hence
+
+sin2
+
+AS
+
+=
+
+(aa-cc) sin2 AE aa-bb+(bb-cc) cos2 CAS
+
+.
+
+Moreover if we introduce the angle ACS, then we will discover
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 361
+
+sin2
+
+CS
+
+=
+
+(aa-cc) sin2 CE bb-cc+(aa-bb) cos2
+
+ACS
+
+;
+
+[from the first identity,] the angle CAS can be increased as far as to a right angle, then
+
+(aa - cc) sin2 CE in not greater than aa ­ bb, that is, if it should be that
+
+sin AE <
+
+aa -bb aa - cc
+
+;
+
+but the angle ACS can be increased as far as a right angle, if it should be that
+
+sin CE <
+
+bb-cc aa - cc
+
+;
+
+or
+
+sin AE >
+
+aa -bb aa - cc
+
+.
+
+[i. e., since the arcs are complementary.]Whereby the point S shall be on a curve, which arising from E and crosses the quadrant AB, if it should be that
+
+sin AE <
+
+aa -bb aa - cc
+
+;
+
+but that curve crosses the quadrant BC, if it should be that
+
+But in the case, in which
+
+sin AE >
+
+aa -bb aa - cc
+
+.
+
+sin AE =
+
+aa -bb aa - cc
+
+,
+
+the curve passes through the point B itself and all the moments of inertia are equal to Mbb. Therefore in this case, then
+
+Hence on this account,
+
+sin2
+
+AS
+
+=
+
+aa -bb aa-bb+(bb-cc) cos2
+
+CAS
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 362
+
+cos AE =
+
+bb-cc aa - cc
+
+and
+
+giving
+
+aa -bb bb - cc
+
+=
+
+sin2 cos2
+
+AE AE
+
+and thus
+
+sin2
+
+AS
+
+=
+
+sin2
+
+sin2 AE +cos2
+
+AE AE cos2
+
+CAS
+
+tang
+
+AS
+
+=
+
+tang AE cos CAS
+
+,
+
+thus it is understood [in this case] that the location of the points S are to be placed on a
+
+great circle drawn through the points B and E (Fig. 49).
+
+In the case, in which sin AE <
+
+aa -bb aa - cc
+
+or
+
+the
+
+point E is taken nearer to A, let that be locoed
+
+at e, and in the quadrant AB there is given the
+
+point f, in which the moment is equally large.
+
+Hence the equation becomes :
+
+sin2
+
+Af
+
+=
+
+(aa-cc) sin2 aa -bb
+
+Ae
+
+,
+
+thus, if there is put Ae = e, Af = f, As = s and the angle eAs =  , on account of
+
+aa - cc aa -bb
+
+=
+
+sin2 sin2
+
+f e
+
+and
+
+bb-cc aa -bb
+
+=
+
+sin2 f -sin2 sin2 e
+
+e
+
+we
+
+will have this equation between s and  :
+
+sin2
+
+s
+
+=
+
+sin2 e sin2 f sin2 e+( sin2 f -sin2 e) cos2 
+
+=
+
+sin2 e sin2 f sin2 e sin2  +sin2 f
+
+cos2 
+
+,
+
+by which equation the nature of the line esf is expressed,
+
+and then,
+
+sin e sin f
+
+= sin AE .
+
+Then in the case, in which sin AE >
+
+aa -bb aa - cc
+
+,
+
+the
+
+point
+
+E
+
+falls
+
+at
+
+e'
+
+and
+
+the
+
+point
+
+d
+
+is
+
+given in the quadrant BC, where the moment is the same and at e', so that it becomes
+
+sin2
+
+Cd
+
+=
+
+(aa-cc) sin2 bb-cc
+
+Ce'
+
+.
+
+Now there is put in place Ce' = e, Cd = f ,Cs' = s and the angle e' Cs' = ; on account
+
+of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 363
+
+aa - cc bb-cc
+
+=
+
+sin2 sin2
+
+f e
+
+and
+
+aa -bb bb - cc
+
+=
+
+sin2 f -sin2 sin2 e
+
+e
+
+this equation is produced between s and  :
+
+sin2
+
+s
+
+=
+
+sin2
+
+sin2 e+( sin2
+
+e sin2 f f -sin2
+
+e) cos2 
+
+=
+
+sin2
+
+sin2 e sin2 e sin2  + sin2
+
+f f
+
+cos2 
+
+,
+
+from which the nature of the line e's'd is expressed, and then
+
+sin e sin f
+
+= sin CE .
+
+COROLLARIUM 1
+
+459. Hence a whole great circle is drawn through B and E, in order that
+
+sin AE =
+
+aa -bb aa - cc
+
+,
+
+the moment of inertia is equal to Mbb. And because the arc AE can be taken negatively as well as positively, two great circles as you please on the sphere give the
+
+same quality.
+
+COROLLARY 2
+460. In a similar manner both around the pole A and the opposite to itself, there are elliptic orbs on the surface of the sphere, of which the larger semi-axis is the arc Af and the semi-minor axis Ae, in which everywhere the same greater moment of inertia rules greater than Mbb. In the figure the line fse refers to the quadrant of these elliptic orbs.
+
+COROLLARY 2
+461. Moreover the lines, on which the moment of inertia is less than Mbb, are two elliptic orbs [i. e. on the spherical surface], of which the centres are at the pole C and at that opposite, and the major semi axis is the arc Cd, while the minor is the arc Ce'. In the figure the line ds'e' refers to the quadrant of these elliptical orbs.
+SCHOLIUM 1
+462. Although these lines fse and ds'e' drawn on the surface of the sphere are not in the same plane, because the tangential projections of these, that it pleases to distinguish by the name of elliptic orbs, have made ellipses in the plane of the sphere at the points A and C by lines normal to that plane, the centres of which are at the points A et C. For in the projection of the line fse in the plane made tangential at A, if there is put sin Af = m, sin Ae = n, in order that
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 364
+
+mm nn
+
+=
+
+aa -cc aa -bb
+
+,
+
+and for the point s by projection, the abscissa at m taken equal to x = sin s sin and
+
+with the applied line normal to this equal to y = sin s cos , this equation is had
+
+between x and y :
+
+nnxx + mmyy = mmnn,
+
+which is for an ellipse having centre at A, the semi-axis of which are m and n. And in a like manner the projection of the line ds'e' made in the tangent plane at C is found to
+
+be an ellipse. If it should be that Mbb = Mcc, in which case the point E lies at C, and
+
+letting Ae = Af and m = n, that ellipse becomes a circle, and the line fse becomes a small circle described around the pole A.
+
+SCHOLIUM 2
+463. Hence we have reduced the investigation of the moment of inertia from that, so that for any proposed body it is sufficient for three moments of inertia to be defined, which clearly shall be selected with respect to the three principal axis of this body. For with these known, the moment of inertia of the same body is easily able to be assigned with respect to any other axis passing through the centre of inertia, and hence again with respect to all these other parallel axes. And in this way, by finding the moments of inertia, which initially seemed as if infinite for any body, has been reduced wonderfully to a summary. Now in addition another distinct aid merits to be known in this development, and by its aid the momentum of inertia of any body can be gathered easily from the moments of inertia of its parts, that we explain in the following problem.
+PROBLEM 31
+464. From the given moments of inertia of two parts with respect to axis parallel between themselves and passing through each centre of inertia, to find the moment of inertia of the whole body with respect to that parallel axis passing through its centre of inertia.
+
+SOLUTION
+Hence let a body be composed of two parts (Fig. 50), the mass of one shall be equal to M having its centre of inertia at M, and indeed the mass of the other shall be equal to N and its centre of inertia at N, and the interval MN is put equal to c. Now the given moments of inertia of the first part M with respect to the axis mm, which is equal to Mmm, and of the second part N with respect to the axis nn, which is equal to Nnn; and these axes mm and nn shall be parallel to each other, which pass through the centres of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 365
+
+inertia of each; and thus the moment of inertia of the whole body with respect to the
+
+axis ii parallel to these and passing through its own centre of inertia I has to be
+
+determined. But the whole mass of the body = M + N and its centre of inertia is
+
+found at the point I on the line MN, in order that it becomes :
+
+IM
+
+=
+
+Nc M +N
+
+and
+
+IN
+
+=
+
+Mc M +N
+
+.
+
+Therefore with these three axes placed in the same plane, the inclination of these to the line MN or the angle NIi =  is put in place and the distance between the axis mm and
+
+ii =
+
+Mc sin M +N
+
+, thus the moment of inertia of the part M about the axis ii is equal to
+
+Mmm
+
++
+
+MNNcc sin2  (M + N )2
+
+.
+
+Then also on account of the distance between the axes nn and ii =
+
+Mc sin M +N
+
+, the
+
+moment of inertia of the second part N about the axis ii is equal to
+
+Nnn
+
++
+
+MMNcc sin2  (M + N )2
+
+.
+
+Whereby the moment of inertia of the whole body about the axis ii is given
+
+Mmm
+
++
+
+Nnn
+
++
+
+MNcc sin2 M +N
+
+
+
+.
+
+COROLLARY 1
+
+465. Hence the moment of the whole body is greater than the moments of the parts
+
+likewise taken about their axis parallel to each other and drawn through the centre of
+
+inertia of each ,
+
+and the excess
+
+MNcc sin2  M +N
+
+is proportional to the square of the
+
+separation of the axes.
+
+COROLLARY 2
+
+466. If the whole mass of the body is put equal to I = M + N and its moment of inertia
+
+about the axis ii = Iii, then
+
+Iii = Mmm + Nnn + MNcc sin2  .
+I
+
+Then on putting the distances IM =a and IN = b then
+
+a=
+
+Nc I
+
+and b =
+
+Mc I
+
+,
+
+thus there becomes
+
+Iii = Mmm + Nnn + Iab sin2  .
+
+COROLLARY 3
+467. Hence with the moment of inertia of the whole body given Iii together with the moment of inertia of the one part Mmm the moment of inertia of the other part also is easily gathered
+Nnn = Iii - Mmm - Iab sin2 
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 366
+
+clearly with axis taken parallel to each other and passing through the centre of inertia of each.
+
+COROLLARY 4
+468. If the body should depend on more parts, of which the individual moments of inertia about their own axis are parallel to each other and passing through the centre of inertia of each are to be investigated, hence by joining together in twos finally the moment of inertia of the whole body around its axis and passing through its centre of inertia can be gathered.
+SCHOLIUM 1
+469. In this case of more parts, there is no need in the following problem for two parts to be joined, but the moment of the whole body can be gathered. For let Mmm, Nnn, Ppp, Qqq be the moments of the parts about their axes parallel to each other and passing through the centres of inertia of each, for the whole body moreover can be taken parallel to this axis and crossing its centre of inertia, from which the axes the parts M, N, P, Q are distant by the intervals a, b, c, d ; with which noted, the moment of inertia of the whole body is equal to :
+M (mm + aa) + N (nn + bb) + P(pp + cc) + Q(qq + dd ) .
+
+Therefore in this manner often the moment of inertia of a very irregular bodies can be easily gathered, provided they are composed from parts of this kind, of which the moments of inertia are allowed to be assigned, with which agreed upon the calculation of the moments of inertia is not a little aided.
+
+SCHOLIUM 2
+470. Now it is not a sufficient method to treat all the moments of inertia of bodies to be come upon ; also it is necessary for each particular kind of body to be disclosed, so that as often as the use demands, thus they are able to be selected. But lest this effort should be indefinite, we have restricted this investigation to homogenous bodies, which are agreed to extend to similar material, thus in order that the calculation may be fitting only to geometrical bodies, where I am to consider only certain principal shapes. And in the first place, because it is allowed to consider the thinnest wires and plates as lines and planes, initially we lead from these, thus to various kinds of solids, and to be progressing in this way before others are in the habit of occurring. But for these individual bodies we must define the three principal axes and the moments of inertia around these, since from these the moments about all axes can be collected together in an easy manner. Hence also it becomes apparent likewise, how the calculation can be adapted most conveniently to all other kinds of bodies.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 367
+
+CAPUT V DE MOMENTO INERTIAE
+
+DEFINITIO 7
+422. Momentum inertiae corporis respectu cuiuspiam axis est summa omnium productorum, quae oriuntur, si singula corporis elementa per quadrata distantiarum suarum ab axe multiplicentur.
+
+COROLLARIUM 1
+423. Quoniam tam elementa corporis quam quadrata distantiarum semper sunt positiva, omnia haec producta positiva sint necesse est; hinc aucta corporis massa certe eius momentum inertiae augetur.
+
+COROLLARIUM 2
+424. Momentum ergo inertiae spectari potest tanquam productum ex massa corporis in quadratum cuiuspiam lineae; ita si massa corporis fuerit = M, eius momentum respectu cuiusvis axis habebit huiusmodi formam Mkk.
+
+COROLLARIUM 3
+
+425. Invento ergo momento inertiae corporis respectu axis, circa quem id ante gyrari
+
+assumsimus, idque fuerit = Mkk. Ita si momentum virium sollicitantium sit Vf et
+
+celeritas angularis =
+
+
+
+,
+
+erit
+
+d
+
+=
+
+2Vfgdt Mkk
+
+.
+
+EXPLICATIO
+426. Ratio huius denominationis ex similitudine motus progressivi est desumta; quemadmodum enim in motu progressivo, si a vi secundum suam directionem sollicitante acceleretur, est incrementum celeritatis ut vis sollicitans divisa per massam seu inertiam, ita in motu gyratorio, quoniam loco ipsius vis sollicitantis eius
+momentum considerari oportet, eam expressionem  rrdM , quae loco inertiae in
+calculum ingreditur, momentum inertiae appellemus, ut incrementum celeritas angularis simili modo proportionale fiat momento vis sollicitantis diviso per momentum inertiae. Quae similitudo eo est perfectior, quod utrinque per elementum
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 368
+
+temproris dt et duplam lineam 2g multiplicari oporteat, ut ipsum celeritatis incrementum exprimatur.
+
+SCHOLION
+427. Cum idem corpus ad infinitos axes referri possit, respectu cuiuslibet peculiare habebit momentum inertiae, ex quo momentum inertiae absolute definiri nequit, nisi ad determinatum axem referatur. Interim tamen non semper opus est, si eiusdem corporis momentum inertiae successive respectu plurium axium investigari debeat, ut
+calculus de novo ex formula  rrdM evolvatur; sed saepe evenit, ut, cum momentum
+inertiae respectu unius axis invenerimus, ex eo facile momenta inertiae eiusdem corporis respectu infinitorum aliorum axium colligere queamus. Haec autem commoditas imprimis locum habet, quando axes fuerint paralleli, ita ut cognito momento inertiae pro uno axe ex eo facile momentum inertiae pro quovis alio axe illi parallelo assignari possit, id quod sequente problemate ostendamus.
+
+PROBLEMA 25
+428. Dato corporis cuiusdam momento inertiae respectu axis OA, invenire eiusdem corporis momentum inertiae respectu alius axis oa illi paralleli (Fig. 46).
+SOLUTIO
+Sit Oo = c distantia horum axium, in quorum plano accipiatur directrix OB et OA normalis et tertia OC ad utrumque perpendicularis. Consideretur corporis, cuius tota massa = M, elementum quodvis dM in Z, unde ad planum AOB demisso perpendiculo ZY et ex Y ducta ad OA normalite YX, quae producta alteri axi oa occurat in x; ponanturque pro axe dato OA coordinatae OX = x, XY = y et YZ = z. Quoniam igitur respectu huius axis OA momentu inertiae datur, sit id = Mkk, eritque
+ (yy + zz)dM = Mkk .
+Iam pro novo axe oa, ob ox = x, xY = c + y et YZ = z , erit momentum inertiae =
+ ((c + y)2 + zz)dM =  ccdM + 2 cydM +  (yy + zz)dM .
+Cum igitur sit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 369
+
+ (yy + zz)dM = Mkk et  ccdM = Mcc, pro membro 2 cydM = 2c ydM consideretur centrum inertiae corporis, quod sit in I,
+unde ad planum axium demittatur perpendiculum IK et ex K ad axes normalis KGg, eritque
+ ydM = M GK .
+Hinc erit momentum inertiae respectu axis oa = Mkk + Mcc + 2Mc GK ,
+quod ob Gg = c et cc + 2c.GK = gK 2 - GK 2 ita exprimetur, ut sit
+Mkk + M  gK 2 - M GK 2 ,
+sicque cognito momento inertiae respectu axis OA, quod est = Mkk, facile invenitur momentum inertiae respectu alius cuiusque axis oa illi paralleli.
+
+COROLLARIUM 1
+429. Si axis oa longius distat a centro inertiae I quam axis OA, momentum inertiae respectu axis oa maius est quam respectu axis OA. Est enim momentum inertiae respectu axis oa = Mkk + M  gI 2 - M GI 2 .
+
+COROLLARIUM 2
+430. Si igitur infiniti axes inter se paralleli concipiantur, momentum inertiae erit minimum respectu eius axis, qui per ipsum centrum inertiae ducitur. Scilicet, si centrum inertiae esset in G axisque OA per id transiret, cuius respectu momentum inertiae fuerit = Mkk, erit respectu axis oa momentum inertiae = Mkk + M Gg2 .
+
+COROLLARIUM 3
+431. Si igitur detur momentum inertiae Mkk respectu cuiuspiam axis per centrum inertiae corporis transeuntis, momentum inertiae respectu alius cuiusvis axis illi paralleli superat illud producto ex massa in quadratum distantiae huius axis a centro inertiae.
+SCHOLION
+432. Hinc investigatio momentorum inertiae pro quovis corpore restringitur tantum ad axes per eius centrum inertiae ductos, quorum respectu si explorata fuerint momenta inertiae, inde pro alias quibuscunque axibus momenta inertiae facile colliguntur. Atque haec proprietas centri inertiae, quod momenta inertiae respectu axium per id transeuntium sint minima inter omnia respectu aliorum axium parallelerum sumta, omnino est memorabilis, cum etiam pro motu gyratorio insignem huius centri praestantiam declaret. Verum per centrum inertiae innumerabiles axes ducere licet, quorum respectu momenta inertiae vehementer inter se discrepare possunt, neque patet, quomodo ex datis aliquibus reliqua definiri queant. Interim tamen, quoniam eorum nullum vel evanescere vel in infinitu excrescere potest, inte ea tam maximum
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 370
+
+detur quam minimum necesse est, quae investigatio omnino digna videtur, ut diligentius suscipiatur. Sed quo ea facilius succedat, conveniet in gerere momentum inertiae respectu axis cuiuscunque per centrum inertiae ducti calculo exprimi.
+
+PROBLEMA 26
+433. Si natura corporis exprimatur aequatione inter ternas coordinatas, invenire eius momentum inertiae respectu axis cuiusque per centrum inertiae ducti.
+SOLUTIO
+Sit I centrum inertiae corporis, in quo simul concursus ternarum directricium IA, IB, IC inter se normalium constituatur (Fig. 47), quibus pro elemento corporis quocunque dM in Z sito coordinatae parallelae sint IX = x, XY = y, YZ = z; unde, si qua directricium pro axe sumeretur, eius respectu momentum inertiae facile assignaretur. Verum id definiendum sit respectu axis cuiuscunque IG, per quem planum ad AIB normale ductum hoc secet in recta IF, ac ponatur angulus AIF =  et angulus
+FIG =  ; quaestio ergo redit, ut punctum Z per alias ternas coordinatas exprimatur, quarum una sit in ipso axe IG sumta. Mutemus ternas directrices primo ita, ut una sit IF, manente IC, dum tertia ad has sit normalis, et ducta YX' ad IF normali erunt ternae coordinatae, quae sint x', y', z',
+IX ' = x' = x cos + y sin , X ' Y = y' = y cos - x sin et YZ = z' = z ; simili modo hinc transitus fiat ad novas ternas coordinatas x", y", z", quarum x" in axe IG capiatur, eritque
+x" = x' cos + z' sin , z" = z' cos - x' sin , y" = y' , unde valoribus substitutis habebitur
+x" = x cos cos + y sin cos + z sin , y" = y cos - x sin ,
+et
+z"=z cos - x cos sin - y sin sin . Atque hinc puncti Z ab axe IG distantiae quadratum prodibit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 371
+
+y" y"+ z" z" = x2 sin2  + y2 cos2  + z2 cos2  - 2xy sin cos - 2xz cos sin cos -2 yz sin sin cos + x2 cos2  sin2  + y2 sin2  sin2  + 2xy sin cos sin2  .
+
+Ponamus iam sequentia integralia per totum corpus extensa :
+
+ xxdM = A,  yydM = B,  zzdM = C,  xydM = D,  xzdM = E,  yzdM = F ,
+
+eritque momentum inertiae respectu axis IG quaesitum
+
+A( sin2  + cos2  sin2  ) + B( cos2  + sin2  sin2  ) + C cos2  -2D sin cos cos2  - 2E cos sin cos - 2F sin sin cos .
+
+COROLLARIUM 1
+434. Hic quantitates A, B, C necessario sunt quantitates positivae, relique vero D, E, F pro ratione corporis vel positivae vel negativae esse possunt.
+
+COROLLARIUM 2
+435. Momentum inertiae respectu axis IA est = B + C , respectu axis IB = A + C et respectu axis IC = A + B . Cognitis ergo his tribus momentis innotescunt valores A, B, et C.
+COROLLARIUM 3
+436. Quomodocunque autem accipiantur anguli  et  , momentum inertiae inventum nunquam evanescere potest, sed semper valorem positivum obtinet.
+SCHOLION
+437. Si non solum motum corporis circa axem IG, sed etiam vires ab axe sustentatas determinare velimus, praeter momentum inertiae respectu huius axis quoque valores
+formularum integralium  x" y" dM et  x" z" dM nosse debemus. Fiunt autem
+formulae per coordinatas x, y, z :
+ x" y" dM =  dM (x cos cos + y sin cos + z sin )(y cos - x sin)
+et
+ x" z" dM =  dM (x cos cos + y sin cos + z sin )( - x cos sin - y sin sin + z cos )
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 372
+
+Quare, si hic valores supra assumti substituantur, habebimus
+
+ x" y" dM = - A sin cos cos + B sin cos cos + D( cos2 - sin2 ) cos
+-E sin sin + F cos sin
+ x" z" dM = - Acos2 sin cos - B sin2  sin cos + Csin cos
+-2D sin cos sin cos + E cos( cos2  - sin2  ) + F sin( cos2  - sin2  ),
+
+qui valores sunt eo magis notandi, quod casibus, quibus momentum inertiae fit maximum vel minimum, evanescunt, uti mox videbimus.
+
+PROBLEMA 27
+
+438. Inter omnes axes per centrum inertiae dati corporis ductos definire eum, cuius respectu momentum inertiae est vel maximum vel minimum.
+
+SOLUTIO
+Maneant omnia, uti in problema praecedente, sitque IG axis talis quaesitus, ita ut determinari oporteat angulos AIF =  et FIG =  . Momentum ergo inertiae respectu
+huius axis cum sit
+ (y" y"+z" z" )dM =A sin2  + Acos2  sin2  + B cos2  + B sin2  sin2  + C cos2 
+-2D sin cos cos2  - 2E cos sin cos - 2F sin sin cos , differentietur duplici modo, sumendo primum  deinde  variabile, et utrumque
+differentiale nihilo aequale ponatur. Ex priore igitur prodibit haec aequatio :
+
+2A sin cos cos2  - 2B sin cos cos2  - 2D cos2  cos2  +2D sin2  cos2  + 2E sin sin cos - 2F cos sin cos = 0,
+
+quae per -2 cos divisa praebet
+
+-(A - B) sin cos cos + D( cos2  - sin2) cos
+
+-E sin sin + F cos sin = 0
+
+sive  x" y" dM = 0; unde colligitur
+
+sin cos
+
+= tang
+
+=
+
+-
+
+(A-
+
+B)
+
+sin E
+
+cos + D( cos sin -F cos
+
+2
+
+
+
+-
+
+sin2
+
+
+
+)
+
+.
+
+Sumendo autem  variable pervenimus ad hanc aequationem :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 373
+
+2Acos2  sin cos + 2B sin2  sin cos - 2C sin cos
++4D sin cos sin cos - 2E cos( cos2  - sin2  )
+-2F sin( cos2  - sin2  ) = 0,
+quae formula est = -2 x" z" dM . Cum nunc sit
+2 sin cos = sin 2 et cos2  - sin2  = cos 2 , erit
+Acos2  sin 2 + B sin2  sin 2 - C sin 2 +2D sin cos sin 2 - 2E cos cos 2 - 2F sin cos 2 = 0,
+
+unde sequitur
+
+sin 2 cos 2
+
+= tang2
+
+=
+
+2E cos +2F sin Acos2  + B sin2  -C +2D sin cos
+
+,
+
+quibus valoribus coaequatis erit (E cos + F sin)(E sin - F cos)2 =(E cos + F sin)((B - A) sin cos + D( cos2 - sin2 ))2 +(E sin - F cos)((B - A) sin cos + D( cos2  - sin2))(Acos2 + B sin2 - C +2D sin cos) =((B - A) sin cos + D( cos2  - sin2))(E(B sin - C sin +D cos ) - F (Acos - C cos +D sin)).
+
+Cum iam sin et cos ubique totidem compleant dimensiones, si ponamus
+
+sin cos
+
+= tang = t,
+
+obtinebimus hanc aequationem
+(E + Ft)(F - Et)2 =(D + (B - A)t - Dt2 )(DE - AF + CF + (BE - CE - DF )t),
+quae in ordinem redacta dat 0 = EFF - DDE + (A - C)DF + t(F 3 - 2EEF + DDF + (A - 2B + C)DE - (A - B)(A - C)F )
+
++t2 (E3 - 2EFF + DDE + (A - 2B + C)DF - (A - B)(A - C)E)
+
++t3(EEF - DDF + (B - C)DE),
+
+ita ut ex hac aequatione cubica valor ipsius t erui debeat.
+
+COROLLARIUM 1
+439. Cum aequatio, ex qua valor ipsius t inveniri debet, sit cubica, semper unam certe habet radicem realem, quae praebet tangentem anguli AIF =  , quo angulo invento
+alter FIG =  ita definitur, ut sit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 374
+
+tang
+
+=
+
+(B- A) sin cos + D( cos2  -sin2  ) E sin -F cos
+
+=
+
+1 2
+
+(B
+
+-
+
+A)
+
+sin
+
+2
+
++
+
+D
+
+cos
+
+2
+
+E sin -F cos
+
+.
+
+COROLLARIUM 2
+440. Fieri autem potest, ut omnes tres radices sint reales, quo casu tres in corpore dabuntur axes, quorum respectu momenta inertiae sunt vel maxima vel minima.
+
+SCHOLION
+441. Ex rei autem natura intelligitur in quovis corpore plus uno tali axe inesse, cuius respectu momentum inertiae sit vel maximum vel minimum; si enim unicus daretur, eius respectu momentum esset omnium vel maximum vel minimum, utrovis ergo casu alius daretur axis necesse est, cuius respectu momentum inertiae foret vel minimum vel maximum. Atque hinc concludere licet aequationem cubicam inventam non solum unam, sed duas habere radices reales, ex quo adeo omnes tres radices semper erunt reales, quod quidem difficulter ex eius forma perspici potest.Verum cognitio iam uno tali axi haud difficulter reliqui eiusdem indolis reperiuntur, id quod sequente problemate ostendisse operae erit primum.
+
+PROBLEMA 28
+
+442. Dato uno corporis axe per centrum inertiae transeunte, cuius respectu momentum inertiae est maximum vel minimum, invenire reliquos eius axes per centrum inertiae ductos, quibus eadem proprietas conveniat.
+
+SOLUTIO
+Existente I centro inertiae corporis sit IA axis ille datus, cuius respectu momentum inertiae est maximum vel minimum, atque ex praecedente problemate constat hanc
+proprietatem locum habere non posse, nisi sit  xydM = 0 et  xzdM = 0 ; quare pro
+formulis superioribus erit D = 0 et E = 0. Quodsi iam IG alius fuerit eiusmodi axis, pro quo ponatur ut ante angulus AIF =  et FIG =  , ut sit eius respectu momentum
+inertiae (A sin2  + cos2  sin2  ) + B( cos2  + sin2  sin2  ) + C cos2  - 2F sin sin cos ,
+
+methodus maximoram et minimoram has duas suppeditat aequationes :
+
+I. (A - B) sin cos cos2  - F cos sin cos = 0,
+
+II. (Acos2  + B sin2 ) sin cos - C sin cos - F sin( cos2  - sin2  ) = 0. Quarum prior cum sit divisibilis per cos cos , erit vel cos = 0 vel cos = 0 ; tertia
+
+enim eius radix
+
+tang  = (A-B) sin
+F
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 375
+
+in altera aequatione substituta nihil definit, quoniam angulus  prorsus ex calculo egreditur. Sit ergo cos = 0 ideoque  = AIF rectus et sin = 1, atque altera aequatio
+
+praebet :
+
+B sin cos - C sin cos - F( cos2  - sin2  ) = 0
+
+seu
+
+1 2
+
+(B - C) sin 2
+
+=
+
+F
+
+cos 2
+
+et
+
+tang
+
+2
+
+=
+
+2F B-C
+
+;
+
+unde pro angulo FIG duplex prodit valor, alter FIG =  alter FIG =  + 90o . Sicque ex uno axe IA dato duo semper novi colliguntur eadem maximi minimive proprietate gaudentes, qui ergo tres axes respondent tribus radicibus aequationis cubicae ante inventae. Prioris autem aequationis radix cos = 0 nihil plane huc facit; cum enim angulus FIG esset rectus, utcunque angulus AIF =  variatur, recta IG eundem situm
+IC perpetuo servat neque differentiatio hic locum habet, erit vero ob  = 90o
+momentum inertiae respectu axis IG =
+
+A + B sin2  + C cos2  - 2F sin cos ,
+
+at respectu axis dati IA = B + C .
+
+COROLLARIUM 1
+443. Cum igitur sit angulus AIF =  rectus, ambo reliqui axes sunt ad IA normales et, quia illi etiam invicem angulum rectum constituunt, in omni corpore tres dantur axes per centrum inertiae I ducti et inter se normales, quorum respectu momenta inertiae sunt vel maxima vel minima.
+COROLLARIUM 2
+444. Quodsi ergo ipsae rectae IA, IB et IC fuerint his tres axes, quorum respectu momenta inertiae sunt vel maxima vel minima, erit
+ xydM = D = 0,  xzdM = E = 0, et  yzdM = F = 0.
+
+SCHOLION
+445. In his quidem problematibus sumsimus punctum I esse corporis centrum inertiae, quoniam calculum momenti inertiae tantum ad eiusmodi axis, qui per corporis centrum inertiae transeunt, adstrinximus; verum in toto calculo utriusque problematis nihil inest, quod naturam centri inertiae cum puncto I coniungat. Quare haec problemata multo latius patent, ita ut sumto quocunque puncto I inter omnes axes per
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 376
+
+id transeuntes semper tres definiri queant, quorum respectu momenta inertiae sint vel maxima vel minima, atque ut hi tres axes sint inter se normales. Verum hic tantum istam proprietatem tanquam centro inertiae convenientem considero, ac pro quolibet corpore plurimum intererit hos ternos axes nosse, quoniam ex iis momenta inertiae respectu omnium axium facillime inveniri poterunt.
+
+DEFINITIO 8
+446. Axes principales cuiusque corporis sunt tres illi axes per eius centrum inertiae transeuntes, quorum respectu momenta inertiae sunt vel maxima vel minima.
+
+COROLLARIUM 1
+447. Ex praecedentibus intelligitur pro quolibet corpore non solum dari tales ternos axes principales, sed eos etiam inter se esse normales; unde ii commodissime pro ternis directribus, ad quas corpus referatur, accipientur.
+
+COROLLARIUM 2
+448. Quodsi ergo IA, IB, IC fuerint cuiuspiam corporis axes principales (Fig. 47) iisque pro elemento corporis dM in Z sito parallelae constituantur coordinatae IX = x, XY = y, YZ = z, non solum erit
+ xdM = 0,  ydM = 0,  zdM = 0,
+sed etiam
+ xydM = 0,  xzdM = 0, et  yzdM = 0.
+
+COROLLARIUM 3
+449. Tum vero, si ponatur
+ xxdM = A,  yydM = B,  zzdM = C.
+erit corporis momentum inertiae respectu axis IA = B + C, respectu axis IB = A + C, et respectu axis IC = A + B,
+quae sunt maxima vel minima.
+SCHOLION
+450. Veritas utique est maximi momenti, quod in omni corpore tales tres axes principales dentur, cuius demonstratio ex praecedentibus utique est manifesta. Sumtis enim ternis directricibus IA, IB, IC utcunque, quae in centro inertiae I se invicem normaliter intersecent, unum eiusmodi axem principalem IG definire docuimus ope resolutionis aequationis cubicae, tum vero cognito uno facili calculo duo reliqui assignantur. Iam vero vix occurret corpus tam irregulare, cuius non saltem unus axis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 377
+
+principalis innotescat, ita ut deinceps bini reliqui facillime se prodant. Quare in postremum assumam in quovis corpore hos ternos axes principales nobis esse cognitos; quorum respectu dummodo momenta inertiae novimus, pro omnibus aliis axibus promtissime exhiberi possunt , uti ex sequente problemate patebit.
+
+EXPLICATIO
+451. Quomodo ratio maximi ac minimi his tribus axibus principalibus conveniat, haud ita facile perspicitur. Cum enim inter se eos certe sit unus, cuius respectu momentum inertiae sit omnium maximum, itemque unus, cuius respectu momentum inertiae sit omnium minimum, necesse est, ut respectu tertii momentum inertiae sit neque omnium maximum neque omnium minimum, nisi forte cum alterutro illorum conveniat, quod aliquando fieri potest. Verum calculus maximorum et minimorum saepenumero eiusmodi quantitates indicit, quae absolute neque sint maxima neque minima, quoniam eo calculo plus non declaratur, quam, si infinite parum ab loco invento recesseris, neque augementum neque decrementum prodire. Ita si IA sit axis maximi absolute sumti et IC axis minimi absolute sumti (Fig. 47), respectu axis IB momentum inertia neque omnium erit maxium neque minimum, verumtamen eiusmodi medium tenebit, ut, si alius axis ab eo infinitie parum distans in quamcunque plagam assumtur, eius momentum inertiae neque crescat neque decrescat. Atque hanc ob rem inter hos tres axes principales ingens discremin interdit, quod imprimis observari meretur, ut eorum unus habeat maximum momentum, unus minimum, tertius vero medium, quod tamen in calculo tanquam maximum vel minimum spectari possit, cuius rei ratio in sequenti problemate magis illustrabitur.
+
+PROBLEMA 29
+452. Datis cuiusdam corporis momentis inertiae respectu trium axium principalium, invenire eius momentum inertiae respectu cuiusvis axis per eius centrum inertiae ducti.
+SOLUTIO
+
+Sint IA, IB, IC tres corporis axes principales (Fig. 47) sibi mutuo in centro inertiae I normaliter occurrentes, et posita corporis massa = M sit eius momentum inertiae respectu axis IA = Maa, respectu axis IB = Mbb et respectu axis IC = Mcc ; unde quaeri debeat momentum inertiae respectu axis cuiuscunque IG, qui ad planum AIB inclinetur angulo GIF =  , sitque angulus AIF =  . Consideretur nunc elementum
+corporis dM in Z, cuius puncti coordinatae sint IX = x, XY = y et YZ = z; ac positis integralibus
+
+ xxdM = A,  yydM = B,  zzdM = C.
+erit
+ xydM = D = 0,  xzdM = E = 0, et  yzdM = F = 0.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 378
+
+Unde ex § 433 erit momentum inertiae respectu axis IG =
+
+A( sin2  + cos2  sin2  ) + B( cos2  + B sin2  sin2  ) + C cos2  .
+
+Cum autem ex datis ternis momentis sit Maa = B + C, Mbb = A + C, Mcc = A + B,
+
+hinc vicissim colligitur
+
+A
+
+=
+
+1 2
+
+M
+
+(bb
+
++
+
+cc
+
+-
+
+aa),
+
+B
+
+=
+
+1 2
+
+M
+
+(aa
+
++
+
+cc
+
+- bb),
+
+C
+
+=
+
+1 2
+
+M
+
+(aa
+
++
+
+bb
+
+-
+
+cc),
+
+quibus valoribus substitutis erit quaesitum momentum inertiae respectu axis IG =
+
+M (aa cos2  cos2  + bb sin2  cos2  + cc sin2  ). Ubi notetur esse
+cos cos = cos AIG, sin cos = cos BIG et sin = cos CIG . Quare, si distantiae axis IG a ternis axibus principalibus ponantur :
+AIG =  , BIG =  , CIG =  , erit momentum inertiae respectu axis IG =
+Maa cos2  + Mbb cos2  + Mcc cos2  , illi autem anguli  ,  , ita sunt comparati, ut sit semper
+cos2  + cos2  + cos2  =1.
+
+COROLLARIUM 1
+
+453. Positio momento inertiae respectu axis IG = Mkk id sequentibus modis exprimi potest :
+Mkk = Maa - M (aa - bb) cos2  - M (aa - cc) cos2  ,
+Mkk = Mbb + M (aa - bb) cos2  - M (bb - cc) cos2  ,
+Mkk = Mcc - M (aa - cc) cos2  + M (bb - cc) cos2  et in qualibet harum expressionum binos angulos pro lubitu assumere licet.
+
+COROLLARIUM 2
+
+454. Si fuerit aa > bb et bb > cc, momentum inertiae respectu axis IA omnium erit maximum at respectu axis IC omnium erit minimum, medium autem tenebit momentum inertiae respectu axis IB.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 379
+
+COROLLARIUM 3
+455. Si fuerit (aa - bb) cos2  > (bb - cc) cos2  ,
+momentum inertiae respectu axis IG maius est quam medium Mbb, contra vero est minus. Sin autem sit
+(aa - bb) cos2  = (bb - cc) cos2  , quod infinitis locis fieri potest, ibi omnia momenta inertiae sunt inter se aequalia.
+COROLLARIUM 4
+456. Si fuerit aa = bb = cc, hoc est, si momenta inertiae principalia fuerint inter se aequalia, respectu omnium axium per centrum inertiae ductorum momenta inertiae sunt inter se aequalia ideoque quilibet axis pro principali haberi potest.
+SCHOLION
+457. Eleganter haec more in trigonometria sphaerica recepto repraesentari possunt (Fig. 48). Sint enim constituto centro inertiae I in centro sphaerea puncta A, B, C extremitates axium principalium in superficiem sphaefica terminatae, ita ut arcus AB, AC, et BC sint quadrantes, quibusque in A, B, C terminatis respondeant momenta inertiae Maa, Mbb, Mcc, quorum primum sit maximum, secundum medium et tertium minimum. Quodsi iam alius axis quicunque per centrum inertiae transiens, qui superficiem sphaericam in puncto S traiiciat, consideretur, eius respectu momentum inertiae erit : Maa cos2 AS + Mbb cos2 BS + Mcc cos2 CS,
+quod ob cos2 AS + cos2 BS + cos2 CS = 1
+his modis exprimi potest : Maa - M (aa - bb) cos2 BS - M (aa - cc) cos2 CS,
+vel Mbb + M (aa - bb) cos2 AS - M (bb - cc) cos2 CS, vel Mcc - M (aa - cc) cos2 AS + M (bb - cc) cos2 BS.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 380
+
+Hinc, si S sit in quadrante BC puta in D, erit momentum inertiae respectu axis ID = M (bb cos2 BD + cc cos2 CD), =Mbb - M (bb - cc) cos2 CD, = Mcc + M (bb - cc) cos2 BD
+
+seu momentum inertiae respectu axis ID erit =
+
+Mbb - M (bb - cc) sin2 BD = Mcc + M (bb - cc)sin2CD.
+
+Simili modo momentum inertiae respectu axis IE est
+
+Maa - M (aa - cc) sin2 AE = Mcc + M (aa - cc)sin2CE;
+
+momentum autem inertiae respectu axis IF fit
+
+Maa - M (aa - bb) sin2 AF = Mbb + M (aa - bb)sin2BF.
+
+PROBLEMA 30
+458. Invenire omnes axes per centrum inertiae ductos, quarum respectu momenta inertiae sint inter se aequalia.
+
+SOLUTION
+Sint momenta inertiae respectu axium principalium IA, IB, IC (Fig. 48) respective Maa, Mbb, Mcc et aa > bb > cc et quaerantur omnes axes per centrum inertiae I ducendi, quarum respectu momenta inertiae sint inter se aequalia et quidem aequalia ei, quod respondet axi IE sumto E in quadrante AC, quoniam ab A ad C omnia momenta huius corporis a maximo ad minimum occurrunt. Sit IS talis axis, et habebimus hanc aequationem :
+Maa - M (aa - cc) sin2 AE
+
+= Maa - M (aa - bb) cos2 BS - M (aa - cc)cos2CS
+
+seu
+
+(aa - cc)sin2 AE = (aa - bb) cos2 BS + (aa - cc)cos2CS;
+
+ergo ob ergo
+
+cos2 BS = sin2 AS - cos2 CS (aa - cc)sin2 AE = (aa - bb) sin2 AS + (bb - cc)cos2CS.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 381
+
+Introducatur angulus CAS, et cum sit cos CS = sin AS cos CAS ,erit
+
+(aa - cc)sin2 AE = (aa - bb) sin2 AS + (aa - cc) sin2 AS cos2 CAS,
+
+ergo
+
+sin2
+
+AS
+
+=
+
+(aa-cc) sin2 AE aa-bb+(bb-cc) cos2 CAS
+
+.
+
+Sin autem angulum ACS introducamus, reperiemus
+
+sin2
+
+CS
+
+=
+
+(aa-cc) sin2 CE bb-cc+(aa-bb) cos2
+
+ACS
+
+;
+
+angulus CAS usque ad rectum augeri potest, dum (aa - cc) sin2 CE non excedat
+
+aa ­ bb, hoc est, si fuerit
+
+sin AE <
+
+aa -bb aa - cc
+
+;
+
+at angulus ACS usque ad rectum crescere potest, si sit
+
+sin CE <
+
+bb-cc aa - cc
+
+;
+
+seu
+
+sin AE >
+
+aa -bb aa - cc
+
+.
+
+Quare punctum S erit in curva, quae ex E assurgens per quadrantem AB transibit, si fuerit
+
+sin AE <
+
+aa -bb aa - cc
+
+;
+
+curva autem illa per quadrantem BC transibit, si fuerit
+
+Casu autem, quo
+
+sin AE >
+
+aa -bb aa - cc
+
+.
+
+sin AE =
+
+aa -bb aa - cc
+
+,
+
+curva per ipsum punctum B transibit omniaque momenta inertiae erunt = Mbb. Hoc igitur casu erit
+
+Hinc ob
+
+sin2
+
+AS
+
+=
+
+aa -bb aa-bb+(bb-cc) cos2
+
+CAS
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 382
+
+cos AE =
+
+bb-cc aa - cc
+
+et
+
+aa -bb bb - cc
+
+=
+
+sin2 cos2
+
+AE AE
+
+fiet
+
+ideoque
+
+sin2
+
+AS
+
+=
+
+sin2
+
+sin2 AE +cos2
+
+AE AE cos2
+
+CAS
+
+tang
+
+AS
+
+=
+
+tang AE cos CAS
+
+,
+
+unde intelligitur loca punctorum S sita esse in circulo maximo per puncta B et E
+
+traducto (Fig. 49).
+
+Casu, quo sin AE <
+
+aa -bb aa - cc
+
+seu
+
+punctum
+
+E
+
+proprius ad A sumitur, sit id in e, et in
+
+quadrante AB dabitur punctum f, in quo
+
+momentum sit aeque magnum. Erit ergo:
+
+sin2
+
+Af
+
+=
+
+(aa-cc) sin2 aa -bb
+
+Ae
+
+,
+
+unde, si ponatur Ae = e, Af = f, As = s et
+
+angulus eAs =  , ob
+
+aa - cc aa -bb
+
+=
+
+sin2 sin2
+
+f e
+
+et
+
+bb-cc aa -bb
+
+=
+
+sin2 f -sin2 sin2 e
+
+e
+
+havebimus inter s et  hanc aequationem :
+
+sin2
+
+s
+
+=
+
+sin2 e sin2 f sin2 e+( sin2 f -sin2 e) cos2 
+
+=
+
+sin2 e sin2 f sin2 e sin2  + sin2 f
+
+cos2 
+
+,
+
+qua aequatione natura lineae esf exprimitur, estque
+
+sin e sin f
+
+=
+
+sin AE .
+
+Casu denique, quo sin AE >
+
+aa -bb aa - cc
+
+,
+
+cadat
+
+punctum
+
+E
+
+in
+
+e'
+
+dabiturque
+
+in
+
+quadrante
+
+BC punctum d, ubi momentum est idem atque in e', ut sit
+
+sin2
+
+Cd
+
+=
+
+(aa-cc) sin2 bb-cc
+
+Ce'
+
+.
+
+Ponatur iam Ce' = e, Cd = f ,Cs' = s et angulus e' Cs' = ; ob
+
+aa - cc bb-cc
+
+=
+
+sin2 sin2
+
+f e
+
+et
+
+aa -bb bb-cc
+
+=
+
+sin2 f -sin2 sin2 e
+
+e
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 383
+
+inter s et  haec prodit aequatio :
+
+sin2
+
+s
+
+=
+
+sin2
+
+sin2 e+( sin2
+
+e sin2 f f -sin2
+
+e) cos2 
+
+=
+
+sin2
+
+sin2 e sin2 e sin2  + sin2
+
+f f
+
+cos2
+
+
+
+,
+
+qua natura lineae e's'd exprimitur, estque
+
+sin e sin f
+
+=
+
+sin CE
+
+.
+
+COROLLARIUM 1
+
+459. Per totum ergo circulum maximum ex B per E ductum, ut sit
+
+sin AE =
+
+aa -bb aa - cc
+
+,
+
+momentum inertiae est = Mbb. Et quia arcus AE tam negative quam positive accipi potest, duo in sphaera dantur circuli maximi eadem proprietate gaudentes.
+
+COROLLARIUM 2
+460. Simili modo tam circa polum A quam ipsi oppositum erunt in superficie sphaerae orbes elliptici, quorum semiaxis maior est arcus Af et semiaxis minor arcus Ae, in quibus ubique idem regnabit momentum inertiae maius quam Mbb. In figura linea fse refert quadrantem horum orbium ellipticorum.
+
+COROLLARIUM 2
+
+461. Lineae autem, in quibus momentum inertiae minus est quam Mbb, erunt bini
+
+orbes elliptici, quarum centra sunt in polo C eique opposito et semiaxis maior arcus Cd, minor vero arcus Ce'. In figura linea ds'e' refert quadrantem horum orbium
+
+ellipticorum.
+
+SCHOLION 1
+
+462. Etsi hae lineae fse et ds'e' in superficie sphaerae ductae non sunt in eodem plano, tamen eas orbium ellipticorum nomine insignire lubet, quoniam earum proiectiones in plana sphaeram in punctis A et C tangentia per rectas eo normales factae sunt ellipses,
+
+quarum centra sunt in punctis A et C. In proiectione enim lineae fse in planum ad A tangens facta si ponatur sin Af = m, sin Ae = n, ut sit
+
+mm nn
+
+=
+
+aa - cc aa -bb
+
+,
+
+et pro puncti s proiectione abscissa in m sumta = x = sin s sin et applicata eo
+
+normalis = y = sin s cos , habebitur inter x et y haec aequatio nnxx + mmyy = mmnn,
+
+quae est pro ellipsi centrum in A habente, cuius semiaxis sunt m et n. Parique modo
+
+proiectio lineae ds'e' in planum ad C tangens facta reperietur esse ellipsis. Si fuerit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 384
+
+Mbb = Mcc, quo casu punctum E in C cadit, sitque Ae = Af et m = n, ellipsis illa abit in circulum , eritque linea fse circulus minor circa polum A descriptus.
+
+SCHOLION 2
+463. Investigationem ergo momenti inertiae eo reduximus, ut pro quolibet corpore proposito sufficiat terna momenta inertiae definivisse, quae scilicet sumta sint respectu ternorum eius axium principalium. His enim cognitis facile momentum inertiae eiusdem corporis respectu aliuscuiscunque axis per eius centrum inertiae transeuntis atque hinc porro respectu aliorum omnium illi parallelorum assignari potest. Hocque modo inventio momentorum inertiae, quae initio pro quovis corpore quasi infinita videbatur, mirifice in compendium est redacta. Praeterea vero notari meretur in hoc negotio alius insigne subsidium, cuius ope momentum inertiae alicuius corporis facile colligi potest ex momentis eius partium, id quod sequente problemate explicemus.
+
+PROBLEM 31
+464. Datis momentis inertiae duarum partium respectu axium inter se parallelorum et per cuiusque centrum inertiae transeuntium, invenire momentum inertiae totius corporis respectu axis illis paralleli et per huius centrum inertiae transeuntis.
+
+SOLUTIO
+
+Sit ergo corpus compositum ex duabus
+
+partibus (Fig. 50), quarum alterius massa sit = M
+
+habens suum centrum inertiae in M, alterius
+
+vero massa sit = N eiusque centrum inertiae in
+
+N, ponaturque intervallum MN = c. Data iam
+
+sint momenta inertiae priores partis M respectu
+
+axis mm, quodsit = Mmm, et posterioris partis N
+
+respectu axis nn, quod sit = Nnn; sintque hi axes
+
+mm et nn, qui per utriusque partis centum
+
+inertiae transeant, inter se paralleli; unde totius
+
+corporis momentum inertiae respectu axis ii illis
+
+paralleli et per suum centrum inertiae I transeuntis determinari debet. Totius autem
+
+corporis massa est = M + N eiusque centrum inertiae in rectae MN puncto I reperitur,
+
+ut sit
+
+IM
+
+=
+
+Nc M +N
+
+et
+
+IN
+
+=
+
+Mc M +N
+
+.
+
+Cum igitur hi tres axes in eodem plano sint siti, ponatur eorum inclinatio ad rectam
+
+MN seu angulus
+
+NIi =  eritque distantia axium mm et ii =
+
+Mc sin M +N
+
+, unde partis M
+
+momentum inertiae respectu axis ii erit
+
+= Mmm +
+
+MNNcc sin2  (M + N )2
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 385
+
+Tum vero ob distantiam axium nn et ii =
+
+Mc sin M +N
+
+prodit partis N momentum inertiae
+
+respectu axis ii =
+
+Nnn
+
++
+
+MMNcc sin2  (M + N )2
+
+.
+
+Quare totius corporis momentum inertiae respectu axis ii habebitur
+
+Mmm
+
++
+
+Nnn
+
++
+
+MNcc sin2 M +N
+
+
+
+.
+
+COROLLARIUM 1
+
+465. Momentum ergo totius corporis maius est quam momenta partium simul sumta
+
+respectu axium inter se parallelorum et per cuiusque centrum inertiae traductorum:
+
+atque excessus
+
+MNcc sin2  M +N
+
+proportionalis est quadrato distantiae axium.
+
+COROLLARIUM 2
+
+466. Si massa totius corporis ponatur = I = M + N eiusque momentum inertiae
+
+respectu axis ii = Iii, erit
+
+Iii
+
+=
+
+Mmm
+
++
+
+Nnn
+
++
+
+MNcc sin2 M +N
+
+
+
+.
+
+Tum vero positis distantiis IM =a et IN = b erit
+
+a=
+
+Nc I
+
+et b =
+
+Mc I
+
+,
+
+unde fit
+
+Iii = Mmm + Nnn + Iab sin2  .
+
+COROLLARIUM 3
+467. Hinc dato momento totius corporis Iii una cum momento alterius partis Mmm facile quoque collititur momentum alterius partis
+Nnn = Iii - Mmm - Iab sin2  sumtis scilicet axibus inter se parallelis et per ciusque centrum inertiae transeuntibus.
+
+COROLLARY 4
+468. Si corpus constet pluribus partibus, quarum singularum momenta inertiae respectu axium inter se parallelorum et per cuiusque centrum inertiae transeuntium sint explorata, hinc binis coniungendis tandem momentum inertiae totius corporis respectu axis illis paralleli et per suum centum inertia transeuntis colligetur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Five.
+
+Translated and annotated by Ian Bruce.
+
+page 386
+
+SCHOLION 1
+469. Hoc casu plurium partium non opus est secundum problema bina coniungere, sed statim momentum totius corporis colligi potest. Sint enim Mmm, Nnn, Ppp, Qqq momenta partium respectu axium inter se parallelorum et per cuiusque centra inertiae transeuntium, pro toto autem corpore concipiatur axis illis parallelus per eius centrum inertiae transiens, a quo axes partium M, N, P, Q distent intervallis a, b, c, d ; quibus cognitis erit momentum inertiae totius corporis =
+M (mm + aa) + N (nn + bb) + P(pp + cc) + Q(qq + dd ) .
+Hoc igitur modo saepe corporum admodum irregularium momenta inertiae facile colligi poterunt, dummodo ex eiusmodi partibus fuerint composita, quarum momenta inertiae assignare liceat, quo pacto calculus momentorum inertiae non mediocriter adiuvatur.
+SCHOLION 2
+470. Verum non sufficit methodum tradisse omnium corporum momenta inertiae inveniendi; necesse est etiam ea pro praecipuis corporum generibus evolvere, ut quoties usus postulat, inde desumi queant. Ne autem opus sit infinitum, hanc investigationem ad corpora homogenea, quae per totam extensionem similari constent materia, restringamus, ita ut calculus quasi ad corpora geometrica tantum sit accommodandus, ubi quidem figuras solum principales sum consideraturus. Ac primo, quoniam fila tensuissima et laminas tenuissimas tanquam lineas et superficies considerare licet, ab iis initium ducamus, inde ad varias species solidorum, cuiusmodi prae ceteris occurrere solent, progressuri. In singulis autem his corporis ternos axes principales eorumque respectu momenta inertiae definiamus, quandoquidem ex his momenta respectu omnium axium facili negotio colligi possunt. Hinc etiam simul patebit, quomodo calculum ad omnia alia corporum genera quam commodissime accommodari conveniat.
+
+

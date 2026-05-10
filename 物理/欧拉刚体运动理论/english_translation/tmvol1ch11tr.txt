@@ -1,0 +1,659 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 634
+
+Chapter 11
+
+CONCERNING THE FREE MOTION OF THE SAID BODIES WITH EQUAL PRINCIPAL AXES, ACTED ON BY NO FORCES.
+DEFINITION 11 [b]
+684. A rigid body is said to have three equal principal axes, when the moments of inertia about these principal axes are equal to each other.
+COROLLARY 1
+685. Therefore in such bodies all the lines drawn through the centre of inertia of this correspond in turn to a principal axes, and about these all the moments of inertia are equal to each other.
+COROLLARY 2
+686. Therefore whatever three lines cutting each other normally drawn through the centre of inertia that are taken as the directrices, if the position of any element of the body dM is defined by the coordinates parallel to these x, y and z, then for the whole body there will be
+ xydM = 0,  xzdM = 0, and  yzdM = 0.
+COROLLARY 3
+687. But if with such a body the rotational motion is taken about some line passing through the centre of inertia, on account of that its inertia is perpetually conserved, as that line remains unmoved, unless it is disturbed by external forces.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 635
+
+SCHOLIUM 1
+688. To be given bodies of this kind, the moments of inertia of which about the principal axes are equal to each other, there in less doubt allowed, and in the above where I have considered homogeneous bodies, we would have been glad to assign this property to many bodies. Among which in the first place the sphere made from homogeneous material holds the first place, then truly to that must be referred the five regular solids; again also there are given cylinders, cones and truncated cones, which have been provided with the same property. And in general, if bodies are not made from homogeneous materials, then innumerable kinds of figure of any kind you wish can be shown, in which equalities between the moments of inertia about the principal axes in place can be obtained. Only bodies of this kind shall be treated in this chapter and the motion is defined there, and of this there is a large number, while the bodies are not acted on by external forces. Hence the essential character of bodies of this kind consists of this, that with the three orthogonal coordinates put in place x, y, z relative to the centre of inertia, in the first place as we have noted :
+ xydM = 0,  xzdM = 0, and  yzdM = 0.
+then
+ xxdM =  yydM =  zzdM . And thus the moment of inertia about any axis drawn is equal to 2 xxdM . This criterion
+constitutes the first class of bodies as it were, and in mechanics it is recognised by the name of regular bodies that can be assigned conveniently, since clearly all the lines drawn passing through the centre of inertia have been provided with this equality property.
+SCHOLIUM 2
+689. And if in this chapter by being concerned only with the motion of bodies having three equal principal axes, as constituting the simplest case to be treated, it is convenient still to begin from a property, which can also be apparent for the remaining kinds of bodies. Clearly in whatever way the motion of a rigid body should be disturbed, this can always be resolved into two motions for any point in time, of which one is the progressive motion and the other the rotational motion about a certain axis drawn through the centre of inertia. We present the demonstration of this proposition in the following theorem, since it contains the foundation of the motion of all rigid bodies,.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 636
+
+THEOREM 9
+690. In whatever way a rigid body should be moving, the motion of this at any moment has been composed or mixed from a progressive motion and from a rotational motion about some axes passing through the centre of inertia.
+DEMONSTRATION
+If the centre of inertia is moving, and in which the progressive motion consists, clearly which always agrees with the motion of the centre of inertia, which hence at least in the mind by being removed : provided that an interval is considered in which the body is carried in the opposite direction with an equal speed; in which case the motion present in the body at this point can be demonstrated to be a rotation about a certain axis passing through the centre of inertia, which with the progressive motion removed it remains at rest at any rate
+for an infinitely small time. Moreover in this manner the centre of inertia of the body is reduced to rest, and the body is moving in some manner about that centre, in besides a certain right line always remains at rest, which on that account is the axis of rotation, which I demonstrate in the following manner. About the body there is considered a spherical surface having its centre at the centre of inertia of the body, since it is considered to be at rest, and to which the individual points of the body can be referred to by lines drawn from the centre to the surface (Fig. 90). Therefore with the centre at rest, a point of the body related to P [on the surface] in the element of time dt is transferred to p, and with a great circle OPB drawn through P normal to the element Pp, in that there is taken some other point Q, which meanwhile is transferred to q, thus so that the whole arc intercepted PQ is agreed to arrive at pq, thus, since all the points of the body always maintain the same distances between each other, then pq = PQ. But because all the arclets Pp and Qq are infinitely small and the angle pPQ is right, these arcs cannot be equal to each other, unless also the arc qQ is normal to PQ. Both arcs PQ and pq, since they cross each other at O, and since OP = Op and OQ =Oq, then in that motion the whole arc OPQ is translated into Opq and thus it is necessary that the point O remains stationary in its own place. Whereby with the line drawn from the centre through this point O, it is evident that the whole line meanwhile remains at rest, which therefore is the axis of rotation. From which it is seen that the body is unable to be displaced from rest about the centre of inertia, from which likewise with a whole certain line drawn through the centre
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 637
+
+remaining at rest, and thus the motion is rotational. . But if the centre of inertia should itself be moving, the general motion of the body shall be composed or mixed from the progressive motion and the rotational motion about a certain axis passing through the centre of inertia.
+
+COROLLARY 1
+691. Therefore in whatever manner a rigid body is moving, in understanding this motion, at first the motion of the centre of inertia must be considered, as the motion of this gives the progressive motion, and then with that removed the point O is sought, and thus the axis of rotation is known.
+
+COROLLARY 2
+
+692. But towards finding this point O , on putting the arc OP = v, on account of the angle
+
+O
+
+=
+
+Pp sin v
+
+=
+
+Qq
+sin( v + PQ )
+
+then Qq  sin v = Pp  cos PQ  sin v + Pp  sin PQ  cos v
+
+and hence
+
+tang
+
+v
+
+=
+
+Ppsin PQ Qq-Ppcos PQ
+
+,
+
+thus it is apparent that the point O can always really be determined.
+
+COROLLARY 3
+
+693. From the motions of the points P and Q through the increments Pp and Qq , the angular speed about the axis or rotation can also be determined easily, which is
+
+( ) ang.O
+dt
+
+=
+
+Pp dtsin v
+
+=
+
+Pp2 -2PpQqcos PQ+Qq2 dt sin PQ
+
+and thus everything can be found, unless both the increments Pp and Qq vanish.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 638
+
+SCHOLION
+
+694. Even if this demonstration derived from spheres is the most evident, yet it is agreed to consider the power of this more carefully, which would not otherwise be neglected by the most observant men, from which it can be seen that all the points of the spherical surface with the centre at rest can be carried around with an equal speed. Clearly the points are able to maintain this motion if the sphere, while it rotates about one certain axis, likewise turns about another axis normal to the first with an equal speed. Moreover now with this demonstration put in place, it prevails that even if the sphere is turning not only about two axes but also about three or more, then the motion of this thus is yet always to be prepared, in order that at any moment a certain whole line remains at rest [i. e. for each motion there is axis]. Indeed no force is introduced to be shown, if it may be objected from these that the points P and Q are not in a simple motion as we have assumed here, but to be carried likewise about some axes taken together ; this motion would be composed in some manner, yet it is necessary that these points P and Q arrive after the element of time dt at certain other points p et q, in order that the arc pq is made equal to the arc PQ, and because we have assumed the arc PQ normal to the element Pp, this also must be normal to Qq. And if at this point there should be doubt with this, for the point O, which we have at the concurrence of the arcs PQ and pq produced, remains in the same place, to that is must always be agreed that at this stage Opq is going to be found in a great circle, because before it was placed with the points P and Q in the same great circle : hence it arrives at o, and the arc op must be equal to the arc OP; now the arc Op is equal to the arc OP, from which it is necessary that the point o falls on O.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 639
+
+PROBLEM 69
+
+695. With the motion given of two points of a rigid body, the centre of inertia of which remains at rest, to find the axis passing through the centre of the inertia, about which this body is rotating at present.
+
+SOLUTION
+With the relations as before with all the points of the body at rest on a spherical surface ABCD described about the centre of inertia (Fig. 90), in the element of time dt the point P is moved through the element Pp = dp and some other point R through the element Rr = dr and putting the great arc of the circle PR = q. Calling the angles RPp = m and SRr = n, moreover between which a certain relation must be put in place, so that the arc pr becomes equal to the arc PR = q. Now let O be the pole of the rotation, and thus to P and R with OP and OR drawn as if meridian the angle are OPR = 90o + m and ORP = 90o - n , there
+is found :
+
+cot OP
+
+=
+
+sin OPR sin PRtangORP
+
++
+
+cos
+
+PR cos OPR sin PR
+
+=
+
+cos m sin n cos n sin q
+
+-
+
+sin m cos q sin q
+
+cot
+
+OR
+
+=
+
+sin
+
+sin ORP PRtangOPR
+
++
+
+cos
+
+PR cos ORP sin PR
+
+=
+
+- sin m cos n cos m sin q
+
++
+
+sin n cos q sin q
+
+or
+
+tang
+
+OP
+
+=
+
+cos
+
+m
+
+cos n sin sin n-sin m
+
+q cos
+
+n cos
+
+q
+
+,
+
+tang
+
+OR
+
+=
+
+cos m sin q - sin m cos n+cos m sin n cos q
+
+,
+
+thus the point O becomes known. Now next, since
+
+Pp : Rr = sin OP : sin OR = sin ORP : sin OPR, then
+dp : dr = cos n : cos m or
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 640
+
+dp cos m = dr cos n,
+
+thus the relation is deduced between the increments dp, dr and the angles m and n. And then
+
+for the angular speed itself that is equal to the angle POp divided by dt , this is equal to
+
+dt
+
+Pp sin OP
+
+,
+
+which
+
+value
+
+becomes
+
+:
+
+( ) dp cos2 m sin2 n+cos2 n sin2 q+sin2 m cos2 n cos q-2 sin m cos m sin n cos n cos q
+dt cos n sin q
+
+COROLLARY 1
+696. Since a relation of this kind must exist between the increments dp, dr and the angles m, n, in order that
+dp cos m = dr cos n,
+this relation thus can be represented in the diagram, so that on sending perpendiculars p and r from p et r to the arc PR there arises P = R.
+
+COROLLARY 2
+
+697. Moreover this property by itself can be seen; for since the arc pr is equal to the arc  , it cannot be equal to the arc PR, unless P = R. But the angular speed can thus be expressed more conveniently, so that it becomes equal to
+
+( ) dp 1-(sin m sin n+cos m cos n cos q)2
+
+dt cos n sin q
+
+.
+
+COROLLARY 3
+698. If the points P and R are distant by a semicircle, so that sin q = 0 and cos q = -1, then by necessity it must be the case that cos m sin n + sin m cos n = 0, or tang m = -tang n and m = ­n, and thus dp = dr. For the opposite points of the sphere are unable to have another motion unless equal ; but in this case nothing is determined about the axis of rotation.
+
+COROLLARY 4
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 641
+
+699. But on knowing the motion of two points themselves not in opposition, the position of the axis of rotation with the angular speed is known, thus henceforth the motion of all the points of the body can be defined.
+SCHOLIUM
+700. These, as I have now mentioned, extend not only to bodies with three equal principal axes present, but in general to all rigid bodies, which are disturbed in some manner, while the centre of inertia of these remains fixed, in whatever moment of the time there is rotational motion about a certain axis passing through the centre of inertia. But if the centre of inertia does not remain fixed, at some moment of time it will be made up from such a rotational motion and from a progressive motion and no other kind of motion can be present for a rigid body. Whereby it is necessary to investigate a twofold motion for the motion of a perfectly rigid body, one is of the centre of inertia, which is the progressive motion, now the other of the rotational motion, so that at some time we may wish to assign an angular speed to the axis of rotation. And if the axis of rotation always remains the same, the determination of the motion from the previous principles presented elsewhere should present no difficulties ; but if the axis of rotation is continually changing, these principles are barely sufficient, but rather the problem is solved by taking refuge in these principles which have been set out in detail in the previous chapter. Yet in this chapter, where we are concerned with the motion of given bodies with three equal axis and not disturbed by the action of any forces, we do not need the aid of these, as from common principles we are able to set out the whole calculation in one proposition.
+PROBLEM 70
+701. If the said rigid body with three equal axis is projected in some manner, and henceforth not acted on by any forces, to define the motion by which it progresses.
+SOLUTION
+The motion impressed initially on the body is resolved into progressive and rotational motions about a certain axis passing through the centre of inertia, each of which can be considered separately. And indeed the progressive motion thus is continued so that the centre of inertia progresses uniformly along a straight line, which quality is common to all progressive motion, even if the body referred to is not of this kind. But because the rotational motion first impressed on the body is retained, here especially the innate nature of bodies of this kind supplies the solution needed, since indeed the axis of rotation, whatever it should be, having the happy circumstance of being a principal axis, thus preserves the initial rotational motion impressed, so that the axis of rotation remains constantly at rest, if no progressive motion should be present ; but with this added, the axis of rotation is itself moving uniformly in a straight line parallel with the motion of the centre of inertia itself, and meanwhile the rotational motion is completed uniformly.
+COROLLARY 1
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 642
+
+702. Therefore whatever the motion impressed on the body initially, both progressive and rotational, the centre of inertia thus progresses uniformly, with the axis of rotation placed along a straight line, to which the axis itself always remains parallel, and the body goes on to rotate uniformly about that axis.
+
+COROLLARY 2
+703. Even if the body does is not related to bodies of this kind, yet if a rotary motion about a certain principal axis is impressed on that initially besides the progressive motion, each motion is continued likewise.
+
+COROLLARY 3
+704. Even if external forces should be added above, the mean [resultant] of which passes in a line through the centre of inertia, only the progressive motion likewise is affected by these, and as if the whole mass of the body is gathered at the centre of inertia itself ; but the motion of rotation remains uniform, and the axis of rotation constantly remains in a position parallel to itself.
+
+SCHOLIUM
+705. Since even now we may remove the forces acting and examine the continuation of the impressed motion alone, we can define perfectly the motion of all bodies of the first kind, as nothing more is needed ; but for the rest of the bodies we have now arranged that some part of these, when clearly the rotational motion first impressed shall be made about a principal axis, the determination of which can indeed be completed with the aid of mechanics known now for some time. Thus in other kinds of bodies a difficulty then at last is encountered, when the first motion impressed on the body is not about a certain principal axis: in order that this task may be a handled I shall put in place first a special form of these bodies, in which two moments of inertia about the principal axes are equal. Because this kind of body is found to be convenient, except where the calculation cannot reasonably be draw together, so that for these at this stage an infinite number of principal axes are given, thus so that an infinite number of examples of this kind of motion can be present, such as we have now defined ; opposing this are bodies of the third kind, in which the principal moments are unequal to each other, and besides the three axis determined nothing otherwise is given, about which the body is able to rotate freely. Therefore for these bodies it has been proposed by us generally, that some such motion should be impressed on these bodies, and then we investigate the continuation of this motion: where at some initial time the position of the axis of rotation is given with regard to the principal axes of the body with the angular speed, then the position of the principal axes themselves must be determined with regard to absolute intervals [coordinates], by which method this arduous proof to be examined seems especially suitable, both for the calculation to be explained as well as illustrating our understanding itself. But for each we have explained the necessary means in the preceding chapters.
+
+CAPUT XI
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 643
+
+DE MOTU LIBERO CORPORUM RIGIDORUM TERNIS AXIBUS PRINCIPALIBUS PARIBUS PRAEDITORUM ET A
+NULLIS VIRIBUS SOLLICITATORUM
+
+DEFINITIO 11 [b]
+684. Corpus rigidum tres axes principales pares habere dicitur, quando eius momenta inertiae respectu axium principalium inter se sunt aequalia.
+COROLLARIUM 1
+685. In talibus ergo corporibus omnes rectae per eius centrum inertiae ductae vicem axium principalium gerunt eorumque respectu momenta inertiae inter se erunt aequalia.
+COROLLARIUM 2
+686. Quaecunque igitur ternae rectae se mutuo in centro inertiae normaliter secantes pro directricibus assumantur, si situs cuiusvis corporis elementi dM per coordinatas illis parallelas x, y et z definiatur, erit per totum corpus
+ xydM = 0,  xzdM = 0, et  yzdM = 0.
+COROLLARIUM 3
+687. Quodsi tale corpus circa rectam quamvis per centrum inertiae transeuntem acceperit motum gyratorium, eum ob suam inertiam perpetuo conservabit, ut ea recta maneat immota, nisi a viribus externis perturbetur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 644
+
+SCHOLION 1
+
+688. Dari huiusmodi corpora, quorum momenta respectu axium principalium sint inter se aequalia, eo minus dubitare licet, cum in superioribus, ubi corpora homogenea sumus contemplati, plures corporum species hac proprietate gaudentes assignaverimus. Inter quas primum locum tenet globus ex materia homogenea confectus, tum vero eo referenda sunt corpora quinque regularia; porro etiam dantur cylindri, coni et coni truncati, qui eadem proprietate sunt praediti. Atque in genere, si corpora non constent ex materia homogenea, innumerabilia exhiberi poterunt genera cuiusvis figurae, in quibus aequalitas inter momenta inertiae respectu axium principalium locum obtineat. Atque de huiusmodi corporibus tantum in hoc capite agetur motusque, cuiusque sunt capacia, dum a nullis viribus externis urgentur, definietur. Character ergo essentialis huiusmodi corporum in hoc consistit, ut positis ternis coordinatis orthogonalibus x, y, z ad centrum inertiae relatis primo sit ut iam notavimus
+
+ xydM = 0,  xzdM = 0, et  yzdM = 0.
+tum vero
+ xxdM =  yydM =  zzdM .
+Sicque momentum inertiae respectu axis cuiuscunque per centrum inertiae ducti erit =
+2 xxdM . Hoc criterio quasi primum corporum genus constituitur atque in cognitione
+mechanica nomine corporum regularium commode insigniri posset, cum omnes plane rectae per centrum inertiae ductae pari proprietate sint praeditae.
+
+SCHOLION 2
+
+689. Etsi in hoc capite tantum de motu corporum ternos axes principales pares habentium tanquam de casu simplissimo tractare constituri, tamen a proprietate, quae etiam ad reliqua corporum genera pateat, exordiri conveniet. Scilicet quomodocunque corporis rigidi motus fuerit perturbatus, is semper pro quovis temporis puncto resolvi potest in binos motus, quorum alter sit progressivus alter gyratorius circa quempiam axem per centrum inertia ductum. Quae propositio cum fundamentum motus omnium corporum rigidorum contineat, eius demonstrationem in sequente theoremate tradamus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 645
+
+THEOREMA 9
+
+690. Quomodocunque corpus rigidum moveatur, eius motus quovis momento est compositus seu mixtus ex motu progressivo et ex gyratorio circa axem aliquem per eius centrum inertiae transeuntem.
+
+DEMONSTRATIO
+Si corporis centrum inertiae moveatur, in quo motus progressivus consistit, quippe qui perpetuo cum motu centri inertiae congruit, hunc mente saltem tollendo, dum spatium cum corpore pari celeritate in oppositum ferri concipiatur, de motu, qui adhuc in corpore inest, demonstrandum est, eum esse gyratorium circa quempiam axem per centrum inertiae transeuntem, qui sublato motu progressivo quiescat saltem per tempus infinite parvum. Hoc autem modo centrum inertiae corporis in quietem redigitur, et quomodocunque corpus circa
+hoc centrum moveatur, praeter id semper quaepiam linea recta quiescat, quae propterea erit axis gyrationis, id quod sequenti modo ostendo. Circa corpus concipiatur superficies sphaerica centrum suum in eius centro inertiae habens, quae ut quiescens consideretur, ad quam singula corporis puncta per rectas ex centro ad superficiem ductas referantur (Fig. 90). Centro igitur quiescente punctum corporis ad P relatum tempusculo dt transferatur in p, ductoque per P circulo maximo OPB ad spatiolum Pp normali in eo capiatur aliud quodvis punctum Q, quod interea tranferatur in q, ita ut totus arcus interceptus PQ in pq pervenisse sit censendus, unde, cum omnia corporis puncta perpetuo easdem inter se distantias servent, erit pq = PQ. Quia autem arculi Pp et Qq sunt infinite parvi et angulus pPQ rectus, arcus illi aequales esse nequeant, nisi etiam arculus qQ ad PQ sit normalis. Continuentur ambo arcus PQ et pq, donec sibi occurrant in O, et cum sit OP = Op et OQ =Oq, motu illo totus arcus OPQ in Opq erit translatus ideoque punctum O in loco suo immotum persisterit necesse est. Quare ducta ex centro per hoc punctum O recta, eam totam interea in quiete perseverasse manifestum est, quae igitur erit axis gyrationis.Ex quo perspicitur corpus circa centrum inertiae quiescens commoveri non posse, quin simul tota quaedam linea recta per id centrum ducta maneat immota, ideoque motum esse gyratorium. Sin autem centrum inertiae ipsum moveatur, universus corporis motus erit compositus seu mixtus ex motu progressivo et gyratorio circa quempiam axem per eius centrum inertiae transeuntem.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 646
+
+COROLLARIUM 1
+691. Quomodocunque ergo corpus rigidum moveatur, ad eius motum cognoscendum primo consideretur eius centrum inertiae, cuius motus dabit motum progressivum, hoc deinde sublato quaeratur punctum O, unde axis gyrationis innotescet.
+
+COROLLARIUM 2
+
+692. Ad hoc autem punctum O inveniendum, posito arcu OP = v, ob
+
+angulum O
+
+=
+
+Pp sin v
+
+=
+
+Qq
+sin(v+ PQ)
+
+erit Qq  sin v = Pp  cos PQ  sin v + Pp  sin PQ  cos v
+
+hincque
+
+tang
+
+v
+
+=
+
+Ppsin PQ Qq-Ppcos PQ
+
+,
+
+unde patet punctum O semper realiter determinari.
+
+COROLLARIUM 3
+
+693. Ex motibus punctorum P et Q per spatiola Pp et Qq etiam facile definitur celeritas angularis circa axem gyrationis, quae est
+
+( ) ang.O
+dt
+
+=
+
+Pp dtsin v
+
+=
+
+Pp2 -2PpQqcos PQ+Qq2 dt sin PQ
+
+ideoque nulla esse nequit, nisi ambo spatiola Pp et Qq evanescant.
+
+SCHOLION
+
+694. Etsi haec demonstratio ex sphaericis maxime est evidens, tamen eius vim eo magis perpendi convenit, quod non defuerint viri alioquin perspicacissimi, quibus adeo visum est fieri posse, ut omnia puncta superficiei sphaericae centro quiescente aequalibus celeritatibus circumferantur. Hoc scilicet obtineri posse sunt arbitrari, si sphaera, dum circa unum quempiam axem gyratur, simul circa alium axem ad illum normalem pari velocitate circumagatur. Nunc autem hac demonstratione allata evictum est, etiamsi sphaera non solum circa duos axes sed etiam tres pluresve simul circumagatur, eius motum tamen semper ita fore comparatum, ut quovis momento tota quaedam recta in quiete permaneat. Nulla enim vis demonstrationi infertur, si quis obiiciat puncta P et Q non simplici motu, ut hic assumsimus, sed composito circa aliquot axes simul ferri; quomodocunque hic motus fuerit compositus, tamen haec puncta P et Q post tempusculum dt in alia certa puncta p et q perveniant necesse est, ut arcus pq aequalis fit arcui PQ, et quoniam arcum PQ ad spatiolum Pp normalem
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 647
+
+assumsimus, is etiam ad Qq normalis esse debet. Ac si quis adhuc dubitet, num punctum O, in quo concursum arcuum PQ et pq productorum constituimus, in eodem loco permaneat, ei saltem concedendum est id adhuc in circulo maximo Opq repertum iri, quoniam ante cum punctis P et Q in eodem circulo maximo erat situm: pervenerit ergo in o, et arcus op aequalis esse debeat arcui OP; verum arcus Op aequalis est arcui OP, ex quo punctum o in O cadat necesse est.
+
+PROBLEMA 69
+695. Dato motu duorum corporis rigidi punctorum, cuius centrum inertiae quiescit, invenire axem per centrum inertiae transeuntem, circa quem hoc instanti gyratur.
+SOLUTIO
+Relatis ut ante omnibus corporis punctis ad superficiem sphaericam quiescentem ABCD circa centrum inertiae descriptam (Fig. 90), moveatur tempusculo dt punctum P per spatiolum Pp = dp et aliud quodvis puncutm R per spatiolum Rr = dr ponaturque arcus circuli maximi PR = q. Vocentur anguli RPp = m et SRr = n, inter quos autem iam certa quaedam relatio intercedere debet, ut arcus pr aequalis fiat arcui PR = q. Sit iam O polus gyrationis, indeque ad P et R ductis quasi meridianis OP et OR erunt anguli OPR = 90o + m et ORP = 90o - n reperitur
+
+cot OP
+
+=
+
+sin OPR sin PRtangORP
+
++
+
+cos
+
+PR cos OPR sin PR
+
+=
+
+cos m sin n cos n sin q
+
+-
+
+sin m cos q sin q
+
+cot
+
+OR
+
+=
+
+sin
+
+sin ORP PRtangOPR
+
++
+
+cos
+
+PR cos ORP sin PR
+
+=
+
+- sin m cos n cos m sin q
+
++
+
+sin n cos q sin q
+
+sive
+
+tang
+
+OP
+
+=
+
+cos
+
+m
+
+cos n sin q sin n-sin m cos
+
+n
+
+cos
+
+q
+
+,
+
+tang
+
+OR
+
+=
+
+-
+
+sin
+
+m
+
+cos m sin q cos n+cos m sin
+
+n
+
+cos
+
+q
+
+,
+
+unde punctum O innotescit. Tum vero, cum sit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 648
+
+Pp : Rr = sin OP : sin OR = sin ORP : sin OPR,
+erit dp : dr = cos n : cos m
+seu dp cos m = dr cos n,
+unde relatio inter spatiola dp, dr et angulos m et n collititur. Denique pro ipsa celeritate angulari ea aequalis est angulo POp per dt diviso, hoc est = Pp , qui valor abit in
+dt sin OP
+
+( ) dp cos2 m sin2 n+cos2 n sin2 q+sin2 m cos2 n cos q-2 sin m cos m sin n cos n cos q
+dt cos n sin q
+
+COROLLARIUM 1
+696. Cum eiusmodi relatio inter spatiola dp, dr er angulos m, n intercedere debeat, ut sit
+dp cos m = dr cos n, haec relatio inter in figura repraedentari potest, ut demissis ex p et r in arcum PR perpendiculis p et r fiat P = R.
+
+COROLLARIUM 2
+
+697. Haec proprietas autem per se est manifesta; cum enim arcus pr aequalis sit arcui  ,
+
+arcui PR aequlais esse nequit, nisi sit P = R. Celeritas autem angularis ita commodius
+
+exprimitur, ut sit =
+
+( ) dp 1-(sin m sin n+cos m cos n cos q)2
+
+dt cos n sin q
+
+.
+
+COROLLARIUM 3
+698. Si puncta P et R semicirculo distent, ut sit sin q = 0 et cos q = -1, necessario debet esse cos m sin n + sin m cos n = 0, seu tang m = -tang n et m = ­n, ideoque dp = dr. Puncta enim opposita sphaerae alium motum nisi aequalem habere nequeunt; hoc autem casu circa axem gyrationis nihil determinatur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 649
+
+COROLLARIUM 4
+
+699. Cognito autem motu duorum punctorum sibi non oppositorum, situs axis gyrationis cum celeritate angulari innotescet, unde deinceps motus omnium corporis punctorum definire potest.
+
+SCHOLION
+
+700. Haec, ut iam monui, non solum ad corpora, in quibus tres axes principales pares existunt, pertinent, sed in genere ad omnia corpora rigida; quae quomodocunque agitentur, dum eorum centrum inertiae fixum manet, quovis temporis momento eorum motus est gyratorius circa quempiam axem per centrum inertiae transeuntem. Sin autem centrum inertiae non maneat fixum, quovis temporis momento motus erit compositus ex tali motu gyratorio et motu progressivo neque alius motus in corpora rigida cadere potest. Quare ad motum corporis rigidi perfecte cognoscendum duplicem motum investigari oportet, alterum eius centri inertiae, qui est motus progressivus, alterum vero gyratorium, cuius cognito postulat, ut ad quodvis tempus axem gyrationis cum celeritate angulari assignare valeamus. Ac si axis quidem gyrationis perpetuo maneat idem, determinatio motus per principia ante hac passim exposita nihil habeat difficultatis; sin autem ipse gyrationis axis continuo varietur, haec principia minime sufficiunt, sed confugiendum erit ad ea, quae in capitibus praecedentibus fusius sunt explicata. In hoc tamen capite, ubi de motu corporum ternis axibus paribus praeditorum et a nullis viribus sollicitatorum agimus, istis subsidiis non indigemus, sed per vulgaria principia totum negotium unica propositione expedire poterimus.
+
+PROBLEMA 70
+
+701. Si corpus rigidum tribus axibus paribus praeditum quomodocunque proiiciatur, neque deinceps ab ullis viribus sollicitetur, definire motum quo progreditur.
+
+SOLUTIO
+Motus corpori primum impressus resolvatur in progressivum et gyratorium circa quempiam axem per centrum inertiae transeuntem, quorum utrumque seorsim considere licet. Ac primo quidem motus progressivus ita continuabitur, ut centrum inertiae uniformiter in directum progrediatur, quae proprietas omni motui progressivo est communis, etiamsi corpus non ad hoc genus referatur. Quod autem ad motum gyratorium corpori primum impressum attinet, hic indoles huius generis corporum imprimis solutionem suppeditat, cum enim axis gyrationis, quicunque fuerit, proprietate axium principalium gaudeat, motus gyratorius initio impressus ita perpetuabitur, ut axis gyrationis constanter in quiete perseverat, si nullus motus progressivus adesset; hoc autem accedente axis gyrationis motu sibi parallelo cum centro inertiae uniformiter in directum promovebitur, atque interea motus gyratorius aequaliliter absolvetur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter ELEVEN.
+
+Translated and annotated by Ian Bruce.
+
+page 650
+
+COROLLARIUM 1
+
+702. Quicunque ergo motus tam progressivus quam gyratorius corpori initio imprimatur, centrum inertiae cum axe gyrationis ita uniformiter in directum progredietur, ut axis sibi perpetuo maneat parallelus, corpusque circa eum uniformiter gyrari pergat.
+
+COROLLARIUM 2
+
+703. Etiamsi corpus non ad hoc genus pertineat, tamen si ei initio praeter motum progressivum motus gyratorius circa quempiam axem principalem imprimatur, uterque motus perinde continuabitur.
+
+COROLLARIUM 3
+
+704. Quin etiam si insuper vires externae accedant, quarum media directio per centrum inertiae transeat, iis solus motus progressivus perinde afficietur, ac si tota corporis massa in isto centro esset collecta; motus autem gyratorius manebit uniformis, et axis gyrationis constanter situm sibi parallelum conservabit.
+
+SCHOLION
+
+705. Cum etiamnum vires sollicitantes removeamus et in solam motus impressi continuationem inquiramus, motus omnium corporum primi generis perfecte definimus, ut nihil amplius desiderari possit; pro reliquis autem corporibus iam partem aliquam expedivimus, quando scilicet motus gyratorius primum impressus fit circa axem principalem, quae quidem determinatio per cognita iam pridem subsidia mechanica absolvi potuit. In aliis ergo corporum generibus diffucultas tum demum occurrit, quando corpori primum motus gyratorius non circa quempiam axem principalem imprimitur : ad quod negotium pertractandum primum peculiare genus constituam eorum corporum, in quibus duo dantur momenta inertiae respectu axium principalium aequalia. Quod genus, praeterquam quod calculus haud mediocriter contrahitue, hoc commodi habet, ut in eo adhuc infiniti dentur axes principales, ita ut infinitis modis eiusmodi motus, qualem iam definivimus, existere possit; cum contra in tertio genere, in quo momenta principalia inter se sunt inaequalia, praeter tres axes determinatos nullus alius detur, circa quem corpus libere gyrari queat. In his igitur generibus id nobis est propositum, ut quicunque motus talibus corporibus fuerit impressus, eius continuationem investigemus : ubi ad quodvis tempus primo positio axis gyrationis ratione axium principalium corporis cum celeritate angulari, deinde vero situs ipsorum axium principalium ratione spatii absoluti determinari debebit, qui modus hoc arduum argumentum tractandi maxime videtur idoneus, tam ad calculum evolvendum, quam ad ipsam cognitionem nostram illustrandam. Ad utrumque autem in praecedentibus capitibus necessaria adminicula exposuimus.
+
+

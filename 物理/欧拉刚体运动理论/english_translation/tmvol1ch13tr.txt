@@ -1,0 +1,7310 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 686
+
+Chapter 13
+
+CONCERNING THE FREE MOTION OF THE SAID BODIES WITH THREE UNEQUAL PRINCIPAL AXES, AND ACTED
+ON BY NO FORCES.
+
+PROBLEM 76
+737. If some rotational motion were impressed initially on some rigid body, and that body not being acted on by any external forces; to assign the position of the axis of rotation at any time with respect to the principal axes.
+
+SOLUTION
+Since the centre of inertia of the body I remains at rest, at that there is put in place the centre of a sphere, and to the surface of this sphere we reduce everything (Fig. 89) : let IA, IB, IC, be
+the principal axes of the body, and the moments of inertia about the axis IA = Maa, the axis IB = Mbb, and about the axis IC = Mcc, which we assume are unequal to each other, because if two or even all should be equal to each other, the case returns to one of the previous chapters. Now at the elapsed time t let the line IO be the axis of gyration, and it is required to find the position of this with respect of the principal axes ; the angular speed at which the body now rotates about the axis IO is put equal to  ' , and let the rotation be made in the sense ABC.
+The arcs of the great circles, which are to be found, may be called OA =  , OB =  et OC =  ,
+which change with time have been taken as variables, moreover thus depend on each other, in order that
+cos2  + cos2  + cos2  = 1. Then also the angular speed  ' is a variable here, since this becomes (§670)
+
+d ' ''
+
+=
+
+(aa-bb)(aa-cc)(bb-cc) cos
+aabbcc
+
+cos 
+
+cos 
+
+ dt,
+
+then from § 674 the variations of the arcs  ,  , are determined thus from these three
+
+equations :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 687
+
+I. aabbccd sin =  ' (cc - bb) dt cos  cos (bbcc - (bb - aa)(cc - aa) cos2  ) . II. aabbccd sin  =  ' (aa - cc) dt cos  cos (aacc - (cc - bb)(aa - bb) cos2  ) III. aabbccd sin =  ' (bb - aa) dt cos cos  (aabb - (aa - cc)(bb - cc) cos2  ) .
+
+But since
+
+dt cos cos  cos  aabbcc
+
+=
+
+
+
+'
+
+
+
+'
+
+(
+
+d '
+aa -bb )( aa
+
+-cc)(bb
+
+-cc
+
+)
+
+,
+
+these equations can be changed into these :
+
+( ) I.
+
+d
+
+sin
+
+cos 
+
+=
+
+
+
+-d '
+' ( aa -bb )( aa - cc )
+
+bbcc - (bb - aa)(cc - aa) cos2 
+
+( ) II.
+
+d
+
+sin 
+
+cos 
+
+=
+
+d '
+ '(aa-bb)(bb-cc)
+
+aacc - (cc - bb)(aa - bb) cos2 
+
+( ) III.
+
+d
+
+sin 
+
+cos 
+
+=
+
+-d '
+ '(aa-cc)(bb-cc)
+
+aabb - (aa - cc)(bb - cc) cos2 
+
+or into these integrable equations :
+
+I.
+
++
+
+d ' '
+
+=
+
+-(bb-aa)(cc-aa)d sin cos bbcc-(bb-aa)(cc-aa) cos2 
+
+II.
+
++
+
+d ' '
+
+=
+
+-(cc-bb)(aa-bb)d  sin  cos  aacc-(cc-bb)(aa-bb) cos2 
+
+III.
+
++
+
+d ' '
+
+=
+
+-(aa-cc)(bb-cc)d sin cos  aabb-(aa-cc)(bb-cc)cos2 
+
+,
+
+the integrals of which are :
+
+I.
+
+A ''
+
+= bbcc - (bb - aa)(cc - aa) cos2 
+
+II.
+
+B ''
+
+= aacc - (cc - bb)(aa - bb) cos2
+
+
+
+III.
+
+C ''
+
+= aabb - (aa - cc)(bb - cc) cos2  ,
+
+where indeed two of the constants A, B, C are arbitrary, but the third must be defined thus, so that the equation arises :
+A(cc - bb) + B (aa - cc) + C (bb - aa) = 0.
+Or on putting
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 688
+
+then it is the case that Hence therefore
+
+A = A (bb - aa)(cc - aa) B = B(cc - bb)(aa - bb) C = C (aa - cc)(bb - cc)
+A + B + C = 0.
+
+cos2 
+
+=
+
+bbcc '  ' -A(bb-aa)(cc-aa) (bb-aa)(cc-aa) '  '
+
+=
+
+bbcc
+( bb - aa )( cc - aa )
+
+-
+
+
+
+A '
+
+'
+
+cos2
+
+
+
+=
+
+aacc
+( cc -bb )( aa -bb )
+
+-
+
+B '
+
+'
+
+cos2 
+
+==
+
+aabb
+( aa - cc )( bb - cc )
+
+-
+
+C ''
+
+.
+
+For the sake of brevity we put:
+
+bbcc
+( bb - aa )( cc - aa )
+
+=
+
+D,
+
+aacc
+( aa -bb )( cc -bb )
+
+=
+
+E,
+
+aabb
+( aa - cc )( bb - cc )
+
+=
+
+F,
+
+in order that where it is the case that then
+
+D+E + F = 1, A + B +C = 0,
+
+cos =
+
+(D ' '-A)
+
+'
+
+,
+
+cos  =
+
+(E ' '-B)
+
+'
+
+,
+
+cos  =
+
+(F ' '-C)
+' ,
+
+with which values substituted in the first equation, there is obtained :
+
+( aa -bb )( aa - cc )( bb - cc ) dt
+aabbcc
+
+=
+
+ ' d '
+
+.
+
+(D ' '-A)(E ' '-B)(F ' '-C)
+
+The integration of this equation, with the exception of a few cases , rejects receiving expressions of circular arcs or logarithms.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 689
+
+COROLLARY 1
+738. Therefore unless two moments of inertia of the body are equal to each other, the rotational motion about the variable axis is not uniform ; and indeed the determination of the angular speed at some time appears to be most difficult.
+
+COROLLARY 2
+739. But with the angular speed  ' found at some time t, the position of the axis of rotation can be defined easily with respect to the principal axes, from the formulas found for the arcs ,, .
+
+PROBLEM 77
+737. With these same quantities in place as in the preceding problem, from the given axis of rotation, about which the body begins to rotate with a given angular speed, to assign at a given time the angular speed and the position of the axis of rotation with respect to the principal axes.
+
+SOLUTION
+Let IE be the axis (Fig. 89), about which the body begins to rotate initially, with an angular speed equal to in the sense ABC, and for the location of this the arcs shall be
+AE = a, BE = b, and CE = c. Then since the moments
+of inertia Maa, Bbb, Mcc are unequal, then let aa be the maximum, bb the middle, and cc the minimum values, and these numbers can hence be put in place:
+
+and
+and in order that A - B + C = 1and DD = ABC. Hence for the preceding formulas there is had :
+D = A, E = -B
+
+bbcc
+( aa -bb )( aa - cc )
+
+=
+
+A
+
+aacc
+( aa -bb )( bb - cc )
+
+=
+
+B
+
+aabb
+( aa - cc )( bb - cc )
+
+=
+
+C
+
+,
+
+aabbcc
+( aa -bb )( aa - cc )( bb - cc )
+
+=
+
+D,
+
+and F = C,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 690
+
+and in the elapsed time t the angular speed  ' must be determined from this equation:
+
+dt =
+D
+
+ ' d '
+
+,
+
+( A ' '-A)(-B ' '-B)(C ' '-C)
+
+the integration of this is thus to be put in place, so that on putting t = 0 there arises  ' =  . Then for the arcs AO =  , BO =  and CO =  there is obtained :
+
+cos =
+
+( A '  ' -A)
+'
+
+cos  =
+
+(-B '  ' -B)
+'
+
+cos  =
+
+(C '  '-C)
+
+'
+
+,
+
+which since at the beginning they were a,b, and c,then the constants A, B, C can thus be
+
+determined, in order that
+
+( ) ( ) ( ) A = A - cos2 a  , B = - B + cos2 b  , C = C - cos2 c  .
+On account of which we have :
+
+( )  cos2 a- A + A '  '
+
+cos =
+
+'
+
+( )  cos2 b-B + B '  '
+
+cos  =
+
+'
+
+( )  cos2 c-C +C '  '
+
+cos  =
+
+'
+
+dt =
+
+D ' d '
+
+( )( )( )  cos2 a- A + A '  '  cos2 b+B -B '  '  cos2 c-C +C '  '
+
+In order that these formulas can be collected together, we put in place
+
+ '  ' - 
+
+=
+
+v,
+
+in order that
+
+ ' =  (1+ v)
+
+and
+
+2 dt =
+
+Ddv
+
+,
+
+(cos2 a+ Av)(cos2 b-Bv)(cos2 c+Cv)
+
+which thus must be integrated, as on putting t = 0 it becomes v = 0, then indeed :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 691
+
+( ) cos
+
+=
+
+ '
+
+cos2 a + Av
+
+( ) cos 
+
+=
+
+ '
+
+cos2 b- Bv
+
+or also :
+
+( ) cos
+
+=
+
+ '
+
+cos2 c + Cv
+
+(cos2 a+ Av)
+cos = (1+v)
+
+(cos2 b-Bv)
+cos  = (1+v)
+
+(cos2 c+Cv)
+
+cos  =
+
+.
+
+(1+v)
+
+Since therefore if we assign the value of v at the given time t , we may know both the angular
+speed  ' =  (1+ v) as well as the position of the axis of rotation IO with respect to the
+
+principal axis.
+
+COROLLARY 1
+
+741. If one of the initial arcs in place a,b, and c vanishes, the remaining arcs are quadrants,
+and the axis of rotation falls on some principal axis, about which the body can perform rotations in a uniform motion.
+
+COROLLARY 2
+
+742.
+
+Since it is the case that
+
+d ' ''
+
+=
+
+dt cos cos  cos  D
+
+and D is a positive quantity, then the
+
+angular speed increases, as long as the pole of the rotation O is situated in the region ABC, or the cosines of the arcs  ,  , are positive, while the body is directed in the sense ABC.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 692
+
+COROLLARY 3
+743. But if the pole of the rotation falls on quadrants produced in the regions  ABb,  BCc, CAa (Fig. 94), which are also quadrants, then the speed will be diminished ; but it will be increased in the quadrants  Aa,  Bb, Cc , just as in the principal quadrant ABC.
+
+SCHOLIUM 1
+
+744. It helps that this is noted properly, lest we are cheated by the ambiguity of the sign using irrational formulas, whereby, if the cosines of the arcs a,b, and c were positive or rather the product of these were positive, in the first place the initial speed  ' increases and thus v as a
+
+consequence has a positive value. But the formula to be integrated has been prepared thus, so that it cannot be evaluated either algebraically or by means of the arcs circles or logarithms, but we are forced to concede that the integral of this quantity is required to be performed by quadrature. For even if the calculation can be performed by means of the arcs of conic sections, yet thus clearly there is nothing to be gained, as it is seen to be better from the customary habit through the use of quadratures. But if indeed such a ratio is to be written
+[See O. O., series I, vol. XX, p. 259 etc.]  x ( f ) denoting the arc of a conic section, the semi
+
+parameter of this is equal to 1 and the semi transverse axis is equal to f, which arc is taken from the vertex corresponding to the abscissa equal to x, thus in order that, if f > 0, then the conic section is an ellipse, if f < 0, a hyperbola, and if f =  , a parabola, our formula to be
+
+integrated becomes
+
+
+
+dv
+
+,
+
+(a+ Av)(b-Bv)(c+Cv)
+
+where for brevity I put the letters a, b, c for cos2 a, cos2 b, and cos2 c , and the integration is
+
+reduced to part algebraic, part the arc of an ellipse and part the arc of a hyperbola. For it
+
+becomes :
+
+
+
+dv
+
+2 A (b-Bv)(c+Cv)
+= Const +
+
+(a+ Av)(b-Bv)(c+Cv)
+
+B( Ac-Ca) (a+ Av)
+
++
+
+2 A( Bc+Cb)
+
+A( B(
+
+Bc + Cb Ac -Ca
+
+) )
+
+ 1 
+
+-
+
+A(b-Bv)   A( Bc+Cb) 
+
+Ba+ Ab
+
+ 
+
+
+
+B(
+
+Ac
+
+-Ca
+
+)
+
+
+
+-
+
+2
+C( Ba+ Ab)
+
+
+
+C( Ba+ Ab) 
+
+B(
+
+Ac
+
+-Ca )
+
+ 
+
+(Ba+ Ab)(c+Cv) (Bc+Cb)(a+ Av)
+
+-
+
+ 1
+
+
+ 
+
+-C( Ba+ Ab) B( Ac-Ca)
+
+ 
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 693
+
+were it is to be taken that Ac > Ca ; if indeed it turns out otherwise, then the letters a, A and c, C must be exchanged between themselves. But hence clearly we gain no use in pursuing the calculation, thus much less is allowed to be deduced about the value of v at the given time t, yet about which the point of the question turns. The other case, in which Ac = Ca, hence is excluded here, which moreover on this account admits to an easier unfolding of the solution and therefore is worth the effort of being treated separately.
+
+SCHOLIUM 2
+
+745. Hence the cases are excluded at once, in which a certain arc of the arcsa,b, and c vanishes, since then in the first place the initial motion of the axis of gyration
+
+falls on some principal axis and thus it will always remain the same. Because also our formulas indicate, if sina = 0 and cos a = 1, then cosb = 0 and cosc = 0 , thus the formulas
+
+cos  = -Bv and cos  = Cv
+
+(1+v)
+
+(1+v)
+
+are unable to stand, unless v = 0 and  ' =  , thus in order that cos  = 0 and cos  = 0,and
+
+the pole of gyration O remains constantly at A. The same eventuates, if c = 0 , where the pole of the rotation O constantly remains at C and  ' =  . But this is less apparent if initially E
+
+should be at B, or b = 0 and cos a = 0 and cosc = 0 ; for the formulas give
+
+cos = Av , cos  = (1-Bv) and cos  = Cv ,
+
+(1+v)
+
+(1+v)
+
+(1+v)
+
+where v is considered to have taken a positive value. But since then
+
+2 dt = Ddv = dv B , on account of D = ABC v AC(1-Bv) v (1-Bv)
+
+this equation thus integrated, so that on putting v = 0 makes t = 0, gives
+
+2 dt B
+
+=
+
+l
+
+1+1 1-1
+
+-
+
+l
+
+1+ 1-
+
+(1- Bv )
+,
+(1- Bv )
+
+thus it is evident that unless the time elapsed is infinite, that is at no time is it possible for the letter v ever to acquire a positive value. Hence the pole of the rotation O will remain fixed to the point B always and  ' =  . Otherwise if only one of the arcsa,b, c is a quadrant, in the
+first place the angular speed does not change on account of d ' = 0 ; then the following
+
+account is obtained. In the first place let a = 90o or the point E lies in the quadrant BC, in order that cosc = sinb , then
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 694
+
+cos = Av (1+v)
+
+(cos2 b-Bv)
+cos  = (1+v)
+
+(sin2 b+Cv)
+
+cos  =
+
+;
+
+(1+v)
+
+thus it is apparent that v obtains a positive value and that
+
+2 dt =
+
+Ddv
+
+.
+
+( )( ) Av cos2 b-Bv sin2 b+Cv
+
+Since therefore if cos > 0, then  < 90o and the pole of the rotation proceeds from the quadrant BC closer towards A and there is produced  ' >  , and the same eventuates, if the
+pole of rotation were on the quadrant AB. But if the pole of rotation lies on the quadrant AC, on account of cosb = 0 , then
+
+cos =
+
+(cos2 a+ Av)
+,
+
+cos  =
+
+-Bv ,
+
+cos  =
+
+(cos2 c+Cv)
+,
+
+(1+v)
+
+(1+v)
+
+(1+v)
+
+and it is necessary that v at any rate is an increasing negative quantity from the start. Hence
+
+let v = -u , and since  dt must have a positive value, it is necessary to take Bu negative, and
+
+to make  > 90o and thus the pole of rotation recedes further from B and the speed
+
+ ' =  (1- u) will be diminished.
+
+SCHOLIUM 3
+
+746. I cannot disregard the sign property of this motion, which is consistent with this, that the vis viva [translator's italics : the living force is of course double the kinetic energy] of the
+
+body remains the same. But this is appropriate to be noted, that if the body is rotating about some axis with an angular speed equal to  ' , and the moment of inertia about this axis is
+
+equal to Mkk, then the vim vivam of this is equal to Mkk '  ' . With this proposed, since in
+
+our case
+
+( ) Mkk = M aa cos2  + bb cos2  + cc cos2  ,
+
+then
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 695
+
+( )  '  ' cos2  =  cos2 a + Av ( )  '  ' cos2  =  cos2 b- Bv ( )  '  ' cos2  =  cos2 c + Cv ,
+
+then the vis viva of the body about the axis IO with the angular speed equal to  ' is equal to
+
+( ) M aa cos2 a + bb cos2 b+ cc cos2 c + v ( Aaa - Bbb + Ccc) .
+Now Aaa - Bbb + Ccc = 0,
+
+and thus the vis viva does not depend on v and remains equal to that first impressed always. But because in general it is clear that Mkk '  ' expresses the vim vivam of the body or the sum
+of all the masses of the particles multiplied by the square of the speeds ; for an element of the body dM can be considered being distant from the axis by an interval equal to r, and the speed of this is equal to  ' r and thus the vis viva of this is equal to '  ' rrdM ; thus it
+becomes for the whole body :
+
+on account of
+
+vis viva =  '  '  rrdM = Mkk '  '  rrdM = Mkk.
+
+PROBLEM 78
+747. With the same in place up to this point, if the initial axis of gyration should be proportioned thus, so that
+cos2 a:cos2 c = A : C = cc (bb - cc):aa (aa - bb) ,
+to define the position of the axis of rotation with respect to the principal axes at some elapsed time t.
+
+SOLUTION
+
+We put cos2 a=An, in order that cos2 c = Cn ; then there becomes
+cos2 b = 1- ( A + C ) n = 1- (1+ B) n.
+Hence on putting
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 696
+
+ ' =  (1+ v)
+
+there becomes
+
+cos = A(n+v) (1+v)
+
+cos  = (1-n-Bn-Bv) (1+v)
+
+cos  = C(n+v) (1+v)
+
+and
+
+2 dt =
+
+dv B
+
+(n+v) (1-n-Bn-Bv)
+
+on account of D = ABC. But here we assume the pole of rotation E to stand out initially within the quadrant ABC, in order that the cosines of the arcs a,b, c , as well as from their nearby initial values  , , at
+
+any rate shall be positive. Hence therefore on integration we arrive at :
+
+2t =
+
+B
+
+l
+
+(1-n) + (1-n-Bn)
+-
+
+B
+
+l
+
+(1-n) + (1-n-Bn-Bv)
+.
+
+(1-n) (1-n) - (1-n-Bn) (1-n) (1-n) - (1-n-Bn-Bv)
+
+We put as an abbreviation
+so that the equation becomes 2 t
+
+m =l
+
+(1-n) = m ,
+B
+m+ (m-n) - l m+ (m-n-v) m- (m-n) m- (m-n-v)
+
+and on taking e for the number, the logarithm of which is equal to 1, there is put in place
+
+e2t m = T ,
+
+and the equation becomes
+
+m+ (m-n-v)
+
+m+ (m-n)
+
+T=
+
+,
+
+m- (m-n-v)
+
+m- (m-n)
+
+again it can be deduced that
+( ) (m - n - v) = m + (m-n) -T m - (m-n) m , ( ) m + (m-n) +T m - (m-n)
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 697
+
+and there arises 1- n = Bm and cos2 b = B (m - n) while cos2 a = An and cos2 c = Cn ; but
+
+first it was found that v
+
+ ' =  (1+ v)
+
+and
+
+cos =
+
+A( n + v )
+,
+
+cos  =
+
+(1- n - Bn- Bv )
+,
+
+cos  =
+
+C(n+v)
+.
+
+(1+ v )
+
+(1+ v )
+
+(1+v)
+
+So that we can draw these equations together more, let
+m+ (m-n)
+= k,
+m- (m-n)
+
+thus there arises and thus again : and on account of there is
+
+(m
+
+-
+
+n)
+
+=
+
+k -1 k +1
+
+m
+
+and
+
+(m
+
+-
+
+n
+
+-v)
+
+=
+
+k -T k +T
+
+m,
+
+( ) ( ) v = m
+
+k -1 k +1
+
+2
+
+-m
+
+k -T k +T
+
+2
+;
+
+( ) n = m - m
+
+k -1 k +1
+
+2
+
+=
+
+4mk
+(k +1)2
+
+.
+
+( ) n + v = m - m
+
+k -T k +T
+
+2
+
+=
+
+4mkT
+(k +T )2
+
+.
+
+On account of which, if for the first motion impressed, there should be :
+
+cos a
+
+=
+
+2
+
+Amk k +1
+
+,
+
+cos b
+
+=
+
+(k
+
+-1) Bm
+k +1
+
+,
+
+cos c
+
+=
+
+2
+
+Cmk k +1
+
+and the angular speed is equal to  in the sense ABC, then at the elapsed time t and on putting
+
+e2t m = T ,first the angular speed
+
+( ) ( )  ' = 
+
+1+ m
+
+k -1 k +1
+
+2
+-m
+
+k -T k +T
+
+2
+
+ 
+
+;
+
+then for the position of the pole of rotation O :
+
+then indeed
+
+cos a
+
+=
+
+2 AmkT
+ '(k +1)
+
+,
+
+cos b
+
+=
+
+
+
+(k -T ) Bm  '(k +1)
+
+,
+
+cos c
+
+=
+
+2 CmkT
+ '(k +1)
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 698
+
+dv
+
+=
+
+2
+
+dt
+
+
+
+4mkT (k -T (k +1)3
+
+)
+
+m.
+
+Hence it is apparent, in the first instant in which T = 1, that the number v increases from zero, then on putting T = k, or
+
+this is the lapse in the time from which there becomes
+
+2t m = lk , t = lk ;
+2 m
+
+( )  ' = 
+
+1+ m
+
+k -1 k +1
+
+2
+
+ 
+
+,
+
+and the maximum angular speed, likewise there is
+
+cos 
+
+=
+
+ '
+
+Am , cos  = 0
+
+or
+
+ = 90o
+
+and
+
+cos 
+
+=
+
+ '
+
+Cm ,
+
+thus so that now the pole of rotation arrives in the arc AC, that it shall soon pass over. For
+
+later the number v again is diminished and thus vanishes, if
+
+T -k k +T
+
+=
+
+k -1 k +1
+
+,
+
+that is if T = kk, and thus the lapse in the time
+
+t = lk ,
+m
+
+which is the double of that previous time, and this makes  ' =  ,
+
+cos 
+
+=
+
+2
+
+Amk k +1
+
+,
+
+cos 
+
+=
+
+-(k -1)
+k +1
+
+Bm
+
+,
+
+cos 
+
+=
+
+2
+
+Cmk k +1
+
+.
+
+Clearly here beyond the quadrant AC a similar situation is had with respect of the pole
+
+opposite to B, to which it continually gets nearer, and thus reaches that after an infinite lapse
+
+of time; for on putting T =  then
+
+' =
+
+ 1- 
+
+4mk
+(k +1)2
+
+  
+
+,
+
+and this therefore is the minimum angular speed ; then now there is cos = 0 ,
+
+cos
+
+
+
+=
+
+- '
+
+Bm and cos  = 0 . But on account of
+
+it is clear that cos  = -1.
+
+1
+
+-
+
+n
+
+=
+
+1
+
+-
+
+(
+
+4mk
+k +1)2
+
+=
+
+Bm
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 699
+
+COROLLARY 1
+
+748. Thus it is necessary that the number n be assumed, so that both An and Cn are less than
+
+one ; with which accepted, then
+
+m
+
+=
+
+1-n B
+
+and
+
+k=
+
+m+ (m-n)
+.
+m- (m-n)
+
+This relation exists between the numbers m and k, so that
+
+m
+
+=
+
+(k +1)2 4k + B(k +1)2
+
+,
+
+thus making
+
+( ) n
+
+=
+
+4k
+4k + B(k +1)2
+
+and cosb =
+
+(k -1) B
+,
+4k + B(k +1)2
+
+which is always less than unity on account of k > 1.
+
+COROLLARY 2
+
+749. The cosines of the arcs and  constantly maintain the same ratio between the cosines
+
+of the arcs a and c ; and while the pole O passes through the quadrant AC, where  = 90o ,
+
+then
+
+( ) cosa
+
+=
+
+ '
+
+
+
+(k +1) A
+;
+4k + B(k +1)2
+
+but
+
+therefore or
+
+' =
+
+1 + 
+
+(k -1)2 4k + B(k +1)2
+
+  
+
+=
+
+
+
+(k +1) (1+B) 4k + B(k +1)2
+
+,
+
+cos =
+
+A 1+ B
+
+and
+
+cos  =
+
+C 1+ B
+
+,
+
+cos =
+
+c (bb-cc)
+
+and cos  =
+
+a (aa-bb)
+
+.
+
+( aa - cc )( aa -bb + cc )
+
+( aa - cc )( aa -bb + cc )
+
+COROLLARY 3
+
+750. But while the axis of rotation O passes through the quadrant AC, the moment of inertia
+
+about this is
+
+( ) M
+
+aa cos2  + bb cos2  + cc cos2 
+
+=
+
+Maacc aa -bb + cc
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 700
+
+which is less than Mbb; and is also less than the initial motion, where it was equal to Mbb  Bm on account of Aaa + Ccc = Bbb. Therefore the moment of inertia becomes equal to
+
+Mbb
+
+
+
+B(k +1)2 4k + B(k +1)2
+
+=
+
+Maabbcc(k +1)2 4kbb(aa-bb+cc)+aacc(k -1)2
+
+.
+
+EXAMPLE
+
+751. The body begins to rotate initially about the pole E on the quadrant AC placed in the sense (Fig. 95) ABC with an angular speed equal to  ,
+
+thus in order that cos AE =
+
+A B +1
+
+and
+
+cos CE
+
+=
+
+C B +1
+
+,
+
+on putting for the sake of brevity,
+
+A
+
+=
+
+bbcc
+( aa -bb )( aa - cc )
+
+B
+
+=
+
+aacc
+( aa -bb )( bb - cc )
+
+C
+
+=
+
+aabb
+( aa - cc )( bb - cc )
+
+and hence A + C = B +1; in which case the general solution is deduced on taking k = 1 and
+
+m
+
+=
+
+1 B +1
+
+.
+
+Now
+
+with
+
+time
+
+passing
+
+the
+
+pole
+
+of
+
+the
+
+rotation
+
+crosses
+
+from
+
+E
+
+into
+
+the
+
+other
+
+quadrant AbC, with the pole B present opposite; and in the lapse of time equal to t sec., if
+
+there is taken T = e2t: (1+B) , then the pole of rotation may be found at O, so that
+
+cos AO = 2 AT
+( ) B(1+T )2 +4T
+
+and
+
+cos CO = 2 CT
+( ) B(1+T )2 +4T
+and there the angular speed will be equal to
+( )  B(1+T )2 +4T . (1+T ) (1+B) Therefore since there is
+B(T -1)2 +4CT
+sin AO =
+( ) B(1+T )2 +4T
+and
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 701
+
+then and and and Again there is
+
+B(T -1)2 +4 AT
+
+sin CO =
+
+,
+
+( ) B(1+T )2 +4T
+
+cos ACO =
+
+2 AT
+
+( ) B(T -1)2 +4AT
+
+sin ACO = (T -1) B
+( ) B(T -1)2 +4AT
+
+cos CAO =
+
+2 CT
+
+( ) B(T -1)2 +4CT
+
+sin CAO = (T -1) B
+( ) B(T -1)2 +4CT
+
+cos bO = (T -1) B
+( ) B(1+T )2 +4T
+
+and
+2 ( B+1)T
+sin bO =
+( ) B(1+T )2 +4T
+
+and thus
+
+cos AbO =
+
+A B +1
+
+and
+
+cos CbO =
+
+C B +1
+
+.
+
+Therefore since then AbO = AE and CbO = CE, the pole of rotation O is transferred from E
+
+to b along a great circle, and in the given time t traverses the arc EO, in order that
+
+tang EO = (T -1) B . 2 ( B+1)T
+
+Hence on putting this arc made EO =  , on account of tang  = (T -1) B 2 ( B+1)T
+
+there becomes
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 702
+
+sin ( B+1) + ( B+sin2  )
+
+T=
+
+,
+
+cos B
+
+and thus the time itself t, in which the arc EO =  is completed, is then
+
+( B+1) ( ) sin ( B+1) + B+sin2 
+
+t =  l
+
+cos B
+
+and the angular speed, while the pole of rotation is at O, is found to equal
+
+B .
+( B+sin2  )
+
+The moment of inertia about the axis IE is equal to
+
+M
+
+( Aaa+Ccc)
+B +1
+
+=
+
+B B +1
+
+
+
+Mbb
+
+and the vis viva is equal to
+
+B B +1
+
+
+
+Mbb,
+
+which always remains the same.
+
+SCHOLIUM
+
+752. If the initial motion were directed in the opposite sense, the pole of rotation would pass from E along the great circle to the pole B, clearly the poles are carried in the opposite sense in the quadrant AbC synonymous to the quadrant ABC. Moreover in this case it is worth noting that the pole of rotation O always approaches closer to either of the poles B or b, and
+thus reaches that quickly enough : for at once the number T = e2t: (1+B) becomes a little
+larger, because generally it usually soon happens that the declination of the axis of gyration IO is indistinguishable from the axis Bb. Here therefore the great circle BEb, which thus cuts the quadrant AC at E, in order that
+
+sin AE =
+
+C B +1
+
+and
+
+cos AE =
+
+A B +1
+
+or
+
+tang AE =
+
+C A
+
+a
+=
+c
+
+( aa -bb )
+,
+( bb - cc )
+
+has been given assigned this property, so that if the axis of rotation is in that position, then it perseveres with that, and the pole of rotation approaches either to b or to B, as the rotation shall be made in the sense ABC or in the opposite. Hence it can be seen that the axes of rotation, whatever it should be initially, always lies along some principal axis in the end, unless as in the preceding chapter it turns out otherwise. And thus now I will show that only this case can be treated, in which the axis of rotation finally coalesces with some mean
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 703
+
+principal axis, truly with the others this does not usually come about unless there is an infinite lapse of time ; but according to this, we must examine the integration of the above formula with great care and we are able to assign the values somehow which are returned at some time. In which calculation, since other subsidiary analysis scarcely promise to shed more light on the matter rather than the reduction of this calculation to the arcs of sections of cones, we take refuge in a certain mechanical aid, clearly the motion of a circular pendulum ; since the determination of this motion is held to be integrated by a like formula, yet this is not an obstacle, as here it is possible in a certain manner to estimate such a future motion.
+
+PROBLEM 79
+753. With the determination of the permitted motion, in which a heavy body may be moving on the periphery of a circle, either by oscillating or revolving, and to determine the position of the axis of rotation with respect to the principal axis at some time, if initially the body should be given a certain axis of rotation with a given angular speed.
+
+SOLUTION
+Since the time to be determined shall be
+
+t =  2
+
+dv ABC
+(a+ Av)(b-Bv)(c+Cv)
+
+for the present by writing the letters a, b, c for cos2 a, cos2 b, cos2 c , we can consider in general the motion of
+a weight along a circle, the radius of which is ca = cb = r (Fig. 96), the speed everywhere is such that, as if the body had fallen from the point g to that point. Hence there is put in place cg = p , then the start of the motion is taken now at e, so that
+
+cd = q , clearly with the line gab vertical and de horizontal.
+
+Now in the elapsed time t the weight arrives at z from e, so that with the line vz drawn horizontally, let dv = kv, since v is an absolute number in our formula. For the time being let cv = z, then the element of the arc at z = rdz , and because the
+(rr- zz)
+
+speed at z is equal to 2 g ( p + z ) , [recall that Euler's variable g is half the acc. due to
+
+gravity, and so the elementary formula vel2 = 2gs becomes vel2 = 4gs, or vel = 2 gs and
+
+substituting p + z for s; note the distinction between the point v on the diagram and the
+
+variable v : thus the length dv is equal to a constant k by the variable v, etc. ], the element of
+
+the time becomes
+
+dt =
+
+rdz
+
+.
+
+2 g( p+z)(r-z)(r+z)
+
+Hence on account of z = kv - q there is had :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 704
+
+dt =
+
+krdv
+
+,
+
+2 g( p-q+kv)(r +q-kv)(r -q+kv)
+
+but our formula to be constructed in a like manner has been expressed thus :
+
+( )( )( ) dt =
+
+kdv k
+
+,
+
+2
+
+ak A
+
++
+
+kv
+
+bk B
+
+-
+
+kv
+
+ck C
+
++ kv
+
+so that formula may be produced, first on putting
+
+kr 2g
+
+=
+
+kk 2
+
+,
+
+then there is put in place
+
+r=
+
+gk 
+
+.
+
+Then
+
+in
+
+the
+
+denominators,
+
+the
+
+equal
+
+middle
+
+factors
+
+present
+
+r
+
++
+
+q
+
+=
+
+bk B
+
+,
+
+and
+
+hence
+
+q
+
+=
+
+bk B
+
+-
+
+gk 
+
+.
+
+Again the first factors and the third are commonly taken to be put equal: if the first with the
+
+first and the third with the third are put equal, then there becomes
+
+p
+
+-
+
+q
+
+=
+
+ak A
+
+and
+
+p
+
+=
+
+ak A
+
++
+
+bk B
+
+-
+
+gk 
+
+or or and thus there becomes and Hence again
+
+r
+
+-
+
+q
+
+=
+
+ck C
+
+2
+
+gk 
+
+-
+
+bk B
+
+=
+
+ck C
+
+2g 
+
+=
+
+( Bc +Cb )
+BC
+
+k
+,
+
+k
+
+=
+
+2BC g
+ ( Bc+Cb)
+
+k
+
+=
+
+4BBCCg
+ ( Bc+Cb)2
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 705
+
+r
+
+=
+
+
+
+2BCg
+( Bc+Cb)
+
+q
+
+=
+
+2 BC ( Cb - Bc ) g  ( Bc+Cb)2
+
+p
+
+=
+
+4BBCCag +2ABC(Cb-Bc)g A ( Bc+Cb)2
+
+.
+
+At the given time t the number v is defined in the following manner : with the described circle the radius of this is given by
+
+( ) ca = cb =
+
+2BCg
+
+ B cos2 c+C cos2 b
+
+the body thus is moving on the periphery of this, and if it should have fallen from the point g,
+
+on taking
+
+( ) 4BBCCg cos2 a+2 ABC C cos2 b-B cos2 c
+
+cg =
+
+( )  B cos2 c+C cos2 b 2
+
+g
+
+( ) 4BCC Acos2 b+B cos2 a ( ) bg = A B cos2 c+C cos2 b 2 g
+
+and
+( ) 4BCC C cos2 a- Acos2 c ( ) ag = A B cos2 c+C cos2 b 2 g.
+
+Then on this circle the interval is taken
+( ) 2BC C cos2 b-B cos2 c ( ) cd =  B cos2 c+C cos2 b 2 g.
+
+or
+
+( ) bd = 
+
+4BCCg cos2 b B cos2 c+C cos2 b
+
+2
+
+,
+
+and on taking the point e for the initial motion, thus the body progresses through z, the arc ez
+
+is cut in the proposed time of travel t, and the height dv corresponding to this shall be equal to
+
+u, which is assumed to be known, then
+
+( ) 
+
+B cos2 c+C cos2 b
+
+2
+u
+
+v=
+
+,
+
+4BCCg
+
+thus henceforth for the above problems the angular speed can be deduced  ' =  (1+ v) , and
+
+for the present the poles of rotation are in the position :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 706
+
+(cos2 a+ Av)
+cos = (1+v)
+
+(cos2 b-Bv)
+cos  = (1+v)
+
+(cos2 c+Cv)
+
+cos  =
+
+.
+
+(1+v)
+
+COROLLARY 1
+
+754. If
+
+dg
+
+=
+
+cg
+
+- cd
+
+=
+
+p-q
+
+=
+
+ak A
+
+,
+
+then the height of the point g above the horizontal de clearly is given by
+
+( ) dg
+
+=
+
+A
+
+4BBCCg cos2 a B cos2 c+C cos2 b
+
+2
+
+,
+
+which as it must by necessity be positive, the body by its own motion is able to reach the point e.
+
+COROLLARY 2
+
+755. Then the height bd not only is positive, but also is less than the diameter of the circle
+
+for then
+
+( ) ab = 
+
+4BCg B cos2 c+C cos2
+
+b
+
+2
+
+;
+
+( ) ad = 
+
+4BBCg cos2 c B cos2 c+C cos2 b
+
+2
+
+,
+
+thus the point e, from which we deduce that the initial motion is certainly to be found on the periphery of a circle always.
+
+COROLLARY 3
+
+756. Therefore since the weight clearly falls from e to the lowest point b, where there
+
+becomes
+
+( ) u = bd = 
+
+4BBCg cos2 b B cos2 c+C cos2 b 2
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 707
+
+which is the greatest positive value of this, in this time v = cos2 b ,
+B
+and
+
+ ( B+cos2 b)
+
+' =
+
+,
+
+B
+
+which is the maximum angular speed, and then there arises cos  = 0 , that is, the pole of the
+
+rotation passes through the quadrant AC.
+
+SCHOLION
+
+757. Therefore the pole of the rotation, wherever it should be initially, always passes through
+
+the quadrant AC after some time, where
+
+the angular speed is a maximum, this
+
+time can be considered to be the start of
+
+the motion, since hence we may wish to
+
+return to earlier times. Therefore at the
+
+start let the pole of rotation be in the
+
+quadrant at the point E, so that
+
+AE = a and CE = c = 90o - a, and the
+
+angular speed is equal to  in the sense
+
+ABC. Therefore after the pole of rotation
+
+goes over into the octant AbC of the
+
+sphere, since before it was rotating in the
+
+octant ABC ; where it is to be noted that the contrary eventuates, if the motion is directed in
+
+the opposite sense. But here two cases occur to be considered, as in the circular motion the
+
+point g either lies above the circle, and the weight completes a whole number of revolutions,
+
+or within the circle, and the weight performs oscillations. The first comes about, if it should
+
+be the case that C cos2 a > Acos2 c , and now the second, if C cos2 a < Acos2 c . To
+
+distinguish between these cases the point D is taken on the quadrant AC, in order that
+
+(Fig. 97) C cos2 AD > Acos2 CD , or tang AD =
+
+C D
+
+,
+
+and
+
+D
+
+is
+
+that
+
+point,
+
+through
+
+which
+
+if
+
+the pole of rotation passes, this approaches towards the principal pole b along Db, and yet
+
+may reach there only in an infinite time, which case we have disclosed before. But if the pole
+
+of rotation passes along the quadrant AC between the points A and D, the first case is had, in
+
+which C cos2 a > Acos2 c ; but if it passes between the points C and D, the second case is
+
+had, in which C cos2 a < Acos2 c . Therefore we handle these two cases separately.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 708
+
+CASE I
+
+758. The pole of the rotation may pass through the point E of the quadrant AC (Fig. 97), about which the body is rotating with an angular speed  in the sense ABC, in order that
+
+C cos2 AE > Acos2 CE or tang AE <
+
+C A
+
+;
+
+thus
+
+in
+
+the
+
+elapsed
+
+time
+
+t
+
+it
+
+progresses
+
+to
+
+O,
+
+which place it is required to define. Therefore since there shall be
+
+AE = a, CE = c = 90o - a and b = 90o ,a circle azez' is described, the radius of which is
+
+ca
+
+=
+
+ce
+
+=
+
+2Cg  cos2
+
+c
+
+,
+
+and in the diameter to the vertical ea with that produced up there is taken
+
+( ) 4C C cos2 a- Acos2 c
+
+ag =
+
+A cos4 c
+
+g,
+
+and the weight falls from this point g along the circle rotating in the sense az'ez, and initially,
+
+while the pole of the rotation was at E, the weight passes through the lowest point e. Now in
+
+the elapsed time t the weight rises as far as z, and let the height ev = u, and then
+
+v
+
+=
+
+-
+
+ u cos4 4CCg
+
+c
+
+.
+
+But the pole of rotation now shall be at O, and the angular speed about that is
+
+( )  ' =  1- u cos4 c , 4CCg
+
+and for the position of the point O then
+
+( ) cos
+
+AO
+
+=
+
+ '
+
+cos2 a - Au cos4 c ,
+4CCg
+
+cos
+
+bO
+
+=
+
+ '
+
+
+
+
+
+cos2 2C
+
+Bu g
+
+and
+
+( ) cos
+
+CO
+
+=
+
+ '
+
+cos2
+
+c
+
+-
+
+
+
+u cos4 4Cg
+
+c
+
+.
+
+Then from the isochronous motion of the weight along the circle to the rotational motion of
+
+the pole, if we put the time for half a revolution equal to , in which the weight ascends from
+
+e to the highest point a, as
+
+u
+
+=
+
+4Cg  cos2
+
+c
+
+,
+
+we have
+
+v = - cos2 c ,
+C
+
+and after the time  the angular speed is
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 709
+
+( )  ' =  1- cos2 c , C
+the smallest of all : but the pole of rotation then will be at P, so that there arises
+
+( ) cos
+
+AP
+
+=
+
+ '
+
+cos2
+
+a
+
+-
+
+A cos4 C
+
+c
+
+,
+
+cos
+
+bP
+
+=
+
+
+
+cos c '
+
+B C
+
+and cos CP = 0,
+
+thus the pole P may be found in the quadrant Ab, so that there arises
+
+cos bP = sin AP = cosc B = sina B
+(C -cos2 c) (C -sin2 a)
+
+( ) C cos2 a- A sin2 a
+
+cos AP =
+
+.
+
+(C -sin2 a)
+
+But in the lapse of the time 2 , in which there arises u = 0, the angular speed  ' becomes
+equal to the original  , and the pole of rotation now is found in the quadrant CA produced to the point e, in order that Ae = AE. In the elapsed time 3 the pole of rotation arrives at p, in order that Ap = AP, and in the time 4 elapsed it returns to E. Therefore the pole of rotation describes as if an ellipse about the principal axis A, and the time of one revolution is equal to the time, in which the weight completes two whole revolutions in the circle. Here it is convenient to note, if the point E is incident on the point D, the point P falling on b on account of cos AP = 0, but then there will be ag = 0, and the time of a semi­revolution  in the circle becomes infinite, as we now had above. Again moreover there shall be AP = AE, if B = , and C =  or bb = cc, that is, if the moments of inertia about the axis IB and IC
+are equal, which is the case handled in the previous chapter.
+
+CASE II
+
+758. The pole of rotation may pass through the point E of the quadrant AC (Fig. 98), about which the body rotates with an angular speed  in the sense ABC, in order that
+
+C cos2 AE < Acos2 CE or tang AE >
+
+C A
+
+;
+
+thus in the elapsed time t it progresses to O. Therefore since then
+
+b = 90o , AE = a, and CE = 90o - a = c , the
+
+circle azez' is described with diameter
+
+ae
+
+=
+
+4Cg  cos2
+
+c
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 710
+
+and there can be taken so that
+
+( ) 4C Acos2 c-C cos2 a
+
+ag =
+
+A cos4 c
+
+g,
+
+eg
+
+=
+
+4CC cos2 a  cos4 c
+
+g.
+
+Therefore with the line fgf' drawn to the horizontal, the weight performs oscillations along the arc fef', and the time of the point is taken, in which the weight falling from f' crosses through the lowest point e, for the initial time, from where in the lapse in the time t it arrives at z, and with the height put as ev = u, then
+v = -u cos4 c ,
+4CCg
+and at this time the angular speed about the pole O will be
+( )  ' =  1- u cos4 c , 4CCg
+
+and thus as before
+
+( ) cos
+
+AO
+
+=
+
+ '
+
+cos2 a - Au cos4 c ,
+4CCg
+
+cos
+
+bO
+
+=
+
+ '
+
+
+
+
+
+cos2 2C
+
+Bu g
+
+and
+
+( ) cos
+
+CO
+
+=
+
+ '
+
+cos2 c - u cos4 c .
+4Cg
+
+Let the time of half the oscillation or the ascent time along ef be  , and in this lapse in the
+
+time, on account of
+
+u
+
+=
+
+eg
+
+=
+
+4CC cos2 a A cos4 c
+
+g
+
+and
+
+v = - cos2 a ,
+A
+
+then the angular speed
+
+( )  ' =  1- cos2 a , A
+
+and the pole of the oscillation is found at P, in order that
+
+cos
+
+CP
+
+=
+
+ '
+
+ 0,
+
+cos bP =  cos a B = cos a B
+
+' A
+
+( A-cos2 a)
+
+and
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 711
+
+( ) cos
+
+CP
+
+=
+
+ '
+
+( ( ) ) cos2
+
+c
+
+-
+
+C
+
+cos4 A
+
+a
+
+=
+
+Acos2 c-C cos2 a
+,
+A-cos2 a
+
+from which it is apparent that the pole of the rotation is in the quadrant Cb, with
+
+sin CP = cos a B = sinc B .
+( A-cos2 a) ( A-sin2 a)
+
+Now there may be taken in the quadrant AC on setting Ce = CE and Cp = CP, and the path of the pole of gyration will be the orbit of ellipse EPepE, and the individual quadrants of this EP, Pe, ep, pE, etc. are completed in the time .
+If it should be that aa = bb, then A = , B =  and CP = CE, and the pole of the
+rotation then describes a small circle about the principal axis IC, which is singular; which is the case treated in the previous chapter. But if E falls on D, on account of ag = 0, then  =  , which is the case of the preceding problem.
+
+SCHOLION
+
+760. Since therefore we understand well enough how the variation in the pole of rotation comes about, when it is carried around either the principal pole A or C, as if in an elliptic
+
+orbit, as either there is the condition tang AE < C or tang AE > C and thus the position
+
+A
+
+A
+
+of this at some permitted time can be assigned from the integration of the differential formula; we will see also whether we are able to define the absolute position of this at some time and likewise the position of the principal axis. Indeed we have successfully extracted this result from a calculation in the above chapter. But here we shall be faced with many greater difficulties, which we are unable [to overcome] from the above conceded quadratures, since the calculation can be reduced to differential equations of this kind, which not only cannot be integrated, but indeed are unable to have the variables separated.
+
+PROBLEM 80
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 712
+
+761. If some motion were impressed initially on a rigid body about some axis passing through the centre of inertia of the body, at a given time to define both the position of the principal axes as well as the axis of rotation with respect to absolute space.
+SOLUTION
+In accordance with a motionless sphere described about the centre of inertia of the body (Fig. 89), after a time equal to t the body now holds a position, so that the poles of the principal axes are now at A, B, C and the moments of inertia about these are Maa, Mbb, Mcc. Then on taking the point Z and the circle XZ fixed, the arcs are put in place
+ZA = l, ZB = m, ZC = n and the angles
+XZA =  , XZB =  , XZC = with the remaining arcs for the pole of rotation O
+OA =  , OB =  , OC =  , which are now given for the time t with the angular speed  ' . With these in place we find from problem 68 :
+
+dl sin l =  ' dt (cos  cos n - cos  cos m)
+d sin2 l = - ' dt (cos  cos m + cos  cos n) dm sin m =  ' dt (cos  cos l - cos cos n)
+d  sin2 m = - ' dt (cos  cos n + cos cos l ) dn sin n =  ' dt (cos cos m - cos  cos l )
+d sin2 n = - ' dt (cos cos l + cos  cos m) .
+But the special task here consists in the investigation of the arcs l, m, n , which since they are thus to be compared, so that
+cos2 l + cos2 m + cos2 n = 1, there is put cos m = sin l cos , then there arises cos n = sin l sin , and these three equations :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 713
+
+I. dl =  ' dt (cos  sin - cos  cos )
+
+II. - dl cos l cos + d sin l sin =  ' dt (cos  cos l - cos sin l sin ) , III. - dl cos l sin - d sin l cos =  ' dt (cos sin l cos - cos  cos l ) ,
+
+from which II.sin - III cos gives :
+d sin l =  ' dt (cos  cos l sin - cos sin l + cos  cos l cos ) ,
+from which taken with the first together it is required to find the two arcs l and  . But on
+putting ' =  (1+ v) and for the initial position for brevity putting
+
+cos2 a = A, cos2 b = B, cos2 c = C,
+
+in order that
+
+A + B+ C = 1,
+
+we see to be the case that
+
+cos =
+
+A+ Av 1+v
+
+,
+
+cos  =
+
+B- Bv 1+v
+
+,
+
+cos  =
+
+C +Cv 1+v
+
+and
+
+2 dt =
+
+dv ABC
+
+,
+
+(A+ Av)(B-Bv)(C+Cv)
+
+on putting
+
+A
+
+=
+
+( aa
+
+-
+
+bbcc
+bb ) ( aa
+
+-
+
+cc)
+
+,
+
+B
+
+=
+
+( aa
+
+-
+
+aacc
+bb ) ( bb
+
+-
+
+cc)
+
+,
+
+C
+
+=
+
+(
+
+aa
+
+-
+
+aabb
+cc ) ( bb
+
+-
+
+cc )
+
+and
+
+D
+
+=
+
+(
+
+aa
+
+-
+
+bb
+
+)
+
+aabbcc
+(aa - cc
+
+)
+
+(bb
+
+-
+
+cc
+
+)
+
+,
+
+where we have assumed indeed that aa > bb et bb > cc.We put
+
+and there arises and hence
+
+cos  = sin cosT and cos  = sin sinT ,
+
+v
+
+=
+
+B-(1-A) cos2 T B+(1- A) cos2 T
+
+cos =
+
+AB+BA+(A- A) cos2 T B+B+(A- A) cos2 T ,
+
+sin =
+
+BC +CB
+B+B+(A- A) cos2
+
+T
+
+,
+
+and
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 714
+
+' =
+
+B+B+(A- A) cos2 T B+(1- A) cos2 T
+
+then
+
+ dt =
+
+DdT
+
+.
+
+( )( ) B sin2 T +C cos2 T (AB+BA) sin2 T +(AC -CA) cos2 T
+
+From which our equations to be resolved become
+
+dl =  ' dt sin sin ( - T )
+
+d sin l =  ' dt sin cos l cos ( - T ) -  ' dt cos sin l,
+
+where
+
+ ' dt sin =
+
+DdT (BC +CB)
+
+( ) ( ) B sin2 T +C cos2 T (AB+BA) sin2 T +(AC -CA) cos2 T
+
+
+
+'
+
+dt
+
+cos 
+
+=
+
+( B sin2
+
+DdT T +C cos2
+
+T)
+
+.
+
+Now we put in place  - T = , so that there is obtained
+
+dl =  ' dt sin sin
+
+and d sin l + dT sin l =  ' dt sin cos l cos -  ' dt cos sin l,
+
+the second of which becomes
+
+d sin l sin - dl cos l cos + dT
+
+sin l sin +
+
+DdT sin l sin B sin2 T +C cos2 T
+
+= 0,
+
+then in the first place,
+
+DdT sin (BC +CB)
+
+dl =
+
+.
+
+( ) ( ) B sin2 T +C cos2 T (AB+BA) sin2 T +(AC -CA) cos2 T
+
+We put for brevity :
+
+1+
+
+D B sin2 T +C cos2 T
+
+=
+
+P
+
+and
+
+D (BC +CB)
+= Q;
+( ) ( ) B sin2 T +C cos2 T (AB+BA) sin2 T +(AC -CA) cos2 T
+
+since P and Q are known functions of T, our equations to be resolved are put into these
+simpler forms d  sin l cos  = PdT sin l sin
+
+and dl = QdT sin.
+
+Then we put
+
+sin l cos = x and cos l = y,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 715
+
+and then
+
+sin l sin = (1- xx - yy)
+
+and our equations become dx = PdT and
+(1- xx- yy)
+
+dy = -QdT .
+(1- xx- yy)
+
+Truly here I am forced to admit that I am unable to pursue the resolution of this problem further ; hence neither is it possible to lead this problem through to the end. [In the original text, the sentence 'in the end a solution has been found' is added as a footnote to this sentence,
+
+which was placed at the end of the solution that now follows. Clearly Euler had resolved his
+
+difficulties with the problem by resolving the angular speed into components.] On putting x =  ' cos , y =  ' cos  and z =  ' cos  , the equations to be resolved
+
+become the following nine equations :
+
+I.
+
+dx
+
+=
+
+bb-cc aa
+
+yzdt
+
+II.
+
+dy
+
+=
+
+cc - aa bb
+
+xzdt
+
+III.
+
+dz
+
+=
+
+aa -bb cc
+
+xydt
+
+IV. dl sin l = dt ( y cos n - z cos m)
+
+V. dm sin m = dt ( z cos l - x cos n)
+
+VI. dn sin n = dt ( x cos m - y cos l )
+
+VII. d sin2 l = -dt ( y cos m + z cos n)
+
+VIII. d  sin2 m = -dt ( z cos n + x cos l )
+
+IX. d sin2 n = -dt ( x cos l + y cos m) ,
+
+from which nine quantities it is possible to define x, y, z, y, l, m, n,  ,  , . Indeed the
+solution of the first three has been handled in the preceding problems; moreover as usual the following is put in place
+
+bb-cc aa
+
+=
+
+A,
+
+cc - aa bb
+
+=
+
+B,
+
+aa -bb cc
+
+=
+
+C
+
+and
+
+xyzdt = du
+
+and then
+
+xdx = Adu, ydy = Bdu, zdz = Cdu,
+
+from which on integration there is elicited : xx = 2Au + A, yy = 2Bu + B, zz = 2Cu + C
+
+and thus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 716
+
+dt =
+
+du
+
+.
+
+( 2 Au + A )( 2 Bu +B)( 2Cu +C )
+
+But with the ratio of these quantities A, B, C are to be compared between themselves, in order that:
+Aaa + Bbb + Ccc = 0 and Aa4 + Bb4 + Cc4 = 0.
+
+Whereby there is produced aaxx + bbyy + cczz = Aaa + Bbb + Ccc, equal to a constant quantity.
+
+But with the assumed values for x, y, z restored, there becomes
+( ) aaxx + bbyy + cczz =  '  ' aa cos2  + bb cos2  + cc cos2  = Const.
+
+But on putting the mass of the body equal to M, the moment of inertia of the body about the
+axis IO about which the body now rotates is denoted by the expression
+( ) M aa cos2  + bb cos2  + cc cos2  ,
+
+which moment if it is said to be equal to Mrr, then Mrr '  ' is the vis viva of the body, which hence remains constant.
+Then since cos2  + cos2  + cos2  = 1, there becomes
+ ' = ( xx + yy + zz) = (2( A + B + C )u + A + B + C)
+and from the known x, y, z through u, also  ,  , are defined through u. And to this extent it is indeed permitted to pertain to the preceding problems ; now therefore we may see, how the particular solution of problem 80 can be extricated. But the whole difficulty centred on equations IV, V, VI is made apparent, and towards that being overcome, we may put in place
+cos l = px, cos m = qy, and cos n = rz, in order that these equations are produced :
+
+IV. 0 = pdx + xdp + dt (ryz - qyz)
+
+while
+
+yzdt
+
+=
+
+dx A
+
+V. 0 = qdy + ydq + dt ( pxz - rxz)
+
+xzdt
+
+=
+
+dy B
+
+VI. 0 = rdz + zdr + dt (qxy - pxy)
+
+xydt
+
+=
+
+dz C
+
+,
+
+from which these equations can be changed into the following forms
+
+IV.
+
+0
+
+=
+
+pdx
+
++
+
+xdp +
+
+(r -q)dx
+A
+
+,
+
+or
+
+dx x
+
+=
+
+Adp q-r - Ap
+
+=
+
+Adu 2 Au+A
+
+V.
+
+0
+
+=
+
+qdy
+
++
+
+ydq
+
++
+
+(
+
+p-r )dy
+B
+
+,
+
+or
+
+dy y
+
+=
+
+Bdq r - p-Bq
+
+=
+
+Bdu 2Bu +B
+
+VI.
+
+0
+
+=
+
+rdz
+
++
+
+zdr
+
++
+
+(q
+
+- p)dz
+C
+
+,
+
+or
+
+dz z
+
+=
+
+Cdr p - q -Cr
+
+=
+
+Cdu 2Cu +C
+
+.
+
+IV. is multiplied by axx, V. by bby and VI. by ccz, in order that there is obtained
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 717
+
+IV.
+
+aapxdx
+
++
+
+aaxxdp
+
+=
+
+aa(q-r )xdx
+A
+
+=
+
+aa (q
+
+-
+
+r ) du
+
+V.
+
+bbqydy
+
++
+
+bbyydq
+
+=
+
+bb(r - p)
+B
+
+ydy
+
+= bb (r - p) du
+
+VI.
+
+ccrzdz
+
++ cczzdr
+
+=
+
+cc(
+
+p - q ) zdz
+C
+
+=
+
+cc (
+
+p-
+
+q) du.
+
+But from the three first terms it is deduced
+
+I. aapxdx = Aaapdu = (bb - cc) pdu II. bbqydy = Bbbqdy = (cc - aa) qdu III. ccrzdz = Cccrdu = (aa - bb) rdu.
+With these six equations jointed into one sum, the latter parts cancel each other, and this equation is produced for integration :
+
+2aapxdx + aaxxdp + 2bbqydy + bbyydq + 2ccrzdz + cczzdr = 0,
+
+and the integral of this is
+
+aapxx + bbqyy + ccrzz = Const.,
+
+in which the greatest strength is present in completing the desired integration, if it is taken
+
+together with the equation
+
+cos2 l + cos2 m + cos2 n = 1,
+
+which goes into
+
+ppxx + qqyy + rrzz = 1.
+
+For since x, y, z may be given by u from these two equations, and it is possible to define the
+
+quantities p, q and r in terms of u, which substituted in the equation
+
+dr p - q -Cr
+
+=
+
+du 2Cu +C
+
+lead to an equation involving only the two variables u and r, from which also r can be determined in terms of u.
+
+But first I observe that our equations can be satisfied, by putting constant values for the letters p, q and r ; this becomes by necessity
+
+q - r - Ap = 0, r - p - Bq = 0, p - q - Cr = 0,
+from which there arises
+p = n (1- B) , q = n (1+ A) and r = n (1+ AB) ,
+but only if A + B + C + ABC = 0,but which actually comes about. Hence therefore for A, B, and C the values are to be substituted
+
+p = n(aa+bb-cc) , q = n(aa+bb-cc) and r = ncc(aa+bb-cc) ,
+
+bb
+
+aa
+
+aabb
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 718
+
+whereby
+
+on
+
+taking
+
+n
+
+=
+
+maabb aa + bb - cc
+
+there
+
+is
+
+deduced
+
+p = maa, q = mbb, and r = mcc,
+
+where the coefficient m must thus be put in place so that there arises ppxx + qqyy + rrzz = 1
+
+or
+( ) mm a4 (2Au + A) + b4 (2Bu + B) + c4 (2Cu + C) = 1;
+
+whereby since there is then
+
+Aa4 + Bb4 + Cc4 = 0,
+
+m=
+
+1
+
+,
+
+( ) Aa4 +Bb4 +Cc4
+
+and likewise there is found
+( ) aapxx + bbqyy + ccrzz = m a4 (2Au + A) + b4 (2Bu + B) + c4 (2Cu + C) ,
+
+hence the constant value of this expression is equal to
+( ) Aa4 +Bb4 +Cc4 .
+Moreover I observe, in order that this integration shall not be taken as incomplete, therefore since the vertex of the sphere Z for argument's sake can be taken as at rest. Hence that can always be accepted, so that the quantities p, q, r are made constant. And thus with this in place for the sake of brevity,
+( ) Aa4 +Bb4 +Cc4 = n
+everything can be defined in terms of u in the following manner, in order that
+
+x = (2Au + A) ,
+
+p
+
+=
+
+aa n
+
+,
+
+cos
+
+l
+
+=
+
+aa n
+
+(2Au + A)
+
+y = (2Bu + B) ,
+
+q
+
+=
+
+bb n
+
+,
+
+cos
+
+m
+
+=
+
+bb n
+
+(2Bu + B)
+
+z = (2Cu + C) ,
+
+r
+
+=
+
+cc n
+
+,
+
+cos
+
+n
+
+=
+
+cc n
+
+(2Cu + C).
+
+For
+
+the
+
+three
+
+latter
+
+equations
+
+on
+
+account
+
+of
+
+dt
+
+=
+
+du xyz
+
+there
+
+arises
+
+-ndt(Bbb+Ccc-2 Aaau)
+d = Bb4 +Cc4 -2 Aa4u ,
+
+moreover it suffices for one of the three angles  ,  , to be determined, as the rest from that are in agreement among themselves.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 719
+
+SCHOLIUM 1
+
+762. In the case of the preceding chapter, in which there was
+
+B =  and thus C =  and
+
+B C
+
+= 1, on
+
+account
+
+of
+
+A - B + C = 1,the equations found are thus
+
+allowed to be resolves as the quantities P and Q become constant, clearly
+
+P
+
+=1+
+
+D B
+
+=1+
+
+bb aa -bb
+
+=
+
+aa aa -bb
+
+,
+
+on account of bb = cc and
+
+D (B+C) bb (1-A)
+
+Q=
+
+BA
+
+= (aa-bb)
+
+,
+A
+
+dx : dy = aa : -bb
+
+1-A A
+
+= P : -Q.
+
+Hence
+
+dx
+
+=
+
+-
+
+Pdy Q
+
+and
+
+x
+
+=
+
+Const.
+
+-
+
+Py Q
+
+,
+
+Now here the ratio P: Q cannot avoid being constant, and thus it is not clear how with the
+
+equations found it is to be satisfied, nor indeed particularly. Whereby since the calculation of
+
+the motion of such bodies is intractable, clearly as far as the bounds of analysis are still
+
+apparent, and we are forced to abandon this argument, since also the ineffective attempt
+
+proposed cannot shed any light. But since applied to mechanical reasoning, the motion of free
+
+rigid bodies, while acted on by no forces, we have agreed to be determined perfectly, since it
+
+is to attributed to the defects of analysis; because in the end we were unable to produce the
+
+solution. Moreover this difficulty only apply to bodies, the three moments of inertia of which
+
+are unequal to each other; which bodies as having the inconvenience of the greatest
+
+irregularities which are less of a nuisance to penetrate in practice, since most rarely is the
+
+motion of bodies of this kind required. But when two moments of inertia are equal to each
+
+other, the investigation of the motion has the prospect of complete success, as nothing is left
+
+to be desired.
+
+SCHOLIUM 2
+
+763. Hence with the expositions, which pertain to the motion of free rigid bodies removed from external forces, in the order postulated, as now we inquire into the effect of forces acting, to which also the above fundamentals have been added, where we have determined the momentary effect of any forces. But while we have put in place continual motions to be acted on, we must select the case of this kind, in which the forces acting do not pass through the centre of inertia, such as astronomy offers. But since the unfolding of the greater part of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 720
+
+astronomy requires an understanding of these, as it is supposed here that we may allow to stand on the earth, and we may contemplate motion of this kind, in which rotational motion occurs about a variable axis, since more regular motions present no difficulties. Here first is offered the theory of the spinning top, the explanation of this on account of the continual change of the axis of rotation at this stage should be wrapped up in the deepest gloom. Since the argument at the start is free from the more serious difficulties, I assume that the axis of the top lies on the smoothest horizontal surface, lest any friction remains in place, then I set axis to come to an end at a point below, above which it advances on the plane. But I put in place two kinds of top, as either all the principal moments of inertia are equal to each other, or only two : for if all should be unequal, this hypothesis not only might be against the shape of the top, but also it might outdo the strengths of the calculation.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 721
+
+CAPUT XIII
+DE MOTU LIBERO CORPORUM RIGIDORUM TERNIS AXIBUS PRINCIPALIBUS DISPARIBUS PRAEDITORUM ET
+A NULLIS VIRIBUS SOLLICITATORUM
+
+PROBLEMA 76
+
+737. Si corpori rigido cuicunque impressus fuerit initio motus gyratorius quicunque, neque id ab ullis viribus externis sollicetetur; ad quodvis tempus positionem axis gyrationis respectu axium principalium assignare.
+
+SOLUTIO
+Cum centrum inertiae corporis I perpetuo quiescat, in eo constituatur centrum spherae, ad cuius superficiem omnia reducamus (Fig. 89) : sintque IA, IB, IC, axes corporis principales,
+et momenta inertiae respectu axis IA = Maa, respectu axis IB = Mbb, er respectu axis IC = Mcc, quae inter se inaequalia assumimus, quoniam si duo vel adeo omnia essent inter se aequalia, casus ad praecedentia capita revolveretur. Nunc elapso tempore t sit recta IO axis gyrationis, cuius situm respectu axium principalium definiri oportet ; ponatur celeritas angularis, qua corpus iam circa hunc axem IO gyratur =  ' , fiatque gyratio in
+sensum ABC. Vocentur arcus circulorum maximorum, qui quaeruntur, OA =  , OB =  et OC =  ,
+qui tempore variantes pro variabilibus sunt habendi, ita autem inter se pendent, ut sit
+cos2  + cos2  + cos2  = 1. Deinde vero etiam celeritas angularis  ' hic erit variabilis, cum sit (§670)
+
+d ' ''
+
+=
+
+(aa-bb)(aa-cc)(bb-cc) cos cos 
+aabbcc
+
+cos 
+
+ dt,
+
+tum vero ex § 674 variabilitas arcuum  ,  , ita determinatur per has ternas aequationes :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 722
+
+I. aabbccd sin =  ' (cc - bb) dt cos  cos  (bbcc - (bb - aa)(cc - aa) cos2  ) . II. aabbccd sin  =  ' (aa - cc) dt cos  cos (aacc - (cc - bb)(aa - bb) cos2  ) III. aabbccd sin =  ' (bb - aa) dt cos cos  (aabb - (aa - cc)(bb - cc) cos2  ) .
+
+Cum autem sit
+
+dt cos cos  cos  aabbcc
+
+=
+
+
+
+'
+
+
+
+'
+
+(
+
+aa
+
+-bb
+
+d '
+)( aa - cc )( bb -cc )
+
+,
+
+hae aequationes abeunt in istas :
+
+( ) I.
+
+d
+
+sin
+
+cos 
+
+=
+
+-d '
+ '(aa-bb)(aa-cc)
+
+bbcc - (bb - aa)(cc - aa) cos2 
+
+( ) II.
+
+d
+
+sin 
+
+cos 
+
+=
+
+d '
+ '(aa-bb)(bb-cc)
+
+aacc - (cc - bb)(aa - bb) cos2 
+
+( ) III. d sin cos 
+
+=
+
+
+
+'
+
+(
+
+aa
+
+-d -cc
+
+'
+)(bb-cc)
+
+aabb - (aa - cc)(bb - cc) cos2 
+
+sive has integrabiles :
+
+quarum integralia sunt :
+
+I.
+
++
+
+d ' '
+
+=
+
+-(bb-aa)(cc-aa)d sin cos bbcc-(bb-aa)(cc-aa) cos2 
+
+II.
+
++
+
+d ' '
+
+=
+
+-(cc-bb)(aa-bb)d  sin  cos  aacc-(cc-bb)(aa-bb) cos2 
+
+III.
+
++
+
+d ' '
+
+=
+
+-(aa-cc)(bb-cc)d sin cos  aabb-(aa-cc)(bb-cc)cos2 
+
+,
+
+I.
+
+A ''
+
+= bbcc - (bb - aa)(cc - aa) cos2 
+
+II.
+
+B ''
+
+= aacc - (cc - bb)(aa - bb) cos2 
+
+III.
+
+C ''
+
+= aabb - (aa - cc)(bb - cc) cos2 
+
+,
+
+ubi quidem constantium A, B, C binae sunt arbitrariae, at tertiam ita definiri oportet, ut fiat
+
+Vel posito
+
+A(cc - bb) + B (aa - cc) + C (bb - aa) = 0.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 723
+
+debet esse Hinc ergo erit
+
+A = A (bb - aa)(cc - aa) B = B(cc - bb)(aa - bb) C = C (aa - cc)(bb - cc)
+A + B + C = 0.
+
+cos2 
+
+=
+
+bbcc '  ' -A(bb-aa)(cc-aa) (bb-aa)(cc-aa) '  '
+
+=
+
+bbcc
+( bb - aa )( cc - aa )
+
+-
+
+
+
+A '
+
+'
+
+cos2
+
+
+
+=
+
+aacc
+( cc -bb )( aa -bb )
+
+-
+
+B ''
+
+cos2 
+
+==
+
+aabb
+( aa - cc )( bb - cc )
+
+-
+
+C ''
+
+.
+
+Ponamus brevitatis gratia :
+
+bbcc
+( bb - aa )( cc - aa )
+
+=
+
+D,
+
+aacc
+( aa -bb )( cc -bb )
+
+= E,
+
+aabb
+( aa - cc )( bb - cc )
+
+=
+
+F,
+
+ut sit ubi est erit
+
+D+E + F = 1, A + B +C = 0,
+
+cos =
+
+(D ' '-A)
+
+'
+
+,
+
+cos  =
+
+(E ' '-B)
+
+'
+
+,
+
+cos  =
+
+(F ' '-C)
+' ,
+
+quibus valoribus in aequatione primum inventa substitutis habebitur :
+
+( aa -bb )( aa - cc )( bb - cc ) dt
+aabbcc
+
+=
+
+ ' d '
+
+.
+
+(D ' '-A)(E ' '-B)(F ' '-C)
+
+Cuius integratio, paucissimis casibus exceptis, receptas expressiones arcuum circularium vel logarithmorum respuit.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 724
+
+COROLLARIUM 1
+
+738. Nisi ergo duo corporis momenta principalia inter se fuerint aequalia, motus gyratorius circa axem variabilem non est uniformis; ac determinatio quidem celeritatis angularis ad quodvis tempus maximam parit difficultatem.
+
+COROLLARIUM 2
+739. Inventa autem celeritate angulari  ' ad tempus elapsum = t, facile positio axis gyrationis respectu axium principalium definitur per formulas pro arcubus  ,  , inventas.
+
+PROBLEMA 77
+737. Iisdem positis, atque in praecedente problemate, ex dato axe gyrationis, circa quem corpus initio data celeritate angulari gyrari coepit. ad datam tempus celeritatem angularem et axis gyrationis positionem respectu axium principalium assignare.
+
+SOLUTIO
+Sit IE axis (Fig. 89), circa quem corpus initio gyrari coepit, celeritate angulari =  in sensum ABC, pro cuius loco sint arcus AE = a, BE = b, et CE = c.Tum vero cum momenta
+inertiae Maa, Bbb, Mcc sint inaequalia, sit aa maximum, bb medium, et cc minimum, ponanturque numeri hinc formandi
+
+bbcc
+( aa -bb )( aa - cc )
+
+=
+
+A
+
+aacc
+( aa -bb )( bb - cc )
+
+=
+
+B
+
+et
+
+aabb
+( aa - cc )( bb - cc )
+
+=
+
+C
+
+,
+
+atque
+
+aabbcc
+( aa -bb )( aa - cc )( bb - cc )
+
+=
+
+D,
+
+ut sit A - B + C = 1et DD = ABC.
+
+Pro praecedentibus ergo formulis erit D = A, E = -B et F = C,
+
+et elapso tempore t celeritas angularis  ' ex hac aequatione differentiali determinari debet :
+
+dt =
+D
+
+ ' d '
+
+.
+
+( A ' '-A)(-B ' '-B)(C ' '-C)
+
+cuius integratio ita est instituenda, ut posito t = 0 fiat  ' =  . Deinde vero habebitur pro arcubus AO =  , BO =  et CO =  :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 725
+
+cos =
+
+( A '  ' -A)
+'
+
+cos  =
+
+(-B '  ' -B)
+'
+
+cos  =
+
+(C '  '-C)
+
+'
+
+,
+
+qui cum initio fuerint a,b, et c,constantes A, B, C ita determinantur, ut sit
+
+( ) ( ) ( ) A = A - cos2 a  , B = - B + cos2 b  , C = C - cos2 c  .
+Quamobrem habebimus :
+
+( )  cos2 a- A + A '  '
+
+cos =
+
+'
+
+( )  cos2 b-B + B '  '
+
+cos  =
+
+'
+
+( )  cos2 c-C +C '  '
+
+cos  =
+
+'
+
+dt =
+
+D ' d '
+
+( )( )( )  cos2 a- A + A '  '  cos2 b+B -B '  '  cos2 c-C +C '  '
+
+Ad has formulas contrahendas, statuamus
+
+ '  ' - 
+
+=
+
+v,
+
+ut fiat
+
+ ' =  (1+ v)
+
+atque
+
+2 dt =
+
+Ddv
+
+,
+
+(cos2 a+ Av)(cos2 b-Bv)(cos2 c+Cv)
+
+quae ita integrari debet, ut posito t = 0 fiat v = 0, tum vero erit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 726
+
+( ) cos
+
+=
+
+ '
+
+cos2 a + Av
+
+( ) cos 
+
+=
+
+ '
+
+cos2 b- Bv
+
+vel etiam :
+
+( ) cos
+
+=
+
+ '
+
+cos2 c + Cv
+
+(cos2 a+ Av)
+cos = (1+v)
+
+(cos2 b-Bv)
+cos  = (1+v)
+
+(cos2 c+Cv)
+
+cos  =
+
+.
+
+(1+v)
+
+Quodsi ergo ad datum tempus t valorem ipsius v assignare valuerimus, tam celeritatem
+angularem  ' =  (1+ v) quam positionem axis gyrationis IO respectu axium principalium
+
+cognoscemus.
+
+COROLLARIUM 1
+
+741. Si in statu initiali arcuum a,b, et c unus evanescat, reliqui erunt quadrantes, et axis
+gyrationis in alioquem axium principalium incidit, circa quem corpus constanter motu aequabili gyrari perget.
+
+COROLLARIUM 2
+
+742.
+
+Cum sit
+
+d ' ''
+
+= dt cos cos  cos 
+D
+
+et D sit quantitas positiva, quamdiu polus gyrationis O
+
+in spatio ABC fuerit situs, seu cosinus arcuum  ,  , positivi, celeritatem gyratoriam,
+
+quatenus in sensum ABC dirigitur, augeri.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 727
+
+COROLLARIUM 3
+743. Sin autem polus gyrationis, productis quadrantibus in spatia  ABb,  BCc, CAa (Fig. 94), quae sunt etiam quadrantes, cadat, celeritas minuetur; augebitur autem in quadrantibus  Aa,  Bb, Cc , perinde atque in principali ABC.
+
+SCHOLION 1
+
+744. Haec probe notasse iuvat, ne formula irratioali utentes ambiguitate signi decipiamur, quare, si fuerint cosinus arcuum a,b, et c positivi vel saltem eorum productum positivum.
+primo initio celeritas  ' crescit ideoque v positivum consequitur valorem. Formula autem
+integranda ita est comparata, ut neque algebraice neque per arcus circulares vel logarithmos expedire queat, sed eius integrale per quadraturas nobis concedi postulare cogimur. Tametsi enim per arcus sectionum conicarum negotium expediri potest, tamen inde nihil plane lucrari licet, ut praestare videatur consueto more per quadraturas uti. Quodsi enim talis scribendi
+ratio  x ( f ) denotet arcum sectionis conicae, cuius semiparameter = 1 et semiaxis
+
+transversus = f, qui arcus a vertice captus respondeat abscissae = x, ita ut, si f > 0, sectio conica sit ellipsis, si f < 0, hyperbola, et si f =  , parabola, nostra formula integranda
+
+
+
+dv
+
+,
+
+(a+ Av)(b-Bv)(c+Cv)
+
+ubi brevitatis ergo litteras a, b, c pro cos2 a, cos2 b, et cos2 c pono, ad partem algebraicam arcum ellipticum et arcum hyperbolicum reducitur. Erit enim
+
+
+
+dv
+
+= Const + 2A (b-Bv)(c+Cv)
+
+(a+ Av)(b-Bv)(c+Cv)
+
+B( Ac-Ca) (a+ Av)
+
++
+
+2 A( Bc+Cb)
+
+A( B(
+
+Bc+Cb) Ac -Ca )
+
+ 1 
+
+-
+
+A(b-Bv)   A( Bc+Cb) 
+
+Ba+ Ab
+
+ 
+
+
+
+B(
+
+Ac -Ca
+
+)
+
+
+
+-
+
+2
+C( Ba+ Ab)
+
+
+
+C( Ba+ Ab) 
+
+B(
+
+Ac -Ca
+
+)
+
+ 
+
+( Ba+ Ab)(c+Cv) ( Bc+Cb)(a+ Av)
+
+ -1
+
+
+ 
+
+-C( Ba+ Ab) B( Ac-Ca)
+
+ 
+
+,
+
+ubi sumsi esse Ac > Ca ; si enim secus eveniret, litteras a, A et c, C inter se permutari deberent. Hinc autem certe nullam utilatatem ad calculum prosequendum adipiscimur, multo minus inde ad datum tempus t valorem ipsius v colligere licebit, in quo tamen cardo
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 728
+
+quaestionis versatur. Ceterum casus, quo Ac = Ca, hinc excluditur, qui autem ob hoc ipsum faciliorem evolutionem admittit et quem propterea seorsim tractari operae erit pretium.
+
+SCHOLION 2
+
+745. Casus hinc sponte excluduntur, quibus arcuum a,b, et c quidam evanescit, quoniam tum
+
+primo motus initio axis gyrationis in aliquem axium principalium incideret ideoque idem perpetuo conservaretur. Quod etiam nostrae formulae declarant, nam sina = 0 et cos a = 1, erit cosb = 0 et cosc = 0 , unde formualae
+
+cos  = -Bv et cos  = Cv
+
+(1+v)
+
+(1+v)
+
+subsistere nequeunt, nisi sit v = 0 et  ' =  , ita ut sit cos  = 0 et cos  = 0, ac polus
+
+gyrationis O constanter maneat in A. Idem evenit, si c = 0 , ubi polus gyrationis O constanter manet in C et  ' =  . Hoc autem minus apparet, si initio E fuerit in B, seu b = 0 et
+
+cos a = 0 atque cosc = 0 ; formulae enim dant
+
+cos = Av , cos  = (1-Bv) et cos  = Cv ,
+
+(1+v)
+
+(1+v)
+
+(1+v)
+
+ubi v videtur valorem positivum habere posse. At cum sit
+
+2 dt = Ddv = dv B , ob D = ABC v AC(1-Bv) v (1-Bv)
+
+haec aequatio ita integrata, ut positio v = 0 fiat t = 0, dat
+
+2 dt B
+
+=
+
+l
+
+1+1 1-1
+
+-l
+
+1+ 1-
+
+(1- Bv )
+,
+(1- Bv )
+
+unde manifestum est nonnisi elapso tempore infinito, hoc est nunquam, litteram v valorem nihilo maiorem acquirire posse. Semper ergo polus gyrationis O puncto B manebit affixus atque  ' =  . Ceterum si arcuum a,b, c unicus tantum sit quadrans, primo initio celeritas
+
+angularis non mutatur ob d ' = 0 ; deinceps vero res ita se habebit. Sit primo a = 90o seu cadat punctum E in quadrantem BC, ut sit cosc = sinb , erit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 729
+
+cos = Av (1+v)
+
+(cos2 b-Bv)
+cos  = (1+v)
+
+(sin2 b+Cv)
+
+cos  =
+
+;
+
+(1+v)
+
+unde patet v obtinere valorem positivum foreque
+
+2 dt =
+
+Ddv
+
+.
+
+( )( ) Av cos2 b-Bv sin2 b+Cv
+
+Cum ergo sit cos > 0, erit  < 90o et polus gyrationis a quadrante BC propius ad A accedet fietque  ' >  , idemque eveniet, si polus gyrationis fuerit in quadrante AB. At si polus gyrationis sit in quadrante AC, ob cosb = 0 erit
+
+cos =
+
+(cos2 a+ Av)
+,
+
+cos  =
+
+-Bv ,
+
+cos  =
+
+(cos2 c+Cv)
+,
+
+(1+v)
+
+(1+v)
+
+(1+v)
+
+ac necesse est sit v quantitas negativa crescens saltem ab initio. Sit ergo v = -u , et cum
+
+ dt positivum valorem habere debeat, capi oportet Bu negativum, et fiet  > 90o ideoque
+
+polus gyrationis magis a B recedet et celeritas  ' =  (1- u) minuetur.
+
+SCHOLION 3
+746. Praeterire hic non possum insignem huius motus proprietatem, quae in hoc consistit, quod corporis vis viva perpetuo maneat eadem. Hic autem notari convenit, si corpus circa quempiam axem gyratur celeritate angulari =  ' sitque eius momentum inertiae respectu huius axis = Mkk, fore eius vim vivam = Mkk '  ' . Hoc praemisso cum sit nostro casu
+( ) Mkk = M aa cos2  + bb cos2  + cc cos2  ,
+tum vero
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 730
+
+( )  '  ' cos2  =  cos2 a + Av ( )  '  ' cos2  =  cos2 b- Bv ( )  '  ' cos2  =  cos2 c + Cv ,
+
+erit corporis circa axem IO celeritate angulari =  ' gyrantis vis viva =
+
+Est vero
+
+( ) M  aa cos2 a + bb cos2 b+ cc cos2 c + v ( Aaa - Bbb + Ccc) .
+Aaa - Bbb + Ccc = 0,
+
+ideoque vis viva non pendet ab v et primae impressae semper manet aequalis. Quod autem in genere Mkk '  ' exprimat corporis vim vivam seu aggregatum omnium
+particularum per quadrata celeritatum multiplicarum, evidens est; concipiatur enim elementum corporis dM ab axe gyrationis distans intervallo = r, est eius celeritas =  ' r ideoque eius vis viva =  '  ' rrdM ; unde fit totius corporis
+
+vis viva =  '  '  rrdM = Mkk '  '
+ob
+ rrdM = Mkk.
+
+PROBLEMA 78
+747. Positis adhuc iisdem, si initio axis gyrationis ita fuerit comparatus, ut sit
+cos2 a:cos2 c = A:C = cc (bb - cc):aa (aa - bb) ,
+ad quodvis tempus elapsum t positionem axis gyrationis respectu axium principalium definire.
+
+SOLUTIO
+
+Ponamus cos2 a=An, ut sit cos2 c = Cn ; erit
+
+cos2 b = 1- ( A + C ) n = 1- (1+ B) n.
+
+Hinc posito
+
+ ' =  (1+ v)
+
+erit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 731
+
+cos = A(n+v) (1+v)
+
+cos  = (1-n-Bn-Bv) (1+v)
+
+atque
+
+cos  = C(n+v) (1+v)
+
+2 dt =
+
+dv B
+
+(n+v) (1-n-Bn-Bv)
+
+ob D = ABC.
+
+Hic autem assumimus initio polum gyrationis E intra quadrantem ABC extitisse, ut cosinus tam arcuum a,b, c , quam saltem mox ab initio  , , sint positivi. Hinc igitur integrando
+
+adipiscimur
+
+2t =
+
+B l (1-n) + (1-n-Bn) -
+
+B
+
+l
+
+(1-n) + (1-n-Bn-Bv)
+.
+
+(1-n) (1-n) - (1-n-Bn) (1-n) (1-n) - (1-n-Bn-Bv)
+
+Ponamus ad abbreviandum
+ut fiat 2 t
+
+m =l
+
+(1-n) = m ,
+B
+m+ (m-n) - l m+ (m-n-v) m- (m-n) m- (m-n-v)
+
+et sumto e pro numero, cuius logarithmus est = 1, statuatur
+
+fietque
+
+e2t m = T ,
+
+m+ (m-n-v)
+
+m+ (m-n)
+
+T=
+
+,
+
+m- (m-n-v)
+
+m- (m-n)
+
+unde porro colligitur
+
+( ) m + (m-n) -T m - (m-n)
+
+(m-n-v) =
+
+m
+
+( ) m + (m-n) +T m - (m-n)
+
+eritque 1- n = Bm et cos2 b = B (m - n) dum est cos2 a = An et cos2 c = Cn ; invento autem v
+
+est primo
+
+ ' =  (1+ v)
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 732
+
+et
+
+cos =
+
+A( n + v )
+,
+
+cos  =
+
+(1- n - Bn- Bv )
+,
+
+cos  =
+
+C(n+v)
+.
+
+(1+v)
+
+(1+v)
+
+(1+v)
+
+Quo haec magis contrahamus sit
+
+m+ (m-n)
+= k,
+m- (m-n)
+
+unde fit hincque porro et ob
+
+(m
+
+-
+
+n)
+
+=
+
+k -1 k +1
+
+m
+
+et
+
+(m
+
+-
+
+n
+
+- v)
+
+=
+
+k -T k +T
+
+m,
+
+( ) ( ) v = m
+
+k -1 k +1
+
+2
+-m
+
+k -T k +T
+
+2
+;
+
+( ) n = m - m
+
+k -1 k +1
+
+2
+
+=
+
+4mk
+(k +1)2
+
+.
+
+erit
+
+( ) n + v = m - m
+
+k -T k +T
+
+2
+
+=
+
+4mkT
+(k +T )2
+
+.
+
+Quocirca si pro motu primum impresso fuerit
+
+cos a
+
+=
+
+2
+
+Amk k +1
+
+,
+
+cos b
+
+=
+
+(k -1) Bm
+k +1
+
+,
+
+cos c
+
+=
+
+2
+
+Cmk k +1
+
+et celeritas angularis =  in sensum ABC, erit elapso tempore t positoque e2t m = T ,primo
+
+celeritas angularis
+
+( ) ( )  ' = 
+
+1+ m
+
+k -1 k +1
+
+2
+-m
+
+k -T k +T
+
+2
+
+ 
+
+;
+
+deinde vero pro loco poli gyrationis O
+
+cos a
+
+=
+
+2 AmkT
+ '(k +1)
+
+,
+
+cos b
+
+=
+
+ (k -T ) Bm  '(k +1)
+
+,
+
+cos c
+
+=
+
+2 CmkT
+ '(k +1)
+
+,
+
+tum vero est
+
+dv
+
+=
+
+2
+
+dt
+
+
+
+4mkT (k -T (k +1)3
+
+)
+
+m
+.
+
+Hinc patet, primo instanti, quo T = 1, numerum v a nihilo crescere, donec fiat T = k, seu
+
+2t m = lk ,
+
+hoc est elapso tempore
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 733
+
+quo fit
+
+t = lk ;
+2 m
+
+( )  ' = 
+
+1+ m
+
+k -1 k +1
+
+2
+
+ 
+
+,
+
+et celeritas angularis maxima, simulque erit
+
+cos 
+
+=
+
+ '
+
+Am , cos  = 0
+
+seu
+
+ = 90o
+
+et
+
+cos 
+
+=
+
+ '
+
+Cm ,
+
+ita ut iam polus gyrationis pervenerit in arcum AC, eum mox transgressurus. Postea enim numerus v iterum minuetur atque adeo evanescet, si
+
+T -k k +T
+
+=
+
+k -1 k +1
+
+,
+
+hoc est si T = kk, ideoque elapso tempore
+
+t = lk ,
+m
+
+quod illius est duplum, hicque fit  ' =  ,
+
+cos 
+
+=
+
+2
+
+Amk k +1
+
+,
+
+cos 
+
+=
+
+-(k -1)
+k +1
+
+Bm
+
+,
+
+cos 
+
+=
+
+2
+
+Cmk k +1
+
+.
+
+Hic scilicet ultra quadrantem AC similem situm habebit respectu poli ipsi B oppositi, ad quem
+
+continuo propius accedet, eumque adeo elapso tempore infinito attinget; posito enim
+
+T =  erit
+
+' =
+
+ 1
+
+-
+
+
+
+4mk
+(k +1)2
+
+  
+
+,
+
+hicque
+
+propterea
+
+celeritas
+
+angularis
+
+minima;
+
+tum
+
+vero
+
+erit
+
+cos 
+
+=
+
+0,
+
+cos 
+
+=
+
+- '
+
+cos  = 0 . At ob
+
+Bm et
+
+evidens est esse cos  = -1.
+
+1
+
+-
+
+n
+
+=
+
+1
+
+-
+
+(
+
+4mk
+k +1)2
+
+=
+
+Bm
+
+COROLLARIUM 1
+
+748. Numerum n ita assumi oportet, ut An et Cn sint unitate minores ; quo accepto erit
+
+m
+
+=
+
+1-n B
+
+et
+
+k=
+
+m+ (m-n)
+.
+m- (m-n)
+
+Inter numeros autem m et k haec relatio intercedit, ut sit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 734
+
+unde fit
+
+m
+
+=
+
+(k +1)2 4k + B(k +1)2
+
+,
+
+( ) n
+
+=
+
+4k
+4k + B(k +1)2
+
+et cosb =
+
+(k -1) B
+,
+4k + B(k +1)2
+
+quae semper est unitate minor ob k > 1.
+
+COROLLARIUM 2
+
+749. Eandem rationem inter cosinus arcuum a et c constitutam constanter servant cosinus
+
+arcuum  et  ; et dum polus O per quadrantem AC transit, ubi fit  = 90o , est
+
+( ) cosa
+
+=
+
+ '
+
+
+
+(k +1) A ; 4k + B(k +1)2
+
+at
+
+' =
+
+ 1+ 
+
+(k -1)2 4k + B(k +1)2
+
+  
+
+=
+
+
+
+(k +1) (1+B) 4k + B(k +1)2
+
+,
+
+ergo
+
+cos =
+
+A 1+ B
+
+et
+
+cos  =
+
+C 1+ B
+
+,
+
+seu
+
+cos =
+
+c (bb-cc)
+
+et cos  =
+
+a (aa-bb)
+
+.
+
+( aa -cc )( aa -bb + cc )
+
+( aa - cc )( aa -bb + cc )
+
+COROLLARIUM 3
+
+750. Dum autem axis gyrationis O per quadrantem AC transit, eius respectu est momentum
+
+inertiae
+
+( ) M
+
+aa cos2  + bb cos2  + cc cos2 
+
+=
+
+Maacc aa -bb + cc
+
+,
+
+quod minus est quam Mbb; atque etiam minus quam fuerat motus initio, ubi erat = Mbb  Bm ob Aaa + Ccc = Bbb. Erat ergo
+
+=
+
+Mbb
+
+
+
+B(k +1)2 4k + B(k +1)2
+
+=
+
+Maabbcc(k +1)2 4kbb(aa-bb+cc)+aacc(k -1)2
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 735
+
+EXEMPLUM
+
+751. Coeperit corpus initio gyrari circa polum E in quadrante AC situm (Fig. 95) in sensum ABC celeritate angulari =  , ita ut fuerit
+
+cos AE = gratia
+
+A B +1
+
+et
+
+cos CE
+
+=
+
+C B +1
+
+posito
+
+brevitatis
+
+A
+
+=
+
+bbcc
+( aa -bb )( aa - cc )
+
+B
+
+=
+
+aacc
+( aa -bb )( bb - cc )
+
+C
+
+=
+
+aabb
+( aa - cc )( bb - cc )
+
+hincque A + C = B +1; ad quem casum solutio generalis deducitur sumendo k = 1 et
+
+m
+
+=
+
+1 B +1
+
+.
+
+Iam
+
+labente
+
+tempore
+
+polus
+
+gyrationis
+
+ex
+
+E
+
+in
+
+alterum
+
+quadrantem
+
+AbC
+
+transibit,
+
+existente polo ipsi B opposito; atque elapso tempore = t min. sec., si capiatur
+
+T = e2t: (1+B) , polus gyrationis reperiatur in O, ut sit
+
+cos AO = 2 AT
+( ) B(1+T )2 +4T
+
+et
+
+cos CO = 2 CT
+( ) B(1+T )2 +4T
+
+ibique
+
+( )  B(1+T )2 +4T
+
+celeritas angularis erit =
+
+.
+
+(1+T ) (1+B)
+
+Cum ergo sit
+
+B(T -1)2 +4CT
+sin AO =
+( ) B(1+T )2 +4T
+
+et
+
+B(T -1)2 +4 AT
+
+sin CO =
+
+,
+
+( ) B(1+T )2 +4T
+
+erit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 736
+
+et atque et Porro est
+
+cos ACO =
+
+2 AT
+
+( ) B(T -1)2 +4AT
+
+sin ACO = (T -1) B
+( ) B(T -1)2 +4AT
+
+cos CAO =
+
+2 CT
+
+( ) B(T -1)2 +4CT
+
+sin CAO = (T -1) B
+( ) B(T -1)2 +4CT
+
+cos bO = (T -1) B
+( ) B(1+T )2 +4T
+
+et
+2 ( B+1)T
+sin bO =
+( ) B(1+T )2 +4T
+
+ideoque
+
+cos AbO =
+
+A B +1
+
+et
+
+cos CbO =
+
+C B +1
+
+.
+
+Cum ergo sit AbO = AE et CbO = CE, polus gyrationis O ab E ad b per circulum maximum
+
+transfertur, atque dato tempore t percurrit arcum EO, ut sit
+
+tang EO = (T -1) B . 2 ( B+1)T
+
+Posito ergo hoc arcu confecto EO =  , ob tang  = (T -1) B 2 ( B+1)T
+
+fit
+
+sin ( B+1) + ( B+sin2  )
+
+T=
+
+,
+
+cos B
+
+unde ipsum tempus t, quo arcus EO =  absolvitur, erit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 737
+
+( B+1) ( ) sin ( B+1) + B+sin2 
+
+t =  l
+
+cos B
+
+et celeritas angularis, dum polus gyrationis est in O, reperitur =
+
+B .
+( B+sin2  )
+
+Momentum inertiae respectu axis IE est =
+
+M
+
+( Aaa+Ccc)
+B +1
+
+=
+
+B B +1
+
+
+
+Mbb
+
+et
+
+vis
+
+viva
+
+=
+
+B B +1
+
+
+
+Mbb,
+
+quae perpetuo manet eadem.
+
+SCHOLION
+
+752. Si initio motus gyratorius fuerit in sensum contrarium directus, polus gyrationis ex E per circulum maximum ad polum B accederet, scilicet in quadrante AbC poli cognomines contrarium sensum praebent, atque in quadrante ABC. Ceterum hoc casu notatu dignum est, quod polus gyrationis O ad alterutrum polorum B vel b continuo propius accedat, atque adeo
+satis cito attingat : statim enim ac numerus T = e2t: (1+B) mediocriter fit magnus, quod
+plerumque mox evenire solet, declinatio axis gyrationis IO ab axe Bb non amplius erit sensibilis. Hic ergo circulus maximum BEb, qui quadrantem AC ita secat in E, ut
+
+sin AE =
+
+C B +1
+
+et
+
+cos AE =
+
+A B +1
+
+seu
+
+tang AE =
+
+C A
+
+=a
+c
+
+( aa -bb )
+,
+( bb - cc )
+
+hac insigni praeditus est proprietate, ut si axis gyrationis semel in eo fuerit, in eo perseveret, ac polus gyrationis sive ad b sive ad B accedat, prout gyratio fiat vel in sensum ABC vel in contrarium. Videri hinc posset, axex gyrationis, quicunque initio fuerit, semper tandem in aliquem principalium incidere, nisi in capite praecedente res secus evenisset. Atque adeo iam demonstrabo, hunc casum tractatum solum esse, quo axis gyrationis tandem cum aliquo principalium eoque medio coalescat, in reliquis vero omnibus hoc nunquam, ne elapso quidem tempore infinito, usu venire; ad hoc autem necesse est, ut formulam superiorem integralem diligentius scrutemur valoresque, quos ad quodvis tempus recipit, quodammodo assignare valeamus. In quo negatio, cum alia subsidia analytica vix plus luminis polliceantur, quam eius reductio ad arcus sectionum conicarum, ad subsidium quoddam mechanicum confugiamus, motum scilicet penduli per circulum; quandoquidem huius motus determinatio
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 738
+
+simili formula integrali continetur, hoc tamen non obstante, qualis hic motus sit futurus, quodammodo aestimare licet.
+
+PROBLEMA 79
+
+753. Concessa motus determinatione, quo corpus grave super peripheria circuli vel oscillando vel revolvendo movetur, ad quodvis tempus determinare positionem axis gyrationis respectu axium principalium, si quidem initio datus fuerit axis gyrationis cum celeritate angulari.
+
+Cum tempus determinandum sit
+
+SOLUTIO
+
+t =  2
+
+dv ABC
+(a+ Av)(b-Bv)(c+Cv)
+
+scribendo tantisper litteras a, b, c pro cos2 a, cos2 b, cos2 c ,
+consideremus in genere motum gravis per circulum, cuius radius sit ca = cb = r (Fig. 96), ubique celeritas tanta sit, ac si corpus ex puncto g eo esset delapsum. Ponatur ergo cg = p , tum vero initium motus capiatur in e, ut sit cd = q , existente
+scilicet recta gab verticali et de horizontali. Elapso iam tempore t grave ex e perveniat in z, ut ducta horizontali vz, sit dv = kv, siquidem in nostra formula v est numerus absolutus. Sit tantisper cv = z, erit elementum arcus in z = rdz , et
+(rr- zz)
+
+quia celeritas in z est = 2 g ( p + z) , fiet elementum temporis
+
+dt =
+
+rdz
+
+.
+
+2 g( p+z)(r-z)(r+z)
+
+Ergo ob z = kv - q habebitur
+
+dt =
+
+krdv
+
+,
+
+2 g( p-q+kv)(r +q-kv)(r -q+kv)
+
+nostra autem formula construenda simili modo expressa est :
+
+( )( )( ) dt =
+
+kdv k
+
+,
+
+2 ak +kv bk -kv ck +kv
+
+A
+
+B
+
+C
+
+ad quam illa perducitur ponendo primum
+
+kr 2g
+
+=
+
+kk 2
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 739
+
+unde fit
+
+r=
+
+gk 
+
+.
+
+Deinde
+
+in
+
+denominatoribus
+
+factores
+
+medii
+
+aequati
+
+praebent
+
+r
+
++
+
+q
+
+=
+
+bk B
+
+,
+
+hincque
+
+q
+
+=
+
+bk B
+
+-
+
+gk 
+
+.
+
+Porro factores primi ac tertii promiscue aequari possunt : si primus primo ac tertius aequalis
+
+statuatur, fit
+
+p
+
+-
+
+q
+
+=
+
+ak A
+
+et
+
+p
+
+=
+
+ak A
+
++
+
+bk B
+
+-
+
+gk 
+
+r
+
+-
+
+q
+
+=
+
+ck C
+
+seu
+
+vel unde fit
+
+2
+
+gk 
+
+-
+
+bk B
+
+=
+
+ck C
+
+2g 
+
+=
+
+(
+
+Bc+Cb)
+BC
+
+k,
+
+k
+
+=
+
+2BC g
+ ( Bc+Cb)
+
+et
+
+k
+
+=
+
+4BBCCg
+ ( Bc+Cb)2
+
+.
+
+Hinc porro
+
+r
+
+=
+
+
+
+2BCg
+( Bc+Cb)
+
+q
+
+=
+
+2 BC ( Cb - Bc ) g  ( Bc+Cb)2
+
+p
+
+=
+
+4BBCCag +2ABC(Cb-Bc)g A ( Bc+Cb)2
+
+.
+
+Ad datum ergo tempus t sequenti modo numerus v definitur : descripto circulo cuius radius
+
+( ) ca = cb =
+
+2BCg
+
+ B cos2 c+C cos2 b
+
+corpus grave per eius peripheriam ita moveatur, ac si ex puncto g eo esset delapsum, existente
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 740
+
+( ) 4BBCCg cos2 a+2 ABC C cos2 b-B cos2 c
+
+cg =
+
+( )  B cos2 c+C cos2 b 2
+
+g
+
+( ) 4BCC Acos2 b+ B cos2 a ( ) bg = A B cos2 c+C cos2 b 2 g
+
+et
+( ) 4BCC C cos2 a- Acos2 c ( ) ag = A B cos2 c+C cos2 b 2 g.
+
+Tum in hoc circulo capiatur intervallum
+
+( ) 2BC C cos2 b-B cos2 c ( ) cd =  B cos2 c+C cos2 b 2 g.
+
+seu
+
+( ) bd = 
+
+4BCCg cos2 b B cos2 c+C cos2 b 2
+
+,
+
+sumtoque puncto e pro motus initio, unde corpus per z progrediatur, abscindatur arcus ez
+
+tempore proposito t percursus, huicque respondens altitudo dv sit = u, qua pro cognita
+
+assumta, erit
+
+( ) 
+
+B cos2 c+C cos2 b
+
+2
+u
+
+v=
+
+,
+
+4BCCg
+
+unde deinceps pro superioribus problematibus colligitur celeritas angularis  ' =  (1+ v) , et
+
+pro praesente poli gyrationis situ :
+
+(cos2 a+ Av)
+cos = (1+v)
+
+(cos2 b-Bv)
+cos  = (1+v)
+
+(cos2 c+Cv)
+
+cos  =
+
+.
+
+(1+v)
+
+COROLLARIUM 1
+
+754. Cum sit
+
+dg
+
+=
+
+cg
+
+- cd
+
+=
+
+p
+
+-
+
+q
+
+=
+
+ak A
+
+,
+
+erit altitudo puncti g supra horizontalem de nempe
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 741
+
+( ) dg
+
+=
+
+A
+
+4BBCCg cos2 a B cos2 c+C cos2 b
+
+2
+
+,
+
+quae cum sit necessario positiva, corpus motu suo ad punctum e pertingere potest.
+
+COROLLARIUM 2
+
+755. Tum vero altitudo bd non solum etiam est positiva, sed etiam minor diametro circuli
+
+erit enim
+
+( ) ab = 
+
+4BCg B cos2 c+C
+
+cos2
+
+b
+
+2
+
+;
+
+( ) ad
+
+=
+
+
+4BBCg cos2 c B cos2 c+C cos2 b 2
+
+,
+
+unde punctum e, ex quo motus initium ducimus, semper certo in peripheria circuli reperitur.
+
+COROLLARIUM 3
+
+756. Cum igitur grave certo ex e ad imum punctum b descendat, ubi fit
+
+( ) u = bd = 
+
+4BBCg cos2 b B cos2 c+C cos2 b
+
+2
+
+,
+
+qui eius est valor maximus positivus, hoc tempore erit
+
+v = cos2 b ,
+B
+
+et
+
+ ( B+cos2 b)
+
+' =
+
+,
+
+B
+
+quae est celeritas angularis maxima, fietque tum cos  = 0 , hoc est, polus gyrationis per
+
+quadratem AC transit.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 742
+
+SCHOLION
+
+757. Cum igitur polus gyrationis, ubicunque initio fuerit, semper post aliquod tempus
+
+transeat per quadrantem AC, ubi celeritas
+
+angularis est maxima, hoc tempus
+
+tanquam motus initium spectare licebit,
+
+quandoquidem hinc etiam ad tempora
+
+antecedentia regredi valemus. Fuerit igitur
+
+initio polus gyrationis in quadrantis
+
+puncto E, ut sit
+
+AE = a et CE = c = 90o - a, atque celeritas
+
+angularis =  in sensum ABC. Postea ergo
+
+polus gyrationis in sphaerae octantem
+
+AbC transibit, cum ante versatus sit in
+
+octante ABC ; ubi notandum est,
+
+contrarium esse eventurum, si motus gyrationis in sensum contrarium dirigeretur. Hic autem
+
+duo casus considerandi occurrunt, prout in motu circulari punctum g vel supra circulum cadit,
+
+graveque integras revolutiones absolvit, vel intra circulum, graveque oscillationes peragit.
+
+Prius evenit, si fuerit C cos2 a > Acos2 c , posterius vero, si C cos2 a < Acos2 c . Ad hos
+
+casus distinguendos capiatur in quadrante AC punctum D, ut sit (Fig. 97)
+
+C cos2 AD > Acos2 CD , seu tang AD =
+
+C D
+
+,
+
+eritque
+
+D
+
+id
+
+punctum,
+
+per
+
+quod
+
+si
+
+polus
+
+gyrationis transeat, is per quadrentem Db polum principalem b versus accedat, eoque tandem
+
+elapso tempore infinito pertingat, quem casum iam ante evolvimus. Sin autem polus
+
+gyrationis per quadrantem AC intra terminos A et D transeat, habibitur casus prior, quo
+
+C cos2 a > Acos2 c ; at si intra teminos C et D transeat, habebitur casus posterior, quo
+
+C cos2 a < Acos2 c . Hos igitur duos casus seorsim pertractemus.
+
+CASUS I
+
+758. Transeat polus gyrationis per quadrantis AC punctum E (Fig. 97), circa quem corpus
+
+celeritate angulari  in sensum ABC gyretur, ut sit C cos2 AE > Acos2 CE seu
+
+tang AE <
+
+C A
+
+;
+
+unde
+
+elapso
+
+tempore
+
+t
+
+progrediatur
+
+in
+
+O,
+
+quem
+
+locum
+
+definiri
+
+oportet.
+
+Cum
+
+igitur sit AE = a, CE = c = 90o - a et b = 90o ,describatur circulus azez', cuius radius
+
+ca
+
+=
+
+ce
+
+=
+
+2Cg  cos2
+
+c
+
+,
+
+et in diametro verticali ea sursum producto capiatur
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 743
+
+( ) 4C C cos2 a- Acos2 c
+
+ag =
+
+A cos4 c
+
+g,
+
+graveque ex hoc puncto g delapsum per circulum revolvatur in sensum az'ez, initioque, dum
+
+polus gyrationis erat in E, grave per punctum imum e transeat. Iam elapso tempore t grave
+
+ascendat ad z usque, sitque altitudo ev = u, eritque
+
+v = - u cos4 c .
+4CCg
+
+Polus autem gyrationis nunc sit in O, et celeritas angularis circa eum erit
+
+( )  ' = 
+
+1
+
+-
+
+ u cos4 4CCg
+
+c
+
+,
+
+et pro loco puncti O erit
+
+( ) cos
+
+AO
+
+=
+
+ '
+
+cos2 a - Au cos4 c ,
+4CCg
+
+cos
+
+bO
+
+=
+
+ '
+
+
+
+
+
+cos2 2C
+
+Bu g
+
+et
+
+( ) cos
+
+CO
+
+=
+
+ '
+
+cos2 c - u cos4 c .
+4Cg
+
+Tum vero ex motu gravis per circulum isochrono motui poli gyrationis, si ponamus tempus dimidiae revolutionis =  , quo grave ex e ad punctum summum a ascendit, ob
+
+u
+
+=
+
+4Cg  cos2
+
+c
+
+,
+
+habebimus
+
+v = - cos2 c ,
+C
+
+et post tempus  erit celeritas angularis
+
+( )  ' = 
+
+1-
+
+cos2 C
+
+c
+
+,
+
+omnium minima : polus autem gyrationis tum erit in P, ut sit
+
+( ) cos
+
+AP
+
+=
+
+ '
+
+cos2
+
+a
+
+-
+
+Acos4 c C
+
+,
+
+cos
+
+bP
+
+=
+
+
+
+cos c '
+
+B C
+
+et cos CP = 0,
+
+unde polus P reperietur in quadrante Ab, ut sit
+
+cos bP = sin AP = cosc B = sina B
+(C -cos2 c) (C -sin2 a)
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 744
+
+( ) C cos2 a- A sin2 a
+
+cos AP =
+
+.
+
+(C -sin2 a)
+
+Elapso autem tempore 2 , quo fit u = 0, celeritas angularis  ' fit ut initio =  , et polus
+
+gyrationis iam reperietur in quadrantis CA producti puncto e, ut sit Ae = AE. Elapso tempore 3 perveniet polus gyrationis in p, ut sit Ap = AP, ac tempore 4 elapso revertetur in E. Polus ergo gyrationis circa polum principalem A orbitam quasi ellipticam describet, et tempus unius revolutionis aequale erit tempori, quo grave in circulo duas integras absolvit revolutiones. Hic notari convenit, si punctum E in D incideret, punctum P in b esse casurum ob cos AP = 0, tum autem foret ag = 0, et tempus semirevolutionis in circulo  fieret infinitum, quemadmodum iam supra habuimus. Porro autem fit AP = AE, si B = , et C =  seu bb = cc, hoc est, si momenta inertiae respectu axium IB et IC sunt
+
+aequalia, qui est casus capite praecedente pertractatus.
+
+CASUS II
+
+758. Transeat polus gyrationis per quadrantis AC punctum E (Fig. 98), circa quem corpus celeritate angulari  in sensum ABC
+
+gyretur, ut sit C cos2 AE < Acos2 CE seu
+
+tang AE >
+
+C A
+
+;
+
+unde
+
+elapso
+
+tempore
+
+t
+
+progrediatur in O. Cum igitur sit
+
+b = 90o , AE = a, et CE = 90o - a = c describ
+
+atur circulus azez' diametro
+
+et capiatur ut sit
+
+( ) 4C Acos2 c-C cos2 a
+
+ag =
+
+A cos4 c
+
+g,
+
+eg
+
+=
+
+4CC cos2 a  cos4 c
+
+g.
+
+ae
+
+=
+
+4Cg  cos2
+
+c
+
+,
+
+Ducta igitur horizontali fgf', grave pergat oscillationes per arcum fef', sumaturque temporis
+
+punctum, quo grave ex f' descendens transit per imum punctum e, pro temporis initio, unde
+
+elapso tempore t perveniat in z, et posita altitudine ev = u, erit
+
+v
+
+=
+
+- u cos4 c 4CCg
+
+,
+
+hocque tempore celeritas angularis circa polum O erit
+
+( )  ' =  1- u cos4 c , 4CCg
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 745
+
+et ut ante et
+
+( ) cos
+
+AO
+
+=
+
+ '
+
+cos2 a - Au cos4 c ,
+4CCg
+
+cos
+
+bO
+
+=
+
+ '
+
+
+
+
+
+cos2 2C
+
+Bu g
+
+( ) cos
+
+CO
+
+=
+
+ '
+
+cos2 c - u cos4 c .
+4Cg
+
+Sit  tempus dimidiae oscillationis seu ascensus per ef, atque hoc tempore elapso, ob
+
+u
+
+=
+
+eg
+
+=
+
+4CC cos2 a A cos4 c
+
+g
+
+et
+
+v = - cos2 a ,
+A
+
+erit celeritas angularis
+
+( )  ' = 
+
+1-
+
+cos2 A
+
+a
+
+,
+
+polusque gyrationis reperitur in P, ut sit
+
+cos
+
+CP
+
+=
+
+ '
+
+ 0,
+
+cos bP =  cos a B = cos a B
+
+' A
+
+( A-cos2 a)
+
+et
+
+( ) cos
+
+CP
+
+=
+
+ '
+
+( ) cos2 c - C cos4 a =
+
+Acos2 c-C cos2 a
+,
+
+A
+
+( A-cos2 a)
+
+unde patet polum gyrationis esse in quadrante Cb, existente
+
+sin CP = cosa B = sinc B .
+( A-cos2 a) ( A-sin2 a)
+
+Capiatur nunc in quadrante AC producto Ce = CE et Cp = CP, eritque orbis ellipticus EPepE via poli gyrationis, cuius singuli quadrantes EP, Pe, ep, pE, etc. tempore  absolvantur.
+Si esset aa = bb, foret A = , B =  et CP = CE, polusque gyrationis circulum
+minorem circa axem principalem IC, qui esset singularis, describeret; qui est casus capite praecedente tractatus. At si E in D caderet, ob ag = 0, foret  =  , qui est casus problematis praecedentis.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 746
+
+SCHOLIUM
+
+760. Cum igitur satis clare intelligamus, quomodo variatio in polo gyrationis eveniat, cum is vel circa polum principalem A vel circa C circumferatur, in orbita quasi elliptica, prout fuerit
+
+vel tang AE <
+
+C A
+
+vel
+
+tang AE >
+
+C A
+
+atque
+
+adeo
+
+eius
+
+locum
+
+ad
+
+quodvis
+
+tempus
+
+concessa
+
+integratione formulae differentialis assignare liceat; videamus, num etiam eius locum absolutum ad quodvis tempus simulque positionem axium principalium definire valeamus. Equidem non sine successu hoc negotium in superiore capite expedivimus. Verum hic multo maiores difficultates offendemus, quas ne concessis quidem quadraturis superare poterimus, cum res ad eiusmodi aequationes differentiales reducatur, quae non solum non integrari, sed ne ad separabilitatem quidem variabilium revocare queant.
+
+PROBLEMA 80
+
+761. Si corpori rigido cuicunque initio impressus fuerit motus gyratorius circa axem per centrum inertiae transeuntem quemcunque, ad datum tempus tam situm axium principalium quam axis gyrationis respectu spatii absoluti definire.
+
+SOLUTIO
+In sphaera immobili centro inertiae corporis descriptis (Fig. 89), post tempus = t corpus nunc situm teneat, ut axium principalium poli sunt in A, B, C eorumque respectu momenta inertiae Maa, Mbb, Mcc. Tum sumto puncto Z et circulo XZ fixo, statuantur arcus ZA = l, ZB = m, ZC = n atque anguli XZA =  , XZB =  , XZC = manentibus pro polo gyrationis O arcubus
+OA =  , OB =  , OC =  , qui cum celeritate angulari  ' nunc per tempus t dantur. His positis ex problemate 68 nanciscimur :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 747
+
+dl sin l =  ' dt (cos  cos n - cos  cos m)
+
+d sin2 l = - ' dt (cos  cos m + cos  cos n)
+
+dm sin m =  ' dt (cos  cos l - cos cos n)
+
+d  sin2 m = - ' dt (cos  cos n + cos cos l )
+
+dn sin n =  ' dt (cos cos m - cos  cos l )
+
+d sin2 n = - ' dt (cos cos l + cos  cos m) .
+
+Praecipuum autem opus hic in investigatione arcuum l, m, n consistit, qui cum ita sint comparati, ut sit
+cos2 l + cos2 m + cos2 n = 1, ponatur cos m = sin l cos , erit cos n = sin l sin , eruntque tres aequationes :
+I. dl =  ' dt (cos  sin - cos  cos )
+
+II. - dl cos l cos + d sin l sin =  ' dt (cos  cos l - cos sin l sin ) ,
+
+III. - dl cos l sin - d sin l cos =  ' dt (cos sin l cos - cos  cos l ) ,
+
+unde II.sin - III cos praebet :
+d sin l =  ' dt (cos  cos l sin - cos sin l + cos  cos l cos ) ,
+
+ex qua cum prima coniuncta binos arcus l et  quaeri oportet. Posito autem  ' =  (1+ v) et
+
+pro statu initiali brevitatis gratia
+
+cos2 a = A, cos2 b = B, cos2 c = C,
+
+ut sit A + B+C = 1,
+
+vidimus esse
+
+cos =
+
+A+ Av 1+v
+
+,
+
+cos  =
+
+B- Bv 1+v
+
+,
+
+cos  =
+
+C +Cv 1+v
+
+et
+
+2 dt =
+
+dv ABC
+
+,
+
+(A+ Av)(B-Bv)(C+Cv)
+
+positis
+
+A
+
+=
+
+(
+
+aa
+
+-
+
+bbcc
+bb ) ( aa
+
+-
+
+cc)
+
+,
+
+B
+
+=
+
+(
+
+aa
+
+-
+
+aacc
+bb ) ( bb
+
+-
+
+cc
+
+)
+
+,
+
+C
+
+=
+
+( aa
+
+-
+
+aabb
+cc ) ( bb
+
+-
+
+cc
+
+)
+
+et
+
+D
+
+=
+
+(
+
+aa
+
+-
+
+bb
+
+)
+
+aabbcc
+(aa - cc)
+
+(bb
+
+-
+
+cc
+
+)
+
+,
+
+ubi quidem sumimus esse aa > bb et bb > cc.Ponamus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 748
+
+fietque et ergo
+
+cos  = sin cosT et cos  = sin sinT ,
+
+v
+
+=
+
+B-(1-A) cos2 T B+(1- A) cos2 T
+
+cos =
+
+AB+BA+(A- A) cos2 T B+B+(A- A) cos2 T ,
+
+atque tum vero
+
+sin =
+
+BC +CB
+B+B+(A- A) cos2
+
+T
+
+,
+
+' =
+
+B+B+(A- A) cos2 T B+(1- A) cos2 T
+
+ dt =
+
+DdT
+
+.
+
+( )( ) B sin2 T +C cos2 T (AB+BA) sin2 T +(AC -CA) cos2 T
+
+Unde nostrae aequationes resolvendae erunt
+
+dl =  ' dt sin sin ( - T )
+
+d sin l =  ' dt sin cos l cos ( - T ) -  ' dt cos sin l,
+
+ubi est
+
+ ' dt sin =
+
+DdT (BC +CB)
+
+( ) ( ) B sin2 T +C cos2 T (AB+BA) sin2 T +(AC -CA) cos2 T
+
+
+
+'
+
+dt
+
+cos 
+
+=
+
+( B sin2
+
+DdT
+) T +C cos2 T
+
+.
+
+Statuamus nunc  - T = , ut habeatur dl =  ' dt sin sin
+
+et d sin l + dT sin l =  ' dt sin cos l cos -  ' dt cos sin l,
+
+quarum posterior abit in
+
+d sin l sin - dl cos l cos + dT
+
+sin l sin +
+
+DdT sin l sin B sin2 T +C cos2 T
+
+= 0,
+
+dum prior est
+
+DdT sin (BC +CB)
+
+dl =
+
+.
+
+( ) ( ) B sin2 T +C cos2 T (AB+BA) sin2 T +(AC -CA) cos2 T
+
+Ponamus brevitatis gratia :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 749
+
+1+
+
+D B sin2 T +C cos2 T
+
+=P
+
+et
+
+D (BC +CB)
+= Q;
+( ) ( ) B sin2 T +C cos2 T (AB+BA) sin2 T +(AC -CA) cos2 T
+
+quoniam P et Q sunt functiones cognitae ipsius T, nostrae aequationes resolvendae has
+
+induunt formas simpliciores d  sin l cos = PdT sin l sin
+
+et dl = QdT sin.
+
+Ponamus denique
+
+sin l cos = x et cos l = y,
+
+erit
+
+sin l sin = (1- xx - yy)
+
+et nostrae aequationes erunt dx = PdT et
+(1- xx- yy)
+
+dy = -QdT .
+(1-xx- yy)
+
+Verum hic fateri cogor ulterius me hanc resolutionem prosequi non posse ; neque ergo hoc
+
+problema ad finem perducere licet. Posito x =  ' cos , y =  ' cos  et z =  ' cos  , aequationes resolvendae erunt novem
+
+sequentes :
+
+I.
+
+dx
+
+=
+
+bb-cc aa
+
+yzdt
+
+II.
+
+dy
+
+=
+
+cc - aa bb
+
+xzdt
+
+III.
+
+dz
+
+=
+
+aa -bb cc
+
+xydt
+
+IV. dl sin l = dt ( y cos n - z cos m)
+
+V. dm sin m = dt ( z cos l - x cos n)
+
+VI. dn sin n = dt ( x cos m - y cos l )
+
+VII. d sin2 l = -dt ( y cos m + z cos n)
+
+VIII. d  sin2 m = -dt ( z cos n + x cos l )
+
+IX. d sin2 n = -dt ( x cos l + y cos m) ,
+
+unde novem quantities x, y, z, y, l, m, n,  ,  , definiri poterit. Trium priorum quidem solutio iam in antecedentibus problematibus est tradita; ad usum autem sequentium statuatur
+
+bb-cc aa
+
+=
+
+A,
+
+cc - aa bb
+
+=
+
+B,
+
+aa -bb cc
+
+=
+
+C
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 750
+
+et xyzdt = du
+
+eritque
+
+xdx = Adu, ydy = Bdu, zdz = Cdu,
+
+unde integrando elicitur : xx = 2Au + A, yy = 2Bu + B, zz = 2Cu + C
+
+ideoque
+
+dt =
+
+du
+
+.
+
+( 2 Au + A )( 2 Bu +B)( 2Cu +C )
+
+Ratione autem quantitatum A, B, C eae ita inter se sunt comparatae, ut sit: Aaa + Bbb + Ccc = 0 et Aa4 + Bb4 + Cc4 = 0.
+
+Quare fiet
+
+aaxx + bbyy + cczz = Aaa + Bbb + Ccc = quantitati constanti.
+
+Restitutis autem pro x, y, z valoribus assumtis fit
+( ) aaxx + bbyy + cczz =  '  ' aa cos2  + bb cos2  + cc cos2  = Const.
+
+At posita mass corporis = M, expressio
+( ) M aa cos2  + bb cos2  + cc cos2 
+
+denotat momentum inertiae corporis respectu axis IO, circa quem corpus nunc gyratur, quod momentum ergo si dicatur = Mrr, erit Mrr '  ' vis viva corporis, quae ergo manet constans.
+Deinde cum sit cos2  + cos2  + cos2  = 1, erit
+ ' = ( xx + yy + zz) = (2( A + B + C )u + A + B + C)
+et ex cognitis x, y, z per u, etiam  ,  , per u definiuntur. Atque hucusque quidem in problematibus antecedentibus pertingere licuit ; nunc igitur videamus, quomodo solutio propria problematis 80, expediri queat. Omnem autem difficultatem in aequationibus IV, V, VI sitam esse patet, ad quam superandam, statuamus
+cos l = px, cos m = qy, et cos n = rz, ut prodeant hae aequationes :
+
+IV. 0 = pdx + xdp + dt (ryz - qyz) V. 0 = qdy + ydq + dt ( pxz - rxz) VI. 0 = rdz + zdr + dt (qxy - pxy)
+unde hae aequationes in sequentes formas mutantur
+
+at est
+
+yzdt
+
+=
+
+dx A
+
+xzdt
+
+=
+
+dy B
+
+xydt
+
+=
+
+dz C
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 751
+
+IV.
+
+0
+
+=
+
+pdx
+
++
+
+xdp +
+
+(r -q)dx
+A
+
+,
+
+seu
+
+dx x
+
+=
+
+Adp q-r - Ap
+
+=
+
+Adu 2 Au+A
+
+V.
+
+0
+
+=
+
+qdy
+
++
+
+ydq
+
++
+
+(
+
+p-r )dy
+B
+
+,
+
+seu
+
+dy y
+
+=
+
+Bdq r - p-Bq
+
+=
+
+Bdu 2 Bu + B
+
+VI.
+
+0
+
+=
+
+rdz
+
++
+
+zdr
+
++
+
+(q- p)dz
+C
+
+,
+
+seu
+
+dz z
+
+=
+
+Cdr p - q -Cr
+
+=
+
+Cdu 2Cu +C
+
+.
+
+Multiplicetur IV. per axx, V. per bby et VI. per ccz, ut habeatur
+
+IV.
+
+aapxdx
+
++
+
+aaxxdp
+
+=
+
+aa(q-r )xdx
+A
+
+=
+
+aa (q
+
+-
+
+r ) du
+
+V.
+
+bbqydy
+
++
+
+bbyydq
+
+=
+
+bb( r
+
+- p)
+B
+
+ydy
+
+= bb (r -
+
+p) du
+
+VI.
+
+ccrzdz
+
++
+
+cczzdr
+
+=
+
+cc(
+
+p - q ) zdz
+C
+
+=
+
+cc (
+
+p
+
+-
+
+q) du.
+
+Ex ternis autem primis colligitur
+
+I. aapxdx = Aaapdu = (bb - cc) pdu II. bbqydy = Bbbqdy = (cc - aa) qdu III. ccrzdz = Cccrdu = (aa - bb) rdu.
+His sex aequationibus in unam summam coniectis. partes posteriores se mutuo destruunt, proditque aequatio integrabilis :
+
+2aapxdx + aaxxdp + 2bbqydy + bbyydq + 2ccrzdz + cczzdr = 0,
+
+cuius integrale est
+
+aapxx + bbqyy + ccrzz = Const.,
+
+in quo maxima vis inest ad integrationem desideratam absolvendam, si coniungatur cum aequatione
+
+cos2 l + cos2 m + cos2 n = 1,
+
+qui abit in
+
+ppxx + qqyy + rrzz = 1.
+
+Cum enim x, y, z dentur per u ex his duabus aequationibus, quantitates p et q per u et r
+
+definire poterunt, qui in aequatione
+
+dr p - q -Cr
+
+=
+
+du 2Cu +C
+
+substituti perducent ad aequationem binas tantum variabiles u et r involventem, ex qua etiam r per u determinare licebit.
+
+Primum autem observo, aequationibus nostris satisfieri posse, tribuendo litteris p, q et r valores constantes; ad hoc enim necessare est fiat
+
+q - r - Ap = 0, r - p - Bq = 0, p - q - Cr = 0,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 752
+
+unde fit
+
+p = n (1- B) , q = n (1+ A) et r = n (1+ AB) ,
+
+si modo sit A + B + C + ABC = 0,quod autem revera evenit. Erit ergo pro A, B, C valores
+
+assumtos substituendo
+
+p = n(aa+bb-cc) , q = n(aa+bb-cc) et r = ncc(aa+bb-cc) ,
+
+bb
+
+aa
+
+aabb
+
+quare
+
+sumto
+
+n=
+
+maabb aa + bb - cc
+
+colligitur
+
+p = maa, q = mbb, et r = mcc,
+
+ubi coefficiens m ita debet esse comparatus, ut fiat ppxx + qqyy + rrzz = 1
+
+seu
+( ) mm a4 (2Au + A) + b4 (2Bu + B) + c4 (2Cu + C) = 1;
+
+quare cum sit erit
+
+Aa4 + Bb4 + Cc4 = 0,
+
+m=
+
+1
+
+,
+
+( ) Aa4 +Bb4 +Cc4
+
+simulque fit
+( ) aapxx + bbqyy + ccrzz = m a4 (2Au + A) + b4 (2Bu + B) + c4 (2Cu + C) ,
+
+cuius ergo expressionis valor constans est
+( ) = Aa4 +Bb4 +Cc4 .
+
+Observo autem, hanc integrationem non esse pro incompleta habendam, propterea quod vertex sphaerae immobilis Z pro lubitu assumi potest. Eum ergo semper ita accipere licebit,ut quantitates p, q, r fiant constantes. Posito itaque brevitatis gratia
+( ) Aa4 +Bb4 +Cc4 = n
+
+omnia per u sequenti modo definientur, ut sit
+
+x = (2Au + A) ,
+
+p
+
+=
+
+aa n
+
+,
+
+cos l
+
+=
+
+aa n
+
+(2Au + A)
+
+y = (2Bu + B) ,
+
+q
+
+=
+
+bb n
+
+,
+
+cos
+
+m
+
+=
+
+bb n
+
+(2Bu + B)
+
+z = (2Cu + C) ,
+
+r
+
+=
+
+cc n
+
+,
+
+cos
+
+n
+
+=
+
+cc n
+
+(2Cu + C).
+
+Pro
+
+ternis
+
+postremis
+
+aequationis
+
+ob
+
+dt
+
+=
+
+du xyz
+
+fiet
+
+d
+
+=
+
+-ndt(Bbb+Ccc-2 Aaau)
+Bb4 +Cc4 -2 Aa4u
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 753
+
+sufficit autem unicum ternorum angulorum  ,  , determinasse, cum reliqui ex eo per se constent.
+
+SCHOLION 1
+
+762. Casu praecedentis capitis, quo erat
+
+B
+
+=
+
+
+
+et
+
+C
+
+=
+
+
+
+atque
+
+adeo
+
+B C
+
+= 1, ob
+
+A-
+
+B
+
++C
+
+= 1, aequationes
+
+inventas
+
+ideo
+
+resolvere
+
+licuit
+
+quod quantitates P et Q fiebant constantes, scilicet
+
+P
+
+=1+
+
+D B
+
+=1+
+
+bb aa -bb
+
+=
+
+aa aa -bb
+
+,
+
+ob bb = cc et
+
+Q
+
+=
+
+D
+
+( B+C )
+BA
+
+=
+
+bb (1-A) (aa-bb) A
+
+,
+
+dx : dy = aa : -bb
+
+1-A A
+
+=
+
+P : -Q.
+
+Ergo
+
+dx
+
+=
+
+-
+
+Pdy Q
+
+et
+
+x
+
+=
+
+Const . -
+
+Py Q
+
+,
+
+Verum hic ratio P: Q constans evadere nequit, ideoque non liquet quomodo aequationibus
+
+inventis satisfieri queat, ne quidem particulariter. Quare cum talium corporum motus calculo
+
+sit intractabilis, quousque scilicet fines analyseos adhuc patent, hoc argumentum deserre
+
+cogimur, cum etiam conatus irritos proposuisse nihil luminis affere queat. Quod autem ad
+
+rationem mechanicam attinet, motum corporum rigidorum liberum, dum a nullis viribus
+
+sollicitantur, perfecte determinasse consendi sumus, cum Analyseos defectui fit tribuendum;
+
+quod solutionem ad finem perducere non valuerimus. Haec autem difficultas se tantum in
+
+corporibus, quorum tria momentae inertiae principalia sunt inter se inaequalia, exerit; quae
+
+corpora cum sint pro maxime irregularibus habenda, hoc incommodum, ubi ad praxin
+
+descentimus minus obest, quoniam rarissime eiusmodi corporum motus requiri solet. Quando
+
+autem duo momenta principalia sunt inter se aequalia, investigatio motus prosperpo successu
+
+est absoluta, ut nihil desiderari queat.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter THIRTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 754
+
+SCHOLION 2
+763. Expositis ergo, quae ad motum corporum rigidorum liberum, remotis viribus externis, pertinent, ordo postulat, ut iam in effectum virium inquiramus, ad quod etiam supra fundamenta sunt iacta, ubi quarumvis virium effectus momentaneous determinavimus. Dum autem motus perennes tractare instituimus, eiusmodi casus eligere debemus, quibus vires sollicitantes non per corporis centum inertiae transeunt, quales Astronomia offert. Quoniam autem eorum evolutio maiorem Astronomiae cognitionem requirit, quam hic supponere licet, in terra subsistamus, atque eiusmodi motus contemplemur, in quibus motus gyratorius circa axem variabilem occurrat, quandoquidem motus magis regulares nihil habent difficultatis. Hic primum se nobis offert Theoria turbinum, cuius explicatio ob continuam axis gyrationis mutationem adhuc maximus tenebris fuit involuta. Quod argumentum ut initio a gravioribus difficultatibus liberem, axem turbinis super plano horozontali politissimo incedere assumam, ne frictioni ullus locus relinquatur, tum vero axem infra in cuspiemd desinentem statuam, quo super plano horizontali ingrediatur. Duo autem genera turbinum constituam, prout vel omnia eius momentia inertiae principalia fuerint inter se aequalia, vel duo duntaxat : si enim omnia essent inaequalia, haec hypothesis non solum figurae turbinum adversaretur, sed etiam vires calculi superaret.
+
+

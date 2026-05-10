@@ -1,0 +1,9253 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 386
+
+Chapter 6
+
+THE INVESTIGATION OF THE MOMENT OF INERTIA FOR HOMOGENEOUS BODIES
+
+PROBLEM 32
+471. If the body should be the finest straight line filament AIB (Fig. 51), to find the principal axes of this, and the moments of inertia with respect to these.
+
+SOLUTION
+Let the whole length of the filament be AB = 2a , at the mid-point of this will be the centre of inertia I, such that there shall be IA = IB = a, moreover the mass of the
+filament, which geometrically is expressed by 2a, shall be equal to M. Now one principal axis clearly is the line AB itself, with respect to which the moment of inertia is zero and thus is the minimum ; the two remaining axes are normal to AB at I and about which the moments of inertia are equal, thus so that the position of these is not being determined. Therefore in the finding of the moment of inertia with respect to such an axes normal to AB at I, on choosing IP = IQ = x, the moments of inertia of the
+
+elements Pp = Qq = dx are xxdx and thus on taking both together, the integral 2 x3 of
+3
+
+this quantity, on putting x = a, gives the moment of inertia of the filament with respect
+
+to
+
+the
+
+axis
+
+normal
+
+to
+
+the
+
+filament
+
+at
+
+I
+
+equal
+
+to
+
+2 3
+
+x3
+
+=
+
+1 3
+
+Maa
+
+on
+
+account
+
+of
+
+M
+
+= 2a.
+
+COROLLARY 1
+
+472. Hence the two remaining principal axes are not determined, and in addition to
+
+AIB, likewise it is the case that two right lines normal to each other as well as to the
+
+filament through I can be taken for these. And about these the moment of
+
+inertia
+
+1 3
+
+Maa
+
+is a maximum, thus so that the mean agrees with the maximum.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 387
+
+COROLLARY 2
+
+473. Since the moment of inertia about the axis AB is equal to zero, about any other
+
+axis SIs inclined at an angle
+
+AIS
+
+=
+
+to AB it will be equal to
+
+1 3
+
+Maa
+
+sin2
+
+
+
+,
+
+which is
+
+evident from above, if of the two remaining principal axes one is taken in the plane
+
+AIS; for then the axis Ss is inclined to that at an angle 90o -, and the other principal
+
+axes truly at right angles.
+
+PROBLEM 33
+
+474. If the body should be the finest filament curved in the periphery of a circle AEBF (Fig. 52), to find the principal axes of this, and the moments of inertia about these axes.
+
+SOLUTION
+Let the radius IB = a , and on putting the ratio of the diameter to the periphery equal to 1: then the length of the filament is equal to 2 a , which likewise refers to the mass of this, which shall be equal to M. Since the centre of inertia shall be at the centre of the circle I, in the first place a line perpendicular to the plane of the circle at I shall be one principal axis, and the moment of inertia about this axis shall be equal to Maa ; the two remaining axes have been placed in the plane of the circle, for which any two diameters normal to each other are allowed to be taken for AB and EF. Now on choosing the abscissa
+IP = x and the applied line PM = y = XZ = (aa - xx) , on account of the element of
+
+the
+
+filament
+
+Mm
+
+=
+
+adx y
+
+,
+
+the
+
+moment
+
+of
+
+this
+
+about
+
+the
+
+axis
+
+AB
+
+=
+
+aydx,
+
+and
+
+thus
+
+the
+
+total moment of inertia a ydx
+= a × area of the circle = a3 ,
+
+since on account of
+
+M
+
+=
+
+2
+
+a
+
+then
+
+this
+
+becomes
+
+1 2
+
+Maa.
+
+Whereby the moment of inertia with respect to any diameter
+
+=
+
+1 2
+
+Maa.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 388
+
+COROLLARY 1
+
+475. Therefore the moment of inertia about the axis normal to the plane of the circle is the maximum Maa and the mean agrees with the minimum and each is half of the maximum.
+
+COROLLARY 2
+
+476. If some other axis is taken inclined at an angle to the plane of the circle through
+
+I , because this is inclined to the first axis at an angle 90o - , to the other of the
+
+remaining the axis is inclined at an  and to the third at a right angle, the moment of
+
+inertia about this axis will be equal to
+
+Maa
+
+sin2 
+
++
+
+1 2
+
+Maa cos2 
+
+=
+
+1 2
+
+Maa(1 +
+
+sin2 ).
+
+PROBLEM 34
+
+477. If the body should be the thinnest triangular sheet ABD (Fig. 53), to find the three principal axes of this shape, and the moments of inertia about these axes.
+
+SOLUTION
+In order that the centre of inertia I may be obtained, from the angle A the line AC is drawn bisecting the opposite side BD and on taking the third part CI of the whole AC the centre of inertia will be present at I. We put CI = a, CB = CD = c and the angle ACB =  ,
+in order that AI = 2a, AC = 3a and BD = 2c.
+Now it is evident that one principal axis it to be normal to the plane of the triangle through I, because, if on this line we should take the co­ordinate x, there becomes
+ xydM = 0 and  xzdM = 0 on account of x = 0.
+Whereby following problem 28 besides this axis the two remaining directrices are taken in the plane of the triangle, one of which shall be IA, and on taking some element dM at Z and thus on sending the perpendicular ZY to IA, let IY = y and YZ = z and the integrals may be called :
+
+ xxdM = A = 0,  yydM = B,  zzdM = C; then  yzdM = F;
+thus, if IF and IG should be the two remaining principal axes, and on putting the angle AIF =  , we have shown that [§ 442]:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 389
+
+tang
+
+2
+
+=
+
+2F B-C
+
+and the moment of inertia about the axis IF is equal to :
+
+A + B sin2  + C cos2  - 2F sin cos ,
+
+where  denotes the angle AIF as well as AIG. Then with respect to the first axis normal to the plane of the triangle, the moment of inertia is equal to B + C. In order that these values may be found, there is drawn through Z the line MN parallel to the side BD, and on putting in place AP = t and PZ = u then
+
+PM
+
+= PN
+
+=
+
+ct 3a
+
+,YZ
+
+= u sin
+
+and PY
+
+= uc cos
+
+and the element at Z is equal to :
+
+dtdu sin = dM .
+
+Hence therefore there is : y = 2a - t + u cos et z = u sin ;
+
+the other part is taken equal to the element dtdu sin for the former part, for which u shall be negative, and with these taken together it is possible to consider :
+
+B = 2 dt sin  du((2a - t)2 +uu cos2  ), C = 2 dt sin  uudu sin2 
+
+and
+
+F = 2 dt sin  (udu sin (2a - t + u cos ) - udu sin (2a - t - u cos ))
+
+or
+
+F = 2 dt sin   uudu sin cos .
+
+For
+
+the
+
+first
+
+integration
+
+to
+
+be
+
+performed,
+
+it
+
+is
+
+necessary
+
+to
+
+put
+
+u
+
+=
+
+ct 3a
+
+,
+
+thus
+
+there
+
+becomes :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 390
+
+and and thus
+and
+
+B
+
+=
+
+2
+
+sin 
+
+
+
+dt(
+
+ct 3a
+
+(2a
+
+-
+
+t)2 +
+
+c3t3 81a3
+
+cos2
+
+
+
+),
+
+C
+
+=
+
+2
+
+sin 
+
+
+
+dt
+
+
+
+c3t3 sin2 81a3
+
+
+
+F
+
+=
+
+2
+
+sin2
+
+
+
+cos 
+
+
+
+dt
+
+
+
+c3t3 81a3
+
+B
+
+=
+
+2 sin
+
+(
+
+2actt 3
+
+-
+
+4ct 3 9
+
++
+
+ct 4 12a
+
++
+
+c3t 4 324a3
+
+cos2
+
+
+
+),
+
+C
+
+=
+
+2 sin
+
+
+
+c3t 4 sin2 324a3
+
+
+
+F
+
+=
+
+c3t4 sin2  cos 162a3
+
+,
+
+from which values extended through the whole triangle, on putting t = 3a, we have :
+
+B
+
+=
+
+1 2
+
+ac
+
+sin 
+
+(3aa
+
++
+
+cc
+
+cos2
+
+
+
+),
+
+C = 1 ac3 sin3  ,
+2
+
+F
+
+=
+
+1 2
+
+ac3
+
+sin3 
+
+cos 
+
+.
+
+And from these, there becomes for the position of the axes IF and IG :
+
+tang
+
+2
+
+=
+
+ac
+
+2ac3 sin3  cos  sin (3aa+cc cos
+
+2
+
+)
+
+=
+
+cc sin 2 3aa+cc cos
+
+2
+
+,
+
+hence indeed the two values for are drawn forth. And then the moment of inertia about the principal axis normal to the plane of the triangle is equal to :
+
+1 ac sin (3aa + cc cos 2 ) = 1 M (3aa + cc)
+
+2
+
+6
+
+on account of M = 3ac sin , and about the axis IF or IG, since  denotes either the angle AIF or AIG, the moment of inertia is then :
+
+1 M (3aa + cc cos2  ) sin2  + 1 Mcc sin2  cos2  - 1 Mcc sin cos sin cos
+
+6
+
+6
+
+3
+
+= 1 Maa sin2  + 1 Mcc( cos sin - sin cos)2
+
+2
+
+6
+
+=
+
+1 2
+
+Maa
+
+sin2
+
+
+
++
+
+1 6
+
+Mcc
+
+sin2
+
+(
+
+-  ).
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 391
+
+COROLLARY 1
+
+478. Since it is the case that : AB2 + AD2 = 18aa + 2cc,
+
+then
+
+3aa = AB2 + AD2 -2cc
+6
+
+and hence the moment of inertia about the axis normal to the plane of the triangle
+
+through I becomes equal to :
+
+1 36
+
+M
+
+(AB2
+
++
+
+AD2
+
++
+
+BD2
+
+),
+
+thus as the thirty-sixth part of the mass of the triangle multiplied by the sum of the
+
+squares of the sides of the triangle.
+
+COROLLARIUM 2
+479. For the two remaining principal axes IF and IG placed in the plane of the triangle it is noted that cannot be an angle greater than a right angle, thus sin 2 is positive. Hence on putting the angle AIF =  then
+
+tang
+
+=
+
+-3aa-cc cos 2
+
++ (9a4 +6aacc cos 2 cc sin 2
+
++c4 )
+
+=
+
+tang
+
+AIF ;
+
+and
+
+tang
+
+AIG=
+
+-3aa-cc cos
+
+2
+
+- (9a4 +6aacc cos cc sin 2
+
+2
+
++c4
+
+)
+
+.
+
+COROLLARY 3
+
+480. The moment of inertia about these axes is equal to :
+
+since therefore
+
+1 6
+
+M(
+
+3 2
+
+aa
+
+-
+
+3 2
+
+aa cos 2
+
++
+
+1 2
+
+cc cos 2(
+
+-  ));
+
+tang
+
+2(
+
+-  )=
+
+3aa sin 2 3aa cos 2 +cc
+
+,
+
+thus each moment can be expressed :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 392
+
+1 12
+
+M
+
+(3aa
+
++
+
+cc
+
+±
+
+(9a4 + 6aacc cos 2 + c4 ))
+
+=
+
+1 12
+
+Mcc(1- cos 2
+
+- sin 2
+
+tang
+
+) =
+
+Mcc sin sin ( 6 cos
+
+-) ;
+
+since the angle AIF or AIG is assumed for , thus may be referred to each axis.
+
+EXAMPLE
+481. Let the triangle ABD be isosceles or the angle right, and hence on account of
+
+tanh 2 = 0 either  = 0 or  = 90o ,thus the one axis lies on the line AC itself, the
+
+other now is normal to that. With respect to the one AC the moment of inertia is equal
+
+to
+
+1 6
+
+Mcc
+
+,
+
+and
+
+with
+
+respect
+
+to
+
+the
+
+other
+
+now
+
+it
+
+is
+
+equal
+
+to
+
+1 2
+
+Maa
+
+,while
+
+about
+
+the
+
+first
+
+axis, which is normal to the plane of the triangle, that is thus equal to 1 Maa + 1 Mcc ,
+
+2
+
+6
+
+as this is equal to the sum of the two others. Now if in addition the triangle is
+
+equilateral, and the single side of this is equal to 2c, then
+
+3a = c
+
+3
+
+or
+
+aa
+
+=
+
+cc 3
+
+, whereby
+
+all
+
+the
+
+axes
+
+in
+
+the
+
+plane
+
+of
+
+the
+
+triangle
+
+drawn
+
+through
+
+I
+
+present the same moment of inertia equal to
+
+1 6
+
+Mcc
+
+and
+
+the
+
+moment
+
+about
+
+the
+
+axis
+
+normal
+
+to
+
+the
+
+plane
+
+of
+
+the
+
+triangle
+
+through
+
+I
+
+is
+
+twice
+
+as
+
+great,
+
+equal
+
+to
+
+1 3
+
+Mcc
+
+.
+
+COROLLARY 4
+
+482. This last property prevails so far in general ; for since the moment of inertia about
+
+the axis normal to the plane of the triangle is equal to
+
+1 6
+
+M
+
+(3aa
+
++
+
+cc),
+
+then
+
+about
+
+the
+
+axis IF it is equal to :
+
+1 12
+
+M
+
+(3aa
+
++
+
+cc
+
+-
+
+(9a4 + 6aacc cos 2 + c4)),
+
+and about the axis IG
+
+=
+
+1 12
+
+M
+
+(3aa
+
++
+
+cc
+
++
+
+(9a4 + 6aacc cos 2 + c4 )),
+
+it is clear that this sum must be equal to the first sum.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 393
+
+SCHOLIUM
+483. Here it is worth noting, if the remaining sides of the triangle are put in place : AB = 2b, AD = 2d , as BD = 2c, then
+
+9aa = 2bb + 2dd - cc
+
+and
+
+cos 
+
+=
+
+dd -bb 3ac
+
+,
+
+( ) thus the irrational formula 9a2 + 6aacc cos 2 + c4 becomes :
+
+( ) 4 b4 + c4 + d 4 - bbcc - bbdd - ccdd .
+3
+
+Moreover this is not allowed to be defined in general, as either of the axis IF or IG
+
+may have a greater moment, as whenever this formula of the irrational part itself
+
+adopts a negative value, as is apparent from the case  = 90o , where the value of this
+
+[argument] 3aa ­ cc is negative, if cc > 3aa. Moreover in general these two moments
+
+of inertia cannot be equal to each other, because the irrational formula do not vanish,
+
+unless it is the case that 2 = 180o and 3aa = cc. But the judgement in any case for the
+
+angles used in agreement with each axis is easily put in place from the formula
+
+1 2
+
+Maa sin2 
+
++
+
+1 6
+
+Mcc sin2
+
+(
+
+-  ).
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 394
+
+PROBLEM 35
+484. If the body should be the thinnest sheet having the shape of the parallelogram BDbd (Fig. 54), to find the three principal axes of this, and the moments of inertia about these axes.
+SOLUTION
+With the two opposite sides BD and bd bisected at A and C and with the right line AC drawn, in the mid-point of this shall be the centre of inertia of the body I, and the mass of this is put equal to M. The sides are put :
+Bb = Dd = AC = 2a, BD = bd = 2b and the acute angle B = d =  , then the area = 4ab sin = M . Now one of the principal
+axis shall be normal to the plane of the lamina at I and the two remaining IF and IG placed in this plane itself ; in the finding of these some element dM is considered at Z, through which point in the first place there is drawn the right line MN parallel to the side BD, and let AP = t and PZ = u; then from Z with the perpendicular ZY sent to AC following problem 29 there is called IY = y and YZ = z. On account of APZ = then
+ZY = u sin et PY = u cos ,
+thus y = a - t + u cos and z = u sin ;
+while now dM = dtdu sin ; but in that calculation x = 0,
+in order that
+ xxdM = 0,  xydM = 0,  xzdM = 0.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 395
+
+Hence we have therefore :
+ yydM = B =  dt du sin (a - t + u cos )2 ,  zzdM = C =  dt uudu sin3 
+and
+ yzdM = F =  dt udu sin2  (a - t + u cos ) .
+The similar element Z' placed in the other part is combined with these, for which u is negative, and there arises :
+( ) B = 2 sin  dt du (a - t )2 + uu cos2  ,
+C = 2 sin3   dt uudu
+and
+F = 2 sin3  cos  dt uudu.
+With the first integration established, there is put in place u = b, and there is produced
+
+( ) B = 2 sin  dt du
+
+b
+
+(
+
+a
+
+-
+
+t
+
+)2
+
++
+
+1 3
+
+b3
+
+cos
+
+2
+
+
+
+,
+
+C
+
+=
+
+2 3
+
+b3
+
+sin3 
+
+
+
+dt
+
+and
+
+F
+
+=
+
+2 3
+
+b3
+
+sin3
+
+
+
+cos 
+
+
+
+dt.
+
+Finally, with the second integration performed, t = 2a is put in place, and there
+becomes
+( ) ( ) B = 4ab sin aa + bb cos2  = 1 M aa + bb cos2  , 3
+
+C = 4 ab3 sin3  = 1 Mbb sin3 
+
+3
+
+3
+
+and
+
+F = 4 ab3 sin3  cos = 1 Mbb sin cos .
+
+3
+
+3
+
+From these the moment of inertia is gathered about the first axis normal to the lamina
+
+at I :
+
+B + C = 1 M (aa+bb) ;
+3
+
+which therefore does not depend on obliquity, but only on the lengths. But for the
+
+remaining axes IF and IG on putting the angle AIF =  we find
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 396
+
+tang
+
+2
+
+=
+
+2F B-C
+
+=
+
+2bb sin cos aa+bb cos 2
+
+or
+
+tang
+
+2
+
+=
+
+bb sin 2 aa+bb cos 2
+
+,
+
+the two values of this [tangent function of] gives rise to each angle AIF and AIG.
+
+But the moment of inertia about these axes is
+
+B sin2  + C cos2  - 2F sin cos
+
+( ) =
+
+1 3
+
+M
+
+aa sin2  + bb cos2  sin2  + bb sin2  cos2  - 2bb sin cos sin cos
+
+=
+
+1 6
+
+M
+
+( aa
+
+- aa cos 2
+
++ bb - bb cos 2
+
+cos 2
+
+- bb sin 2
+
+sin 2 )
+
+and thus this moment of inertia therefore can be expressed:
+
+1 6
+
+M
+
+( aa
+
++ bb - aa cos 2
+
+- bb cos (2
+
+- 2 )).
+
+Since therefore there becomes :
+
+sin 2 =
+
+bb sin 2
+
+( ) a4 +2aabb cos 2 +b4
+
+and
+
+cos 2 =
+
+aa+bb cos 2
+
+,
+
+( ) a4 +2aabb cos 2 +b4
+
+that moment will be :
+
+( ) ( ) 1 M
+6
+
+aa + bb -
+
+a4 +2aabb cos 2 +b4
+
+,
+
+where the ambiguity of the sign of the root gives rise to the moments of inertia about
+
+both the axes IF and IG. Hence it is apparent that the sum of these two is equal to the
+
+first moment of inertia.
+
+COROLLARY 1
+485. If aa + bb cos 2 should have a positive value, with the positive root taken the angle 2 is less than a right angle and thus the angle AIF is less than half a right angle; and the moment of inertia about the axis IF is the minimum equal to
+( ) ( ) 1 M aa+bb- a4 +2aabb cos 2 +b4 ,
+6
+now about the axis IG it is the mean.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 397
+
+COROLLARY 2
+486. If aa + bb cos 2 should have a negative value and with the root for the axis IF
+taken positive, the angle 2 is greater than a right angle and thus the angle AIF is greater than a half right angle, and the moment of inertia about the axis IF is a minimum.
+
+COROLLARY 3
+487. If the diagonal Bd is drawn through the acute angles B and d, on account of
+
+there is found
+
+tang
+
+AIB
+
+=
+
+b sin a+b cos
+
+tang
+
+2
+
+BIF
+
+=
+
+2ab sin (aa-bb)
+a4 +2a3b cos  +2aabb cos 2 +2ab3
+
+cos 
+
++b4
+
+,
+
+thus it is apparent in the rhombus, where a = b, that both diagonals are to be principal axes, while in the rectangle the line AC is the principal axis.
+
+EXAMPLE 1
+
+488. If the parallelogram BbdD should be a rectangle, on account of  = 90o then
+
+tang 2 = 0 and thus either  = 0 or  = 90o; thus about the axis normal to the lamina
+
+at
+
+I
+
+the
+
+moment
+
+of inertia
+
+is
+
+equal
+
+to
+
+1M
+3
+
+(aa + bb) ;
+
+then
+
+truly
+
+the
+
+other
+
+principal
+
+axis
+
+is
+
+AC,
+
+about
+
+which
+
+the
+
+moment
+
+of
+
+inertia
+
+is
+
+equal
+
+to
+
+1 3
+
+Mbb
+
+;
+
+now
+
+the
+
+third
+
+principal
+
+axis is in the plane of the lamina normal to AC, about which the moment of inertia
+
+= 1 Maa with the sides present Bb = Dd = 2a and BD = bd = 2b.
+3
+
+EXAMPLE 2
+489. If the parallelogram BbdD should be a rhombus, so that b = a and the individual sides of this are equal to 2a, for the acute angles present  there is produced
+
+tang
+
+2
+
+=
+
+sin 2 1+cos 2
+
+= tang 
+
+and hence either  = 1  or  = 90o + 1  . Whereby about the first principal axis
+
+2
+
+2
+
+normal to the plane of the rhombus through I the moment of inertia is equal to 2 Maa ;
+3
+both the remaining axes are the diagonals Bd and Db, of which that moment of inertia about Bd is equal to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 398
+
+1 3
+
+Maa
+
+(1-
+
+cos 
+
+)
+
+=
+
+2 3
+
+Maa
+
+sin2
+
+1 2
+
+
+
+,
+
+now about the other diagonal Db it is equal to
+
+1 3
+
+Maa (1+
+
+cos 
+
+)
+
+=
+
+2 3
+
+Maa
+
+cos2
+
+1 2
+
+
+
+.
+
+COROLLARY 4
+
+490. Therefore if the parallelogram becomes a square, the side of which is equal to 2a,
+
+all the lines drawn through the centre I in its plane are able to be taken as principal
+
+axes,
+
+and
+
+the
+
+moment
+
+of
+
+inertia
+
+about
+
+these
+
+is
+
+equal
+
+to
+
+1 3
+
+Maa
+
+,
+
+but
+
+about
+
+the
+
+axis
+
+normal
+
+to
+
+the
+
+square
+
+at
+
+I
+
+the
+
+moment
+
+of
+
+inertia
+
+is
+
+twice
+
+as
+
+large
+
+and
+
+equals
+
+2 3
+
+Maa
+
+.
+
+PROBLEM 36
+491. If the body should be the thinnest sheet formed in the shape of a circle (Fig. 52), to find the three principal axes of this shape, and the moments of inertia about these axes.
+SOLUTION
+Let the radius of the circle be equal to a, the area shall be equal to  aa , to which the mass M refers; and since one of the principal axes shall be normal to the plane of the circle at the centre I, there is put in place for some element dM at Z the coordinates IP = y, PZ = z, on account of dM = dydz , then
+
+ yydM =  dy yydz =  dy  yyz =  yydy =  yydy (aa - yy)
+
+on putting z = (aa - yy) . But this integral is reduced to this form
+
+
+
+yydM
+
+=
+
+1 8
+
+a4 
+
+dy
+(aa- yy)
+
+-
+
+1 8
+
+y (aa
+
+-
+
+2 yy)
+
+(aa - yy) ,
+
+that is taken four times, and on putting y = a, this gives
+
+B
+
+=
+
+ 4
+
+a4
+
+=
+
+1 4
+
+Maa.
+
+Now in a similar manner there arises
+
+
+
+zzdM
+
+=
+
+C
+
+=
+
+1 4
+
+Maa.
+
+Then  yzdM , if an element is taken with a similar one from another part of the
+
+diameter, is reduced to zero, thus so that it becomes
+
+ yzdM = F = 0.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 399
+
+Hence, since
+
+B
+
+-
+
+C
+
+=
+
+0,
+
+there
+
+arises
+
+tang
+
+2
+
+=
+
+0 0
+
+and
+
+thus
+
+the
+
+angle
+
+is indeterminate,
+
+from which we understand, which is clear by itself, that all the diameters can be taken
+
+for principal axes, about which the moment of inertia = 1 Maa . But about the first
+4
+
+axis normal to the plane of the circle through I the moment of inertia B + C = 1 Maa.
+2
+
+SCHOLIUM
+
+492. Since here the element of mass dM must equal dydz, it is to be noted that this
+
+always remains positive, even if y or z is taken negative, in which case also the
+
+differentials otherwise become negative. Therefore in this calculation rightly it must
+
+be advised, that when negative coordinates are taken, lest the expression of the
+
+element of the mass dM is brought into the calculation as negative. From which it may
+
+be agreed for the individual regions, where the coordinates are affected with contrary
+
+signs, that a separate calculation is put in place. Moreover the same value
+
+B
+
+=
+
+
+
+yydM
+
+=
+
+1 a4
+4
+
+is elicited, if there is put in place IZ = r and the angle AIZ =  , for then
+
+dM = rdrd
+
+and
+
+y = r cos ,
+
+hence
+
+yydM = r3drd cos2  ,
+
+which following the variable r on integrating and putting r = a gives 1 a4d cos2  ,
+4
+
+the integral of this
+
+on account of cos2  = 1 + 1 cos 2
+22
+
+is produced :
+
+( ) 1
+4
+
+a4
+
+1  + 1 sin 2
+24
+
+.
+
+Now there is put in place  = 2 , on account of sin 4 = 0 there is produced 1  a2 as
+4
+before, from which it is apparent that the above caution is in agreement with the rule of continuity.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 400
+
+PROBLEM 37
+
+493. If the body should be a lamina of the thinnest sheet having some shape ABCD (Fig. 55), to define the principal axis of this and the moments of inertia about these axes.
+
+SOLUTION
+
+Let I be the centre of inertia of the
+
+figure, and it is evident that the line
+
+normal to plane of the figure at I is one
+
+principal axis; then in the plane itself on
+
+taking the two directions AB and CD
+
+normal to each other for some element
+
+dM at Z the is put the coordinates IP = y
+
+and PZ = z, then dM = dydz and hence
+
+ yydM =  dy yydz =  dy  yyz.
+
+Hence on putting z = PM, there is
+
+produced  yydM =  PM  yyz,
+
+the value of this for the individual regions AIC, AID, BIC and BID must be elicited,
+
+and the sum of these shall be equal to B, so that
+
+B =  IP2  MN  d .IP +  IQ2    d .IQ.
+
+Then
+
+
+
+zzdM
+
+=
+
+ dy
+
+zzdz
+
+=
+
+1 3
+
+
+
+PM
+
+3
+
+ dy,
+
+thus so that
+
+( ) ( ) C
+
+=
+
+1 3
+
+
+
+PM 3 + PN 3
+
+d
+
+.IP
+
++
+
+1 3
+
+
+
+Q3 + Q 3
+
+d .IQ.
+
+Again it is the case that
+
+
+
+yzdM
+
+=
+
+ dy
+
+yzdz
+
+=
+
+1 2
+
+
+
+yzzdy
+
+=
+
+1 2
+
+
+
+PM
+
+2y
+
+ dy,
+
+the value of this in the regions AID and BIC is negative, in BID truly positive, thus
+
+there is obtained :
+
+( ) ( ) F
+
+=
+
+1 2
+
+
+
+IP
+
+PM 2 - PN 2
+
+d
+
+.IP
+
+-
+
+1 2
+
+
+
+IQ
+
+Q 2 - Q 2
+
+d .IQ.
+
+But now the whole mass M is then
+
+M =  MN d .IP +   d .IQ.
+
+From these values found the moment of inertia about the axis at I normal to the plane
+
+equal to B + C, then the two remaining principal axes shall be FIf and GIg, and on putting the angle AIF =  we find :
+
+tang
+
+2
+
+=
+
+2F B-C
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 401
+
+and the moment of inertia about the axis FIf = B sin2  + C cos2  - 2F sin cos
+
+Now on account of
+
+=
+
+1 2
+
+B
+
++
+
+1 2
+
+C
+
+-
+
+1 2
+
+(
+
+B
+
+-
+
+C)
+
+cos
+
+2
+
+-
+
+F
+
+sin
+
+2.
+
+sin 2 =
+
+2F
+
+( ) (B-C)2 +4FF
+
+and
+
+cos 2 =
+
+B-C
+
+( ) (B-C)2 +4FF
+
+the moment of inertia about the axis FIf is obtained :
+
+( ) about FIf = 1 ( B - C ) - 1 ( B - C )2 + 4FF
+
+2
+
+2
+
+and
+
+( ) about GIg = 1 ( B + C ) + 1 ( B - C )2 + 4FF .
+
+2
+
+2
+
+COROLLARY 1
+494. Therefore the moments of inertia about the axis Ff and Gg taken together are equal to the moment of inertia of the first principal axis, which is normal to the lamina at the point I.
+COROLLARY 2
+495. If the right line AB were a diameter of the figure, so that PM = PN, the value of the letter F vanishes, that which also comes about, if the right line CD were a diameter, so that on taking IQ = IP then Q = PM . But as often as F = 0, so on account of tang 2 = 0 , the lines AB and CD are themselves the principal axes.
+COROLLARY 3
+496. In this case, in which F = 0 and both AB and CD are principal axes, the moment of inertia about the axis Ff = C and about the axis CD = B, which if the above were equal, on account of tang 2 = 0 all the right lines drawn through I have equal
+0
+moments of inertia equal to B = C.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 402
+
+COROLLARY 4
+497. If in addition to the diameter AB there may be found other right lines drawn through I, about which the moment of inertia is equal to that, then all the right lines drawn through I in the plane enjoy the same property, and have equal moments of inertia.
+
+PROBLEM 38
+
+498. If the lamina should be a lamina of the thinnest sheet formed in the shape of a regular polygon (Fig. 56), to find the principal axes of this and the moments of inertia about these axes.
+
+SOLUTION
+
+The centre of inertia of such a
+
+regular polygon is in the middle of the
+
+circumscribed circle I, the radius of this
+
+is put as IA = a and the number of sides
+
+is equal to n. Hence the angle
+
+AIB
+
+=
+
+2 n
+
+,and
+
+with
+
+this
+
+bisected
+
+by
+
+the
+
+line
+
+IG
+
+the
+
+angle
+
+AIG
+
+=
+
+2 n
+
+and
+
+AB
+
+=
+
+2a
+
+sin
+
+ n
+
+and
+
+IG
+
+=
+
+2a
+
+cos
+
+ n
+
+;
+
+whereby the area of the triangle AIB
+
+aa
+
+sin
+
+ n
+
+cos
+
+ n
+
+=
+
+1 2
+
+aa
+
+sin
+
+2 n
+
+,
+
+and the whole area of the polygon
+
+=
+
+n 2
+
+aa
+
+sin
+
+2 n
+
+,
+
+bearing in turn the masses M . Now in the first place I note that all the lines in the
+
+plane of the lamina drawn through I (§497) shall have equal moments of inertia, of
+
+which two taken together make the moment about the axis normal to the plane through
+
+I. Now this moment can be gathered from the above. For the triangle AIB is
+
+considered, the mass of this is put equal to m and the centre of inertia at i, so that it
+
+becomes
+
+Gi
+
+=
+
+1 3
+
+cos
+
+ n
+
+and
+
+Ii
+
+=
+
+2 3
+
+cos
+
+ n
+
+with
+
+AG
+
+=
+
+a
+
+sin
+
+ n
+
+. Therefore since this triangle is isosceles, by § 481 the moment of
+
+inertia of this about the axis through i normal to the plane of the triangle
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 403
+
+( ) = 1 m Gi2 + 1 m  AG2
+
+2
+
+6
+
+=m
+
+1 18
+
+aa
+
+cos2
+
+ n
+
++
+
+1 6
+
+aa
+
+sin2
+
+ n
+
+and hence about the axis normal to the same plane at I
+
+( ) ( ) = m
+
+1 18
+
+aa
+
+cos2
+
+ n
+
++
+
+1 6
+
+aa
+
+sin2
+
+ n
+
++
+
+4 9
+
+aa
+
+cos2
+
+ n
+
+= maa
+
+1 2
+
+cos2
+
+ n
+
++
+
+1 6
+
+sin2
+
+ n
+
+,
+
+which multiplied by n on account of mn = M gives the whole moment of the polygon
+
+about the axis of the normal at I
+
+( ) ( ) = Maa
+
+1 2
+
+cos2
+
+ n
+
++
+
+1 6
+
+sin2
+
+ n
+
+=
+
+1 Maa
+3
+
+1
+
++
+
+1 2
+
+cos
+
+2 n
+
+.
+
+Now about each axis in the plane of the lamina drawn through the point I the moment
+
+of inertia will be
+
+( ) =
+
+1 Maa
+6
+
+1
+
++
+
+1 2
+
+cos
+
+2 n
+
+clearly less than that by a factor of two.
+
+COROLLARY 1
+
+499. If besides on placing the side of the polygon AB = c, in order that
+
+c
+
+=
+
+2a
+
+sin
+
+ n
+
+,
+
+on
+
+account
+
+of
+
+a
+
+=
+
+c
+
+2
+
+sin
+
+ n
+
+the
+
+moment
+
+of inertia
+
+about
+
+the
+
+principal
+
+axis
+
+normal to the plane at I
+
+( ) = Mcc
+
+12
+
+sin2
+
+2 n
+
+1+
+
+1 2
+
+cos
+
+2 n
+
+=
+
+1 12
+
+Mcc
+
+
+
+2+cos 1-cos
+
+2 n
+2 n
+
+,
+
+now of the remaining about the principal axes is half as great.
+
+COROLLARY 2
+
+500. If besides the radius of the circumscribed circle IA = a the side of the polygon is
+
+introduced AB = c, on account of
+
+sin
+
+ n
+
+=
+
+c 2a
+
+and
+
+cos
+
+2 n
+
+= 1- cc
+2aa
+
+,
+
+then the moment of inertia about the normal through I
+
+( ) =
+
+1 Maa
+3
+
+1+
+
+1 2
+
+-
+
+cc 4aa
+
+=
+
+1 12
+
+(6aa
+
+-
+
+cc
+
+)
+
+,
+
+now about the axes in the plane of the polygon itself drawn through I half as great.
+
+minus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 404
+
+PROBLEM 39
+
+501. If the body were a right cylinder (Fig. 57), the axis of which Aa = 2a and the radius of the base AB = AD = c, to find the principal axes of this, and to define the moments of inertia about these axes.
+
+SOLUTION
+
+Since the area of the
+
+base shall be equal to  cc , the volume of the
+
+cylinder or the mass shall be equal to 2 acc = M.
+
+Moreover on the axis the
+
+middle point I will be the
+
+centre of inertia of this, in
+
+order that AI = Ia = a; but
+
+clearly here the axis Aa is
+
+one of the principal axes,
+
+through which on taking some plane BDbd, for some element of the mass dM placed
+
+at Z , there are the coordinates IX = x, XY = y, YZ = z, in order that dM = dxdydz.
+
+Hence the following values are gathered together:
+
+1st
+
+ xxdM =  xxdxdydz,
+
+where in the first case on taking x and y constant and putting in place after the
+
+integration : z = (cc - yy) , there is obtained :
+
+z =  xxdx dy (cc - yy) ,
+
+but  dy (cc - yy) gives the area of the section made through X equal to cc , so that
+
+there is obtained
+
+ cc xxdx,
+
+the integral of this extended to a as well as A produces 2  cca3 , so that
+3
+
+
+
+xxdM
+
+=
+
+A
+
+=
+
+1 3
+
+Maa.
+
+2 nd
+
+ yydM =  yydxdydz =  dx yydy (cc - yy) ,
+
+but on putting y = c , there is obtained for the whole cylinder
+
+ yydy
+
+(cc
+
+-
+
+yy )
+
+=
+
+1 16
+
+ c4
+
+,
+
+which must be taken four times, so that the integral becomes :
+
+
+
+yydM
+
+=
+
+1 4
+
+
+
+c4
+
+
+
+dx,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 405
+
+and hence there is obtained for the whole cylinder :
+
+
+
+yydM
+
+=
+
+2 4
+
+
+
+c4a
+
+=
+
+1 4
+
+Mcc
+
+=
+
+B.
+
+3rd
+
+ zzdM =  zzdxdydz,
+
+where, if initially x and z are taken as constants, on putting y = (cc - zz ) there is had
+
+ dx zzdz (cc - zz) ,
+
+and the value of this is gathered as before :
+
+
+
+zzdM
+
+=
+
+1 4
+
+Mcc
+
+=C
+
+=
+
+B.
+
+4th  yzdM , if likewise the element dM below the plane BDbd is taken together with
+
+that, it results in zero, thus so that there is produced :
+
+ yzdM = F = 0.
+
+With these in place with respect to the axis Aa, the moment of inertia will be
+
+equal to B + C = 1 Mcc; now for the two remaining axis normal to that there occurs :
+2
+
+tang
+
+2
+
+=
+
+2F B-C
+
+=
+
+0 0
+
+,
+
+thus in order that all the diameters of the section normal to Aa at I can be considered
+
+as principal axes, around all of which the moment of inertia will be equal to
+
+( ) A + B = M 1 aa + 1 cc .
+
+3
+
+4
+
+COROLLARY 1
+502. If some other axis is taken passing through I, which makes an angle equal to
+with the axis Aa, the moment of inertia about this axis will be equal to
+
+( B + C ) cos2  + ( A + B) sin2 
+
+( ) = M
+
+1 2
+
+cc
+
+cos2
+
+
+
++
+
+1 3
+
+aa
+
+sin2
+
+
+
++
+
+1 4
+
+cc sin2 
+
+( ) = M 1 aa sin2  + 1 cc - 1 cc sin2  .
+
+3
+
+24
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 406
+
+COROLLARY 2
+
+503. It can happen, that all the moments of inertia about the right lines drawn through I become equal to each other, which eventuates, if it should be that
+
+1 3
+
+aa
+
+=
+
+1 4
+
+cc
+
+or
+
+a
+
+=
+
+c3 2
+
+and thus
+
+c=
+2a
+
+1 3
+
+and the angle AaB = 30o , or the triangle BaD
+
+is equilateral, in which case the individual moments are equal to
+
+1 2
+
+Mcc
+
+=
+
+1 8
+
+M
+
+
+
+BD2
+
+.
+
+PROBLEM 40
+
+504. If the body were a right cone (Fig. 58), the vertex of this A, the altitude AC = a and the radius of the base CB = CD = c, to find the principal axes of this, and the moments of inertia about these axes.
+
+SOLUTION
+
+Since the area of the basis shall be equal to cc,the volume and the same mass of this
+
+will be equal to M = 1  acc; then the centre of
+3
+
+inertia I thus is placed on the axis, so that
+
+CI
+
+=
+
+1 4
+
+a
+
+and
+
+AI
+
+=
+
+3 4
+
+a.
+
+Now
+
+some
+
+element
+
+dM
+
+is taken at Z, for which the coordinates are : IX
+
+= x, XY = y and YZ = z, then dM = dxdydz.
+
+Putting AX = t, then
+
+XM
+
+=
+
+ct a
+
+and
+
+x
+
+=
+
+3 4
+
+a
+
+- t,now
+
+with
+
+nothing
+
+less taken, it must be that dM = dxdydz.
+
+Therefore the following formula are generated :
+
+1st
+
+
+
+xxdM
+
+=
+
+A
+
+=
+
+(
+
+3 4
+
+a
+
+-t)
+
+xxdtdydz ,
+
+where initially t and y are taken as constants and putting in place :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 407
+
+( ) z =
+
+cctt aa
+
+-
+
+yy
+
+there is obtained :
+
+( ) ( ) 
+
+3 4a
+
+-t
+
+2
+dt dy
+
+cctt aa
+
+-
+
+yy
+
+;
+
+where for the whole section X becomes :
+
+( )  dy
+
+cctt - yy =  cctt ,
+
+aa
+
+aa
+
+thus so that the integration remains :
+
+Put t = a and there becomes
+
+( ) ( ) cc
+aa
+
+
+
+ttdt
+
+3 a -t 4
+
+2 =  cc
+aa
+
+3 aat3 - 3 at4 + 1 t5
+
+16
+
+8
+
+5
+
+.
+
+A
+
+=
+
+1 80
+
+
+
+cca3
+
+=
+
+3 80
+
+Ma2
+
+.
+
+2 nd
+
+( )  yydM = B =  yydtdydz = dt yydy
+
+cctt aa
+
+-
+
+yy
+
+by the first integration. But with t remaining constant up to this stage,
+
+( )  yydy
+
+cctt aa
+
+-
+
+yy
+
+,
+
+on putting
+
+y
+
+=
+
+ct a
+
+and
+
+taken
+
+four
+
+times
+
+is
+
+equal
+
+to
+
+1 4
+
+
+
+c2t2 a4
+
+,
+
+as even now there must be integrated
+
+
+
+1
+4
+
+
+
+c4t4 a4
+
+dt ,
+
+hence on putting t = a for the whole cone, this becomes
+
+B
+
+=
+
+1 20
+
+ ac4
+
+=
+
+3 20
+
+Mcc.
+
+3rd
+
+ zzdM = C
+
+in a like manner gives
+
+C = 3 Mcc = B,
+20
+
+but
+
+ yzdM = F
+
+clearly vanishes as before.
+
+Therefore since AC is one principal axis, about this axis the moment of inertia is
+
+equal to
+
+B
+
++
+
+C
+
+=
+
+3 10
+
+Mcc.
+
+The remaining principal axes are all the diameters of the section normal to the axis at
+
+I, about which the moment of inertia is equal to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 408
+
+A
+
++
+
+B
+
+=
+
+3 80
+
+M
+
+( aa
+
++
+
+4cc)
+
+.
+
+COROLLARY
+505. In the case, in which aa + 4cc = 8cc or a = 2c, that is AC = BD, all the right lines drawn through I enjoy the property of being a principal axis, about which the moment
+of inertia is equal to 3 Mcc .
+10
+
+PROBLEM 41
+
+506. If the body were a sphere made from some homogeneous material (Fig. 59), the centre of this I and the radius IA = a, to define the moment of inertia of this about some axis passing through the centre of this.
+
+SOLUTION
+
+On account of the radius IA = a the area of the great circles is equal to aa and the surface of the sphere is equal to 4 aa , hence the volume
+
+of
+
+this
+
+or
+
+the
+
+mass
+
+M
+
+=
+
+4 3
+
+
+
+a3
+
+.Now
+
+on
+
+putting
+
+the coordinates for some element dM at Z : IX = x, XY = y and YZ = z, the moment of
+
+inertia about the axis AC is equal to
+ dM ( yy + zz).
+
+There is put XZ = r and YXZ =  , then
+
+y = r cos , z = r sin
+
+and dM = rdrddx,
+
+thus
+
+ rrdM =  r3drddx = 2  r3drdx on account of  d = 2 ; now on taking r for the variable and on putting
+r = XM = (aa - xx).
+
+we have
+
+( ) 1 
+2
+
+
+
+dx (aa
+
+-
+
+xx )2
+
+=
+
+1 2
+
+
+
+a4
+
+x
+
+-
+
+2 3
+
+aax3
+
++
+
+1 5
+
+x5
+
+.
+
+x = a is put in place for either hemisphere, and twice this expression gives the
+
+moment of inertia sought:
+
+  8 a5 = 2 Maa.
+
+15
+
+5
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 409
+
+PROBLEM 42
+
+507. If the body were some a
+
+conoid of some kind generated by
+
+revolving the line AMB about the
+
+axis AC (Fig. 60), to find the
+
+principal axes of this and the
+
+moments of inertia about these
+
+axes.
+
+SOLUTION
+
+Let AC = a and for the curve AX = t and XM = u, thus in order that the equation is given between t and u; let the volume or mass
+
+M =   uudt
+
+on putting t = a after integrating. Then the centre of inertia is now at I, in order that
+
+AI
+
+=
+
+ tuudt  uudt
+
+.
+
+Hence for brevity put AI = f, in order that the equation becomes:
+
+ tuudt = f  uudt,
+
+now AC is one of the principal axes. Now for the element dM placed at Z the coordinates will be IX = x = f ­ t, XY = y and YZ = z, and putting XZ = r, the angle YXZ =  , then
+
+dM = rdrddx,
+
+y = r cos , z = r sin
+
+Now the following formulas are considered :
+
+1st
+
+ xxdM =  ( f - t )2 rdrdtd = 2  ( f - t )2 rdrdt
+
+as  d = 2 . At this stage t is constant, and by putting r = XM = u there arises
+
+ xxdM =   ( f - t )2 uudt = A
+
+and thus
+
+A =  ff  uudt - 2 f  tuudt +   ttuudt
+
+( ) = - ff  uudt +   ttuudt
+
+=M
+
+- ff
+
++
+
+ ttuudt  uudt
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 410
+
+2 nd
+
+ yydM =  r3drdtd cos2  =   r3drdt
+
+on account of
+
+( )  d cos2  =  d
+
+1 2
+
++
+
+1 2
+
+cos
+
+2
+
+=
+
+1 2
+
+
+
++
+
+1 4
+
+sin
+
+2 ,
+
+which on putting  = 2 becomes  . Again there is produced
+
+on putting r = u, thus in order that
+
+ 4
+
+
+
+u4dt
+
+
+
+yydM
+
+=
+
+B
+
+=
+
+ 4
+
+ u4dt
+
+=
+
+M  u4dt 4 uudt
+
+,
+
+to this also there is made equal
+
+ zzdM = C.
+
+But
+ yzdM = F
+
+vanishes. From these derivations there is produced the moment of inertia about the axis AC
+
+=
+
+B+C
+
+=
+
+M  u4dt 2 uudt
+
+,
+
+putting t = a after the integration, then in the section normal to AC at I, all the
+
+diameters support the position of a principal axis and the moment of inertia about
+
+these is equal to
+
+A+
+
+B
+
+=
+
+M
+
+ -
+
+ff
+
++
+
+4 ttuudt +  u4dt 4 uudt
+
+
+
+=
+
+M
+
+ 
+
+ uudt(4tt +uu)
+4 uudt
+
+-
+
+ff
+
+ 
+
+.
+
+EXAMPLE 1
+
+508. Let the body be a hemisphere or AMB the quadrant of a circle of radius CA = CB = a; then uu = 2at - tt, hence
+
+ uudt
+
+=
+
+att
+
+-
+
+1 3
+
+t3
+
+=
+
+2 3
+
+a3
+
+putting t = a; again
+
+hence
+
+
+
+tuudt
+
+=
+
+2 3
+
+t3
+
+-
+
+1 4
+
+t4
+
+=
+
+5 12
+
+a4
+
+,
+
+f
+
+=
+
+AI
+
+=
+
+5 8
+
+a
+
+et
+
+CI
+
+=
+
+3 8
+
+a.
+
+Whereby the moment of inertia about the axis AC is equal to
+
+M 8a5 3 154a3
+
+=
+
+2 5
+
+Maa
+
+and about any other axis normal to that at I, it is equal to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 411
+
+( ) M - 25 aa + 13 aa = 83 Maa,
+
+64
+
+20
+
+320
+
+thus in order that moment shall be to this moment as 128 to 83.
+
+EXAMPLE 2
+
+509. Let the body be a truncated
+
+cone (Fig. 61), the axis of this AC
+
+= a, the radius of one be BC = c,
+
+of the other AD = b, and then
+
+u
+
+=
+
+b
+
++
+
+(c
+
+-b)t
+a
+
+and
+
+uu
+
+=
+
+bb
+
++
+
+2(c-b)t
+a
+
++
+
+(c-b)2 tt
+aa
+
+,
+
+thus
+
+for the centre of inertia I to be
+
+found there is
+
+ uudt
+
+= bbt
+
++
+
+(c-b)tt
+a
+
++
+
+(c-b)2 t3
+3aaa
+
+=
+
+1 3
+
+a
+
+(
+
+bb
+
++
+
+bc
+
++
+
+cc
+
+)
+
+and thus the volume or mass is given by :
+
+M
+
+=
+
+1 3
+
+
+
+a
+
+(bb
+
++
+
+bc
+
++
+
+cc
+
+)
+
+,
+
+then
+
+ tuudt
+
+=
+
+1 bbt
+2
+
++
+
+2(c-b )tt
+3a
+
++
+
+(c-b)2 t4
+4aa
+
+=
+
+1 12
+
+aa
+
+(
+
+bb
+
++
+
+2bc + 3cc ) ,
+
+thus the length arises
+
+AI
+
+=
+
+f
+
+=
+
+a(bb + 2bc +3cc ) 4(bb +bc + cc )
+
+A CI
+
+=
+
+a(cc+ 4(bb
+
+2bc + 3bb
++bc + cc )
+
+)
+
+.
+
+Again on account of
+
+u4
+
+=
+
+b4
+
++
+
+4b3 (c-b)t
+a
+
++
+
+6bb(c-b)2 tt
+aa
+
++
+
+4b(c-b)3 t3
+a3
+
++
+
+(c-b)4 t4
+a4
+
+there will be
+
+ u4dt
+
+=
+
+b4t
+
++
+
+2b3 (c-b)tt
+a
+
++
+
+2bb(c-b)2 t3
+aa
+
++
+
+b(c-b)3 t4
+a3
+
++
+
+(c-b)4 t5
+5a4
+
+and on making t = a
+
+( ) 
+
+u4dt
+
+=
+
+1 5
+
+a
+
+b4 + b3c + bbcc + bc3 + c4
+
+,
+
+and then
+
+ ttuudt
+
+=
+
+1 bbt3
+3
+
++
+
+b( c -b )t 4
+2a
+
++
+
+(c-b)2 t5
+5aa
+
+=
+
+1 30
+
+a3 (bb + 3bc + 6cc) .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 412
+
+From these it is gathered that the moment of inertia about the axis AC is given by :
+
+3M
+10
+
+b4 +b3c+bbcc+bc3 +c4 bb + bc + cc
+
+= 3M
+10
+
+b5 b3
+
+-c5 -c3
+
+;
+
+but about the axis of the normal to AC at I , the moment of inertia becomes
+
+3 20
+
+M
+
+b4 +b3c+bbcc+bc3 +c4 bb + bc + cc
+
++
+
+1 80
+
+Maa
+
+  
+
+8( bb + 3bc + 6cc
+bb + bc + cc
+
+)
+
+-
+
+5( bb + 2bc + 3cc )2 ( bb + bc + cc )2
+
+ , 
+
+which is reduced to this form:
+
+3 20
+
+M
+
+
+
+b4 +b3c+bbcc+bc3 +c4 bb + bc + cc
+
++
+
+3 80
+
+Maa
+
+(b+c)4 +4bbcc ( bb + bc + cc )2
+
+.
+
+COROLLARY 1
+
+510. If b = c, the case of the cylinder is produced, in which there is made
+
+AI
+
+=f
+
+=
+
+1 2
+
+a,
+
+the
+
+moment
+
+of
+
+inertia
+
+about
+
+the
+
+axis
+
+AC
+
+=
+
+1 2
+
+Mcc
+
+and
+
+the
+
+moment
+
+of
+
+inertia
+
+about
+
+that
+
+axis
+
+of
+
+the
+
+normal
+
+at
+
+I
+
+is
+
+equal
+
+to
+
+1 4
+
+Mcc
+
++
+
+1 12
+
+Maa.
+
+COROLLARY 2
+
+511. If b = 0, the case of the right cone is produced, in which there is made
+
+AI
+
+=f
+
+=
+
+3 4
+
+a;
+
+the
+
+moment
+
+of
+
+inertia
+
+about
+
+the
+
+axis
+
+AC
+
+=
+
+3 10
+
+Mcc
+
+and
+
+the
+
+moment
+
+of
+
+inertia about that axis of the normal at I is equal to
+
+3 20
+
+Mcc
+
++
+
+3 80
+
+Maa
+
+,
+
+as above.
+
+COROLLARY 3
+512. In order that all the moments of inertia about the axes drawn through I may become equal, it must be that :
+
+( ) 4 b4 + b3c + bbcc + bc3 + c4
+
+=
+
+aa
+
+
+
+(b+c)4 +4bbcc
+bb + bc + cc
+
+and thus for the given bases of the truncated cone the height AC = a thus has to be defined, in order that it becomes
+
+( ) 4(bb+bc+cc) b4 +b3c+bbcc+bc3 +c4
+
+aa =
+
+(b+c)4 +4bbcc
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 413
+
+EXAMPLE 3
+
+508. Let the body be an
+
+elliptical spheroid arising from
+
+the rotation of the semi ellipse
+
+AEB about the axis AB (Fig.
+
+62), therefore at the middle of
+
+this is the centre of inertia I.
+
+Putting the semi axis AI = IB =
+
+a and joining IE = c; then there
+
+arises
+
+uu
+
+=
+
+cc aa
+
+( 2at
+
+- tt ) and
+
+in
+
+the integration it is required to put t = 2a.
+
+[Thus,
+
+x = t - a = IX
+
+and y = u = MX
+
+for the ellipse
+
+(t -a )2
+a2
+
++ u2
+c2
+
+= 1.] Hence we obtain:
+
+( ) uudt
+
+=
+
+cc aa
+
+att
+
+-
+
+1 3
+
+t
+
+3
+
+=
+
+4 3
+
+acc,
+
+and thus the mass
+
+M
+
+=
+
+4 3
+
+
+
+acc,
+
+then
+
+( ) 
+
+tuudt
+
+=
+
+cc aa
+
+2 3
+
+at
+
+3
+
+-
+
+1 4
+
+t
+
+4
+
+=
+
+4 3
+
+aacc,
+
+hence AI = f = a, again
+
+( ) 
+
+ttuudt
+
+=
+
+cc aa
+
+1 2
+
+at 4
+
+-
+
+1 5
+
+t5
+
+=
+
+8 5
+
+a3cc
+
+and as
+
+( ) u4
+
+=
+
+c4 a4
+
+4aatt - 4at3 + t4
+
+then
+
+( ) u4dt
+
+=
+
+c4 a4
+
+4 3
+
+aat3
+
+-
+
+at
+
+4
+
++
+
+1 5
+
+t5
+
+=
+
+16 15
+
+ac4
+
+.
+
+From these it is gathered that the moment of inertia about the axis AB =
+
+2 5
+
+Mcc
+
+,
+
+but
+
+about the axis normal to AB at I =
+
+1 5
+
+M
+
+(aa + cc) .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 414
+
+EXAMPLE 4
+
+514. If the body shall be a lens composed from two
+
+equals spherical segments (Fig. 63) or arising from the
+
+rotation of the figure AEB, formed from two equal semi
+
+segments AIE and BIE of a circle, about the axis AB,
+
+therefore the centre of inertia will be at the midpoint I.
+
+Putting the semi axis AI = BI = a and IE = IF = b, then
+
+the diameter of the circle is equal to
+
+aa
+
++bb a
+
+,
+
+that
+
+for
+
+the
+
+time
+
+being
+
+we
+
+put
+
+equal
+
+to
+
+2c,
+
+so
+
+that
+
+c
+
+=
+
+aa + bb 2a
+
+.
+
+Whereby there arises uu = 2ct - tt,and in the above
+
+integrations it is required to put t = a, with which done
+
+these must be doubled, unless since [cf. Fig. 60] AI = f
+
+, each = a, and thus
+
+Hence we find and and
+
+( ) A = M
+
+aa
+
++
+
+-2a 
+
+tuudt +  uudt
+
+ttuudt
+
+.
+
+
+
+tuudt
+
+=
+
+2 3
+
+a3c
+
+-
+
+1 4
+
+a4
+
+,
+
+
+
+uudt
+
+=aac
+
+-
+
+1 3
+
+a3
+
+( ) M = 2 aac - 1 a3 3
+
+
+
+ttuudt
+
+=
+
+1 2
+
+a4c
+
+-
+
+1 5
+
+a5
+
+
+
+u
+
+4 dt =
+
+4 3
+
+a3cc
+
+-
+
+a
+
+4c
+
++
+
+1 5
+
+a5
+
+.
+
+From these the moment of inertia about the axis AB is gathered :
+
+=
+
+1 10
+
+M
+
+
+
+20acc
+
+-15aac + 3a 2 3c - a
+
+=
+
+1 10
+
+M
+
+
+
+a4
+
++ 5aabb +10b4 aa + 3bb
+
+,
+
+but about the axis EF normal to AB at I :
+
+1 20
+
+M
+
+
+
+a3 -5aac+20acc 3c - a
+
+=
+
+1 20
+
+M
+
+
+
+7a4 +15aabb+10b4 aa + 3bb
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 415
+
+PROBLEM 42a
+
+515. If the body were a rectangular parallelepiped (Fig. 64), the find the principal axes of this and the moments of inertia about these.
+
+SOLUTION
+
+Let BDbd be the
+
+rectangular base of the
+
+parallelepiped, the sides of this shall be Bb = 2a, BD = 2b, now with the height = 2c,
+
+and it is clear that the mid-
+
+point of the parallelepiped is
+
+the centre of inertia of this and the principal axes are the three straight lines through
+
+this point parallel to the sides. Hence the moment of inertia is sought about the axis parallel to the height, which stands perpendicularly to the base at the middle point G.
+
+This rectangle BDbd is considered, as a section parallel to the base being distant from the centre of inertia by an interval = x and putting GY = y and YZ = z, then dxdydz is
+
+an element of the volume or of the mass dM, thus it becomes M = 8abc. Now we then
+
+have
+
+ xxdM =  xxdxdydz
+
+and on bang integrated twice by the variables y and z and on putting y = a and z = b
+
+the integrals are doubled, so that they extend through the whole section, then the
+
+integration becomes :
+
+
+
+xxdM
+
+=
+
+4ab
+
+xxdx
+
+=
+
+4 3
+
+abx3;
+
+now on putting x = c and doubling then for the whole parallelepiped
+
+
+
+xxdM
+
+=
+
+A=
+
+8 3
+
+abc3
+
+=
+
+1 3
+
+Mcc;
+
+and in a like manner, there will be
+
+
+
+yydM
+
+=
+
+B
+
+=
+
+1 3
+
+Maa;
+
+and
+
+
+
+zzdM
+
+=
+
+c
+
+=
+
+1 3
+
+Mbb
+
+and
+
+ yzdM = F = 0.
+
+From these it inferred that the moment of inertia about the principal axis parallel to the
+
+height or perpendicular to the base BDbd is equal to
+
+B
+
++
+
+C
+
+=
+
+1 3
+
+M
+
+( aa
+
++
+
+bb)
+
+,
+
+then the moment of inertia about the axis parallel to the side Bb
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 416
+
+=
+
+1 3
+
+M
+
+(bb
+
++
+
+cc)
+
+and about the axis parallel to the side BD
+
+= 1 M (aa + cc) . 3
+
+COROLLARIUM 1
+
+516. Therefore if ABCDabce were such a rectangular parallelepiped (Fig. 65), the
+
+mass of this shall equal M, the principal axes of this are parallel to the sides AB,AC,AD
+
+and passing through the central point and the moment of inertia
+
+about the axis parallel to the side AB will be equal to 1 M ( AC2 + AD2 ) ; 12
+
+"
+
+"
+
+"
+
+"
+
+"
+
+"
+
+"
+
+""
+
+" AC " " "
+
+"
+
+"
+
+( ) 1 M AB2 + AD2 ;
+12
+
+"
+
+"
+
+"
+
+"
+
+"
+
+"
+
+"
+
+""
+
+" AD " "
+
+""
+
+"
+
+( ) 1 M AB2 + AC2 .
+12
+
+COROLLARY 2
+517. If the body were a cube, the side of which = a, these three moments become equal to each other ; and thus the moments of inertia of all the axes drawn through the centre of the cube clearly are equal to each other and indeed = 1 Maa . Moreover such
+6
+an equality must be in place for all the regular bodies.
+
+PROBLEM 43
+
+518. If the body were an empty sphere (Fig. 66), so that the cavity shall also be a sphere with the same given centre, to define the moment of inertia of this about all the axis passing through the centre.
+
+SOLUTION
+
+Let the centre be I and the radius of the sphere IA =
+
+a, now that of the cavity Ia = b, in order that the
+
+thickness of the spherical shell shall be equal to a ­ b
+
+= Aa, and hence the mass of this spherical cavity
+
+( ) =
+
+4 3
+
+
+
+a3 - b3
+
+, which is put equal to M; but it is
+
+evident that all the axes drawn through the centre I have moments of inertia equal to
+
+each other ; hence we may seek the moment of inertia about the axis AB. And if the
+
+sphere
+
+should
+
+be
+
+solid,
+
+on
+
+account
+
+of
+
+this,
+
+the
+
+mass
+
+is
+
+equal
+
+to
+
+4 3
+
+
+
+a3
+
+then
+
+the
+
+moment
+
+of inertia of this becomes equal to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 417
+
+ a3  2 aa = 8  a5 ,
+
+5
+
+15
+
+but with the middle taken away equal to 8  b5 ,where with that subtracted there must
+15
+
+remain the moment of inertia of the hollow sphere, which therefore will be equal to
+
+( ) 8 
+15
+
+a5 - b5
+
+=
+
+2 5
+
+M
+
+
+
+a5 a3
+
+-b5 -b3
+
+.
+
+Hence the moment of inertia for a hollow sphere about all the axes drawn through the
+
+centre is obtained equal to
+
+2 5
+
+M
+
+
+
+a4
+
++a3b+a2b2 +ab3 aa + ab + bb
+
++b4
+
+.
+
+COROLLARY 1
+519. If b = 0, the case of the solid sphere is produced, the radius of which is equal to a, from which the moment of inertia is 2 Maa as above about all axes drawn through the
+5
+centre.
+
+COROLLARY 2
+
+520. If this spherical shell should be the thinnest, so that b = a approximately, the n
+
+the
+
+moment
+
+of
+
+inertia
+
+is
+
+equal
+
+to
+
+2 3
+
+Maa,
+
+which
+
+formula
+
+prevails
+
+for
+
+a
+
+spherical
+
+surface. But if we are unable to neglect the thickness Aa, which is equal to c = a ­ b,
+
+then the moment of inertia is equal to
+
+=
+
+2M
+5
+
+
+
+5a 4 c -10a3c 2 3aac -10acc
+
+=
+
+2 5
+
+M
+
+(aa - ac) .
+
+SCHOLIUM
+521. These cases are sufficient abundantly not only, as hence for several cases the moments of inertia have been brought forwards, but also other bodies occur, we may prevail in putting the calculation in place easily. On account of which, we can progress to defining the rotational motion of bodies acted on by gravity, since this is a particular case, to which this discourse becomes accustomed to be applied.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 418
+
+CAPUT VI
+INVESTIGATIO MOMENTI INERTIAE IN CORPORIBUS HOMOGENEIS
+
+PROBLEMA 32
+471. Si corpus fuerit filum tenuissimum rectum AIB (Fig. 51), invenire eius axes principales eorumque respectu momenta inertiae.
+
+SOLUTIO
+Sit tota fili longitudo AB = 2a , in cuius medio puncto I erit eius centrum inertiae, ut sit IA = IB = a,massa autem fili, quae geometrice per 2a exprimitur, sit = M. Iam
+unus axium principalium certo est ipsa linea AB, cuius respectu momentum inertiae est nullum ideoque minimum; bini reliqui sunt ad AB in I normales eorumque respectu momenta inertiae aequalia, ita ut eorum situs non determinetur. Ad momentum ergo inertiae respectu talis axis ad AB in I normalis inveniendum, sumto IP = IQ = x, elementorum Pp = Qq = dx momenta sunt xxdx sicque amborum
+
+coniunctum, cuius integrale 2 x3 posito x = a dat momentum inertiae fili respectu
+3
+
+axium ad filiu in I normalium = 2 x3 = 1 Maa ob M = 2a.
+
+3
+
+3
+
+COROLLARIUM 1
+472. Bini ergo reliqui axes principales praeter AIB non determinantur perindeque est, quaenam duae rectae tam inter se quam ad filum in I normales pro iis accipiantur. Eorumque respectu mometum inertiae 1 Maa est maximum, ita ut medium cum
+3
+maximo congruat.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 419
+
+COROLLARIUM 2
+
+473. Cum momentum inertiae respectu axis AB sit nihilo aequale, respectu alius
+
+cuiuscunque axis SIs ad AB angulo
+
+AIS
+
+=  inclinato erit
+
+1 3
+
+Maa
+
+sin2
+
+,
+
+quod ex
+
+superioribus evidens est, si binorum reliquorum axium principalium alter in plano AIS
+
+capiatur; tum enim axis Ss ad eum inclinatur angulo 90o -, ad alterum vero angulo
+
+recto.
+
+PROBLEMA 33
+
+474. Si corpus fuerit filum tenuissimum in peripheriam circuli AEBF incurvatum (Fig. 52), invenire eius axes eorumque principales respectu momenta inertiae.
+
+SOLUTIO
+
+Sit radius IB = a , et posita ratione diametri ad
+
+peripheriam =1: erit longitudo fili = 2 a , quae
+
+simul eius massam refert, quae sit = M. Cum
+
+centrum inertiae sit in circuli centro I, primo recta
+
+ad planum circuli in I perpendicularis erit unus axis
+
+principalis, cuius respectu erit momentum inertiae
+
+= Maa ; duo reliqui axes in plano circuli sunt siti,
+
+pro quibus binos diametros quoscunque inter se
+
+normales assumere licet AB et EF. Sumta iam abscissa
+
+IP = x et applicata PM = y = XZ =
+
+(aa - xx) ,ob
+
+elementum
+
+fili
+
+Mm
+
+=
+
+adx y
+
+erit
+
+eius
+
+momentum respectu axis AB = aydx ideoque
+momentum totum = a ydx
+
+= a × aream circuli = a3 ,
+
+quod ob M
+
+= 2 a erit
+
+=
+
+1 2
+
+Maa.
+
+Quare
+
+momentum
+
+respectu
+
+diametri
+
+cuiusvis
+
+est
+
+= 1 Maa.
+2
+
+COROLLARIUM 1
+
+475. Momentum ergo inertiae respectu axis principalis ad planum circuli normalis Maa est maximum et momentum medium cum minimo congruit estque utrumque semissis maximi.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 420
+
+COROLLARIUM 2
+
+476. Si alius axis quicunque concipiatur ad planum circuli in I inclinatus angulo = ,
+
+quia is ad axem primum inclinatur angulo 90o - , ad reliquorum alterum angulo et
+
+ad tertium angulo recto, erit eius respectu momentum inertiae =
+
+Maa
+
+sin2 
+
++
+
+1 2
+
+Maa cos2 
+
+=
+
+1 2
+
+Maa(1 +
+
+sin2 ).
+
+PROBLEMA 34
+
+477. Si corpus fuerit lamina tenuissima plana triangularis ABD (Fig. 53), invenire eius tres axes principales eorumque respectu momenta inertiae.
+
+SOLUTIO
+Ut centrum inertiae I obtineatur, ex angulo A ducatur recta AC latus oppositum BD bisecans sumtaque CI parte tertia totius AC erit centrum inertiae in I. Ponamus CI = a, CB = CD = c et angulum ACB =  ,
+ut sit AI = 2a, AC = 3a et BD = 2c.
+Iam perspicuum est unum axem principalem fore ad planum trianguli normalem in I, quoniam, si in hac recta coordinatam x sumeremus, foret
+ xydM = 0 et  xzdM = 0 ob x = 0.
+Quare secundum problema 28 praeter istum axem sumantur in plano trianguli binae reliquae directrices, quarum altera sit IA, et sumto elemento quocumque dM in Z indeque ad IA demisso perpendiculo ZY sit IY = y et YZ = z vocenturque integralia
+
+ xxdM = A = 0,  yydM = B,  zzdM = C; tum  yzdM = F;
+
+unde, si IF et IG sint bini reliqui axes principales ponaturque angulus AIF =  ,
+
+demonstravimus fore
+
+tang
+
+2
+
+=
+
+2F B-C
+
+et respectu axis IF momenta inertiae =
+
+A + B sin2  + C cos2  - 2F sin cos ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 421
+
+ubi  denotat tam angulum AIF quam AIG. Tum vero respectu primi axis ad planum trianguli normalis est moment inertiae = B + C. Ad hos valores inveniendos per Z ducatur lateri BD parallela MN, positisque AP = t et PZ = u erit
+
+PM
+
+= PN
+
+= ct ,YZ = u sin
+3a
+
+et PY
+
+= uc cos
+
+atque elementum in Z =
+
+dtdu sin = dM .
+
+Hinc igitur erit
+
+y = 2a - t + u cos et z = u sin ;
+
+concipiatur aliud aequale elementum dtdu sin ad alteram partem, pro quo sit u
+
+negativum, hisque iunctim consideratis fiet
+B = 2 dt sin  du((2a - t)2 +uu cos2  ), C = 2 dt sin  uudu sin2 
+
+et
+
+F = 2 dt sin  (udu sin (2a - t + u cos ) - udu sin (2a - t - u cos ))
+
+seu
+
+F = 2 dt sin   uudu sin cos .
+
+Prima
+
+integratione
+
+peracta
+
+poni
+
+debet
+
+u
+
+=
+
+ct 3a
+
+, unde
+
+fit
+
+et ideoque
+et
+
+B
+
+=
+
+2
+
+sin 
+
+
+
+dt (
+
+ct 3a
+
+(2a
+
+-
+
+t)2
+
++
+
+c3t3 81a3
+
+cos2
+
+
+
+),
+
+C
+
+=
+
+2 sin
+
+
+
+dt
+
+
+
+c3t3 sin2 81a3
+
+
+
+F
+
+=
+
+2
+
+sin2
+
+
+
+cos 
+
+
+
+dt
+
+
+
+c3t3 81a3
+
+B
+
+=
+
+2
+
+sin 
+
+(
+
+2actt 3
+
+-
+
+4ct 3 9
+
++
+
+ct 4 12a
+
++
+
+c3t 4 324a3
+
+cos2
+
+
+
+),
+
+C
+
+=
+
+2 sin
+
+ c3t4 sin2 
+324a3
+
+F
+
+=
+
+c3t4 sin2  cos 162a3
+
+,
+
+quibus valoribus per totum triangulum, ponendo t = 3a, extensis habebimus :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 422
+
+B = 1 ac sin (3aa + cc cos2  ),
+2
+
+C = 1 ac3 sin3  ,
+2
+
+F
+
+=
+
+1 2
+
+ac3
+
+sin3
+
+
+
+cos 
+
+.
+
+Ex his pro situ axium IF et IG fiet
+
+tang
+
+2
+
+=
+
+ac
+
+2ac3 sin3  cos  sin (3aa+cc cos
+
+2
+
+)
+
+=
+
+cc sin 2 3aa+cc cos
+
+2
+
+,
+
+hinc enim duo valores pro eliciuntur. Denique momentum inertiae respectu axis
+
+principalis ad planum trianguli normalis est =
+
+1 2
+
+ac
+
+sin 
+
+(3aa
+
++
+
+cc
+
+cos
+
+2
+
+)
+
+=
+
+1 6
+
+M
+
+(3aa
+
++
+
+cc)
+
+ob M = 3ac sin et respectu axis IF vel IG, prout  angulum AIF vel AIG denotat, est
+
+momentum inertiae
+
+1 6
+
+M (3aa + cc cos2 
+
+) sin2 
+
++
+
+1 6
+
+Mcc sin2 
+
+cos2 
+
+-
+
+1 3
+
+Mcc sin
+
+cos 
+
+sin cos
+
+= 1 Maa sin2  + 1 Mcc( cos sin - sin cos)2
+
+2
+
+6
+
+= 1 Maa sin2  + 1 Mcc sin2 ( -).
+
+2
+
+6
+
+COROLLARIUM 1
+
+478. Cum sit
+
+AB2 + AD2 = 18aa + 2cc,
+
+erit
+
+3aa = AB2 + AD2 -2cc
+6
+hincque momentum inertiae respectu axis ad planum trianguli in I normalis fiet = 1 M (AB2 + AD2 + BD2 ),
+36
+ita ut sit pars tricesima sexta massae per summam quadratorum laterum multiplicatae.
+
+COROLLARIUM 2
+
+479. Pro binis reliquis axibus principalibus in plano triangulari sitis IF et IG notetur esse angulum recto non maiorem, unde sit sin 2 erit positivus. Posito ergo
+angulo AIF =  erit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 423
+
+tang
+
+=
+
+-3aa-cc cos 2
+
++ (9a4 +6aacc cos 2 cc sin 2
+
++c4 )
+
+=
+
+tang
+
+AIF ;
+
+ac
+
+tang
+
+AIG=
+
+-3aa-cc cos
+
+2
+
+- (9a4 +6aacc cc sin 2
+
+cos
+
+2
+
++c4
+
+)
+
+.
+
+COROLLARIUM 3
+
+480. Momentum inertiae respectu horum axium est =
+
+cum igitur sit
+
+1 6
+
+M
+
+(
+
+3 2
+
+aa
+
+-
+
+3 2
+
+aa
+
+cos
+
+2
+
++
+
+1 2
+
+cc
+
+cos
+
+2(
+
+-  ));
+
+tang
+
+2(
+
+-  )=
+
+3aa sin 2 3aa cos 2 +cc
+
+,
+
+hoc utrumque momentum ita exprimetur :
+
+1 12
+
+M
+
+(3aa
+
++
+
+cc
+
+±
+
+(9a4 + 6aacc cos 2 + c4 ))
+
+=
+
+1 12
+
+Mcc(1- cos 2
+
+-
+
+sin 2
+
+tang
+
+)
+
+=
+
+Mcc sin sin ( 6 cos
+
+-) ;
+
+prout enim pro angulus AIF vel AIG assumitur, ita ad utrumque axem referetur.
+
+EXEMPLUM
+481. Sit triangulum ABD isosceles seu angulus  rectus, hincque ob
+
+tanh 2 = 0 erit vel  = 0 vel  = 90o , unde alter axis in ipsam rectam AC incidit,
+
+alter vero ad eum est normalis. Respectu prioris AC momentum inertiae erit =
+
+1 Mcc, respectu posterioris vero = 1 Maa,dum respectu primi, qui ad planum
+
+6
+
+2
+
+trianguli est normalis, erat = 1 Maa + 1 Mcc ita, ut hoc sit aequale summae binorum
+
+2
+
+6
+
+reliquorum. Si praeterea triangulum sit aequilaterum, cuius singula latera = 2c, erit
+
+3a = c 3 seu aa = cc ,quare omnes axes in plano trianguli per I ducti aequalia
+3
+
+praebent momenta inertiae =
+
+1 6
+
+Mcc
+
+et
+
+momentum
+
+respectu
+
+axis
+
+ad
+
+triangulum
+
+in
+
+I
+
+normalis erit duplo maius =
+
+1 3
+
+Mcc
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 424
+
+COROLLARIUM 4
+
+482. Haec postrema proprietas adeo in genere valet; cum enim sit momentum inertiae
+
+respectu axis ad planum triangulum normalis =
+
+1 6
+
+M
+
+(3aa
+
++
+
+cc),
+
+tum
+
+vero
+
+respectu
+
+axis
+
+IF =
+
+=
+
+1 12
+
+M
+
+(3aa
+
++
+
+cc
+
+-
+
+(9a4 + 6aacc cos 2 + c4 )),
+
+respectu axis IG
+
+=
+
+1 12
+
+M
+
+(3aa
+
++
+
+cc
+
++
+
+(9a4 + 6aacc cos 2 + c4 )),
+
+evidens est horum summam priori esse aequalem.
+
+SCHOLION
+483. Notare hic meretur, si reliqua trianguli latera ponantur AB = 2b, AD = 2d , uti est BD = 2c, fore
+
+9aa = 2bb + 2dd - cc
+
+et
+
+cos 
+
+=
+
+dd -bb 3ac
+
+,
+
+( ) unde formula irrationalis 9a2 + 6aacc cos 2 + c4 abit in hanc
+
+( ) 4
+3
+
+b4 + c4 + d 4 - bbcc - bbdd - ccdd .
+
+Ceterum hic in genere definire non licet, uter axium IF et IG maius praebeat
+
+momentum, cum haec ipsa formula irrationalis quandoque negativum valorem induere
+
+debeat, quemadmodum patet ex casu  = 90o , ubi valor eius 3aa ­ cc fit negativus, si
+
+cc > 3aa. In genere autem haec duo momenta inter se aequalia fieri nequent, quia
+
+formula irrationalis evanescere non potest, nisi sit 2 = 180o et 3aa = cc. At iudicium
+
+hoc quovis casu adhibitis angulis  utrique axi convenientibus facile instituetur ex
+
+formula
+
+1 2
+
+Maa sin2 
+
++
+
+1 6
+
+Mcc sin2 (
+
+-  ).
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 425
+
+PROBLEMA 35
+484. Si corpus fuerit lamina tenuissima plana figuram parallelogrammi BDbd habens (Fig. 54), invenire eius tres axes principales eorumque respectu momenta inertiae.
+SOLUTIO
+Bisectis lateribus binis oppositis BD et bd in A et C ductaque recta AC, in eius puncto medio I erit centum inertiae corporis, cuius massa ponatur = M. Ponatur latera
+Bb = Dd = AC = 2a,
+BD = bd = 2b et angulus acutus B = d =  , erit area = 4ab sin = M . Iam unus axium principalium
+erit ad planum laminae in I normalis binique reliqui IF et IG in ipso hoc plano siti; ad quos inveniendos concipiatur elementum quodcunque dM in Z, per quod punctum primo ducatur recta MN laterali BD parallela, sitque AT = t et PZ = u; tum ex Z ad AC demisso perpendiculo ZY vocetur secundum problema 29
+
+IY = y et YZ = z. Ob APZ = erit ZY = u sin et PY = u cos ,
+unde y = a - t + u cos et z = u sin ;
+tum vero dM = dtdu sin ; at in illo calculo fit x = 0, ut sit
+ xxdM = 0,  xydM = 0,  xzdM = 0.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 426
+
+Hinc ergo habemus :
+
+ yydM = B =  dt du sin (a - t + u cos )2 ,
+
+ zzdM = C =  dt uudu sin3 
+
+et
+
+ yzdM = F =  dt udu sin2  (a - t + u cos ) .
+
+Combinetur cum his elementum simile Z' ad alteram partem situm, pro quo est u
+
+negativum, fietque :
+
+( ) B = 2 sin  dt du (a - t )2 + uu cos2  ,
+
+C = 2 sin3   dt uudu
+et
+F = 2 sin3  cos  dt uudu.
+Priori integratione instituata ponatur u = b, prodibitque
+
+( ) B = 2 sin  dt du
+
+b (a - t )2 + 1 b3 cos2  3
+
+,
+
+C
+
+=
+
+2 3
+
+b3
+
+sin3 
+
+
+
+dt
+
+et
+
+F
+
+=
+
+2 3
+
+b3
+
+sin3
+
+
+
+cos 
+
+
+
+dt.
+
+Denique posteriori integratione facta ponatur t = 2a fietque
+
+( ) ( ) B = 4ab sin
+
+aa + bb cos2 
+
+=1M
+3
+
+aa + bb cos2 
+
+,
+
+C
+
+=
+
+4 3
+
+ab3
+
+sin3
+
+
+
+=
+
+1 3
+
+Mbb
+
+sin3
+
+
+
+et
+
+F = 4 ab3 sin3  cos = 1 Mbb sin cos .
+
+3
+
+3
+
+Ex his collititur momentum inertiae respectu primi axis ad laminam in I normalis
+
+B + C = 1 M (aa+bb) ;
+3
+quod ergo non ab obliquitate, sed tantum a lateribus pendet. At pro reliquis axibus IF et IG posito angulo AIF =  invenimus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 427
+
+tang
+
+2
+
+=
+
+2F B-C
+
+=
+
+2bb sin cos aa+bb cos 2
+
+seu
+
+tang
+
+2
+
+=
+
+bb sin 2 aa+bb cos 2
+
+,
+
+cuius duplex valor  praebet utrumque angulum AIF et AIG. Momentum autem
+
+inertiae respectu horum axium est
+
+B sin2  + C cos2  - 2F sin cos
+
+( ) = 1 M 3
+
+aa sin2  + bb cos2  sin2  + bb sin2  cos2  - 2bb sin cos sin cos
+
+= 1 M (aa - aa cos 2 + bb - bb cos 2 cos 2 - bb sin 2 sin 2 ) 6
+sicque hoc momentum inertiae ita exprimi poterit
+
+Cum igitur sit
+
+=
+
+1 6
+
+M
+
+( aa
+
++
+
+bb
+
+-
+
+aa
+
+cos 2
+
+-
+
+bb cos (2
+
+-
+
+2 )).
+
+sin 2 =
+
+bb sin 2
+
+( ) a4 +2aabb cos 2 +b4
+
+et
+
+cos 2 =
+
+aa+bb cos 2
+
+,
+
+( ) a4 +2aabb cos 2 +b4
+
+istud momentum erit :
+( ) ( ) 1 M aa+bb- a4 +2aabb cos 2 +b4 ,
+6
+ubi ambiguitas signi radicalis et ambos axes IF et IG et momenta inertiae eorum respectu praebet. Patet ergo summam horum binorum aequalem esse momento primo.
+
+COROLLARIUM 1
+485. Si aa + bb cos 2 habeat valorem positivum, sumto radicali positivo angulus 2 recto erit minor ideoque angulus AIF semirecto minor; ac respectu axis IF momentum inertiae erit minimum =
+( ) ( ) 1 M aa+bb- a4 +2aabb cos 2 +b4
+6
+respectu axis IG vero medium.
+
+COROLLARIUM 2
+486. Si aa + bb cos 2 habeat valorem negativum et radicale pro axe IF capiatur
+positive, angulus 2 recto maior ideoque angululs AIF semi-recto maior atque axis IF respectu momentum inertiae erit minimum.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 428
+
+COROLLARIUM 3
+487. Si ducatur diagonalis Bd per angulos acutos B et d, ob
+
+reperitur
+
+tang
+
+AIB
+
+=
+
+b sin a+b cos
+
+tang
+
+2
+
+BIF
+
+=
+
+2ab sin (aa-bb)
+a4 +2a3b cos  +2aabb cos 2 +2ab3 cos
+
++b4
+
+,
+
+unde patet in rhombo, ubi a = b, ambas diagonales fore axes principales, dum in rectangulo recta AC est axis principalis.
+
+EXAMPLE 1
+
+488. Si parallelogrammum BbdD sit rectangulum, ob  = 90o fit
+
+tang 2 = 0 ideoque vel  = 0 vel  = 90o; unde respectu axis at laminam in I
+
+normalis
+
+erit
+
+momentum
+
+inertiae
+
+=
+
+1 3
+
+M
+
+( aa
+
++
+
+bb)
+
+;
+
+tum
+
+vero
+
+alter
+
+axis
+
+principalis
+
+est
+
+AC,
+
+cuius
+
+respectu
+
+momentum
+
+inertiae
+
+est
+
+=
+
+1 3
+
+Mbb
+
+;
+
+tertius
+
+vero
+
+axis
+
+principalis
+
+est
+
+in
+
+plano
+
+laminae
+
+ad
+
+AC
+
+normalis,
+
+cuius
+
+respectu
+
+=
+
+1 3
+
+Maa
+
+existentibus
+
+lateribus
+
+Bb = Dd = 2a et BD = bd = 2b.
+
+EXAMPLUM 2
+489. Si parallelogrammum BbdD sit rhombus, ut sit b = a et singula eius latera = 2a, existentibus angulis acutis  fit
+
+tang
+
+2
+
+=
+
+sin 2 1+cos 2
+
+= tang 
+
+hincque vel  = 1  vel  = 90o + 1  .Quare respectu primi axis principalis ad planum
+
+2
+
+2
+
+rhombi in I normalis est momentum inertiae =
+
+2 3
+
+Maa
+
+;
+
+reliqui
+
+ambo
+
+axes
+
+sunt
+
+diagonales Bd et Db, quorum illius Bd respectu momentum inertiae est =
+
+1 3
+
+Maa (1-
+
+cos 
+
+)
+
+=
+
+2 3
+
+Maa
+
+sin2
+
+1 2
+
+
+
+,
+
+respectu vero alterius diagonalis Db est =
+
+1 3
+
+Maa
+
+(1+
+
+cos
+
+
+
+)
+
+=
+
+2 3
+
+Maa
+
+cos2
+
+1 2
+
+
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 429
+
+COROLLARIUM 4
+
+490. Si igitur parallelogrammum abeat in quadratum, cuius latus = 2a, omnes rectae in
+
+eius plano per centrum inertiae I ductae pro axibus principalibus haberi possunt
+
+eritque eorum respectu momentum inertiae = 1 Maa , at respectu axis ad quadratum in
+3
+
+I normalis duplo erit maius =
+
+2 3
+
+Maa
+
+.
+
+PROBLEMA 36
+491. Si corpus fuerit lamina tenuissima plana in figuram circuli efformata (Fig. 52), invenire eius tres axes principales eorumque respectu momenta inertiae.
+SOLUTIO
+Sit radius circuli = a, erit area =  aa , quae massam M refert; et cum unus axium principalium ad planum circuli in centro I sit normalis, ponatur pro elemento quocunque dM in Z sito coordinatae IP = y, PZ = z, ob dM = dydz erit
+
+ yydM =  dy yydz =  dy  yyz =  yydy =  yydy (aa - yy)
+
+posito z = (aa - yy) . At hoc integrale reducitur ad hanc formam
+
+
+
+yydM
+
+=
+
+1 8
+
+a4 
+
+dy
+(aa- yy)
+
+-
+
+1 8
+
+y (aa
+
+-
+
+2 yy)
+
+(aa - yy) ,
+
+quod quater sumtum et posito y = a dat
+
+Simili modo vero fit
+
+B =  a4 = 1 Maa.
+
+4
+
+4
+
+ zzdM
+
+=C
+
+=
+
+1 4
+
+Maa.
+
+Deinde  yzdM , si ex altera diametri parte simile elementum coniungatur, ad nihilum
+
+reducitur, ita ut sit
+
+ yzdM = F = 0.
+
+Hinc, cum B - C = 0, oritur tang 2 = 0 sicque angulus  est indeterminatus, ex quo
+0
+cognoscimus, quod per se est clarum, omnes diametros pro axibus principalibus haberi
+
+posse, quorum respectu sit momentum inertiae =
+
+1 4
+
+Maa
+
+.
+
+At
+
+respectu
+
+primi
+
+axis
+
+ad
+
+planum
+
+circuli
+
+in
+
+centro
+
+I
+
+normalis
+
+est
+
+momentum
+
+ineritae
+
+B+C
+
+=
+
+1 2
+
+Maa.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 430
+
+SCHOLION
+
+492. Cum hic elementum massae dM esset = dydz, notandum est id semper manere
+
+positivum, etiamsi vel y vel z capiatur negative, quo casu etiam differentialia alioquin
+
+fierent negativa. In hoc ergo calculo probe cavendum est, ne, cum coordinatae
+
+negative accipiuntur, elementi massae dM expressio in calculum tanquam negativa
+
+inferetur. Ex quo conveniet pro singulis regionibus, ubi coordinatae signis contrariis
+
+afficiuntur, calculum seorsim institui. Ceterum idem valor
+
+B
+
+=
+
+
+
+yydM
+
+=
+
+1 a4
+4
+
+eruitur, si ponatur IZ = r et angulus AIZ =  , erit enim
+
+dM = rdrd
+
+et
+
+y = r cos ,
+
+unde
+
+yydM = r3drd cos2  ,
+
+quae secundum variabilem r integrata posita r = a dat 1 a4d cos2  , cuius integrale
+4
+
+ob cos2  = 1 + 1 cos 2
+22
+
+praebet
+
+( ) 1
+4
+
+a4
+
+1  + 1 sin 2
+24
+
+.
+
+Statuatur nunc  = 2 , ob sin 4 = 0 prodit 1  a2 ut ante, unde patet superiorem
+4
+cautelam legi continuitatis non repugnare.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 431
+
+PROBLEMA 37
+
+493. Si corpus sit lamina tenuissima plana in figuram habens quamcunque ABCD (Fig. 55), definire eius axes principales eorumque respectu momenta inertiae.
+
+SOLUTIO
+
+Sit I figurae centrum inertiae,
+
+manifestumque est rectam ad eius planum
+
+in I normalem fore unum axium
+
+principalium; tum in plano ipso sumtis
+
+binis directionibus AB et CD inter se
+
+normalibus pro elemento quovis dM in Z
+
+ponatur coordinatae IP = y et PZ = z, erit
+
+dM = dydz hincque
+
+ yydM =  dy yydz =  dy  yyz.
+
+Posito ergo z = PM, fit
+
+ yydM =  PM  yyz,
+
+cuius valor pro singulis regionibus AIC, AID, BIC et BID erui debet, eorumque summa
+
+erit = B, ut sit
+
+B =  IP2  MN  d .IP +  IQ2    d .IQ.
+
+Deinde est
+
+
+
+zzdM
+
+=
+
+ dy
+
+zzdz
+
+=
+
+1 3
+
+
+
+PM
+
+3
+
+ dy,
+
+ita ut sit
+
+( ) ( ) C
+
+=
+
+1 3
+
+
+
+PM 3
+
++
+
+PN 3
+
+d .IP +
+
+1 3
+
+
+
+Q3 + Q 3
+
+d .IQ.
+
+Porro est
+
+
+
+yzdM
+
+=
+
+ dy
+
+yzdz
+
+=
+
+1 2
+
+
+
+yzzdy
+
+=
+
+1 2
+
+
+
+PM
+
+2 y  dy,
+
+cuius valor in regionibus AID et BICest negativus, in BID vero positivus, unde
+
+habebitur
+
+( ) ( ) F
+
+=
+
+1 2
+
+
+
+IP
+
+PM 2 - PN 2
+
+d
+
+.IP
+
+-
+
+1 2
+
+
+
+IQ
+
+Q 2 - Q 2
+
+d .IQ.
+
+At vero tota massa M erit
+
+M =  MN d .IP +   d .IQ.
+
+His valoribus inventis erit momentum inertiae respectu axis ad planum in I normalis = B + C, tum sint reliqui axes principales FIf et GIg, ac posito angulo AIF = 
+
+reperimus
+
+tang
+
+2
+
+=
+
+2F B-C
+
+et momentum inertiae respectu axis FIf
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 432
+
+Verum ob
+
+= B sin2  + C cos2  - 2F sin cos
+
+=
+
+1 2
+
+B
+
++
+
+1 2
+
+C
+
+-
+
+1 2
+
+(
+
+B
+
+-
+
+C
+
+)
+
+cos
+
+2
+
+-
+
+F
+
+sin
+
+2.
+
+sin 2 =
+
+2F
+
+( ) (B-C)2 +4FF
+
+et
+
+cos 2 =
+
+B-C
+
+( ) (B-C)2 +4FF
+
+obtinebitur momentum inertiae respectu
+
+( ) axis FIf = 1 ( B - C ) - 1 ( B - C )2 + 4FF
+
+2
+
+2
+
+et
+
+( ) axis GIg = 1 ( B + C ) + 1 ( B - C )2 + 4FF .
+
+2
+
+2
+
+COROLLARIUM 1
+494. Momenta ergo inertiae respectu axium Ff et Gg simul sumta aequalia sunt momento inertiae respectu primi axis principalis, qui ad planum laminae in I est normalis.
+COROLLARIUM 2
+495. Si recta AB fuerit figurae diameter, ut sit PM = PN, valor litterae F evanescit, id quod etiam evenit, si recta CD fuerit diameter, ut sumto IQ = IP sit Q = PM . At
+quoties sit F = 0, tam ob tang 2 = 0 ipsae rectae AB et CD erunt axes principales.
+
+COROLLARIUM 3
+
+496. Casu hoc, quo F = 0 et AB et CD sunt axes principales, erit momentum inertiae
+
+respectu axis Ff = C et respectu axis CD = B, quae si insuper fuerint aequalia, ob
+
+tang
+
+2
+
+=
+
+0 0
+
+omnes
+
+rectae
+
+per
+
+I
+
+ductae
+
+paria
+
+habent
+
+moment
+
+=
+
+B
+
+=
+
+C.
+
+COROLLARIUM 4
+
+497. Si praeter diametrum AB reperiatur alia recta per I ducta, cuius respectu
+
+momentum inertiae illi sit aequale, tum omnes plane rectae per I ductae eadem
+
+proprietate gaudebunt et momenta inertiae habebunt aequalia.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 433
+
+PROBLEMA 38
+
+498. Si corpus sit lamina tenuissima plana in figuram polygoni regularis efformata (Fig. 56), eius axes principales eorumque respectu momenta inertiae definire.
+
+SOLUTIO
+
+Centrum inertiae talis polygoni
+
+regularis erit in centro circuli
+
+circumscripti I, cuius radius ponatur IA
+
+= a numerusque laterum = n. Hinc fit
+
+angulus
+
+AIB =
+
+2 n
+
+,eoque per rectam IG
+
+bisecto angulus
+
+AIG =
+
+2 n
+
+atque
+
+quare area trianguli AIB
+
+AB
+
+=
+
+2a
+
+sin
+
+ n
+
+et
+
+IG
+
+=
+
+2a
+
+cos
+
+ n
+
+;
+
+et area polygoni totius
+
+aa
+
+sin
+
+ n
+
+cos
+
+ n
+
+=
+
+1 2
+
+aa
+
+sin
+
+2 n
+
+=
+
+n 2
+
+aa
+
+sin
+
+2 n
+
+vicem massae M gerens. Iam primo observo (§497) omnes rectas in plano laminae per
+
+I ductas aequalia esse habituras momenta, quorum bina simul sumta efficiant
+
+mometum respectu axis ad planum laminae in I normalis. Hoc vero momentum ex
+
+superioribus colligi potest. Consideretur enim triangulum AIB, cuius massa ponatur =
+
+m et centrum inertiae in i, ut sit
+
+Gi
+
+=
+
+1 3
+
+cos
+
+ n
+
+et
+
+Ii
+
+=
+
+2 3
+
+cos
+
+ n
+
+existente
+
+AG
+
+=
+
+a
+
+sin
+
+ n
+
+. Quia igitur hoc triangulum est isosceles, per § 481 erit eius
+
+momentum inertiae respectu axis ad planum trianguli in i normalis
+
+( ) = 1 m Gi2 + 1 m  AG2 = m 1 aa cos2  + 1 aa sin2 
+
+2
+
+6
+
+18
+
+n6
+
+n
+
+hincque respectu axis ad idem planum in I normalis
+
+( ) ( ) = m
+
+1 18
+
+aa
+
+cos2
+
+ n
+
++
+
+1 6
+
+aa
+
+sin2
+
+ n
+
++
+
+4 9
+
+aa
+
+cos2
+
+ n
+
+= maa
+
+1 2
+
+cos2
+
+ n
+
++
+
+1 6
+
+sin2
+
+ n
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 434
+
+quod per n multiplicatum ob mn = M dabit momentum totius polygoni respectu axis
+
+ad id in I normalis
+
+( ) ( ) = Maa
+
+1 2
+
+cos2
+
+ n
+
++
+
+1 6
+
+sin2
+
+ n
+
+=
+
+1 Maa
+3
+
+1
+
++
+
+1 2
+
+cos
+
+2 n
+
+.
+
+Respectu vero cuiusque axis in plano laminae per punctum I ducti erit momentum
+
+inertiae
+
+( ) =
+
+1 Maa
+6
+
+1
+
++
+
+1 2
+
+cos
+
+2 n
+
+illo scilicet duplo minus.
+
+COROLLARIUM 1
+
+499. Si praeterea latus polygoni ponatur AB = c, ut sit
+
+c
+
+=
+
+2a
+
+sin
+
+ n
+
+,
+
+ob
+
+a
+
+=
+
+c
+
+2
+
+sin
+
+ n
+
+erit
+
+momentum inertiae respectu axis principalis ad planum in I normalis
+
+( ) = Mcc
+
+12
+
+sin2
+
+2 n
+
+1+
+
+1 2
+
+cos
+
+2 n
+
+=
+
+1 12
+
+Mcc
+
+
+
+2
+
++
+
+cos
+
+2 n
+
+1-
+
+cos
+
+2 n
+
+,
+
+respectu reliquorum vero axium principalium est duplo minus.
+
+COROLLARIUM 2
+
+500. Si praeter radium circuli circumscripti IA = a latus polygoni AB = c introducatur,
+
+ob
+
+sin
+
+ n
+
+=
+
+c 2a
+
+et
+
+cos
+
+2 n
+
+= 1- cc
+2aa
+
+erit momentum respectu axis in I normalis
+
+( ) =
+
+1 Maa
+3
+
+1+
+
+1 2
+
+-
+
+cc 4aa
+
+= 1 (6aa - cc) , 12
+
+respectu axium vero in ipso plano polygoni per I ductorum est duplo minus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 435
+
+PROBLEMA 39
+
+501. Si corpus fuerit cylindrus rectus (Fig. 57), eius axes Aa = 2a et radius basis AB = AD = c, invenire eius axes principales eorumque respectu momenta inertiae definire.
+
+SOLUTIO
+
+Cum area basis sit =  cc , erit cylindri solidas seu massa = 2 acc = M.
+
+In axis autem puncto
+
+medio I erit eius centrum
+
+inertiae, ut sit AI = Ia = a;
+
+at ipse hic axis Aa unus
+
+manifesto est axium
+
+principalium, per quem
+
+sumto plano quocunque
+
+BDbd pro elemento
+
+quovis dM in Z sito habebuntur coordinatae IX = x, XY = y, YZ = z, ut sit dM =
+
+dxdydz. Hinc colligantur valores sequentes :
+
+1o
+
+ xxdM =  xxdxdydz,
+
+ubi sumtis primo x et y constantibus et posito post integrationem z = (cc - yy) ,
+
+habetur
+
+z =  xxdx dy (cc - yy) ,
+
+at  dy (cc - yy) data aream sectionis per X factae = cc , ut habeatur
+
+ cc xxdx,
+
+cuius integrale tam ad A quam a extensum praebet 2  cca3 , ut sit
+3
+
+
+
+xxdM
+
+=
+
+A
+
+=
+
+1 3
+
+Maa.
+
+2o
+
+ yydM =  yydxdydz =  dx yydy (cc - yy) ,
+
+at posito y = c est
+
+quod quater sumi debet, ut sit
+
+ yydy
+
+(cc
+
+-
+
+yy )
+
+=
+
+1 16
+
+
+
+c4
+
+,
+
+
+
+yydM
+
+=
+
+1 4
+
+
+
+c4
+
+
+
+dx
+
+,
+
+hincque habebitur per totum cylindrum
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 436
+
+
+
+yydM
+
+=
+
+2 c4a
+4
+
+=
+
+1 4
+
+Mcc =
+
+B.
+
+3o
+
+ zzdM =  zzdxdydz,
+
+ubi, si primo x et z pro constantibus sumantur, posito y = (cc - zz) habetur
+
+ dx zzdz (cc - zz) ,
+
+cuius valor ut ante colligitur
+
+
+
+zzdM
+
+=
+
+1 4
+
+Mcc
+
+=
+
+C
+
+=
+
+B.
+
+4o  yzdM ,si simile elementum dM infra planum BDbd cum eo coniungatur, in
+
+nihilum abit, ita ut prodeat
+
+ yzdM = F = 0.
+
+His positis respectu axis Aa erit momentum inertiae = B + C = 1 Mcc; pro reliquis
+2
+
+vero binis axibus ad illum normalibus fit
+
+tang
+
+2
+
+=
+
+2F B-C
+
+=
+
+0 0
+
+,
+
+ita ut omnes diametri sectionis in I ad Aa normalis tanquam axes principales spectari
+
+possunt, quorum omnium respectu erit momentum inertiae
+
+( ) = A + B = M 1 aa + 1 cc .
+
+3
+
+4
+
+COROLLARIUM 1
+502. Si alius axis quicunque per I transiens accipiatur, qui faciat cum axe Aa angulum =  , eius respectu momentum inertiae erit
+
+= ( B + C ) cos2  + ( A + B) sin2 
+
+( ) = M
+
+1 2
+
+cc cos2 
+
++
+
+1 3
+
+aa sin2 
+
++
+
+1 4
+
+cc sin2 
+
+( ) = M 1 aa sin2  + 1 cc - 1 cc sin2  .
+
+3
+
+24
+
+COROLLARIUM 2
+503. Fieri potest, ut omnia momenta respectu rectarum per I ductarum fiant inter se aequalia, quod evenit, si
+
+fuerit
+
+1 3
+
+aa
+
+=
+
+1 4
+
+cc
+
+seu
+
+a
+
+=
+
+c
+
+3 2
+
+ideoque
+
+c=
+2a
+
+1 3
+
+et angulus AaB = 30o sive triangulum
+
+BaD
+
+aequilaterum,
+
+quo
+
+casu
+
+singulu
+
+momenta
+
+sunt
+
+=
+
+1 2
+
+Mcc
+
+=
+
+1 8
+
+M
+
+ BD2 .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 437
+
+PROBLEMA 40
+
+504. Si corpus fuerit conus rectus (Fig. 58), cuius vertex A, altitudo AC = a et radius basis CB = CD = c, invenire eius axes principales eorumque respectu momenta inertiae.
+
+SOLUTIO
+Cum area basis sit = cc,erit solidas
+
+eademque
+
+massa
+
+M
+
+=
+
+1 3
+
+
+
+acc;
+
+tum
+
+vero
+
+centrum inertiae I ita in axe est situm, ut sit
+
+CI = 1 a et AI = 3 a. Sumatur iam elementum
+
+4
+
+4
+
+quodcunque dM in Z, pro quo sint coordinatae
+
+IX = x, XY = y et YZ = z, erit dM = dxdydz.
+
+Ponatur AX = t, erit
+
+XM
+
+=
+
+ct a
+
+et x = 3 a - t,nihilo vero minus capi
+4
+
+debet dM = dxdydz.
+
+Evoluntur ergo sequentes formuale :
+
+1o
+
+
+
+xxdM
+
+=
+
+A
+
+=
+
+(
+
+3 4
+
+a
+
+-t)
+
+xxdtdydz ,
+
+ubi sumtis primo t et y constantibus positoque
+
+( ) z =
+
+cctt aa
+
+-
+
+yy
+
+habebitur :
+
+( ) ( ) 
+
+3 4a
+
+-t
+
+2
+dt dy
+
+cctt aa
+
+-
+
+yy
+
+;
+
+ubi pro tota sectione in X est
+
+( )  dy
+
+cctt aa
+
+-
+
+yy
+
+=
+
+ cctt aa
+
+,
+
+ita ut integrandum supersit
+
+Ponatur t = a fietque
+
+( ) ( ) cc
+aa
+
+
+
+ttdt
+
+3 a -t 4
+
+2
+
+=  cc
+aa
+
+3 16
+
+aat
+
+3
+
+-
+
+3 8
+
+at
+
+4
+
++
+
+1 5
+
+t
+
+5
+
+.
+
+A = 1  cca3 = 3 Ma2 .
+
+80
+
+80
+
+2o
+
+( )  yydM = B =  yydtdydz = dt yydy
+
+cctt aa
+
+-
+
+yy
+
+per primam integrationem. At manente adhuc t constante est
+
+( )  yydy
+
+cctt aa
+
+-
+
+yy
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 438
+
+posito
+
+y
+
+=
+
+ct a
+
+et
+
+quater
+
+sumtum
+
+=
+
+1 4
+
+
+
+c2t2 a4
+
+,
+
+ut etiamnum integrari debeat
+
+
+
+1 4
+
+
+
+
+
+c4t4 a4
+
+dt ,
+
+unde posito pro toto cono t = a fit
+
+B
+
+=
+
+1 20
+
+ ac4
+
+=
+
+3 20
+
+Mcc.
+
+3o
+
+ zzdM = C
+
+pari modo dat
+
+C = 3 Mcc = B,
+20
+
+at
+
+ yzdM = F
+
+manifesto evanescit ut ante.
+
+Cum ergo AC sit unus axium principalium, eius respectu momentum inertiae est =
+
+B + C = 3 Mcc.
+10
+Reliqui axes principales sunt diametri omnes sectionis in I ad axem normalis, quorum
+
+respectu momentum inertiae est
+
+A
+
++
+
+B
+
+=
+
+3 80
+
+M
+
+( aa
+
++
+
+4cc) .
+
+COROLLARIUM
+505. Casu, quo aa + 4cc = 8cc seu a = 2c, hoc est AC = BD, omnes rectae per I ductae axium principalium proprietate gaudent eorumque respectu erit momentum inertiae = 3 Mcc .
+10
+
+PROBLEMA 41
+
+506. Si corpus fuerit globus ex materia homogenea confectus (Fig. 59), cuius centrum
+
+I et radius IA = a, definire eius momentum
+
+inertiae respectu axis cuisvis per eius centrum
+
+transeuntis.
+
+SOLUTIO
+
+Ob radium IA = a erit area circuli maximi =  aa et superficies globi = 4 aa , hinc eius
+
+solidas
+
+seu
+
+massa
+
+M
+
+=
+
+4 3
+
+
+
+a3
+
+.
+
+Iam
+
+positis
+
+pro
+
+elemento quocunque dM in Z posito coordinatis
+
+IX = x, XY = y et YZ = z erit respectu axis AC
+
+momentum inertiae
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 439
+
+=  dM ( yy + zz).
+Ponatur XZ = r et YXZ =  , erit y = r cos , z = r sin
+
+et dM = rdrddx,
+
+unde
+
+ rrdM =  r3drddx = 2  r3drdx ob  d = 2 ; nunc sumto r variabli positoque
+
+r = XM = (aa - xx).
+
+habebimus
+
+( ) 1
+2
+
+
+
+
+
+dx (aa
+
+-
+
+xx )2
+
+=
+
+1 2
+
+
+
+a4x - 2 aax3 + 1 x5
+
+3
+
+5
+
+.
+
+Statuatur x = a pro altero hemisphaerio, et duplum huius expressionis dabit
+
+momentum inertiae quaesitum
+
+=   8 a5 = 2 Maa.
+
+15
+
+5
+
+PROBLEMA 42
+
+507. Si corpus fuerit conoides quodcunque revolutione linea AMB circa axem AC gentitum (Fig. 60), eius axes principales eorumque respectu momentum inertiae invenire.
+
+SOLUTIO
+
+Sit AC = a et pro curva AX = t et XM = u, ita ut detur aequatio inter t et u; erit
+
+soliditas seu massa
+
+M =   uudt
+
+posito post integrationem t = a. Tum vero centrum inertiae erit in I, ut sit
+
+AI
+
+=
+
+ tuudt  uudt
+
+.
+
+Ponatur brevitatis ergo AI = f, ut sit
+
+ tuudt = f  uudt,
+
+est vero AC unus axium principalium. Iam pro elemento dM in Z posito sint coordinatae IX = x = f ­ t, XY = y et YZ = z, ac ponatur XZ = r, angulus YXZ =  , erit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 440
+
+dM = rdrddx,
+
+y = r cos , z = r sin
+
+Nunc considerentur formulae sequentes :
+
+1o
+
+ xxdM =  ( f - t )2 rdrdtd = 2  ( f - t )2 rdrdt
+
+ob  d = 2 . Sit adhuc t constans, et posito r = XM = u fiet
+
+ xxdM =   ( f - t )2 uudt = A
+
+ideoque
+
+A =  ff  uudt - 2 f  tuudt +   ttuudt
+
+( ) = - ff  uudt +   ttuudt
+
+=M
+
+-
+
+ff
+
++
+
+ ttuudt  uudt
+
+.
+
+2o
+
+ yydM =  r3drdtd cos2  =   r3drdt
+
+ob
+
+( )  d cos2  =  d
+
+1 2
+
++
+
+1 2
+
+cos
+
+2
+
+=
+
+1
+2
+
++
+
+1 4
+
+sin 2 ,
+
+quae posito  = 2 abit in  . Porro prodit
+
+posito r = u, ita ut sit
+
+ 4
+
+
+
+u4dt
+
+cui etiam aequale fit
+
+
+
+yydM
+
+=
+
+B
+
+=
+
+ 4
+
+ u4dt
+
+=
+
+M  u4dt 4 uudt
+
+,
+
+ zzdM = C.
+
+At
+ yzdM = F
+
+evanescit. His evolutis prodit momentum inertiae respectu axis AC
+
+=
+
+B
+
++C
+
+=
+
+M  u4dt 2 uudt
+
+,
+
+positio post integrationem t = a, tum vero in sectione ad AC in I normali omnes
+
+diametri locum axium principalium sustinent eorumque respectu reperitur momentum
+
+inertiae =
+
+A+ B
+
+=
+
+M
+
+ 
+
+-
+
+ff
+
++
+
+4 ttuudt +  u4dt 4 uudt
+
+ 
+
+=
+
+M
+
+ 
+
+ uudt(4tt +uu)
+4 uudt
+
+-
+
+ff
+
+ 
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 441
+
+EXEMPLUM 1
+
+508. Sit corpus hemisphaerium seu AMB quadrans circuli radii CA = CB = a; erit uu = 2at - tt, hinc
+
+
+
+uudt
+
+=
+
+att
+
+-
+
+1 3
+
+t3
+
+=
+
+2 3
+
+a3
+
+posito t = a; porro
+
+ tuudt
+
+=
+
+2 3
+
+t3
+
+-
+
+1 4
+
+t4
+
+=
+
+5 12
+
+a4 ,
+
+ergo
+
+f
+
+=
+
+AI
+
+=
+
+5 8
+
+a
+
+et
+
+CI
+
+=
+
+3 8
+
+a.
+
+Quare respectu axis AC est momentum inertiae
+
+=
+
+M 8a5 3 154a3
+
+=
+
+2 5
+
+Maa
+
+et respectu axis cuiusvis alius ad istum in I normalis
+
+( ) = M
+
+-
+
+25 64
+
+aa
+
++
+
+13 20
+
+aa
+
+=
+
+83 320
+
+Maa,
+
+ita ut illud momentum sit ad hoc ut 128 ad 83.
+
+EXEMPLUM 2
+
+509. Sit corpus conus
+
+truncatus (Fig. 61), cuius
+
+axis AC = a, radius
+
+alterius basis BC = c,
+
+alterius AD = b, eritque
+
+u
+
+=
+
+b
+
++
+
+(c-b)t
+a
+
+et
+
+uu = bb + 2(c-b)t + (c-b)2 tt , unde pro centro inertiae I inveniendo erit
+
+a
+
+aa
+
+ uudt
+
+= bbt
+
++
+
+(c-b)tt
+a
+
++
+
+(c-b)2 t3
+3aaa
+
+=
+
+1 3
+
+a
+
+(
+
+bb
+
++
+
+bc
+
++
+
+cc
+
+)
+
+ideoque soliditas seu massa
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 442
+
+deinde
+
+M
+
+=
+
+1 3
+
+
+
+a
+
+(bb
+
++
+
+bc
+
++
+
+cc)
+
+,
+
+ tuudt
+
+=
+
+1 bbt +
+2
+
+2(c-b)tt
+3a
+
++
+
+(c-b)2 t4
+4aa
+
+=
+
+1 12
+
+aa
+
+(
+
+bb
+
++
+
+2bc
+
++
+
+3cc
+
+)
+
+,
+
+unde oritur intervallum
+
+AI
+
+=
+
+f
+
+=
+
+a ( bb + 2bc + 3cc ) 4(bb+bc+cc)
+
+et CI
+
+=
+
+a ( cc + 2bc + 3bb ) 4(bb+bc+cc) .
+
+Porro ob
+
+u4
+
+=
+
+b4
+
++
+
+4b3 (c-b)t
+a
+
++
+
+6bb(c-b)2 tt
+aa
+
++
+
+4b(c-b)3 t3
+a3
+
++
+
+(c-b)4 t4
+a4
+
+erit
+
+et facto t = a
+
+ u4dt
+
+= b4t
+
++
+
+2b3 (c-b)tt
+a
+
++
+
+2bb(c-b)2 t3
+aa
+
++
+
+b(c-b)3 t4
+a3
+
++
+
+(c-b)4 t5
+5a4
+
+( ) 
+
+u4dt
+
+=
+
+1 5
+
+a
+
+b4 + b3c + bbcc + bc3 + c4
+
+,
+
+denique
+
+ ttuudt
+
+=
+
+1 bbt3
+3
+
++
+
+b( c -b )t 4
+2a
+
++
+
+(c-b)2 t5
+5aa
+
+=
+
+1 30
+
+a3 (bb + 3bc + 6cc) .
+
+Ex his colligitur momentum inertiae respectu axis AC
+
+3M
+10
+
+b4 +b3c+bbcc+bc3 +c4 bb + bc + cc
+
+= 3M
+10
+
+b5 -c5 b3 -c3
+
+;
+
+at respectu axium ad AC in I normalium fit momentum
+
+3 20
+
+M
+
+b4 +b3c+bbcc+bc3 +c4 bb + bc + cc
+
++
+
+1 80
+
+Maa
+
+  
+
+8( bb + 3bc + 6cc )
+bb + bc + cc
+
+-
+
+5( bb + 2bc + 3cc )2 ( bb + bc + cc )2
+
+ , 
+
+quae reducitur ad hanc formam:
+
+3 20
+
+M
+
+
+
+b4
+
++
+
+b3c + bbcc + bc3 bb + bc + cc
+
++
+
+c4
+
++
+
+3 80
+
+(b+c)4 +4bbcc Maa (bb+bc+cc)2
+
+.
+
+COROLLARIUM 1
+
+510. Si b = c, prodit casus cylindri, quo fit AI = f = 1 a,momentum inertiae
+2
+
+respectu AC = 1 Mcc et momentum inertiae respectu axium ad illum in I
+2
+
+normalium = 1 Mcc + 1 Maa.
+
+4
+
+12
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 443
+
+COROLLARIUM 2
+
+511. Si b = 0, prodit casus coni recti, quo fit AI
+
+=f
+
+=
+
+3 4
+
+a; momentum
+
+inertiae
+
+respectu
+
+AC
+
+=
+
+3 10
+
+Mcc
+
+et
+
+momentum
+
+inertiae
+
+respectu
+
+axium
+
+ad
+
+illum
+
+in
+
+I
+
+normalium =
+
+3 20
+
+Mcc
+
++
+
+3 80
+
+Maa,
+
+ut
+
+supra.
+
+COROLLARIUM 3
+512. Ut omnia momenta respectu axium per I ductorum fiant aequalia, debet esse
+
+( ) 4 b4 + b3c + bbcc + bc3 + c4
+
+=
+
+aa
+
+
+
+(b+c)4 +4bbcc
+bb + bc + cc
+
+ideoque datis basibus coni truncati altitudo AC = a ita debet definiri, ut sit
+
+( ) 4(bb+bc+cc) b4 +b3c+bbcc+bc3 +c4
+
+aa =
+
+(b+c)4 +4bbcc
+
+.
+
+Hinc habebimus
+
+EXEMPLUM 3
+
+508. Sit corpus sphaeroides
+
+ellipticum conversione
+
+semiellisis AEB circa axem AB
+
+natum (Fig. 62), in cuius ergo
+
+medio I est centrum inertiae.
+
+Ponatur semiaxis AI = IB = a et
+
+coniungatus IE = c; erit
+
+uu
+
+=
+
+cc aa
+
+( 2at
+
+-
+
+tt )
+
+et
+
+in
+
+integralibus poni oportet t = 2a.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 444
+
+( ) 
+
+uudt
+
+=
+
+cc aa
+
+att - 1 t3
+3
+
+= 4 acc,
+3
+
+ideoque massam
+
+M
+
+=
+
+4 3
+
+
+
+acc,
+
+deinde
+
+( ) 
+
+tuudt
+
+=
+
+cc aa
+
+2 3
+
+at
+
+3
+
+-
+
+1 4
+
+t
+
+4
+
+=
+
+4 3
+
+aacc,
+
+ergo AI = f = a,porro
+
+( ) 
+
+ttuudt
+
+=
+
+cc aa
+
+1 at4 - 1 t5
+
+2
+
+5
+
+= 8 a3cc
+5
+
+et ob
+
+( ) u4 = c4 a4
+
+4aatt - 4at3 + t4
+
+erit
+
+( ) u4dt
+
+=
+
+c4 a4
+
+4 aat3 - at4 + 1 t5
+
+3
+
+5
+
+= 16 ac4 .
+15
+
+Ex his colligitur momentum inertiae respectu axis AB = 2 Mcc,at respectu axium ad
+5
+AB in normalium 1 M (aa + cc) . 5 EXEMPLUM 4
+
+514. Si corpus sit lens ex duabus segmentis sphaerae
+
+aeqalibus compositas (Fig. 63) seu ortum ex
+
+conversione figurae AEB, ex duobus semisegmentis
+
+circuli aequalibus AIE et BIE formatae, circa axem AB,
+
+in cuius ergo medio I erit centrum inertiae. Ponatur
+
+semiaxis AI = BI = a et IE = IF = b, erit diameter
+
+circuli =
+
+aa
+
++bb a
+
+,
+
+quem
+
+tantisper
+
+ponamus
+
+=
+
+2c,
+
+ut
+
+sit
+
+c
+
+=
+
+aa + bb 2a
+
+.
+
+Quare
+
+fiet
+
+uu
+
+=
+
+2ct
+
+- tt,et
+
+in
+
+integralibus
+
+superioribus poni debet t = a, quo facto ea debebunt
+
+duplicari, nisi quod AI = f per se sit = a, ideoque
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 445
+
+Hinc nanciscimur et et
+
+( ) A = M
+
+aa
+
++
+
+-2a 
+
+tuudt + ttuudt  uudt
+
+.
+
+
+
+tuudt
+
+=
+
+2 3
+
+a3c
+
+-
+
+1 4
+
+a4
+
+,
+
+
+
+uudt =aac
+
+-
+
+1 3
+
+a3
+
+( ) M = 2 aac - 1 a3 3
+
+
+
+ttuudt
+
+=
+
+1 2
+
+a
+
+4c
+
+-
+
+1 5
+
+a5
+
+
+
+u4dt
+
+=
+
+4 3
+
+a3cc
+
+-
+
+a4c
+
++
+
+1 5
+
+a5
+
+.
+
+Ex his colligitur momentum inertiae respectu axis AB
+
+=
+
+1 10
+
+M
+
+
+
+20acc -15aac + 3a 2 3c - a
+
+=
+
+1 10
+
+M
+
+
+
+a4
+
++ 5aabb +10b4 aa + 3bb
+
+,
+
+at respectu axium EF ad AB in I normalium :
+
+1 20
+
+M
+
+
+
+a3 -5aac+20acc 3c - a
+
+=
+
+1 20
+
+M
+
+
+
+7a4 +15aabb+10b4 aa + 3bb
+
+.
+
+PROBLEMA 42a
+
+515. Si corpus fuerit parallelepipedum rectangulum (Fig. 64), invenire eius axes principales eorumque respectu momentum inertiae.
+
+SOLUTIO
+Sit rectangulum BDbd basis parallelepipedi, cuius latera sint Bb = 2a, BD = 2b, altitudo vero = 2c,atque manifestum est in puncto medio parallelepipedi fore eius centrum inertiae et axes principales fore tres rectas per id punctum lateribus parallelas. Quaeratur ergo momentum inertiae respectu axis altitudini paralleli, qui basi in puncto medio G perpendiculariter insistet. Consideretur hoc rectangulum BDbd tanquam sectio basi
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 446
+
+parallela a centro inertiae distans intervallo = x ac ponatur GY = y et YZ = z, erit dxdydz elementum soliditatis seu massae dM, unde fit M = 8abc. Tum vero habebimus
+
+ xxdM =  xxdxdydz
+
+et bis integrando per y et z variabiles ponendoque y = a et z = b duplicentur integralia,
+
+ut per totam sectionem extendantur, erit
+
+
+
+xxdM
+
+=
+
+4ab
+
+xxdx
+
+=
+
+4 3
+
+abx3;
+
+iam posito x = c ac duplicando erit per totum parallelepipedum
+
+simili modo erit
+
+
+
+xxdM
+
+=
+
+A
+
+=
+
+8 3
+
+abc3 =
+
+1 3
+
+Mcc;
+
+
+
+yydM
+
+=
+
+B
+
+=
+
+1 3
+
+Maa;
+
+et
+
+ zzdM
+
+=c=
+
+1 Mbb
+3
+
+atque
+
+ yzdM = F = 0.
+
+Ex his concluditur momentum inertiae respectu axis principalis altitudini paralleli seu ad basin BDbd perpendicularis
+
+=
+
+B
+
++
+
+C
+
+=
+
+1 3
+
+M
+
+( aa
+
++
+
+bb)
+
+,
+
+deinde momentum inertiae respectu axis lateri Bb paralleli
+
+=
+
+1 3
+
+M
+
+(bb
+
++
+
+cc)
+
+et respectu axis lateri BD paralleli
+
+=
+
+1 3
+
+M
+
+( aa
+
++
+
+cc ) .
+
+COROLLARIUM 1
+516. Si ergo ABCDabce fuerit tale parallelepipedum rectangulum (Fig. 65), cuius massa sit = M, erunt eius axes principales lateribus AB,AC,AD paralleli per punctum medium transeuntes eritque momentum inertiae
+
+AB
+
+( ) 1 M AC2 + AD2
+12
+
+respectu axis lateri AC parallel = 1 M ( AB2 + AD2 ) 12
+
+AD
+
+( ) 1 M AB2 + AC2 .
+12
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 447
+
+COROLLARIUM 2
+
+517. Si corpus fuerit cubus, cuius latus = a, haec tria momenta fiunt inter se aequalia;
+
+ideoque momenta inertiae respectu omnium plane axium per centrum cubi ductorum
+
+erunt inter se aequalia et quidem =
+
+1 6
+
+Maa
+
+.
+
+Talis
+
+autem
+
+aequalitas
+
+in
+
+omnibus
+
+corporibus regularibus locum habere debet.
+
+PROBLEMA 43
+
+518. Si corpus fuerit globus excavatus (Fig. 66), ut cavitas sit etiam sphaera eodem centro praedita, definire eius momentum inertiae respectu omnium axium per eius centrum ductorum.
+
+SOLUTIO
+
+Sit I centrum et radius globi IA = a, cavitatis vero
+
+Ia = b, ut crassities crustae sphaericae sit = a ­ b =
+
+Aa, erit ergo massa huius globi cavi
+
+( ) =
+
+4 3
+
+
+
+a3 - b3
+
+, quae ponatur = M; omnes autem axes
+
+per centrum I ductos paria habere momenta inertiae per se est manifestum; quaeramus
+
+ergo momentum inertiae respectu axis AB. Ac si globus esset solidus, ob eius massam
+
+=
+
+4 3
+
+
+
+a3
+
+foret
+
+eius
+
+momentum
+
+inertiae
+
+=
+
+
+
+a3
+
+
+
+2 5
+
+aa
+
+=
+
+8 15
+
+
+
+a5
+
+,
+
+globi
+
+autem
+
+e
+
+medio
+
+sublati
+
+=
+
+8 15
+
+
+
+b5
+
+,quo
+
+ab
+
+illo
+
+subtracto
+
+remanere
+
+debet
+
+momentum
+
+inertiae globi cavi, quod ergo erit
+
+( ) = 8  15
+
+a5 - b5
+
+=
+
+2 5
+
+M
+
+
+
+a5 -b5 a3 -b3
+
+.
+
+Habebitur ergo momentum inertiae pro globo excavato respectu omnium axium per
+
+centrum ductorum
+
+=
+
+2 5
+
+M
+
+
+
+a4 +a3b+a2b2 +ab3 +b4 aa + ab + bb
+
+.
+
+COROLLARIUM 1
+519. Si b = 0, prodit casus globi solidi, cuius radius = a, pro quo momentum inertiae est ut supra 2 Maa respectu omnium axium per centrum ductorum.
+5
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Six.
+
+Translated and annotated by Ian Bruce.
+
+page 448
+
+COROLLARIUM 2
+520. Si crusta haec sphaerica fuerit tenuissima, ut sit proxime b = a, erit momentum inertiae = 2 Maa, quae formula valet pro superficie sphaerica. Sin autem crassitiem
+3
+Aa, quae sit = c = a ­ b, omnino negligere nolimus, erit momentum
+
+=
+
+2M
+5
+
+
+
+5a 4 c -10a3c 2 3aac -10acc
+
+=
+
+2M
+5
+
+(aa - ac) .
+
+SCHOLION
+521. Hi casus abunde sufficiunt non solum, ut hinc pro pluribus corporibus momenta inertiae depromere, sed etiam, si alia corpora occurrant, calculum eo facilius instituere valeamus. Quamobrem progrediamur ad motus gyratios corporum a gravitate sollicatorum definiendos, quandoquidem hic est praecipuus casus, ad quem haec tractatio accommodare solet.
+
+

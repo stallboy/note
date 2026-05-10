@@ -1,0 +1,5748 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 994
+
+Chapter 19
+CONCERNING THE MOTION OF CYLINDRICAL BODIES UPON A HORIZONTAL PLANE
+THEOREM 11
+926. While a cylindrical body is moving on a horizontal plane, the force with which it presses on the plane is vertical, and passes through the centre of a certain section of the cylinder made normal to the length.
+DEMONSTRATION The cylindrical body rests on the horizontal plane along a straight line parallel to the axis of the cylinder, in which the forces arise that are supporting the cylinder, and it happens that these forces are spread out along the whole length of that line. But since all these forces are normal to the horizontal plane and thus vertical and parallel to each other, one force gives a force equivalent to all these forces ; hence the direction of this equally is vertical and presses on the line at a certain point. If therefore the cylinder is cut normally to the length at this point, then the section is a circle and the force equivalent to all the pressing forces, because it is in this section to the point of contact, passes through the centre of this circle. Hence unless this section passes through the centre of inertia of the body, then the direction of the mean pressing force is not made in the section through the centre of inertia normal to the length, and the body rotates.
+EXPLANATION
+927. Therefore here we may consider cylinders, in which in the first place the axis of these are considered as if geometrical, to which all the sections made normally are equal circles, thus so that the body is a right cylinder, the motion of this, while we are to investigate the motion of this as it presses on the horizontal plane always. If the centre of inertia should be at the geometrical axis, then in any position the cylinder maintains a state of equilibrium (Fig. 117), but if the cut is considered a section of the cylinder made normal to the axis through the centre of inertia I, then let the centre of this cut be at G, and it is required for a state of equilibrium that the line GI is vertical, from which there is given a twofold state of equilibrium, the one in which the centre of inertia I lies below G, and the other in which it is situated above, of
+which that one is called the stable [position] and this other one the slipping position. But with
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 995
+
+all the cylinders the geometric axis has been placed horizontal, hanging vertically over the line of contact. Next it is required to know the three mechanical axis of the cylinder, which if we grant the distribution of the material in some manner, that can be drawn in some manner different from the geometric axis or along the length, on the position of which the determination of the motion chiefly depends. Through the centre of inertia I there is considered drawn a right line parallel to the geometric axis, which in most cases is usually a principal axis and it always remains horizontal. Therefore with these noted, in whatever manner the cylinder presses on the plane, the point T is noted in the section LMFN made through the centre of inertia I, where this circle touches the horizontal plane, and then also that section parallel to this is observed properly, at which the mean direction of the forces is acting, which is parallel to the line TG ; and neither the magnitude of the pressing force nor the distance of the section from the section through the centre of inertia, about which the cylinder is turning, is known, and at last henceforth can be determined from the motion; if indeed it can be effected by this force, so that the longitudinal axis of the cylinder always remains horizontal and the cylinder rests on the horizontal plane.
+
+SCHOLIUM 928. In the two motions to be investigated there is no need that the whole body should be formed in the shape of a cylinder, but it suffices if at the places on which it rests on the horizontal plane, that it has such a shape. Therefore here the motion pertains to all these bodies, which can be designated in terms of cylinders, for which they rest equally raised on both sides on horizontal planes only, while the mass of the body within these is extended in some manner, as comes about in cones, which are put in motion in a to and fro manner on boundaries which are considered to be allowed as circles only ; then also here the motion of pendulums is to be referred to, which are oscillating not about a line axis as we have assumed previously, but being changed into a material cylinder on each side [of the pendulum, see Fig. 124], while the mass of the pendulum hangs between these two cylinders, each resting on horizontal planes. Therefore if in these cases the mean sections are not circles, yet these two sections, about which the other centre of inertia is rotating, now in the other the force of compression can be viewed as a circle, because the figure comes to be considered so far, as much as the body rests on a horizontal plane. Moreover now also, unless bodies of this kind execute whole revolutions, neither indeed is it worth the effort, that the whole boundaries of these are cylinders, but it suffices if a part of these, with which it makes contact, should have such a figure, for which it is agreed to note that the longitudinal axis extends properly through the whole length of the body. On which account this can be extended to more cases, concerning which motion, it is to be maintained that the centre of inertia cannot have any motion from the forces acting, apart from that taken on the same line to the vertical ; thus so that the horizontal motion is of no consequence, unless such motion should be accepted from the outside, but that is then to be pursued uniformly ; in which since no difficulty arises, we do not attend to that here.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 996
+
+PROBLEM 111 929. If a cylindrical body is moving on a horizontal plane and the force is given, by which it is presses on the plane, to define the progressive motion, with which the centre of inertia of the body proceeds.
+
+SOLUTION A normal section is made to the axis of the cylinder passing through the centre of inertia I (Fig. 118), which body is either a continuous cylinder or only has been provided with cylindrical boundaries, as the circle LMFN is considered with equal basis, the centre of this is at G, but the centre of inertia of the body is at I, with the interval GI = f arising, so that in the position of rest the line LIGF maintains a vertical position, in which the centre of inertia I is shown above the centre of the circle G in the figure, because if it should be lower down, then the interval GI = f has to be taken as negative. But now the point of contact corresponds to the point T, thus so that a line normal to the plane of the circle at T is the line of contact falling on the horizontal plane Hh. Therefore the line drawn through the centre of the circle  GT parallel to the contact T is in the direction of the pressing force, with which the body is repelled by the horizontal plane, which force, in whatever other section it is situated, is put equal to  , as we consider that to be known. Again let the weight of the cylinder be equal to M, the radius of the circle GF = GT = e and the angle of declination  GL =  ; the height of the centre of
+
+inertia I above the horizontal IP = e + fcos , which is put equal to v. Therefore because we
+
+are inquiring about progressive motion and the weight separately urges along IP with a force equal to M, the pressing force  is considered to be applied upwards along IV to the centre of inertia I, thus so that the total force acting downwards is now equal to M -  ,and with the
+
+mass to be moved equal to M; and hence from the principles of motion there is found :
+
+ddv =
+
+-2g(M - )
+M
+
+dt 2
+
+and hence
+
+ M
+
+=
+
+1
+
++
+
+ddv 2 gdt 2
+
+or 
+
+= M (1+
+
+fdd cos 2 gdt 2
+
+
+
+),
+
+in which equation the angle  GL =  and therefore becomes known from the elevation of
+
+the centre of inertia IP = e + f cos  ; and unless a horizontal motion were impressed on the
+
+body, the point I is set in motion on the line PIV, on that either rising or falling, thus so that the point P remains fixed, from which the point of contact T is defined, because it is PT = f sin  . But if the body takes a horizontal motion, it keeps constantly uniform in
+
+direction and the motion of the point I becomes composed from this uniform rectilinear motion and from that vertical motion.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 997
+
+SCHOLIUM 930. But in addition in this body rotational motion can be generated, thus yet in order that both the point G as well as the line normal to the circle LMFN at G, which is the special axis of the cylinder, always remains in the same horizontal plane. Towards the investigation of this rotational motion separately from the progressive motion, we consider the centre of inertia I as at rest, about which a sphere is described, in that the circle LMFN always remains vertical, to which if a normal line is drawn through I, that is the longitudinal axis of the cylinder. In which condition all the observed rotational motions, of which the cylinder is capable, can be easily represented in the figure. But here before everything it is required to attend to the principal axis properly, about which the moments from the pressing force arising are to be defined.
+
+PROBLEM 112 931. If a cylindrical body is pressing on a horizontal plane in some position, and there is given both the pressing force  as well as a transverse section of the cylinder, in which it is present, to find the moments about the principal axes.
+
+SOLUTION A section of the cylinder made normally through the centre of inertia I lies in the plane of the
+
+table (Fig. 119) [the circle shown is an absolute reference circle], to which the line IZ is normal, and the line LIG passes through the [geometric] centre of this section G, thus in order that the interval IG = f and the angle ZIL =  . From G there
+
+is erected a normal GH to the plane of the
+table, as far as the section in which the pressing force  is acting, and let the
+
+interval GH = h, and above we have seen to
+
+be that
+
+
+
+= M (1+
+
+fdd ·cos 2 gdt 2
+
+
+
+)
+
+,
+
+the direction of the force is along the vertical H  [IZ lies in the plane of the table] and thus parallel to IZ . Now a sphere is considered to be described about the centre of inertia I, with the radius taken arbitrarily equal to 1, the principal axes of the body are directed towards the points A,B, C on the surface of this sphere, and the arcs for the determination of these points are called LA =  , LB =  , LC = ;
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 998
+
+likewise ZA = l, ZB = m, ZC = n with ZL =  arise; then the angles ZLA = f ,ZLB = g, ZLC = h, in order that [from the cosine rule for sides of sph. triangles :]
+
+cos l = cos cos  + cos f sin sin  , cos m = cos cos  + cos g sin sin  , cos n = cos cos  + cosh sin sin  .
+
+And indeed in the first place the force H  =  is resolved along the directions parallel to the directions of the principal axes, and which resolution is likewise put in place, if this force should be applied at the centre I along the direction IZ ; from this moreover there arises :
+the force along IA =  cos l , the force along IB =  cos m , the force along IC =  cos n ,
+
+but which forces are understood now to be applied at the point H. The line IH is drawn which
+
+is equal to (ff + hh) , [recall that HGI is the right angle in the triangle] cutting the sphere at
+
+F,
+
+then
+
+the
+
+tang
+
+GIH
+
+=
+
+h f
+
+and the arc LF with the arc ZL makes the right angle ZLF . Putting
+
+the arc LF = e , then
+
+h=-f
+
+tang e
+
+and
+
+IH
+
+=
+
+-
+
+f cos e
+
+,
+
+thus
+
+in
+
+order
+
+that
+
+in
+
+place
+
+of
+
+the
+
+interval
+
+GH = h we retain in the calculation the arc LF = e in a more convenient manner. But now it is
+
+required to investigate, how the line I F is inclined to the principal axes, which inclination is
+
+defined through the arcs FA, F B and F C. Moreover it is found [from the sph. triangles FLA,
+
+etc, again from the cosine rule, noting complements of rt. angles, that]
+
+cos AF = cos cos e + sin f sin sin e , cos BF = cos cos e + sin g sin sin e , cos CF = cos cos e + sin h sin sin e.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 999
+
+Now the lines IA, I B, IC between
+
+themselves represent the principal
+
+axes of the body (Fig.120), between
+
+which the line IH
+
+=
+
+-
+
+f cos
+
+e
+
+is present,
+
+and the coordinates parallel to the axis
+
+for the point H are
+
+IN = IHcosAF ,
+
+NM = IHcosBF ,
+
+MH = IHcosCF and the forces at H applied parallel to the axis are :
+
+the force Ha =  cos l, the force Hb =  cos m, the force Hc =  cos n , from which there arises the moments about the principal axes :
+
+Mom. about the axis IA in the sense BC =   IH ( cos n cos BF - cos m cos CF ), Mom. about the axis IB in the sense CA =   IH ( cos l cos CF - cos n cos AF ), Mom. about the axis IC in the sense AB =   IH ( cos m cos AF - cos l cos BF ).
+
+We have indicated these moments above by the letters P, Q, R, and if we substitute the values found above, we obtain :
+
+(sine cos (sin g sin cos - sinhcos sin ) + 
+
+P=
+
+- f  cos e 
+
++ cos e sin (coshcos sin - cos g sin cos + sin sin sine sin (sin g cosh - cos g sinh ))
+
+)
+
++
+
+ 
+
+.
+
+But there is
+
+sin
+
+g cosh
+
+-
+
+cos
+
+g
+
+sin h
+
+=
+
+sin (g
+
+-
+
+h)
+
+=
+
+-
+
+cos  sin sin
+
+,
+
+and then indeed
+
+sin g sin cos - sinhcos sin = cos f sin ,
+
+coshcos sin - cos g sin cos = sin f sin ,
+
+thus so that for both P as well as for Q and R we have from these correspondences :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1000
+
+P
+
+=
+
+-
+
+f cos e
+
+(cos
+
+f
+
+sin
+
+
+
+sine cos 
+
++
+
+sin f
+
+sin 
+
+cos e sin 
+
+- cos
+
+sine sin 
+
+),
+
+Q
+
+=
+
+-
+
+f cos e
+
+(cos
+
+g sin
+
+sine cos
+
+
+
++
+
+sin g
+
+sin
+
+cos e
+
+sin
+
+
+
+-
+
+cos
+
+sine sin
+
+
+
+)
+
+,
+
+R
+
+=
+
+-
+
+f cos e
+
+(cos h
+
+sin
+
+sin e
+
+cos
+
+
+
++
+
+sin h
+
+sin
+
+cos
+
+e
+
+sin
+
+
+
+-
+
+cos
+
+sin
+
+e
+
+sin
+
+
+
+)
+
+.
+
+COROLLARY 1 932. Since it is the case that - f tang e = h and h denotes the distance GH, by which the
+section, in which the pressing force lies, standing apart from the section in which the centre of inertia is present, then
+
+P = - f sin f sin  cos  +  h( cos f sin cos  - cos sin ) , Q = - f sin g sin cos  +  h( cos g sin cos  - cos sin ) , R = - f sinh sin cos  +  h( cosh sin cos  - cos sin ) .
+
+COROLLARY 2 933. Hence while the motion of the body is found, it is required to define not only the magnitude of the pressing force  but also the interval GH = h , in order that the place may be found, where the average position of the pressing force is applied.
+
+EXPLANATION 934. The relation between the arcs , , and the angles f, g, h supplies certain significant
+properties, among which substitutions called upon can be put in place in the solution. For in the first place for the difference of these angles we find
+
+cos
+
+(
+
+f
+
+-
+
+g)
+
+=
+
+-
+
+cos sin
+
+ 
+
+cos sin
+
+,
+
+cos
+
+(
+
+g
+
+-
+
+h)
+
+=
+
+-
+
+cos sin
+
+cos sin
+
+,
+
+cos
+
+(h
+
+-
+
+f
+
+)
+
+=
+
+-
+
+cos sin
+
+ 
+
+cos sin
+
+,
+
+sin
+
+(
+
+f
+
+-
+
+g)
+
+=
+
+-
+
+cos sin sin
+
+,
+
+sin
+
+(
+
+g
+
+-
+
+h)
+
+=
+
+-
+
+cos  sin sin
+
+,
+
+sin
+
+(h
+
+-
+
+f
+
+)
+
+=
+
+-
+
+cos sin sin
+
+.
+
+Hence now the angles g and h can be reduced to the angle f on account of g = f - (f - g) and
+
+h = f + (h- f) ,
+
+from which there is deduced
+
+sin g
+
+=
+
+- sin f cos cos +cos f cos sin sin
+
+,
+
+sin h
+
+=
+
+- sin f
+
+cos cos -cos f cos sin sin
+
+,
+
+cos
+
+g
+
+=
+
+-
+
+cos
+
+f
+
+cos cos -sin f sin sin
+
+cos
+
+,cos h
+
+=
+
+- cos f
+
+cos cos +sin f cos sin sin
+
+.
+
+But if with two taken together, either cos f or sin f is destroyed, and the following formulas
+
+are obtained :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1001
+
+I. sin f sin cos + sin g sin cos + sinh sin cos = 0 11. cos f sin cos + cos g sin cos + cosh sin cos = 0 111. sin f sin = - cos g sin cos + coshcos sin 1V. sin g sin = - cosh sin cos + cos f cos sin V. sinh sin = - cos f sin cos + cos g cos sin VI. sin f sin = sin g sin cos - sinhcos sin VII. cos g sin = sinh sin cos - sin f cos sin VIII. cosh sin = sin f sin cos - sin g cos sin IX. sin f cos f sin2  + sin gcos g sin2 + sinhcosh sin2  = 0 X. sin2 f sin2  + sin2 g sin2  + sin2 h sin2  = 1 XI. cos2 f sin2  + cos2 g sin2  + cos2 h sin2  = 1; with the help of these, simpler equations can be returned leading to the determination of the motion.
+
+PROBLEM 113 935. If in general a cylindrical body is moving in some manner on a horizontal plane, to show the equations, from which at some time the position of this and the rotational motion can be determined.
+
+SOLUTION With the denominations maintained made in the previous problem, the centre of inertia I is considered at rest, around which there is described a sphere, (Fig. 121), the vertical point of this is Z and ZDX is a fixed vertical circle, in which the central line IL initially has the position ID . But after the time t that arrives at L, and the arc ZL =  is put in place and the angle XZL =  , and
+hence the position of the principal axes, of which the poles are A, B, C, are defined thus, in order that the arcs are :
+
+LA =  , LB =  , LC =  and the angles ZLA = f, ZLB = g, ZLC = h, which are constant quantities, from which with the variable arc ZL =  , thus the arcs ZA = l , ZB = m, ZC = n, are defined so that [from the cosine rule for sph. triangles]:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1002
+
+cos l = cos cos  + cos f sin sin  ,
+cos m = cos cos  + cos g sin sin  ,
+cos n = cos cos  + cosh sin sin  .
+But if now the moments of inertia of the body about the principal axis IA, IB,IC are Maa, Mbb, Mcc with the mass of the body present M, moreover  is the pressing force, and the section, in which this arises, is separated from I by the interval equal to s, which because this is variable, must be written s in the above formulas in place of h. Now the body rotates about the pole O with an angular speed equal to  ' in the sense ABC, and on putting the arcs OA =  , OB =  , OC =  there becomes
+
+ 'cos = x,  'cos  = y,  'cos  = z ,
+
+and in the first place we have :
+
+
+
+= M 1
+
++
+
+fdd cos 2 gdt 2
+
+
+
+,
+
+[Relating the unbalanced vertical force on the centre of inertia or mass to the vertical
+
+acceleration of this point.]
+
+then these three equations :
+
+aadx
+
++
+
+(cc
+
+- bb)
+
+yzdt
+
+=
+
+-2 M
+
+fg
+
+dt sin f sin
+
+sin
+
+
+
++
+
+2 gs M
+
+dt( cos f sin cos  - cos sin ),
+
+bbdy
+
++
+
+(aa
+
+-
+
+cc)
+
+xzdt
+
+=
+
+-2 M
+
+fg
+
+dt
+
+sin
+
+g
+
+sin
+
+sin
+
+
+
++
+
+2 gs M
+
+dt( cos g sin cos  - cos sin ), ,
+
+ccdz
+
++
+
+(bb
+
+-
+
+aa)
+
+xydt
+
+=
+
+-2 M
+
+fg
+
+dt
+
+sin h
+
+sin
+
+sin
+
+
+
++
+
+2 gs M
+
+dt( cosh sin cos  - cos sin ).
+
+[Relating the rate of change of the angular momentum (a concept yet to be defined by Euler
+
+in a later work) to the unbalanced moments.]
+
+In addition we have these three equations :
+
+dl sin l = dt(y cos n - z cos m) = d (cos sin  - cos f sin cos  ),
+dm sin m = dt(z cos l - x cos n) = d (cos sin  - cos g sin cos  ),
+dn sin n = dt(x cos m - y cos l) = d (cos sin  - cosh sin cos  ), [For a general point on the unit sphere with the coordinates cos l,cos m,cos n , expressing the kinematic relation between the components of the angular speeds about the principal axes and the corresponding linear tangential components of the speeds normal to the axes, on taking account of the senses of the velocities.] but of which only two suffice to be taken, thus in order that the above six equations, from which it is required to determine just as many variables x, y, z,  , ' and  at the given time t. Finally from the positions of the angles XZA =  , XZB =  , XZO = , there becomes
+d sin2 l = - dt (ycosm + zcosn)
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1003
+
+so that a single equation suffices to be resolved. But since LZA =  - , there becomes
+
+cos(
+
+-)
+
+=
+
+cos -cos l cos  sin l sin 
+
+and
+
+sin( -)
+
+=
+
+sin f sin sin l
+
+
+
+,
+
+from which
+
+(d 
+
+- d) cos (
+
+-)
+
+=
+
+-dl
+
+sin f sin sin2 l
+
+cos l
+
+=
+
+(d -d )(cos -cos l cos
+sin l sin 
+
+)
+
+,
+
+and thus
+
+d =
+
+-dt(
+
+y
+
+cos m+ z sin2 l
+
+cos
+
+n
+
+)
+
++
+
+dl sin f sin cos l sin  sin l(cos -cos l cos  )
+
+,
+
+and hence also at the given time the angle is defined; from which investigations the motion
+
+of the body is understood perfectly well.
+
+COROLLARY I
+
+936. Since it is the case that
+
+cos - cos l cos  =
+
+sin  (cos sin  -
+
+cos
+
+f
+
+sin 
+
+cos
+
+)
+
+=
+
+dl
+
+sin l sin  d
+
+,
+
+then and hence
+
+d
+
+=
+
+-dt(
+
+y cos m+ z cos n sin2 l
+
+)
+
++
+
+d
+
+sin f sin sin2 l
+
+cos l
+
+,
+
+d sin2 l = -dt(y cos m + z cos n) + d  cos  sin f sin cos + d  sin  sin f cos f sin2  .
+
+Moreover like expressions for d sin2 m and d sin2 n are found, which are collected
+
+into a single sum, in order that
+
+giving
+
+sin2 l + sin2m + sin2n = 2 , d = -dt(x cos l + y cos m + z cos n)
+
+by nos. I. and IX. § 934, where xcosl + ycosm + zcosn denotes the cosine of the arc ZO
+
+multiplied by  ' .
+
+COROLLARY 2 937. From the equations found for dl sin l, dm sin m, dn sin n we deduce
+
+dl sin l cos + dm sin m cos + dn sin n cos = d  sin 
+
+and with the values substituted for dt we arrive at d  = -dt( x sin f sin  + y sin g sin + z sinh sin )
+
+with the help of the reduction treated above.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1004
+
+COROLLARY 3 938. Moreover from the three former equations we deduce on account of
+
+xdl sin l + ydm sin m + zdn sin n = 0
+
+this equation aaxdx + bbydy + cczdz
+
+=
+
+- 2 fg
+M
+
+dt sin (x sin fsin + y sin g sin + z sinh sin)
+
+=
+
+2 fg M
+
+d
+
+sin
+
+
+
+= -2 fgd  cos 1
+
++
+
+fdd cos  2 gdt 2
+
+ ,
+
+hence the integral of this is :
+
+aaxx
+
++
+
+bbyy
+
++
+
+cczz
+
+=
+
+C
+
+-
+
+4
+
+fgcos
+
+-
+
+ff d
+
+ 2 sin2 dt 2
+
+
+
+.
+
+SCHOLION 939. If in our sphere there is drawn the great horizontal circle YMX, then it is necessary that
+
+the longitudinal axis of the cylinder is always found on this. The anterior boundary of this
+
+can touch the circle at M, and because both ML and MZ are quadrants, the angles MZL and MLZ are right, and thus the angle ZML =  and the arc XM equals the angle XZM = 90° +  .
+
+Then, because the point M is able to move only on the circle XY , the pole of rotation O by necessity must be situated in the quadrant ZM. Hence if the arc OM is put equal to , on account of the angular speed equal to  ' pointing in the sense ABC in the element of time dt
+
+the point M proceeds backwards towards X along the element of arc equal to  'dt sin ; now
+
+there is
+
+sin = cos OZ = cos cos l + cos cos m + cos  cos n ,
+
+and thus
+
+ ' sin = x cos l + y cos m + z cos n ,
+
+thus in order that - d = dt(x cos l + y cos m + z cos n) ,
+
+as we find in corollary 1. Then since in triangle OZL (Fig.122) let ZO = 90° - , ZL =  and OZL = 90° , then
+
+cos OL = sin cos  ,
+
+sin OLZ
+
+=
+
+cos  sin OL
+
+and
+
+cos OLZ
+
+=
+
+sin sin  sin OL
+
+on
+
+account
+
+of
+
+cot OLZ
+
+=
+
+sin  sin cos 
+
+.
+
+Whereby if in the element of time dt the point L is rotating about O at l, then
+
+Ll =  ' dt sin OL and the angle OLl is right; hence with the circle l drawn to the
+
+perpendicular Zl there arises  = Ll cos Z Ll = Ll sin OLZ =  ' dt cos ,
+
+but then L = -d  and thus d  = -  'dt cos. Which formula compared with that, which we
+
+found in § 937 gives
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1005
+
+ ' cos = x sin f sin + y sin g sin + z sinh sin ; but then xx + yy + zz =  '  ' = (x cos l + y cos m + z cos n)2 + (x sin f sin + y sin g sin + z sinh sin)2 :
+
+which equality is confirmed by the equation xdl sin l + ydm sin m + zdn sin n = 0 . Now lest we
+be overwhelmed by a multitude of symbols, we set out the case, in which the longitudinal axis of the cylinder is likewise a principal axis.
+
+PROBLEMA 114 940. If the longitudinal axis of a cylindrical body drawn through the centre of inertia likewise should be a principal axis and that moving on a horizontal plane in some manner, to define the motion of this cylinder.
+
+SOLUTIO Since the points A and M coincide in one point, the two remaining principal poles B and C are
+present in the vertical circle ZL (Fig. 123), and on this account:
+
+LA =  = 90°, LB =  ,
+
+LC =  = 90° - ;
+
+ZLA = f = 90°, ZLB = g = 180°, ZLC = h = 0;
+
+and hence
+ZA = l = 90°, ZB = m =  +  and ZC = n =  - =  +  - 90° . With which values put in place we have these equations :
+
+ M
+
+=1
+
++
+
+fdd cos 2 gdt 2
+
+aadx
+
++
+
+(cc
+
+-
+
+bb)
+
+yzdt
+
+=
+
+-
+
+2 fg M
+
+dt
+
+sin
+
+,
+
+bbdy
+
++
+
+( aa
+
+-
+
+cc)
+
+xzdt
+
+=
+
+-
+
+2 gs M
+
+dt
+
+sin
+
+(
+
++
+
+
+
+)
+
+,
+
+ccdz
+
++
+
+(bb
+
+-
+
+aa)
+
+xydt
+
+=
+
+2 gs M
+
+dt
+
+cos(
+
++
+
+
+
+),
+
+ysin ( + ) - z cos ( + ) = 0 ,
+
+- xdtsin ( +  ) = d sin ( +  )
+
+or d  = -xdt et d = -dt ( y cos ( + ) + z sin ( + )) .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1006
+
+There is put y = u cos ( + ) and z = u sin ( + ) ,
+
+and
+
+for
+
+dt
+
+there
+
+is
+
+written
+
+-
+
+d x
+
+or x =
+
+-
+
+d dt
+
+,
+
+with
+
+which
+
+changed
+
+made
+
+our
+
+equations
+
+become :
+
+I.
+
+ M
+
+=1
+
++
+
+fdd cos 2 gdt 2
+
+,
+
+11.
+
+- aadd  +
+
+1 2
+
+(cc
+
+-
+
+bb)
+
+uudt 2
+
+sin
+
+2(
+
++ )+
+
+2 M
+
+fgdt2 sin  = 0 ,
+
+111. bbdu cos ( + ) - ( aa + bb - cc )ud  sin ( + ) =
+
+-2 M
+
+gsdt sin ( + ),
+
+1V. ccdu sin ( + ) + ( aa - bb + cc )ud  cos ( + ) =
+
+2 M
+
+gsdt cos ( + ),
+
+and
+
+V. d = -udt.
+
+From three and four on eliminating s we arrive at,
+
+bbdu cos2 ( +  ) + ccdu sin2 ( +  ) - 2( bb - cc ) ud  sin ( +  ) cos ( +  ) = 0,,
+
+and the integral of this is
+
+u
+
+=
+
+C
+bb+cc+(bb-cc) cos(2
+
++2 )
+
+,
+
+which value substituted in II. presents this equation :
+
+( ) -2aadd
+
++
+
+CC(cc-bb) dt2sin 2( +  )
+(bb+cc+(bb-cc)cos2( +  ))2
+
++
+
+dt 2 sin
+
+4
+
+fg
+
++
+
+2
+
+ffdd cos dt 2
+
+=0_
+
+which equation multiplied by d  and integrated gives,
+
+-aad
+
+
+
+2
+
++
+
+1 2
+
+CC
+
+dt 2
+
+bb + cc + ( bb - cc )cos 2(
+
++
+
+
+
+)
+
+-
+
+4
+
+fgdt
+
+2
+
+cos
+
+
+
+-
+
+ffd  2 sin2  + Ddt2 =
+
+0
+
+or
+
+( ) d2
+
+aa + ff sin2 
+
+=
+
+dt
+
+2
+
+ 
+
+D
+
+-
+
+4
+
+fg
+
+cos
+
+
+
+-
+
+1 2
+
+CC
+
+dt 2
+
+bb+cc+(bb-cc)cos2(
+
++
+
+
+
+)
+
+ 
+
+,
+
+thus there is produced :
+
+d  (aa+ ff sin2  )(bb+cc+(bb-cc)cos2( +  ))
+
+dt =
+
+,
+
+( ) (
+
+D
+
+-
+
+4
+
+fg
+
+cos
+
+
+
+)(
+
+bb
+
++
+
+cc
+
++
+
+(bb
+
+-
+
+cc
+
+)cos
+
+2(
+
++
+
+
+
+))
+
+-
+
+1 2
+
+CC
+
+Now in the time t given equally by  and u, we deduce hence the pressing force  and again
+
+the distance s from this equation:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1007
+
+2 M
+
+gsdt = (cc - bb) du sin ( + ) cos ( + ) + aaud  + (cc - bb)ud  cos 2( + ).
+
+Then we now obtain :
+
+x
+
+=
+
+-d  dt
+
+,
+
+y = u cos ( +  ) et
+
+z = u sin( +  )
+
+ and then also  = - udt .
+
+COROLLARY I
+
+941. If initially the point L were at D in order that ZD = r and with everything at rest, on
+
+putting t = 0 then u = 0,
+
+d dt
+
+=
+
+0, on account of  '
+
+=
+
+0 ; and thus it is necessary to define
+
+the constants, in order that C = 0 and D = 4 fg cos r ; thus there becomes
+
+dt = d 
+
+aa+ ff sin2  4 fg( cos r -cos  )
+
+,
+
+and thus for  > r . Again u = 0, hence = 0 and  ' = 0 ; moreover the pressing force  hence
+
+easily becomes known, and when  can be increased to 90°, as if the body falls forward.
+
+Hence here the motion neither depends on the position of the principal axes IB or IC nor on
+
+the radius of the base of the cylinder e.
+
+COROLLARY 2 942. If initially the line IL were vertical or  = 0 and the body begins to rotate about that line
+
+with an angular speed in the sense AB, in order that O should be at L and thus  = 90°,  =  and  = 90° - : then initially
+
+x
+
+=
+
+-
+
+d dt
+
+=
+
+0,
+
+y =  cos
+
+and z =  sin
+
+Hence the constants become
+
+C =  (bb
+
++ cc + (bb - cc) cos 2 )
+
+and
+
+D = 4 fg +
+
+1 2
+
+
+
+(bb
+
++
+
+cc
+
++
+
+(bb
+
+-
+
+cc
+
+)
+
+cos
+
+2
+
+)
+
+,
+
+thus it is deduced that
+
+u
+
+=
+
+ (bb+cc+( bb-cc )cos
+bb+cc+( bb-cc )cos2(
+
+2 ) +
+
+)
+
+and
+
+( ) d  2 (aa+ ff dt 2
+
+sin2
+
+)
+
+=
+
+4fg
+
+1- cos 
+
++
+
+1 2
+
+
+
+(bb
+
+-cc)(bb
+
++
+
+cc
+
++
+
+(bb
+
+-
+
+cc)
+
+cos
+
+2
+
+)(
+
+cos2(
+
++
+
+
+
+)
+
+-
+
+cos
+
+2
+
+)
+
+bb+cc+( bb-cc )cos2( +  )
+
+COROLLARY 3 943. If is should be the case that bb = cc, there becomes :
+
+dt = d 
+
+aa+ ff sin2  4 fg(1-cos  )
+
+and the line IL remains vertical always and the body proceeds to rotate uniformly about that
+
+line ; for since the denominator contains the term
+
+(1-
+
+cos
+
+
+
+)
+
+=
+
+sin
+
+1 2
+
+
+
+2 , a finite arc 
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1008
+
+cannot be completed in a finite time ; which likewise comes about, if either = 0 or  = 0 , that is if the line IL should be a principal axis.
+
+SCHOLIUM 944. Unless the longitudinal axis is likewise a principal axis of the body, on account of the multitude of letters it is scarcely apparent, how the formulas elicited above can be set out generally, that yet we undertake below. Now if we consider only the motion of this kind of cylindrical bodies as if they were infinitely small, according to which it is required that the centre of inertia I lies below the centre of the circle G on the central line LF (fig. 118) and an infinitely small body is disturbed from the resting position, the smallest oscillations or vacillations are arising, the form of which it is possible to determine from our general formulas. Here there is no need that the whole body is a cylinder, but it suffices, if the ends of this around M and N are cylinders, firmly supported by horizontal planes P and Q (Fig. 124), that also suffices, if only about the point of each contact the shape should be cylindrical, if indeed we admit only infinitely small motions. Then between the supports P and Q it is possible to fix the body of some kind of pendulum FmHn, in order that the pendulum arises not about some fixed axis line, but about cylindrical ends resting freely on horizontal planes, and it is required to determine the oscillatory motion of this. Hence in such a pendulum in the first place the centre of inertia I is noted, through which the line mn is drawn parallel to the geometrical axis MN of the cylinder, which is the longitudinal axis that continually remains horizontal. Again there is drawn from I to MN the perpendicular line IGL, which if it were vertical, the body turns from rest, and if we put the interval GI equal to f, we must take the letter f negative in the above formulas. Then for the cylindrical shapes of the ends let the radius of the base be equal to e, but which, as we have seen, is completely missing from the computation, thus likewise the ends can be thicker or more slender. But if the line IG = f should be less than GF = e and the whole body is turning above the supports P and Q, a motion is produced in a like manner to these which are accustomed to arise from a disturbed cone. But whatever the centre of inertia shall be I, it remains in the same vertical line, from which the whole investigation is deduced about the rotational motion to be defined, in which we consider the centre of inertia as being at rest.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1009
+
+PROBLEM 115
+
+945. If the body, which rests with the cylindrical basis on horizontal planes, if disturbed an infinitely small amount from the position of rest and to that perhaps likewise an infinitely small motion is impressed, to determine the vacillatory motion by which it is disturbed.
+
+SOLUTION
+
+In our general formulas the interval GI = f at first is established as negative, then the arc ZL =  , by which the central line LGI declines from the vertical position (Fig. 121), must be
+
+considered as infinitely small, and likewise the angular speed ' , and thus from which the
+
+quantities x =  ' cos , y =  ' cos  , z =  ' cos 
+
+as they must be treated as vanishing. Hence in whatever manner the principal axes IA, IB, IC should be arranged about the central axis GI and the longitudinal axis mn, the position of which is defined with the arcs LA =  , LB =  , LC =  ,
+
+and then with the angles ZLA = f, ZLB = g, ZLC = h ,
+
+in the first place we have sin  =  , cos  = 1,
+
+whence the products xy, xz and yz can be omitted ;
+
+from which there becomes cos l = cos , cos m = cos and cos n = cos ;
+
+problem 113 on account of
+
+and the equations containing the solution from
+
+ M
+
+=1-
+
+fdd cos 2 gdt 2
+
+=1,
+
+will be :
+
+I. aadx = 2 fgdt sin fsin + 2 fgsdt cos f sin ,
+
+II. bbdy = 2 fgdt sin g sin + 2gsdt cos g sin,
+
+III. ccdz = 2 fgdt sinh sin + 2gsdt cosh sin.
+
+from which from § 938 this integration has been derived
+
+aaxx + bbyy + cczz
+
+=C
+
+- 2 fg
+
+-
+
+ff
+
+d  2 dt 2
+
+on
+
+account
+
+of
+
+cos 
+
+=1-
+
+1 2
+
+
+
+,
+
+since
+
+it
+
+is
+
+not
+
+possible
+
+to
+
+neglect
+
+here
+
+the
+
+infinitely
+
+small
+
+ .
+
+Then we have:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1010
+
+IV .
+
+y cos - z cos =
+
+-
+
+d dt
+
+cosf
+
+sin 
+
+,
+
+V.
+
+z cos - x cos =
+
+-
+
+d dt
+
+cosg
+
+sin
+
+,
+
+VI. x cos
+
+- y cos
+
+=
+
+-
+
+d dt
+
+cosh sin
+
+and from § 936 and §937
+
+d  = -dt ( x sin f sin + y sin g sin + z sinh sin ) ,
+
+d = -dt ( x cos + y cos + z cos ) .
+
+since now there arises then
+
+IV. x + V. y + VI. z = 0 , x sin f sin + y sin g sin + z sinh sin = 0.
+
+Following from I., II., III. by calling upon the help of formulas I. and II., from § 934 we deduce
+aax cos + bby cos + ccz cos = A,
+
+and for the interval s being determined : aadx cos f sin + bbdy cos g sin + ccdz cosh sin = 2gsdt.
+
+Now we put in place d  = -udt and d = -vdt ,
+
+and on account of
+
+x cos f sin + y cos g sin + z cosh sin = 0
+
+we follow with
+
+x = u sin f sin + v cos , y = u sin g sin + v cos , z = u sinh sin + v cos and hence
+A = u (aa sin f sin cos + bb sin g sin cos + cc sinh sin cos )
+( ) + v aa cos2  + bb cos2 + cc cos2  .
+We put as an abbreviation
+
+bb coshcos sin - cc cos g sin cos = A cc cos f cos sin - aa cosh sin cos = B aa cos g cos sin - bb cos f sin cos = C
+
+and there arises
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1011
+
+A cos f sin + Bcos g sin + C coshsin = 0
+
+aa cos2  + bb cos2  + cc cos2  = D
+
+aa sin f sin cos + bb sin g sin cos + cc sinh sin cos = F
+
+and we have :
+
+v=
+
+A-Fu D
+
+,
+
+x
+
+=
+
+Acos +Au D
+
+,
+
+y
+
+=
+
+Acos +Bu D
+
+,
+
+z
+
+=
+
+Acos +Cu D
+
+,
+
+which values, to be substituted into the integrated equation embracing the vim vivam [i. e.
+
+double the kinetic energy], on account of
+
+d dt
+
+= -u give:
+
+( ) ( ) AAD+2 Au Aa2 cos +Bb2 cos +Cc2 cos +uu A2a2 +B2b2 +C2c2
+
+DD
+
+= C - 2 fg - ff uu
+
+which equation on account of
+
+Aaa cos + Bbb cos + Ccc cos = 0
+
+goes into this :
+( ) AAD + A2a2 + B2b2 + C2c2 uu = CDD - 2DDfg - DDff uu
+
+where, if in place of CDD - AAD there is put BDD , becomes
+
+Again we may put in place
+
+D ( B-2 fg )
+u=
+( ) A2a2 +B2b2 +C2c2 +DDff 
+
+A2a2 + B2b2 + C2c2 = DDHH,
+
+and on rejecting the infinitely small term DDff  we have :
+
+D ( B-2 fg )
+
+u=
+
+H
+
+and
+
+dt = -Hd  ,
+(B-2 fg )
+
+from which we deduce
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1012
+
+or then indeed and hence
+
+t = Const. + H Acos  2 fg
+
+2 fg
+
+B
+
+=
+
+B 2 fg
+
+cos
+
+(t +
+
+)
+H
+
+2
+
+fg
+
+and
+
+u=
+
+B H
+
+sin
+
+(t +
+
+)
+H
+
+2
+
+fg
+
+v
+
+=
+
+A D
+
+-
+
+FB DH
+
+sin
+
+(t +
+
+)
+H
+
+2
+
+fg
+
+;
+
+
+
+= D-
+
+At D
+
+-
+
+F D
+
+B 2 fg
+
+cos
+
+(t
+
++
+
+)
+H
+
+2
+
+fg
+
+=
+
+D
+
+-
+
+At D
+
+-
+
+F D
+
+.
+
+Then we find :
+
+( ) s = - Bf DHH 2g
+
+aabb sinhcosh sin2  + aacc sin g cos g sin2  + bbcc sin f cos f sin2 
+
+cos
+
+(t+ )
+H
+
+2
+
+fg
+
+.
+
+And then indeed there is
+
+'
+
+'
+
+=
+
+xx +
+
+yy
+
++
+
+zz
+
+=
+
+AA-2 AFu+(AA+BB+CC)uu
+DD
+
+and thus all have been defined at a given time. Furthermore here it is helpful to note that AA + BB+ CC = DD+ FF , thus in order that  '  ' = vv + uu.
+
+946. Since now
+
+COROLLARY 1
+
+=
+
+B 2 fg
+
+cos
+
+(t
+
++
+
+)
+H
+
+2 fg
+
+,
+
+it is apparent that the arc ZL =  or the declination of the line LI varies from the vertical
+
+position according to the like manner of a pendulum and the rocking motion of this line LI to
+
+be isochronous with the oscillations of a pendulum, the length of which is equal to
+
+HH f
+
+,
+
+which length is equal to :
+
+A2a2 +B2b2 +C2c2 DDf
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1013
+
+COROLLARY 2
+
+947. Again since
+
+
+
+=
+
+D
+
+-
+
+At D
+
+-
+
+F D
+
+the point L if rotating in a mean motion around the vertical Z with an angular speed equal to
+
+A D
+
+;
+
+now
+
+the
+
+mean
+
+position
+
+ought
+
+to
+
+be
+
+corrected
+
+by
+
+the
+
+small
+
+amount
+
+F D
+
+.
+
+But
+
+if
+
+the
+
+constant
+
+A = 0, then angle DZL is changed for a short while, unless F = 0 .
+
+COROLLARY 3 948. Hence if the rotations of the body about the axis vertical IZ are excluded, so that A = 0, and initially  = 0,  = r and the angular speed  ' =  , the constants may be defined thus,
+so that
+
+Hence and thus
+
+D
+
+=
+
+Fr D
+
+,
+
+r=
+
+B cos 
+2 fg
+
+2 fg H
+
+and
+
+
+
+=
+
+( DD+FF ) B
+DDHH
+
+ 
+
+sin
+
+
+
+2 fg H
+
+2 
+
+.
+
+B = r 2 fg =
+
+ DH
+
+( ) cos 
+
+2 fg H
+
+sin 
+
+2 fg H
+
+DD+FF
+
+tang 
+
+2 fg H
+
+=
+
+r
+
+ DH
+
+,
+
+2 fg(DD+FF)
+
+and from which the constant B can be found. But if  = 0 , there is produced
+
+B = r 2 fg and  = 0 .
+
+EXAMPLE 949. We can put the line IM, which is drawn through the centre of inertia I parallel to the geometric axis of the cylinder (MN fig. 124), likewise to be a principal axis of the body, and we have as § 940 f = 90°, g = 180°, h = 0 and  = 90° and also  = 90° - .
+
+Moreover we may deduce hence: A = bb cos2 + cc sin2  , B = 0, C = 0, D = A et F = 0
+
+hence aa = HH, from which the length of the isochronous simple pendulum to become equal
+
+to
+
+aa f
+
+. Then the horizontal axis IA remains motionless. And if initially, when
+
+
+
+= r , the body
+
+begins to move from rest, then  = 0 and B = r 2 fg , from which the remaining variable
+
+quantities can be deduced
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1014
+
+ = r cos t
+
+2 fg a
+
+,
+
+u=r
+
+2 a
+
+fg
+
+sin
+
+t
+
+2 fg a
+
+,
+
+v = 0,
+
+on account of
+
+A=0
+
+and
+
+x=u= r
+
+2 a
+
+fg
+
+sin
+
+t
+
+2 fg a
+
+,
+
+y=0
+
+and
+
+z=0
+
+and also
+
+ ' = x.
+
+But actually with a progressive motion adjoined, the centre of inertia I in turn rises and falls
+
+along a straight line, with the above cylinder MN following this motion, while it is able to
+
+advance freely on the planes P and Q, assuming it is not impeded by friction.
+
+SCHOLIUM
+
+950. Because the size of the cylinder MN is not present in the computation, the same solution
+
+prevails if the thickness of this vanishes and the adjoining body is suspended from a line axis.
+
+From which it appears that this motion ought to agree with the oscillatory motion defined
+
+above, since yet in length otherwise it usually arises that for the oscillatory motion the length
+
+of the isochronous simple pendulum emerging is equal to
+
+f
+
++
+
+aa f
+
+=
+
+aa + f
+
+ff
+
+, since here it is
+
+only equal to
+
+aa f
+
+.
+
+The
+
+reason
+
+for
+
+this
+
+distinction
+
+lies
+
+in
+
+this,
+
+since
+
+above
+
+in
+
+the
+
+theory
+
+of
+
+the
+
+oscillations we assumed the axis MN fixed, while here it has been put in place to move freely. Hence it is apparent, on account of the free axis, and if it lies on a horizontal plane, that the oscillations are much more rapidly than if the axis were retained firmly in the same place. And this also is in general agreement with the theory ; if indeed (fig. 118) the circle  MTN must touch the plane at the same point T, besides the pressing force  a certain horizontal force should be introduced into the calculation, which if this is put equal to  , acting along TH, in order that T remains constant, as TP = f sin  it is required that [the first
+
+edition in error, has the angle squared]
+
+fdd sin dt 2
+
+
+
+=
+
+-
+
+2 M
+
+g
+
+.
+
+Moreover from this force the moment about the principal axis also arises, by which therefore the rotational motion is affected, in order that such an amount is produced as we have determined above in the investigation of the oscillatory motion. Moreover here must be noted rightly, if small axes lie on a highly polished horizontal plane, then the motion of the oscillations are able to disagree greatly from that which may arise if they are held in place firmly, and indeed are destined to be made much quicker. But the least friction lifts this distinction and the law prevails to reduce the oscillatory motion. But the solution of this problem leads us to the general solution of problem no. 113.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1015
+
+PROBLEM 116 951. If whatever cylinder is moving in some manner on a horizontal plane, to resolve and lead to integration the equations found above for which the motion of this cylinder is defined.
+
+SOLUTION
+
+Here everything remains as have been set up above in problem 113, and we take a point F on
+
+the central line LIGF more distant from the centre of inertia I of the cylinder than the centre
+
+of the section of the cylinder G, on putting the
+
+interval GI = f (Fig. 121 [& Fig. 119]). Therefore
+
+from the differential equations shown there we
+
+now extract a single differential equation, which is
+
+:
+
+aaxx + bbyy + cczz =
+
+C - 4 fg cos  -
+
+ffd  2 sin2 dt 2
+
+
+
+.
+
+Now in addition the three first equations with the
+
+aid of the three last equations in the final terms of
+
+the application go over into these forms :
+
+aadx + ( cc - bb )
+
+yzdt
+
+=
+
+-
+
+2 fg M
+
+ dt
+
+sin f
+
+sin 
+
+sin 
+
+-
+
+2 gs M
+
+
+
+dtdl sin l d
+
+,
+
+bbdy
+
++
+
+(
+
+aa
+
+-
+
+cc
+
+)
+
+xzdt
+
+=
+
+-
+
+2 fg M
+
+
+
+dt
+
+sin
+
+g
+
+sin
+
+sin
+
+
+
+-
+
+2 gs M
+
+
+
+dtdm sin d
+
+m
+
+,
+
+ccdz
+
++
+
+(
+
+bb
+
+-
+
+aa
+
+)
+
+xydt
+
+=
+
+-
+
+2 fg M
+
+
+
+dt
+
+sinh sin
+
+sin
+
+
+
+-
+
+2 gs M
+
+
+
+dtdn sin d
+
+n
+
+.
+
+Hence there is now collected together the form : I.cos l +11. cosm +111.cosn , and because
+dl sin l cos l + dm sin mcosm + dn sin n cos n = 0 ,
+the final terms involving s cancel each other out; then also by the relations treated in § 934 there is found
+sin f sin cos l + sin g sin cos m + sinhsin cos n = 0 ,
+and thus also the penultimate are removed. On account of which we arrive at this equation :
+aadx cos l + bbdy cos m + ccdz cos n + aaxzdt cos m + bbxydt cos n + ccyzdt cos l - aaxydt cos n - bbyzdt cos l - ccxzdt cos m = 0,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1016
+
+but from the three final equations :
+
+z
+
+cos
+
+m
+
+-
+
+y
+
+cos
+
+n
+
+=
+
+-
+
+dl dm
+
+sin l sin m
+
+,
+
+x
+
+cos
+
+n
+
+-
+
+z
+
+cos
+
+l
+
+=
+
+-
+
+dm
+
+sin dt
+
+m
+
+,
+
+y
+
+cos
+
+l
+
+-
+
+x
+
+cos
+
+m
+
+=
+
+-
+
+dn sin dt
+
+n
+
+,
+
+with which values put in place we obtain :
+
+aadx cos l + bbdy cos m + ccdz cos n
+
+- aaxdl sin l - bbydm sin m - cczdn sin n = 0,
+
+and the integral of this is :
+
+aax cos l + bby cos m + ccz cos n = D .
+
+Next in place of x, y and z we introduced the new variables defined hence :
+x cos + y cos + z cos = p , x cos f sin + y cos g sin + z cosh sin = q , x sin f sin + y sin g sin + z sinh sin = r ,
+
+and in the first d  = -rdt ; again on account of
+
+x cos l + y cos m + z cos n = p cos  + q sin  ,
+
+then there arises d = -dt(p cos  + q sin ). Besides on account of
+
+xdl sin l + ydm sin m + zdn sin n = 0
+
+there becomes p sin  - q cos  = 0 . On account of which we put p = u cos  and q = u sin 
+
+and then
+
+d = -udt and d  = -rdt ,
+
+and from these assumed equations, we elicit : x = r sin f sin + u cos l ,
+
+y = r sin g sin + u cos m,
+
+z = r sinh sin + u cos n
+
+and hence
+
+xx + yy + zz = rr + uu =  '  ' .
+
+Now the integrated equation just found before presents itself : D = r(aa sin f sin cos l + bb sin g sin cos m + cc sinh sin cos n)
+
++ u(aa cos2 l + bb cos2 m + cc cos2 n),
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1017
+
+in which u is determined by r and  ; and thus also x, y, z. Finally the equation of the first integral found
+aaxx + bbyy + cczz = C - 4 fg cos  - ffrr sin2  ,
+
+because it contains only r and  , determines r through  , and thus the equation
+
+dt
+
+=
+
+-
+
+d r
+
+for
+
+the
+
+given
+
+time
+
+t
+
+shows
+
+the
+
+magnitudes
+
+containing
+
+all
+
+the
+
+motion.
+
+But
+
+if
+
+as
+
+an
+
+abbreviation we put the constants :
+
+aa cos2  + bb cos2 + cc cos2  = A, aa cos f sin cos + bb cos g sin cos + cc cosh sin cos = B, aa cos2 f sin2  + bb cos2 g sin2  + cc cos2 h sin2  = C,
+, aa sin f sin cos + bb sin g sin cos + cc sinh sin cos = D, aa sin f cos f sin2  + bb sin g cos g sin2  + cc sinhcosh sin2  = E, aa sin2 f sin2  + bb sin2 g sin2  + cc sin2 h sin2  = F,
+
+our integrated equations become D = r(Dcos  + E sin ) + u( A cos2  + 2B sin  cos  - t + C sin2 ) , C - 4 fg cos  - ffrr sin2  = Frr + 2ru(Dcos  + E sin ) + uu( A cos2  + 2B sin  cos  + C sin2 ),
+
+from which it is concluded
+
+( ) rr =
+
+DD-(A cos2  +2B sin  cos  +C sin2  )(C -4 fg cos  )
+
+.
+
+(Dcos  +E sin  )2 -(A cos2  +2B sin  cos  +C sin2  ) F+ff sin2 
+
+ Hence we arrive at the time t =
+
+-d r
+
+
+
+,
+
+and since
+
+u
+
+=
+
+D - r (D cos A cos2  +2B sin
+
+ +E sin  )  cos  +C sin2
+
+
+
+,
+
+then the angle
+
+   = - udt =
+
+ud r
+
+
+
+.
+
+Moreover since we have determined both the arc  as well as the angle  at some time t [i.
+e, the latitude and longitude of the central axis on the sphere], then the whole motion is know perfectly.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1018
+
+COROLLARY 1 952. Hence the quantities A,C and F are positive by necessity and B to A and B to A and C thus is referred to , in order that
+
+AC - BB = aabb sin2 h sin2  + aacc sin2 g sin2  + bbcc sin2 f sin2  ,
+
+from which it is apparent that the form A cos2  + 2B sin  cos  + C sin2 
+
+cannot be resolved into two simple factors.
+
+COROLLARY 2 953. From this general solution the case in the preceding problem set out is easily deduced on taking f negative and the arc  infinitely small, from which there becomes
+
+rr
+
+=
+
+DD-AC -4Afg cos  DD-AF
+
+=
+
+Const.+4Afg cos  AF-DD
+
+.
+
+Moreover there is found from the values established:
+
+AF - BB = aabb cos2 h sin2  + aacc cos2 g sin2 + bbcc cos2 f sin2  ,
+
+from which the length of the simple isochronous pendulum is shown more simply than above, so that it is equal to
+( ) aabb cos2 hsin2  +aacc cos2 g sin2  +bbcc cos2 f sin2  . f aa cos2  +bb cos2  +cc cos2 
+
+SCHOLIUM 954. From these problems concerned with the motion of cylindrical bodies on a horizontal plane set out I will add a little concerning the motion on inclined planes ; now if the motion should be simple, then there is no difficulty in the exercise, but if is should be complicated, in we may happen upon inconvenient calculations. Whereby in practice it is not permitted to separate friction from these motions, anyhow thus we will deal with the more simple motions on an inclined plane, in order that likewise we have an account of friction, from which it is convenient to add a separate section concerning the motion of bodies disturbed by friction.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1019
+
+CAPUT XIX
+DE MOTU CORPORUM CYLINDRICORUM SUPER PLANO HORIZONTALl
+THEOREMA 11
+926. Dum corpus cylindricum plano horizontali movetur, pressio, qua plano innititur, est verticalis, et per centrum cuiusdam sectionis cylindri ad longitudinem normaliter factae transit.
+DEMONSTRATIO Corpus cylindricum plano horizontali incumbit secundum lineam rectam axi cylindri parallelam, in qua vires existunt cylindrum sustentantes, fierique potest, ut hae vires per totam illam rectam sint dispersae. Cum autem istae vires omnes sint ad planum horizontale normales ideoque verticales ac parallelae inter se, una dabitur vis iis omnibus aequivalens; cuius ergo directio pariter erit verticalis certoque rectae contactus puncto insistet. Quodsi igitur in hoc puncto cylindrus ad longitudinem normaliter secetur, sectio erit circulus et vis omnibus pressionibus aequivalens, quia est in hac sectione ad punctum contactus verticalis per eius centrum transibit. Nisi ergo haec sectio transeat per centrum inertiae corporis, directio media pressionis non in sectione per centrum inertiae ad longitudinem normaliter facta versabitur.
+EXPLICATIO
+927. Corpora igitur hic consideramus cylindrica, in quibus primo notetur eorum axis quasi geometricus, ad quem omnes sectiones normaliter factae sint circuli aequales, ita ut corpus sit cylindrus rectus, cuius motus, dum plano horizontali perpetuo incumbit; sumus exploraturi. Si centrum inertiae in ipso axe geometrico esset, in omni situ cylindrus aequilibrium teneret (Fig. 117), sin autem secus, consideretur sectio cylindri ad axem normalis per centrum inertiae I facta, cuius centrum sit in G, atque ad statum aequilibrii requiritur, ut recta GI sit verticalis, ex quo duplex datur aequilibrii situs, alter quo centrum inertiae I infra G, alter quo supra G versatur, quorum ille stabilis, hic labilis vocetur. In omni autem cylindri situ axis geometricus est horizontalis, rectae contactus verticaliter imminens. Deinde ternos axes
+mechanicos cylindri nosse oportet, qui si qualemcunque materiae distributionem admittimus, utcunque ab axe geometrico seu secundum longitudinem ducto differre possunt, a quorum positione motus determinatio potissimum pendet. Per centrum inertiae I etiam ducta concipiatur recta axi geometrico parallela, quae plerumque axis principalis esse solet et
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1020
+
+semper manet horizontalis. His igitur notatis, quomodocunque cylindrus plano horizontali incumbat, in sectione LMFN per centrum inertiae I facta notetur punctum T, ubi hic circulus planum horizontale tangit, deinde etiam illa sectio huic parallela probe notetur, in qua media directio pressionum versatur, quae rectae TG erit parallela; ac tam quantitas pressionis, quam distantia sectionis, in qua versatur, a sectione per centrum inertiae facta, erit incognita, demum ex motu deinceps determinanda; siquidem hac vi effici debet, ut axis cylindri longitudinalis perpetuo maneat horizontalis et cylindrus plano horizontali incumbat.
+
+SCHOLION 928. In bis motibus investigandis non opus est, ut totum corpus in figuram cylindri sit efformatum, sed sufficit, si in locis, quibus plano horizontali incumbit, talem habuerit formam. Huc ergo pertinent motus omnium eorum corporum, quae in terminos cylindricos desinunt, quibus tantum planis horizontalibus aeque elevatis utrinque incumbant, dum intra eos moles corporis utcunque fuerit extensa, quemadmodum evenit in cunis, quae motu vacillatorio super terminis, quos tanquam circulos spectare licet, agitantur; deinde etiam huc referendus est motus pendulorum, quae non circa axem linearem, uti supra assumsimus, sed materialem utrinque in cylindrum abeuntem oscillantur, dum his binis cylindris planis horizontalibus incumbunt, intra quae massa penduli dependet. Etsi igitur his casibus sectiones mediae non sunt circuli, tamen binas illas sectiones, in quarum altera centrum inertiae versatur, in altera vero vis pressionis tanquam circulos spectare licet, quoniam figura eatenus tantum in censum venit, quatenus corpus plano horizontali incumbit. Tum vero etiam, nisi huiusmodi corpora integras circumvolutiones peragant, ne opus quidem est, ut toti termini sint cylindrici, sed sufficit, si eorum portio, qua sit contactus, talem habeat figuram, cuius axem longitudinalem per totum corpus extensum probe notasse convenit. Quocirca haec tractatio ad plurimos casus extenditur, de quo motu primum tenendum, centrum inertiae a viribus sollicitantibus alium motum nisi in eadem recta verticali recipere non posse; ita ut nullum consequatur motum horizontalem, nisi extrinsecus talem acceperit, quem autem deinceps uniformiter esset prosecuturum; in quo cum nulla insit difficultas, ad eum hic non attendimus.
+PROBLEMA 111 929. Si corpus cylindricum super plano horizontali moveatur deturque pressio, qua plano inititur, definire motum progressivum, quo centrum inertiae corporis incedet.
+
+SOLUTIO Ad axem cylindri fiat sectio normalis per centrum inertiae I (Fig. 118), quae sive corpus sit cylindrus continuus sive tantum terminis cylindricis sit praeditum, spectetur tanquam circulus LMFN basibus aequalis, cuius centrum sit in G, centrum autem inertiae corporis in I, existente intervallo GI = f, ita ut in statu quietis recta LIGF teneat situm verticalem, in quo centrum inertiae I supra centrum circuli G in figura repraesentatur, quod si fuerit profundius, intervallum GI = f negative est capiendum. Nunc autem contactus respondeat puncto T, ita ut recta ad
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1021
+
+planum circuli in T normalis sit linea contactus in planum horizontale Hh cadens. Ducta igitur per centrum circuli recta  GT ad contactum T parallela erit directioni pressionis, qua corpus
+a plano horizontali repellitur, quae vis, in quacunque alia sectione versetur, ponatur = Il, quam tanquam cognitam spectamus. Sit porro pondus cylindri = M, radius circuli GF = GT = e et angulus declinationis  GL =  ; erit elevatio centri inertiae I supra horizontem
+
+IP = e + fcos , quae ponatur =v. Quoniam igitur in motum progressivum inquirimus et
+
+gravitas deorsum urget secundum IP vi = M, pressionis vis  ipsi centro inertiae I sursum secundum IV applicata concipiatur, ita ut iam tota vis deorsum sollicitans sit = M -  ,et
+
+massa movenda = M; unde ex principiis motus habetur hincque
+
+ddv =
+
+-2g(M - )
+M
+
+dt 2
+
+hincque
+
+ M
+
+=
+
+1
+
++
+
+ddv 2 gdt 2
+
+seu 
+
+= M (1+
+
+fdd cos  2 gdt 2
+
+),
+
+qua aequatione angulus  GL =  ex eoque elevatio centri inertiae
+
+IP = e + f cos  innotescit; ac nisi corpori motus horizontalis fuerit impressus, punctum I in
+
+recta PIV agitaretur, in ea vel ascendens vel descendens, ita ut punctum P maneret fixum, ex quo punctum contactus T definitur, quia est PT = f sin  . Sin autem corpus acceperit motum
+
+horizontalem, eum constanter servaret uniformem in directum motusque puncti I ex hoc aequabili rectilineo horizontali et illo verticali foret compositus.
+
+SCHOLION 930. Praeterea autem in hoc corpore motus gyratorius generari potest, ita tamen, ut tam punctum G quam recta ad circulum LMFN in G normalis, quae est axis proprius cylindri, perpetuo maneat in eodem plano horizontali. Ad hunc motum gyratorium investigandum seposito motu progressivo centrum inertiae I tanquam in quiete spectabimus, circa quod sphaera descripta, in ea circulus LMFN perpetuo erit verticalis, ad quem si recta normalis per I ducatur, erit ea axis cylindri longitudinalis. Qua eonditione observata omnes motus gyratorii, quorum cylindrus est capax, facile in figura repraesentari possunt. Hic autem ante omnia ad situm axium principalium probe attendi oportet, quorum respectu momenta ex vi pressionis nata sunt definienda.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1022
+
+PROBLEMA 112 931. Si corpus cylindricum plano horizontali incumbens habeat situm quemcunque deturque tam pressio  quam sectio cylindri transversa, in qua versatur, invenire eius momenta respectu axium principalium.
+
+SOLUTIO Sectio cylindri per centrum inertiae I ad longitudinem normaliter facta cadat in planum
+tabulae (Fig. 119), in qua recta IZ sit normalis, et recta LIG per centrum huius sectionis G transeat, ita ut sit intervalIum IG = f et angulus ZIL =  . Ex G erigatur
+
+determinatione
+
+ad planum tabulae normalis GH usque ad
+
+sectionem, in qua vis pressionis  versatur,
+
+sitque intervallum GH = h, ac supra vidimus
+
+esse
+
+
+
+= M (1+
+
+fdd ·cos 2 gdt 2
+
+
+
+)
+
+,
+
+cuius vis directio erit H  verticalis ideoque
+
+parallela ipsi IZ . Iam radio arbitrario = 1
+
+circa centrum inertiae I sphaera concipiatur
+
+descripta, ad cuius superficiei puncta A,B, C
+
+axes corporis principales dirigantur,
+
+vocenturque arcus pro horum punctorum
+
+LA =  , LB =  , LC = ;
+
+item ZA = l, ZB = m, ZC = n existente ZL =  ; tum vero anguli ZLA = f ,ZLB = g, ZLC = h,
+
+ut sit cos l = cos cos  + cos f sin sin  ,
+
+cos m = cos cos  + cos g sin sin  ,
+
+cos n = cos cos  + cosh sin sin  .
+
+Ac primo quidem vis H  =  resolvatur secundum directiones axibus principalibus parallelas, quae resolutio perinde instituitur, ac si vis haec in centro I secundum directionem IZ esset applicata; inde autem nascitur
+vis secundum IA =  cos l ,
+
+vis secundum IB =  cosm ,
+
+vis secundum IC =  cosn ,
+
+quae autem vires iam in puncto H applicatae sunt intelligendae. Ducatur recta
+
+IH quae erit =
+
+(ff
+
++ hh)
+
+,
+
+secans
+
+sphaeram
+
+in
+
+F,
+
+erit
+
+tang
+
+GIH
+
+=
+
+h f
+
+et arcus LF cum arcu ZL
+
+faciet angulum Z LF rectum. Ponatur arcus ,
+
+LF
+
+= e , erit
+
+h=-f
+
+tange et IH
+
+=
+
+-
+
+f cos
+
+e
+
+,
+
+ita
+
+ut
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1023
+
+loco intervalli GH = h commode mode arcum LF = e in calculo retineamus. Nunc autem investigari oportet, quomodo recta I F ad axes principales inclinetur, quae inclinatio per arcus FA, F B et F C definitur. Reperitur autem
+cos AF = cos cos e + sin f sin sin e ,
+
+cos BF = cos cos e + sin g sin sin e ,
+
+cos CF = cos cos e + sin h sin sin e.
+
+Repraesentent iam rectae inter se
+
+normales IA, I B, IC axes principales
+
+corporis (Fig.120), inter quos existat
+
+recta
+
+IH
+
+=
+
+-
+
+f cos
+
+e
+
+eruntque
+
+coordinatae
+
+pro puneto H axibus parallelae
+
+IN = IH cos AF ,
+
+NM = IH cos BF ,
+
+MH = IH cos CF et vires in H applicatae axibusque parallelae erunt
+
+vis Ha =  cos l, vis Hb =  cos m, vis Hc =  cos n , unde respectu axium principalium nascuntur momenta:
+Mom. respectu axis IA in sensum BC =   IH ( cos n cos BF - cos m cos CF ) Mom. respectu axis IB in sensum CA =   IH ( cos l cos CF - cos n cos AF) Mom. respectu axis IC in sensum AB =   IH ( cos m cos AF - cos l cos BF ).
+
+Quae momenta cum supra litteris P, Q, R indicaverimus, si valores supra exhibitos substituamus, obtinebimus:
+
+At est tum vero
+
+(sine cos (sin g sin cos - sinhcos sin ) + 
+
+P=
+
+- f  cos e 
+
++ cos e sin (coshcos sin - cos g sin cos + sin sin sine sin (sin g cosh - cos g sinh ))
+
+)
+
++
+
+ 
+
+.
+
+sin
+
+g
+
+cos
+
+h
+
+-
+
+cos
+
+g
+
+sin h
+
+=
+
+sin
+
+(g
+
+-
+
+h)
+
+=
+
+-
+
+cos  sin sin
+
+,
+
+sin g sin cos - sinhcos sin = cos f sin , coshcos sin - cos g sin cos = sin f sin ,
+
+ita ut tam pro P quam pro Q et R ex analogia habeamus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1024
+
+P
+
+=
+
+-
+
+f cos e
+
+(
+
+cos
+
+f
+
+sin
+
+
+
+sine cos 
+
++
+
+sin f sin  cos e sin  -
+
+cos sine sin ) ,
+
+Q
+
+=
+
+-
+
+f cos e
+
+(
+
+cos
+
+g
+
+sin
+
+sin
+
+e
+
+cos
+
+
+
++
+
+sin g sin cos e sin  -
+
+cos sine sin ) ,
+
+R
+
+=
+
+-
+
+f cos e
+
+(
+
+cos
+
+h
+
+sin
+
+sin
+
+e
+
+cos
+
+
+
++
+
+sinh sin cos e sin  -
+
+cos sine sin ) .
+
+COROLLARIUM 1 932. Cum sit - f tang e = h et h denotet intervalIum GH, quo sectio, in quam cadit pressio,
+antrorsum distat a sectione, in qua est centrum inertiae, erit
+
+P = - f sin f sin  cos  +  h( cos f sin cos  - cos sin  ), Q = - f sin g sin cos  +  h( cos g sin cos  - cos sin ) , R = - f sinhsin cos  +  h( coshsin cos  - cos sin ) .
+
+COROLLARIUM 2 933. Dum ergo motus corporis determinatur, non solum quantitatem pressionis  sed etiam intervalIum GH = h ,definiri oportet, ut habeatur locus, ubi media directio pressionum est applicata.
+
+EXPLICATIO 934. Relatio inter arcus  , , et anguIos f, g, h insignes suppeditat proprietates, inter quas
+
+substitutiones in solutione adhibitae continentur. Primo enim pro illorum angulorum
+
+differentiis invenimus
+
+cos
+
+(f
+
+-
+
+g)
+
+=
+
+-
+
+cos  sin 
+
+cos sin
+
+,
+
+cos
+
+(
+
+g
+
+-
+
+h)
+
+=
+
+-
+
+cos sin
+
+cos sin
+
+,
+
+cos
+
+(h
+
+-
+
+f)
+
+=
+
+-
+
+cos  sin
+
+cos sin
+
+,
+
+sin
+
+(
+
+f
+
+-
+
+g)
+
+=
+
+-
+
+cos sin sin
+
+,
+
+sin
+
+(
+
+g
+
+-
+
+h)
+
+=
+
+-
+
+cos  sin sin
+
+,
+
+sin
+
+(h
+
+-
+
+f
+
+)
+
+=
+
+-
+
+cos sin sin
+
+.
+
+Hinc iam anguli g et h ad angulum f reduci possunt ob g = f - (f - g) et h = f + (h - f) ,
+
+unde colligitur
+
+sin
+
+g
+
+=
+
+-
+
+sin f
+
+cos cos +cos sin sin
+
+f
+
+cos
+
+,
+
+sin h
+
+=
+
+- sin f cos cos -cos f cos sin sin
+
+,
+
+cos
+
+g
+
+=
+
+- cos f cos cos -sin f sin sin
+
+cos
+
+,cos h
+
+=
+
+- cos f cos cos +sin f cos sin sin
+
+.
+
+Quodsi binis coniungendis vel cos f vel sin f elidatur, obtinentur sequentes formulae:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1025
+
+I. sin f sin cos + sin g sin cos + sinhsin cos = 0 11. cos f sin cos + cos g sin cos + cosh sin cos = 0 111. sin f sin = - cos g sin cos + coshcos sin 1V. sin g sin = - cosh sin cos + cos f cos sin V. sinhsin = - cos f sin cos + cos g cos sin VI. sin f sin = sin g sin cos - sinhcos sin VII. cos g sin = sinh sin cos - sin f cos sin VIII. cosh sin = sin f sin cos - sin g cos sin
+IX. sin f cos f sin2  + sin gcos g sin2  + sinhcosh sin2  = 0
+X. sin2 f sin2  + sin2 g sin2  + sin2 h sin2  = 1 XI. cos2 f sin2  + cos2 g sin2 + cos2 h sin2  = 1; quarum ope aequationes, ad quas motus determinatio perducitur, simpliciores reddi possunt.
+PROBLEMA 113 935. Si corpus cylindricum quodcunque super plano horizontali moveatur utcunque, aequationes exhibere, quibus ad quodvis tempus eius situs et motus gyratorius determinetur.
+SOLUTIO Manentibus denominationibus in praecedente problemate factis, consideretur centrum inertiae I ut quiescens, circa quod descripta sit sphaera (Fig. 121), cuius punctum verticale Z et circulus verticalis fixus ZDX, in quo recta centralis IL initio situm ID tenuerit. Elapso autem tempore t ea pervenerit in L, ac ponatur arcus ZL =  et angulus XZL =  , atque hinc situs axium principalium, quorum poli sint A, B, C, ita definitur, ut sint arcus
+LA =  , LB =  , LC =  et anguli ZLA = f, ZLB = g, ZLC = h, qui sunt quantitates constantes, ex quibus cum arcu variabili ZL =  ita definiuntur arcus ZA = 1 , ZB = m, ZC = n, ut sit: cos l = cos cos  + cos f sin sin  , cos m = cos cos  + cos g sin sin  , cos n = cos cos  + cosh sin sin  .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1026
+
+Quodsi iam momenta inertiae corporis respectu axium principalium IA, IB,IC sint Maa, Mbb, Mcc existente M massa corporis,  autem sit pressio, et sectio, in qua ea versatur, ab I antrorsum distet intervallo = s, quod quia est variabile, in superioribus formulis loco h scribi debet s. Gyretur nunc corpus circa polum O celeritate angulari =  ' in sensum ABC,
+positisque arcubus OA =  , OB =  , OC =  fit
+
+ 'cos = x,  'cos  = y,  'cos  = z ,
+
+ac prima habemus
+
+
+
+= M 1
+
++
+
+fdd cos 2 gdt 2
+
+
+
+,
+
+tum vero has tres aequationes
+
+aadx
+
++
+
+(cc
+
+-
+
+bb)
+
+yzdt
+
+=
+
+-2 M
+
+fg
+
+dt sin f sin
+
+sin
+
+
+
++
+
+2 gs M
+
+dt( cos f sin cos  - cos
+
+sin ),
+
+bbdy
+
++
+
+(aa
+
+-
+
+cc)
+
+xzdt
+
+=
+
+-2 M
+
+fg
+
+dt
+
+sin
+
+g
+
+sin
+
+sin
+
+
+
++
+
+2 gs M
+
+dt( cos g sin cos  - cos sin ), ,
+
+ccdz
+
++
+
+(bb
+
+-
+
+aa)
+
+xydt
+
+=
+
+-2 M
+
+fg
+
+dt
+
+sin h
+
+sin
+
+sin
+
+
+
++
+
+2 gs M
+
+dt( cosh sin cos  - cos sin ).
+
+Praeterea habemus has tres aequationes
+
+dl sin l = dt(y cos n - z cos m) = d (cos sin  - cos f sin cos  ), dm sin m = dt(z cos l - x cos n) = d (cos sin  - cos g sin cos  ),, dn sin n = dt(x cos m - y cos l) = d (cos sin  - cosh sin cos  ),
+
+quarum autem binas tantum sumsisse sufficit, ita ut supersint sex aequationes, ex quibus variabiles totidem x, y, z,  , ' et  ad datum tempus t determinari oporteat. Denique vero
+positis angulis XZA =  , XZB =  , XZO = , fit
+
+d sin2 l = - dt (ycosm + zcosn) quam unam resolvisse sufficit. At cum sit LZA =  - , erit
+
+cos( -) =
+
+cos -coslcos sinlsin
+
+et
+
+sin(
+
+-) =
+
+sin fsin sinl
+
+
+
+,
+
+unde
+
+(d 
+
+-
+
+d) cos (
+
+-)
+
+=
+
+-dl
+
+sin f sin sin2 l
+
+cos l
+
+=
+
+(d -d )(cos -cos l cos
+sin l sin 
+
+)
+
+,
+
+ideoque
+
+d =
+
+-dt(ycosm+ zcosn) sin2 l
+
++
+
+dlsin fsin cos lsin sin l(cos -cos lcos )
+
+,
+
+hincque etiam ad datum tempus angulus  definitur; ex quibus rebus motus corporis perfecte
+
+cognoscitur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1027
+
+COROLLARIUM I
+
+936. Cum sit
+
+cos
+
+- cos lcos
+
+=
+
+sin (cos sin -
+
+cos
+
+fsin
+
+cos
+
+)
+
+=
+
+dl
+
+sin lsin d
+
+,
+
+erit hincque
+
+d
+
+=
+
+-dt(ycosm+ zcosn) sin2l
+
++
+
+d sinf sin sin2 l
+
+cos l
+
+,
+
+d sin2 l = -dt( y cos m + z cos n ) + d  cos  sin f sin cos + d  sin  sin f cos f sin2  .
+
+Similes autem expressiones pro dsin2m et dsin2n reperiuntur, quae in unam summam
+
+collectae, ob
+
+sin2 l + sin2m + sin2n = 2 ,
+
+dabunt
+
+d = -dt(xcosl + ycosm + zcosn)
+
+per n° I. et IX. § 934, ubi xcosl + ycosm + zcosn denotat cosinum arcus ZO per
+
+ ' multiplicatum.
+
+COROLLARIUM 2 937. Ex aequationibus pro dl sin l, dm sin m, dn sin n inventis colligimus
+dl sin l cos + dm sin m cos + dn sin n cos = d  sin 
+
+ac valoribus per dt substitutis impetrabimus d  = -dt(xsin f sin  + y sin g sin + z sinhsin )
+
+ope reductionum supra traditarum. COROLLARIUM 3
+938. Ex tribus autem prioribus aequationibus deducimus ob xdl sin l + ydm sin m + zdn sin n = 0
+
+hanc aequationem aaxdx + bbydy + cczdz
+
+=
+
+- 2 fg
+M
+
+dt sin (x sin fsin + y sin g sin + z sinh sin)
+
+=
+
+2 fg M
+
+d
+
+sin
+
+
+
+= -2 fgd  cos 1
+
++
+
+fdd cos  2 gdt 2
+
+
+
+cuius ergo integrale est
+
+aaxx
+
++
+
+bbyy
+
++
+
+cczz
+
+=
+
+C
+
+-
+
+4
+
+fgcos
+
+-
+
+ff d
+
+ 2 sin2 dt 2
+
+
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1028
+
+SCHOLION 939. Si in sphaera nostra ducatur circulus maximus horizontalis YMX,in eo perpetuo axis
+
+cylindri longitudinalis reperiatur necesse est. Pertingat eius terminus anterior in M, et quia tam ML quam MZ sunt quadrantes, erunt anguli MZL et MLZ recti, ideoque angulus ZML =  et arcus XM = angulo XZM = 90° +  . Tum vero, quia punctum M aliter nisi in
+
+circulo XY moveri nequit, polus gyrationis O necessario in quadrante ZM situs sit necesse est. Hinc si arcus OM ponatur = , ob celeritatem angularem =  ' in sensum ABC tendentem
+
+punctum M tempusculo dt regreditur versus X per arculum =  'dt sin ; est vero
+
+sin = cos OZ = cos cos l + cos cos m + cos  cos n ,
+
+ideoque
+
+ ' sin = x cos l + y cos m + z cos n ,
+
+ita ut sit
+
+- d = dt(x cos l + y cos m + z cos n) ,
+
+uti in corollario 1 invenimus. Deinde cum in triangulo OZL (Fig.122) sit ZO = 90° - , ZL =  et OZL = 90° , erit
+
+cos OL = sin cos  ,
+
+sin OLZ
+
+=
+
+cos  sin OL
+
+et
+
+cos OLZ
+
+=
+
+sin s
+
+ob cot OLZ =
+
+sin  sin cos 
+
+.
+
+Quare si tempusculo dt punctum L circa O gyretur in l, erit Ll =  ' dt sin OL et angulus OLl rectus; hinc ducto
+
+circulo l ad Zl perpendiculari fiet  = Ll cos Z Ll = Ll sin OLZ =  ' dt cos ,
+
+at est L = -d  ideoque d  = -  'dt cos. Quae formula comparata cum ea, quam § 937
+
+invenimus, dat
+
+ ' cos = x sin f sin + y sin g sin + z sinh sin ;
+
+at est
+
+xx + yy + zz =  '  ' = (x cos l + y cos m + z cos n)2 + (x sin f sin + y sin g sin + z sinhsin )2 :
+
+quae aequalitas per aequationem xdl sin l + ydm sin m + zdn sin n = 0 confirmatur. Verum ne
+multitudine litterarum obruamur, evolvamus casum, quo axis cylindri longitudinalis simul est axis principalis.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1029
+
+PROBLEMA 114 940. Si corporis cylindrici axis longitudinalis per eius centrum inertiae ductus simul fuerit axis principalis idque super plano horizontali utcunque moveatur, definire eius motum.
+
+SOLUTIO Cum puncta A et M in unum incidant, bini reliqui poli principales B et C in circulo verticali
+ZL existent (Fig. 123), eritque propterea:
+
+LA =  = 90°, LB =  ,
+
+LC =  = 90° - ;
+
+ZLA = f = 90°, ZLB = g = 180°, ZLC = h = 0;
+
+hincque
+ZA = l = 90°, ZB = m =  +  et ZC = n =  - =  +  - 90° . Quibus valoribus substitutis habebimus istas aequationes
+
+ M
+
+=1
+
++
+
+fdd cos 2 gdt 2
+
+aadx
+
++
+
+(cc
+
+-
+
+bb)
+
+yzdt
+
+=
+
+-
+
+2 fg M
+
+dt
+
+sin
+
+
+
+,
+
+bbdy
+
++
+
+(
+
+aa
+
+-
+
+cc
+
+)
+
+xzdt
+
+=
+
+-
+
+2 gs M
+
+dt
+
+sin
+
+(
+
++
+
+
+
+)
+
+,
+
+ccdz
+
++
+
+(bb
+
+-
+
+aa)
+
+xydt
+
+=
+
+2 gs M
+
+dt
+
+cos(
+
++
+
+
+
+),
+
+ysin ( + ) - z cos ( + ) = 0 ,
+
+- xdtsin ( +  ) = d sin ( +  )
+
+seu d  = -xdt et d = -dt ( y cos ( + ) + z sin ( + )) .
+
+Ponatur y = u cos ( + ) et z = u sin ( + ) ,
+
+ac pro dt scribatur - d  seu x = - d  , quo facto nostrae aequationes erunt
+
+x
+
+dt
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1030
+
+I.
+
+ M
+
+=1
+
++
+
+fdd cos 2 gdt 2
+
+,
+
+11.
+
+- aadd 
+
++
+
+1 2
+
+(cc
+
+-
+
+bb)
+
+uudt 2
+
+sin
+
+2(
+
++ )+
+
+2 M
+
+fgdt2 sin  = 0 ,
+
+111. bbdu cos ( + ) - ( aa + bb - cc )ud  sin ( + ) =
+
+-2 M
+
+gsdt sin ( + ),
+
+1V. ccdu sin ( + ) + ( aa - bb + cc )ud  cos ( + ) =
+
+2 M
+
+gsdt cos ( + ),
+
+et
+
+V. d = -udt.
+
+Ex tertia et quarta eliminando s nanciscimur,
+
+bbdu cos2 ( +  ) + ccdu sin2 ( +  ) - 2( bb - cc ) ud  sin ( +  ) cos ( +  ) = 0,,
+
+cuius integrale est
+
+u
+
+=
+
+C bb + cc + (bb - cc )
+
+cos(2 +2
+
+)
+
+,
+
+qui valor in 11. substitutus praebet
+
+( ) -2aadd
+
++
+
+CC(cc-bb) dt2sin 2( +  )
+(bb+cc+(bb-cc)cos2( +  ))2
+
++
+
+dt 2 sin
+
+4
+
+fg
+
++
+
+2
+
+ffdd cos dt 2
+
+=0_
+
+quae aequatio per d  multiplicata et integrata dat,
+
+-aad
+
+
+
+2
+
++
+
+1 2
+
+CC
+
+dt 2
+
+bb + cc + ( bb - cc )cos 2(
+
++
+
+
+
+)
+
+-
+
+4
+
+fgdt
+
+2
+
+cos
+
+
+
+-
+
+ffd  2 sin2  + Ddt2 =
+
+0
+
+seu
+
+unde fit
+
+( ) d2
+
+aa + ff sin2 
+
+=
+
+dt
+
+2
+
+ 
+
+D
+
+-
+
+4
+
+fg
+
+cos
+
+
+
+-
+
+bb+
+
+1 2
+
+CC
+
+dt 2
+
+cc+(bb-cc)cos2(
+
++
+
+
+
+)
+
+ 
+
+,
+
+d  (aa+ ff sin2  )(bb+cc+(bb-cc)cos2( +  ))
+
+dt =
+
+,
+
+( ) (
+
+D
+
+-
+
+4
+
+fg
+
+cos
+
+
+
+)(bb
+
++
+
+cc
+
++
+
+(
+
+bb
+
+-cc
+
+)cos
+
+2(
+
++
+
+
+
+)
+
+)-
+
+1 2
+
+CC
+
+Nunc dato tempore t per  pariter ac u, inde colligimus pressionem  porroque
+
+intervalIum s ex hac aequatione
+
+2 M
+
+gsdt
+
+= (cc - bb) du sin ( + ) cos ( + ) + aaud  + (cc - bb)ud  cos 2( + ).
+
+Tum vero obtinemus
+
+x
+
+=
+
+-d  dt
+
+,
+
+y = u cos ( +  ) et
+
+z = u sin( +  )
+
+ ac denique  = - udt .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1031
+
+COROLLARIUM I
+
+941. Si initio punctum L fuerit in D ut sit ZD = r ibique quieverit, posito t = 0 erat
+
+u = 0,
+
+d dt
+
+=
+
+0, ob  '
+
+=
+
+0 ; ideoque constantes ita definiri oportet, ut sit C = 0
+
+et D = 4 fg cos r ; unde fit
+
+dt = d 
+
+aa+ ff sin2  4 fg( cos r -cos  )
+
+,
+
+sicque  > r . Porro est u = 0, hinc = 0 et  ' = 0 ; pressio autem  hinc facile innotescit, et
+
+cum  ad 90° augeri possit, corpus quasi procumbet. Hic ergo motus neque a positione
+
+axium principalium IB et IC neque a radio basium cylindri e pendet.
+
+COROLLARY 2 942. Si initio recta IL fuerit verticalis seu  = 0 et corpus circa eam gyrari coeperit celeritate
+
+angulari in sensum AB, ut fuerit O in L ideoque  = 90°,  =  et  = 90° - : initio erat
+
+x
+
+=
+
+-
+
+d dt
+
+=
+
+0,
+
+y =  cos
+
+et z =  sin
+
+Hinc fiunt constantes
+
+C =  (bb
+
++ cc + (bb - cc) cos 2 )
+
+et
+
+D = 4 fg +
+
+1 2
+
+
+
+(bb
+
++
+
+cc
+
++
+
+(bb
+
+-
+
+cc
+
+)
+
+cos
+
+2
+
+)
+
+,
+
+unde colligitur
+
+u
+
+=
+
+ (bb+cc+( bb-cc )cos
+bb+cc+( bb-cc )cos2(
+
+2 ) +
+
+)
+
+atque
+
+( ) d  2 (aa+ ff dt 2
+
+sin2
+
+)
+
+=
+
+4fg
+
+1- cos 
+
++
+
+1 2
+
+
+
+(bb
+
+-cc)(bb
+
++
+
+cc
+
++
+
+(bb
+
+-
+
+cc
+
+)
+
+cos
+
+2
+
+)(
+
+cos2(
+
++
+
+
+
+)
+
+-
+
+cos
+
+2
+
+)
+
+bb+cc+( bb-cc )cos2( +  )
+
+943. Si esset bb = cc, fieret
+
+COROLLARIUM 3
+
+dt = d 
+
+aa+ ff sin2  4 fg(1-cos  )
+
+et recta I L perpetuo maneret verticalis corpusque circa eam uniformiter gyrari pergeret; cum
+
+enim denominator contineat
+
+(1-
+
+cos
+
+
+
+)
+
+=
+
+sin
+
+1 2
+
+
+
+2 , nonnisi tempore elapso infinito arcus
+
+ finitus evaderet; quod idem evenit, si fuerit vel  = 0 vel  = 0 , hoc est si recta IL fuerit
+
+axis principalis.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1032
+
+SCHOLION 944. Nisi axis longitudinalis simul sit axis principalis corporis, ob multitudinem literarum vix patet, quomodo formulae supra erutae generaliter evolvi queant, quod tamen inferius suscipiemus. Verum si huiusmodi corporum cylindricorum tantum motus quasi infinite parvos consideremus, ad quod necesse est, ut in recta centrali LF (fig. 118) centrum inertiae 1 infra centrum circuli G cadat corpusque infinite parum de statu quietis deturbetur,
+oscillationes vel vacillationes minimae orientur, quarum indolem ex formulis nostris generalibus determinare licebit. Hic non opus est, ut totum corpus sit cylindricum, sed sufficit, si eius termini circa M et N sint cylindrici, quibus super planis horizontalibus firmis P et Q sustentetur (Fig. 124), quin etiam sufficit, sitantum circa contactum utriusque termini figura fuerit cylindrica, siquidem motus tantum admittimus infinite parvos. Deinde inter sustentacula P et Q annexum esse potest corpus pendulum quodcunque FmHn, ut oriatur pendulum non circa axem fixum linearem, sed circa terminos cylindricos planis horizontalibus incumbentes mobile, euius motum oscillatorium definiri oporteat. In tali ergo pendulo primo notetur eius centrum inertiae I, per quod ducatur recta mn axi geometrico cylindri MN parallela, quae est axis longitudinalis iugiter manens horizontalis. Ducatur porro ex I ad MN recta perpendicularis IGL, quae si fuerit verticalis, corpus in quiete versabitur, ac si intervalIum GI ponamus = f, in superioribus formulis litteram f negative sumere debemus. Tum pro figura cylindrica terminorum sit radius basis = e, qui autem, ut vidimus, prorsus non in computum ingreditur, ita ut perinde sit sive termini sint crassiores sive graciliores. Quodsi recta IG = f minor fuerit quam GF=e totumque corpus supra sustentacula P et Q versetur, motus prodit similis ei, quo cunae agitari solent. Quicquid autem sit centrum inertiae I, perpetuo in eadem recta verticali manebit, unde tota investigatio ad motum gyratorium definiendum perducitur, in quo centrum inertiae I ut quiescens consideramus.
+PROBLEMA 115
+945. Si corpus, quod basibus cylindricis super planis horizontalibus incumbit, infinite parum de situ quietis deturbetur eique forte simul motus infinite parvus imprimatur, determinare motum vacillatorium, quo agitabitur.
+SOLUTIO In formulis nostris generalibus primo intervallum GI = f negativum statuatur, deinde arcus ZL =  , quo recta centralis LGI a situ verticali declinat (Fig. 121), ut infinite parvus spectari debet, perinde atque celeritas angularis  ' , unde quantitates x =  ' cos , y =  ' cos  , z =  ' cos  ut evanescentes tractari debent. Quomodocunque ergo
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1033
+
+axes principales IA, IB, IC respectu rectae centralis GI et axis longitudinalis mn fuerint dispositi, quorum situs cum arcubus LA =  , LB =  , LC =  , tum angulis
+
+ZLA = f, ZLB = g, ZLC = h , definitur, primo habebimus
+
+sin  =  , cos  = 1,
+
+deinde producta xy, xz et yz omitti poterunt; unde fiet cos l = cos , cos m = cos et cos n = cos ;
+
+et aequationes solutionem continentes ex problemate 113 ob
+
+ M
+
+=1-
+
+fdd cos 2 gdt 2
+
+=1,
+
+erunt :
+
+I. aadx = 2 fgdt sin fsin + 2 fgsdt cos f sin ,
+
+II. bbdy = 2 fgdt sin g sin + 2gsdt cos g sin,
+
+III. ccdz = 2 fgdt sinh sin + 2gsdt cosh sin.
+
+unde ex § 938 haec integralis est derivata
+
+aaxx + bbyy + cczz
+
+=
+
+C
+
+-2
+
+fg 
+
+-
+
+ff
+
+d  2 dt 2
+
+ob
+
+cos 
+
+=1-
+
+1 2
+
+
+
+,
+
+quia
+
+hic
+
+infinite
+
+parvum  negligere
+
+non
+
+licet.
+
+Deinde
+
+habemus:
+
+IV .
+
+y cos - z cos =
+
+-
+
+d dt
+
+cosf
+
+sin
+
+
+
+,
+
+V.
+
+z cos - x cos =
+
+-
+
+d dt
+
+cosg
+
+sin
+
+,
+
+VI. x cos
+
+- y cos
+
+=
+
+-
+
+d dt
+
+cosh
+
+sin
+
+atque ex § 936 et §937
+
+d  = -dt ( x sin f sin + y sin g sin + z sinh sin ) ,
+
+d = -dt ( x cos + y cos + z cos ) .
+
+cum nunc sit erit
+
+IV. x + V. y + VI. z = 0 , x sin f sin + y sin g sin + z sinh sin = 0.
+
+Deinde ex I., II., III. in subsidium vocando formulas I. et II. ex § 934 colligimus aax cos + bby cos + ccz cos = A,
+
+et pro intervallo s determinando aadx cos f sin + bbdy cos g sin + ccdz cosh sin = 2gsdt.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1034
+
+Statuamus d  = -udt et d = -vdt ,
+
+atque ob
+
+x cos f sin + y cos g sin + z cosh sin = 0
+
+consequimur x = u sin f sin + v cos , y = u sin g sin + v cos , z = u sinh sin + v cos
+
+hincque
+
+A = u (aa sin f sin cos + bb sin g sin cos + cc sinh sin cos )
+
+( ) + v aa cos2  + bb cos2 + cc cos2  .
+
+Ponamus ad abbreviandum
+
+bb coshcos sin - cc cos g sin cos = A cc cos f cos sin - aa cosh sin cos = B aa cos g cos sin - bb cos f sin cos = C
+
+eritque
+
+A cos f sin + Bcos g sin + C coshsin = 0
+
+aa cos2  + bb cos2  + cc cos2  = D aa sin f sin cos + bb sin g sin cos + cc sinh sin cos = F
+
+et habebimus
+
+v=
+
+A-Fu D
+
+,
+
+x
+
+=
+
+Acos +Au D
+
+,
+
+y
+
+=
+
+Acos +Bu D
+
+,
+
+z
+
+=
+
+Acos +Cu D
+
+,
+
+qui valores, in aequatione integrali vim vivam eomplectente substituti, ob
+
+d dt
+
+=
+
+-u
+
+dabunt:
+
+( ) ( ) AAD+2 Au Aa2 cos +Bb2 cos +Cc2 cos +uu A2a2 +B2b2 +C2c2
+
+DD
+
+= C - 2 fg - ff uu
+
+quae aequatio ob
+
+Aaa cos + Bbb cos + Ccc cos = 0
+
+abit in hanc
+( ) AAD + A2a2 + B2b2 + C2c2 uu = CDD - 2DDfg - DDff uu
+ubi, si loco CDD - AAD ponatur BDD , fiet
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1035
+
+Statuamus porro
+
+D ( B-2 fg )
+u=
+( ) A2a2 +B2b2 +C2c2 +DDff 
+
+A2a2 + B2b2 + C2c2 = DDHH,
+
+et reiecto termino infinite parvo DDff  habebimus
+
+unde colligimus seu tum vero hincque
+
+D ( B-2 fg )
+
+u=
+
+H
+
+et
+
+dt = -Hd  ,
+( B-2 fg )
+
+t = Const. + H Acos  2 fg
+
+2 fg
+
+B
+
+=
+
+B 2 fg
+
+cos
+
+(t +
+
+)
+H
+
+2
+
+fg
+
+et
+
+u=
+
+B H
+
+sin
+
+(t
+
++
+
+)
+H
+
+2
+
+fg
+
+v
+
+=
+
+A D
+
+-
+
+FB DH
+
+sin
+
+(t +
+
+)
+H
+
+2
+
+fg
+
+;
+
+ =D-
+
+At D
+
+-
+
+F D
+
+B 2 fg
+
+cos
+
+(t
+
++
+
+)
+H
+
+2
+
+fg
+
+=
+
+D-
+
+At D
+
+-
+
+F D
+
+.
+
+Deinde reperiemus:
+
+( ) s = - Bf DHH 2g
+
+aabb sinhcosh sin2  + aacc sin g cos g sin2  + bbcc sin f cos f sin2 
+
+(t + ) 2 fg
+cos H .
+
+Denique vero erit
+
+
+
+''
+
+=
+
+xx +
+
+yy
+
++
+
+zz
+
+=
+
+AA-2 AFu+(AA+BB+CC)uu
+DD
+
+sicque omnia ad datum tempus sunt definita. Ceterum hie notasse iuvat esse AA + BB+ CC = DD+ FF , ita ut sit  '  ' = vv + uu.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1036
+
+946. Cum sit
+
+COROLLARIUM 1
+
+=
+
+B 2 fg
+
+cos
+
+(t+ )
+H
+
+2 fg
+
+,
+
+patet arcum ZL =  seu declinationem rectae LI a situ verticali ad similitudinem penduli
+
+variari huiusque lineae LI vacillationes isochronas fore oscillationibus penduli, cuius
+
+longitudo est =
+
+HH f
+
+,
+
+quae
+
+longitudo
+
+est
+
+=
+
+A2a2 +B2b2 +C2c2 DDf
+
+.
+
+COROLLARIUM 2
+
+947. Deinde cum sit
+
+
+
+=
+
+D
+
+-
+
+At D
+
+-
+
+F D
+
+punctum L motu medio revolvitur circa verticem Z celeritate angulari =
+
+A D
+
+;
+
+verum locus medius corrigi debet particula
+
+F D
+
+.
+
+Sin
+
+autem
+
+sit
+
+constans
+
+A
+
+=
+
+0,
+
+angulus DZL parumper mutatur, nisi sit F = 0 .
+
+COROLLARIUM 3 948. Si ergo revolutiones corporis circa axem verticalem IZ excludantur, ut sit A = 0, atque initio fuerit  = 0,  = r et celeritas angularis  ' =  , constantes ita definientur, ut sit
+
+Ergo ideoque
+
+D
+
+=
+
+Fr D
+
+,
+
+r=
+
+B cos 
+2 fg
+
+2 fg H
+
+et
+
+
+
+=
+
+( DD+FF ) B
+DDHH
+
+ 
+
+sin
+
+
+
+2 fg H
+
+2 
+
+.
+
+B = r 2 fg =
+
+ DH
+
+( ) cos 
+
+2 fg H
+
+sin 
+
+2 fg H
+
+DD+FF
+
+tang 
+
+2 fg H
+
+=
+
+r
+
+ DH
+2 fg(DD+FF)
+
+unde et constans B innotescit. Sin autem fuerit  = 0 , prodit
+
+B = r 2 fg et  = 0 .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1037
+
+EXEMPLUM 949. Ponamus rectam IM, quae per centrum inertiae I axi geometrico cylindri (MN fig. 124) parallela ducitur, simul esse corporis axem principalem, et habebimus uti § 940 f = 90°, g = 180°, h = 0 et  = 90° atque  = 90° - . Hinc autem colligimus:
+
+A = bb cos2 + cc sin2  , B = 0, C = 0, D = A et F = 0
+
+ergo
+
+aa
+
+=
+
+HH,
+
+unde
+
+longitudo
+
+penduli
+
+simplicis
+
+isochroni
+
+fit
+
+=
+
+aa f
+
+.
+
+Tum
+
+vero
+
+axis
+
+IA
+
+horizontalis manebit immotus. Ac si initio, ubi  = r , corpus motum a quiete inceperit, erit
+
+ = 0 et B = r 2 fg ex quibus reliquae quantitates variabiles colliguntur
+
+ = r cos t
+
+2 fg a
+
+,
+
+u=r
+
+2 fg a
+
+sin
+
+t
+
+2 fg a
+
+,
+
+v = 0,
+
+ob
+
+A=0
+
+et
+
+x=u= r
+
+2 fg a
+
+sin
+
+t
+
+2 fg a
+
+,
+
+y=0
+
+et
+
+z=0
+
+atque
+
+ ' = x.
+
+Revera autem adiuncto motu progressivo centrum inertiae I in recta verticali alternatim ascendet ae descendet, cylindro superiore MN hunc motum sequente, dum super planis P et Q liberrime incedere potest, neque a frictione impediri assumitur.
+
+SCHOLION 950. Quia magnitudo cylindri MN in computum non ingreditur, eadem solutio valebit, si eius
+
+crassities evaneseat corpusque annexum ab axe lineari esset suspensum. Ex quo hic motus convenire debere videtur cum motu oscillatorio supra definito, quod tamen longe aliter usu venit, quoniam pro motu oscillatorio vero longitudo penduli simplicis isochroni prodiit
+
+=
+
+f
+
++ aa
+f
+
+= aa+ ff
+f
+
+, cum hic tantum sit =
+
+aa f
+
+.
+
+Causa
+
+huius
+
+discriminis in eo est sita, quod
+
+supra in doctrina oscillationum axem MN fixum assumsimus, dum hic liberrime mobilis
+
+statuitur. Hinc patet, ob libertatem axis, etsi plano horizontali incumbat, oscillationes multo
+promptiores fieri, quam si axis in eodem loco firmiter detineretur. Atque hoc etiam Theoriae omnino est conforme; si enim (fig. 118) circulus  MTN planum semper in eodem puncto T tangere debeat, praeter pressionem  vis quaedam horizontalis in calculum introduci debet, quae si ponatur =  secundum TH urgens, ut punctum T maneat constans, ob TP = f sin 
+
+esse oportet
+
+fdd sin  = -
+dt 2
+
+2 g M
+
+.
+
+Ex hac autem vi quoque nascitur momentum respectu axium principalium, qua propterea
+
+motus gyratorius afficitur, ut talis prodeat, qualem supra in motus oscillatorii investigatione
+
+determinavimus. Ceterum hic probe notasse iuvabit, si axiculi penduli planis horizontalibus
+
+politissimis incumbant, motum oscillatorium plurimum discrepare posse ab eo, qui oriretur, si
+
+firmiter detinerentur, et multo quidem promptiorem esse futurum. Minima autem frictio hoc
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1038
+
+discrimen tollere motumque ad oscillationum legem reducere valebit. Huius autem problematis solutio nos ad solutionem problematis generalis no. 113 manuducet.
+
+PROBLEMA 116 951. Si corpus cylindricum quodcunque super plano horizontali moveatur utcunque, aequationes supra inventas, quibus eius motus definitur, resolvere atque ad integrationem perducere.
+
+SOLUTIO
+
+Maneant hic omnia, uti supra in problemate 113 sunt constituta, atque in recta centrali LIGF
+
+sumamus ut ibi centrum inertiae I a puncto F magis remotum, quam centrum sectionis
+
+cylindri G, ponendo intervalIum GI = f (Fig. 121). Ex aequationibus igitur differentialibus ibi
+
+exhibitis iam unam aequationem integralem eruimus, quae est:
+
+aaxx + bbyy + cczz =
+
+C - 4 fg cos  -
+
+ffd
+
+ 2 sin2 dt 2
+
+
+
+.
+
+Praeterea vero ternae priores aequationes ope ternarum posteriorum in postremis
+
+terminis applicatarum abeunt in has formas
+
+aadx
+
++
+
+(cc
+
+-
+
+bb)
+
+yzdt
+
+=
+
+-
+
+2 fg M
+
+
+
+dtsin
+
+fsin
+
+sin
+
+-
+
+2 gs M
+
+
+
+dtdl sin d
+
+l
+
+,
+
+bbdy
+
++
+
+(aa
+
+-
+
+cc)
+
+xzdt
+
+=
+
+-
+
+2 fg M
+
+
+
+dtsin
+
+g
+
+sin sin
+
+-
+
+2 gs M
+
+
+
+dtdm sin d
+
+m
+
+,
+
+ccdz
+
++
+
+(bb
+
+-
+
+aa)
+
+xydt
+
+=
+
+-
+
+2 fg M
+
+
+
+dtsin h
+
+sin  sin
+
+-
+
+2 gs M
+
+
+
+dtdn sin d
+
+n
+
+.
+
+Hinc iam colligatur forma I.cos l +11. cosm +111.cosn , et quia dl sin l cos l + dm sin mcosm + dn sin n cos n = 0 ,
+
+termini ultimi intervalIum s involventes se destruent; tum vero etiam per relationes § 934 traditas reperitur
+sin f sin cos l + sin g sin cos m + sinh sin cos n = 0 ,
+
+ita ut quoque penultimi tollantur. Quocirca perveniemus ad hanc aequationem
+
+aadx cos l + bbdy cos m + ccdz cos n + aaxzdt cos m + bbxydt cos n
+
++ ccyzdt cos l - aaxydt cos n - bbyzdt cos l - ccxzdt cos m = 0,
+
+at ex ternis posterioribus est
+
+z
+
+cos
+
+m
+
+-
+
+y
+
+cos
+
+n
+
+=
+
+-
+
+dl dm
+
+sin sin
+
+l m
+
+,
+
+x
+
+cos
+
+n
+
+-
+
+z
+
+cos
+
+l
+
+=
+
+-
+
+dm sin dt
+
+m
+
+,
+
+y
+
+cos
+
+l
+
+-
+
+x
+
+cos
+
+m
+
+=
+
+-
+
+dn
+
+sin dt
+
+n
+
+,
+
+quibus valoribus substitutis obtinemus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1039
+
+cuius integralis est
+
+aadx cos l + bbdy cos m + ccdz cos n - aaxdl sin l - bbydm sin m - cczdn sin n = 0,
+
+aax cos l + bby cos m + ccz cos n = D .
+
+Deinde loco x, y et z introducamus novas variabiles hinc definiendas
+x cos + y cos + z cos = p , x cos f sin + y cos g sin + z cosh sin = q , x sin f sin + y sin g sin + z sinh sin = r ,
+
+eritque primo d  = -rdt ; porro ob
+
+x cos l + y cos m + z cos n = p cos  + q sin  ,
+
+erit d = -dt(p cos  + q sin ).Praeterea ob
+
+xdl sin l + ydm sin m + zdn sin n = 0
+
+fit p sin  - q cos  = 0 . Quamobrem ponamus p = u cos  et q = u sin 
+
+eritque
+
+d = -udt et d  = -rdt ,
+
+at ex illis aequationibus assumtis elicimus x = r sin f sin + u cos l ,
+
+y = r sin g sin + u cos m,
+
+z = r sinh sin + u cos n
+
+hincque
+
+xx + yy + zz = rr + uu =  '  ' .
+
+Nunc aequatio integralis modo ante inventa praebet D = r(aa sin f sin cos l + bb sin g sin cos m + cc sinh sin cos n)
+
++ u(aa cos2 l + bb cos2 m + cc cos2 n), qua u determinatur per r et  ; ideoque et x, y, z. Denique aequatio integralis primum inventa
+
+aaxx + bbyy + cczz = C - 4 fg cos  - ffrr sin2  ,
+
+quia tantum r et  continet, determinabit r per  , indeque aequatio
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1040
+
+dt
+
+=
+
+-
+
+d r
+
+pro
+
+dato
+
+tempore
+
+t
+
+omnes
+
+quantitates
+
+motum
+
+continentes
+
+manifestabit.
+
+Quodsi
+
+ad
+
+abbreviandum ponantur constantes:
+
+aa cos2  + bb cos2  + cc cos2  = A, aa cos f sin cos + bb cos g sin cos + cc cosh sin cos = B, aa cos2 f sin2  + bb cos2 g sin2  + cc cos2 h sin2  = C,
+, aa sin f sin cos + bb sin g sin cos + cc sinh sin cos = D, aa sin f cos f sin2  + bb sin g cos g sin2  + cc sinhcosh sin2  = E, aa sin2 f sin2  + bb sin2 g sin2  + cc sin2 h sin2  = F,
+
+nostrae aequationes integrales erunt D = r(Dcos  + E sin ) + u( A cos2  + 2B sin  cos  - t + C sin2 ) ,
+
+C - 4 fg cos  - ffrr sin2  = Frr + 2ru(Dcos  + E sin )
+
+,
+
++ uu( A cos2  + 2B sin  cos  + C sin2 ),
+
+ex quibus concluditur
+
+( ) rr =
+
+DD-(A cos2  +2B sin  cos  +C sin2  )(C -4 fg cos  )
+
+.
+
+(Dcos  +E sin  )2 -(A cos2  +2B sin  cos  +C sin2  ) F+ff sin2 
+
+ Hinc pro tempore adipiscimur t =
+
+-d r
+
+
+
+,
+
+et cum sit
+
+u
+
+=
+
+D-r(Dcos  +E sin  ) A cos2  +2B sin  cos  +C sin2
+
+
+
+,
+
+erit angulus
+
+   = - udt =
+
+ud  r
+
+.
+
+Cum autem ad quodvis tempus t tam arcum  quam angulum  determinaverimus, totus motus erit perfecte cognitus.
+
+COROLLARIUM 1 952. Quantitates ergo A,C et F necessario sunt positivae et
+
+B ad A et B ad A et C ita refertur, ut sit
+
+AC - BB = aabb sin2 h sin2  + aacc sin2 g sin2  + bbcc sin2 f sin2  ,
+
+unde patet formam
+
+A cos2  + 2B sin  cos  + C sin2 
+
+in duos factores simplices resolvi non posse.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter NINETEEN : DE MOTU CORPORUM CYLINDRICORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 1041
+
+COROLLARIUM 2
+
+953. Ex hac solutione generali casus in praecedente problemate evolutus facile deducitur sumendo f negative et arcum  infinite parvum, unde fit
+
+rr
+
+=
+
+DD-AC -4Afg cos  DD-AF
+
+=
+
+Const.+4Afg cos  AF-DD
+
+.
+
+Reperitur autem valoribus evolutis
+
+AF - BB = aabb cos2 h sin2  + aacc cos2 g sin2  + bbcc cos2 f sin2  ,
+
+unde longitudo penduli simplicis isochroni simplicius quam supra ita exhibetur, ut sit =
+( ) aabb cos2 hsin2  +aacc cos2 g sin2  +bbcc cos2 f sin2  . f aa cos2  +bb cos2  +cc cos2 
+
+SCHOLION 954. His de motu corporum cylindricorum super plano horizontali expeditis institueram pauca de motu super plano inclinato adiungere; verum si motus fuerit simplex, res nullam habet difficultatem, sin autem sit complicatus, in calculos incommodos incideremus. Quare cum in praxi frictionem ab his motibus separare haud liceat, motus saltem simpliciores super plano inclinato ita pertractabimus, ut simul frictionis rationem habeamus, ex quo peculiarem tractatum de motu corporum rigidorum a frictione perturbato adiungi conveniet.
+
+

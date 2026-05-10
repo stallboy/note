@@ -1,0 +1,8609 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 927
+
+Chapter 18
+
+CONCERNING THE MOTION OF BODIES WITH A SPHERICAL BASE ON A HORIZONTAL PLANE
+
+PROBLEM 104
+884. If a body with a given spherical base presses on a horizontal plane in some manner, to define the forces which are acting, and the effect of those on the motion of the body in the progressive disturbance.
+SOLUTION Let EH be a horizontal plane (Fig. 113) and T the point, where the body presses on that plane, but in the body first is noted the centre of the spherical base MTN, which is at G, then the centre of inertia of the body I, and the diagram represents a plane, on which these three points are situated. The radius GT is drawn, which since it is normal to the horizontal EH, has a vertical position, and likewise the plane TGI is itself vertical. Now, since for the progressive motion the whole mass of the body, which is equal to M, can be considered as gathered together at the centre of inertia I, with IP itself parallel to GT, then the body in the first place on account of gravity is urged in the direction IP by a force equal to M [at this time the distinction between mass and weight was apparent only in the equation relating force, mass, and acceleration, as in the equation below]; then where the body makes contact with the horizontal plane at T, it is urged upwards by that in a direction by a certain force in the direction TG, by a pressing [i.e. reactive or contact] force equal to  . Whereby unless these two forces cancel each other out, then the body is unable to remain if a position of rest ; from which it is evident that the state of rest demands that the body presses on the horizontal plane through the line GI produced to F and thus the line DIGF becomes vertical. Hence the figure represents an inclined position of the body, and the inclination is indicated by the angle FGT, which is equal to  , with which vanishing the body becomes a position of equilibrium. Again
+we may put the radius of the spherical GF = GT = e and the distance between the points G and I clearly GI = f, in as much as the centre of inertia I is at a greater distance from the point F than the centre of the figure G; thus in order that, if the body falls on its own account, the
+quantity f cannot be taken as negative. Hence therefore the distance IP is equal to e + fcos ,
+which is the height of the centre of inertia I above the horizontal plane EH and which is only affected by the forces acting. But on translating the force TG =  to the centre of inertia I, the point I is acted on by a downwards force equal to M ­  ; and because the downwards speed of this is equal to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 928
+
+f d  sin
+
+dt
+
+on putting the speed equal to u then
+
+du
+
+=
+
+2g(M - M
+
+)dt
+
+with dt denoting the element of time, from which there is obtained :
+
+( ) f (dd  sin 
+
++ d  2 cos ) = 2g
+
+1
+
+-
+
+ M
+
+dt 2
+
+on taking dt constant; and neither is it influenced by any other motion.
+
+COROLLARY 1
+885. Hence in turn, if an account of the progressive motion is given or perhaps it can be considered as given, then the pressing force  can be defined, since the equation becomes
+
+ M
+
+=1-
+
+f (dd  sin  +d  2 cos  ) 2gdt 2
+
+or
+
+ M
+
+=1+
+
+fdd cos 2gdt 2
+
+
+
+.
+
+COROLLARY 2 886. If it is the case that f = 0 or the centre of inertia I falls on the spherical centre G, then  = M is produced, and the body is content to remain properly in all situations in a position of equilibrium.
+COROLLARY 3 887. If it should be that f > 0 or F1 > FG, and suddenly the body is inclined a little, the inclination is increased by the force acting, but if it should be that f < 0 or FI < FG, then the inclination is diminished and the body is restored to the position of equilibrium, at which the point F stands on the plane: while in the one case it leans forward, in the other it seeks to return to the position of equilibrium.
+SCHOLIUM 1 888. But whichever figure the body should have, in that there are always at least two positions of equilibrium given, of which the one is put in place in order that, if the body is moved away from that momentarily, then the body at once restores itself to its original position, but the other, so that without doubt it slips and falls forward; the first of which is to be called the position of stable equilibrium, and the second is usually called the position of slipping. For however the body rests on the horizontal plane, it is moving about equilibrium if the line drawn from the centre of inertia to the point of contact is vertical ; which can always come about at least in two ways. For if from the centre of inertia to all the points of the [hemispherical] surface straight lines are considered drawn, because none of these either vanish or are infinite, among these there is given both a maximum and a minimum [height of I] , but with each normal to the tangent plane ; whereby if the body rests on the horizontal plane from each of these points, from which the centre of inertia is either a maximum or a minimum distance, with the line drawn from the centre of inertia to the point of contact
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 929
+
+vertical and thus giving a position of equilibrium, and that is stable if that line is a minimum [length], and indeed if the opposite for slipping then a maximum ; from which it is understood that the centre of inertia always seeks the lowest point, where it may come to rest. But repeatedly more positions of equilibrium are given, some of stability and others of slipping, which follow each other alternately, since it is necessary that the body goes from a position of slipping to arrive at a position of stability.
+
+SCHOLIUM 2 889. In the present case, in which we have put in place a spherical surface of the body, a line drawn through the centre of inertia I and the centre of the figure G gives these two points F and D, from which if the body rests on a horizontal plane, it can maintain a position of equilibrium ; and while it is a tangent to the plane at the point F, the position of equilibrium is stable, if FI < FG or f < 0, but a position of slipping [or the top is inverted], if FI > FG or f > 0; and besides these two positions of equilibrium no other is given, unless it happens that f = 0, in which case at once all the positions clearly take on the equilibrium property. But if I consider here the whole surface of the body as spherical, yet it is sufficient for our purpose, if at least that part should be spherical, during which it is in contact with the horizontal plane ; and hence it is apparent also from that treatment of these tops above, that the lower end of the axis is not a point as we have assumed before, but ends in a hemisphere, or instead it can be formed from a smaller spherical segment, thus so that hence the above shape is produced [as in Ch.17], if the radius of the sphere GF = e vanishes, and thus this discussion includes the above within itself. Therefore the straight line DIGF drawn through the centre of inertia I and the centre of the spherical base G shows the special axis of the top, which indeed, as tops are accustomed to be made, likewise is one principal axis of the body, and indeed the two remaining moments of inertia are had equal, thus in such a form as we set up above. Now in order that this discussion appears wider, and likewise it is able to be adapted to the staggering motion of bodies provided with some kind of spherical bases, I will consider the principal axes of the body somehow to be different from the special axis DF , and I will investigate the moments of the forces about these axes.
+
+[Thus Euler had found a generalised form of the tippy top, still of interest to everyone for fun, as well as being a subject for more serious thought. Such tops have two orientations of equilibrium as above, and the top can flip from one to the other repeatedly.See, e. g. fysikbasin.dk ; Euler's top in general is asymmetric, leading to the stumbling motion that he refers to, but for which he cannot produce detailed mathematical solutions.]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 930
+
+PROBLEM 105
+890. With the pressing force given  , by which the body provided with the spherical base leans on the horizontal plane, to define the moments hence arising about the principal axes of the body, by whatever reasoning these have been disposed about the special axes of the body.
+SOLUTION With a sphere described about the centre of inertia of the body I (Fig.l14), let Z be the vertical
+point of this, and the special axis now holds the position DIG, in order that the declination of this from the position of the vertical is given by DZ =  . Hence since the direction of the pressing force  is vertical and passing through the point G with IG = f, the vertical straight line G  refers to this force equal to  , thus in order that ZDG is a vertical plane, in which the force G  =  is resolved along the directions GI and GV, which are normal to each other, and on account of the angle DG  =  the force along GI =  cos  and the force along GV =  sin  , of which that passing through the centre of inertia I furnishes no moments. Now let IA, I B, IC be the three principal axes of the body, holding a given position on account of the special axis ID, and from D the semicircles DAG, DBG, DCG are drawn through the points A, B, C. But if the axis IA should be normal to the plane IGV,[then the arc GA would be a quadrant, and] the moment of the force GV about this would be equal to  f sin  , but now [i.e. otherwise,  sin  must be resolved into components parallel and perpendicular to IA, (according to the inclination of the segment GIAZY to the horizontal, the angle of which is VGA or ZGA) : i. e.  sin  cosVGA and  sin  sinVGA , while the perpendicular distance of G from IA, or f sin AG must be introduced], since it must be diminished in the ratio of the whole sine to the sine of the arc GA as well as by the sine of the angle VGA, thus in order that from the pressing force there arises :
+the moment about the axis IA =  f sin   sin GA sinVGA in the sense CB , the moment about the axis IB =  f sin   sin GB  sinVGB in the sense AC , the moment about the axis1C =  f sin   sin GC  sinVGC in the sense BA .
+But we have indicated these three moments above by the letters P, Q, R [Problem 88, Ch. 15, § 803] since indeed they are set up to act in the opposite sense, whereby with everything transferred to the point D we have:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 931
+
+P = -  f sin DZ  sin DA sin ZDA = - f sin ZD  sin ZA  sin DZA, Q = -  f sin DZ  sin DB  sin ZDB = -  f sin ZD  sin ZB  sin DZB, R = -  f sin DZ  sin DC  sin ZDC = - f sin ZD  sin ZC  sin DZC .
+
+COROLLARY 1 891. Here we have assumed the centre of the base G to be closer to the lower end F than the centre of inertia I; but if it comes about otherwise, so that the interval FI is less than the interval FG = e, then the interval GI = f must be taken as negative. But if it should be that GI = 0, then the moments found vanish or the body is always held in a state of equilibrium.
+
+COROLLARY 2
+
+892. IF the arcs
+
+AD =  , BD =  , CD = ,
+
+are put in place for the position of the special axis ID with respect to the principal axes of the body, then the angle ZDA =  , with the arc present ZD =  , [see Ch.14, Problem 72 for
+
+some notes on solving spherical triangles, recall here that AB, BC, and CA are quadrants] on
+
+account of which
+
+since then but and thus and
+and also
+
+cos
+
+ADB
+
+=
+
+cos  sin
+
+cos sin
+
+and
+
+sin
+
+ADB
+
+=
+
+-
+
+cos sin sin
+
+,
+
+sin ADB :sin DAB or sin ADB :- cos DAC = 1:sin BD = 1:sin ,
+
+sin
+
+ZDB
+
+=
+
+- cos
+
+cos sin +cos cos sin sin
+
+,
+
+cos
+
+DAC
+
+=
+
+cos CD sin AD
+
+=
+
+cos sin
+
+,
+
+P = -  f sin  sin sin ,
+
+Q
+
+=
+
+
+
+f
+
+sin  (cos
+
+cos sin -cos cos )
+sin 
+
+,
+
+R
+
+=
+
+
+
+f
+
+sin  (cos
+
+cos sin -cos cos )
+sin 
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 932
+
+COROLLARY 3 893. If the special axis ID is congruent with the principal axis IA, then there arises C =  and  =  = 90°, as it the case that cos = cos = sin and the angle  remains indefinite.
+But from the first formulas the moments of the forces become: P = 0, Q = - f sin  sin ZAB and R = - f sin  sin ZAC
+or P = 0, Q =  f sin ZC and R = - f sin ZB.
+
+COROLLARY 4 894. But if now as above we may put
+ZA = l, ZB = m and ZC = n,
+
+we can find the moments of the forces in general and
+
+and P =  f (cos cos m - cos cos n ),
+
+Q =  f (cos cos n - cos cos l )
+
+and also
+
+R =  f (cos cos l - cos cos m ),
+
+from which it follows at once that, sin = 0 and  =  = 90°. .
+
+EXPLANATION 895. An account of the derivation of these latter formulas may be presented thus:
+
+in the first place there is
+
+sin DZ  sin ZDA = sin ZA  sin ZAD ,
+
+then P = -  f sin DA sin ZA sin ZAD ;
+
+but ZAD = BAD - BAZ ,
+
+and
+
+sin
+
+BAD
+
+=
+
+- cos CAD
+
+=
+
+- cos sin DA
+
+,
+
+cos
+
+BAD
+
+=
+
+cos sin DA
+
+,
+
+from which
+
+sin
+
+BAZ
+
+=
+
+- cos CAZ
+
+=
+
+- cos n sin ZA
+
+,
+
+cos
+
+BAZ
+
+=
+
+cos m sin ZA
+
+,
+
+sin
+
+ZAD
+
+=
+
+-
+
+cos
+
+m cos +cos n sin ZA sin DA
+
+cos
+
+and P =  f ( cos cos m - cos cos n).
+
+The two remaining moments Q and R can be produced by analogy without further
+calculation. Then it is now the case that cos DZ = cos  = cos cos l + cos cos m + cos cos n,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 933
+
+which expression, as it is nowhere greater than unity, thus cannot be equal to unity or DZ = 0, unless it is the case that l =  , m =  and n =  , clearly these three
+determinations likewise suppose that this equation is true: cos cos l + cos cos m + cos cos n = 1.
+Since now in addition, then cos2  + cos2  + cos2  = 1
+and cos2 l + cos2 m + cos2 n = 1 ,
+
+if from the sum of these twice that is taken away, there is produced ( cos - cos l)2 + ( cos - cos m)2 + ( cos - cos n)2 = 0 ,
+but the sum of three squares cannot be equal to zero, unless each is zero.
+
+SCHOLIUM
+
+896. Since neither in the expressions for the moments of the forces P, Q, R found, nor in the
+
+expression for the force
+
+
+
+= M (1+
+
+fdd cos 2 gdt 2
+
+
+
+)
+
+is the radius of the base sphere e in place present,
+
+everything, which above that have been discussed
+
+concerning the motion of tops ending in points below,
+
+also prevail for tops of this kind, which end in a
+
+hemisphere or another part of a sphere, as long as the
+
+point F, that before denoted the point, here is put in place
+
+at the centre of the figure G. Likewise hence it is the case
+
+that the top rotates on the point or upon the hemisphere,
+
+provided f is the distance of the centre of inertia I from
+
+the centre of the spherical base, for whatever should be
+
+the size of the radius of this base e, it is not present in the computation, but with that
+
+vanishing the base of the top turns into a point. Therefore the whole preceding chapter is
+
+understood to be in place here, thus so that the theory of tops can be agreed upon without any
+
+labour, and not to be greatly enlarged on. But the case is excluded for making the base
+
+spherical occurring before, clearly as the centre of inertia I is nearer to the bottom, then the
+
+centre of the spherical part, and here the quantity f is negative [There appears to the
+
+translator to be a use of the wrong word here : propius means 'closer', which could be used to
+
+give a meaningful statement, while the term used here proprius means 'special', as referring
+
+to the special axis GD, which seems less relevant to the discussion]. Now either the body
+
+shall have a complete globe, or the base has the form of part of a sphere described MFN (Fig.
+
+115), with the centre G, by which it rests on the horizontal plane, we investigate the motion
+
+of this, as far as the body makes contact with this base. But here we confine such bodies to
+
+be attributed with this quality, in order that the special axis AGIF, which if it should be
+
+vertical, remains in a state of rest, likewise it shall be a principal axis of the body, now with
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 934
+
+the two remaining principal axes having moments of inertia equal to each other. Clearly if the moment of inertia about the axis IA is equal to Maa, about the two remaining axes now Mbb and Mcc, we can put in place bb = cc. Hence we can determine how the motion of a body of this kind will continue when it receives a motion of some kind impressed on it.
+
+PROBLEM 106 897. If the body constructed with the spherical base MFN, in which the axis of equilibrium AGJF is a principal axis, and about this the moment of inertia is equal to Maa, and moreover about the two remaining axes the moment of inertia is equal to Mcc, is given some kind of motion, to determine the continuation of the motion.
+
+SOLUTION
+
+Let the radius of the spherical base FG = e, but the centre of inertia I lies beyond the centre of
+
+the base G at a distance GI = f. For the progressive motion, if the centre of inertia I has a
+
+motion along the horizontal direction, that keeps pointing in the same direction, but to what
+
+extend the vertical motion is disturbed can thus be defined from the known force, which is equal to  , since if the declination of the axis AF from the vertical is put equal to  , then
+
+ M
+
+=1-
+
+fdd cos  2 gdt 2
+
+,
+
+with M the mass or weight of the body present. Now this force  , which the body exerts on
+
+the horizontal plane, is unable to be known except from the rotational motion. Hence our
+
+body may be understood in terms of the fixed sphere (Fig. lll), on which Z is the vertical
+
+point, now in the elapsed time t a situation of this
+
+kind arises, concerning the principal axes of this
+
+body at A, B, C, and the arcs
+
+ZA = l , ZB=m, ZC =n,
+
+and then the angles
+
+XZA =  , XZB =  , XZC = ,
+
+are put in place thus so that l =  . But now it rotates
+
+about the pole O in the sense ABC with an angular speed equal to  ' , and on putting the arcs
+
+OA =  , OB =  , OC = 
+
+or for brevity as
+
+ 'cos = x,  'cos  = y,  'cos  = z .
+
+But the moments of the forces arising from the force  are : P = O, Q = - fcosn, R = + fcosm,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 935
+
+from which we deduce the following equations [See Ch. 16]: dx = 0,
+
+dy
+
++
+
+aa-cc cc
+
+xzdt
+
+=
+
+-2
+
+fgdt Mcc
+
+cos
+
+n
+
+,
+
+dz
+
++
+
+cc-aa cc
+
+xydt =
+
+2
+
+fgdt cos Mcc
+
+m
+
+,
+
+dl sinl = dt(ycosn - zcosm), dsin2l = -dt( ycosm + zcosn ),
+
+dm sin m = dt(z cos l - xcosn ), the remaining angles  and  hence are
+
+dn sin n = dt(xcosm - y cos l), given at once.
+
+If again we put
+
+cos l = p, cos m = q, cos n = r ,
+
+since these equations agree with those, which we have integrated above in problem 99,
+
+unless because f it taken as negative, we have in the end these equations :
+
+x=A and
+
+I
+
+.
+
+qy
+
++
+
+rz
+
+=
+
+B
+
+-
+
+Aaap cc
+
+,
+
+11.
+
+(qz
+
+- ry)2
+
+=
+
+(Ccc + 4
+
+fgp
+
+)(1-
+
+pp)
+
+-cc
+
+B
+
+-
+
+Aaap cc
+
+2 
+
+cc+ ff (1- pp)
+
+,
+
+111.
+
+yy
+
++
+
+zz
+
+=
+
+Ccc +
+
+4
+
+fgp
+
++
+
+ff
+
+ 
+
+B-
+
+Aaap cc
+
+2 
+
+cc+ ff (1- pp)
+
+,
+
+IV .
+
+ M
+
+=
+
+2gcc- Afaa
+
+ 
+
+B-
+
+Aaap cc
+
+ 
+
+2g(cc+ ff (1- pp))
+
++
+
+ fccp
+
+Ccc+4
+
+fgp+
+
+ff
+
+ 
+
+B-
+
+Aaap cc
+
+2g(cc+ ff (1- pp))2
+
+2 
+
+ 
+
+,
+
+dp (cc+ ff (1 - pp))
+
+V. dt =
+
+,
+
+ 
+
+(Ccc+
+
+4
+
+fgp )(1
+
+-
+
+pp )-cc
+
+B-
+
+Aaap cc
+
+2 
+
+ 
+
+( ) VI.
+
+d
+
+=
+
+-dt 1- pp
+
+B
+
+-
+
+Aaap cc
+
+,
+
+VII .
+
+
+
+'
+
+
+
+'
+
+=
+
+AA
+
++
+
+Ccc+
+
+4
+
+fgp+
+
+ff
+
+ 
+
+B-
+
+Aaap cc
+
+cc+ ff (1- pp )
+
+2 
+
+,
+
+VIII .
+
+ydz- zdy yy+ zz
+
+=
+
+A (aa-cc) dt cc
+
+2
++
+
+fgdt
+
+ 
+
+B
+
+-
+
+Aaap cc
+
+(
+
+cc
+
++
+
+ff
+
+-
+
+ffpp
+
+)
+
+,
+
+ Mcc
+
+Ccc
+
++
+
+4
+
+fgp
+
++
+
+ff
+
+ 
+
+B
+
+-
+
+Aaap cc
+
+2 
+
+ 
+
+where the constants A, B, C and the rest introduced from the integration must be defined from
+
+the initial state of the body.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 936
+
+COROLLARY 1 898. If the body is at rest initially and the principal axis A of this is at a declination a with Za = l and cosl = p present, initially x = 0, y = 0 and z = 0, on account of  ' = 0 ; and p = p .
+Hence there is put in place A = O, B = O and Ccc = -4 fgp.
+Hence in the elapsed time t there becomes x = 0, qy + rz = 0,
+qz - ry = 2 fg(p-p) (1- pp) ,
+(cc+ ff (1- pp))
+
+yy
+
++
+
+zz
+
+=
+
+4 fg(p-p) cc+ ff (1- pp)
+
+=
+
+
+
+'
+
+
+
+'
+
+and
+
+ M
+
+=
+
+cc +
+
+cc ff (1-
+
+pp)
+
++
+
+2 ffccp(p-p)
+(cc+ ff (1- pp))2
+
+.
+
+COROLLARIUM 2 899. Now in addition in the same case it arises that d = 0 and thus the axis of the body,
+which initially was at a, itself moves through the arc aZ, and then
+
+dt = dp
+
+(cc+ ff (1- pp))
+,
+
+2 fg(p-p) (1- pp)
+
+thus, since p > p or l < l , the axis progresses directly from a to Z . And then as ydz - zdy = 0,
+
+there becomes
+
+z =  y and y =
+
+2 fg(p-p)
+
+(1+ )(cc+ ff (1- pp))
+
+and also
+
+q ( yy + zz ) = 2z fg(p-p)(1- pp)
+(cc+ ff (1- pp))
+
+or
+
+q =  (1- pp)
+
+et
+
+- (1- pp)
+
+r=
+
+,
+
+(1+ )
+
+(1+ )
+
+thus there becomes
+
+cos ZAB =
+
+q=
+(1- pp)
+
+
+(1+
+
+)
+
+,
+
+hence which angle remains constant.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 937
+
+COROLLARY 3 900. Hence if the body is initially at rest and the principal axis IA of this holds the position of inclination Ia, then it erects itself directly on rising from a to Z, but it is rotating about the point O, so that as x =  ' cos = 0 the arc AO is a quadrant, and because
+
+cos ZO
+
+=
+
+cos
+
+cos l
+
++ cos 
+
+cos m +
+
+cos 
+
+cos n
+
+=
+
+qy + rz '
+
+=
+
+0,
+
+then also ZO is a quadrant, and thus O is the pole of the circle XZY. And when it comes to the axis Z, then the angular speed
+
+' = 2
+
+fg(1- c
+
+p
+
+)
+
+.
+
+SCHOLIUM 1 901. If the body is not initially at rest, but has taken a motion of some kind, the continuation of the motion is determined from the same formulas, as long as the constants A, B, C to be put in place initially may be defined conveniently ; moreover where formulas of this kind turn up to be integrated, which are able to be obtained only from the conceded quadratures of the above orders. Since here also, even in the simplest case, in which the body initially is at rest in an inclined position, the integration depends on this formula
+
+dt = dp
+
+(cc+ ff (1- pp))
+,
+
+2 fg(p-p) (1- pp)
+
+which is unable to be resolved either by logarithms or circular arcs. But if the initial
+
+inclination Za should be as it were infinitely small, the work leads on to circular arcs : for
+
+initially let Za = l , and in the elapsed time t the declination Za = l, on account of the smallest
+
+arcs
+
+l and l , then
+
+p
+
+=
+
+1
+
+-
+
+1 2
+
+ll
+
+,
+
+dp = -l dl
+
+and
+
+p
+
+=
+
+1
+
+-
+
+1 2
+
+ll
+
+,
+
+hence
+
+dt = -cdl
+2 fg(ll-ll)
+
+and
+
+t=
+
+c 2 fg
+
+A
+
+cos
+
+l l
+
+or
+
+l = l cos t
+
+2 c
+
+fg
+
+.
+
+Whereby the axis IA is made vertical in the elapsed time equal to  c and the body
+2 2 fg
+
+performs
+
+isochronous
+
+staggering
+
+motions,
+
+as
+
+a
+
+simple
+
+pendulum
+
+of
+
+length
+
+equal
+
+to
+
+cc f
+
+.
+
+[Thus, the general problem cannot be solved from these known integrals, and Euler has to be content with the s.h.m. arising from small oscillations.]
+
+SCHOLIUM 2 902. If we attribute the same kind of nature to the body, so that the natural axis FD of this, which is vertical in a state of rest, likewise is a principal axis of this body and the two remaining axes have equal moments of inertia, then certain differential formulas containing the motion of this are assigned, but in no way should we be able to define the motion itself on account of defective analysis. Yet meanwhile, as in the case treated, where we have attributed an infinitely small declination to the body, as comes about from usage, so that the motion is
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 938
+
+made simple enough and by conforming to the motion of a pendulum, therefore in general there is a place for this idea, for whatever manner the principal axes have been arranged about the natural axis. Clearly in the situation of equilibrium, where the natural axis DF keeps a vertical position, I take the centre of inertia I to lie below the centre of the spherical base G by the interval GI = f; then we may put this body to be declined at an infinitely small
+amount from it resting position, so that the arc ZD =  is infinitely small (Fig.114), and it is clear
+that the body soon restores itself by oscillations or staggering motions, yet then with the motion destroyed on account of resistance it remains in a state of equilibrium. Because the declination of the body here is always very small, no effort is required, as the whole shape of the body is spherical; moreover it suffices, if the lowest part of this is part of the surface of a sphere and that very small, the centre of which is at G which acts on the horizontal plane. We consider initially in this staggering motion to be investigated, how the above formulas in general are elicited for this case, and in which the natural axis of the body DF decline minimally from the vertical position, and thus the moments of the forces taken together P, Q, R thus are able to be defined conveniently, so that hence from these we are enabled to assign the motion.
+
+PROBLEM 107 902 [a]. If a body constructed with a spherical base is declined an infinitely small amount from equilibrium, to define the moments of the forces about the three principal axis of this body.
+
+SOLUTION With a sphere described around the centre of inertia I of the body (Fig.114), in which Z is the
+vertical point, the natural axis of the body ID keeps a position declining the least to the vertical, in order that the arc ZD =  is the smallest ; moreover the principal
+axis of the body correspond to the points A, B, C, by reason of which the position of the point D thus itself is had, so that the arcs
+DA =  , DB =  , DC = ,
+which are constant. But now with respect to the vertical point Z the arcs are
+ZA = l, ZB = m and ZC = n ,
+which on account of the minimum ZD =  hardly disagree with these  , , ; whereby if we put:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 939
+
+cos l = cos + p ,
+
+cos m = cos + q,
+
+cos n = cos + r ,
+
+the quantities p, q, r are very small. Because now both cos2  + cos2  + cos2  = 1,
+
+and making
+
+cos2 l + cos2 m + cos2 n = 1 , 2 p cos + 2q cos + 2r cos + pp + qq + rr = 0 .
+
+But then since
+
+cos  = cos cos l + cos cos m + cos cos n ,
+
+there is
+
+cos  = 1+ p cos + q cos + r cos
+
+and thus
+
+cos
+
+p cos
+
++ q cos
+
++
+
+r cos
+
+=
+
+-
+
+1 2
+
+
+
+and
+
+pp + qq + rr =  .
+
+Therefore now, on putting the force of the body on the horizontal plane equal to  , from
+
+§ 894 by attributing a negative value to f itself we obtain the moments of the forces about the
+
+principal axes :
+
+P = IIf (r cos - q cos) ,
+
+Q = IIf (p cos - r cos ) ,
+
+and R = IIf (q cos - p cos),
+
+besides we see now that
+
+II
+
+=
+
+M
+
+1 -
+
+fdd cos  2 gdt 2
+
+ ;
+
+since now cos  is approximately equal to 1 and undergoes the smallest variations, it satisfies
+
+exactly  = M , thus so that is agreed that at first the body presses on the plane with its
+
+whole weight ; and thus we have
+
+P = Mf (r cos - q cos ) ,
+
+Q = Mf ( p cos - r cos ) ,
+
+R = Mf (q cos - p cos ) .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 940
+
+PROBLEM 108 903. If the body provided with the spherical base is declined briefly from its position of rest in which the axis D1 is vertical, and sent off again, so that it reverts from rest to its position of equilibrium, to determine a motion of this kind.
+
+SOLUTION
+
+At the elapsed time t the body maintains the position represented in fig. 114 and keeps all the
+
+denominations fixed in the preceding problem, then the moments of inertia of the body about
+
+the principal axes IA, IB, IC are Maa, Mbb, Mcc. But
+
+now the body may rotate about the axis IO in the sense ABC with an angular speed equal to  ' and the
+
+arcs are
+
+AO =  , BO =  , CO =  .
+
+and there is put  'cos = x,  'cos  = y,  'cos  = z
+
+Since therefore initially, when t = 0, the body is
+
+assumed to begin from rest, there is then x = 0, y = 0
+
+and z = 0. Moreover now, since the motion of the
+
+body always remains the smallest, then the quantities
+
+x, y, z always must remain the smallest, thus so that
+
+the products of the two xy, xz and yz are able to be had
+
+as vanishing before the individual terms. Therefore since the moments of the forces acting P,
+
+Q, R are defined according to § 810, we arrive at the following equations :
+
+Then since and
+
+dx
+
+=
+
+2 fgdt aa
+
+(r
+
+cos
+
+-
+
+q cos )
+
+,
+
+dy
+
+=
+
+2
+
+fgdt bb
+
+(
+
+p
+
+cos
+
+-
+
+r
+
+cos
+
+
+
+)
+
+,
+
+dz
+
+=
+
+2 fgdt cc
+
+(q cos
+
+-
+
+p cos )
+
+cos l = cos + p , cos m = cos + q,
+
+cos n = cos + r ,
+
+on account of the constants  , , , then dl sin l = -dp,
+dm sin m = -dq and
+dnsinn = ­dr ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 941
+
+from which above these three terms are agreed upon
+
+- dp = dt ( y cos - z cos ) ,
+
+- dq = dt ( z cos - x cos ) ,
+
+- dr = dt ( x cos - y cos ) ,
+
+where we have omitted the products yr, zq, zp, xr, xq, yp as small besides these terms shown here. And then if the arc ZA from a certain fixed circle now is agreed to be declined by the angle  , on account of
+sin2 l = sin2  - 2 p cos
+
+we have this equation :
+
+d
+
+=
+
+-dt( y cos + z cos )
+sin2  -2 p cos
+
+.
+
+But because in the above equation the quantities x, y, z and p, q, r everywhere occupy a single
+
+dimension and x, y, z on putting t = 0 must vanish, it is evident on putting:
+
+x = A sin t, y = B sin t, z = C sin t,
+p = D cos t, q = E cos t, r = F cos t, that both this condition as well as the these six equations can be satisfied, while indeed the first three equations divided by cos t and the latter three equations divided by sin t give
+
+A
+
+=
+
+2 fg aa
+
+(F
+
+cos
+
+-
+
+E cos ) ,
+
+D = B cos - C cos ,
+
+B
+
+=
+
+2 fg bb
+
+( D cos
+
+- F cos ) ,
+
+E = C cos - Acos ,
+
+C
+
+=
+
+2 fg cc
+
+(
+
+E
+
+cos
+
+
+
+-
+
+D cos ) ,
+
+F = Acos - B cos .
+
+From the latter the values of the coefficients D, E, F are substituted in the former and we obtain :
+
+A aa 2 fg
+
+=
+
+A cos 2 
+
+-
+
+B cos
+
+cos
+
+-C
+
+cos 
+
+cos
+
++
+
+Acos2  ,
+
+B bb 2 fg
+
+=
+
+B
+
+cos2
+
+
+
+-
+
+C
+
+cos
+
+cos
+
+-
+
+A cos 
+
+cos
+
++
+
+B
+
+cos2
+
+
+
+,
+
+C cc 2 fg
+
+=
+
+C cos2 
+
+-
+
+A cos 
+
+cos
+
+- B cos cos
+
++ Ccos2.
+
+But now if for brevity we put on account of
+
+Acos + B cos + C cos = G , cos2  + cos2  + cos2  = 1
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 942
+
+then
+
+( ) ( ) ( ) A
+
+1
+
+-
+
+ aa 2 fg
+
+= G cos ,
+
+B
+
+1
+
+-
+
+ bb 2 fg
+
+= G cos
+
+et
+
+C
+
+1-
+
+ cc 2 fg
+
+= G cos .
+
+For brevity we put
+
+ 2 fg
+
+= u , so that there arises
+
+But since
+
+A
+
+=
+
+G cos 1-aau
+
+,
+
+B
+
+=
+
+G cos 1-bbu
+
+C
+
+=
+
+G cos 1-ccu
+
+.
+
+Acos + B cos + C cos = G ,
+
+then
+
+cos2  1-aau
+
++
+
+cos2  1-bbu
+
++
+
+cos2  1-ccu
+
+= 1,
+
+from which equation set out we follow on with, on dividing by u aabbccuu - bbccu sin2  + aa cos2  - aaccu sin2  + bb cos2  - aabbu sin2  + cc cos2  = 0.
+
+The known quantities are put in place
+
+bbcc sin2  + aacc sin2 + aabb sin2  = Kaabbcc , aa cos2  + bb cos2 + cc cos2  = Laabbcc,
+
+in order that there becomes
+
+uu - Ku + L = 0,
+
+and hence
+
+( ) u
+
+=
+
+ 2 fg
+
+=
+
+1 2
+
+K
+
++
+
+1 4
+
+KK
+
+-
+
+L
+
+and the quantity G remains undefined and to be defined from the initial position, while on the other hand the quantities K and L have been given from the nature of the body, therefore
+
+since we have found the value of u, hence we have  = 2 fgu and
+
+A
+
+=
+
+G cos 1-aau
+
+,
+
+B
+
+=
+
+G cos 1-bbu
+
+C
+
+=
+
+G cos 1-ccu
+
+D
+
+=
+
+Gu(bb-cc) cos cos  (l -bbu)(1-ccu)
+
+,
+
+E
+
+=
+
+Gu(cc-aa) cos cos  (l -ccu)(1-aau)
+
+,
+
+and
+
+F
+
+=
+
+Gu(aa-bb) cos cos  (l -aau)(1-bbu)
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 943
+
+Now if initially the arc ZD = r , which now is  , since initially p = D, q = E, r = F, we have
+
+DD + EE + FF = rr ,
+thus the constant G is found in terms of r . And then for the angle  to be found there is produced
+
+d
+
+=
+
+-dt(B cos +C cos) sin t sin2 
+
+and thus
+
+
+
+=
+
+(B cos +C cos)(cos t -1)
+ sin2 
+
+,
+
+if indeed the arc ZA should be fixed in the vertical initially, and then it is taken to be moving in the sense XOY, hence as much as this expression for  is negative, it is agreed to be
+
+rotating in the contrary sense to the axis IA about Z. And then since
+
+there arises on account of
+
+pp + qq + rr =   = r cos t
+r = ( DD + EE + FF ) ,
+
+thus it is apparent that the axis ID has erected itself into the vertical position in the elapsed
+
+time
+
+ 2
+
+and the times between falling over are isochronous with the oscillations of a
+
+pendulum, the length of which is equal to
+
+=
+
+2g 
+
+=
+
+1
+
+K-
+=
+
+fu
+
+(KK -4L)
+
+2Lf
+
+.
+
+COROLLARY 1 904. Since DD + EE + FF = rr , then it follows that
+
+( ) ( ) ( )  rr = AA cos2 + cos2  + BB cos2  + cos2  + CC cos2  + cos2
+
+- 2BC cos cos - 2AC cos cos - 2AB cos cos
+
+and because
+
+G = Acos + B cos + C cos ,
+
+the square of this added to that gives
+
+ rr + GG = AA + BB + CC , where for brevity there is put
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 944
+
+on account of
+
+1 1-aau
+
+=
+
+P,
+
+1 1-bbu
+
+=
+
+Q
+
+,
+
+1 1-ccu
+
+=
+
+R,
+
+P cos2  + Qcos2  + R cos2  = 1,
+
+and
+
+there becomes
+
+A = GP cos , B = GQcos and C = GR cos
+( )  rr = GG PP cos2  + QQcos2 + RR cos2  -1
+
+and thus on account of
+
+PP - P = aau
+(1- aau )2
+
+there is found
+
+ rr
+
+=
+
+GGu
+
+  
+
+aa cos2
+(1-aau
+
+
+)2
+
++
+
+bb cos2 
+(1-bbu )2
+
++
+
+cc cos2 
+(1-ccu )2
+
+ . 
+
+COROLLARY 2 905. Since again there is the equation  = 2 fgu , if in support the equation uu - Ku + L = 0
+
+is called upon, there is found
+
+GG
+
+=
+
+-2 fgrr(1-aau)(1-bbu)(1-ccu)
+aa cos2  +bb cos2  +cc cos2  -aabbccuu
+
+.
+
+EXPLANATION 906. This equation for GG can be elicited well enough in the following manner: On putting for brevity
+
+we have:
+
+1 aa
+
+=
+
+a,
+
+1 bb
+
+=
+
+b,
+
+1 cc
+
+=
+
+c,
+
+I. K = a +b+c - a cos2  - bcos2  - c cos2  , II. L = bc cos2  + ac cos2 + abcos2  , III. 1 = cos2  + cos2  + cos2 .
+
+Hence there is deduced on account of uu - Ku + L = 0 ,
+
+cos2 
+
+=
+
+aK -L-aa (a-b) (c-a)
+
+and
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 945
+
+u cos2 
+
+=
+
+(a -u )( L -au )
+(a-b) (c-a)
+
+and hence
+
+ rr GG
+
+=
+
+a( L-au)
+(a-b) (c-a)(a-u)
+
++
+
+b( L
+(b-c) (a
+
+-bu )
+-b)(b-u)
+
++
+
+(c
+
+c( L-cu)
+-a)(b-c) (c-u)
+
+from which that expression is found from the reduced equation.
+
+SCHOLIUM 907. Because these extend to the stumbling motions of all bodies, of which the base is part of a sphere, in whatever manner the principal axes of this are disposed in relation to the natural axis DGIF, and the moments of inertia of these about these are unequal, in order that we do not overextend ourselves, at first it is convenient to apply our formulas to simpler kinds of bodies, from which hence it is possible to progress to more complicated kinds of bodies. And indeed in the first case, in which all the moments of inertia are equal to each other or aa = bb = cc, everything is the most simple, since then the axis DF can be taken as the principal axis and the same stumbling motions appear, which we have now defined before. Following this, we put in place now at least two equal moments of inertia, thus it is permitted to put bb = cc.
+
+CASE I : in which aa = bb = cc. 908. Hence in this case we have :
+
+A
+
+=
+
+G cos 1-aau
+
+,
+
+B
+
+=
+
+G cos 1-bbu
+
+,
+
+C
+
+=
+
+G cos 1-ccu
+
+and hence
+
+G
+
+=
+
+G cos2 
+
++G cos2  +G cos2  1-aau
+
+=
+
+G 1-aau
+
+,
+
+thus
+
+in
+
+order
+
+that
+
+u
+
+=
+
+0.
+
+Now
+
+by
+
+putting
+
+u
+
+=
+
+1 aa
+
+and G = 0 it is also possible to satisfy these
+
+same formulas, so that
+
+Acos + B cos + C cos = 0 ,
+
+nor besides can this be determined in any way, and thus we have
+
+then now and in order that
+
+=
+
+2 fg a
+
+;
+
+D
+
+=
+
+B cos - 
+
+C
+
+cos
+
+,
+
+E
+
+=
+
+C
+
+cos 
+
+- 
+
+A cos 
+
+,
+
+F
+
+=
+
+Acos - 
+
+B cos
+
+ rr = AA + BB + CC,
+
+ = r cos t .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 946
+
+Now we can see, that the body is set to rotate about some pole O, and at first we have
+
+cos OD = cos cos + cos  cos + cos  cos ,
+or  'cos OD = x cos + y cos + z cos = 0,
+
+and thus OD is a quadrant arc. Then
+
+or on account of
+
+cos OZ = cos cos l + cos  cos m + cos  cos n  ' cos OZ = x cos l + y cos m + z cos n = 0 + px + qy + rz = 0
+AD + BE + CF = 0 ,
+
+and hence also OZ is a quadrant. From which the body is seen to be rotating about the point O, which is the pole of the vertical circle ZDX, and thus the axis is raised from D directly to the vertical Z, thus so that in the time elapsed t then
+
+=
+
+r cos t
+
+2 fg a
+
+.
+
+Whereby these stumbling motions are isochronous with the oscillations of a pendulum, the
+
+length of which is equal to
+
+aa f
+
+.
+
+CASE 11 : in which only two principal moments of inertia are equal or bb = cc.
+
+909. Hence in this case then
+
+K = cc sin2  +aa sin2  +aa sin2  = cc sin2  +aa+aa cos2 
+
+aacc
+
+aacc
+
+and
+
+L=
+
+aa cos2  +cc sin2  aac4
+
+;
+
+or if with the equation, from which u must be define, there is
+
+then and thus
+
+cos2  1-aau
+
++
+
+sin2  1-ccu
+
+=1,
+
+aa cos2  + cc sin2  = aaccu
+
+u = aa cos2  +cc sin2  '
+aacc
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 947
+
+which value is elicited also from the general equation, except because in this way the useless
+
+root
+
+u
+
+=
+
+1 cc
+
+is
+
+excluded.
+
+On
+
+account
+
+of
+
+which
+
+we
+
+have
+
+( ) 2 fg aa cos2  +cc sin2 
+=
+ac
+
+then indeed
+
+A
+
+=
+
+Gcc
+(-aa+cc) cos
+
+,
+
+B=
+
+Gaa cos
+(aa-cc) sin2 
+
+,
+
+C
+
+=
+
+Gaa cos
+(aa-cc) sin2 
+
+.
+
+From this in order that G can be found from r , put
+( ) GG a4 cos2  +c4 sin2 
+ rr + GG = (aa-cc)2 sin2  cos2 
+or
+( ) GG a4 cos2  +c4 sin2  2
+ rr = (aa-cc)2 sin2  cos2 
+
+[Two small typographic errors have been corrected by the O. O. editor in these derivations]
+
+and or From which we now obtain and
+
+G
+
+=
+
+(aa-cc) r sin cos
+aa cos2  +cc sin2 
+
+G = (aa-cc)r sin cos 2 fg
+( ) ac aa cos2  +cc sin2 
+
+D = 0,
+
+E
+
+=
+
+rcos sin 
+
+,
+
+F
+
+=
+
+-rcos sin 
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 948
+
+A=
+
+-cr sin 2 fg
+
+,
+
+( ) a aa cos2  +cc sin2 
+
+B=
+
+ar cos cos 2 fg
+
+,
+
+( ) c sin aa cos2  +cc sin2 
+
+C=
+
+ar cos cos 2 fg
+
+,
+
+( ) c sin aa cos2  +cc sin2 
+
+from which we follow with
+
+x =  ' cos = A sin t , y =  ' cos  = B sin t , z =  ' cos  = C sin t , p = cos l - cos = D cos t , q = cos m - cos = E cos t , r = cos n - cos = F cos t,
+
+and
+
+( ) ( )  = -ar cos (1-cos t ) 2 fg = -aar cos (1-cos t )
+
+ c sin aa cos2  +cc sin2 
+
+aa cos2  +cc sin2  sin
+
+[The original has the factor sin on the numerator. Corrected by C. B. One has to admit to
+the possibility that Euler did all his calculations mentally, which may account for the nature of the errors he made occasionally.]
+
+and  is the angle VZA, with the circle ZV fixed to the vertical, from which we compute the declination of the pole A. From which now  = r cos t , and in order that we can obtain the
+angle DZV, we seek the angle DZA from the formula
+
+cos
+
+DZA
+
+=
+
+cos 
+
+-cos l  sin l
+
+cos
+
+
+
+= cos -
+
+cos cos  - p cos   sin
+
+=
+
+1 2
+
+
+
+cos  sin 
+
+,
+
+as D = 0 and thus p = 0, hence
+
+cos
+
+DZA
+
+=
+
+r
+
+cos cos t 2 sin
+
+,
+
+which since it is infinitely small, it is apparent that the angle DZA is almost a right angle and equal to the angle ZDA. Whereby when the initial angle ZDA was not right, this solution does not extend to that, which clearly is a special case only. Now also moreover these stumbling motions are isochronous with the oscillations of a pendulum, the length of which is equal to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 949
+
+( ) aacc
+
+.
+
+f aa cos2  +cc sin2 
+
+From which since then
+
+ ' = sin t  ( AA + BB + CC ) ,
+
+there is produced
+
+( ) r 2 fg a4c os2  +c4s in2 
+
+' =
+
+ sin t .
+
+( ) ac aa cos2  +cc sin2 
+
+But for the pole O of the rotation we find:
+
+ 'cosOD = (Acos + Bcos + Ccos) sin t = G sin t
+and  'cos OZ = (Acos l + B cos m + C cos n) sin t = G sin t, ,
+
+thus so that there becomes OD = OZ on account of Ap + Bq + Cr = 0 .
+
+SCHOLION 910. It is no wonder that this solution is not general, since indeed from the given nature of the body, with the quantities aa, bb, cc and the angles  , , dealt with, and from the initial
+position of the axis DF, or from the declination r of this from a vertical position, all the coefficients A, B, C, D, E, F since the number  can be determined, from these the angle ADZ , by which the arc DA deviates from the arc DZ, can be determined at once, nor can anything further be left from our choice, as the nature of the thing requires. Now since in general for the quantity u we could have made use of the twin value, of which neither you may say is to be discarded rather than the other, and if likewise we put each to use, we will obtain an enlarged solution, from which likewise it is possible to effect that the initial angle ADZ should be equal to the given angle. Since indeed in the differential equations the quantities x, y, z and p, q, r everywhere have a single dimension, if this can be satisfied in the two ways, for whatever the size, the sum of these two values can be put in place, and hence we obtain the general solution, as we set out here.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 950
+
+PROBLEM 109 911. If the body provided with the spherical base is declined an infinitely small amount from the state of equilibrium in some manner and suddenly released, to define the stumbling motion by which it is driven.
+SOLUTION With the denominations of the above problem retained, since on putting
+
+sin2  + sin2  + sin2  = K et
+
+aa
+
+bb
+
+cc
+
+and for u we find the twin value, these become
+
+cos2  + cos2  + cos2  = L
+bbcc aacc aabb
+
+( ) ( ) u
+
+=
+
+1 2
+
+K
+
++
+
+1 4
+
+KK
+
+-
+
+L
+
+and
+
+u'
+
+=
+
+1 2
+
+K
+
+-
+
+1 4
+
+KK
+
+-
+
+L
+
+from which for  also two values are arrived at, which are
+
+ = V 2 fgu and  ' = 2 fgu' ,
+
+and hence for the old quantities x, y, z and p, q, r we obtain the following values
+
+x
+
+=
+
+
+
+'
+
+cos 
+
+=
+
+Gcos sin t 1-aau
+
++
+
+Hcos sin 1-aau'
+
+'
+
+t
+
+,
+
+y
+
+=
+
+
+
+'
+
+cos
+
+=
+
+Gcossin t 1-bbu
+
++
+
+Hcos sin 1-bbu'
+
+'
+
+t
+
+,
+
+z
+
+=
+
+'
+
+cos
+
+=
+
+Gcossin t 1-ccu
+
++
+
+Hcossin ' t 1-ccu'
+
+,
+
+then again
+
+p
+
+= cos l - cos
+
+=
+
+Gu(bb-cc)coscos cos t  (1-bbu)(1-ccu)
+
++
+
+Hu' coscos cos ' t
+ '(1-bbu' )(1-ccu' )
+
+,
+
+q
+
+=
+
+cos
+
+m
+
+- cos
+
+=
+
+Gu(cc-aa)cos cos cos t  (1-ccu)(1-aau)
+
++
+
+Hu' cos cos cos ' t
+ '(1-ccu' )(1-aau' )
+
+,
+
+r
+
+=
+
+cos
+
+n
+
+-
+
+cos
+
+=
+
+Gu(aa-bb)cos cos cos t  (1-aau)(1-bbu)
+
++
+
+Hu' cos cos cos ' t
+ '(1-aau' )(1-bbu' )
+
+.
+
+Now here we have two arbitrary constant quantities G and H, and thus these values are satisfied, as on making the substitution into the differential equations both the terms for G as for H are affected to cancel each other. Now if initially the arc ZD is equal to r , on putting t = 0, there must arise pp + qq + rr = rr . From which, if the initial angle ZDA = f , on account
+of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 951
+
+cos f =
+
+cosl - cos cos r sin sin r
+
+=
+
+cos (1-cos r)+
+sin sin r
+
+p
+
+=
+
+r cos 2 sin
+
++
+
+r
+
+p sin
+
+r
+
+[The penultimate denominator lacks the '2' in the first edition. Corrected by C.B.] and because r is infinitely small, then
+p = rsin cosf.
+
+If therefore here the above value for p is substituted on putting t = 0, another equation is had,
+
+from which joined with that the two constants G and H are determined. But from the position
+
+of the angle VZA =  then
+
+d
+
+=
+
+-dt( ycos + zcos )
+sin2
+
+,
+
+with the integral of this shown easily. In a similar manner on putting the angles VZB =  and VZ0 = v, then
+
+d
+
+=
+
+-dt( zcos + xcos
+sin2
+
+)
+
+and
+
+d
+
+=
+
+-dt( xcos + ycos )
+
+sin2
+
+.
+
+But here it is appropriate to note, if bb = cc, that the two values are
+
+u = 1 and u' = sin2  + cos2 
+
+cc
+
+aa
+
+cc
+
+and thus certain numerators and denominators of the former fractions likewise vanish. Hence
+
+in order to investigate the values of these there is put in place
+
+1 = 1 +
+bb cc
+with the quantity present vanishing, and there is found
+
+u
+
+=
+
+1 cc
+
++
+
+ cos2  sin2 
+
+and
+
+u' = sin2  + cos2  ,
+
+aa
+
+cc
+
+and hence if
+
+G 
+
+is put equal to I, in order that G = I = 0 , there becomes
+
+x
+
+=  ' cos
+
+=
+
+Hcos sin ' t 1-aau'
+
+=
+
+-Hccsin ' t
+(aa-cc) cos
+
+,
+
+y
+
+=  ' cos
+
+=
+
+I
+
+sin2  sin t cc cos
+
++
+
+Hcossin ' t 1-ccu'
+
+=
+
+I
+
+sin2  sin t cc cos
+
++
+
+Haacos sin ' t
+(aa-cc) sin2 
+
+,
+
+z
+
+=  ' cos
+
+=
+
+-I sin2  sin t cc cos
+
++
+
+Hcossin ' t 1-ccu'
+
+=
+
+-I sin2  sin t cc cos
+
++
+
+Haacossin ' t
+(aa-cc) sin2 
+
+,
+
+from which
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 952
+
+p
+
+= cos l - cos
+
+=
+
+I sin4  cos t  cc cos cos
+
+,
+
+q
+
+=
+
+cos
+
+m
+
+-
+
+cos
+
+=
+
+-I
+
+sin2 
+
+ cos cos cc cos
+
+t
+
+-
+
+Hu' (aa-cc)cos cos cos  '(1-aau' )(1-ccu' )
+
+'
+
+t
+
+,
+
+r
+
+=
+
+cos
+
+n
+
+-
+
+cos
+
+=
+
+-I
+
+sin2  cos cos  cc cos
+
+t
+
++
+
+Hu' (aa-cc)cos cos cos t  '(1-aau' )(1-ccu' )
+
+,
+
+where
+
+aa - cc
+(1-aau' )(1-ccu' )
+
+=
+
+-aacc
+(aa-cc) sin2  cos2 
+
+.
+
+Or if we put
+
+I
+
+=
+
+G cc cos cos sin2 
+
+and
+
+H = H '(aa-cc) sin2  cos
+aacc
+
+on account of and thus then
+
+u = 1 and u' = aa cos2  +cc sin2  ,
+
+cc
+
+aacc
+
+ = 2 fg
+c
+
+and
+
+( ) 2 fg aa cos2  +cc sin2 
+,
+ac
+
+x =  ' cos = H ' sin2  sin ' t ,
+aa
+
+y
+
+=
+
+' cos
+
+=
+
+H ' cos cossin ' t cc
+
++ G
+
+cos
+
+sin t,
+
+z =  ' cos = H ' cos cossin ' t - G cos sin t ,
+cc
+
+p = cos l - cos = G sin2  cos t,
+
+q = cos m - cos = -Gcos cos cos t + Hu' cossin ' t,
+
+r = cos n - cos = -Gcos cos cos t - Hu' cos cos ' t,
+
+which formulas now can be applied to all the cases without any difficulty.
+COROLLARIUM 1 912. These integrals are able to be extended still further, since x, y, z and p, q, r may receive constant terms ; and with the form of the G and H letters changed, we have :
+x = cos (E + G(1- bbu)(1- ccu)sin t + H(1- bbu' )(1- ccu' )sin ' t ) y = cos(E + G(1- aau)(1- ccu)sin t + H(1- aau' )(1- ccu' )sin ' t ) z = cos (E + G(1- ccu)(1- ccu)sin t + H(1- ccu' )(1- ccu' )sin ' t ) and
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 953
+
+( ) p = Fcos + (bb - cc)cos cos
+
+Gu(1-aau)cos t 
+
++
+
+Hu'
+
+(1
+
+-aau' '
+
+)cos
+
+'
+
+t
+
+,
+
+( ) q = Fcos + (cc - aa)cos cos
+
+Gu(1-bbu)cos 
+
+t
+
++
+
+Hu'
+
+(1
+
+-bbu' '
+
+)cos
+
+'
+
+t
+
+,
+
+( ) r = Fcos + (aa - bb)cos cos
+
+Gu(1-ccu)cos t 
+
++
+
+Hu' (1
+
+-ccu' '
+
+)cos
+
+'t
+
+.
+
+COROLLARY 2 913. Also each of the angular quantities  t and  ' t is increased by a constant quantity, and if in place of these we write  t + g and  ' t + h, the integrals contain six arbitrary constants
+g,h,E, F,G, H and thus they are the complete integrals of these six differential equations:
+
+aadx = 2 fgdt(rcos - qcos),dp = dt(zcos - ycos) bbdy = 2 fgdt(pcos - rcos ),dq = dt(xcos - zcos ) ccdz = 2 fgdt(qcos - pcos) ,dr = dt(ycos - xcos).
+
+COROLLARY 3 914. If the body were at rest in the beginning, as we assume in the problem, thus in order that then it should be the case that x = 0, y = 0 and z = 0, and on putting E = 0, g = 0 and h = 0 ;
+but it is necessary that the remaining constants be defined from the initial position of the body.
+
+COROLLARY 4 915. Clearly if for the beginning, when t = 0, the angles are put
+
+ZDA = l, ZDB = m et ZDC = n ;
+
+in order that
+
+sin (l - m)
+
+=
+
+-
+
+cos sin sin
+
+,
+
+sin (m - n)
+
+=
+
+-
+
+cos sin sin
+
+,
+
+sin(n -l)
+
+=
+
+-
+
+cos sin sin
+
+,
+
+cos (l - m)
+
+=
+
+-
+
+cos sin 
+
+cos sin
+
+,
+
+cos (m - n)
+
+=
+
+-
+
+cos sin
+
+cos sin
+
+,
+
+cos (n -l)
+
+=
+
+-
+
+cos sin
+
+cos sin
+
+,
+
+for the beginning t = 0, it is necessary thus to define the constants, so that if then ZD = r , there comes about
+p = r sin cosl, q = r sincos m, r = r sincos n .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 954
+
+EXPLANATION 916. Towards defining the constants F,G, H in general from the initial position in the manner
+
+described for brevity we put aa cos2 + bb cos2 + cc cos2 = A,
+
+bbcc cos2 + aacc cos2 + aabb cos2 = B
+
+and then
+
+Gu cosg 
+
+=
+
+X
+
+and
+
+Hu' cosh '
+
+=
+
+Y
+
+,
+
+by which the calculation is made easier. Moreover there is found from that absolutely
+
+F = r sin cos cosl + r sincoscos m + r sincoscos n
+
+X
+
++Y
+
+=
+
++r sin cos
+
+ cosl cos
+
+( B-bbcc ) +
+
+r sin cos 
+
+cos m cos
+
+(B-aacc)+
+
+r sin cos n cos cos
+
+(B-aabb)
+
+(bb-cc)(cc-aa)(aa-bb )
+
+,
+
+uX
+
++ u' Y
+
+=
+
+-r sin cos
+
+ cosl cos
+
+(
+
+A-aa
+
+)-
+
+r sin cos 
+
+cos m cos
+
+(
+
+A
+
+-bb)-
+
+r sin cos n cos cos
+
+(
+
+A-cc)
+
+(bb-cc)(cc-aa)(aa-bb )
+
+.
+
+But from these values A and B , from above there is found
+
+L
+
+=
+
+A aabbcc
+
+and
+
+K
+
+=
+
+aabb + aacc + bbcc -B aabbcc
+
+,
+
+from which there becomes
+
+( ) ( ) u
+
+=
+
+1 2
+
+K
+
++
+
+1 4
+
+KK
+
+-
+
+L
+
+and
+
+u'
+
+=
+
+1 2
+
+K
+
+-
+
+1 4
+
+KK
+
+-
+
+L
+
+thus so that u + u' = K and u'- u = (KK - 4L).
+This analysis in general prevails, even if an initial motion were impressed on the body, because in place of the angles  t and  ' t here we have used t + g and  ' t + h. In a similar manner, in order that here we have defined the constants F,G, and H from the initial position,
+from the initial motion impressed the quantities x, y, z are given values, from which if the formulas related in corollary 1and for t and  ' t on writing  t + g and  ' t + h at length, on putting
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 955
+
+t = 0 they are equal, and the remaining constants E, g et h are determined; which indeed, as noted before now vanish, if the motion starts from rest. .
+
+SCHOLIUM 917. Hence for the case of bodies of this kind, for which bb = cc, then
+
+u = 1 , u' = aa cos2  +cc sin2  ,
+
+cc
+
+aacc
+
+and
+
+ = 2 fgu ,  '= 2 fgu' ,
+
+the integrals in general thus may be had :
+
+x = Ecos
+
+- H ' sin2  sin( ' t +h)
+aa
+
+y
+
+=
+
+Ecos
+
++
+
+G
+
+cossin (
+
+'
+
+t
+
++
+
+g)
+
++
+
+H
+
+'
+
+cos 
+
+cos sin(
+cc
+
+'
+
+t +h)
+
+,
+
+z
+
+=
+
+Ecos
+
+-
+
+G
+
+cos sin
+
+(
+
+'
+
+t
+
++
+
+g)
+
++
+
+H
+
+'
+
+cos 
+
+cos  sin(
+cc
+
+'
+
+t
+
++h)
+
+,
+
+and
+
+p = Fcos + G sin2  cos ( t + g) ,
+
+q = Fcos - Gcos cos cos ( t + g) + Hu' cos cos ( ' t + h) ,
+
+r = Fcos - Gcos cos cos ( t + g) - Hu' cos cos ( ' t + h) .
+
+Whereby if initially t = 0, then there becomes
+
+p = r sin cosl, q = r sincos m, r = r sincos n,
+
+and here is found
+
+H=
+
+r sin
+
+coscos m-r cossincos n u' sin2  cos h
+
+,
+
+G=
+
+r sin3
+
+cosl-r sin cos coscos m-r sin2  cos g
+
+sin cos 
+
+coscos n
+
+,
+
+F = r sin cos cosl + r sin coscos m + r sin coscos n.
+
+But with the anglesl, m, n given, likewise there are given  ,  , 
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 956
+
+cos2 
+
+=
+
+cos(l-m sin(l-m
+
+) )
+
+cos ( n -l ) sin( n -l )
+
+,
+
+sin2 
+
+=
+
+- cos(m-n) sin(l-m) sin(n-l
+
+)
+
+,
+
+cos2 
+
+=
+
+cos ( m -n ) cos(l- m ) sin(m-n) sin(l-m)
+
+,
+
+cos2 
+
+=
+
+- cos(n-l) sin(m-n) sin(l-m)
+
+,
+
+cos2
+
+
+
+=
+
+cos(n-l) cos(m-n) sin(n-l) sin(m-n)
+
+,
+
+cos2 
+
+=
+
+- cos(l-m) sin(n-l) sin(m-n)
+
+.
+
+From these formulas it can be deduced that sin cos cosl + sin cos cos m + sin cos cos n = 0,
+
+thus so that the constant defined above F is always equal to 0. Now in a like manner,
+
+sin cosl coscos
+
++
+
+sincos m cos cos
+
++
+
+sincos n cos cos
+
+=
+
+0,
+
+[In the first edition, the first sign is negative rather than positive. Corrected by the editor.] from which the values of the coefficients defined above are determined much more simply, that so that the letters A and B may be removed in a straight­forwards manner. These prevail in general, even if it is not the case that bb = cc.
+
+PROBLEM 110 918. If the body provided with the spherical base has two equal principal axis and for that, when it should be declined an infinitely small amount from rest, some minimum motion should be impressed, the define the continued motion.
+
+SOLUTION Let ID be the axis of the body in equilibrium passing through the centre of inertia I and crossing the base G (Fig. 116), and let this be placed higher with that interval present GI = f. Again let IA be the special principal axis of the body about which the moment of inertia is equal to Maa, but about all the other axes and normal to that equal to Mcc, which all can be had equally for principal axes, one IB is taken on the arc DA produced, and the other on the arc 1C, in order that the quadrant AC is normal to AD and likewise also the quadrant DC is normal to AD. Hence on putting DA =  then DB =  =  + 90°
+and DC =  = 90°. Moreover initially, when t = 0, the arc DZ = r and the angle ZDA = l , then ZDB = m = l and ZDC = n = l + 90°. From the preceding formulas we have hence
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 957
+
+u
+
+=
+
+1 cc
+
+,
+
+u'
+
+=
+
+aa cos2  +cc sin2  aacc
+
+,
+
+=
+
+2 fgu ,
+
+ '=
+
+2 fgu' ,
+
+while now from the initial position in the first place there occurs F = 0 , and then
+
+r cos cosl = G sin2  cos g ;
+
+hence
+
+rcos cosl = G sin cos cos g,
+
+G
+
+=
+
+r cosl sin cos g
+
+,
+
+-r sinl = Hu' sin cosh,
+
+H
+
+=
+
+u'
+
+-r sinl sin cosh
+
+.
+
+In the beginning a motion is then impressed on the body about the axis IC, with an angular speed equal to  in the sense ABC, with OA = a, OB = b,and OC = c present and there must be
+
+produced
+
+ cos a
+
+=
+
+Gcos
+
+-
+
+H ' sin2  aa
+
+sin h
+
+,
+
+ cosb =
+
+-G sin
+
+-
+
+H
+
+'
+
+sin
+
+ cos cc
+
+
+
+sin h
+
+,
+
+ cosc = G sin sin g,
+
+from which we conclude
+( )  (aacos acos - cccosbsin ) = E aacos2 + ccsin2 .
+
+and
+
+ (cos a sin
+
++ cosbcos
+
+) = -H ' sin
+
+sin
+
+h
+
+
+
+sin2 cc
+
++ cos2
+aa
+
+ .
+
+Hence
+
+E
+
+=
+
+
+
+(aacos acos -cccosbsin
+aacos2 +ccsin2
+
+)
+
+,
+
+G
+
+=
+
+
+
+ cosc sin sin
+
+g
+
+,
+
+H
+
+=
+
+-
+
+(cos a sin +cosbcos
+ ' u' sin sinh
+
+)
+
+,
+
+hence the arises
+
+tang
+
+g
+
+=
+
+ cosc  r cosl
+
+and
+
+tang
+
+h
+
+=
+
+
+
+(cos
+
+a
+
+sin  'r
+
++ cos b cos  sinl
+
+)
+
+,
+
+from which the angles g and h and hence the numbers G and H become known.
+
+With these definitions after an elapsed time t the body holds the position shown in the figure
+
+and here becomes
+
+ZD =  , ZA = l, ZB = m, ZC = n:
+
+and there is put in place
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 958
+
+cosl = cos + p, cosm = cos + q, cosn = cos + r
+
+or cos m = - sin + q et cosn = r.
+
+Thereon the body now rotates about the axis IO with an angular speed equal to  in the sense
+
+ABC with the arcs arising
+
+OA =  , OB =  , OC =  ,
+
+and on putting
+
+ ' cos = x ,  ' cos = y and  ' cos = z ,
+
+we have from § 917
+
+
+
+'
+
+cos 
+
+=
+
+ cos
+
+(aacosa cos - cc cosb sin
+aacos2 + cc sin2
+
+)
+
++
+
+
+
+'
+
+r
+
+sin sinl sin(
+aau' cosh
+
+'
+
+t
+
++h)
+
+,
+
+ ' cos 
+
+= - sin (aacos a cos - cc cosb sin
+aacos2 + cc sin2
+
+)
+
++
+
+
+
+'
+
+r
+
+cos
+
+ sinl sin(
+ccu' cosh
+
+'
+
+t
+
++h)
+
+,
+
+'
+
+cos 
+
+=
+
+ r cosl sin( t +g)
+cos g
+
+,
+
+[In the first edition the denominator in the second equation is aau' coshrather than ccu' cosh.
+
+C. B.] then now in addition :
+
+p
+
+=
+
+r sin
+
+cosl cos( t +g)
+cos g
+
+,
+
+q
+
+=
+
+r cos
+
+cosl cos( t +g)
+cos g
+
+,
+
+r
+
+=
+
+-r
+
+sinl cos(
+cos h
+
+'
+
+t
+
++h)
+
+.
+
+From these if the arc is put in place ZD =  , then
+
+ =r
+
+ 
+
+cos2
+
+l cos2 ( t +g)
+cos2 g
+
++
+
+sin2
+
+l cos2 (
+cos2 h
+
+'
+
+t +h)
+
+ 
+
+.
+
+Again from triangle AZD there is
+
+cos ADZ
+
+=
+
+cos l -cos cos sin sin
+
+=
+
+p
+
++
+
+1 2
+
+
+
+cos
+
+ sin
+
+=
+
+p  sin
+
+with the term
+
+cos 2 sin
+
+vanishing, and hence therefore
+
+and therefore
+
+cos
+
+ADZ
+
+=
+
+cos
+
+l
+
+cos( t
+cos g
+
++
+
+g
+
+)
+
+:
+
+ 
+
+cos2
+
+l cos2 ( t +g)
+cos2 g
+
++
+
+sin2
+
+l cos2 (
+cos2 h
+
+'
+
+t +h)
+
+ 
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 959
+
+tang
+
+ADZ
+
+=
+
+cos g tangl cos( ' t +h) coshcos( t +g)
+
+.
+
+But besides the arc DZ =  and the angle ADZ is necessary to know the angle XZD
+
+calculated from the fixed vertical circle ZX ; now DZA = 180o - ADZ , or
+
+tang
+
+ADZ
+
+=
+
+-
+
+cos g tangl cos( ' t +h) coshcos( t +g)
+
+tang l
+
+,
+
+since initially there is present DZA = 180o -l and tang DZA = -tangl . From which now on
+
+putting the angle XZA =  , there is
+
+d =
+
+-
+
+dt( ycos + zcos )
+sin2
+
+=
+
+ydt sin
+
+,
+
+and hence
+
+
+
+= Const.
+
+-
+
+
+
+t(
+
+aa
+
+cos acos aa cos2 
+
+-cc cosbcos +ccsin2
+
+)
+
+-
+
+r
+
+cos sinl cos( ' t
+ccu' sin cosh
+
++h)
+
+.
+
+But if we put the initial angle XZD to be vanishing, initial there is  = 180o -l ,
+
+and thus a constant is introduced here :
+
+Const.
+
+=
+
+180o
+
+-
+
+l
+
++
+
+r cos sin ccu' sin
+
+l
+
+,
+
+from which we have :
+
+
+
+= 180o
+
+-l
+
+-
+
+t(aa cos acos -cc cosbcos
+aa cos2  +ccsin2
+
+)
+
+-
+
+r cos sinl ccu' sin
+
+1 -
+
+cos( ' t +h)
+cos h
+
+ 
+
+.
+
+and hence XZD =  - DZA , from which at the time t the position of the body is known
+
+perfectly, and in this determination the motion of the body is likewise present.
+
+COROLLARY 1 919. If the initial motion impressed on the body vanishes, then there becomes g = 0 and h = 0 ;
+and hence
+
+x
+
+=
+
+
+
+'
+
+cos 
+
+=
+
+
+
+'
+
+r
+
+sin sinl sin ' aau'
+
+t
+
+,
+
+y
+
+=
+
+ ' cos 
+
+=
+
+ ' r cos sinl sin ' t ccu'
+
+,
+
+z =  ' cos =  r cosl sin t,
+
+p = r sin cosl cos t, q = r cos cosl cos t, r = -r sinl cos ' t
+
+( ) tang ADZ = tang
+
+180o - DZA
+
+=
+
+cos ' t cos t
+
+tang l
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 960
+
+and
+
+
+
+=
+
+180o
+
+-l
+
+-
+
+r cos sinl ccu' sin
+
+(1 -
+
+cos 
+
+'
+
+t
+
+).
+
+COROLLARY 2
+
+920. But if an initial motion were impressed on the body with an angular speed of , this
+
+must
+
+not
+
+be
+
+much
+
+greater
+
+than r
+
+.
+
+For
+
+if
+
+ r
+
+should
+
+be
+
+a
+
+very
+
+large
+
+number,
+
+the
+
+angles
+
+g and h appearing are almost right and the cosines of these nearly equal to zero, and thus the
+
+numbers p, q, r become exceedingly large, while yet they can be considered as very small, as the nature of the solution examines. In as much as the arc ZD =  must always be very small.
+
+COROLLARY 3
+921. Since it is the case that ' = ( xx + yy + zz) , unless the three quantities x, y, z
+individually vanish, it cannot happen that the body can be returned to rest at any time. And even if the body begins to move from rest, it can happen still, that the body subsequently never returns to rest, and this therefore always comes about, unless it is the case that either sinl = 0 or cosl = 0 ; then also the natural axis of the body DF never comes to a vertical position.
+
+COROLLARY 4
+
+922. Since it is the case that the quantity r is very small, if initially the body is given no
+
+motion, as then  = 0 , then it is exactly enough that  = 180o -l ; clearly the angle XZA
+
+remains constant, and the motion of the axis IA thus put in place, as now at one time it
+
+approaches the vertical point Z along the arc ZA and now at another it recedes further from
+
+that, then moreover
+
+AZ =  - r cosl cos t
+
+and
+
+ang.ZAD
+
+=r
+
+sinlcos ' t sin 
+
+.
+
+COROLLARY 5 923. But in general some kind of initial motion is impressed on the body, then
+
+XZA
+
+=
+
+
+
+= 180o
+
+-l
+
+-
+
+t(aa cos acos -cc cosbcos
+aa cos2  +ccsin2
+
+)
+
+and thus the arc ZA is carried uniformly around the vertical point Z ; from which now, since
+sin AD : sin DZA = ZD (  ) : ZAD,
+
+then
+
+ZAD
+
+=
+
+r sinlcos(  ' t +h ) sin cosh
+
+and
+
+the
+
+arc
+
+ZA = 
+
+-
+
+r
+
+cos
+
+lcos(  cos g
+
+t
+
++
+
+g
+
+)
+
+.
+
+Or for g and h with the values put in place :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 961
+
+the
+
+angle
+
+ZAD
+
+=
+
+r
+
+sinlcos sin 
+
+'
+
+t
+
+-
+
+
+
+(cos a
+
+sin +cosbcos  ' sin
+
+)
+
+sin 
+
+'
+
+t
+
+and
+
+arcus
+
+ZA
+
+=
+
+- r cosl cos t
+
++
+
+
+
+cosc sin t 
+
+.
+
+SCHOLIUM 1 924. These three final formulas, showing the angles XZA, ZAD with the arc Z A, bring about the whole solution of the problem. For if indeed we are able to assign this at some time, we know perfectly the position of the body. Whereby if we substitute the above values found for and  ' , then the general solution of this problem is contained in these formulas :
+
+the angle
+
+XZA
+
+= 180o
+
+-l
+
+-
+
+ t( aacosacos -cc cosb sin aacos2 +ccsin2
+
+)
+
+,
+
+the arc ZA =  - cosl cos t
+
+2 fg c
+
++
+
+ c cosc 2 fg
+
+sin t
+
+2 fg c
+
+,
+
+( ) ( ) ( ) and
+
+the
+
+angle
+
+ZAD
+
+=
+
+r sinl sin 
+
+cos
+
+t
+
+2 fg aacos2 +ccsin2 ac
+
+-  ac (cos a sin +cosbcos )
+sin 2 fg aacos2 +ccsin2
+
+t 2 fg aacos2 +ccsin2
+
+sin
+
+ac
+
+.
+
+Hence if all the moments of inertia were then equal, clearly aa = cc, then the angle
+
+XZA = 180o -l - t( cosacos - cosb sin ) ,
+
+the arc ZA =  - cosl cos t
+
+2 fg c
+
++
+
+ c cosc 2 fg
+
+sin t
+
+2 fg c
+
+and
+
+the
+
+angle
+
+ZAD
+
+=
+
+r sinl sin 
+
+cos
+
+t
+
+2 fg c
+
+-
+
+ c (cos a sin
+sin 
+
++ cos b cos  2 fg
+
+)
+
+sin
+
+t
+
+2 c
+
+fg
+
+,
+
+in which case the position of the point A is clearly arbitrary.
+SCHOLIUM 2 925. The argument, which in this chapter we have undertaken chiefly to set out, clearly the rocking motion of bodies given with spherical bases, we have resolved completely, provided the rocking motions are small, which hypothesis is usually put in place in the theory of oscillations; for the formulas shown in § 912 and in the following provide a complete solution to this question, if indeed there the angles t and ' t are augmented by the constants g andh. Moreover we have shown in § 916 how to define the constants from the initial position, in which the calculation is is strongly supported from the note added at the end of § 917; whereby we may move on to the explanation of the motion of cylindrical bodies.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 962
+
+CAPUT XVIII
+DE MOTU CORPORUM BASI SPHAERICA PRAEDITORUM SUPER PLANO HORIZONTALI
+
+PROBLEMA 104 884. Si corpus basi sphaerica praeditum plano horizontali quomodocunque incumbat, definire vires, quibus sollicitatur, earumque effectum in motu corporis progressivo turbando.
+
+SOLUTIO Sit EH planum horizontale (Fig. 113) et T punctum, ubi corpus ei insistit, in corpore autem notetur prima centrum baseos sphaericae MTN,quod sit in G, deinde centrum inertiae corporis
+I, ac tabula repraesentet planum, in quo haec tria puncta sunt sita. Ducatur radius GT, qui cum sit ad horizontalem EH normalis, situm habebit verticalem, ideoque ipsum planum TGI erit verticale. Iam quia pro motu progressivo totam corporis massam, quae sit = M, tanquam in centro inertiae I collectam concipere licet, ducta IP ipsi GT parallela corpus primo ob gravitatem urgetur in directione IP vi = M; deinde vero ubi planum horizontale in T tangit, ab eo certa quadam vi urgebitur sursum in directione TG, et pressioni aequali, quae vis sit =  . Quare nisi hae duae vires se destruant, corpus in quiete persistere nequit; ex quo perspicuum est statum quietis exigere, ut producta recta GI in F corpus puncto F plano horizontali insistat sicque recta DIGF fiat verticalis. Figura ergo repraesentat statum corporis inclinatum, et inclinatio indicatur angulo FGT, qui sit =  , quo
+evanescente corpus in statu aequilibrii versatur. Ponamus porro radium basis sphaericae GF = GT = e et intervallum punctorum G et I nempe GI = f, quatenus centrum inertiae I longius distat a puncto F quam centrum figurae G; ita ut, si proprius caderet, quantitas f negative
+esset accipienda. Hinc ergo erit IP = e + fcos , quae est altitudo centri inertiae I supra
+planum horizontale EH et quae a viribus sollicitantibus sola afficitur. Translata autem vi TG =  in centrum inertiae I, punctum I deorsum sollicitatur vi = M ­  ; et quia eius celeritas deorsum directa est
+
+=
+
+fd sin dt
+
+posita ea = u erit
+
+du
+
+=
+
+2g(M - M
+
+)dt
+
+denotante dt elementum temporis, ex quo habetur
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 963
+
+( ) f (dd  sin  + d  2 cos ) = 2g
+
+1
+
+-
+M
+
+dt 2
+
+sumto dt constante; neque aliter motus progressivus afficietur.
+
+COROLLARIUM 1
+885. Vicissim ergo, si ratio motus progressivi detur vel saltem ut data consideretur, inde pressio  definietur, cum sit
+
+ M
+
+=1-
+
+f (dd  sin  +d  2 cos  ) 2gdt 2
+
+seu
+
+ M
+
+=1+
+
+fdd cos 2gdt 2
+
+
+
+.
+
+COROLLARIUM 2
+886. Si fuerit f = 0 seu centrum inertiae I in ipsum centrum sphaerae G incidat, prodit  = M, et corpus in omni situ aequilibrii proprietate gaudet.
+
+COROLLARIUM 3 887. Si fuerit f > 0 seu F1 > FG, statim ac corpus tantillum inclinatur, a vi sollicitante inclinatio augebitur, sin autem sit f < 0 seu FI < FG, inclinatio minuetur corpusque in situm aequilibrii, quo punctum F plano insistit, restituetur: dum priori casu procumbit, alium quaerens aequilibrii situm.
+
+SCHOLION 1 888. Quamcunque autem corpus habuerit figuram, in eo semper ad minimum duo dantur aequilibrii situs, quorum alter ita est comparatus, ut, si corpus ex eo parumper declinetur, sponte sua se restituat, alter vero, ut penitus prolabatur; quorum prior status aequilibrii stabilis, posterior vero labilis vocari solet. Quodcunque enim corpus plano horizontali incumbit, in aequilibrio versatur, si recta a centro inertiae ad punctum contactus ducta fuerit verticalis; id quod semper duplici saltem modo evenire potest. Namque si ex centro inertiae ad omnia superficiei puncta rectae concipiantur ductae, quoniam nulla earum vel evanescit vel sit infinita, inter eas necesse est dari et maximam et minimam; utraque autem ad planum tangens erit normalis; quare si corpus alterutro eorum punctorum, a quibus centrum inertiae vel maxime vel minime distat, plano horizontali incumbat, recta ex centro inertiae ad punctum contactus ducta erit verticalis ideoque situm aequilibrii dabit, eumque stabilem, si recta ista fuerit minima, contra vero labilem, si maxima; unde intelligitur centrum inertiae semper infimum locum quaerere, ubi acquiescat. Saepenumero autem plures dantur aequilibrii situs, alii stabiles alii labiles, qui se alternatim excipere debent, quoniam corpus ex situ labili digressum in stabilem perveniat necesse est.
+SCHOLION 2 889. In praesente casu, quo corporis superficiem sphaericam statuimus, recta per centrum inertiae I et centrum figurae G ducta dabit duo illa puncta F et D, quibus si corpus plano horizontali incumbat, situm aequilibrii teneat ; ac dum puncto F planum horizontale tangit,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 964
+
+situs aequilibrii erit stabilis, si FI < FG seu f < 0, labilis autem, si FI > FG seu f > 0; neque praeter hos duos situs aequilibrii alius hic dabitur, nisi fuerit f = 0, quo casu subito omnes plane situs aequilibrii indolem recipiunt. Etsi autem hic totam corporis superficiem ut sphaericam considero, tamen ad institutum nostrum sufficit, si ea saltem portio, qua durante motu planum horizontale contingit, fuerit sphaeriea; atque hinc ista tractatio etiam ad eos turbines patet, quorum axes inferius non in cuspidem, ut ante assumsimus, sed in haemisphaerium vel etiam minus sphaerae segmentum efformantur, ita ut forma supra considerata hinc prodeat, si radius sphaerae GF = e evanescat, sicque haec tractatio superiorem in se complectatur. Recta igitur DIGF per centrum inertiae I et centrum basis sphaerieae G dueta proprium turbinis axem exhibet, quae quidem, uti turbines construi solent, simul unus est axium principalium corporis, bini vero reliqui momenta inertiae habent paria, qualem formam iam supra statuimus. Verum quo haec tractatio latius pateat simulque ad titubationes corporum quorumcumque basi sphaerica praeditorum accommodari queat, axes corporis principales utcumque ab axe proprio DF diversos considerabo eorumque respectu momenta virium explorabo.
+
+PROBLEMA 105
+890. Data pressione  , quo corpus basi sphaerica praeditum plano horizontali incumbit, definire momenta inde orta respectu axium principalium corporis, quomodocunque hi ratione axis proprii corporis fuerint dispositi.
+SOLUTIO Circa corporis centrum inertiae I descripta sphaera (Fig.l14), sit Z eius punctum
+verticale, axisque proprius teneat iam situm DIG, ut eius declinatio a situ verticali sit DZ =  . Cum ergo directio pressionis  sit verticalis et per punctum G transeat existente IG = f, referat recta verticalis G  hanc pressionem =  , ita ut ZDGII sit planum verticale, in quo resolvatur vis G  =  secundum directiones GI et GV, quarum haec ad illam sit normalis, et ob angulum DG  =  prodit vis secundunl GI =  cos  et vis secundum GV =  sin  , quarum illa per centrum inertiae I transiens nulla suggerit momenta. Sint nunc IA, I B, IC corporis tres axes principales, datum situm ratione axis proprii ID tenentes, ac per puncta A, B, C ex D ducantur semicirculi DAG, DBG, DCG. Quodsi axis IA esset normalis ad planum IGV, eius respectu foret momentum vis GV =  f sin  , quod autem nunc in ratione sinus totius tam ad sinum arcus GA quam ad sinum anguli VGA minui debet, ita ut ex vi pressionis resultet
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 965
+
+mom. respectu axis IA =  f sin   sin GA sinVGA in sensum CB , mom. respectu axis I B =  f sin   sin GB  sinVGB in sensum AC, mom. respectu axis 1C =  f sin   sin GC  sinVGC in sensum BA .
+
+Haec autem terna momenta supra litteris P, Q, R indicavimus [803] quatenus quidem in sensum contrarium agere statuuntur, quare omnibus ad punctum D translatis habebimus:
+P = -  f sin DZ  sin DA sin ZDA = - f sin ZD  sin ZA  sin DZA, Q = -  f sin DZ  sin DB  sin ZDB = -  f sin ZD  sin ZB  sin DZB, R = -  f sin DZ  sin DC  sin ZDC = - f sin ZD  sin ZC  sin DZC .
+
+COROLLARIUM 1 891. Assumsimus hic centrum basis G propius esse termino imo F quam centrum inertiae I; sin autem secus eveniat, ut intervalIum FI minus sit intervallo FG = e, intervalIum GI = f negative capi debet. At si fuerit GI = 0, momenta inventa evanescunt seu corpus in omni situ aequilibrium tenebit.
+COROLLARIUM 2 892. Si pro situ axis proprii ID respeetu axium eorporis principalium ponatur arcus
+AD =  , BD =  , CD = ,
+tum vero angulus ZDA =  , existente arcu ZD =  , ob
+
+cos
+
+ADB
+
+=
+
+cos  sin 
+
+cos sin
+
+et
+
+sin
+
+ADB
+
+=
+
+-
+
+cos sin sin
+
+,
+
+quia sin ADB :sin DAB seu sin ADB :- cos DAC = 1:sin BD = 1:sin ,
+
+erit
+
+sin
+
+ZDB
+
+=
+
+- cos
+
+cos sin +cos sin sin
+
+cos 
+
+,
+
+at
+
+cos
+
+DAC
+
+=
+
+cos CD sin AD
+
+=
+
+cos sin
+
+,
+
+ideoque
+
+P = -  f sin  sin sin ,
+
+atque
+
+Q
+
+=
+
+
+
+f
+
+sin  (cos
+
+cos sin -cos cos )
+sin 
+
+,
+
+et
+
+R
+
+=
+
+
+
+f
+
+sin  (cos
+
+cos sin -cos sin 
+
+cos )
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 966
+
+COROLLARIUM 3 893. Si axis proprius ID eongrueret cum axe principali IA, foret C =  atque  =  = 90°, ut esset cos = cos = sin et angulus  maneret indefinitus. At ex prioribus formulis fient
+momenta virium: P = 0, Q = - f sin  sin ZAB et R = - f sin  sin ZAC
+seu P = 0, Q =  f sin ZC et R = - f sin ZB.
+
+COROLLARIUM 4 894. Quodsi vero ut supra ponamus
+ZA = l, ZB = m et ZC = n ,
+reperiemus momenta virium in genere atque
+P =  f (cos cos m - cos cos n ),
+Q =  f (cos cos n - cos cos l )
+et R =  f (cos cos l - cos cos m ),
+unde illa, sin = 0 et  =  = 90°,sponte sequuntur.
+
+EXPLICATIO 895. Ratio investigationis harum posteriorum formularum ita se habet:
+
+primo cum sit
+
+sin DZ  sin ZDA = sin ZA  sin ZAD ,
+
+erit P = -  f sin DA sin ZA sin ZAD ;
+
+at est
+
+ZAD = BAD - BAZ ,
+
+et
+
+sin
+
+BAD
+
+=
+
+- cos CAD
+
+=
+
+- cos sin DA
+
+,
+
+cos
+
+BAD
+
+=
+
+cos sin DA
+
+,
+
+unde et
+
+sin BAZ
+
+=
+
+- cos CAZ
+
+=
+
+- cos n sin ZA
+
+,
+
+cos
+
+BAZ
+
+=
+
+cos m sin ZA
+
+,
+
+sin
+
+ZAD
+
+=
+
+- cos m cos +cos n cos sin ZA sin DA
+
+P =  f ( cos cos m - cos cos n).
+
+Reliqua duo momenta Q et R praebet analogia sine ulteriori calculo. Deinde vero est cos DZ = cos  = cos cos l + cos cos m + cos cos n,
+
+quae expressio, uti unitatem nunquam superare potest, ita unitati aequalis esse nequit seu
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 967
+
+DZ = 0, nisi sit l =  , m =  et n =  , scilicet has ternas determinationes simul suppeditat haec aequatio:
+cos cos l + cos cos m + cos cos n = 1. Cum enim praeterea sit
+cos2  + cos2  + cos2  = 1 et
+cos2 l + cos2 m + cos2 n = 1 ,
+
+si a summa harum illius duplum subtrahatur, prodit ( cos - cos l)2 + ( cos - cos m)2 + ( cos - cos n)2 = 0 ,
+trium autem quadratorum summa nihilo aequari nequit, nisi singula sint nulla.
+
+SCHOLION
+
+896. Cum neque in his expressionibus pro momentis virium, P, Q, R inventis, neque in
+
+pressione
+
+
+
+= M (1+
+
+fdd cos 2 gdt 2
+
+
+
+)
+
+radius sphaerae e basin constituentis insit, omnia, quae supra de motu turbinis infra in
+
+cuspidem desinentis sunt tradita, etiam valent de eiusmodi turbinibus, qui desinunt in
+
+haemisphaerium seu aliam sphaerae partem, dummodo punctum F, quod ante cuspidem
+
+denotabat, hic in centro figurae sphaericae G constituatur. Perinde ergo est, sive turben
+
+gyretur super cuspide, sive super hemisphaerio, dummodo f sit distantia centri inertiae I a
+
+centro basis sphaericae, quantuscunque enim fuerit radius huius basis e, is in computum
+
+non ingreditur, eo autem evanescente basis turbinis abit in
+
+cuspidem. Totum igitur caput praecedens hic inseri
+
+intelligatur, ita ut Theoria turbinum sine ullo labore haud
+
+mediocriter amplificata sit censenda. Basin autem
+
+sphaericam faciendo casus occurrit ante exclusus, scilicet
+
+quo centrum inertiae I fundo proprius est, quam centrum
+
+sphaericitatis, hicque sit quantitas f negativa. Sive iam
+
+tale corpus sit globus completus, sive basin habeat MFN
+
+portionem sphaerae (Fig. 115), centro G descriptae, qua
+
+plano horizontali incumbat, eius motum, quatenus
+
+contactus in hanc basin cadit, investigemus. Hic autem cogimur corpori talem indolem
+
+tribuere, ut axis proprius AGIF, qui si fuerit verticalis, statum quietis exhibet, simul sit
+
+corporis axis principalis, reliqui vero bini axes principales habeant momenta inter se aequalia.
+
+Scilicet si respectu axis IA momentum inertiae sit = Maa, respectu binorum reliquorum vero
+
+Mbb et Mcc, statuemus bb = cc. Huiusmodi ergo corpus quemcunque receperit motum
+
+impressum, quomodo motum sit continuaturum, determinemus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 968
+
+PROBLEMA 106 897. Si corpus basi sphaerica MFN instructum, in quo axis aequilibrii AGJF sit axis principalis, eiusque respeetu momentum inertiae = M aa,respectu binorum reliquorum autem aequalia = Mcc, motum acceperit quemcunque, determinare motus continuationem.
+
+SOLUTIO
+
+Sit radius basis sphaericae FG = e, centrum autem inertiae I cadat infra centrum basis G ad
+
+intervalIum GI = f. Pro motu progressivo, si centrum inertiae I habuerit motum secundum
+
+directionem horizontalem, eum constantem in directum conservabit, quatenus autem motu verticali cietur, is cognita pressione, quae sit =  , inde definietur, quod si declinatio axis AF a situ verticali ponatur =  , sit
+
+ M
+
+=1-
+
+fdd cos  2 gdt 2
+
+,
+
+existente M corporis massa seu pondere. Verum ipsa haec pressio  , quam corpus in
+
+planum horizontale exerit, non nisi ex motu gyratorio cognosci potest. Teneat ergo corpus
+
+nostrum respectu sphaerae fixae (Fig.lll), in qua Z est punctum verticale, nunc elapso tempore
+
+t eiusmodi situm, ut eius axes principales in A, B, C pertingant, ponanturque arcus
+
+ZA = l , ZB=m, ZC =n,
+
+tum vero anguli
+
+XZA =  , XZB =  , XZC = ,
+
+ita ut sit l =  . Nunc autem gyretur circa polum O in sensum ABC celeritate angulari =  ' , ac
+
+positis arcubus
+
+OA =  , OB =  , OC = 
+
+sit brevitatis gratia
+
+ 'cos = x,  'cos  = y,  'cos  = z .
+
+Momenta autem virium ex pressione  orta sunt P = O, Q = - fcosn, R = + fcosm,
+
+unde colligimus sequentes aequationes: dx = 0,
+
+dy
+
++
+
+aa-cc cc
+
+xzdt
+
+=
+
+-2
+
+fgdt Mcc
+
+cos
+
+n
+
+,
+
+dz
+
++
+
+cc-aa cc
+
+xydt
+
+=
+
+2
+
+fgdt cos Mcc
+
+m
+
+,
+
+dl sinl = dt(ycosn - zcosm), dsin2l = -dt( ycosm + zcosn ),
+
+dm sin m = dt(z cos l - xcosn ), reliqui anguli  et  hinc sponte
+
+dn sin n = dt(xcosm - y cos l), dantur.
+
+Si porro ponamus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 969
+
+cos l = p, cos m = q, cos n = r ,
+
+quoniam hae aequationes congruunt cum iis, quas supra problema 99 integravimus,
+
+nisi quod f capiatur negative, habebimus in finitis has aequationes:
+
+x=A et
+
+I.
+
+qy
+
++
+
+rz
+
+=
+
+B
+
+-
+
+Aaap cc
+
+,
+
+11.
+
+(qz
+
+- ry)2
+
+=
+
+(Ccc + 4
+
+fgp
+
+)(1-
+
+pp
+
+)
+
+-cc
+
+B
+
+-
+
+Aaap cc
+
+2 
+
+cc+ ff (1- pp)
+
+,
+
+111.
+
+yy
+
++
+
+zz
+
+=
+
+Ccc
+
++
+
+4
+
+fgp +
+
+ff
+
+ 
+
+B
+
+-
+
+Aaap cc
+
+cc+ ff (1- pp)
+
+2 
+
+,
+
+( ) ( ( ) ) IV.
+
+ M
+
+=
+
+2gcc- Afaa
+
+B
+
+-
+
+Aaap cc
+
+2g(cc+ ff (1- pp))
+
+fccp Ccc+4 fgp+ ff
+
+B
+
+-
+
+Aaap cc
+
+2
+
++
+
+2g(cc+ ff (1- pp))2
+
+,
+
+dp (cc+ ff (1 - pp))
+
+( ( ) ) V. dt =
+
+,
+
+(Ccc+4 fgp)(1
+
+- pp)-cc
+
+B
+
+-
+
+Aaap cc
+
+2
+
+( ) VI.
+
+d
+
+=
+
+-dt 1- pp
+
+B
+
+-
+
+Aaap cc
+
+,
+
+( ) VII.
+
+
+
+'
+
+
+
+'
+
+=
+
+AA
+
++
+
+Ccc+4 fgp+ ff cc+ ff (1-
+
+B
+
+-
+
+Aaap cc
+
+pp )
+
+2
+
+,
+
+VIII .
+
+ydz- zdy yy+ zz
+
+=
+
+A (aa-cc) dt cc
+
+2
++
+
+fgdt
+
+ 
+
+B-
+
+Aaap cc
+
+(cc+
+
+ff
+
+-
+
+ffpp)
+
+,
+
+ Mcc
+
+Ccc
+
++
+
+4
+
+fgp
+
++
+
+ff
+
+ 
+
+B
+
+-
+
+Aaap cc
+
+2 
+
+ 
+
+ubi constantes A, B, C et reliquae per integrationem ingressurae ex statu
+
+corporis initiali debent definiri.
+
+COROLLARIUM 1
+
+898. Si corpus initio quieverit axisque principalis A fuerit in a declinatione eius existente Za = l et cosl = p , initio erat x = 0, y = 0 et z = 0, ob  ' = 0 ; atque p = p . Fit ergo
+
+A = O, B = O et Ccc = -4 fgp.
+
+Hinc elapso tempore t erit
+
+x = 0, qy + rz = 0,
+
+qz - ry = 2 fg(p-p) (1- pp) ,
+(cc+ ff (1- pp))
+
+yy
+
++
+
+zz
+
+=
+
+4 fg(p-p) cc+ ff (1- pp)
+
+=
+
+
+
+'
+
+
+
+'
+
+et
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 970
+
+ M
+
+=
+
+cc +
+
+cc ff (1-
+
+pp)
+
++
+
+2 ffccp(p-p)
+(cc+ ff (1- pp))2
+
+COROLLARIUM 2 899. Praeterea vero in eodem casu est d = 0 ideoque axis, qui initio in a erat, per ipsum
+
+arcum aZ movebitur, eritque
+
+dt = dp
+
+(cc+ ff (1- pp))
+,
+
+2 fg(p-p) (1- pp)
+
+unde, quia p > p seu l < l , axis ab a recta ad Z progreditur. Denique ob ydz - zdy = 0,
+
+fit
+
+z =  y et y =
+
+2 fg(p-p)
+
+(1+ )(cc+ ff (1- pp))
+
+atque
+
+q ( yy + zz ) = 2z fg(p-p)(1- pp)
+(cc+ ff (1- pp))
+
+seu
+
+q =  (1- pp)
+
+et
+
+- (1- pp)
+
+r=
+
+,
+
+(1+ )
+
+(1+ )
+
+unde fit
+
+cos ZAB = q =  ,
+(1- pp) (1+ )
+
+qui ergo angulus manet constans.
+
+COROLLARIUM 3
+
+900. Si ergo corpus initio quiescat eiusque axis principalis IA tenuerit situm inclinatum Ia,
+
+inde recta se eriget ex a ad Z ascendens, gyrabitur autem circa punctum O, ut ob x =  ' cos = 0 arcus AO sit quadrans, et quia
+
+cos ZO
+
+=
+
+cos 
+
+cos l
+
++ cos 
+
+cos m + cos 
+
+cos n
+
+=
+
+qy + rz '
+
+=
+
+0
+
+,
+
+erit etiam ZO quadrans, sicque O erit polus circuli XZY. Et cum axis in Z pervenerit, erit
+
+celeritas angularis  ' = 2
+
+fg ( 1- p c
+
+)
+
+.
+
+SCHOLION 1 901. Si corpus initio non quieverit, sed motum quemcunque acceperit, continuatio motus ex iisdem formulis determinatur, dummodo constantes A, B, C statui initiali convenienter definiantur; ubi autem ad eiusmodi formulas integrandas devenitur, quae nonnisi concessis quadraturis superioris ordinis expediri possunt. Quin etiam casus hic simplicissimus, quo corpus initio in situ inclinato quievit, ab integratione formulae huius
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 971
+
+dt = dp
+
+(cc+ ff (1- pp))
+,
+
+2 fg(p-p) (1- pp)
+
+pendet, quae neque per logarithmos neque arcus circulares absolvi potest. At si declinatio
+
+initialis Za fuerit quasi infinite parva, negotium ad arcus circulares perducitur: fit enim initio
+
+Za = l , et elapso tempore t declinatio Za = l, ob l 1et l arcus minimos, erit
+
+p
+
+=
+
+1
+
+-
+
+1 2
+
+ll
+
+,
+
+dp = -l dl
+
+et
+
+p
+
+=
+
+1
+
+-
+
+1 2
+
+ll
+
+,
+
+unde
+
+dt = -cdl
+2 fg(ll-ll)
+
+et
+
+t=
+
+c 2 fg
+
+A
+
+cos
+
+l l
+
+seu
+
+l = l cos t
+
+2 c
+
+fg
+
+.
+
+Quare axis IA fiet verticalis elapso tempore =  c et corpus titubationes isochronas
+2 2 fg
+
+conficiet, uti pendulum simplex longitudinis =
+
+cc f
+
+.
+
+SCHOLION 2 902. Nisi corpori eiusmodi indolem tribuissemus, ut eius axis naturalis FD, qui in statu quietis sit verticalis, simuI esset eius axis principalis, binique reliqui haberent momenta inertiae aequalia, formulas quidem differentiales motum eius continentes assignare, nullo autem modo ob analyseos defectum ipsum motum definire potuissemus. Interim tamen, quemadmodum in casu tractato, ubi corpori infinite parvam declinationem tribuimus, usu venit, ut motus fieret satis simplex motuique penduli conformis, id adeo in genere locum habet, quomodocunque axes principales respectu axis naturalis fuerint dispositi. In situ scilicet aequilibrii, ubi axis naturalis DF situm tenet verticalem, assumo centrum inertiae I infra centrum basis sphaericae G ad intervallum GI = f cadere; tum vero hoc corpus infinite parum de situ suo quietis declinari ponamus, ut arcus ZD =  sit infinite parvus (Fig.114),
+atque evidens est corpus se restituendo oscillationes seu titubationes esse peracturum, donec tandem motu ob resistentiam extincto in statu aequilibrii requiescat. Quoniam declinatio corporis hic perpetuo est minima, non opus est, ut tota corporis figura sit sphaerica, sed sufficit, si infima eius portio eaque minima, qua plano horizontali applicatur, sit pars superficiei sphaerieae, cuius centrum est in G. Hunc igitur motum titubatorium investigaturi primo dispiciamus, quomodo formulae supra in genere erutae pro hoc casu, quo axis corporis naturalis DF quam minime a situ verticali declinat, contrahi indeque momenta virium P, Q, R ita commode definiri queant, ut deinceps ex iis motum assignare valeamus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 972
+
+PROBLEMA 107 902 [a]. Si corpus basi sphaerica instructum infinite parum a situ aequilibrii declinet, definire momenta virium respeetu ternorum eius axium principalium.
+
+SOLUTIO Circa corporis centrum inertiae I descripta sphaera (Fig.114), in qua Z sit punctum verticale, teneat axis corporis naturalis ID situm a verticali minime declinans, ut sit arcus
+ZD =  minimus; axes autem corporis principales
+
+respondeant punctis A, B, C, quorum situs ratione
+puncti D ita se habeat, ut sint arcus DA =  , DB =  , DC = ,
+
+qui sunt constantes. Nunc autem respectu puncti verticalis Z sint arcus
+ZA = l, ZB = m et ZC = n ,
+
+qui ob arcum ZD =  minimum vix discrepabunt ab illis  , , ; quare si ponamus:
+cos l = cos + p ,
+
+cos m = cos + q,
+
+cos n = cos + r ,
+
+quantitates p, q, r erunt minimae. Quia vero est tam cos2  + cos2  + cos2  = 1,
+
+quam
+
+cos2 l + cos2 m + cos2 n = 1 ,
+fiet 2 p cos + 2q cos + 2r cos + pp + qq + rr = 0 .
+
+Deinde autem cum sit cos  = cos cos l + cos cos m + cos cos n ,
+
+erit cos  = 1+ p cos + q cos + r cos
+
+ideoque
+
+cos
+
+p cos
+
++
+
+q cos
+
++ r cos
+
+=
+
+-
+
+1 2
+
+
+
+et
+
+pp + qq + rr =  .
+
+Nunc igitur, posita pressione corporis in planum horizontale =  , ex § 894 tribuendo ipsi f
+
+valorem negativum obtinebimus momenta virium respectu axium principalium:
+
+P = IIf (r cos - q cos) ,
+
+Q = IIf (p cos - r cos ) ,
+
+et
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 973
+
+R = IIf (q cos - p cos),
+
+tum vero vidimus esse
+
+II
+
+=
+
+M
+
+1 -
+
+fdd cos  2 gdt 2
+
+ ;
+
+quia autem cos  proxime est = 1 et minimas variationes subit, erit satis exacte  = M , ita
+
+ut corpus toto suo pondere planum horizontale premere sit censendum; sicque habebimus
+P = Mf (r cos - q cos ) ,
+
+Q = Mf ( p cos - r cos ) ,
+
+R = Mf (q cos - p cos ) .
+
+PROBLEMA 108 903. Si corpus basi sphaerica praeditum de situ quietis, in quo axis D1 est verticalis, parumper declinetur iterumque demittatur, ut ex quiete versus statum aequilibrii revertatur, determinare eius motum.
+SOLUTIO Elapso tempore t teneat corpus situm in fig. 114 repraesentatum maneantque omnes denominationes in problemate praecedente stabilitae, tum vero sint corporis momenta inertiae
+Maa, Mbb, Mcc respectu axium principalium IA, IB, IC. Nunc autem corpus gyretur circa axem IO in sensum ABCceleritate angulari =  ' sintque arcus
+
+AO =  , BO =  , CO =  .
+
+ac ponatur  'cos = x,  'cos  = y,  'cos  = z
+
+Quoniam igitur initio, ubi t = 0, corpus ex quiete
+
+motum incipere assumitur, erat tum x = 0, y = 0
+
+et z = 0. Tum vero, quia motus corporis perpetuo
+
+manet tardissimus, quantitates x, y, z semper
+
+manebunt minimae, ita ut binarum producta xy, xz et
+
+yz prae singulis pro evanescentibus haberi queant.
+
+Cum ergo momenta virium sollicitantium P, Q, R
+
+modo sint definita ex § 810, sequentes adipiscimur aequationes
+
+dx
+
+=
+
+2 fgdt aa
+
+(r
+
+cos
+
+-
+
+q
+
+cos ) ,
+
+dy
+
+=
+
+2 fgdt bb
+
+(
+
+p cos
+
+-
+
+r
+
+cos 
+
+),
+
+Deinde quia est
+
+dz
+
+=
+
+2 fgdt cc
+
+(q cos
+
+-
+
+p cos )
+
+cos l = cos + p ,
+
+cos m = cos + q,
+
+et
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 974
+
+cos n = cos + r ,
+
+ob  , , constantes erit
+
+dl sin l = -dp,
+
+dm sin m = -dq
+
+et dnsinn = ­dr ,
+unde insuper hae ternae aequationes accedunt
+- dp = dt ( y cos - z cos ) ,
+
+- dq = dt ( z cos - x cos ) ,
+
+- dr = dt ( x cos - y cos ) ,
+
+ubi producta yr, zq, zp, xr, xq, yp ut minima prae terminis hic exhibitis omittimus. Denique si arcus ZA a circulo quodam verticali fixo nunc declinare statuatur angulo  , ob
+sin2 l = sin2  - 2 p cos
+
+habebimus hanc aequationem:
+
+d
+
+=
+
+-dt( y cos + z cos )
+sin2  -2 p cos
+
+.
+
+Quia autem in superioribus aequationibus quantitates x, y, z et p, q, r ubique unam dimensionem occupant atque x, y, z posito t = 0 evanescere debent, manifestum est tam huic conditioni quam sex illis aequationibus satisfieri posse ponendo:
+x = A sin t, y = B sin t, z = C sin t,
+
+p = D cos t, q = E cos t, r = F cos t,
+tum enim ternae priores aequationes per cos t divisae et ternae posteriores per sin t divisae dabunt
+
+A
+
+=
+
+2 fg aa
+
+(F
+
+cos
+
+-
+
+E cos ) ,
+
+D = B cos - C cos ,
+
+B
+
+=
+
+2 fg bb
+
+( D cos
+
+- F cos ) ,
+
+E = C cos - Acos ,
+
+C
+
+=
+
+2 fg cc
+
+( E cos
+
+-
+
+D cos ) ,
+
+F = Acos - B cos .
+
+Ex posterioribus substituantur valores coefficientium D, E, F in prioribus et obtinebimus:
+
+A aa 2 fg
+
+=
+
+A cos 2 
+
+-
+
+B cos
+
+cos
+
+-
+
+C cos
+
+cos
+
++
+
+Acos2  ,
+
+B bb 2 fg
+
+=
+
+B cos2 
+
+-
+
+C
+
+cos
+
+cos
+
+-
+
+A cos 
+
+cos
+
++
+
+B cos2 
+
+,
+
+C cc 2 fg
+
+=
+
+C cos2 
+
+-
+
+A cos 
+
+cos
+
+-
+
+B cos
+
+cos
+
++ Ccos2.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 975
+
+Quodsi iam brevitatis gratia ponamus Acos + B cos + C cos = G ,
+
+ob
+
+cos2  + cos2  + cos2  = 1
+
+erit
+
+( ) ( ) ( ) A
+
+1
+
+-
+
+ 2
+
+aa fg
+
+= G cos ,
+
+B
+
+1
+
+-
+
+ bb 2 fg
+
+= G cos
+
+et
+
+C
+
+1
+
+-
+
+ cc 2 fg
+
+= G cos .
+
+Ponamus brevitatis causa
+
+ 2 fg
+
+= u , ut fiat
+
+Cum autem sit
+
+A
+
+=
+
+G cos 1-aau
+
+,
+
+B
+
+=
+
+G cos 1-bbu
+
+C
+
+=
+
+G cos 1-ccu
+
+Acos + B cos + C cos = G ,
+
+erit
+
+cos2  1-aau
+
++
+
+cos2  1-bbu
+
++
+
+cos2  1-ccu
+
+= 1,
+
+qua aequatione evoluta consequimur per u dividendo aabbccuu - bbccu sin2  + aa cos2  - aaccu sin2 
++bb cos2  - aabbu sin2  + cc cos2  = 0.
+
+Statuantur quantitates cognitae
+
+bbcc sin2  + aacc sin2 + aabb sin2  = Kaabbcc ,
+
+aa cos2  + bb cos2 + cc cos2  = Laabbcc,
+
+ut sit hincque
+
+uu - Ku + L = 0,
+
+( ) u
+
+=
+
+ 2 fg
+
+=
+
+1 2
+
+K
+
++
+
+1 4
+
+KK
+
+-
+
+L
+
+et quantitas G manet indefinita ex statu initiali definienda, dum contra quantitates K et L sunt ex natura corporis datae, cum igitur hinc inventus sit valor ipsius u, inde habemus
+
+ = 2 fgu et
+
+A
+
+=
+
+G cos 1-aau
+
+,
+
+B
+
+=
+
+G cos 1-bbu
+
+C
+
+=
+
+G cos 1-ccu
+
+D
+
+=
+
+Gu(bb-cc) cos cos  (l -bbu)(1-ccu)
+
+,
+
+E
+
+=
+
+Gu(cc-aa) cos cos  (l -ccu)(1-aau)
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 976
+
+et
+
+F
+
+=
+
+Gu(aa-bb) cos cos  (l -aau)(1-bbu)
+
+.
+
+Si iam initio fuerit arcus ZD = r , qui nunc est  , cum sit initio p = D, q = E, r = F,
+
+habebimus
+
+DD + EE + FF = rr ,
+
+unde per r invenitur constans G. Denique pro angulo  inveniendo prodit
+
+d
+
+=
+
+-dt(B cos +C cos) sin t sin2 
+
+ideoque
+
+
+
+=
+
+(B cos +C cos)(cos t -1)
+ sin2 
+
+,
+
+si quidem arcus ZA initio fuerit in verticali fixo, indeque in sensum XOYmoveri sumatur, quatenus ergo haec expressio pro  est negativa, in sensum contrarium axis IA circa Z gyrari
+
+est censendus. Denique cum sit
+
+pp + qq + rr = 
+
+erit  = r cos t
+
+ob
+
+r = ( DD + EE + FF ) ,
+
+unde patet axem ID in situm verticalem erigi elapso tempore =
+
+ 2
+
+et titubationes
+
+isochronas fore oscillationibus penduli, cuius longitudo est
+
+=
+
+2g 
+
+=
+
+1 fu
+
+=
+
+K-
+
+(KK -4L)
+
+2Lf
+
+.
+
+COROLLARIUM 1 904. Cum sit DD + EE + FF = rr , erit
+
+( ) ( ) ( )  rr = AA cos2 + cos2  + BB cos2  + cos2  + CC cos2  + cos2
+
+- 2BC cos cos - 2AC cos cos - 2AB cos cos
+
+et quia
+
+G = Acos + B cos + C cos ,
+
+huius quadratum eo additum dabit
+
+ rr + GG = AA + BB + CC , ubi si brevitatis gratia ponatur
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 977
+
+1 1-aau
+
+=
+
+P,
+
+1 1-bbu
+
+=
+
+Q
+
+,
+
+1 1-ccu
+
+=
+
+R,
+
+ob
+
+P cos2  + Qcos2  + R cos2  = 1,
+
+et fiet ideoque ob habebitur
+
+A = GP cos , B = GQcos et C = GR cos
+( )  rr = GG PP cos2  + QQcos2 + RR cos2  -1
+
+PP - P = aau
+(1- aau )2
+
+ rr
+
+=
+
+GGu
+
+  
+
+aa cos2
+(1-aau
+
+
+)2
+
++
+
+bb cos2 
+(1-bbu )2
+
++
+
+cc cos2 
+(1-ccu )2
+
+ . 
+
+COROLLARIUM 2 905. Quia porro est  = 2 fgu , si in subsidium vocetur aequatio uu - Ku + L = 0 , reperietur
+
+GG
+
+=
+
+-2 fgrr(1-aau)(1-bbu)(1-ccu)
+aa cos2  +bb cos2  +cc cos2  -aabbccuu
+
+.
+
+EXPLICATIO 906. Haec expressio pro GG satis concinna sequenti modo eruitur: Posito brevitatis gratia
+
+habemus:
+
+1 aa
+
+=
+
+a,
+
+1 bb
+
+=
+
+b,
+
+1 cc
+
+=
+
+c,
+
+I. K = a +b+c - a cos2  - bcos2  - c cos2  , II. L = bc cos2  + ac cos2  + abcos2  , III. 1 = cos2  + cos2  + cos2 .
+
+Hinc deducitur ob uu - Ku + L = 0 ,
+
+cos2 
+
+=
+
+aK -L-aa (a -b) (c-a)
+
+et
+
+u cos2 
+
+=
+
+(a -u )( L -au )
+(a-b) (c-a)
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 978
+
+ideoque
+
+ rr GG
+
+=
+
+a( L-au)
+(a-b) (c-a)(a-u)
+
+b( L-bu)
++ (b-c) (a-b)(b-u)
+
+c( L -cu )
++ (c-a)(b-c) (c-u)
+
+ex qua aequatione reducta illa expressio obtinetur.
+
+SCHOLION 907. Quoniam haec ad titubationes omnium corporum, quorum basis est portio sphaerica, patent, quomodocunque eius axes principales ratione axis naturalis DGIF fuerint dispositi eorumque respectu momenta inertiae inaequalia, ne in tanta amplitudine confundamur, conveniet prima formulas nostras ad species corporum simpliciores accommodari, quo inde facilius ad species magis complicatas progredi liceat. Ac prima quidem casus, quo omnia momenta inertiae sunt inter se aequalia seu aa = bb = cc, omnium est simplicissimus, quia tum axis DF pro principali haberi potest et titubationes eaedem prodire debent, quas iam ante definivimus. Tum vero duo saltern momenta inertiae aequalia statuamus, sicilicet bb = cc.
+
+908. Hoc ergo casu habemus:
+
+CASUS I quo aa = bb = cc.
+
+hincque
+
+A
+
+=
+
+G cos 1-aau
+
+,
+
+B
+
+=
+
+G cos 1-bbu
+
+,
+
+C
+
+=
+
+G cos 1-ccu
+
+G
+
+=
+
+G cos2 
+
++G cos2  +G cos2  1-aau
+
+=
+
+G 1-aau
+
+,
+
+ita ut sit u = 0. Verum iisdem quoque formulis satisfit ponendo
+
+u=
+
+1 aa
+
+et G = 0, ut sit
+
+Acos + B cos + C cos = 0 ,
+
+neque quicquam praeterea determinetur, sicque habebimus
+
+=
+
+2 fg a
+
+;
+
+tum vero
+
+D
+
+=
+
+B cos - 
+
+C cos
+
+,
+
+E
+
+=
+
+C
+
+cos 
+
+- 
+
+A cos 
+
+,
+
+F
+
+=
+
+Acos - 
+
+B cos
+
+atque
+
+ rr = AA + BB + CC,
+
+ut sit  = r cos t .
+
+Videamus iam, circa quemnam polum O corpus sit gyraturum, ac primo habemus cos OD = cos cos + cos  cos + cos  cos ,
+
+seu  'cos OD = x cos + y cos + z cos = 0,
+
+sicque arcus OD quadrans. Deinde est
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 979
+
+cos OZ = cos cos l + cos  cos m + cos  cos n
+
+seu  ' cos OZ = x cos l + y cos m + z cos n = 0 + px + qy + rz = 0
+
+ob AD + BE + CF = 0 ,
+eritque ergo etiam OZ quadrans. Ex quo perspicitur corpus circa punctum O, quod est polus circuli verticalis ZDX, gyrari sicque axem ex D recta in situm verticalem Z erigi, ita ut elapso tempore t sit
+
+=
+
+r cos t
+
+2 fg a
+
+.
+
+Quare hae titubationes isochronae erunt oscillationibus penduli, cuius longitudo est =
+
+aa f
+
+.
+
+CASUS 11 quo duo tantum momenta principalia sunt aequalia seu bb = cc.
+
+909. Hoc ergo casu est
+
+K = cc sin2  +aa sin2  +aa sin2  = cc sin2  +aa+aa cos2 
+
+aacc
+
+aacc
+
+et
+
+L=
+
+aa cos2  +cc sin2  aac4
+
+;
+
+sive cum aequatio, unde u definiri debet, sit
+
+cos2  1-aau
+
++
+
+sin2  1-ccu
+
+=1,
+
+erit
+
+aa cos2  + cc sin2  = aaccu
+
+ideoque
+
+u = aa cos2  +cc sin2  '
+aacc
+
+qui
+
+valor
+
+etiam
+
+ex
+
+generali
+
+forma
+
+elicitur,
+
+nisi
+
+quod
+
+hoc
+
+modo
+
+radix
+
+inutilis
+
+u
+
+=
+
+1 cc
+
+excluditur.
+
+Quamobrem habebimus
+
+( ) 2 fg aa cos2  +cc sin2 
+=
+ac
+
+tum vero
+
+A
+
+=
+
+Gcc
+(-aa+cc) cos
+
+,
+
+B=
+
+Gaa cos
+(aa-cc) sin2 
+
+,
+
+C
+
+=
+
+Gaa cos
+(aa-cc) sin2 
+
+.
+
+Deinde pro G ex r inveniendo fit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 980
+
+( ) GG a4 cos2  +c4 sin2 
+ rr + GG = (aa-cc)2 sin2  cos2 
+
+sive
+
+( ) GG a4 cos2  +c4 sin2  2
+ rr = (aa-cc)2 sin2  cos2 
+
+1) In editione principe primum membrum numeratoris est: cc sin .
+
+2) Editio princeps: (ac + cc) loco (-aa + cc)
+
+Correxit C. B.
+
+et
+
+G
+
+=
+
+(aa-cc) r sin cos
+aa cos2  +cc sin2 
+
+vel
+
+G = (aa-cc)r sin cos 2 fg
+( ) ac aa cos2  +cc sin2 
+
+Deinde vero obtinemus atque
+
+D = 0,
+
+E
+
+=
+
+rcos sin 
+
+,
+
+F
+
+=
+
+-rcos sin 
+
+A=
+
+-cr sin 2 fg
+
+,
+
+( ) a aa cos2  +cc sin2 
+
+B=
+
+ar cos cos 2 fg
+
+,
+
+( ) c sin aa cos2  +cc sin2 
+
+C=
+
+ar cos cos 2 fg
+
+,
+
+( ) c sin aa cos2  +cc sin2 
+
+ex quibus consequimur atque
+
+x =  ' cos = A sin t , y =  ' cos  = B sin t , z =  ' cos  = C sin t , p = cos l - cos = D cos t , q = cos m - cos = E cos t , r = cos n - cos = F cos t,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 981
+
+( ) ( )  = -ar cos (1-cos t ) 2 fg = -aar cos (1-cos t )
+
+ c sin aa cos2  +cc sin2 
+
+aa cos2  +cc sin2  sin
+
+estque  angulus VZA, existente ZV circulo verticali fixo, a quo declinationem poli A. computamus. Deinde vero est  = r cos t , et ut obtineamus angulum DZV, quaeramus
+
+angulum DZA ex formula
+
+cos
+
+DZA
+
+=
+
+cos 
+
+-cos l cos  sin l
+
+
+
+= cos -
+
+cos cos  - p cos   sin
+
+=
+
+1 2
+
+
+
+cos  sin 
+
+,
+
+ob D = 0 ideoque p = 0, ergo
+
+cos
+
+DZA
+
+=
+
+r
+
+cos cos t 2 sin
+
+,
+
+I) Editio princeps:
+
+( ) 
+
+=
+
+-ar sin cos (1-cos t ) 2 fg
+ c aa cos2  +cc sin2 
+
+=
+
+-aar sin cos (1-cos t )
+aa cos2  +cc sin2  .
+
+Correxit C. B. qui cum sit infinite parvus, patet angulum DZA esse rectum proxime et angulo ZDA aequalem. Quare cum initio angulus ZDA fuerit non rectus, haec solutio, quippe quae manifesto tantum est particularis, eo non extenditur. Ceterum vero et hae titubationes erunt isochronae oscillationibus penduli, cuius longitudo est
+
+( ) =
+
+aacc
+
+.
+
+f aa cos2  +cc sin2 
+
+Denique cum sit
+
+ ' = sin t  ( AA + BB + CC ) ,
+
+prodibit
+
+( ) r 2 fg a4c os2  +c4s in2 
+
+' =
+
+ sin t
+
+( ) ac aa cos2  +cc sin2 
+
+Pro polo autem gyrationis O invenimus:
+
+ 'cosOD = (Acos + Bcos + Ccos) sin t = G sin t
+et  'cos OZ = (Acos l + B cos m + C cos n) sin t = G sin t, ,
+
+ita ut sit OD = OZ ob Ap + Bq + Cr = 0 .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 982
+
+SCHOLION 910. Mirum non est hanc solutionem non esse generalem, cum enim ex data indole corporis, quantitatibus aa, bb, cc et angulis  , , comprehensa, et ex situ axis DF initiali eiusve
+declinatione r a situ verticali omnes coeffieientes A, B, C, D, E, F cum numero  determinentur, ex iis angulus ADZ , quo arcus DA initio ab arcu DZ deviabat, sponte determinatur, neque amplius arbitrio nostro, uti natura rei postulat, relinquitur. Verum cum in genere pro quantitate u geminum valorem elicuerimus, quorum neutrum prae altero reiicere fas est, si utrumque simul adhibeamus, solutionem ampliorem obtinebimus, unde simul effici potest, ut angulus ADZ initio fuerit dato angulo aequalis. Cum enim in aequationibus differentialibus quantitates x,y, z et p, q, r ubique unicam habeant dimensionem, si iis duplici modo satisfieri queat, pro qualibet quantitate summa binorum eius valorum statui poterit, hincque solutionem generalem impetrabimus, quam hic exponamus.
+
+PROBLEMA 109 911. Si corpus basi sphaerica praeditum de situ aequilibrii quomodocunque infinite parum declinetur subitoque demittatur, definire motum titubatorium, quo agitabitur.
+
+SOLUTIO Retentis denominationibus superioris problematis, quoniam posito
+
+sin2  + sin2  + sin2  = K et
+
+aa
+
+bb
+
+cc
+
+et pro u geminum invenimus valorem, sint ii
+
+cos2  + cos2  + cos2  = L
+bbcc aacc aabb
+
+( ) ( ) u = 1 K + 1 KK - L et u' = 1 K - 1 KK - L
+
+2
+
+4
+
+2
+
+4
+
+unde pro  etiam binos adipiscimur valores, qui sint
+
+ = V 2 fgu et  ' = 2 fgu' ,
+
+atque hinc pro senis quantitatibus x, y, z et p, q, r sequentes impetrabimus valores
+
+x
+
+=
+
+' cos
+
+=
+
+Gcos sin t 1-aau
+
++
+
+Hcos sin ' t 1-aau'
+
+,
+
+y
+
+=
+
+
+
+'
+
+cos
+
+=
+
+Gcossin t 1-bbu
+
++
+
+Hcossin ' t 1-bbu'
+
+,
+
+z
+
+=
+
+'
+
+cos
+
+=
+
+Gcossin t 1-ccu
+
++
+
+Hcossin ' t 1-ccu'
+
+,
+
+tum vero porro
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 983
+
+p = cos l - cos
+
+=
+
+Gu(bb-cc)coscos cos t  (1-bbu)(1-ccu)
+
++
+
+Hu' coscos cos ' t
+ '(1-bbu' )(1-ccu' )
+
+,
+
+q
+
+=
+
+cos m
+
+-
+
+cos
+
+=
+
+Gu(cc-aa)cos cos cos t  (1-ccu)(1-aau)
+
++
+
+Hu' cos cos cos ' t
+ '(1-ccu' )(1-aau' )
+
+,
+
+r
+
+=
+
+cos
+
+n
+
+-
+
+cos
+
+=
+
+Gu(aa-bb)cos cos cos t  (1-aau)(1-bbu)
+
++
+
+Hu' cos cos cos ' t
+ '(1-aau' )(1-bbu' )
+
+.
+
+Hic iam habemus binas quantitates constantes arbitrarias G et H, atque hi valores ita satisfaciunt, ut facta substitutione in aequationibus differentialibus termini tam per G quam per H affecti seorsim se destruant. Verum si initio arcus ZD fuerit = r , posito t = 0, fieri debet pp + qq + rr = rr . Deinde vero, si initio fuerit angulus ZDA = f , ob
+
+cos f =
+
+cosl - cos cos r sin sin r
+
+=
+
+cos (1-cos r)+
+sin sin r
+
+p
+
+=
+
+r cos 2 sin
+
++
+
+r
+
+p sin
+
+r
+
+et ob r infinite parvum erit
+
+p = rsin cosf.
+
+Si hic ergo pro p eius valor superior posito t = 0 substituatur, habebitur alia aequatio, ex qua cum illa coniuncta binae constantes G et H determinabuntur. At posito angulo VZA =  erit
+
+d
+
+=
+
+- dt (
+
+ycos + zcos )
+sin2
+
+,
+
+cuius integrale facile exhibetur. Simili autem modo positis angulis VZB =  et VZ0 = v, erit
+
+d
+
+=
+
+-dt( zcos + xcos
+sin2
+
+)
+
+et
+
+d
+
+=
+
+-dt( xcos + ycos )
+
+sin2
+
+.
+
+Hic autem notari convenit, si sit bb = cc, fore binos valores
+
+u = 1 et u' = sin2  + cos2 
+
+cc
+
+aa
+
+cc
+
+ideoque pro priore fractionum superiorum quasdam numeratores ac denominatores
+
+simul evanescere. Ad earum ergo valores investigandos ponatur
+
+1 = 1 +
+bb cc
+existente  quantitate evanescente, reperieturque
+
+u
+
+=
+
+1 cc
+
++
+
+ cos2  sin2 
+
+et
+
+u' = sin2  + cos2  ,
+
+aa
+
+cc
+
+hincque si
+
+G 
+
+ponatur = I, ut sit
+
+G = I = 0 , fiet
+
+1) Editio princeps :
+
+r cos sin 
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 984
+
+Correxit C. B.
+
+x
+
+=  ' cos
+
+=
+
+Hcos sin ' t 1-aau'
+
+=
+
+-Hccsin ' t
+(aa-cc) cos
+
+,
+
+y
+
+=  ' cos
+
+=
+
+I sin2  sin t cc cos
+
++
+
+Hcossin ' t 1-ccu'
+
+=
+
+I
+
+sin2  sin t cc cos
+
++
+
+Haacos sin ' t
+(aa-cc) sin2 
+
+,
+
+z =  ' cos
+
+=
+
+-I sin2  sin t cc cos
+
++
+
+Hcossin ' t 1-ccu'
+
+=
+
+-I sin2  sin t cc cos
+
++
+
+Haacossin ' t
+(aa-cc) sin2 
+
+,
+
+deinde vero
+
+p = cos l - cos
+
+=
+
+I sin4  cos t  cc cos cos
+
+,
+
+q
+
+=
+
+cos
+
+m
+
+-
+
+cos
+
+=
+
+-I
+
+sin2  cos cos t  cc cos
+
+-
+
+Hu' (aa-cc)cos cos cos  '(1-aau' )(1-ccu' )
+
+'
+
+t
+
+,
+
+r
+
+=
+
+cos
+
+n
+
+-
+
+cos
+
+=
+
+-I
+
+sin2  cos cos t  cc cos
+
++
+
+Hu' (aa-cc)cos cos cos t  '(1-aau' )(1-ccu' )
+
+,
+
+ubi est
+
+aa - cc
+(1-aau' )(1-ccu' )
+
+=
+
+-aacc
+(aa-cc) sin2 
+
+cos2 
+
+.
+
+Vel si ponamus
+
+I
+
+=
+
+G cc cos cos sin2 
+
+et
+
+H = H '(aa-cc) sin2  cos
+aacc
+
+ob ideoque erit
+
+u
+
+=
+
+1 cc
+
+et
+
+u'
+
+=
+
+aa cos2  +cc sin2  aacc
+
+,
+
+ = 2 fg
+c
+
+et
+
+( ) 2 fg aa cos2  +cc sin2 
+
+ac
+
+,
+
+x
+
+=
+
+
+
+'
+
+cos 
+
+=
+
+H '
+
+sin2  aa
+
+sin ' t
+
+,
+
+y
+
+=
+
+ ' cos
+
+=
+
+H ' cos cossin ' t cc
+
++ G
+
+cos
+
+sin t,
+
+z
+
+=  ' cos
+
+=
+
+H ' cos cossin ' t cc
+
+- G
+
+cos
+
+sin t,
+
+p = cos l - cos = G sin2  cos t,
+
+q = cos m - cos = -Gcos cos cos t + Hu' cossin ' t,
+
+r = cos n - cos = -Gcos cos cos t - Hu' cos cos ' t,
+
+quae formulae iam sine ulla difficultate ad omnes casus accommodari possunt.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 985
+
+COROLLARIUM 1 912. Haec integralia adhuc latius extendi possunt, cum x, y, z et p,q, r partes constantes recipiant; ac forma litterarum G et H mutata habebimus:
+
+atque
+
+x = cos (E + G(1- bbu)(1- ccu)sin t + H(1- bbu' )(1- ccu' )sin ' t ) y = cos(E + G(1- aau)(1- ccu)sin t + H(1- aau' )(1- ccu' )sin ' t ) z = cos (E + G(1- ccu)(1- ccu)sin t + H(1- ccu' )(1- ccu' )sin ' t )
+
+( ) p = Fcos + (bb - cc)cos cos
+
+Gu(1-aau)cos t 
+
++
+
+Hu' (1
+
+-aau' '
+
+)cos
+
+'
+
+t
+
+,
+
+( ) q = Fcos + (cc - aa)cos cos
+
+Gu(1-bbu)cos t 
+
++
+
+Hu'
+
+(1
+
+-bbu' '
+
+)cos
+
+'
+
+t
+
+,
+
+( ) r = Fcos + (aa - bb)cos cos
+
+Gu(1-ccu)cos t 
+
++
+
+Hu'
+
+(1
+
+-ccu' '
+
+)cos
+
+'
+
+t
+
+.
+
+COROLLARIUM 2 913. Angulorum etiam  t et  ' t uterque quantitate constante augeri potest, ac si eorum loco scribamus  t + g et  ' t + h , integralia continebunt sex constantes arbitrarias
+g,h,E, F,G, H ideoque erunt integralia completa harum sex aequationum differentialium:
+
+aadx = 2 fgdt(rcos - qcos),dp = dt(zcos - ycos) bbdy = 2 fgdt(pcos - rcos ),dq = dt(xcos - zcos ) ccdz = 2 fgdt(qcos - pcos) ,dr = dt(ycos - xcos).
+
+COROLLARIUM 3 914. Si corpus initio quieverit, ut in problemate assumsimus, ita ut tum fuerit x = 0, y = 0 et z = 0, poni debet E = 0, g = 0 et h = 0 ; reliquas autem constantes ex situ corporis initiali
+definiri oportet. COROLLARIUM 4
+915. Nempe si pro initio, quo t = 0, ponantur anguli ZDA = l, ZDB = m et ZDC = n ;
+ut sit
+
+sin (l - m)
+
+=
+
+-
+
+cos sin sin
+
+,
+
+sin (m - n)
+
+=
+
+-
+
+cos sin sin
+
+,
+
+sin(n -l)
+
+=
+
+-
+
+cos sin sin
+
+,
+
+cos (l - m)
+
+=
+
+-
+
+cos sin
+
+cos sin
+
+,
+
+cos (m - n)
+
+=
+
+-
+
+cos sin
+
+cos sin
+
+,
+
+cos (n -l)
+
+=
+
+-
+
+cos sin
+
+cos sin
+
+,
+
+pro initio t = 0, constantes ita definiri oportet, ut si tum fuerit ZD = r , fiat p = r sin cosl, q = r sincos m, r = r sincos n .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 986
+
+EXPLICATIO 916. Ad constantes F,G, H in genere ex statu initiali modo descripto definiendas ponamus
+
+brevitatis gratia
+
+aa cos2 + bb cos2 + cc cos2 = A,
+
+bbcc cos2 + aacc cos2 + aabb cos2 = B
+
+sitque
+
+Gu cosg 
+
+=
+
+X
+
+et
+
+Hu' cosh '
+
+=
+
+Y
+
+,
+
+quo calculus facilius expediatur. Eo autem absoluto reperietur
+
+F = r sin cos cosl + r sincoscos m + r sincoscos n
+
+X
+
++Y
+
+=
+
++r sin cos
+
+ cosl cos
+
+(B-bbcc
+
+)+
+
+r sin cos 
+
+cos m cos
+
+(B-aacc
+
+)+
+
+r sin cos n cos cos
+
+(B-aabb)
+
+(bb-cc)(cc-aa)(aa-bb )
+
+,
+
+uX
+
++ u' Y
+
+=
+
+-r sin cos
+
+ cosl cos
+
+(
+
+A-aa
+
+)-
+
+r sin cos 
+
+cos m cos
+
+( A -bb
+
+)-
+
+r sin cos n cos cos
+
+(
+
+A-cc)
+
+(bb-cc)(cc-aa)(aa-bb )
+
+.
+
+Ex his autem valoribus A et B est pro superioribus
+
+ex quibus fit
+
+L
+
+=
+
+A aabbcc
+
+et
+
+K
+
+=
+
+aabb + aacc + bbcc -B aabbcc
+
+,
+
+( ) ( ) u
+
+=
+
+1 2
+
+K
+
++
+
+1 4
+
+KK
+
+-
+
+L
+
+et
+
+u'
+
+=
+
+1 2
+
+K
+
+-
+
+1 4
+
+KK
+
+-
+
+L
+
+ita ut sit u + u' = K et u'- u = (KK - 4L).
+
+Haec analysis in genere valet, etiamsi corpori initio motus fuerit impressus, quoniam loco angulorum  t et  ' t hic adhibuimus  t + g et  ' t + h. Simili modo, quo hic ex situ initiali
+constantes F,G, et H definivimus, ex motu initio impresso quantitates x, y, z datos obtinebunt valores, quibus si formulae corollario 1. traditae et pro  t et  ' t scribendo  t + g et  ' t + h.
+
+extensae, posito t = 0 aequentur, determinabuntur reliquae constantes E, g et h quae quidem,
+
+uti iam ante notavimus, evanescunt, si motus a quiete incipiat.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 987
+
+SCHOLION 917. Pro casu ergo eiusmodi corporum, pro quibus est bb = cc, erit
+
+atque
+
+u = 1 , u' = aa cos2  +cc sin2  ,
+
+cc
+
+aacc
+
+ = 2 fgu ,  '= 2 fgu' , integralia in genere ita se habebunt:
+
+atque
+
+x = Ecos y = Ecos z = Ecos
+
++ G cossin ( ' t + g) - G cossin ( ' t + g)
+
+- H ' sin2  sin( ' t +h)
+aa
+
++
+
+H ' cos cossin( ' t +h)
+
+cc
+
+,
+
++
+
+H
+
+'
+
+cos 
+
+cos  sin(
+cc
+
+'
+
+t
+
++h)
+
+,
+
+p = Fcos + G sin2  cos ( t + g) , q = Fcos - Gcos cos cos ( t + g) + Hu' cos cos ( ' t + h) , r = Fcos - Gcos cos cos ( t + g) - Hu' cos cos ( ' t + h) .
+
+Quare si initio t = 0 fuerit p = r sin cosl, q = r sincos m, r = r sincos n, ,
+
+reperitur
+
+H=
+
+r sin coscos m-r cossincos n u' sin2  cosh
+
+,
+
+G=
+
+r sin3
+
+cos l - r
+
+sin
+
+cos coscos m-r sin cos  sin2  cos g
+
+coscos n
+
+,
+
+F = r sin cos cosl + r sin coscos m + r sin coscos n.
+
+At datis angulis l, m, n simul dantur  ,  , 
+
+cos2 
+
+=
+
+cos(lsin(l-
+
+m m
+
+) )
+
+cos ( n -l ) sin( n -l )
+
+,
+
+cos2 
+
+=
+
+cos ( m -n ) cos(l- m ) sin(m-n) sin(l-m)
+
+,
+
+cos2 
+
+=
+
+cos(n-l) cos(m-n) sin(n-l) sin(m-n)
+
+,
+
+sin2 
+
+=
+
+- cos(m-n) sin(l-m) sin(n-l
+
+)
+
+,
+
+cos2 
+
+=
+
+- cos(n-l) sin(m-n) sin(l-m)
+
+,
+
+cos2 
+
+=
+
+- cos(l-m) sin(n-l) sin(m-n)
+
+.
+
+Ex his autem formulis colligitur esse
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 988
+
+sin cos cosl + sin cos cos m + sin cos cos n = 0,
+
+ita ut constans supra definita F semper sit = 0. Simili vero modo est
+
+sin cosl coscos
+
++
+
+sincos m cos cos
+
++
+
+sincos n cos cos
+
+=
+
+0,
+
+unde valores coefficientium supra definiti multo simplicius determinantur, ita ut litterae A et B ex illis prorsus elidantur. Valent haec in genere, etiamsi non sit bb = cc.
+
+PROBLEMA 110
+
+918. Si corpus basi sphaerica praeditum habeat duos axes principales pares eique, cum de situ
+
+quietis infinite parum fuerit declinatum, motus minimus quicunque fuerit impressus, definire
+
+motus continuationem.
+
+SOLUTIO
+
+Sit ID axis corporis aequilibrii per centrum inertiae I
+
+et centrum basis G transiens (Fig. 116), sitque hoc
+
+illo altius situm existente intervallo GI = f. Sit porro
+
+IA axis corporis singularis principalis eiusque
+
+respectu momentum inertiae = Maa, respectu axium
+
+omnium autem ad hunc normalium = Mcc, quos
+
+omnes cum aeque pro principalibus habere liceat,
+
+sumatur alter IB in arcu DA producto, eritque alter
+
+1C, ut quadrans AC sit ad AD normalis ideoque DC
+
+DA =  erit DB =  =  + 90°
+
+etiam quadrans ad AD normalis. Posito ergo
+
+1) Editio princeps ­ loco ,+ . Correxit C. B. et DO =  = 90°.lnitio autem, quo t = 0, fuerit arcus DZ = r et angulus ZDA = l , erit
+
+ZDB = m = l et ZDC = n = l + 90°. Ex formulis ergo praecedentibus habebimus
+
+u
+
+=
+
+1 cc
+
+,
+
+u'
+
+=
+
+aa cos2  +cc sin2  aacc
+
+,
+
+=
+
+2 fgu ,
+
+ '=
+
+2 fgu' ,
+
+tum vero ex hoc situ initiali fiet primo F = 0 , tum vero
+
+rcos cosl = Gsin2  cos g ;
+
+ergo
+
+rcos cosl = G sin cos cos g,
+
+G
+
+=
+
+r cosl sin cos g
+
+,
+
+-r sinl = Hu' sin cosh,
+
+H
+
+=
+
+u'
+
+-r sinl sin cosh
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 989
+
+Deinde initio corpori motus sit impressus circa axem IC celeritate angulari =  in sensum ABC, existente OA = a, OB = b,OC = c, fierique debet
+
+ cos a = Gcos - H ' sin2  sinh ,
+aa
+
+ cosb = -G sin
+
+-
+
+H
+
+'
+
+sin
+
+ cos cc
+
+
+
+sin
+
+h
+
+,
+
+ cosc = G sin sin g,
+
+unde concludimus
+( )  (aacos acos - cccosbsin ) = E aacos2 + ccsin2 .
+
+et Ergo
+hinc erit
+
+ (cos a sin
+
++ cosbcos
+
+) = -H ' sin
+
+sin
+
+h
+
+
+
+sin2 cc
+
++ cos2
+aa
+
+ .
+
+E
+
+=
+
+
+
+(aacos acos -cccosbsin
+aacos2 +ccsin2
+
+)
+
+,
+
+G
+
+=
+
+
+
+ cosc sin sin
+
+g
+
+,
+
+H
+
+=
+
+-
+
+(cos a sin +cosbcos
+ ' u' sin sinh
+
+)
+
+,
+
+tang
+
+g
+
+=
+
+ cosc  r cosl
+
+et
+
+tang
+
+h
+
+=
+
+
+
+(cos
+
+a
+
+sin  'r
+
++cos sinl
+
+b
+
+cos
+
+
+
+)
+
+,
+
+unde anguli g et h hincque numeri G et Hinnotescunt.
+
+His definitis teneat corpus elapso tempore t situm in figura repraesentatum sitque ZD =  , ZA = l, ZB = m, ZC = n :
+
+ac ponatur
+
+cosl = cos + p, cosm = cos + q, cosn = cos + r
+
+seu cos m = - sin + q et cosn = r.
+
+Deinde gyretur nunc circa axem IO celeritate angulari =  in sensum ABC existentibus
+
+arcubus
+
+OA =  , OB =  , OC =  ,
+
+ac ponendo
+
+ ' cos = x ,  ' cos = y et  ' cos = z ,
+
+habebimus ex § 917
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 990
+
+
+
+'
+
+cos 
+
+=
+
+ cos
+
+(aacosa cos
+aacos2 +
+
+- cc
+
+cc cosb sin sin2
+
+)
+
++
+
+
+
+'
+
+r
+
+sin sinl sin(
+aau' cosh
+
+'
+
+t
+
++h)
+
+,
+
+ ' cos 
+
+=
+
+-
+
+sin 
+
+(aacos a cos - cc cosb sin
+aacos2 + cc sin2
+
+)
+
++
+
+
+
+'
+
+r
+
+cos sinl sin(
+ccu' cosh
+
+'
+
+t
+
++h)
+
+,
+
+'
+
+cos 
+
+=
+
+ r cosl sin( t +g)
+cos g
+
+,
+
+[In editione principe denominator est aau' cosh. Correxit C. B.]
+
+tum vero praeterea :
+
+p
+
+=
+
+r
+
+sin 
+
+cosl cos(
+cos g
+
+t
+
++g)
+
+,
+
+q
+
+=
+
+r
+
+cos 
+
+cosl cos( t +g)
+cos g
+
+,
+
+r
+
+=
+
+-r
+
+sinl cos(
+cos h
+
+'
+
+t +h)
+
+.
+
+Ex his si ponatur arcus ZD =  , erit
+
+ =r
+
+ 
+
+cos2
+
+l cos2 ( t +g)
+cos2 g
+
++
+
+sin2
+
+l cos2 ( ' t +h)
+cos2 h
+
+ 
+
+.
+
+Porro ex triangulo AZD est
+
+cos ADZ
+
+=
+
+cos l -cos cos sin sin
+
+=
+
+p
+
++
+
+1 2
+
+
+
+cos
+
+ sin
+
+=
+
+p  sin
+
+evanescente termino
+
+cos 2 sin
+
+,
+
+hinc
+
+ergo
+
+erit
+
+cos
+
+ADZ
+
+=
+
+cosl cos( t + g )
+cos g
+
+:
+
+ 
+
+cos2
+
+l cos2 cos2
+
+( t + g)
+g
+
++
+
+sin2
+
+l
+
+cos2 (
+cos2 h
+
+'
+
+t +h)
+
+ 
+
+ideoque
+
+tang
+
+ADZ
+
+=
+
+cos g tangl cos( ' t +h) coshcos( t +g)
+
+.
+
+Praeter arcum autem DZ =  et angulum ADZ nosse oportet angulum XZD
+
+a circulo verticali fixo ZX computatum; est vero DZA = 180o - ADZ , seu
+
+tang
+
+ADZ
+
+=
+
+-
+
+cos g tangl cos( ' t +h) coshcos( t +g)
+
+tang l
+
+,
+
+cum initio esset DZA = 180o -l et tang DZA = - tangl . Deinde vero posito angulo XZA =  , est
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 991
+
+hincque
+
+d =
+
+- dt( ycos + zcos )
+sin2
+
+=
+
+ydt sin
+
+,
+
+
+
+= Const.
+
+-
+
+ t ( aa
+
+cos acos -cc cosbcos aa cos2  +ccsin2
+
+)
+
+-
+
+r
+
+cos sinl cos( ' t
+ccu' sin cosh
+
++h)
+
+.
+
+Quodsi ponamus initio angulum XZD evanuisse, initio fuerat  = 180o -l ,
+
+sicque constans hic ingressa est:
+
+Const.
+
+=
+
+180o
+
+-
+
+l
+
++
+
+r cos sin ccu' sin
+
+l
+
+,
+
+unde habebimus:
+
+
+
+= 180o
+
+-l
+
+-
+
+t(aa cos acos -cc cosbcos
+aa cos2  +ccsin2
+
+)
+
+-
+
+r cos sinl ccu' sin
+
+1 -
+
+cos( ' t +h)
+cos h
+
+ 
+
+.
+
+hincque XZD =  - DZA , ex quibus ad tempus t situs corporis perfecte cognoscitur, in
+
+hacque determinatione simul motus continetur.
+
+COROLLARIUM 1 919. Si motus corpori initio impressus evanescat, est g = 0 et h = 0 ; hincque
+
+x
+
+=
+
+
+
+'
+
+cos 
+
+=
+
+'
+
+r
+
+sin sinl sin aau'
+
+'
+
+t
+
+,
+
+y
+
+=
+
+
+
+'
+
+cos
+
+
+
+=
+
+'
+
+r cos sinl ccu'
+
+sin
+
+'t
+
+,
+
+z =  ' cos =  r cosl sin t,
+
+p = r sin cosl cos t, q = r cos cosl cos t, r = -r sinl cos ' t
+
+( ) tang ADZ = tang
+
+180o - DZA
+
+=
+
+cos ' t cos t
+
+tang l
+
+et
+
+
+
+=
+
+180o
+
+-l
+
+-
+
+r cos sinl ccu' sin
+
+(1 -
+
+cos 
+
+'
+
+t
+
+)
+
+.
+
+COROLLARIUM 2
+
+920. Sin autem corpori initio motus fuerit impressus celeritate angulari  , haec non multo
+
+maior esse debet quam
+
+r . Si enim
+
+ r
+
+esset numerus praemagnus, anguli
+
+g et h prodirent fere
+
+recti eorumque cosinus fere evanescentes, sicque numeri p, q, r nimis fierent magni, quam ut
+
+tanquam valde parvae, uti natura solutionis exigit, considerari possent. Namque arcus
+
+ZD =  semper minimus esse debet.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 992
+
+COROLLARIUM 3
+921. Cum sit  ' = ( xx + yy + zz) , nisi ternae quantitates x, y, z seorsim evanescant, fieri
+nequit, ut corpus unquam ad quietem redigatur. Atque etiamsi corpus a quiete moveri inceperit, tamen fieri potest, ut corpus deinceps nunquam ad quietem revertatur, hocque adeo semper eveniet, nisi fuerit vel sinl = 0 vel cosl = 0 ; quin etiam tum axis corporis naturalis DF nunquam in situm verticalem perveniet.
+
+COROLLARIUM 4 922. Cum sit r quantitas valde exigua, si corpus initio nullum motum acceperit, ut sit  = 0 ,
+
+erit satis exacte  = 180o -l ; scilicet angulus XZA manebit constans, motusque axis IA ita
+
+comparatus, ut in arcu ZAmodo ad punctum verticale Z propius accedat modo ab eo longius
+
+recedat, erit autem
+
+AZ =  - r cosl cos t
+
+et
+
+ang.ZAD
+
+=
+
+r
+
+sinlcos ' t sin 
+
+.
+
+COROLLARIUM 5 923. In genere autem quicunque motus corpori initio fuerit impressus, erit
+
+XZA
+
+=
+
+
+
+= 180o
+
+-l
+
+-
+
+t(aa cos acos -cc cosbcos
+aa cos2  +ccsin2
+
+)
+
+sicque arcus ZA uniformiter circa punctum verticale Z circumferetur; deinde vero, cum sit
+sin AD : sin DZA = ZD (  ) : ZAD,
+
+erit
+
+ZAD =
+
+r sinlcos(  ' t +h ) sin cosh
+
+atque arcus ZA = 
+
+-
+
+r
+
+cos
+
+lcos(  cos g
+
+t
+
++g
+
+)
+
+.
+
+Seu pro g et h substituendis valoribus:
+
+angulus
+
+ZAD
+
+=
+
+r
+
+sinlcos sin 
+
+'
+
+t
+
+-
+
+
+
+(cos a
+
+sin 
+
++ cos b cos   ' sin
+
+)
+
+sin 
+
+'
+
+t
+
+et
+
+arcus
+
+ZA
+
+=
+
+- r cosl cos t
+
++
+
+
+
+cosc sin t 
+
+.
+
+SCHOLION 1 924. Hae tres postremae formulae, angulos XZA, ZAD cum arcu Z A exhibentes, totam problematis solutionem complectuntur. Quodsi enim has res ad quodvis tempus assignare possimus, situm corporis perfecte cognoscimus. Quare si pro  et  ' valores supra inventos
+substituamus, universa problematis solutio his formulis continebitur:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter EIGHTEEN : DE MOTU CORPORUM .....
+
+Translated and annotated by Ian Bruce.
+
+page 993
+
+angulus
+
+XZA
+
+= 180o
+
+-l
+
+-
+
+ t( aacosacos -cc cosb sin aacos2 +ccsin2
+
+)
+
+,
+
+arcus ZA =  - cosl cos t
+
+2 fg c
+
++
+
+ c cosc 2 fg
+
+sin
+
+t
+
+2 fg c
+
+( ) angulus
+
+ZAD
+
+=
+
+r sinl sin 
+
+cos
+
+t
+
+2 fg aacos2 +ccsin2 ac
+
+( ) -
+
+ ac (cos a sin +cosbcos )
+
+t
+sin
+
+2 fg aacos2 +ccsin2
+
+.
+
+( ) sin 2 fg aacos2 +ccsin2
+
+ac
+
+Quodsi ergo omnia momenta inertiae fuerint aequalia, scilicet aa = cc, erit
+
+angulus XZA = 180o -l - t( cosacos - cosb sin ) ,
+
+arcus ZA =  - cosl cos t
+
+2 fg c
+
++
+
+ c cosc 2 fg
+
+sin
+
+t
+
+2 fg c
+
+angulus
+
+ZAD
+
+=
+
+r sinl sin 
+
+cos
+
+t
+
+2 fg -  c (cos a sin +cosbcos ) sin t
+
+c
+
+sin 2 fg
+
+2 fg ,
+c
+
+quo casu positio punCti A est plane arbitraria.
+
+SCHOLION 2 925. Argumentum, quod in hoc capite potissimum evolvendum suscepimus, motum scilicet titubatorium corporum basi sphaerica praeditorum, perfecte pertractavimus, dummodo titubationes fuerint quam minimae, quae hypothesis etiam in doctrina oscillationum statui solet; formulae enim § 912 et seqq. exhibitae perfectam continent huius quaestionis solutionem, si quidem ibi anguli  t et ' t constantibus geth augeantur. Constantes autem ex
+statu initiali definire docuimus in § 916, quae operatio vehementer sublevatur annotatione sub finem § 917 adiuncta; quare ad motum corporum cylindricorum explicandum progrediamur.
+
+

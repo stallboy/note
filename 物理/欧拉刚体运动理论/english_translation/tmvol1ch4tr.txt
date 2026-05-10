@@ -1,0 +1,2045 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 324
+
+Chapter 4
+
+Concerning the disturbance of rotational motion arising from forces of any kind.
+
+PROBLEM 20
+
+398. If a rigid body is rotating about a fixed axis with some angular speed, to find the elementary forces, from which in a given element of time the motion may gain a given
+
+angular acceleration.
+
+SOLUTION
+Let  be the angular speed, which clearly, if the rotational motion should be
+
+uniform, completes an angle equal to  in one second, but yet the motion must take an
+
+acceleration, so that in the elapsed time dt the angular speed becomes equal to  + d .
+
+Now some element of the body dM may be considered, and the distance of this from the axis of rotation is equal to r and thus the speed of this is equal to r , which, since
+
+the distance r remains constant for the same element, in the increment of time dt it must take an increase equal to rd . Therefore on this account it is necessary that, as
+
+the element of mass dM is acted on by some force along the direction of motion
+
+which, if the force for the time being is put equal to p, from the principles of motion
+
+established above, will be
+
+rd
+
+=
+
+2 gpdt dM
+
+(§202); thus the force being applied to this
+
+element becomes :
+
+p
+
+=
+
+rdM 2g
+
+
+
+d dt
+
+.
+
+Therefore the individual elements of the body to be acting along the direction of this
+
+motion must be acted on by a force equal to
+
+d 2 gdt
+
+
+
+rdM
+
+, where dM expresses the mass
+
+of each element and r the distance of this from the axis. And these are the elementary
+
+forces, which thus acting on the individual elements of the body accelerate the rotational motion, so that the the angular speed can take an increase d in the
+
+element of time dt.
+
+COROLLARY 1
+
+399.
+
+Since
+
+d 2 gdt
+
+retains the same value for all the elements of the body, the
+
+elementary forces are in a ratio composed of the masses of these and their distances
+
+from the axis of gyration. But these individual forces of the individual elements along
+
+the direction of their motion are to be understood.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 325
+
+COROLLARY 2
+400. Since there is nothing opposing these forces, preventing them from producing their full effect, and likewise if the individual particles should be free from each other, neither the structure of the body nor the axis is affected by these elementary forces.
+
+COROLLARY 3
+
+401. Therefore both the bonds between the parts and the axis of gyration should sustain no other forces, unless those which arise from rotational motion and which likewise are themselves had in this element of time, and if the motion should be uniform.
+
+SCHOLIUM
+
+402. But even if the elementary forces by themselves do not affect the axis of
+
+gyration, but as if the whole is used up by being accelerated in the motion of the individual elements, yet, in as much
+
+as by these the rotary motion becomes more rapid, on account of the increase in the centrifugal force so far, the
+
+forces that the axis sustains become greater. Now this effect in the first
+
+instant is infinitely small and the axis is not otherwise affected, and if the
+
+rotational motion should be uniform.
+Clearly, since the angular acceleration is equal to  , any particle of which
+
+the mass is equal to dM and the
+
+distance from the axis is equal to r, is
+
+trying to recede from the axis with a force equal to
+
+ rdM 2g
+
+. Moreover from all these
+
+forces taken together by §338 the axis OA is thus affected, as aided by the two directrices OB et OC both normal in turn and with the axis OA, with which for the
+
+element dM in place at Z the parallel coordinates OX = x, XY = y, YZ = z (Fig. 32) are taken, the axis sustains the two forces Ee and Ff at the points E and F, of which the
+
+former is parallel to the directrix OB, and and the latter parallel to OC ; thus in order that :
+
+OE
+
+=
+
+ xydM  ydM
+
+and
+
+the
+
+force
+
+Ee
+
+=
+
+ 2g
+
+
+
+ydM
+
+,
+
+OF
+
+=
+
+ xzdM  zdM
+
+and the force Ff
+
+=
+
+ 2g
+
+
+
+zdM
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 326
+
+Or in place of these at the two given points O and A the two equivalent forces Ob, Oc and A , A can be considered to be applied, which from §343 become with the
+
+interval OA = a
+
+the
+
+force
+
+Ob
+
+=
+
+ 2ag
+
+(a
+
+ydM
+
+-
+
+
+
+xydM
+
+),
+
+the
+
+force
+
+A
+
+=
+
+ 2ag
+
+
+
+xydM
+
+,
+
+the
+
+force
+
+Oc
+
+=
+
+ 2ag
+
+(a
+
+zdM
+
+-
+
+
+
+xzdM
+
+),
+
+the
+
+force
+
+A
+
+=
+
+ 2ag
+
+ xzdM .
+
+From which formulas it can be gathered, how great the forces are the axis sustains on
+
+account of the rotational motion.
+
+PROBLEM 21
+
+403. If, while the rigid body is turning about the fixed axis, the individual particles of this are acted on by forces along the same direction of their motion, which are in a ratio composed of their masses and distances from the axis, to define the increment of the angular acceleration produced in a given element of time.
+
+SOLUTION
+With the angular speed put equal to , with which the body now is turning, we
+
+can consider some element of the body, the mass of this is equal to dM and the distance from the axis is equal to r. Hence this particle is acted by a force along the
+
+direction of its motion, which is as rdM; therefore on putting this equal to
+
+rdM h
+
+, where
+
+h is a line for all the elements of the body at the same instant. Now since the speed of
+
+this element is equal to r for each let r be a constant quantity, if this element should
+
+be turning with the rest beyond the bond, then the increment of the speed produced in the element of the time dt clearly becomes
+
+rd
+
+=
+
+2g
+
+
+
+rdM h
+
+ dt:dM
+
+=
+
+2 grdt h
+
+.
+
+Hence for the angular acceleration therefore there becomes
+
+d
+
+=
+
+2 gdt h
+
+;
+
+whereby, since the acceleration arises from all the elements with the same speed, these
+
+by themselves are not impeding each other, but the individual elements receive their
+
+accelerations equally, and as if free from the other elements. Hence from these forces,
+
+which agree with the elements in the preceding problem, the motion of the whole rigid
+
+body rotating thus is accelerating, so that in an increment of the time dt the angular
+
+speed 
+
+takes
+
+an
+
+increment d
+
+=
+
+2 gdt h
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 327
+
+COROLLARY 1
+404. Therefore the increment of the angular speed d does not depend on the speed of the angle itself , which, whether it should be greater or less, gains the same increment in the same element of time from the same forces. .
+COROLLARY 2
+
+405.
+
+Because
+
+any
+
+elementary
+
+force
+
+rdM h
+
+is
+
+at
+
+a
+
+distance
+
+r
+
+of
+
+the
+
+normal
+
+from
+
+the
+
+axis
+
+in
+
+a plane normal to the axis, the moment of this force with respect to the axis is equal to
+
+rrdM h
+
+, and thus the sum of all the moments is equal to
+
+1 h
+
+
+
+rrdM
+
+.
+
+COROLLARY 3
+
+406. If the body in addition to these elementary forces is urged in the contrary sense
+
+by others, the moment of which with respect to the same axis should be equal to
+
+1 h
+
+
+
+rrdM
+
+,
+
+from
+
+these
+
+the
+
+effect
+
+of
+
+the
+
+others
+
+is
+
+destroyed
+
+and
+
+the
+
+motion
+
+receives
+
+no
+
+acceleration.
+
+SCHOLIUM
+407. Concerning these forces which I call elementary, from the change of position they produce at the individual elements, that they undergo, it is to be observed especially that the axis experiences no force from these ; hence because the individual elements are affected by these forces, and if in turn likewise the elements should be free from each other. But although hardly any forces of this kind are present in the world, yet it [i. e. our derivation] had to begin from these, in order that we could define the effect of any other forces disturbing the motion. If indeed other forces, whatever they might be, should have an equal moment with respect to the axis of gyration, then these also would produce the same accelerated motion, because, if they should be applied in any other way, they would be in equilibrium with the elements. But this agreement is to be understood only for the change of motion ; for otherwise the business in hand by far must be to determine the forces which the axis of rotation sustains. Now also this determination is easily helped with the aid of elementary forces, as now has been shown in the preceding chapter.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 328
+
+PROBLEM 22
+408. If a rigid body, while it is rotating about a fixed axis, is acted on by some forces, to define the momentary change produced by these in the rotary motion.
+
+SOLUTION
+Let  be the angular speed at present, with which the body now is rotating; while
+
+the moments of the individual forces are sought, which together present a sum equal to Vf , which exerts itself either to accelerate or decelerate the motion, since it turns in
+
+the same or opposite sense. But we take this moment acting to accelerate, since if the opposite should happen, it is able to regard that moment as negative. It is required to find therefore, how large an increment of the angular speed is to be admitted in the
+
+time increment dt. Moreover certainly there will be given elementary forces, which can produce an equal increment. Therefore for the element dM at the distance r from
+
+the
+
+axis,
+
+the
+
+force
+
+on
+
+the
+
+element
+
+in
+
+place
+
+is
+
+equal
+
+to
+
+rdM h
+
+,
+
+since
+
+the
+
+moment
+
+of
+
+this
+
+force
+
+is
+
+equal
+
+to
+
+rrdM h
+
+,
+
+then this is equal to the effect of these forces disturbing the
+
+rotational motion which is produced by the moment Vf, if the sum of all the moments
+
+1 h
+
+ rrdM
+
+is
+
+equal
+
+to
+
+the
+
+moment
+
+Vf,
+
+thus
+
+there
+
+arises
+
+h=
+
+ rrdM Vf
+
+.
+
+But
+
+from
+
+the
+
+elementary forces
+
+rdM h
+
+, the acceleration of the rotational motion is generated
+
+d
+
+=
+
+2 gdt h
+
+in
+
+the
+
+element
+
+of
+
+time
+
+dt.
+
+Whereby
+
+for
+
+h
+
+with
+
+the
+
+value
+
+substituted
+
+in
+
+the
+
+manner found, the increment of the angular acceleration  produced from the moment
+
+of the forces Vf in the time dt is then
+
+d
+
+=
+
+2Vfgdt  rrdM
+
+,
+
+where  rrdM is a constant quantity for the shape and depending on the nature of the
+
+body.
+
+COROLLARY 1
+409. Therefore the increment of the angular speed d is directly proportional to the moment of the force acting Vf and to the element of the time dt, but reciprocally to that quantity, which arises, if the individual elements of the body are multiplied by the square of their distances from the axis of gyration, and that gathered up into one sum.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 329
+
+COROLLARY 2
+
+410. If the body thus with this rotational motion completes an angle equal to  , then
+
+now
+
+d dt
+
+is
+
+the
+
+angular speed
+
+, and thus on taking the element of the time dt constant
+
+then
+
+dd
+
+=
+
+2Vfgdt 2  rrdM
+
+.
+
+COROLLARY 3
+
+411. But if in place of the increment in the time dt we wish to introduce the angle
+
+meanwhile
+
+completed
+
+d
+
+into
+
+the
+
+calculation,
+
+on
+
+account
+
+of
+
+dt
+
+=
+
+d 
+
+we have this
+
+formula
+
+ d = 2Vfgdt2 ,
+ rrdM
+
+from which the increment of the square of the angular speed is defined.
+
+SCHOLIUM
+
+412. Hence if at some time we should know the forces, by which the body is acted on, the moment of which in the elapsed time t is equal to Vf, with the help of the formula found, if integrated, then the total rotator motion can be determined. Where indeed it is to be observed, if either no forces should be present or no moment is present with respect to the axis of gyration, then the future motion will be uniform, while the axis sustains these total forces. Clearly with a change, the motion only depends on the moment of the forces acting and thus it is proportional to that moment. Now we also may see, how great the forces may be that the axis sustains, while the motion of the body is disturbed by some forces ; moreover we present such examples of disturbed gyratory motion below, where we assume the bodies to be acted on by gravity.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 330
+
+PROBLEM 23
+413. If a rigid body, while it is rotating about a fixed axis, is acted on by some forces, to define the forces, which the axis sustains at the two given points O and A and by which it must resist, lest it moves.
+
+SOLUTION
+
+From the preceding it is evident that the axis is supported by three kinds of forces,
+
+clearly first the forces by which
+
+the body is actually disturbed,
+
+secondly, the forces equal and
+
+opposite to the elementary forces
+
+producing the same moments, and
+
+thirdly the centrifugal forces
+
+arising from the gyratory motion.
+
+Hence these three forces must be
+
+replaced by two forces acting at
+
+the given points on the axis O and
+
+A.
+
+Therefore because the body is
+
+retained according to the forces actually disturbing, any of these forces, unless the
+
+direction of this should be in a plane normal to the axis, is resolved into two forces VQ
+
+and Vv (Fig. 44), of which that one VQ is parallel to the axis OA, and indeed the other
+
+Vv is in a plane normal to the axis cutting the axis at T. Now on account of the force
+
+VQ, the axis in the first place sustains
+
+an equal force along its own length
+
+OA; now in addition at O and A the
+
+forces Op and Aq normal to the axis
+
+in the plane OAQP, of which the one
+
+Op has been directed towards PQ,
+
+now the other Aq thus averted ; but
+
+both these forces are equal and
+
+Op
+
+=
+
+Aq
+
+=
+
+VT OA
+
+ force
+
+VQ
+
+.
+
+Then the force Vv provides the forces
+
+Or and As parallel to itself acting at
+
+the points O and A, which are :
+
+the
+
+force
+
+Or
+
+=
+
+AT OA
+
+ force
+
+Vv
+
+and
+
+the
+
+force
+
+Os
+
+=
+
+OT OA
+
+ force
+
+Vv.
+
+And in this manner the individual forces disturbing the body are reduced to each end
+
+of the axis O and A.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 331
+
+For the forces of the second kind, which are opposite to the elementary forces, following § 385 we have taken the two directrices OB and OC at O normal to each other and normal to the axis OA (Fig. 45), to which also the are established the parallel lines AE and AF at A, and for the element of the body dM at Z we put in place the coordinates OX = x, XY = y and YZ = z, in order that the distance of this point from
+the axis XZ = r = ( yy + zz ). Again let the moment of all the forces acting be equal to
+Vf acting in the sense Z .
+Hence therefore we have seen for each end O and A the twin forces arise, clearly on putting the interval OA = a ; for the end O
+
+but for the other end A :
+
+the
+
+force
+
+along
+
+OB= Vf
+
+ (a- x)zdM a rrdM
+
+,
+
+the
+
+force
+
+along
+
+Oc= Vf
+
+ (a- x)ydM a  rrdM
+
+,
+
+the
+
+force
+
+along
+
+AE =
+
+Vf  xzdM a rrdM
+
+,
+
+the
+
+force
+
+along
+
+Af
+
+=
+
+Vf a
+
+ xydM  rrdM
+
+,
+
+where Oc and Af are the right lines OC and AF produced in the opposite direction. For the forces of the third kind, arising from the rotational motion itself, we have
+
+seen before in § 402, forces of this kind thus at each end O and A may be too numerous. Clearly, if the angular speed is equal to  , with the remaining
+
+denominations used in a like manner, for the end O these two forces may be had :
+
+the
+
+force
+
+along
+
+OB=
+
+
+
+ (a- x)ydM 2ag
+
+,
+
+the
+
+force
+
+along
+
+OC
+
+=
+
+
+
+
+
+(a- x)zdM 2ag
+
+and in a like manner for the other end A :
+
+force
+
+along
+
+AE =
+
+
+
+ xydM 2ag
+
+,
+
+force
+
+along
+
+AF =
+
+
+
+ xzdM 2ag
+
+.
+
+Hence with all these forces gathered together, the forces are found for each end O and A, which the axis sustains at these points.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 332
+
+COROLLARY 1
+414. Since the forces of the three kinds involve the square of the angular speed, they remain the same, whether  is positive or negative, that is with forces acting that either are accelerating or decelerating.
+COROLLARY 2
+415. All the forces acting at each end of the axis, however great they should be, can be reduced easily to one force, thus so that each end has only a single force acting on it ; and it is necessary that the axis should be held in place, in order that it may be supported at these ends by equal and opposite forces.
+COROLLARY 3
+416. Thus if the plane AOB is taken, in order that is passes through the centre of
+gravity of the body I, then  zdM = 0 and  ydM = M GI with M denoting the whole
+mass of the body; from which above somewhat simpler formulas may become evident.
+SCHOLIUM
+417. The basis of this solution has now been made abundantly clear, thus I have been less caring in the individual accounts offered. Since indeed, if the body is acted on by elementary forces only, the axis is by no means affected by these, but it is acted on only by the centrifugal forces ­ when it is acted on by other forces of any kind, and in the first place the axis is affected by these in the same way, and as if the body remains at rest and thus it sustains these forces, that we have now determined in the previous chapter [from statics considerations]. Now in addition on account of the centrifugal forces these forces are experienced of the third kind, which here we have embraced, thus in order that this problem should not disagree with problem 17, as here forces of the third kind also are to be added.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 333
+
+PROBLEM 24
+
+418. If a rigid body, while it is rotating about a fixed axis, is acted on by some forces, to define the forces, which the whole structure of the body sustains.
+
+SOLUTION
+
+There is sought therefore, by which forces the body must be acted on, if it should
+
+be at rest, so that in turn the structure of this is affected, and in the state of motion that we examine here. Hence in the first place the same forces are to be applied to the
+
+body, by which it is actually disturbed, and thus at the same points the body is turning, since here in the centre of the matter at the places in which each force has been applied. In the second place equal and opposite forces must be applied to the
+
+individual elements of the body. Clearly, if the moment of all the forces to be accelerating the motion were equal to Vf, then with the element dM removed at a
+
+distance
+
+r
+
+from the
+
+axis,
+
+a
+
+force
+
+equal
+
+to
+
+VfrdM  rrdM
+
+is considered to be applied contrary to
+
+the direction of this motion. In the third place, if the angular speed is equal to , on
+
+account of the rotational motion, to that element also there is considered to be applied
+
+a
+
+force
+
+equal
+
+to
+
+ rdM 2g
+
+,
+
+which
+
+is
+
+pulling
+
+directly
+
+away
+
+from
+
+the
+
+axis.
+
+In
+
+the
+
+fourth
+
+place there is applied to the axis these forces, which are required in supporting the
+
+body, and which have been assigned in the preceding problem. Among themselves
+
+these forces now applied to the body hold it in equilibrium and they act equally on the individual parts of the body, and it shall be in the proposed motion. And hence
+
+therefore it can be concluded, that all the elements of the body must really stick to
+
+each other firmly, lest from these any disintegration or loosening is produced by the forces, as the body keeps its own shape in a pristine condition.
+
+COROLLARY 1
+
+419. If the connections between the parts were weaker, so that to the action of these forces, which in the manner we have defined were strong enough to resist, since the shape of the body actually is allowed to change, then for that reason the motion could not be considered to be for a rigid body.
+
+COROLLARY 2
+
+420. Hence we take all the particles of the body as firmly connected together closely in order that the forces mentioned are strong enough to prevail without any relaxation or change in the shape.
+
+SCHOLIUM
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 334
+
+421. Therefore there shall be a special chapter, in which all the questions concerning the rotational motion of rigid bodies about a fixed axis disturbed by any kind of forces can be resolved ; for in addition we have defined both accelerated and decelerated motion, of what size the forces sustained both by the axis and by the structure of the body. But the formulas, which we have found for the determination of these, involve
+certain integral formulas, clearly  ydM ,  zdM ,  xydM ,  xzdM , and  rrdM , which
+are to be observed not only as variable or indefinite quantities, but these integrals are to be understood as extended over the whole bulk of the body, thus in order that they maintain both constant and determined values depending on the shape and innate nature of the body. And indeed we have considered to define the values of the first two from the position of the centre of inertia, now the values of the rest must be elicited from the nature of the body through the known rules of integration. But finally it is especially worthy of note, since they are present only in accelerated and decelerated motion, but also as well in the remaining expressions which indicate the forces sustained by the axis. Therefore since here the question of the motion shall be from a particular disturbance, it will be worth the effort to treat both the establishment
+and instruction [for finding] the values of the formula  rrdM for different kinds of
+bodies, thus for these in whatever case they can easily be gathered together ; moreover this formula certainly has merit, so to that we impose on it the particular name of moment of inertia, and we set aside the following chapter to the investigation of this.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 335
+
+CAPUT IV
+DE PERTURBATIONE MOTUS GYRATORII A VIRIBUS QUIBUSCUNQUE ORTA
+
+PROBLEMA 20
+
+398. Si corpus rigidum circa axem fixum gyretur celeritate quacunque angulari, invenire vires elementares, a quibus dato tempusculo motus angularis datam
+
+accelerationem adipiscatur.
+
+SOLUTIO
+Sit  celeritas angularis, qua scilicet, si motus gyratorius esset uniformis, singulis
+
+minutis secundis conficeret angulum =  , tantam autem motus accipere debeat
+
+accelerationem, ut elapso tempusculo dt celeritas angularis fiat =  + d . Consideretur
+
+iam corporis elementum quodcunque dM, cuius distantia ab axe gyrationis sit = r ideoque eius celeritas = r , quae, cum distantia r pro eodem elemento maneat
+
+constans, tempusclo dt augmentum accipere debet = rd . Ad hoc ergo necesse est, ut
+
+massula dM secundum directionem motus sollicitetur a vi quapiam, quae, si tantisper
+
+ponatur = p, erit per motus principia supra stabilita
+
+huic elemento applicanda fit
+
+p
+
+=
+
+rdM 2g
+
+ d
+dt
+
+.
+
+rd
+
+=
+
+2 gpdt dM
+
+(§202); unde vis
+
+Singula ergo corporis elementa secundum ipsam motus sui directionem sollicitari
+
+debent
+
+a
+
+viribus
+
+=
+
+d 2 gdt
+
+ rdM
+
+,
+
+ubi
+
+dM
+
+exprimit
+
+massam
+
+cuiusque
+
+elementi
+
+et
+
+r
+
+eius
+
+distantiam ab axe. Atque hae sunt vires elementares, quae singula corporis elementa sollicitantes motum gyratorium ita accelerant, ut celeritas angularis tempusculo dt
+
+accipiat augmentum d .
+
+COROLLARIUM 1
+
+399. Cum
+
+d 2 gdt
+
+pro omnibus elementis corporis eundem valorem retineat, vires
+
+elementares sunt in ratione composita massaram earumque distantiarum ab axe gyrationis. Singulae autem hae vires singulis elementis secundum ipsam motus
+
+directionem applicatae sunt intelligendae.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 336
+
+COROLLARIUM 2
+400. Quia harum virium nulla obstat, quominus reliquae effectum suum plenum producant, perinde ac si singulae particulae a se invicem essent dissolutae, ab his viribus elementaribus neque compages corporis neque axis gyrationis afficitur.
+
+COROLLARIUM 3
+401. Compages igitur parium atque axis gyrationis nullas alias vires sustinent, nisi quae ex motu gyratorio ipso nascuntur quaeque hoc tempusculo perinde se habebunt, ac si motus gyratorius esset uniformis.
+
+SCHOLION
+
+402. Etsi autem vires elementares per se axem gyrationis non afficiunt, sed quasi totae in motu singulorum elementorum accelerando consumuntur, tamen, quatenus ab iis
+
+motus gyratorius rapidior redditur, eatenus ob auctam vim centrifugam vires, quas axis
+
+sustinet, fiunt maiores. Verum hic effectus primo instanti est infinite parvus atque axis aliter non afficitur, ac si motus gyratorius esset uniformis. Scilicet, cum celeritas angularis sit =  , quaelibet particula, cuius massa = dM et distantia ab axe = r, ab axe
+
+recedere
+
+conatur
+
+vi
+
+=
+
+ rdM 2g
+
+.
+
+Ab
+
+omnibus
+
+autem
+
+istis
+
+viribus
+
+per
+
+§338
+
+axis OA
+
+coniunctim ita afficitur, ut in subsidium vocatis binis directricibus OB et OC invicem
+
+et ad axem OA normalibus, quibus pro elemento dM in Z sito parallelae capiantur
+
+coordinatae OX = x, XY = y, YZ = z (Fig. 32), axis in punctis E et F sustineat duas vires Ee et Ff, quarum illa directrici OB, haec vero ipsi OC sit parallela; ita ut sit
+
+OE
+
+=
+
+ xydM  ydM
+
+et
+
+vis
+
+Ee
+
+=
+
+ 2g
+
+
+
+ydM
+
+,
+
+OF
+
+=
+
+ xzdM  zdM
+
+et
+
+vis
+
+Ff
+
+=
+
+ 2g
+
+ zdM .
+
+Vel harum loco in datis duobus punctis O et A binae aequivalentes Ob, Oc et A , A applicatae concipi possunt, quae ex §343 erunt posito intervallo OA = a
+
+vis
+
+Ob
+
+=
+
+ 2ag
+
+(a
+
+ydM
+
+-
+
+
+
+xydM
+
+),
+
+vis
+
+A
+
+=
+
+ 2ag
+
+ xydM
+
+,
+
+vis
+
+Oc
+
+=
+
+ 2ag
+
+(a
+
+zdM
+
+-
+
+
+
+xzdM
+
+),
+
+vis
+
+A
+
+=
+
+ 2ag
+
+
+
+xzdM .
+
+Ex quibus formulis colligitur, quantas vires axis ob solum motum gyratorium sustineat.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 337
+
+PROBLEMA 21
+403. Si, dum corpus rigidum circa axem fixum gyratur, singulae eius particulae secundum ipsam motus sui directionem sollicentur viribus, quae sint in ratione compositae massarum et distantiarum ab axe, definire incrementum celeritatis angularis dato tempusculo productum.
+
+SOLUTIO
+Posita celeritate angulari =  , qua corpus nunc gyratur, consideremus particulam
+
+corporis quamcunque, cuius massa sit = dM et distantia ab axe = r. Haec ergo particula secundum motus sui directionem sollicitatur vi, quae est ut rdM; ponatur ergo ea =
+
+rdM h
+
+,
+
+ubi
+
+h
+
+sit
+
+linea
+
+pro
+
+omnibus
+
+corporis
+
+elementis
+
+hocque
+
+instanti
+
+eadem.
+
+Iam
+
+cum
+
+huius elementi celeritas sit = r pro eaque sit r quantitas constans, si hoc elementum
+
+extra nexum cum reliquis versaretur, foret
+
+rd = 2g  rdM  dt:dM = 2grdt ,
+
+h
+
+h
+
+incrementum scilicet celeritatis tempusculo dt productum. Hinc ergo pro celeritate
+
+angulari  fiet
+
+d
+
+=
+
+2 gdt h
+
+;
+
+quare, cum ex omnibus elementis eadem celeritatis angularis acceleratio oriatur, ea
+
+sibi mutuo nulli sunt impedimento, sed singula elementa suas accelerationes aeque
+
+recipient, ac si a reliquis essent soluta. Hinc ab istis viribus, quae cum elementaribus
+
+in praecedente probleme definitis conveniunt, motus gyratorius totius corporis rigidi
+
+ita
+
+acceleratur,
+
+ut
+
+tempusculo
+
+dt
+
+celeritas
+
+angularis
+
+
+
+incrementum
+
+capiat
+
+d
+
+=
+
+2 gdt h
+
+.
+
+COROLLARIUM 1
+404. Incrementum ergo celeritatis angularis d non pendet ab ipsa celeritate angulari  , quae, sive maior fuerit sive minor, ab iisdem viribus eodem tempusculo idem incrementum adipiscitur.
+COROLLARIUM 2
+
+405. Quia quaelibet vis elementaris
+
+rdM h
+
+est ad distantiam ab axe r normalis in plano
+
+ad axem normali, eius momentum respectu axis est =
+
+rrdM h
+
+ideoque summa omnium
+
+momentorum =
+
+1 h
+
+
+
+rrdM
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 338
+
+COROLLARIUM 3
+
+406. Si corpus praeter has vires elementares ab aliis urgeretur in sensum contrarum,
+
+quarum
+
+momentum
+
+respectu
+
+axis
+
+itidem
+
+esset
+
+=
+
+1 h
+
+ rrdM
+
+,
+
+ab
+
+his
+
+illarum
+
+effectus
+
+destrueretur motusque nullam reciperet accelerationem.
+
+SCHOLION
+407. De his viribus, quas elementares voco, quoniam in singulis elementis mutationem status, quam subeunt, producunt, id praesertim observandum est, quod ab iis axis nullam vim patiatur; propterea quod ab iis singula elementa perinde, ac si a se invicem essent dissoluta, afficiuntur. Quanquam autem huiusmodi vires vix in mundo existunt, tamen ab iis exordiendum erat, ut aliarum quacumcunque virium effectus in motu gyratorio perturbando definire possemus. Si enim aliae vires, quaecunque fuerint, respectu axis gyrationis aequale momentum habeant, eae etiam eandem motus accelerationem producere debent, quoniam, si contrario modo essent applicatae, cum elementaribus in aequilibrio forent. Haec autem convenientia tantum de motus mutatione est intelligenda; nam longe aliter res se habebit, cum vires, quas axis gyrationis sustinet, determinari debebunt. Verum etiam haec determinatio ope virium elementarium facile expedietur, quemadmodum iam in capite praecedente est ostensum.
+PROBLEMA 22
+
+408. Si corpus rigidum, dum circa axem fixum gyratur, sollicitetur a viribus quibuscunque, definire mutationem momentarneam in motu gyratorio ab iis productam.
+
+SOLUTIO
+Sit ut hactenus  celeritas angularis, qua corpus iam gyratur; tum quaerantur
+
+singularum virium sollicitantium momenta, quae collecta praebeant summam =Vf ,
+
+quae tendet motum gyratorium vel accelerare vel retardare, prout in eundem sensum vergat vel contrarium. Sumamus autem hoc momentum ad accelerationem tendere, quia si contrarium evenerit, ipsum momentum tanquam negativum spectari posset. Quaeritur ergo, quantum incrementum celeritas angularis  tempusculo dt sit
+
+accepturum. Dabuntur autem utique vires elementares, quae par incrementum essent producturae. Sit igitur pro elemento dM ad distantiam r ab axe sito vis elementaris =
+
+rdM h
+
+,
+
+cuius
+
+momentum cum
+
+sit
+
+=
+
+rrdM h
+
+,
+
+effectus
+
+harum
+
+virium
+
+in
+
+motu
+
+gyratorio
+
+turbando illi, qui a momento Vf producitur, erit aequalis, si summa omnium illorum
+
+momentorum
+
+1 h
+
+
+
+rrdM
+
+fuerit momenti Vf aequalis, unde fit
+
+h=
+
+ rrdM Vf
+
+. At ex viribus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 339
+
+elementoribus
+
+rdM h
+
+oritur motus gyratorii acceleratio d
+
+=
+
+2 gdt h
+
+tempusculo dt. Quare
+
+pro h substituto valore modo invento incrementum celeritatis angularis a virium
+
+momento Vf tempusculo dt productum erit
+
+d
+
+=
+
+2Vfgdt  rrdM
+
+,
+
+ubi  rrdM est quantitas constans a figura et indole corporis pendens.
+
+COROLLARIUM 1
+409. Incrementum ergo celeritatis angularis d proporitionalis est directe momento virium sollicitantium Vf et tempusculo dt, reciproce autem illi quantitati, quae oritur, si singula corporis elementa per quadrata distantiarum suarum ab axe gyrationis multiplicentur et in unam summam colligantur.
+
+COROLLARIUM 2
+
+410.
+
+Si corpus adhuc motu gyratorio confecerit angulum =
+
+ , erit nunc
+
+d dt
+
+celeritas
+
+angularis  ideoque sumto elemento temporis dt constante erit
+
+dd = 2Vfgdt2 .
+ rrdM
+
+COROLLARIUM 3
+
+411. Sin autem loco tempusculo dt angulum elementarem d interea confectum in
+
+calculum
+
+introducere
+
+velimus,
+
+ob
+
+dt
+
+=
+
+d 
+
+habebimus hanc formulam
+
+ d
+
+=
+
+2Vfgdt 2  rrdM
+
+,
+
+qua incrementum quadrati celeritatis angularis definitur.
+
+SCHOLION
+
+412. Quodsi ergo ad quodvis tempus noverimus vires, quibus corpus sollicitatur, quarum momentum elapso t sit = Vf, ope formulae inventae, si integretur, totus motus gyratorius determinari poterit. Ubi quidem observandum est, si vel nullae affuerint vires vel eae nullum praebeant momentum respectu axis gyrationis, motum futurum esse aequabilem, dum axis has vires totas sustineat. Mutatio scilicet motus tantum a momento virium pendet eique adeo est proportionalis. Verum videamus etiam, quantas vires ipse axis sustineat, dum motus corporis a viribus quibuscunque perturbatur; quae
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 340
+
+Exempla autem talis motus gyratorii a viribus perturbati inferius afferemus, ubi corpora a gravitate animari assumemus.
+
+PROBLEMA 23
+
+413. Si corpus rigidum, dum circa axem fixum gyratur, a viribus quibuscunque
+
+sollicitetur, definire vires, quas axis in datis duobus punctis O et A sustineat et quibus
+
+resistere debet, ne vacillet.
+
+SOLUTIO
+
+Ex praecedentibus perspicitur axem triplicis generis vires sustinere, primo scilicet
+
+vires, quibus corpus actu
+
+sollicitatur, secundo vires
+
+aequales et contrarias viribus
+
+elementaribus idem momentum
+
+producentibus, ac tertio vires
+
+centrifugas ex motu gyratorio
+
+natas. Has ergo triplices vires ad
+
+data duo axis punctis O et A
+
+revocari oportet.
+
+Quod ergo ad vires corpus actu
+
+sollicitantes attinet, quaelibet
+
+earum, nisi eius directio sit in
+
+plano ad axem normali, resolvatur in duas VQ et Vv (Fig. 44), quarum illa VQ sit axi
+
+OA parallela, altera vero Vv in plano ad axem normali axem in T secante. Iam ob vim
+
+VQ axis primo sustinet vim aequalem
+
+secundum suam longitudinem OA;
+
+praeterea vero in O et A vires Op et
+
+Aq ad axem normales in ipso plano
+
+OAQP, quarum illa Op versus PQ est
+
+directa, haec vero Aq inde aversa;
+
+ambae autem hae vires sunt aequales
+
+et
+
+Op
+
+=
+
+Aq
+
+=
+
+VT OA
+
+ vis
+
+VQ
+
+.
+
+Deinde vis Vv pro punctis O et A
+
+praebet vires Or et As ipsi parallelas,
+
+quae sunt
+
+vis
+
+Or
+
+=
+
+AT OA
+
+ vis
+
+Vv
+
+et
+
+vis
+
+Os
+
+=
+
+OT OA
+
+
+
+vis
+
+Vv.
+
+Hocque modo singulae vires corpus sollicitantes ad axem eiusque terminos O et A
+
+reducantur.
+
+Pro viribus secundi generis, quae elementaribus sunt contrariae, § 385 secuti
+
+sumamus in O duas directrices OB et OC inter se et ad axem OA normales (Fig. 45),
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 341
+
+quibus etiam in A parallelae constituantur AE et AF, et pro corporis elemento dM in Z sito ponamus coordinatas OX = x, XY = y et YZ = z, ut sit eius distantia ab axe
+XZ = r = ( yy + zz ). Porro sit omnium virium sollicitantium momentum = Vf in
+sensum Z tendens. Hinc igitur vidimus pro utroque termino O et A geminas oriri vires, scilicet posito
+intervallo OA = a pro termino O
+
+at pro altero termino A
+
+vim
+
+secundum
+
+OB= Vf
+
+ (a- x)zdM a rrdM
+
+,
+
+vim
+
+secundum
+
+Oc= Vf
+
+ (a- x)ydM a  rrdM
+
+,
+
+vim secundum AE= Vf  xzdM ,
+a rrdM
+
+vim
+
+secundum
+
+Af
+
+=
+
+Vf a
+
+ xydM  rrdM
+
+,
+
+ubi Oc et Af sunt rectae OC et AF in contrariam plagam productae. Pro viribus tertii generis, ex ipso motu gyratorio natis, ante § 402 vidimus,
+
+cuiusmodi vires inde ad utrumque terminum O et A redundent. Scilicet, si celeritatas angularis sit =  , manentibus denominationibus modo adhibitis, pro terminos O
+
+habentur hae duae vires :
+
+vim
+
+secundum
+
+OB=
+
+
+
+ (a- x)ydM 2ag
+
+,
+
+vim
+
+secundum
+
+OC
+
+=
+
+
+
+
+
+(a- x)zdM 2ag
+
+similique modo pro termino altero A
+
+vim
+
+secundum
+
+AE =
+
+
+
+ xydM 2ag
+
+,
+
+vim
+
+secundum
+
+AF =
+
+
+
+ xzdM 2ag
+
+.
+
+Collegendis ergo omnibus his viribus pro utroque termino O et A habebuntur vires, quae axis in his punctis sustinet.
+
+COROLLARIUM 1
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 342
+
+414. Quia vires tertii generis quadratum celeritatis angularis involvunt, eaedem manent, sive  sit positiva sive negativa, hoc est sive a viribus sollicitantibus acceleretur sive retardetur.
+COROLLARIUM 2
+415. Omnes vires utrumque axis terminum sollicitantes, quotcunque fuerint, facile ad unam reduci possunt, ita ut uterque terminus ab unica tantum vi urgeatur; atque ad axem retinendum necesse est, ut in his terminis a viribus aequalibus et contrariis sustentetur.
+COROLLARIUM 3
+416. Si planum AOB ita capiatur, ut per centrum inertiae corporis I transeat, erit
+ zdM = 0 et  ydM = M GI denotante M massam totius corporis; ex quo superiores
+formulae aliquanto simpliciores evadent.
+SCHOLION
+417. Fundamentum huius solutionis in superioribus iam abunde est explicatum, unde in singulis rationibus afferendis minus fui sollicitus. Cum enim, si corpus a solis viribus elementaribus sollicitetur, ab iis axis neutiquam afficiatur, sed solas vires centrifugas patiatur, quando ab aliis viribus quibuscunque sollicitatur, primo axis ab iis perinde afficietur, ac si corpus quieverit, ideoque eas ipsas vires sustinebit, quas iam capite praecedente determinavimus. Praeterea vero ob vires centrifugas eas patietur vires, quas tertio genere hic sumus complexi, ita ut hoc problema non discrepet a problema 17, nisi quod hic vires tertii generis sint super addendae.
+PROBLEMA 24
+418. Si corpus rigidum, dum circa axem fixum gyratur, a viribus quibuscunque sollicitetur, definire vires, quas totius corporis compages sustinet.
+SOLUTIO
+Quaeritur ergo, a quibusnam viribus corpus, si esset in quiete, sollicitari deberet, ut eius compages perinde afficeretur, atque in statu motus, quem hic consideramus. Primum ergo corpori eaedem vires sunt applicandae, quibus actu sollicitatur, atque adeo in iisdem punctis, quia hic cardo rei in locis, quibus quaeque vires sunt applicatae, versatur. Secundo singulis elementis corporis vires aequales et contrariae viribus elementaribus applicare debent. Scilicet, si momentum omnium virium ad motum accelerandum fuerit = Vf, tum elemento dM ad distantiam = r ab axe remoto
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Four.
+
+Translated and annotated by Ian Bruce.
+
+page 343
+
+secundum
+
+directionem motui
+
+eius
+
+contrariam applicata
+
+concipiatur
+
+vis
+
+=
+
+VfrdM  rrdM
+
+.
+
+Tertio, si celeritas angularis sit =  , ob motum gyratorium elemento illi quoque
+
+applicata
+
+concipiatur
+
+vis
+
+=
+
+ rdM 2g
+
+,
+
+qua
+
+directe
+
+ab
+
+axe
+
+avellatur.
+
+Quarto
+
+axi
+
+applicentur
+
+ipsae illae vires, quae ad eius sustentationem requiruntur et quae in problemate
+
+praecedente sunt assignatae. Cunctae iam istae vires corpori applicatae se mutuo in
+
+aequilibrio servabunt et singulas eius partes aeque sollicabunt, ac fit in motu proposito. Hincque ergo concludi poterit, quam firmiter omnia corporis elementa inter
+
+se cohaerere debeant, ne ab illis viribus ulla dissolutio aut laxatio producatur, sed
+
+corpus figuram suam intemeratam conservet.
+
+COROLLARIUM 1
+
+419. Si nexus partium debilior fuerit, quam ut actioni harum virium, quas modo definivimus, resistere valeat, quoniam figura corporis revera mutationem patientur, id ratione motus non pro rigido erit habendum.
+
+COROLLARIUM 2
+420. Assumimus ergo constanter omnes corporis particulas tam arcte inter se esse connexas, ut vires memoratas sine ulla relaxatione aut figurae mutatione sustinere valeant.
+
+SCHOLION
+421. Haec igitur sunt capita praecipua, ad quae omnes quaestiones de motu gyratorio corporum rigidorum circa axem fixum a viribus quibuscunque pertrubato reduci possunt; praeter ipsam enim motus accelerationem vel retardationem definivimus, quantas vires cum axis gyrationis tum ipsa corporis compages sustineat. Formulae autem, quas pro his determinationibus invenimus, quasdam involvunt formulas
+integrales, scilicet  ydM ,  zdM ,  xydM ,  xzdM , et  rrdM , quae autem non
+tanquam quantities variabiles seu indefinitae sunt spectandae, sed haec integralia per totam corporis molem extensa sunt intelligenda, ita ut obtineant valores constantes ac determinatos ad indole ac forma cuiusque corporis pendentes. Ac binarum quidem priorum valores ex situ centri inertiae definire vidimus, reliquarum vero valores ex natura corporis per notas integrationis regulas erui debent. Postrema autem imprimis est notatu digna, cum sola in accelerationem vel retardationem ingrediatur, dum reliquae tantum in expressionibus, quae vires ab axe sustentatas indicant, insunt. Cum igitur hic quaestio ipsa motus perturbatione sit praecipua, operae pretium erit valores
+formulae  rrdM pro variis corporum generibus evolvere ac praecepta tradere, unde illi
+quovis casu facilius colligi queant; meretur autem haec formula utique, ut ei nomem singulare momenti inertiae imponamus, cuius investigationi caput sequens destinamus.
+
+

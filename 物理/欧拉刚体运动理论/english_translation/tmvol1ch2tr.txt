@@ -1,0 +1,3087 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 242
+
+Chapter 2
+
+Concerning Rotational Motion about a Fixed Axis with no Disturbing Forces.
+
+DEFINITION 5
+309. Motion is said to be gyratory, in which a rigid body is moving around a right line to which it is firmly connected, which right line is called the axis of gyration. [We call this the axis of rotation here generally in what follows.]
+COROLLARY 1
+310. Hence in gyratory motion the axis of gyration remains at rest or the individual points in that remain unmoved; now the remaining points of the body are moving faster there, the farther they are from the axis of rotation.
+COROLLARY 2
+311. Because the individual points of the body always keep the same distance from the axis, they can only move in the arcs of circles, the centres of which have been positioned on the axis of gyration. Clearly the right line from some point on the body drawn normally to the axis is the radius of the circle, on the periphery of which the point is moving.
+COROLLARY 3
+312. Because all the points of the body always keep the same distance among themselves as from the axis, it is necessary that the individual points are progressing through the same arc in the same time, from which the speeds of these in the same time are to each other as their distances from the axis.
+COROLLARY 4
+313. Since the axis of gyration remains at rest, if in addition the position of a single point of the body should be known, then from that position of the whole body will be known ; and if we should know the speed of a single point, then we are able to assign the speeds of all the points.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 243
+
+EXPLANATION
+314. The motion of a body thus is restricted by gyration, in order that two certain points remain unmoved; for two styluses E and F are considered to be firmly attached to the body ABCD (Fig. 29), so that by no means are they able to be moved ; and with these styluses not opposing the motion the body still is able to move in two ways, as in the figure the points A, B, C are pushed up or down, which difference is most conveniently accustomed to be intimated, while the body is said to be gyrating in this sense or the opposite [here in future we will use the term rotating rather than gyrating but we will retain the phrase axis of gyration occasionally, as it is used still]. Now in addition the motion in each sense can be made to be varied in an infinite number of ways by reason of the speed; but with the speed known the motion is not yet known, unless it is declared in each sense the motion is made. But at once both the points E and F shall remain at rest, with the individual point lying between these along the line also at rest, and on this account the line EF is the axis of gyration. Then if m is some particle of the body and thus mn is drawn normal to the axis EF, by which radius the circle is considered to be described in the plane normal to EF, this small particle m cannot move in any other way apart from the periphery of this circle described, and always the speed of the point m is proportional to the distance mn.
+SCHOLIUM
+315. Here I use the Gallic word sense imitating the French idiom, as the [Latin] word plaga [meaning here : along a set of parallel lines, but without specifying the direction or sense] , that others are accustomed to use, is seen not to discriminate well enough. For with the axis of gyration O put in place normally to the plane of the table (Fig. 30), to which from the points of the body A, B, C the normals AO, BO, CO are driven ; now the twofold motions of the bodies must be impressed, the one in which the points A, B, C proceed along the arcs Aa, Bb, Cc, and moreover the other, in which the same points proceed along the arcs A , B , C . In the first case it cannot be agreed
+to say that the motion is along the direction Aa, unless clearly it cannot be true that the motion of the points B and C is directed along other directions. Now a certain fixed
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 244
+
+direction is intimated, which does not have a place in circular motion ; thus on account of this deficiency it is more fitting to talk about such motion as if we put in place two senses opposing each other, thus so that the circular motion can happen along the arcs Aa, Bb, Cc in that sense, otherwise it has to be said to happen along the arcs A , B , C in the opposite sense.
+
+DEFINITION 6
+316. The angular speed in rotational motion is the speed of that point, the distance of which from the axis of gyration is expressed by one.
+COROLLARY 1
+317. Therefore from the speed of any point the angular speed is known, if that speed is divided by the distance of that point from the axis of gyration, since in rotational motion the speeds are in proportion to the distances from the axis.
+
+COROLLARY 2
+
+318. Therefore if the speed of a point, that lies at a distance from the axis of gyration
+
+equal
+
+to
+
+x,
+
+is
+
+equal
+
+to
+
+v,
+
+then
+
+the
+
+angular
+
+speed
+
+is
+
+v x
+
+.
+
+Indeed
+
+for
+
+any
+
+other
+
+distance
+
+y
+
+the
+
+speed
+
+becomes
+
+equal
+
+to
+
+yv x
+
+and
+
+with
+
+this
+
+distance
+
+taken
+
+as
+
+y
+
+=
+
+1
+
+then
+
+that
+
+is
+
+equal
+
+to
+
+v x
+
+,
+
+which
+
+is
+
+the
+
+angular
+
+speed.
+
+COROLLARY 3
+
+319. Hence in turn with the angular speed known, which shall be equal to , the speed at some distance x, which shall be here from the axis of gyration, is equal to x ;
+clearly the angular speed multiplied by some distance from the axis of rotation gives the true speed for that distance.
+
+EXPLANATION
+
+320. Since in rotational motion the points of the body bear different speeds at different distances from the axis of rotation, we can introduce into the calculations the angular speed in place of these, which is the same for all the distances, so that we may grasp these different speeds in all these calculations at the same time ; indeed there is produced from that, if the angle completed in a certain element of time is divided by that time, thus as it is common for all distances. For if at the distance equal to x from the axes of gyration the speed should be equal to v, in the element of time dt that
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 245
+
+element of arc is completed equal to vdt, which divided by the radius x gives the angle
+
+completed
+
+meanwhile
+
+equal
+
+to
+
+vdt x
+
+;
+
+but
+
+this
+
+divided
+
+by
+
+the
+
+time
+
+dt
+
+again
+
+produces
+
+v x
+
+,
+
+that is the angular speed. Consequently it is therefore the case, that however we may
+
+wish to define the angular speed, either it shall be the speed agreeing with the distance
+
+equal to 1 or the speed for whatever distance divided by that corresponding distance
+
+or the element of the angle divided by the element of the time, in which it is completed
+
+; if indeed these three ways agree amongst themselves. Indeed the first conforms most
+
+to the nature of the thing, since from that the speed is truly indicated, and that fixed
+
+distance to which it corresponds, that we have signified by unity for the same reason,
+
+which in the measure of angles the radius usually referred to is expressed by unity, so
+
+that without doubt the angles and the arcs may be referred to a common measure.
+
+THEOREM 3
+
+321. If a rigid body has began moving about a fixed axis, it will continue its own rotary motion perpetually, unless it should be disturbed by external forces.
+
+DEMONSTRATION
+
+Let EF be the axis of gyration (Fig. 29), about which the rigid body has began to move with an angular speed equal to c, which clearly corresponds to the distance from the axes equal to 1. Therefore whatever the distance from the axis mn = x the particle has a speed equal to cx in the same sense. Since the body with the axis constitute as it were a rigid body, the particle m is understood to be connected to the axis EF, in order that from that it constantly keeps the same distance mm = x. We may consider this particle as connected to the axis by a string only mn, and above we have seen [§212] that to be a motion of uniform rotation along the periphery of a circle. Because it should prevail, with all the elements taken separately, that it is to be considered whether they are able to pursue their own motion, without impeding each other. Now it is evident, even if the individual elements are freed from each other in turn, while they are connected to the axis with the aid of the thread, that they are able to continue still in their own individual motion, in order that they maintain always the same distances between each other and the body can retain its shape. Whereby also the mutual bonds of these do not oppose the individual elements from pursuing their own motion ; consequently the whole body continues with the impressed rotational motion, so that it is revolving around the axis with the same angular speed always.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 246
+
+COROLLARY 1
+
+322. Therefore with the angular speed put equal to c, as at a distance equal to x from
+
+the
+
+axis,
+
+the
+
+speed
+
+is
+
+equal
+
+to
+
+cx,
+
+if
+
+this
+
+speed
+
+is
+
+put
+
+equal
+
+to
+
+v,
+
+then
+
+c
+
+=
+
+v x
+
+.
+
+Whereby
+
+since x and v are lines, then the angular speed c is expressed by an absolute number.
+
+[Euler does not consider dimensions quite as we do now.]
+
+COROLLARY 2
+
+323. From the angular speed c the time t is gathered, in which a rotation is made
+
+through
+
+a
+
+given
+
+angle
+
+
+
+;
+
+for
+
+since
+
+the
+
+motion
+
+is
+
+uniform,
+
+then c
+
+=
+
+ t
+
+and
+
+thus
+
+t
+
+=
+
+ c
+
+;
+
+thus it is apparent that the angular speed c gives the angle that is completed in one
+
+second.
+
+COROLLARY 3
+
+324. Whereby if 1: denotes the ratio of the diameter to the periphery, so that 2 is
+
+the periphery of the circle, the radius of which is equal to 1, then the time of one
+
+revolution, in which the body reverts to its former condition, is equal to
+
+2 c
+
+sec.
+
+COROLLARY 4
+
+325. Since we have put in place the times to be measured in seconds always, if the angular speed is equal to c, then in the time t the body completes an angle equal to ct by rotation.
+
+SCHOLIUM
+326. Therefore behold the distinct idea necessary for the absolute measurement of the angular speed, which is clearly expressed by the angle, through which in that rotary motion, if it should be uniform, which is completed in an interval of one second. This agrees with all the established way pertaining to motion being reduced to absolute measures ; the beginning of which is in agreement with that, as we always express the time in seconds ; then we show the speed as the distance a body traverses with that speed in a time of one second, and thus so that the clearest idea of the speed is obtained. Therefore just as linear speed in general is the distance completed in a time of one second, thus the angular speed is the angle completed in a time of one second, if it is known that the motion is uniform. But if the rotary motion should not be uniform, thus so that the angular speed is different at whatever instant, then in a similar manner for whatever instant, the angular speed is expressed as that angle
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 247
+
+which the body can describe in a time of one second, if it should be revolving uniformly with that uniform rotation. Moreover from this theorem the motion of uniform rotation is understood perfectly, in which every rigid body is carried around, unless by necessity it is acted on by external forces ; thus it appears that the inertia principle of the uniformity of motion is to be extended also to the rotary motion of rigid bodies, as long as the axis of gyration is fixed. Whereby it is agreed to investigate how great a force is needed for the axis to be kept in its own fixed position.
+
+PROBLEM 5
+
+327. If a rigid body is rotating uniformly about a fixed axis, to define the forces, which the axis sustains or which must be put in place, in order that the axis remains in its own place.
+SOLUTION
+
+Again the body can be considered to be divided into its elements (Fig. 29), which individually are to be connected to the axis by the aid of threads ; and since any
+
+element m is carried around in a in circle, the radius of which is the distance mn from the axis EF, on account of the centrifugal force defined above (§213) the thread will
+
+stretch, and the axis is acted on by so large a force acting along the direction nm.
+
+Towards which calculation let the small mass of this element be dM and let the distance of this from the axis of gyration EF be mn = x and let the speed, by which the element m is itself revolving in a circle, be equal to  x . Then if g denotes the height
+
+through which a body acted on by gravity falls in a time of one second from rest, then
+
+by §213 the centrifugal force of this element is equal to :
+
+ xxdM
+2 gx
+
+=
+
+
+2g
+
+i xdM
+
+,
+
+where dM is the minute weight, that the element of the body in the region of the earth elected to be considered for absolute measurements. Whereby on account of the
+
+motion of this element, while it is turning at m, the axis EF sustains a force equal to
+
+ 2g
+
+.xdM
+
+,which
+
+is
+
+acting
+
+along
+
+the
+
+line
+
+nm
+
+;
+
+and
+
+since
+
+it
+
+sustains
+
+similar
+
+forces
+
+from
+
+all these elements, from these it will be possible to gather the total force that the whole
+
+body exerts on the axis.
+
+COROLLARY 1
+
+328. Therefore the forces arising from the individual elements for the same angular motion maintain the same ratio composed of the masses and of the distances from the axis ; therefore the elements closer to the axis are less effective than the elements further away in producing a force.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 248
+
+COROLLARY 2
+
+329. Then indeed of the same element the force, which is sustained by the axis from that, follows in the square ratio of the angular speed ; which if it were doubled, that force would emerge four times as great.
+
+COROLLARY 3
+
+330. Because the element m is carried around the periphery of the circle in a uniform motion, a certain force keeps the same magnitude and with the same point n applied to the axis, but with the direction continually changing since it is always directed towards the element.
+
+SCHOLIUM
+
+331. We have found above as you may know (§213), in order that a corpuscle, the
+
+mass of which is equal to A, is to be moving with the speed equal to v along the
+
+periphery of the circle, the radius of which is equal to r, then the force required
+
+tending towards the centre of this circle is equal to
+
+Avv 2 gr
+
+.
+
+Therefore
+
+since
+
+in
+
+our
+
+case
+
+the mass shall be A = dM, the speed v =  x and the radius r = x, then this force
+
+becomes equal to
+
+ xdM 2g
+
+,from which the thread, by which the element is tied to the
+
+axis, is tending and because therefore it is acting on the axis itself along the direction
+
+nm. Therefore the individual points of the axis are affected by forces of this kind ; and
+
+if we wish to know the forces, that the point n sustains, a plane section through the
+
+point n and made normally to EF must be considered, and all the elements of the body
+
+situated in this plane exercise their forces on the point n ; which since all are applied to
+
+the same point, by the precepts of statics are easily able to be reduced to one force.
+
+This clearly will be the case, when the whole body should be compact as if in a plane,
+
+which therefore we shall explain before progressing to three dimensions.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 249
+
+PROBLEM 6
+
+332. If the body should be a most tenuous plane plate normal to the axis of gyration and which is rotating with a given speed, to determine the force that the axis sustains from that motion.
+
+SOLUTION
+
+Let AEaF be this thinnest lamina of some kind of shape (Fig. 31), the mass
+
+of which is equal to M, to which the axis
+
+of gyration is understood to be placed normally at the point O ; and since the
+
+right lines drawn from the individual elements of the lamina to O likewise
+
+refer to the distances of these from the axis of gyration, all the forces themselves act on the same point O.
+
+Therefore some element of the lamina is considered at M, the mass of which is
+
+equal to dM and the distance of this from the axis OM = r; and with the angular speed put equal to  the force, by which
+
+the point O is acted on in direction OM, is equal to
+
+ rdM 2g
+
+. Which forces
+
+arising from
+
+all the elements in order that they may be more easily reduced to a single force, are taken along two directrices OA, OB through O in the plane of the lamina normal to
+
+each other, to which the coordinates for the point M are to be referred, OP = x and
+
+PM = y, and with the rectangle OPMQ completed that force along OM is resolved into
+
+two
+
+along
+
+the
+
+directrices,
+
+of
+
+which
+
+that acting
+
+along
+
+OA,
+
+is
+
+equal
+
+to
+
+ xdM 2g
+
+,
+
+and
+
+that
+
+which acts along OB is equal to
+
+ ydM 2g
+
+. Therefore from the total, the force acting on
+
+the lamina along the direction OA is equal to
+
+ 2g
+
+
+
+xdM
+
+and the force acting along the direction OB is equal to
+
+ 2g
+
+
+
+ydM
+
+.
+
+Moreover these integrals are known from the position of the centre of inertia of the
+
+lamina, which if it is put in place at I , and hence the perpendiculars IK and IL are sent to the directrices; then
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 250
+
+ xdM = M .OK and  ydM = M .OL.
+
+Whereby since
+
+the force along
+
+OA =
+
+ 2g
+
+M
+
+.OK
+
+and the force along OB =
+
+ 2g
+
+M
+
+.OL,
+
+from these two forces there is an equivalent single force acting along the direction OI
+
+which is equal to
+
+ 2g
+
+.M
+
+.OI
+
+,
+
+and
+
+this
+
+is
+
+the
+
+force
+
+which
+
+the
+
+axis
+
+sustains
+
+at
+
+the
+
+point
+
+O
+
+on account of the motion of the lamina.
+
+COROLLARIUM 1
+
+333. Therefore the direction of the force, that the axis sustains on account of the motion of the lamina, is directed from the point O to the centre of inertia I and is in proportion to the distance of I from the axis.
+
+COROLLARY 2
+
+334. If the total mass of the lamina M should be gathered together at the centre of
+
+inertia and that mass is rotating around the axis with the uniform angular speed, then
+
+from
+
+that
+
+axis
+
+the
+
+force
+
+sustained
+
+is
+
+equal
+
+to
+
+ 2g
+
+.M
+
+.OI
+
+in
+
+the
+
+same
+
+direction
+
+OI.
+
+COROLLARY 3
+
+335. If the whole mass of the lamina should be gathered at the centre of inertia, and that to be rotating around the axis with a constant angular velocity, then the axis sustains the same force from the lamina, which is observed especially to be a worthy property of the centre of inertia.
+
+COROLLARY 4
+
+336. Therefore if the axis should pass through the centre of inertia itself I of the lamina and to be perpendicular to that, on account of OI = 0 then the axis clearly experiences no force from the motion of the lamina, and hence neither is a force needed to retain the lamina at rest [relative] to the axis.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 251
+
+SCHOLIUM
+337. But if the axis does not pass through the centre of inertia, nevertheless the axis must be retained firmly between these points of attachment, so that it prevails over the resisting force lest at any time it should be removed from its position. Moreover since the direction of this force is acting around a circle, the axis must be retained in its own place on all sides by a sufficient force ; and indeed it is evident that there is need for a greater force retaining the axis where the centre of inertia is more distant from that. Now in addition this force is proportional to the mass of the lamina and to the square of the angular velocity. Moreover this case, in which we have considered the body as an infinitely thin plate, guides us to bodies of any kind, since with the body divided by sections normal to the axis into an infinite number of plates hence the forces, by which the axis is acted on at individual points are easily combined together. It is known that the whole calculation is reduced to finding the centres of inertia of these laminas ; now we another approach in this investigation.
+PROBLEM 7
+338. If a rigid body is rotating uniformly about the axis OA (Fig. 32), the forces, which the axis sustains, are collected together in a sum or can be reduced to two forces, which act on the axis.
+SOLUTION
+The two normal directrices OB and OC are joined together with the axis of gyration OA at O, from which, for the element of the body at Z, the mass of which is dM with M denoting the mass of the whole body, three parallel coordinates are set up : OX = x, XY = y and YZ = z. But if now the angular velocity, with which the body is rotating around the axis OA, is put equal to  and for the element Z the distance XZ from the axis = r, on account of the motion of this
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 252
+
+element, the axis is acted upon at the point X in the direction XZ, by a force equal to
+
+ rdM 2g
+
+,
+
+which
+
+with
+
+XV
+
+drawn
+
+parallel
+
+to
+
+YZ
+
+or
+
+OC
+
+,
+
+is
+
+resolved
+
+in
+
+the
+
+directions
+
+XY
+
+and XV, and thus the force acting
+
+along
+
+XY
+
+=
+
+
+
+ydM 2g
+
+and
+
+along
+
+XV
+
+=
+
+ zdM 2g
+
+;
+
+and thus the axis sustains two forces from the individual elements, the directions of
+
+which are parallel to OB and OC; thus all the forces which act along each direction,
+
+can be gathered together into a sum separately. Hence Ee can represent the force from
+
+all the forces XY and Ff the sum from all the equivalent forces YZ ; and in the first
+
+place each is equal to the sum of all the forces, to which it is equivalent. Whereby then
+
+the force
+
+Ee
+
+=
+
+ 2g
+
+
+
+ydM
+
+and
+
+the force
+
+Ff
+
+=
+
+ 2g
+
+ zdM
+
+.
+
+Then the moments of these forces with respect to the point O must be equal to all the
+
+moments from the elementary moments taken together, thus becoming :
+
+ 2g
+
+ OE   ydM
+
+=
+
+ 2g
+
+
+
+xydM
+
+or OE
+
+=
+
+ xydM  ydM
+
+and
+
+ 2g
+
+ OF   zdM
+
+=
+
+ 2g
+
+
+
+xzdM
+
+or OF
+
+=
+
+ xzdM  zdM
+
+;
+
+and thus all the forces, which the axis sustains, have been reduced to the two forces
+
+Ee and Ff, of which both the magnitudes as well as the directions and the points of
+
+application become known.
+
+COROLLARY 1
+
+339. If the centre of inertia of the body should be at I, to which there corresponds the
+
+coordinates OG, GK and KI, then, as we saw above,
+
+OG
+
+=
+
+ xdM M
+
+,
+
+GK
+
+=
+
+
+
+ydM M
+
+,
+
+KI
+
+=
+
+
+
+zdM M
+
+,
+
+hence for the above formulas, it is the case that :
+
+ ydM = M  GK and  zdM = M  KI .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 253
+
+COROLLARY 2
+
+340. If the mass of the whole body M is gathered at the centre of inertia I, and it is
+
+rotating with an equal speed, then the force G sustained from that by a point on the
+
+axis is equal to
+
+ 2g
+
+
+
+M
+
+
+
+GI
+
+in the direction GI, thus the two forces arising along GK
+
+=
+
+ 2g
+
+
+
+ydM
+
+and
+
+along
+
+GL
+
+=
+
+ 2g
+
+
+
+zdM
+
+,
+
+to
+
+which
+
+therefore
+
+these
+
+forces
+
+along
+
+Ee
+
+and
+
+Ff
+
+are equal.
+
+COROLLARY 3
+
+341. If the plane AOB, which has been left by us arbitrarily, is assumed to be drawn
+
+through the centre of inertia I of the body, in order that KI = 0 and  zdM = 0 , then
+
+indeed the force Ff = 0 but now with the distance OF infinite, thus yet, in order that
+
+the moment of this is finite, clearly
+
+the
+
+force
+
+Ff
+
+ OF
+
+=
+
+ 2g
+
+
+
+xzdM .
+
+SCHOLIUM
+342. But these two forces Ee and Ff are not allowed to be reduced further to one force, unless the interval EF vanishes; for the two right line forces applied to two different points cannot be reduced to one, unless the directions of the forces should be in the same plane. Now these two forces Ee and Ff can be reduced to two other forces in an infinite number of ways, so that, if the position of the directrices OB and OC should be changed, as we saw in the case in which the plane AOB is drawn through the centre of inertia, the force Ff vanishing and the distance OF becoming infinite. But with the two forces Ee and Ff of this kind found, which the axis of gyration sustains, lest that does not move from its position, it is necessary that it is retained by equal and opposite forces. Clearly if the axis is suspended from fixed rings at E and F, between which it is free to rotate, the ring at E sustains the force Ee and the ring at F the force Ff, thus the forces exerted on the rings can be found ['the firmness of the rings is allowed to be gathered' in the original text]. Now if the axis must be sustained at any two given points, the forces to be used have to be assigned to these points, in order that the axis remains motionless, and we undertake that investigation in the following problem.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 254
+
+PROBLEM 8
+
+343. If the axis, around which a rigid body is rotating uniformly, is held by two given points O and A (Fig. 32), to define the forces which the axis sustains at these two points.
+
+SOLUTION
+
+With everything remaining, which has been put in place in the previous problem,
+
+the forces acting on the axis have been reduced to the two forces Ee and Ff, of which
+
+the one is parallel to the directrix OB, and the other indeed is parallel to the directrix
+
+OC, thus so that the force
+
+the force Ee
+
+=
+
+ 2g
+
+ ydM
+
+and the force Ff
+
+=
+
+ 2g
+
+ zdM ,
+
+then OE
+
+=  xydM
+ ydM
+
+and
+
+OF
+
+=
+
+ xzdM  zdM
+
+.
+
+Therefore from these the equivalent forces must be sought being applied at the points
+
+O and A. Hence let the distance OA = a and at O and A, with the forces Ob and A
+
+applied, which are equivalent to the force Ee, since that happens if Ob + A = Ee and Obi AE,
+
+thus there arises:
+
+Ob
+
+=
+
+AE .Ee a
+
+=
+
+Ee -
+
+OE .Ee a
+
+and
+
+A
+
+=
+
+OE .Ee a
+
+.
+
+In a similar manner the forces Oc and A , are applied at O and A, which forces are
+
+equivalent to the force Ff, and then
+
+Oc =
+
+AF .Ff a
+
+= Ff
+
+- OF .Ff
+a
+
+and
+
+A
+
+=
+
+OF .Ff a
+
+.
+
+Whereby at each point O and A we have two forces, which the axis sustains, clearly at
+
+the point O,
+
+( ) ( ) the
+
+force
+
+Ob
+
+=
+
+ 2g
+
+
+
+ydM
+
+-
+
+1 a
+
+
+
+xydM
+
+and
+
+the
+
+force
+
+Oc
+
+=
+
+ 2g
+
+
+
+zdM
+
+-
+
+1 a
+
+
+
+xzdM
+
+,
+
+then at the point A, while
+
+the force
+
+A
+
+=
+
+ 2g
+
+
+
+1 a
+
+ xydM
+
+,
+
+and
+
+the
+
+force
+
+A
+
+=
+
+ 2g
+
+
+
+1 a
+
+ xzdM .
+
+Or if we should introduce these lines pertaining to the element dM placed at Z, then
+
+the
+
+force
+
+Ob
+
+=
+
+ 2ag
+
+
+
+AX
+
+
+
+XY
+
+
+
+dM
+
+and
+
+the
+
+force Oc
+
+=
+
+ 2ag
+
+ AX
+
+ YZ
+
+ dM
+
+,
+
+the
+
+force
+
+A
+
+=
+
+ 2ag
+
+ OX
+
+
+
+XY
+
+
+
+dM
+
+and
+
+the
+
+force
+
+A
+
+=
+
+ 2ag
+
+ OX
+
+ YZ
+
+ dM .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 255
+
+We put OG = b, AG = c, in order that a = b + c , then GX = u, in order that
+
+( ) ( ) the
+
+force
+
+Ob
+
+=
+
+ 2ag
+
+c ydM - uydM
+
+,
+
+the
+
+force
+
+Oc
+
+=
+
+ 2ag
+
+c zdM - uzdM
+
+,
+
+( ) ( ) the
+
+force
+
+A
+
+=
+
+ 2ag
+
+b ydM + uydM
+
+,
+
+and
+
+the
+
+force
+
+A
+
+=
+
+ 2ag
+
+b zdM + uzdM
+
+.
+
+We can take the plane AOB thus, so that it passes through the centre of inertia I, then,
+
+ ydM = D,  uydM = E, and  uzdM = F ,
+
+and there becomes:
+
+the force Ob
+
+=
+
+ 2ag
+
+(Dc - E),
+
+the force Oc
+
+=
+
+- 2 ag
+
+F,
+
+the force A
+
+=
+
+ 2ag
+
+(Db + E),
+
+and the force A
+
+=
+
+ 2 ag
+
+F.
+
+And now easily both the two forces Ob and Oc at O as well as the two forces A and A at A can be reduced into one force, thus so that at each end O and A the force
+
+becomes known, that is sustained by the axis there.
+
+COROLLARY 1
+
+344. Therefore if a plane AOB passing through the centre of inertia of the body I is put in place, the forces Oc and A are equal but opposite, thus so that one is the negative of the other ; or then : force Oc + force A = 0, since KI = 0, and because the
+force GL = 0.
+
+COROLLARY 2
+
+345. If the axis of gyration OA passes through the centre of inertia I, then also
+
+ ydM = D = 0 and thus the forces, which the axis sustains at the points O and A thus
+
+are given :
+
+force Ob
+
+=
+
+- 2ag
+
+ E, force Oc
+
+=
+
+- 2ag
+
+
+
+F,
+
+force A
+
+=
+
+ 2ag
+
+
+
+E,
+
+force A
+
+=
+
+ 2 ag
+
+
+
+F.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 256
+
+COROLLARY 3
+
+346. In order that the axis generally sustains no forces and the body is able to rotate freely about that, it is necessary that these four integrals vanish :
+
+ ydM = 0,  zdM = 0,  xydM = 0 and  xzdM = 0;
+and it is satisfied by the first two integrals, if the axis gyration passes through the centre of gyration of the body.
+SCHOLIUM
+
+347. In the present circumstances it has pleased us to take the two points O and A, thus as if the axis is suspended ; and in general it appears that the forces which are
+
+required to keep the axis at these points, there become less when a longer interval OA is taken, which is no wonder, since the effect here depends on the moments of the
+
+forces. But if the points O and A meet, so that OA = a = 0, these forces thus become infinite, from which it is understood that the axis can never be contained so firmly by
+
+a single point, so that it remains stationary ; at the minimum therefore according to this two forces are required to be applied to the axis at different points, unless perhaps
+
+two forces Ee and Ff can now be applied at the start to the same point. But from the preceding problem this cannot be done, unless it is the case that :
+
+ xydM :  xzdM =  ydM :  zdM .
+
+Therefore with the plane AOB taken thus, so that it passes through the centre of inertia
+
+I, in order that  zdM = 0 , this eventuates if  xzdM = 0 . Because also from this
+
+problem it is evident, since then the forces Oc and A vanish and the forces Ob and
+
+A alone are left, with which one is the equivalent of the force Ee, thus in order that
+
+the axis then is able to be sustained at a single point E by a force which is equal and opposite to the force Ee. Therefore it suffices for the axis to be sustained at a single
+
+point E, if with the plane AOB drawn through the centre of inertia it should be that
+
+ xzdM = 0 , in which case there is
+
+the force Ee =
+
+ 2g
+
+
+
+ydM
+
+,
+
+and the distantce OE =
+
+ xydM  ydM
+
+.
+
+With all the remaining cases it is necessary that, as the axis is held in place by two
+
+points, which are to be taken somehow, the restraining forces to the axis must be equal and opposite to the forces determined here. When we have assigned these, it remains,
+
+that we should define the forces, which the structure of the body sustain on account of the rotary motion.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 257
+
+PROBLEM 9
+
+348. If a rigid body is rotating about a fixed axis uniformly, to define the forces which the structure or the mutual connections of the parts of the body sustain.
+SOLUTION
+
+The body is rotating about the axis OA (Fig. 32) with an angular velocity equal to  , thus so that in one second an angle equal to  is completed, and we have seen, if a
+
+small particle of the body, the element of mass of which is equal to dM, is at the point
+
+Z, which is at a distance XZ = r from the axis OA, then the centrifugal force of this is
+
+equal to
+
+ rdM 2g
+
+, by which this particle is trying to recede from the axis along the
+
+direction Zz ; and with a like force the individual elements of the body are trying to
+
+recede from the axis, the structure of the body must have enough strength in order that this does not happen. So that we can understand this more easily, we may consider the
+
+body at rest and we investigate forces applied to it, which thus affect the structure in
+
+the same way, and that now, while the body is in motion, is affected. Therefore to the
+
+individual
+
+element
+
+dM
+
+placed
+
+at
+
+Z
+
+applied
+
+forces
+
+are
+
+understood
+
+Zz
+
+=
+
+ rdM 2g
+
+that
+
+pull
+
+away from the axis OA. Now besides, in order that the whole body is not set in motion
+
+by these forces, equal and opposite applied forces Ee and Ff are taken at the points E
+
+and F, and thus all the forces are given, which support the body considered at rest, and hence the structure of this must be so strong that no change in the shape of this is
+
+obtained from these forces ; then the body is now kept in equilibrium under the action of all these bodies.
+
+COROLLARY 1
+
+349. If Z should be some outermost point of the body, the particle dM there must be
+
+connected so firmly with the rest of the body, thus so that it cannot be wrenched off by
+
+the
+
+force
+
+Zz
+
+=
+
+ rdM 2g
+
+;
+
+the
+
+direction
+
+of
+
+this
+
+since
+
+it
+
+will
+
+be
+
+away
+
+from
+
+the
+
+axis,
+
+there
+
+is
+
+no need that it should be fastened to the sides.
+
+COROLLARY 2
+
+350. But the individual connection to the axis must be stronger, since all the forces of the more distant particles taken together are receding from the axis, thus the axis itself by necessity must be of the strongest construction.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 258
+
+SCHOLIUM
+351. Because it restrains the axis, I have assumed here that it is to be held at the two points E and F ; but if it should be retained by any two other points O and A, at these points equal and opposite forces are understood to be assigned above, which with the elemental forces Zz, the body is also held in equilibrium. Hence so strong a structure is necessary, that, if the mentioned forces should be applied to the body at rest, the shape of this would suffer no change from the action of these. Hence moreover likewise it is apparent that all these forces are in the square ratio of the angular speed, thus in order that a motion with double the speed demands a structure with four times the firmness. Now this belief, that depends on the internal structure of bodies and the intrinsic nature of their parts, cannot be pursued further here, but hence might merit the setting up of a rather singular discipline. Whereby, since everything has been explained well enough in this chapter, which may be relevant to the rotational motion about a given fixed axis undisturbed by any external forces, we will investigate what [external] forces in addition bring about, and indeed I will examine at first carefully a rigid body, that can be moved about a fixed axis, that I am going to consider at rest and the motion of the elements, which with given forces to be impressed to that body only for an infinitely short time. This treatment in itself brings little to light, to what extent the axis is altered from the forces acting, but now what follows, where the force acts on the motion of free rigid bodies, will bring forwards the greatest use.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 259
+
+CAPUT II
+DE MOTU GYRATORIO CIRCA AXEM FIXUM A NULLIS VIRIBUS TURBATO
+
+DEFINITIO 5
+309. Motus gyratorius dicatur, quo corpus rigidum circa lineam rectam cum ipso firmiter connexam movetur, quae linea recta axis gyrationis vocatur.
+COROLLARIUM 1
+310. In moto ergo gyratorio axis gyrationis quiescit seu singula puncta in eo sita manent immota; reliqua vero corporis puncta eo celerius moventur, quo longius ab axe gyrationis distent.
+COROLLARIUM 2
+311. Quia singula corporis puncta ab axe easdem perpetuo servant distantias, moveri nequeunt nisi in arcubus circularibus, quorum centra in axe gyrationis sunt sita. Scilicet recta a quovis corporis puncto ad axem normaliter ducta erit radius circuli, in cuius peripheria hoc punctum movetur.
+COROLLARIUM 3
+312. Quoniam omnia corporis puncta tam inter se quam ab axe perpetuo easdem servant distantias, singula puncta eodem tempore per similes arcus progrediantur necesse est, ex quo eorum celeritates eodem tempore erunt inter se ut eorum distantiae ab axe.
+COROLLARIUM 4
+313. Cum axis gyrationis maneat in quiete, si unici praeterea corporis puncti situs fuerit cognitus, ex eo totius corporis situs innotescet; ac si unici puncti celeritatem noverimus, omnium punctorum celeritates assignare poterimus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 260
+
+EXPLICATIO
+
+314. Gyratione motus corporis ita restringitur, ut duo eius quaedam puncta maneant immota; concipiantur enim corpori ABCD in punctis E et F duo styli infigi (Fig. 29) ac tam firmiter retineri, ut nequaquam dimoveri queant; atque his stylis non obstantibus corpus adhuc duplici modo moveri poterit, prout in figura puncta A, B, C vel sursum vel deorsum aguntur, quae diversitas ita commodissime innui solet, dum corpus vel in hunc sensum vel in oppositum gyrari dicatur. Praeterea vero motus in utrumque sensum factus infinitis modis pro ratione celeritatis variari potest; cognita autem celeritate motus nondum innotescit, nisi declaretur, in utrum sensum motus fiat. At statim ac puncta E et F in quiete retinentur, singula puncta inter ea in directum interiacentia quoque quiescent, eritque propterae recta EF axis gyrationis. Tum si m sit particula corporis quaecunque indeque ad axem EF normalis ducatur mn, qua tanquam radio in plano ad EF normali circulus concipiatur descriptus, haec particula m aliter nisi in peripheria huius circuli moveri nequit eritque semper celeritas puncti m distantiae mn proportionalis.
+
+SCHOLION
+315. Voce sensus hic utor Gallicum idioma imitatus, quoniam vox plaga, qua alii uti solent, discrimen non satis indicare videtur. Concipiatur enim axis gyrationis plano tabulae in O normaliter insistere (Fig. 30), ad quem ex corpori punctis A, B, C actae sint normales AO, BO, CO ; iam duplex motus corpori imprimi potest, alter quo puncta A, B, C per arcus Aa, Bb, Cc, alter autem, quo eadem puncta per arcus A , B , C procedunt. Priori
+casu congrus dici nequit motum fieri in plagam Aa, quippe quod de punctis B et C, quorum motus in alias plagas dirigitur, non esset verum. Plaga scilicet directionem quandam fixam innuit, quae in motu circulari non habet locum; unde ob defectum aptioris vocabuli in tali motu quasi duos sensus statuamus sibi oppositos, ita ut motus circularis per arcus Aa, Bb, Cc in hunc sensum, alter per arcus A , B , C in sensum oppositum fieri sit dicendus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 261
+
+DEFINITIO 6
+
+316. Celeritas angularis in motu gyratio est celeritas eius puncti, cuius distantia ab axe gyrationis unitate exprimitur.
+
+COROLLARIUM 1
+
+317. Ex celeritate ergo cuiusque puncti cognoscetur celeritas angularis, si ea per distantiam puncti illius ab axe gyrationis dividatur, quoniam in motu gyratio celeritas sunt distantiis ab axe proportionales.
+
+COROLLARIUM 2
+
+318. Si ergo puncti, quod ab axe gyrationis distat intervallo = x, celeritas sit = v, erit
+
+v x
+
+celeritas
+
+angularis.
+
+Pro
+
+alia
+
+enim
+
+distantia
+
+y
+
+foret
+
+celeritas
+
+=
+
+yv x
+
+ac
+
+sumta
+
+hac
+
+distantia y = 1 erit ea =
+
+v x
+
+,
+
+quae
+
+est
+
+celeritas
+
+angularis.
+
+COROLLARIUM 3
+319. Hinc vicissim cognita celeritate angulari, quae sit =  , in distantia quacunque x erit celeritas, qua ibi fit gyratio, =  x ; celeritas scilicet angularis per distantiam quamcunque ab axe gyrationis multiplicata dat celeritatem veram pro ea distantia.
+
+EXPLICATIO
+
+320. Cum in motu gyratio puncta corporis pro diversa ab axe distantia diversa
+
+celeritate ferantur, quo omnes has celeritates diversas simul in calculo complecti
+
+queamus, earum loco celeratem angularum, quae pro omnibus distantiis est eadem, in
+
+calculum introducamus; prodit enim ea, si angulus tempusculo quodam confectus per
+
+ipsum tempusculum dividatur, ita ut omnibus distantiis sit communis. Namque si in
+
+distantia = x ab axe gyrationis celeritas fuerit = v, tempusculo dt absolvetur ea arculus
+
+= vdt, qui per radium x divisus dat angulum interea confectum =
+
+vdt x
+
+; hic autem iterum
+
+per tempus dt divisus producit
+
+v x
+
+,
+
+hoc
+
+est
+
+celeritatem
+
+angularem.
+
+Perinde
+
+igitur
+
+est,
+
+quonam modo celeritatem angularem definire velimus, sive sit celeritas distantiae = 1
+
+conveniens sive celeritas cuicunque distantiae respondens per hanc ipsam distantiam
+
+divisa sive angulus elementaris divisus per tempusculum, quo absolvitur; siquidem hi
+
+tres modi inter se conveniunt. Primus quidem naturae rei est maxime conformis, cum
+
+eo vera celeritas indicetur, atque distantiam illam fixam, cui respondet, ob similem
+
+rationem unitate insignimus, qua in mensura angulorum radius circuli, ad quem
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 262
+
+referuntur, unitate exprimi solet, ut nimirum anguli et arcus ad communem mensuram revocentur.
+
+THEOREMA 3
+
+321. Si corpus rigidum circa axem fixum moveri coeperit, motum suum gyratorium perpetuo eadem celeritate angulari continuabit, nisi a viribus externis turbetur.
+
+DEMONSTRATIO
+
+Sit EF axis gyrationis (Fig. 29), circa quem corpus rigidum moveri coeperit celeritate angulari = c, quae scilicet respondeat distantiae ab axe = 1. Quaevis ergo particula m ab axe distans intervallo mn = x habuit celeritatem = cx in eundem sensum. Quoniam corpus cum axe quasi unum constituit corpus rigidum, particula m cum axe EF ita colligata est intelligenda, ut ab eo constanter eandem servet distantiam mm = x. Consideremus hanc particulam solam tanquam filo mn cum axe connexam atque supra vidimus [§212] eam motu accepto uniformite in peripheria circuli esse gyraturam. Quod cum de omnibus elementis seorsim sumtis valeat, videndum est, num singula motum suum prosequi possint, ut sibi mutuo non sint impedimento. Verum perspicuum est, etiamsi singula a se invicem essent dissoluta, dum fuerint cum axe filorum ope connexa, tamen singula in motu suo ita perseverare posse, ut perpetuo easdem inter se distantias servent corpusque suam retineat figuram. Quare etiam eorum nexus mutuus non obstabit, quominus singula elementa motum suum prosequantur; consequenter totum corpus motum gyratorium impressum ita continuabit, ut uniformiter circa axem eadem perpetuo celeritate angulari revolvatur.
+
+COROLLARIUM 1
+
+322. Posita ergo celeritate angulari c, ut in distantia = x ab axe sit celeritas = cx, si
+
+haec
+
+celeritas
+
+ponatur
+
+=
+
+v,
+
+erit c
+
+=
+
+v x
+
+.
+
+Quare
+
+cum
+
+x
+
+et
+
+v
+
+sint
+
+lineae,
+
+celeritas
+
+angularis
+
+c
+
+numero absoluto exprimitur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 263
+
+COROLLARIUM 2
+
+323. Ex celeritate angulari c colligitur tempus t, quo gyratio fit per datum angulum  ;
+
+cum enim motus sit uniformis, erit
+
+c
+
+=
+
+ t
+
+ideoque
+
+t
+
+=
+
+ c
+
+;
+
+unde
+
+patet
+
+celeritatem
+
+angularem c dare angulum, qui uno minuto secundo absolvitur.
+
+COROLLARIUM 3
+
+324. Quare si 1: denotat rationem diametri ad peripheriam, ut sit 2 peripheria
+
+circuli, cuius radius est = 1, tempus unius revolutionis, quo corpus in pristinum situm
+
+revertitur, est =
+
+2 c
+
+min.sec.
+
+COROLLARIUM 4
+
+325. Quoniam tempora perpetuo in minutes secundis exprimere instituimus, si celeritas angularis sit = c, tempore t corpus motu gyratorio absolvet angulum = ct.
+
+SCHOLION
+326. En igitur pro mensuris absolutis distinctam notionem celeritatis angularis, quippe quae exprimitur angulo, qui eo motu gyratorio, si esset uniformis, intervallo unius minuto secundi conficeretur. Congruit ea cum supra stabilitio modo omnia, quae ad motum pertinent, ad mensuras absolutas revocandi; cuius fundamentum in eo constat, ut tempora perpetuo in minutis secundis exprimamus; tum vero celeritatem quamque per spatium, quod corpus ea celeritate latum uniformiter intervallo unius minuti secundi percurreret, indicamus, unde utique clarissima celeritatis idea obtinetur. Quemadmodum ergo celeritas in genere est spatium uno minuto secundo confectum, ita celeritas angularis est angulus uno minuto secundo confectus, si scilicet motus esset uniformis. Quodsi motus gyratorius non fuerit uniformis, ita ut quovis momento celeritas angularis sit diversa, simili modo pro quovis instanti ea exprimetur angulo, quem corpus, si eo motu gyratorio uniformiter revolveretur, uno minuto secundo esset descripturum. Ex hoc autem Theoremate motus gyratorius uniformis perfecte cognoscitur, quo omne corpus rigidum, nisi a viribus externis sollicitetur, feratur necesse est; unde patet principium aequabilitatis motus inertia innixum etiam ad motum gyratorium corporum rigidorum extendi, dummodo axis gyrationis sit fixus. Quare investigari conveniet, quanta vi opus sit ad axem in situ suo fixo conservandum.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 264
+
+PROBLEMA 5
+
+327. Si corpus rigidum circa axem fixum uniformiter gyratur, definere vires, quas axis sustinet seu quae adhiberi debent, ut axis in suo situ conservetur.
+SOLUTIO
+
+Consideretur corpus iterum in sua elementa divisum (Fig. 29), quae singula cum
+
+axe gyrationis ope filorum sint connexa; et quoniam quodlibet elementum m in circulo
+
+circumfertur, cuius radius est eius distantia mn ab axe EF, ob vim centrifugam supra definatam (§213) filum tendet tantaque vi axem in directione nm sollicitabit. Ad quam
+
+calculo exprimendam sit dM massula huius elementi eiusque ab axe gyrationis EF distantia mn = x ac celeritas, qua elementum m in circulo suo revolvitur, =  x . Tum si
+
+g denotet altitudinem per quam corpus a gravitate sollicitatum uno minuto secundo
+
+delabitur, erit per paragraphum 213 vis centrifuga huius elementi =
+
+ xxdM 2 gx
+
+=
+
+ 2g
+
+.xdM
+
+,
+
+ubi dM est pondusculum, quod elementum corporis in regione terrae ad mensuras
+
+absolutas electa esset habiturum. Quare ob motum huius elementi, dum versatur in m,
+
+axis EF sustinet vim =
+
+ 2g
+
+.xdM
+
+,qua
+
+secundum
+
+directionem
+
+nm
+
+sollicitatur;
+
+et
+
+cum
+
+ab
+
+omnibus elementis similes vires sustineat, ex iis colligi poterit vis totalis, quam totum
+
+corpus in axem exerit.
+
+COROLLARIUM 1
+
+328. Vires ergo a singulis elementis ortae pro eodem motu angulari rationem tenent compositam massarum et distantiarum ab axe; elementa igitur axi propiora minus, remotiora autem plus efficiunt.
+
+COROLLARIUM 2
+
+329. Deinde vero pro eodem elemento vis, quam axis ab eo sustinet, sequitur rationem duplicatam celeritatis angularis; quae si fuerit dupla, vis illa quadrupola evadet maior.
+COROLLARIUM 3
+
+330. Quoniam elementum m per peripheriam circuli circumfertur motu aequabili, vis quidem perpetuo eiusdem manet quantitas et eidem axis puncto n applicata, sed directio continuo mutatur, cum semper ad elementum sit directa.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 265
+
+SCHOLION
+
+331. Supra scilicet (§213) invenimus, ut corpusculum, cuius massa = A, celeritate = v
+
+in peripheria circuli, cuius radius = r, moveatur, vim requiri ad eius centrum
+
+tendentem =
+
+Avv 2 gr
+
+.
+
+Cum
+
+igitur
+
+nostro
+
+casu
+
+sit
+
+massa
+
+A
+
+=
+
+dM,
+
+celeritas
+
+v =  x et radius
+
+r = x, erit ista vis =
+
+ xdM 2g
+
+,qua filum, quo elementum axi alligatur, tenditur et quia
+
+propterea ipse axis secundum directionem nm sollicitatur. Ab huiusmodi ergo viribus
+
+singula axis puncta afficientur; ac si nosse velimus vires, quas punctum n sustinet,
+
+concipiatur sectio plana per punctum n ad axem EF normaliter facta, et omnia corporis
+
+elementa in hoc plana sita vires suas in punctum n exerent; quae cum omnes eidem
+
+puncto sint applicatae, per praecepta statica facile ad unam vim reduci poterunt. Hic
+
+scilicet erit casus, quando totum corpus quasi in planum ad axem normale fuerit
+
+compactum, quem igitur, antequam ad ternas dimensiones progrediamur, evolvamus.
+
+PROBLEMA 6
+
+332. Si corpus fuerit lamina tenuissima plana ad axem gyrationis normalis eaquae data celeritate gyratur, determinare vim, quam axis ab ea sustinet.
+
+SOLUTIO
+
+Sit AEaF lamina ista tenuissima
+
+figurae cuiuscunque (Fig. 31), cuius massa sit = M, cui axis gyrationis
+
+normaliter insistere intelligatur in puncto O ; et cum rectae a singulis laminae
+
+elementis ad O ductae simul eorum distantiae ab axe gyrationis referant,
+
+omnia vires suas in ipsum punctum O exerent. Consideretur ergo elementum
+
+laminae quodvis in M, cuius massa sit = dM eiusque ab axe distantia OM = r; et posita celeritate angulari =  erit vis,
+
+qua punctum O in directione OM
+
+sollicitatur, =
+
+ rdM 2g
+
+. Quae vires ab omnibus elementis oriundae quo facilius ad unam
+
+reducantur, concipiantur per O duae directrices OA, OB in plano laminae inter se
+
+normales, ad quas referantur pro puncto M coordinatae OP = x et PM = y, et completo
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 266
+
+rectangulo OPMQ vis illa OM resolvitur in duas secundum ipsas directrices, quarum
+
+quae agit secundum OA, est =
+
+ xdM 2g
+
+, et quae secundum OB agit, =
+
+ ydM 2g
+
+. Ex tota
+
+ergo lamina oritur vis sollicitans in directione OA =
+
+ 2g
+
+
+
+xdM
+
+et vis sollicitans in directione OB =
+
+ 2g
+
+
+
+ydM
+
+.
+
+Haec autem integralia ex situ centri inertiae laminae innotescunt, quod si statuatur in I indeque ad directrices demittantur perpendicula IK et IL; erit
+
+ xdM = M .OK et  ydM = M .OL.
+
+Quare cum sit
+
+vis secundum OA =
+
+ 2g
+
+M
+
+.OK
+
+et vis secundum OB =
+
+ 2g
+
+M .OL.
+
+his duabus viribus aequivalet una secundum directionem OI sollicitans, quae est =
+
+ 2g
+
+.M
+
+.OI
+
+,
+
+atque
+
+haec
+
+est
+
+vis,
+
+quam
+
+axis
+
+ob
+
+motum
+
+laminae
+
+in
+
+punctu
+
+O
+
+sustinet.
+
+COROLLARIUM 1
+
+333. Directio ergo vis, quam axis ob motum laminae sustinet, a puncto O ad centrum inertiae I tendit atque distantiae huius centri I ab axe est proportionalis.
+
+COROLLARIUM 2
+
+334. Si tota laminae massa M in eius centro inertiae esset collecta eaque circa axem
+
+pari celeritate angulari revolveretur, ab ea axis vim sustineret =
+
+ 2g
+
+.M
+
+.OI
+
+in
+
+eadem
+
+directione OI.
+
+COROLLARIUM 3
+
+335. Axis ergo a lamina eandem vim sustinet, ac si tota laminae massa in centro inertiae esset collecta eaque pari celeritate angulari circa eundem axem revolveretur, quae centri inertiae nova proprietas notatu maxime est digne.
+
+COROLLARIUM 4
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 267
+
+336. Si igitur axis per ipsum centrum inertiae I laminae transiret ad eamque esset perpendicularis, ob OI = 0 axis a motu laminae nullam plane vim sentiret neque ergo ulla vi opus esset ad axem immotum retinendum.
+SCHOLION
+337. Quodsi axis non per centrum inertiae transit, tam firmiter intra suos cardines retineri debet, ut vi assignatae resistere valeat neque unquam ab ea de situ suo dimoveri possit. Cum autem ipsa huius vis directio in gyrum agatur, quaquaversus axis in suo situ vi sufficienti reteneri debet; ac perspicuum quidem est eo maiore vi opus esse ad axem retinendum, quo magis centrum inertiae ab eo distet. Praeterea vero esse haec vis proportionalis est massae laminae et quadrato celeritas angularis. Ceterum hic casus, quo corpus ut laminam infinite tenuem sumus contemplati, nos manuducit ad corpora quacunque, quoniam diviso corpore per sectiones ad axem normales in infinitas laminas vires hinc, quibus axis in singulis punctis sollicitatur, facile colliguntur. Totum scilicet negotium ad inventionem centri inertiae cuiusque laminae reducitur; verum alio modo hanc investigationem tentemus.
+PROBLEMA 7
+338. Si corpus rigidum circa axem OA uniformiter gyretur (Fig. 32), vires, quas axis sustinet, in summam colligere vel ad duas vires reducere, quibus axis sollicitetur.
+SOLUTIO
+Cum axe gyrationis OA coniungantur in O binae directiones normales OB et OC, quibus pro elemento corporis in Z, cuius massa sit dM denotante M massam totius corporis, parallelae constituantur coordinatae ternae OX = x, XY = y et YZ = z. Quodsi iam celeritas angularis, qua corpus circa axem OA gyratur, ponatur =  et elementi Z ab axe
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 268
+
+distantia XZ = r, ob motum huius elementi axis in puncto X sollicitatur in directione
+
+XZ vi =
+
+ rdM 2g
+
+, quae ducta XV ipsi YZ seu OC parallela resolvatur in directiones XY et
+
+XV, eritque vis urgens
+
+secundum
+
+XY
+
+=
+
+
+
+ydM 2g
+
+et
+
+secundum
+
+XV
+
+=
+
+ zdM 2g
+
+;
+
+sicque a singulis elementis axis binas sustinet vires, quarum directiones sunt ipsis OB
+
+et OC parallelae; unde omnes, quae in utraque directiones agunt, seorsim in unam
+
+summam colligi poterunt. Repraesentet ergo Ee vim omnibus viribus XY et Ff vim
+
+omnibus aequivalentem; ac primo quidem utraque aequalis est summae omnium,
+
+quibus aequivalet. Quare erit
+
+vis
+
+Ee =
+
+ 2g
+
+
+
+ydM
+
+et vis Ff
+
+=
+
+ 2g
+
+ zdM
+
+.
+
+Deinde momenta harum virium respectu puncti O aequari debent cunctis momentis
+
+elementaribus simul sumtis, unde fit :
+
+ 2g
+
+iOEi
+
+ydM
+
+=
+
+ 2g
+
+ xydM
+
+seu OE =
+
+ xydM  ydM
+
+et
+
+ 2g
+
+iOF
+
+i
+
+zdM
+
+=
+
+ 2g
+
+ xzdM
+
+seu OF
+
+=
+
+ xzdM  zdM
+
+;
+
+sicque omnes vires, quas axis sustentat, ad duas sunt reductae Ee et Ff, quarum tam
+
+magnitudines quam directiones et loca applicationis innotescunt.
+
+COROLLARIUM 1
+
+339. Si centrum inertiae corporis fuerit in I eique respondeant coordinatae OG, GK et
+
+KI, erit, ut supra vidimus,
+
+OG
+
+=
+
+ xdM M
+
+,
+
+GK
+
+=
+
+
+
+ydM M
+
+,
+
+KI
+
+=
+
+
+
+zdM M
+
+,
+
+unde pro superioribus formulis est
+
+ ydM = M iGK et  zdM = M iKI .
+
+COROLLARIUM 2
+
+340. Si universa corporis massa M in centro inertiae I collecta esset parique celeritate
+
+gyratur, axis ab ea in puncto G vim sustineret =
+
+ 2g
+
+iM
+
+iGI
+
+in directione GI, unde
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 269
+
+oriuntur
+
+vires
+
+duae
+
+secundum
+
+GK
+
+=
+
+ 2g
+
+
+
+ydM
+
+et
+
+secundum
+
+GL
+
+=
+
+ 2g
+
+
+
+zdM
+
+,
+
+quibus
+
+ergo viribus illae secundum Ee et Ff sunt aequales.
+
+COROLLARIUM 3
+
+341. Si planum AOB, quod arbitrio nostro relinquitur, per centrum inertiae I corporis
+
+ductum assumatur, ut sit KI = 0 et  zdM = 0 , erit quidem vis Ff = 0 at vero distantia
+
+OF infinitia, ita tamen, ut eius momentum sit finitum, scilicet
+
+vis
+
+Ff
+
+iOF
+
+=
+
+ 2g
+
+
+
+xzdM
+
+.
+
+SCHOLION
+
+342. Binas autem has vires Ee et Ff non ulterius ad unam revocare licet, nisi intervallum EF evanescat; nam duae vires lineae rectae in duobus diversis punctis applicatae ad unam reduci nequeant, nisi directiones virium fuerint in eodem plano. Verum duae istae vires Ee et Ff infinitis modis ad duas alias reduci possunt, sicuti fit, si positio directricium OB et OC mutetur, uti vidimus casu quo planum AOB per centrum inertiae ducitur, vim Ff evanescere et distantiam OF fieri infinitam. Inventis autem huiusmodi binis viribus Ee et Ff, quas axis gyrationis sustinet, ne is de situ suo dimoveatur, necesse est, ut a viribus aequalibus et contrariis retineatur. Scilicet si axis in E et F ex annulis fixis suspendatur, intra quos libere gyrari queat, annulus in E sustinebit vim Ee et annulus in F vim Ff, unde firmitatem annulorum colligere licet. Verum si axis in datis duobus quibuscunque punctis sustineri debeat, vires assignari poterunt in illis punctis adhibendae, ut axis immotus servetur, quam investigationem in sequenti problemate suscipiamus.
+
+PROBLEMA 8
+
+343. Si axis, circa quem corpus rigidum motu uniformiter gyratur, in datis duobus punctis O et A teneatur (Fig. 32), definire vires, quas axis in his duobus punctis sustinet.
+SOLUTIO
+
+Manentibus omnibus, quae in problemate praecedente sunt posita, vires axem sollicitantes ad duas Ee et Ff sunt revocatae, quarum illa directrici OB, haec vero directrici OC est parallela, ita ut sit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 270
+
+vis Ee
+
+=
+
+ 2g
+
+ ydM
+
+et vis Ff
+
+=
+
+ 2g
+
+ zdM ,
+
+tum OE
+
+=  xydM
+ ydM
+
+et
+
+OF
+
+=
+
+ xzdM  zdM
+
+.
+
+His ergo viribus aequivalentes in punctis O et A applicandae quari debent. Sit ergo
+
+distantia OA = a atque in O et A viris Ob et A applicentur, quae vi Ee aequivaleant,
+
+id quod fit, si
+
+Ob + A = Ee et Obi AE,
+
+unde oritur:
+
+Ob
+
+=
+
+AE .Ee a
+
+=
+
+Ee -
+
+OE .Ee a
+
+et
+
+A
+
+=
+
+OE .Ee a
+
+.
+
+Simili modo in O et A applicentur vires Oc et A , quae vi Ff aequivaleant, eritque
+
+Oc =
+
+AF .Ff a
+
+= Ff
+
+- OF .Ff
+a
+
+et
+
+A
+
+= OF .Ff
+a
+
+.
+
+Quare in utroque puncto O et A binas habemus vires, quas axis ibi sustinet, scilicet in
+
+puncto O
+
+( ) ( ) vim
+
+Ob
+
+=
+
+ 2g
+
+
+
+ydM
+
+-
+
+1 a
+
+
+
+xydM
+
+et
+
+vim
+
+Oc
+
+=
+
+ 2g
+
+
+
+zdM
+
+-
+
+1 a
+
+
+
+xzdM
+
+,
+
+deinde in puncto A
+
+vim
+
+A
+
+=
+
+ 2g
+
+i1
+a
+
+
+
+xydM
+
+et
+
+vim
+
+A
+
+=
+
+ i 1
+2g a
+
+ xzdM .
+
+Vel si ipsas lineas ad elemenum dM in Z situm pertinentes introducamus, erit
+
+vis
+
+Ob
+
+=
+
+ 2ag
+
+
+
+AX
+
+i XY
+
+idM
+
+et
+
+vis
+
+Oc
+
+=
+
+ 2ag
+
+
+
+AX iYZ idM
+
+,
+
+vis
+
+A
+
+=
+
+ 2ag
+
+ OX iXY idM
+
+et
+
+vis
+
+A
+
+=
+
+ 2ag
+
+ OX iYZ idM .
+
+Ponamus OG = b, AG = c, ut sit a = b + c , tum vero GX = u, ut sit
+
+vis Ob =
+
+ 2ag
+
+(c
+
+ydM
+
+- uydM )
+
+, vis Oc =
+
+ 2ag
+
+(c
+
+zdM
+
+- uzdM ) ,
+
+vis A
+
+=
+
+ 2ag
+
+(b
+
+ydM
+
++ uydM )
+
+, vis A
+
+=
+
+ 2ag
+
+(b
+
+zdM
+
++
+
+uzdM
+
+).
+
+Accipiamus planum AOB ita, ut per centrum inertiae I transeat, erit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 271
+
+ ydM = D,  uydM = E, et  uzdM = F ,
+
+fietque:
+
+vis Ob
+
+=
+
+ 2ag
+
+(Dc - E),
+
+vis Oc
+
+=
+
+- 2ag
+
+F,
+
+vis A
+
+=
+
+ 2 ag
+
+(Db + E),
+
+vis A
+
+=
+
+ 2 ag
+
+F.
+
+Atque iam facile tam in O binae vires Ob et Oc quam in A binae vires A et A ad
+
+unam redigi poterunt, ita ut in utroque termino O et A vis innotescat, quam ibi axis sustinet.
+COROLLARIUM 1
+
+344. Si ergo planum AOB per centrum inertiae corporis I transiens statuatur, vires Oc et A sunt aequales sed contrariae, ita ut altera alterius sit negativa; seu erit vis
+Oc + vi A = 0,quoniam KI = 0, ac propterea vis GL = 0.
+
+COROLLARIUM 2
+
+345. Si axis gyrationis OA per ipsum centrum inertiae I transeat, erit etiam
+
+ ydM = D = 0 ideoque vires, quas axis in punctis O et A sustinet, ita se habebunt
+
+vis Ob
+
+=
+
+- 2ag
+
+iE,
+
+vis Oc
+
+=
+
+- 2ag
+
+iF
+
+,
+
+vis A
+
+=
+
+ 2ag
+
+E,
+
+vis A
+
+=
+
+ i
+2 ag
+
+F.
+
+COROLLARIUM 3
+
+346. Ut axis nullas omnino vires sustineat corpusque circa eum libere gyrari possit, necesse est, ut quatuor haec integrala evanescant.
+
+ ydM = 0,  zdM = 0,  xydM = 0 et  xzdM = 0;
+ac binis prioribus quidem satisfit, si axis gyrationis per centrum inertiae corporis transeat.
+SCHOLION
+
+347. Hic duo puncta O et A, unde quasi axis suspendatur, pro lubitu assumsimus; atque in genere patet vires, quae ad axem in istis punctis retinendum requiruntur, eo fore minores, quo longius capiatur intervallum OA, quod mirum non est, cum effectus hic a momentis virium pendeat. At si puncta O et A conveniant, ut sit OA = a = 0, vires illae adeo fiunt infinitae, ex quo intelligitur axem in unico puncto neutiquam tam firmiter contineri posse, ut immotus maneat; ad minimum ergo ad hoc duae vires
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 272
+
+requiruntur axi in diversis punctis applicandae, nisi forte binae vires primitivae Ee et Ff iam eidem puncto applicentur. Hoc autem ex praecendente problemate fieri nequit,
+
+nisi sit
+
+ xydM :  xzdM =  ydM :  zdM .
+
+Sumto ergo plano AOB ita, ut per centrum inertiae corporis I transeat, ut sit
+
+ zdM = 0 , hoc eveniet, si fuerit  xzdM = 0 . Quod etiam ex hoc problemate evidens
+
+est, quoniam tum vires Oc et A evanescunt solaeque vires Ob et A relinquuntur,
+
+quibus unica vis Ee aequivalet, ita ut axis tum in unico puncto E sustentari queat a vi nempe, quae aequalis sit et contraria vi Ee. Sufficit ergo axem in unico puncto E
+
+sustentari, si ducto plano AOB per centrum inertiae corporis fuerit  xzdM = 0 , quo
+
+casu fit
+
+vim
+
+Ee
+
+=
+
+ 2g
+
+
+
+ydM
+
+et
+
+distantia
+
+OE
+
+=
+
+ xydM  ydM
+
+.
+
+Reliquis casibus omnibus necesse est, ut axis in duobus punctis contineatur, quae
+
+utcumque accipiantur, vires ad axem retinendum requisitae aequales et contrariae esse debent viribus hic determinatis. Quas cum assignaverimus, superest, ut vires, quas ipsa
+
+corporis compages ob motum gyratorium sustinet, definiamus.
+
+PROBLEMA 9
+
+348. Si corpus rigidum circa axem fixum uniformiter gyretur, definire vires, quas corporis compages seu mutuus partium nexus sustinet.
+
+SOLUTIO
+
+Gyretur corpus circa axem OA (Fig. 32) celeritate angulari =  , ita ut singulis
+
+minutis secundis angulum =  absolvat, atque vidimus, si particula corporis, cuius
+
+massula = dM, fuerit in puncto Z, quod ab axe OA distet intervallo XZ = r, eius vim
+
+centrifugam fore =
+
+ rdM 2g
+
+, qua haec particula conetur in directione Zz ab axe
+
+recedere; ac simili vi singula corporis elementa conetur ab axe recedere, quod ne fiat, compages corporis satis roboris habere debet. Quod quo facilius perspiciamus,
+
+consideremus corpus in quiete et vires ei applicandas investigemus, quae eius
+
+compagem perinde afficiant, atque ea nunc, dum corpus est in motu, afficitur. Singulis
+
+igitur elementis dM in Z sitis intelligendae sunt applicatae vires
+
+Zz
+
+=
+
+ rdM 2g
+
+ea
+
+ab
+
+axe
+
+OA retrahentes. Praeterea vero, ne totum corpus ab his viribus ad motum cieatur, axi in
+
+punctis E et F concipiantur vires ipsis Ee et Ff aequales et contrariae applicatae, sicque habebuntur omnes vires, quas corpus in quiete consideratum sustinet, cuius proinde
+
+compages tam robusta esse debet, ut ab istis viribus nulla mutatio eius figurae
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter TWO.
+
+Translated and annotated by Ian Bruce.
+
+page 273
+
+inferatur; tum vero corpus ab omnibus istis viribus sollicitatum in aequilibrio conservabitur.
+COROLLARIUM 1
+
+349. Si Z fuerit aliquod extremum corporis punctum, particula dM ibi tam firmiter
+
+cum reliquo corpore connexa esse debet, ut inde a vi
+
+Zz
+
+=
+
+ rdM 2g
+
+avelli
+
+nequeat;
+
+cuius
+
+directio cum ab axe sit aversa, non opus est, ut ad latera sit affixa.
+
+COROLLARIUM 2
+
+350. Proprius autem ad axem connexio fortior esse debet, quoniam omnes particulae ulterius remotae vires suas recedendi ab axe coniungunt, unde in ipso axe robustissima compages vigeat necesse est.
+
+SCHOLION
+
+351. Quod ad axem attinet, assumsi hic eum in punctis E et F teneri; sin autem in aliis quibusque binis punctis O et A teneatur, in iis vires supra assignatis aequalis et contrariae applicatae sunt intelligendae, quae cum elementaribus Zz corpus etiam in aequilibrio tenebunt. Compagem ergo tam fortem esse oportet, ut, si corpori quiescenti memoratae vires essent applicatae, eius figura ab earum actione nullam mutationem esset passura. Hinc autem simul patet omnes istas vires esse in ratione duplicata celeritatis angularis, ita ut motus duplo celerior compagem quadruplo firmiorem postulet. Verum hoc iudicium, quod ab interna corporum structura et partium indole pendet, hic ulterius prosequi non licet, sed hinc potius peculiaris disciplina constitui mereretur. Quare, cum in hoc capite omnia, quae ad motum gyratorium circa axem fixum nullis viribus externis turbatum pertinent, satis sint exposita, quid vires praeterea efficiant, investigemus ac primo quidem corpus rigidum, quod circa axem fixum est mobile, in quiete sum contemplaturus motumque elementarem, qui ei a datis viribus tempore tantum infinite parvo imprimetur, scrutabor. Haec tractatio in se parum utilis patefaciet, quantum axis a viribus sollicitantibus patiatur, tum vero in sequentibus, ubi de motu libero corporum rigidorum agetur, maximam afferet utilitatem.
+
+

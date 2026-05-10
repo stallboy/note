@@ -1,0 +1,6188 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 449
+
+Chapter 7
+
+CONCERNING THE OSCILLATORY MOTION OF HEAVY BODIES
+PROBLEM 44
+522. If a rigid body should be mobile about a fixed horizontal axis and the motion of this disturbed only by gravity, to determine the momentary change produced in the rotational motion.
+SOLUTION
+I assume this common property of gravity, by which the individual elements of mass are urged downwards proportionally along directions parallel to each other. Therefore in as much as the body is rigid, a single force equal to the weight of the body is equivalent to all these forces, the direction of which acts downwards passing through the centre of inertia. Whereby, if the mass of the body is taken as M, and the centre of inertia of this is at I (Fig. 67) and thus the right line IG is drawn vertically down, on account of the weight the body is acted on by a force in the direction IG, which is set up to be equal to the mass of the body, since we express the mass M itself by the weight of this body. Again, since the axis of gyration is horizontal, it is established normal to the plane passing through the centre of inertia I, which is vertical and is referred to as the plane of the diagram ; therefore the axis of gyration is considered as normal to this plane and crossing through the point O, thus with the right line OI drawn to I the distance is shown of the centre of inertia from the axis of gyration. With these premises put in place the body AEBF now is placed in the figure shown, and with OC drawn to the vertical the position of the body is noted by the angle COI. The interval OI = f is put in place at the time t and the angle CIO =  , then the force IG = M, the moment with respect to the axis of gyration is equal to Mf sin , tending to diminish the angle COI, which is being substituted in problem 22 in place of the moment Vf . Now besides it is necessary to know the moment of inertia of the body about the axis of gyration O, indicated there
+by  rrdM ; hence finally the axis is considered passing through the centre of
+inertia I parallel to the axis of gyration, with respect to which the moment of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 450
+
+inertia of the body is equal to Mkk, the moment of inertia of the same body
+about the axis of gyration O is equal to M ( ff + kk ) on account of the
+
+separation of these axes OI = f. Hence, if the body thus is rotating, in order that the line OI falls on the vertical OC, the angular speed is equal to  , since that is
+
+increased by the force acting, by § 408 the increase becomes
+
+d
+
+=
+
+2gMf sin
+M ( ff +kk )
+
+dt
+
+or
+
+d
+
+=
+
+2 fgdt sin ff +kk
+
+;
+
+but moreover with the line OI receding from the vertical OI with an angular speed equal to  , it becomes
+
+d
+
+=
+
+-
+
+2
+
+fgdt sin ff +kk
+
+
+
+.
+
+But
+
+in
+
+that
+
+case
+
+then
+
+
+
+=
+
+-d dt
+
+,
+
+now
+
+from
+
+this
+
+
+
+=
+
+d dt
+
+,on
+
+taking
+
+dt
+
+constant
+
+for
+
+each then
+
+dd
+
+=
+
+-
+
+2
+
+fgdt2 sin ff +kk
+
+;
+
+where the ­ sign is present, since the moment of the force acting tends to reduce the angle  .
+
+COROLLARIUM 1
+
+523. If the body in place AEBF at this stage should have no motion, thus it will
+
+be urged by gravity towards the vertical line OC, in order that in the element of
+
+time dt it shall approach towards that by the angle
+
+2
+
+fgdt2 sin ff +kk
+
+,
+
+which is an infinitely small quantity of the second order.
+
+COROLLARY 2
+524. Therefore if the body were at rest, it may not remain at rest, unless sin = 0 , that is unless the centre of inertia I has turned to the vertical OC. Whereby, if the body is suspended somehow in some manner, it is unable to remain at rest unless the line OI is vertical, which comes about if the centre of inertia should reach the lowest or highest location.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 451
+
+COROLLARY 3
+
+525. But as often as the line OI should be oblique, the body is acted on by gravity to motion and, if now it should be moving, then the motion of this is disturbed either by being accelerated or decelerated, as the moving body either approaches OC or recedes from that.
+
+COROLLARY 4
+
+526. Also it is apparent, if the axis should pass through the centre of inertia I, in order that OI = f = 0, the moment of the weight vanishes and the rotational
+motion therefore plainly is not disturbed. Therefore in this case the body either remains at rest or will gyrate uniformly about the axis O.
+
+SCHOLIUM
+
+527. Here it is agreed to noted at once that the body likewise does not begin to
+
+be moved, if the whole mass of this should be gathered together in the centre of
+
+inertia I, as we have seen in the use in progressive motion. If indeed this total
+
+mass M of the body is actually gathered together in the centre of inertia I, the
+
+moment of inertia of this about the axis drawn through I vanishes and becomes
+
+kk = 0; and hence the motion therefore is being disturbed, in order that it
+
+becomes
+
+dd
+
+=
+
+-2 gdt 2 f
+
+sin
+
+,
+
+which formula is greater than in the case proposed. Thus it is understood that
+
+the motion of on extended body, of such a kind as we contemplate here, is less
+
+disturbed by gravity than if the whole mass should be concentrated at the centre
+
+of inertia. Now below we will see a different point to be given on the line OI
+
+more removed from the axis O, at which if the whole mass of the body should
+
+be collected together, the same disturbed motion is to be allowed, which point
+
+deserves especially to be known in the rotational motion, since it is that point
+
+itself that is accustomed to be called the centre of oscillation and many
+
+instructions concerning the finding of this point occur here and there [in this
+
+tract].
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 452
+
+PROBLEM 45
+
+528. If the rigid body AEBF were mobile about a horizontal axis (Fig. 67) and
+
+the position and initial speed of this is given, to find the position and speed of
+
+this at any time.
+
+SOLUTION
+
+With everything to be used remaining as
+
+in the preceding problem, clearly the mass
+
+of the body is equal to M, the distance of
+
+the centre of inertia I from the axis of
+
+gyration O clearly is OI = f and the moment
+
+of inertia about the axis parallel to the axis
+
+of gyration and passing through I is equal to
+
+Mkk, the body may hold the place shown in
+
+the figure at the elapsed time t and let the angle COI =  arise with the vertical line
+
+CO ; and on taking the element dt constant
+
+we come upon this equation :
+
+dd
+
+=
+
+-2
+
+fgdt2 sin ff +kk
+
+,
+
+which multiplied by 2d and integrated offers
+
+d 2
+
+=
+
+ dt2
+
++
+
+4
+
+fgdt2 cos ff +kk
+
+,
+
+from which the square of the speed is recognised :
+
+
+
+=
+
++
+
+4 fg cos ff +kk
+
+.
+
+Then for the sake of brevity, on putting
+
+on account of
+
+4 fg ff +kk
+
+=
+
+d2 = dt2 ( +  cos )
+
+there is found :
+
+dt =
+
+d
+
+( + cos )
+
+and
+
+t=
+
+d
+
+,
+
+( + cos )
+
+where the constant  and the other, advanced from the final integration, must be defined from the given initial state.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 453
+
+COROLLARY 1
+
+529. With the angle COI =  vanishing, let the angular speed
+
+( )  =
+
+
+
++
+
+4 fg ff +kk
+
+be the greatest of all, moreover in the equalities for the prolongations of the line
+
+OI from the vertical OC, the speeds are equal; and unless the constant  is less
+
+than
+
+4 fg ff +kk
+
+,
+
+the
+
+body
+
+completes
+
+whole
+
+revolutions
+
+about
+
+the
+
+axis,
+
+since
+
+then
+
+the
+
+angular speed for the angle = 180o is real at this stage.
+
+COROLLARY 2
+
+530. But if
+
+
+
+<
+
+4 fg ff +kk
+
+,
+
+then
+
+the
+
+angle
+
+COI
+
+=
+
+is unable to increase beyond a
+
+certain limit and the body, since pertaining to that, descends again and performs
+
+the motion of an oscillation; and on drawing IK horizontal, on account of OK = f cos the angle of displacement COI will correspond to the angular
+
+speed
+
+( )  =
+
+
+
++
+
+4 g OK ff +kk
+
+.
+
+SCHOLIUM
+531. Whether the body completes complete revolutions or it comes and go by oscillating, the determination of the motion demands the same calculation as the motion of a simple pendulum, in which an indefinitely small body is tied by a thread free of inertia, and rotating about the horizontal axis. Since we have now explained that motion in detail above, it would be superfluous the repeat the same calculation here ; thus it is sufficient for some case of the simple pendulum to be assigned to the motion of the body, since it is carried forwards by an equal angular motion. And here indeed only the length of this simple pendulum comes into the computation, as the motion of this depends only on the length of the pendulum, if indeed we attribute the same angular motion to each.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 454
+
+DEFINITION 9
+532. For the rotational or oscillatory motion of any heavy body about a fixed horizontal axis, a simple isochronous pendulum is called upon, because when once it is displaced from the vertical by an equal amount, then it adopts the same angular speed, and hence continuously its position is given by a like angle.
+EXPLANATION
+533. If some body AEBF (Fig. 67) is put in place, since that is acted on by gravity alone and it rotates about the horizontal axis O, in the first place the centre of gravity I of this is to be considered, because if it is rotated from the vertical OC which indicates the natural position of the body at which it is at rest, then moreover the angle COI is called the displacement from the natural position. But if now there should be impressed a given motion to this body in a given displacement, a simple isochronous pendulum thus should be a comparison, in order that, if to that at an equal displacement there is impressed an equal angular motion, then the motion of this pendulum shall always correspond to the motion of the proposed body. Or as the whole calculation depends on the length of this pendulum, if that should be OS, and if it is considered to be suspended from the common axes O, then it will always accompany the motion of the body AEBF with its own motion, provided that once it has been given an equal motion. Likewise it is the case, that either this simple pendulum is taken to be fixed to the same axis or otherwise ; but since the displacements on both sides from the position of the vertical OC must always be the same and the displacement of the body from the position of the line OI has to be estimated, the simple pendulum is most conveniently considered to be suspended from the point O, in order that the position OS always falls on the line OI and the whole question of the determination of the point S is resolved.
+COROLLARY 1
+534. With the point S found on the line OI produced, the body likewise moves as if the whole mass were collected at this point S; then indeed on account of the extent of the body vanishing, there is obtained a simple pendulum of length OS.
+COROLLARY 2
+535. Therefore this point S must be sought on the line, which is drawn through the centre of inertia normal to the axis of gyration, even if here it is not necessary that a simple pendulum OS be put in place, suspended from the same point O on the axis.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 455
+
+SCHOLIUM
+536. Since that pendulum carried with a similar motion, on account of the vanishing of the mass, is called a simple pendulum, in this manner any extended bodies mobile about fixed axes are usually called compound pendulums, thus so that here the question may be reduced to this, that for some proposed compound pendulum, since clearly it is a rigid body, a simple isochronous pendulum may be assigned, and indeed now we can easily resolve the question. Moreover it is to be observed that the thread, by which we understand the simple pendulum to be attached to the axis, not only put in place free of inertia, but also it must be considered as rigid, lest any bending is able to disturb the calculation.
+
+PROBLEM 46
+537. For some proposed heavy and rigid body AEBF mobile about a fixed horizontal axis O (Fig. 67), to define the simple isochronous pendulum OS.
+
+SOLUTION
+
+With the mass of the whole body put equal to M and the centre of inertia of
+
+this at I, hence there is drawn normal to the axis the right line IO = f, which now stands at an angle COI =  from the vertical OC; then let Mkk be the
+
+moment of inertia of the body about an axis drawn through I and parallel to the
+
+axis of rotation. With these in place, some initial motion should be impressed to
+
+the body, and in the elapsed time t the change in the motion is expressed by this
+
+formula :
+
+dd
+
+=
+
+-2
+
+fgdt2 sin ff +kk
+
+.
+
+Now the length of the simple isochronous pendulum OS is put equal to l, since that stands apart by the same angle COS =  from the vertical, this change of
+
+the motion is allowed, so that it becomes :
+
+dd = -2gdt2 sin ,
+l
+which indeed comes from the previous formula on putting k = 0 and f = l.
+
+Whereby, since the same change must arise in both cases, we obtain :
+
+l=
+
+ff +kk f
+
+or l =
+
+f
+
++
+
+kk f
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 456
+
+COROLLARY 1
+
+538. Hence the length of the simple isochronous pendulum OS exceeds the
+
+distance of the centre of inertia I from the axis of gyration O by the
+
+interval
+
+IS
+
+=
+
+kk f
+
+.
+
+Now
+
+with
+
+the
+
+length
+
+OS
+
+=
+
+l
+
+known,
+
+kk = f (l - f ) = OI  IS ,
+
+thus in order that for the same body the rectangle OI  IS is constant.
+
+COROLLARY 2
+539. If the distance OI = f is changed for the same body, it is apparent that as in the case f = 0 as f =  that the simple isochronous pendulum l emerges as infinite ; moreover the shortest will be, if there is taken f = k, in which case l = 2k ; in addition, it is always the case that l > 2k .
+
+COROLLARY 3
+
+540. With the length of the simple isochronous pendulum l, since likewise the small oscillations of the body and of this pendulum are isochronous, the time of
+
+each oscillation is equal to  l sec. (§ 215). Hence if there appears a length
+2g
+
+l
+
+=
+
+2g 
+
+,
+
+then
+
+the
+
+individual
+
+small
+
+oscillations
+
+are
+
+completed
+
+in
+
+a
+
+time
+
+of
+
+one
+
+second.
+
+SCHOLIUM
+
+541. Hence an easy method is put together by which the moment of inertia of
+
+each body can be defined practically. For with the body suspended from a
+
+horizontal axis, around which is able to rotate freely, with every attention taken
+
+in the first place, the distance of the centre of inertia I from the axis of rotation
+
+O is defined, surely by
+
+OI = f, since that can be done practically; then the body is set in motion to
+
+perform small oscillations, and with several counted in a given time, the time of
+
+a single oscillation is found, which is equal to sec., hence there is obtained
+
+l
+
+=
+
+2 g 
+
+;
+
+from which
+
+there
+
+is
+
+found
+
+kk
+
+=
+
+f
+
+(l
+
+-
+
+f
+
+),
+
+and
+
+the
+
+weight
+
+of
+
+the
+
+body
+
+M multiplied by kk gives the moment of inertia about the axis passing through
+
+the centre of inertia and parallel to the axis of gyration. Also this experiment can
+
+be performed several times, while the body is suspended from various axes
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 457
+
+successively, which are still parallel to each other, from which we may return a more reliable value for the true value of kk. Hence in turn, it is possible also to investigate the length of the individual simple pendulum [with a period] of oscillation of one second, seeing that neither is it possible for simple pendulums to be used in experiments, nor is it possible for the distance fallen g in an absolute time of one second to be determined accurately enough by experiment. Hence for a suspended body, it is necessary to know the quantities f and kk accurately, and that time is found from the length of the simple pendulum
+
+l
+
+=
+
+f
+
++
+
+kk f
+
+;
+
+then,
+
+if
+
+the
+
+time
+
+of
+
+one
+
+small
+
+oscillation
+
+
+
+is
+
+observed,
+
+there
+
+is
+
+obtained
+
+g
+
+=
+
+ l 2
+
+and hence the length of the simple pendulum with a period of
+
+one
+
+second
+
+is
+
+found
+
+from
+
+2g 
+
+=
+
+l 
+
+.
+
+[We note that Euler's period for a simple pendulum  = 
+
+l 2ge
+
+is half the
+
+modern periodT = 2 l , though in the Mechanica he had given the time for
+g
+
+an oscillation as that of a complete to and fro return swing; presumably at this time in the 1760's, others had not followed his lead, and so he reverted to the old usage of Huygens and Newton and others of the time. We also note again that
+
+Euler's constant that is now called ge to prevent confusion, is the distance fallen
+
+in a time of one second; thus 2 ge is numerically equal to the acceleration of gravity g. With these thoughts in mind we can recover the modern formula, to which Euler's result is of course equivalent.]
+
+DEFINITION 9
+
+542. The centre of oscillation in a compound pendulum is the point at which if the whole mass of the body were to be gathered, the same oscillatory motion would be produced. Moreover it is taken on a right line which passes through the centre of inertia of the body normal to the axis of rotation.
+
+COROLLARY 1
+
+543. Therefore the distance of the centre of oscillation from the axis of rotation
+
+is equal to the length of a simple isochronous pendulum : and the
+
+interval
+
+IS
+
+=
+
+kk f
+
+is
+
+more
+
+distant
+
+from
+
+the
+
+axis
+
+of
+
+rotation
+
+O
+
+than
+
+the
+
+centre
+
+of
+
+inertia.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 458
+
+COROLLARY 2
+
+544. Therefore, as regards finding the centre of oscillation S, it is necessary to
+
+know the moment of inertia about the axis passing through the centre of inertia I
+
+and parallel to the axis of rotation, since if it is equal to Mkk, then it must be
+
+divided by Mf, that is by the product of the mass of the body M by the distance
+
+of the axis of rotation from the centre of inertia OI = f, and then the quotient
+
+Mkk Mf
+
+shows
+
+the
+
+distance
+
+of
+
+the
+
+centre
+
+of
+
+oscillation
+
+from
+
+the
+
+centre
+
+of
+
+inertia.
+
+SCHOLIUM
+
+545. In this manner, the investigation of the motion of compound pendulums is
+
+accustomed to lead to an investigation of the centre of oscillation, although for that it is sufficient to know the length of the simple isochronous pendulum, nor
+
+by any other account does it have forces acting on it, so that this pendulum is considered to be applied from the same axis of suspension and indeed drawn
+
+along the line through the centre of inertia normal to the axis of suspension.
+
+Now this is the most convenient way of considering the matter, and if the body should hang in the resting position, so that the line drawn through the centre of
+
+inertia normally to the axis likewise is vertical, then the centre of oscillation on the same line is lower than the centre of inertia is placed; nor indeed is it
+
+necessary here, that the body is considered as in motion. Thus the line OI is
+
+considered to fall on the vertical OC, on which the centre of oscillation S is placed lower than the centre of inertia I, that here actually maintains the name of
+
+the centre of gravity, thus so that the interval
+
+IS
+
+=
+
+Mkk Mf
+
+=
+
+kk f
+
+.
+
+Whereby
+
+the
+
+calculation of the centre of oscillation is easily brought about by the calculation,
+
+that we have treated above for finding the moment of inertia.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 459
+
+EXAMPLE
+
+546. The experiments mentioned before are accustomed to be set up with a
+
+sphere made from a homogeneous material (Fig. 68), which hanging with the
+
+aid of a thread OB start to make small oscillations,
+
+where indeed a thread so thin has to be taken, so that
+
+the mass of this can be taken as nothing besides the
+
+mass of the sphere. Therefore let the radius of the
+
+sphere be BI = b and the distance of the point of
+
+suspension O from the centre of the sphere I, which
+
+likewise is the centre of inertia or of gravity, clearly
+
+then
+
+OI
+
+=
+
+f,
+
+so
+
+that
+
+as
+
+we
+
+found
+
+above,
+
+kk
+
+=
+
+2 5
+
+bb.
+
+Whereby the centre of oscillation is at S, in order
+
+that
+
+IS
+
+=
+
+2bb 5f
+
+,
+
+or
+
+the oscillations agree with the
+
+oscillations of a simple pendulum, the length of
+
+which
+
+is
+
+equal
+
+to
+
+f
+
++
+
+2bb 5f
+
+.
+
+Hence,
+
+in
+
+order that
+
+this
+
+pendulum oscillates in a time of one second, it is
+
+necessary that
+
+f
+
++
+
+2bb 5f
+
+=
+
+2g 
+
+or
+
+ff
+
+=
+
+2 gf 
+
+-
+
+2 5
+
+bb,
+
+thus
+
+( ) f
+
+=
+
+g 
+
+±
+
+g 4
+
+-
+
+2 5
+
+bb
+
+,
+
+thus,
+
+so
+
+that
+
+there
+
+is
+
+a
+
+twofold
+
+value
+
+for
+
+f,
+
+which
+
+likewise
+
+taken
+
+give
+
+2g 
+
+. Both
+
+these values become equal, if only a sphere is taken, so that
+
+bb
+
+=
+
+5gg 2 4
+
+and
+
+b
+
+=
+
+g 
+
+5 2
+
+;
+
+that is, the radius of the sphere in Rhenish feet must be equal to 2,50317, and
+
+then the distance OI = f becomes 1,583144 ft., thus so that the point of
+
+suspension or the axis of rotation must be taken within the sphere. Moreover
+
+since then
+
+f
+
+=
+
+g 
+
+=b
+
+5 2
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 460
+
+or f = k, it is apparent in this case that the sphere oscillates the fastest. Clearly if
+
+I = b
+
+5 2
+
+is put in place, with the horizontal
+
+ drawn, which refers to the
+
+axis of rotation, then cos B =
+
+5 2
+
+and
+
+thus
+
+the
+
+arc
+
+B
+
+=
+
+50o
+
+46'.
+
+But
+
+if
+
+the
+
+sphere were very small, as it is accustomed to happen, in order that one second
+
+is produced, then there must be taken
+
+OI
+
+=
+
+2g 
+
+-
+
+ bb 5g
+
+;
+
+whereby, so that a sphere hanging from the point B performs this, the radius of
+this must be
+( ) 65-5 g
+b = 2 = 0,155136g nearly.
+
+PROBLEM 47
+
+547. If a rigid body mobile about a horizontal axis should be constructed from several parts, the centres of inertia and the moments of inertia of which are known, to define the centre of oscillation of the whole body.
+SOLUTION
+The horizontal axis of rotation is considered normal to the plane of the figures at the point O (Fig. 69), and let A, B, C, D be the centres of inertia of the parts, from which the body is composed, of which the masses of the parts shall be A, B, C, D, and the moments of inertia about the parallel axes of rotation, and passing through each centre of inertia shall be
+Aa2 , Bb2 , Cc2 , Dd 2 ; moreover, the
+centres of inertia shall be distant from the axes of rotation by the intervals AO, BO, CO, DO; likewise indeed, either these intervals point towards the same point of the axis O or to different points, because the moments of the weights as well as the moments of inertia only depend on the distances from the axis, nor any difference of the points O is conferred by that. Therefore in the first place the centre of inertia of the whole body I is defined and the mass of this shall be equal to M = A + B + C + D, which is to be placed on such a line OI, in order that
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 461
+
+AOA sin AOI + B OB  sin BOI = C OC  sin COI + D OD  sin DOI; then also :
+
+M OI = A AO  cos AOI + B  BO  sin BOI + C CO  cos COI + D  DO  cos DOI;
+
+which
+
+quantity
+
+must
+
+be
+
+written
+
+in
+
+the
+
+above
+
+formula
+
+IS
+
+=
+
+Mkk Mf
+
+in place of Mf .
+
+But the moment if inertia of the whole body about the axis of rotation
+M ( ff + kk ) , which is put together from the parts, becomes :
+
+( ) ( ) ( ) ( ) A AO2 + aa + B BO2 + bb + C CO2 + cc + D DO2 + dd .
+
+Whereby, since becomes
+
+OS
+
+=
+
+M
+
+(
+
+ff +kk Mf
+
+)
+
+,
+
+A( AO2 +aa)+ B( BO2 +bb)+C(CO2 +cc)+ D( DO2 +dd )
+OS = AAOcos AOI + BBOcos BOI +CCOcos COI + DDOcos DOI .
+
+COROLLARY 1
+
+548. If the individual parts are considered separately and the centres of
+
+oscillation of these are put in place at the points a, b, c, d, on account of
+
+A( AO2 +aa)
+Oa = AAO
+
+then it is found that :
+
+OS
+
+=
+
+AOAOa+ BOBOb+COCOc+ DODOd AAOcos AOI + BBOcos BOI +CCOcos COI + DDOcos DOI
+
+.
+
+COROLLARY 2
+
+549. Moreover with the centre of inertia or gravity found of the whole body I, in place of the denominator it is possible to put in place M OI ; but from the preceding, the static centre of gravity of the whole body from the given centres of gravity of the parts is easily put together.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 462
+
+EXAMPLE
+
+550. Let a pendulum be composed from the right
+
+cylinder ACB and from that attached sphere BEDF,
+
+which shall be free to move about the horizontal axis
+
+eOf (Fig. 70), and the centre of oscillation S of this
+
+pendulum is sought. Moreover the rod and the sphere
+
+are made from a uniform material and the length of the
+
+rod AB is put equal to a, the weight equal to A, and the
+
+distance of the extremity B from the axis of rotation O,
+
+BO is equal to b, while the radius of the base of this
+
+cylinder is equal to c ; let the centre of inertia of this be
+
+at C, so that it becomes
+
+AC
+
+=
+
+BC
+
+=
+
+1 2
+
+a
+
+and
+
+OC
+
+=
+
+b
+
+-
+
+1 2
+
+a,
+
+now
+
+the
+
+moment
+
+of
+
+inertia about the axis drawn through C and parallel to
+
+( ) the axis of rotation is equal to A
+
+1 12
+
+aa
+
++
+
+1 4
+
+cc
+
+. Again let
+
+the mass of the attached sphere be equal to E, the
+
+radius BG = e, then the centre of inertia of this is at G,
+
+and the moment of inertia = 2 Eee . Now let I be the
+5
+
+centre of inertia of the whole body, then
+
+( ) ( A + E)OI = A
+
+b
+
+-
+
+1 2
+
+a
+
++ E (e + b) = Mf ;
+
+then the moment of inertia about the axis of gyration is equal to
+
+( ) ( ) A
+
+ 
+
+1 12
+
+aa
+
++
+
+1 4
+
+cc
+
++
+
+b- 1 a 2
+
+2
+
+ 
+
++
+
+E
+
+2 5
+
+ee
+
++(b+
+
+e)2
+
+,
+
+that must be substituted in place of M ( ff + kk ) . Thus the centre of oscillation
+
+is at S, so that it shall be
+
+OS
+
+=
+
+A(
+
+1 3
+
+aa
+
+-
+
+ab
+
++
+
+bb
+
++
+
+1 4
+
+cc
+
+)
+
++
+
+E
+
+(
+
+bb
+
++
+
+2 be
+
++
+
+7 5
+
+ee
+
+)
+
+A(
+
+b
+
+-
+
+1 2
+
+a
+
+)
+
++
+
+E
+
+(b
+
++
+
+e
+
+)
+
+,
+
+hence on account of OG = b + e there becomes
+
+GS
+
+=
+
+A(
+
+be
+
++
+
+1 2
+
+ab-
+A(b
+
+1 2
+
+ae
+
+-
+
+) -
+
+1 2
+
+a
+
+1 3
+
+aa
+
+-
+
++E(b
+
+) 1
+4
+
+cc
+
++e)
+
+-
+
+E
+
+
+
+2 5
+
+ee
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 463
+
+COROLLARY 1
+
+551. If the axis or rotation O is taken at the top of the rod A, so that there arises
+
+b = a, then
+
+OS
+
+=
+
+A(
+
+1 3
+
+aa
+
++
+
+1 4
+
+cc
+
+)+
+
+E
+
+(
+
+aa
+
++
+
+2
+
+ae
+
++
+
+7 5
+
+ee
+
+)
+
+A
+
+1 2
+
+a
+
++
+
+E
+
+(
+
+a
+
++
+
+e
+
+)
+
+and
+
+GS
+
+=
+
+( ) A
+
+1 2
+
+ae
+
++
+
+1 6
+
+aa
+
+-
+
+1 4
+
+cc
+
+-
+
+E
+
+
+
+2 5
+
+ee
+
+A
+
+1 2
+
+a
+
++
+
+E
+
+(
+
+a
+
++
+
+e
+
+)
+
+,
+
+if indeed we take the point S to fall beyond G.
+
+COROLLARY 2
+
+552. If for the sake of example,
+
+E
+
+=
+
+30
+
+A,
+
+a
+
+=
+
+b
+
+=
+
+3
+
+ft.,
+
+e
+
+=
+
+1 12
+
+ft.,
+
+and
+
+c
+
+=
+
+1 500
+
+ft., thus
+
+so
+
+that
+
+cc
+
+may
+
+be
+
+safely
+
+neglected, then
+
+OG
+
+=
+
+3
+
+1 12
+
+=
+
+3,0833
+
+and
+
+OS
+
+=
+
+3+
+
+285
+
+7 24
+
+112
+
++92
+
+1 2
+
+=
+
+288
+
+7 24
+
+94
+
+= 3,0669,
+
+and in this case the point S falls above G; but if the mass of the rod should
+
+vanish, it will be given by OS = 3,0842, and thus S will fall below G.
+
+SCHOLIUM
+
+553. This final case thus worth noting, since a common thread, if it should be
+
+very thin and light with respect of the sphere, clearly indeed is seen here to
+
+convey hardly anything to the centre of oscillation, but here it is the case that
+
+although the sphere is thirty time heavier than the thread, an account of this
+
+cannot be neglected without a significant error. Indeed we may put this
+
+pendulum oscillations to be completed in one second, and the length of the
+
+isochronous simple pendulum hence is required to be determined. Therefore this
+
+equation with the mass of the thread ignored gives a length equal to 3,0842 ft.,
+
+yet actually with the thread is shall only be 3,0669 ped., thus so that an error of
+
+0,0173
+
+ped.
+
+=
+
+2
+
+1 2
+
+lin.
+
+is
+
+committed,
+
+clearly
+
+the
+
+smallest
+
+to
+
+be
+
+tolerated.
+
+But
+
+if,
+
+with the remaining dimensions kept in place, the thread at this stage should be
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 464
+
+lighter
+
+and
+
+E
+
+=
+
+60A,
+
+then
+
+OS
+
+=
+
+3+570
+
+7 12
+
+1
+
+1 2
+
++185
+
+= 3,0755,in
+
+place
+
+of
+
+this
+
+if
+
+there
+
+is
+
+taken
+
+3,0842,
+
+then
+
+the
+
+error
+
+committed
+
+is
+
+equal
+
+to
+
+0,0087
+
+ft
+
+=
+
+5 4
+
+lin.
+
+[1lin.=
+
+12th
+
+part
+
+of
+
+an inch; there is an error in Euler's arithmetic in calculating OS, which has been
+
+corrected here as in the O.O.]
+
+PROBLEM 48
+
+554. If the pendulum should be established from the narrowest rod OB free of inertia, yet rigid, and with the sphere BDEF (Fig. 71), to find the place where another sphere must be attached to the same rod, so that the most frequent oscillations are made.
+
+SOLUTION
+Since the axis of rotation shall be at O, let the distance OG = b and the radius of the sphere to be fixed below be BG = c, and the mass of this globe is equal to B; then let the mass of the other sphere to be attached be equal to L and the radius QK = e, for the position of this is sought at the distance OQ = q. With these in place, let the common centre of inertia be I, then
+( B + L)OI = Bb + Lq = Mf ,then the moment
+
+of inertia of the whole pendulum about the axis
+
+of rotation is now equal to :
+
+( ) ( ) B
+
+2 5
+
+cc
+
++
+
+bb
+
++L
+
+2 5
+
+ee
+
++
+
+qq
+
+= M ( ff + kk ) .
+
+Whereby, if the centre of oscillation should be
+
+set up at S, then [the length of the simple
+
+pendulum : see
+
+§ 543, etc]
+
+OS
+
+=
+
+B(
+
+2 5
+
+cc
+
++
+
+bb
+
+)
+
++
+
+L
+
+(
+
+2 5
+
+ee
+
++
+
+qq
+
+)
+
+( Bb+ Lq)
+
+,
+
+which must be the shortest length, so that the oscillations become the most prompt. Hence this equation arises [on differentiating the expression for the period and equating to zero]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 465
+
+( ) 2BLbq - BL
+
+2 5
+
+cc
+
++
+
+bb
+
+-
+
+2 5
+
+LLee
+
++
+
+LLqq
+
+=
+
+0
+
+or
+
+( ) Lq = -Bb +
+
+BBbb
+
++
+
+BLbb
+
++
+
+2 5
+
+BLcc
+
++
+
+2 5
+
+LLee
+
+,
+
+hence the distance OQ = q becomes known, from which again the length of the
+
+simple isochronous pendulum can be gathered:
+
+( ) OS
+
+=
+
+2 L
+
+BBbb
+
++
+
+BLbb
+
++
+
+2 5
+
+BLcc
+
++
+
+2 5
+
+LLee
+
+-
+
+2Bb L
+
+=
+
+2q.
+
+Hence, if both spheres were constructed from the same material, on account of
+
+B:L = c3:e3 then
+
+( ) 2
+OS =
+
+c6bb
+
++
+
+c3e3
+
++
+
+2 5
+
+c5e3
+
++
+
+2 5
+
+e8
+
+-2c3b
+
+e3
+
+and
+
+( ) OQ = q =
+
+c
+
+6bb
+
++
+
+c3e3bb
+
++
+
+2 5
+
+c5
+
+e3
+
++
+
+2 5
+
+e8
+
+e3
+
+-c3b
+.
+
+COROLLARY 1
+
+555. If the diameters of the spheres were small, so that cc and ee are able to be
+
+ignored besides bb, then the distance OQ = q thus can be taken so that it
+
+becomes :
+
+OQ =
+
+B( B+ L) - B
+
+L
+
+b,
+
+and the length of the simplest isochronous pendulum will be
+
+2 OQ = 2b 
+
+B( B+ L) - B
+
+L
+
+.
+
+COROLLARY 2
+
+556. Clearly, if the other sphere KLMN is disregarded, then the required length
+
+is
+
+OS
+
+=
+
+b
+
++
+
+2cc 5b
+
+,
+
+which is a greater length than with that sphere connected, if it should be that
+
+From which, unless
+
+b
+
++
+
+2cc 5b
+
+>
+
+2e
+
+2 5
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 466
+
+( ) e > 5 b + 2cc ,
+
+22
+
+5b
+
+the oscillations are able to be returned more promptly with the other sphere
+
+attached.
+
+COROLLARY 3
+
+557. But if
+
+( ) e = 5 22
+
+b
+
++
+
+2cc 5b
+
+,
+
+however large the mass of this sphere L should be, for the most rapid
+
+oscillations obtained, it is necessary to take
+
+OQ
+
+=
+
+q
+
+=
+
+1 2
+
+b
+
++
+
+cc 5b
+
+,
+
+and then the length of the simple isochronous pendulum will be equal
+
+to 1 b + cc , for all, and if the sphere KLMN should be removed.
+2 5b
+
+COROLLARY 4
+
+558. If both of the spheres should be equal, so that L = B and e = c, the most rapid oscillations arise on taking
+
+( ) OQ = q =
+
+2bb
+
++
+
+4 5
+
+cc
+
+-b;
+
+and if it is allowed to ignore cc in comparison with bb,
+( ) OQ = OG 2 -1 ;
+
+and hence the length of the isochronous simple pendulum is equal to :
+
+( ) 2 OG 2 -1 = 0,828427 OG.
+
+COROLLARY 5
+559. If both spheres consist of the same material, it is possible to define the radius e of the sphere KLMN , in order that with that duly joined the oscillations are made the most rapidly; it follows that e must be sought from this equation :
+16e10 - 48c5e5 - 600bbc6ee + 9c6 (5bb + 2cc)2 -120bbc3e5 = 0.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 467
+
+SCHOLIUM
+
+560. Moreover it is apparent, in which the radius e of the sphere KLMN is less
+
+with its mass remaining at L, from this to give rise to a smaller distance OQ = q,
+
+and therefore the oscillations from this to be more rapid. But now with the
+
+radius e remaining fixed the oscillations become swifter, if the mass L of the
+
+attached sphere should be as large as possible ; for if L = 0, then
+
+OS
+
+=
+
+b
+
++
+
+2cc 5b
+
+,
+
+which is the maximum value, since indeed by attaching the other sphere, the
+
+oscillations are made more rapidly [Opera Omnia note: Euler has omitted the
+
+case e < 5bb+2cc .] But now, if it should be the case that
+2b 10
+
+5bb + 2cc = 2be 10 or e = 5bb+2cc ,
+2b 10
+
+however large the mass L of the sphere should be, with that duly attached the
+
+oscillations remain of the same duration, and if this sphere now should be made
+
+larger, the oscillations henceforth are produced slower. But if both spheres were
+
+made from materials with equal weight, then the size to be attached, so that the
+
+motion of the oscillations should become the most rapid, must be determined
+
+from an equation of the tenth order; now if the axis passes through the centre G
+
+of the sphere BCDF, so that b = 0, from which there is produced e = c 5 3 for the
+2
+
+radius of the attached sphere, and for the position of this :
+
+( ) OQ = q =
+
+2 5
+
+c5 e3
+
++
+
+2 5
+
+e2
+
+= c10 8
+27
+
+and
+
+the
+
+length
+
+of
+
+the
+
+simple
+
+isochronous
+
+pendulum
+
+is
+
+equal
+
+to
+
+c10
+
+8 27
+
+.
+
+Therefore
+
+from the axis of rotation passing through the centre of the first sphere, the other
+
+sphere thus must be transported, so that the distance between the centres is
+
+OQ = c10 8 , which is less than the radius of this sphere, e = c 5 3 . Moreover
+
+27
+
+2
+
+several questions of this kind about the motion of the oscillations can be
+
+proposed, which from the principles established here can be solved without
+
+difficulty. But it will be of great interest to investigate the size of the forces
+
+sustained by the axis during the rotational motion.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 468
+
+PROBLEM 49
+
+561. While a heavy rigid body is rotating about a fixed horizontal axis OA, to define the forces, which the axis will sustain at any time at the two given points O and A.
+
+SOLUTION
+The diagram represents a plane with the vertical passing through the axis of rotation OA (Fig. 72), and now the centre of inertia of the body is rotating beyond this plane at I, thus perpendiculars IK and IG are drawn both to the vertical plane and to the axis, then the angle IGK =  is the
+departure of the body from the natural position, and on putting the distance IG = f then KI = f sin and GK = f cos.
+Moreover the mass of the body is equal to M, which since likewise this expresses the weight, the force acting is equal to M in the vertical direction IV, the moment of this is equal to Mf sin tending to decrease the angle IGK.
+Then some element of the body dM is to be considered at Z , from which with the perpendiculars drawn ZY, ZX to the vertical plane and to the axis, the coordinates are be called
+OX = x, XY = y and YZ = z,
+
+and hence
+
+OG
+
+=
+
+
+
+xdM M
+
+,
+
+GK
+
+=
+
+
+
+ydM M
+
+,
+
+and
+
+KI
+
+=
+
+ zdM M
+
+;
+
+on putting the distance
+
+XZ= ( yy + zz) = r
+
+then  rrdM expresses the moment of inertia of the body about the axis OA,
+which is equal to Mkk; and then on putting the distance of the end points of the axis OA = a, and through both there are drawn the lines BOb, COc and EAe, FAf with themselves parallel to KG and KI, [so giving the directions of the y and z components of the reactive forces]. With these drawn prepared according to problem 23, in the first place I observe that no force is present along the axis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 469
+
+in the same plane; but since here the moment of the force Mf sin turns in the
+
+opposite sense, and we have assumed it becomes Vf = -Mf sin.
+
+Now therefore on account of the force IV = M, which is considered to be
+
+applied along the direction of the axis GK at G, the axis sustains these forces at the points O and A :
+
+along
+
+OB
+
+the
+
+force
+
+=
+
+M AG a
+
+,
+
+along
+
+AE
+
+the
+
+force
+
+=
+
+M OG a
+
+.
+
+With which these are to be joined, which arise from opposing the elementary
+
+forces applied, which are
+
+along Ob the force
+
+=
+
+f sin (a- x)zdM
+akk
+
+for the end O
+
+along Oc the force
+
+=
+
+f sin (a- x) ydM
+akk
+
+along
+
+Ae
+
+the
+
+force
+
+=
+
+f
+
+sin xzdM akk
+
+for the end A
+
+along.
+
+Ae
+
+the
+
+force
+
+=
+
+f
+
+sin xydM akk
+
+and the axis sustain these forces on account of the action of the weight of the body, and now on account of the motion, with which it now rotates; if the angular speed is called  , then the axis sustains these forces at the points O and
+A:
+
+along
+
+OB
+
+the
+
+force
+
+=
+
+
+
+
+
+(
+
+a-x)
+2ag
+
+zdM
+
+at the end O
+
+along
+
+OC
+
+the
+
+force
+
+=
+
+
+
+
+
+(
+
+a-x)
+2ag
+
+ydM
+
+along AE the force
+
+=
+
+
+
+ xzdM 2ag
+
+at the end A
+
+along
+
+AE
+
+the
+
+force
+
+=
+
+
+
+ xydM 2ag
+
+[It may be of interest to indicate more fully here the source of these forces. For
+
+the first set, applied to an element of mass dM at Z (x, y, z), we note that in
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 470
+
+general this element has an angular acceleration  equal to that of the rigid body, produced by a linear force y dM acting normally to the xz plane and normal to the axis, and similarly by a linear force z dM for the yz plane. These forces are 'shared out' according to the principle of moments about the pivots, and  is given by the torque Mf sin divided by the moment of inertia I. The
+latter forces are of course the centripetal forces, treated in an equivalent manner.]
+
+COROLLARY 1
+
+562. If the distance of the supports O and A from G are called OG = b and AG = c, so that a = b + c , now there is put GX = u, then x = b - u and a - x = c + u ; thus
+ (a - x) zdM =  (c + u) zdM = Mc  KI +  uzdM ,  (a - x) ydM =  (c + u) ydM = Mc GK +  uydM ,
+ xzdM =  (b - u) zdM = Mb  KI -  uzdM ,  xydM =  (b - u) ydM = Mb GK -  uydM .
+
+COROLLARY 2
+
+563. With these values introduced, the axis at the point O sustains these forces : first along the direction OB, the force
+
+Mc a
+
+-
+
+Mcf
+
+sin   KI akk
+
+-
+
+f
+
+sin uzdM akk
+
++
+
+ McGK 2ag
+
++   uydM
+2ag
+
+,
+
+then along the direction, OC the force
+
+Mcf
+
+sin  GK akk
+
++
+
+f
+
+sin uydM akk
+
++
+
+ McKI 2 ag
+
++
+
+  uzdM 2ag
+
+.
+
+Moreover, now at the point A these become :
+
+firstly along the direction AE the force
+
+Mb - Mbf sinKI + f sin uzdM +  MbGK +   uydM ,
+
+a
+
+akk
+
+akk
+
+2ag
+
+2ag
+
+then along the direction AF the force
+
+Mbf
+
+sin  GK akk
+
+-
+
+f
+
+sin uydM akk
+
++
+
+ MbKI 2 ag
+
+-   uzdM
+2ag
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 471
+
+COROLLARY 3
+
+564. If the body should be put together thus, so that it is divided in the plane
+
+IGK
+
+into
+
+two
+
+equal
+
+and
+
+similar
+
+parts,
+
+and
+
+let
+
+GO
+
+=
+
+GA
+
+=
+
+1 2
+
+a
+
+,
+
+on
+
+account
+
+of
+
+ uzdM = 0 and  uydM = 0
+
+the axis sustains these forces at the point O
+
+along
+
+OB
+
+the
+
+force
+
+=
+
+1 2
+
+M
+
+-
+
+Mf
+
+sin   KI 2kk
+
++
+
+ M GK 4g
+
+,
+
+along
+
+OC
+
+the
+
+force
+
+=
+
+Mf
+
+sin  GK 2kk
+
++
+
+ M KI 4g
+
+,
+
+but at the point A it will sustain these forces
+
+along
+
+AE
+
+the
+
+force
+
+=
+
+1 2
+
+M
+
+-
+
+Mf
+
+sin   KI 2kk
+
++
+
+ M GK 4g
+
+,
+
+along
+
+AF
+
+the
+
+force
+
+=
+
+Mf
+
+sin  GK 2kk
+
++
+
+ M KI 4g
+
+;
+
+therefore in this case the forces do not depend on the magnitude of the distance OA = a.
+
+COROLLARY 4
+
+565. Therefore in the case in which  uydM = 0 and  uzdM = 0 , nothing stands
+
+in the way by which the distance OA = a is taken to vanish and the axis can be retained as a single point G; this certainly sustains the two forces :
+
+the one along GK = M - Mff sin2  + M  f cos ,
+
+kk
+
+2g
+
+and
+
+the
+
+other
+
+along
+
+GH
+
+=
+
+Mff
+
+sin cos kk
+
++
+
+M  f sin 2g
+
+with GH itself being present parallel to KI.
+
+SCHOLIUM
+
+566. Bodies, which commonly are accustomed to be put into oscillatory motion, thus have been composed so that, they can be cut into two equal and similar parts by the plane which is drawn normally through their centre of mass and axes of gyration; from these therefore the place is had, that the axis can retain as single point. Clearly, if figure 67 represents a plane drawn with the vertical through the centre of inertia I of such a body and normal to the axis of rotation,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 472
+
+which for the figure is considered to be placed normally at O, with the vertical line OC present and OH in a plane to the horizontal, the axis at the point O in indicating the manner it will sustain the forces. Clearly the angle COI is itself put equal to  , the distance OI = f, the mass of the body is equal to M, the
+moment of inertia of this about the axis of gyration is equal to Mkk and the angular speed at that position is equal to  , unless the angle COI tends towards
+a maximum or a minimum, then the axis O sustains the two forces,
+
+one along OC = M - Mff sin2  + M f cos ,
+
+kk
+
+2g
+
+and
+
+the
+
+other
+
+along
+
+OH
+
+=
+
+Mff
+
+sin cos kk
+
++
+
+M  f sin 2g
+
+.
+
+Therefore at first with the force acting downwards and the support sustaining
+
+that force; now on account of the other force in that direction, at which the
+
+centre of inertia is rotating, the body attempts to proceed horizontally on the
+
+support, which effect it is agreed to be prevented by the bar. When the centre of
+
+inertia is wandering off in the opposite direction, this horizontal force is directed
+
+in the opposite direction. Moreover both forces depend on two parts, of which
+
+the one is due to the action of the weight, and the other due to the rotary motion
+
+itself, and with OL drawn normal to OI these parts may be reduced to just a few,
+
+so that the axis is acted on at the point O by these forces :
+
+along OC by a force = M ,
+
+along
+
+OL
+
+by
+
+a
+
+force
+
+=
+
+Mff sin kk
+
+,
+
+along
+
+OI
+
+by a
+
+force =
+
+Mf  2g
+
+.
+
+If there should not be  uydM = 0 and  uzdM = 0 , then in addition the axis
+
+sustains these above forces § 563 at the points O and A of figure 72, which involve these integral formulas, since the remaining parts cannot be reduced to one point.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 473
+
+PROBLEM 50
+567. If the axis OA, about which the heavy rigid body is free to move, should not be horizontal, to define the rotational motion as well as the forces which the axis sustains.
+SOLUTION
+Through the axis OA there is considered a plane drawn in the vertical, in which there is the vertical line GC (Fig. 73), and the angle OGC =  , and
+the complement of this 90o -  gives the inclination of the axis OA to the horizontal. Now the centre of inertia I of the body may be found beyond this vertical plane, from which with IG = f drawn normal to the axis, and from G in a vertical plane and equally normal to the axis, GK is drawn normally in the plane IGK itself normal to the [initial] vertical plane, and there is put in place the angle IGK =  , measuring the departure of the body from its natural position; for the GI moves in the plane IGK. The mass of the body and the same weight of this is put equal to M and the moment of inertia about the axis OA = Mkk, which likewise is gathered as if the axis were horizontal ; for the inclination is only observed for the force acting. But the effect of the weight thus responds to this, so that the body is acted on at the point I by a force equal to M in the vertical direction IV ; in order that this is may be resolved there are drawn IM and IN parallel to GO and GK, and the lines IM, IV and IN are in a vertical plane and the angle MIV =  . Hence from the force IV = M there are two forces arising, the one IM = M cos and the other along IN = M sin . As before since it is parallel to the axis, clearly nothing is added to the motion, but all is expended on the axis, as we have shown above. Therefore only the force IN = M sin remains for the motion, the direction of which is parallel to GK, the moment arises equal to Mf sin , the direction of this is parallel to GK, and there arises the moment equal to Mf sin sin tending to minimise the angle IGK, and for the motion to be defined, the above formulas prevail for the horizontal axis found, except, as in place of the moments of the force acting, which before was
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 474
+
+equal to Mf sin , here must be written as Mf sin sin , or since M denotes the weight of the body, in place of this there must be written M sin , but since
+
+the moment of inertia is present, the rest need not be changed. Whereby the
+
+motion is similar to the motion of a simple pendulum about a horizontal axis,
+
+the length of which is equal to
+
+Mkk Mf sin
+
+=
+
+f
+
+kk sin 
+
+, so that the motion itself is
+
+perfectly determined. But for the restraining forces, which the axis meanwhile sustain, if placed as it pleases at the given points O and A, in the first place on account of the force IM = M cos the axis is urged now along its own
+
+direction AO in addition by so large a force,
+
+GI OA
+
+
+
+M
+
+cos 
+
+at both O and A, at the
+
+point A clearly acting along the direction parallel to GI, but now at O along the
+
+opposite direction. Then besides these forces at the points O and A from the
+
+same forces acting, which we have determined in the preceding problem, by
+
+observing only this, that for M it is necessary to write M sin and f sin sin
+
+in place of f sin . Certainly, if our inclined axis is in figure 72 OA and
+
+everything remains as in the preceding problem, then the axis besides these forces, is sustained in addition to these forces by the force arising IM = M cos . In the first place at the point O along the direction OB the force
+
+:
+
+Mc sin - Mcff sin sin2  - f sin sin uzdM + Mcf  cos +   uydM
+
+a
+
+akk
+
+akk
+
+2ag
+
+2 ag
+
+and along the direction OC the force
+
+Mcff
+
+sin sin cos akk
+
++
+
+f
+
+sin 
+
+sin uydM akk
+
++
+
+Mcf  sin 2ag
+
++
+
+
+
+ uzdM 2ag
+
+.
+
+Then at the point A along the direction AE the force
+
+Mb sin - Mbff sin sin2  + f sin sin uzdM + Mbf  cos -   uydM
+
+a
+
+akk
+
+akk
+
+2ag
+
+2 ag
+
+and along the direction AF the force
+
+Mbff
+
+sin sin cos akk
+
+-
+
+f
+
+sin 
+
+sin uydM akk
+
++
+
+Mbf  sin 2ag
+
+-
+
+
+
+ uzdM 2ag
+
+,
+
+where OA = a, OG = b, AG = c and the angular speed =  , with the integrations taken as we have described here.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 475
+
+COROLLARY 1
+
+568. Since the length of the simple pendulum is equal to
+
+f
+
+kk sin 
+
+, the body
+
+completes it own slower oscillations about the inclined, than if the axis were horizontal, and if the oscillations should be the shortest, the time of one will be
+
+equal to 
+
+kk 2 fg sin
+
+sec.
+
+COROLLARY 2
+
+569. If the axis has been inclined, also the force sustained along its own direction AO (Fig. 73), which is M cos , and all the other forces are normal to the axes and can be recalled for the two given points O and A.
+COROLLARY 3
+
+570. If the body is bisected by the plane IGK into two equal and similar parts,
+the values of the integrals  uydM and  uzdM vanish and all the forces besides
+these, which arise from the force IM, are able to be reduced to one point G , as above.
+SCHOLIUM
+571. These are the problems, which were considered to be shown concerning the rotational motion of rigid bodies about a fixed axis, where indeed the determination of the motion itself has been reduced, so that it can be handled with no more difficulty than the motion of a body about a fixed axis, if the moment of inertia were investigated in this way. But the forces, which the axis sustain during the motion, are much more troublesome to examine and generally calculate, since from the shape of the body the values of the two integrals
+ xydM and  xzdM must be elicited. Now this investigation is of the greatest
+importance, if we wish to progress to the motion of bodies about axes which are not fixed; where in the first place indeed it is agreed to examine these more carefully, in which the axis remains at rest spontaneously, even if from the outside it is not retained. Therefore from some proposed rigid body it is to be inquired, whether axes of some kind can be given in that, if about which the body undertakes rotational motion, thus the axis itself should sustain no forces; then also it can be considered, by which forces the body about such an axis must be acted on by such forces, so that hence also no forces arise parting from the axis.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 476
+
+CAPUT VII
+DE MOTU OSCILLATORIO CORPORUM GRAVIUM
+
+PROBLEMA 44
+522. Si corpus rigidum fuerit mobile circa axem horizontalem fixum eiusque motus a sola gravitate turbetur, determinare mutationem momentaneam in motu gyratorio productam.
+SOLUTIO
+Communem hic gravitatis hypothesin assumo, qua singula corporis elementa massis proportionaliter deorsum urgentur secundum directiones inter se parallelas. Quatenus ergo corpus est rigidum, his omnibus viribus aequivalet una vis ponderi corporis aequalis, cuius directio deorsum tendens per eius centrum inertiae transit. Quare, si corporis massa dicatur = M eiusque centrum inertiae sit in I (Fig. 67) indeque deorsum ducatur recta verticalis IG, ob gravitatem corpus sollicitabitur in directione IG a vi, quae ipsa massae M aequalis est statuenda, quandoquidem ipsam massam M per pondus huius corporis exprimimus. Porro, cum axis gyrationis sit horizontalis, ad eum normaliter constituatur planum per centrum inertiae I transiens, quod erit verticale et ipso plano tabulae referetur; axis igitur gyrationis ad hoc planum normalis per punctum O traiectus concipiatur, unde gyrationis ad hoc planum normalis per punctum O traiectus concipiatur, unde ad I ducta recta OI exhibet distantiam centri inertiae I ab axe gyrationis. His praemissis teneat nunc corpus AEBF situm in figura repraesentatum, ductaque verticali OC ex angulo COI situs corporis innotescit. Ponatur intervallum OI = f et ad tempus = t angulus CIO =  , erit vis IG = M, momentum respectu axis gyrationis = Mf sin , tendens ad angulum COI minuendum, quae in problemate 22 loco momenti Vf est substituenda. Praeterea vero necesse est nosse momentum inertiae corporis
+respectu axis gyrationis O, ibi per  rrdM indicatum; hunc in finem concipiatur
+axis per ipsum centrum inertiae I transiens axi gyrationis parallelus, cuius
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 477
+
+respectu sit momentum inertiae corporis = Mkk, erit eiusdem momentum
+inertiae respectu axis gyrationis O = M ( ff + kk ) ob intervallum horum axium
+
+OI = f. Hinc, si corpus ita gyratur, ut recta OI accedat at verticalem OC, fuerit celeritas angularis =  , quia ea a vi sollicitante augetur, per § 408 erit
+
+d
+
+=
+
+2gMf sin
+M ( ff +kk )
+
+dt
+
+seu
+
+d
+
+=
+
+2
+
+fgdt sin ff +kk
+
+;
+
+sin autem recto OI recederet a verticali OI celeritate angulari =  , foret
+
+d
+
+=
+
+-
+
+2 fgdt sin ff +kk
+
+.
+
+Cum
+
+autem
+
+illo
+
+casu
+
+sit
+
+
+
+=
+
+-d dt
+
+,
+
+hoc vero
+
+
+
+=
+
+d dt
+
+,sumto
+
+dt
+
+constante
+
+pro
+
+utroque erit
+
+dd
+
+=
+
+-
+
+2
+
+fgdt2 sin ff +kk
+
+;
+
+ubi signum ­ adest, quia momentum vis sollicitantis tendit ad angulum 
+
+minuendum.
+
+COROLLARIUM 1
+
+523. Si corpus in situ AEBF nullum adhuc habeat motum, a gravitate ita rectam
+
+verticalem OC versus urgebitur, ut tempusculo dt eo sit accessurum per
+
+angulum =
+
+2
+
+fgdt2 sin ff +kk
+
+,
+
+qui est infinite parvus secundi ordinis.
+
+COROLLARIUM 2
+524. Si ergo corpus fuerit in quiete, in quiete persistere nequit, nisi sit sin = 0 , hoc est nisi centrum inertiae I in recta verticali OC versetur. Quare, si corpus quodcunque hoc modo suspendatur, in quiete esse nequit, nisi recta OI sit verticalis, quod fit, si centrum inertiae locum vel imum vel summum obtineat.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 478
+
+COROLLARIUM 3
+525. Quoties autem recta OI fuerit obliqua, corpus ob gravitatem ad motum sollicitabitur ac, si iam habuerit motum, eius motus perturbatur vel accelerando vel retardando, prout motus vel ad OC accedat vel ab eo recedat.
+COROLLARIUM 4
+526. Patet etiam, si axis per ipsum centrum inertiae I transeat, ut sit OI = f = 0,momentum gravitatis evanescere motumque gyratorium propterea plane non turbari. Hoc ergo casu corpus vel quiescat vel uniformiter circa axem O gyrabitur.
+SCHOLION
+527. Hic statim notari convenit corpus non perinde moveri, ac si tota eiues massa in ipsius centro inertiae I esset collecta, quemadmodum in motu progressivo usu venire vidimus. Si enim hic tota corporis massa M revera in centro inertiae I esset collecta, eius momentum inertiae respectu axis per I ducti evanesceret foretque kk = 0; motus ergo ita perturbaretur, ut esset
+dd = -2gdt2 sin ,
+f
+quae formula maior est quam casu proposito. Unde intelligitur motum corporis extensi, quale hic contemplamur, minus a gravitate perturbari, quam si tota corporis massa in centro inertiae esset collecta. Verum infra videbimus dari in recta OI aliud punctum magis ab axe O remotum, in quo si tota corporis massa esset collecta, motus eandem perturbationem esset passurus, quod punctum in motu gyratorio imprimis notari meretur, quoniam est id ipsum, quod vulgo centrum oscillationis appellari solet et de cuius inventione plurima passim occurrunt praecepta.
+
+PROBLEMA 45
+528. Si corpus rigidum AEBF fuerit mobile circa axem horizontalem (Fig. 67) eiusque detur situs et celeritas initio motus, ad tempus quodvis invenire eius situm et celeritatem.
+SOLUTIO
+Manentibus omnibus uti in praecendente problemate, scilicet massa corporis = M, distantia centri inertiae I ab axe gyrationis O scilicet OI = f et momento inertiae respectu axis ipsi axi gyrationis paralleli et per I transeuntis =
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 479
+
+Mkk, teneat corpus elapso tempore = t situm in figura repraesentatum sitque angulus COI =  existente CO recta verticali; atque sumto elemento dt
+
+constante pervenimus ad hanc aequationem
+
+dd
+
+=
+
+-2
+
+fgdt2 sin ff +kk
+
+,
+
+quae per 2d multiplicata et integrata praebet
+
+d 2
+
+=
+
+ dt2
+
++
+
+4
+
+fgdt2 cos ff +kk
+
+,
+
+unde cognoscitur quadratum celeritatis
+
+
+
+=
+
++
+
+4
+
+fg ff
+
+cos  + kk
+
+.
+
+Deinde posito brevitatis gratia
+
+4 fg ff +kk
+
+=
+
+ob
+
+d2 = dt2 ( +  cos )
+
+reperitur
+
+dt =
+
+d
+
+( + cos )
+
+et
+
+t=
+
+d
+
+,
+
+( + cos )
+
+ubi constans  et altera in ultima integratione ingressa ex statu initiali dato debent definiri.
+
+COROLLARIUM 1
+
+529. Evanescante angulo COI =  sit celeritas angularis
+
+( )  =
+
+
+
++
+
+4 fg ff +kk
+
+omnium maxima, in aequalibus autem elongationibus rectae OI a verticali OC
+
+celeritates sunt aequales; et nisi constans  sit minor quam
+
+4 fg ff +kk
+
+,
+
+corpus
+
+integras revolutiones circa axem absolvet, quoniam tum pro angulo  = 180o celeritas angularis adhuc est realis.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 480
+
+COROLLARIUM 2
+
+530. Si autem fuerit
+
+
+
+<
+
+4 fg ff +kk
+
+,
+
+angulus
+
+COI
+
+=
+
+non ultra certum limitem
+
+crescere potest corpusque, cum eo pertinerit, rursus descendet motumque oscillatorium peraget; ac ducta IK horizontali, ob OK = f cos angelo
+
+elongationis COI respondebit celeritas angularis
+
+( )  =
+
+
+
++
+
+4 g OK ff +kk
+
+.
+
+SCHOLION
+531. Sive corpus integras revolutiones absolvat sive oscillando eat redeatque, determinatio motus eundem calculum postulat, atque motus penduli simplicis, quo corpusculum infinite parvum filo inertiae experti alligatum circa axem horizontalem gyratur. Quem motum cum iam fusius supra exposuerimus, superfluum foret eosdem calculos hic repetere; sufficiet igitur pro quovis casu pendulum simplex assignasse, quod pari motu angulari feratur. Atque hic quidem tantum longitudo huius penduli simplicis in computum venit, cum motus eius solum ab eius longitudine pendeat, siquidem initio utrique eundem motum angularem tribuimus.
+DEFINITIO 9
+532. Pro motu gyratorio vel oscillatorio corporis cuiusvis gravis circa axem horizontalem pendulum simplex isochronum vocatur, quod cum semel in pari a recta verticali elongatione parem celeritatem angularem acceperit, deinceps continuo simili angulari feratur.
+EXPLICATIO
+533. Si corpus ponatur quodcunque AEBF (Fig. 67), quod a sola gravitate sollicitatum circa axem horizontalem O gyretur, primo eius centrum inertiae I spectandum est, quod si in recta verticali OC versatur, corporis situm naturalem, in quo acquiescat, indicat, angulus autem COI elongatio a situ naturali vocatur. Quodsi iam huic corpori in data elongatione datus motus angularis fuerit impressus, pendulum simplex isochronum ita debet esse comparatum, ut, si ei in pari elongatione aequalis motus angularis imprimatur, deinceps huius motus perpetuo sit responsurus motui corporis propositi. Vel quia totum negotium a longitudine huius penduli simplicis pendet, si id fuerit OS atque ex communi axe O suspensum concipiatur, motu suo perpetuo motum corporis AEBF comitabitur, dummodo semel aequalem motum gyratorium acceperit. Perinde
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 481
+
+quidem est, sive hoc pendulum simplex eidem axi applicatum concipiatur sive secus; sed quoniam utrinque elongationes a situ verticali OC perpetuo eaedem esse debent corporisque elongatio ex situ rectae OI est aestimanda, pendulum simplex commodissime in puncto O suspensum consideratur, ut eius situs OS perpetuo in rectam OI incidat totaque quaestio ad determinationem puncti S revocetur.
+
+COROLLARIUM 1
+
+534. Invento hoc puncto S in recta OI producta corpus perinde movebitur, ac si tota eius massa in ipso hoc puncto S esset collecta; tum enim ob extensionem evanescentem habetur pendulum simplex longitudinis OS.
+
+COROLLARIUM 2
+
+535. Hoc ergo punctum S quaeri debet in recta, quae per centrum inertiae corporis ad axem gyrationis normalite ducitur, etiamsi hic non sit necessarium ut pendulum simplex OS ex eodem axis puncto O suspensum statuatur.
+
+SCHOLION
+
+536. Cum istud pendulum simili motu latum ob massae evanescentiam simplex vocatur, ad hunc modum corpora quaevis extensa circa axem fixum mobilia vocari solent penduli composita, ita ut quaestio huc reducatur, ut proposito quocunque pendulo composo, quod scilicet sit corpus rigidum, assignetur pendulum simplex isochronum, quam quaestionem nunc quidem facillime resolvere poterimus. Ceterum monendum est filum, quo pendulum simplex axi alligatum intelligimus, non solum inertiae expers statui, sed etiam rigidum concipi oportere, ne ulla inflexio calculum turbare queat.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 482
+
+PROBLEMA 46
+537. Proposito corpore quocunque rigido et gravi AEBF circa axem horizontalem fixum O mobili (Fig. 67), definire pendulum simplex isochronum OS.
+
+SOLUTIO
+
+Posita massa totius corporis = M eiusque centro inertiae in I, hinc ad axem ducatur recta normalis IO = f, quae iam a verticali OC distet angulo COI =  ;
+
+tum vero sit Mkk momentum inertiae corporis respectu axis per I ducti et axi
+
+gyrationis paralleli. His positis, quicunque motus corpori initio fuerit impressus,
+
+elapso tempore = t motus variatio hac formula exprimatur
+
+dd
+
+=
+
+-2
+
+fgdt2 sin ff +kk
+
+.
+
+Ponatur nunc penduli simplicis isochroni longitudo OS = l, quod cum eodem angulo COS =  a situ verticali distet, eius motus hanc variationem patientur, ut
+
+sit
+
+dd = -2gdt2 sin ,
+l
+
+quae quidem formula ex praecedente fluit ponento k = 0 et f = l. Quare, cum
+
+eadem variatio utrinque evenire debeat, obtinemus
+
+l=
+
+ff +kk f
+
+seu l =
+
+f
+
++
+
+kk f
+
+.
+
+COROLLARIUM 1
+
+538. Longitudo ergo penduli simplicis isochroni OS superat distantiam centri
+
+inertiae I ab axe gyrationis O estque intervallum
+
+IS
+
+=
+
+kk f
+
+.
+
+Cognita
+
+vero
+
+longitudine OS = l erit
+
+kk = f (l - f ) = OI  IS ,
+
+ita ut pro eodem corpore rectangulum OI  IS sit constans.
+
+COROLLARIUM 2
+
+539. Si pro eodem corpore distantia OI = f varietur, patet tam casu f = 0 quam f =  pendulum simplex isochronum l evadere inifinitum; brevissimum autem
+erit, si capiatur f = k, quo casu l = 2k ; praeterea semper est l > 2k .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 483
+
+COROLLARIUM 3
+
+540. Invento pendulo simplici isochrono l, quoniam oscillationes minimae corporis perinde atque istius penduli sunt isochronae, tempus cuiusque
+
+oscillationis erit =
+
+l 2g
+
+min. sec. (§ 215). Hinc si prodeat
+
+l
+
+=
+
+2g 
+
+,
+
+singulae
+
+oscillationes minimae corporis absolventur minutis secundis.
+
+SCHOLION
+
+541. Hinc collititur methodus facilis cuiusque corporis momentum inertiae
+
+practice definiendi. Suspenso enim corpore ex axe horizontali, circa quem
+
+liberrime gyrari queat, omni cura primo defineatur distantia centri inertiae I ab
+
+axe gyrationis O, nempe OI = f, quod etiam practise fieri potest; deinde corpus
+
+ad minimas oscillationes peragendas incitetur, pluribusque dato tempore
+
+numeratis inde colligatur tempus unius oscillationis, quod sit =  min.sec., hinc
+
+habebitur
+
+l
+
+=
+
+2 g 
+
+;
+
+quo
+
+invento
+
+erit
+
+kk
+
+=
+
+f
+
+(l -
+
+f
+
+),
+
+et
+
+pondus
+
+corporis
+
+M
+
+per
+
+kk
+
+muliplicatum dabit momentum inertiae respectu axis per eius centrum inertiae
+
+transeuntis et axi gyrationis paralleli. Potest etiam hoc experimentum
+
+multiplicari, dum corpus successive ex variis axibus, qui tamen sint inter se
+
+paralleli, suspenditur, quo certiores de vero valore kk reddamur. Quin etiam hinc
+
+vicissim longitudo penduli simplicis singulia minutis secundis oscillationis
+
+explorare potest, quandoquidem neque pendulis simplicibus uti licet neque
+
+altitudo lapsus g uno minuto secundo absoluto satis accurate per experimenta
+
+lapsus determiniri potest. Hinc autem pro corpore suspenso quantitates f et kk
+
+accurate
+
+nosse
+
+oportet,
+
+unde
+
+colligitur
+
+l
+
+=
+
+f
+
++
+
+kk f
+
+;
+
+tum,
+
+si
+
+tempus
+
+unius
+
+oscillationis minimae
+
+
+
+sit observatum, habebitur
+
+g
+
+=
+
+ l 2
+
+hincque longitudo
+
+penduli
+
+simplicis
+
+singulis
+
+minutis
+
+secundis
+
+oscillantis
+
+2g 
+
+=
+
+l 
+
+.
+
+DEFINITIO 9
+542. Centrum oscillationis in pendulo composito est punctum, in quo si tota corporis massa esset collecta, idem motus oscillatorius esset proditurus. Sumitur autem in recta, quae per centrum inertiae corporis transiens ad axem gyrationis est normalis.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 484
+
+COROLLARIUM 1
+
+543. Distantia ergo centri oscillationis ab axe gyrationis aequalis est longitudini penduli simplicis isochroni; ac semper ab axe gyrationis O magis distat, quam
+
+centrum
+
+inertiae,
+
+intervallo
+
+IS
+
+=
+
+kk f
+
+.
+
+COROLLARIUM 2
+
+544. Ad centrum igitur oscillationis S inveniendum nosse oportet momentum
+
+inertiae corporis respectu axis per eius centrum inertiae I transeuntis et axi
+
+gyrationis paralleli, quod si fuerit = Mkk, dividi debet per Mf, hoc est per
+
+productum ex massa corporis M in distantiam axis gyrationis a centro inertiae
+
+OI = f, et quotus
+
+Mkk Mf
+
+ostendet distantiam centri oscillationis a centro inertiae.
+
+SCHOLION
+
+545. Hoc modo investigatio motus pendulorum compositorum ad centri oscillationis investigationem perduci solet, etsi ad hoc sufficit longitudinem
+
+penduli simplicis isochroni nosse, neque ulla ratio urget, ut hoc pendulum eidem axi suspensionis et quidem secundum rectam per centrum inertiae ad axem
+
+suspensionis normaliter ductam applicatum concipiatur. Verum hic modus rem concipiendi est commodissimus et, si corpus in situ quietis pendeat, ut recta per
+
+centrum inertiae ad axem normalite ducta simul sit verticalis, centrum
+
+oscillationis in eadem recta profundius quam centrum inertiae erit situm; neque enim hic opus est, ut corpus tanquam in motu spectetur. Ita recta OI in
+
+verticalem OC incidens consideratur, in qua erit centrum oscillationis S profundius situm centro inertia I, quod hic revera nomen centri gravitatis
+
+obtinet,
+
+ita
+
+ut
+
+sit
+
+intervallum
+
+IS
+
+=
+
+Mkk Mf
+
+=
+
+kk f
+
+.
+
+Quare
+
+calculus
+
+centri
+
+oscillationis
+
+facillime expeditur calculo, quem supra pro momento inertiae inveniendo tradidimus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 485
+
+EXEMPLUM
+
+546. Experimenta ante memorata globo ex materia homogenoa confecto institui
+
+solent (Fig. 68), qui ope fili OB suspensus ad minimas oscillationes incitatur,
+
+ubi quidem filum tam tenue est sumendum, ut eius
+
+massa prae globo pro nihilo haberi liceat. Sit igitur
+
+radius globi BI = b et distantia puncti suspensionis O
+
+a centro globi I, quod simul eius est centrum inertiae
+
+vel gravitatis, nempe OI = f, erit, ut supra invenimus,
+
+kk
+
+=
+
+2 5
+
+bb.
+
+Quare
+
+centrum
+
+oscillationis
+
+erit
+
+in
+
+S,
+
+ut
+
+sit
+
+IS
+
+=
+
+2bb 5f
+
+,
+
+seu
+
+oscillationes
+
+convenient
+
+cum
+
+oscillationibus penduli simplicis, cuius longitudo est
+
+=
+
+f
+
++
+
+2bb 5f
+
+. Ut
+
+ergo
+
+hoc
+
+pendulum
+
+singulis
+
+minutis
+
+secundis oscilletur, necesse est sit
+
+f
+
++
+
+2bb 5f
+
+=
+
+2g 
+
+seu
+
+ff
+
+=
+
+2 gf 
+
+-
+
+2 5
+
+bb,
+
+unde
+
+( ) f
+
+=
+
+g 
+
+±
+
+g 4
+
+-
+
+2 5
+
+bb
+
+,
+
+ita
+
+ut
+
+pro
+
+f
+
+duplex
+
+habeatur
+
+valor,
+
+qui
+
+simul
+
+sumti
+
+dent
+
+2g 
+
+. Hi ambo valores
+
+fient aequales, si globus tantus accipiatur, ut sit
+
+bb
+
+=
+
+5gg 2 4
+
+et
+
+b
+
+=
+
+g 
+
+5 2
+
+;
+
+hoc est, in pedibus Rhenanis debet esse radius globi = 2,50317, ac tum distantia
+
+OI = f fit = 1,583144 ped., ita ut punctum suspensionis seu axis gyrationis intra
+
+globum capi debeat. Cum autem sit
+
+f
+
+=
+
+g 
+
+=b
+
+5 2
+
+seu f = k, evidens est hoc casu globum celerrime oscillari. Scilicet si sit
+
+I = b
+
+5 2
+
+,
+
+ducta
+
+horizontali
+
+
+
+,
+
+quae
+
+axem
+
+gyrationis
+
+referet,
+
+erit
+
+cos B =
+
+5 2
+
+ideoque arcus
+
+B
+
+=
+
+50o 46'.
+
+Sin autem globus
+
+fuerit
+
+valde parvus,
+
+ut fieri solet, ad minuta secunda producenda sumi debet
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 486
+
+OI
+
+=
+
+2g 
+
+-
+
+ bb 5g
+
+;
+
+quare, ut globus ex ipso puncto B suspensus hoc praestet, eius radius debet esse
+( ) 65-5 g
+b = 2 = 0,155136g proxime.
+
+PROBLEMA 47
+
+547. Si corpus rigidum circa axem horizontalem mobile pluribus constet partibus, quarum singularum centra inertiae et momenta inertiae sint cognita, definire totius corporis centrum oscillationis.
+SOLUTIO
+Axis gyrationis horizontalis ad planum figurae in puncto O normalis concipiatur (Fig. 69) sintque A, B, C, D centra inertiae partium, ex quibus corpus est compositum, quarum partium massae sint A, B, C, D et momenta inertiae respectu axium ipsi axi gyrationis parallelorum et per cuiusque centrum inertiae transeuntium Aa2 , Bb2 , Cc2 , Dd 2 ;centra autem
+inertiae distent ab axe gyrationis intervallis AO, BO, CO, DO; perinde enim est, sive haec intervalla ad idem axis punctum O tendant sive ad diversa, quoniam tam momenta gravitatis quam momenta inertiae tantum a distantiis ab axe pendent, neque diversitas punctorum O quicquam eo confert. Primum ergo centrum inertiae I totius corporis, cuius massa sit = M = A + B + C + D, definiatur, quod in tali recta OI erit situm, ut sit AOA sin AOI + B OB  sin BOI = C OC  sin COI + D OD  sin DOI;
+tum vero erit : M OI = A AO  cos AOI + B  BO  sin BOI + C CO  cos COI + D  DO  cos DOI;
+
+quae
+
+quantitas
+
+in
+
+superiori
+
+formula
+
+IS
+
+=
+
+Mkk Mf
+
+loco Mf scribi debet. At
+
+momentum inertiae totius corporis respectu axis gyrationis M ( ff + kk ) ex
+
+partibus ita componitur, ut sit :
+( ) ( ) ( ) ( ) A AO2 + aa + B BO2 + bb + C CO2 + cc + D DO2 + dd .
+
+Quare, cum sit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 487
+
+OS
+
+=
+
+M
+
+(
+
+ff +kk )
+Mf
+
+,
+
+erit
+
+A( AO2 +aa)+ B( BO2 +bb)+C(CO2 +cc)+ D( DO2 +dd )
+OS = AAOcos AOI + BBOcos BOI +CCOcos COI + DDOcos DOI .
+
+COROLLARIUM 1
+
+548. Si singulae partes seorsim considerentur earumque centra oscillationis
+
+statuantur in punctis a, b, c, d, ob
+
+A( AO2 +aa)
+Oa = AAO
+
+erit
+
+OS
+
+=
+
+AOAOa+ BOBOb+COCOc+ DODOd AAOcos AOI + BBOcos BOI +CCOcos COI + DDOcos DOI
+
+.
+
+COROLLARIUM 2
+
+549. Invento autem centro inertiae seu gravitatis totius corporis I loco denominatoris poni potest M OI ; per praecepta autem statica centrum gravitatis totius corporis ex datis centris gravitatis partium facile colligitur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 488
+
+EXEMPLUM
+
+550. Sit pendulum compositum ex virga cylindrica recta
+
+ACB et globo illi annexo BEDF, quod circa axem
+
+horizontalem eOf sit mobile (Fig. 70), cuius centrum
+
+oscillationis S quaeratur. Virga autem et globus constent
+
+ex materia uniforma ponaturque virgae longitudo AB = a,
+
+pondus = A et extremitatis B ab aex gyrationis O distantia
+
+BO = b, basis autem huius cylindri radius = c ; erit eius
+
+centrum inertiae in C, ut sit
+
+AC
+
+=
+
+BC
+
+=
+
+1 2
+
+a
+
+et
+
+OC
+
+=
+
+b
+
+-
+
+1 2
+
+a,momentum
+
+vero
+
+inertiae
+
+respectu axis per C ducti et axi gyrationis paralleli =
+
+( ) A
+
+1 12
+
+aa
+
++
+
+1 4
+
+cc
+
+.
+
+Porro globi annexi sit massa = E, radius
+
+BG = e, erit eius centrum inertiae in G et momentum
+
+inertiae
+
+=
+
+2 5
+
+Eee
+
+.
+
+Sit
+
+iam
+
+totius
+
+corporis
+
+centrum
+
+inertiae
+
+in I, erit
+
+( ) ( A + E)OI = A
+
+b
+
+-
+
+1 2
+
+a
+
++ E (e + b) = Mf ;
+
+deinde momentum inertiae respectu axis gyrationis =
+
+( ) ( ) A
+
+ 
+
+1 12
+
+aa
+
++
+
+1 4
+
+cc
+
++
+
+b- 1 a 2
+
+2
+
+ 
+
++
+
+E
+
+2 ee+(b+e)2
+5
+
+,
+
+quod loco M ( ff + kk ) substituti debet. Sicque centrum oscillationis erit in S, ut
+
+sit
+
+OS
+
+=
+
+A(
+
+1 3
+
+aa
+
+-
+
+ab
+
++
+
+bb
+
++
+
+1 4
+
+cc
+
+)+
+
+E
+
+(
+
+bb
+
++
+
+2 be
+
++
+
+7 5
+
+ee
+
+)
+
+A(
+
+b
+
+-
+
+1 2
+
+a
+
+)+
+
+E
+
+(
+
+b
+
++
+
+e
+
+)
+
+,
+
+ergo ob OG = b + e fiet
+
+GS
+
+=
+
+( ) A
+
+be
+
++
+
+1 2
+
+ab
+
+-
+
+1 2
+
+ae
+
+-
+
+1 3
+
+aa
+
+-
+
+1 4
+
+cc
+
+-
+
+E
+
+
+
+2 5
+
+ee
+
+A(
+
+b
+
+-
+
+1 2
+
+a
+
+)+
+
+E
+
+(
+
+b
+
++
+
+e
+
+)
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 489
+
+COROLLARIUM 1
+
+551. Si axis gyrationis O capiatur in summitate virgae A, ut sit b = a, erit
+
+OS
+
+=
+
+A(
+
+1 3
+
+aa
+
++
+
+1 4
+
+cc
+
+)+
+
+E
+
+(
+
+aa
+
++
+
+2
+
+ae
+
++
+
+7 5
+
+ee)
+
+A
+
+1 2
+
+a
+
++
+
+E
+
+(
+
+a
+
++
+
+e
+
+)
+
+et
+
+GS
+
+=
+
+( ) A
+
+1 2
+
+ae
+
++
+
+1 6
+
+aa
+
+-
+
+1 4
+
+cc
+
+-
+
+E
+
+
+
+2 5
+
+ee
+
+A
+
+1 2
+
+a
+
++
+
+E
+
+(
+
+a
+
++
+
+e
+
+)
+
+,
+
+siquidem sumamus punctum S supra G cadere.
+
+COROLLARIUM 2
+
+552. Si sit exempli gratia
+
+E
+
+=
+
+30
+
+A,
+
+a
+
+=
+
+b
+
+=
+
+3
+
+ped.,
+
+e
+
+=
+
+1 12
+
+ped.,
+
+et c =
+
+1 500
+
+ped.,
+
+ita
+
+ut cc tuto negligi possit, erit
+
+OG
+
+=
+
+3
+
+1 12
+
+=
+
+3,0833
+
+et
+
+OS
+
+=
+
+3+
+
+285
+
+7 24
+
+1
+
+1 2
+
++
+
+92
+
+1 2
+
+=
+
+288
+
+7 24
+
+94
+
+= 3,0669,
+
+hocque casu punctum S supra G cadit; sin autem massa virgae evanesceret, foret
+
+OS = 3,0842 sicque S infra G caderet.
+
+SCHOLION
+
+553. Hic postremus casus ideo est notatu dignus, quod vulgo filum, si fuerit
+
+valde tenue ac leve respectu globi, vix quicquam ad centrum oscillationis
+
+conferre videatur hic enim certe, etsi globus tricies ponderosier est filo, huius
+
+ratio sine insigni errore negligi non posset. Ponamus enim hoc pendulum
+
+oscillationes absolvisse minutis secundis hincque longitudinem penduli
+
+simplicis isochroni determinare oportere. Haec igitur neglecta fili massa prodiret
+
+= 3,0842 ped., cum tamen revera tantum fit 3,0669 ped., ita ut error 0,0173 ped.
+
+=
+
+2
+
+1 2
+
+lin.
+
+committeretur
+
+minime
+
+certe
+
+tolerandus.
+
+Sin
+
+autem
+
+manentibus
+
+reliquis
+
+dimensionibus filum adhuc levius atque E = 60A esset, foret
+
+OS
+
+=
+
+3+
+
+570
+
+7 12
+
+1
+
+1 2
+
++185
+
+= 3,0755,cuius
+
+loco
+
+si
+
+sumeretur
+
+3,0842,
+
+error
+
+committeretur
+
+=
+
+0,0087
+
+ped
+
+=
+
+5 4
+
+lin.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 490
+
+PROBLEMA 48
+
+554. Si pendulum constet ex virga tenuissima OB inertiae experte, rigida tamen, et globo BDEF (Fig. 71), invenire locum, ubi alius globus datus eidem virgae affigi debeat, ut oscillationes fiant promtissimae.
+
+SOLUTIO
+Cum in O sit axis gyrationis, sit distantia OG = b et radius globi infra affixi BG = c massaque huius globi = B; tum alterius globi affigendi sit massa = L et radius QK = e, pro loco autem eius quaesito distantia OQ = q. His positis sit I centrum inertiae commune, erit
+( B + L)OI = Bb + Lq = Mf ,tum vero
+
+momentum inertiae totius penduli respectu axis
+
+gyrationis =
+
+( ) ( ) B
+
+2 5
+
+cc
+
++
+
+bb
+
++L
+
+2 5
+
+ee
+
++
+
+qq
+
+= M ( ff + kk ) .
+
+Quare, si centrum oscillationis statuatur in S, erit
+
+OS
+
+=
+
+B
+
+(
+
+2 5
+
+cc
+
++bb
+
+)
+
++
+
+L(
+
+2 5
+
+ee
+
++
+
+qq
+
+)
+
+( Bb+ Lq)
+
+,
+
+quae longitudo minima esse debet, ut oscillationes fiant promtissimae. Hinc prodit ista aequatio :
+
+( ) 2BLbq - BL
+
+2 5
+
+cc
+
++
+
+bb
+
+-
+
+2 5
+
+LLee
+
++
+
+LLqq
+
+=
+
+0
+
+seu
+
+( ) Lq = -Bb + BBbb + BLbb + 2 BLcc + 2 LLee ,
+
+5
+
+5
+
+unde innotescit distantia OQ = q, ex qua porro colligitur longitudo penduli
+
+simplis isochroni
+
+( ) OS
+
+=
+
+2 L
+
+BBbb
+
++
+
+BLbb
+
++
+
+2 5
+
+BLcc
+
++
+
+2 5
+
+LLee
+
+-
+
+2Bb L
+
+=
+
+2q.
+
+Hinc, si ambo globi ex eadem materia fuerint confecti, ob B:L = c3:e3 erit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 491
+
+( ) 2
+OS =
+
+c6bb
+
++
+
+c3e3
+
++
+
+2 5
+
+c5e3
+
++
+
+2 5
+
+e8
+
+-2c3b
+
+e3
+
+et
+
+( ) OQ = q =
+
+c6bb
+
++
+
+c3e3bb
+
++
+
+2 5
+
+c5e3
+
++
+
+2 5
+
+e8
+
+e3
+
+-c3b
+.
+
+COROLLARIUM 1
+
+555. Si diametri globorum fuerint minimi, ut cc et ee prae bb negligi queant,
+
+distantia OQ = q ita capi debet, ut sit
+
+B( B+ L) - B
+
+OQ =
+
+L
+
+b,
+
+et longitudo penduli simplicis isochroni erit
+
+2 OQ = 2b 
+
+B( B+ L) - B
+
+L
+
+.
+
+COROLLARIUM 2
+
+556. Si globus alter KLMN plane omitteretur, foret
+
+OS
+
+=
+
+b
+
++
+
+2cc 5b
+
+,
+
+quae maior est quam adiuncto isto globo, si fuerit
+
+b + 2cc > 2e 2 .
+
+5b
+
+5
+
+Unde, nisi sit
+
+( ) e > 5 22
+
+b
+
++
+
+2cc 5b
+
+,
+
+hoc altero globo adiungendo oscillationes promtiores reddi possunt.
+
+COROLLARIUM 3
+
+557. Si autem fuerit
+
+( ) e = 5 22
+
+b
+
++
+
+2cc 5b
+
+,
+
+quantacunque etiam fuerit huius globi massa L, pro oscillationibus celerrimis
+
+obtinendis sumi debet
+
+OQ
+
+=
+
+q
+
+=
+
+1 2
+
+b
+
++
+
+cc 5b
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 492
+
+et
+
+tum
+
+longitudo
+
+pendui
+
+simplicis
+
+isochroni
+
+erit
+
+=
+
+1 2
+
+b
+
++
+
+cc 5b
+
+,
+
+omnia
+
+ac
+
+si
+
+globus
+
+KLMN removeretur.
+
+COROLLARIUM 4
+
+558. Si ambo globi fuerint aequales, ut sit L = B et e = c, oscillationes
+
+promtissimae evadent capiendo
+
+( ) OQ = q =
+
+2bb
+
++
+
+4 5
+
+cc
+
+-b;
+
+ac si cc prae bb negligere liceat,
+( ) OQ = OG 2 -1 ;
+
+hincque longitudo penduli simplicis isochroni =
+
+( ) 2 OG 2 -1 = 0,828427 OG.
+
+COROLLARIUM 5
+559. Si ambo globi ex eadem materia constent, definiri potest globi KLMN radius e, ut eo rite adiungendo oscillationes fiant promtissimae; scilicet e quaeri debet ex hac aequatione
+16e10 - 48c5e5 - 600bbc6ee + 9c6 (5bb + 2cc)2 -120bbc3e5 = 0.
+
+SCHOLION
+
+560. Ceterum patet, quo minor sit radius e globi KLMN manente eius massa L,
+
+eo minorem prodire distantiam OQ = q, ideoque eo promtiores fore
+
+oscillationes. At vero manente radio e oscillationes fient celerrimae, si massa L
+
+globi affigendi fuerit quam maxima; nam si esset L = 0, foret
+
+OS
+
+=
+
+b
+
++
+
+2cc 5b
+
+,
+
+qui est valor maximus, siquidem affigendo altero globo oscillationes crebriores
+
+reddi possunt [Opera Omnia nota: Euler omittit hypothesin e < 5bb+2cc .] At
+2b 10
+
+vero, si fuerit
+
+5bb + 2cc = 2be 10 seu e = 5bb+2cc ,
+2b 10
+
+quantacunque fuerit huius globi massa L, eo rite annexo oscillationes manent
+
+eiusdem durationis, et si hic globus adhuc fuerit maior, oscillationes adeo
+
+tardiores evadent. Quodsi ambo globi ex materia aeque gravi fuerint confecti,
+
+magnitudo affigendi, ut motus oscillationes fiat rapidissimus, ex aequatione
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 493
+
+decimi gradus definiri debet; verum axis per centrum G globi BCDF transeat, ut
+
+sit
+
+b
+
+=
+
+0,
+
+inde
+
+prodit
+
+e
+
+=
+
+c5
+
+3 2
+
+pro
+
+radio
+
+globi
+
+affigendi
+
+et
+
+pro
+
+eius
+
+loco
+
+( ) OQ = q =
+
+2 5
+
+c5 e3
+
++
+
+2 5
+
+e2
+
+= c10 8
+27
+
+et longitudo penduli simplicis isochroni = c10 8 . Axis ergo gyrationis per
+27
+centrum prioris globi transiens alterum ita traiicere debet, ut ab eius centro distet intervallo
+
+OQ = c10 8 , quod minus est eius radio e = c 5 3 .Huiusmodi autem quaestiones
+
+27
+
+2
+
+circa motum oscillatorium plures proponi possent, quae autem ex stabilitis hic
+
+principiis non difficulter solventur. Plurimum autem intererit investigare,
+
+quamtas vires ipse axis gyrationis inter motum sustineat.
+
+PROBLEMA 49
+
+561. Dum corpus rigidum grave circa axem horizontalem fixum OA gyratur, ad quodvis tempus definire vires, quas axis in datis duobus punctis O et A sustinet.
+
+SOLUTIO
+Repraesentet tabula planum verticale per axem gyrationis OA transiens (Fig. 72), verseturque iam centrum inertiae corporis extra hoc planum in I, unde tam ad planum verticale quam ad axem ducantur perpendiculares IK et IG, erit angulus IGK =  elongatio corporis a situ
+naturali, ac posita distantia IG = f erit KI = f sin et GK = f cos. Tum sit
+massa corporis = M, quae cum simul eius pondus exprimat, vis sollicitans erit = M in directione verticali IV urgens, cuius momentum = Mf sin
+tendit ad angulum IGK minuendum. Deinde consideretur elementum corporis quodcunque dM in Z , unde ad planum verticale et axem ductis perpendicularis ZY, ZX vocentur coordinatae
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 494
+
+OX = x, XY = y et YZ = z,
+
+eritque
+
+OG
+
+=
+
+ xdM M
+
+,
+
+GK
+
+=
+
+
+
+ydM M
+
+,
+
+et
+
+KI
+
+=
+
+
+
+zdM M
+
+;
+
+posita autem distantia
+
+XZ= ( yy + zz) = r
+
+exprimit  rrdM momentum inertiae corporis respectu axis OA, quod sit = Mkk;
+denique ponatur distantia punctorum axis OA = a et per ambo ducantur rectae BOb, COc et EAe, FAf ipsis KG et KI parallelae. His praeparatis secundum ductum problema 23 primum observo nullum adesse vim, cuius directio cum axe sit in eodem plano; cum autem hic momentum vis Mf sin in sensum contrarium vergat, atque ibi sumsimus, erit Vf = -Mf sin.
+Nunc igitur ob vim IV = M, quae axi in G secundum directonem GK applicata est concipienda, axis in punctis O et A has sustinebit vires
+
+sec .
+
+OB
+
+vim
+
+=
+
+M AG a
+
+,
+
+sec .
+
+AE
+
+vim
+
+=
+
+M OG a
+
+.
+
+Quibuscum coniungendae sunt illae, quae ex viribus elementaribus contrarie
+
+applicatis nascuntur, quae sunt
+
+pro termino O
+
+sec.
+
+Ob
+
+vis
+
+=
+
+f
+
+sin (a- x)zdM
+akk
+
+sec.
+
+Oc
+
+vis
+
+=
+
+f
+
+sin (a- x) ydM
+akk
+
+sec.
+
+Ae
+
+vis
+
+=
+
+f
+
+sin xzdM akk
+
+pro termino A
+
+sec.
+
+Ae
+
+vis
+
+=
+
+f
+
+sin xydM akk
+
+hasque vires axis ob actionem gravitatis corporis sustinet, verum ob motum, quo iam gyratur, si celeritas gyratoria vocetur =  , axis in punctis O et A has vires
+sustinet :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 495
+
+sec.
+
+OB
+
+vis
+
+=
+
+
+
+
+
+(
+
+a-x)
+2ag
+
+zdM
+
+pro termino O
+
+sec.
+
+OC
+
+vis
+
+=
+
+
+
+
+
+(a-x)
+2ag
+
+ydM
+
+pro termino A
+
+sec.
+
+AE
+
+vis
+
+=
+
+
+
+ xzdM 2ag
+
+sec.
+
+AE
+
+vis
+
+=
+
+
+
+ xydM 2ag
+
+COROLLARIUM 1
+
+562. Si distantia terminorum O et A a puncto G vocentur OG = b et AG = c, ut sit a = b + c , tum vero ponatur GX = u, erit x = b - u et a - x = c + u ; ideo
+ (a - x) zdM =  (c + u) zdM = Mc  KI +  uzdM ,  (a - x) ydM =  (c + u) ydM = Mc GK +  uydM ,
+ xzdM =  (b - u) zdM = Mb  KI -  uzdM ,  xydM =  (b - u) ydM = Mb GK -  uydM .
+
+COROLLARIUM 2
+
+563. His valoribus introductis axis in puncto O has vires sustinet : primo secundum directionem OB vim
+
+Mc a
+
+-
+
+Mcf
+
+sin   KI akk
+
+-
+
+f
+
+sin uzdM akk
+
++
+
+
+
+McGK 2ag
+
++
+
+
+
+ uydM 2ag
+
+,
+
+deinde secundum directionem OC vim
+
+Mcf
+
+sin  GK akk
+
++
+
+f
+
+sin uydM akk
+
++
+
+
+
+McKI 2ag
+
++
+
+
+
+ uzdM 2 ag
+
+.
+
+At vero in puncto A istas :
+
+primo secundum directionem AE vim
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 496
+
+Mb a
+
+-
+
+Mbf
+
+sin   KI akk
+
++
+
+f
+
+sin uzdM akk
+
++  MbGK
+2ag
+
++   uydM
+2ag
+
+,
+
+deinde secundum directionem AF vim
+
+Mbf
+
+sin  GK akk
+
+-
+
+f
+
+sin uydM akk
+
++
+
+ MbKI 2ag
+
+-   uzdM
+2 ag
+
+.
+
+COROLLARIUM 3
+
+564. Si corpus ita fuerit comparatum, ut in plano IGK in duas partes similes et
+
+aequales
+
+dividatur,
+
+sitque
+
+GO
+
+= GA
+
+=
+
+1 2
+
+a,
+
+ob
+
+ uzdM = 0 et  uydM = 0
+
+axis in puncto O sustinebit has vires
+
+sec.OB
+
+vim
+
+=
+
+1 2
+
+M
+
+-
+
+Mf
+
+sin   KI 2kk
+
++
+
+ M GK 4g
+
+,
+
+sec.OC
+
+vim
+
+=
+
+Mf
+
+sin  GK 2kk
+
++
+
+ M KI 4g
+
+,
+
+in puncto autem A sustinebit has vires
+
+sec.AE
+
+vim
+
+=
+
+1 2
+
+M
+
+-
+
+Mf
+
+sin   KI 2kk
+
++
+
+ M GK 4g
+
+,
+
+sec.AF
+
+vim =
+
+Mf
+
+sin  GK 2kk
+
++
+
+
+
+M KI 4g
+
+;
+
+hoc ergo casu vires non a magintudine distantiae OA = a pendent.
+
+COROLLARIUM 4
+
+565. Hoc ergo casu, quo  uydM = 0 et  uzdM = 0 , nihil impedit, quominus
+
+distantia OA = a evanescens accipiatur atque axis in unico puncto G retineri
+
+poterit ; hic quippe sustinet binas vires
+
+alteram secundum GK = M - Mff sin2  + M  f cos ,
+
+kk
+
+2g
+
+alteram
+
+secundum
+
+GH
+
+=
+
+Mff
+
+sin kk
+
+cos 
+
++
+
+M  f sin 2g
+
+existente GH ipsi KI parallela.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 497
+
+SCHOLION
+
+566. Corpora, quae vulgo ad motum oscillatorium adhiberi solent, ita sunt comparata, ut plano, quod per eorum centrum inertiae ad axem gyrationis normaliter ducitur, in duas portiones aequales et similes secentur; de iis igitur locum habet, quod axis in unico puncto retineri queat. Scilicet, si figura 67 repraesentet planum verticale per talis corporis centrum inertiae I ductum et ad axem gyrationis normale, qui figurae in O normaliter insistere concipiatur, existente OC recta verticali et OH in hoc plano horizontali, axis in puncto O vires modo indicatas substinebit. Nempe se angulus COI ponatur =  , distantia
+OI = f, massa corporis = M, eius momentum inertiae respectu axis gyrationis = Mkk et celeritas angularis in hoc statu sit =  , sive ad angulum COI augendum
+tendat sive minuendum, axis O sustinet duas vires,
+
+alteram secundum OC = M - Mff sin2  + M  f cos ,
+
+kk
+
+2g
+
+alteram
+
+secundum
+
+OH
+
+=
+
+Mff
+
+sin kk
+
+cos 
+
++
+
+M  f sin 2g
+
+.
+
+Priori ergo vi deorsum sollicitatur eamque sustentaculum sustinet; ob alteram vero vim axis in eam plagam, in qua centrum inertiae versatur, horizontaliter
+
+super sustentaculo procedere conatur, quem effectum obice arceri convenit.
+
+Quando centrum inertiae in contrariam plagam divagatur, haec vis horizontalis
+
+in contrarium dirigitur. Ceterum ambae vires ex duabus constant partibus,
+
+quarum altera actioni gravitatis, altera motui gyratorio ipsi debetur, ac ducta OL
+
+ad OI normali hae partes ad pauciorers redigentur, ut axis in puncto O ab his viribus sollicitetur :
+
+sec.OC vi = M ,
+
+sec.OL
+
+vi
+
+=
+
+Mff sin kk
+
+,
+
+sec.OI
+
+vi
+
+=
+
+Mf  2g
+
+.
+
+Si non fuerit  uydM = 0 et  uzdM = 0 , tum praeter istas vires axis insuper
+
+in punctis O et A figurae 72 eas virium § 563 partes sustinet, quae has formulas integrales involvunt, quoniam reliquas partes immunes ad unicum punctum reducere licuit.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 498
+
+PROBLEMA 50
+
+567. Si axis OA, circa quem corpus rigidum grave est mobile, non fuerit horizontalis, definire motum gyratorium ut et vires, quas axis inde sustinet.
+
+SOLUTIO
+Per axem OA ductum concipiatur planum verticale, in quo sit GC recta verticalis (Fig. 73), ponaturque angulus OGC =  , cuius complementum
+
+90o -  dat axis OA inclinationem ad
+
+horizontem. Reperiatur nunc corporis centrum inertiae I extra hoc planum verticale, unde ad axem ducta normali IG = f et ex G in plano verticali ad axem pariter normaliter GK erit ipsum planum IGK ad planum verticale normale, ponaturque angulus IGK =  ,
+
+elongationem corporis a situ suo naturali metiens; recta enim GI in plano IGK movebitur. Statuatue massa corporis eademque eius pondus = M eiusque momentum inertiae respectu axis OA = Mkk, quod perinde colligitur, ac si axis esset horizontalis; inclinatio enim tantum ad vim sollicitantem spectat. Effectus autem gravitatis eo redit, ut corpus in puncto I sollicitetur in directione verticali IV a vi = M; ad quam resolvendam ducantur IM et IN parallelae ipsis GO et GK, eruntque rectae IM, IV et IN in plano verticali angulusque MIV =  . Hinc ex vi
+
+IV = M nascuntur duae vires, altera secundum IM = M cos et altera secundum IN = M sin . Prior cum sit axi parallela, nihil plane ad motum confert, sed tota
+
+in axem impenditur, quemadmodum supra docuimus. Pro motu ergo restat sola vis IN = M sin , cuius directio cum sit ipsi GK parallela, orietur momentum =
+
+Mf sin , cuius directio cum sit ipsi GK parallela, orietur momentum = Mf sin sin tendens ad angulum IGK minuendum,atque pro motu definiendo
+
+formuale superiores pro axe horizontali inventae valebunt, nisi, quod loco momenti vis sollicitantis, quod ante erat = Mf sin , hic scribi debeat
+
+Mf sin sin , vel quatenus M pondus corporis denotat, eius loco scribi debet M sin , quatenus autem in momentum inertiae ingreditur, immutatum relinqui
+
+debet. Quare motus similis erit motui penduli simplicis circa axem
+
+horizontalem,
+
+cuius
+
+longitudo
+
+=
+
+Mkk Mf sin
+
+
+
+=
+
+f
+
+kk sin 
+
+, quo ipso motus perfecte
+
+determinatur. Quod autem ad vires attinet, quas axis interea sustinet in datis si placet punctis O et A, primo ob vim IM = M cos axis secundum suam
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 499
+
+directionem AO a tanta vi urgetur preaterea vero in utroque O et A a vi
+
+GI OA
+
+
+
+M
+
+cos 
+
+,
+
+in
+
+puncto
+
+A
+
+scilicet
+
+secundum
+
+directionem
+
+ipsi
+
+GI
+
+parallelam,
+
+in
+
+O vero secundum oppositam. Tum vero praeter has vires in punctis O et A ab
+
+iisdem viribus sollicitabitur, quas in problemate praecedente determinavimus,
+
+hoc tantum observato, quod pro M scribi debeat M sin et f sin sin loco
+
+f sin . Nempe, si in figura 72 OA sit noster axis inclinatus et reliqua maneant
+
+ut in problemate praecedente, tum axis praeter vires a vi IM = M cos natas sustinet insuper has vires. Primo in puncto O secundum
+
+directionem OB vim
+
+Mc sin - Mcff sin sin2  - f sin sin uzdM + Mcf  cos +   uydM
+
+a
+
+akk
+
+akk
+
+2ag
+
+2 ag
+
+et secundum directionem OC vim
+
+Mcff
+
+sin sin cos akk
+
++
+
+f
+
+sin 
+
+sin uydM akk
+
++
+
+Mcf  sin 2ag
+
++
+
+
+
+ uzdM 2ag
+
+.
+
+Deinde in puncto A secundum directionem AE vim
+
+Mb sin - Mbff sin sin2  + f sin sin uzdM + Mbf  cos -   uydM
+
+a
+
+akk
+
+akk
+
+2ag
+
+2 ag
+
+et secundum directionem AF vim
+
+Mbff
+
+sin sin cos akk
+
+-
+
+f
+
+sin 
+
+sin uydM akk
+
++
+
+Mbf  sin 2ag
+
+-   uzdM
+2ag
+
+,
+
+ubi est OA = a, OG = b, AG = c et celeritas angularis =  , integralibus sumtis, ut ibi definivimus.
+COROLLARIUM 1
+
+568. Cum longitudo pendulo simplicis isochroni sit =
+
+f
+
+kk sin 
+
+,
+
+corpus
+
+circa
+
+axem
+
+inclinatum tardius oscillationes suas absolvit, quam si axis esset horizontalis, ac
+
+si oscillationes fuerint minimae, tempus unius erit = 
+
+kk 2 fg sin
+
+min.sec.
+
+COROLLARIUM 2
+
+569. Si axis est inclinatus, etiam vim sustinet secundum suam directionem AO (Fig. 73), quae est M cos , reliquae vires omnes ad axem sunt normales et ad
+duo data puncto O et A revocari possunt.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Seven.
+
+Translated and annotated by Ian Bruce.
+
+page 500
+
+COROLLARIUM 3
+
+570. Si corpus a plano IGK in duas partes similes et aequales bisecetur, valores
+integralium  uydM et  uzdM evanescunt et omnes vires praeter eas, quae ex vi
+IM nascuntur, ad unicum punctum G reduci possunt, ut supra.
+
+SCHOLION
+
+571. Haec sunt, quae de motu gyratorio corporum rigidorum circa axem fixum proponenda videbantur, ubi quidem ipsius motus determinatio eo est reducta, ut plus difficultatis non habeat quam motus corpusculi circa axem fixum, si modo momentum inertiae fuerit exploratum. Vires autem, quas axis gyrationis inter motum sustinet, molestiorem calculum plerumque exigunt, cum ex corporis
+figura valores binorum integralium  xydM et  xzdM erui debeant. Verum
+haec investigatio maximi est momenti, si ad ad motum corporum rigidorum circa axes non fixos progredi velimus; ubi primo quidem eos casus diligentius evolvi convenit, quibus axis sponte manet immobilis, etiamsi extrinsecus non retineatur. Proposito ergo corpore quocunque rigido inquirendum est, utrum in eo dentur eiusmodi axes, circa quos si corpus motum gyratorium receperit, ipsi inde nullas sustineant vires; deinde etiam videndum est, a quibusnam viribus corpus circa talem axem motum sollicitari debeat, ut etiam hinc nullae vires ad axem dimovendum nascuntur.
+
+

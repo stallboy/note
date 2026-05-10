@@ -1,0 +1,5462 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 578
+
+Chapter 10
+
+CONCERNING THE MOMENTARY CHANGE IN THE AXIS OF ROTATION PRODUCED BY FORCES
+
+PROBLEM 62
+650. If a rigid body, while it is turning about an axis passing through the centre of inertia, is acted on by forces of such a kind, that if the body itself should be at rest then these forces themselves impress a rotational motion about some other axis : to determine the change of the motion produced in the smallest increment of time.
+SOLUTION
+Since just as in the motion now in place, so in that motion which may be impressed by the forces, the centre of inertia also remains at rest. Therefore the centre of inertia I can be considered as the centre of a sphere on the surface of which is the pole O, and the axis IO is considered, about which the body now is rotating with an angular speed equal to  , (Fig.
+84) in the sense that the point S is carried to s. [Note : all the points shown are on the surface of this sphere, and the two elemental spherical triangles shown are to be investigated, to which the sine rule is applied, where the two axes of rotation define a plane ISO cutting the surface of the sphere in a great circle. Triangle OsS is of first order, while OS is of second order in the differentials; essentially the first is a uniform rotation, while the second is an accelerated rotation starting from rest. Initially O is at rest and no rotation takes place about S; but at a later increment of time, the opposing motions due to the rotations about O and S give rise to a position of the axis of rotation instantaneously at rest at some other point o, while O progresses towards S and is at o', where oo' = oO. ] Then the body is acted on now by forces of such a kind that, if the body were at rest, it would rotate about the pole of the axis IS and in the increment of time dt it is turned through an angle qdt2, since we have considered this angle to be homogeneous in the square of the time, and it makes this rotation in the sense
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 579
+
+that the point O is carried towards . Hence the angle is given that these two axes OI and SI constitute at I, or on the spherical surface the arc of the great circle OS is put as OS = s; and in the element of time dt this arc OS on account of the motion in place, rotates about the pole O through the angle SOs =  dt arriving at the position Os, in order that the element of
+arc Ss =  dt sin s [from the spherical triangle sine rule]. Moreover on account of
+
+the impressed motion, the same arc OS rotates about the pole S through the angle OS = qdt2 arriving at the position S , so that the arclet shall be
+
+O = qdt2 sin s . Therefore from this motion to both places simultaneously, the
+point S it transferred to s and the point O to  , because neither translation disturbs the other ; but all the remaining points participate in each motion. Clearly any point o taken in the arc OS, so that Oo =  , on account of the motion in place about O is carried to m, so that the distance becomes om =  dt sin , but on account of the motion arising about S it is carred to  , so
+
+that this arc becomes
+
+o = qdt2  sin (s -  ) .
+
+Since now it shall be the case that either om > o or o > om, the point o on
+
+account of each motion is carried jointly by the difference of these arclets either towards m or towards  . Whereby, if it should be that om = o , the point o
+
+actually remains at rest and therefore is the pole, about which the body is thus agreed now to be rotating, so that the axis of rotation is transferred by the forces acting in the element of time dt from IO to Io. Therefore, we put the momentary change of the axis found to be om = o or
+
+ dt sin = qdt2  sin (s -  ) ,
+
+then  sin = qdt sin s cos - qdt cos s sin,
+now the arclet present Oo =  is indefinitely small, and thus sin =  and cos = 1, and hence
+
+
+
+=
+
+
+
+qdt sin s +qdt cos s
+
+=
+
+qdt sin s 
+
+.
+
+But the body is rotating about this axis Io with an angular speed so great, that in the time dt the points O and S are transferred to  and s, thus that is to be
+
+understood. Since indeed in that element of time dt, an angle is completed equal to
+
+O Oo
+
+=
+
+qdt2 sin s 
+
+=
+
+dt (
+
++
+
+qdt
+
+cos
+
+s),
+
+but in the preceding element of time on account of a similar force acting, as
+
+clearly the force cannot be thought to be exerted suddenly, the angle completed
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 580
+
+must be agreed to be equal to dt ( - qdt cos s) , thus so that the difference in the
+
+angles shall be 2qdt2 cos s , and thus the increase in the angular speed itself is
+
+taken as 2qdt cos s ; and by a similar account, because the value q which is
+
+introduced to be defined for continuous variations, must be doubled, also the
+
+element of distance Oo must be agreed to be twice as large. For while in the calculation, the point O is assumed to be progressing continually, moreover the
+
+point o is taken as being at rest, the interval Oo found here is different from that
+
+small interval, through which the pole of the rotation is carried forwards: for the point o' is considered, so that Oo' = 2Oo, and I say that o' is the pole of the
+
+rotation after the time dt, as at the start it was O. [Thus, the new position of the moving pole O is o', twice the angle, as the angular speed is twice as great as for
+
+the single motion with no forces; while the point at rest is o, at which the two rotary motions cancel.] For at this position it is evident that meanwhile the point
+
+o remains at rest. Whereby, since here we have found
+
+Oo
+
+=
+
+qdt sin s 
+
+,
+
+the
+
+small
+
+interval Oo', through which it has been agreed the pole of the rotation passes
+
+through,
+
+is
+
+twice
+
+as
+
+great
+
+and
+
+is
+
+equal
+
+to
+
+2qdt sin s 
+
+.
+
+Hence
+
+the
+
+forces,
+
+if
+
+the
+
+body
+
+were at rest, which start the rotational motion about the axis IS in the sense O ,
+
+from which in the element of time dt an angle OS = qdt2 is completed, thus
+
+now disturb the motion of the rotating body in place about the axis IO in the sense Ss with an initial angular speed equal to  , so that in the elapsed element
+
+of time dt the axis of rotation [due to both rotations] becomes the line Io, turning
+
+from the preceding axis IO towards IS by an angle
+
+OIo
+
+=
+
+2qdt sin 
+
+s
+
+,
+
+and likewise the rotary speed  is taken to increase by an amount equal to
+
+2qdt cos s.
+
+COROLLARY 1
+651. If the forces were acting in the opposite sense, the quantity q must be taken negatively and the point o falls in the arc SO produced beyond O and the rotary speed is diminished.
+COROLLARY 2
+652. If the arc OS either vanishes or is made equal to a semicircle, then the axis of rotation IO is not changed, but the total effect is taken up in increasing or decreasing the first rotational motion. Which is the case now treated above, where we have shown the increment or decrement in the speed to be 2qdt .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 581
+
+COROLLARY 3
+653. If the arc OS is the quadrant of the circle and thus cos s = 0 , then the angular speed  will undergo no change, but the total effect of the forces will be devoted to the change in the axis of rotation, thus by moving that either closer to or further from S.
+SCHOLIUM 1
+654. Here we taken only forces of this kind to be considered, which for a body if it should be at rest, start a simple rotational motion, with the centre of inertia remaining at rest; any forces produce an effect of this kind, if only if equal and opposite forces to these are applied at the centre of inertia, as has been demonstrated in the above chapter. Now the investigation for other forces is not more difficult, when these forces always produce the same rotary motion, and if equal and opposite forces to these are applied to the centre of inertia ; for progressive motion, that they induce on the body in additon, also here nothing will be changed in the rotational motion in which the body is now involved. But also, if in a body if besides the rotary motion about an axis IO now a progressive motion should be involved, this generates no change in the rotation about the axis IS ; from which the solution of this problem appears to be the widest, and it can be extended also for progressive motion, that the body either has now or will obtain from the action of forces. Which combination of progressive motion with rotational motion should present no difficulty, this was a particular need, so that we are able to define the rotational motion carefully, however large, on account of other rotational motion arising from disturbing forces.
+SCHOLIUM 2
+655. If the axis IO, about which the body is now assumed to be rotating, should be one of the principal axes of the body, this body motion is always preserved as if acted on by no forces, as we have shown previously. Now, if the axis IO is not a principal axis, even if no external forces are acting, yet the motion cannot be conserved, since the motion itself supplies the forces, which tend to change the direction of the axis of rotation ; hence in this case, if we wish to explore some variation arising in the axis of rotation, it is not sufficient to consider only the external forces acting on the body, but to these also must be joined the forces arising from the rotational motion, with which we have shown the above axis to be affected. Which forces, that depend on the position of the axis of gyration IO with respect to the principal axis of the body, we will not indeed proceed to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 582
+
+investigate further before attending to this, and then we progress to investigate in general, how from any forces the position of the axis of rotation is changed with respect to the principal axis of the body.
+
+PROBLEM 63
+
+656. With the position of the axis of gyration given with respect to the three principal axes of the body, and this to be varied by some forces acting, in order that the body in a minimal elapsed element of time rotates about another axis, to define the position of the variation about the principal axes.
+
+SOLUTION
+The spherical surface can be considered again (Fig. 85), at the centre of this is the centre of inertia of the body I, and now let the the radii IA, IB, IC be the
+principal axes of the body, and the body is rotating about an axis IO with an angular speed , the position of
+
+this with respect to the principal axes
+is given the arc AO =  , BO =  and CO =  ,
+
+in order that cos2  + cos2  + cos2  = 1.
+
+Then the angles are put in place : BAO =  , CBO =  , ACO = ,
+
+and on account of the quadrants AB, BC, and CA [from the cosine rule for sides : cos  = cos cos AB + sin sin AB cos  , as AB
+
+is a quadrant, etc; ] cos  = sin cos , cos  = sin  cos  , cos = sin cos ,
+
+thus there arises :
+
+cos
+
+
+
+=
+
+cos  sin
+
+,
+
+cos
+
+
+
+=
+
+cos  sin 
+
+,
+
+cos
+
+=
+
+cos  sin 
+
+,
+
+sin 
+
+=
+
+cos  sin
+
+,
+
+sin 
+
+=
+
+cos  sin 
+
+,
+
+sin
+
+=
+
+cos  sin 
+
+,
+
+hence
+
+tang
+
+=
+
+cos  cos 
+
+,
+
+tang
+
+=
+
+cos  cos 
+
+,
+
+tang
+
+
+
+=
+
+cos cos
+
+ 
+
+and thus
+
+tang  tang  tang = 1,
+
+which is the relation between the three angles  ,  , , from which the arcs
+
+ , , are defined thus, so that :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 583
+
+tang
+
+=
+
+tang  cos 
+
+=
+
+cot  sin 
+
+,
+
+tang
+
+
+
+=
+
+tang  cos 
+
+=
+
+cot sin 
+
+,
+
+tang
+
+=
+
+tang  cos
+
+=
+
+cot  sin
+
+.
+
+From these relations noted , the remainder may thus be defined from BAO =  and AO =  given, so that
+cos  = sin cos  , cos  = sin sin  ,
+
+tang
+
+
+
+=
+
+cot  sin 
+
+,
+
+tang = tang  cos .
+
+But if now on account of the forces acting in the element of time dt, the axis of rotation goes from IO to Io, then the whole body, as if meanwhile it can be considered to be going around the axis Io, in which motion the points A, B, C can be considered to maintain their distances from the point o, thus in the elapsed time dt, the pole of rotation o now has these distances Ao, Bo, Co from the principal poles A, B, C. Whereby, if the angle of the element OAo = d and Ao =  + d , the variations of the remainder are accustomed to be found by differentiation :
+
+d
+
+=
+
+d
+
+sin
+
+sin  -d sin 
+
+cos 
+
+cos 
+
+,
+
+d
+
+=
+
+-d sin cos  -d cos sin  sin 
+
+,
+
+d
+
+=
+
+-d
+
+sin  -d sin cos cos  cos2  +sin2  sin2 
+
+,
+
+d
+
+=
+
+d cos  -d sin cos sin  cos2  + sin2  sin2 
+
+.
+
+COROLLARY 1
+657. If it is allowed to proceed to the integrations from these differentials, it is possible to assign the position of this axis in the body at some time with respect to the principal axies, about which then it shall be rotating.
+COROLLARY 2
+658. Clearly here we do not consider the motion of the body itself, but only that it is acted upon, so that the momentary of the axis of rotation with respect to the principal axes is known, and thus the rotational speed is not entered into here in this computation.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 584
+
+COROLLARY 3
+659. Since the arclet Oo shall have been determined in the preceeding problem, this becomes [The elemental triangle Ooo' it treated as a plane rt. angled triangle in Fig. 85, for which] :
+( ) Oo = d 2 + d2 sin2  ,
+
+then for the position of this arcet Oo with respect to the arc AO or Ao there is
+
+tang
+
+AoO
+
+=
+
+d sin d
+
+or
+
+sin
+
+AoO
+
+=
+
+d sin Oo
+
+et
+
+cos
+
+AoO
+
+=
+
+d Oo
+
+,
+
+thus so that hence we have the elements :
+
+d = Oo  cos AoO
+
+and
+
+d
+
+=
+
+Oosin AoO sin
+
+.
+
+SCHOLIUM
+
+660. Hence with the forces known, by which the body is acted on while it is rotating about some axis, from the preceding chapter this axis can be defined, about which it is initially at rest and begins to rotate, then with the help of the preceding problem the variation made in the axis of rotation is able to be explored. Now, unless the body at first is rotating about some principal axis, besides the external forces by which the body is perhaps acted on, these forces, which arise from rotational motion must be carefully assessed, and of this kind the centrifugal force especially. Which forces even if above we have now assigned in general, yet now it is required to determine the same again, with respect of the principal axes, in as much as the axis of rotation differs from these ; with which known, since it is easy to join on these forces with the external forces, we only consider these henceforth, and investigate accurately how much the position of the axis of rotation is disturbed by these.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 585
+
+PROBLEMA 64
+661. If a rigid body is rotating about some axis passing through the centre of inertia, and the position of this is given with respect to the principal axes, hence to find the [internal] forces arising disturbing the axis of rotation.
+SOLUTION
+With the centre of inertia present I, let IA, IB and IC be the principal axes of this body (Fig. 86) and about these the moments of inertia shall be Maa, Mbb et Mcc. Moreover the body shall be rotating about the axis IO with an angular speed equal to  , from some point O of this a perpendicular OL is sent to the plane [of the diagram] AIB, and with the line IL drawn, calling the angles AIL = m and LIO = n, so that thus the position of this axis IO [i. e. the direction cosines] with respect to the principal axes shall be :
+cos AIO = cos m cos n, cos BIO = sin m cos n and cos CIO = sin n.
+
+Now in the first place with the principal axes taken as directrices, the lines parallel to these constitute the three coordinates IX = x, XY = y et YZ = z, and on taking an element dM of the body at Z , thus from the nature of the principal axes [i. e. no torques are exerted on the principal axes due to the symmetry of the body, as the torques caused by the individual elements of mass cancel in pairs]:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 586
+
+ xydM = 0,  xzdM = 0 and  yzdM = 0,
+then
+ ( yy + zz)dM = Maa,  ( xx + zz )dM = Mbb, and  ( xx + yy)dM = Mcc
+and thus :
+ xxdM = 12M (bb + cc - aa) ,  yydM = 12M (aa + cc - bb) ,  zzdM = 12M (aa + bb - cc) .
+[Next, a new set of axes IO, IP, and IQ are established about the axis of rotation IO as the new X axis, based on the polar angles m and n : note that in this transformation the point Z remains fixed in position.] Again in the plane AIB with IP drawn normal to IL, and in the plane LIC with the line IQ drawn normal to IO, in order that the lines IO, IP and IQ are normal to each other, and which we may take as the directrices. In the end this is drawn: first YS parallel to IP in the plane AIB , then [note that y is put as the sum of two parts in finding IS, and as a difference in finding YS, and note the angles equal to m in the above diagram in red, all in the AIB plane of the page. Note also, that x2 + y2 = IX 2 + XY 2 = IS 2 + SY 2 = IY 2 corresponding to a rotation about IB through the angle m.]
+IS = x cos m + y sin m and YS = y cos m - x sin m;
+
+and from Z, YS [in the horizontal plane AIB] acts parallel to Zy, which is drawn normal to the [vertical] plane LIO, and Zy = [YS] = y cos m - x sin m, likewise [in
+the plane LIO] Sy = YZ = z. And then from y to IO there is sent the
+perpendicular yx [which lies in the vertical plane MIO], so that now the desired coordinates are : Ix = X , xy = Y and yZ = Z , and there shall be :
+
+X = IS cos n + Sy sin n = x cos m cos n + y sin m cos n + z sin n,
+
+Y = yS cos n - IS sin n = z cos n - x cos m sin n - y sin m sin n,
+
+Z = y cos m - x sin m.
+
+[Thus, the second rotation about IQ through the angle n has the same form as the first about IC by the angle m. The point Z remaining fixed in the body. The first transformation in modern terms is :
+
+ IS   cos m sin m 0   x 
+
+ 
+
+YS yS
+
+ 
+
+=
+
+ 
+
+-
+
+sin 0
+
+m
+
+cos m 0
+
+0 1
+
+ 
+
+ 
+
+y z
+
+ 
+
+;
+
+while
+
+the
+
+second
+
+is
+
+:
+
+ X   cos n 0 sin n   IS 
+
+ 
+
+Y
+
+ 
+
+=
+
+ 
+
+-
+
+sin
+
+n
+
+0
+
+cos
+
+n
+
+ 
+
+ 
+
+YS
+
+ 
+
+;
+
+giving
+
+ Z   0 1 0   yS 
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 587
+
+ X   cos m cos n sin m cos n sin n   x 
+
+ 
+
+Y
+
+ 
+
+=
+
+ 
+
+-
+
+cos
+
+m
+
+sin
+
+n
+
+- sin m sin n
+
+cos
+
+n
+
+ 
+
+ 
+
+y
+
+ 
+
+;
+
+while
+
+the
+
+inverse
+
+ Z   - sin m
+
+cos m
+
+0   z 
+
+transformation is :
+
+ cos m
+
+ 
+
+sin m 0
+
+- sin m cos m
+0
+
+0  cos n
+
+0 1
+
+ 
+
+ 
+
+0 sin
+
+n
+
+- sin n 0
+cos n
+
+0   cos m cos n
+
+1 0
+
+ 
+
+=
+
+ 
+
+sin
+
+m cos sin n
+
+m
+
+- cos m sin n - sin m sin n + cos m cos n
+cos n
+
+End of note.]
+
+- sin m 
+
+cos m 0
+
+ 
+
+Now since the element dM at Z on account of the angular speed equal to
+
+exerts a centrifugal force equal to
+
+ xZdM 2g
+
+,
+
+thus there arises the following force [on resolution] along xy equal to
+ YdM 2g
+
+and the force applied at x along the direction parallel to yZ is equal to
+
+ ZdM 2g
+
+,
+
+which forces mutually destroy each other [on summing over the elements], on
+account of YdM = 0 and  ZdM = 0 , as only the moments of these are to be
+considered. Therefore taking IO = f the force Oq placed at O parallel to IQ is
+equivalent to all the forces yZ , provided that for these forces equal and opposite forces are applied at the centre of inertia I. Therefore since on account of the moment, then [i.e. making use again of the integral mean­value theorem :]
+
+the
+
+force
+
+Oq 
+
+IO
+
+=
+
+ 2g
+
+
+
+XYdM
+
+and
+
+the
+
+force
+
+Op 
+
+IO
+
+=
+
+ 2g
+
+
+
+XZdM
+
+,
+
+then
+
+the
+
+force
+
+Oq
+
+=
+
+ 2 fg
+
+
+
+XYdM
+
+and
+
+the
+
+force
+
+Op
+
+=
+
+ 2 fg
+
+
+
+XZdM
+
+.
+
+But on returning to the principal axes coordinates, [as the cross products of inertia are zero about the principle axes x, y, z] then
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 588
+
+( )  XYdM = sin n cos n  zzdM - cos2 m xxdM - sin2 m yydM
+and
+ XZdM = sin m cos m cos n ( yydM -  xxdM )
+
+and thus, from the given moments of inertia ,
+( )  XYdM = M sin n cos n aa cos2 m + bb sin2 m - cc
+and
+ XZdM = M sin m cos m cos n (aa - bb) .
+
+Consequently from the given rotational motion, these forces arise :
+
+the
+
+force
+
+Op
+
+=
+
+M 
+
+sin m cos m cos n(aa-bb)
+2 fg
+
+and
+
+( ) M  sin n cos n aa cos2 m+bb sin2 m-cc
+
+the force Oq =
+
+2 fg
+
+applied to the point O along the directions parallel to the lines OP and OQ, but to which equal and opposite forces are understood to be applied to the centre of inertia I itself.
+
+COROLLARY 1
+
+662. Since the force Oq is normal to the axis of rotation IO at O, that produced
+
+crosses the plane AIB [AOB in the original] at the point M, which is situated on
+
+IL produced, and
+
+IM
+
+=
+
+f cos n
+
+and
+
+OM = f tang n , on account of the right
+
+angle IOM.
+
+COROLLARY 2
+663. But the direction of the other force Op is normal to the plane LIO, as it is parallel to the line IP in the plane AIB normal to IL ; and the plane pOq continued to the plane AIB is inclined at an angle equal to 90o - n , and that intersects the line IM at right angles.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 589
+
+COROLLARY 3
+664. Because these forces arising from the rotational motion itself have equal and opposite forces applied at the centre of inertia, these distrurb the rotational motion only and do not induce any progressive motion in the body, thus so that the centre of inertia remains permanently at rest. [These forces produce torques about I which cause the body to rotate about the other axes.]
+PROBLEM 65
+665. With the forces found arising from the rotational motion itself perturbing that motion, to find the axis if the body should be at rest, about which these forces are to set the body rotating.
+
+SOLUTION
+
+With everything remaining, as in the preceding problem, thus so that IA, IB and IC are the principal axes of the body (Fig. 87) and the moments of inertia
+
+with respect to these are Maa, Mbb, Mcc, let IO be the axis, about which the angular speed of the body is equal to  , and for the position of this the angles
+
+AIL =m and LIO = n, with the line OL present normal to AIB, so that on putting IO =f then IL = f cos n and OM = f sin n.Then from O the normal OM is
+
+drawn to IO, then
+
+IM
+
+=
+
+f cos n
+
+and
+
+OM = f tang n,
+
+but with the normal MA drawn to IM in the plane AIB, then
+
+IA
+
+=
+
+cos
+
+f m cos
+
+n
+
+and
+
+MA =
+
+f
+
+tang m cos n
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 590
+
+But now the forces Op and Oq are in place at O, of which Op itself is parallel to AM and Oq has been placed in the direction OM; and the forces are these:
+
+the
+
+force
+
+Op
+
+=
+
+M 
+
+sin m cos m cos n(aa-bb)
+2 fg
+
+and
+
+( ) M  sin n cos n aa cos2 m+bb sin2 m-cc
+the force Oq =
+2 fg
+
+of which the mean [i. e. resultant] direction cuts the plane AIB somewhere at V
+
+on the line MA, in order that MO : MV = Oq : Op, thus it is deduced that
+
+( ) MV =
+
+f sin m cos m(aa-bb)
+
+cos n aa cos2 m+bb sin2 m-cc
+
+and hence
+
+tang
+
+MIV
+
+=
+
+sin m cos m(aa-bb)
+aa cos2 m+bb sin2 m-cc ;
+
+from which it is concluded, [see §639]
+
+tang
+
+AIV
+
+=
+
+(bb-cc) sin m (aa-cc) cos m
+
+,
+
+we have called that angle above  , but the distance
+
+( ( )) f a4 cos2 m+b4 sin2 m+c4 -2cc aa cos2 m+bb sin2 m
+
+IV =
+
+( ) cos n aa cos2 m+bb sin2 m-cc
+
+,
+
+which we have called h above, so that this length becomes :
+
+( ) h =
+
+f (bb-cc) sin m
+
+cos n sin aa cos2 m+bb sin2 m-cc
+
+or
+
+( ) h =
+
+f (aa-cc) cos m
+
+.
+
+cos n sin aa cos2 m+bb sin2 m-cc
+
+Hence it is permitted now to consider these forces to be applied at the point V, which are
+
+force
+
+along
+
+(Op)
+
+VM
+
+=
+
+M 
+
+sin m cos m cos n(aa-bb)
+2 fg
+
+,
+
+( ) M  sin n cos n aa cos2 m+bb sin2 m-cc
+
+force along (Oq) VT =
+
+2 fg
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 591
+
+of which VT is resolved into components along VR parallel to LO and VN parallel to ML gives
+
+( ) M  sin n cos2 n aa cos2 m+bb sin2 m-cc
+
+the force along VR =
+
+2 fg
+
+and
+
+( ) M  sin2 n cos n aa cos2 m+bb sin2 m-cc
+
+the force along VN =
+
+,
+
+2 fg
+
+of which that [vertical] force VR has been indicated above by the letter R. But because above there was written Q cos - P sin , [i. e. , the net force
+
+perpendicular to the axis IV] by which expression the force normal to IV in the plane AIB is denoted, this becomes [the other components act along IV and thus have no moment: see § 639]
+
+force VM cos MIV - force VN sin MIV , thus there is produced :
+
+( ) M  sin m cos m cos3 n(aa-bb) aa cos2 m+bb sin2 m-cc
+
+Q cos - P sin =
+
+.
+
+( ( )) 2 fg a4 cos2 m+b4 sin2 m+c4 -2cc aa cos2 m+bb sin2 m
+
+Since again
+
+tang
+
+
+
+=
+
+(bb-cc) sin m (aa-cc) cos m
+
+,
+
+then there becomes: cos =
+
+(aa-cc) cos m
+( ( )) a4 cos2 m+b4 sin2 m+c4 -2cc aa cos2 m+bb sin2 m
+
+[Thus, the body is not subjected to external forces, but is rotating initially about some axis that is not a principal axis, in which case forces derived from the motion, due to the lack of symmetry, act on the axis to change its state of rotation; the point of application of this force is given by the angles m and n , and this is equivalent to the line IV in the plane AIB with the plane polar coordinates h and  , and the components of this force are found to calculate the torque . Following this, the orientation of this axis has already been found as that IF which minimises the vis viva, which is now applied, when the body starts from rest.] From these definitions now there shall be that axis IF, about which the body if at rest, these forces are about to set in rotation, and with the perpendicular FE drawn from F in the plane AIB the angles are called AIE =  and EIF =  ,
+and by problem 60 we can continue :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 592
+
+tang
+
+
+
+=
+
+aa cos bb sin
+
+=
+
+aa(aa-cc) cos m bb(bb-cc) sin m
+
+and
+
+tang
+
+
+
+=
+
+Q cos -P sin Rcc cos
+
+bb sin
+
+=
+
+sin m cos n(aa-bb)bb sin cc(aa-cc) sin n
+
+.
+
+And then in the element of time dt there is generated about this axis IF the angle d , in order that it becomes :
+
+( )  dt2 sin n cos n a4 (aa-cc)2 cos2 m+b4 (bb-cc)2 sin2 m
+
+d =
+
+2aabb cos
+
+,
+
+or
+
+d
+
+=
+
+
+
+(aa-cc)dt2 cos m sin n cos n
+2bb sin cos
+
+=
+
+
+
+(bb-cc)dt2 sin m sin n cos n
+2aa cos cos
+
+.
+
+COROLLARY 1
+
+666. If for the proposed axis of rotation IO [on the spherical surface with origin I], the angles are put in place [for the principal axes] :
+
+OIA =  , OIB =  , OIC =  , but for the axis of rotation of the element IF the [spherical] angles are :
+
+then there is and
+
+FIA = A, FIB = B, FIC = C, cos = cos m cos n, cos  = sin m cos n, cos  = sin n cos A = cos cos , cos B = sin cos , cos C = sin.
+
+COROLLARY 2
+
+667. Hence on account of
+
+tang
+
+
+
+=
+
+aa(aa-cc) cos bb(bb-cc) cos 
+
+,
+
+if for the sake of brevity there is put
+
+then there will be
+
+( ) a4 (aa-cc)2 cos2  +b4 (bb-cc)2 cos2  = W ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 593
+
+sin
+
+=
+
+aa(aa-cc) cos
+W
+
+and
+
+cos
+
+=
+
+bb(bb-cc) cos 
+W
+
+.
+
+But again on putting
+
+( ) a4b4 (aa-bb)2 cos2  cos2  +a4c4 (aa-cc)2 cos2  cos2  +b4c4 (bb-cc)2 cos2  cos2  = 
+
+there is found :
+
+cos A
+
+=
+
+bbcc(bb-cc) cos 
+
+
+cos 
+
+,
+
+cos B =
+
+aacc(cc-aa) cos cos 
+
+
+,
+
+cos C
+
+=
+
+aabb(aa-bb) cos
+
+
+cos 
+
+and
+
+d =  dt2 .
+2 aabbcc
+[Finally, the equation of motion is written in terms of coordinates on the sphere]
+
+SCHOLIUM
+
+668. Because the sense is kept, in which the rotation about the axis IF is made,
+
+the angle of the element
+
+d
+
+=
+
+ dt2 2aabbcc
+
+is always positive, and it is to be noted in
+
+the investigation of this value that the force VR it considered as positive, hence
+
+following the figure the point E is carried in the in sense Ee towards A by the
+
+rotary motion. For even if this account only has a place in the figure, where the angles m, n, , are positive and less than a right angle, yet the account of the
+
+sense hence can be correctly concluded ; in which once introduced into the
+
+calculation henceforth generally we cling to the truth. Furthermore it is evident, if the axis IO falls on some principal axis, to be d = 0 ; for in fact if
+
+ = 0, this makes  =  = 90o and thus cos  = cos  = 0, in which case the
+
+quantity  disappears everywhere ; now likewise it is evident that in no other case is it possible for the perturbation d to vanish, and thus no more than
+
+three axes are able to be free from rotations, unless perhaps two moments of
+
+inertia should be equal.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 594
+
+PROBLEM 66
+669. If a body is rotating about some axis passing through the centre of inertia different from the principal axes, to define the momentary variation, which both the axis of rotation as well as the angular speed experience.
+
+SOLUTION
+Everything is to be transferred, which have been found in the preceding problem, to the spherical surface described with the centre of inertia I, in which A, B, and C are the poles of the principal axes (Fig. 88), with respect to which the moments of inertia are Maa, Mbb, Mcc. Now let O then be the pole of that axis, about which the body now rotates with an angular speed equal to ' in the sense
+
+ABC. [Note that the angulal speed has been designated by  up to this
+
+point; clearly this has to be distinguished from the angle  on the
+
+sphere to be used. Euler used a larger font which is not convenient, while the O. O. invents its own symbol which is not availabe to me, and is also inconvenient. ]From C through O with the great circle COM drawn, which is a quadrant, there are the arcs AM = m and MO = n; then in the quadrant BA produced there is taken AE =  and with the quadrant CE drawn the arc is ES =  ,
+
+in order that
+
+tang
+
+
+
+=
+
+aa(aa-cc) cos m bb(bb-cc) sin m
+
+,
+
+or
+
+bb sin m sin aa - cc
+
+=
+
+aa cos m cos bb-cc
+
+and
+
+tang
+
+
+
+=
+
+bb
+
+sin m sin(aa-bb) cc(aa-cc) sin n
+
+cos
+
+n
+
+=
+
+aa cos m cos(aa-bb) cos n cc(bb-cc) sin n
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 595
+
+Thus with these defined on account of the centrifugal forces of the body, the body tries to rotate about the pole S in the sense Ee, thus so that in the element of time dt an angle will be described
+
+d
+
+=
+
+ '  '(aa-cc)dt2 cos m sin n cos n
+2bb sin cos
+
+=
+
+ '  ' (bb-cc)dt2 sin m sin n cos n
+2aa cos cos
+
+or
+
+d
+
+=
+
+
+
+'
+
+
+
+' (aa-bb)dt2
+2 cc
+
+sin m cos sin
+
+m cos2
+
+n
+
+.
+
+Therefore the great arc OS is drawn, which is equal to s, which we can determine next, and in problem 62 it becomes
+
+q
+
+=
+
+
+
+'
+
+' (aa-bb) sin m cos m cos2
+2cc sin
+
+n
+
+,
+
+and hence on account of the elemental rotational motion the body rotates about
+
+the pole o, in order that
+
+the
+
+arclet
+
+Oo
+
+=
+
+
+
+'
+
+
+
+' (aa-bb)dt sin m cos
+cc sin
+
+m cos2
+
+n
+
+sin
+
+s
+
+;
+
+but an increase of the angular speed  ' is taken d ' , in order that
+
+d
+
+'
+
+=
+
+
+
+'
+
+'(aa-bb)dt sin m cos m cos2
+cc sin
+
+n cos s
+
+.
+
+Now therefore in the first place the position of the arc OS must be found, or the
+
+angle COS, by which it is inclined to the arc CO ; which in the end the triangle
+
+OCS is considered, in which
+
+OC = 90o - n, CS = 90o - , and the angle OCS = m + , hence there is found :
+
+Now indeed,
+
+cot
+
+COS
+
+=
+
+cos n tang
+sin(m+ )
+
+-
+
+sin n cos(m+ ) sin(m+ )
+
+.
+
+tang
+
+(m
+
++
+
+)
+
+=
+
+aa(aa-cc) cos2 m+bb(bb-cc) sin2 (aa-bb)(cc-aa-bb) sin m cos m
+
+m
+
+and
+
+( ) cos n tang
+sin(m+ )
+
+=
+
+aabb(aa-bb) sin m cos m cos2 n cc sin n bb(bb-cc) sin2 m+aa(aa-cc) cos2
+
+m
+
+,
+
+thus giving
+( ) cc sin n aa(aa-cc) cos2 m+bb(bb-cc) sin2 m ( ) tang COS = (aa-bb) sin m cos m aabb cos2 n+cc(aa+bb) sin2 n-c4 sin2 n .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 596
+
+Again from the same triangle OCS it is deduced that
+
+cos
+
+s
+
+=
+
+cos
+
+(m
+
++
+
+) cos
+
+n
+
+cos
+
++
+
+sin
+
+n
+
+sin
+
+=
+
+sin
+
+ 
+
+sin
+
+n
+
++
+
+cos
+
+n cos(m+
+tang
+
+)
+
+ 
+
+or
+
+( ) sin n sin aabb-(aa+bb)cc+c4
+cos s =
+
+= (aa-cc)(bb-cc) sin n sin ,
+
+aabb
+
+aabb
+
+thus there arises
+d ' =  '  '(aa-bb)(aa-cc)(bb-cc) sin m cos m sin n cos2 n  dt.
+aabbcc
+And from this on putting OA =  , OB =  , OC =  the arc is :
+
+Oo
+
+=
+
+ dt aabbcc
+
+ a4b4 (aa-bb)2 cos2  cos2  + a4c4 (aa-cc)2 cos2  cos2  
+
+ 
+
++b4c4
+
+(bb-cc
+
+)2
+
+cos
+
+2
+
+
+
+cos2
+
+
+
+ 
+
+
+
+- (aa-bb)2
+
+( aa -cc ) 2
+
+(bb-cc)2
+
+2
+cos
+
+
+
+2
+cos
+
+
+
+2
+cos
+
+
+
+
+
+and
+
+d
+
+'
+
+=
+
+
+
+'
+
+'(aa-bb)(aa-cc)(bb-cc) cos
+aabbcc
+
+cos
+
+
+
+cos 
+
+ dt.
+
+Now if from o to CO the perpendicular op is drawn, by the rules of spherical
+
+trigonometry the elemental arcs Op and op thus can be expressed rationally, in
+
+order that :
+
+( )  '(aa-bb)dt cos cos  aabb-(aa-cc)(bb-cc) cos2 
+
+Op =
+
+aabbcc sin
+
+,
+
+( )  ' dt cos  aa(aa-cc) cos2  +bb(bb-cc) cos2 
+
+op =
+
+aabbcc sin
+
+.
+
+COROLLARY 1
+
+670. Since it is the case that
+
+d
+
+'
+
+=
+
+
+
+'
+
+'(aa-bb)(aa-cc)(bb-cc) cos
+aabbcc
+
+cos
+
+
+
+cos 
+
+ dt,
+
+it is apparent, if of the three principal moments two were equal to each other,
+
+then clearly the angular speed does not change.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 597
+
+COROLLARY 2
+
+671. With the distances introduced  ,  , of the pole O from the principal poles A, B, C there is
+
+( ) cc cos  aa(aa-cc) cos2  +bb(bb-cc) cos2  tang COS = (aa-bb)cos cos ( aabb-(aa-cc)(bb-cc) cos2  ) ,
+but with the arc drawn AO then it becomes
+
+thus it is concluded
+
+tang
+
+AOC
+
+=
+
+- cos  cos cos 
+
+,
+
+( ) aa cos bb(bb-aa) cos2  +cc(cc-aa) cos2  tang AOS = (bb-cc) cos  cos  ((bb-aa)(cc-aa)cos2  -bbcc) .
+
+COROLLARY 3
+672. This formula for the angle AOS is analogous to that for the angle COS and thus it arises, if the letters a, b, c, likewise  ,  , are advanced one place in order ; but in this way a negative sign is produced, which is consistent with the nature of the thing, when the angle AOS falls in the opposite sense with respect to the first.
+
+COROLLARY 4
+
+673. If the arc OS cuts the quadrant AC at the point R, it is deduced :
+
+( ) aa cos bb(aa-bb) cos2  +cc(aa-cc) cos2 
+
+( ) tang AR =
+
+,
+
+cc cos  aa(aa-cc) cos2  +bb(bb-cc) cos2 
+
+and if likewise the arc SO produced cuts the quadrant BA at Q, then by analogy :
+( ) bb cos  cc(bb-cc) cos2  +aa(bb-aa) cos2  tang BQ = aa cos (bb(bb-aa) cos2  +bb(cc-aa)cos2  ) = cot AQ.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 598
+
+COROLLARY 5
+674. Since in the element of time dt the arc CO =  is diminished by the small amount Op, then by differentiation it becomes :
+aabbccd sin =  ' (bb - aa) dt cos cos  (aabb - (aa - cc)(bb - cc) cos2  )
+and hence by analogy :
+aabbccd  sin  =  ' (aa - cc) dt cos  cos (aacc - (cc - bb)(aa - bb) cos2  ) ,
+aabbccd  sin  =  ' (cc - bb) dt cos  cos  (bbcc - (bb - aa)(cc - aa) cos2  ) .
+SCHOLIUM
+675. We have assumed in the solution, because properly it is to be noted that the body is rotating about the axis IO in the sense ABC, hence to which case the formulas found are applied ; but if the body should be rotating in the opposite sense, the formulas easily put in place refer to a negative angular speed  . And thus this most difficult problem, in which the momentary variation is being sought, while the body is rotating about a non-principal axis, we can resolve well enough with the latter formulas, to which only the solution has been produced, they are thus not complex as it is permitted to expect them to be simpler. Also lest the suspicion of any error in the calculation is present in the calculation, with the formula by which the increment in the angular speed d is expressed, to all three principal axes it is referred equally, then the derivative of the angle AOS from the angle COS brings about the result most firmly and finally the equations in the last corollary show that they have adopted this property, so that it becomes
+d sin cos + d  sin  cos  + d sin cos  = 0,
+as the condition of the principal axes prevails : cos2  + cos2  + cos2  = 1.
+But the three last equations with this, which defines the differential d , contain a complete solution of the problem, where indeed any of these three can be omitted. If the above body is acted on by external forces, a solution prevails that is not much more difficult, as is shown in the following problem.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 599
+
+PROBLEM 67
+676. If a rigid body, while it is rotating about some axis through the centre of mass, is acted on by some forces, to define the momentary variation arising both in the axis as well as in the angular speed.
+
+SOLUTION
+Let IO be the axis, about which the body is rotating now with an angular speed equal to ' in the sense ABC (Fig. 88),
+and at first the situation of this with respect of the principal axis IA, IB, IC can be considered, of which the moments of inertia respectively are Maa, Mbb, Mcc, and with the arcs put in place OA =  , OB =  , OC =  there
+is sought by the previous problem, how great in the element of time dt both the axis of rotation IO as well as the angular speed must change on account of the rotary motion alone. Evidently, if the pole of rotation goes from O to o, we have seen that the increment in the distance CO =  :
+
+( )  '(aa-bb)dt cos cos  aabb-(aa-cc)(bb-cc) cos2 
+
+Co - CO =
+
+aabbcc sin
+
+and the increment of the angle BCO
+
+( )  ' dt cos  aa(aa-cc)cos2  +bb(bb-cc) cos2 
+
+OCo =
+
+aabb sin2 
+
+from which elements the position of the point o is defined without ambiguity. But besides this change of the axis of rotation, the angular speed  takes an
+
+increment equal to
+
+ '  '(aa-bb)(aa-cc)(bb-cc) cos cos 
+aabbcc
+
+cos 
+
+dt
+
+.
+
+Then the forces acting can be assessed, whether they impress a progressive motion to the body : and this has been easily judged, while all the forces along each of their directions are considered to be applied to the centre of inertia. For indeed if they hold the body in equilibrium between themselves, then no
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 600
+
+progressive motion is imparted to the body, but if a force equivalent to these should be given, from that the progressive motion is generated in the body that we can easily define from first principles. Then to that force an equal and opposite equivalent force can be applied to the centre of the body, so that now this centre is held at rest, and with this force with these, by which the body is actually disturbed, all taken together can be reduced to two, of which one is applied at the centre and the other is applied at a certain other point, which two forces are equal and opposite. Again from the preceding chapter the axis is sought, about which the body begins to be turned by these forces, and likewise the angle of the momentary conversion, thus by problem 62 without any change had with respect to the change now found since this is infinitely small, as if the body at this stage should be rotating about the axis Oo, the change in the axis is sought and with the change in the angle arising, of which these are reduced to the increment or decrement both in the CO as well as in the angle BCO arising. Finally these three elements with these, which now have been defined before from rotational motion, are joined together, and thus there will be obtained the true variation both in the axis IO as in the angular speed produced at the same time from each cause.
+
+SCHOLIUM
+
+677. While the effect of the forces acting is explored, the variation of the axis
+thus produced can be expressed by the elementary angle OCo and the
+differential of the arc CO and Co. Clearly in the first place the axis is sought,
+about which the body, if it should be at rest, may be turned by the forces, which shall be IS, and let qdt2 be the angle of rotation produced about S in the sense O in the element of time dt and for the point S there is put in place the arc AE =  and ES =  , which values are to be properly distinguished from the
+
+preceding rotational motion itself arising. Therefore since AM = ACM = m, in
+
+order that
+
+cos
+
+m
+
+=
+
+cos  sin 
+
+and
+
+sin m
+
+=
+
+cos  sin 
+
+,
+
+then MCE = m + and from triangle OCS there is found :
+
+cos OS = cos s = cos (m + ) sin cos + cos  sin
+
+and
+
+cot
+
+COS
+
+=
+
+sin tang
+sin(m+ )
+
+-
+
+cos  cos(m+ ) sin(m+ )
+
+.
+
+But now from problem 62 the pole of the rotation O is transferred to o, in order that there becomes
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 601
+
+Oo
+
+=
+
+2qdt 
+
+sin '
+
+s
+
+and the increment of the angular speed
+
+2qdt cos s = 2qdt (sin cos cos (m + ) + cos  sin ) .
+
+Hence form Oo there is elicited
+
+Op
+
+=
+
+Oo
+
+cos
+
+COS
+
+=
+
+2qdt cos '
+
+s
+
+cos
+
+COS
+
+and
+
+op
+
+=
+
+Oo
+
+sin COS
+
+=
+
+2qdt 
+
+sin '
+
+s
+
+sin COS
+
+=
+
+2qdt '
+
+cos
+
+sin (m
+
++
+
+)
+
+and hence
+
+the
+
+angle
+
+OCo
+
+=
+
+2 qdt
+
+cos sin(m+ )
+ ' sin
+
+.
+
+Now again hence there is deduced
+
+CO
+
+-
+
+Co
+
+=
+
+Op
+
+=
+
+op cot
+
+COS
+
+=
+
+2qdt '
+
+( sin 
+
+sin
+
+-
+
+cos 
+
+cos
+
+cos (m
+
++ )) .
+
+Therefore there remains only, that these elements should be combined with
+
+these which have been destroyed by the rotational motion, in order that there
+
+should be obtained the variation of the axis of gyration with the increment or
+
+decrement of the angular speed.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 602
+
+PROBLEM 68
+
+678. If at some time the position of a rigid body should be given rotating about a certain axis passing through the centre of inertia, and the axis of rotation as well as the rotational speed can be varied in some manner, to find the momentary change in the position of the body arising [relative to absolute space].
+
+be represented by the symbols
+
+SOLUTION
+Since the centre of inertia of the body is at rest, the position of the body is referred to a fixed sphere described with the same centre, within which the body completes its own motion (Fig. 89). On this sphere there is taken the great circle VXZY and on that the fixed point Z; and at the given time equal to t the principal axes of the body correspond to the points on the spherical surface A, B, C, in order that AB, BC, and CA are quadrants; to the position of which the arcs of the great circles are to
+
+ZA = l, ZB = m, ZC = n, then
+cos2 l + cos2 m + cos2 n = 1; and the angles are put in place
+XZA =  , XZB =  , XZC = , and from the spherical [triangles]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 603
+
+cos ( -  ) = - cot l cot m,
+
+cos ( -  ) = - cot m cot n,
+
+cos ( -  ) = - cot l cot n,
+
+hence
+
+cos ( -  ) cos ( -  ) = cot2 l cot m cot n = - cot2 l cos ( -  ) ,
+
+thus there becomes
+
+cot 2
+
+l
+
+=
+
+-
+
+cos( - ) cos( cos( - )
+
+-)
+
+,
+
+cot
+
+2
+
+m
+
+=
+
+-
+
+cos( - ) cos( cos( - )
+
+-
+
+
+
+)
+
+,
+
+cot
+
+2
+
+n
+
+=
+
+-
+
+cos(
+
+ - ) cos( cos( - )
+
+-
+
+)
+
+.
+
+Now since
+[ -  = ( -  ) - ( -  ) ,]
+
+cos ( -  ) - cos ( -  ) cos ( -  ) = sin( -  ) sin( -  ) ,
+
+cos2 l = - cot ( -  ) cot ( -  ) ,
+
+cos2 m = - cot ( -  ) cot ( -  ) ,
+
+cos2 n = - cot ( - ) cot ( - ) .
+
+From this relation between the quantities l, m, n,  ,  , ,which in the element of
+
+time dt are agreed to increase by their own differentials, it is to be noted now that O is the pole of the rotation and the arcs AO =  , BO =  , CO =  , in
+
+order that :
+
+cos2  + cos2  + cos2  = 1;
+
+then
+
+cos
+
+BAO
+
+=
+
+cos  sin
+
+and [since the angles BAC, etc on the surface are right,]
+
+sin
+
+BAO
+
+=
+
+cos  sin
+
+,
+
+but in the triangle ZAB there is present
+
+cos
+
+ZAB
+
+=
+
+cos m sin l
+
+and
+
+sin
+
+ZAB
+
+=
+
+-
+
+cos
+
+ZAC
+
+=
+
+-
+
+cos sin
+
+n l
+
+,
+
+thus in order that for triangle ZAO there shall be [from
+sin (ZAO) = sin (ZAB + BAO) , etc.]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 604
+
+sin
+
+ZAO
+
+=
+
+cos 
+
+cos m-cos  sin sin l
+
+cos
+
+n
+
+,
+
+cos
+
+ZAO
+
+=
+
+cos
+
+
+
+cos m+cos sin sin l
+
+
+
+cos
+
+n
+
+,
+
+thus on deducing [for us the scalar product of the unit vectors IO and IZ]
+
+cos ZO = cos cos l + cos  cos m + cos  cos n
+
+and
+
+cot
+
+AZO
+
+=
+
+cos 
+
+-cos l(cos
+cos 
+
+cos l +cos  cos m+cos cos m-cos  cos n
+
+
+
+cos
+
+n)
+
+,
+
+and hence at any time the pole O of the rotation is known. Then with the angular speed put equal to  ' in the sense ABC, in the
+
+element of time dt the point A describes an arclet about O, [about the axis IO; note that OAa is a rt. angle, so that ZAO is the complement of ZAa.] Aa =  ' dt sin , whereby with a drawn normal to ZA then
+
+A
+
+= [Aa
+
+sin
+
+ZAO]
+
+=
+
+
+
+'
+
+dt
+
+
+
+cos 
+
+cos m-cos  sin l
+
+cos n
+
+,
+
+a
+
+= [Aa
+
+cos
+
+ZAO]
+
+=
+
+
+
+'
+
+dt
+
+
+
+cos 
+
+cos m+cos  sin l
+
+cos n
+
+,
+
+thus, from the differences of the quantities l and  [: note that dl = ­ A , and
+
+in
+
+the
+
+linear
+
+elemental
+
+triangle
+
+Za
+
+,
+
+d
+
+= - a
+sin l
+
+,]
+
+there
+
+are
+
+deduced
+
+dl sin l =  ' dt (cos  cos n - cos  cos m)
+and
+- d sin2 l =  ' dt (cos  cos m + cos  cos n)
+and in a like manner there may be found :
+
+dm sin m =  ' dt (cos  cos l - cos cos n) ,
+-d  sin2 m =  ' dt (cos  cos n + cos cos l ) dn sin n =  ' dt (cos cos m - cos  cos l ) ,
+-d sin2 n =  ' dt (cos cos l + cos  cos m) .
+Concerning which, if at a certain time  , , and  ' are given quantities and likewise the differentials of these arise in the same element of time dt, hence the variations in the same element of time are deduced for the arcs l, m, n and the angles  ,  , produced. Now in addition the variation in the pole O of the rotation is easily inferred, since finally it is necessary that the arc ZO and the angle AZO should be differentiated, but only with the arcs  , , variable,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 605
+
+because in this manner the pole O is transferred to the following place o. Hence there is produced [for the elemental triangle ZOo on differentiating cos ZO]:
+
+(Zo - ZO) sin ZO = d sin cos l + d  sin  cos m + d sin cos n
+
+and, since
+cot AZO (cos  cos m - cos  cos n) = cos - cos l cos ZO,
+
+then the equation arises [also from differentiation, but watch the signs]
+
+OZo sin2 AZO
+
+( cos 
+
+cos
+
+m
+
+-
+
+cos
+
+
+
+cos
+
+n)
+
++
+
+cot
+
+AZO (d
+
+sin 
+
+cos
+
+m
+
+-
+
+d
+
+sin
+
+
+
+cos
+
+n)
+
+=[ sind - d sin cos2 l - d  sin  cos l cos m - d sin cos l cos n]
+
+= d sin sin2 l - d  sin  cos l cos m - d sin cos l cos n
+
+and hence on reduction :
+
+OZo sin2 AZO
+
+sin2 l(d sin (cos  cos m-cos  cos n)+d  sin  (cos cos n-cos  cos l )+d sin (cos  cos l -cos cos m))
+
+=
+
+(cos  cos m-cos  cos n)2
+
+and hence the angle of the element OZo =
+
+d sin (cos  cos m-cos  cos n)+d  sin  (cos cos n-cos  cos l )+d sin (cos  cos l -cos cos m)
+
+1-(cos cos l +cos  cos m+cos  cos n)2
+
+,
+
+in which formula two of the three letters  , , , et l,m,n are increased equally,
+
+as the nature of the problem demands.
+
+COROLLARY 1
+
+679. If from O to Zo the elemental arc Op is drawn perpendicularly, then it becomes
+
+po
+
+=
+
+d
+
+sin
+
+cos l +d 
+
+sin  cos m+d sin ZO
+
+sin 
+
+cos n
+
+and
+
+Op
+
+=
+
+d
+
+sin (cos 
+
+cos m-cos
+
+
+
+cos n)+d 
+
+sin  (cos cos n-cos 
+sin ZO
+
+cos l )+d
+
+sin 
+
+(cos 
+
+cos l -cos
+
+cos m)
+
+.
+
+COROLLARY 2
+
+680.
+
+Again
+
+from
+
+sin BAO
+
+=
+
+cos  sin
+
+and
+
+cos
+
+BAO
+
+=
+
+cos  sin
+
+the
+
+angle
+
+is
+
+deduced
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 606
+
+OAo
+
+=
+
+-d
+
+cos cos  -d sin sin cos 
+
+sin 
+
+and hence the element
+
+(( ) ) d 2 +d 2 sin2  sin2  +2d d sin cos sin cos 
+
+Oo =
+
+cos 
+
+,
+
+which since it is equally referred to  , , ,on account of
+
+d sin cos + d  sin  cos  + d sin cos  = 0
+
+it can be reduced to
+
+( ) Oo = d 2 sin2  + d  2 sin2  + d 2 sin2  .
+
+COROLLARY 3
+
+681. We put ZO = v and, since there arises
+
+cos = cos cos l + cos  cos m + cos  cos n,
+
+then
+
+tang
+
+AZO
+
+=
+
+cos  cos m-cos  cos cos -cos l cos
+
+n
+
+and on account of the analogy, since B falls on the other part of ZO in the figure,
+
+-
+
+tang
+
+BZO
+
+=
+
+cos cos n-cos  cos l cos  -cos m cos
+
+,
+
+thus it becomes
+
+tang
+
+AZB
+
+=
+
+tang
+
+(
+
+-
+
+
+
+)
+
+=
+
+cos n cos l cos
+
+m
+
+;
+
+which value with that found above
+
+cos
+
+(
+
+
+
+-
+
+
+
+)
+
+=
+
+-
+
+cos sin
+
+l l
+
+cos m sin m
+
+is in complete agreement, and then
+
+sin
+
+(
+
+
+
+-
+
+
+
+)
+
+=
+
+-
+
+cos n sin l sin
+
+m
+
+.
+
+COROLLARY 4
+682. Hence therefore from the differentials of the three angles  , , we arrive at these conclusions
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 607
+
+sin
+
+(
+
+
+
+-
+
+
+
+)
+
+=
+
+-
+
+cos n sin l sin
+
+m
+
+,
+
+sin (
+
+-
+
+)
+
+=
+
+-
+
+cos l sin m sin n
+
+,
+
+sin
+
+(
+
+-
+
+)
+
+=
+
+-
+
+cos m sin l sin
+
+n
+
+,
+
+cos
+
+(
+
+
+
+-
+
+
+
+)
+
+=
+
+-
+
+cos sin
+
+l l
+
+cos m sin m
+
+,
+
+cos
+
+(
+
+-
+
+
+
+)
+
+=
+
+-
+
+cos sin
+
+m m
+
+cos n sin n
+
+,
+
+cos
+
+(
+
+
+
+-
+
+)
+
+=
+
+-
+
+cos sin
+
+l l
+
+cos n sin n
+
+.
+
+SCHOLIUM
+
+683. Up to the present we have set out the momentary change undergone, both by the action of the rotational motion itself as well as by external forces acting, which constitute the foundation of the general theory of the motion of rigid bodies, since the transition from the known elemental change to the determination of the motion itself is apparent from integral calculus. Therefore we undertake the free motion of bodies of this kind, by which as if either by their own instigation or by forces acting are able to comply freely, and in the first place indeed we shall remove the external forces acting, leaving only the bodies to be themselves contemplated, so that nothing from without is added, that brings something to the motion. But because there is an innate property of the principal axes, with which the body is provided, this especially enters into the calculation, thus as if from the nature it is convenient to set up a distinction between the bodies, as the moments of inertia with respect to these may be compared. Therefore we set up three classes of bodies, to the first of which we refer to these bodies, of which the moments with respect to the principal axes are equal between themselves; now to the second class these bodies, in which two moments with respect to the principal axes are equal, and now the third for these which are unequal. Now the third class in general embraces all these bodies, of which the moments with respect to the principal axes are all unequal between themselves.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 608
+
+CAPUT X
+DE VARIATIONE MOMENTANEA AXIS GYRATIONIS A VIRIBUS PRODUCTA
+PROBLEMA 62
+650. Si corpus rigidum, dum circa axem per centrum inertiae transeuntem gyratur, ab eiusmodi viribus sollicitetur, quae ipsi, si quiesceret, motum gyratorium circa alium axem essent impressurae, determinare motus mutationem tempusculo minimo productam.
+SOLUTIO
+Cum tam in motu iam insito quam in eo, qui a viribus imprimeretur, centrum inertiae quiescat, id etiam coniunctim in quiete perseverabit.
+Consideretur ergo centrum inertiae I tanquam centrum sphaerae, in cuius superficie sit O polus, et IO axis, circa quem corpus iam gyratur celeritate angulari =  (Fig. 84) idque in eum sensum, quo punctum S feratur in s. Tum vero corpus ab eiusmodi viribus sollicitetur, ut, si quiesceret, gyratetur circa polum S seu axis IS tempusculoque dt verteretur per angulum qdt2, quandoquidem vidimus hunc angulum quadrato tempusculi dt esse homogeneum, fiatque hac conversio in eum sensum, quo punctum O versus  ferretur. Datur ergo angulus, quem hi duo axes OI et SI in I constituunt, seu in superficie sphaerica arcus circuli maximi OS, qui ponatur OS = s; ac tempusculo dt hic arcus OS ob motum insitum circa polum O gyrabitur per angulum SOs =  dt perventurus in situm Os, ut esset arculus Ss =  dt sin s . Ob motum autem impressum idem arcus OS circa polum S gyrabitur per angulum OS = qdt2 perventurus in situm S , ut esset arculus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 609
+
+O = qdt2 sin s . Utroque igitur hoc motu simul punctum S in s et punctum O in  transferetur, quia neutra translatio alteram turbat; reliqua autem puncta omnia utrumque motum percipient. Scilicet punctum quodvis o in ipso arcu OS assumtum, ut sit Oo =  , ob motum insitum circa O transferetur in m, ut sit om =  dt sin , at ob motum genitum circa S transferetur in  , ut sit
+o = qdt2  sin (s -  ) .
+Prout iam fuerit vel om > o vel o > om, punctum o ob utrumque motum coniunctim vel m versus vel  versus per differentiam istorum arculorum feretur. Quare, si fuerit om = o , punctum o revera quiescet eritque propterea
+polus, circa quem corpus iam gyrati est censendum, ita ut ob vires sollicitantes axis gyrationis IO tempusculo dt in Io transferetur. Ad hanc igitur axis variationem momentaneam inveniendam ponamus om = o seu
+ dt sin = qdt2  sin (s -  ) ,
+erit  sin = qdt sin s cos - qdt cos s sin,
+unde evidens est arculum Oo =  esse infinite parvum ideoque sin =  et cos = 1hincque
+
+
+
+=
+
+
+
+qdt sin s +qdt cos s
+
+=
+
+qdt sin s 
+
+.
+
+Circa hunc autem axem Io corpus tanta celeritate angulari gyratur, qua tempusculo dt puncta O et S in et s transferantur, unde ea cognosci poterit.
+
+Cum enim ea tempusculo dt conficiatur
+
+angulus
+
+=
+
+O Oo
+
+=
+
+qdt2 sin s 
+
+=
+
+dt (
+
++
+
+qdt
+
+cos
+
+s),
+
+praecedente autem tempusculo ob similem vim, quippe quae nunc non subito
+
+exorta est putanda, angulus confectus censeri debeat = dt ( - qdt cos s) , ita ut
+
+differentia sit 2qdt2 cos s , ipsa celeritas angularis augmentum accepit
+
+2qdt cos s ; atque ob similem rationem, quia valor q, dum ad variationes
+
+continuas definiendas inducitur, duplicari debet, etiam spatiolum Oo duplo
+
+maius est censendum. Dum enim in calculo punctum O continuo progredi
+
+assumitur, hic autem in o quiescens assumatur, intervallum Oo hic inventum diversum est a spatiolo, per quod polus gyrationis profertur: concipiatur enim punctum o', ut sit Oo' = 2Oo, ac dico fore o' polum gyrationis post tempus dt,
+
+cum initio esset O. Hoc enim posito manifestum est interea punctum o manere
+
+immotum.
+
+Quare,
+
+cum
+
+hic
+
+invenissemus
+
+Oo
+
+=
+
+qdt sin s 
+
+,spatiolum
+
+Oo',
+
+per
+
+quod
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 610
+
+polus gyrationis transiisse est consendus, erit duplo maius =
+
+2qdt sin 
+
+s
+
+.
+
+Vires
+
+ergo, quae corpori, si quiesceret, imprimerent motum gyratorium circa axem IS
+
+in sensum O , quo tempusculo dt absolveretur angulus OS = qdt2 , motum
+
+corporis gyratorium iam insitum circa axem IO in sensum Ss celeritate angulari =  ita turbant, ut elapso tempusculo dt axis gyrationis sit recta Io, a preacedente
+
+IO versus IS vergens angulo
+
+OIo
+
+=
+
+2qdt sin s 
+
+,
+
+simulque celeritas gyratoria  augmentum capiat = 2qdt cos s.
+
+COROLLARIUM 1
+651. Si vires sollicitantes in sensum oppositum tenderent, quantitas q negative accipi deberet et punctum o in arcum SO ultra O productum caderet celeritasque gyratoria minueretur.
+COROLLARIUM 2
+
+652. Si arcus OS vel evanesceret vel semicirculo esset aequalis, axis gyrationis IO non mutaretur, sed totus effectus in priori motu gyratorio vel accelendo vel retardando consumeretur. Qui est casus iam supra pertractatus, ubi ostendimus incrementum vel decrementum celeritatis esse 2qdt .
+
+COROLLARIUM 3
+653. Si arcus OS est quadrans circuli ideoque cos s = 0 , celeritas angularis  nullam mutationem patietur, sed totus effectus virium in axe gyationis mutando insumetur, eum vel propius ad S vel longius inde removendo.
+SCHOLION 1
+654. Hic eiusmodi tantum vires sumus contemplati, quae corpori, si quiesceret, motum gyratorium simplicem imprimerent, centro inertiae manente immoto; cuiusmodi effectum producant vires quaecunque, si modo ipsis aequales et contrariae in centro inertiae applicentur, quemadmodum in superiori capite fusius est ostensum. Neque vero pro aliis viribus indagatio erit difficilior, cum eae eundem motum gyratorium semper producant, ac si ipsis aequales et contrariae centro inertiae essent applicatae; motus enim progressivus, quem corpori praeterea inducant, etiam hic nihil in motu gyratorio, qui corpori iam inest, esset mutarurus. Quin etiam, si in corpore praeter motum gyratorium circa axem IO iam inesset motus progressivus, is nihil a gyratione circa axem IS genita mutaretur; ex quo solutio huius problematis latissime patet atque etiam ad
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 611
+
+motum progressivum, quem corpus vel iam habet vel a viribus sollicitantibus nancisceretur, extendi potest. Quae combinatio motus progressivi cum gyratorius nihil habeat difficultatis, hic erat praecipuum opus, ut, quantum motus gyratorius ob alium motum gyratorium a viribus oriundum perturbetur, sollicite defineremus.
+
+SCHOLION 2
+
+655. Si axis IO, circa quem corpus iam gyrari assumitur, esset corporis axis principalis, corpus hunc motum, si a nullis viribus sollicitaretur, perpetuo esset conservaturum, uti in anticedentibus demonstravimus. Verum, si axis IO non sit principalis, etiamsi nullae vires extrinsecus urgerent, tamen motus conservari non posset, quoniam ipse motus vires suppeditat, quae ad axem gyrationis deflectendum tendunt; hoc ergo casu, si, quanta variato in axe gyrationis gignantur, explorare velimus, non sufficit vires extrinsecus in corpus agentes contempari, sed cum iis etiam coniungi debent vires ex ipso motu gyratorio natae, quibus axem supra affici ostendimus. Quae vires cum pendeant a positione axis gyrationis IO respectu axium principalium corporis, haud abs re erit, antequam ulterius progrediamur, in genere investigare, quomodo a viribus quibusque positio axis gyrationis respectu axium principalium corporis immutetur.
+
+PROBLEMA 63
+
+656. Data positione axis gyrationis respectu trium axium principalium corporis, isque a viribus sollicitantibus varietur, ut corpus elapso tempusculo minimo circa alium axem gyretur, definire positionem huius axis variati respectu axium principalium.
+SOLUTIO
+Consideretur iterum superficies sphaerica (Fig. 85), in cuius centro sit corporis centrum inertiae I, sintque nunc radii IA, IB, IC axes principales corporis corpusque circa axem IO gyretur celeritate angulari  , cuius positio cum detur respectu
+axium principalium, ponatur arcus AO =  , BO =  et CO =  ,
+ut sit cos2  + cos2  + cos2  = 1.
+Tum vero ponatur anguli BAO =  , CBO =  , ACO = ,
+erit ob quadrantes AB, BC, et CA cos  = sin cos  , cos  = sin  cos  , cos = sin cos ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 612
+
+unde fit
+
+cos 
+
+=
+
+cos  sin
+
+,
+
+cos
+
+
+
+=
+
+cos  sin 
+
+,
+
+cos
+
+=
+
+cos  sin 
+
+,
+
+sin 
+
+=
+
+cos  sin
+
+,
+
+sin
+
+
+
+=
+
+cos  sin 
+
+,
+
+sin
+
+=
+
+cos  sin 
+
+,
+
+ergo
+
+tang
+
+=
+
+cos  cos 
+
+,
+
+tang
+
+=
+
+cos  cos 
+
+,
+
+tang
+
+
+
+=
+
+cos  cos 
+
+ideoque
+
+tang  tang  tang  = 1,
+
+quae est relatio inter ternos angulos  ,  , , ex quibus arcus  , , ita
+
+definiuntur, ut sit :
+
+tang
+
+
+
+=
+
+tang  cos 
+
+=
+
+cot  sin 
+
+,
+
+tang
+
+=
+
+tang  cos 
+
+=
+
+cot sin 
+
+,
+
+tang
+
+
+
+=
+
+tang  cos
+
+=
+
+cot  sin
+
+.
+
+His relationibus notatis ex datis BAO =  et AO =  reliqua sic definiuntur, ut
+sit cos  = sin cos  , cos  = sin sin  ,
+
+tang
+
+
+
+=
+
+cot  sin 
+
+,
+
+tang = tang  cos .
+
+Quodsi iam ob vires sollicitantes tempusculo dt axis gyrationis IO abeat in Io,
+
+totum corpus, quasi interea circa axem Io esset gyratum, considerari potest, quo
+
+motu puncta A, B, C suas distantias a puncto o conservabunt, ita ut elapso
+
+tempusculo dt polus gyrationis o a polis principalibus A, B, C habiturus sit
+
+distantias Ao, Bo, Co. Quare, si detur angulus elementaris OAo = d et
+
+Ao =  + d , variatio reliquorum per differentiationem consuetam elicietur :
+
+d
+
+=
+
+d sin
+
+sin  -d sin 
+
+cos 
+
+cos 
+
+,
+
+d
+
+=
+
+-d sin
+
+cos  -d sin 
+
+cos 
+
+sin 
+
+,
+
+d
+
+=
+
+-d
+
+sin  -d sin cos cos  cos2  +sin2  sin2 
+
+,
+
+d
+
+=
+
+d cos  -d sin cos sin  cos2  + sin2  sin2 
+
+.
+
+COROLLARIUM 1
+657. Si ab his differentialibus ad integralia progredi liceret, in corpore ad quodvis tempus ille axis, circa quem tum sit gyraturum, eiusque positio respectu axium principalium assignari posset.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 613
+
+COROLLARIUM 2
+658. Hic scilicet non ad ipsum motum corporis respicimus, sed tantum id agitur, ut variatio momentanea axis gyrationis respectu axium principalium cognoscatur, ideoque ipsa celeritas gyratoria hic in computum non est ingressa.
+COROLLARIUM 3
+659. Cum in praecedente problemate arculus Oo sit determinatus, hic erit
+( ) Oo = d 2 + d2 sin2  ,
+
+tum vero pro positione huius arculi Oo respectu arcus AO seu Ao est
+
+tang
+
+AoO
+
+=
+
+d sin d
+
+seu
+
+sin
+
+AoO
+
+=
+
+d sin Oo
+
+et
+
+cos
+
+AoO
+
+=
+
+d Oo
+
+,
+
+ita ut hinc habeamus elementa
+
+d = Oo  cos AoO
+
+et
+
+d
+
+=
+
+Oosin AoO sin
+
+.
+
+SCHOLION
+
+660. Cognitis ergo viribus, quibus corpus, dum circa quempiam axem gyratur, sollicitatur, per caput praecedens is axis, circa quem quiescens gyrari inciperet, definiri, tum vero ope praecedentis problematis variatio in axe gyrationis facta explorari poterit. Verum, nisi corpus primo circa axem quempiam principalem gyratur, praeter vires externas, quibus corpus forte sollicitatur, imprimis eae vires, quae ex ipso motu gyratorio eiusque vi centrifuga nascuntur, perpendi debent. Quas vires etiamsi supra iam in genere assignavimus, tamen easdem nunc denuo respectu axium principalium, quatenus axis gyrationis ab iis discrepat, determinari oportet; quibus cognitis, cum facile sit eas cum viribus externis coniungere, eas deinceps solas contemplemur et, quantum positio axis gyrationis iis turbetur, accurate investigemus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 614
+
+PROBLEMA 64
+661. Si corpus rigidum gyretur circa axem quemcunque per eius centrum inertiae transeuntem, cuius positio respectu axium principalium detur, invenire vires hinc ad axem gyrationis turbandum natas.
+SOLUTIO
+Existente I centro inertiae sint IA, IB et IC eius axes principales (Fig. 86) eorumque respectu momenta inertiae Maa, Mbb et Mcc. Gyretur autem corpus circa axem IO celeritate angulari =  , ex cuius quovis puncto O demittatur ad planum AIB perpendiculum OL, ductaque recta IL vocentur anguli AIL = m et LIO = n, ita ut pro situ huius axis IO respectu axium principalium sit
+cos AIO = cos m cos n, cos BIO = sin m cos n et cos CIO = sin n.
+
+Iam sumtis primo axibus principalibus pro directricibus iis parallelae constituantur ternae coordinate IX = x, XY = y et YZ = z,et in Z sumto corporis elemento dM erit ex natura axium principalium ideoque :
+
+ xydM = 0,  xzdM = 0 et  yzdM = 0,
+
+tum vero
+
+ ( yy + zz)dM = Maa,  ( xx + zz)dM = Mbb, et  ( xx + yy)dM = Mcc
+
+ideoque :
+
+ xxdM = 12M (bb + cc - aa) ,
+
+ yydM = 12M (aa + cc - bb) ,
+
+ zzdM
+
+=
+
+1 2
+
+M
+
+(aa + bb - cc) .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 615
+
+Porro in plano AIB ducta IP ad IL, et in plano LIC recta IQ ad IO normali, ut rectae IO, IP et IQ sint inter se normales, quas tanquam directrices adhibeamus. Hunc in finem ducatur primo YS ipsi IP in plano AIB parallela, erit
+IS = x cos m + y sin m et YS = y cos m - x sin m; atque ex Z ipsi YS agatur parallela Zy, quae erit in planum LIO normalis, et Zy = y cos m - x sin m, item Sy = YZ = z. Denique ex y ad IO demittatur perpendiculum yx, ut iam desideratae coordinatae sint Ix = X , xy = Y et yZ = Z , fietque
+
+X = IS cos n + Sy sin n = x cos m cos n + y sin m cos n + z sin n,
+
+Y = yS cos n - IS sin n = z cos n - x cos m sin n - y sin m sin n,
+
+Z = y cos m - x sin m. Cum iam elementum dM in Z ob celeritatem angularem =  exerat vim
+
+centrifugam =
+
+ xZdM 2g
+
+,
+
+nascetur inde vis secundum xy =
+
+ YdM 2g
+
+et vis secundum directionem ipsi yZ parallelam in x applicata =
+
+ ZdM 2g
+
+,
+
+quae vires ipsae cum se mutuo destruant, ob YdM = 0 et  ZdM = 0 earum
+
+momenta tantum erunt spectanda. Sumta ergo IO = f dabitur in O vis Oq ipsi
+
+IQ parallela omnibus viribus yZ aequivalens, si modo his viribus aequales et contrariae ipsi centro inertiae I applicentur. Cum igitur ob momenta sit
+
+vis
+
+Oq
+
+ IO
+
+=
+
+ 2g
+
+
+
+XYdM
+
+et
+
+vis
+
+Op
+
+ IO
+
+=
+
+ 2g
+
+
+
+XZdM
+
+,
+
+erit
+
+vis
+
+Oq
+
+=
+
+ 2 fg
+
+
+
+XYdM
+
+et
+
+vis
+
+Op
+
+=
+
+ 2 fg
+
+
+
+XZdM
+
+.
+
+At regrediendo ad coordinatas principales est
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 616
+
+( )  XYdM = sin n cos n  zzdM - cos2 m xxdM - sin2 m yydM
+et
+ XZdM = sin m cos m cos n ( yydM -  xxdM )
+
+ideoque per momenta inertiae data
+( )  XYdM = M sin n cos n aa cos2 m + bb sin2 m - cc
+et
+ XZdM = M sin m cos m cos n (aa - bb) .
+
+Consequenter ex motu gyatorio nascuntur hae vires
+
+vis
+
+Op
+
+=
+
+M 
+
+sin m cos m cos 2 fg
+
+n( aa -bb )
+
+et
+
+( ) M  sin n cos n aa cos2 m+bb sin2 m-cc
+vis Oq =
+2 fg
+
+puncto O secundum directiones rectis OP et OQ parallelas applicatae, quibus autem aequales et contrariae in ipso centro inertiae I applicatae sunt intelligendae.
+COROLLARIUM 1
+
+662. Cum vis Oq sit ad axem gyrationis IO in O normalis, ea producta plano
+
+AOB in puncto M occurret, quod in IL producta erit situm, eritque
+
+IM
+
+=
+
+f cos n
+
+et
+
+OM = ftang n ob IOM angulum rectum.
+
+COROLLARIUM 2
+
+663. Directio autem alterius vis Op est ad planum LIO normalis, utpote rectae IP in plano AIB ad IL normali parallela; atque planum pOq continuatum ad planum AIB inclinatur angulo = 90o - n idque intersecat recta ad IM normali.
+
+COROLLARIUM 3
+
+664. Quoniam hae vires ex motu gyratorio ipso natae sibi aequales et contrarias in centro inertiae applicatas habent, eae solum motum gyratorium perturbabunt neque corpori ullum motum progressivum inducent, ita ut centrum inertiae in quiete sit permansurum.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 617
+
+PROBLEMA 65
+665. Inventis viribus ex motu gyratorio ipso natis ad eum perturbandum invenire axem, circa quem hae vires corpus, si esset in quiete, gyraturae essent.
+
+SOLUTIO
+
+Manentibus omnibus, ut in problemate praecedente, ita ut IA, IB et IC sint axes corporis principales (Fig. 87) eorumque respectu momenta inertiae Maa, Mbb, Mcc, sit IO axis, circa quem iam copus gyratur celeritas =  , et pro eius
+
+situ anguli AIL =m et LIO = n, existente recta OL ad planum AIB normali, ut posita IO =f sit IL = f cos n et OM = f sin n. Tum vero ex O ad IO ducatur
+
+normalis OM, erit
+
+IM
+
+=
+
+f cos n
+
+et
+
+OM = f tang n,
+
+ducta autem ad IM in plano AIB normali MA, erit
+
+IA
+
+=
+
+cos
+
+f m cos
+
+n
+
+et
+
+MA =
+
+f
+
+tang m cos n
+
+.
+
+Nunc autem in O habentur vires Op et Oq, quarum Op ipsi AM parallela et Oq cum OM in directum est sita; suntque hae vires :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 618
+
+vis
+
+Op
+
+=
+
+M 
+
+sin m cos m cos 2 fg
+
+n( aa -bb )
+
+et
+
+( ) M  sin n cos n aa cos2 m+bb sin2 m-cc
+vis Oq =
+2 fg
+
+quarum media directio planum AIB alicubi in V in recta MA secabit, ut sit MO : MV = Oq : Op, unde colligitur
+
+( ) MV =
+
+f sin m cos m(aa-bb)
+
+cos n aa cos2 m+bb sin2 m-cc
+
+hincque
+
+tang
+
+MIV
+
+=
+
+sin m cos m(aa-bb)
+aa cos2 m+bb sin2 m-cc ;
+
+ex quo concluditur
+
+tang
+
+AIV
+
+=
+
+(bb-cc) sin m (aa-cc) cos m
+
+,
+
+quem angulum supra [§639] vocavimus  , at distantia
+
+( ( )) f a4 cos2 m+b4 sin2 m+c4 -2cc aa cos2 m+bb sin2 m
+
+IV =
+
+( ) cos n aa cos2 m+bb sin2 m-cc
+
+,
+
+quam supra vocavimus = h, ut sit
+
+( ) h =
+
+f (bb-cc) sin m
+
+cos n sin aa cos2 m+bb sin2 m-cc
+
+seu
+
+( ) h =
+
+f (aa-cc) cos m
+
+.
+
+cos n sin aa cos2 m+bb sin2 m-cc
+
+Nunc igitur in puncto V illas vires applicatas concipere licet, quae sunt
+
+vis
+
+sec.
+
+VM
+
+=
+
+M 
+
+sin m cos m cos n(aa-bb)
+2 fg
+
+,
+
+( ) M  sin n cos n aa cos2 m+bb sin2 m-cc
+
+vis sec. VT =
+
+2 fg
+
+,
+
+quarum haec secundum VR ipsi LO et VN ipsi ML parallelam resoluta dat
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 619
+
+( ) M  sin n cos2 n aa cos2 m+bb sin2 m-cc
+
+vim sec. VR =
+
+2 fg
+
+et
+
+( ) M  sin2 n cos n aa cos2 m+bb sin2 m-cc
+
+vim sec. VN =
+
+,
+
+2 fg
+
+quarum illa VR supra littera R est indicata. At quod supra erat Q cos - P sin ,
+
+qua expressione vis ad IV in plano AIB normalis denotatur, hic est
+
+unde prodit
+
+vis VM cos MIV - vis VN sin MIV ,
+
+( ) M  sin m cos m cos3 n(aa-bb) aa cos2 m+bb sin2 m-cc
+
+Q cos - P sin =
+
+.
+
+( ( )) 2 fg a4 cos2 m+b4 sin2 m+c4 -2cc aa cos2 m+bb sin2 m
+
+Cum porro sit
+
+tang
+
+
+
+=
+
+(bb-cc) sin m (aa-cc) cos m
+
+,
+
+erit
+
+cos =
+
+(aa-cc) cos m
+
+( ( )) a4 cos2 m+b4 sin2 m+c4 -2cc aa cos2 m+bb sin2 m
+
+His definitis sit iam IF axis ille, circa quem istae vires corpus, si quiesceret, essent gyraturae, ductoque ex F ex planum AIB perpendiculo FE vocentur anguli AIE =  et EIF =  , ac per problema 60 consequimur :
+
+tang 
+
+=
+
+aa cos bb sin
+
+=
+
+aa(aa-cc) cos m bb(bb-cc) sin m
+
+et
+
+tang
+
+
+
+=
+
+Q cos -P sin Rcc cos
+
+ bb
+
+sin
+
+=
+
+sin m cos n(aa-bb)bb sin cc(aa-cc) sin n
+
+.
+
+Denique tempusculo dt circa hunc axem IF angulus d generabitur, ut sit :
+
+( )  dt2 sin n cos n a4 (aa-cc)2 cos2 m+b4 (bb-cc)2 sin2 m
+
+d =
+
+2aabb cos
+
+,
+
+seu
+
+d
+
+=
+
+
+
+(aa-cc)dt2 cos m sin n cos n
+2bb sin cos
+
+=
+
+
+
+(bb-cc)dt2 sin m sin n cos n
+2aa cos cos
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 620
+
+COROLLARIUM 1
+
+666. Si pro axe gyrationis proposita IO ponantur anguli
+
+OIA =  , OIB =  , OIC =  , at pro axe gyrationis elementaris IF anguli
+
+erit atque
+
+FIA = A, FIB = B, FIC = C, cos = cos m cos n, cos  = sin m cos n, cos  = sin n cos A = cos cos , cos B = sin cos , cos C = sin.
+
+COROLLARIUM 2
+
+667. Deinde ob
+
+tang
+
+
+
+=
+
+aa(aa-cc) cos bb(bb-cc) cos 
+
+,
+
+si ponatur brevitatis gratia
+
+( ) a4 (aa-cc)2 cos2  +b4 (bb-cc)2 cos2  = W ,
+
+erit
+
+sin
+
+=
+
+aa(aa-cc) cos
+W
+
+et
+
+cos
+
+=
+
+bb(bb-cc) cos 
+W
+
+.
+
+Porro autem posito
+
+( ) a4b4 (aa-bb)2 cos2  cos2  +a4c4 (aa-cc)2 cos2  cos2  +b4c4 (bb-cc)2 cos2  cos2  = 
+
+habebitur: et
+
+cos A
+
+=
+
+bbcc(bb-cc) cos 
+
+
+cos 
+
+,
+
+cos B
+
+=
+
+aacc(cc-aa) cos
+
+
+cos 
+
+,
+
+cos C
+
+=
+
+aabb(aa-bb) cos
+
+
+cos
+
+
+
+d =  dt2 .
+2 aabbcc
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 621
+
+SCHOLION
+668. Quod ad sensum attinet, in quem gyratio circa axem IF fiet, quoniam angulus elementaris d =  dt2 semper est positivus, notandum est in
+2aabbcc
+indagatione huius valoris vim VR ut positivam esse spectatam, unde secundum figuram punctum E in sensum Ee versus A motu gyratorio feretur. Etsi enim haec ratio tantum in figura, ubi anguli m, n, , sunt positivi et recto minores, locum habet, tamen hinc ratio sensus recte concludi potest; quo semel in calculum introducto deinceps generatim veritati inhaerebimus. Ceterum evidens est, si axis IO in quempiam principalium cadat, fore d = 0 ; namque si  = 0, fit  =  = 90o ideoque cos  = cos  = 0,quo casu utique quantitas  evanescit; simul vero perspicuum est nullo alio casu hanc perturbationem d evanescere posse ideoque plures tribus non dari axes gyrationis liberos, nisi forte duo momenta principalia fuerint aequalia.
+PROBLEMA 66
+669. Si corpus gyretur circa axem quemcunque per eius centrum inertiae transeuntem ab axibus principalibus diversum, definire variationem momentaneam, quam cum ipse axis gyrationis tum celeritas angularis patietur.
+SOLUTIO
+Transferantur omnia, quae in praecedente problemate sunt inventa, ad
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 622
+
+superficiem sphaericam centro inertiae I descriptam, in qua A, B, C sint poli axium principalium (Fig. 88) eorumque respectu momenta inertiae Maa, Mbb, Mcc. Tum vero sit O polus axis illius, circa quem corpus iam gyratur celeritate angulari =  in
+
+sensum ABC. Ex C per O ducto circulo maximo COM, qui est quadrans, erunt arcus AM = m et MO = n; tum in quadrante BA producto capiatur AE =  et ducto
+
+quadrante CE arcus ES =  , ut sit
+
+tang
+
+
+
+=
+
+aa(aa-cc) cos m bb(bb-cc) sin m
+
+,
+
+seu
+
+atque
+
+bb sin m sin aa - cc
+
+=
+
+aa cos m cos bb-cc
+
+tang
+
+
+
+=
+
+bb
+
+sin m sin(aa-bb) cos cc(aa-cc) sin n
+
+n
+
+=
+
+aa
+
+cos m cos(aa-bb) cos cc(bb-cc) sin n
+
+n
+
+.
+
+His ita definitis ob vires corporis centrifugas corpus conabitur circa polum S gyrari in sensum Ee, ita ut tempusculo dt descripturum esset angulum
+
+d
+
+=
+
+
+
+(aa-cc)dt2 cos m sin n cos n
+2bb sin cos
+
+=
+
+
+
+(bb-cc)dt2 sin m sin n cos n
+2aa cos cos
+
+seu
+
+d
+
+=
+
+
+
+(aa-bb)dt2 sin m cos m cos2
+2cc sin
+
+n
+
+.
+
+Ducatur ergo arcus circuli maximi OS, qui sit = s, quem deinceps determinemus, atque in problemate 62 erit
+
+q
+
+=
+
+
+
+(aa-bb) sin m cos
+2cc sin
+
+m cos2
+
+n
+
+,
+
+hincque ob motum gyratorium elementarem corpus gyrabitur circa polum o, ut
+
+sit
+
+arculus
+
+Oo
+
+=
+
+
+
+( aa -bb ) dt
+
+sin m cos cc sin
+
+m cos2
+
+n
+
+sin
+
+s
+
+;
+
+celeritas autem angularis  augmentum accipiet d , ut sit
+
+d
+
+=
+
+ (aa-bb)dt sin m cos m cos2 n cos s
+
+cc sin
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 623
+
+Nunc igitur primo quaeri debet positio arcus OS seu angulus COS, quo ad arcum CO inclinatur; quem in finem consideretur triangulum OCS, in quo est OC = 90o - n, CS = 90o - , et angulus OCS = m + ,unde reperitur :
+
+Est vero
+
+cot
+
+COS
+
+=
+
+cos n tang
+sin(m+ )
+
+-
+
+sin n cos(m+ sin(m+ )
+
+)
+
+.
+
+tang (m
+
++)
+
+=
+
+aa(aa-cc) cos2 m+bb(bb-cc) sin2 (aa-bb)(cc-aa-bb) sin m cos m
+
+m
+
+and
+
+( ) cos n tang
+sin(m+ )
+
+=
+
+aabb(aa-bb) sin m cos m cos2 n cc sin n bb(bb-cc) sin2 m+aa(aa-cc) cos2
+
+m
+
+,
+
+thus giving
+
+( ) cc sin n aa(aa-cc) cos2 m+bb(bb-cc) sin2 m
+
+( ) tang COS =
+
+.
+
+(aa-bb) sin m cos m aabb cos2 n+cc(aa+bb) sin2 n-c4 sin2 n
+
+Porro ex eodem triangulo OCS colligitur
+
+cos
+
+s
+
+=
+
+cos
+
+(m
+
++
+
+)
+
+cos
+
+n
+
+cos
+
++
+
+sin
+
+n
+
+sin
+
+=
+
+sin
+
+ 
+
+sin
+
+n
+
++
+
+cos
+
+n cos(m+
+tang
+
+)
+
+ 
+
+seu
+
+( ) sin n sin aabb-(aa+bb)cc+c4
+cos s =
+
+= (aa-cc)(bb-cc) sin n sin ,
+
+aabb
+
+aabb
+
+unde fit
+d =  (aa-bb)(aa-cc)(bb-cc) sin m cos m sin n cos2 n  dt.
+aabbcc
+Denique positis OA =  , OB =  , OC =  erit arculus
+
+Oo
+
+=
+
+ dt aabbcc
+
+
+
+44
+ab
+
+( aa -bb ) 2
+
+2
+cos
+
+
+
+2
+cos
+
+
+
++
+
+44
+ac
+
+( aa -cc ) 2
+
+2
+cos
+
+
+
+2
+cos
+
+
+
+
+
+ 
+
++b4c4
+
+(bb-cc
+
+)2
+
+cos
+
+2
+
+
+
+cos2
+
+
+
+ 
+
+ - (aa-bb)2 (aa-cc)2 (bb-cc)2 cos2  cos2  cos2 
+
+
+
+et
+
+d
+
+=
+
+ (aa-bb)(aa-cc)(bb-cc) cos cos 
+aabbcc
+
+cos 
+
+ dt.
+
+Verum si ex o ad CO perpendiculum ducatur op, per regulas trigonometriae
+
+sphaericae arculi elementares Op et op ita rationaliter exprimuntur, ut sit :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 624
+
+( )  (aa-bb)dt cos cos  aabb-(aa-cc)(bb-cc) cos2 
+
+Op =
+
+aabbcc sin
+
+,
+
+( )  dt cos  aa(aa-cc) cos2  +bb(bb-cc) cos2 
+
+op =
+
+aabbcc sin
+
+.
+
+COROLLARIUM 1
+
+670. Cum sit
+
+d
+
+=
+
+ (aa-bb)(aa-cc)(bb-cc) cos cos  cos 
+aabbcc
+
+ dt,
+
+patet, si trium momentorum principalium duo fuerint inter se aequalia, tum
+
+celeritatem angularem plane non immutari.
+
+COROLLARIUM 2
+671. Introductis distantiis  ,  , poli O a polis principalibus A, B, C erit
+
+( ) cc cos  aa(aa-cc) cos2  +bb(bb-cc) cos2  tang COS = (aa-bb)cos cos  (aabb-(aa-cc)(bb-cc) cos2  ) ,
+ducto autem arcu AO erit
+
+unde concluditur
+
+tang
+
+AOC
+
+=
+
+- cos  cos cos 
+
+,
+
+( ) aa cos bb(bb-aa) cos2  +cc(cc-aa) cos2  tang AOS = (bb-cc) cos  cos  ((bb-aa)(cc-aa)cos2  -bbcc) .
+
+COROLLARIUM 3
+672. Haec formula pro angula AOS analoga est illi pro angulo COS indeque oritur, si litterae a, b, c, item  ,  , in ordine uno loco promoveantur; hoc autem modo signum prodiret negativum, id quod rei naturae est consentaneum, cum angulus AOS in sensum contrarium cadat respectu prioris.
+COROLLARIUM 4
+673. Si arcus OS quadrantem AC secet in puncto R, collititur :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 625
+
+( ) aa cos bb(aa-bb) cos2  +cc(aa-cc) cos2 
+
+( ) tang AR =
+
+,
+
+cc cos  aa(aa-cc) cos2  +bb(bb-cc) cos2 
+
+ac si idem arcus SO productus occurrat quadranti BA in Q, erit per analogiam :
+( ) bb cos  cc(bb-cc) cos2  +aa(bb-aa) cos2  tang BQ = ( aa cos bb(bb-aa) cos2  +bb(cc-aa)cos2  ) = cot AQ.
+
+COROLLARIUM 5
+674. Cum tempusculo dt arcus CO =  minuatur particula Op, erit per differentialia
+aabbccd sin =  (bb - aa) dt cos cos  (aabb - (aa - cc)(bb - cc) cos2  )
+hincque per analogiam :
+aabbccd  sin  =  (aa - cc) dt cos  cos (aacc - (cc - bb)(aa - bb) cos2  ) , aabbccd  sin =  (cc - bb) dt cos  cos  (bbcc - (bb - aa)(cc - aa) cos2  ) .
+
+SCHOLION
+675. Assumsimus in solutione, quod probe est notandum corpus circa axem IO in sensum ABC gyrari, ad quem ergo casum formulae inventae sunt accommodatae; sin autem corpus gyraretur in sensum contrarium, formulae facillime eo referentur statuendo celeritatem gyratoriam  negativam. Atque sic problema hoc difficillimum, quo variatio momentanea quaeritur, dum corpus circa axem non-principalem gyratur, satis commodo resolvimus, cum formulae postremae, ad quas tandem solutio est perducta, non adeo sint intricatae, ut simpliciores expectare licuisset. Neque etiam suspicio ullius erroris in calculo commisi locum habet, cum formual, qua incrementum celeritatis angularis d exprimitur, ad omnes tres axes principales aeque referatur, tum derivatio anguli AOS ex angulo COS rem firmissime evincit ac tandem aequationes in postremo corollario exhibitae hanc proprietatem habere deprehenduntur, ut sit
+d sin cos + d  sin  cos  + d sin cos  = 0,
+uti conditio principalis cos2  + cos2  + cos2  = 1
+exigit. Ternae autem postremae aequationes cum ea, quae differentiale d definit, plenam problematis solutionem continent, ubi quidem quaelibet
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 626
+
+trium illarum omitti potest. Si corpus insuper a viribus externis sollicitaretur, solutio non multo difficilior evaderet, quemadmodum in sequentem probleme ostendetur.
+
+PROBLEMA 67
+
+676. Si corpus rigidum, dum circa axem quemcunque per eius centrum inertiae transeuntem gyretur, a viribus quibuscunque sollicitetur, definire variationem momentaneam tam in ipso axe quam in celeritate angulari inde ortam.
+
+SOLUTIO
+Sit IO axis, circa quem corpus nunc gyretur celeritate angulari =  in sensum
+ABC (Fig. 88), ac primo dispiciatur eius situs respectu axium principalium IA, IB, IC, quorum respectu momentia inertiae sint Maa, Mbb, Mcc, positisque arcubus OA =  , OB =  , OC =  per
+problema praecedens quaeratur, quantum tempusculo dt tam axis gyrationis IO quam celeritas angularis ob solum motum gyatorium mutari debeat. Scilicet, si polus gyrationis ex O abeat in o, vidimus fore incrementum distantiae CO =  :
+
+( )  (aa-bb)dt cos cos  aabb-(aa-cc)(bb-cc) cos2 
+
+Co - CO =
+
+aabbcc sin
+
+atque incrementum anguli BCO
+
+( )  dt cos  aa(aa-cc) cos2  +bb(bb-cc) cos2 
+
+OCo =
+
+aabb sin2 
+
+quibus elementis situs puncti o sine ambiguitate definitur. Praeter hanc autem axis gyrationis mutationem celeritas angularis  capiet incrementum =
+
+ (aa-bb)(aa-cc)(bb-cc) cos
+aabbcc
+
+cos 
+
+cos 
+
+dt
+
+.
+
+Deinde perpendantur vires sollicitantes, utrum corpori motum progressivum imprimant : cuius rei facillimum est iudicium, dum omnes vires secundum suas quasque directiones ipsi centro inertiae applicatae concipiantur. Si enim se mutuo in aequilibrio teneant, corpori nullus motus progressivus imprimetur, sin autem detur vis illis aequivalens, ab hac motus progressivus in corpore generabitur ex primis principaliis facile definiendus. Tum isti vi aequivalenti
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 627
+
+aequalis et contraria ipsi centro inertiae applicetur, ut iam hoc centrum in quiete teneatur, atque hac vi cum iis, quibus corpus actu sollicitatur, coniuncta omnes revocentur ad duas, quarum altera in centro inertiae, altera in alio quodam puncto sit applicata, quae duae vires erunt aequales sed contrariae. Porro ex praecedente capite quaeritur axis, circa quem corpus ab istis viribus converti incipiet, simulque angulus conversionis momentaneae, unde per problema 62 sine ullo respectu ad mutationem iam inventam habito quoniam haec est infinite parva, quasi corpus adhunc circa axem Oo gyraretur, quaeratur variatio in axe et celeritate angulari inde orta, quarum illa ad incrementa vel decrementa tam in arcu CO quam in angulo BCO nata reducantur. Denique haec terna elementa cum iis, quae iam ante ex motu gyratorio sunt definita, coniungantur, sicque obtinebitur vera variatio tam in axe IO quam in celeritate angulari ab utraque causa simul producta.
+
+SCHOLION
+
+677. Dum virium sollicitantium effectus exploratur, variatio axis inde orta
+
+eodem modo per angulum elementarem OCo et differentiam arcuum CO et Co
+
+exprimi potest, quo hic usi sumus. Scilicet quaeratur primo axis, circa quem corpus, si quiesceret, a viribus vertetetur, qui sit IS, sitque qdt2 angulus
+conversionis tempusclo dt productus circa S in sensum O , ac pro puncto S
+ponatur arcus AE =  et ES =  , qui valores a praecedentibus ex ipso motu
+
+gyratorio ortis probe sunt distinguendi. Cum ergo sit AM = ACM = m, ut sit
+
+cos
+
+m
+
+=
+
+cos  sin 
+
+et
+
+sin m
+
+=
+
+cos  sin 
+
+,
+
+erit MCE = m + et ex triangulo OCS reperitur :
+
+cos OS = cos s = cos (m + ) sin cos + cos  sin
+
+et
+
+cot
+
+COS
+
+=
+
+sin tang
+sin(m+ )
+
+-
+
+cos  cos(m+ ) sin(m+ )
+
+.
+
+Nunc autem ex problemate 62 polus gyrationis O transfertur in o, ut sit
+
+Oo
+
+=
+
+2qdt sin 
+
+s
+
+et incrementum celeritatis angularis
+
+2qdt cos s = 2qdt (sin cos cos (m + ) + cos  sin ) .
+Deinde ex Oo elicitur
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 628
+
+Op
+
+=
+
+Oo cos COS
+
+=
+
+2qdt cos 
+
+s
+
+cos COS
+
+et
+
+op
+
+=
+
+Oo
+
+sin COS
+
+=
+
+2qdt sin s 
+
+sin COS
+
+=
+
+2qdt 
+
+cos
+
+sin (m
+
++)
+
+ideoque
+
+angulus
+
+OCo
+
+=
+
+2 qdt
+
+cos sin(m+ )
+ sin
+
+.
+
+Hinc vero porro deducitur
+
+CO
+
+-
+
+Co
+
+=
+
+Op
+
+=
+
+op cot
+
+COS
+
+=
+
+2qdt 
+
+( sin 
+
+sin
+
+-
+
+cos 
+
+cos
+
+cos (m
+
++
+
+)).
+
+Tantum ergo superest, ut haec elementa cum illis, quae ex motu gyratorio sunt eruta, combinentur, ut obtineatur axis gyrationis variatus cum incremento vel
+
+decremento celeritatis angularis.
+
+PROBLEMA 68
+
+678. Si ad aliquod tempus detur situs corporis rigidi circa quempiam axem per
+
+eius centrum inertiae transeuntem gyrantis atque tam axis gyrationis quam
+
+celeritas angularis utcunque varietur, invenire mutationem momentaneam in corporis situ ortam.
+
+SOLUTIO
+
+Cum centrum inertiae corporis
+
+quiescat, situs corporis referatur ad sphaeram fixam eodem centro
+
+descriptam, intra quam fixam corpus motum suum absolvat (Fig. 89). In
+
+hac sphaera capiatur circulus
+
+magnus VXZY in eoque punctum fixum Z; atque ad datum tempus = t
+
+axes corporis principales in superficie sphaerica respondeant
+
+punctis A, B, C, ut AB, BC, CA sint
+
+quadrants; ad quorum situm symbolis repraesentandum sint arcus
+
+circulorum maximorum ZA = l, ZB = m, ZC = n,
+
+erit
+
+cos2 l + cos2 m + cos2 n = 1;
+
+ac ponatur anguli
+
+XZA =  , XZB =  , XZC = ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 629
+
+erit ex sphaericis
+
+cos ( -  ) = - cot l cot m,
+
+cos ( -  ) = - cot m cot n,
+
+cos ( -  ) = - cot l cot n,
+
+ergo
+
+cos ( -  ) cos ( -  ) = cot2 l cot m cot n = - cot2 l cos ( -  ) ,
+
+unde fit Cum vero sit
+
+cot 2
+
+l
+
+=
+
+-
+
+cos( - ) cos( cos( - )
+
+-)
+
+,
+
+cot
+
+2
+
+m
+
+=
+
+-
+
+cos(
+
+ - ) cos( cos( - )
+
+-
+
+
+
+)
+
+,
+
+cot
+
+2
+
+n
+
+=
+
+-
+
+cos( - ) cos( cos( - )
+
+-
+
+)
+
+.
+
+cos ( -  ) - cos ( -  ) cos ( -  ) = sin( -  ) sin( -  ) ,
+
+cos2 l = - cot ( -  ) cot ( -  ) ,
+
+cos2 m = - cot ( -  ) cot ( -  ) ,
+
+cos2 n = - cot ( - ) cot ( - ) .
+Hac relatione inter quantities l, m, n,  ,  , ,quae tempusculo dt suis
+differentialibus crescere sunt censendae, notata sit nunc O polus gyrationis arcusque AO =  , BO =  , CO =  , ut sit :
+
+erit et at in triangulo ZAB est
+
+cos2  + cos2  + cos2  = 1;
+
+cos
+
+BAO
+
+=
+
+cos  sin
+
+sin
+
+BAO
+
+=
+
+cos  sin
+
+,
+
+cos
+
+ZAB
+
+=
+
+cos m sin l
+
+et
+
+sin
+
+ZAB
+
+=
+
+-
+
+cos
+
+ZAC
+
+=
+
+-
+
+cos n sin l
+
+,
+
+ita ut sit pro triangulo ZAO
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 630
+
+sin
+
+ZAO
+
+=
+
+cos 
+
+cos m-cos  sin sin l
+
+cos
+
+n
+
+,
+
+cos
+
+ZAO
+
+=
+
+cos
+
+
+
+cos m+cos  sin sin l
+
+cos
+
+n
+
+,
+
+unde colligitur
+
+cos ZO = cos cos l + cos  cos m + cos  cos n
+
+et
+
+cot
+
+AZO
+
+=
+
+cos 
+
+-cos l(cos
+cos 
+
+cos l +cos  cos m+cos  cos m-cos  cos n
+
+cos
+
+n)
+
+,
+
+hincque ad quodvis tempus polus gyrationi O innotescit. Deinde posita celeritate angulari =  ' in sensum ABC, tempusculo dt
+
+punctum A circa O describit arculum Aa =  ' dt sin , quare ducta a ad ZA
+
+normali erit
+
+A
+
+=
+
+
+
+'
+
+dt
+
+
+
+cos 
+
+cos
+
+m-cos  sin l
+
+cos n
+
+,
+
+a
+
+=
+
+
+
+'
+
+dt
+
+
+
+cos
+
+
+
+cos m+cos  sin l
+
+cos n
+
+,
+
+unde differentialia quantitatum l et  deducantur
+
+dl sin l =  ' dt (cos  cos n - cos  cos m)
+et
+- d sin2  =  ' dt (cos  cos m + cos  cos n)
+similique modo reperietur :
+
+dm sin m =  ' dt (cos  cos l - cos cos n) ,
+-d sin2 m =  ' dt (cos  cos n + cos cos l ) dn sin n =  ' dt (cos cos m - cos  cos l ) ,
+-d sin2 n =  ' dt (cos cos l + cos  cos m) .
+Quodcirca, si ad quodvis tempus  , , et  ' t dentur quantitates ideoque earum differentialia tempusculo dt nata, hinc colliguntur variationes eodem tempusculo in arcibus l, m, n et angulis  ,  , productae. Praeterea vero variatio in polo gyrationis O facta facile concluditur, quia tantum opus est, ut arcus ZO et angulus AZO differentientur, ponendo solum arcus  , , variabiles, quia hoc modo polus O in situm sequentem o transfertur. Erit ergo
+
+(Zo - ZO) sin ZO = d sin cos l + d  sin  cos m + d sin cos n
+et, cum sit
+cot AZO (cos  cos m - cos  cos n) = cos - cos l cos ZO,
+erit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 631
+
+OZo sin2 AZO
+
+( cos 
+
+cos
+
+m
+
+-
+
+cos
+
+
+
+cos
+
+n)
+
++
+
+cot
+
+AZO (d
+
+sin 
+
+cos
+
+m
+
+-
+
+d
+
+sin
+
+
+
+cos
+
+n)
+
+= d sin sin2 l - d  sin  cos l cos m - d sin cos l cos n
+
+hincque reducendo :
+
+OZo sin2 AZO
+
+=
+
+sin2
+
+l(d
+
+sin (cos 
+
+cos m-cos 
+
+cos n)+d  sin  (cos cos n-cos  (cos  cos m-cos  cos n)2
+
+cos l )+d
+
+sin (cos 
+
+cos l -cos
+
+cos m))
+
+ac denique angulus elementaris OZo =
+
+d sin (cos  cos m-cos  cos n)+d  sin  (cos cos n-cos  cos l )+d sin (cos  cos l -cos cos m)
+
+1-(cos cos l +cos  cos m+cos  cos n)2
+
+,
+
+in quam formulam bis ternae litterae  , , , et l,m,n aequaliter ingrediuntur, ut
+
+natura rei postulat.
+
+COROLLARIUM 1
+
+679. Si ex O in Zo arculus Op perpendiculariter ducatur, erit
+
+po
+
+=
+
+d
+
+sin
+
+cos
+
+l+d
+
+sin  cos sin ZO
+
+m+d
+
+sin 
+
+cos
+
+n
+
+et
+
+Op
+
+=
+
+d
+
+sin (cos 
+
+cos m-cos
+
+
+
+cos n)+d 
+
+sin  (cos cos n-cos 
+sin ZO
+
+cos l )+d
+
+sin 
+
+(cos 
+
+cos l -cos
+
+cos m)
+
+.
+
+COROLLARIUM 2
+
+680.
+
+Porro ex
+
+sin BAO
+
+=
+
+cos  sin
+
+et
+
+cos
+
+BAO
+
+=
+
+cos  sin
+
+colgititur
+
+angulus
+
+OAo
+
+=
+
+-d
+
+cos cos  -d sin sin cos 
+
+sin 
+
+hincque elementum
+
+(( ) ) d 2 +d 2 sin2  sin2  +2d d sin cos sin cos 
+
+Oo =
+
+cos 
+
+,
+
+quod cum aeque referatur ad  , , ,ob
+
+d sin cos + d  sin  cos  + d sin cos  = 0
+
+reducitur ad
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 632
+
+( ) Oo = d 2 sin2  + d  2 sin2  + d 2 sin2  .
+
+COROLLARIUM 3
+
+681. Ponamus ZO = v et, cum sit
+
+cos = cos cos l + cos  cos m + cos  cos n,
+
+erit
+
+tang
+
+AZO
+
+=
+
+cos  cos m-cos  cos n cos -cos l cos
+
+et ob analogiam, quia B alteram partem ipsius ZO in figura cadit,
+
+unde fit qui valor cum supra invento
+
+-
+
+tang
+
+AZO
+
+=
+
+cos cos n-cos  cos cos  -cos m cos
+
+l
+
+,
+
+tang
+
+AZB
+
+=
+
+tang
+
+(
+
+-
+
+
+
+)
+
+=
+
+cos n cos l cos
+
+m
+
+;
+
+egregie conspirat, eritque
+
+cos
+
+(
+
+
+
+-
+
+
+
+)
+
+=
+
+-
+
+cos sin
+
+l l
+
+cos m sin m
+
+sin
+
+(
+
+
+
+-
+
+
+
+)
+
+=
+
+-
+
+cos n sin l sin
+
+m
+
+.
+
+COROLLARIUM 4
+
+682. Hinc ergo pro differentiis ternorum angulorum  , , has adipiscimur
+
+determinationes
+
+sin
+
+(
+
+
+
+-
+
+
+
+)
+
+=
+
+-
+
+cos n sin l sin
+
+m
+
+,
+
+sin
+
+(
+
+-
+
+
+
+)
+
+=
+
+-
+
+cos l sin m sin n
+
+,
+
+sin
+
+(
+
+-
+
+)
+
+=
+
+-
+
+cos m sin l sin
+
+n
+
+,
+
+cos
+
+(
+
+
+
+-
+
+
+
+)
+
+=
+
+-
+
+cos sin
+
+l l
+
+cos m sin m
+
+,
+
+cos (
+
+-
+
+)
+
+=
+
+-
+
+cos m cos n sin m sin n
+
+,
+
+cos
+
+(
+
+
+
+-
+
+)
+
+=
+
+-
+
+cos sin
+
+l l
+
+cos n sin n
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Ten.
+
+Translated and annotated by Ian Bruce.
+
+page 633
+
+SCHOLION
+683. Quae hactenus de mutatione momentanea, quam motus gyratorius tam per se quam ob vires sollicitantes subit, exposuimus, fundamentum constituunt universae Theoriae de motu corporum rigidorum, quandoquidem ex cognita mutatione elementari ad ipsam motus determinationem transitus per calculum integralem patet. Aggrediamur ergo motum liberum huiusmodi corporum, quo sive proprio quasi instinctui sive viribus sollicitantibus libere obsequi possunt, ac primo quidem vires sollicitantes externas removeamus, corpora sibi tantum relicta contemplaturi, ut extrinsecus nihil accedat, quod ad motum quicquem conferat. Quoniam autem indoles axium principalium, quibus corpus est praeditum, hic imprimis in computum ingreditur, inde naturale quasi discrimen in corporibus constitui conveniet, prout momenta inertiae eorum respectu fuerint comparata. Tres igitur corporum classes constituamus, ad quarum primum ea referamus corpora, quorum momenta respectu axium principalium sint inter se aequalia; ad secundum vero classem ea corpora, in quibus duo momenta respectu axium principalium sint aequalia, tertium vero illis inaequale. Tertia vero classis in genere omnia ea corpora complectatur, quorum momenta respectu axium principalium inter se sint inaequalia.
+
+

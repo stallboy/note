@@ -1,0 +1,3300 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 651
+
+Chapter 12
+
+CONCERNING THE FREE MOTION OF THE SAID BODIES WITH TWO EQUAL PRINCIPAL AXES, AND ACTED ON BY
+NO FORCES.
+DEFINITION 12
+706. Two rigid bodies are said to have equal principal axes, when the moments of inertia about the two principal axes are equal to each other. said
+COROLLARY 1
+707. Hence bodies of this kind have innumerable principal axes; and indeed at once the two axis have equal moments of inertia, all the lines that can be drawn in the same plane passing through the centre of inertia can be taken equally for principal axes, and they are provided with the same moment of inertia.
+COROLLARY 2
+708. Therefore here that principal axis, the moment of inertia of which is unequal to the others, is singular, and all the lines drawn normally to it have equal moments of inertia, and can be considered as principal axes.
+COROLLARY 3
+709. And thus with the singular axis known, the position of the two remaining axes is not determined, but the location of these can be taken by any two lines as it pleases as long as they are taken normal to each other and to that axis, while they pass through the centre of inertia.
+SCHOLIUM
+710. Therefore above in general for the principal axes IA, IB, IC we were able to take the moments of inertia Maa, Mbb, Mcc, in this chapter we establish two of these equal. Therefore let the first axis IA be singular, and the moments of inertia of the remaining are equal to each other, so that there arises bb = cc; to which the above formulas can be adapted extremely well [§664]. But if in this case the position of two of the axes IB and IC is not determined, yet as we are able to consider their position, so that with the aid of these the position of the body
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 652
+
+at some time can be more easily assigned. But certainly an indefinite number of bodies are given of this kind, and among homogeneous bodies in the first place it is to be extended here to cylinders, cones, and in general all round bodies which arise from the rotation of some figure about a certain fixed axis; thus in order that nearly all bodies, which indeed are accustomed to arise from geometry, can themselves be included in this shapes of this kind. Therefore as we will outline in this chapter an account of the motion that these bodies themselves have, while they are not acted on by any forces, and indeed initially we ask about the position of the axis of rotation in terms of the principal axis at some time, while not being acted on by forces, and what motion these axes themselves shall have, that henceforth we will try to define.
+
+PROBLEM 71
+711. If some rotational motion were impressed initially on a said rigid body with two equal principal axes, nor any external forces being present, to assign at some time the position of the axis or rotation in relation to the principal axes.
+
+SOLUTION
+With the centre of inertia of the body I at the centre of a sphere (Fig. 89), we reduce everything to the surface of this sphere, on putting in place the principal axes of the body IA, IB, IC , and about the first axis IA the moment of inertia = Maa, but about the remaining two axes IB and IC, the moments of inertia are equal to each other and equal to Mcc, as bb = cc. But now after a change in time from the initial time t, the body may be rotating about the axis IO in the sense ABC with an angular
+speed equal to , [note the use of a larger font here as in
+the original text] thus so that the position of the point O can be defined relative to the points A, B, C. Hence there are put in place the great circular arcs OA =  , OB =  et OC =  ,which are to be treated as variables, and by problem 66 in the
+case in which bb = cc put in place gives in the first place d  = 0,thus it is apparent that the
+angular speed remains invariant, and thus at this stage to be equal to that which was impressed on the body had initially. Whereby if initial angular speed is put equal to  then  =  . Then we now have these equations [of motion] from § 674:
+I. aac4d sin = 0
+II. aac4d  sin  =  aacc (aa - cc) dt cos cos 
+III. aac4d sin =  aacc (cc - aa) dt cos cos  ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 653
+
+and we understand from the first of these, that AO =  is to be constant, and thus these equations are for that case in which initially the axis of rotation is distant from the singular axis IA. Since therefore
+cos  = (sin2  - cos2  ) ,
+the other remaining equation is produced :
+
+and the integral of this is : and thus
+
+d  sin 
+
+=  (aa-cc)dt cos ,
+
+( ) sin2  -cos2 
+
+cc
+
+A
+
+cos
+
+cos  sin
+
+=
+
+C
+
++
+
+
+
+(
+
+aa - cc )t
+cc
+
+cos 
+
+,
+
+cos
+
+
+
+=
+
+sin
+
+cos
+
+ 
+
+C
+
++
+
+ (aa-cc)t
+cc
+
+cos 
+
+ 
+
+and
+
+cos 
+
+=
+
+sin
+
+sin
+
+ 
+
+C
+
++
+
+ (aa-cc)t cos
+cc
+
+ 
+
+.
+
+Whereby if initially, when t = 0, there should be AO = A, BO = B and CO = C,
+
+then  = A and
+
+cos B = sin A sin C,
+
+thus the constant becomes :
+
+cos C
+
+=
+
+cos B sin A
+
+and
+
+sin C
+
+=
+
+cos C sin A
+
+.
+
+In which case we have :
+
+cos 
+
+=
+
+cos Bcos
+
+ (aa-cc)t cos A
+cc
+
+- cos C
+
+sin
+
+ (aa-cc)t cos A
+cc
+
+cos 
+
+=
+
+cos
+
+B
+
+sin
+
+
+
+(
+
+aa
+
+- cc )t
+cc
+
+cos
+
+A
+
++ cos C cos
+
+ (aa-cc)t cos A
+cc
+
+,
+
+thus if the initial motion were known to us, the position of the axis of rotation about the
+
+principal axes, or the arcs A, B et C, then we are able to assign the position of the axis of
+
+rotation about the principal axes or the arcs ,  , for some time elapsed t.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 654
+
+COROLLARY 1
+712. Therefore if initially there is a rotary motion impressed on the body about the axis IE with an angular speed equal to in the sense ABC, the inclination of the angles being A, B, C to the principle axes IA, IB, IC; hence the axis of gyration may be changed in some manner, the angular speed always remains the same and equal to ; and the axis or rotation IO is inclined at the same angle A to the singular principal axis IA.
+
+COROLLARY 2
+
+713. Now if the moment of inertia about the singular axis IA is equal to Maa, but about the
+
+two other axes equal to = Mcc for the lapse in the time equal to t, because  denotes the
+
+angle, the angle is put in place
+
+ (aa-cc)t cos A
+cc
+
+= T,
+
+which with the time t it increases uniformly; and in this time the body rotates about the axis
+
+IO, so that it becomes
+
+AO = AE = A and
+cos BO = cos BcosT - cos C sinT ,
+
+cos CO = cos B sinT + cos C cosT .
+
+COROLLARY 3
+
+714. Because the arc AO remains equal to the magnitude A always, the position of the point
+
+O can become known most conveniently from the angle BAO, since there arises
+
+cos
+
+BAO
+
+=
+
+cos BO sin A
+
+and
+
+sin
+
+BAO
+
+=
+
+cos CO sin A
+
+,
+
+then it becomes
+
+cos
+
+BAO
+
+=
+
+cos BcosT -cos C sin A
+
+sin T
+
+and
+
+sin
+
+BAO
+
+=
+
+cos B sinT +cos C cosT sin A
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 655
+
+COROLLARY 4
+715. If cc = aa, which is the case treated before, from which all three moments of inertia are equal to each other, then T = 0, and BO = B , likewise CO = C , clearly the pole or rotation O about the principal axis remains at rest, as now we have found before.
+SCHOLIUM
+716. These formulas can be made much simpler, but it is the underlying idea that deserves the merit, as by that rather singular proposition rather than describing the change in detail.
+
+PROBLEM 72
+
+717. With the same items in place, which have been established in the previous problem, to define the forwards motion of the pole of rotation O about the principle axes.
+
+SOLUTION
+
+Everything remains as in the preceding solution,
+
+and since the equal poles B and C can be taken as it
+
+pleases on the circle PC, thus the quadrant AB is put in
+
+place, in order that it is cut by the pole E (Fig. 91).
+
+Therefore since this pole of the rotation keeps the same
+
+distance from the pole of the principal axis A, the
+
+motion of this describes a small circle EFG with A, the distance of this shall be the arc AE =  , which we have
+
+indicated above by A . Hence there becomes
+
+BE = B = 90o -
+
+and
+
+CE = C = 90o.
+
+Whereby if in the elapsed time equal to t the pole of the rotation reaches O from E, on
+
+account of cos C = 0,then
+
+cos BAO =
+
+cos BcosT sin
+
+= cosT
+
+and
+
+sin BAO
+
+=
+
+cos B sinT sin
+
+=
+
+sinT ,
+
+and thus the angle itself
+
+BAO = T.
+
+But the angle T is defined thus from the time t, so that it becomes
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 656
+
+T
+
+=
+
+ (aa-cc)t cos
+cc
+
+=
+
+BAO,
+
+thus we achieve this excellent solution. If the moment of inertia about the singular principal
+
+axis IA were equal to Maa and about the remaining two equal axes IB and IC equal to Mcc,
+
+moreover the body begins to rotate with an angular speed equal to initially about the axis
+
+IE in the sense BCA ; then about the principal axes, which we have considered as if to remain
+
+at rest, the pole of the rotation will be advanced through the small circle EFG described
+
+uniformly about the pole A, thus so that in the elapsed time equal to t, it completes the angle
+
+EAO
+
+=
+
+ (aa-cc)t
+cc
+
+cos 
+
+,
+
+and the motion is made in the sense BC conforming to the rotational motion, if indeed it
+
+should be that aa > cc, but in the opposite sense if aa < cc .
+
+COROLLARY 1
+
+718. The pole of rotation remains at rest in these cases : 1: if AE = 0 or the body begins to rotate about the principal axis IA.
+2: if AE = 90o or if the body begins to rotate about some axis normal to IA, and 3: if aa = cc,that is, if the body has all three principal axes equal.
+
+COROLLARY 2
+
+719. If aa > cc, then the pole of rotation E about A in the same sense BC, in which the
+
+ (aa-cc) cos AE
+
+rotation is made, is carried round with an angular speed equal to
+
+cc
+
+; but if
+
+aa < cc, it is carried around in the opposite sense with an angular speed equal to
+
+ (cc-aa) cos
+cc
+
+AE
+
+.
+
+COROLLARY 3
+
+720. But the arc of the small circle itself EO, through which the axis of rotation progresses in
+
+the time t
+
+is equal to
+
+ (aa-cc)t sin AE cos AE
+cc
+
+=
+
+
+
+(aa-cc)t sin 2
+2cc
+
+AE
+
+, because therefore the distance
+
+from the other equal parts is a maximum if
+
+AE =
+
+1 2
+
+AB = 45o , that is if the axis of rotation is
+
+equally distant from the principal axes.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 657
+
+COROLLARY 4
+
+721. With the ratio of the diameter to the periphery put equal to 1:  , the pole of the rotation
+
+traverses
+
+the
+
+whole
+
+circumference
+
+EFGE
+
+in
+
+a
+
+time
+
+equal
+
+to
+
+2 cc
+ (aa-cc) cos AE
+
+sec.
+
+and
+
+thus
+
+the
+
+uniform motion is conserved always.
+
+SCHOLIUM
+722. Here we are not yet acting on the motion of the body, for since it is to be noted properly, if the body should be at rest or we are considering another body equal to it and at rest, and for that body we have shown how to define the axis of rotation IO at some time, about which a moving body should rotate, without this body being disturbed, for in which case this axis of rotation would then be obtained with respect to absolute space. Therefore now we proceed to an examination of the complete motion.
+
+PROBLEM 73
+
+723. If some rotary motion were impressed on a rigid body with the two said equal principal axes, at a given time both the position of the principal axis as well as the axis of rotation are to be assigned with respect to absolute space.
+
+SOLUTION
+The sphere circumscribed from the centre of inertia of the body may be enclosed by the surface of a fixed sphere ZXVY (Fig. 89), and in the elapsed time t the mobile sphere keeps that position with the body, in order that the poles or the three principal axes are at A, B, C , about the first of which IA the moment of inertia is equal to Maa, but about the remaining two equal to Mcc. Thus with the arcs AZ, BZ and CZ drawn to a certain fixed point Z, as in problem 68 we put
+AZ = l, BZ = m et CZ = n,
+in order that
+cos2 l + cos2 m + cos2 n = 1;
+
+then let the angles be
+
+XZA =  , XZB =  et XZC = ,
+
+and because the rotational motion, as we have now shown, remains uniform, let the angular speed of this be equal to  directed in the sense ABC. Again since the axis of rotation equally always remains distant from the axis IA. Let the arc AO =  , and equal initially to AE, where
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 658
+
+we assume initially that the pole of the rotation E to have been placed on the arc AB.
+
+Therefore from the preceding, if we put
+
+ (aa-cc)t cos
+cc
+
+= T,
+
+then in the elapsed time equal to t the angle BAO = T; thus if we put the arc BO =  and CO =  ,then
+
+cos  = sin cosT and cos  = sin sinT
+
+on account of the right angle BAC. With these in place, [note the large type  ] =  from §
+
+678 we will have these equations [where we have put ' in place of ]:
+
+dl sin l =  dt sin (cos n cosT - cos m sinT ) -d sin2 l =  dt sin (cos m cosT + cos n sinT ) dm sin m =  dt sin (cos l sinT - cos n cot  ) -d  sin2 m =  dt sin (cos n sinT + cos l cot  ) dn sin n =  dt sin (cos m cot  - cos l cosT ) -d sin2 n =  dt sin (cos l cot  + cos m cosT ) ,
+which since they lead easier to integration, we consider the arc ZO = v , and since there arises
+cos = cos cos l + sin (cos m cosT + cos n sinT ) ,
+on differentiation this becomes
+dv sin = dl sin l cos + dm sin m sin cosT + dn sin n sin sinT +dT sin cos m sinT - dT sin cos n cosT ,
+
+but with these values put in place for dl sin l, dm sin m, dn sin n there becomes
+
+dv sin
+
+=
+
+-dT
+
+sin
+
+(cos n cosT
+
+- cos m sinT
+
+)
+
+=
+
+-dT
+
+sin
+
+
+
+dl sin l  dt sin
+
+.
+
+Therefore
+
+since
+
+then
+
+dT
+
+=
+
+ (aa-cc)dt cos
+cc
+
+,
+
+there
+
+arises
+
+dv
+
+sin v
+
+=
+
+-(aa-cc) cos
+cc
+
+ dl
+
+sin l
+
+and on integration,
+
+cos
+
+v
+
+=
+
+C
+
+-
+
+(aa-cc) cos
+cc
+
+cos
+
+l
+
+
+
+=
+
+cos 
+
+cos
+
+l
+
++
+
+sin
+
+(cos
+
+m
+
+cos
+
+T
+
++
+
+cos
+
+n
+
+sin T
+
+)
+
+,
+
+Hence moreover it is permitted to conclude this particular integration, by putting the arc l
+
+constant, and
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 659
+
+cos m = sin l cosT and
+cos n = sin l sinT ,
+in order that it becomes cos2 l + cos2 m + cos2 n = 1 ,
+and in a like manner dl sin l = 0 satisfies the first equation, while the rest give :
+
+dm sin m = dT sin l sinT =  dt sin (cos l sinT - cot  sin l sinT ) ,
+
+dn sin n = -dT sin l cosT =  dt sin (cot  sin l cosT - cos l cosT ) ,
+
+from each of these there is produced
+
+dT
+
+sin
+
+l
+
+=
+
+
+
+dt
+
+sin
+
+(cos
+
+l
+
+-
+
+cot
+
+
+
+sin
+
+l
+
+)
+
+=
+
+
+
+(aa-cc)dt cos
+cc
+
+sin
+
+l
+
+,
+
+or
+
+sin
+
+cos
+
+l
+
+-
+
+cos 
+
+sin l
+
+=
+
+(aa-cc) cos
+cc
+
+sin l
+
+,
+
+and hence
+
+tang
+
+l
+
+=
+
+cc
+
+tang  aa
+
+,
+
+but likewise the arc ZO = may be made constant, clearly
+
+cos = cos cos l + sin sin l
+
+consequently
+
+ZO = =  - l
+
+and tang AZO = 0,
+
+thus so that the points A, Z and O shall always be on the same great circle. Then for the
+
+position of the arc ZA now there is had
+
+-d sin2 l =  dt sin sin l,
+
+and hence
+
+
+
+=
+
+-t sin sin l
+
+.
+
+But on knowing the angle XZA =  the others XZB =  and XZC = can be defined from
+
+these formulas :
+
+sin (
+
+-)
+
+=
+
+- cos n sin l sin m
+
+,
+
+sin (
+
+-
+
+)
+
+=
+
+cos m sin l sin n
+
+or
+
+cos (
+
+-)
+
+=
+
+- cos l cos m sin l sin m
+
+,
+
+cos (
+
+-
+
+)
+
+=
+
+- cos l cos n sin l sin n
+
+or
+
+tang (
+
+-
+
+)
+
+=
+
+cos n cos l cos m
+
+=
+
+tan g T cos l
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 660
+
+and
+
+tang (
+
+-)
+
+=
+
+- cot T cos l
+
+.
+
+Moreover as this is a particular solution, we can elicit the general solution in the following
+
+manner.
+
+We put and in order that and then
+
+GENERAL SOLUTION cos m = sin l cos cos n = sin l sin ,
+cos2 l + cos2 m + cos2 n = 1 ,
+dl sin l =  dt sin (sin l sin cosT - sin l cos sinT )
+
+or
+dl =  dt sin sin ( - T )
+
+then indeed there is obtained
+d sin l sin =  dt sin (cos l cos sin ( - T ) + cos l sinT - cot  sin l sin );
+
+but because
+
+T =  - ( -T )
+
+then
+sinT = sin cos ( - T ) - cos sin ( - T ) ,
+
+thus on being divided by sin there is
+d sin l =  dt sin (cos l cos ( - T ) - cot  sin l ).
+
+Now we put in place
+
+ -T = ,
+
+then
+
+d
+
+=
+
+d
+
++
+
+ (aa-cc)dt
+cc
+
+cos 
+
+and
+
+d
+
+sin l
+
++
+
+ (aa-cc)dt cos
+cc
+
+sin l
+
+=
+
+ dt
+
+sin
+
+cos l
+
+cos 
+
+-  dt
+
+cos 
+
+sin l
+
+or
+
+d
+
+sin l+
+
+=
+
+
+
+dt
+
+sin
+
+cos
+
+l
+
+cos 
+
+-
+
+
+
+aadt
+
+cos  cc
+
+sin
+
+l
+
+,
+
+which equation must be joined with the preceding
+
+dl =  dt sin sin
+
+and resolved, which indeed consist of the three variables l, t et  , of which the middle one
+
+because of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 661
+
+ dt
+
+=
+
+dl sin sin
+
+is easily eliminated ; for there arises
+
+d
+
+sin l
+
+=
+
+dl
+
+cos l cos sin
+
+-
+
+aadl cos sin l cc sin sin
+
+or
+
+and the integral of this is
+
+sin l
+
+cos 
+
+=
+
+C
+
+-
+
+aa cos sin l cc sin
+
+For
+
+the
+
+sake
+
+of
+
+brevity
+
+we
+
+put
+
+aa cos sin l cc sin
+
+=
+
+D
+
+,
+
+so
+
+that
+
+cos 
+
+=
+
+C -D cos l sin l
+
+and
+
+( ) sin
+
+=
+
+1 sin l
+
+1- CC + 2CD cos l - (1+ DD) cos2 l ,
+
+with which value substituted in the other equation there arises
+
+ dt =
+
+dl sin l
+
+,
+
+( ) sin 1-CC +2CD cos l -(1+ DD) cos2 l
+
+and the integral of this is :
+
+t + E =
+
+1
+
+CD-(1+ DD) cos l
+
+A sin
+
+,
+
+sin (1+ DD)
+
+(1-CC + DD)
+
+or
+
+( ) CD-(1+DD)cos l = sin (t + E ) sin (1+ DD) (1-CC + DD) thus at some time the arc ZA = l, and thus the angle  =  - T , and hence the angle  =  + T becomes known, with which found then
+
+cos m = sin l cos et cos n = sin l sin . Again there can be put in place
+cos ZO = cos cos l + sin sin l cos = cos cos l + C sin - D sin cos l,
+or
+cos ZO = C sin - (aa-cc)cos cos l .
+cc
+And hence we obtain for the angle XZA =  :
+-d sin2 l =  dt sin sin l cos
+or
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 662
+
+d
+
+=
+
+- dt
+
+sin (C -D cos l )
+sin2 l
+
+,
+
+where if in place of  dt the above value is substituted, then there arises
+
+d =
+
+-dl(1-cos l )
+
+,
+
+( ) sin l 1-CC +2CD cos l -(1+ DD) cos2 l
+
+the integral of this is elicited
+
+ = E + A sin -D+C cos l sin l (1-CC + DD)
+and thus everything has been determined in general.
+
+COROLLARY 1
+
+724. From the general solution there arises the particular solution elicited before, if the constant is put in place
+C = (1+ DD) ;
+
+for then in the equation
+
+t + E =
+
+1
+
+CD-(1+ DD) cos l
+
+A sin
+
+,
+
+sin (1+ DD)
+
+(1-CC + DD)
+
+on account of the denominator
+
+(1-CC + DD) = 0,
+
+also the numerator must vanish, thus it becomes
+
+CD - (1+ DD) cos l cos l = D
+(1+ DD )
+
+and
+
+sin l =
+
+1
+(1+ DD )
+
+,
+
+and thus
+
+tang
+
+l
+
+=
+
+1 D
+
+=
+
+cc aa
+
+tang
+
+.
+
+COROLLARY 2
+
+725. But with the constant taken as C = (1+ DD)
+it becomes
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 663
+
+cos =
+
+(1+ DD) -D cos l
+
+sin l
+
+= 1,
+
+and thus  = 0 and  = T , thus there is deduced
+
+and and hence
+
+cos m = sin l cosT cos n = sin l sinT
+
+
+
+=
+
+E
+
++
+
+A sin
+
+-D+cos l (1+ DD) sin l (1-CC + DD)
+
+=
+
+E
+
++
+
+A sin
+
+0 0
+
+.
+
+Truly on account of = 0 , so that this inconvenience can be avoided, the equation is taken
+
+thus there becomes as before :
+
+d sin l = - dt sin ,
+
+
+
+=
+
+E
+
+-
+
+t sin sin l
+
+.
+
+SCHOLIUM
+726. Thus the general solution involves arbitrary constants, in order that wherever the fixed point Z on the sphere may be taken on the fixed sphere, the solution can be adapted to that point. But since the point Z depends on our choice, that always can thus be accepted, so that the location for a particular solution can be had; which because it should be especially evident that the most simple motion provided is understood by us, as likewise the motion, if it is referred to other fixed points, must be seen to be greatly disturbed. Whereby we have not assumed this fixed point Z as it pleases but thus we have assumed it so that the solution comes about for that particular place.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 664
+
+PROBLEM 74
+
+727. If initially a rotational motion were impressed on a body with two said equal principal
+
+axes about some axis passing through the centre of inertia, to determine the continued motion
+
+of this body.
+
+SOLUTION
+
+The centre of the sphere is considered to be at the centre of inertia of the body, which also
+
+remains at rest (Fig. 92); and in the beginning the principal axes of the body should be at A,
+
+B, C, of which the first moment of inertia about IA
+
+shall be equal to Maa, now about the remaining
+
+two axes it shall be equal to Mcc ; but then the
+
+rotational motion of the body can be taken about
+
+some axis IE in the sense BCA, with the angular
+
+speed equal to and let the arc AE =  . Now so
+
+that we can investigate the continuation of the
+
+impressed motion of this, using in the particular
+
+solution, in the arc AB, that we regard as a fixed
+
+meridian on the sphere, AZ thus is taken, so that
+
+there arises
+
+tang
+
+AZ
+
+=
+
+cc
+
+tang aa
+
+
+
+and Z is taken for that fixed point, to which henceforth we will refer the position of the body,
+
+moreover we put AZ = l , so that ZE =  - l . Now in an elapsed time equal to t the poles of
+
+the principal axes arrive at A', B', C' ; and at this stage we see that ZA' = ZA = l, and the
+
+point O is to be found in that same arc A'Z, about which the body now rotates with the
+
+angular speed equal to  as the pole in the sense B'C'A'. But from the proceeding, where we
+
+put the angle XZA equal to  , because the negative of this here denotes the angle AZA',
+
+which at the start was equal to 0, then this angle
+
+AZA'
+
+=
+
+t sin sin l
+
+,
+
+thus at some time the position of the principal axis IA' becomes known. The two remaining
+
+poles shall be at B' and C', and we have found in §717, to be the angle
+
+ZA'
+
+B'
+
+=
+
+ (aa-cc)t
+cc
+
+cos 
+
+,
+
+and on taking the arc A'B' for a quadrant, B' will be one of the two remaining principal poles,
+
+thus at once the third pole C' is apparent.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 665
+
+COROLLARY 1
+
+728. Therefore the principal axes IA is rotating uniformly about the fixed line IZ, but not
+
+related to the body ; thus in order that the arc AZ = A'Z = l with being present
+
+tang
+
+l
+
+=
+
+cc
+
+tang aa
+
+
+
+,
+
+and in the time t the angle is completed :
+
+AZA'
+
+=
+
+ t sin sin l
+
+,
+
+therefore the angular speed of this motion in the sense AA' or BCA is equal to
+
+ sin sin l
+
+.
+
+COROLLARY 2
+
+729. But meanwhile the arc in the body AB, which in the beginning fell on AZ , thus is
+
+rotating about ZA, and while in the time t that it proceeds to ZA' , thus completes the angle
+
+ZA'
+
+B'
+
+=
+
+ (aa-cc)t
+cc
+
+cos 
+
+,
+
+ (aa-cc) cos
+
+hence the angular speed of this motion is equal to
+
+cc
+
+.
+
+COROLLARY 3
+
+730. Hence the motion of the body can be represented as composed from two rotations.
+
+Clearly in the first the body is rotating about its own singular principal pole with an angular
+
+ (aa-cc) cos
+
+speed equal to
+
+cc
+
+in the sense CB; then meanwhile this pole itself A is rotating
+
+about
+
+the
+
+point
+
+Z
+
+in
+
+absolute
+
+space
+
+with
+
+an
+
+angular
+
+speed
+
+equal
+
+to
+
+ sin sin l
+
+.
+
+COROLLARY 4
+
+731. With the arc put as ZA = l, let the angular speed, by which the point A is rotating about the fixed point Z be equal to  , in the sense AA', which two elements can be considered as
+
+given, then
+
+tang
+
+
+
+=
+
+aa cc
+
+tang
+
+l
+
+and
+
+
+
+=
+
+ sin l sin
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 666
+
+Hence the angular speed, by which meanwhile the arc AB rotates about A in the opposite
+
+sense,
+
+is
+
+given
+
+by
+
+ (aa-cc) sin l
+cc tang 
+
+=
+
+ (aa-cc) cos l
+aa
+
+.
+
+SCHOLIUM 1
+
+732. This motion of the body can be represented most conveniently in the same manner as we consider the rotational motion of the earth, in as much as the axes or poles progress in the
+
+heavens. Clearly the body is seen as the earth, one pole of which is A, but in the heavens the
+
+point Z is the pole of the ecliptic [i. e. the zenith], from which the pole of the earth maintains the same distance ZA = l, and about which it rotates with an angular speed equal to  in the
+
+sense AA', which motion corresponds to the procession of the poles of the earth in the
+
+heavens. But meanwhile provided that the arc AB or A'B' is rotating about A or A', from the
+
+arc
+
+ZA
+
+there
+
+is
+
+returned
+
+the
+
+angular
+
+speed
+
+equal
+
+to
+
+
+
+( aa
+
+-cc)
+aa
+
+cos
+
+l
+
+in the sense CB , and this
+
+motion corresponds to the diurnal motion of the earth. But actually such a motion is in strong
+
+disagreement with the rotational motion of the earth, since here the motion of the meridian
+
+AB about the pole A shall be very slow sit with respect to the angular motion of the pole A about the fixed point Z, since contrarily on the earth the diurnal motion is much faster then
+
+the motion of the pole about the pole of the ecliptic. Therefore because if the motion of the
+
+poles of the earth about poles of the ecliptic should be faster, on the other hand now the motion of the earth about the poles would be much slower, the cause of this motion by no means can be agreed upon to be sought from external forces, since the earth may be able to
+
+be moved in such a motion on account of its own inertia. But now since the opposite may eventuate, the cause of this phenomena evidently is situated in external forces.
+
+SCHOLIUM 2
+733. This is certainly worth remembering, that the motion of the body, which is actually taking place about a variable axis IO, as if freely can be reduced to two rotational motions,
+but which are to be properly distinguished from each other in turn, while one is made about an axis present in the body, and the other about an axis as if present outside the body and related to absolute space. In order to set out that motion more clearly to the mind, the body PRQS is considered to be transfixed by a shaft APQa [really a spear in the original text], which passes through the centre of inertia I of this body, and refers to the singular principal axis of this (Fig. 93) : then the shaft with the ends A and a of this thus inserted into the annulus ZAza, so that the body can turn freely about that axis ; but the annulus may have pivots at the opposite poles Z and z, which are thus firmly attached to the outside, so that the annulus is equally free to rotate about these. [Such as the mountings of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 667
+
+a modern gyro' for a fixed angle.] Because if now the body PRQS is set in motion about the shaft Aa and likewise the annulus AzaZ rotates about the pivots Z and z, a motion of this kind arises, such as we have described here, where the shaft refers to the axis now present in the body and moving with the motion of the body, and truly the pivots Z and z are fixed to another axis outside the body. But these two rotational motions are in agreement with this, because each can be taken away from the other resulting in a true rotation about a fixed axis; for if the annulus is at rest, the body is rotating about the fixed axis PQ, about the axis at rest Aa ; but if the motion about the shaft should be taken away, and the body is only rotating about the pivots Z and z, a simple rotational motion arises in the body about the fixed axis pertaining to the pivots Z and z.
+
+SCHOLIUM 3
+734. Such motion is said to happen about a moveable axis, which is to be distinguished properly from the motion about a variable axis, such as we have considered in the preceding. For a body is said to be rotating about a variable axis, when it is lead continually to rotate about another line through the centre of inertia of this, which also at that instant is actually at rest; and everything is known about such an axis, which have been set out above concerning rotational motion. But when we say a body is rotating about a mobile axis, which idea now at last has arisen to be considered by us, indeed the axis is a certain invariable line present in the body, but which itself may be moving with the body; thus so that this mobile axes is never at rest. Thus the axis of the earth, which this name it is accustomed to bear, is not a variable axis but a mobile one, since there is a certain fixed line in the earth, but with time passing it points towards other and yet other points of the heavens; which therefore with the abstraction made from the motion of the earth for a year at no point of time does it remain at rest, even if the motion should be most slow. Now at some time a certain other line can be assigned in the earth, which then is actually at rest, but it shall be changing continually at successive times : and with respect of this the earth may be said to be rotating about a variable axis. But on account of the most slow motion of the equinoxes the difference between the diurnal motion from the true axis of the earth and the variable axis having been located at some particular time is nearly completely imperceptible; but which if it should be noteworthy , it would demand the greatest attention in astronomy, as the observations for the elevation of the pole put in place truly do not show a true position for the axis, but a variable axis in that time, about which clearly the rotating earth shall then be at rest.
+
+PROBLEM 75
+735. If some motion is impressed on a rigid body with the two said equal principal axes, and the body is not acted on by any external forces, so that neither is it retained anywhere nor unable to pursue its own free motion, to determine the motion by which it begins to move.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 668
+
+SOLUTION
+First it is to be discerned, whether on account of the impressed force, the centre of inertia should move or not ? for if it should be moving, then the progressive motion of the body itself has to be considered, by which it is to progress uniformly along a line, and at least in the mind this motion can be removed, while clearly by a motion considered to be carried out in space in the opposite direction. Hence with the progressive motion removed, an account of this likewise has been provided, and if no other motion in addition should be present on the body, then the centre of inertia can be considered as being at rest; about which in some manner the body may be disturbed, a certain line drawn through that somehow initially will be at rest, which is the axis of rotation of this body. Then if this axis agrees with some principal axis, that is, if either it falls on the singular principal axis or it shall be normal to that, also here the motion remains uniform, and the axis is at rest, or by being joined to a progressive motion it moves away it moves away remaining parallel to itself. But if that axis, about which the body initially begins to rotate, neither agrees with the singular principal axis nor is normal to that, then the body begins to rotate about a variable axis, which continues to change in a manner that we have made abundantly clear. Also this motion is seen to be more clear by the reduction of that motion to a moving axes, by which the body is rotating uniformly about the principal singular axis, while this axis itself about some poles fixed beyond the body are carried around equally in a uniform motion.
+SCHOLIUM
+736. By this problem the general argument has been drawn out, that we have undertaken to be treated in this chapter, thus in order that in general the free motion is to be determined of rigid bodies with the two said equal principal axes and acted on by no forces and to be adjusted to whatever case we may wish to prevail. Hence bodies of the third class remain, the moments of inertia of which are unequal, which is to be resolved in the following chapter.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 669
+
+CAPUT XII
+DE MOTU LIBERO CORPORUM RIGIDORUM DUABUS AXIBUS PRINCIPALIBUS PARIBUS PRAEDITORUM ET A
+NULLIS VIRIBUS SOLLICITATORUM
+
+DEFINITIO 12
+706. Corpus rigidum duos axes principales pares habere dicitur, quando inter se eius momenta inertiae respectu axium principalium duo sunt aequalia.
+COROLLARIUM 1
+707. Huius generis ergo corpora innumerabiles habent axes principales; statim enim ac duo axes principales aequalia habent momenta inertiae, omnes rectae in eorum plano per centrum inertiae ductae aeque pro axibus principalibus haberi possunt, eodemque momento inertiae sunt praeditae.
+COROLLARIUM 2
+708. Hic igitur axis ille principalis, cuius momentum ineritae reliquis est inaequale, erit singularis, atque omnes rectae per centrum inertiae ad eum normaler ductae paria habebunt momenta inertia, et tanquam axes principales spectare poterunt.
+COROLLARIUM 3
+709. Cognito itaque axe singulari, positio binorum reliquorum non determinatur, sed eorum loco pro lubitu binae rectae quacunque tam inter se quam ad illum normales accipi possunt, dummodo per centrum inertiae transeant.
+SCHOLION
+710. Cum igitur supra in genere pro axibus principalibus IA, IB, IC posuerimus momenta inertiae Maa, Mbb, Mcc, horum duo in isthoc capite aequalia statuamus. Sit igitur primus axis IA singularis, reliquorumque momenta inertiae inter se aequalia, ut sit bb = cc; ex quo formulae supra inventae [§664] mirifice contrahentur. Etsi autem hoc casu situs binorum axium IB et IC non determinatur, tamen eos tanquam determinatos spectabimus, ut eorum ope situs corporis ad quodvis tempus facilius assignari possit. Huius autem generis utique inifinita dantur corpora, atque inter homogenea imprimis huc pertinent cylindri, coni, atque in
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 670
+
+genere omnia corpora rotunda, quae conversione figurae cuiuscunque circa quempiam axem fixum nascuntur; ita ut hoc genus fere omnia corpora, quae quidem a geometris considerari solent, in se complectatur. Quemadmodum ergo haec corpora ratione motus se sint habitura, dum a nullis viribus sollicitantur, in hoc capite investigabimus, ac primo quidem ad quodvis tempus in positionem axis gyrationis ratione axium principalium inquiramus, nondum solliciti quemnam motum hi ipsi axes sint habituri, quem deinceps definire conabimur.
+
+PROBLEMA 71
+711. Si corpori rigido duobus axibus principalibus paribus praedito motus quicunque gyratorius initio fuerit impressus, neque ullae adsint vires externae, ad quodvis tempus positionem axis gyrationis ratione axium principalium assignare.
+
+SOLUTIO
+Centro inertiae corporis I in centro sphaerica (Fig. 89), ad cuius superficiem omnia reducamus, constituto sint IA, IB, IC axes corporis principales, ac respectu primi IA momentum inertiae = Maa, respectu binorum reliquorum autem IB et IC sint momenta inertiae inter se aequalia = Mcc, ut sit bb = cc. Nunc autem elapso ab initio tempore = t, corpus gyretur circa axem IO in sensum ABC celeritate angulari =  ' , ita ut situs puncti O respectu
+punctorum A, B, C definiri debeat. Ponantur ergo arcus circulorum maximorum
+OA =  , OB =  et OC =  ,
+qui tanquam variabiles sunt tractandi, atque problema 66 ad hunc casum quo bb = cc translatum dabit primo d ' = 0,unde patet celeritatem angularem
+manere invariabilem, ideoque adhuc esse aequalem ei, quae initio corpori fuerit impessa. Quare si haec prima celeritas angularis ponatur =  erit  ' =  . Deinde vero ex § 674
+habebimus has aequationes : I. aac4d sin = 0
+II. aac4d  sin  =  aacc (aa - cc) dt cos cos 
+III. aac4d sin =  aacc (cc - aa) dt cos cos  ,
+ex quarum prima discimus, arcum AO =  esse constantem, ideoque aequationes illi, quo initio illi, quo intio axis gyrationis distabit ab axe singulari IA. Cum igitur sit
+cos  = (sin2  - cos2  ) ,
+reliquarum aequationum altera praebet :
+
+d  sin 
+
+=  (aa-cc)dt cos ,
+
+( ) sin2  -cos2 
+
+cc
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 671
+
+cuius integrale est ideoque
+
+A cos
+
+cos  sin
+
+=C+
+
+ (aa-cc)t cos
+cc
+
+,
+
+cos 
+
+=
+
+sin
+
+cos
+
+ 
+
+C
+
++
+
+ (aa-cc)t cos
+cc
+
+ 
+
+et
+
+cos 
+
+=
+
+sin
+
+sin
+
+ 
+
+C
+
++
+
+ (aa-cc)t cos
+cc
+
+ 
+
+.
+
+Quare si initio, ubi t = 0, fuerit AO = A, BO = B et CO = C,
+
+erit  = A et
+
+cos B = sin A sin C,
+
+unde fit constans
+
+cos C
+
+=
+
+cos B sin A
+
+et
+
+sin
+
+C
+
+=
+
+cos C sin A
+
+.
+
+Quocirca habebimus
+
+cos 
+
+=
+
+cos Bcos
+
+ (aa-cc)t cos A
+cc
+
+- cos C
+
+sin
+
+ (aa-cc)t cos A
+cc
+
+cos 
+
+=
+
+cos
+
+B
+
+sin
+
+
+
+(aa
+
+- cc )t
+cc
+
+cos
+
+A
+
++ cos C cos
+
+ (aa-cc)t cos A
+cc
+
+,
+
+unde si initio motus cognoverimus situm axis gyrationis respectu axium principalium, seu
+
+arcus A, B et C, pro quovis tempore elapso t situm axis gyrationis respectu eorumdem axium
+
+principalium seu arcus  ,  , assignare valemus.
+
+COROLLARIUM 1
+
+712. Si igitur initio corpori impressus fuerit motus gyratorius circa axem IE, ad axes principales IA, IB, IC inclinatatum angulis A, B, C, celeritate angulari =  in sensum ABC ;
+quomodocunque deinceps axis gyrationis varietur, celeritas angularis perpetuo manebit eadem =  ; et axis gyrationis IO eodem angulo A ad axem principalem singularum IA inclinabitur.
+COROLLARIUM 2
+
+713. Tum vero si momentum inertiae respectu axis singularis IA sit = Maa, respectu binorum
+
+reliquorum autem = Mcc pro tempore elapso = t, quia  angulum denotat, ponatur angulus
+
+ (aa-cc)t
+cc
+
+cos A
+
+=
+
+T
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 672
+
+qui cum tempore t uniformite crescit; atque hoc tempore corpus gyrabitur circa axem IO, ut sit
+AO = AE = A et
+cos BO = cos BcosT - cos C sinT ,
+cos CO = cos B sinT + cos C cosT .
+
+COROLLARIUM 3
+
+714. Quia arcus AO perpetuo manet aeque magnus = A , situs puncti O commodissime ex
+
+angulo BAO innotescet, et cum sit
+
+cos
+
+BAO
+
+=
+
+cos BO sin A
+
+et
+
+sin
+
+BAO
+
+=
+
+cos CO sin A
+
+,
+
+erit
+
+cos
+
+BAO
+
+=
+
+cos BcosT -cos C sin A
+
+sin T
+
+et
+
+sin
+
+BAO
+
+=
+
+cos B sinT +cos C cosT sin A
+
+.
+
+COROLLARIUM 4
+715. Si fuerit cc = aa, qui est casus ante tractatus, quo omnia tria momenta inertiae sunt inter se aequalia, erit T = 0, et BO = B , item CO = C , polus scilicet gyrationis O respectu axium principalium maneret immotus, uti iam ante invenimus.
+SCHOLION
+716. Formulae hae multo simpliciores reddi possunt, sed rei dignitas mereretur, ut id potius singulari propositione quam in transitu prosequamur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 673
+
+PROBLEMA 72
+
+717. Iisdem positis, quae in praecedente problemate sunt constituta, definire promotionem poli gyrationis O respectu axium principalium.
+
+SOLUTIO
+
+Maneant omnia uti in praecedente solutione, et
+
+cum poli pares B et C in circulo PC pro lubitu accipi
+
+queant, quadrans AB ita constituatur, ut per polum E,
+
+circa quem corpus primum gyrati incipit, transeat (Fig.
+
+91). Cum igitur hic polus gyratorius perpetuo eandem a
+
+polo principali A servet distantiam, eius motus fiet per
+
+circulum minorem EFG centro A descriptum, cuius distantia sit arcus AE =  , quem supra per
+
+A indicavimus. Erit ergo
+
+BE = B = 90o -
+
+et
+
+CE = C = 90o.
+
+Quare si elapso tempore = t polus gyrationis ex E pervenerit in O, ob cos C = 0,erit
+
+cos BAO
+
+=
+
+cos BcosT sin
+
+= cosT
+
+et
+
+sin BAO
+
+=
+
+cos B sinT sin
+
+=
+
+sinT ,
+
+ideoque ipse
+
+angulus BAO = T.
+
+At angulus T ita ex tempore t definitur, ut sit
+
+T
+
+=
+
+ (aa-cc)t cos
+cc
+
+=
+
+BAO,
+
+unde hanc egregiam solutionem consequimur. Si momentum inertiae respectu axis principalis
+
+singularis IA fuerit = Maa et respectu binorum reliquorum parium IB et IC = Mcc, corpus
+
+autem initio circa axem IE in sensum BCA celeritate angulari =  gyrari coeperit; tum
+
+respectu axium principalium, quos quasi in quiete spectamus, polus gyrationis per circulum
+
+minorem EFG circa polum A descriptum uniformiter proferetur, ita ut elapso tempore = t
+
+conficiat angulum
+
+EAO
+
+=
+
+ (aa-cc)t
+cc
+
+cos 
+
+,
+
+motusque fiat in sensum BC conformem motui gyratorio, siquidem fuerit aa > cc, in
+
+contrarium autem, si aa < cc .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 674
+
+COROLLARIUM 1
+
+718. Polus gyrationis his casibus quiescet : 1o si AE = 0 seu corpus circa axem principalem IA gyratari inceperit. 2o si AE = 90o seu si corpus circa quemcunque axem ad IA normalem gyrari inceperit, ac 3o si aa = cc,hoc est si corpus habuerit omnes tres axes principales pares.
+
+COROLLARIUM 2
+
+719. Si fuerit aa > cc, polus gyrationis E circa A in eundem sensum BC, in quem fit gyratio,
+
+circumferetur celeritate angulari =
+
+ (aa-cc) cos AE
+cc
+
+; sin autem fuerit aa < cc, in sensum
+
+ (cc-aa) cos AE
+
+contrarium circumferetur celeritate angulari =
+
+cc
+
+.
+
+COROLLARIUM 3
+
+720. Ipse autem arcus circuli minoris EO, per quem axis gyrationis tempore t procedit, est =
+
+ (aa-cc)t sin
+cc
+
+AE cos
+
+AE
+
+=
+
+ (aa-cc)t sin 2 AE
+2cc
+
+,
+
+quod
+
+ergo
+
+spatium
+
+ceteris
+
+paribus
+
+est
+
+maximus,
+
+si
+
+AE
+
+=
+
+1 2
+
+AB
+
+=
+
+45o
+
+,
+
+hoc
+
+est
+
+si
+
+axis
+
+gyrationis
+
+aequaliter
+
+distet
+
+ab
+
+axibus
+
+principalibus.
+
+COROLLARIUM 4
+
+721. Posita ratione diametri ad peripheram = 1:  , polus gyrationis totam circumferentiam
+
+EFGE
+
+percurret
+
+tempore
+
+=
+
+2 cc
+ (aa-cc) cos
+
+AE
+
+min.sec.
+
+huncque
+
+motum
+
+perpetuo
+
+uniformem
+
+conservabit.
+
+SCHOLION
+722. Hic nondum de ipso corporis motu agimus, sed quod probe est notandum, corpus, quasi quiesceret, vel aliud ipsi aequale in quiete contemplamur, in eoque ad quodvis tempus axem gyrationis IO definire docuimus, circa quem corpus motum tum sit gyraturum, neque hic sumus solliciti, quemnam situm hic axis gyrationis tum respectu spatii absoluti sit habiturus. Nunc igitur istam completam motus cognitionem aggrediamur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 675
+
+PROBLEMA 73
+
+723. Si corpori rigido duobus axibus principalibus praedito impressus fuerit initio motus gyratorius quicunque, ad datum tempus tam situm axium principalium quam gyrationis respectu spatii absoluti assignare.
+
+SOLUTIO
+Sphaera ex centro inertiae corpori circumscripta cingatur superficie sphaerica immobili ZXVY (Fig. 89), atque elapso tempore t sphaera mobilis cum corpore eum teneat situm, utaxium ternorum principalim poli sint in A, B, C , respectu quorum primi IA momentum inertiae sit = Maa, respectu autem binorum reliquorum = Mcc. Ductis inde ad punctum quoddam fixum Z arcubus AZ, BZ et CZ, ponamus ut in problemate 68 AZ = l, BZ = m et CZ = n,
+ut sit cos2 l + cos2 m + cos2 n = 1;
+
+tum vero sint anguli
+
+XZA =  , XZB =  et XZC = ,
+
+et quia motus gyratorius, uti iam ostendimus, manet aequabilis, sit eius celeritas angularis =  in sensum ABC directa. Porro quoniam axis gyrationis perpetuo ab axis IA aeque maneat remotus. Sit arcus AO =  , et aequalis initiali AE, ubi assumamus initio polum gyrationis E
+
+in ipso arcus AB positum fuisse. Ex praecedentibus ergo si ponamus
+
+ (aa-cc)t cos
+cc
+
+= T,
+
+erit nunc elapso tempore = t angulus BAO = T; unde si ponamus arcus BO =  et CO =  ,erit
+
+cos  = sin cosT et cos  = sin sinT
+
+ob BAC angulum rectum. His positis ob  ' =  ex § 678 habemus has aequationes :
+
+dl sin l =  dt sin (cos n cosT - cos m sinT ) -d sin2 l =  dt sin (cos m cosT + cos n sinT ) dm sin m =  dt sin (cos l sinT - cos n cot  ) -d  sin2 m =  dt sin (cos n sinT + cos l cot  ) dn sin n =  dt sin (cos m cot  - cos l cosT ) -d sin2 n =  dt sin (cos l cot  + cos m cosT ) ,
+quae quo facilius ad integrationem perduci queant, consideremus arcum ZO = v , et cum sit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 676
+
+cos = cos cos l + sin (cos m cosT + cos n sinT ) ,
+erit differentiando
+
+dv sin = dl sin l cos + dm sin m sin cosT + dn sin n sin sinT dT sin cos m sinT - dT sin cos n cosT ,
+
+substitutis autem pro dl sin l, dm sin m, dn sin n illis valoribus fit
+
+dv sin
+
+= -dT
+
+sin (cos n cosT
+
+- cos m sinT ) = -dT
+
+sin
+
+
+
+
+
+dl  dt
+
+sin l sin
+
+.
+
+Cum
+
+igitur
+
+sit
+
+dT
+
+=
+
+ (aa-cc)dt cos
+cc
+
+,
+
+oritur
+
+dv
+
+sin v
+
+=
+
+-(aa-cc) cos
+cc
+
+ dl
+
+sin l
+
+et integrando
+
+cos
+
+v
+
+=
+
+C
+
+-
+
+(aa-cc) cos
+cc
+
+cos l
+
+
+
+=
+
+cos 
+
+cos
+
+l
+
++
+
+sin
+
+(cos
+
+m
+
+cos T
+
++
+
+cos
+
+n
+
+sin T
+
+)
+
+,
+
+Hinc autem concludere licet integrationem particularem, ponendo arcum l constantem, et
+
+cos m = sin l cosT atque
+cos n = sin l sinT ,
+ut fiat cos2 l + cos2 m + cos2 n = 1 ,
+simulque primae aequationi dl sin l = 0 satisfiat, reliquae vero dabunt :
+
+dm sin m = dT sin l sinT =  dt sin (cos l sinT - cot  sin l sinT ) ,
+
+dn sin n = -dT sin l cosT =  dt sin (cot  sin l cosT - cos l cosT ) ,
+
+ex quarum utraque prodit
+
+dT
+
+sin l
+
+=
+
+
+
+dt
+
+sin
+
+(cos
+
+l
+
+-
+
+cot
+
+
+
+sin
+
+l)
+
+=
+
+
+
+(aa-cc)dt cos
+cc
+
+sin l
+
+,
+
+seu
+
+sin
+
+cos
+
+l
+
+-
+
+cos 
+
+sin
+
+l
+
+=
+
+(aa-cc) cos
+cc
+
+sin l
+
+,
+
+hincque
+
+tang
+
+l
+
+=
+
+cc
+
+tang aa
+
+
+
+,
+
+simul autem arcus ZO = fiet constans, nempe
+
+consequenter
+
+cos = cos cos l + sin sin l
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 677
+
+ZO = =  - l
+
+et tang AZO = 0,
+
+ita ut puncta A, Z et O semper sint in eodem circulo maximo. Deinde vero pro situ arcus ZA
+
+habebitur
+
+-d sin2 l =  dt sin sin l,
+
+hincque
+
+
+
+=
+
+-t sin sin l
+
+.
+
+Cognito autem angulo XZA =  reliqui XZB =  et XZC = ex his formulis definientur :
+
+sin (
+
+-)
+
+=
+
+- cos n sin l sin m
+
+,
+
+sin (
+
+-
+
+)
+
+=
+
+cos m sin l sin n
+
+seu
+
+cos (
+
+-
+
+)
+
+=
+
+- cos l cos m sin l sin m
+
+,
+
+cos
+
+(
+
+-
+
+
+
+)
+
+=
+
+- cos l cos n sin l sin n
+
+seu
+
+tang (
+
+-
+
+)
+
+=
+
+cos n cos l cos m
+
+=
+
+tan g T cos l
+
+et
+
+tang (
+
+-
+
+)
+
+=
+
+- cot T cos l
+
+.
+
+Cum autem haec solutio sit particularis, generalem sequenti modo eliciemus.
+
+Ponamus et ut sit eritque
+
+SOLUTIO GENERALIS cos m = sin l cos cos n = sin l sin ,
+cos2 l + cos2 m + cos2 n = 1 ,
+dl sin l =  dt sin (sin l sin cosT - sin l cos sinT )
+
+sive
+dl =  dt sin sin ( - T )
+
+tum vero habebitur
+d sinl sin =  dt sin (cos l cos sin ( - T ) + cos l sinT - cot  sin l sin );
+
+at ob
+T =  - ( -T )
+
+est
+sinT = sin cos ( - T ) - cos sin ( - T ) ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 678
+
+unde per sin dividendo erit
+d sin l =  dt sin (cos l cos ( -T ) - cot  sin l ).
+
+Statuamus iam
+
+ -T = ,
+
+erit
+
+d
+
+=
+
+d
+
++
+
+ (aa-cc)dt cos
+cc
+
+et
+
+d
+
+sin l
+
++
+
+ (aa-cc)dt cos
+cc
+
+sin l
+
+=  dt
+
+sin
+
+cos l cos
+
+-  dt cos
+
+sin l
+
+seu
+
+d
+
+sin l+
+
+=
+
+ dt
+
+sin
+
+cos
+
+l
+
+cos 
+
+-
+
+ aadt
+
+cos  cc
+
+sin l
+
+,
+
+quae aequatio cum praecedente
+
+dl =  dt sin sin
+
+est coniungenta et resolvenda, quae quidem continent tres variabiles l, t et  , quarum media
+
+ob
+
+ dt
+
+=
+
+dl sin sin
+
+facile eliminatur; oritur enim
+
+d
+
+sin
+
+l
+
+=
+
+dl
+
+cos l cos sin
+
+-
+
+aadl cos sin l cc sin sin
+
+seu
+
+cuius integrale est
+
+sin
+
+l
+
+cos 
+
+=
+
+C
+
+-
+
+aa cos sin l cc sin
+
+Statuamus brevitatis gratia
+
+aa cos sin l cc sin
+
+= D , ut sit
+
+cos 
+
+=
+
+C
+
+-D cos sin l
+
+l
+
+et
+
+( ) sin
+
+=
+
+1 sin l
+
+1- CC + 2CD cos l - (1+ DD) cos2 l ,
+
+quo valore in altera aequatione substituto oritur
+
+cuius integrale est
+
+ dt =
+
+dl sin l
+
+,
+
+( ) sin 1-CC +2CD cos l -(1+ DD) cos2 l
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 679
+
+t + E =
+
+1
+
+CD-(1+ DD) cos l
+
+A sin
+
+,
+
+sin (1+ DD)
+
+(1-CC + DD)
+
+seu
+
+( ) CD-(1+DD)cos l = sin (t + E ) sin (1+ DD) (1-CC + DD) unde ad quodvis tempus arcus ZA = l, indeque angulus  =  - T , hincque angulus  =  + T innotescit, quo invento erit
+
+cos m = sin l cos et cos n = sin l sin .
+
+Porro fiet cos ZO = cos cos l + sin sin l cos = cos cos l + C sin - D sin cos l,
+
+seu
+
+cos
+
+ZO
+
+=
+
+C
+
+sin
+
+-
+
+( aa -cc ) cos 
+cc
+
+cos l
+
+.
+
+Denique pro angulo XZA =  obtinemus :
+
+-d sin2 l =  dt sin sin l cos
+
+seu
+
+d
+
+=
+
+- dt sin (C -D cos l )
+sin2 l
+
+,
+
+ubi si loco  dt superior valor substituatur, provenit
+
+cuius integrale elicitur
+
+d =
+
+-dl(1-cos l )
+
+,
+
+( ) sin l 1-CC +2CD cos l -(1+ DD) cos2 l
+
+ = E + A sin -D+C cos l sin l (1-CC + DD)
+sicque omnia in genere sunt determinata.
+
+COROLLARIUM 1
+
+724. Ex solutione generali nascitur solutio particularis prius eruta, si ponatur constans
+C = (1+ DD) ;
+
+tum enim in aequatione
+
+t + E =
+
+1
+
+CD-(1+ DD) cos l
+
+A sin
+
+,
+
+sin (1+ DD)
+
+(1-CC + DD)
+
+ob denominatorem
+
+(1-CC + DD) = 0,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 680
+
+etiam numerator evanescere debet, unde fit et ideoque
+
+CD - (1+ DD) cos l cos l = D
+(1+ DD)
+sin l = 1 ,
+(1+ DD) tang l = 1 = cc tang  .
+D aa
+
+COROLLARIUM 2
+
+725. Sumta autem constante
+
+C = (1+ DD)
+
+fit
+
+cos =
+
+(1+ DD) -D cos l
+
+sin l
+
+= 1,
+
+ideoque  = 0 et  = T ,unde collititur
+
+et ac denique
+
+cos m = sin l cosT cos n = sin l sinT
+
+
+
+=
+
+E
+
++
+
+A sin
+
+-D+cos l (1+ DD) sin l (1-CC + DD)
+
+=
+
+E
+
++
+
+A sin
+
+0 0
+
+.
+
+Verum ob  = 0 , ad hoc incommodum evitandum, sumatur aequatio
+
+unde fit ut ante
+
+d sin l = - dt sin ,
+
+
+
+=
+
+E
+
+-
+
+t sin sin l
+
+.
+
+SCHOLION
+726. Solutio generalis ideo tot involvit constantes arbitrarias, ut ubicunque punctum fixum Z in sphaera immobili accipiatur, ad id possit accommodari. Cum autem punctum Z ab arbitrio nostro pendeat, id semper ita accipere licebit, ut pro eo solutio particularis locum sit habitura; quae cum sit simplicissima maxime nobis perspicuam cognitionem motus largietur, cum idem motus, si ad alia puncta fixa referretur, vehementer perturbatus videri debeat. Quare punctum hoc fixum Z non pro lubitu sed ita assumamus, ut solutio illa particularis locum inveniat.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 681
+
+PROBLEMA 74
+
+727. Si corpori rigido duobus axibus principalibus
+
+paribus praedito impressus fuerit initio motus
+
+gyratorius circa axem quemcunque per centrum
+
+inertiae transeuntem, motus huius continuationem
+
+determinare.
+
+SOLUTIO
+
+In centro sphaero immobilis concipiatur
+
+centrum inertiae corporis, quod etiam quiescit
+
+(Fig. 92); atque initio axes corporis principales
+
+fuerint in A, B, C, quorum primi IA respectu
+
+momentum inertiae sit = Maa, respectu vero
+
+binorum reliquorum = Mcc ; tum autem acceperit
+
+corpus motum gyratorium circa axem IE in
+
+sensum BCA, celeritate angulari =  sitque arcus AE =  . Quo nunc huius motus impressi
+
+continuationem investigemus, solutione particulari utentes, in arcu AB, quem in sphaerica
+
+immobili tanquam meridianum fixum spectemus, capiatur AZ ita, ut sit
+
+tang
+
+AZ
+
+=
+
+cc
+
+tang aa
+
+
+
+sumaturque Z pro puncto illo fixo, ad quod deinceps situm corporis perpetuo referamus,
+
+ponamus autem AZ = l , ut sit ZE =  - l . Iam elapso tempore = t pervenerint poli axium
+
+principalium in A', B', C' ; et vidimus fore adhuc ZA' = ZA = l, et in eodem arcu A'Z reperiri
+
+punctum O, circa quod tanquam polum corpus nunc gyretur celeritate angulari =  in sensum
+
+B'C'A'. Ex praecedintibus autem, ubi angulum XZA posuimus =  , quoniam eius negativum
+
+hic angulum AZA' denotat, qui initio erat = 0, erit hic angulus
+
+AZA'
+
+=
+
+t sin sin l
+
+,
+
+unde ad quodvis tempus posito axis principalis IA' cognoscitur. Sint bini reliqui in B' et C',
+
+atque §717 invenimus, fore angulus
+
+ZA'
+
+B'
+
+=
+
+ (aa-cc)t cos
+cc
+
+,
+
+et sumto arcu A'B' quadrante, erit B' alter duorum reliquorum polorum principalium, unde
+
+sponte tertius C' patet.
+
+COROLLARIUM 1
+
+728. Axis ergo principalis IA uniformiter gyratur circa lineam IZ fixam, sed non ad corpus
+
+pertinentem; ita ut sit arcus AZ = A'Z = l existente
+
+tang
+
+l
+
+=
+
+cc
+
+tang aa
+
+
+
+,
+
+et tempore t absolvatur angulus
+
+AZA'
+
+=
+
+t sin sin l
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 682
+
+cuius
+
+ergo
+
+motus
+
+celeritas
+
+angularis
+
+in
+
+sensum
+
+AA'
+
+seu
+
+BCA
+
+erit
+
+=
+
+ sin sin l
+
+.
+
+COROLLARIUM 2
+
+729. Interea autem arcus in corpore AB, qui initio in AZ cadebat, ita circa ZA, dum tempore t
+
+in ZA' procedit, gyratur, ut conficiat angulum
+
+ZA'
+
+B'
+
+=
+
+ (aa-cc)t cos
+cc
+
+,
+
+cuius ergo motus celeritas angularis est
+
+=
+
+
+
+(aa-cc) cos
+cc
+
+.
+
+COROLLARIUM 3
+
+730. Motus ergo corporis potest repraesentari tanquam compositus ex duplici gyratorio.
+
+Primo scilicet corpus gyrabitur circa suum polum principalem singularem A celeritate
+
+angulari
+
+=  (aa-cc) cos
+cc
+
+in sensum CB; tum vero interea ipse hic polus A gyrabitur circa punctum Z in spatio absoluto
+
+fixum celeritate angulari
+
+=
+
+ sin sin l
+
+.
+
+COROLLARIUM 4
+
+731. Posito arcu ZA = l, sit celeritas angularis, qua punctum A circa punctum fixum Z gyratur =  , in sensum AA', quae duo elementa ut data considerentur, erit
+
+tang
+
+
+
+=
+
+aa cc
+
+tang
+
+l
+
+et
+
+
+
+=
+
+ sin l sin
+
+.
+
+Hinc celeritas angularis, qua interea arcus AB circa A gyratur in sensum contrarium, erit
+
+=
+
+
+
+(aa-cc) sin l
+cc tang 
+
+=
+
+
+
+(aa-cc) cos l
+aa
+
+.
+
+SCHOLION 1
+
+732. Hic corporis motus commodissime eodem modo repraesentari potest, quo motum vertiginis terrae concipimus, quatenus axis seu poli in coelo progrediuntur. Corpus nempe tanquam terra spectetur, cuius alter polus sit A, in coelo autem punctum Z polus eclipticae, a quo polus terrae constanter eandem servet distantiam ZA = l, et circa quem gyretur celeritate
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 683
+
+angulari =  in sensum AA', qui motus respondet processui poli terrestis in coelo. Interea
+
+autem dum arcus AB vel A'B' gyratur circa A vel A', ab arcu ZA rededens in sensum CB
+
+celeritate angulari
+
+=
+
+
+
+(aa-cc) cos l
+aa
+
+,
+
+hic motus respondebit motui diurno terrae. Revera autem talis motus maxime discrepat a
+
+motu vertiginis terrae, cum hic motus meridiani AB circa polum A sit admodum lentus respectu motus angularis poli A circa punctum fixum Z, cum contra in terra motus diurnus sit velocissimus prae motu poli circa polum eclipticae. Quodsi ergo motus polorum terrae circa
+
+polos eclipticae esset velocissimus, contra vero motus vertiginis circa polos terrae tardissimus, causam huius motus neutiquam in viribus externis quaeri conveniret, cum terra
+
+per se ob inertiam tali motu cieri posset. Nunc autem cum contrarium eveniat, huius phoenomeni causa manifesto in viribus externis, quibus terra sollicitatur, est sita.
+
+SCHOLION 2
+733. Memoratu hic omnino dignum est, quod motus corporis, qui revera circa axem variabilem IO fiebat, quasi sponte reductus fuerit ad binos motus gyratorios, qui autem probe
+a se invicem sunt distinguendi, dum alter fit circa axem verum et in corpore existentem, alter vero circa axem quasi extra corpus existentem et ad spatium absolutum relatum. Ad quem motum clarius menti exponendum, corpus PRQS hasta APQa transfixum concipiatur, quae per eius centrum inertiae I transeat, eiusque axem principalem singularem referat (Fig. 93) : tum vero hasta terminis suius A et a ita annulo ZAza inseratur, ut corpus libere circa eam gyrari queat; annulus autem in punctis oppositis Z et z habeat cardines, qui extrinsecus ita firmiter retineantur, ut annulus circa eos pariter libere circumferri possit. Quod si iam corpus PRQS circa hastam Aa in gyrum agatur simulque annulus AzaZ circa cardines Z et z circumferatur, eiusmodi motus orietur, qualem hic descripsimus, ubi hasta refert axem verum in corpore existentem et cum corpore motum, cardines vero Z et z axem alterum extra corpus fixum. Bini autem hi motus gyratorii in hoc conveniunt, quod uterque altero sublato abeat in verum motum gyratorium circa axem fixum; si enim annulus quiescat, corpus circa hastam quiescentem Aa seu axem PQ fixum gyrabitur; sin autem dematur motus circa hastam, solusque annulus circa cardines Z et z gyretur, in corpore orietur motus gyratorius simplex circa axem fixum ad cardines Z et z pertingentem.
+
+SCHOLION 3
+734. Talis motus fieri dicitur circa axem mobilem, qui probe distinguendus est a motu circa axem variabilem, qualem in praecedentibus consideravimus. Corpus enim circa axem variabilem gyrari dicitur, quando continuo circa aliam lineam per eius centrum inertiae
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 684
+
+ductam gyratur, quae etiam eo instanti revera quiescat; atque de tali axe omnia sunt intellegenda, quae supra de motu gyratorio sunt exposita. Quando autem dicimus corpus circa axem mobilem gyrari, quae idea nunc demum nobis nata est censenda, axis quidem erit certa quaedam linea in corpore existens invariabilis, quae autem ipsa cum corpore moveatur. ita ut iste axis mobilis nunquam quiescat. Ita axis terrae, qui hoc nomen gerere solet, non est axis variabilis sed mobilis, cum in terrae sit linea quaedam fixa, sed labente tempore ad alia atque alia coeli puncta dirigatur; qui ergo etiam abstratione facta a motu terrae annuo nullo temporis puncto quiescit, etiamsi eius motus sit tardissimus. Verum quovis tempore alia quaedam linea in terra assignari potest, quae tum revera quiescat, successu temporis autem continuo mutetur : huiusque respectu terra circa axem variabilem gyrati est dicenda. Ob motum autem aequinoctiorum tardissimum prae motu diurno differentia inter verum terrae axem et axem variabilem quovis tempore locum habentem fere penitus est imperceptibilis; quae autem si esset notabilis, in Astronomia summam attentionem postularet, cum observationes pro elevatione poli institutae non situm axis veri, sed axis variabilis eo tempore ostendant, circa quem scilicet tum quiescentem terra gyretur.
+
+PROBLEMA 75
+735. Si corpori rigido duobus axibus principalibus paribus praedito motus quicunque imprimatur, corpusque a nullis viribus externis sollicetur, neque usquam retineatur, quominus motum suum libere prosequi possit, determinare motum, quo moveri perget.
+SOLUTIO
+Primum dispiciatur, utrum ob motum impressum centrum inertiae moveatur nec ne ? si enim moveatur, corpus habebit motum progressivum seorsim considerandum, quo uniformiter in directum progredietur, atque mente saltem hunc motum tollere licebit, dum scilicet ipsum spatium motu contrario proferri concipiatur. Sublato ergo motu progressivo, cuius ratio perinde est comparata, ac si praeterea nullus alius motus in corpore inesset, centrum corporis inertiae tanquam quiescens considerari poterit; circa quod quomodocunque corpus agitetur, linea quaepiam recta per id ducta primo saltem initio quiescet, quae eius erit axis gyrationis. Tum si iste axis conveniat cum aliquo axium principalium, hoc est, si vel incidat in axem principalem singularem vel ad eum sit normalis, etiam hic motus manebit aequabilis, axisque quiescet, vel adiuncto motu progressivo sibi fugiter manebit parallelus. At si axis ille, circa quem corpus primum gyrari coepit, neque cum axe principali singulari congruat, neque ad eum sit normalis, corpus circa axem variabilem gyrabitur, qui modo continuo varietur, in praecedentibus abunde ostendimus. Clarius etiam hic motus perspicietur per reductionem illam ad axem mobilem, qua corpus circa axem principalem singularem aequabiliter gyratur, dum ipse hic axis circa quosdam polos extra corpus fixos circumfertur pariter motu uniformi.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter TWELVE.
+
+Translated and annotated by Ian Bruce.
+
+page 685
+
+SCHOLION
+736. Hoc problemate universum argumentum, quod hoc capite tractandum suscepimus, exhauritur, ita ut corporum rigidorum duobus axibus principalibus paribus praeditorum et a nullis viribus sollicitatorum motus liberos in genere determinare atque ad quosvis casus accommodare valeamus. Supersunt ergo corpora tertiae classis, quorum momenta inertiae principalia sunt inaequalia, quibus sequens caput destinatur.
+
+

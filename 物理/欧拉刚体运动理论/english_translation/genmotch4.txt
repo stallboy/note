@@ -1,0 +1,1865 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 127
+
+Chapter IV
+Concerning Absolute Measurements Derived from the Fall of Weights
+DEFINITION 16
+179. Gravity is the force, by which all bodies near the surface of the earth are forced downwards ; and the force, by which any body is acted on by gravity, is called the weight of this body.
+COROLLARY 1
+180. Gravity is the external cause, which forces terrestrial bodies downwards; and therefore it cannot be a property assigned to certain bodies themselves.
+COROLLARY 2
+181. Thus a body sent off near the surface of the earth, even if it should be at rest, is urged on in a downwards motion and meanwhile it sinks until it comes upon obstacles preventing the fall.
+COROLLARY 3
+182. Moreover as long as the fall is impeded, either the body being held immobile pressing on an object or it suspended, the weight of this body exerts itself by pressing down.
+EXPLANATION
+183. Daily experience abundantly testifies that all bodies which fall are considered to be heavy; and if bodies appear to be rather light then while they advance upwards, the cause must be attributed to the air, but with the air removed the lightest of bodies are also prepared to fall equally with the heaviest. Moreover here we have decided not to think about things that are accustomed to oppose the fall of bodies, and moreover on calling on the aid of experiments conducted with all impediments to the motion removed, we learn in the first place that all bodies fall equally quickly, and in the second place, whether they may be at rest or now they are moving, that they are urged downwards by an equal force. Therefore I take these two phenomena as recognised,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 128
+
+even if the motions should require greater attention to detail, since here it is proposed that only fixed measurements are to be put in place ; indeed in every respect the motions will be understood by us, and nothing gets in the way of this aim.
+
+SCHOLIUM
+
+184. Those people also, who put the cause of this as a drawing together, recognise these things, that gravity is the external force, which acts extrinsically on bodies and forces them downwards. For bodies are not urged towards the earth by a certain special instinct, but they are set up to be attracted to the earth by a force drawing them together. Clearly the matter can be understood thus, as if the earth were sending out some kind of embracing forces acting on bodies, which forces send the bodies towards the earth ; now nor do they consider this to happen with the help of an intervening medium, but they wish the forces to be acting in place equally, even if all the matter between the body and the earth has been taken away. Therefore the force of gravity is not a material force acting on the body, truly thus connected with the earth, in order that with this removed, the force likewise would vanish; and likewise it is therefore as if a certain spirit should move rapidly to force bodies downwards ; for how otherwise the force itself is able to propagate through great distances without the support of any kind of intermediate material, cannot in any manner be considered to be understood. For imagine two bodies A and B removed in turn at some great distance from each other, between which clearly no matter is present, and around body A there is nothing at all that may pertain to body B; nor will anything change at body A, even if B is completely removed, from which the emission of forces of this kind is seen to be contrary to reason. What is perhaps more likely to be true is that the force of gravity arises from the action of some more subtle matter that escapes the notice of our senses; even if it is not allowed to shown clearly the manner in which such a force may be produced, yet it is allowed for the smallest hidden qualities of this kind to flee [from body to body]. Now in fluids forces of this kind are able to arise as taught in hydrodynamics. Moreover when the admirers of attraction say that the attractive force has been put in place by a god of the earth, they say nothing else, except that bodies are to be impelled immediately by this god himself. Hence we assess carefully in general the descent of a corpuscle downwards to be acted on by gravity.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 129
+
+PROBLEM 12
+
+185. If a corpuscle is continually acted on by a constant downwards force and the motion starts from rest, to determine at a given time the height completed and the speed that it will have acquired.
+SOLUTION
+
+Let A be the mass of the corpuscle, that initially is at rest at A, from where it is continually pressed downwards by a constant force equal to p, under the action of this with all obstacles removed it descends along the line AG (Fig. 17). Hence it arrives after the lapse in the time equal to t at S, with the height completed AS = s ; and on taking the element of time dt constant, the motion of this is defined by this equation :
+
+the integral of this is :
+
+dds
+
+=
+
+pdt 2 A
+
+or
+
+dds dt
+
+=
+
+pdt A
+
+,
+
+ds dt
+
+=
+
+ pt A
+
++
+
+Const.
+
+But
+
+ds dt
+
+expresses
+
+the
+
+speed
+
+at
+
+S,
+
+which
+
+since
+
+at
+
+A,
+
+where
+
+t
+
+=
+
+0,
+
+through the hypothesis it is zero, the constant for the integration
+
+undertaken vanishes, thus so that the speed is considered
+
+ds dt
+
+=
+
+pt A
+
+.
+
+Again on multiplying by dt the equation becomes
+
+ds
+
+=
+
+ptdt A
+
+,
+
+which
+
+again integrated gives
+
+s
+
+=
+
+ptt 2A
+
+,
+
+since
+
+on
+
+putting
+
+the
+
+time
+
+t
+
+=
+
+0
+
+the
+
+height AS = s must vanish. Therefore in the elapsed time t the
+
+corpuscle
+
+descends
+
+through
+
+the
+
+height
+
+AS
+
+=
+
+s
+
+=
+
+ptt 2A
+
+and there at S it will have acquired the speed
+
+ds dt
+
+=
+
+pt A
+
+.
+
+COROLLARY 1
+
+186. Therefore the height made with the fall is proportional to the square of the time, truly the speed acquired is proportional to the time ; moreover each increases in the direct ratio of the force acting p and inversely to the mass A.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 130
+
+COROLLARY 2
+
+187.
+
+The speed acquired at S,
+
+ds dt
+
+is
+
+of
+
+such
+
+a
+
+size
+
+that,
+
+if
+
+the
+
+body
+
+were
+
+moving
+
+uniformly, in the same time t it would complete a distance equal to
+
+tds dt
+
+=
+
+ptt A
+
+,
+
+which
+
+hence
+
+is
+
+twice
+
+the
+
+height
+
+described
+
+s
+
+=
+
+ptt 2A
+
+.
+
+COROLLARY 3
+
+188. Since all bodies can fall with equal speeds with all impediments removed, as
+
+experience
+
+testifies,
+
+it
+
+is
+
+necessary
+
+that
+
+p A
+
+or
+
+p A
+
+shall
+
+be
+
+a
+
+constant
+
+quantity.
+
+Whereby
+
+any force p acting downwards on a body, or the weight of this body, keeps the same
+
+ratio of this to the mass A.
+
+EXPLANATION
+
+189. Therefore when the question is concerned with the fall of heavy bodies, the letter
+
+p will express the weight of the body, we have the distinct idea of this, since thus the
+
+measures of the weights are to be noted, the letter A now denotes the mass of the same
+
+body, the recognition of this more hidden [quantity] can itself be understood clearly
+
+enough, because it is proportional to the weight. Then we have also a clear notion of
+
+the time t, since we are able to have the most reliable measurement of this quantity,
+
+either expressed as seconds or minutes or hours. Moreover the height s, since it is a
+
+straight line, can be defined by geometrical measurements. Now the letter  , from
+
+which the proportionality is determined, is not itself defined from a value received,
+
+but, as the remaining quantities, to some or other measurements or units are referred
+
+to, thus also to that some or other values have to be attributed. But immediately we
+
+have expressed all the remaining quantities p, A, t and s through determined
+
+measurements, the letter  obtains a determined value, which thus must be compared,
+
+in order that the truth can be shown for a singe case, for then it will always retain the
+
+same value, clearly as long as we use the same measures. But here the value must be
+
+asked from experiments, since the measurements taken depend on experiment ; hence
+
+now we instruct, how great the height shall be, through which a given heavy body will
+
+fall in a given time, thus such a magnitude will have to be assigned to the letter  , in
+
+order
+
+that
+
+our
+
+formula
+
+found
+
+for
+
+the
+
+height
+
+s
+
+=
+
+ptt 2A
+
+,
+
+if
+
+it
+
+should
+
+fit
+
+that
+
+case
+
+itself,
+
+shows that same height that is indicated by experiment.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 131
+
+SCHOLIUM
+190. Hence at this stage everything must be given, so that we can establish reliable measures for all the quantities entering into our formulas, with which later we can use constantly, if indeed we wish to express the phenomena of all motion through known measurements. Moreover there are five kinds of quantities by which the determination of all motion is secured.
+1. The distance traversed, which thus is in a straight line and thus is a geometric quantity, and there is no doubt in the measurement of this.
+2. The time, since the measurement of this shall be most noteworthy, as the whole matter depends on how great a time we may wish to take for unity.
+3. The speed, the knowledge of this cannot be made clearer than if we are able to assign the distance traversed by the body uniformly in a given time.
+4. The force acting must be given to the known measurements. 5. The mass of the moving bodies is introduced into the calculation, the magnitude of this, in whatever way it must be measured, has to be decided also. Of these five quantities in general there is no difficulty involved with the first, the manner in which the remaining four are most conveniently introduced into calculations and from these how the letter  can be most conveniently defined, is put in place in the following hypothesis.
+HYPOTHESIS 1
+191. We may express the forces acting consistently through the equal weights from these.
+EXPLANATION
+192. This expression of the forces by the weights gives no difficulty; for since the weight of each body is a force, by which that is acted on downwards, the forces acting and the weights are quantities homogeneous between each other; and whatever body may be acted on by some force, a body can always be taken to be acted on by an equal force acting downwards placed on the surface of the earth, so that just the weight of this body will show the measure of that force. And when the question concerns so great a force, that no body near the surface of the earth is able to be present, that has an equal weight, it is sufficient to know how many times greater that force shall be than the weight of the little amounts of bodies present on the surface of the earth, if hence indeed the magnitude of this force is surely able to be defined. But now since indeed it is ascertained that the same body in all the regions of the earth is not to be forced downwards by equal forces, clearly a certain region must be selected for this measurement, to which henceforth the other measurements established can be adapted.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 132
+
+For there is no difference in whatever region we use, provided the experiments are taken in that same place, on which the measurements following depend.
+
+HYPOTHESIS 2
+
+193. We express the mass of each body by the weight that is put in place, remaining in the same region of the earth.
+
+EXPLANATION
+
+194. The reason why this measurement has been put in place is because the weights of
+
+bodies are in proportion to the masses; whereby the weight of each body is to be
+
+considered just as a measurement of the mass of this body. But when the question is
+
+concerned with the masses of bodies situated beyond the earth, bearing in mind that
+
+mass on a region of the earth, thus we have completed the measurements of the forces
+
+that are to be carried. Hence the mass of any body is measured by us by the weight
+
+that the same body has, if put in that region. If this is sought from bodies, which on
+
+account of the magnitude cannot be taken from the region mentioned, these have to be
+
+considered through parts; or thus it suffices for the ratio to be known that the mass of
+
+the proposed body holds to the mass of some given body present in that region. In this
+
+manner the forces and masses have led to homogeneous quantities, since we can
+
+express both by weights; and since in our formulas the forces always occur divided by
+
+masses, and it is likewise the case, that we use the unit in which the weights are to be
+
+dispensed, either the pound or the ounce, that indeed the resulting quotient from the
+
+division of some force by the mass is always expressed by an absolute number. And
+
+indeed in the case of gravity, since both the force acting p as well as the mass of the
+
+body A is expressed by the weight of this, then
+
+p A
+
+=1,
+
+thus
+
+for
+
+a
+
+fall
+
+by
+
+the
+
+weight
+
+in
+
+the time t it descends through a height
+
+s=
+
+1 tt and acquires a speed
+2
+
+ds dt
+
+= t , in which
+
+the body traverses a distance uniformly in the time t equal to tt = 2s.
+
+HYPOTHESIS 3
+
+195. In measuring out the times we always take the second of the minute for the unit.
+
+EXPLANATION
+
+Since the second of the minute is the sixtieth part of the sixtieth part of the twenty-fourth part of the natural day, it is known well enough, since it is customary for the day to be divided into 24 hours in the day, 60 minutes in the hour and 60 seconds in the minute.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 133
+
+[It may be noted that the minutes of the hour are really the first order small parts or minute parts of the hour, while the seconds are the second order small parts of the hour, which is how Euler actually expresses these quantities here; these of course come from the division of the degree in the angular measurements of the transits of stars involved in measuring time, thus in astronomy the second can be divided likewise into 60 parts. It may be recalled that Henry Briggs in his Trigonometria Britannica (1631) had made a valiant bid to replace minutes and seconds of degrees by decimal parts, but Adrian Vlaq had ignored this in his later edition of the log. tables; thus the opportunity to change to a less tedious form of angular measure in calculations was lost forever.] Moreover I have taken the mean solar day, in which the sun is thought to revolve following a mean circle around the earth. Because the time is not perhaps seen to be of the same duration in all ages, it is sufficient for the size of this to be known for some given age and that indeed, thus the desired measures of the masses from the weights of bodies are known. Whereby, if we designate some time by the letter t, this letter indicates an absolute number, just how many seconds are contained in that time. Moreover this is the most suitable measure of time, since in all experiments the times are accustomed to be known in minutes and seconds ; also we shall avoid fractions most often in this way, if we take greater intervals of time.
+
+HYPOTHESIS 4
+
+196. The speed is most suitably measured by the distance that the body traverses moving with that uniform speed in a single second.
+
+EXPLANATION
+
+Certainly we cannot know the speed more clearly, than if we are able to assign the distance that the body traverses in a time of one second with that uniform speed; thus if I may say that a globe from the force of an explosion has so much speed, which traverses a distance of 1000 feet in a time of one second, everyone has an adequate idea of this speed. Therefore in this way the speeds and the distances traversed, Cleary lines, can be expressed, and since the times as well as the forces have been shown to be applied to absolute numbers, in our formulas only quantities of two kinds are left, the one geometrical lines and the other absolute numbers.
+
+HYPOTHESIS 5
+
+197. In what follows the letter g always denotes the height through which a weight freely falls in a time of one second.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 134
+
+EXPLANATION
+
+198. From the most careful experiments and observations this has finally been agreed
+
+upon, that a body freely descending from rest in a time of one second falls through a
+
+height
+
+of15
+
+5 8
+
+Rhenish
+
+feet,
+
+[according
+
+to
+
+the
+
+O.
+
+O.
+
+version
+
+of
+
+this
+
+work,
+
+this
+
+corresponds to 4.904 metres] thus so that the measure of such to be used shall
+
+be
+
+g
+
+=
+
+15
+
+5 8
+
+.
+
+But
+
+since
+
+gravity
+
+cannot
+
+be
+
+taken
+
+as
+
+the
+
+same
+
+on
+
+all
+
+parts
+
+of
+
+the
+
+earth,
+
+this
+
+quantity is not considered constant. Hence besides I have advised above that it is
+
+necessary to select a certain place on the earth, to which both the forces and the
+
+masses for the forces of the experiment are to be referred; moreover in this region with
+
+the same altitude agreed upon, from which a weight falls freely for one second, g can
+
+be accurately defined by experiment. I may be able to add the age, thus like measures
+
+of the second may be taken, if which is considered, if , if it should be thought from
+
+these, that with the passage of the centuries the mean duration of the day has changed.
+
+Now likewise it is the case that any region can be selected to set this up, and then all
+
+the measurements on record can be reduced to this, and finally the conclusions must
+
+be in agreement ; from these it is apparent that these measurements set up in an
+
+arbitrary way do not affect the principles of mechanics nor do they introduce anything
+
+arbitrary to that, since from these only that is effected, so that we come upon
+
+conclusions expressed by known measures.
+
+THEOREM 5
+
+199. It must be assumed in the above formulas with all the quantities treated in the manner following the hypotheses according to the measurements with the letter  replaced by twice the height g, through which the weight is falls in one second.
+
+DEMONSTRATION
+
+Indeed for the fall of the weight (Fig. 17), if the force p and the mass A are expressed
+
+following our hypotheses, then
+
+p A
+
+=
+
+1
+
+and
+
+the
+
+height
+
+through
+
+which
+
+it
+
+falls
+
+in
+
+the
+
+time
+
+t
+
+becomes
+
+AS
+
+=s=
+
+1 2
+
+tt
+
+.
+
+Hence
+
+again
+
+in
+
+the
+
+time
+
+t
+
+expressed
+
+in
+
+seconds,
+
+if
+
+t
+
+=
+
+1
+
+is
+
+put
+
+in place then for s there must appear that height g, through which is has been assumed
+
+to fall in one second, since thus this makes
+
+g
+
+=
+
+1 2
+
+
+
+,
+
+it
+
+being
+
+evident
+
+that
+
+
+
+= 2g must
+
+be in place. Now the speed at the end of one second will be
+
+ds dt
+
+= t = 
+
+= 2g.
+
+This
+
+clearly is as great a speed as a body that traverses a distance equal to 2g uniformly in
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 135
+
+one second, in short the account by which our received speed is to be measured finishes.
+
+COROLLARY 1
+
+200. Hence  does not denote a number but a line, which since the distance traversed
+
+s is homogeneous, then the remaining quantities t and
+
+p A
+
+are
+
+expressed
+
+by
+
+absolute
+
+numbers.
+
+COROLLARY 2
+
+201. Therefore if the corpuscle at rest, of which the mass is A , is acted on by a force
+
+equal to p, in that element of time dt it will extend through a distance element equal to
+
+gpdt 2 A
+
+,
+
+clearly
+
+always
+
+having
+
+the
+
+prescribed
+
+distances.
+
+COROLLARY 3
+
+202. And if the corpuscle A is now moved and by the force equal to p acting, then by resolution the motion is put in place of this lateral motion, by which it is carried following the direction of the force acting and in an element of time dt an element of distance equal to dx is completed, thus it will be changed, so that it becomes :
+
+ddx
+
+=
+
+2gpdt 2 A
+
+and
+
+ddx dt
+
+=
+
+2 gpdt A
+
+,
+
+where
+
+ddx dt
+
+is
+
+the
+
+increment
+
+of
+
+the
+
+speed
+
+along
+
+this
+
+direction.
+
+COROLLARY 4
+
+203. Hence again if the speed of this lateral motion along this direction is picked up,
+
+which is
+
+dx dt
+
+,
+
+that
+
+along
+
+our
+
+received
+
+length
+
+is
+
+thus
+
+expressed,
+
+as
+
+it
+
+indicates
+
+the
+
+interval that the body with this uniform speed can traverse in one second.
+
+SCHOLIUM
+
+204. Therefore with such units and measurements put to use, which we have described, if there is written 2g in place of  , then we can easily recast all motion from our formulas in absolute units, and for this reason is seen to be more convenient, compared to that which I had used previously, where I expressed the speeds by the square root from the heights, through which the weight acquired the same speed by
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 136
+
+falling ; that in the end I introduced the corresponding heights themselves, in place of
+
+the speeds.
+
+[in the Mechanica, where ratios were usually taken, and absolute quantities were
+
+avoided, and the troublesome factor of 2 missing in the vis viva idea current at the time
+
+could be. Euler continues the comparison :]
+
+Now from the height corresponding to the speed itself, it is not so clearly recognised,
+
+as it is necessary by a certain calculation in order to show that it is reduced to
+
+measured quantities alone. Then also there is a need for a special ratio of the times, in
+
+which a certain new unit must be introduced into the calculation, in order that the time
+
+in seconds can be elicited [This involved falling back on Huygens's pendulum, again
+
+in the Mechanica]. Therefore we will completely avoid these round about ways both
+
+in the ratio of the speeds as of the times, if we are to use equations with prescribed
+
+measures; moreover the whole distinction [between the initial and final formulas
+
+introduced here above] has been put in place by this, that before in general formulas
+
+the
+
+letter
+
+
+
+signified
+
+the
+
+absolute
+
+fraction
+
+1 2
+
+,
+
+but
+
+now
+
+the
+
+line
+
+of
+
+length
+
+equal
+
+to
+
+2g
+
+is
+
+written here for that. Thus, if any problem had been set up for some motion to be
+
+defined along the lines of the first method, then the calculation of this could easily be
+
+reduced to this method, and thus all the absolute measurements become known most
+
+quickly. Hence also the homogeneity included in the equations of motion is easier
+
+seen, since only the distances traversed and the letter g are linear quantities, and as if
+
+in one dimension, and the speed also are of this kind, if perhaps they should be
+
+introduced into calculation ; moreover the times t too for this are expressed by
+
+absolute
+
+numbers
+
+similar
+
+to
+
+the
+
+fractions
+
+p A
+
+,
+
+which
+
+are
+
+agreed
+
+to
+
+be
+
+established
+
+with
+
+no dimension. Moreover in the calculation according to the manner set up before, both
+
+the speeds and the times were expressed by the square roots of linear quantities, which
+
+are considered accordingly to have the dimension only of a half. Hence with that
+
+above method rejected, we are embracing this new method of coming upon absolute
+
+measures as much easier and simpler, and which we will always retain in the
+
+following.
+
+[Thus, Euler has finally discarded the old ratio method that had its origins in
+
+geometry, and replaced it with absolute quantities. At this time, the basic absolute
+
+quantities were the second and the acceleration of gravity, which he put equal to 1. We
+
+might wonder why it took so long for so 'obvious' a method to be introduced; as usual,
+
+people had to be dragged away from what they were was used to, to this new alien
+
+way of looking at things, which to us is now so commonplace; food for thought.]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 137
+
+CAPUT IV
+DE MENSURIS ABSOLUTIS EX LAPSU GRAVIUM PETITIS
+DEFINITIO 16
+179. Gravitas est vis, qua omnia corpora circa terrae superficiem deorsum urgentur; et vis, qua quodvis corpus ob gravitatem deorsum sollicitur, eius pondus vocatur.
+COROLLARIUM 1
+180. Gravitas ergo est causa externa, quae corpora terrestria deorsum pellit; neque igitur ipsis corporibus tanquam proprietas quaedam tribui potest.
+COROLLARIUM 2
+181. Corpus itaque circa superficiem terrae dimissum, etiamsi quieverit, ad motum deorsum incitatur ac tamdiu labetur, donec obstacula lapsum arcentia inveniat.
+COROLLARIUM 3
+182. Quamdiu autem lapsus impeditur, sive corpus obiecto immobili incumbat sive sit suspensum, eius pondus se per pressionem exerit.
+EXPLICATIO
+183. Quotidiana experientia abunde testatur omnia corpora, quae sub sensus cadunt, esse gravia; ac si quae potius levia videntur, dum sursum nituntur, causa aeri est tribuenda, quo sublato etiam levissima corpora aeque promte delabuntur, atque gravissima. Hic autem cogitationem ab omnibus obstaculis, quae lapsui corporum se opponere solent, abstrahimus. Experimentis autem in subsidium vocatis discimus remotis omnibus motus obstaculis, primo omnia corpora aeque celeriter delabi, et secundo, sive quiescant sive iam moveantur, pari vi deorsum urgeri. Haec ergo duo phaenomena tanquam cognita assumo, etsi ampliorem motus notitiam requirant, cum hic tantum fixas mensuras stabilire sit propositum; undecunque enim nobis innotuerint, ad hunc scopum nihil interest.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 138
+
+SCHOLION
+184. Gravitatem esse vim externam, quae in corpora extrinsecus agat eaque deorsum impellat, etiam ii agnoscunt, qui eius causam in attractione ponunt. Corpora enim non proprio quodam instinctu terram versus urgeri, sed a vi terrae attractrice attrahi statuunt. Rem scilicet ita concipiunt, quasi terra quaquaversus vires emitteret, quae corpora ambientia complexae terram versus impellant; neque vero hanc virium emissionem ope medii interiecti fieri putant, sed eam pariter locum habere volunt, etiamsi omnis materia inter terram et corpora tolleretur. Foret ergo gravitas vis immaterialis in corpora agens, verum cum terra ita coniuncta, ut hac sublata simul evanesceret; perinde igitur esset, ac si spiritus quidam corpora deorsum concitaret; quomodo enim aliter vis sese a terra per longinquas distantias sine adminiculo cuiusquam materiae interiacentis propagare possit, nollo modo intelligere licet. Finge enim duo corpora A et B ad magnam distantiam a se invicem remota, inter quae nulla plane materia existat, atque circa corpus A nihil omnino aderit, quod ad corpus B pertineat; neque quicquam in corpore A mutabitur, etiamsi corpus B prorsus tollatur, ex quo huismodi emisso virium rationi contraria videtur. Quin potius veritati consentaneum est vim gravitatis ab actione cuiuspiam materiae subtilis sensus nostros effugiente oriri; etiamsi enim modum, quo talis vis produceretur, luculenter monstrate non liceret, tamen ad huiusmodi qualitates occultas confugere minime deceret. Verum in fluidis eiusmodi vires oriri posse in Hydrodynamica docetur. Quando autem fautores attractionis dicunt a Deo Telluri vim attractivam esse inditam, nihil aliud dicunt, nisi corpora ab Ipso Deo immediate terram versus impelli. Perpendamus ergo in genere descensum corpusculi a gravitate deorsum sollicitati.
+
+PROBLEMA 12
+
+185. Si corpusculum continuo deorsum sollicitetur a vi constante motumque a quiete incipiat, ad datum tempus altitudinem confectam et celeritatem, quam acquisiverit, determinare.
+SOLUTIO
+
+Sit A massa corpusculi, quod primum in A quieverit, unde continuo deorsum
+
+urgeatur a vi constante = p, cuius actione remotis omnibus obstaculis per lineam
+
+rectam verticalem AG descendet (Fig. 17). Pervenerit ergo lapso tempore = t in S,
+
+confecta altitudine AS = s ; ac sumto temporis elemento dt constante, eius motus hac
+
+aequatione difinietur
+
+dds = pdt 2 seu dds = pdt ,
+
+A
+
+dt A
+
+cuius integrale est
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 139
+
+ds dt
+
+=
+
+ pt A
+
++
+
+Const.
+
+At
+
+ds dt
+
+exprimit
+
+celeritatem
+
+in
+
+S,
+
+quae
+
+cum
+
+in
+
+A,
+
+ubi
+
+t
+
+=
+
+0,
+
+per
+
+hypothein fuerit nulla, constans integratione ingressa evanescit, ita
+
+ut habeatur celeritas
+
+ds dt
+
+=
+
+pt A
+
+.
+
+Porro
+
+per
+
+dt
+
+multiplicando
+
+fit
+
+ds
+
+=
+
+ptdt A
+
+,
+
+quae
+
+denuo
+
+integrata
+
+dat
+
+s
+
+=
+
+ptt 2A
+
+,
+
+quoniam
+
+posito
+
+tempore t = 0 altitudo AS = s evanescere debet. Elapso ergo tempore
+
+t corpusculum descentit per altitudinem
+
+AS
+
+=
+
+s
+
+=
+
+ptt 2A
+
+ibique in S acquisivit celeritatem
+
+ds dt
+
+=
+
+pt A
+
+.
+
+COROLLARIUM 1
+
+186. Altitudo ergo lapsu confecta proportionalis est quadrato temporis, celeritas vero acquisita ipsi tempori; utrinque autem accedit ratio directa vis sollicitantis p et inversa massae A.
+COROLLARIUM 2
+
+187.
+
+Celeritas in S acquisita
+
+ds dt
+
+tanta est, qua, si corpus uniformiter moveretur,
+
+eodem tempore t conficeret spatium =
+
+tds dt
+
+=
+
+ptt A
+
+,
+
+quod
+
+ergo
+
+est
+
+duplum
+
+altitudinis
+
+descriptae
+
+s
+
+=
+
+ptt 2A
+
+.
+
+COROLLARIUM 3
+
+188. Cum omnia corpora remotis obstaculis aeque celeriter descendant, uti experienta
+
+testatur,
+
+necesse
+
+est,
+
+ut
+
+p A
+
+seu
+
+p A
+
+sit
+
+quantitas
+
+constans.
+
+Quare
+
+vis
+
+quodlibet
+
+corpus
+
+deorsum sollicitans p seu eius pondus ad eius massam A eandem tenet rationem.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 140
+
+EXPLICATIO
+
+189. Quando ergo quaestio est de lapsu corporum gravium, littera p exprimet corporis
+
+pondus, cuius distinctam habemus ideam, cum adeo mensurae ponderum sint
+
+notissimae, littera A vero eiusdem corporis massam denotat, cuius cognitio per se
+
+occultior ex hoc ipso satis clare percipitur, quod sit ponderi proportionalis. Deinde
+
+temporis t etiam claram habemus notionem, cum eius quantitatem per mensuras
+
+certissimas, veluti minuta secunda vel minuta prima vel horas exprimere valeamus.
+
+Altitudino autem s, cum sit linea recta, per mensuras geometricas definitur. Verum
+
+littera  , qua proportionalitas determinatur, per se definitum valorem non recipit, sed,
+
+prout reliquae quantitates ad alias atque alias mensuras ceu unitates referuntur, ita
+
+etiam illi alii atque alii valores tribui debent. Statim autem, ac reliquas quantitates p,
+
+A, t et s per determinatas mensuras exprimimus, littera  determinatum valorem
+
+adipiscitur, qui ita comparatus esse debet, ut pro unico casu veritatem exhibeat, tum
+
+enim perpetuo eundem valorem retinebit, quamdiu scilicet iisdem mensuris utemur.
+
+Hic autem valor ex experientia peti debet, cum etiam mensurae assumtae experientiae
+
+innitantur; hinc vero discimus, quanta sit altitudo, per quam corpus grave dato tempore
+
+delabitur, unde litterae  talis valor tribui debebit, ut formula nostra pro altitudine
+
+inventa
+
+s
+
+=
+
+ptt 2A
+
+,
+
+si
+
+ad
+
+istum
+
+casum
+
+accommodetur,
+
+hanc
+
+ipsam
+
+altitudinem,
+
+quam
+
+experientia declarat, exhibeat.
+
+SCHOLION
+
+190. Omnia ergo huc redeunt, ut pro omnibus quantitatibus in nostras formulas
+ingredientibus mensuras certas stabiliamus, quibus in posterum constanter utamur,
+siquidem omnium motuum phaenomena per mensuras cognitas exprimere velimus.
+Sunt autem quinque genera quantitatum, quibus omnis motus determinatio continetur 10. Spatium percursum, quod cum sit linea ideoque quantitas geometrica, eius
+mensura nulli dubio est subiecta. 20. Tempus, cuius mensura cum sit notissima, cardo rei in hoc versatur, quantum
+tempus pro unitate assumere velimus. 30. Celeritas, cuius cognitio planior esse nequit, quam si spatium assignare
+valeamus, quod ea celeritas dato tempore uniformiter esset percusura. 40. Vis sollicitans ad mensuras cognitas erit revocanda. 50. Massa corporum motorum in calculum ingreditur, cuius quantitas, quomodo
+aestimari debeat, quoque erit statuendum.
+Quorum quinque quantitatum generum cum primum nulla difficulta laboret,
+quomodo quatuor reliqua per mensuras cognitas aptissime in calculum introducantur iisque convenientur littera  definiatur, in sequentibus hypothesibus stabiliamus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 141
+
+HYPOTHESIS 1
+191. Vires sollicitantes per pondera illis aequalia constanter exprimamus.
+EXPLICATIO
+192. Haec virium expressio per pondera nullam habet difficultatem; cum enim pondus cuiusque corporis sit vis, qua id deorsum sollicitatur, vires sollicitantes et pondera sunt quantitates inter se homogeneae; et a quacunque vi aliquod corpus sollicitetur, semper corpus concipere licet, quod in superficie terrae positum pari vi deorsum sollicaretur, huiusque corporis pondus iustam illius vis mensuram exhibebit. Et quando quaestio est de tanta vi, ut nullum corpus circa terrae superficiem existere possit, quod aequale pondus haberet, sufficiet nosse, quoties illa vis maior sit quam pondus modici corporis in terrae superficie existentis, siquidem hinc quantitas illius vis aequae certe definiri poterit. Cum autem nunc quidem compertum sit eadem corpora in omnibus terrae regionibus non paribus viribus deorsum impelli, certa quaedam terrae regio ad hanc mensuram eligi debet, ad quam etiam reliquae mensurae deinceps exponendae accommodentur. Nihil enim interest, quamnam regionem adhibeamus, dummodo in eadem experimenta, quibus sequentes mensurae innituntur, capiantur.
+HYPOTHESIS 2
+193. Massam cuiusque corporis per pondus exprimamus, quod idem in regione terrae constitum esset habiturum.
+EXPLICATIO
+194. Ratio huius mensurae in hoc est sita, quod pondera corporum massis eorum sint proportionalia; quare pondus cuiusque corporis iustam massae eius mensuram praebere est censendum. Quando autem quaestio est de massis corporum extra terram versantium, ea saltem mente in terram et eam quidem eius regionem, unde virium mensuras hausimus, sunt transferrenda. Hinc massa cuiuscunque corporis mensurabitur pondere, quod idem corpus, si in illa regione esset collocatum, haberet. Si de corporibus quaereretur, quae ob magnitudinem a memorata regione capi non possent, ea per partes essent consideranda; vel adeo sufficiet rationem nosse, quam massa corporis propositi teneat ad massam alicuis dati corporis in ea regione existentis. Hoc modo vires et massae ad quantitates homogeneas sunt perductae, cum ambo per pondera simus expressuri; et quoniam in nostris formulis perpetuo vires per massas divisae occurunt, perinde est, quanam unitate in ponderibus dimetiendis utamur, sive libra sive unicia, semper enim quotus ex divisione vis cuiuspiam per massam resultans numero absoluto exprimetur. Atque casu quidem gravitatis, cum tam
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 142
+
+vis sollicitans p quam massa corporis A per eius pondus exprimatur, erit
+
+p A
+
+= 1,
+
+unde
+
+elapso
+
+tempore
+
+t
+
+grave
+
+descendit
+
+per
+
+altitudinem
+
+s
+
+=
+
+1 2
+
+tt
+
+et
+
+acquirit
+
+celeritatem
+
+ds dt
+
+=
+
+t
+
+,
+
+qua
+
+corpus
+
+uniformiter
+
+latum
+
+tempore
+
+t
+
+percurret
+
+spatium
+
+=
+
+ tt
+
+=
+
+2s.
+
+HYPOTHESIS 3
+
+195. In dimetiendis temporibus perpetuo minutum secundum pro unitate assumamus.
+
+EXPLICATIO
+
+Quod minutum secundum sit pars sexagies sexagies vigesima quarta diei naturalis, satis notum est, cum dies in 24 horas, una hora in 60 minuta prima et unum minutum primum in 60 minuta secunda dividi soleat. Diem autem hic assumo medium solarem, quo sol secundum tempus medium circa terram revolvi censetur. Quod tempus si forte non per omnia secula eiusdem durationis videatur, sufficit eius quantitatem pro dataquadam aetate nosse et ea quidem, unde mensura massarum ex corporum ponderibus petitur. Quare, si tempus quodpiam littera t designemus, haec littera erit numerus absolutus indicans, quot minuta secunda in tempora illo contneantur. Est autem haec temporis mensura commodissima, cum in omnibus experimentis tempora in minutis secundis notari soleant; fractiones etiam nimis frequente hoc modo evitabimus, quae occurrenerent, si maius temporis spatium pro unitate assumeremus.
+HYPOTHESIS 4
+
+196. Celeritatem commodissime metiemur per spatium, quod corpus ea celeritate uniformiter motum singulis minutis secundis percurret.
+
+EXPLICATIO
+
+Celeritatem sane clarius non cognoscimus, quam si spatium assignare valuerimus, quod corpus ea celeritate uniformite latum uno minuto secundo percurret; ita si dicam globum ex tormento explosum tantum habere celeritatem, qua uno minuto secundo spatium 1000 pedum percurret, nemo non adaequatam hius celeritas ideam habebit. Hoc ergo modo celeritates et spatia percursa per quantitates homogeneas, lineas scilicet, exprimentur, et cum tam tempora quam vires ad massas applicatae numeris absolutis exhibeantur, in formulis nostris duplicis tantum generis quantitates relinquentur, alterae lineae geometricae, alterae numeri absoluti.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 143
+
+HYPOTHESIS 5
+
+197. Denotet in posterum nobis perpetuo littera g altitudinem, per quam grave uno minuto secundo libere delabitur.
+
+EXPLICATIO
+
+198. Per observationes et experimenta summo studio in hunc finem instituta
+
+compertum est corpus grave de quiete libere descendens primo minuto secundo delabi
+
+per
+
+altitudinem
+
+15
+
+5 8
+
+pedum
+
+Rhenanorum,
+
+ita
+
+ut
+
+adhibita
+
+talium
+
+pedum
+
+mensura
+
+esset
+
+g
+
+=
+
+15
+
+5 8
+
+.
+
+Sed
+
+quia
+
+gravitas
+
+non
+
+ubique
+
+terrrarum
+
+eadem
+
+deprehenditur,
+
+haec
+
+quantitas
+
+non satis est fixa. Hinc supra iam monui certam in terra regionem esse eligendam,
+
+quorsum tam vires quam massae per pondera experimendae referantur; hac autem
+
+regione constituta ibidem altitudo g, ex qua grave uno minuto secundo libere
+
+descendit, per experimenta accurate definiatur. Adiicere possem aetatem, unde simul
+
+mensura minutorum secundorum desumatur, si quis putet, labentibus saeculis dierum
+
+mediorum durationem alterari. Verum quaecunque regio ad hoc institutum eligatur,
+
+perinde est, et dum omnes hactenus commemoratae mensurae eo redigantur,
+
+conclusiones denique consentire debent; unde patet has mensuras ad arbitrium
+
+nostrum constitutas ipsa Mechanicae principia non afficere nihilque eo arbitrarii
+
+induci, cum iis tantum id efficiatur, ut ad conculsiones mensuris cognitis expressas
+
+perveniamus.
+
+THEOREMA 5
+
+199. Omnibus quantitatibus secundum Hypotheses modo traditas ad mensuras revocatis pro littera  in formulis superioribus assumi debet dupla altitudo g, per
+quam grave uno minuto secundo delabitur.
+
+DEMONSTRATIO
+
+Pro lapsu gravium enim (Fig. 17), si secundum nostras hypotheses vis p et massa A
+
+exprimatur, erit
+
+p A
+
+=
+
+1 et
+
+altitudo,
+
+per
+
+quam
+
+tempore
+
+t
+
+delabitur,
+
+fiet
+
+AS
+
+=
+
+s
+
+=
+
+1 2
+
+tt
+
+.
+
+Hinc porro tempore t in minutis secundis expresso, si statuatur t = 1, pro s prodire
+
+debet altitudo illa g, per quam grave uno minuto secundo delabi est assumtum, unde
+
+cum fiat
+
+g
+
+=
+
+1 2
+
+
+
+,
+
+evidens
+
+est,
+
+statui
+
+debere
+
+
+
+= 2g . Tum vero celeritas in fine minuti
+
+secundi acquisita erit
+
+ds dt
+
+= t =  = 2g.Haec scilicet celeritas tanta erit, ut corpus ea
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 144
+
+uniformiter latum singulis minutis secundis percurreret spatium = 2g, prorsus ut nostra recepta celeritatem mensurandi ratio exigit.
+
+COROLLARIUM 1
+
+200. Denotat ergo  non numerum, sed lineam, quae cum spatio percurso s est
+
+homogenea, dum reliquae quantitates t et
+
+p A
+
+numeris
+
+absolutis
+
+exprimentur.
+
+COROLLARIUM 2
+
+201. Si ergo corpusculum quiescens, cuius massa = A , a vi = p sollicatatur, ab ea
+
+tempusculo dt protrudetur per spatiolum =
+
+gpdt 2 A
+
+,
+
+adhibendo
+
+scilicet
+
+perpetuo
+
+mensuras praescriptas.
+
+COROLLARIUM 3
+
+202. Ac si corpusculum A iam moveatur et a vi = p sollicitatur, tum resolutione motus instituta eius motus lateralis, quo secundum directionem vis sollicitantis fertur et tempusculo dt spatiolum = dx conficit, ita variabitur, ut sit
+
+ddx
+
+=
+
+2 gpdt 2 A
+
+et
+
+ddx dt
+
+=
+
+2 gpdt A
+
+,
+
+ubi
+
+ddx dt
+
+est
+
+incrementum
+
+celeritatis
+
+secundum
+
+hanc
+
+directionem.
+
+COROLLARIUM 4
+
+203. Si porro hinc celeritas motus lateralis secundum hanc directionem colligatur,
+
+quae
+
+est
+
+dx dt
+
+,
+
+ea
+
+secundum
+
+nostram
+
+receptam
+
+mensuram
+
+ita
+
+experimetur,
+
+ut
+
+indicet
+
+spatium, quod corpus ista celeritate uniformite motum uno minuto secundo esset
+
+percursurum.
+
+SCHOLION
+
+204. Talibus ergo unitatibus et mensuris, quaes descripsimus, adhibitis, si pro  scribatur 2g, ex formulis nostris deinceps omnes motus ad mensuras absolutas facillime revocabimus haecque ratio multo commodior videtur, quam illa, qua antehac fueram usus, ubi celeritates per radicem quadratam ex altitudinibus, per quas grave labendo pares acquireret celeritates, expresseram ; quem in finem loco celeritatum altitudines ipsis debitas in calculum introduxeram. Verum ex altitudine celeritati debita ipsa non tam perspicue cognoscitur, sed calculo quodam opus, ut ad mensuras
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter four.
+
+Translated and annotated by Ian Bruce.
+
+page 145
+
+solitas reducatur. Deinde etiam temporis ratio peculiari calculo eget, quo nova
+
+quaedam unitas in calculum induci debet, ut tempus in minutis secundis eliciatur. Has
+
+ergo ambages tam ratione celeritatum quam temporum penitus evitabimus, si
+
+praescriptis mensuris utamur; totum autem discrimen in hoc est positum, quod ante in
+
+formulis generalibus littera
+
+ fractionem absolutam
+
+1 2
+
+significaverat, hic autem pro ea
+
+linea = 2g scribatur. Unde, si quis priorem modum secutus calculum pro quipiam motu
+
+definiendo instituerit, eius calculus facile ad hunc modum pro reducetur indeque
+
+promtissime omnes mensurae absolutae innotescent. Hinc etiam homogeneitas in
+
+aequationibus motum complectentibus facilius perspicitur, cum tantum spatia percursa
+
+et littera g sint quantitates lineares et quasi unius dimensionis, cuius generis quoque
+
+sunt celeritates, se forte in calculum introducantur; tempora autem t cum fractionibus
+
+p A
+
+huic
+
+similibus
+
+numeris
+
+absolutis
+
+exprimantur,
+
+qui
+
+nullam
+
+dimensionem
+
+constituere
+
+sunt censendi. In calculo autem ad modum ante usurpatum instituto tam celeritates
+
+quam tempora per radices quadratas ex quantitatibus linearibus exprimebantur, quae
+
+adeo dimidiam tantum dimensionem constituere sunt existimanda. Repudiato ergo isto
+
+superiori modo ad mensuras absolutas perveniendi hunc novum modum utpote multo
+
+faciliorem et simpliciorem amplectamur et in sequentibus constanter retineamus.
+
+

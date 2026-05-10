@@ -1,0 +1,2182 @@
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+1
+
+These brief notes may help you to navigate through the chapters of this book.
+
+Ch. 1 : Concerning the Progressive Motion of Rigid Bodies
+
+DEFINITION 1
+
+260. A body is called rigid, the shape of which undergoes no change, or the individual
+
+elements of which maintain a constant distance amongst themselves.
+
+DEFINITION 2
+
+265. Progressive motion is that, in which the individual points of the body are moving
+
+forwards with the same speeds along directions parallel to each other at whatever
+
+moment of time.
+
+THEOREM 1
+
+270. A body, to which once there should be impressed a progressive motion, on
+
+account of inertia always goes on with this uniform motion in a fixed direction, unless
+
+it should be disturbed by some external cause.
+
+THEOREM 2
+
+275. If the individual elements of the body have been carried along by forces in a
+
+progressive motion, which are proportional to the masses of these, acted upon along
+
+directions parallel to each other, the relative situation of these does not change and the
+
+individual elements are free to continue their own motion.
+
+PROBLEM 1
+
+280. If the individual elements of a rigid body are acted upon along directions parallel
+
+to each other, which are themselves in proportion to the masses, to find the single
+
+equivalent force from all these forces jointly taken together.
+
+DEFINITION 3
+
+285. The centre of mass or the centre of inertia is a
+
+point in any body, around which the mass or inertia is
+
+equally distributed in some manner according to the
+
+equality of the moments.
+
+OE
+
+=
+
+ xdM M
+
+,
+
+EG
+
+=
+
+
+
+ydM M
+
+and
+
+GI
+
+=
+
+ zdM M
+
+,
+
+Fig. 27.
+
+PROBLEM 2 290. If a rigid body, that initially is either at rest or is progressing uniformly, is continually acted on by forces, the mean direction of which passes through the centre of inertia of this body, to determine the motion of this body.
+Mddx = 2gPdt2 , Mddy = 2gQdt2 , Mddz = 2gRdt2 , Fig. 21. [Recall that Euler considers M to be a weight, and M/2gt2 is equivalent to mass on setting t = 1sec., where Euler's g is the distance a body falls from rest in one second. Thus, in what follows, you can always replace M/2g by 'M' to give the mass in equivalent ft.pd units, despite what Mr. Blanc has to say ! Or, if you like, take g = 16ft and M the weight in pounds.]
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+2
+
+DEFINITION 4
+
+296. Elementary forces are forces, applied to the individual elements of the body
+
+separately, which may produce the same change
+
+in the state of these, as likewise actually enter into
+
+the motion of the body.
+
+[The force on an element mass dM/2g is given
+
+by
+
+dMddx 2 gdt 2
+
+in
+
+the
+
+x
+
+direction.]
+
+PROBLEM 3
+
+300. If a body acted on by some forces, the mean direction of which passes through
+
+the centre of inertia, is moving freely in a progressive motion, to determine the forces
+
+which are sustained by the structure of this body, remaining rigid.
+
+PROBLEM 4
+
+305. If a rigid body at rest is acted on by a force the direction of which passes through
+
+the centre of inertia, to determine the small distance that it moves forwards in that
+
+small element of time, and likewise the speed that it acquires.
+
+:
+
+Mddx = 2gVdt2 or
+
+ddx dt
+
+=
+
+2
+
+gVdt M
+
+,
+
+on
+
+account
+
+of
+
+which
+
+the
+
+force
+
+V
+
+is
+
+elicited
+
+to
+
+be
+
+constant.
+
+dx dt
+
+=
+
+2 gVt M
+
+; [This
+
+is
+
+equivalent
+
+to
+
+the
+
+elementary
+
+equation
+
+v
+
+=
+
+at];
+
+and
+
+the
+
+small
+
+distance Ii
+
+=
+
+x
+
+=
+
+gVtt M
+
+[
+
+=
+
+1 2
+
+at2 ] .
+
+Ch. 2 : Concerning Rotational Motion about a Fixed Axis with no Disturbing
+
+Forces.
+
+DEFINITION 5 309. Motion is said to be gyratory, in which a rigid body is moving around a right line to which it is firmly connected, which right line is called the axis of gyration. DEFINITION 6 316. The angular speed in rotational motion is the speed of that point, the distance of which from the axis of gyration is expressed by one. THEOREM 3 321. If a rigid body has began moving about a fixed axis, it will continue its own rotary motion perpetually, unless it should be disturbed by external forces.
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+3
+
+PROBLEM 5 327. If a rigid body is rotating uniformly about a fixed axis, to define the forces,
+
+which the axis sustains or which must be put in place, in order that the axis remains in
+
+its own place.
+
+:
+
+ xxdM 2 gx
+
+=
+
+ 2g
+
+i
+
+xdM
+
+,
+
+[ Euler used a large size Greek gamma
+
+
+
+in the original book to
+
+represent the angular speed, which has been reduced here to match the other symbols in size. The Opera Omnia has opted for a symbol resembling that used in astrology for
+
+Taurus, for some reason. Thus Euler's equation in modern notation is
+
+dMv2 / r = dM2r , where dM is the element of mass, v is the tangential velocity of the element of mass at a radius r, and  is the angular velocity.]
+
+PROBLEM 6
+
+332. If the body should be a most tenuous plane plate
+
+normal to the axis of gyration and which is rotating with
+
+a given speed, to determine the force that the axis sustains from that motion.
+
+: the force, by which the point O is acted on in direction
+
+OM, is equal to
+
+ rdM 2g
+
+. See Fig. 31. The force acting
+
+along OA due to dM is equal to
+
+ xdM 2g
+
+, and that which acts along OB is equal to
+
+ ydM 2g
+
+.
+
+The
+
+total
+
+force
+
+acting
+
+on
+
+the
+
+lamina
+
+along
+
+the
+
+direction
+
+OA
+
+is
+
+equal
+
+to
+
+ 2g
+
+
+
+xdM
+
+;
+
+and
+
+the
+
+total
+
+force
+
+acting
+
+along
+
+the
+
+direction
+
+OB
+
+is
+
+equal
+
+to
+
+ 2g
+
+
+
+ydM
+
+.
+
+But
+
+ xdM
+
+=
+
+M .OK
+
+and
+
+ ydM = M .OL.
+
+Hence,
+
+the force along OA =
+
+ 2g
+
+M
+
+.OK
+
+, and the force along OB =
+
+ 2g
+
+M
+
+.OL
+
+PROBLEM 7
+
+338. If a rigid body is rotating uniformly about the axis OA (Fig. 32), the forces, which the axis sustains, are collected together in a sum or can be reduced to two forces, by which the axis is acted on. The perpendicular forces acting on the axis,
+
+taken in the x-direction, along the
+
+y and z directions are :
+
+Ee =
+
+ 2g
+
+
+
+ydM
+
+and
+
+the force
+
+Ff
+
+=
+
+ 2g
+
+ zdM
+
+.
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+4
+
+The moments of these forces are equal to the sums of the elementary moments :
+
+ 2g
+
+OE  
+
+ydM
+
+=
+
+ 2g
+
+ xydM
+
+or
+
+OE
+
+=
+
+ xydM  ydM
+
+,
+
+and
+
+ 2g
+
+
+
+OF
+
+
+
+
+
+zdM
+
+=
+
+ 2g
+
+ xzdM
+
+or OF
+
+=
+
+ xzdM  zdM
+
+PROBLEM 8
+
+343. If the axis, around which a rigid body is rotating uniformly, is held by two given
+
+points O and A (Fig. 32), to define the forces which the axis sustains at these two
+
+points. Setting  ydM = D,  uydM = E, and  uzdM = F , then the
+
+force Ob
+
+= -
+2ag
+
+ E, force Oc
+
+=
+
+- 2ag
+
+F,
+
+while
+
+at the
+
+other
+
+end,
+
+the
+
+force A
+
+=
+
+ 2ag
+
+
+
+E,
+
+force A
+
+=
+
+ 2ag
+
+
+
+F.
+
+PROBLEM 9
+
+348. If a rigid body is rotating about a fixed axis uniformly, to define the forces which
+
+the structure or the mutual connections of the parts of the body sustain.
+
+Ch. 3 : Concerning the Generation of Rotational Motion
+
+PROBLEM 10 352. IF a rigid body moveable about a fixed axis is at rest, to define the elementary forces, by which that body may be moved through a given angle in the smallest time. [We could write the small angle dd progressed through with the angular
+
+acceleration  from rest to be given by dd =  dt2 , in analogy with linear motion.
+
+This can be converted into a linear tangential acceleration a using a = r . So that
+
+confusion reigns for the modern reader in what follows, Euler decided to call the angle
+
+variable  and took the second order differential as first order, assuming it to be
+
+second order, as d corresponding to dd .] Thus, Euler finds initially that the small
+
+( ) element of gpdt2 , and the force produced p = rdM [ = 2r dM ] .
+
+dM
+
+g
+
+2g
+
+PROBLEM 11
+
+357. The elemental forces, by which a rigid body
+
+progresses about an axis OA in a given element of time dt
+
+through the given angle d , are reduced to two finite
+
+forces, which are equivalent to [a sum over] all these
+
+elemental forces, for all the elements.
+
+See Fig. 34 :
+
+the
+
+force
+
+Rr
+
+=
+
+ g
+
+
+
+zdM
+
+,
+
+OP
+
+=
+
+ xzdM  zdM
+
+and
+
+PR
+
+=
+
+ zzdM  zdM
+
+.
+
+and
+
+the
+
+force
+
+Ss
+
+=
+
+ g
+
+
+
+ydM ,
+
+OQ
+
+=
+
+ xydM  ydM
+
+and
+
+QS
+
+=
+
+ yydM  ydM
+
+.
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+5
+
+PROBLEM 12
+
+361. If a rigid body at rest and mobile about a fixed axis is acted upon by some forces,
+
+to find the motion arising in the first instant of time.
+
+d dt
+
+=
+
+ dd  dt
+
+ 
+
+=
+
+Vf 2gdt  rrdM
+
+COROLLARY 1
+
+362.
+
+The equation arises :
+
+d 2 gdt 2
+
+ rrdM
+
+= Vf , which is essentially
+
+torque = moment of inertia × angular acceleration.
+
+COROLLARY 2
+
+363. This formula is similar to that, by which the generation of progressive [i. e.
+
+linear] motion is expressed, while here in place of the forces, the moment of the forces
+
+and in place of the mass of the body M the value of the integral  rrdM is taken, which
+
+value henceforth we will call the moment of inertia. [This is the first time this quantity
+
+had been defined.]
+
+PROBLEM 13
+
+365. If a rigid body moveable about a fixed axis is at rest and acted on by some forces,
+
+to determine the forces which the axis thus sustains.
+
+Rr
+
+=
+
+Vf  zdM  rrdM
+
+;
+
+Ss
+
+=
+
+Vf 
+
+ ydM rrdM
+
+; OP
+
+=
+
+ xzdM  zdM
+
+and
+
+PR
+
+=
+
+ zzdM  zdM
+
+.
+
+PROBLEM 14
+
+370. If a rigid body mobile about a fixed axis is acted on by a force, the direction of
+
+which has been placed in the same plane with the axis, to find the forces, which the
+
+axis sustains at two given points.
+
+The
+
+force
+
+TN
+
+=V
+
+
+
+PQ MN
+
+and
+
+the
+
+force
+
+Tt
+
+=V
+
+
+
+NQ TN
+
+=V
+
+
+
+MP TM
+
+.
+
+The
+
+force
+
+Mn
+
+=V
+
+
+
+NQ MN
+
+,and
+
+the
+
+force
+
+Nn
+
+=V
+
+
+
+MP MN
+
+.
+
+PROBLEM 15
+
+374. If EFBG is a plane rigid lamina moveable about an
+
+axis fixed normal to that at O, and acted on in the same
+
+plane by a given force (Fig. 39) V along the direction
+
+BD, to find the forces which the axis sustains in the
+
+generation of that motion.
+
+The force
+
+ZV
+
+=
+
+VfzdM  rrdM
+
+,
+
+and
+
+the
+
+force
+
+Zz
+
+=
+
+VfydM  rrdM
+
+.
+
+The
+
+force
+
+Rr
+
+=
+
+Vf  zdM  rrdM
+
+and
+
+OR
+
+=
+
+ zzdM  zdM
+
+,
+
+while
+
+The force
+
+Ss
+
+=
+
+Vf 
+
+ ydM rrdM
+
+and
+
+OS
+
+=
+
+ yydM  ydM
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+6
+
+PROBLEM 16
+
+380. If a rigid body moveable about a fixed axis OA is
+
+acted on by some number of forces, the directions of
+
+which are in planes normal to the axis (Fig. 41), to find
+
+the forces acting on the axis at the beginning of the
+
+motion.
+
+OP
+
+=
+
+ xzdM  zdM
+
+; P
+
+=
+
+Vf  zdM  rrdM
+
+;
+
+OQ
+
+=
+
+ xydM  ydM
+
+; Q
+
+=
+
+Vf  ydM  rrdM
+
+.
+
+PROBLEM 17 385. If a rigid body moveable about a fixed axis OA is acted on by some forces, the axis of which must be held at two given points O and A, to define the forces, in order that the body is not disturbed from that position (Fig. 41).
+
+force
+
+Oo
+
+=
+
+Vf
+
+ (a- x)zdM a rrdM
+
+,
+
+force
+
+Aa
+
+=
+
+Vf  xzdM a rrdM
+
+,
+
+force
+
+O
+
+=
+
+Vf
+
+ (a- x)ydM a rrdM
+
+,
+
+force
+
+A
+
+=
+
+Vf  xydM a rrdM
+
+.
+
+PROBLEM 18
+
+390. If a rigid body is moveable about an axis OA, to
+
+find the forces, by which the body is acted on, thus so
+
+that the axis clearly sustains no force (Fig.43).
+
+force
+
+Ee
+
+=
+
+ (a- x)ydM ab
+
+,
+
+force
+
+Ff
+
+=
+
+ xydM ab
+
+,
+
+force
+
+Gg
+
+=
+
+ (a- x)zdM ab
+
+,
+
+force
+
+Hh
+
+=
+
+
+
+xzdM ab
+
+.
+
+PROBLEM 19 396. If a rigid body is moveable about a fixed axis is acted on by some forces and it is set in motion, to define the forces which the structure of the body itself sustains.
+
+Ch. 4 : Concerning the disturbance of rotational motion arising from forces of any kind.
+
+PROBLEM 20
+
+398. If a rigid body is rotating about a fixed axis with some angular speed, to find the
+
+elementary forces, from which in a given element of time the motion may gain a given
+
+angular acceleration:
+
+p
+
+=
+
+rdM 2g
+
+
+
+d dt
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+7
+
+PROBLEM 21
+
+403. If, while the rigid body is turning about the fixed axis, the individual particles of
+
+this are acted on by forces along the same direction of their motion, which are in a
+
+ratio composed of their masses and distances from the axis, to define the increment of
+
+the angular acceleration produced in a given element of time.
+
+PROBLEM 22
+
+408. If a rigid body, while it is rotating about a fixed axis, is acted on by some forces,
+
+to define the momentary change produced by these in the rotary motion. This is given
+
+by
+
+: d
+
+=
+
+2Vfgdt  rrdM
+
+.
+
+PROBLEM 23
+
+413. If a rigid body, while it is rotating about a fixed
+
+axis, is acted on by some forces, to define the forces,
+
+which the axis sustains at the two given points O and A
+
+and by which it must resist, lest it moves.
+
+Three kinds of forces act :
+
+1. The forces by which the body is actually disturbed;
+
+2. The forces equal and opposite to the elementary forces
+
+producing the same moments;
+
+3. The centrifugal forces arising from the gyratory motion.
+
+Hence these three forces must be recalled by two forces at the given points on the axis
+
+O and A.
+
+(Fig.
+
+44):
+
+1st
+
+kind
+
+:
+
+Op
+
+=
+
+Aq
+
+=
+
+VT OA
+
+ force
+
+VQ .
+
+force
+
+Or
+
+=
+
+AT OA
+
+ force
+
+Vv;
+
+force
+
+Os
+
+=
+
+OT OA
+
+ force
+
+Vv.
+
+2nd kind: (Fig. 45),
+
+the
+
+force
+
+along
+
+OB= Vf
+
+ (a- x)zdM a rrdM
+
+,
+
+the
+
+force
+
+along
+
+Oc= Vf
+
+ (a- x)ydM a  rrdM
+
+,
+
+but for the other end A :
+
+the
+
+force
+
+along
+
+AE =
+
+Vf  xzdM a rrdM
+
+,
+
+the
+
+force
+
+along
+
+Af
+
+=
+
+Vf  xydM a rrdM
+
+,
+
+3rd kind: Forces at O :
+
+the
+
+force
+
+along
+
+OB=
+
+
+
+ (a- x)ydM 2ag
+
+,
+
+the
+
+force
+
+along
+
+OC
+
+=
+
+
+
+
+
+(a- x)zdM 2ag
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+8
+
+and in a like manner for the other end A :
+
+force
+
+along
+
+AE
+
+=
+
+
+
+ xydM 2ag
+
+,
+
+force
+
+along
+
+AF =
+
+  xzdM 2ag
+
+.
+
+PROBLEM 24
+
+418. If a rigid body, while it is rotating about a fixed axis, is acted on by some forces, to define the forces, which the whole structure of the body sustains.
+
+Ch. 5 : Concerning the Moment of Inertia. DEFINITION 7 422. The moment of inertia of a body with respect to some axis is the sum of all the products which arise, if the individual elements of the body are multiplied by the square of their distances from the axis.
+
+PROBLEM 25 428. For the given moment of inertia of a certain body with respect to the axis OA, to
+find the moment of inertia of the same body with respect to another axis oa parallel to that axis (Fig. 46).
+Mkk + M  gK 2 - M GK 2
+
+PROBLEM 26 433. If the nature of the body is equation between three the moment of inertia of this any axis drawn through its The integrals of the extended
+
+expressed by an coordinates, to find body with respect to centre of inertia. body are given :
+
+ xxdM = A,  yydM = B,  zzdM = C,  xydM = D,  xzdM = E,  yzdM = F ,
+
+and the moments of inertia sought with respect to the axis IG :
+
+A( sin2  + cos2  sin2  ) + B( cos2  + sin2  sin2  ) + C cos2  -2D sin cos cos2  - 2E cos sin cos - 2F sin sin cos .
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+9
+
+PROBLEM 27 438. Among all the axes drawn through the centre of inertia of a given body, to define that with respect to which the moment of inertia is either a maximum or a minimum. The method of maxima and minima provides these two equations for the axis IA : I. (A - B) sin cos cos2  - F cos sin cos = 0,
+II. (Acos2  + B sin2 ) sin cos - C sin cos - F sin( cos2  - sin2  ) = 0.
+DEFINITION 8 446. The principal axes of any body are these three axes passing through the centre of inertia of this body, with respect to which the moments of inertia are either a maximum or a minimum. COROLLARY 3
+449. If  xxdM = A,  yydM = B,  zzdM = C.
+then the moments of inertia of the body will be : with respect to the axis IA = B + C,
+with respect to the axis IB = A + C,
+with respect to the axis IC = A + B,
+which are either maxima or minima. PROBLEM 29
+452. Of the given moments of inertia of a certain body with respect to the three principal axes, to find the moment of inertia of this body with respect to any axis drawn through the centre of inertia.
+
+The moment of inertia about the axis IG is equal to Maa cos2  + Mbb cos2  + Mcc cos2  , but these angles ,  , are to be compared
+thus, so that always cos2  + cos2  + cos2  =1. PROBLEM 30 458. To find all the axes drawn through the centre of inertia, with respect to which all the moments of inertia are equal to each other.
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+10
+
+PROBLEM 31
+
+464. From the given moments of inertia of two parts with respect to axis parallel
+
+between themselves and passing through each centre of
+
+inertia, to find the moment of inertia of the whole body
+
+with respect to that parallel axis passing through its centre
+
+of inertia.
+
+The moments of inertia of the parts are Mmm and Nnn.
+
+The angle NIi =  , and the moment of inertia of the whole
+
+body about the axis ii is given
+
+Mmm
+
++
+
+Nnn
+
++
+
+MNcc sin2 M +N
+
+
+
+.
+
+Ch. 6 :THE INVESTIGATION OF THE MOMENT OF INERTIA FOR
+
+HOMOGENEOUS BODIES.
+
+PROBLEM 32
+
+471. If the body should be the finest straight line filament AIB (Fig. 51), to find the
+
+principal axes of this, and the moments of inertia
+
+with respect to these.
+
+The moment of inertia of the filament with respect to
+
+the axis normal to the filament at I equal
+
+to
+
+2 3
+
+x3
+
+=
+
+1 3
+
+Maa
+
+on
+
+account
+
+of
+
+M
+
+= 2a.
+
+PROBLEM 33
+
+474. If the body should be the finest filament curved in the
+
+periphery of a circle AEBF (Fig. 52), to find the principal
+
+axes of this, and the moments of inertia about these axes.
+
+The moment of inertia with respect to any diameter =
+
+1 2
+
+Maa.
+
+PROBLEM 34 477. For a thin triangular sheet ABD (Fig. 53), various moments of inertia are found,
+and the moments of inertia about IG is :
+
+I=
+
+1 36
+
+M
+
+(AB2
+
++
+
+AD2 + BD2 )
+
+PROBLEM 35 484. If the body should be the thinnest sheet having the shape of the parallelogram BDbd (Fig. 54), to find the three principal axes of this, and the moments of inertia about these axes.
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+11
+
+PROBLEM 36 491. If the body should be the thinnest sheet formed in the shape of a circle (Fig. 52), to find the three principal axes of this shape, and the moments of inertia about these axes. PROBLEM 37 493. If the body should be a lamina of the thinnest sheet having some shape ABCD (Fig. 55 : ellipse), to define the principal axis of this and the moments of inertia about these axes. PROBLEM 38 498. If the lamina should be a lamina of the thinnest sheet formed in the shape of a regular polygon (Fig. 56), to find the principal axes of this and the moments of inertia about these axes. PROBLEM 39 501. If the body were a right cylinder (Fig. 57), the axis of which Aa = 2a and the radius of the base AB = AD = c, to find the principal axes of this, and to define the moments of inertia about these axes. PROBLEM 40 504. If the body were a right cone (Fig. 58), the vertex of this A, the altitude AC = a and the radius of the base CB = CD = c, to find the principal axes of this, and the moments of inertia about these axes. PROBLEM 41 506. If the body were a sphere made from some homogeneous material (Fig. 59), the centre of this I and the radius IA = a, to define the moment of inertia of this about some axis passing through the centre of this. PROBLEM 42 507. If the body were some a conoid of some kind generated by revolving the line AMB about the axis AC (Fig. 60), to find the principal axes of this and the moments of inertia about these axes. PROBLEM 42a 515. If the body were a rectangular parallelepiped (Fig. 64), the find the principal axes of this and the moments of inertia about these.
+PROBLEM 43 518. If the body were an empty sphere (Fig. 66), so that the cavity shall also be a sphere with the same given centre, to define the moment of inertia of this about all the axis passing through the centre.
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+12
+
+Ch. 7: CONCERNING THE OSCILLATORY MOTION OF HEAVY BODIES.
+
+PROBLEM 44
+
+522. If a rigid body should be mobile about a fixed
+
+horizontal axis and the motion of this disturbed only by
+
+gravity, to determine the momentary change produced in
+
+the rotational motion.
+
+dd
+
+=
+
+-
+
+2
+
+fgdt2 sin ff +kk
+
+;
+
+PROBLEM 45 528. If the rigid body AEBF were mobile about a horizontal axis (Fig. 67) and the position and initial speed of this is given, to find the position and speed of this at any time. DEFINITION 9 532. For the rotational or oscillatory motion of any heavy body about a fixed horizontal axis, a simple isochronous pendulum is called upon, because when once it is displaced from the vertical by an equal amount, then it adopts the same angular speed, and hence continuously its position is given by a like angle. PROBLEM 46 537. For some proposed heavy and rigid body AEBF mobile about a fixed horizontal axis O (Fig. 67), to define the simple isochronous pendulum OS. DEFINITION 9 542. The centre of oscillation in a compound pendulum is the point at which if the whole mass of the body were to be gathered, the same oscillatory motion would be produced. Moreover it is taken on a right line which passes through the centre of inertia of the body normal to the axis of rotation. PROBLEM 47 547. If a rigid body mobile about a horizontal axis should be constructed from several parts, the centres of inertia and the moments of inertia of which are known, to define the centre of oscillation of the whole body. EXAMPLE 550. Physical pendulum. PROBLEM 48 554. If the pendulum should be established from the narrowest rod OB free of inertia, yet rigid, and with the sphere BDEF (Fig. 71), to find the place where another sphere must be attached to the same rod, so that the most frequent oscillations are made. PROBLEM 49 561. While a heavy rigid body is rotating about a fixed horizontal axis OA, to define the forces, which the axis will sustain at any time at the two given points O and A. PROBLEM 50 567. If the axis OA, about which the heavy rigid body is free to move, should not be horizontal, to define the rotational motion as well as the forces which the axis sustains.
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+13
+
+Ch. 8 : CONCERNING FREE AXES, AND THE MOTION OF RIGID BODIES
+
+ABOUT SUCH AXES. 572. A free axis of rotation in some rigid body is an [instantaneous] axis of the kind
+
+which, while the body is rotating about this, sustains no forces on account of the
+
+motion.
+
+PROBLEM 51
+
+576. To define the conditions for free axes, which, while bodies are rotating about
+
+these, are acted upon by no forces, and sustain no
+
+forces. See problem 7 § 338 :
+
+force Ee =
+
+ 2g
+
+
+
+ydM
+
+and the force Ff
+
+=
+
+ 2g
+
+
+
+zdM
+
+,
+
+OE
+
+=
+
+ xydM  ydM
+
+and Of
+
+=  xzdM
+ zdM
+
+.
+
+Hence,  ydM = 0 and  zdM = 0 , and
+
+ 2g
+
+
+
+xydM
+
+and
+
+ 2g
+
+
+
+xzdM
+
+are equal to zero.
+
+COROLLARY 1 577. Therefore in any given body there are surely three free given axes of rotation,
+
+which evidently are the principal axes of this body, about which it is now possible to
+
+rotate freely, so that the axes spontaneously remain at rest.
+
+PROBLEMA 52 582. While a body is moving around an axis of rotation, to find from whatever forces
+
+the body must be acted on, as thus there is no overwhelming effect on the axis, and the axis even now
+
+remains spontaneously in a state of rest. It is evident, if IA were a free axis of rotation and to that
+
+at some point L there is considered a normal plane (Fig.
+
+74), at which there act two equal and opposite forces Nn and Mm, indeed from these the rotational motion, in as
+
+much as the forces are applied at different distances from the axis, will change, but nevertheless the axis spontaneously remains at rest. Consequently, however many equal pairs of forces of this kind are applied to the body,
+
+the axis in no manner is to be affected.
+
+THEOREM 4 587. Which rotational motion a rigid body pursues about an axis at rest, it is able to
+
+pursue the same motion about this axis progressing uniformly along a line, if indeed it should be acted on by these forces
+
+DEFINITION 11a 592. Mixed motion with both progressive and rotational motion, that is, in which the above body is thus moving partially around some principal or free axis, and now partially thus as above, in order that its axis always remains parallel to itself.
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+14
+
+COROLLARY 1 593. Therefore in order that such a mixed motion may be known, it is required to know at some time : 1. The angular speed around the axis of rotation; 2. The speed with which the motion of the axis is moving forwards; and 3. The direction of this progressive motion, in what way it is inclined to the axis of rotation. THEOREM 5 597. If a mixed motion from progressive and rotational motions were impressed on a rigid body, and again that is not acted on by any forces, each motion will continue uniformly and the progression shall be rectilinear.
+SCHOLIUM 601. Therefore with the calculation of motion of this kind requiring to be explained, let AB be a right line, on which the centre of inertia I is progressing uniformly (Fig. 75), the speed of which is equal to c. Moreover meanwhile the body is rotating about a principal axis MIN, which always makes the same angle AIM with AB, around which it is rotating with an angular speed equal to  .
+PROBLEM 53 602. If a rigid body were carried by a mixed motion both progressive and rotational, to define these forces, by the action of which the axis of rotation is not deflected from its own position parallel to itself, and thus the mixed motion arising from the progressive and rotational motions remains. PROBLEM 54 606. If in the first place some mixed motion were impressed on a rigid body with both progressive and rotational motion about a principal axis, and that the body is then acted on by some forces, the resultant direction of which constantly passes through the centre of inertia, to determine the motion of the body. PROBLEM 55 608. If initially a mixed motion were impressed on a rigid body with both progressive and rotational motion about a principal axis and that is acted on by forces, the [resultant] mean direction of which is found constantly acts in a direction in a plane drawn through the centre of inertia, to determine the motion of the body. PROBLEM 56 612. If a mixed motion should be impressed on a rigid body from progressive and rotational motion about some principal axis and that henceforth the body should be acted on partially from forces, the mean [resultant] direction of which passes through the centre of inertia, and now the body is turning partially from forces of this kind, the mean direction of which passes in a plane through the centre of inertia crossing the axis normally, to determine the motion of the body.
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+15
+
+Ch. 9 : CONCERNING THE INITIAL GENERATION OF MOTION IN RIGID
+
+BODIES.
+
+THEOREM 6
+
+616. If the effect of two forces acting together in generating the motion of a body is
+
+known, of which one acts through the centre of inertia, then the effect of the other
+
+acting separately also becomes known.
+
+THEOREM 7
+
+620. However many forces there should be acting on a rigid body, and in whatever
+
+manner they should be applied, these can always be reduced to two forces, of which
+
+one passes through the centre of inertia of the body.
+
+PROBLEM 57
+
+624. To define two forces to be applied to a rigid body, of which the direction of one
+
+passes through the centre of inertia of the body, so that the body begins to turn about
+
+an axis through the centre of inertia of the body, due to the action of these.
+
+The solutions to this problem and to those that follow need to be studied carefully in
+
+the translation.
+
+COROLLARY 1
+
+625. Since the interval IA = a, on which the
+
+distance AR depends, can be taken as you please,
+
+all the points R are found on the right line IR
+
+making an angle with the axis IA, the tangent of
+
+which is equal to
+
+ rrdM  xydM
+
+, provided the plane AIB
+
+is thus taken so that it makes  xzdM = 0 . [So that
+
+the problem can be more easily solved.]
+
+PROBLEM 58 628. If a rigid body at rest is acted some force, to determine at first the motion, which is generated in the that force about an axis in a plane normal to the direction of the force, that can occur :
+
+d
+
+=
+
+Vghdt2 sin A sin2  + B cos2  +2D sin cos +C
+
+on by initial body by placed if indeed
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+16
+
+PROBLEM 59
+
+632. If a rigid body at rest is acted on by some force and likewise an equal and opposite force to that is applied to the centre of inertia, to define the axis about which it first begins to rotate. After much calculation, involving transformation of coordinates, Euler arrives at :
+
+tang
+
+
+
+=
+
+( B+C ) cos + D sin
+E
+
+;
+
+and
+
+tang
+
+
+
+=
+
+EE
+(
+
+-( A+B)(B+C A+ B)D+ EF
+
+)
+
+.
+
+These angles define the instantaneous axis of rotation ID. THEOREM 8 637. If a rigid body at rest is acted on by some force and from that above there is applied an equal and opposite force at the centre of inertia, and to that body about an axis of the same kind passing through the centre of inertia there is impressed a rotational motion, in order that the whole body thus is given the minimum amount of vim vivam [double the rotational kinetic energy in modern terms],which is the sum of all the elements by the squares of their speeds acquired multiplied together.
+In an element of time dt there is generated about this axis the angle d = Vfgdt2 ,
+ RRdM
+
+and
+
+the
+
+infinitely
+
+small
+
+angular
+
+velocity
+
+is
+
+given
+
+by
+
+
+
+=
+
+2Vfgdt  RRdM
+
+,
+
+the speed of the element dM at a distance R from the axis is R , and the vis viva
+
+= R2 2dM . Hence the total vis viva acquired in this time is :
+
+
+
+ R2dM
+
+=
+
+4VVffggdt 2  RRdM
+
+,
+
+which
+
+as
+
+Vg
+
+and
+
+dt
+
+are
+
+constant
+
+will
+
+be
+
+ff  RRdM
+
+,
+
+which
+
+is
+
+reduced
+
+to a
+
+minimum,
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+17
+
+PROBLEM 60 639. For the given principal axes of a rigid body and the moments of inertia about
+these, if that is acted on by some force and likewise there is applied another equal and opposite force to the centre of inertia, to define the axis, about which the body begins to rotate.
+This leads again to almost unbelievably complex calculations for the change in the angle produced in the element of time dt by the force V resolved into forces P, Q, R along the principal axes IA, IB, IC,
+
+here the plane polar coordinates of the point V are (h,  = VIA), and a, b, & c are the radii of gyration along these principle axes :
+( ) d = ghdt2 ( P sin sin -Q cos sin -R sin( + ) cos ) , from M aa cos2  cos2  +bb sin2  cos2  +cc sin2 
+
+which the vis viva must be minimised :
+
+(( P sin -Q cos ) sin -R sin( + )cos )2
+aa cos2  cos2  +bb sin2  cos2  +cc sin2  ,
+
+leading eventually to the preferred values of the angles :
+
+( ) tang
+
+
+
+=
+
+aa cos bb sin
+
+;
+
+and
+
+tang
+
+
+
+=
+
+(Q cos -P sin )aabb
+Rcc a4 cos2  +b4 sin2 
+
+.
+
+PROBLEM 61 645. If a rigid body at rest is acted on by some forces, to define the first motion of the elements, which will be produced in that body.
+A summary : all the forces acting on the body can be reduced to two, one of which S acts on the centre of inertia, while the other V passes through the plane containing IA and IB at some point. The incremental angle generated in the element of time about the instantaneous axis of rotation IF defined by the angles  and  can
+then be found as above.
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+18
+
+Ch. 10 : CONCERNING THE MOMENTARY CHANGE IN THE AXIS OF ROTATION PRODUCED BY FORCES.
+
+PROBLEM 62 650. If a rigid body, while it is turning about an axis passing through the centre of
+
+inertia, is acted on by forces of such a kind, that if the body
+
+itself should be at rest then these forces themselves impress a rotational motion about some other axis : to determine the
+
+change of the motion produced in the smallest increment of
+
+time. The forces, if the body were at rest, which start the
+rotational motion about the axis IS in the sense O , from
+
+which in the element of time dt an angle OS = qdt2 is
+
+completed, thus now disturb the motion of the rotating body in place about the axis IO in the sense Ss with an initial angular speed equal to  , so that
+
+in the elapsed element of time dt the axis of rotation [due to both rotations] becomes the line Io, turning from the preceding axis IO towards IS by an angle
+
+OIo
+
+=
+
+2qdt sin 
+
+s
+
+,
+
+and likewise the rotary speed  is taken to increase by an amount equal to 2qdt cos s.
+
+PROBLEM 63 656. With the position of the axis of gyration given with respect to the three principal axes of the body, and this to be varied by some forces acting, in order that the body in a minimal elapsed element of time rotates about another axis, to define the position of the variation about the principal axes. Whereby, if the angle of the element OAo = d and Ao =  + d are given, then the variations of the remainder are accustomed to be found by differentiation :
+
+d
+
+=
+
+d
+
+sin
+
+sin  -d sin 
+
+cos 
+
+cos 
+
+,
+
+d
+
+=
+
+-d sin cos  -d cos sin 
+
+sin 
+
+,
+
+d
+
+=
+
+-d
+
+sin  -d sin cos cos  cos2  +sin2  sin2 
+
+,
+
+d
+
+=
+
+d cos  -d sin cos sin  cos2  + sin2  sin2 
+
+.
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+19
+
+PROBLEMA 64
+
+661. If a rigid body is rotating about some axis passing through the centre of inertia, and the position of this is given with respect to the principal axes, hence to find the [internal] forces arising disturbing the axis of rotation.
+
+These forces arise :
+
+Force
+
+Op
+
+=
+
+M 
+
+sin m cos m cos n(aa-bb)
+2 fg
+
+( ) M  sin n cos n aa cos2 m+bb sin2 m-cc
+force Oq =
+2 fg
+
+applied to the point O along the directions parallel to
+
+the lines OP and OQ.
+
+PROBLEM 65
+
+665. With the forces found arising from the rotational
+
+motion itself perturbing that motion, to find the axis
+
+if the body should be at rest, about which these
+
+forces are to set the body rotating.
+
+tang 
+
+=
+
+aa cos bb sin
+
+=
+
+aa(aa-cc) cos m bb(bb-cc) sin m
+
+and
+
+tang
+
+
+
+=
+
+Q cos -P sin Rcc cos
+
+ bb
+
+sin
+
+=
+
+sin m cos n(aa-bb)bb sin cc(aa-cc) sin n
+
+.
+
+COROLLARY 1 666. If for the proposed axis of rotation IO [on the spherical surface with origin I], the angles are put in place [for the principal axes] :
+OIA =  , OIB =  , OIC =  ,
+but for the axis of rotation of the element IF the [spherical] angles are : FIA = A, FIB = B, FIC = C,
+then there are the equations : cos = cos m cos n, cos  = sin m cos n, cos  = sin n
+cos A = cos cos , cos B = sin cos , cos C = sin.
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+20
+
+COROLLARY 2 667. Hence on account of
+putting
+
+tang
+
+
+
+=
+
+aa(aa-cc) cos bb(bb-cc) cos 
+
+,
+
+( ) a4 (aa-cc)2 cos2  +b4 (bb-cc)2 cos2  = W ,
+
+then
+
+sin
+
+=
+
+aa(aa-cc) cos
+W
+
+and
+
+cos
+
+=
+
+bb(bb-cc) cos 
+W
+
+.
+
+But again on putting
+
+( ) a4b4 (aa-bb)2 cos2  cos2  +a4c4 (aa-cc)2 cos2  cos2  +b4c4 (bb-cc)2 cos2  cos2  = 
+
+there is found :
+
+cos A
+
+=
+
+bbcc(bb-cc) cos  cos 
+
+
+,
+
+cos B
+
+=
+
+aacc(cc-aa) cos cos 
+
+
+,
+
+cos C
+
+=
+
+aabb(aa-bb) cos
+
+
+cos 
+
+and
+
+d =  dt2 .
+2 aabbcc
+[Finally, the equation of motion is written in terms of coordinates on the sphere]
+
+PROBLEM 66 669. If a body is rotating about some axis passing through the centre of inertia
+different from the principal axes, to define the momentary variation, which both the axis of rotation as well as the angular speed experience.
+
+Oo
+
+=
+
+ dt aabbcc
+
+
+
+44
+ab
+
+( aa -bb ) 2
+
+2
+cos
+
+
+
+2
+cos
+
+
+
++
+
+44
+ac
+
+( aa -cc ) 2
+
+2
+cos
+
+
+
+2
+cos
+
+
+
+
+
+ 
+
++b4c4
+
+(bb-cc
+
+)2
+
+cos
+
+2
+
+
+
+cos2
+
+
+
+ 
+
+ - (aa-bb)2 (aa-cc)2 (bb-cc)2 cos2  cos2  cos2 
+
+
+
+and
+
+d
+
+=
+
+ (aa-bb)(aa-cc)(bb-cc) cos cos  cos 
+aabbcc
+
+ dt.
+
+A Résume of Euler's Theory of the Motion of Rigid Bodies.
+
+Ian Bruce.
+
+21
+
+COROLLARY 1
+
+670. Since it is the case that
+
+d
+
+'
+
+=
+
+ '  '(aa-bb)(aa-cc)(bb-cc) cos
+aabbcc
+
+cos 
+
+cos 
+
+ dt,
+
+it is apparent, if of the three principal moments two were equal to each other, then
+
+clearly the angular speed does not change.
+
+COROLLARY 5 674. Since in the element of time dt the arc CO =  is diminished by the small amount Op, then by differentiation it becomes [note : ' is now used for the ang. vel.] :
+aabbccd sin =  ' (bb - aa) dt cos cos  (aabb - (aa - cc)(bb - cc) cos2  )
+
+and hence by analogy :
+aabbccd  sin  =  ' (aa - cc) dt cos  cos (aacc - (cc - bb)(aa - bb) cos2  ) ,
+
+aabbccd  sin  =  ' (cc - bb) dt cos  cos  (bbcc - (bb - aa)(cc - aa) cos2  ) .
+
+PROBLEM 67
+
+676. If a rigid body, while it is rotating about some axis through the centre of mass, is
+
+acted on by some forces, to define the momentary variation arising both in the axis as
+
+well as in the angular speed.
+
+( )  ' dt cos  aa(aa-cc)cos2  +bb(bb-cc) cos2 
+
+OCo =
+
+aabb sin2 
+
+from which elements the position of the point o is defined without ambiguity. But besides this change of the axis of rotation, the angular speed  takes an increment
+
+equal to
+
+ '  '(aa-bb)(aa-cc)(bb-cc) cos cos 
+aabbcc
+
+cos 
+
+dt
+
+.
+
+PROBLEM 68
+
+678. If at some time the position of a rigid body should be given rotating about a certain axis passing through the centre of inertia, and the axis of rotation as well as the rotational speed can be varied in some manner, to find the momentary change in the position of the body arising.
+
+The angle of the element OZo =
+
+d sin (cos  cos m-cos  cos n)+d  sin  (cos cos n-cos  cos l )+d sin (cos  cos l -cos cos m)
+
+1-(cos cos l +cos  cos m+cos  cos n)2
+
+,
+
+in which formula, two of the three letters  , , , and l,m,n are increased equally, as
+
+the nature of the problem demands.
+
+

@@ -1,0 +1,5696 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 881
+
+Chapter 17
+
+A FULLER EXPLANATION OF THE MOTION OF TOPS ON A HORIZONTAL PLANE WITHOUT FRICTION
+DEFINITION 14 850. The axis of a top is the line AF drawn from the point F through the centre of inertia I,
+which likewise is the singular principal axis, thus so that the moments of inertia about all the axis IB normal to that are equal to each other. (Fig. 109).
+COROLLARY 1 851. Hence the most suitable figure of the top is a solid of revolution [Latin tornata : a figure turned on a lathe], which is generated if some shape is rotated about the axis AF, provided it comes to an end at the point F, which can be put in place above a horizontal plane.
+COROLLARY 2 852. Moreover in the top it is required to know the following quantities, which are present in the calculation :
+1. The mass or the weight of this, which is equal to M ; 2. The distance of the point from the centre of inertia, which is IF = f; 3. The moment of inertia about the axis AF, which is equal to Maa, and 4. The moment of inertia about all the axis normal to that, which are equal to Mcc.
+COROLLARY 3 853. Hence since above in general we have put in place the principal moments of inertia Maa, Mbb and Mcc, and of this body we have set the latter two moments of inertia equal, so that bb = cc.
+COROLLARY 4 854. Therefore while the top advances with the point F on the horizontal plane, the axis AF of this cannot be inclined to the horizontal beyond a certain angle, which is obtained be drawing the most distant line Fk from F to the body of the top; then indeed the angle AFk gives that limit.
+SCHOLIUM 855. Above we have considered only tops of this kind, in which all the moments of inertia are equal to each other, which condition was too limiting. Therefore now we investigate the motion of tops in general, if indeed the condition that AF is the principal axis, and about which the two remaining moments of inertia are equal, since it is seen to be a necessary
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 882
+
+property that they are taken together. But the principles from which the determined motion of this is desired now have been set out above in Chapter 14, where we have seen that the whole calculation depends on the force with which the top leans on the horizontal plane with its point F, while it is moving. Which pressing down force can be found, even if it is not brought through to the end in the solution, yet at once from the beginning it is present in the calculation. Hence let  be that [normal reaction] force, the direction of this always points vertically upwards from the point F ; and we have shown above in §767 that, concerning this force, if the inclination of the axis AF to the horizontal is put equal to  , which in the element of time dt increases by it own differential d , with the element dt taken constant, then [then the vertical acceleration is given by :]
+
+( ) dd cos -d2 dt 2
+
+sin
+
+=
+
+2g f
+
+ M
+
+-1
+
+,
+
+or
+
+ M
+
+=
+
+1
+
++
+
+f
+
+(
+
+ddcos -d2sin 2 gdt 2
+
+)
+
+=
+
+1
+
++
+
+fd dcos 2 gdt 2
+
+=
+
+1
+
++
+
+fdd sin 2 gdt 2
+
+Therefore since the top in addition to this force  is only acted on by gravity put in place, the centre of inertia I is unable to take any other motion, except in the vertical direction either ascending or descending, while the distance of this from the horizontal plane is equal to f sin . But if initially a certain horizontal motion were impressed on that above, since it
+remains uniform constantly, and thus the whole question is reduced to the motion of rotation alone. Whereby since the weight confers nothing to that and all the disturbances arise from the force  , it is necessary to define the moment of this force about the principal axis of the top.
+
+PROBLEM 97
+
+856. If the top holds some inclined position to the horizontal and likewise the force  is given, by which its cusp [or point] is supported by the horizontal plane, to define the moment of the force of this about the principal axis of the top.
+SOLUTION With a sphere described about the centre of inertia of the top I (Fig. 110), on which Z is the vertical point, moreover the axis of the top cutting the sphere at the points A and F, then the two remaining principal axes now reach the sphere at the points B and C ; although in fact these two axes cannot be distinguished from each other, yet certainly it is agreed that the two lines are taken normal to each other as well as to the axis AF, from which in turn the position of the top can be defined at some time. The arcs of the great circles are put in place:
+ZA = l, ZB = m et ZC = n ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 883
+
+then l = 90° - with  denoting the inclination of the axis AF to the horizontal. Now since the point F, the distance of which from the centre of inertia I is FI = f, is acted on in the vertical direction F  by the force equal to  , in order that the angle AF  = l, and that is resolved along the directions FA and FV, of which FV is normal to AF in the vertical plane AZF, then
+the force along FA =  cos l
+and the force along FV =  sin l ,
+
+of which that component passing through the centre of inertia exerts no moments. Now neither does this force FV =  sin l exert any moment about AF; but about the axis IB it gives a moment equal to  f sin l sinVFB in the sense AC, and likewise in a similar manner
+
+about the axis 1C, the moment =  f sin l sinVFC in the sense BA. [The added red line IB
+
+comes out of the plane of the page or lies above the plane ZAF, at an inclination equal to the
+
+angle ZAB or to the equal spherical angle VFB at the other end of the segment AZFBA ; the
+force along VF can be resolved into components along BI and normal to BI, where BI lies in the plane ABF : the component of VF along BI is  sin l cosVFC , while the component along the normal is  sin l sinVFC , leading to the moment given, etc] and
+
+sin
+
+ZAB
+
+=
+
+-
+
+cos
+
+ZAC
+
+=
+
+-
+
+cos sin
+
+n l
+
+then the angle VFC = ZAC and
+
+sin
+
+ZAC
+
+=
+
+cos
+
+ZAB
+
+=
+
+cos m sin l
+
+On account of which we have
+
+the moment about the axis IB = - f cos n , in the sense AC,
+
+the moment about the axis IC =  f cos m , in the sense BA
+
+and since in general we have put above [§ 803] the moments of the forces P, Q, R about the axes 1A, 1B, IC in the sense BC, CA, AB, in our case then we have :
+P = 0, Q =  f cosn and R = - f cosm.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 884
+
+PROBLEM 98 857. If a top inclined at some position is rotating about some axis passing through its centre of inertia, to define the momentary [i. e. instantaneous] variation produced both in the axis of rotation as well as in the speed of rotation.
+
+SOLUTION With a motionless sphere set up around the centre of inertia I (Fig. 111), on which Z is the point for the vertical and ZX is a fixed vertical circle ; now the top holds a position of this
+kind, so that the special axis of the top corresponds to the point of the sphere A, moreover with the points B and C for the two remaining principal axes, and for these there are put the declinations of the axes from the vertical, or the arcs
+ZA = l, ZB = m, ZC = n ,
+in order that cos2 l + cos2 m + cos2 n = 1 ;
+then the angles
+
+XZA =  , XZB =  and XZC = v ,
+
+[Thus, l, ; m, ; & n, correspond to the latitudes and longitudes of the three axes of the top
+
+w.r.t. the circle XZY, while cos l, cos m, and cos n are the direction cosines of IZ w.r.t. the
+
+axis of the top.]
+
+the relations of which to these arcs have to become known. But now the top rotates about the axes IO with an angular speed equal to  ' in the sense ABC and let the arcs for the pole
+
+of rotation O be
+
+AO =  , BO =  et CO =  ',
+
+and on putting
+
+ 'cos = x,  ' cos  = y,  ' cos  = z
+
+on account of the moments of the forces : P = 0, Q =  f cos n and R = - f cos m ,
+
+and bb = cc, the variations produced in the element of time dt can be expressed from the following formulas [see Ch. XV, §808] :
+I. dx = 0
+
+II. dy +
+
+aa - cc cc
+
+xzdt
+
+=
+
+2
+
+fgdt cos n Mcc
+
+( ) 111. dz -
+
+aa - cc cc
+
+xydt
+
+=
+
+-
+
+2
+
+fgdt cos Mcc
+
+m
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 885
+
+Now in addition it is necessary to add these equations for l, m, n,  ,  , v [see Ch. X, Problem 68 for the earlier method, and Ch. XV, §810]:
+
+dl sin l = dt( y cos n - z cos m ), d sin2 l = -dt( y cos m + z cos n ), dm sin m = dt( z cos l - x cos n ), d  sin2 m = -dt( z cos n + x cos l ), dn sin n = dt( x cos m - y cos l ), dv sin2 n = -dt( x cos l + y cos m ).
+
+But since the inclination of the axis to the horizontal is equal to 90°­ l, which has been put equal to above, as sin = cos l then [from §854]
+
+ M
+
+=1+
+
+fdd cos 2 gdt 2
+
+l
+
+.
+
+So that these can be more compact, we put in place:
+
+and we find
+
+cos l = p , cos m = q , cos n = r
+
+and in addition these equations :
+
+ M
+
+=
+
+1+
+
+fddp 2 gdt 2
+
+,
+
+I. dx = 0
+
+II .
+
+dy
+
++
+
+(
+
+aa-cc ) cc
+
+xzdt
+
+=
+
+2 fgrdt Mcc
+
+III.
+
+dz -
+
+( aa-cc ) cc
+
+xydt
+
+=
+
+-2 fgqdt Mcc
+
+.
+
+IV. dp = dt( qz - ry ),
+
+VI
+
+I.
+
+d
+
+=
+
+-dt( qy+rz 1- pp
+
+)
+
+V. dq = dt( rx - pz ),
+
+VIII .
+
+d
+
+=
+
+-dt( rz+ px ) 1-qq
+
+VI. dr = dt( py - qx ),
+
+IX .
+
+dv
+
+=
+
+-dt( px+qy 1-rr
+
+)
+
+where it is to be noted that pp + qq + rr = 1.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 886
+
+COROLLARY 1
+858. If the top is turning about the axis IA, so that  = 0 and  =  = 90°,
+
+then
+
+x =  ', y = 0, and z = 0
+
+and
+
+dx = d ', dy = -  ' d  , dz = -  ' d .
+
+Hence there arises
+
+d ' = 0,
+
+d
+
+=
+
+-2 fgrdt  ' Mcc
+
+,
+
+d
+
+=
+
+2 fgqdt  ' Mcc
+
+,
+
+dp = 0, dq = d ' rdt, dr = - d ' qdt and d = 0,
+
+and then in the first instant neither the angular speed ' nor the position of the point A experiences a change.
+
+COROLLARY 2 859. Since dp = dt(qz­ry) , then on differentiation
+
+ddp= dt(qdz ­rdy) + dt(zdq ­ydr) ,
+
+and with the given values substituted there is found :
+
+ddq dt 2
+
+=
+
+(
+
+aa - cc cc
+
+)
+
+x
+
+( qy +rz )
+
+-
+
+2 fg Mcc
+
+(
+
+qq
+
++
+
+rr
+
+)+
+
+x(
+
+qy
+
++
+
+rz
+
+)-
+
+p(
+
+yy
+
++
+
+zz
+
+),
+
+from which there becomes
+
+ M
+
+=
+
+1+
+
+f
+
+(
+
+aa - cc 2 gcc
+
+)x
+
+(
+
+qy
+
++
+
+rz
+
+)
+
+-
+
+ ff Mcc
+
+(
+
+qq
+
++
+
+rr
+
+)
+
++
+
+fx( qy+rz ) -
+2g
+
+fp( yy+ zz ) 2g
+
+or
+
+( ) 
+M
+
+1+
+
+ff ( qq+rr ) cc
+
+=
+
+1+
+
+faax( qy+rz ) -
+2 gcc
+
+fp( yy+ zz ) 2g
+
+and hence
+
+II M
+
+=
+
+2
+
+gcc
+
++
+
+faax( qy+rz )- fccp( yy 2gcc+2gff ( qq+rr )
+
++
+
+zz
+
+)
+
+.
+
+[ In the first edition the numerator is : 2gcc + faa(qy + rz) ­ fccp(yy + zz). Corrected by the editor C. B.]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 887
+
+COROLLARY 3 860. From equations IV, V, & VI it is deduced, as we have noted before, that
+xdp + ydq + zdr = 0 ,
+
+which equation, since pp + qq + rr = 1, can be taken in place of equations V and VI. But it suffices to treat the equations VII, VIII, & IX one at a time, since the calculation will be examined in the following.
+
+COROLLARY 4 861. But for the quantities found x, y and z, since
+
+cos2 + cos2 + cos2 = 1
+
+then the angular speed
+
+ ' = ( xx + yy + zz )
+
+and hence the arcs  ,  ,  in turn can be inferred; clearly
+
+cos
+
+
+
+=
+
+x '
+
+,
+
+cos
+
+=
+
+y '
+
+,
+
+and
+
+cos
+
+=
+
+z '
+
+.
+
+PROBLEM 99
+
+862. The differential equations found before [§811], by which the motion of the top is expressed, are lead towards integration, whenever that is possible.
+
+SOLUTION
+
+It is at once apparent that x = const., and hence we put x = A, and the remaining equations to
+
+be integrated become :
+
+eq.1.
+
+dy
+
++
+
+A( aa-cc ) cc
+
+zdt
+
+=
+
+2 fgrdt Mcc
+
+eq.2. dz
+
+-
+
+A( aa-cc )ydt cc
+
+=
+
+-
+
+2 fgqdt Mcc
+
+eq.3. dp = dt ( qz - ry )
+
+eq.4. ydq + zdr = - Adp
+
+with the equation present :
+
+ M
+
+=
+
+1+
+
+fddp 2 gdt 2
+
+and
+
+pp + qq + rr = 1 .
+
+Now eq. 1. q + eq.2. r gives rise to this equation
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 888
+
+qdy
+
++
+
+rdz
+
++
+
+A(
+
+aa - cc cc
+
+)
+
+dt( qz - ry ) =
+
+0,
+
+which on account of dt(qz ­ ry) = dp becomes this equation :
+
+qdy
+
++
+
+rdz
+
+=
+
+-
+
+A
+
+(
+
+aa - cc cc
+
+)
+
+dp
+
+,
+
+to this eq.4 is added :
+
+ydq + zdr = ­Adp
+
+then
+
+qdy
+
++
+
+ydq
+
++
+
+rdz
+
++
+
+zdr
+
+=
+
+-aa cc
+
+Adp,
+
+and the integral of this is
+
+qy
+
++
+
+rz
+
+=
+
+B
+
+-
+
+aa cc
+
+Ap.
+
+Again on taking eq.1. y + eq.2. z there is produced :
+
+ydy
+
++
+
+zdz
+
+=
+
+2 fgdt Mcc
+
+(
+
+ry
+
+-
+
+qz
+
+)
+
+=
+
+-2 fgdp Mcc
+
+;
+
+whereby since
+
+ M
+
+=
+
+1
+
++
+
+fddp 2 gdt 2
+
+,
+
+it becomes
+
+ydy + zdz =
+
+-2 fgdp cc
+
+-
+
+ffdpddp ccdt 2
+
+,
+
+from which on integration we come upon :
+
+yy + zz =
+
+C
+
+-
+
+4 fgp cc
+
+-
+
+ffdp2 ccdt 2
+
+.
+
+now since
+
+we obtain a new finite equation :
+
+dp dt
+
+=
+
+qz
+
+-
+
+ry ,
+
+from which since :
+
+yy + zz = C -
+
+4 fgp cc
+
+-
+
+ff cc
+
+( qz
+
+-
+
+ry
+
+)2
+
+,
+
+( qz
+
+-
+
+ry )2
+
+=
+
+Ccc ff
+
+-
+
+4 gp f
+
+-
+
+cc(
+
+yy + ff
+
+zz
+
+)
+
+,
+
+moreover from being found before
+
+( qy + rz )2 = ( B -
+
+Aaap cc
+
+)2
+
+,
+
+with these added there is produced :
+
+( ) (qq
+
++
+
+rr
+
+)
+
+(
+
+yy
+
++
+
+zz
+
+)
+
+=
+
+Ccc ff
+
+-
+
+4 gp f
+
+-
+
+cc(
+
+yy+ zz ff
+
+)
+
++
+
+B
+
+-
+
+Aaap cc
+
+2
+
+from which as
+
+qq + rr = 1- pp
+
+there is elicited
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 889
+
+( ) (1-
+
+pp
+
++
+
+cc f
+
+)(
+
+yy
+
++
+
+zz
+
+)
+
+=
+
+Ccc ff
+
+-
+
+4 gp f
+
++
+
+B
+
+-
+
+Aaap cc
+
+2
+
+or
+
+yy
+
++
+
+zz
+
+=
+
+Ccc - 4
+
+fgp
+
++
+
+ff
+
+ 
+
+B
+
+-
+
+Aaap cc
+
+cc+ ff - ffpp
+
+2 
+
+,
+
+(
+
+qz
+
+-
+
+ry
+
+)2
+
+=
+
+( Ccc - 4
+
+fgp )( 1-
+cc +
+
+pp )-cc B- ff - ffpp
+
+Aaap cc
+
+2 
+
+.
+
+since now we have hence defined these qy + rz, yy + zz, yy + zz and qz ­ ry quantities by p alone, at once we find thus an expression for the [reaction] force  by the same p
+
+ M
+
+=
+
+2 gcc + 2g(
+
+faaA cc+ ff
+
+B
+
+-
+
+Aaap cc
+
+- ffpp )
+
+ 
+
+-
+
+fccp
+
+Ccc-4
+
+fgp
+
++
+
+ff
+
+(
+
+B-
+
+Aaap cc
+
+g( cc+ ff - ffpp )2
+
+)2
+
+ 
+
+,
+
+now in that case we obtain also the element of time dt
+
+dt =
+
+dp ( cc+ ff - Ifpp )
+
+,
+
+ 
+
+(
+
+Ccc
+
+-
+
+4
+
+fgp
+
+)(
+
+1-
+
+pp
+
+)-cc
+
+ 
+
+B
+
+-
+
+Aaap cc
+
+2 
+
+ 
+
+from which equally by p there is
+
+d
+
+=
+
+- dt 
+
+B-
+
+Aaap cc
+
+1- pp
+
+ 
+
+and the angular speed  ' can thus be defined, in order that
+
+
+
+'
+
+
+
+'
+
+=
+
+AA +
+
+Ccc
+
+-4
+
+fgp
+
++
+
+ff
+
+ 
+
+B
+
+-
+
+Aaap cc
+
+cc + ff - ffpp
+
+2 
+
+.
+
+But from  ' again the arc AO =  is known, thus in order that, because the time t is given by
+
+p, the quantities  ', , p and  can be assigned at a given time. Finally although it matters
+
+little to know the quantities y and z separately, yet from eq.1 and eq. 2 there is made
+
+and therefore
+
+zdy -
+
+ydz +
+
+A( aa-cc )( cc
+
+yy+ zz )
+
+dt
+
+=
+
+2 fgdt Mcc
+
+(
+
+rz
+
++
+
+qy
+
+)
+
+ydz - zdy yy+ zz
+
+=
+
+A(
+
+aa-cc )dt cc
+
+-
+
+2 fgdt( B- Mcc Ccc-4
+
+Aaap )( cc+ cc
+fgp+ ff ( B-
+
+ff - ffpp )
+
+Aaap cc
+
+)2
+
+ 
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 890
+
+which since it is also integrable, gives
+
+A tang
+
+z y
+
+and
+
+thus
+
+the
+
+ratio
+
+between
+
+y
+
+and
+
+z,
+
+from
+
+which since yy + zz are taken together, both y and z are given separately; from which q and r
+
+are found also, being elicited separately from the values of the formulas qy + rz and qz ­ ry.
+
+PROBLEM 100
+
+863. If initially a rotational motion with a given angular speed were impressed about the special axis to the top, to define the position of this and the motion at some elapsed time.
+
+SOLUTION Initially we put, so that t = 0, the axis of the top to be at a with the distance or the arc present Za = l , and putting cosl = p , so that f p is the height of the centre of inertia above the
+horizontal plane (Fig. 111), moreover at the same time the arc AB is at ab, thus so that initially there is given l = l, m = 90° -l, n = 90°, and  = 0,
+and thus
+p = p, q = (1 - pp ) and r = 0 .
+Then initially the top takes an angular motion about the axis IA itself in the sense BC with an angular speed equal to ' , thus so that there shall
+be  = 0,  = 90°, and  = 90°,
+and thus  ' =  , x =  , y = 0 and z = 0 . Hence
+therefore if the above constants entering on integration are defined, we obtain
+
+1.
+
+A=,
+
+2.
+
+B
+
+=
+
+
+
+aap cc
+
+and
+
+3.
+
+C
+
+=
+
+4 fgp cc
+
+.
+
+Moreover with these values first put in place between t and p this equation is found :
+
+cdp (cc+ ff - ffpp)
+
+dt =
+
+.
+
+(p- p)(4ccfg(l - pp)- a4 (p- p))
+
+Next the angle XZA =  is defined thus, in order that there shall be
+
+( ) d =
+
+- aadt(p- p)
+cc(1- pp )
+
+=
+
+- aadp ( p- p )( cc+ ff - ffpp ) .
+c(1- pp ) 4ccfg(1- pp )-eea4 (p- p)
+
+Again the angular speed ' in the sense ABC is thus expressed
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 891
+
+
+
+'
+
+'
+
+=
+
+
+
++
+
+4c4
+
+fg( p- p )+ a4 ff ( p- c4 ( cc+ ff - ffpp )
+
+p
+
+)2
+
+and
+
+hence
+
+cos 
+
+=
+
+ '
+
+;
+
+but
+
+for
+
+cos 
+
+=
+
+y '
+
+and
+
+cos 
+
+=
+
+z '
+
+there is first
+
+yy
+
++
+
+zz
+
+=
+
+4c4
+
+fg( p - p ) +  a4 ff ( c4( cc + ff - ffpp
+
+p- )
+
+p
+
+)2
+
+= ' ' -  .
+
+In addition now we find :
+
+qy
+
++
+
+rz
+
+=
+
+ aa cc
+
+(p
+
+-
+
+p)
+
+and
+
+( ) (p- p) 4ccfg(1- pp)- a4 (p- p)
+qz - ry =
+c (cc+ ff - ffpp)
+
+and the force, that the top with the point itself now exerts on the horizontal plane,
+
+( ) 
+M
+
+=
+
+2c4 g + a4 f ( p- p 2ccg( cc+ ff - ffpp
+
+) )
+
+-
+
+fp( p- p ) 4c4 fg + a4 ff ( p- p 2ccg( cc- ff - ffpp )2
+
+.
+
+And next for the definition of the quantities y and z separately, this equation is found:
+
+ydz - zdy yy+ zz
+
+=
+
+ (aa-cc)dt cc
+
+-
+
+2
+
+ M
+
+  aafgdt(cc+ ff - ffpp)
+4c4 fg + a4 ff (p- p)
+
+or
+
+ydz - zdy yy+ zz
+
+=
+
+
+
+(aa - cc ) cc
+
+dt
+
+-
+
+ aadt(2c4 fg + a4 ff 2cc( 4c4 fg + a4 ff (
+
+(p- p)) p- p))
+
++
+
+ aaffpdt( 2cc(cc+ ff
+
+p- p ) - ffpp)
+
+.
+
+But with y and z found, also q and r can be determined through these.
+
+COROLLARY 1 864. The arc ZA = l can be increased to a right angle or until the top collapses, as long as
+
+ a4p < 4ccfg . Hence it is necessary lest the top collapses, that the angular speed first
+
+impressed must be greater than
+
+2c aa
+
+fg p
+
+,
+
+[
+
+First
+
+edition:
+
+-
+
+ M
+
+in place of
+
+-2
+
+ M
+
+.
+
+Corrected
+
+by
+
+C.
+
+B.
+
+in
+
+O.
+
+O.
+
+edition.]
+
+where p = cos Za. From which, if the top were vertical initially, then the condition must be :
+
+
+
+>
+
+2c fg aa
+
+;
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 892
+
+for unless this condition is heeded, the slightest cause will be able to disturb the top.
+
+COROLLARY 2 865. But if it should be the case that
+
+ a4p > 4ccfg ,
+
+just as the quantity p cannot be greater than p , thus the limit is given, beyond which it can
+
+never be made smaller, which defined by the equation
+
+4ccfgpp = 4ccfg -  a4p +  a4 p
+
+gives
+
+p =  a4 - (e4a8 -16 a4ccfgp+64c4 ffgg) ,
+8ccfg
+
+from which approximately there becomes
+
+p=
+
+p
+
+-
+
+4ccfg(1- pp)  a4 -8ccfg
+
+for the smallest value of p itself, equal to cos ZA or with the maximum arc ZA.
+
+COROLLARY 3
+
+866. But if we look at the angle IFk in figure 109, the inclination of the axis to the horizontal
+
+cannot be made smaller than this, and the sine of this is equal to p, then the rotational motion
+
+of the top cannot continue, unless at this stage the smallest value of p is greater than the sine
+
+of the angle IFk. Whereby on putting sinIFk = k it must be the case that
+
+
+
+>
+
+4ccfg(1-kk ) a4( p-k )
+
+.
+
+SCHOLIUM 1 867. Hence it is agreed here that two cases are established, the one in which the rotational speed of the top impressed  is less than
+2c fg(1-kk ) ,
+aa (p-k )
+and the other in which this quantity is the greater. In the first case in which
+ < 2c fg(l-kk ) ,
+aa ( p-k )
+the top soon falls over, since it cannot arrive at the minimum inclination, without its body touching the horizontal plane, and thus the rotational motion is destroyed. Now in the latter case, in which
+ > 2c fg(l-kk ) ,
+aa ( p-k )
+the rotational motion endures indefinitely, whenever we remove the motion from considerations of friction and all the other obstacles. Hence in order that the rotational motion
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 893
+
+shall be enduring perpetually, it is necessary that the top be given initially an angular speed greater than , as that formula shows. Moreover it is apparent that because a greater angular speed is impressed on the top, then the smaller the inclination to the horizontal is going to be, and if that speed should be infinite, the top perpetually maintains the same inclination. But when the rotational motion is everlasting, the top is inclined more to the horizontal from the start, while it arrives at the maximum inclination, then again it rights itself as far as to the initial position, so that when it arrives there it may be considered as if one period of its motion has been completed, then it will be progressing in a similar manner ; for the top at no time can be made more upright than it was initially, if it has not been influenced by friction. For if the top progresses while the point on the horizontal plane encounters friction, the effect of this wears away the ability of the top to erect itself, as long as it is not forced to collapse on account of the decreasing angular speed. Whereby it should not considered by anyone as miraculous, if the calculation agrees less with our experience, since the aberrations are to be attributed to friction.
+
+SCHOLIUM 2 868. Also from these the account of the construction of tops can be examined, in order that they can undertake rotational motion most easily, or in order that the smallest rotational speed suffices for this. Clearly since the angular speed initially impressed must be greater than
+
+2c fg aa
+
+,
+
+it
+
+is
+
+apparent
+
+that
+
+the
+
+shape
+
+of
+
+the
+
+top
+
+is
+
+required
+
+to
+
+be
+
+of
+
+this
+
+kind,
+
+in
+
+order
+
+that
+
+the
+
+moment of inertia about the axis AF is a maximum compared with the moment of inertia
+
+about an axis normal to this. Whereby the most appropriate figure is a disk transfixed by the
+
+most slender rod, in which case there arises aa = 2cc; and if the radius of this disk is equal to
+
+h, then aa =
+
+1 2
+
+hh
+
+and
+
+cc
+
+=
+
+1 4
+
+hh
+
+,
+
+and
+
+hence
+
+
+
+>
+
+2
+
+fg h
+
+. Then since the point or the interval
+
+IF = f should be shorter, from this the required greater angular speed  for the continued
+
+rotations is made less ; while also now at the smallest inclination the top touches the
+
+horizontal plane with its own body. We may put
+
+h=
+
+1 2
+
+in[ch]
+
+and
+
+f
+
+=
+
+1 4
+
+in.,
+
+since
+
+g
+
+=
+
+187
+
+1 2
+
+in.
+
+[if this is the case, then the acc. of gravity 2g is 31.25 ft./sec.2], there must be taken
+
+ > 750 ; whereby if  is taken twice as large or  = 55, the top completes an arc equal to
+
+55 [radians] in one second, or
+
+55 2
+
+rev., that is nearly nine revolutions are completed. But for
+
+larger tops it is sufficient for the smaller angular speed to depend on the ratio of the square
+
+root of the sides.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 894
+
+PROBLEM 101 869. If initially, for the top holding a given inclination, a rotational motion was impressed with a designated angular speed, in order that the inclination of this top should undergo minimal mutations, and to define the rotational motion.
+
+SOLUTION
+
+With everything remaining, as have been set up in the preceding problem, here we
+
+assume  exceed by many turns the quantity
+
+4ccfg a4p
+
+.
+
+Hence we may put
+
+
+
+=
+
+4nccfg a4p
+
+so that here n denotes a number great enough, and first we have this equation for the relation between t and p, because from the initial amount p decreases, and
+
+dt = -dp p(cc+ ff - ffpp) .
+2 fg(p- p)(p-ppp-np +np)
+Therefore since p falls short by a small amount from p , we can put p = p ­ u, in order that u is an exceedingly small amount, and there is produced
+
+and hence
+
+dt = +du p(cc+ ff - ff pp)
+2 fgu(p-p3 -nu)
+
+ t = + p(cc+ ff - ff pp) 2 nfg
+
+du
+
+
+
+ 
+
+p
+
+
+
+
+
+-p3 n
+
+u
+
+-uu
+
+    
+
+
+
+
+
+=C+
+
+p(cc + 2
+
+ff - ff nfg
+
+pp)
+
+arc sin ver
+
+2 nu p -p3
+
+,
+
+where
+
+it
+
+must
+
+be
+
+that
+
+C
+
+=
+
+0.
+
+[The
+
+function
+
+arc sin ver
+
+2 nu p -p3
+
+is
+
+taken
+
+to
+
+mean
+
+arc
+
+sin 
+
+2 nu p -p3
+
+-1 ,
+
+which
+
+arises
+
+from
+
+the
+
+integration,
+
+and
+
+also
+
+gives
+
+the
+
+correct
+
+value
+
+
+
+on
+
+giving u its maximum value.]Whereby from the beginning when u = 0 or p = p until the time
+
+when the inclination becomes a maximum
+u = p(1-pp)
+n
+or
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 895
+
+the time is equal to
+
+p
+
+=
+
+p
+
+-
+
+p(1-pp)
+n
+
+,
+
+ p(cc+ ff - ff pp) ,
+2 nfg
+
+which hence is shorter here, when the number n is greater. Now there then becomes
+
+d = -2 nfg  udt
+c(1-pp) p
+
+or
+
+=-
+
+(cc+ ff - ff c(1-pp)
+
+pp)
+
+
+
+du u ,
+
+ 
+
+p
+
+-p3
+
+ -u 
+
+ n
+
+
+
+from which there is elicited
+
+=-
+
+(cc+ ff - ff c(1-pp)
+
+pp)
+
+ 
+
+p(1-pp)
+2n
+
+arcsin
+
+ver
+
+2nu
+p(p -pp)
+
+-
+
+ 
+
+p(1-pp)
+n
+
+u
+
+-
+
+uu
+
+ 
+
+ 
+
+.
+
+Clearly the arc ZA is progressing in the opposite sense, and in the elapsed time t
+
+
+=
+
+p(cc+ ff - ff pp) =  c
+2 nfg
+
+(cc+ ff -  aa
+
+ff
+
+pp)
+
+,
+
+when the top is inclined maximally to the horizontal, there occurs
+
+ = -p
+
+(cc+ ff 2nc
+
+-
+
+ff
+
+pp)
+
+.
+
+For the axis A is not carried around the vertex Z in a uniform motion, but with the inequality of the motion disregarded, the mean angular speed is
+
+pfg cn
+
+=
+
+2 fg  aa
+
+on account of
+
+n
+
+=
+
+ a4p 4ccfg
+
+,
+
+thus so that this angular speed of the axis of the top itself around the vertex Z shall vary
+
+inversely as the angular speed of the top about its own axis. Then while the top has a
+
+maximum inclination, so that it is
+
+p
+
+=
+
+p
+
+-
+
+4ccfg (1-pp)
+ a4
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 896
+
+the angular speed  ' is defined thus, in order that
+
+
+
+'
+
+
+
+'
+
+=
+
+
+
++
+
+16
+
+ffgg (1-pp)
+ a4
+
+or
+
+
+
+'
+
+=
+
+
+
++
+
+8
+
+ffgg (1-pp)
+ 3a4
+
+,
+
+and then
+
+cos 
+
+=
+
+cos
+
+AO
+
+=1-
+
+8
+
+ffgg (1-pp)
+ 4a4
+
+=1-
+
+1 2
+
+
+
+or the minimum arc itself
+
+
+
+=
+
+AO
+
+=
+
+4
+
+fg (1-pp)
+ aa
+
+.
+
+But for the force of the point F on the horizontal plane, for the initial motion or when p = p
+
+and the axis of the top is maximally upright :
+
+ M
+
+=
+
+cc +
+
+cc ff -
+
+ff
+
+pp
+
+;
+
+but when the top is inclined maximally :
+
+ M
+
+=
+
+cc+2 ff (1-pp) cc+ ff - ff pp
+
+-
+
+ 'ccf 3gp(1-pp)
+eea4 (cc+ ff - ff pp)
+
+.
+
+And these suffice for the motion to be known.
+
+COROLLARY 1 870. If the axis of the top were initially at a, on putting Za = l since there shall be p = cosl ,
+
+if A is at the maximum elongation of the axis from the vertex, on putting ZA = l, because
+
+there is now then
+
+p
+
+=
+
+cos
+
+l
+
+=
+
+cos l
+
+-
+
+4ccfgsin 2l  a4
+
+l
+
+=
+
+l
+
++
+
+4ccfgsinl  a4
+
+.
+
+COROLLARY 2 871. Because at the maximum inclination of the top the arc ZA is a maximum, it is evident the pole of the rotation O then it must lie on the arc ZA itself, so that ZO < ZA, and then this interval AO is equal to
+4 fg(1- pp) .  aa
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 897
+
+SCHOLION 872. Up to now we have taken the initial motion to be impressed about the axis AF, which is the most common case. Yet now it is possible to happen, that the motion is itself impressed about another, which comes about, if the true axis AF, while the top is rotating about that, likewise is given an impulse, which either inclines the axis more to the horizontal or raises it more to the vertical. For this returns the same, as if the a rotational motion were impressed on the top about another axis, except perhaps then likewise a progressive motion arises, which we ignore as it presents nothing difficult. Indeed the case now treated can be referred to here, if a certain mean position, in which the top now is rotating about another axis in addition to AF, as we observe at the start, but since here the axis of the top is unable to erect itself to the vertical at any time, not all motions are encountered in that motion. Whereby it is agreed that the case is still to be examined, in which the axis of the top AF initially maintains a vertical position, but the rotational motion itself is impressed about another axis inclined to the horizontal, also we can resolve that case by the general formulas set out previously.
+
+PROBLEM 102 873. If the axis of the top were vertical initially, and to that a rotational motion should be impressed about some inclined axis with a given angular speed, to determine the motion of the top.
+
+SOLUTION Hence in the beginning since the point A should be at Z, we may put the arc AC to be lying on the circle ZX, thus in order that the arc AB should be normal to ZX. Whereby on making t = 0 then
+l = 0, m = 90° and n = 90°
+and thus [see fig. 112 below in the scholium] p = 1, q = 0 et r = 0;
+and  = 90°, v = 0 , with  remaining undefined, while now initially a rotational motion is impressed on the top with an angular speed equal to  in the sense ABC about a pole situated in the arc AC, thus so that on putting t = 0, then
+
+ = a,  = 90° and  = 90° - a ,
+
+and thus
+
+x =  cosa, y = 0 et z =  sina .
+
+With these in place we can define the position of the top after a time equal to t from § 862, if we can determine conveniently the constants of integration introduced from these conditions.
+
+In
+
+the
+
+first
+
+place
+
+let
+
+A
+
+=
+
+ cosa ,
+
+then
+
+B
+
+=
+
+aa cc
+
+
+
+cosa
+
+;
+
+and
+
+in
+
+the
+
+third
+
+place
+
+Ccc ff
+
+-
+
+4g f
+
+-
+
+ cc sin2 a ff
+
+=
+
+0,
+
+or
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 898
+
+C
+
+=
+
+4 fg cc
+
++  cc
+
+sin2
+
+a
+
+;
+
+moreover with these values substituted we obtain :
+
+qy
+
++
+
+rz
+
+=
+
+ aa cos a cc
+
+(1- p)
+
+qz - ry =
+
+( ) ( c4 (1- pp) sin2 a +4ccfg(1- p)(1- pp)- a4 (1- p)2 cos2 a
+c (cc+ ff - ffpp )
+
+yy
+
++
+
+zz
+
+=
+
+ c6
+
+sin2
+
+a +4c4 fg(1- c4 (cc+
+
+p)+ a4 ff ff - ffpp)
+
+(1-
+
+p)2cos2a
+
+and hence
+
+dt =
+
+- cdp (cc+ ff - ffpp)
+
+(1- p) (4ccfg(1- pp)+ c4 (1+ p) sin2 a - a4 (1- p)cos2a)
+
+since initially the quantity p is made smaller.
+Again on account of  ' ' = xx + yy + zz
+
+and x =  cos a then
+
+''
+
+=  cos2a
+
++
+
+
+
+c6
+
+sin2
+
+a
+
++4c4 fg(1- c4 ( cc+
+
+p)+ a4 ff ff - ffpp )
+
+(1-
+
+p)2cos2a
+
+and finally
+
+d =
+
+- aadt cos cc(1+ p)
+
+a
+
+.
+
+COROLLARY 1 874. From the formula found for dt it is allowed to judge, whether or not the top will fall over. For on putting p = 0, and whenever the factor of the denominator
+4ccfg +  c4 sin2 a -  a4 cos2 a,
+is positive, this indicates that the top will fall down ; which therefore comes about if 4ccfg +  c4 sin2 a >  a4 cos2 a
+
+COROLLARY 2
+
+875. Hence lest the top should fall, in the first place it is necessary that
+
+a4 cos2 a > c4 sin2 a
+
+or
+
+tang
+
+a
+
+<
+
+aa cc
+
+,
+
+then it is now required that
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 899
+
+
+
+>
+
+a4
+
+4ccfg cos2 a -c4
+
+sin2
+
+a
+
+;
+
+or the angular speed first impressed must be greater than the limit
+
+2c fg
+( ) a4 cos2 a-c4 sin2 a
+
+and certainly it is noteworthy, that the body of the top does not touch the horizontal while it is inclined.
+
+876. But when there is both and
+
+COROLLARY 3
+
+tang a < aa ,
+cc
+
+
+
+>
+
+a4
+
+4ccfg cos2 a -c4
+
+sin2
+
+a
+
+the axis of the top is not inclined as far as the horizontal, or the quantity p to be able to be diminished to zero ; but the smallest value of this appearing from the equation
+
+4ccfgpp =  p(a4 cos2 a + c4 sin2 a) -  a4 cos2 a +  c4 sin2 a + 4ccfg
+
+and there is found
+
+( ) ( )  (a4 cos2 a+c4 sin2 a) -  4 a4 cos2 a+c4 sin2 a 2 -16 ccfg a4 cos2 a -c4 sin2 a 2 +64c4 ffgg
+
+p=
+
+8ccfg
+
+.
+
+COROLLARY 4
+
+877. But if it should be the case that
+
+tang
+
+a
+
+=
+
+aa cc
+
+or
+
+a4 cos2 a = c4 sin2 a,
+
+then the equation between p and t becomes
+
+dt =
+
+- dp (cc+ ff - ffpp)
+
+(1- p) (4 fg(1- pp)+2 ccp sin2 a)
+
+and not only can is p able to go to zero, but also to be diminished to a negative value, which becomes :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 900
+
+( )  cc sin2 a -  4c4 sin2 a+16 ffgg
+p=
+4 fg
+
+but so large that it excludes the inclination of the position of the question.
+
+SCHOLIUM 878. The situation showing such a motion is represented in fig. 112, where the axis of the top
+
+A is turning at the vertex itself, now the remaining two axis at B and C, and thus we assume a certain fixed
+
+vertical circle AX; so that the quadrant AC is on that and the other AB is normal to that.
+
+Hence in the beginning the motion is l = 0, m = 90° , n = 90°,
+
+and thus
+
+p = 1, q = 0 , r = 0 ,
+
+then now  = 90° and  = 0 , with the value of 
+
+being undefined. Then in the beginning the rotational
+motion of the top to be impressed I take now to be about the axis IO, with the arc AO = a present, and that with a speed  in the sense ABC; and thus on putting t = 0 then
+ = a,  = 90°,  = 90° - a and  ' = 
+
+and hence
+
+x =  cos a, y = 0 and z =  sina .
+
+Therefore in the case that the top does not fall over, two conditions are required, the one
+
+being that
+
+and the other that
+
+tang
+
+a
+
+or
+
+tang
+
+AO
+
+<
+
+aa cc
+
+,
+
+>
+
+2c fg
+
+.
+
+( ) a4 cos2 a-c4 sin2 a
+
+And if we wish, so that the axis may be inclined the least, and on making p = 1-  for an
+
+particular exceedingly small  present, then there is found
+
+
+
+=
+
+ a4
+
+2 c4 sin2 a cos2 a + c4 sin2
+
+a-8ccfg
+
+,
+
+whereby the arc AO = a is to be the smallest, then  a4 in this case must be much greater than 8ccfg in order that
+
+
+
+>
+
+2c
+
+2 aa
+
+fg
+
+.
+
+Since if that comes about, the motion is regular enough, which will be helpful in determining
+
+the motion more accurately.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 901
+
+PROBLEM 103
+879. If, for a top established in an upright position, there is impressed a rotational motion fast enough about an axis at a minimum declination, in order that the top only leaves its position for a short time, to determine the motion of this.
+SOLUTION Hence we take the arc AO = a in the beginning to be very small and the rotational speed  impressed in the beginning to be so large that
+ a4 cos2 a > 8ccfg . Hence we may put
+ a4 cos2 a = 8nccfg so that n> 1, and we have
+
+dt =
+
+- cdp (cc+ ff - ffpp)
+
+(1- p)(4ccfg(1- pp)-8nccfg(1- p)+ c4 (1+ p) sin2 a)
+
+Hence as we know that p is made much less that one, we may put p = 1- u , and with the smallest terms ignored,
+
+dt =
+
+cdu
+
+,
+
+u(8 fgu -8nfgu+2 cc sin2 a- ccu sin2 a)
+
+and the integral of this is
+
+t=
+
+( cc sin2
+
+c
+a +8( n -1)
+
+fg )
+
+arcsin ver
+
+u( cc
+
+sin2 a+8(n-1)
+ cc sin2 a
+
+fg )
+
+as now the maximum value of u is equal to [i.e. to make the argument = 2]
+2 cc sin2 a
+ cc sin2 a+8(n-1) fg
+
+and the time to reach the maximum inclination of the top is equal to
+
+c
+
+=
+
+ cc
+
+( cc sin2 a+8(n-1) fg) ( c4 cos2 a+ c4 sin2 a-8ccfg)
+
+and the top meanwhile falls from the vertical position by a small angle, of which the versed sine is equal to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 902
+
+and the angle itself equal to
+
+2 c4 sin2 a  c4 cos2 a+ c4 sin2 a-8ccfg
+
+2 cc sina
+
+.
+
+( )  c4 cos2 a+ c4 sin2 a-8ccfg
+
+Then since
+
+d =
+
+- aadt cos a cc(1+ p)
+
+and here it is able to consider p as a constant equal
+
+to 1, in the time, in which the top reaches its
+
+maximum inclination (Fig. 111), the axis of this
+
+turns in the vertical plane, since it declines from
+
+the circle ZX, by the angle
+
+XZA = 90o -
+
+ aa cos a
+
+;
+
+( ) 2  c4 cos2 a+ c4 sin2 a-8ccfg
+
+for in the beginning at first, when A is rotating about O, fig.112, the angle  is right or
+
+equal to
+
+ 2
+
+.
+
+COROLLARY 1
+
+880. Since the initial arc AO = a shall be as if infinitely small, and the angle XZA =  in the
+
+beginning is equal to 90°, in the elapsed time t, this angle becomes
+
+=
+
+90o
+
+-
+
+ aat 2 cc
+
+.
+
+Hence the axis of the top is moving away from the point to the vertical in the preceding, and
+
+the
+
+whole
+
+circuit
+
+is
+
+completed
+
+in
+
+a
+
+time
+
+equal
+
+to
+
+4 acc  aa
+
+sec.
+
+COROLLARY 2 881. Since initially u = 0, in the elapsed time t there arises
+
+1-
+
+u( a4 -8ccfg)  c4 sin2 a
+
+=
+
+cos
+
+t
+
+( a4 -8ccfg) .
+cc
+
+But on putting the smallest arc ZA equal to l, on account of
+
+p
+
+= cosl
+
+=1-
+
+1 2
+
+ll
+
+,
+
+then u =
+
+1 2
+
+ll
+
+,
+
+and
+
+hence
+
+l=
+
+2 cc sina sin t
+( a4 -8ccfg)
+
+(
+
+a4 -8ccfg) 2cc
+
+.
+
+thus so that at some time t we are able to assign the values  and l.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 903
+
+COROLLARY 3
+
+882. Since the axis of the top Z moves away to reach the maximum declination in the passing
+
+of time equal to
+
+ cc
+
+,
+
+( a4 -8ccfg)
+
+in which time this is carried around Z in the preceding through the angle
+
+ aa
+
+,
+
+2 ( a4 -8ccfg)
+
+which hence is greater than a right angle and returns to the vertical Z on passing through an absolute angle greater than two right angles
+ aa .
+( a4 -8ccfg)
+
+SCHOLION 883. I will not linger to set out examples of further motions of this kind, since all the phenomena can be derived easily from the formulas found. But it is required to remember properly, that here no account of friction is been given, which however small that is put in place, strongly disturbs the phenomena defined here. Indeed from the friction, which the point F experiences in proceeding on the horizontal plane, there arises a horizontal force, which is impressed on the horizontal motion of the top, and because the direction of that force is changing continually, it is readily understood to be the reason why tops are observed to proceed along curved lines. Indeed the motions come to an end on account of the individual friction forces ; whereby we may proceed from separate impediments of this kind to certain other kinds of motion in which rotation occurs ; and because here I have considered bodies of this kind, which proceed with a point [or cusp] on a horizontal plane, thus in order that the cusp can be considered as if the base of these, here we are lead to consider other bodies in general, which proceed with some base on the plane. And indeed a plane or angular base is hardly worth any attention, since either no rotational motion is found to be present, and thus the determination of the motion presents no difficulties, or perhaps by a jump a rotation becomes confused itself, while the contact is transferred to another base, where a like conflict unfolds, and the explanation of this has to be referred to another branch of mechanics. Therefore here it is agreed to consider only bases of this kind, by which bodies proceed on a plane unmoved, which are provided with a continual curvature, lest another jump in the motion happens. But excessive circuits of the motion which lead to inextricable calculations are to be avoided , so we will pursue mainly only two kinds of bodies, clearly cylinders and spheres, without doubt the external figures of which, by which they are applied to the plane, shall be either cylindrical or spherical, in whatever manner the inner material should be distributed, the ratio of this is determined from the centre of inertia and from the
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 904
+
+principal axes. Hence they are referred to as a kind of cylinder, pendulums which are not suspended from the line of the axis, as we have assumed above, but from small axes lying on both sides on a horizontal plane. Then here also the motion extends to wandering motions similar to the to and fro motions of cradles, and bodies of this kind, as they lie in a plane, can be viewed as cylinders. Then also, how bodies of this kind descent on an inclined plane, is worth the effort of being looked. Again with spherical bodies, I refer not only to those in which the whole figure is globular, but also below which, where they reach a plane, they have formed hemispheres, just as they are tops, the axes of which do not end below in a point but as if in the hemisphere ; when indeed the centre of inertia is higher than the centre of the hemisphere, but when the centre of inertia has been placed deeper, another kind of motion can arise, in which the body by staggering performs oscillations, in which it is possible to have in place a wonderful perturbation of the rotational motion.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 905
+
+CAPUT XVII
+PLENIOR EXPLICATIO MOTUS TURBINUM SUPER PLANO HORIZONTALI SEMOTA FRICTIONE
+DEFINITIO 14 850. Axis turbinis est recta AF ex cuspide F per centrum inertiae I ducta, qui simul sit eius
+axis principalis singularis, ita ut respectu omnium axium ad eum normalium I B momenta inertiae sint inter se aequalia (Fig. 109).
+COROLLARIUM 1 851. Aptissima ergo turbinis figura est tornata, quae generatur, si figura quaecunque circa axem AF revolvitur, dummodo ea in cuspidem F desinat, qua super plano horizontali incedere posset.
+COROLLARIUM 2 852. In turbine autem sequentes quantitates cognitas esse oportet, quae in calculum ingrediuntur :
+1°. eius massam vel pondus, quod sit = M ; 2°. distantiam cuspidis a centro inertiae, quae sit IF = f; 3°. momentum inertiae respectu axis AF, quod sit = Maa, et 4°. momentum inertiae respectu omnium axium ad illum normalium, quod sit = Mcc.
+COROLLARIUM 3 853. Cum ergo supra in genere momenta inertiae principalia cuiusque corporis posuerimus Maa, Mbb et Mcc, hic bina posteriora aequalia statuemus, ut sit bb = cc.
+COROLLARIUM 4 854. Dum igitur turbo cuspide F super plano horizontali incedit, eius axis A.F non ultra certum terminum ad horizontem inclinari potest, qui habebitur ducendo ab F ad corpus turbinis rectam extremam Fk; tum enim angulus AFk dabit illum terminum.
+SCHOLION 855. Supra tantum eiusmodi turbines consideravimus, in quibus omnia momenta inertiae inter se essent aequalia, quae conditio nimium erat limitata. Nunc igitur motum turbinum in genere exploremus, siquidem conditio, quod AF sit axis principalis, et respectu binorum reliquorum axium momenta inertiae aequalia, cum indole turbinum necessario cuniuncta videtur. Principia autem, unde huius motus determinatio est petenda, supra in Capite 14 iam sunt exposita, ubi vidimus totum negotium a pressione, qua turbo, dum movetur, cuspide sua F
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 906
+
+plano horizontali innititur, pendere. Quae pressio, etiamsi nonnisi solutione ad finem perducta cognosci queat, tamen statim ab initio in calculum ingreditur. Sit ergo II ista pressio, cuius directio a cuspide F semper verticaliter sursum tendit; atque de hae pressione supra §767 ostendimus, si inclinatio axis AF ad horizontem ponatur =  , quae tempusculo dt suo differentiali d crescat, sumto elemento dt constante, fore
+
+( ) dd cos -d2 dt 2
+
+sin
+
+=
+
+2g f
+
+ M
+
+-1
+
+,
+
+sive
+
+ M
+
+=
+
+1
+
++
+
+f
+
+(
+
+ddcos -d2sin 2 gdt 2
+
+)
+
+=
+
+1
+
++
+
+fd dcos 2 gdt 2
+
+=
+
+1
+
++
+
+fdd sin 2 gdt 2
+
+Cum igitur turbo praeter hanc vim II a gravitate tantum urgeri statuatur, eius centrum inertiae I alium motum recipere nequit, nisi in directione verticali vel ascendendo vel descendendo, dum eius distantia a plano horizontali est = f sin . Sin autem initio ei insuper quidam motus
+horizontalis fuerit impressus, cum constanter acquabilem conservabit, sicque tota quaestio ad solum motum gyratorium reducitur. Quare cum gravitas ad eum nihil conferat eiusque perturbationes omnes a sola pressione II oriantur, huius vis momenta respectu axium principalium turbinis definiri oportet.
+
+PROBLEMA 97
+
+856. Si turbo teneat situm quomodocunque inclinatum ad horizontem simulque detur pressio  , qua eius cuspis horizontali plano innititur, definire huius vis momenta respectu axium principalium turbinis.
+SOLUTIO Descripta sphaera circa centrum inertiae turbinis I (Fig. 110), in qua sit Z punctum
+verticale, axis turbinis autem sphaeram traiiciat in punctis A et F, bini reliqui vero axes principales pertingant ad sphaerae puncta B et C; etsi enim hi duo axes per se non determinantur, tamen certas duas lineas tam inter se quam ad axem AF normales accipi convenit, ex quibus deinceps situs turbinis ad quodvis tempus definiatur. Ponantur arcus circulorum maximorum
+ZA = l, ZB = m et ZC = n , erit l = 90° - denotante  inclinationem axis AF ad horizontem. Cum iam cuspis F, cuius distantia a centro inertiae I est FI = f, urgeatur in directione verticali F  vi =  , ut sit angulus AF  = l, resolvatur ea secundum directiones FA et FV, quarum haec FV sit in plano verticali AZFad AF normalis, erit vis secundum FA =  cos l et vis secundum FV =  sin l ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 907
+
+quarum illa per centrum inertiae transiens nulla praebet momenta. Haec vero vis FV =  sin l respectu axis AF quoque nullum praebet momentum; at respectu axis IB dat momentum =  f sin l sinVFB in sensum AC, similique modo respectu axis 1C momentum
+
+=  f sin l sinVFC in sensum BA.Verum est angulus VFB = ZAR et
+
+sin
+
+ZAB
+
+=
+
+-
+
+cos
+
+ZAC
+
+=
+
+-
+
+cos sin
+
+n l
+
+tum vero angulus VFC = ZAC et
+
+sin
+
+ZAC
+
+=
+
+cos
+
+ZAB
+
+=
+
+cos m sin l
+
+Quamobrem habebimus
+
+momentum respectu axis IB = - f cos n in sensu AC,
+
+momentum respectu axis IC =  f cos m , in sensu BA
+
+et quia momenta virium respectu axium 1A, 1B, IC in sensum BC, CA, AB supra [§ 803] in genere posuimus P, Q, R, erit pro nostro casu:
+P = 0,Q =  fcosn et R = - fcosm.
+
+PROBLEMA 98 857. Si turbo in situ quocunque inclinato gyretur circa axem quemcunque per eius centrum inertiae transeuntem, definire variationem momentaneam tam in axe gyrationis quam in celeritate angulari productam.
+
+SOLUTIO Circa centrum inertiae I constituta sphaera immobili (Fig. 111), in qua sit Z punctum verticale et ZX circulus verticalis fixus; teneat iam turbo eiusmodi situm, ut axis turbinis proprius
+respondeat sphaerae puncto A, bini reliqui autem axes principales punctis B et C, ponanturque horum axium declinationes a verticali seu arcus
+ZA = l, ZB = m, ZC = n , ut sit
+cos2 l + cos2 m + cos2 n = 1 ; tum vero anguli
+XZA =  , XZB =  et XZC = v ,
+
+quorum relationes ad illos arcus sunt cognitae. Nunc autem turbo gyretur circa axem IO celeritate angulari =  ' in sensum ABC sintque pro polo gyrationis O arcus
+
+AO =  , BO =  et CO =  ',
+
+atque ponendo
+
+ 'cos = x,  ' cos  = y,  ' cos  = z
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 908
+
+ob momenta virium P = 0, Q =  f cos n et R = - f cos m ,
+
+atque bb = cc, variationes tempusculo dt productae sequentibus formulis exprimentur :
+I. dx = 0
+
+II .
+
+dy
+
++
+
+aa- cc cc
+
+xzdt
+
+= 2 fgdt cos n
+Mcc
+
+( ) 111. dz -
+
+aa - cc cc
+
+xydt
+
+=
+
+-
+
+2
+
+fgdt cos m Mcc
+
+.
+
+Praeterea vero has aequationes pro l, m, n,  ,  , v adiungi oportet:
+
+dl sin l = dt( y cos n - z cos m ), d sin2 l = -dt( y cos m + z cos n ), dm sin m = dt( z cos l - x cos n ), d  sin2 m = -dt( z cos n + x cos l ), dn sin n = dt( x cos m - y cos l ), dv sin2 n = -dt( x cos l + y cos m ).
+
+Cum autem inclinatio axis ad horizontem sit = 90°- l, quae supra posita est  , ob sin = cos l erit
+
+ M
+
+=1+
+
+fdd cos 2 gdt 2
+
+l
+
+.
+
+Ad haec magis contrahenda statuamus:
+
+cos l = p , cos m = q , cos n = r
+
+et habebimus
+
+ac praeterea has aequationes:
+
+ M
+
+=
+
+1+
+
+fddp 2 gdt 2
+
+,
+
+I.dx = 0
+
+II .
+
+dy
+
++
+
+(
+
+aa-cc ) cc
+
+xzdt
+
+=
+
+2 fgrdt Mcc
+
+III.
+
+dz -
+
+( aa-cc ) cc
+
+xydt
+
+=
+
+-2 fgqdt Mcc
+
+.
+
+IV. dp = dt( qz - ry ),
+
+VI
+
+I.
+
+d
+
+=
+
+-dt( qy+rz 1- pp
+
+)
+
+V. dq = dt( rx - pz ),
+
+VIII .
+
+d
+
+=
+
+-dt( rz+ px ) 1-qq
+
+VI. dr = dt( py - qx ),
+
+IX .
+
+dv
+
+=
+
+-dt( px+qy 1-rr
+
+)
+
+ubi notandum est esse pp + qq + rr = 1.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 909
+
+COROLLARIUM 1
+858. Si turbo circa ipsum axem IA gyretur, ut sit  = 0 et  = y = 90°,
+
+erit
+
+x =  ', y = 0, et z = 0
+
+et
+
+dx = d ', dy = -  ' d  , dz = -  ' d .
+
+Fiet ergo
+
+d ' = 0,
+
+d
+
+=
+
+-2 fgrdt  ' Mcc
+
+,
+
+d
+
+=
+
+2 fgqdt  ' Mcc
+
+,
+
+dp = 0, dq = d ' rdt, dr = - d ' qdt et d = 0,
+
+tum ergo primo instanti neque celeritas angularis  ' neque situs puncti A mutationem patitur.
+
+COROLLARIUM 2 859. Cum sit dp = dt(qz­ry) , erit differentiando
+
+ddp= dt(qdz ­rdy) + dt(zdq ­ydr) ,
+
+et substitutis valoribus datis reperietur:
+
+unde fit seu
+
+ddq dt 2
+
+=
+
+(
+
+aa-cc ) cc
+
+x
+
+( qy +rz )
+
+-
+
+2 fg Mcc
+
+(
+
+qq
+
++
+
+rr
+
+)+
+
+x(
+
+qy
+
++
+
+rz
+
+)-
+
+p(
+
+yy
+
++
+
+zz
+
+),
+
+ M
+
+=
+
+1+
+
+f
+
+(
+
+aa - cc 2 gcc
+
+)x
+
+(
+
+qy
+
++
+
+rz
+
+)
+
+-
+
+ ff Mcc
+
+(
+
+qq
+
++
+
+rr
+
+)
+
++
+
+fx( qy+rz ) -
+2g
+
+fp( yy+ zz ) 2g
+
+( ) 
+M
+
+1+
+
+ff ( qq+rr ) cc
+
+=
+
+1+
+
+faax( qy+rz 2 gcc
+
+)
+
+-
+
+fp( yy+ zz ) 2g
+
+hincque
+
+II M
+
+=
+
+2
+
+gcc +
+
+faax( 2 gcc
+
+qy+rz )- fccp( yy +2gff ( qq+rr )
+
++
+
+zz
+
+)
+
+.
+
+[ In editione principe numerator est: 2gcc + faa(qy + rz) ­ fccp(yy + zz). Correxit C. B.]
+
+COROLLARIUM 3
+
+860. Ex aequationibus IV. V. VI. colligitur, ut iam ante notavimus, xdp + ydq + zdr = 0 ,
+quae aequatio, cum sit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 910
+
+pp + qq + rr = 1 , loco aequationum V. et VI. usurpari potest. At aequationum VII. VIII. IX unicam tractasse sufficiet, quod negotium postremo loco erit suscipiendum.
+
+COROLLARIUM 4 861. Inventis autem quantitatibus x, y et z, ob
+
+cos2 + cos2 + cos2 = 1
+
+erit celeritas angularis
+
+ ' = ( xx + yy + zz )
+
+hincque vicissim arcus  ,  ,  concluduntur; nempe
+
+cos
+
+
+
+=
+
+x '
+
+,
+
+cos
+
+=
+
+y '
+
+,
+
+et
+
+cos
+
+=
+
+z '
+
+.
+
+PROBLEMA 99
+
+862. Aequationes differentiales ante inventas, [811] quibus motus turbinis exprimitur, ad integrationem perducere, quantum fieri licet.
+
+SOLUTIO
+
+Primo statim patet esse x = const., ponamus ergo x = A, et reliquae aequationes integrandae
+
+erunt
+
+1o.
+
+dy
+
++
+
+A( aa-cc ) cc
+
+zdt
+
+=
+
+2 fgrdt Mcc
+
+2o .
+
+dz
+
+-
+
+A(
+
+aa - cc cc
+
+) ydt
+
+=
+
+-
+
+2 fgqdt Mcc
+
+3°. dp = dt ( qz - ry )
+
+4°. ydq + zdr = - Adp
+
+existente
+
+ M
+
+=1
+
++
+
+fddp 2 gdt 2
+
+et
+
+pp + qq + rr = 1 .
+
+Nunc 1°. q +2°. r suppeditat hanc aequationem
+
+qdy
+
++
+
+rdz
+
++
+
+A( aa-cc cc
+
+)
+
+dt( qz - ry ) =
+
+0,
+
+quae ob dt(qz ­ ry) = dp abit in hanc:
+
+qdy
+
++
+
+rdz
+
+=
+
+-A
+
+(
+
+aa - cc cc
+
+)
+
+dp
+
+,
+
+huc addatur 4°
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 911
+
+ydq + zdr = ­Adp
+
+erit
+
+qdy
+
++
+
+ydq
+
++
+
+rdz
+
++
+
+zdr
+
+=
+
+-aa cc
+
+Adp,
+
+cuius integrale est
+
+qy
+
++
+
+rz
+
+=
+
+B
+
+-
+
+aa cc
+
+Ap.
+
+Porro colligendo 1° . y + 2°. z prodit:
+
+ydy
+
++
+
+zdz
+
+=
+
+2 fgdt Mcc
+
+(
+
+ry
+
+-
+
+qz
+
+)
+
+=
+
+-2 fgdp Mcc
+
+;
+
+quare cum sit
+
+ M
+
+=
+
+1
+
++
+
+fddp 2 gdt 2
+
+,
+
+erit
+
+ydy + zdz =
+
+-2 fgdp cc
+
+-
+
+ffdpddp ccdt 2
+
+,
+
+unde integrando nanciscimur:
+
+yy + zz =
+
+C
+
+-
+
+4 fgp cc
+
+-
+
+ffdp2 ccdt 2
+
+.
+
+cum iam sit
+
+dp dt
+
+=
+
+qz
+
+-
+
+ry ,
+
+obtinemus novam aequationem finitam:
+
+yy
+
++
+
+zz
+
+=
+
+C
+
+-
+
+4 fgp cc
+
+-
+
+ff cc
+
+( qz
+
+-
+
+ry
+
+)2
+
+,
+
+ex qua cum sit
+
+( qz
+
+-
+
+ry )2
+
+=
+
+Ccc ff
+
+-
+
+4 gp f
+
+-
+
+cc(
+
+yy + ff
+
+zz
+
+)
+
+,
+
+ex ante inventa autem
+
+(
+
+qy
+
++
+
+rz
+
+)2
+
+=
+
+(
+
+B
+
+-
+
+Aaap cc
+
+)2
+
+,
+
+prodibit his addendis
+
+( ) (qq
+
++
+
+rr
+
+)(
+
+yy
+
++
+
+zz
+
+)
+
+=
+
+Ccc ff
+
+-
+
+4 gp f
+
+-
+
+cc(
+
+yy+ zz ff
+
+)
+
++
+
+B
+
+-
+
+Aaap cc
+
+2
+
+unde ob
+
+qq + rr = 1- pp
+
+elicitur
+
+( ) (1-
+
+pp
+
++
+
+cc f
+
+)(yy
+
++
+
+zz)
+
+=
+
+Ccc ff
+
+-
+
+4 gp f
+
++
+
+B
+
+-
+
+Aaap cc
+
+2
+
+seu
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 912
+
+yy
+
++
+
+zz
+
+=
+
+Ccc - 4
+
+fgp +
+
+ff
+
+ 
+
+B
+
+-
+
+Aaap cc
+
+cc+ ff - ffpp
+
+2 
+
+,
+
+(
+
+qz
+
+-
+
+ry
+
+)2
+
+=
+
+( Ccc - 4
+
+fgp )( 1-
+cc +
+
+pp )-cc B- ff - ffpp
+
+Aaap cc
+
+2 
+
+.
+
+cum ergo iam has quantitates qy + rz, yy + zz, yy + zz et qz ­ ry per solam p definiverimus, statim pressionem  per eandem solam p ita reperimus expressam
+
+( ) ( ) 
+M
+
+=
+
+2gcc+ faaA
+
+B
+
+-
+
+Aaap cc
+
+2g( cc+ ff - ffpp )
+
+-
+
+fccp
+
+Ccc - 4
+
+fgp +
+
+ff
+
+(
+
+B-
+
+Aaap cc
+
+)2
+
+g( cc+ ff - ffpp )2
+
+,
+
+deinde vero etiam elementum temporis dt obtinebimus
+
+dt =
+
+dp ( cc+ ff -Ifpp )
+
+,
+
+ 
+
+(Ccc
+
+-4
+
+fgp )( 1-
+
+pp
+
+)-cc
+
+B-
+
+Aaap cc
+
+2 
+
+ 
+
+ex quo pariter per p erit
+
+d
+
+=
+
+- dt 
+
+B-
+
+Aaap cc
+
+1- pp
+
+ 
+
+atque celeritas angularis  ' ita definietur, ut sit
+
+( )  '  '
+
+=
+
+AA
+
++
+
+Ccc-4 fgp+ cc + ff
+
+ff -
+
+B- ffpp
+
+Aaap cc
+
+2
+
+.
+
+Ex  ' autem porro cognoscitur arcus AO =  , ita ut, quoniam tempus t per
+
+p datur, quantitates  ', , p et  ad datum tempus assignari queant. Denique
+
+etsi parum refert nosse quantitates y et z seorsim, tamen ex 1° et 2° fit
+
+zdy - ydz +
+
+A( aa-cc )( yy+ zz ) cc
+
+dt
+
+=
+
+2 fg Mcc
+
+dt( rz + qy )
+
+ideoque
+
+ydz - zdy yy+ zz
+
+=
+
+A( aa-cc )dt
+
+-
+
+2
+
+fgdt(
+
+B
+
+-
+
+Aaap cc
+
+)( cc+
+
+ff
+
+-
+
+ffpp )
+
+,
+
+cc
+
+Mcc Ccc-4
+
+fgp +
+
+ff
+
+(
+
+B-
+
+Aaap cc
+
+)2
+
+ 
+
+quae
+
+cum
+
+etiam
+
+sit
+
+integrabilis,
+
+dabit
+
+A
+
+tang
+
+z y
+
+ideoque
+
+rationem
+
+inter
+
+yet
+
+z,
+
+ex
+
+qua
+
+cum
+
+yy + zz coniunctim, utraque y et z seorsim datur; quibus inventis etiam q et r seorsim ex
+
+valoribus formularum qy + rz et qz ­ ry eliciuntur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 913
+
+PROBLEMA 100
+
+863. Si turbini initio in data inclinatione impressus fuerit motus gyratorius circa proprium axem data celeritate angulari, definire eius situm et motum ad quodvis tempus inde elapsum.
+
+SOLUTIO Ponamus initio, quo t = 0, axem turbinis fuisse in a distantia seu arcu existente Za = l , ac ponatur cosl = p , ut fuerit f p altitudo centri inertiae supra planum horizontale (Fig. 111),
+
+eodem autem tempore arcus AB fuerit in ab, ita ut pro initio habeatur l = l, m = 90° -l, n = 90° et  = 0,
+
+ideoque
+
+p = p, q = (1 - pp ) et r = 0 .
+
+Deinde initio turbo circa ipsum axem IA acceperit in sensum BC motum gyratorium celeritate angulari =  ' , ita ut fuerit
+ = 0,  = 90° et  = 90°,
+
+ideoque  ' =  , x =  , y = 0 et z = 0 . Hinc ergo si constantes supra per integrationem
+
+ingressae definiantur, obtinemus
+
+1o.
+
+A=,
+
+2o.
+
+B
+
+=
+
+
+
+aap cc
+
+et
+
+3o.
+
+C
+
+=
+
+4 fgp cc
+
+.
+
+His autem valoribus substitutis prima inter t et p
+
+haec reperitur aequatio
+
+cdp (cc+ ff - ffpp)
+
+dt =
+
+.
+
+(p- p)(4ccfg(l - pp)- a4 (p- p))
+
+Deinde angulus XZA =  ita definitur, ut sit
+
+( ) d =
+
+- aadt(p- p)
+cc(1- pp )
+
+=
+
+- aadp ( p- p )( cc+ ff - ffpp ) .
+c(1- pp ) 4ccfg(1- pp )-eea4 (p- p)
+
+Porro celeritas angularis ' in sensum ABC ita exprimitur
+
+
+
+'
+
+'
+
+=
+
+
+
++
+
+4c4
+
+fg( p- p )+ a4 ff ( p- c4 ( cc+ ff - ffpp )
+
+p
+
+)2
+
+hincque cos
+
+=
+
+ '
+
+;
+
+at
+
+pro
+
+cos 
+
+=
+
+y '
+
+et
+
+cos 
+
+=
+
+z '
+
+est primo
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 914
+
+yy
+
++
+
+zz
+
+=
+
+4c4
+
+fg( p - p ) +  a4 ff ( c4( cc + ff - ffpp
+
+p- )
+
+p
+
+)2
+
+= ' ' -  .
+
+Praeterea vero invenimus: et
+
+qy
+
++
+
+rz
+
+=
+
+ aa cc
+
+(p
+
+-
+
+p)
+
+( ) (p - p) 4ccfg(1- pp) -  a4(p - p)
+qz - ry = c (cc + ff - ffpp)
+
+atque pressionem, quam nunc turbo cuspide sua exerit in planum horizontale,
+
+( ) 
+M
+
+=
+
+2c4 g + a4 f ( p- p 2ccg( cc+ ff - ffpp
+
+) )
+
+-
+
+fp( p- p ) 4c4 fg + a4 ff ( p- p 2ccg( cc- ff - ffpp )2
+
+.
+
+Denique ad quantitates y et z seorsim definiendas habetur haec aequatio
+
+ydz - zdy yy+ zz
+
+=
+
+ (aa-cc)dt cc
+
+-
+
+2
+
+ M
+
+  aafgdt(cc+ ff - ffpp)
+4c4 fg + a4 ff (p- p)
+
+seu
+
+ydz - zdy yy+ zz
+
+=
+
+ (aa-cc) cc
+
+dt
+
+-
+
+ aadt(2c4 fg + a4 ff (p- p)) 2cc( 4c4 fg + a4 ff ( p- p))
+
++
+
+ aaffpdt( p- p ) 2cc(cc+ ff - ffpp)
+
+.
+
+Inventis autem y et z, etiam q et r per eas determinantur.
+
+COROLLARIUM 1 864. Arcus ZA = l usque ad angulum rectum augeri seu turbo procidere potest, quamdiu
+
+ a4p < 4ccfg . Ne ergo turbo prolabatur, necesse est, ut eius celeritas angularis prima
+
+impressa maior sit quam
+
+2c aa
+
+fg p
+
+,
+
+[
+
+Editio
+
+princeps:
+
+-
+
+ M
+
+loco
+
+-
+
+2
+
+ M
+
+.
+
+Correxit
+
+C.
+
+B.]
+
+ubi est p = cos Za. Unde, si turbo initio fuerit verticalis, debet esse
+
+
+
+>
+
+2c fg aa
+
+;
+
+nisi enim haec conditio observetur, levissima causa turbinem deturbare valebit.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 915
+
+865. Sin autem fuerit
+
+COROLLARIUM 2
+
+ a4p > 4ccfg ,
+
+quemadmodum quantitas p nunquam superare potest p , ita dabitur limes, infra quem
+
+nunquam diminuetur, qui definitus ex aequatione
+
+4ccfgpp = 4ccfg -  a4p +  a4 p
+
+prodit
+
+p =  a4 - (e4a8 -16 a4ccfgp+64c4 ffgg) ,
+8ccfg
+
+unde fit proxime
+
+p=
+
+p
+
+-
+
+4ccfg(1- pp)  a4 -8ccfg
+
+pro minimo valore ipsius p = cos ZA seu pro maximo arcu ZA.
+
+COROLLARIUM 3
+
+866. Sin autem in figura 109 spectemus ad angulum IFk, quo inclinatio axis ad horizontem,
+
+cuius sinus est = p, minor fieri non potest, motus turbinis gyratorius perennis esse nequit, nisi
+
+valor minimus ipsius p adhuc fuerit maior quam sinus anguli IFk. Quare posito sinIFk = k
+
+debet esse
+
+
+
+>
+
+4ccfg(1-kk ) a4( p-k )
+
+.
+
+SCHOLION 1 867. Hic ergo duos casus constitui convenit, alterum quo celeritas angularis turbini primum impressa  minor est quam
+2c fg(1-kk ) ,
+aa (p -k )
+alterum quo hac quantitate est maior. Priori casu quo
+ < 2c fg(l-kk ) ,
+aa ( p -k )
+turbo mox procidet, quoniam ad minimam inclinationem pervenire nequit, quin corpore suo planum horizontale attingat, sicque motus gyratorius destruatur. Posteriori vero casu, quo
+ > 2c fg(l-kk ) ,
+aa ( p -k )
+motus gyratorius perpetuo durabit, quandoquidem a frictione omnibusque motus obstaculis mentem abstrahimus. Ut ergo motus gyratorius prodeat perennis, necesse est turbini primum maiorem celeritatem angularem  imprimi, quam ista formula exhibet. Patet autem, quo maior turbini celeritas angularis imprimatur, eo minus eum ad horizontem inclinatum iri, ac si
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 916
+
+celeritas illa foret infinita, turbo eandem inclinationem perpetuo conservaret. Quando autem motus gyratorius est perennis, turbo ab initio magis ad horizontem inclinabitur, donec maximam inclinationem attigerit, tum iterum se eriget usque ad statum initialem, quo ubi pervenerit, quasi unam motus sui periodum absolvisse est censendus, deinceps simili modo progressurus; nunquam enim turbo magis fiet erectus, quam fuerat initio, si quidem nulla affuerit frictio. Namque si turbo, dum cuspide super plano horizontali incedit, frictionem offendat, eius effectus in erigendo turbine consumetur, quatenus is ob minutam eeleritatem angularem non prolabi cogitur. Quare nemini mirum videri debet, si experientia nostro calculo minus conveniat, cum aberrationes frictioni sint tribuendae.
+
+SCHOLION 2 868. Ex his etiam ratio constructionis turbinum perspicitur, ut facillime motum gyratorium recipiant, seu ut minima celeritas angularis ad hoc sufficere possit. Scilicet cum celeritas
+
+angularis
+
+initio
+
+impressa
+
+maior
+
+esse
+
+debeat
+
+quam
+
+2c fg aa
+
+,
+
+patet
+
+turbinis
+
+figuram
+
+eiusmodi
+
+esse
+
+oportere, ut eius momentum inertiae respeetu axis AF sit maximum prae momento respectu
+
+axium ad hunc normalium. Quare figura aptissima erit discus planus hasta tenuissima
+
+transfixus, quo casu fit aa = 2cc; ae si radius eius disci fuerit = h, erit
+
+aa =
+
+1 2
+
+hh
+
+et
+
+cc
+
+=
+
+1 4
+
+hh
+
+,
+
+hincque
+
+e
+
+>
+
+2
+
+fg h
+
+. Deinde quo brevior fuerit cuspis seu intervallum
+
+IF = f, eo magis celeritas angularis  ad durationem gyrationis requisita minuitur; verum tum
+
+etiam in minore inclinatione turbo planum horizontale corpore suo attinget. Ponamus
+
+h
+
+=
+
+1 2
+
+dig.
+
+et
+
+f
+
+=
+
+1 4
+
+dig.,
+
+quoniam
+
+g=
+
+187
+
+1 2
+
+dig.,
+
+sumi
+
+debet
+
+
+
+>
+
+750 ; quare si capiatur 
+
+dupla maior vel 
+
+= 55, turbo uno minuto secundo conficiet arcum = 55, seu
+
+55 2
+
+, hoc est
+
+fere novem revolutiones absolvet. Pro turbinibus autem maioris moduli celeritas angularis
+
+minor secundum rationem subduplicatam laterum sufficiet.
+
+PROBLEMA 101 869. Si turbini initio datam inclinationem tenenti impressus fuerit motus gyratorius satis insigni celeritate angulari, ut inclinatio eius minimas subeat mutationes, definire eius motum gyratorium.
+
+SOLUTIO Manentibus omnibus, uti in problemate praecedente sunt constituta, assumimus hic 
+
+multis vicibus excedere quantitatem
+
+4ccfg a4p
+
+.
+
+Ponamus ergo
+
+ = 4nccfg
+a4p
+
+ut n hic denotet numerum satis magnum, ac primo pro relatione inter t et p hanc habebimus
+
+aequationem, quia ab initio quantitas p decrescit,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 917
+
+dt = -dp p(cc+ ff - ffpp)
+2 fg(p- p)(p-ppp-np +np)
+cum igitur p quam minimum a p deficiat, ponamus p = p ­ u, ut u sit particula vehementer exigua, fietque
+dt = +du p(cc+ ff - ff pp)
+2 fgu(p-p3 -nu)
+hincque
+
+( ) t = +
+
+p(cc+ ff - 2 nfg
+
+ff
+
+pp)
+
+
+
+du
+
+p
+
+- p3 n
+
+u -uu
+
+=C+ +
+
+p(cc+ ff - ff pp) 2 nfg
+
+A sin
+
+vers
+
+.
+
+2 nu p -p3
+
+,
+
+ubi debet esse C = 0. Quare ab initio ubi u = 0 seu p = p usque ad tempus, quo inclinatio fit
+
+maxima seu erit tempus
+
+u
+
+=
+
+p(1-pp)
+n
+
+p
+
+=
+
+p
+
+-
+
+p(1-pp)
+n
+
+,
+
+=  p(cc+ ff - ff pp) ,
+2 nfg
+
+quod ergo eo est brevius, quo maior fuerit numerus n. Deinde vero fit
+
+d = -2 nfg  udt
+c(1-pp) p
+
+sive
+
+( )  = -
+
+(cc+ ff - ff c(1-pp)
+
+pp)
+
+
+
+du u ,
+
+p
+
+- p3 n
+
+-u
+
+unde elicitur
+
+=-
+
+(cc+ ff - ff pp) c(1-pp)
+
+ 
+
+p(1-pp)
+2n
+
+A sin
+
+vers.
+
+2nu
+p(p -pp)
+
+-
+
+ 
+
+p(1-pp)
+n
+
+u
+
+-
+
+uu
+
+ 
+
+ 
+
+.
+
+Arcus scilicet ZA in sensum oppositum progreditur, et elapso tempore t
+
+
+=
+
+p(cc+ ff - ff pp) =  c
+2 nfg
+
+(cc+ ff  aa
+
+-
+
+ff
+
+pp)
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 918
+
+quo turbo maxime ad horizontem inclinatur, fit  = -  p (cc+ ff - ff pp) .
+2nc
+
+Non quidem axis A motu aequabili circa verticem Z circumferetur, sed neglecta motus
+
+inaequalitate erit celeritas angularis media
+
+pfg cn
+
+=
+
+2 fg  aa
+
+ob
+
+n
+
+=
+
+ a4p 4ccfg
+
+,
+
+ita ut haec celeritas angularis ipsius axis turbinis circa verticem Z sit reciproce, ut celeritas
+
+angularis turbinis circa proprium axem. Deinde dum turbo maximam habet inclinationem, ut
+
+sit
+
+p
+
+=
+
+p
+
+-
+
+4ccfg (1-pp)
+ a4
+
+,
+
+celeritas angularis  ' ita definitur, ut sit
+
+seu eritque seu ipse arcus minimus
+
+
+
+'
+
+
+
+'
+
+=
+
+
+
++
+
+16
+
+ffgg (1-pp)
+ a4
+
+
+
+'
+
+=
+
+
+
++
+
+8
+
+ffgg (1-pp)
+ 3a4
+
+,
+
+cos 
+
+=
+
+cos
+
+AO
+
+=1-
+
+8
+
+ffgg (1-pp)
+ 4a4
+
+=1-
+
+1 2
+
+
+
+
+
+=
+
+AO
+
+=
+
+4
+
+fg (1-pp)
+ aa
+
+.
+
+Pro pressione autem cuspidis F in planum horizontale habetur pro motus initio, seu ubi p = p
+
+et axis turbinis maxime erectus
+
+ M
+
+=
+
+cc
+
++
+
+cc ff -
+
+ff
+
+pp
+
+;
+
+at quando turbo maxime inclinatur:
+
+ M
+
+=
+
+cc+2 ff (1-pp) cc+ ff - ff pp
+
+-
+
+ 'ccf 3gp(1-pp)
+eea4 (cc+ ff - ff pp)
+
+.
+
+Haeque ad motus cognitionem sufficiunt.
+
+COROLLARIUM 1 870. Si axis turbinis initio fuerit in a, posito Za = l cum sit p = cosl , si A sit maxima
+elongatio axis a vertice, posito ZA = l, quia est
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 919
+
+p
+
+=
+
+cos
+
+l
+
+=
+
+cos l
+
+-
+
+4ccfgsin 2l  a4
+
+erit
+
+l
+
+=
+
+l
+
++
+
+4ccfgsinl  a4
+
+.
+
+COROLLARIUM 2 871. Quia in maxima turbinis inclinatione arcus ZA est maximus, evidens est polum gyrationis O tum in ipsum arcum ZA cadere debere, ut sit ZO < ZA, et tum intervalIum hoc AO erit
+= 4 fg(1- pp) .  aa
+
+SCHOLION 872. Hactenus sumsimus turbini initio motum gyratorium imprimi circa ipsum axem AF, qui est casus maxime communis. Verum tamen fieri potest, ut ipsi circa alium motus imprimatur, quod evenit, si axis verus AF, dum turbo circa eum gyratur, simul impulsionem accipiat, qua ad horizontem vel magis inclinetur, vel inde magis erigatur. Hoc enim eodem redit, ac si turbini circa alium axem motus gyratorius imprimeretur, nisi quatenus inde simul motus progressivus oritur, qui cum nihil habeat difficultatis, ad eum non respiciamus. Casus quidem iam ante tractatus huc referri potest, si statum quendam medium, quo turbo iam circa alium axem praeter AF gyratur, tanquam initialem spectemus, sed quoniam ibi axis turbinis se nunquam ad situm verticalem erigere potest, in eo non omnes motus continentur. Quare conveniet adhuc eum casum pertractari, quo turbinis axis AF primo quidem tenet situm verticalem, ipsi autem motus gyratorius circa alium axem ad horizontem inclinatum imprimitur, quem casum etiam per formulas generales ante evolutas resolvere poterimus.
+
+PROBLEMA 102 873. Si turbinis axis initio fuerit verticalis, eique circa axem quendam inclinatum impressus sit motus gyratorius data celeritate angulari, determinare motum turbinis.
+
+SOLUTIO
+
+Cum ergo initio punctum A fuerit in Z, ponamus arcum AC in circulum ZX incidisse, ita ut
+
+arcus AB fuerit ad ZX normalis. Quare facto t = 0 erat l = 0, m = 90° et n = 90°
+
+ideoque
+
+p = 1, q = 0 et r = 0;
+
+ac  = 90°, v = 0 , manente  indefinito, tum vero initio turbini impressus fuerit motus
+
+gyratorius celeritate angulari =  in sensum ABC circa polum in arcu AC situm, ita ut posito
+
+t = 0, fuerit
+
+ = a,  = 90° et  = 90° - a ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 920
+
+ideoque
+
+x =  cosa, y = 0 et z =  sina .
+
+His positis statum turbinis post tempus = t ex § 862 definiemus, si constantes per integrationem ingressas his conditionibus convenienter determinemus.
+
+Primo
+
+ergo
+
+fiet
+
+A
+
+=
+
+ cosa ,
+
+deinde
+
+B
+
+=
+
+aa cc
+
+
+
+cosa
+
+;
+
+tertio
+
+Ccc ff
+
+-
+
+4g f
+
+-
+
+ cc sin2 a ff
+
+=
+
+0,
+
+sive
+
+C
+
+=
+
+4 fg cc
+
++  cc
+
+sin2
+
+a
+
+his autem valoribus substitutis obtinebimus
+
+qy
+
++
+
+rz
+
+=
+
+
+
+aa cos cc
+
+a
+
+(1- p)
+
+qz - ry =
+
+( ) ( c4 (1- pp) sin2 a +4ccfg(1- p)(1- pp)- a4 (1- p)2 cos2 a
+c (cc+ ff - ffpp )
+
+yy
+
++
+
+zz
+
+=
+
+ c6
+
+sin2
+
+a +4c4 fg(1- c4 (cc+
+
+p)+ a4 ff ff - ffpp)
+
+(1-
+
+p)2cos2a
+
+hincque
+
+dt =
+
+- cdp (cc+ ff - ffpp)
+
+(1- p) (4ccfg(1- pp)+ c4 (1+ p) sin2 a - a4 (1- p)cos2a)
+
+quoniam initio quantitas p minuitur.
+Porro ob  ' ' = xx + yy + zz
+
+et x =  cos a erit
+
+''
+
+=  cos2a
+
++
+
+
+
+c6
+
+sin2
+
+a
+
++
+
+4c4 fg(1- c4 ( cc+
+
+p)+ a4 ff ff - ffpp )
+
+(1-
+
+p)2cos2a
+
+ac tandem
+
+d =
+
+- aadt cos cc(1+ p)
+
+a
+
+.
+
+COROLLARIUM 1 874. Ex formula pro dt inventa iudicare licet, utrum turbo sit prolapsurus, necne. Ponatur enim p = 0, et denominatoris factor
+4ccfg +  c4 sin2 a -  a4 cos2 a,
+quoties est positivus, turbinem ad lapsum proclivem indicat; quod ergo evenit, si
+4ccfg +  c4 sin2 a >  a4 cos2 a
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 921
+
+COROLLARIUM 2
+
+875. Ne ergo turbo prolabatur, primo necesse est, ut sit
+
+a4 cos2 a > c4 sin2 a
+
+seu
+
+tang
+
+a
+
+<
+
+aa cc
+
+,
+
+deinde vero esse oportet
+
+
+
+>
+
+a4
+
+4ccfg cos2 a -c4
+
+sin2
+
+a
+
+;
+
+seu celeritas angularis primum impressa superare debet limitem
+
+2c fg
+( ) a4 cos2 a-c4 sin2 a
+
+et quidam notabiliter, ne turbo, dum inclinatur, corpore suo horizontem attingat.
+
+876. Quando autem est tam quam
+
+COROLLARIUM 3
+
+tang
+
+a
+
+<
+
+aa cc
+
+,
+
+ >
+
+4ccfg
+
+a4 cos2 a -c4 sin2 a
+
+axis turbinis non ad horizontem usque inclinari, seu quantitas p ad nihilum usque diminui potest; sed minimus eius valor prodiens ex aequatione
+
+4ccfgpp =  p(a4 cos2 a + c4 sin2 a) -  a4 cos2 a +  c4 sin2 a + 4ccfg
+
+reperitur
+
+( ) ( )  (a4 cos2 a +c4 sin2 a) -  4 a4 cos2 a +c4 sin2 a 2 -16 ccfg a4 cos2 a -c4 sin2 a 2 +64c4 ffgg
+
+p=
+
+.
+
+8ccfg
+
+877. Sin autem fuerit seu aequatio inter p et t erit
+
+COROLLARIUM 4
+
+tang
+
+a
+
+=
+
+aa cc
+
+a4 cos2 a = c4 sin2 a,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 922
+
+dt =
+
+- dp (cc+ ff - ffpp)
+
+(1- p) (4 fg(1- pp)+2 ccp sin2 a)
+
+atque p non solum ad nihilum usque, sed etiam ad valorem negativum minui poterit, qui foret:
+
+( )  cc sin2 a -  4c4 sin2 a+16 ffgg
+
+p=
+
+4 fg
+
+sed tantam inclinationem status quaestionis excludit.
+
+SCHOLION 878. Status initialis talem motum exhibens in fig. 112 repraesentatur, ubi axis turbinis
+A in ipso vertice versatur, bini reliqui vero in B et C, et circulum quidem verticalem fixum AX ita assumsimus; ut in eo esset quadrans AC et alter AB ad istum normalis. Initio motus ergo erat
+l = 0, m = 90° , n = 90°,
+
+ideoque
+
+p = 1, q = 0 , r = 0 ,
+
+tum vero  = 90° et  = 0 , existente  indefinito.
+
+Deinde vero turbini initio motum gyratorium impressum esse sumo circa axem IO, existente arcu AO = a , eumque celeritate  in sensum
+ABC; sicque posito t = 0 erat  = a,  = 90°,  = 90° - a et  ' = 
+
+hinque
+
+x =  cos a, y = 0 et z =  sina .
+
+Ne igitur hoc casu turbo prolabatur, binae conditiones requiruntur, altera ut sit
+
+altera ut sit
+
+tanga
+
+seu
+
+tang
+
+AO
+
+<
+
+aa cc
+
+,
+
+>
+
+2c fg
+
+.
+
+( ) a4 cos2 a-c4 sin2 a
+
+Ac si velimus, ut axis quam minime inclinetur, fiatque p = 1-  existente  particula valde
+
+parva, reperitur
+
+
+
+=
+
+ a4
+
+2 c4 sin2 a cos2 a + c4 sin2
+
+a -8ccfg
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 923
+
+quare arcus AO = a quam minimus esse, deinde vero  a4 multum excedere debet 8ccfg ut sit
+
+
+
+>
+
+2c
+
+2 aa
+
+fg
+
+.
+
+Quod si eveniat, motus satis erit regularis, quem accuratius determinasse iuvabit.
+
+PROBLEMA 103
+
+879. Si turbini in situ erecto constituto circa axem quam minime declinantem impressus fuerit motus gyratorius satis celer, ut turbo parumper tantum a statu erecto recedat, eius motum determinare.
+
+SOLUTIO Sumimus ergo arcum AO = a initio fuisse valde parvum et celeritatem angularem initio impressam  tantam, ut fuerit
+
+ a4 cos2 a > 8ccfg .
+
+Ponamus ergo
+
+ a4 cos2 a = 8nccfg
+
+ut sit n> 1, et habebimus
+
+dt =
+
+- cdp (cc+ ff - ffpp)
+
+(1- p)(4ccfg(1- pp)-8nccfg(1- p)+ c4 (1+ p) sin2 a)
+
+Quia ergo novimus p parum infra unitatem diminui, statuamus p = 1- u ,
+
+fietque neglectis terminis minimis
+
+dt =
+
+cdu
+
+,
+
+u(8 fgu -8nfgu+2 cc sin2 a- ccu sin2 a)
+
+cuius integrale est
+
+t=
+
+( cc
+
+sin2
+
+c
+a +8( n -1)
+
+fg )
+
+A
+
+sin
+
+vers.
+
+u( cc
+
+sin2 a+8(n-1)
+ cc sin2 a
+
+fg )
+
+cum nunc maximus valor ipsius u sit
+
+=
+
+
+
+cc
+
+2 cc sin2 a
+sin2 a+8(n-1)
+
+fg
+
+tempus usque ad maximam turbinis inclinationem est
+
+c
+
+=
+
+ cc
+
+( cc sin2 a+8(n-1) fg) ( c4 cos2 a+ c4 sin2 a-8ccfg)
+
+atque turbo tum declinabit a situ erecto angulo exiguo, cuius sinus versus est
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 924
+
+ipse angulus
+
+=
+
+
+
+c
+
+4
+
+cos
+
+2
+
+2 c4 sin2 a a+ c4 sin2
+
+a
+
+-8ccfg
+
+=
+
+2 cc sina
+
+.
+
+( )  c4 cos2 a+ c4 sin2 a-8ccfg
+
+Deinde cum sit
+
+d =
+
+- aadt cos a cc(1+ p)
+
+hicque p ut constans = 1 considerari possit, tempore, quo turbo ad maximam inclinationem
+
+pertingit (Fig. 111), eius axis versabitur in plano verticali, quod a circulo ZX declinat angulo
+
+XZA = 90o -
+
+ aa cos a
+
+;
+
+( ) 2  c4 cos2 a+ c4 sin2 a-8ccfg
+
+prima enim initio, quo A circa O gyratur fig. 112, angulus
+
+
+
+est rectus seu =
+
+ 2
+
+.
+
+COROLLARIUM 1
+
+880. Cum arcus initialis AO = a sit quasi infinite parvus, et angulus XZA =  initio fuerit =
+
+90°, elapso tempore t, fiet hic angulus
+
+=
+
+90o
+
+-
+
+ aat 2 cc
+
+.
+
+Axis ergo turbinis ex puncto verticali egressus in antecedentia movetur, et
+
+integrum circuitum absolvit tempore =
+
+4 acc  aa
+
+min. sec.
+
+COROLLARIUM 2 881. Cum initio esset u = 0, elapso tempore t fiet
+
+1-
+
+u( a4 -8ccfg)  c4 sin2 a
+
+=
+
+cos
+
+t
+
+( a4 -8ccfg) .
+cc
+
+Posito autem arcu ZA minimo = l, ob
+
+p
+
+=
+
+cosl
+
+=
+
+1
+
+-
+
+1 2
+
+ll
+
+,
+
+erit u =
+
+1 2
+
+ll
+
+,
+
+hincque
+
+l = 2 cc sina sin t ( a4 -8ccfg) .
+
+( a4 -8ccfg)
+
+2cc
+
+ita ut ad quodvis tempus t assignare valeamus  et l.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 925
+
+COROLLARIUM 3
+
+882. Cum axis turbinis ex Z digressus ad maximam declinationem pertingit, praeterlabitur
+
+tempus
+
+=
+
+ cc
+
+,
+
+( a4 -8ccfg)
+
+quo tempore is circa Z in antecedentia circumfertur per angulum
+
+ aa
+
+,
+
+2 ( a4 -8ccfg)
+
+qui ergo recto est maior atque in verticem Z revertetur absoluto angulo
+
+maiore duobus rectis.
+
+ aa ( a4 -8ccfg)
+
+SCHOLION 883. Huiusmodi motibus evolvendis fusius non immoror, cum omnia phaenomena facile ex formulis inventis derivari queant. Probe autem meminisse oportet, hic nullam frictionis rationem esse habitam, quae quamvis parva statuatur, phaenomena hic definita vehementer perturbat. Ex frictione enim, quam cuspis F super plano horizontali incedens patitur, nascitur vis horizontalis, qua turbini motus progressivus imprimitur, et quia directio illius vis continuo mutatur, facile causa perspicitur, cur turbines motu curvilineo incedere observentur. Verum motus ob frictionem perturbati singularem exigunt tractionem; quare sepositis huiusmodi impedimentis ad alia quaedam motus genera, in quibus gyratio occurrit, progrediamur; et quoniam hic eiusmodi corpora sum contemplatus, quae cuspide super plano horizontali incedunt, ita ut cuspis sit quasi basis eorum censenda, hic ad alia corporum genera ducimur, quae basi quacunque super plano incedant. Ac de basi quidem plana vel angulosa vix quicquam proferri potest attentione dignum, cum vel nullus motus gyratorius locum inveniat, ideoque motus determinatio nihil habeat difficultatis, vel saltem per saltus gyratio se immisceat, dum contactus ad aliam hedram transfertur, ubi simul conflictus se exerit, cuius explicatio ad aliam Mechanicae partem est referenda. Hic igitur eiusmodi tantum bases, quibus corpora super plano immobili incedant, contemplari convenit, quae curvatura continua sint praeditae, ne ulius saltus in motu occurrat. Nimias autem ambages, quae in calculos inextricabiles perducerent, evitaturi, duo tantum corporum genera, cylindrica scilicet ac sphaerica, potissimum evolvamus, quorum nimirum figura externa, qua plano applicantur, sit vel cylindrica vel sphaerica, quomodocunque materia intrinsecus fuerit distributa, cuius ratio ex centro inertiae et axibus prineipalibus determinatur. Hinc ad genus cylindricum referuntur ea pendula, quae non ab axe lineari, uti supra assumsimus, sunt suspensa, sed axiculis cylindricis utrinque plano horizontali incumbant. Deinde etiam huc pertinet motus vacillatorius motui cunarum reciproco similis, cuiusmodi corpora, quatenus super plano incumbunt, tanquam cylindrica spectari possunt. Deinde etiam, quomodo huiusmodi corpora
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SEVENTEEN : PLENIOR EXPLICATIO MOTUS TURBINUM...
+
+Translated and annotated by Ian Bruce.
+
+page 926
+
+super plano inclinato descendant, operae pretium erit scrutari. Ad corpora porro sphaerica refero non solum ea, quorum tota figura est globosa, sed etiam quae inferius, ubi planum attingunt, in hemisphaerium sunt efformata, veluti sunt turbines, quorum axes infra non in cuspidem sed quasi in hemisphaerium desinunt; ubi quidem centrum inertiae magis est elevatum, quam centrum hemisphaerii, quando autem profundius est situm, aliud motus genus oriri potest, quo corpus quasi titubando oscillationes peragit, in quo motu mira motus gyratorii perturbatio locum habere potest.
+
+

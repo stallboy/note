@@ -1,0 +1,2655 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 81
+
+Chapter III
+Concerning the External Causes of Motion or Forces
+DEFINITION 12
+117. A force is the name given to that [action] which prevails to change the absolute state of bodies; which hence must be due to external causes, since the body will remain in its own state due to internal causes.
+COROLLARY 1
+118. Therefore the cause is called the force, by which a body in a state of absolute rest begins to move, or for a body carried along with an absolute motion the speed or direction is changed.
+COROLLARY 2
+119. Therefore the force is the external cause able to change the absolute state of bodies; and as long as such a cause is not introduced, the body persists in the same absolute state either of rest or of uniform motion along a straight line.
+EXPLANATION
+120. In a body itself there is nothing that tries to change its state; on this account we have said that a body remains in the same state, and it is impelled to follow its own special course as long as it is not undergoing any external action. Therefore when this comes about, in order that the absolute state of some body is changed, the cause certainly cannot be sought in that body itself, otherwise no change of the state can happen, if indeed we have defined the state in this manner, so that a body is said to persist in that state as long as it is not acted on by any external causes. Moreover that internal cause, on account of which a body persists in that same state, is the inertia of this body, due to which everything is maintained in a body either at rest or considered to be in motion, so that not only is it carried along wholly, but also indeed any [internal] cause is prevented from acting, if it should be present in the body, that might extend as far as to change the state of the body. Whereby if we attach the word force [vis in Latin] to that cause, which prevails to change the absolute state of the body, certainly the force changing its state cannot be attributed to the body itself, but, whenever the state of the body is changed, it is necessary that the cause of the change, or the force, always exists outside the body.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 82
+
+SCHOLIUM 1
+121. Hence the question arises here, from where do the forces arise that we observe continually changing the state of bodies ? or, since they are not situated in the bodies, to what immaterial substances are they to be attributed ? Certain philosophers are accustomed to reason otherwise ; since indeed the state of bodies is continually changing, they conclude that the cause of this change it contained within the bodies and hence in turn they infer that individual bodies are to be provided with the force for their state to be continually changing, and thus they completely overturn the principle of inertia. Now by this reasoning they are committed to a conspicuous leap ; for if we concede the first part, that the cause of the change of the state of bodies is present in the bodies, we negate everything in the other part, for the force to be given changing their own state. It is evident that we remove only the cause of the change of state from the body of which the state is changing, and we affirm that the cause is to be found in other bodies ; and thus we have attributed the force to be due to the change in state of other bodies, not its own. Because that is so lacking, it must be considered as absurd, so from that, because individual bodies are given the facility to persist in their own state, it follows that the force present must be due to other bodies changing their state. Indeed in a collection of many bodies, unless either all the bodies are at rest or they are being carried along in the same direction with equal speed, by necessity it happens, that each and every one may be unable to remain in their own safe state of the remainder. For we may consider two bodies A and B which come together ; certainly it cannot happen that A continues its own motion, unless likewise body B has not had its own state of rest disturbed, nor so that body B persists in a state of rest, unless likewise the motion of body A is stopped. Whereby, since both are likewise unable to maintain their own state, it is necessary that the state of either or even of both is changed, and that on account of this, that each is trying to persist its own state. Consequently the abilities of bodies to persist in their own states is to be supplied by forces, by which the state of others is able not to be changed.
+SCHOLIUM 2
+122. Now again if we ask, why both these bodies A and B likewise cannot persist each in its own state, and clearly we can grasp that from the impenetrability in place. For if these bodies were able to penetrate each other, thus so that the one could pass most freely through the other as if it were permitted, certainly nothing would stand in its way, that would hinder the body A in its motion and body B would persist at rest, and thus each complies with the demands of inertia. Therefore the cause of that force, by which the state of the body is changed, must be constituted not only from the inertia, but from the inertia together with the impenetrability. Now because not unless the impenetrability for bodies can be known in advance, moreover by necessity the inertia of bodies are known have been declared, and as the impenetrability by itself involves
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 83
+
+inertia, thus so that the impenetrability alone can be considered as the origin of all the force by which the state of the body is changed. Hence it is agreed to assess this property of bodies more carefully as the origin of all forces.
+
+DEFINITION 13
+123. The Impenetrability is that property of bodies, by which two or more bodies are unable to be at the same place at the same time, and thus at least this is extended to the elements of the bodies, thus so that indeed two elements cannot exist at the same place at the same time.
+COROLLARY 1
+124. Hence by this property all it is necessary that all bodies in turn are present beyond each other, since indeed not the smallest parts are able to penetrate each other in turn.
+COROLLARY 2
+125. Since impenetrability by necessity is a property of all bodies, evidently no force is given, which is strong enough to bind together two bodies at the same point, and the greatest force [available] producing such an effect is equally inferior and small.
+COROLLARY 3
+126. Hence in whatever way the state of a body may be changed by forces, yet it is never able to happen, that from these two elements or points, the bodies are going to be joined together at the same point.
+EXPLANATION 1
+
+127. Against this general property of bodies, certain experiments are wrongly brought to mind in which bodies may be considered and said to penetrate each other in turn. Evidently a ball forced into clay is said to penetrate, but here this word penetrate is taken in another sense; for no part of the ball extends to a place of this kind, where a part of the clay may prove to be; but because the ball now occupies the place occupied before by the clay, the word penetration is used. But here we only deny some place that it is possible for the body to occupy, which likewise may be occupied by another, which was not previously occupied by the other. In a similar way, when water is said to penetrate a sponge, the water only fills the interstitial spaces or pores in the sponge again, which could not be distinguished before from the substance of the sponge, is considered to have penetrated the sponge itself, but we understand from a more careful examination of the thing that there are hardly any particles of the sponge
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 84
+
+present anywhere, where likewise the particles of water are present. In the same manner this idea is found in bodies, which can be compressed into a smaller space ; for not under any circumstances can two particles be reduced to the same place, but the distances between the particles are made less, thus each material which before had the spaces so far filled up, hence drives the particles apart. Therefore from these properly assessed considerations there is no doubt remaining, since bodies are impenetrable or since generally it cannot happen that two bodies are present at the same place at the same time.
+
+EXPLANATION 2
+
+128. Therefore the idea of impenetrability depends on the idea of position [i. e. a place or a point in space], without which it is unable to be entirely consistent. For if there should be no difference in the position of bodies, what was impenetrable cannot be understood in any way. Indeed photospheres, who deny the reality of a point, say that bodies by necessity can exist without these ; but what shall be outside and what inside, if a place without bodies is to be nothing, these are not at all defined. What have been defined above for absolute rest and motion, abundantly show that position is not a pure concept of the mind , and now from impenetrability we have understood splendidly well the idea of position itself more in a self-consistent manner than only by the mutual relation between bodies, thus so that also with the bodies removed nothing is relinquished from the place. Thus a point [in space] is something not depending on bodies and neither is it a pure concept of the mind ; but something which has a reality beyond the mind, that I may not have intended to define, even if we must recognise some reality in that. But when philosophers assign all real things to certain classes and they cite none of these to which a point can be referred, I may prefer to believe that these classes have been wrongly set up for these, since they do not understand well enough the thing being referred to here. The account of time has been set up in a similar manner, in which they assert that there is nothing real in the present, as they attribute all of reality to before and after. Therefore just as the true idea of the position of a point and of space is more contained in itself, as arranged to be existing together, thus also the truth of time is more contained in itself than as an arrangement of successions; although I may concede that the first of these ideas about these things has arisen from us.
+[What Euler seems to be saying is : a point exists in absolute space independent of any body; if a body is present at that point, however, then another body cannot also be present at the same point, and in this way a unique point is defined, whether a body is there or not. The continuum of all such points then constitutes the space. A point in time is defined as an extension of this : a body can be at a given point at a given time. By extension, we can say that a point exists both in space and time, whether or not a body is present there and then. In addition, one would guess that atoms were the small point masses that Euler had in mind, although the experimental proof of their existence was not then available.]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 85
+
+SCHOLIUM 1
+129. Indeed with the notion of impenetrability established I have no doubts regarding that essential property [the essence] of bodies put in place ; this will be considered to be considerate, when nearly all the philosophers unanimously call the essential property of bodies to be completely unknown to us. I concede this easily, certainly concerning the different kinds of bodies, and neither do I think that the essential property of gold or silver is known by us. For whatever the property is that constitutes the essence of gold, it is unclear, but that property agrees in each state or can it be that in another body, since that shall not be gold, that the same [outcome] is provided, and this certainty destroys that assertion; but when it is the question about bodies in general, I do not fear such an objection; for anyone who wishes to deny the essential property of bodies that impenetrability is to be allowed, he is denying or even he must doubt that all bodies are either impenetrable or not as the case may be; for whatever is impenetrable, that is to be a body. For which property agrees with all and only with bodies, for in that the essential property of bodies is to be set up so that none of the philosophers shall be in doubt. In the first place it is most certain that all bodies are impenetrable, for if they are given extended and also provided with inertia, which clearly leaves them either at rest or moving uniformly in some direction, yet, if they should lack impenetrability, nothing can be assigned to these bodies, hence it is as shadows and apparitions represented by optical devices, and not to be considered as real bodies. It is necessary then that everything that is impenetrable is extended and has the aforementioned inertia too; for without extension it is not possible to conceive impenetrability, now it is the case that the body must be moving, while with mobility put in place also inertia is put in place. Whereby, whatever is meant by impenetrability, there is certainly no cause why a body should not be considered to have this property.
+SCHOLIUM 2
+130. Now a more serious objection against this opinion can thus be asked to be put in place, because impenetrability by itself cannot be perceived by us : clearly it is necessary that the notion of this involves several bodies. And hence I readily concede the definition, by which a body is said to be an impenetrable substance, not to be in agreement with the rules of the philosophers, not because impenetrability as an essential property has been put badly, but because this definition cannot be understood without the preceding notion of a body. For if it should be asked, what is an impenetrable substance? and there is the response, which is for bodies that the operation cannot be done at all, that this substance cannot be penetrated by other impenetrable substances. But although we only recognise this property from the mutual comparison of bodies, yet there is no doubt, since the reason for the impenetrability is a certain internal property of each body put in place, thus so that all
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 86
+
+bodies have been provided with a certain property, which is effective in making the bodies themselves impenetrable. Perhaps this property can be aptly called solidness, from which as if the material is constructed which has the correct fundamental property of the bodies. Indeed I admit to falling back on almost the same thing, if I say that the essential property of bodies consists of being corporate [Latin : corporietate, the state of being a body]. Yet impenetrability has guided us to the origin of forces, and thus it is exceptionally distinguished as if by an unadorned note ; which merits further explanation.
+
+THEOREM 2
+
+131. If two bodies thus join together, in order that neither is able to maintain its state, so that the one is not penetrated by the other, then they act against each other and forces are exerted, by which their state is changed.
+DEMONSTRATION
+
+Since bodies placed in a state of this kind, as they are unable to persist in that state unless they can penetrate each other, and since penetration is not allowed to happen, then it is necessary that a change takes place in the state of these. Moreover since the state of bodies cannot be changed without external forces and in the case that the state is produced from the mutual position, without doubt forces must be present, to which this effect must be attributed. Therefore it is asked, from where do these forces arise ? from each impenetrable body itself or from elsewhere ? If you should assign these to arise from elsewhere, the origin is to be considered somehow in the mind with impenetrability unharmed, and thus there is no change of the state should they touch, and hence the bodies may mutually penetrate each other ; since this is absurd, it is necessary that these forces are to be applied from impenetrability. Clearly at once, the bodies are unable to persist in their state, since they do not mutually penetrate each other, which itself supplies the impenetrability forces, by which the state is changed, in order that penetration may be avoided ; and then these forces exert their effect, the bodies are said to act on each other in turn and the state will change.
+COROLLARY 1
+132. Therefore the bodies act on each other in turn, when thus they meet, as each is unable to persist in its own state, since they may not mutually penetrate each other; from which the distinct idea of the action of bodies, which in the works of many authors is accustomed to be very obscure, is required to be drawn up.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 87
+
+COROLLARY 2
+133. The forces, by which the state of the body is changed in this case, arise from the impenetrability of these and they give rise to so great an effect that penetration is avoided, and these forces are of such a size that to this end they suffice.
+COROLLARY 3
+134. Therefore the magnitude of these forces is determined, nor from the impenetribility, which clearly is of no great capacity, but from the change of the state which must be effected lest the bodies enter each other.
+COROLLARY 4
+135. Therefore these forces derived from impenetrability are themselves exercised to the extend of opposing penetration, and however great the need should be for this from the forces, it always supply the needs of impenetrability, since penetration is never able to arise.
+EXPLANATION 1
+136. When a certain body is hindered by others, either by stopping it, and it remaining at rest, or if it should still be moving, then it is progressing uniformly in a direction, so that this body [by interacting] with the others gives rise to the necessary impenetrability forces : for if either that body or these bodies should be penetrable, then nothing useful arises from the forces ; thus, in order that these forces arise not from the impenetrability of only one body, but from two or more bodies taken together. Certainly impenetrability without overwhelming resistance cannot be conceived, and thus is considered justly as the source of these forces, by which penetration is averted. Hence what we have dealt with up to this point are fallen back on, so that bodies on account of the inertia in place persist in their state of rest, or of uniform motion, as long as no penetration is to be feared; and now likewise they are unable to continue in their state, since penetration cannot happen, as impenetrability supplies the forces, which produce a change in their own state of this kind, so that all penetration is avoided. Whereby since the universe is full of bodies, of which the state of each is different [or separate], so that, if they remain with each in its state, or they remain for a very short space of time, where penetrations are about to happen, then hence there arises the most productive source of forces for the continual change of the states of bodies. Though we concede that there is as if an infinite supply of forces in the universe, and we have established that these arise from bodies, yet we differ from the opinion of those, who attribute [the property] to bodies that they are continually trying to change their state, since the purpose of these forces is not directly for
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 88
+
+changing the state, but to avoid penetration, and unless it is put to the test, then no forces of this kind are present in the universe.
+
+EXPLANATION 2
+
+137. Now here the question arises, whether or not all the forces, the effect of which we marvel at in the universe, clearly arise from this source ? that is, or is it possible for the state of bodies to be changed by no other forces apart from these, that supply the needs of the danger of penetration? And indeed in the first place does it not pertain to Mechanics, whether to define a spirit to act in bodies and they prevail to change the state of these ? meanwhile in bodies we clearly find nothing that can be directed to spiritual action ; and the action in bodies is seen not to require so great an effort that it is to be attributed only to the omnipotence of divine will, thus as it has to be conceded to the most common bodies. But rather should we not acknowledge that no reason is seen by us, why we should deny the power from the spirit to be acting in bodies, even if we are least able to assign the manner in which they act. Or indeed bodies prevail to act on each other in some other additional way besides that which we have indicated? now that indeed is seen to be denied. For if such forces act, even if there should be no danger of penetration present, in action at a distance it is not apparent how preservation of the state can thus be disturbed; then it follows, since that action does not follow from impenetrability, these forces must act in the same way as if the bodies should be penetrating each other; but how the action is able to cause the bodies to stop is not clear. [Euler had a fascination for magnets, which he may have in mind here.] From which it seems especially plausible that other forces are not mutually exercised between the bodies, other than those by which penetration is avoided, and since these forces are not small, as we examine in this possibility, thus also greater forces need not be put in place than suffice. Moreover here nothing certain is allowed to be decided, for it is necessary for us to be content with having uncovered an abundant source of forces in the operation of the world, from which likewise the mutual action of bodies, and by many philosophers either denied or concealed in the deepest gloom, has been well enough understood. Moreover how many of these forces there shall be proceeding from the impenetrability of bodies in any case, and how many from these others that change the state of bodies, cannot be defined, unless in general initially we have investigated the action of forces.
+
+SCHOLIUM
+
+138. Therefore from the evident origin of forces we are able to obtain correctly the forces in the universe, by which the state of these bodies may be changed. And indeed concerning forces of this kind, to the extent of acting mutually, they maintain bodies in a state of equilibrium, such as is accustomed to be treated in Statics or Dynamics, where by the reckoning of these, because not only are some forces either greater or smaller than others, but also to have the given ratio between them shown. Obviously
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 89
+
+these forces must be referred to a kind of quantity, since they may be compared by the ratio of the quantity, and from Statics we understand, when two forces are considered to be equal to each other, or considered to be unequal according to a given ratio. Therefore by which means we can explore more easily the effect of these on changing the state of bodies, not only on the infinitely small corpuscles, on which it is agreed they begin to act, as from this also the treatment of all motion has been considered; but also we will examine carefully only the momentary action of forces, thus in order that we can investigate how much [change] they bring about in the individual elements of time, because it may occur that in the succession of the time intervals the size of the forces may be changed. But since by beginning with infinitely small corpuscles and with [forces acting for] infinitely short intervals of time, these forces hence shall be considered as constant, and then without difficulty by integration we can progress to the motion of bodies in finite times and with finite changes.
+
+DEFINITION 14
+
+139. The effect of some force produced on a given corpuscle in a given small element of time is that small interval through which a corpuscle at rest is transferred, or if the corpuscle is moving, the small interval propelled beyond that interval in turn traversed on account of the inertia.
+
+COROLLARY 1
+
+140. Hence the determination of this effect is not absolute, but is restricted to a certain body and a certain time, each of which is seen to be infinitely small, as in this way all the variables to be added from elsewhere are removed.
+
+COROLLARY 2
+
+141. Therefore, for the corpuscle, if both the small intervals of distance and time are the same, then the effect is also the same, from which the force is obtained for the same, and this while the corpuscle is either at rest or moving.
+
+COROLLARY 3
+
+142. Clearly if the corpuscle is moving, the force can only be considered this far, as far as the body is propelled beyond that certain small interval, that by the motion imparted it is able to traverse; for in turn from the size of this small interval the force can be reckoned.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 90
+
+EXPLANATION 1
+143. Since in Statics, from which we draw the measurement of forces, the bodies to which the measurements are applied, may be considered in a state of rest, and thus nothing is defined concerning the measurement of these forces when they act on the body in motion, so that this whole [method of] measurement in mechanics is left by us. Hence we may consider in the first place a point or corpuscle at rest at S (Fig. 10), which is acted upon by a certain force equal to p in the direction S , and the effect consists of this, that in the given small time interval dt it is carried forwards through a certain small interval S = d , that somehow depends on the force p as well as on the small time dt, that we may define. This much I note, that if the corpuscle is moving, in the small time dt in which the interval Ss = ds is described (Fig. 11), moreover in that motion as a force equal to p is understood to be acting, when in the same time interval dt, s is carried beyond by an equal interval s = d , if indeed it is being pushed in the direction of the motion itself Ss by the force p. But if the force pushes in the opposite direction then by that in the same short time dt, the body is pushed back by the small interval s = d (Fig. 12), as a force is agreed upon equal to p. Moreover generally, if the corpuscle is moving, by which motion in the short time dt it can traverse the interval Ss = ds (Fig. 13), and it is acted on by a certain force along the direction SV, this has the effect that in the elapsed short time dt the corpuscle is not at s but at  and the small interval s in the direction of the force SV can be considered as a parallel translation, even if actually on account of the continued action it arrives at  from S in an equivalent way; and then eventually that force along SV can be considered equal to that one p acting on the corpuscle at rest, since then this small interval s is made equal to S (Fig. 10).
+EXPLANATION 2
+144. Hence for the forces, by which bodies now set in motion are acted upon, we establish this account of measuring these, so that we can judge these forces to be equal to these which act on the same bodies at rest, and can bring the same effect to bear in the same time. But this is an approved line of reasoning, because it is supported by the definition, and so we are free to set it up. If indeed for some motion, the small interval s in (Fig. 11, 12, 13 ) [i. e. the extra distance travelled due to the force for a body already moving uniformly] is made equal to the small interval S , by which the same resting corpuscle is carried along by the force p in the same small time, to this situation also we call these forces equal, since the argument agrees freely with that and cannot be withdrawn by us in some way, since calling these by the same name is also in agreement with the common manner of speaking.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 91
+
+[i. e. Depending on the reference frame chosen, either the bank or the flowing water, and it is not necessarily the case that the forces are equal in the two reference frames; the above argument shows that the forces are in fact equal. Also, Euler now indicates that there can be no distinction between absolute and relative forces in this situation, and thus the inertial frames are equivalent, although of course he does not use these exact words, in what follows]. For neither do I set up the same influences, which we observe in the world, to produce the same effect on the same body which is either in motion or at rest, and I concede entirely that the same body in the river is either moving or at rest, and it is somehow impelled along. Truly this example confirms uncommonly well our account of the measurement; for while we affirm the same body to be impelled along somehow by the river, as long as it should be either at rest or moving, we acknowledge unequal forces and for the body in motion we can reckon precisely a force of such a size, just as great as it can produce the same effect on a body at rest. Hence also, when it is acting on bodies in motion in the river, for whatever step of the speed, the force that the river exerts on the body, can be determined by the action and always a force of such a size can be put in place, just as for the same body at rest, and that will produce the same effect. Whereby the division of forces into absolute and relative forces made in the above books clearly is not relevant here, since in whatever case and for whatever moment that force should be introduced into the calculation, since if the body is moving or at rest, it is impelled along equally. Moreover in contemplation, it is of most interest to know whether they affect bodies at rest and in motion equally or not ?
+
+SCHOLIUM
+
+145. Therefore because we seek the magnitude of the forces acting, with the moving corpuscle restrained from that effect, or from the small distance described in the definition, as if the corpuscle should be at rest. Clearly if the corpuscle at rest at S is acted on by a force equal to p for the short time equal to dt then the small interval S = d is extended, likewise the motion of the corpuscle, that in the short time dt will run through the interval Ss = ds, then from the equality of the force p it will be considered to be acting, if it is carried along following the direction of the force beyond this in addition to the interval Ss by an equal small interval s = d , thus so that here the motion of the corpuscle may change nothing altogether in the effect of the force. But if in fig. 11, 12, and 13, the small interval s should be greater or less than the interval S = d (Fig. 10), we may understand also that the corpuscle is impelled by a greater or smaller force. Whereby if we had been able to determine the effect of some forces on corpuscles at rest, then we will be able to assign the effect of the forces altogether on the motion of the corpuscles, as long as in some case the forces by which the moving corpuscles are acted on can be duly assigned : Where indeed it is always pressing on the body in some motion by a force equal to p acting is to be agreed, when the effect produced on that is equal to that when the force is equal
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 92
+
+to p acting on the same corpuscle at rest and to be produced in the same time. Hence we may see how for a body at rest the small interval S = d can itself be had, if the
+body is acted on by more and more forces that can be shown from Statics.
+
+THEOREM 2a [Th. 2 is enumerated twice.]
+146. The small intervals, through which the same body at rest is advanced in the same small time dt by different forces, are themselves proportional to the forces.
+DEMONSTRATION
+We put the corpuscle to be pulled forwards by a force equal to p in the short time equal to dt through the small interval equal to d ; and if likewise other forces equal to p are acting on the same body along the same direction, by these too the body progresses through an equal small interval equal to d , because from previous propositions this effect does not disturb the motion, as thus it only has an infinitely small effect. Whereby this corpuscle acted on by a force equal to 2p for the short time interval equal to dt is pulled through the small distance equal to 2 d . In a similar manner, if however many forces act on the corpuscle at rest for the time interval dt, they propel that through the interval equal to n d , which hence is the effective force equal to np.
+COROLLARY 1
+147. Hence if there were two equal corpuscles at rest, of which the one is acted on by a force equal to p, and the other by a force equal to P, and in the short time dt the one is moved through the interval d , now the other through the interval d , then d : d = p : P.
+COROLLARY 2
+148. Therefore these are the effects produced in the same small interval of time, with the forces themselves in proportion, where indeed the same measure of the forces is taken as that shown in Statics.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 93
+
+SCHOLIUM 1
+149. The basis of this demonstration consists of this, that I only consider the forces to act for an infinitely short interval of time, thus in order that the motion arising in the corpuscle is infinitely small, which can be taken as zero. For since it may happen, as the force exerted on the body at rest is equal to p, likewise a different force may be exerted on a moving corpuscle, and by our Theorem there is no place for this exception. For even if we may understand more forces equal to p to act as if in succession on the corpuscle, each one produces the same effect, as if the corpuscle should be at rest ; and nor will the infinitely small motion be changed in any way by the action of these. Hence yet the succession of all these, which is allowed only in the mind, must be removed, so that only the total force shall be agreed to act in the time dt.
+SCHOLIUM 2
+150. If it is sought why the determined force p acting on the given corpuscle for the determined short time dt should produce the effect d , the reason for that has been put in place, because in corpuscles a certain ability to be remaining at rest has been put in place, which is that of inertia. Moreover an ability such as this, being able to persist at rest, cannot be considered without a certain resistance which is adverse to the production of motion, which were it greater or less, would be yielding to the action of the force with more or less difficulty. Whereby since this facility agrees with inertia, it is understood that the inertia between quantities is to be referred to, thus in order that the inertia of different bodies can be given in different ratios of the quantities. Which difference we have not examined up until now, while the effect of the forces on the same or on equal corpuscles, which clearly should they be provided with equal inertia, we have examined closely. Therefore now we are to progress to different corpuscles, and we will show how to measure inertia and understand how the inertia is greater in some bodies, and how it can be less in others.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 94
+
+THEOREM 3
+
+151. If equal forces should act on unequal bodies at rest, the effect to be produced in the same small time intervals are inversely proportional to the inertias of the bodies.
+DEMONSTRATION
+
+We may consider a corpuscle A (Fig. 14), which at rest is moved by a force equal to p for the short time dt through the small interval A = d ; if now another
+
+corpuscle B equal to that is acted on by a force also equal to p
+
+along the same direction, that is pushed forwards in the same short time dt by an equal small interval B = d . Now these two
+
+corpuscles are joined together into one, which hence by the force equal to 2p in the short time equal to dt is thrust forwards through the small interval equal to d , thus in order that twice the force 2p on twice the body 2A produces the
+
+same effect and the simple force p on the simple corpuscle A produces the same effect.
+
+And hence it will be understood, if n corpuscles equal to A join together, in order that
+
+one particle results, which shall be equal to nA, and this is acted on by a force equal to
+np, it is going to be propelled in the short time dt through the short distance equal to d . But since the corpuscle nA by the force np in the time dt is being propelled through the small distance d , by the preceding Theorem the same corpuscle nA
+
+acted on by the force p for the time dt will be moved through a distance equal to
+
+d n
+
+and
+
+in
+
+a
+
+like
+
+manner
+
+the
+
+corpuscle
+
+mA
+
+by
+
+the
+
+same
+
+force
+
+acting
+
+p
+
+for
+
+the
+
+equal
+
+time
+
+dt
+
+will
+
+be
+
+moved
+
+forwards
+
+through
+
+the
+
+interval
+
+d m
+
+,
+
+from
+
+this
+
+it
+
+is
+
+apparent
+
+that
+
+these intervals, by which we may measure the effect,
+
+d n
+
+and
+
+d m
+
+vary
+
+inversely
+
+between themselves, so that the corpuscles nA and mA or as the inertias of these.
+
+EXPLANATION
+
+152. Since corpuscle A has a certain inertia, from which that effect of the force acting is determined, two of the same kind joined together as one will show a corpuscle present with twice as much inertia, three threefold, and so on thus. And in turn that corpuscle is understood to have twice as much inertia, for which to be propelled through the given short distance in the given time, it is required to have twice as much force. From which it is clear, how the inertia is referred to the kind of quantity and how in other bodies it can be more, while less in others. Evidently all the corpuscles which are moved forwards by equal forces in equal times through equal distances, are considered to have inertias in an equal ratio to each other and from a joining of this kind of any number of corpuscles it is possible for bodies to arise, for which the
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 95
+
+inertias maintain any ratio between each other. Hence the magnitude of the inertia in determining the effect arising from forces is of the greatest concern and on this account is to be considered most carefully in Mechanics; where it is customary to indicate by the individual names, that it is agreed to set out for the individual definition.
+
+DEFINITION 15
+
+153. The mass of a body or the quantity of matter is called the amount of the inertia which is present in that body, by which just as it tries to continue in its own state so it tries to resist all changes.
+
+COROLLARY 1
+
+154. Hence the mass or the quantity of matter of bodies must be reckoned, not from their size, but from the amount of the inertia, with which they try to continue in their present state, and to be resistant to all changes.
+
+COROLLARY 2
+
+155. Therefore from the inertia the quantity of the matter can be judged, and that body rather for the matter it is considered to contain, not how great a volume it occupies, but according to what greater force is required to be moving in a given manner.
+
+COROLLARY 3
+
+156. Hence the preceding theorem here can be reverted to, in order that, if there are two corpuscles at rest, the masses of which are A and B, which are acted on by equal forces, the small intervals, through which they are thrust forwards in the same small intervals of time, are inversely as the masses.
+
+SCHOLIUM
+
+157. Hence the consideration of the motion has guided us to the recognition of many significant properties of bodies, of which the first of these is inertia, where they try to persist in the same absolute state either of rest or of uniform rectilinear motion. And at first indeed we have only recognised inertia in general, but now we understand that it is a quantity capable of being measured, which also is Cleary significant, which is generally accustomed to be expressed imprecisely by the name of mass or quantity of matter by, now to the extent indeed that we consider a distinct notion to be associated with this. Therefore in bodies beside their extended nature, something else is present that constitutes as it were the reality of these [i. e. their properties], clearly the inertia and the matter, which by necessity is either considered to be connected with the
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 96
+
+solidity or with the impenetrability; which indeed besides the matter to be put in place, with the impenetrability in no manner understood. Nor also is it allowed to consider matter without extension, yet meanwhile it remains in doubt, or that thus by necessity is connected with volume, in order that bodies of the same bulk also contain the same mass or quantity of matter. With no certain account of this equality proposed, we take the trials being considered under equal volumes to conclude that there is more matter in some bodies and less in others. Though indeed it is usual to object to either the whole volume not to be filled with matter or the matter contained in pores not to belong to the same material, yet it hence hardly comes about that all the smallest particles of bodies of equal size are also present with equal inertia. But this especially hard question is not of concern here, even if it is considered plausible with at least two kinds of matter present in the universe, in which the one for equal volumes has a mass much greater than the other. [One must conclude that at this time experimental techniques in measuring densities of materials were barely in existence.]
+
+THEOREM 4
+
+158. If corpuscles are at rest with masses in an unequal ratio, and they are acted on by some singular forces, the small intervals through which they are thrust forwards in the same short time intervals will be composed in the ratio directly of the forces and inversely of the masses.
+DEMONSTRATION
+
+The resting corpuscle of which the mass is equal to A may be acted on by a force
+
+equal to p, by which in the short time dt it is pushed through a short interval equal to d . Now by Theorem 2a, if likewise the corpuscle A should be acted on by another
+
+force equal to q, by that in the same short time interval it is moved forwards through
+
+the small interval equal to
+
+qd p
+
+; but moreover other corpuscle at rest, of which the
+
+mass is equal to B, is being pushed forwards by a force equal to q, that by this in the
+
+same short time interval dt may be moved forwards through the small interval equal to
+
+Aqd Bp
+
+,
+
+by
+
+Theorem
+
+3.
+
+Hence
+
+if
+
+the
+
+resting
+
+corpuscle
+
+A
+
+is
+
+acted
+
+on
+
+by
+
+the
+
+force
+
+equal
+
+to p and the resting corpuscle B is acted on by the force equal to q, the small intervals, through which each in the same short time are carried forwards dt, shall be as d to
+
+Aqd Bp
+
+,
+
+that
+
+is
+
+as
+
+p A
+
+to
+
+q B
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 97
+
+COROLLARY 1
+
+159. Therefore if the short interval d is known through which the corpuscle of
+
+which the mass is equal to A, is pushed forwards by a force acting equal to p for the
+
+short time dt, the small interval, through which the other corpuscle, of which the mass
+
+is equal to B, is propelled by the force equal to q acting in the same time interval dt is
+
+equal to
+
+Aqd Bp
+
+.
+
+COROLLARY 2
+
+160. Therefore to sum up in a manner of speaking, the small interval through which the corpuscle is moved in the short time dt, shall be as the force acting divided by the mass of the corpuscle; that also comes about from the motion of the body if that, which we have considered above, is observed properly here.
+
+SCHOLIUM
+
+161. Therefore just as the effect of the forces acting on some corpuscles depends both on the magnitude of the forces and on the mass of the corpuscles, if indeed the short times should be the same, thus as we have defined, so that no doubt can remain, if this rule treated should not necessarily be true. Yet here indeed we have established the comparison, which exists between the small intervals and the forces and masses, now it is to be noted that between these heterogeneous quantities no absolute determination can be put in place nor here otherwise pertaining to absolute measurements is permitted, unless so that some effect observed in the world is take for examination, and to that as to unity all the remaining effects are to be compared, how that can happen most conveniently we show in detail in the following. Hence moreover it is not yet apparent, how the effect of the forces is to be considered, when the small times are not equal; neither indeed is it allowed from the small elapsed time dt to progress to the following dt, because the corpuscle on account of the motion considered in the first time now on account of the inertia in the following short time what small interval of distance may be performed, to which at last that which has been produced by the force must be added. Whereby lest our preceding determinations may hence be upset, we take all the small time intervals to be equal to each other, and nor also is it possible to compare the ratio of the times, unless the impressed speed for the body is now considered, as we undertake in the following problem. Hence moreover these in turn are made clear, which up to this point have been set out without regard considering the speed.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 98
+
+PROBLEM 9
+162. If a corpuscle should be moving with some speed and likewise it is acted on by a force along the direction of its motion (Fig. 15), to define the momentary change in the
+motion of this body and the movement forwards produced [by the change in the speed].
+
+SOLUTION
+
+Let A be the mass of the corpuscle, which is moving along the direction AB with
+
+the speed equal to v, which on account of the inertia always has to be progressing
+
+uniformly in this direction, unless acted on by an external force. Clearly if in the time t
+
+is describes a distance AS = s and hence in the small time dt it goes on through the
+
+small interval Ss = ds, then
+
+ds dt
+
+is
+
+the
+
+speed
+
+at
+
+S,
+
+surely
+
+equal
+
+to
+
+v,
+
+which
+
+since
+
+the
+
+speed is constant, makes
+
+dds dt 2
+
+= 0 , if unaided by any force. But we put the corpuscle,
+
+while it moves from S, to be acted on by a force equal to p following the direction of
+
+the motion itself SB, and it is apparent that the future motion is to be no longer
+
+uniform, but to be going to accelerate, from which it advances with
+
+dds dt 2
+
+not
+
+equal
+
+to
+
+zero, but it will have a certain positive value, since the force acting increases the
+
+speed, in the direction nothing changes. Now since this formula
+
+dds dt 2
+
+involves
+
+that
+
+small distance, through which the corpuscle is carried forward beyond the small
+
+interval put in place by the motion, that will be directly as the force acting p and
+
+reciprocally
+
+as
+
+the
+
+mass
+
+A
+
+or
+
+dds dt 2
+
+varies
+
+as
+
+p A
+
+.
+
+But
+
+an
+
+absolute
+
+equality
+
+cannot
+
+be
+
+set
+
+up, unless all quantities are reduced to determining unities ; therefore this equality is
+
+thus shown to be indefinite for the present, as it becomes
+
+dds dt 2
+
+=
+
+p A
+
+, where
+
+ denotes a
+
+number to be determined conclusively from the unities [of the other quantities]. Hence
+
+the effect of the force acting p agrees with this, as it becomes dds = pdt 2 on taking
+A
+
+the
+
+element
+
+dt
+
+constant.
+
+And
+
+because
+
+the
+
+speed
+
+is
+
+v
+
+=
+
+ds dt
+
+,
+
+then
+
+dds
+
+=
+
+dvdt
+
+and
+
+thus
+
+dv = pdt ; thus the increment of the speed becomes known, because the force p acting
+A
+
+on the corpuscle A for the short time dt leads it forwards, if indeed the direction of the
+
+force should agree with the direction of the motion, and from that the motion is
+
+accelerated.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 99
+
+COROLLARY 1
+
+163. Hence the effect of the force acting p on the corpuscle, the mass of which is
+
+equal to A and because it is moving along in the same direction with the speed equal to
+
+v, which in the short time dt it completes the small distance equal to ds, with which it
+
+agrees,
+
+as
+
+then
+
+dds dt 2
+
+=
+
+p A
+
+on
+
+taking
+
+dt
+
+constant
+
+or
+
+dv
+
+=
+
+pdt A
+
+.
+
+COROLLARY 2
+
+164.
+
+Hence in turn, if the acceleration of the motion is known, which is either
+
+dds dt 2
+
+or
+
+dv dt
+
+,
+
+the
+
+force
+
+acting
+
+can
+
+be
+
+assigned
+
+producing
+
+that;
+
+then
+
+it
+
+may
+
+be
+
+known
+
+that
+
+it
+
+is
+
+this force :
+
+p
+
+=
+
+A 
+
+dds dt 2
+
+or
+
+p
+
+=
+
+A 
+
+.
+
+dv dt
+
+,
+
+which is to be agreed to be acting along the direction of the motion itself.
+
+COROLLARY 3
+
+165. But if the direction of the force acting p were opposite to the direction of the
+
+motion, from that the motion will be retarded just as great and then
+
+dds dt 2
+
+=
+
+-
+
+p A
+
+or
+
+dv dt
+
+=
+
+-
+
+p A
+
+;
+
+clearly the force with respect to the preceding case is able to be seen as negative.
+
+EXPLANATION
+166. Since here we have found dds = pdt 2 and thus the corpuscle is agreed to run
+A
+through the small interval ds + dds in the short time dt, since with the motion in place, [i. e. the initial speed] only the short distance ds would have been completed, dds is considered that short interval traversed beyond that, through which it is carried by the motion present, on account of the force acting, thus so that pdt 2 shall be that small
+A
+interval d , through which the corpuscle we take at rest A to be pushed forwards by the force p in the time dt . Now it is to be observes that this dds expresses the excess of the distance traversed in the short time dt above that traversed, as in the preceding short time interval dt ran through it was acted on by the same force p. Whereby if the present short distance traversed in the time dt is ds + d , with ds denoting the interval of the motion present described and d the short interval to be added by the force, in the preceding time dt, if in that time with the same force acting, there was only the
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 100
+
+short distance ds - d completed, clearly negative, as if no action were allowed.
+
+Therefore since dds expresses the difference between these two intervals ds + d and
+
+ds - d , then dds = 2d and thus
+
+d = 1 dds = pdt 2 ,
+
+2
+
+2A
+
+hence it is apparent that the short interval d , through which the corpuscle at rest A is
+
+propelled by the force p in the short time interval dt, to be half as large as our dds.
+
+Indeed in the solution that is not equal but only assumed to be in proportion, thus as
+
+hence as not to be considered lacking in rigor. Meanwhile with this presented so far, it
+
+is worth the effort to show another way.
+
+[Rather than continuing to discuss short or minute distances ds and time dt, called
+
+spatiola and tempuscula in the original Latin text, we will refer to these from now on
+
+as the increments or elements ds and dt. As mentioned elsewhere, Euler considers
+
+these as so small that they behave in a linear manner in deriving formulae, and then
+
+they can be considered as infinitely small, or as we would say, the limits has been
+
+taken, usually resulting in finite ratios. At this stage the elements need no longer be
+
+small, as we are dealing with ordinary ratios.]
+
+PROBLEM 10
+
+167. For a given acceleration, which is induced in the corpuscle A moved by a given force p acting along the direction of the motion for the time interval increment dt, to define the interval increment d,through which the same corpuscle A at rest under the
+action of an equal force p for the same time increment dt, is pushed forwards.
+
+SOLUTION
+
+On
+
+account
+
+of
+
+the
+
+given
+
+acceleration
+
+we
+
+have
+
+from
+
+above dds
+
+=
+
+pdt 2 A
+
+on
+
+taking
+
+the element dt constant. Now we may consider the force acting p to remain the same,
+
+it may move the corpuscle either faster or slower, thus in order that the quantity p can
+
+be considered as constant, or rather we can hence determine the motion for some time
+
+t, that yet itself at this point is infinitely small, thus so that no doubt is present, lest the
+
+force p meanwhile does not remain constant. Therefore, since we may consider
+
+dds dt
+
+=
+
+pdt A
+
+,
+
+this
+
+will
+
+become
+
+on
+
+integration,
+
+ds dt
+
+=
+
+C
+
++
+
+pt A
+
+or
+
+ds
+
+=
+
+Cdt
+
++
+
+ptdt A
+
+,
+
+which gives on integrating again :
+
+s
+
+=
+
+Ct
+
++
+
+ptt 2A
+
+,
+
+which is the distance completed in the time t, of which the part Ct denotes the
+
+distance, that the corpuscle A can traverse from the motion alone put in place already,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 101
+
+if it were not acted on
+
+by some force ; moreover the part
+
+ptt 2A
+
+is the increase of this
+
+from the action of the above force, to be added on. Now it is decided that with the
+
+whole time t infinitely small and in place of t the is written dt, and
+
+pdt 2 2A
+
+expresses the
+
+distance increment d , through which the corpuscle A beyond that, which it traverses
+
+from the motion present, in the small time dt being propelled by the force p ; since for
+
+that equally there is the interval increment d , through which the same resting
+
+corpuscle A is pushed through in the same time dt by an equal force p, and we have
+
+d = pdt 2 or d = 1 dds , as we have now found before.
+
+2A
+
+2
+
+COROLLARY 1
+
+168. Therefore the interval increment , through which the body A resting in the infinitely small time dt is pressed by the force p, is a differential of the second order or infinitely less is the interval, than it will describe with any finites speed in the same time.
+
+COROLLARY 2
+169. This distance increment d = pdt 2 again is half the differential of the
+2A
+differential dds, which in the same time increment dt is moved forwards by the same force p acting on the same corpuscle A in some motion.
+
+COROLLARY 3
+170. Hence we now recognise that interval increment d , which we have shown to be directly proportional to the above force p acting and reciprocally to the mass A, in the above ratio to follow as the square of the time increment dt.
+
+SCHOLIUM
+
+171. Therefore from these we are able to define the effect of forces on corpuscles in any motion, as long as the direction of the force acting agrees with the direction of the of the motion or if that should be the contrary. Hence it remains that we investigate, how this should be considered, when the direction of the force is oblique to the direction of the motion, which investigation is easily set in place following the above precepts related, by resolving the motion of the body following two or three fixed directions; for even if this resolution is only ideal [i. e. in the mind], yet the use is in agreement with the truth, thus also in accommodating the action of forces most successfully, and according to this arrangement the whole calculation is absolved by
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 102
+
+the same formula. For though not only the speed of the corpuscle but also the direction is changed by the oblique forces, yet this latter change likewise is understood in terms of the changes of the motions of the sides [i. e. resolved components], thus so plainly that there is no need for special formulas for the change in direction. Hence, we must show how it is required to set up the calculation in these cases.
+
+PROBLEM 11
+
+172. If the corpuscle, while it is moving with a given speed along the direction Ss, is acted on by a force along the direction Sp (Fig. 16), to define the effect of this produced on the motion of the given body in the given element of time dt.
+
+SOLUTION
+
+Let A be the mass of the corpuscle, which traverses the increment Ss = ds in the
+
+increment of time dt from the motion present, thus so that the speed of this at S is
+
+equal
+
+to
+
+ds dt
+
+;
+
+moreover
+
+meanwhile
+
+it
+
+is
+
+acted
+
+on
+
+by
+
+a
+
+force
+
+equal
+
+to
+
+p
+
+along
+
+the
+
+direction Sp, and the effect of this force consists, in that elapsed time increment dt it is
+
+found not at s but  , and transferred in addition by the increment :
+
+s = d = pdt 2 ,
+2A
+
+parallel to the direction of the force Sp. To represent the effect more conveniently, the
+
+motion is resolved along any two directions Sp and Sq, of which the one Sp agrees
+
+with the direction of the force, thus so that, if no force should be present, the
+
+corpuscle describes the increment Sp = dx following the direction Sp, and along the
+
+direction Sq the increment Sq = dy, for the complete parallelogram Spsq. Moreover
+
+since agreeing with the force p in the elapsed time increment dt it is found at , on
+
+drawing  parallel to sp the motion is the same, and if along the direction Sp the
+
+interval S = dx + d , truly along the direction Sq the interval Sq is as before. Hence
+
+from the force p, only the motion following the direction of the side Sp, on which the
+
+force p acts, is affected, with the other motion of the side along Sq kept unchanged,
+
+and the motion along Sp thus will be accelerated, so that it becomes ddx = 2d or
+
+ddx = pdt 2 . Whereby if the motion is resolved along two or three directions, of
+2A
+
+which one agrees with the force along Sp, here the motion is affected in the same way
+
+by the force, and if the corpuscle in fact is moving along this direction and the
+
+remaining side motions are not affected by this force in any way.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 103
+
+COROLLARY 1
+
+173. Therefore just as, with this resolution of the motion made, if no force should be
+
+present acting , then the equations become
+
+ddx dt 2
+
+=0
+
+and
+
+ddy dt 2
+
+= 0 , thus with the force p
+
+added, acting along the direction Sp, then
+
+ddx = p
+dt 2 A
+
+on
+
+keeping
+
+ddy dt 2
+
+=
+
+0
+
+.
+
+COROLLARY 2
+
+174. In a similar manner if the motion along Ss is resolved into threefold motions and
+
+the elements described through these separately in the increment of time dt are dx, dy
+
+and dz, of which the first dx is in the direction of the force acting p is accepted, the
+
+motion is contained in these three formulas :
+
+ddx dt 2
+
+=
+
+p A
+
+,
+
+ddy dt 2
+
+=
+
+0 and
+
+ddz dt 2
+
+=
+
+0
+
+.
+
+COROLLARY 3
+
+175. Hence also it can be gathered, if the corpuscle A at the same time is acted on by the three forces p, q and r along these three directions, in which the elements dx, dy and dz are assumed, the motion of the body are going to be determined by the formulas :
+
+ddx dt 2
+
+=
+
+p A
+
+,
+
+ddy dt 2
+
+=
+
+q A
+
+, and
+
+ddz dt 2
+
+=
+
+r A
+
+.
+
+SCHOLIUM 1
+
+176. When the motion of the corpuscle, as we have taught above, is resolved along three directions established in some manner, from any forces that may be acting on the body, the disturbance of the motion can easily be determined from formulas of this kind. For all the forces acting can be resolved along these three directions (Fig. 4), from which these forces p, q, r are returned, of which the first p acts along the direction OA, in which the element is dx, the second along the direction OB, in which the element is dy, and the third along the direction OC, in which the element dz is taken, and the
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 104
+
+individual forces acting along these directions give rise to accelerated motions. With which put in place the motion this will be disturbed, as on putting the increment of the time dt constant it becomes :
+
+I.
+
+ddx dt 2
+
+=
+
+p A
+
+,
+
+II.
+
+ddy dt 2
+
+=
+
+q A
+
+,
+
+III.
+
+ddz dt 2
+
+=
+
+r A
+
+,
+
+where it is to be noted, if which of these forces should act in the opposite direction,
+
+that must be taken as negative, thus so that the motion of the side corresponding to that
+
+shall be retarded. And all of the motions also, by any kind of forces acting on the
+
+corpuscle, are able to be included in the three formulas of this kind, which since they
+
+are similar to each other, henceforth all Mechanics can be considered to depend on a
+
+single principle.
+
+SCHOLIUM 2
+
+177. Also lest this single principle is not included in the axioms of the preceding
+
+chapters for spontaneous motion or in that case, in which the forces acting vanish ; for
+
+then our formulas declare the motion to be equally rectilinear. Hence the whole of
+
+Mechanics is included in one fundamental principle :
+
+If a corpuscle, of which the mass is equal to A, should be acted on by a force
+
+equal to p and through the resolution of the motion in the direction of this force in the
+
+increment of time dt , an increment ds may be completed with the speed
+
+ds dt
+
+= v , then
+
+dds dt 2
+
+=
+
+p A
+
+or
+
+dv =
+
+pdt A
+
+.
+
+Or the increase of the speed along the direction of the force acting has been taken
+
+directly as the force acting taken by the time increment and reciprocally as the mass
+
+of the corpuscle.
+
+Now the question is usually to be considered, whether this single principle, to
+
+which all Mechanics and thus the whole science of motion is built on, is unavoidably
+
+or only conditionally true ? The settlement of this question from what has been shown
+
+so far can be seen without difficulty. Wherever bodies are present, surely other laws in
+
+place of their motion cannot be considered;
+
+and all the other formulas besides
+
+pdt A
+
+,
+
+from which any can be considered to be put in place proportional to an increment of
+
+the speed, clearly will involve contradictions. Whereby it cannot be doubted in any
+
+manner, that by necessity this principle is to be referred to among true accounts of
+
+nature. And not only on the earth, where the truth of this is permitted to be proven by
+
+experiments, but also on the planets and as far as with the celestial bodies we can
+
+pronounce boldly that all motions, whichever the should have been there, to be
+
+directed and moderated by this single principle. Moreover this question [is answered]
+
+by necessity and contingency, not only by this principle, but also from some other
+
+rules which are carried around under the name of the laws of motion, [by which the
+
+body] is accustomed to be moved. Now in as much as these laws duly follow from
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 105
+
+our principle, they are equally to be considered by necessity; which then according to certain kinds of bodies, such as those which are elastic, non elastic, and fluids, are connected [with the principle], which, with such concessions made for bodies, must equally be true, provided they are deduced correctly from our principle. [Thus, the connection between mass, acceleration, and force has been established; there are however many different kinds of forces, which makes up the other side of the force equation.]
+
+SCHOLIUM 3
+178. In the above books on Mechanics indeed I had thus besides set up the same principles of this science, as the certainty of these has been removed from all doubt, moreover here this has been considered to derived in another way by considering the nature of bodies more precisely and to be reduced to a single principle, from which henceforth everything that pertains to motion can be easily deduced. But however everything, which is considered according to the motion of infinitely small corpuscles or as if of points, there also I have pursued more fully, yet as the same are to be repeated from this single principle, it will helpful to explain more briefly, and which indeed I will thus set about doing, so that the way in which the motion of finite bodies are to be scrutinised can be brought to mind more clearly. But in the first place, since here I have defined only the ratio or the proportionality noted between the different quantities undertaken, which are heterogeneous by themselves, which are unable to be related to absolute measures unless a certain recognised motion is taken, which is generally necessary before we can progress further; now a certain known motion of this kind is the fall of weights, which is to be explained carefully and hence absolute measures established, from which hence we are conveniently able to use. Now even if the assumption of such motion depends on our choice and it is to be deduced from experiment, yet hence by necessity nothing is detracted from our principle, since the choice extends only to absolute measures and these clearly depend generally on arbitrary units.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 106
+
+CAPUT III
+DE CAUSIS MOTUS EXTERNIS SEU VIRIBUS
+DEFINITIO 12
+117. Qiucquid statum corporum absolutum mutare valet, id vis vocatur; quae ergo, cum corpus ob causas internas in statu suo esset permansurum, pro causa externa est habenda.
+COROLLARIUM 1
+118. Causa ergo, qua corpus absolute quiescens ad motum incitatur vel in corpore absoluto motu lato eius celeritas sive directio mutatur, vis appellatur.
+COROLLARIUM 2
+119. Est ergo vis causa externa statum absolutum corporum mutare valens; et quamdiu talis causa externa non accedit, corpus in eodem statu absoluto sive quietis sive motus aequabilis in directum perseverat.
+EXPLICATIO
+120. In corpore ipso nihil est, quod suum statum mutare conetur; ob hoc enim ipsum dicimus corpus in eodem statu manere, quamdiu proprium quasi instinctum sequitur neque ullam actionem externam subit. Quando ergo evenit, ut status absolutus cuiuspiam corporis mutetur, causa certe non in ipso corpore quaere potest, alioquin enim nulla status mutatio contingeret, siquidem statum ita definivimus, ut corpus in eodem statu perseverare dicatur, quamdiu a nullis causis externis sollicitatur. Causa autem illa interna, ob quam corpus in eodem statu perseverat, est eius inertia, in qua cum ratio omnium, quae in ipso corpore ad quietem sive motum spectant, contineatur, ea non solum penitus tolleretur, sed etiam ne stabiliri quidem potuisset, si quicquam in ipso corpore inesset, quod ad statum eius mutandum tenderet. Quare si vocabulum vis ad eas causas adstringamus, quae statum corporum absolutum mutare valeant, nulli certe corpori vis tribui potest suum statum mutandi, sed, quoties status cuiuspiam corporis mutatur, causa mutationis seu vis semper extra id existat necesse est.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 107
+
+SCHOLION 1
+121. Hic ergo quaestio oritur, unde vires, quibus corporum statum perpetuo mutari observamus, nascantur? an, cum non in corporis sint sitae, substantiis immaterialibus erunt tribuendae? Aliter quidam Philosophi argumentari solent; cum enim status corporum continuo mutetur, concludunt mutationis huius causam in ipsis corporibus contineri hincque porro inferunt singula corpora vi esse praedita statum suum iugiter mutandi, sicque principium inertiae funditus evertunt. Verum in hoc ratiocinio insignem saltum committunt; priorem enim partem, quod causa mutationis status in corporibus sit sita, concedentes alteram partem omnino negamus, quod singula corpora vi sint praedita suum statum mutandi. Causam scilicet mutationis status tantum ab eo corpore removemus, cuius status mutatur, eamque in aliis corporibus quaerendam esse affirmamus; atque adeo corporibus vim tribuimus aliorum statum mutandi, non suum. Quod tantum abest, ut absurdum videri debeat, ut potius ex hoc ipso, quod singula corpora facultate sint praedita in suo statu perseverandi, sequatur in corporibus vim inesse debere aliorum statum mutandi. In congerie enim plurium corporum, nisi vel omnia quiescant vel aequalibus celeritatibus secundum eandem directionem ferantur, necessario evenit, ut singula in statu suo salvo reliquorum statu permanere nequeant. Concipiamus enim duo corpora A et B, quorum illud ad hoc pervenerit; fieri certe nequit, ut corpus A motum suum continuet, quin simul corpus B de statu suo quietis deturbetur, neque ut corpus B in quiete persistat, quin simul corporis A motus sistatur. Quare, cum ambo simul statum suum conservare nequeant, necesse est, ut vel utriusque vel saltem alterutruius status mutetur, idque ob hoc ipsum, quod utrumque in statu suo perseverare conatur. Consequenter ipsa singulorum corporum facultas in statu suo perseverandi vires suppeditat, quibus aliorum status immutari possit.
+SCHOLION 2
+122. Verum si porro quaeramus, cur ambo illa corpora A et B simul quodque in suo statu perseverare non possint, eam in impenetrabilitate manifesto sitam esse deprehendimus. Nam si illa corpora se invicem penetrare possent, ita ut alterum alteri liberrimum transitum per suam quasi substantiam permitteret, nihil certe obstaret, quominus corpus A motum suum prosequeretur corpusque B in quiete persisteret, sicque utrumque inertiae obtemperaret. Causa ergo virium illarum, quibus status corporum mutatur, non in sola inertia, sed inertia cum impenitrabilitate coniuncta est constituenda. Quoniam vero impenetrabilitas nonnisi de corporibus praedicare potest, corpora autem necessario inertia sunt praedita, impenetrabilitas per se inertiam involvit, ita ut impenetrabilitas sola recte pro fonte omnium illarum virium, quibus status corporum mutatur, habeatur. Hanc igitur corpurum proprietatem tanquam originem omnium virium accuratius perpendere conveniet
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 108
+
+DEFINITIO 13
+
+123. Impenetrabilitas est ea corporum proprietas,qua duo plurave corpora in eodem loco inesse nequeunt, atque adeo ad minima corporum elementa extenditur, ita ut ne duo quidem elementa in eodem loco existere possint.
+
+COROLLARIUM 1
+124. Per hanc ergo proprietatem omnia corpora extra invicem existant necesse est, cum ne minimis quidem partibus in se invicem penetrare possint.
+COROLLARIUM 2
+125. Cum impenetrabilitas sit proprietas cororum necessaria, nulla vis prorsus datur, quae valet duo corpora in eudem locum compingere, atque maxima vis tali effectui producendo aeque est impar ac minima.
+COROLLARIUM 3
+126. Quomodocunque ergo status corporum a viribus mutentur, tamen nunquam evenire potest, ut ab iis duo elementa seu puncta corporea in eundem locum compingantur.
+EXPLICATIO 1
+127. Perperam contra hanc generalem corporum proprietatem adducuntur quaedam experimenta, quibus corpora se invicem penetrare videntur et dicuntur. Dicitur scilicet globus explosus in argillam penetrare, sed hic ista vox penetrare alio sensu accipitur; nulla enim pars globi in eiusmodi locum pertingit, ubi revera pars argillae existat; sed quia iam globus locum occupat ante ab argilla occupatum, vox penetrationis adhibetur. Hic autem tantum negamus corpus locum quempiam occupare posse, qui simul ab alio occupetur non qui ante ab alio fuerit occupatus. Simili modo, quando aqua spongiam penetrare dicatur, aqua tantum interstitia seu pores spongiae replet, qui cum ante a substantia spongiae non distinguerentur, ipsa spongia penetrata videtur, sed re accuratius examinata deprehendimus nusquam vel minimam spongiae particulam existere, ubi simul aquae particula existat. Eodem modo res se habet in corporibus, quae se in minus spatium comprimi patiuntur; nunquam enim duae particulae in eundum locum rediguntur, sed intervalla inter particulas coarctantur, ea materia adeo, qua ante implebantur, inde expulsa. His igitur probe perpensis nullum dubium relinquitur, quin corpora sint impenetrabilia seu quin omnino fieri nequeat, ut duo corpora simul in eodem loco existant.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 109
+
+EXPLICATIO 2
+
+128. Idea igitur impenetrabilitatis nititur idea loci, sine qua omnino consistere nequit. Si enim locus nihil esset a corporibus diversum, quid esset impenetrabilitas, nulla modo intelligi posset. Dicunt quidem Philosophi, qui loci realitatem negant, corpora necessario extra se existere; sed quid sit extra vel intra, si locus sine corporibus nihil sit, minime definiunt. Quae supra de quiete et motu absoluto sunt exposita, abunde evincunt locum non esse merum mentis conceptum, et nunc ex impenetrabilitate luculenter perspicimus ideam loci plus in se complecti, quam solam corporum relationem mutuam, ita ut sublatis corporibus etiam loco nullus relinqueretur. Est ergo locus aliquid a corporibus non pendens neque merus mentis conceptus; quid autem extra mentem realitatis habeat, definire non ausim, etiamsi in eo aliquam realitatem agnoscere debeamus. Quando autem Philosophi omnes realitates in certas classes distribuunt atque perhibent ad nullam earum locum referri posse, malim credere has classes ab iis perperam esse constitutas, cum res eo referendas non satis cognovissent. Simili modo ratio temporis est comparata, in quo nihil reale inesse autumant, cum tamen vocibus ante et post haud parum realitatis tribuant. Quemadmodum ergo vera idea loci et spatii plus in se continet, quam ordinem coexistentium, ita quoque vera temporis plus in se continet quam ordinem successivorum; quamvis concesserim primas harum rerum ideas nobis inde esse natas.
+
+SCHOLION 1
+
+129. Stabilita impenetrabilitatis notione non equidem dubitaverim in ea essentiam corporum collocare; temerarium hoc videbitur, cum omnes fere Philosophi unanimiter clament essentiam corporum nobis penitus esse ignotam. Hoc certe de corporum speciebus facile concedo neque puto auri vel argenti essentiam nobis esse cognitam. In quacunque enim re quis auri essentiam constituerit, incertum est, an ea auro in omni statu conveniat et annon aliud corpus, quod non sit aurum, eadem sit praeditum,atque haec ipsa incertitudo assertum illud destruit; sed quando de corpore in genere quaestio est, talem obiectionem non pertimesco; qui enim negare voluerit essentiam corporum in impenetrabilitate sitam esse, is negare vel saltem dubitare debet aut omnia corpora esse impenetrabilia aut vicissim, quicquid sit impenetrabile, id esse corpus. Quae enim proprietatas omnibus ac solis corporibus convenit, quin in ea corporum essentia sit constituenda, nemo Philosophorum dubitat. Primo autem omnia corpora esse impenetrabilia certissimum est, si enim darentur res extensae atque etiam inertia praeditae, quae scilicet sibi relictae vel quiescerent vel uniformiter in directum moverentur, tamen, si impenetrabilitate carerent, nemo eas inter corpora esset relaturus, hinc est, quod umbrae et spectra per machinas opticas repraesentata non pro corporibus habeantur. Deinde quicquic impenetrabile est, id quoque extensum et inertia praeditum sit necesse est; sine extensione enim impenetrabilitas concipi nequit, tum vero non mobile esse non potest, posita autem mobilitate inertia ponitur. Quare, quicquid est impenetrabile, nulla certe foret causa, cur id non pro corpore habeatur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 110
+
+SCHOLION 2
+130. Verum gravior contra hanc sententiam objectio moveri potest inde petita, quod impenetrabilitatem per se nobis percipere non liceat, quippe cuius notio necessario plura corpora in se involvit. Atque hinc facile concedo definitionem, qua corpus diceretur substantia impenetrabilis, regulis Philosophandi non esse conformem, non quod essentia male in impenetrabilitate ponatur, sed quia haec definitio sine antecedente notione corporis intelligi nequit. Si enim quaeratur, quid sit substantia impenetrabilis ? ac respondeatur, quae a corporibus, hoc est, aliis substantiis impenetrabilibus penetrari nequeat, negotium minime conficitur. Sed quamvis hanc proprietatem nonnisi ex comparatione corporum mutua cognoscamus, tamen dubium est nullum, quin ratio impenetrabilitatis in proprietate quadam interna cuiusque corporis sit situa, ita ut omnia corpora certa proprietate quadam sint praedita, qua efficiatur, ut inter se fiant impenetrabilia. Haec fortasse proprietas non inepte soliditas vocabitur, qua quasi materialitas constituatur, quae proinde recte pro essentia corporum habebitur. Fateor equidem rem fere eo redire, ac si dicerem essentiam corporum in corporietate consistere. Attamen impenetrabilitatas nos ad originem virium manuducit, sicque a nudo sono egregie distinguitur; id quod uberius exponi meretur.
+THEOREMA 2
+131. Si duo corpora ita coeunt, ut neutrum statum suum conservare possit, quin per alterum penetret, tunc in se mutuo agunt viresque exerunt, quibus eorum status mutetur.
+DEMONSTRATIO
+Cum corpora in eiusmodi statu ponatur, ut in eo perseverare nequeant, nisi se mutuo penetrent, quoniam penetratio nullo modo fieri potest, necesse est, ut in eorum statu mutatio eveniat. Quia autem corporum status sine viribus externis mutari nequit et in casu posito mutatio status actu producitur, vires sine dubio adesse debent, quibus hic effectus est tribuendus. Quaeritur ergo, unde hae vires oriantur ? utrum ex ipsa corporum impenetrabilitate an aliunde ? Si dicas eas aliunde oriri, origo mente saltem tolli posset salva impenetrabilitate ideoque nulla mutatio status contingeret corporaque proinde se mutuo penetrarent; quod cum sit absurdum, necesse est istaes vires ab ipsa impenetrabilitate suppeditari. Statim scilicet, atque corpora in statu suo perseverare nequeunt, quin se mutuo penetrent, ipsa impenetrabilitatas vires suppeditat, quibus eorum status mutetur, ut penetratio evitetur ; et dum hae vires effectum suum exerunt, corpora in se invicem agere dicuntur alterumque alterius statum mutabit.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 111
+
+COROLLARIUM 1
+132. Corpora igitur in se invicem agunt, quando ita congrediuntur, ut singula in statu suo perseverare nequeant, quin se mutuo penetrent; unde distincta notio actionis corporum, quae apud plerosque auctores nimis obscura esse solet, est haurienda.
+COROLLARIUM 2
+133. Vires, quibus hoc casu status corporum mutatur, ab eorum impenetrabilitate nascuntur tantumque effectum producunt, ut penetratio impediatur, semperque hae vires tantae erunt, ut huic fini sufficiant.
+COROLLARIUM 3
+134. Magnitudo ergo harum virium non ex impenetrabilitate, quippe quae nullius quantitatis est capax, determinatur, sed ex mutatione status, quae effici debet, ne corpora se mutuo penetrent.
+COROLLARIUM 4
+135. Hae ergo vires, ex impenetrabilitate ortae, eatenus tantum se exerunt, quatenus penetrationi est occurrendum, et quantumvis magnis ad hoc viribus opus fuerit, eas impenetrabilitas semper suppeditabit, quandoquidem penetratio nullatenus contingere potest.
+EXPLICATIO 1
+136. Quando quodpiam corpus ab aliis impeditur, quominus vel si quiescat, in quiete permaneat, vel si moveatur, uniformiter in directum progrediatur, tam eius ipsius quam illorum impenetrabilitas vires ad mutationem necessarias gignit; nam si vel illud vel haec essent penetrabilia, nullis opus esset viribus, ita ut hae vires non ex impenetrabilitate unius tantum corporis, sed duorum pluriumve coniunctim nascantur. Impenetrabilitas certe sine resistentia invincibili concipi nequit, ideoque iure pro fonte illarum virium, quibus penetratio avertitur, habetur. Quae ergo hactenus sunt tradita, huc redeunt, ut corpora ob inertiam insitam in statu suo quietis vel motus aequabilis rectilinei tamdiu perseverent, quamdiu nulla penetratio est metuenda; simulac vero statum suum continuare nequeunt, quin penetratio fieret, impenetrabilitas tantas suppeditat vires, quae eiusmodi mutationem in eorum statu producant, ut omnis penetratio avertatur. Quare cum mundus sit plenus corporibus, quorum status ita est diversus, ut, si in eo quaeque vel per minimum temporis spatium manerent, ubique penetrationes essent secuturae, hinc uberrimus fons virium ad statum corporum continuo mutandum oritur. Quanquam ergo infinitam quasi copiam virium in mundo
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 112
+
+concedimus easque adeo a corporibus oriri statuimus, ab eorum tamen opinione maxime abhorremus, qui corporibus conatum statum suum continuo mutandi tribuunt, cum istae vires non directe ad statum mutandum, sed ad penetrationem avertendam tendant, quae nisi periclitaretur, nullae eiusmodi vires in mundo existerent.
+
+EXPLICATIO 2
+
+137. Iam quaestio hic oritur, num omnes plane vires, quarum effectus in mundo miramur, ex hoc fonte oriantur ? hoc est, an status corporum a nullis aliis viribus praeter has, quas periculum penetrationis suppeditat, mutari possit ? Ac primo quidem ad Mechanicam non pertinet definire, utrum spiritus in corpora agere eorumque statum mutare valeant ? interim in corporibus nihil plane invenimus, quod actioni spirituali adversetur; atque actio in corpora non tam arduum opus videtur, ut soli omnipotentiae divini Numinis sit tribuendum, cum adeo vilissimus corporibus sit concedendum. Quin potius fateri debemus nullam nos perspicere rationem, cur animis potentiam in corpora agendi denegemus, etiamsi modum, quo agant, minime assignare possimus. Verum an corpora alio insuper modo in se mutuo agere valeant praeter eum, quem declaravimus ? id quidem negandum videtur. Si enim agerent, etiamsi nullum periculum penetrationis adesset, in distans agerent neque pateret, quomodo conservatio status inde turbari posset; deinde vero, quia illa actio non ab impenetrabilitate proficisceretur, perinde agere deberent, quamvis corpora essent penetrabilia; quomodo autem actio subsistere posset, non liquet. Ex quo maxime verisimile videtur corpora in se mutuo alias vires non exercere, nisi quibus penetratio averatur, et cum hae vires minores esse nequeant, quam hic scopus exigit, ita etiam maiores statui non possunt, quam sufficientes. Ceterum hic nihil certi statuere licet, sed contentos nos esse oportet foecundum fontem virium in mundo operantium detexisse, ex quo simul actio corporum mutua a plerisque Philosopius vel negata vel crassissimis tenebris involuta, satis luculenter perspiciatur. Quantae autem quovis casu sint istae vires ab impenetrabilitate corporum profectae et quomodo iis status corporum immutetur, definiri nequit, nisi ante in genere in actionem virium inquisiverimus.
+SCHOLION
+
+138. Perspecta ergo virium origine recte assumere possumus dari in mundo vires, quibus eorum status mutetur. Ac de huiusmodi quidem viribus, quatenus in corpora agentes se mutuo aequilibrio tenent, in Statica vel Dynamica tractari solet, ubi earum mensura, qua aliae aliis non solum sunt vel maiores vel minores, sed etiam datam inter se rationem habere docentur. Referendae scilicet sunt vires ad genus quantitatum, cum ratione quantitatis inter se comparari possint, atque ex Statica intelligimus, quando duae vires inter se aequales vel secundum datam rationem inaequales sint censendae. Quo igitur facilius earum effectum in statu corporum mutando exploremus, non solum a corpusclis infinite parvis, in quae agant, exordiri conveniet, quandoquidem hinc etiam tota motus tractatio est ducta, sed etiam actionem tantum momentaneam virium
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 113
+
+scrutabimur, ita ut, quantum singulis temporis elementis efficiant, simus investigaturi, quoniam fieri posset, ut successu temporis quantitas virium mutaretur. At cum principia hinc pro corpusclis infinite parvis et pro temporis intervallo infinite parvo fuerint stabilita, haud difficile erit per integrationes ad motus corporum per finitum tempus mutatos progredi.
+DEFINITIO 14
+
+139. Effectus alicuius vis in dato corpusculo dato tempusculo productus vocatur id spatiolum, per quod vel corpusculum quiescens transfertur vel, si moveatur, ultra id spatium, quod ob inertiam esset percursurum, propellitur.
+
+COROLLARIUM 1
+140. Haec ergo effectus determinatio non est absoluta, sed ad certum corpus certumque tempus adstricta, quorum utrumque ut infinite parvum spectatur, ut hoc modo omnis variabilitas aliunde accessura tollatur.
+COROLLARIUM 2
+141. Si igitur posito corpusculo et tempusculo spatiolum fuerit idem, effectus quoque erit idem, unde et vis pro eadem est habenda, hocque sive corpusculum quiescat sive iam moveatur.
+COROLLARIUM 3
+142. Scilicet si corpusculum movetur, vis eatenus tantum aestimatur, quatenus per certum spatiolum ultra id, quod motu iam insito percursurum esset, propellitur; vicissim enim ex quantite huius spatioli vis aestimabitur.
+EXPLICATIO 1
+
+143. Cum in Statica, unde virium mensuram haurimus, corpora, quibus applicantur, in quiete considerentur, nihil inde circa earum mensuram, quando in corpora mota agunt, definitur, ita ut ista mensura in Mechanica nobis integra relinquatur. Concipiamus ergo primo punctum seu corpusculum in S quiescens (Fig. 10), quod a vi quadam = p sollicetur in directione S , atque effectus in hoc consistet, ut id dato tempusculo dt per certum quodpiam spatiolum S = d proferatur, quod quomodo pendeat tam a vi p quam a tempusculo dt, deinceps definiemus. Hic tantum observo, si idem corpusculum habeat motum, quo tempusculo dt descripturum esset spatium Ss = ds (Fig. 11), illud tum ab aequali vi = p sollicitari esse censendum, quando eodem tempusculo dt ultra s per
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 114
+
+aequale spatiolum s = d profertur, siquidem vis p secundum ipsam motus directionem Ss urgeat. Sin autem vis in plagam contrariam urgeret ab eaque corpusculum eodem tempusculo dt per aequale spatiolum s = d (Fig. 12) repelleretur, tum vis illi = p aequalis esset censenda. Generatim autem, si corpusculum habens motum, quo tempusculo dt percursurum esset spatium Ss = ds (Fig. 13), sollicitetur a vi quadam secundum directionem SV, hac effieietur, ut elapso tempusculo dt corpusculum non in s sed in  per spatiolum s directioni vis SV parallelum translatum concipi queat, etiamsi revera ob actionem continuam ex S in  per viam aequabilem pervenerit; ac tum demum ista vis SV illi p, quae idem corpusculum quietum sollicitabat, aequalis est censenda, cum hoc spatiolum s aequale fuerit illi S (Fig. 10).
+
+EXPLICATIO 2
+
+144. Pro viribus ergo, quibus corpora iam mota sollicitantur, hanc dimetiendi rationem stabilimus, ut eas aequales iudicemus iis, quae in iisdem corporibus quiescentibus eodem tempore eundem effectum essent praestaturae. Haec autem ratio non indiget probatione, quia definitioni innititur nobisque adhuc liberum fuerat eam constituere. Si enim pro motu quocunque spatiola s (Fig. 11, 12, 13 ) aequalia fuerint spatiola S , per quod idem corpusculum quiescens tempusculo eodem profertur a vi p, huic etiam illas vires aequales appellamus, quam libertatem rationi consentaneam eo minus nobis quisquam adimere potest, cum haec appellatio quoque cum communi loquendi more conveniat. Neque enim statuo easdem impulsiones, quas in mundo observamus, pares effectus in eodem corpore sive moto sive quiescente producere atque omnino concedo a flumine idem corpus, sive moveatur sive quiescat, longe aliter impelli. Verum hoc ipsum exemplum nostram mensurae rationem egregie confirmat; dum enim affirmamus idem corpus a flumine aliter impelli, prout vel quieverit vel fuerit motum, vires inaequales agnoscimus ac pro corpore moto vim praecise tantum aestimamus, quanta in corpore quiescente eundem effectum esset productura. Hinc etiam, quando de corporibus in flumine motis agitur, pro quovis celeritatis gradu vis, quam flumen actu in corpus exerit, sollicite determinatur ac semper tanta statuitur, quanta in eodem corpore, si quiesceret, eundem effectum produceret. Quare divisio virium in absolutas et relativas in superioribus libris facta proprie huc non pertinet, cum quovis casu et pro quovis momento ea vis in calculum introduci debeat, quae corpus motum aeque, ac si quiesceret, impellit. In contemplatione autem virium ipsarum plurimum interest nosse, utrum corpora mota aequa afficiant ac quiescentia, necne ?
+
+SCHOLION
+
+145. Quod ergo ad quantitatem virium corpuscula mota sollicitantium attinet, eam ex effectu seu spatiola in definitione descripto ita petimus, quasi corpusculum quiesceret. Scilicet si corpusculum in S quiescens a vi = p tempusculo = dt spatiolum
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 115
+
+S = d protrudatur, idem corpusculum motum, quod tempusculo dt percursurum esset spatium Ss = ds, tum ab aequali vi p urgeri censebitur, si ultra hoc spatium Ss insuper per aequale spatiolum s = d secundum directionem vis proferatur, ita ut hic motus corpusculi nihil omnino in effectu vis mutet. Sin autem in fig. 11, 12, 13 spatiolum s maius fuerit vel minus quam spatiolum S = d (Fig. 10), intelligemus corpusculum quoque a vi maiore vel minore impelli. Quare si potuerimus effectus quarumcunque virium in corpusculis quiescentibus determinare, omnium quoque virium effectus in corpusculis motis assignare poterimus, dummodo quovis casu vires, quibus corpuscula mota sollicitantur, rite definiantur. Ubi quidem hoc perpetuo est tendendum corpusculum aliquod motum a vi = p sollicitari esse censendum, quando effectus in eo productus aequalis est illi, quem vis = p in eodem corpusculo quiescente eodem tempore esset productura. Videamus ergo, quomodo in corpusculo quiescente spatiolum S = d se sit habiturum, si ab aliis atque aliis viribus, quarum mensura Statica docet, sollicitetur.
+
+THEOREMA 2a
+
+146. Spatiola, per quae idem corpusuclum quiescens eodem tempusculo dt a diveris viribus promovetur, sunt ipsis viribus proportionalia.
+
+DEMONSTRATIO
+
+Ponamus corpusculum a vi = p tempuscolo = dt per spatiolum = d protrahi; ac si
+simul alia vis aequalis p secundum eandem directionem idem corpusculum sollicitaret, ab ea quoque per aequale spatiolum = d prograderetur, quoniam hic effectus a priori,
+unde motus tantum infinite parvus efficitur, non turbabitur. Quare hoc corpusculum a vi = 2p sollicitatum tempusculo = dt per spatiolum = 2 d protrahetur. Simili modo, si
+quotcunque vires in idem corpusculum quiescens agant per tempusculum dt, id propellent per sptatiolum = n d , qui ergo est effectus vis = np.
+
+COROLLARIUM 1
+147. Si ergo duo fuerint corpuscula aequalia quiescentia, quorum alterum a vi = p, alterum a vi = P urgetur, atque tempusculo = dt illud promoveatur per spatiolum = d , hoc vero per spatiolum = d , erit d : d = p : P.
+
+COROLLARIUM 2
+148. Sunt igitur hi effectus, eodem tempusculo producti, ipsis viribus sollicitantibus proportionales, ubi quidem eadem virium mensura usurpatur, quae in Statica docetur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 116
+
+SCHOLION 1
+149. Fundamentum huius demonstrationis in hoc consistit, quod vires tantum per infinite parvum tempusculum agere assumo, ita ut in corpusculo motus tantum infinite parvus gignatur, qui pro nullo haberi possit. Cum enim evenire queat, ut impulsio, quae in corpusculum quiens vim = p exerit, eadem in corpusculum motum aliam vim exerat, haec exceptio in nostro Theoremate locum non habet. Etiamsi enim plures vires ipsi p aequales quasi successive in corpusculum agere concipiamus, singulae in eo eundem effectum producent, ac si quiesceret; neque motus infinite parvus in earum actione quicquam mutabit. Verumtamen hinc omnis successio, quae tantum mente est admissa, removeri debet, ut tota vis tantum per tempusculum dt agere sit censenda.
+SCHOLION 2
+150. Si quaeratur, cur vis determinata p in corpusculo dato per datum tempusculum dt determinatum effectum d producat, ratio in eo est posita, quod in corpuscula certa quaedam facultas in quiete perseverandi insit, quae est ipsa eius inertia. Talis autem facultas in quiete perservandi concipi non potest sine quadam reluctantia, quae motus productioni adversetur, quae quo fuerit maior vel minor, eo difficilius vel facilius actioni vis obsequetur. Quare cum haec facultas cum inertia conveniat, intelligitur inertiam inter quantitates esse referendam, ita ut diversorum corpusculorum inertia ratione quantitatis diversa esse queat. Quam diversitatem cum hactenus nondum spectaverimus, effectus virium in eodem vel aequalibus corpusculis, quae scilicet aequali inertia sint praedita, sumus scrutati. Nunc igitur ad corpuscula diversa progressuri ad mensuram inertiae deducemur atque intelligemus, quomodo inertia in aliis maior, in aliis minor inesse possit.
+THEOREMA 3
+151. Si aequales vires corpuscula inaequalia quiescentia sollicitent, effectus eodem tempusculo producti erunt reciproce inertiae corpusculorum proportionales.
+DEMONSTRATIO
+Concipiamus corpusculum A (Fig. 14), quod quiescens a vi = p tempusculo dt protrudatur per spatiolum A = d ; si iam alius corpusculum B illi aequale a vi
+quoque aequali = p secundum eandem directionem urgeatur, id ab eodem tempusculo dt protrudetur per aequale sptaiolum B = d . Coalescant nunc haec duo corpuscua in unum, quod ergo a vi = 2p tempusculo = dt protrudetur per spatiolum = d , ita ut vis duplicata 2p in corpusculo duplicato 2A eundem effectum producat ac vis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 117
+
+simplex p in corpusculo simplici A. Atque hinc intelligetur, si n corpuscula ipsi A
+
+aequalia coalescant, ut inde unum, quod sit = nA, resultet, hocque sollicitetur a vi = np,
+
+id tempusculo = dt propulsum iri per spatiolum = d . Cum autem corpusculum nA a
+
+vi = np tempusculo dt propellatur per spatiolum = d , per Theorema praecedens
+
+idem corpusculum nA a vi = p sollicitatum tempusculo dt promovebitur per spatiolum
+
+=
+
+d n
+
+similque
+
+modo
+
+corpusculum
+
+mA
+
+ab
+
+eadem
+
+vi
+
+=
+
+p
+
+sollicitatum
+
+pari
+
+tempusculo
+
+dt
+
+promovebitur
+
+per
+
+spatiolum
+
+=
+
+d m
+
+,
+
+unde
+
+patet
+
+haec
+
+spatiola,
+
+quibus
+
+effectus
+
+metimur,
+
+d et d esse inter se reciproce, ut corpuscula nA et mA seu ut eorum inertiae.
+nm
+
+EXPLICATIO
+
+152. Cum corpusculum A certam habeat inertiam, qua effectus vis id sollicitantis determinatur, duo eiusmodi aequalia in unum coalescentia exhibebunt corpusculum dupla inertia praeditum, tria triplum et ita prorro. Ac vicissim id corpusculum duplo maiorem inertiam habere intelligendum est, ad quod per datum spatiolum dato tempusculo propellendum requiritur vis dupla. Unde manifestum est, quomodo inertia ad genus quantitatum referatur et quomodo in aliis corporibus maior, in aliis minor esse possit. Omnia scilicet corpuscula, quae ab aequalibus viribus eodem tempusculo per aequalia spatiola promoventur, ratione inertiae inter se aequalia aestimantur atque ex coniunctione huiusmodi corpusculorum quotcunque oriri possunt corpora, quorum inertiae quamcunque rationem inter se teneant. Quantitas ergo inertiae in determinatione effectus a viribus oriundi maximi est momenti et hanc ob rem in Mechanica summo studio est perpendenda; ubi cum peculiaribus nominibus indicari soleat, ea in singulari definitione explicari conveniet.
+DEFINITIO 15
+153. Massa corporis vel quantitas materiae vocatur quantitas inertiae, quae in eo corpore inest, qua tam in statu suo perseverare quam omni mutationi reluctari conatur.
+COROLLARIUM 1
+154. Massa ergo seu quantitas materiae corporum non ex eorum magnitudine, sed ex quantitate inertiae, qua in statu suo perseverare conantur omnique mutationi reluctantur, aestimari debet.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 118
+
+COROLLARIUM 2
+155. Ex inertia igitur quantitas materiae iudicatur, atque id corpus plus materiae continere existimatur, non quod maius volumen occupat, sed ad quod dato modo movendum maior vis requiritur.
+COROLLARIUM 3
+156. Praecedens ergo Theorema huc redit, ut, si duo fuerint corpuscula quiescentia, quorum massae sint A et B, quae ab aequalibus viribus sollicitentur, spatiola, per quae ea eodem tempusculo protrudantur, sint reciproce ut massae.
+SCHOLION
+157. Consideratio ergo motus nos ad cognitionem pluriium insignium proprietatum corporum manuduxit, quarum prima est eorum inertia, qua in eodem statu absoluto sive quietis sive motus uniformis rectilinei perseverare conantur. Ac primo quidem inertiam tantum in genere cognovimus, nunc autem luculenter eam esse quantitatem et mensurae capacem intelligimus, qua idem plane significetur, quod vulgo nimis vage nomine massae seu quantitatis materiae exprimi solet, cuius adeo nunc quidem distinctam notionem assecuti videmur. In corporibus igitur praeter extensionem aliquid inest, quod eorum quasi realitatem constituit, eorum scilicet inertia seu materia, quae necessario cum soliditate seu impenetrabilitate coniuncta videtur; quid enim praeter materiam impenetrabile esse possit, nullo modo intelligitur. Neque etiam materiam sine extensone concipere licet, interim tamen in dubio relinquitur, an ea ita necessario cum volumine sit connexa, ut corpora eiusdem molis parem etiam massam seu quantitatem materiae contineant. Nulla certe ratio huiusmodi aequalitatem suadet atque experientiam consulentes deprehendimus sub aequali volumine in aliis corporibus plus in aliis minus materiae concludi. Quanquam enim obiici solet vel non totum volumen materia impleri vel materiam in poris contentam non ad ipsum corpus pertinere, hinc tamen minime evincitur omnes corporum particulas aeque magnas etiam pari inertia esse praeditas. Sed haec questio imprimis ardua huc non pertinet, etiamsi probabile videatur duplicis saltem generis materias in mundo existere, in quarum altera pro aequali volumine massa multo sit maior quam in altera.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 119
+
+THEOREMA 4
+
+158. Si corpuscula ratione massae inaequalia quiescant atque a viribus quibuscunque singula sollicitentur, erunt spatiola, per quae eodem tempusculo protrudentur, in ratione composita ex directa virium in inversa massarum.
+DEMONSTRATIO
+
+Sollicitetur corpusculum quiescens, cuius massa est = A, a vi = p, a qua tempusculo dt protrudatur per spatiolum = d . Iam per Theorema 2a, si idem
+
+corpusculum A sollicitaretur ab alia vi = q, ab ea eodem tempusculo promoveretur per
+
+spatiolum =
+
+qd p
+
+;
+
+sin
+
+autem
+
+aliud
+
+corpusculum
+
+quiescens,
+
+cuius
+
+massa
+
+=
+
+B,
+
+a
+
+vi
+
+=
+
+q
+
+urgeretur, id ab ea eodem tempuculo dt promoveretur per spatiolum =
+
+Aqd Bp
+
+,
+
+per
+
+Theorema 3. Ergo si corpusculum quiescens A a vi = p et corpusculum quiescens B a
+
+vi = q sollicitetur, spatiola, per quae ea eodem tempuscula dt proferentur, erunt ut
+
+d ad
+
+Aqd Bp
+
+,
+
+hoc
+
+est
+
+ut
+
+p A
+
+ad
+
+q B
+
+.
+
+COROLLARIUM 1
+
+159. Si ergo spatiolum d innotuerit, per quod corpusculum, cuius massa = A, a vi =
+
+p sollicitatum tempusculo dt protruditur, spatiolum, per quod aliud corpusculum, cuius
+
+massa = B, a vi = q sollicitatum eodem tempusculo dt propellitur, erit =
+
+Aqd Bp
+
+.
+
+COROLLARIUM 2
+
+160. Absolute ergo loquendo erit spatiolum, per quod corpusculum tempusculo dt promovetur, ut vis sollicitans divisa per massam corpusculi; quod etiam de corpusculo moto valet, si ea, quae supra monuimus, hic probe observentur.
+
+SCHOLION
+
+161. Quemadmodum igitur effectus virium corpuscula quaecunque sollicitantium tam a quantitate virium quam a massa corpusculorum pendeat, siquidem tempuscula fuerint aequalia, ita definivimus, ut nullum dubium superesse possit, quin regula hic tradita necessario sit vera. Comparationem hic quidem tantum instituimus, quae inter spatiola illa et vires et massas intercedit, verum notandum est inter hiusmodi quanitates heterogeneas nullam determinationem absolutam constitui posse neque hic aliter ad mensuras absolutas pertingere licet, nisi ut effectus quidam in mundo
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 120
+
+observatus pro cognitio assumatur atque ad eum tanquam ad unitatem reliqui effectus omnes revocentur, quod quomodo commodissime fieri queat, in sequentibus fusius ostendemus. Ceterum hinc nondum patet, quomodo effectus virium se sit habiturus, quando tempuscula fuerint inaequalia; neque enim licet hinc a tempusculo elapso dt ad tempusculum sequens dt progredi, quia corpusculum ob motum priori tempusculo conceptum iam ob inertiam sequente tempusculo aliquod spatiolum conficeret, cui demum id, quod a vi producitur, esset addendum. Quare ne hinc nostrae determinationes praecedentes turbarentur, tempuscula omnia inter se aequalia assumsimus, neque etiam temporis ratio haberi potest, nisi celeritas corpori iam impressa consideretur, quam investigationem sequente problemate suscipiemus. Hinc autem vicissum ea, quae hactenus sine respectu ad celeritatem habito sunt prolata, illustrabuntur.
+
+PROBLEMA 9
+
+162. Si corpusculum celeritate quacunque moveatur simulque a vi secundum motus sui directionem sollicetur (Fig. 15), definire mutationem momentaneam in eius motu
+et celeritate productam.
+
+SOLUTIO
+
+Sit A massa corpusculi, quod moveatur secundum directionem AB celeritate = v,
+
+qua ob inertiam perpetuo uniformiter in directum esset progressum, nisi a vi externa
+
+sollicitaretur. Scilicet si tempore = t descripserit spatium AS = s indeque tempusculo
+
+dt pergat per spatiolum Ss = ds, erit
+
+ds dt
+
+eius cereritas in S, nempe = v, quae cum sit
+
+constans, fiet
+
+dds dt 2
+
+= 0 , si nulla affuerit vis. Ponamus autem corpusculum, dum ex S
+
+egreditur, sollicitari a vi = p secundum ipsam motus directionem SB, atque evidens est
+
+motum non amplius uniformem esse futurum, sed acceleratum iri, ex quo formula
+
+egreditur,
+
+dds dt 2
+
+non
+
+erit
+
+nihilo
+
+aequalis,
+
+sed
+
+valorem
+
+quendam
+
+habebit
+
+positivum,
+
+quoniam vis sollicitans auget celeritatem, in directione nihil mutans. Verum quia haec
+
+formula
+
+dds dt 2
+
+involvit
+
+illud
+
+spatiolum,
+
+per
+
+quod
+
+corpusculum
+
+ultra
+
+spatium
+
+motu
+
+insito
+
+descriptum profertur, erit ea directe ut vis sollicitans p et reciproce ut massa A
+
+seu
+
+dds dt 2
+
+erit
+
+ut
+
+p A
+
+.
+
+Absoluta
+
+autem
+
+aequalitas
+
+constitui
+
+nequit,
+
+nisi
+
+omnes
+
+quantitates
+
+ad
+
+determinatas unitates reducantur; tantisper igitur liceat hanc aequalitatem ita indefinite
+
+exhibere, ut sit
+
+dds dt 2
+
+=
+
+p A
+
+,
+
+ubi
+
+ denotat numerum per unitates infra stabiliendas
+
+determinadum. Effectus ergo vis sollicitantis p in hoc consistit, ut sit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 121
+
+dds
+
+=
+
+pdt 2 A
+
+sumto
+
+elemento
+
+dt
+
+constante.
+
+Et
+
+cum
+
+celeritas
+
+sit
+
+v
+
+=
+
+ds dt
+
+,
+
+erit
+
+dds
+
+=
+
+dvdt
+
+ideoque
+
+dv
+
+=
+
+pdt A
+
+;
+
+unde
+
+celeritatis
+
+incrementum
+
+innotescit,
+
+quod
+
+vis
+
+p
+
+in
+
+corpusculo A tempusculo dt producit, siquidem directio vis cum directione motus
+
+conveniat ab eaque motus acceleretur.
+
+COROLLARIUM 1
+
+163. Effectus ergo vis sollicitantis p in corpusculum, cuius massa = A et quod
+
+secundum eandem directionem movetur celeritate = v, qua tempusculo dt conficeret
+
+spatiolum = ds, in hoc consistit, ut sit
+
+dds dt 2
+
+=
+
+p A
+
+sumto
+
+dt
+
+constante
+
+seu
+
+dv
+
+=
+
+pdt A
+
+.
+
+COROLLARIUM 2
+
+164.
+
+Vicissim ergo, si acceleratio motus sit cognita, quae est vel
+
+dds dt 2
+
+vel
+
+dv dt
+
+,
+
+vis
+
+sollicitans assignari potest eam producens; erit scilicet vis ista
+
+p
+
+=
+
+A 
+
+dds dt 2
+
+vel
+
+p
+
+=
+
+A 
+
+.
+
+dv dt
+
+,
+
+quae secundum ipsam motus directionem urgere est censenda.
+
+COROLLARIUM 3
+
+165. Sin autem directio vis sollicitantis p directioni motus fuerit opposita, ab ea motus
+
+tantumdem retardabitur eritque
+
+dds dt 2
+
+=
+
+-
+
+p A
+
+vel
+
+dv dt
+
+= - p
+A
+
+;
+
+vis scilicet respectu casus praecedentis tanquam negativa spectari potest.
+
+EXPLICATIO
+
+166. Cum hic invenerimus dds = pdt 2 ideoque corpusculum tempusculo dt
+A
+
+spatiolum ds + dds percurrere sit censendum, cum motu insito tantum spatiolum ds
+
+confecturum fuisset, videtur dds id ipsum spatiolum, quod ultra id, per quod motu
+
+insito ferretur, ob vim sollicitantem percurritur, ita ut
+
+pdt 2 A
+
+esset id spatiolum d , per
+
+quod corpusculum A quiescens a vi p tempusculo dt protrudi assumsimus. Verum
+
+observandum est hic dds exprimere excessum spatioli tempusculo dt percursi supra id,
+
+quod tempusculo praecedente dt percursam fuisset eadem agente vi p. Quare si
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 122
+
+spatiolum praesente tempusculo dt percursum sit ds + d , denotante ds spatiolum
+
+motu insito descriptum et d spatiolum a vi adienctum, praecendente tempusculo dt,
+
+si ab eadem vi fuerit sollicitatum, tantum spatiolum ds - d confecisset, minus scilicet,
+
+quam si nullam actionem fuisset passum. Cum igitur dds exprimat differentiam inter
+
+haec duo spatiola ds + d et ds - d , erit dds = 2d ideoque
+
+d
+
+=
+
+1 2
+
+dds
+
+=
+
+pdt 2 2A
+
+,
+
+unde patet spatiolum d , per quod corpusculum A quiescens a vi p tempusculo dt
+
+propellitur, duplo minus esse quam nostrum dds. In solutione quidem id non aequale
+
+sed tantum proportionale assumsi, ita ut hinc ei nihil roboris deesse sit putandum.
+
+Interim hoc adhuc alio modo ostendisse operae erit pretium.
+
+PROBLEMA 10
+
+167. Data acceleratione, quae corpusculo moto A a data vi p secundum directionem
+
+motus sollicitante tempusculo dt inducitur, definire spatiolum d , per quod idem
+
+corpusculum A quiescens ab aequali vi p sollicitatum eodem tempusculo dt
+
+protruderetur.
+
+SOLUTIO
+
+Ob datam accelerationem habemus ex superioribus dds = pdt 2 sumto elemento dt
+A
+
+constante. Concipiamus iam vim sollicitantem p eandem manere, sive corpusculum
+
+celerius sive tardius moveatur, ita ut quantitas p pro constante habere possit, vel potius
+
+determinemus hinc motum per tempus aliquod t, quod tamen ipsum adhuc sit infinite
+
+parvum, ita ut dubium nullum supersit, quin vis p interea maneat constans. Cum igitur
+
+habeamus
+
+dds dt
+
+=
+
+pdt A
+
+, erit integrando
+
+ds dt
+
+=
+
+C
+
++
+
+pt A
+
+seu
+
+ds
+
+=
+
+Cdt
+
++
+
+ptdt A
+
+,
+
+quae denuo integrata dat :
+
+s
+
+=
+
+Ct
+
++
+
+ptt 2A
+
+,
+
+quod est spatium tempore t confectum, cuius pars Ct denotat spatium, quod
+
+corpusculum A solo motu insito percursurum fuisset, si a nulla vi sollicitaretur; pars
+
+autem
+
+ptt 2A
+
+est eius augmentum ab
+
+actione vis insuper adiectum. Statuatur iam totum
+
+tempus t infinte parvum et loco t scribatur dt, atque pdt 2 exprimet spatiolum d , per
+2A
+
+quod corpusculum A ultra id, quod motu insito percurret, tempusculo dt a vi p
+
+propelleretur; cui cum aequale sit id spatiolum d , per quod idem corpusculum A
+
+quiescens eodem tempusulo dt ab aequali vi p protruderetur, habebimus
+
+d = pdt 2 seu d = 1 dds , uti iam ante innuimus.
+
+2A
+
+2
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 123
+
+COROLLARIUM 1
+
+168. Spatiolum ergo, per quod corpus A quiescens tempusculo infinite parvo dt a vi p urgetur, est differentiale secundi gradus seu infinities minus est spatio, quod celeritate quacunque finita eodem tempusculo describeret.
+
+COROLLARIUM 2
+169. Hoc porro spatiolum d = pdt 2 est dimidium differentio-differentialis dds, quod
+2A
+eodem tempusculo dt ab eadem vi p in eodem corpusculo A uncunque moto producitur.
+COROLLARIUM 3
+170. Hinc iam cognoscimus istud spatiolum d , quod supra vi sollicitanti p directe et masse A reciproce proportionale ostendimus, insuper sequi rationem duplicatam tempusculi dt.
+
+SCHOLION
+
+171. Ex his ergo valemus definire effectus virium in corpuscula utcunque mota, dummodo directio vis sollicitantis cum directione motus conveniat seu ei fuerit contraria. Superest ergo, ut inquiramus, quomodo is se sit habiturus, quando directio vis ad motus directionem est obilqua, quae investigatio facillime instituetur motum corpusculi secundum praecepta supra tradita secundum duas vel tres directiones fixas resolvendo; etsi enim haec resolutio tantum est idealis, tamen uti per se est veritati consentanea, ita etiam ad actionem virium felicissimo successu accommodatur, atque hoc pacto totum negotium per eandem formulam absolvetur. Quanquam enim a viribus obliquis non solum celeritas corpusculi sed etiam directio immutatur, tamen haec posterior mutatio simul in mutatione motuum lateralium comprehendetur, ita ut peculiaribus formulis pro inflectione directinis plane non sit opus. Quomodo igitur his casibus calculum instui oporteat, ostendamus.
+
+PROBLEMA 11
+
+172. Si corpusculum, dum data celeritate secundum directionem Ss movetur, a vi quadam secundum directionem Sp sollicitetur (Fig. 16), definire eius effectum in motu corporis dato tempusculo dt productum.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 124
+
+SOLUTIO
+
+Sit A massa corpusculi, quod motu insito percurreret spatiolum Ss = ds tempuculo
+
+dt, ita ut eius celeritas in S sit =
+
+ds dt
+
+;
+
+sollicitetur
+
+autem
+
+interea
+
+secundum
+
+directionem
+
+Sp vi = p, atque huius vis effectus in hoc consistet, ut elapso tempusculo dt non in s
+
+sed  reperiatur translatumque sit insuper per spatiolum
+
+s = d = pdt 2
+2A
+
+directioni vis Sp parallelum. Ad quem effectum commodius repraesentandum
+
+resolvatur motus secundum binas directiones Sp et Sq quascunque, quarum altera Sp
+
+conveniat cum directione vis, ita ut, si nulla vis adesset, corpusculum describeret
+
+secundum directionem Sp spatiolum Sp = dx et secundum directionem Sq spatiolum
+
+Sq = dy, completo parallelogrammo Spsq. Cum autem accedente vi p elapso
+
+tempusculo dt in  reperiatur,ducta  ipsi sp parallela motus idem erit, ac si
+
+secundum directionem Sp descripsisset spatium S = dx + d , secundum directionem
+
+vero Sq spatium Sq ut ante. A vi ergo p tantum motus lateralis secundum directionem
+
+Sp, qua ipsa vis p agit, afficitur, altero motu laterali secundum Sq manente immutato,
+
+atque motus secundum Sp ita accelerabitur, ut sit ddx = 2d seu ddx = pdt 2 . Quare si
+2A
+
+motus secundum binas vel etiam ternas directiones resolvatur, quarum una cum
+
+directione vis Sp conveniat, hic motus solus a vi afficietur perinde, ac si corpusculum
+
+revera secundum hanc directionem moveretur reliquique motus laterales nihil omnino
+
+ab ista vi patientur.
+
+COROLLARIUM 1
+
+173. Quemadmodum ergo, facta hac motus resolutione, si nulla adesset vis sollicitans,
+
+foret
+
+ddx dt 2
+
+=0
+
+et
+
+ddy dt 2
+
+= 0 , ita accedente vi p secundum directionem Sp sollicitante erit
+
+ddx dt 2
+
+=
+
+p A
+
+manente
+
+ddy dt 2
+
+=
+
+0.
+
+COROLLARIUM 2
+
+174. Simili modo si motus per Ss in ternos motus resolvatur et elementa per eos
+
+seorsim descripta tempusculo dt sint dx, dy et dz, quorum primum dx in directione vis
+
+sollicitantis p sit sumtum, motus his tribus formulis continebitur :
+
+ddx dt 2
+
+=
+
+p A
+
+,
+
+ddy dt 2
+
+=
+
+0 et
+
+ddz dt 2
+
+=
+
+0.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 125
+
+COROLLARIUM 3
+
+175. Hinc etiam colligitur, si corpusculum A simul tribus viribus p, q et r sollicitetur secundum ternas illas directiones, in quibus elementa dx, dy et dz assumuntur, motum corporis per has formulas determinatum iri
+
+ddx dt 2
+
+=
+
+p A
+
+,
+
+ddy dt 2
+
+=
+
+q A
+
+et
+
+ddz dt 2
+
+=
+
+r A
+
+.
+
+SCHOLION 1
+
+176. Quando motus corpusculi, uti supra docuimus, secundum ternas directiones quascunque fixas resolvitur, a quibuscunque viribus corpusculum sollicitetur, perturbatio motus facile huiusmodi formulis determinari potest. Vires enim sollicitantes omnes secundum has easdem ternas directiones resolventur (Fig. 4), unde resultent istae vires p, q, r, quarum prima p urgeat secundum directionem OA, in qua elementum dx, secunda secundum directionem OB, in qua elementum dy, et tertia secundum directionem OC, in qua elementum dz capitur, tendantque singulae vires ad motus secundum istas directiones accelerandos. Quo facto motus ita perturbabitur, ut posito elemento temporis dt constante futurum sit
+
+I.
+
+ddx dt 2
+
+=
+
+p A
+
+,
+
+II.
+
+ddy dt 2
+
+=
+
+q A
+
+,
+
+III.
+
+ddz dt 2
+
+=
+
+r A
+
+,
+
+ubi notandum, si quae harum virium in plagam oppositam urgeat, eam negative sumi
+
+debere, ita ut motus lateralis ei respondens retardetur. Atque huiusmodi ternis formulis
+
+perturbatio omnium motuum, quomodocunque etiam corpusculum a viribus
+
+sollicitetur, includi poterit, quae cum sint similes inter se, universa Mechanica unico
+
+adeo principio inniti est censenda.
+
+SCHOLION 2
+
+177. Quin etiam hoc unicum principium complectitur axiomata praecedentis capitis
+
+pro motu spontaneo seu casu, quo vires sollicitantes evanescunt; tum enim nostrae
+
+formulae declarant motum aequabilem rectilineum. Totius ergo Mechanicae
+
+fundamentum hac una propositione includitur :
+
+Si corpusculum, cuius massa = A, sollicitetur a vi = p ac per motus resolutionem
+
+in directione huius vis tempusculo dt conficiat spatiolum ds celeritate
+
+ds dt
+
+= v , erit
+
+dds = p
+dt 2 A
+
+seu dv =
+
+pdt A
+
+.
+
+Vel augmentum celeritatis secundum directionem vis sollicitantis acceptum est
+
+directe ut vis sollicitans ducta in tempusculum et reciproce ut massa corpusculi.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter three.
+
+Translated and annotated by Ian Bruce.
+
+page 126
+
+Iam quaestio agitari solet, utrum hoc unicum principium, cui tota Mechancia
+
+atque adeo universa Motus scientia superstruitur, sit necessario, an tantum
+
+contingenter verum? Cuius decisio ex hactenus demonstratis haud difficilis videtur.
+
+Ubicunque enim corpora existunt, aliae certe leges in eorum motu locum habere
+
+nequeunt; omnesque aliae formulae praeter
+
+pdt A
+
+,
+
+quibus
+
+quis
+
+incrementum
+
+celeritatis
+
+proportionale statuere voluerit, manifestas contradictiones essent implicaturae. Quare
+
+nullo modo dubitare licet, quin hoc principium inter veritates necessarias sit
+
+referendum. Atque non solum super terra, ubi eius veritatem experimentis comprobare
+
+licet, sed etiam in planetis cunctisque adeo corporibus coelestibus audacter
+
+pronunciare possumus omnes motus, quicunque ibi fuerint, per hoc unicum principium
+
+dirigi ac temperari. Quaestio autem haec de necessitate et contingentia non tam de isto
+
+principio, quam de aliquot aliis regulis, quae sub nomine legum motus circumferuntur,
+
+moveri solet. Verum quatenus hae leges rite ex nostro principio consequuntur, aeque
+
+erunt pro necessariis habendae; quae deinde ad certa corporum genera veluti elastica,
+
+nonelastica et fluida astringuntur, eae concessis talibus corporibus pariter non verae
+
+esse non possunt, dummodo ex nostro principio recte sint deductae.
+
+SCHOLION 3
+178. In superioribus de Mechanica Libris equidem principia hius scientiae iam ita constitueram, ut eorum certitudo extra omnes dubitationem esset posita, hic autem visum est ea alio modo ex natura corporum accuratius perpensa derivare atque ad unicum principium revocare, ex quo deinceps omnia, quae ad motum pertinent, facilius deduci possent. Quanquam autem omnia, quae ad motum corpusculorum infinite parvorum seu quasi punctorum spectant, ibi iam fusius sum persecutus, tamen, quemadmodum eadem ex isto unico principio sint repetenda, breviter exposuisse iuvabit, quae quidem ita pertractabo, ut via ad motus corporum finitorum scrutandos planior reddatur. Imprimis autem, cum hic tantum rationem seu proportionalitatem inter diversas quantitates notitiam motus ingredientes, quae per se sunt heterogenae, definiverim quae ad mensuras absolutas revocari nequeunt, nisi motus quidam pro cognito assumatur, hic omnino necesse est, antequam ulterius progrediamur, motum quendam cognitum, cuiusmodi est lapsus gravium, studiosus evolvere indeque mensuras absolutas stabilire, quibus deinceps commode uti queamus. Etsi vero assumtio talis motus ab arbitrio nostro pendet et ad experientiam deducitur, tamen hinc necessitati principii nostri nihil detrahitur, cum arbitrarium tantum se ad mensuras absolutas extendat haeque ab unitatibus certis omnino arbitrariis pendeant.
+
+

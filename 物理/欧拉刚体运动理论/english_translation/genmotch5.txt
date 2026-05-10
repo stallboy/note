@@ -1,0 +1,4969 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 146
+
+Chapter V
+
+Concerning the Absolute Motion of Bodies Acted on by Forces in General.
+
+PROBLEM 13
+205. If a corpuscle is acted on by forces so that its motion is completed in the same plane, to define both the distance traversed as well as the position and speed of that at any time.
+
+SOLUTION
+
+As the motion is made in the same plane, it is necessary that as the direction of the forces, upon which the body is continually acted on, as well as the first impressed direction of the motion, are placed in the same plane, which may be referred to as the plane of the table (Fig. 18). In which plane we are able to take freely two directions OA et OB normal to each other, most convenient to the calculation, and let ESF be the interval described by the corpuscle, in which it arrives on the elapsed time t, that is expressed in seconds, at the point S, thus on sending the perpendicular SX to OA there are the coordinates OX = x and XS = y, on putting the interval itself traversed
+ES = s, in order that ds = (dx2 + dy2) . Now let the mass of the corpuscle be equal to
+A, which clearly indicates the same weight, if it is situated in a region of the earth chosen with absolute measures [i. e. where the acc. of gravity is 1, in Euler's units], and at S it is acted on by any forces, these are allowed through static resolution to be applied by two forces, along the directions SP and SQ parallel to the directrices. Therefore let the force SP = P and the force SQ = Q, both given by weights equal to themselves. With these in place, if the element of time dt is assumed constant, and it is understood that the motion is resolved equally along the directions SP and SQ, then the determination of the motion will be contained in these two formulas :
+
+ddx = 2gPdt2 and ddy = 2gQdt2 ,
+
+A
+
+A
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 147
+
+where, because it is always to be retained that g denotes the height through which a weight drops in a time of one second in a specified region of the earth. Hence the speed of the motion along the side SP
+
+=
+
+dx dt
+
+=
+
+2g A
+
+
+
+Pdt
+
+and along SQ
+
+=
+
+dy dt
+
+=
+
+2g A
+
+ Qdt
+
+.
+
+Now if the speed at S is put equal to v, on account of
+
+v=
+
+ds dt
+
+and ds2
+
+= dx2 + dy2 then
+
+this equation is derived:
+
+dxddx + dyddy = dsdds = 2gdt 2 (Pdx + Qdy),
+A
+
+from which, since then ds = vdt and dds =dvdt, it is elicited :
+
+and hence
+
+vdv
+
+=
+
+2g A
+
+( Pdx
+
++
+
+Qdy)
+
+vv
+
+=
+
+4g A
+
+ (Pdx + Qdy).
+
+Again on considering dy = pdx, so that ds = dx (1+ pp) , then
+
+and thus But on account of then and hence
+
+ddy = pddx + dpdx = 2gQdt 2 = 2gPdt 2 + dpdx
+
+A
+
+A
+
+dp
+
+=
+
+2gQdt 2 Adx
+
+(Q
+
+-
+
+Pp)
+
+=
+
+2gdt 2 Adx 2
+
+(Qdx
+
+-
+
+Pdy).
+
+ds = vdt = dx (1+ pp)
+
+dt = (1+ pp)
+
+dx
+
+v
+
+dp
+
+=
+
+2g(1+ pp) Avv
+
+(Qdx
+
+-
+
+Pdy).
+
+Now the radius of osculation of the curve ESF, in as much as it is seen to be concave towards OA , is equal to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 148
+
+-
+
+dx(1+ pp) dp
+
+(1+ pp)
+
+=
+
+-
+
+ds(1+ pp) dp
+
+,
+
+which if it is called equal to r, on account of
+
+dp
+
+=
+
+-
+
+ds(1+ r
+
+pp)
+
+gives :
+
+-
+
+ds r
+
+=
+
+2 g (Qdx - Pdy ) Avv
+
+or
+
+Pdy - Qdx ds
+
+=
+
+Avv 2 gr
+
+.
+
+COROLLARY 1
+
+206. If therefore in place of the time t the speed v is introduced, the motion can be expressed from these two equations :
+Avdv = 2g(Pdx + Qdy) and Avvds = 2gr(Pdy - Qdx),
+
+which can be taken more conveniently, if perhaps the forces P and Q depend on the speed of the body.
+
+COROLLARY 2
+
+207.
+
+Here
+
+the
+
+formula
+
+Pdx + Qdy ds
+
+is to be noted that expresses the tangential force, but
+
+Pdy -Qdx ds
+
+is the normal force, of which the former is called T, and now the latter N, we
+
+have
+
+Avdv = 2gTds and Avv = 2gNr,
+
+which agree with the formulas treated in the above books.
+
+COROLLARY 3
+
+208. Moreover with these measures introduced the effect of the tangential force T in
+
+corresponds
+
+to
+
+this,
+
+as
+
+it
+
+becomes
+
+T
+
+=
+
+Avdv 2 gds
+
+,
+
+moreover
+
+the
+
+effect
+
+of
+
+the
+
+normal
+
+force
+
+corresponds to this, as it becomes
+
+N
+
+=
+
+Avv 2 gr
+
+. Or, on putting dy = pdx, on account of
+
+r
+
+=
+
+-
+
+ds(1+ pp) dp
+
+then
+
+N
+
+=
+
+-
+
+Avvdp 2gds(1+ pp)
+
+,
+
+if indeed we take the normal force to be inclined towards the axis OA.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 149
+
+EXAMPLE
+
+209. The body can be acted on continually by a constant force along the direction BO and equal to the weight A of this, as is had in the case of a body projected above the surface of the earth. Hence there is the force P = 0 and the force Q = ­ A, thus we have these equations :
+
+ddx = 0 and ddy = -2gdt2 .
+
+We consider the corpuscle thus to be projected initially from O, so that its speed is equal to c and the direction makes an angle equal to  with the line OA, which is
+
+considered horizontal, thus so that the initial speed of this along OA is equal to c cos and along OB = c sin . With these in place, the first equation gives :
+
+and now the other :
+
+dx dt
+
+=
+
+c cos
+
+,
+
+dy dt
+
+=
+
+c sin
+
+- 2gt ,
+
+since on putting t = 0 formulas
+
+dx dt
+
+and
+
+dy dt
+
+must
+
+be
+
+given
+
+the
+
+initial
+
+speeds.
+
+Again
+
+moreover on integrating, since on putting t = 0 so x as well as y must vanish, the
+
+equations become :
+
+or and hence
+
+x = ct cos and y = ct sin - gtt - 4gy = 4ggtt - 4cgt sin
+
+cc sin2 
+
+- 4gy
+
+=
+
+(2gt
+
+- c sin
+
+)2
+
+=
+
+(c sin
+
+-
+
+2 gx c cos
+
+)2 ,
+
+thus it is apparent that the curve is the parabola satisfied by this equation :
+
+( cc sin cos - x)2 = cc cos2  ( cc sin2  - y),
+
+2g
+
+g
+
+4g
+
+the parameter of this is equal to cc cos2  and the distance from the point O to the
+g
+
+vertical axis is equal to
+
+cc sin cos 2g
+
+and the height of the vertex above OA is equal to
+
+cc sin2  . Then on account of
+4g
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 150
+
+the speed at S is clearly
+
+ds dt
+
+=
+
+(cc - 4cgt sin + 4ggtt) = v
+
+v = (cc - 4gy) .
+
+And hence on making y = 0 the length of the throw is found to be equal to
+
+cc sin cos g
+
+.
+
+SCHOLIUM
+
+210. I will not tarry here at this point with explanations of other related questions, since I might have pursued this whole argument more fully. But it may be noted that this [question] is concerned with performing absolute and thus free motion ; even if indeed I have deduced the motion of a weight, which as it refers to the earth and certainly is moving relative to the earth, and thus is very much in disagreement with absolute motion, yet in what follows it will be shown that this can be viewed as absolute motion. For since all terrestrial bodies are urged on by like forces, as these are effected by the earth itself, and since these bodies likewise are moving with respect to the earth, then if the earth itself should be at taken at rest then these forces may be absent, which is shown in the following chapter in a most excellent way. Now besides, these are to be understood for free motion, thus so that nothing extrinsic stands in the way, so that nothing hinders the action of external forces on the corpuscle, which is clearly seen to be agreed upon for forced motion, in which the corpuscle moves as if enclosed by a channel, and is unable to move in any other way except along to be led along the channel, I have considered motion of this kind in the second book. Now here I may add a single problem about channels [or tubes or pipes] formed in the same plane, where indeed I have removed from consideration all friction, by which is easier to see, how problems of this kind can be resolved with the aid or the new method and likewise the force of the corpuscle pressing on the sides of the tube can be defined.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 151
+
+PROBLEM 14
+
+211. If a corpuscle should be enclosed in a channel formed in the same plane and likewise acted on by some forces, so to determine the motion of this corpuscle in the channel as well as the forces that it exerts on the channel.
+
+SOLUTION
+
+Hence the figure of the channel ESR is given as seen, which is referred to two directions OA and OB normal to each other as before (Fig. 18). Clearly if in the elapsed time t the corpuscle has arrived at S, then OX = x, XS = y, and the arc ES = s; moreover the applied forces acting in the same directions are SP = P and SQ = Q with the mass of the corpuscle being equal to A. Now in as much as the channel changes direction, that the corpuscle is to be travelling through, even if now it exerts unknown forces on that, which can be reduced to the same directions along SP = X and along SQ = Y, moreover from which it is agreed that by these forces the motion of the corpuscle is neither to be accelerated or retarded. Since now the forces along SP = P + X and along SQ = Q + Y, on putting the speed at S = v and the radius of osculation equal to r, we will have these equations from §206 : Avdv = 2g((P + X )dx + (Q + Y )dy),
+Avvds = 2gr((P + X )dx - (Q + Y )dx).
+
+But since the forces X and Y bring nothing to the increment of the speed dv, then Xdx + Ydy = 0,moreover from the other equation for knowing these forces it is
+elicited :
+
+Xdy -Ydx ds
+
+=
+
+Avv 2 gr
+
+-
+
+Pdy -Qdx ds
+
+.
+
+Therefore in the first place the motion along the channel is determined by this equation :
+Avdv = 2g(Pdx + Qdy),
+
+thus the speed of the corpuscle v is known at some place S . Then the channel itself exerts forces of this kind X and Y along SP and SQ , in order that :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 152
+
+Xdx+Ydy ds
+
+=
+
+0
+
+and
+
+Xdy-Ydx ds
+
+=
+
+Avv 2 gr
+
+-
+
+Pdy-Qdx ds
+
+.
+
+Clearly, if these forces in the direction of the channel Ss and along the normal SN are reduced, then there arises no force along the direction of the channel, and along the normal SN there is a force which is :
+
+Avv 2 gr
+
++
+
+- Pdy + Qdx ds
+
+,
+
+and by such a force in turn the corpuscle urges the channel along the direction
+
+opposite to Sn, which is the pressing force sought.
+
+COROLLARY 1
+
+212. If therefore the corpuscle, is then moved by the channel, it is acted on by no external forces P and Q , and the motion of this on account of Avdv = 0 is uniform.
+
+Then indeed everywhere the channel is pressed on by the normal force equal to
+
+Avv 2 gr
+
+along the direction Sn, opposite to the position of the radius of osculation.
+
+COROLLARY 2
+
+213. This force, by which the channel is pressed, is hence called the centrifugal force
+
+Avv 2 gr
+
+that has arisen, because the corpuscle is compelled to progress along the line of
+
+the curve against the instigation of inertia, and this force is composed in the direct
+
+ratio of the mass A, of the square of the speed v and with the reciprocal of the radius of
+
+osculation r.
+
+COROLLARY 3
+
+214. If in addition the corpuscle is acted on by a tangential force along Ss equal to T and by a normal force along SN equal to N, in the first place there is Avdv = 2gTds ,
+
+then
+
+the channel is pressed along the direction Sn by a force equal to
+
+Avv 2 gr
+
+-
+
+N
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 153
+
+EXAMPLE
+
+215. If a corpuscle acted on by gravity is compelled to ascend along a circle OS (Fig. 19), the centre of this is B, and the radius OB = b, which is vertical and moreover the horizontal speed at O along OA is equal to c, then the force P = 0 and the force Q = ­A and r = ­ b; hence for the motion there is given :
+
+Avdv = -2Agdy or vdv = -2gdy,
+
+so that vv = cc - 4gy an the speed vanishes at
+
+D, where
+
+y=
+
+cc 4g
+
+,
+
+but
+
+the
+
+force
+
+by
+
+which
+
+the
+
+channel is pressed along SB, is then equal to :
+
+-
+
+A(cc - 4 gy ) 2 gb
+
+-
+
+Adx ds
+
+.
+
+Then on account of xx + (b - y)2 = bb , there is
+
+x = (2by - yy) ,
+
+dx = bdy- ydy
+(2by- yy)
+and ds = bdy ,
+(2by- yy)
+and hence the pressing force along SB is equal to :
+
+-
+
+Acc 2bg
+
++
+
+2 Ay b
+
+-
+
+A(b- y) b
+
+=
+
+-A+
+
+3 Ay b
+
+-
+
+Acc 2 gb
+
+,
+
+which because it is negative, the force acting on the channel along SN is equal to
+
+A(1 +
+
+cc 2bg
+
+-
+
+3y b
+
+)
+
+.
+
+Moreover since
+
+v = (cc - 4gy) ,
+
+then the element of the time
+
+dt
+
+=
+
+ds v
+
+=
+
+bdy (cc-4gy)(2by- yy)
+
+or on account of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 154
+
+y
+
+=
+
+cc-vv 4g
+
+and
+
+dy
+
+=
+
+-
+
+vdv 2g
+
+then
+
+dt = -
+
+2bdv
+
+.
+
+(cc-vv)(8bg -cc+vv)
+
+If the initial speed c is infinitely small besides b, and because v cannot exceed c, then approximately
+
+dt = -
+
+dv .
+(cc-vv)
+
+b 2g
+
+and on integrating
+
+t=
+
+b 2g
+
+.A
+
+cos
+
+v c
+
+.
+
+[A cos means arc cos]
+
+Hence if  is the semi circumference of the circle of which the radius is equal to 1,
+
+then the total time of the ascent to D, because the speed v vanishes, is equal to  b ,
+2 2g
+
+which is called the time of the semi­oscillation. Whereby, in order that the time of a
+
+complete oscillation  b is one second or equal to 1, radius BO = b must be taken
+2g
+
+equal
+
+to
+
+2g 
+
+,
+
+which is the
+
+length
+
+of
+
+a
+
+simple pendulum with
+
+individual
+
+oscillations
+
+of
+
+one second. [i. e. the time for a half period] Whereby, if g = 15,625 Rhenish feet, then
+
+the length of this pendulum is equal to 3.166287 Rhenish feet. [Rather like taking g = 32 ft/sec2 in the old units, where g is now the acceleration of
+
+gravity, rather than Euler's 'g', the distance fallen from rest by a body in one second.
+
+This problem has of course been transformed into the frictionless bead on the vertical
+
+circular wire arc.]
+
+SCHOLIUM
+
+216. There is no need, as I may advise here, that only a channel should thus be considered, in order that the motion is compelled to move along a given line; moreover, just as that can be done in a number of ways by pendulums, a case of this kind has been set out to be considered in the previous example. Again, I have treated at length enough problems of this kind in the second book of the Mechanicae. But since here it may be appropriate and worth the effort to set out more carefully a method normally applied to the motions of celestial bodies, that I have not explained previously, and that at last henceforth can be used here. Moreover it is related to problem 13 and only differs from that, in that the motion is not defined by coordinates, but by distances from a fixed point and the angles about that point. Therefore in as much as this motion is solved in a plane, as well as that to be investigated that I treat
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 155
+
+according to this method, later for the same motion not made in the same plane will be made clear.
+
+PROBLEM 15
+217. If a corpuscle can move freely in a plane, in which two forces are acting always, with the one pulling towards a certain fixed point O, the other now in a direction normal to that (Fig. 20), at some time to define the distance of the corpuscle S from the fixed point O and the angle AOS.
+
+SOLUTION
+In the elapsed time t the corpuscle, of which the mass is equal to A, arrives at S from A, and the distance OS is put equal to u and the angle AOS =  . Moreover at S in the first place is acted on by a force pushing along SO, which shall be equal to V, then indeed by a force acting along the direction SV normal to OS, which shall be equal to S. That case we are able to reduce more easily to problem 13, by sending the perpendicular SX from S to the fixed line OA and we introduce the coordinates OX = x and XS = y, then x = u cos and y = u sin . Then we can apply now the two forces V and S in the same directions SP and SQ and we will have the force SP = -V cos - S sin and the force SQ = -V sin + S cos , which we have called P and Q above. On account of which we find these two equations :
+ddx = - 2gdt 2 (V cos + S sin),
+A
+ddy = - 2gdt 2 (V sin - S cos),
+A
+and from the combination of these we deduce : ddx cos + ddy sin = - 2gVdt 2 ,
+A
+ddx sin - ddy cos = - 2gSdt 2 .
+A
+But since x = u cos and y = u sin , then
+x cos + y sin = u et x sin - y cos = 0, thus on different ion :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 156
+
+dx cos + dy sin = du et dx sin - dy cos + ud = 0 or
+dx sin - dy cos = -ud and on differentiation again :
+ddx cos + ddy sin + ud 2 = ddu,
+ddx sin - ddy cos + dud = -dud - udd.
+
+With which values substituted we will arrive at these two equations for the determination of the motion:
+I. ddu - ud 2 + 2gVdt 2 = 0,
+A
+II.udd + 2dud - 2gSdt 2 = 0.
+A
+
+COROLLARY 1
+
+218. The second equation multiplied by u and by integration is reduced to this :
+
+uud
+
+=
+
+2 gdt A
+
+
+
+Sudt ,
+
+where
+
+it
+
+is
+
+to
+
+be
+
+noted
+
+that
+
+1 2
+
+uud
+
+expresses the element of the area AOS, thus this
+
+area
+
+is
+
+equal
+
+to
+
+g A
+
+
+
+dt 
+
+Sudt.
+
+Therefore
+
+with
+
+the
+
+vanishing
+
+of
+
+the
+
+lateral
+
+force
+
+SV
+
+=
+
+S,
+
+this area AOS is proportional to the time t, as it will have been compared with the
+
+other force V acting towards the point O.
+
+COROLLARY 2
+
+219. If the first equation is multiplied by du, and the second by ud , then the sum becomes
+
+duddu
+
++
+
+udud 2
+
++
+
+uuddd
+
+=
+
+-
+
+2 gVdt 2 du A
+
++
+
+2gSudt 2d A
+
+,
+
+thus by integration it is elicited that
+
+du 2
+
++ uud 2
+
+=
+
+-
+
+4gdt 2 A
+
+ (Sud
+
+- Vdu ) ,
+
+where (du2 + uud 2 ) expresses the element of the arc AS, thus in order that
+
+du2 +uud 2 dt 2
+
+shall
+
+be
+
+the
+
+square
+
+of
+
+the
+
+speed
+
+at
+
+S.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 157
+
+COROLLARY 3
+
+220. If the second equation is multiplied by 2u3d , on account of dt being constant,
+
+the integral is found :
+
+u 4d 2
+
+=
+
+4gdt 2 A
+
+
+
+Su3d ,
+
+thus by the preceding we come upon :
+
+uudu 2
+
+=
+
+4gdt 2 A
+
+(uu Sud
+
+-
+
+
+
+Su 3d
+
+-uu  Vdu)
+
+or
+
+uudu 2
+
+=
+
+4 gdt 2 A
+
+(2 udu
+
+Sud
+
+- uuVdu),
+
+where it is to be noted that the element of the time dt is to be found outside the
+
+integration sign.
+
+COROLLARY 4
+
+221. If S = 0, which is the case of the centripetal force, then there arises
+
+uud
+
+=
+
+ffdt and ud
+
+=
+
+ffdt u
+
+, from which with the value in corollary 2 substituted it
+
+becomes :
+
+du 2
+
+=
+
+-
+
+f 4dt 2 uu
+
+-
+
+4gdt 2 A
+
+Vdu + ccdt 2
+
+and thus
+
+dt =
+
+udu
+
+(ccuu- f 4 -4guuVdu:A)
+
+and
+
+d =
+
+ffdu
+
+.
+
+u (ccuu- f 4 -4guuVdu:A)
+
+SCHOLIUM
+
+222. The uses of these formulas is greatest in theoretical astronomy, and from these it is customary to determine the longitude, the anomaly, and the distance of a planet to be acted on at a certain point. Now this is not the place to pursue these further, since they are concerned with astronomy. Nevertheless it suffices here that problems of this kind to be treated are to be set forth in general; hence we may progress to the consideration of motion that is not in the same plane.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 158
+
+PROBLEM 16
+
+223. If a corpuscle is freely moving under the action of some forces, to determine the motion of this body by three coordinates normal to each other.
+
+SOLUTION
+
+With the three directrices OA, OB and OC put in place normal to each other in turn (Fig. 21), a corpuscle may be moved, of which the mass is equal to A, on the line ESF and in the elapsed time t it arrives at S, thus with the perpendicular SY sent to the plane AOB, from Y to OA the normal YX is acting, in order that the three coordinates may be given between the normals and parallel to the directrices, which may be called OX = x, XY = y and YS = z, moreover the distance thus traversed ES is said to
+
+be equal to s, in order that there arises ds = (dx2 + dy2 + dz2 ) and the speed at
+
+S
+
+=
+
+ds dt
+
+,
+
+which
+
+is
+
+put
+
+equal
+
+to
+
+v.
+
+Now
+
+the
+
+corpuscle
+
+at
+
+S
+
+that
+
+may
+
+be
+
+acting
+
+on
+
+from
+
+any forces, these clearly are allowed to be reduced to the same three directions. Hence
+
+it is acted on by these forces SP = P, SQ = Q and SR = R, the effect of which will be
+
+determined from above by the three following equations :
+
+ddx
+
+=
+
+2 gPdt 2 A
+
+,
+
+ddy
+
+=
+
+2 gQdt 2 A
+
+and
+
+ddz
+
+=
+
+2 gRdt 2 A
+
+,
+
+where a certain element dt has been taken constant. Therefore as the forces P, Q, R
+
+depend on the coordinates
+
+x, y, z or even on the speed
+
+ds dt
+
+= v , aids are to be sought
+
+for the resolution from analysis. Meanwhile it helps to know, since there is obtained
+
+ds2
+
+=
+
+dx2
+
++ dy2
+
++ dz2
+
+and
+
+vv
+
+=
+
+ds 2 dt 2
+
+and
+
+thus
+
+to become :
+
+vdv
+
+=
+
+dsdds dt 2
+
+=
+
+dxddx + dyddy + dzddz dt 2
+
+,
+
+vdv
+
+=
+
+2g A
+
+(Pdx
+
++
+
+Qdy
+
++
+
+Rdz),
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 159
+
+from which the acceleration of the corpuscle is defined. Moreover, in order to find the
+
+curve there is put in place dy = pdx and dz = qdx, in order that
+
+ds = dx
+
+(1+ pp + qq)
+
+and
+
+v
+
+=
+
+dx dt
+
+(1+ pp + qq).
+
+Hence on account of ddy = pddx + dpdx and ddz = qddx + dqdx, if in place of ddx the
+
+value
+
+2 gPdt 2 A
+
+is substituted, then there is found
+
+dpdx =
+
+2 gdt 2 A
+
+(Q
+
+-
+
+Pp)
+
+and dqdx =
+
+2 gdt 2 A
+
+(R
+
+-
+
+Pq).
+
+Whereby, if here for
+
+dt 2 there is written
+
+dx2 (1+ pp+qq) vv
+
+,
+
+then
+
+dp
+
+=
+
+2gdx(1+ pp+qq) Avv
+
+(Q
+
+-
+
+Pp),
+
+dq
+
+=
+
+2gdx(1+ pp+qq) Avv
+
+(R
+
+-
+
+Pq)
+
+or
+
+Qdx
+
+-
+
+Pdy
+
+=
+
+Avvdp 2g(1+ pp+qq)
+
+and
+
+Rdx
+
+-
+
+Pdz
+
+=
+
+Avvdq 2g(1+ pp+qq)
+
+.
+
+But if for p and q the values
+
+dy dx
+
+and
+
+dz dx
+
+are reinstated, there arises
+
+Qdx - Pdy
+
+=
+
+Avv(dxddy - dyddx) 2gds 2
+
+,
+
+Rdx - Pdz
+
+=
+
+Avv(dxddz - dzddx) 2 gds 2
+
+,
+
+which divided in turn give
+
+P(dzddy - dyddz) + Q(dxddz - dzddx) + R(dyddx - dxddy) = 0.
+
+COROLLARY 1
+
+224. Therefore the speed at some point on the curve is determined from this differential equation
+
+Avdv = 2g(Pdx + Qdy + Rdz),
+
+where
+
+Pdx+Qdy+ Rdz ds
+
+designates the tangential force arising from the forces acting.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 160
+
+COROLLARY 2
+
+225. Moreover for the curve to be defined two from these three equations are sufficient :
+
+2gds2 (Qdx
+
+-
+
+Pdy)
+
+=
+
+Avv(dxddy
+
+-
+
+dyddx)
+
+=
+
+Avvdx2d
+
+.
+
+dy dx
+
+,
+
+2gds2 (Pdx
+
+-
+
+Rdy)
+
+=
+
+Avv(dzddx
+
+-
+
+dxddz)
+
+=
+
+Avvdz2d
+
+.
+
+dx dz
+
+,
+
+2gds2 (Rdy
+
+- Qdz)
+
+=
+
+Avv(dyddz
+
+-
+
+dzddy)
+
+=
+
+Avvdy2d .
+
+dz dy
+
+,
+
+for any two likewise involve the third. There is hence an excess in the number of the agreed [independent] differential equations.
+
+COROLLARY 3
+
+226. With the final equation exempt from the speed, although it retains a second order differential equation, yet it has not been restricted to the assumed constant differential dt, thus indeed it can be represented by
+
+Pdz
+
+2d
+
+.
+
+dy dz
+
++
+
+Qdx2d
+
+.
+
+dz dx
+
++
+
+Rdy
+
+2d
+
+.
+
+dx dy
+
+=
+
+0.
+
+SCHOLIUM
+
+227. The three forces P, Q, R, that we put acting on the corpuscle at S, are reduced to
+
+one force, which is equal to (PP + QQ + RR) ,and if that is put equal to V, the
+
+direction of this is inclined to SP at an angle, the
+
+cosine
+
+of
+
+which
+
+is
+
+equal
+
+to
+
+P V
+
+,
+
+to
+
+SQ
+
+an
+
+angle,
+
+the
+
+cosine
+
+of
+
+which
+
+is
+
+equal
+
+to
+
+Q V
+
+,
+
+and
+
+to
+
+SR
+
+at
+
+an
+
+angle,
+
+the
+
+cosine
+
+of
+
+which
+
+is
+
+equal
+
+to
+
+R V
+
+.
+
+Then
+
+if
+
+the direction of the force V makes an angle equal
+
+to  with the direction of the motion Ss , then the
+
+accelerating force or the force acting along Ss is
+
+equal to V cos , which since it is equal to
+
+Pdx+Qdy+ Rdz ds
+
+,
+
+then becomes
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 161
+
+cos 
+
+=
+
+Pdx+Qdy+ Rdz Vds
+
+,
+
+thus the normal force is gathered to be equal to V sin , of which the position is best
+
+represented with the aid of spherical trigonometry (Fig. 22). S is considered as the
+
+centre of a sphere, thus the straight lines SP, SQ and SR are extended to the surface, in
+
+order that the arcs PQ, PR and QR are quadrants; the direction of the motion passes
+
+through s and the mean direction of the forces through V, and we have :
+
+cos
+
+Ps
+
+=
+
+dx ds
+
+,
+
+cos Qs
+
+=
+
+dy ds
+
+,
+
+cos
+
+Rs
+
+=
+
+dz ds
+
+,
+
+cos
+
+PV
+
+=
+
+P V
+
+,
+
+cos QV
+
+=
+
+Q V
+
+,
+
+cos
+
+RV
+
+=
+
+R V
+
+and besides Vs =  or
+
+cos 
+
+=
+
+Pdx +Qdy + Rdz Vds
+
+.
+
+With the angle  known, sVN is taken equal to a quadrant, the right line drawn from
+
+the centre S through N is in a direction normal to the force ; and the position of the
+
+point N is thus defined from the distances of this from the points P, Q, and R, in order
+
+that :
+
+cos
+
+PN
+
+=
+
+V
+
+P sin 
+
+-
+
+dx cos ds sin
+
+,
+
+cos QN
+
+=
+
+V
+
+Q sin 
+
+-
+
+dy cos ds sin
+
+and
+
+cos
+
+RN
+
+=
+
+V
+
+R sin 
+
+-
+
+dz cos ds sin
+
+.
+
+Therefore since an infinitude of right lines are given normal to the direction of motion
+
+Ss, among these that one is determined, along which the normal force acts, and along
+
+which the direction of motion curves, in order that the radius of curvature lies on the
+
+same line SN, which is equal to
+
+Avv 2gV sin
+
+(§207).
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 162
+
+PROBLEM 17
+
+228. If the corpuscle, the mass of which is equal to A, is moving in a tube or a channel (Fig. 21), and not acted on by any forces, to determine the motion of this and the force that it exerts on the tube everywhere.
+
+SOLUTION
+
+Let ESF be the figure of a tube [or
+
+pipe], in which the corpuscle is moving,
+
+and in the elapsed time it will have
+
+reached S with the distance ES = s
+
+completed. Moreover as the position S as
+
+before is referred to the three fixed
+
+directions OA, OB, and OC normal to each
+
+other, for which the parallel coordinates
+
+may be called OX = x, XY = y and YS = z.
+
+Now since the corpuscle everywhere is
+
+forced to follow the direction of the tube, the tube itself exerts the necessary forces on
+
+that, which moreover are thus to be compared, as the speed is not allowed to have any
+
+change. Hence the constant speed, which is set equal to c, thus becomes
+
+ds dt
+
+= c and
+
+s
+
+= ct. The forces exerted by the tube may be reduced to the same three directions, and
+
+become SP = X, SQ = Y and SR = Z, and on account of the unchangeable speed,
+
+Xdx
+
++ Ydy
+
++
+
+Zdz
+
+=
+
+0.
+
+Then,
+
+since
+
+dt
+
+=
+
+ds c
+
+, in
+
+place
+
+of
+
+the
+
+constant
+
+dt
+
+there
+
+is
+
+the
+
+element ds, from which the principle formulas are :
+
+Accddx = 2gXds2 , Accddy = 2gYds2 and Accddz = 2gZds2
+
+with dx2 + dy2 + dz2 = ds2 being present. Hence the total force, that the tub exerts on
+
+the corpuscle, becomes :
+
+(X 2 + Y 2 + Z 2 ) = Acc
+
+(ddx2 +ddy2 +ddz2 ) 2 gds 2
+
+=V,
+
+the direction of this is inclined to the line SP by the angle,
+
+of which the cosine is equal to X =
+
+ddx
+
+,
+
+V
+
+(ddx2 +ddy2 +ddz2 )
+
+to SQ by the angle,
+
+of which the cosine is equal to
+
+Y V
+
+=
+
+ddy (ddx2 +ddy2 +ddz2 )
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 163
+
+and to SR by the angle,
+
+of
+
+which
+
+the
+
+cosine
+
+is
+
+equal
+
+to
+
+Z V
+
+=
+
+ddz
+
+.
+
+(ddx2 +ddy2 +ddz2 )
+
+Moreover, equal and opposite to this force is the pressing force [it is better not to use the word pressure here which is intended to be used], that the corpuscle in turn exerts on the tube.
+COROLLARY 1
+
+229. If the radius of osculation of the curve at S is put equal to r, on account of the
+
+normal
+
+force
+
+equal
+
+to
+
+V
+
+and
+
+the
+
+speed
+
+equal
+
+to c,
+
+then
+
+r
+
+=
+
+Acc 2 gV
+
+,
+
+and
+
+thus
+
+r=
+
+ds2
+
+on taking ds constant.
+
+(ddx2 +ddy2 +ddz2 )
+
+COROLLARY 2
+
+230. Moreover the position of the radius of osculation with the direction of the force V, by which the corpuscle is pressed on by the tube, it is agreed, therefore that is inclined to the line SP by the angle,
+
+of which the cosine is equal to
+
+ddx
+
+,
+
+(ddx2 +ddy2 +ddz2 )
+
+to SQ by the angle,
+
+of which the cosine is equal to
+
+ddy
+
+,
+
+(ddx2 +ddy2 +ddz2 )
+
+and to SR by the angle,
+
+of which the cosine is equal to
+
+ddz
+
+.
+
+(ddx2 +ddy2 +ddz2 )
+
+SCHOLIUM
+231. It is also possible for the motion to be considered, when the corpuscle is not forced along a given curve but yet forced to progress on a surface, but since this argument has been treated at great length in the second book of the Mechanica, lest here I should be exceedingly verbose, I will not touch on that. Especially since it is apparent that the whole calculation here corresponds to that, since the direction of the force that the surface exerts on the corpuscle is normal to the surface itself. Whereby from the equation of the proposed surface the position of the proposed normal is determined, or the inclination of this to the three directions SP, SQ and SR, as it must agree with the position of the force V defined before. And hence a new equation is
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 164
+
+gathered between the coordinates x, y, z, which on being joined with the former given equation, defines the path traversed on the surface that has been seen to be the shortest between the two terminal points themselves. Hence I shall return to the free motion, and I will show how motion not made in the same plane can be defined in agreement with the angles referred to certain fixed points, clearly following from that reasoning that I have set out above (problem 5, §70). Since this has the greatest use in theoretical astronomy, and neither has this evolution of solving motion problems been set out in the previous books, so we dedicate the following problem to this.
+
+PROBLEM 18
+232. If a corpuscle is acted on by forces in part towards a fixed point O and in part by some other forces, to define the motion of this body with respect to this point.
+SOLUTION
+With the plane put in place, which shall be the plane of the table (Fig. 23; the red variables have been added in the translation), passing through the fixed point O, to which the motion is referred, and in that same with the fixed directrix OA taken, the corpuscle arrives at S in the elapsed time t, thus first the perpendicular SY is sent to the plane, and from Y the normal YX is sent to the line OA, in order that the orthogonal coordinates OX = x, XY = y, and YS =z are obtained. Now since in the first place the corpuscle at S is acted on by a force along SO, that is resolved along the directions YO and SY ; now these remaining forces can then be reduced into forces in the same direction as these and along YV normal to OY in the plane of the table, thus so that in general three forces may be given, of which the first along YO = V, the second along YV = S and the third along SR = R. Since these forces are known, they can be resolved in the directions of the coordinates, and thus on putting the angle AOY =  , these forces are obtained : force along XO = V cos + S sin = -P, force along YX = V sin - S cos = -Q,
+force along SR= R, the effect of which is expressed by the three following formulas :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 165
+
+Addx = -2gdt2 (V cos + S sin), Addy = -2gdt2 (V sin - S cos), Addz = 2gRdt2 with the mass of the body put as A.
+
+Again calling the distance OY = u, and on account of x = u cos and y = u sin the two first equations used above (§217) are reduced to these two :
+I. ddu - ud 2 + 2gVdt2 = 0,
+A
+II. udd + 2dud - 2gSdt2 = 0.
+A
+Now the angle SOY = is put in place, which is called the latitude of the corpuscle, then the angle AOY =  is the longitude of this corpuscle; then SY = z = u tang  . But for this angle  , it shall be more convenient to find the nodal line OT, the angle AOT =  , and the inclination of the plane through O and the direction of the motion at S drawn to the plane through O is assumed equal to  , thenTOY =  - , hence with the lines YN and SN drawn normal to OT, it becomes ON = u cos ( - ) and YN = u sin ( - ) and thus YS = u sin ( - )tang  = z,and hence tang  = sin ( - )tang  and as used above (§70):
+
+d tang( - )
+
+=
+
+d sin  cos 
+
+=
+
+d .l
+
+tang
+
+.
+
+Whereby
+
+since
+
+then
+
+d
+
+=
+
+d sin  cos  tang( - )
+
+,it
+
+follows
+
+that
+
+dz
+
+=
+
+du
+
+sin
+
+(
+
+-)tang
+
+
+
++
+
+u(d
+
+-
+
+d
+
+)
+
+cos
+
+(
+
+-
+
+)
+
+tang
+
++
+
+u
+
+sin
+
+(
+
+-
+
+).
+
+d tang  tang( - )
+
+or dz = (du sin (-) + ud cos (-)) tang ,
+
+which value again differentiated gives :
+
+ddz = (ddu sin (-) + du(2d - d) cos (-) + udd cos (-) - ud(d - d) sin (-))tang 
+
++ (du sin ( - )
+
++
+
+ud
+
+cos
+
+(
+
+-)).
+
+d tang  tang( - )
+
+or
+
+( ) ddz =
+
+ddu sin (-) + 2dud cos (-) + udd cos (-) - ud2 sin (-)
+
++
+
+udd sin (-)
+
+tang .
+
+Since therefore there arises
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 166
+
+ddu
+
+- ud 2
+
+=
+
+-
+
+2 gVdt 2 A
+
+and
+
+udd
+
++
+
+2dud
+
+=
+
+2 gSdt 2 A
+
+,
+
+there is obtained :
+
+ddz
+
+=
+
+
+
+-2 gVdt 2 A
+
+sin (-)
+
++
+
+2 gSdt 2 A
+
+cos (-)
+
++
+
+ud d sin (-)
+
+ tang
+
+.
+
+Whereby on account of ddz = 2gRdt2 it follows that
+A
+
+ud d  sin ( -)
+
+=
+
+2 gdt 2 A
+
+(V
+
+sin (-)
+
+-
+
+S
+
+cos
+
+( - )
+
++
+
+R
+
+cot
+
+
+
+)
+
+or
+
+d
+
+=
+
+2gdt2 sin ( -) Aud
+
+(V
+
+sin (-)
+
+-
+
+S
+
+cos
+
+( - )
+
++
+
+R
+
+cot
+
+
+
+)
+
+and
+
+d .l
+
+tang
+
+
+
+=
+
+2gdt2 cos ( -) Aud
+
+(V
+
+sin (-) -
+
+S
+
+cos (-)
+
++
+
+R cot
+
+).
+
+Therefore four equations have been found, in which the solution of the problem is contained.
+
+COROLLARY 1
+
+233. When therefore for the given time t , these four quantities have be assigned u, ,, and , and we have obtained in the first place these two differentio-
+
+differential equations :
+
+ddu
+
+-
+
+ud 2
+
++
+
+2 gVdt 2 A
+
+=0
+
+et
+
+udd
+
++
+
+2dud
+
+-
+
+2
+
+gSdt A
+
+2
+
+= 0,
+
+then these two simpler differentials :
+
+d
+
+=
+
+2gdt2 sin ( -) Aud
+
+(V
+
+sin (-)
+
+-
+
+S
+
+cos
+
+( - )
+
++
+
+R
+
+cot
+
+
+
+)
+
+and
+
+d .l
+
+tang  =
+
+d tang( - )
+
+or d.tang 
+
+=
+
+d tang  tang( - )
+
+.
+
+COROLLARY 2
+
+234. Moreover from these values found it may be gathered that both the angle SOY = called the latitude, as well as the true distance SO can be found from these
+
+formulas
+
+tang
+
+
+
+=
+
+sin (-)tang
+
+
+
+and
+
+OS
+
+=
+
+u cos 
+
+,
+
+where u is accustomed to be called the shortened distance.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 167
+
+COROLLARY 3
+235. If it should be the case that sin (-) = 0, that is, if the corpuscle is assumed to cross through the plane, we now see from above that d = 0 ; but now it is apparent that both the nodal line and the inclination suffer no change, if it should be the case that
+V sin (-) - S cos (-) + R cot  = 0.
+COROLLARY 4
+236. Now it is the case that
+V sin (-) - S cos (-) = -Q cos + P sin,
+and with the first forces P, Q, R introduced then
+V sin (-) - S cos (-) + R cot  = P sin - Q cos + R cot  ,
+and this is as if it is the force is changing the position of the nodal line as well as the inclination.
+SCHOLIUM
+237. It deserves to be noted here first, since the momentary variation in the position of the nodal line and the inclination can be expressed in a satisfactory manner by this method, that thus there are great benefits to theoretical astronomy. From this source the most excellent Lunar Tables have been deduced with incredible enthusiasm by the most Celebrated Prof. Mayer of Gottingen, by which it must be agreed that astronomy has risen to the most exalted peak [Johan Tobias Mayer, Commentarii Societatis regiae scientiarum 3, Gottingae 1753. Noted in O. O.] Moreover since the motion of the moon, which is defined by this method, is by no means absolute, but related to the centre of the earth, in this investigation likewise the motion of the earth must be given; whereby, in order that we are able to use this method, it is fitting to consider in advance, with the aid of which the relative motion can be applied to the calculation, if indeed the motion of this body can be known, with respect to which the motion of the other body is to be reckoned. Since this argument has not been set out with sufficient clarity in the above Mechanicae books, here I will set this out with more care; with which done for the motion of finite bodies, which I have not yet touched on, one may be able to progress with a more happy outcome.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 168
+
+CAPUT V
+DE MOTU ABSOLUTO CORPUSCULORUM A VIRIBUS QUIBUSCUNQUE ACTORUM
+
+PROBLEMA 13
+205. Si corpusculum a viribus ita sollicitetur, ut motum suum in eodem plano absolvat, definire tam spatium percursum quam ad quodvis tempus eius locum et celeritatem.
+
+SOLUTIO
+
+Ut motus fiat in eodem plano, tam directiones virium, quibus continuo sollicitatur, quam directio motus primo impressi in eodem plano sitae sint necesse est, quod planum ipsa tabula referatur (Fig. 18). In quo ad lubitum assumantur binae directiones OA et OB ad calculi commoditatem inter se normales sitque ESF spatium a corpusculo descriptum, in quo pervenerit elapso tempore t, quod in minutis secundis exprimatur, in punctum S, unde ad OA demisso perpendiculo SX sint coordinatae OX = x et XS = y, posito ipso spatio percurso ES = s, ut sit
+ds = (dx2 + dy2 ) . Sit iam massa corpusculi = A, quae scilicet eius pondus indicaret,
+si in regione terrae ad mensuras absolutas electa versaretur, et quibuscunque viribus in S sollicitetur, eas per resolutionem staticam ad duas revocare licet, secundum directiones SP et SQ directricibus parallelas. Sit ergo vis SP = P et vis SQ = Q, ambae in ponderibus ipsis aequalibus datae. His positis, si temporis elementum dt constans assumatur motusque pariter secundum directiones SP et SQ resolutus intelligatur, determinatio motus his duabus formulis continebitur :
+
+ddx = 2gPdt 2 et ddy = 2gQdt 2 ,
+
+A
+
+A
+
+ubi, quod perpetuo tenendum, g denotat altitudinem, per quam grave in regione terrae memorata uno minuto secundo delabitur. Hinc erit celeritas motus lateralis = SP
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 169
+
+=
+
+dx dt
+
+=
+
+2g A
+
+
+
+Pdt
+
+et secundum SQ
+
+=
+
+dy dt
+
+=
+
+2g A
+
+ Qdt
+
+.
+
+Quodsi
+
+iam
+
+celeritas
+
+vera
+
+in
+
+S
+
+ponatur
+
+=
+
+v,
+
+ob
+
+v
+
+=
+
+ds dt
+
+et
+
+ds 2
+
+=
+
+dx2
+
++
+
+dy2 derivabitur
+
+inde haec aequatio :
+
+dxddx + dyddy = dsdds = 2gdt 2 (Pdx + Qdy),
+A
+
+ex qua, cum sit ds = vdt et dds =dvdt, elicitur :
+
+hincque
+
+vdv
+
+=
+
+2g A
+
+( Pdx
+
++ Qdy)
+
+vv
+
+=
+
+4g A
+
+ (Pdx + Qdy).
+
+Porro posito dy = pdx, ut sit ds = dx (1+ pp) , erit
+
+ideoque At ob erit hincque
+
+ddy = pddx + dpdx = 2gQdt 2 = 2gPdt 2 + dpdx
+
+A
+
+A
+
+dp
+
+=
+
+2gQdt 2 Adx
+
+(Q
+
+-
+
+Pp)
+
+=
+
+2gdt 2 Adx 2
+
+(Qdx
+
+-
+
+Pdy).
+
+ds = vdt = dx (1+ pp)
+
+dt =
+dx
+
+(1+ pp) v
+
+dp
+
+=
+
+2g(1+ pp) Avv
+
+(Qdx
+
+-
+
+Pdy).
+
+Verum curvae ESF, quatenus versus OA concava spectatur, radius osculi est =
+
+-
+
+dx(1+ pp) dp
+
+(1+ pp)
+
+=
+
+-
+
+ds(1+ pp) dp
+
+,
+
+qui si vocetur = r, ob
+
+dp
+
+=
+
+-
+
+ds(1+ r
+
+pp)
+
+habebitur :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 170
+
+- ds
+r
+
+= 2g(Qdx-Pdy)
+Avv
+
+seu
+
+Pdy - Qdx ds
+
+=
+
+Avv 2 gr
+
+.
+
+COROLLARIUM 1
+
+206. Si ergo loco temporis t introducatur celeritas v, motus his duabus aequationibus exprimetur :
+Avdv = 2g(Pdx + Qdy) et Avvds = 2gr(Pdy - Qdx),
+
+quae commodius adhibentur, si forte vires P et Q a celeritate corporis pendeant.
+
+COROLLARIUM 2
+
+207.
+
+Hic notandum est formulam
+
+Pdx + Qdy ds
+
+exprimere vim tangentialem, at
+
+Pdy -Qdx ds
+
+vim
+
+normalem,
+
+quarum
+
+illa
+
+si
+
+dicatur
+
+=
+
+T,
+
+haec
+
+vero
+
+=
+
+N,
+
+habebimus
+
+Avdv = 2gTds et Avv = 2gNr,
+
+quae conveniunt cum formulis superiori libro traditis.
+COROLLARIUM 3
+
+208. His autem introductis mensuris effectus vis tangentialis T in hoc consistit, ut sit
+
+T
+
+=
+
+Avdv 2 gds
+
+,
+
+vis
+
+autem normalis
+
+effectus
+
+in
+
+hoc,
+
+ut
+
+sit
+
+N
+
+=
+
+Avv 2 gr
+
+.
+
+Seu
+
+posito
+
+dy
+
+= pdx
+
+ob
+
+r
+
+=
+
+-
+
+ds(1+ pp) dp
+
+erit
+
+N
+
+=
+
+-
+
+Avvdp 2gds(1+ pp)
+
+,
+
+siquidem vim normalem versus axem OA vergere sumamus.
+
+EXEMPLUM
+
+209. Sollicitetur corpusculum continuo secundum directionem BO vi constante et eius ponderi A aequali, ut habeatur casus corporis supra terram proiecti. Erit ergo vis P = 0 et vis Q = ­ A, unde habemus has aequationes :
+ddx = 0 et ddy = -2gdt2 .
+Ponamus corpusulum initio in O ita esse proiectum, ut fuerit eius celeritas = c et directio fecerit cum recta OA, quae horizontalis fingatur, angulum =  , ita ut initio
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 171
+
+eius celeritas secundum OA fuerit = c cos et secundum OB = c sin . His positis,
+
+prior aequatio dabit
+
+altera vero
+
+dx dt
+
+=
+
+c
+
+cos 
+
+,
+
+dy dt
+
+=
+
+c sin
+
+- 2gt,
+
+quoniam posito t = 0 formulae
+
+dx dt
+
+et
+
+dy dt
+
+dare
+
+debent
+
+celeritates
+
+initiales.
+
+Porro
+
+autem
+
+integrando, quia posito t = 0 tam x quam y evanescere debet, fiet
+
+seu hincque
+
+x = ct cos et y = ct sin - gtt
+
+- 4gy = 4ggtt - 4cgt sin
+
+cc sin2 
+
+- 4gy
+
+=
+
+(2gt
+
+- c sin
+
+)2
+
+=
+
+(c sin
+
+-
+
+2 gx c cos
+
+)2 ,
+
+unde patet curvam esse parabolam hac aequatione contentam
+
+(
+
+cc
+
+sin cos 2g
+
+
+
+- x)2
+
+=
+
+cc cos2  g
+
+(
+
+cc
+
+sin 4g
+
+2
+
+
+
+- y),
+
+cuius parameter = cc cos2  et axis verticalis a puncto O distans intervallo =
+g
+
+cc sin cos 2g
+
+atque
+
+vertices
+
+supra
+
+OA
+
+elevatio
+
+=
+
+cc
+
+sin 2 4g
+
+
+
+. Deinde ob
+
+ds dt
+
+=
+
+(cc - 4cgt sin + 4ggtt) = v
+
+fiet celeritas in S nempe
+
+v = (cc - 4gy) .
+
+Ac denique facto y = 0 reperitur longitudo iactus =
+
+cc sin cos g
+
+.
+
+SCHOLION
+
+210. Aliis quaestionibus huc pertinentibus evolvendis hic non immoror, cum totum hoc argumentum iam fusius sim persecutus. Notetur autem hic agi de motu absoluto eoque libero; etsi enim motum gravium hinc deduxi, qui cum ad terram referatur utique est respectivus atque a motu absoluto plurimum discrepans, tamen in
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 172
+
+sequentibus ostendetur eum tanquam absolutum spectari posse. Cum enim omnia corpora terrestria similibus viribus urgeantur atque ipsa terra, his efficitur, ut ea respectu terrae perinde moveantur, ac si terra quiesceret eaeque vires abessent, id quod capite sequente luculenter ostendetur. Praeterea vero haec intelligenda sunt de motu libero, ita ut extrinsecus nihil obstet, quominus corpusculum actioni virium obsequatur, quem motum probe discerni convenit a motu coacto, quo corpusculum quasi canali inclusum aliter nisi secundum ductum canalis moveri nequit, cuiusmodi motus in libro secundo sum contemplatus. Hic vero unicum adiiciam problema circa canalem in eodem plano formatum, ubi quidem ab omni frictione mentem abstraho, quo facilius perspiciatur, quomodo huiusmodi problemata ope huius novae methodi resolvi simulque pressio corpusculi in latera tube definiri debeat.
+
+PROBLEMA 14
+
+211. Si corpusculum canali in eodem plano formato fuerit inclusum simulque a viribus quibuscunque sollicetur, determinare tam eius motum in canali quam pressionem, quam in canalem exerit.
+
+SOLUTIO
+
+Figura ergo canalis ESR ut data spectatur, quae ad binas directiones OA et OB inter se normales referatur ut ante (Fig. 18). Scilicet si elapso tempore t corpusculum pervenerit in S, sit OX = x, XS = y, arcus ES = s; vires autem sollicitantes ad easdem directiones revocatae sint SP = P et SQ = Q existente corpusculi massa = A. Iam quatenus canalis inflectit directionem, quam corpusculum per se esset secuturum, in id vires exerit etiamnum incognitas, quae ad easdem directiones reductae sint secundum SP = X et secundum SQ = Y, de quibus autem hoc constat motum corpusculi ab iis neque accelerari neque retardari. Cum nunc sint vires secuncum SP = P + X et secundum SQ = Q + Y, posita celeritate in S = v et radio osculi = r habebimus ex §206 has aequationes :
+Avdv = 2g((P + X )dx + (Q + Y )dy),
+Avvds = 2gr((P + X )dx - (Q + Y )dx).
+
+Sed quia vires X et Y nihil conferunt ad celeritatis incrementum dv, erit Xdx + Ydy = 0,ex altera autem aequatione pro harum virium cognitione elicitur
+
+Xdy -Ydx ds
+
+=
+
+Avv 2 gr
+
+-
+
+Pdy -Qdx ds
+
+.
+
+Primo igitur motus per canalem determinatur hac aequatione : Avdv = 2g(Pdx + Qdy),
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 173
+
+unde cereritas corpusculi v in quovis loco S cognoscitur. Deinde ipse canalis eiusmodi vires X et Y secundum directiones SP et SQ exerit, ut sit
+
+Xdx +Ydy ds
+
+=
+
+0
+
+et
+
+Xdy -Ydx ds
+
+=
+
+Avv 2 gr
+
+-
+
+Pdy -Qdx ds
+
+.
+
+Scilicet, si hae vires ad directionem canalis Ss et normalis SN reducantur, inde oritur secundum directionem canalis vis nulla et secundum normalem SN vis, quae est =
+
+Avv 2 gr
+
++
+
+- Pdy + Qdx ds
+
+,
+
+atque tanta vi vicissim corpusculum urget canalem secundum directionem oppositam Sn, quae est pressio quaesita.
+
+COROLLARIUM 1
+
+212. Si ergo corpusculum, dum per canalem movetur, a nullis viribus externis P et Q
+
+sollicitatur, motus eius ob Avdv = 0 erit uniformis. Tum vero ubique canalem premet
+
+normaliter vi =
+
+Avv 2 gr
+
+secundum
+
+directionem
+
+Sn
+
+positioni
+
+radii
+
+osculi
+
+oppositam.
+
+COROLLARIUM 2
+
+213.
+
+Vis haec, qua canalis premitur,
+
+Avv 2 gr
+
+vocatur
+
+vis
+
+centrifuga
+
+inde
+
+orta,
+
+quod
+
+corpusculum contra instinctum inertiae in linea curva progredi cogitur, estque in ratione composita directa massae A, quadrati celeritatis v et reciproca radii osculi r.
+
+COROLLARIUM 3
+
+214. Si corpusculum praeterea sollicitetur a vi tangentiali secundum Ss = T et normali secundum SN = N, erit primo Avdv = 2gTds , deinde canalis premitur secundum
+
+directionem Sn vi =
+
+Avv 2 gr
+
+-
+
+N
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 174
+
+EXEMPLUM
+
+215. Si corpusculum a gravitate sollicitatum per circularem OS ascendere cogatur (Fig. 19), cuius centrum B, radius OB = b, qui sit verticalis et recta OA horizontalis celeritas autem in O fuerit = c, erit vis P = 0 et vis Q = ­A atque r = ­ b; unde pro motu corporis habetur:
+Avdv = -2Agdy seu vdv = -2gdy,
+
+ut sit vv = cc - 4gy et celeritas evanescat in D, ubi
+
+y
+
+=
+
+cc 4g
+
+,
+
+vis
+
+autem,
+
+qua
+
+canalis
+
+premitur
+
+secundum
+
+SB, erit =
+
+-
+
+A(cc - 4 gy ) 2 gb
+
+-
+
+Adx ds
+
+.
+
+Tum vero ob xx + (b - y)2 = bb erit
+
+x = (2by - yy) ,
+
+et hincque pressio secundum SB =
+
+dx = bdy- ydy
+(2by- yy)
+ds = bdy ,
+(2by- yy)
+
+-
+
+Acc 2bg
+
++
+
+2 Ay b
+
+-
+
+A(b- y) b
+
+=
+
+-A
+
++
+
+3 Ay b
+
+-
+
+Acc 2 gb
+
+,
+
+quae quia est negativa, pressio in canalem aget secundum SN eritque =
+
+Cum autem sit erit elementum temporis vel ob
+
+A(1 +
+
+cc 2bg
+
+-
+
+3y b
+
+)
+
+.
+
+v = (cc - 4gy) ,
+
+dt
+
+=
+
+ds v
+
+=
+
+bdy (cc-4gy)(2by- yy)
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 175
+
+y
+
+=
+
+cc - vv 4g
+
+et
+
+dy
+
+=
+
+-
+
+vdv 2g
+
+erit
+
+dt = -
+
+2bdv
+
+.
+
+(cc-vv)(8bg -cc+vv)
+
+Si celeritas initialis c sit quasi infinite parva prae b, quia v excedere nequit c, erit proxime
+
+dt = -
+
+dv .
+(cc-vv)
+
+b 2g
+
+et integrando
+
+t=
+
+b 2g
+
+.A cos
+
+v c
+
+.
+
+Unde si  sit semicircumferentia circuli, cuius radius = 1, erit tempus totius ascensus in D, quoad celeritas v evanescat, =  b , quod tempus semioscillatio vocatur. Quare,
+2 2g
+
+ut tempus integrae oscillationis  b sit unius minuti secundi seu = 1, radius BO = b
+2g
+
+capi
+
+debet
+
+=
+
+2g 
+
+,
+
+quae
+
+est
+
+longitudo
+
+penduli
+
+simplicis
+
+singulis
+
+minutis
+
+secundis
+
+oscillantis. Quare, si g = 15,625 ped. Rhen., erit longitudo istius penduli = 3,166287
+
+ped. Rhen.
+
+SCHOLION
+
+216. Non opus est, ut moneam canalem ideo hic tantum esse assumtum, ut motus secundum datam lineam cogatur; id autem pluribus modis veluti pendulis effici potest, cuiusmodi casum in preacedente examplo evolvere visum est. Ceterum problemata huc pertinentia in secundo Mechanicae Libro satis prolixe pertractavi. Cum autem ibi hoc desiderari possit, quod methodum, qua nunc quidem corporum coelestium motus ad calculum revocari solent et quam deinceps demum usurpare coepi, non exposuerim, operae pretium erit eam hic accuratius explicare. Pertinet autem ad problema 13 ab eoque tantum hoc differt, quod motus non per coordinatas, sed per distantias a puncto fixo et angulos circa id descriptos definiatur. Quatenus ergo hic motus in plano absolvitur, praecepta eum secundum hanc methodum investigandi tradam, postea idem pro motu non in eodem plano facto ostensurus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 176
+
+PROBLEMA 15
+
+217. Si corpusculum libere moveatur in plano, in quo perpetuo duabus sollicitetur viribus, altera ad punctum quoddam fixum O tendente, alterius vero directione ad illam existente normali (Fig. 20), ad quodvis tempus distantiam corpusculi S a puncto fixo O et angulum AOS definire.
+
+SOLUTIO
+
+Elapso tempore t corpusculum, cuius massa = A, pervenerit ex A in S, ponaturque distantia OS = u et angulus AOS =  . In S autem sollicitetur primo a vi secundum SO
+
+pellente, quae sit = V, deinde vero a vi secundum directionem SV ad OS normali urgente, quae sit = S. Quem casum quo facilius ad problema 13 reducere possimus, demisso ex S ad fixam OA perpendiculo SX introducamus coordinatas OX = x et XS = y, erit x = u cos et y = u sin . Tum vero binas vires V et S ad easdem directiones SP
+
+et SQ revocemus habebimusque vim SP = -V cos - S sin et vim
+
+SQ = -V sin + S cos , quas supra vocavimus P et Q. Quocirca nanciscemur has duo
+
+aequationes :
+
+ddx = - 2gdt 2 (V cos + S sin),
+A
+
+ddy = - 2gdt 2 (V sin - S cos),
+A
+
+ex quarum combinatione deducimus
+
+ddx
+
+cos
+
++
+
+ddy
+
+sin
+
+=
+
+-
+
+2gVdt 2 A
+
+,
+
+ddx
+
+sin
+
+-
+
+ddy
+
+cos
+
+=
+
+-
+
+2gSdt 2 A
+
+.
+
+Cum autem sit x = u cos et y = u sin , erit
+
+x cos + y sin = u et x sin - y cos = 0,
+unde differentiando : dx cos + dy sin = du et dx sin - dy cos + ud = 0
+seu dx sin - dy cos = -ud
+denuoque differentiando :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 177
+
+ddx cos + ddy sin + ud 2 = ddu, ddx sin - ddy cos + dud = -dud - udd.
+
+Quibus valoribus substitutis adipiscemur pro motus determinatione has duas aequationes
+I. ddu - ud 2 + 2gVdt 2 = 0,
+A
+II.udd + 2dud - 2gSdt 2 = 0.
+A
+
+COROLLARIUM 1
+
+218. Posterior aequatio per u multiplicata per integrationem reducitur ad hanc
+
+uud
+
+=
+
+2 gdt A
+
+
+
+Sudt ,
+
+ubi notandum est
+
+1 2
+
+uud
+
+exprimere elementum areae AOS, unde haec area erit
+
+=
+
+g A
+
+ dt
+
+Sudt.
+
+Evanescente
+
+ergo
+
+vi
+
+laterali
+
+SV
+
+=
+
+S,
+
+haec
+
+area
+
+AOS
+
+est
+
+ipsi
+
+tempori
+
+t
+
+proportionalis, quomodocunque fuerit comparata altera vis V versus punctum O
+
+sollicitans.
+
+COROLLARIUM 2
+
+219. Si prior aequatio per du, posterior per ud multiplicetur, aggregatum fiet
+
+duddu
+
++
+
+udud
+
+2
+
++
+
+uuddd
+
+=
+
+-
+
+2 gVdt 2 du A
+
++
+
+2gSudt 2d A
+
+,
+
+unde integrando elicitur
+
+du 2
+
++
+
+uud
+
+2
+
+=
+
+-
+
+4gdt 2 A
+
+
+
+(Sud
+
+- Vdu ) ,
+
+ubi
+
+(du2 + uud 2 ) exprimit elementum arcus AS, ita ut
+
+du2 +uud 2 dt 2
+
+sit quadratum
+
+celeritatis in S.
+
+COROLLARIUM 3
+
+220. Si secunda multiplicetur per 2u3d , ob dt constans reperitur integrale :
+
+u 4d 2
+
+=
+
+4gdt 2 A
+
+
+
+Su3d ,
+
+unde per praecedentem eruimus :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 178
+
+uudu 2
+
+=
+
+4gdt 2 A
+
+(uu 
+
+Sud
+
+-
+
+
+
+Su 3d
+
+-uu  Vdu )
+
+seu
+
+uudu 2
+
+=
+
+4gdt 2 A
+
+(2 udu
+
+Sud
+
+- uuVdu),
+
+ubi notandum, quod elementum temporis dt extra signa integralia reperiatur.
+
+COROLLARIUM 4
+
+221.
+
+Si S = 0, qui est casus virium centripetarium, erit
+
+uud =
+
+ffdt et
+
+ud
+
+=
+
+ffdt u
+
+,
+
+quo
+
+valore in corollario 2 substituto fit
+
+du 2
+
+=
+
+-
+
+f 4dt 2 uu
+
+-
+
+4gdt 2 A
+
+Vdu
+
++
+
+ccdt 2
+
+ideoque
+
+dt =
+
+udu
+
+(ccuu- f 4 -4guu Vdu:A)
+
+et
+
+d =
+
+ffdu
+
+.
+
+u (ccuu- f 4 -4guu Vdu:A)
+
+SCHOLION
+
+222. Usus harum formularum est amplissimus in Theoria Astronomiae ex iisque determinari solent longitudo, anomalia et distantia planetae ad certum punctum sollicitati. Verum hic non est locus haec fusius prosequi, cum ad Astronomiam pertineant. Sufficiat nimirum hic methodum eiusmodi problemata tractandi in genere explicasse ; progrediamur ergo ad motus non in eodem plano factos expendendos.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 179
+
+PROBLEMA 16
+
+223. Si corpusculum libere moveatur a viribus quibuscunque sollicitatum, determinare eius motum per ternas coordinatas inter se normales.
+
+SOLUTIO
+
+Constitutis ternis directricibus OA, OB et OC ad se invicem normalibus (Fig. 21), moveatur corpusculum, cuius massa = A, in linea ESF et elapso tempore t pervenerit in S, unde ad planum AOB demisso perpendiculo SY, ex Y ad OA agatur normalis YX, ut habeantur tres coordinatae inter se normales et directricibus parallelae, quae vocentur OX = x, XY = y et YS = z, spatium
+
+autem iam percursuram ES dicatur = s, ut sit ds = (dx2 + dy2 + dz2 ) et celeritas in
+
+S
+
+=
+
+ds dt
+
+,
+
+quae
+
+ponatur
+
+=
+
+v.
+
+Iam
+
+a
+
+quibuscunque
+
+viribus
+
+corpusculum
+
+in
+
+S
+
+sollicitetur,
+
+eas reducere licet ad easdem ternas directiones. Sollicitetur ergo ab his viribus SP = P,
+
+SQ = Q et SR = R, quarum effectus per superiora determinabuntur per tres sequentes
+
+aequationes :
+
+ddx
+
+=
+
+2gPdt 2 A
+
+,
+
+ddy
+
+=
+
+2gQdt 2 A
+
+et
+
+ddz
+
+=
+
+2gRdt 2 A
+
+,
+
+ubi quidem elementum dt sumtum est constant. Prout ergo vires P, Q, R a coordinatis
+
+x, y, z vel etiam a celeritate
+
+ds dt
+
+= v pendeant, ex Analysi subsidia resolutionis erunt
+
+petenda.
+
+Interim
+
+notasse
+
+iuvabit,
+
+cum
+
+fit
+
+ds2
+
+=
+
+dx2
+
++ dy2
+
++ dz2
+
+et
+
+vv
+
+=
+
+ds 2 dt 2
+
+ideoque
+
+vdv
+
+=
+
+dsdds dt 2
+
+=
+
+dxddx + dyddy + dzddz dt 2
+
+,
+
+fore :
+
+vdv
+
+=
+
+2g A
+
+(Pdx
+
++
+
+Qdy
+
++
+
+Rdz),
+
+qua acceleratio corpusculi definitur. Pro curva autem invenienda ponatur dy = pdx et
+
+dz = qdx, ut sit
+
+ds = dx
+
+(1+ pp + qq)
+
+et
+
+v
+
+=
+
+dx dt
+
+(1+ pp + qq).
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 180
+
+Hinc ob ddy = pddx + dpdx et ddz = qddx + dqdx, si loco ddx valor
+
+2gPdt 2 A
+
+substituantur,
+
+reperitur
+
+dpdx = 2gdt 2 (Q - Pp) et dqdx = 2gdt 2 (R - Pq).
+
+A
+
+A
+
+Quare, si hic pro dt 2 scribatur dx2 (1+ pp+qq) , erit
+vv
+
+dp
+
+=
+
+2gdx(1+ pp+qq) Avv
+
+(Q
+
+-
+
+Pp),
+
+dq
+
+=
+
+2gdx(1+ pp+qq) Avv
+
+(R
+
+-
+
+Pq)
+
+seu
+
+Qdx
+
+-
+
+Pdy
+
+=
+
+Avvdp 2g(1+ pp+qq)
+
+et
+
+Rdx
+
+-
+
+Pdz
+
+=
+
+Avvdq 2g(1+ pp+qq)
+
+.
+
+At si pro p et q restituantur valores
+
+dy dx
+
+et
+
+dz dx
+
+,
+
+fiet
+
+Qdx - Pdy
+
+=
+
+Avv(dxddy - dyddx) 2gds 2
+
+,
+
+Rdx - Pdz
+
+=
+
+Avv(dxddz - dzddx) 2 gds 2
+
+,
+
+quae invicem divisae praebent
+
+P(dzddy - dyddz) + Q(dxddz - dzddx) + R(dyddx - dxddy) = 0.
+
+COROLLARIUM 1
+
+224. Celeritas igitur in quovis curvae puncto determinatur hac aequatione differentiali
+
+Avdv = 2g(Pdx + Qdy + Rdz),
+
+ubi
+
+Pdx + Qdy + ds
+
+Rdz
+
+designat
+
+vim
+
+tangentialem
+
+ex
+
+viribus
+
+sollicitantibus
+
+ortam.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 181
+
+COROLLARIUM 2
+
+225. Pro curva autem definienda binae ex his tribus aequationibus sufficiunt :
+
+2 gds 2 (Qdx
+
+-
+
+Pdy)
+
+=
+
+Avv(dxddy
+
+-
+
+dyddx)
+
+=
+
+Avvdx2d
+
+.
+
+dy dx
+
+,
+
+2 gds 2 ( Pdx
+
+-
+
+Rdy)
+
+=
+
+Avv(dzddx
+
+-
+
+dxddz)
+
+=
+
+Avvdz2d .
+
+dx dz
+
+,
+
+2 gds 2 ( Rdy
+
+- Qdz)
+
+=
+
+Avv(dyddz
+
+-
+
+dzddy)
+
+=
+
+Avvdy
+
+2d
+
+.
+
+dz dy
+
+,
+
+binae enim simul tertiam involvunt. Tum vero hinc consideratio differentialis
+
+constantis excessit.
+
+COROLLARIUM 3
+
+226. Ultimo aequatio a celeritate immunis, etsi differentialia secundi gradus continet,
+
+tamen non ad differentiale dt constans assumtum est adstricta, ita enim potest
+
+repraesentari
+
+Pdz
+
+2d
+
+.
+
+dy dz
+
++
+
+Qdx
+
+2d
+
+.
+
+dz dx
+
++
+
+Rdy 2 d
+
+.
+
+dx dy
+
+=
+
+0.
+
+SCHOLIUM
+
+227. Ternae vires P, Q, R, quibus corpusculum in S sollicitari ponimus, reducuntur ad
+
+unam, quae est = (PP + QQ + RR) ,ac si ea ponatur = V, eius directio inclinatur ad SP
+
+angulo,
+
+cuius
+
+cosinus
+
+est
+
+=
+
+P V
+
+,
+
+ad
+
+SQ
+
+angulo,
+
+cuius
+
+cosinus
+
+est
+
+=
+
+Q V
+
+,
+
+et
+
+ad
+
+SR
+
+angulo,
+
+cuius
+
+cosinus
+
+est
+
+=
+
+R V
+
+.
+
+Tum
+
+si
+
+directio
+
+istius
+
+vis
+
+V cum directione motus Ss faciat angulum =  ,
+
+erit vis accelerans seu secundum Ss sollicitans
+
+=V cos , quae cum sit =
+
+Pdx+Qdy+ Rdz ds
+
+,
+
+erit
+
+cos 
+
+=
+
+Pdx+Qdy+ Rdz Vds
+
+,
+
+unde vis normalis colligitur = V sin , cuius
+
+positio ope trigonometriae sphaericae
+
+commodissime repraesentatur (Fig. 22).
+
+Concipiatur S ut centrum sphaericae, unde ad
+
+superficemem porrigantur rectae SP, SQ et SR, ut sint arcus PQ, PR et QR quadrantes;
+
+directio motus transeat per s et media directio virium per V, eritque
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 182
+
+cos
+
+Ps
+
+=
+
+dx ds
+
+,
+
+cos
+
+Qs
+
+=
+
+dy ds
+
+,
+
+cos
+
+Rs
+
+=
+
+dz ds
+
+,
+
+cos
+
+PV
+
+=
+
+P V
+
+,
+
+cos QV
+
+=
+
+Q V
+
+,
+
+cos RV
+
+=
+
+R V
+
+ac praeterea Vs =  seu
+
+cos 
+
+=
+
+Pdx +Qdy + Rdz Vds
+
+.
+
+Cognito angulo  capiatur sVN = quadranti, erit recta ex centro S per N ducta directio
+
+vis normalis; et puncti N positio ita ex eius distantiis a punctis P, Q, R definitur, ut sit
+
+cos
+
+PN
+
+=
+
+V
+
+P sin 
+
+-
+
+dx cos ds sin
+
+,
+
+cos QN
+
+=
+
+V
+
+Q sin 
+
+-
+
+dy cos ds sin
+
+et
+
+cos
+
+RN
+
+=
+
+V
+
+R sin 
+
+-
+
+dz cos ds sin
+
+.
+
+Hinc igitur cum infinitae dentur rectae normales ad directionem motus Ss, inter eas
+
+determinatur illa, secundum quam agit vis normalis et quae directionem motus
+
+incurvat,
+
+ita
+
+ut
+
+radius
+
+curvidininis
+
+in
+
+ipsam
+
+rectam
+
+SN
+
+incidat,
+
+qui
+
+erit
+
+=
+
+2
+
+Avv gV sin
+
+(§207).
+
+PROBLEMA 17
+
+228. Si corpusculum, cuius massa = A, in tubo seu canali moveatur (Fig. 21), neque ab ullius viribus sollicitetur, determinare eius motum et pressionem, quam ubique in tubum exeret.
+
+SOLUTIO
+
+Sit ESF figura tubi, in quo corpusculum moveatur, in quo elapso tempore
+
+pertetigit ['pertigerit' in O. O.] ad S confecto spatio ES = s. Locus autem S ut ante
+
+referatur ad ternas directiones fixas OA, OB, OC inter se normales, quibus coordinatae
+
+parallelae vocentur OX = x, XY = y et YS = z. Iam quia corpusculum cogitur ubique
+
+tubi directionem sequi, ipse tubus vires in id necessarias exeret, quae autem ita erunt
+
+comparatae, ut inde celeritas nullam mutationem patiatur. Erit ergo celeritas constans,
+
+quae sit = c, unde fit
+
+ds dt
+
+= c et s = ct. Revocentur vires a tubo exertae ad easdem ternas
+
+directiones sintque SP = X, SQ = Y et SR = Z, et ob celeritatem immutatibilem
+
+Xdx + Ydy + Zdz
+
+= 0.
+
+Deinde,
+
+quia
+
+dt
+
+=
+
+ds c
+
+, loco
+
+dt
+
+constans
+
+erit
+
+elementum ds,
+
+ex
+
+quo
+
+formulae principales erunt
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 183
+
+Accddx = 2gXds2 , Accddy = 2gYds2 et Accddz = 2gZds2
+
+existente dx2 + dy2 + dz2 = ds2 . Tota ergo vis, quam tubus in corpusculum exercet,
+
+fiet
+
+(X 2 + Y 2 + Z 2 ) = Acc
+
+(ddx2 +ddy2 +ddz2 ) 2 gds 2
+
+=V,
+
+cuius directio inclinata erit ad rectam SP angulo,
+
+cuius cosinus
+
+=X =
+
+ddx
+
+,
+
+V
+
+(ddx2 +ddy2 +ddz2 )
+
+ad SQ angulo, cuius cosinus
+
+=
+
+Y V
+
+=
+
+ddy (ddx2 +ddy2 +ddz2 )
+
+et ad SR angulo, cuius cosinus
+
+=
+
+Z V
+
+=
+
+ddz
+
+.
+
+(ddx2 +ddy2 +ddz2 )
+
+Huic autem vi aequalis et contraria est pressio, quam corpusculum vicissim in tubum exerit.
+COROLLARIUM 1
+
+229. Si radius osculi curvae in S ponatur = r, ob vim normalem = V et celeritatem = c
+
+erit
+
+r
+
+=
+
+Acc 2 gV
+
+ideoque
+
+r=
+
+ds2
+
+sumto ds constante.
+
+(ddx2 +ddy2 +ddz2 )
+
+COROLLARIUM 2
+
+230. Radii osculi autem positio cum directione vis V, qua corpusculum a tubo urgetur,
+
+congruit, inclinabitur igitur is ad rectam SP angulo,
+
+cuius cosinus
+
+=
+
+ddx
+
+,
+
+(ddx2 +ddy2 +ddz2 )
+
+ad SQ angulo,
+
+cuius cosinus
+
+=
+
+ddy
+
+(ddx2 +ddy2 +ddz2 )
+
+et ad SR angulo,
+
+cuius cosinus
+
+=
+
+ddz
+
+.
+
+(ddx2 +ddy2 +ddz2 )
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 184
+
+SCHOLION
+
+231. Posset hic etiam motus expendi, quando corpusculum non in linea data sed tantum in dat superficie progredi cogitur, sed quia hoc argumentum copiose iam est tractatum in secundo Libro Mechanicae, ne hic nimis sim prolixus, id non attingam. Praesertim cum pateat totum negotium huc redire, ut directio vis, quam superficies in corpusculum exerit, sit ad ipsam superficiem normalis. Quare ex aequatione superficiei proposita determinatur positio normalis, seu eius inclinatio ad ternas directiones SP, SQ et SR, quae cum posititione vis V ante definita congruere debebit. Atque hinc nova colligetur aequatio inter coordinatas x, y, z, quae cum priori data coniuncta definiet viam in superficie percursam, quam esse inter suos terminos brevissimam per se est perspicuum. Revertor ergo ad motum liberum ac docebo, quomodo motus non in eodem plano factos per angulos ad certum punctum fixum relatos definiri conveniat, ea scilicet ratione, quam supra (problema 5, §70) exposui. Quod quia in Astronomia Theoretica maximam affert utilitatem, neque haec motuum evolutio in praecedentibus libris est explicata, ei sequens problema destinemus.
+
+PROBLEMA 18
+232. Si corpusculum partim ad punctum fixum O partim aliis quibuscunque viribus sollicitetur, definire eius motum respectu eius puncti.
+SOLUTIO
+Constituto plano, quod sit planum tabulae (Fig. 23), per punctum fixum O transeunte, ad quod motus referatur, in eoque sumta directrice fixa OA, pervenerit corpusculum elapso tempore t in S, unde primo in planum demittatur perpendiculum SY, et ex Y in rectam OA normalis YX, ut habeantur coordinatae orthogonales OX = x, XY = y, YS =z. Cum iam corpusculum in S primo a vi secundum SO sollicitetur, ea resolvatur in directiones YO et SY; reliquae vero vires cum ad easdem directiones tum ad YV in plano tabulae ad OY normalem revocentur, ita ut omnino tres habeantur vires, quarum prima sit secundum YO = V, altera secundum YV = S et tertia secundum SR = R. Quae vires cum sint cognitae, ad directiones coordinatarum reducantur, sicque posito angulo AOY =  obtinebuntur hae vires :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 185
+
+vis secundum XO = V cos + S sin = -P, vis secundum YX = V sin - S cos = -Q, vis secundum SR= R, quarum effectus per tres sequentes formulas exprimetur : Addx = -2gdt2(V cos + S sin), Addy = -2gdt2 (V sin - S cos), Addz = 2gRdt2 posita massa corpusculi = A.
+
+Vocetur porro distantia OY = u, et ob x = u cos et y = u sin binae priores aequationes uti supra (§217) ad has duas redigentur :
+
+I. ddu - ud 2 + 2gVdt2 = 0,
+A
+II. udd + 2dud - 2gSdt2 = 0.
+A
+Ponatur nunc angulus SOY = , qui corpusculi latitudo vocatur, dum angulus AOY =  est eius longitudino; erit SY = z = u tang  . At pro hoc angulo  commodius inveniendo sit OT linea nodorum, angulus AOT =  et inclinatio plani per O et directionem motus in S ducti ad planum assumtum =  , erit TOY =  - , hinc ductis
+YN et SN ad OT normalibus fiet ON = u cos ( - ) et YN = u sin ( - ) adeoque YS = u sin ( - )tang  = z, hincque tang  = sin ( - )tang  et uti supra (§70)
+
+d tang( - )
+
+=
+
+d sin  cos 
+
+=
+
+d .l
+
+tang
+
+.
+
+Quare
+
+cum
+
+sit
+
+d
+
+=
+
+d sin  cos  tang( - )
+
+,erit
+
+dz
+
+=
+
+du
+
+sin
+
+(
+
+-)tang
+
+
+
++
+
+u(d
+
+-
+
+d
+
+)
+
+cos
+
+(
+
+-
+
+)
+
+tang
+
++
+
+u
+
+sin
+
+(
+
+-
+
+).
+
+d tang  tang( - )
+
+seu dz = (du sin (-) + ud cos (-)) tang ,
+
+qui valor denuo differentiatus dat :
+
+ddz = (ddu sin (-) + du(2d - d) cos (-) + udd cos (-) - ud(d - d) sin (-))tang 
+
++ (du sin ( - )
+
++
+
+ud
+
+cos
+
+(
+
+-
+
+)).
+
+d tang  tang( - )
+
+sive
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 186
+
+( ) ddz =
+
+ddu sin (-) + 2dud cos (-) + udd cos (-) - ud2 sin (-)
+
++
+
+udd sin (-)
+
+tang .
+
+Cum igitur sit
+
+ddu - ud 2 = - 2gVdt2 et udd + 2dud = 2gSdt2 ,
+
+A
+
+A
+
+obtinebitur
+
+ddz
+
+=
+
+
+
+-2 gVdt 2 A
+
+sin (-)
+
++
+
+2 gSdt 2 A
+
+cos (-) +
+
+ud d  sin (-)
+
+ tang
+
+.
+
+Quare ob ddz = 2gRdt2 erit
+A
+
+ud d sin ( -)
+
+=
+
+2 gdt 2 A
+
+(V
+
+sin (-)
+
+-
+
+S
+
+cos (-)
+
++
+
+R cot
+
+)
+
+seu
+
+d
+
+=
+
+2gdt2 sin ( -) Aud
+
+(V
+
+sin
+
+( - )
+
+-
+
+S
+
+cos
+
+( - )
+
++
+
+R
+
+cot
+
+
+
+)
+
+et
+
+d .l
+
+tang
+
+
+
+=
+
+2gdt2 cos ( -) Aud
+
+(V
+
+sin (-) -
+
+S
+
+cos (-)
+
++
+
+R cot
+
+).
+
+Inventae ergo sunt quatuor aequationes, quibus problematis solutio continetur.
+
+COROLLARIUM 1
+
+233. Cum igitur ad datum tempus t assignari debeant hae quatuor quantitates u, ,, et , nacti sumus primo has duas aequationes differentio-differentiales
+
+ddu
+
+-
+
+ud
+
+2
+
++
+
+2 gVdt 2 A
+
+=0
+
+et
+
+udd
+
++
+
+2dud
+
+-
+
+2
+
+gSdt A
+
+2
+
+= 0,
+
+deinde has duas simpliciter differentiales
+
+d
+
+=
+
+2gdt2 sin ( -) Aud
+
+(V
+
+sin
+
+( - )
+
+-
+
+S
+
+cos
+
+( - )
+
++
+
+R
+
+cot
+
+
+
+)
+
+et
+
+d .l
+
+tang  =
+
+d tang( - )
+
+seu d.tang 
+
+=
+
+d tang  tang( - )
+
+.
+
+COROLLARIUM 2
+
+234. Inventis autem his valoribus colligetur tam angulus SOY = latitudo dictus quam distantia vera SO ex his formulis
+
+tang
+
+
+
+=
+
+sin (-)tang
+
+
+
+et
+
+OS
+
+=
+
+u cos 
+
+,
+
+ubi u dici solet distantia curtata.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter five.
+
+Translated and annotated by Ian Bruce.
+
+page 187
+
+COROLLARIUM 3
+
+235. Si fuerit sin (-) = 0, hoc est, si corpusculum per planum assumtum transit,
+supra iam vidimus fore d = 0 ; at nunc patet tam lineam nodorum quam inclinatinem nullam pati, si fuerit :
+V sin (-) - S cos (-) + R cot  = 0.
+
+COROLLARIUM 4
+
+236. Est vero
+
+V sin (-) - S cos (-) = -Q cos + P sin,
+
+atque introducis primitivis viribus P, Q, R erit V sin (-) - S cos (-) + R cot  = P sin - Q cos + R cot  ,
+atque haec est quasi vis tam locum lineae nodorum quam inclinationem immutans.
+SCHOLIUM
+
+237. Imprimis hic notari meretur, quod variatio momentanea in situ lineae nodorum et inclinatione satis concinna hac methodo exprimi potuerit, unde in Astronomiam Theoreticam insignia commoda redundant. Ex hoc fonte a Celeberrimo Mayero Prof. Goetting. incredibili studio deductae sunt Tabulae Lunares excellentissimae, quibus Astronomia fere ad summum fastigium evecta est censenda. [Johan Tobias Mayer, Commentarii Societatis regiae scientiarum 3, Gottingae 1753. Cum nota in O. O.] Cum autem motus lunae, qui hac methodo definitur, neutiquam sit absolutus, sed ad centrum terrae relatus, in hac investigatione simul motus terrae est habenda; quare, ut hac methodo uti queamus, praecepta tradi conveniet, quorum ope motus respectivos ad calculum revocare liceat, siquidem motus eius corporis, cuius respectu aliorum corporum motus aestimantur, fuerit cognitus. Quod argumentum cum non satis dilucide in superioribus Mechanicae Libris sit expositum, hic maiori cura illud pertractabo; quo facto ad motus corporum finitorum, quos ibi nondum attigeram, feliciori cum successu progredi licebit.
+
+

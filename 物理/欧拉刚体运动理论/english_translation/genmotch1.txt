@@ -1,0 +1,3122 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 1
+
+CHAPTER 1
+
+THE CONSIDERATION OF MOTION IN GENERAL
+
+DEFINITION I
+1. Just as a body at Rest remains perpetually in the same place, so a body in Motion continues to change its position. Clearly a body that is observed to adhere always to the same place is said to be at rest : but that body which advances by gliding from place to place in time is said to be moving.
+[The reader may wish to consult the translations of Letters 69 & 71 onwards in Euler's Letters to a German Princess, which deal with these philosophical questions in a simple manner. The matter is an elaboration on the first sections of vol. I of Euler's Mechanica, that can also be referred to here.]
+EXPLANATION 1
+2. Though the notions of rest and motion are considered to be most distinct from each other, yet in order that we may acquire a more accurate understanding of each of these in turn, and on which there is agreement, it is appropriate to consider these ideas with greater care. And indeed in the first place, the idea of position comes to mind; moreover what the place [or location of a body] shall be cannot be declared easily. Some, who imagine the immense space in which the whole world is turning, call the parts of this space occupied by bodies the locations of these, and indeed it is necessary on account of their extent that each body occupies a part of space, as if it fills it up. Now we can only conceive a notion about this space itself by abstraction, by considering all the bodies to be removed, and what is left we decide to call space : clearly with the bodies removed we consider the extensions of these to be remaining (i. e. the empty space that the body occupied is still there) ; which concept it is customary for philosophers to argue over at length. Also, the idea of the motion of a body can now be established and considered in two ways. From the beginning unsound abstractions are to be avoided, as it falls directly on the senses how to reach a careful understanding, and deliberations about the position of a body can only be judged by referring it to other nearby bodies, with respect to which it either maintains the same place for a long time and then it is said to persevere in the same place, or if it arrives at another place, then we are accustomed to say that the body has moved.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 2
+
+EXPLANATION 2
+3. Moreover since we estimate the position of a body with respect to other neighbouring bodies, then these must keep position between each other, as if our judgement relying on geometrical ideas cannot be at fault. For the position is determined from the distances from a number of diverse points, and neither one or even two points are sufficient to do that. For if I say that the point O to be distant from the point A by an interval equal to a, the position of the point O is not at all determined. But the whole spherical surface described around the centre A with radius equal to a is left, at the individual points of which the point O is equally able to belong, of which none before the others can be assigned in this way for the position where the point may exist. But if moreover I say that the point O is distant from the point A by the interval equal to a, and now to be distant from another point B by an interval equal to b, the spherical surface around A with the radius equal to a can be taken, and likewise another described around B with the radius equal to b : and since the intersection of these surfaces is a circle, the individual points of this can be compared, so that they are distance by an interval is equal to a from the point A, and now from the point B by an interval equal to b. Hence it is certain that the point O is present on the periphery of this circle, and actually where it may be present is not defined. Therefore we put in place to be given above the distance of the point O from a certain third point C, which is equal to c, since this third point C does not lie on a line with the two above points, and since the spherical surface described about C with the radius equal to c thus cuts the above circle at two points, even now we have doubts as to which of these the point O is present; nevertheless only between these two points do we remain in doubt. Hence we will conclude, that if we know the distances of the point O from the positions of the four non coplanar points A, B, C, D then the position of this is clearly determined ; now also generally three are sufficient, when clearly one of these two points, which are equally satisfying, is excluded from the other by direction.
+SCHOLIUM
+4. Since the position of each point can be determined geometrically in a straightforward manner and is not in doubt, hence from that we may begin considerations regarding rest and motion. Moreover, what has been observed here regarding the situation of points themselves can easily be applied to any bodies, as far as the idea of rest or motion of bodies is concerned, as it can be assigned to the individual points of these bodies. Neither indeed is it possible for any notion of rest or of motion be put in place for a body that can at once be asserted generally, as it may happen that in the body some points are at rest and others may be moving more, and others less. And hence for this reason it is generally necessary that we investigate only true rest or motion as an innate property. Yet lest this consideration thus is to be
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 3
+
+considered as imaginary, as the concept of points may be considered as a pure abstraction, some people may doubt too whether motion or rest can be ascribed to these points. Now, whatever shall be the outcome of this controversy, by necessity it must be conceded, that if the body is either at rest or moving, then there are points which can be conceived either to be at rest or moving ; neither is it of concern here, whether such points can be taken for elements of the body or not. Nothing stands in the way of doing this, as on making these elements smaller as wished, and on substituting the elements of bodies in place of these points as well, these either become infinitely small or at least are taken as very small ; indeed the calculation in general returns the same result lest any doubt should arise. In a similar manner these points A, B, C, D, to which the position of the point O is referred, disagree minimally with reality, since they are present within the boundaries of real bodies, from which the distances can be measured. Unless for which the existence of the bodies is evidently denied, since this will not be argued about by us, the concept of this kind of investigation being supported can be rejected with the minimum of effort.
+
+[We have here Euler's reply to some of the philosophical debate mentioned above, regarding the reality of geometrical points, and their association with small particles or elements of real matter, which became the differential quantities in the calculus.]
+
+DEFINITION 2
+
+5. Provided that four or more points maintain the same distances between themselves, if some point O perpetually remains the same distance from these, it is said to be at rest with respect to these, since it keeps the same place with respect to these.
+
+COROLLARY 1
+
+6. If A is some solid body continually maintaining its own figure, in that, however great or small it should be, not only four, but as many points as wished can be conceived, which maintain the same distance between each other perpetually.
+
+COROLLARY 2
+
+7. Whereby if the point O remains in the same place with respect to the body A, which happens if it maintains perpetually an equal distance from every point of this body, then the point O is said to be at rest with respect to the body A.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 4
+
+COROLLARY 3
+8. Behold therefore, the real definition of rest with no vague or imaginary ideas implied, which moreover has be joined with the idea of some body, with respect to which the point O is said to be at rest ; nor is it apparent that the state of rest can be separated from the notion of such a body.
+EXPLANATION 1
+9. Now here on the threshold of Mechanics, we must indeed not be concerned with absolute rest, evidently now we are ignorant also both as to what it is and what kind, in that only what the senses show us are examined. Moreover wherever the topic of rest has been discussed, our idea has always been connected with some body, with respect to which body or rather point we have said to be at rest. Thus in sailing, the bodies which maintain the same position with respect to the ship are said to be at rest, and equally we on the mainland are moving with the bodies held in the same place with respect to the ground, that we are accustomed to assign at rest. And neither are these considered to be more deceiving, because the ship is moving, since also astronomers decide that the whole earth is moving. Indeed with the idea of rest established with the least care, each body that we assert to be at rest, is either at rest or moving. For as long as the point O keeps the same place with respect to the body A, we can announce that it is at rest with respect to that body, and not by consenting to any position beyond. Clearly in the future the question of the state of rest or of motion of the body A may have to be decided anew in some direction, which adds nothing to that definition. Thus with the ship, whatever object keeps the same place with respect to this, that too is in a state of rest with respect to the ship, and there is no difference, whether the ship is at rest or moving.
+EXPLANATION 2
+10. Therefore the idea of rest treated here is assigned to relations between bodies, since it is not only chosen from the condition of the point O, to which it is attributed, but also a comparison it put in place with some external body A ; from which, if it is permitted for the distinction between this kind of rest that we have defined and absolute rest to be known at some time, we may call this rest relative to a body [lit. respective rest]. And hence it becomes immediately apparent, that the same point, because it may be at rest with respect to the body A, may not be at rest with respect to other bodies, but may be moving to some extent in various ways. Just as the body at rest on the ship may be moving one way or another with respect to the sun or other heavenly bodies. Thus it is apparent that there is no change in the said state of rest or motion of the body itself, or of the point O, since all these are able to agree likewise, as the state of O can be referred to other bodies successively.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 5
+
+SCHOLIUM
+11. In a like manner everything concerning the idea of position can be understood ; for since rest is permanence in the same place, just as this definition can also be extended to relative rest, the point O, because it is said to be at rest with respect to the point A, can be said to persevere in the same place with respect to this point also. Therefore since it remains in the same place with respect to the body A, it is necessary that the same place agrees with the same position [or situation]. Likewise moreover, this idea of the place and of rest is relative, thus so that the relative place is indeed certain and determined with respect to the position of a certain body. [i.e. The position of O and the place of the state of rest of O can both be given relative to A.] Each statement may be giving the other more idea about the nature of the place, of which hitherto we are ignorant ; if indeed [information] of this kind is given, then this point may be called the absolute position [of the body]. Indeed such a place is unable to be assigned [as a place of rest] with respect to a place that does not change, as we have defined it here and as it is commonly agreed upon; for if the body, with respect to which it has been described, may itself be moving, so the place itself is agreed to be moving. But if these bodies [such as A, etc., above] are considered to be at absolute rest, and which maintain the same positions with respect to the fixed stars, then there is an absolute place, certain and determined, with respect to the fixed stars. Moreover now the relation to the fixed stars shall be more agreeable to the nature of the argument, since we are forced to leave the relation to any other bodies in doubt even now.
+DEFINITION 3
+12. If the point O with respect to any body A, that keeps the same unchanged figure, continually changes its position, then it is said to be moving with respect to the figure A.
+It is clear that the figure of the body A must be assumed to be invariable, so that the four points considered in that, to which the point O is referred, keep the same distances between each other.
+COROLLARY 1
+13. What we have said with respect to rest can easily be transferred to the case with respect to motion; for when the point O keeps the same position with respect to the body A, it is [relatively] at rest, but when it continually changes it position with respect to this body, then it is said to be moving with respect to A.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 6
+
+COROLLARY 2
+14. Now likewise it is apparent to be possible that, just as the same point O can be at rest with respect to A, it may be moving with respect to another body B. Thus this idea of motion, as of rest, is relative, without any change acting on the point O.
+COROLLARY 3
+15. Therefore rest and motion are in opposition in name only, and not truly characteristics of the body itself, since each can be assigned to the same point, as one or the other is conferred on the body. Nor is motion different from rest in any other way, and one motion from another.
+COROLLARY 4
+16. Thus motion and rest are wrongly counted as dispositions of bodies, when indeed, while the disposition of some part is change, the change revealed must itself be considered; since contrary to the body, either motion or rest is assigned to that, and no change may occur in the body itself.
+EXPLANATION 1
+17. Hence the celebrated distinction between motion and rest falls, that philosophers are accustomed to proclaim as an essential maxim of bodies, if indeed we are to understand the notions of relative rest and motion. Now they will argue at length about this [distinction] to be the case, but only if we are discussing absolute rest and absolute motion; for what absolute motion and absolute rest shall be, they are unable to define in a satisfactory way. If the philosophers should wish these named quantities to be sought from a relation to the fixed stars, even these do not depart from our definitions, as [they show also] relative rest and motion, unless they may indicate and determine another body, to which the relation of rest or motion can be put in place, thus the body referred to may be redundant, and this is not yet be apparent. Furthermore I deny that there is any minimal distinction between motion and rest, or between a body moving and a body at rest, since rather the whole of mechanics would be occupied in that definition; by the same truth I deny that motion or rest involves any internal change of the body. Hence the philosophers consider that the aforementioned must be referred to as rest and motion ; surely these can be called minimal characteristics, as nothing prohibits the relations between these to be counted as one or the other, as, in whatever manner the one thing is compared with other, and with other objections, the innate interior part of the body undergoes no change.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 7
+
+EXPLANATION 2
+18. Since I could have defined the idea of the place, indeed as that supplied by the judgement of the senses, now the idea of the time occurs too, in which the notion of rest or motion is implicated. For while a body is said to be remaining permanently at rest in the same place, this idea of perpetuity or permanence cannot be understood without the notion of time. Now the idea of motion postulates more the evolution of time, from which also the division of time into equal or unequal parts is able to be perceived. For while the situation of the point O with respect to the body A changes, this change cannot be understood unless we understand the amount of some change that has been made in time. If therefore, as it may be believed by many, the concept of time cannot be understood in any other way, except from a consideration of motion; thus, neither are we able to understand time without motion nor motion without time, hence we can never have one concept following from the other. Indeed the division of time from the contemplation of motion clearly follows from this alone, as we have learned now that without the aid of motion we may view this division with apprehension, what shall be before and after ; thus the notion of succession at once is seen to follow. And even if we may wish a more accurate notion of the time to be considered, hence it still does not follow that time is nothing more than our concept regarding it. For why should two time intervals be equal, can anyone understand, even if perhaps under no circumstances in these can equal changes eventuate, from which that equality could be understood. Therefore whatever may by disputed between the philosophers regarding the flow of time, we must use the measure of time in the examination of motion, and it has to be conceded thus that if flows independently from all motion, in order that it is permitted to be taken in equal parts just as according to some unequal ratio. Which pleads this indulgence from us, that this understanding completely supports all motion. Therefore it is permitted for us to introduce time in the same way into calculations, as we do lines and other geometrical magnitudes.
+DEFINITION 4
+19. In the motion of a point the interval which the point in its motion traverses is called the path, which since the line shall either be straight or curved : in the one case the motion is called rectilinear, in the other now curvilinear.
+COROLLARY 1
+20. We should not have the idea when some other motion besides is to be referred to, unless it is relative, that an interval or some line is described relative to the body, with respect to which the motion is judged.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 8
+
+COROLLARY 2
+21. Clearly this [reference] body is itself either at rest or in motion, since on this account it not taken into the computation, and is considered as it were fixed, and the extend with respect to which, and the position of that interval described by the point, must be assigned [relative to this body].
+COROLLARY 3
+22. Hence the examination of this interval calls to mind three cases, of which the first is, if the motion is rectilinear or the interval a straight line. In the second case, if the interval is indeed a curved line, but the whole is situated in the same plane. Now in the third case, if the curved line is not contained in the same plane.
+EXPLANATION 1
+23. Now in geometry is assumed with the point moving that a straight line is described, which itself may need to be made clearer by demonstration. For if the point, which before was at A, is now at B, then it is necessary that it has traversed a certain line stretched out from A to B, unless it may be wished to say for which that it is suddenly annihilated at A, and now to be reproduced anew at B ; now since this would be a wonder, not a [real] motion, and not related to our customs. [Modern physics has re-invented this idea, however, by means of annihilation and creation operators.] For those who do not wish to acknowledge motion [or movement], they suppose the matter it clearer for them to understand, if they say that at individual points of the interval, which are considered to be traversed by us, the point is suddenly to be annihilated and to be reproduced in the following ; as if the transition from one point to another is more difficult to understand, than the destruction of one and the creation of another. Now since the motion relative to some other body can be at rest, they are compelled to say the same about rest, so that the destruction of the same body at the same place is followed perpetually by the creation at the same place ; which belief hardly seems to differ from the common belief that is held, that from the continual conservation of bodies to the creation of the same. For since there is no instant of time at which the body does not exist, there is no doubt that the body does not exist all the time, and this continual existence of bodies in motion or at rest must be conceded. From which the point cannot be made to pass from one point to another without successively traversing a certain line from that boundary to that extent.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 9
+
+EXPLICATION 2
+24. We can put the point to have traversed the line APQB (Fig. 1), and since it cannot be at A and B at the same time, it is necessary that it may be found at B after it was at A.
+Therefore from these, which we perceive not to be made at the same time, we gather the idea of the time, and since the point was at A, and we acknowledge likewise that not without some lapse of time is it possible to arrive at B. Because likewise concerning the middle points P et Q it is to be decided that first it arrives at P then first at Q and then at B, thereupon likewise we understand the division of time, from which it is agreed that the time, in which the point reaches P from A, to be less than that , in which the point from A reaches Q, and this time is less than that in which it may have reached as far as B from A. Hence it is apparent that the time is a divisible and measurable quantity, so that thus not only may one be said to be greater or smaller than another, but also the parts of this are able to be assigned to be equal or unequal following some given ratio. For since time is a quantity, it is necessary to concede that there must be a time in which the point arrives at P from A, either equal or more or less than the time, by which in turn it reaches Q from P : and whatever you might have said, it is necessary that between these two times a certain ratio exists. Therefore I judge time here as a divisible and measurable quantity that I can postulate to be introduced into calculations.
+DEFINITION 5
+25. Motion is said to be equal or uniform, in which equal intervals are transversed in equal time intervals. But if in equal times unequal intervals or equal intervals in unequal times are made, then the motion is said to be unequal or [non uniform].
+COROLLARY 1
+26. Hence if the point is carries uniformly by the motion, in twice the time it travels twice the distance, in triple time three times as far; and in general the distances traversed are in the ratio of the times, and vice versa. Clearly if in the time t it travels through a distance s, now in another time T and distance S, then the ratio becomes : t : T = s : S.
+COROLLARY 2
+27. But in non uniform motion neither the ratio of the distances traversed s and S nor the ratio of the times t:T are maintained ; but here the discussion is with respect to any motion, that hitherto we only have the idea, and thus the motion is either rectilinear or curvilinear.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 10
+
+COROLLARY 2
+28. Therefore from uniform motion we obtain an accurate division of the time; since indeed the division of the distance can be prepared geometrically, thus the time will be achieved in a similar division into equal or non equal parts.
+SCHOLIUM 1
+29. Hence it is understood that the division of the time is not to be purely a mental exercise, in order that those, who concede that our mind alone is the place for [abstract] time, and they are accustomed to maintain that the concept of [physical] time cannot be separated from [abstract] time itself. If indeed time should be nothing more than an ordering of successions, then neither should there be anything beyond the mind, by which time could be determined, nothing could be put in place by which all the equal intervals of time, by which the equal distances are completed, as we should have for uniform motion, in which similar successions are evident, so that thus all motions are considered to be judged as equal. Moreover the nature of the thing is itself testified to in abundance that uniform motion is different essentially from non uniform motion ; and thus on the equality of the times, on which it depends, and in addition, as it is necessary that it should remain present in our ideas. And hence the equality of times arises from some reason outside the mind, and it is to be said that we consider our external recognition of this [time] to be derived rather from the examination of uniform motion.
+SCHOLIUM 2
+30. As long as a point is being carried forwards in an equal motion, thus in order that in equal times it describes equal distances, for so long it is said to be moving with an equal speed : thus we may say that is it is to be moving equally quickly. And if two points A and B advance with equal motion and that one A in the individual times t traverses a distance equal to s, now this B in the same times traverses a distance equal to  and it is the case that s >  , then the point A is said to be carried faster than B, now this slower than that : thus we can perceive which is the faster and which the slower. And if the point A in the same time completes a distance two or three times more than the point B, that is said to proceed with two or three times the speed ; and thus the comparison of this quantity which may go under the name of degree of swiftness, is clearly made apparent to the mind, even if it has not hitherto been defined. Moreover this is an abstract concept, the basis of which we understand without saying to be the speed; and we call this concept the speed or velocity, the definition of which we now propose.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 11
+
+DEFINITION 6
+
+31. In uniform motion the ratio of the distances traversed to the times is called the speed or velocity. Hence the speed is estimated from the quotient, which arises, if the distance is divided by the time.
+
+COROLLARY 1
+
+32. Therefore with uniform motion the distance traversed is equal to s with the time t and
+
+the speed is equal to
+
+s t
+
+.
+
+Hence,
+
+if
+
+the
+
+speed
+
+is
+
+indicated
+
+by
+
+the
+
+letter
+
+v,
+
+then
+
+the equation
+
+is
+
+had
+
+:
+
+v
+
+=
+
+s t
+
+.
+
+COROLLARY 2
+
+33. Therefore from these three things, with the distance equal to s, with the time equal to
+
+t
+
+and
+
+with
+
+the
+
+velocity
+
+equal
+
+to
+
+v,
+
+thus
+
+from
+
+a
+
+pair
+
+the
+
+third
+
+is
+
+thus
+
+defined,
+
+as
+
+if
+
+1st
+
+v
+
+=
+
+s t
+
+,
+
+2nd t = s and 3rd s = tv.
+v
+
+COROLLARY 3
+
+34. Hence if there is another uniform motion, for which the distance is equal to S, with the time made equal to T, and of which the given speed is said to be equal to V, then this most noteworthy proportion arises :
+
+1st v :V = s : S ,
+tT
+
+2nd
+
+t
+
+:T
+
+=
+
+s v
+
+:
+
+S V
+
+,
+
+3rd s : S = tv :TV .
+
+EXPLANATION 1
+
+35. Here doubt may arise, how a distance is able to be divided by a time, since they are heterogeneous quantities and that may not be said to be possible, how many times is e.g. is the time of ten minutes contained in the distance of e. g. ten feet. Now this is not said to be concerned with absolute division, but with a comparison, since the idea of speed does not involve anything absolute. Clearly the speed is unable to be understood as anything other than relative; moreover immediately, we take both the speed of a certain reliable uniform motion as known and we consider as if unity, in some other uniform motion the speed is expressed by a number, and no other greater difficulty occurs. For in uniform motion in which the distance s is completed in the time t, we set the speed to be
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 12
+
+taken as one, thus so that s is considered as one; in some other uniform motion, in which
+t
+
+the distance is equal to S with the time travelled through equal to T ; the speed is such a
+
+number,
+
+which
+
+is
+
+to
+
+unity,
+
+as
+
+S T
+
+to
+
+s t
+
+, and this number is
+
+equal to
+
+St Ts
+
+=
+
+S s
+
+.t
+T
+
+, the factors of
+
+which S and t
+sT
+
+show the true amounts [i. e. these are absolute ratios].
+
+EXPLANATION 2
+
+36. Now the above difficulty also vanishes, with everything being reduced to absolute
+
+numbers. If indeed in the distances to be measured we take a certain distance for unity,
+
+and similarly for the times we have determined a certain time for unity, and we use this
+
+measure constantly, all the distances as well as all the times can be expressed in absolute
+
+numbers, the division of which has nothing shared that might hinder. Hence the above
+
+quotients certainly indicate that they proportional to the speeds, and because we have
+
+relinquished our hitherto choice as to which speed we wish to be considered as equal to
+
+unity, then nothing stands in the way, even less that speed itself as to which amount
+
+indicates that it is coming from unity, and that also we can take for unity. That ratio, if we
+
+are to set it up, designates the reverse of whatever speeds the above quotients assign for
+
+s t
+
+and
+
+S T
+
+. But always only the mutual relations suffice and with any case offered that is
+
+easily returned to absolute measures.
+
+SCHOLIUM
+
+37. This notion of the speed that we have desired from uniform or equable motion, in now way is less apparent for non uniform motion. For that in uniform motion the speed is the same everywhere, thus in non-uniform motion it is understood to be changing. For soon we will show that in all motion, however it may be non uniform, it is possible to consider the individual uniform motion by which the smallest elements of the length are traversed, and thus in any point of the interval it is possible to assign the speed, clearly in which the smallest interval here considered is being run through. And hence it is possible for the speed to be considered as a certain innate characteristic of the motion not depending on the distance described, since in whatever interval described by the point a certain speed is given. From which speed thus it is possible also to be defined, that there is such a modified motion, in which a certain distance is described in a certain time with this determined speed. Moreover I consider this motion to be used as any relative motion, the speed too in a like manner is relative and different acting on the same point, and that at the same time, must be recognised, as the motion is referred to more and more bodies. Thus it can happen, that the speed of the motion of the body on the ship with respect to the ship may disagree greatly with the same speed with respect to the bank.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 13
+
+DEFINITION 7
+38. If the motion is rectilinear, the direction of the motion is that right line in which the motion is present; but if moreover it should be curvilinear, at any point of the interval the direction of the motion is given by the tangent to the curve. Whereby in curvilinear motion the direction is said to be changing continually, while in rectilinear motion it always remains the same.
+COROLLARY 1
+39. Hence the direction of the motion is understood from the angle, by which that is inclined to one or two fixed right lines. Clearly if the motion is in the same plane, it is sufficient for the inclination to one fixed line to be known, but if it is not in the same plane, it is required to know the inclination to two fixed lines.
+COROLLARY 2
+40. Therefore in curvilinear motion, both the curved line described by the moving point at an instant is known, and the method for finding the direction of the motion at individual points is manifest
+SCHOLIUM
+41. As motion cannot be considered without speed or direction, because indeed in a small period of time the point may move from its place to another, and the speed of the motion is the magnitude of the small interval traversed between the two points to the applied small time, now the direction of this motion is provided. Indeed at rest the speed vanishes and the motion, the speed of which is nothing, goes to rest ; now concerning rest it is not permissible to say that the direction vanishes also, but rather it must be thought that the reason for the direction clearly is no more ; indeed we can say at once that the point is at rest, and there is no question that it has a direction in place. Although moreover there are things in the whole motion which advance our understanding of motion, because it is possible to ask : 1st. After a given time, at what point will it be present ? 2nd. What line or interval is made between these points ? 3rd. What shall be the speed for whatever great a time is spent ? 4th .What shall be the future direction of the motion ? since speed and direction are notions derived from the concept of motion, provided that in any case we have been able to resolve the first question, then likewise we can put the rest together. In order to make this clearer, I pursue three kinds of motion along the made division, of which I assume in the first that the point is moving in a straight line, now in the second I decide that the interval described is indeed a curve, but always present in the
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 14
+
+same plane, and finally in the third case I pursue that kind of motion, in which the interval described by the motion is not to be situated in the same plane.
+
+PROBLEM 1
+42. If the point is moving in a straight line, the whole determination of the motion can be referred to calculation.
+SOLUTION
+
+The whole work is reduced to this, that for whatever time the place has been assigned,
+
+then the point will be
+
+found there. Hence let
+
+AB be a right line (Fig.
+
+2), on which the point
+
+lies, initially constituted
+
+at A, and with the elapse
+
+of a time equal to t it arrives at S, and there is put in place AS = s, which is the interval
+
+described in the time t. But if now the equation is given between t and s, from which the
+
+one from the other is able to be defined, thus everything can become know relating to the
+
+motion. For by differentiation with the element of time dt put in place, the element of
+
+distance ds, which is traversed in that time, is derived, and the speed of the point at S is
+
+expressed
+
+by
+
+the
+
+fraction
+
+ds dt
+
+.
+
+For
+
+it
+
+is
+
+agreed
+
+that
+
+this
+
+fraction
+
+retains
+
+a
+
+finite
+
+quantity.
+
+Whereby, that speed at S is put equal to v, and it becomes
+
+ds dt
+
+= v , thus the speed can be
+
+assigned for whatever the time and position of the interval. Moreover the direction of the
+
+motion agrees everywhere with the line AB.
+
+COROLLARY 1
+
+43. If the speed of the body v is given at individual moments of time, thus in order that the relation between t and v agrees, then the distances s described at individual times t can be defined with the help of the equation ds = vdt, the integral of which gives the
+distance s =  vdt.
+COROLLARY 2
+
+44. In a similar manner, if the speed v corresponding to individual distances is known, or
+
+the relation given between s and v, then the time t, in which the distance s is completed,
+
+can be defined by this differential equation
+
+dt =
+
+ds v
+
+, thus in order that it becomes :
+
+t
+
+=
+
+
+
+ds v
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 15
+
+COROLLARY 3
+
+45. Therefore if the motion is uniform, then the speed ds is a constant quantity, if which
+dt
+
+is put equal to c, then ds = cdt and on integration, s = ct, since on taking t = 0 the
+
+distance s must vanish also. Hence in turn, if the relation between s and t thus should be
+
+compared,
+
+so
+
+that
+
+the
+
+quantity
+
+for
+
+ds dt
+
+hence
+
+is
+
+elicited
+
+to
+
+be
+
+constant,
+
+then
+
+the
+
+motion
+
+is
+
+uniform.
+
+EXPLANATION
+
+46. When we say that our moving point to be at S with the elapsed time t, this expression cannot be taken for granted, unless from the significance of the words to be all delay or stopping has been removed. Moreover in common speech the phrase to be in a place is likewise is accustomed to mean, to be staying in a place, and from which that old sophism against the existence of motion gains the maximum strength : If a body is moved, either it is moved in the place where it is, or in the place where it is not; since neither of these statements can be said to be possible, clearly it is understood that it is not possible for the body to be moving : for certainly the first cannot be said, if in the place where it is, likewise signifies in the place where it remains or is at rest. If in place of the words to be we were to substitute the words to go across, then all the difficulty is removed : for everywhere the body is crossing, and without doubt it is moving there ; now such a voice is considered not strong enough to the existence and is likewise accepted, while the point is in transit through S ; moreover the notion of existence is considered to be applied at some point, to imply a certain delay that is clearly alien to the motion. Whereby unless we want to take away motion from the world and for this to exist in name only, we must beware, lest with these forms of speaking either to be in a place or to be present or to be stuck [for these are the expressions Euler uses to express the fact that the moving point is somewhere at a given time] we make any connection with staying, and with such a significance truly I will always use them here, thus that they do not mean more than that the point is being passed through, if indeed the body is moving. Hence it is the case, because some philosophers neglecting this distinction have devised their own very perverse ideas about motion ; for while they explain the motion of the same body through a succession of different places, in the individual places themselves they attribute a certain delay, then suddenly the body goes over to the following location. If they wish to avoid this inconvenience from the definition, because they become afraid of the point existing without staying in the same place, surely these sudden leaps must frighten them much more; while indeed such a leap is being made, they will not be able to say then where the body is present; and , if any reasoning should be present for this belief, it would be more expedite to deny all motion, rather than to decide overturning the natural beginnings of this kind of motion.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 16
+
+PROBLEM 2
+
+47. If the point is moving along a curved line, but which is wholly in the same plane, then the general motion can be referred to a determination and calculation through two coordinates.
+
+SOLUTION
+
+Since that body, with respect to which the motion is to be reckoned, is considered as fixed, also the plane, in which the interval traverses is situated, has to be taken as fixed. Moreover in that for argument's sake two right directrices OA and OB are taken, either normal or oblique to each other, to which the motion is referred (Fig. 3), and let ESF be the path or distance described by a moving point, in which the point is initially at E. Now the whole question returns to this, so that from the change in the time the position on the curve can be defined, where the point shall soon then be. Meanwhile the whole distance traversed or the line ES is put equal to s and from S, SY and SZ are acting parallel to the two directrices OA and OB, and the coordinates are called OX = SY = x, XS = OY = y; and if from the time t the values of x and y are able to be assigned, then likewise the point S can be known; also the nature of the curve ESF can be expressed from the relation between x and y. Now moreover from the angle of the directrix AOB, which is placed equal to  , there is obtained for the element of time dt
+
+the element of distance
+
+Ss = ds = (dx2 + 2dxdy cos + dy2 ) ,
+
+from
+
+which
+
+the
+
+speed
+
+is
+
+produced
+
+at
+
+the
+
+place
+
+S
+
+=
+
+ds dt
+
+and
+
+for
+
+the
+
+direction
+
+of
+
+the
+
+motion
+
+there is found the angle which this element makes with one of the directions OA, and the
+
+tangent of this angle is :
+
+=
+
+dy sin dx+dy cos
+
+and the sine
+
+= dy sin .
+ds
+
+Or if the angle is sought, which the direction of the motion Ss makes with the other
+
+direction OB of which the tangent
+
+=
+
+dx sin dy+dx cos
+
+and the sine
+
+=
+
+dx sin ds
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 17
+
+COROLLARY 1
+48. As the position of S on the curve is determined by the coordinates OX = x and XY = y , thus the position of the following point s is defined by the elements of this dx and dy ; clearly the point departing from S in the small time dt is transferred along the direction OA by the small distance dx, and now along the direction OB by the small distance dy.
+
+COROLLARY 2
+49. Hence this twofold translation by the small intervals dx et dy thus has shown the translation from S into s by the small interval Ss = ds, just as the magnitude and direction of this indicate.
+
+COROLLARY 3
+
+50. But if moreover by moving in the small time dt the small distances dx and dy are
+
+actually
+
+traversed,
+
+then
+
+the
+
+speed
+
+should
+
+become
+
+dx dt
+
+and
+
+dy dt
+
+; now from which speeds not
+
+only can the speed be considered along the small interval Ss = ds, but also the direction
+
+of this speed is indicated.
+
+COROLLARY 4
+
+51. If the angle AOB =  between the two directrices OA and OB is set up to be right,
+
+then the calculation becomes the most simple. For then from the elements dx and dy there
+
+is defined ds = (dx2 + dy2) , and the tangent of the inclination of the direction Ss to the
+
+fixed
+
+line
+
+right
+
+line
+
+OA
+
+is
+
+equal
+
+to
+
+dy dx
+
+.
+
+SCHOLIUM 1
+
+52. This consideration is clearly geometrical, because the motion of the points, while the
+
+small interval Ss = ds is performed in the small time dt, is conceived to be resolved into
+
+two motions along the fixed directions OA and OB, clearly for which nothing is changed
+
+in the motion itself. And while to this double motion each is assigned its own speed
+
+dx dt
+
+and
+
+dy dt
+
+,
+
+thus
+
+we
+
+are
+
+aware
+
+of
+
+this
+
+convenience,
+
+as
+
+now
+
+we
+
+recognise
+
+not
+
+only
+
+the
+
+speed
+
+ds dt
+
+but also the direction of the motion, which is of the most outstanding use in
+
+calculations. For indeed the speed and the direction are the two things each with its own
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 18
+
+different nature, both of which are enabled to become known in this way from two speeds or quantities of the same kind. But yet with the motion of the point in mind, for whatever element of time dt, we have resolved the motion into two motions along given directions and we assign to each its own velocity: not as if a twofold motion should be present at the point, which would be clearly unsuitable, but because such a concept leads to a true understanding. It is permitted to use this aid when it is now sure from elsewhere that the motion is to be in the same plane; but if this cannot be agrees upon, then we must have recourse to three fixed directrices, along which is agreed to resolve the motion into three motions at a time.
+
+SCHOLIUM 2
+
+53. This usual evolution of the motion made in a plane depends on the reason that the
+
+curved lines are to be referred to two fixed directions, on which the coordinates of the
+
+parallel lines are established. Moreover since the selection of these right directrices
+
+depends arbitrarily on our choice, it is apparent that the same motion can be expressed by
+
+a calculation in an infinite number of ways, as all must show the same speed as well as
+
+direction for whatever time, and also the resolution of the motion is arbitrary. Clearly the
+
+motion of a point, so that in the small time dt it has run through the distance Ss = ds, can
+
+be resolved into two motions, at least mentally, in an infinite number of ways, as other
+
+and again other lines are taken for directrices, which now always agree in this, that these
+
+two speeds
+
+dx dt
+
+and
+
+dy dt
+
+, however different they may be, if they are taken together, shall
+
+show always the
+
+same true speed
+
+ds dt
+
+as well as the direction or position of the tangent
+
+drawn at S. Since this infinite variety arises from geometry, nothing arises which is to be
+
+a source of wonder; yet meanwhile for any case offered, most of the concern is about
+
+which of these directrices should be chosen, so that the calculation can be returned the
+
+most easily.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 19
+
+PROBLEM 3
+
+54. If the distance described by a point is not in the same plane, the general motion is to be determined by three coordinates to be referred to by calculation.
+
+SOLUTION
+
+The body, in respect of which the motion is to be determined, and which to be regarded as fixed, it is supposed that there are three fixed direction, extended in length, width, and height, the selection of which is left to our choice, and these convenient to the calculation are put in place normal to each other. Therefore OA, OB, and OC are these three directrices, of which the first two are situated in the plane of the table, and now the last OC is taken to be standing perpendicularly on this plane (Fig. 4). Moreover the moving point makes the line ESF beyond the plane of the table situated anywhere, at which on the elapse in the time t from E it arrives at S, thus to the plane AOB there is sent the perpendicular SY, and from Y to OA the normal YX. These orthogonal coordinates may be called : OX = x, XY = y and YS = z, which are parallel to the three directrices; between which by a twofold equation, the nature of the curve ESF is defined, thus so that, if the time t is able to be assigned to the values of these, from these the position where the point is now moving S can be determined. Then on putting the whole distance ES = s, that is traversed in the time t, from the differentials dx, dy and dz, in the small time dt agreeing with these, there is gathered the element of the distance Ss = ds traversed in the same small time, since we have :
+
+ds = (dx2 + dy2 + dz2 ) ,
+
+then the speed at S is equal to
+
+ds dt
+
+.
+
+Moreover
+
+how
+
+this
+
+relates
+
+to
+
+the
+
+direction
+
+of
+
+the
+
+motion Ss, can be determined at the same place: for if the right line yY is produced as far
+
+as T to meet the line AO, then
+
+XT
+
+=
+
+ydx , and if a plane is taken above YT standing
+dy
+
+normally upon the plane AOB, and the element Ss is in that plane, which produced with
+
+the right line YT makes an angle, then the tangent of which is equal to dz and
+(dx2 +dy 2 )
+
+the sine is equal to
+
+dz .
+ds
+
+As also the direction Ss makes an angle with the right line through
+
+S parallel to OA, the cosine of which is equal to
+
+dx ds
+
+, and with the right line through S
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 20
+
+drawn parallel to OB, makes an angle, the cosine of which is equal to
+
+dy ds
+
+, and with the
+
+right line drawn through S parallel to OC, makes an angle the cosine of which is equal to
+
+dz ; from which quantities the whole determination of the motion is contained.
+ds
+
+COROLLARY 1
+55. Hence here the element of distance Ss is considered as the diagonal of a parallelepiped, the sides of which are dx, dy et dz, parallel to the three fixed directrices OA, OB and OC ; from which, since the parallelepiped is set up to be rectangular, the diagonal Ss = ds is thus defined, in order that ds = (dx2 + dy2 + dz2 ) .
+
+COROLLARY 2
+56. While moving for the short time dt the element Ss is traversed, and meanwhile it is customary to consider that it progresses along the direction parallel to OA through the small distance dx, along the direction parallel to OB through the small distance dy, and along the direction parallel to OC through the small distance dz.
+
+COROLLARY 3
+
+57. If this threefold translation is considered as the true motion, even if it is only
+
+conceived in the mind, then
+
+dx dt
+
+expresses the speed along the direction OA, again
+
+dy dt
+
+expresses the speed along the direction OB, and dz the speed along the direction OC.
+dt
+
+COROLLARY 4
+
+58. Moreover from these three fictitious speeds, not only the true speed at S is gathered,
+
+which
+
+is
+
+equal
+
+to
+
+ds dt
+
+,
+
+but
+
+also
+
+the
+
+direction
+
+of
+
+the
+
+motion
+
+;
+
+and
+
+thus
+
+from
+
+the
+
+integration
+
+of these the whole motion is defined.
+
+SCHOLIUM 1
+
+59. On account of the calculation here the three directrices OA, OB, and OC have been set up normal to each other; which also are able to assume any obliquity, as we made use of in the preceding case ; now not usual to know many of the properties of oblique solid angles, in order that the properties of these as can be assumed here to be recognised well enough for the elements. But rather, because the prolixity of the calculation is to be avoided, rightly we will always use orthogonal directrices. Yet meanwhile, if these
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 21
+
+oblique angles should be put in place : AOB =  , AOC = , and BOC =  , and with these
+the parallel coordinates x, y, z are taken, certainly there is obtained by the more complicated formula :
+
+ds = (dx2 + dy2 + dz2 + 2dxdy cos + 2dxdz cos + 2dydz cos )
+
+and the position of the element Ss or the direction of the motion is clearly expressed inconveniently.
+
+SCHOLIUM 1
+60. Because the constitution of the three directrices OA, OB, and OC, although normal amongst themselves, by being varied indefinitely, can represent the same motion in an infinite number of ways. But also, if the point is moving on a right line or on a curve, with the whole motion present in the same plane, as if this cannot be agreed upon, then the motion can be set out by nothing less than three directrices of this kind; yet it will be better to use the simpler methods treated above. Hence from these it is apparent that the same motion can always be resolved in an infinite number of ways into three motions, to each of which there is attributed its own speed, thus so that all taken jointly not only show the speed of the point, but also the direction of the body, because that is the outstanding use in a calculation, because in this way we are freed sufficiently from tedious investigations about the curvature of the distance described, and that in duplicate, unless the motion is made in the same plane. For these three speeds are expedient for the whole work, even with the point moving [in this way] to be present only in the mind ; with which help since I have not used it in the above books on Mechanics, I have fallen into exceedingly intricate calculations Whereby while this resolution of the motion is only a mental construction, it is of such influence that a reward for the trouble is to make firm that singular definition.
+
+DEFINITION 8
+61. The motion is said to be resolved, provided that the small interval traversed in the element of time is considered as the diagonal of a parallelogram or parallelepiped, the sides of which maintain given directions; and with the point to be moving with two or three motions, along the sides of the parallelogram or parallelepiped, and each with its own motion appointed.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 22
+
+SCHOLIUM 1
+62. Which, as if with regard to elementary motion, are said here to be through infinitely small distances that can [in turn] be transferred to finite motion, provided that is uniform and rectilinear; therefore, as these are thus constricted to that kind of elementary motion, and as each element of a curved line taken as a straight line, then uniform motion can be observed through that element. So that these can be become more apparent, I will explain that for a finite uniform rectilinear motion, hence accordingly the application to elemental motion can easily be put in place.
+
+EXPLICATION 1
+
+63. We put the point to run through the straight line SV
+
+with a constant motion in a time equal to t (Fig. 5), in
+
+order that the speed of this is equal to SV , and we
+t
+
+consider some parallelogram SAVB described around SV
+
+of which the straight line SV is the diagonal. With which
+
+put in place we can imagine the motion thus to be resolved along the sides SA and SB, so
+
+that the speed of the one is equal to SA and of the other equal to SB , clearly with each
+
+t
+
+t
+
+being constant; and this twofold motion with these side speeds not only indicates the true
+
+speed
+
+SV t
+
+, but also the direction of the motion; and thus to recognise this motion it is
+
+sufficient that these two lateral speeds are defined. Now neither is resolution of this kind
+
+require to be thought to depend on the foundations of mechanics; as it is more certain
+
+that a single point cannot be involved in more than one motion at the same point, but that
+
+has arisen from the geometric concept of separation and must be judged as foreign to
+
+natural motion in the plane, yet introduced into the calculation in mechanics as an aid.
+
+EXPLICATION 2
+64. The point traverses the line SV with a uniform speed in the time t , which motion it is required to be resolved along three directions (Fig. 6). With these acting from each end point S and V , the right parallel lines SA, SB, SC and VP, VQ, VR, are drawn, as long as each line meets those set up from the other end, in the plane of the two remaining directions. In this manner a parallelepiped arises, the diagonal of which is SV , and the motion along SV, the speed of which is equal to SV ,
+t
+thus can be split up into three motions along SA, SB, SC, so that the speed of the motion
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 23
+
+along
+
+SA is equal to
+
+SA t
+
+,
+
+the
+
+speed
+
+of
+
+the
+
+motion
+
+along
+
+SB
+
+is
+
+equal
+
+to
+
+SB t
+
+and the speed
+
+of the motion along SC is equal to
+
+SC t
+
+.
+
+From
+
+these
+
+three
+
+speeds
+
+not
+
+only
+
+can
+
+the
+
+true
+
+speed along the diagonal SV be determined, but also the direction of the motion in the
+
+ratio of the three directions becomes known. Now in the same manner, if SV is the
+
+element of any curve traversed in the short time dt, the resolution into three speeds
+
+following any three directions can be put in place.
+
+SCHOLIUM 2
+
+63. In these determinations of the motion I have followed the natural geometric method of expressing curved lines by two or three coordinates : clearly the one, when the whole curve is situated in the same plane, and now the other, when it cannot be contained in the same plane. Which method to use in the first place has presented itself, and thus we are led by the hand to that device being set up to resolve the motion into two or three given directions, which is of the greatest use through all mechanics, while knowing the speeds of the sides likewise the direction of the motion and the change of direction is itself embraced, the consideration of which is not accustomed in general to upset the calculation. Now when in geometry also curved lines often are to some fixed point with a singular shortening of the calculation, in the same way too it helps to explain the evolution of the motion, and that not only for motion in the plane but also for motion that has wandered out of a plane ; for clearly astronomers are accustomed to use this happily, while the motion of planets described with respect to some point by angles around that point and the distances from the same are defined, where, if the motion is not made in the same plane, in addition a line of nodes are observed with the inclination of the orbit to a certain plane; whereby the motion can be explained in general by few other methods of representation.
+
+PROBLEM 4
+66. If the motion is made in the same plane, the general determination of the motion is described by the angles about some absolute fixed point.
+SOLUTION
+
+If AS (Fig.7) is the path described by a point moving
+
+in
+
+the same plane, in the same there is taken a fixed point
+
+O, which is seen to be of the maximum convenience in
+
+determining the motion, and by drawing the line OA to
+
+the start of the motion, the motion is fully understood, if at some elapsed time equal to t,
+
+in which the point has rotated to S , as we are able to define the angle
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 24
+
+AOS =  , as well as the distance OS = z. Since indeed the nature of the curve AS can be
+
+defined from this, as is defined, then the differentials will determine the speed of the motion as well as the direction of this. For if the point arrives at s from S in the very short time dt, in which the angle AOS =  takes the increment SOs = d and the distance
+
+OS = z takes the increment sp = dz, always on putting the whole sine equal to 1, then :
+
+Sp = zd and Ss = (dz2 + zzd 2) ,
+
+thus the speed at S is equal to :
+
+(dz 2 + zzd 2 )
+
+dt
+
+and the direction is known from the angle ASO or Ssp, the tangent of which is equal to
+
+zd dz
+
+.
+
+COROLLARY 1
+
+67. Since the moving point describes the angle AOS about the point O in the time equal to t, and from the same point O now with the interval at a distance OS = z, the motion of this can be observes as twofold, the one of the angle about the fixed point O, the other directed from the same point, either receding from or approaching that point.
+
+COROLLARY 2
+
+68. And when in the little time dt the angle AOS =  increases by the element d , the
+
+fraction
+
+d dt
+
+expresses
+
+the
+
+angular
+
+speed,
+
+while
+
+now
+
+on
+
+account
+
+of
+
+the
+
+increase
+
+dz
+
+of
+
+the
+
+distance OS = z, the fraction
+
+dz dt
+
+indicates the speed of recession from the point O.
+
+COROLLARARY 3
+
+69. Moreover each with this speed known, both of the angle and of receding, thus not only the true speed of the point but also the direction can be assigned to the above curve described AS.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 25
+
+PROBLEM 5
+
+70. If the point is not moving in the same plane, then the motion of this point is expressed by angles both relative to a fixed point in a plane, and in [another] plane.
+
+SOLUTION
+
+Let the table represent that plane, to
+
+which the motion is to be referred (Fig.8),
+
+in which there is that fixed point O, which
+
+is viewed as if the centre. The point is
+
+moved in some manner beyond this plane
+
+in the curved line ES, and in the elapsed
+
+time t it has reached S, thus the
+
+perpendicular SM is sent to the plane and
+
+the right lines MO and SO are drawn. Let
+
+OA be a fixed direction taken on this plane,
+
+and it is clear that the place of the point S
+
+is going to be defined for the given time t,
+
+if we are able to assign : 1st the angle AOM =  ,
+
+2nd the angle MOS =  , and
+
+3rd the distance OM = z. So that this can
+
+be made to happen easier, from S there is drawn the tangent to the curve described, which
+
+crosses the plane at T; from where OT is acting,
+
+which is the intersection of the plane, in which
+
+the point is now moving, with the assumed
+
+plane. And it is customary to call this line OT
+
+the line of the nodes, for which the angle shall be at this time AOT =  and the inclination of
+
+the plane OST to the assumed plane is equal to  : which two angles  and  , if they are
+
+known besides the angle AOM =  and the
+
+distance OM = z for the given time t, then the
+
+locus of the point S, that is the angle MOS =
+
+
+
+with
+
+the
+
+distance
+
+OS
+
+=
+
+z cos
+
+,
+
+can
+
+be
+
+assigned conveniently. From M at this end
+
+there is drawn the normal MN to the right line
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 26
+
+OT, and likewise the right line SN; and on account of the angle TOM =  -  then MN = z sin( - ) and ON = z cos( - ) ; then the angle MNS =  is obtained, thus we have :
+
+MS
+
+= z sin( - )tang 
+
+and
+
+NS
+
+=
+
+z
+
+sin( -) cos 
+
+,
+
+and hence [from triangle ONS] :
+
+OS
+
+=
+
+z cos
+
+
+
+(sin( - )2 + cos( - )2 cos  2 )
+
+or
+
+OS
+
+=
+
+z cos
+
+
+
+(1- cos( - )2 sin  2 ).
+
+Hence the angle MOS =  thus is defined, in order that :
+
+tang = MS = sin( - )tang .
+OM
+Therefore when the angle AOT =  and the angle of inclination  equal to these values at
+
+the following point s, where the point stops on the lapse of the above time interval dt, and pertains to the point S, on differentiation of the angle  it is permitted to have the
+
+elements and  taken as constants, thus there is formed [diff. w.r.t.  ] :
+
+d cos 2
+
+=
+
+d cos( - )tang
+
+;
+
+now also, from the following differentiation of the preceding [diff. w.r.t.  -  and  ] :
+
+d cos 2
+
+= (d
+
+- d) cos(
+
+- )tang 
+
++
+
+d cos  2
+
+sin( - ),
+
+from which with the values equated there arises :
+
+d tang ( -)
+
+=
+
+d sin  cos 
+
+=
+
+d .l
+
+tang
+
+
+
+,
+
+in which equation is contained the ratio between the momentary progression of the lines of nodes OT and the variation of the inclination  . Moreover with the angle MOS = 
+
+found
+
+from
+
+the
+
+formula
+
+tang
+
+=
+
+sin( -) tang
+
+,
+
+hence
+
+the
+
+distance OS
+
+=
+
+z cos
+
+is
+
+known.
+
+COROLLARY 1
+
+71. Because the angles and  thus depend on each other in turn, as become apparent
+
+from the equation
+
+d tang ( -)
+
+=
+
+sin
+
+d  cos
+
+
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 27
+
+if the angle AOT =  remains the same, also the inclination  is the same for ever;
+hence the motion of the point is then always made in the same plane. Hence the criterion that the motion is in the same plane made by crossing the fixed point O is consistent with this, that the angles  and  are constant.
+
+COROLLARY 2
+72. While the moving point crosses the assumed plane, it is turning in the line of the nodes OT and then tang ( - ) = 0 , from which, however the inclination  is varied, then d = 0 or the nodal line is at rest.
+
+COROLLARY 3
+73. But if the angle TOM =  -  is a right angel, on account of tang ( - ) =  , in whatever way the line of nodes is moving, then d = 0 or the inclination does not change in the short time dt.
+
+SCHOLIUM
+
+74. If the element of distance Ss is expressed in this way and from this we want to define
+
+the speed of the motion, the formula will be exceedingly complex, because it comes
+
+involving the direction. Therefore the calculation can be set up in another way, so that
+
+this inconvenience can be avoided : clearly for the given time the position of the nodal line OT or the angle AOT =  is sought, now the inclination MNS =  , then in the plane
+
+TOS, in which the point is taken to be moving now, the angle TOS =  together with the distance OS = v. From which in place there is obtained ON = v cos , SN = v sin ,
+
+hence
+
+SM = v sin sin  and MN = v sin cos .
+
+From these the angle SOM = is collected, truly sin = sin sin . Again on account
+
+of tang TOM = tang  cos  , since the angle TOM before was  -  , here the
+
+differentials d and d thus depend on each other in turn, as then
+
+d tang  cos 
+
+=
+
+d sin  cos 
+
+or
+
+d
+
+=
+
+d tang  sin 
+
+.
+
+Hence now afterwards the element of distance is picked out Ss = (dv2 + vvd 2 ) and
+
+thus the speed itself is equal to
+
+= 1 (dv2 + vvd 2 );
+dt
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 28
+
+now the direction of the motion Ss in the plane TOS is thus inclined to the right line OS,
+
+so
+
+that
+
+the
+
+tangent
+
+of the
+
+angle
+
+OST
+
+is
+
+equal
+
+to
+
+vd dv
+
+.
+
+Moreover
+
+in
+
+astronomy,
+
+where
+
+this
+
+evolution is chiefly put to use, the angle TOS is accustomed to be called the argument of
+
+the latitude and the angle SOM the latitude; then with the added angle TOM, the tangent of which is equal to tang  cos  , to the maximum longitude of the node AOT =  or
+
+the angle AOM is called the longitude.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 29
+
+CAPUT 1 CONSIDERATIO MOTUS IN GENERE
+
+DEFINITIO I
+1. Quemadmodum Quies est perpetua in eodem loco permanentia, ita Motus est continua loci mutatio. Corpus scilicet, quod semper in eodem loco haerere observatur, quiescere dicetur : quod autem labente tempore in alia atque alia loca succedit, id moveri dicitur.
+EXPLICATIO I
+2. Quanquam notiones quietis et motus in se planissimae videntur, tamen quo accuratiorem earum cognitionem acquiramus, singulus, quibus constant, ideas attentius considerari convenit. Ac primo quidem occurrit idea loci; quid autem sit locus, haud facile declaratur. Qui spatium immensum imaginantur, in quo totus mundus versetur, eius partes a corporibus occupatas horum loca appellant, ob extendionem enim quodque corpus parem spatii partem occupet, et quasi impleat, necesse est. Verum huius ipsius spatii notionem nos nonnisi per abstractionem concipimus, dum mente omnia corpora tollentes, id quod residuum fore arbitramur, spatia nomine appellamus : sublatis scilicet corporibus eorum adhuc extensionem residuam fore putamus; qui conceptus a Philosophis multis argumentis impugnare solet. Neque etiam haec ipsa quaesito, nisi ante iam adaequata motus idea fuerit stabilita, dirimi posse videtur. A principio certe huiusmodi lubricas abstrationes repudiantes, rem, prouti in sensus immediate incurrit, perpendere debemus, quos consulentes de loco cuiuspiam corporis aliter iudicare non licet, nisi id ad alia corpora circumiacentia referendo, quorum respectu, quamdiu id eundem situe servaverit, id in eodem loco perseverare, sin autem in alium situm pervenerit, locum mutasse pronunciare solemus.
+EXPLICATIO 2
+3. Cum autem situm corporis respectu aliorum circumiacentium aestimamus, dum haec inter se eundem situm servent, iudicium nostrum utpote geometricis quasi ideis innixum fallax esse nequit. Determinatur enim situs per distantias ab aliquot punctis diversis, neque unum vel etiam duo puncto ad hoc sufficiunt. Nam si dicam punctum O a puncto A intervallo = a distare, situs puncti O minime determinar. Sed universa superficies sphaerica circa centrum A radio = a descripta relinquitur, in cuius singulis punctis punctum O aequae inesse posset, quorum nullum prae reliquis hoc modo ipsi
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 30
+
+pro loco, ubi existat, assignatur. Sin autem dicam punctum O a puncto A intervallo = a, ab alio puncto B vero intervello = b distare, concipiatur superficies sphaerica circa A radio = a, simulque alia circa B radio = b descripta : et quia intersectio harum superficierum est circulus, huius singula puncta ita erunt comparata, ut a puncto A intervallo = a, a puncto B vero intervallo = b distent. Certum ergo erit punctum O in peripheria huius circuli existere, et ubi revera existat, non definitur. Ponamus igitur dari insuper puncti O distantiam a tertio quodam puncto C, quae sit = c, neque hoc tertium punctum C cum duobus superioribus in directum iaceat, et cum superficies sphaerica circa C radio = c descripta superiorem circulum duobus adhuc punctis secet, etiam nunc dubitamus, in utro eorum punctum O existat; veruntamen inter duo tantum puncta ancipites haeremus. Hinc concludimus, si puncto O distantias a quaternis punctis A, B, C, D non in eodem plano sitis noverimus, eius situm plane determinari; plerumque vero etiam tria sufficiunt, quando scilicet aliunde alterum duorum illorum punctorum, quae aequae satisfaciunt, excluditur.
+
+SCHOLION
+
+4. Cum haec situs cuiusque puncti determinatio sit geometrica, nulli prorsus dubio est subiecta, unde ab ea considerationes de quiete et motu exordiemur. Quae autem hic de situ punctorum sunt observata, facile ad quaevis corpora accommodantur, quoniam idea quietis vel motus in corporibus locum non habet, nisi quatenus singulis eius punctis tribuitur. Neque enim, quaecunque etiam idea quietis ac motus statuatur, ea subito de corpore quodam universa praedicari potest, cum fieri possit, ut in corpore alia puncta quiescant alia vero magis minusve moveantur. Atque hanc ob casuam omnino necesse est, ut veram quietis motusve indolem primo tantum in punctis investigemus. Neque tamen ideo haec consideratio tanquam imaginaria est spectanda, propterea quod punctorum conceptus sit mere abstractus, quibus nonnulli etiam dubitarunt motum vel quietem adscribere. Verum, quicquid sit de hac controversia, necessario concedendum est, si corpus vel quiescat vel moveatur, puncta in eo concipi posse, quae vel quiescent vel movebuntur; neque hic interest, utrum talia puncta pro corporum elementis haberi queant necne. Nihil quoque obstat, quominus quis, ut lubuerit, loco horum punctorum vera corporum elementa, sive sint infinite parva sive saltim quam minima, substituere velit; res enim omnino eodem redibit neque hinc ullum dubium nasci potest. Simili modo ea puncta A, B, C, D, ad quae situm puncti O retuli, realitati minime repugnant, cum sint termini in veris corporibus existentes, a quibus distantiae mensurentur. Nisi quis existentiam corporum prorsus negaverit, cum quo nobis disputatio foret nulla, huiusmodi conceptus ad sublevandum investigationis negotium minime improbare poterit.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 31
+
+DEFINITIO 2
+
+5. Dum quatuor plurave puncta easdem inter se servant distantias, si punctum aliquod O ab iis perpetuo maneat aequidistans, eorum respectu quiescere dicitur, propterea quod eorum respectu eundem situm conservat.
+
+COROLLARIUM 1
+
+6. Si A sit corpus solidum figuram suam constanter servans, in eo, quantumvis fuerit parvum, non solum quatuor, sed quam plurima concipere licet puncta, quae inter se easdem perpetuo teneant distantias.
+
+COROLLARIUM 2
+
+7. Quare si punctum O respectu istius corporis A eundem situm servet, quod fit, si ab omnibus eius punctis perpetuo aequae maneat remotum, tum punctum O respectu corporis A quiescere A dicitur.
+
+COROLLARIUM 3
+
+8. En ergo realem quietis definitionem nullis ideis vagis seu imaginariis implicatam, quae autem coniuncta est cum idea cuiuspiam corporis, cuius respectu punctum O quiescere dicitur; neque patet, quid sit quies absolute sic dicta separata a talis corporis notione.
+EXPLICATIO 1
+
+9. Verum hic in limine Mechanicae ne solliciti quidem esse debemus de quiete absoluta, quae an sit et qualis, etiam nunc prorsus ignoramus, in id tantum inquirentes, quid sensus nobis ostendant. Ubicunque autem nobis de quiete est sermo, semper nostra idea coniuncta est cum corpore quopiam, cuius respectu corpus vel potius punctum quiescere dicamus. Ita navigantibus corpora, quae respectu navis eundem situm retinent, quiescere dicuntur, aeque ac nos in continenti versantes corporibus, respectu soli eundem situm tenentibus, quietem tribuere solemus. solemus. Neque illi magis falli sunt putandi, quod navis moveatur, cum etiam universam tellurem moveri Astronomi statuant. In idea enim quietis hic stabilita minime curamus, utrum corpus illud, cuius respectu quietem asserimus, quiescat, an moveatur. Quamdiu enim punctum O respectu corporis A eundem situm conservat, id huius respectu quiescere pronunciamus, neque quicquam ultra hac locutione innuimus. Nova plane futura esset quaestio de quiete vel motu ipsius corporis A aliunde diiudicanda, quae ad illam definitionem nihil conferret. Ita in navi, quicquid eius respectu eundem situm servat, eius quoque respectu quiescit, nihilque interest, utrum ipsa navis quiescat, an moveatur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 32
+
+EXPLICATIO 2
+
+10. Idea igitur quietis hic tradita inter relationes est referenda, cum non ex sola conditione puncti O, cui tribuitur, desumatur, sed eius cum alio quodam corpore externo A comparatio instituatur; ex quo si nobis unquam nosse liceat, an detur quies absoluta et quid sit, distinctionis causa hanc, quam definimus, quietem respectivam appellemus. Atque hinc statim patet fieri posse, ut idem punctum, quod respectu corporis A quiescat, respectu aliorum corporum non quiescat, sed adeo varie moveatur. Quemadmodum corpus in navi quiescens respectu solis vel aliorum corporum coelestium aliter atque aliter movetur. Unde patet ista quietis vel motus praedicata in ipso corpore vel puncto O nihil mutare, cum omnia ei simul convenire queant, prout ad alia atque alia corpora referatur.
+
+SCHOLION
+
+11. Haec omnia simili modo de idea loci sunt intellegenda; cum enim quies sit permanentia in eodem loco, ut haec definitio quoque ad quietem respectivam pateat, punctum O, quod respectu corporis A quiescere dicitur, eius quoque respectu in eodem loco perseverare dicendum est. Quia igitur in eodem situ respectu corporis A manet, idem locus conveniat cum eodem situ necesse est. Haec autem loci idea perinde ac quietis est respectiva, ita ut locus respectivus sit certus ac determinatus quidem situs respectu cuiusdam corporis. Utrum detur alia magis naturalis loci idea, adhuc ignoramus; cuiusmodi siquedem detur, is locus absolutus vocetur. Loco quidem respectivo, prouti eum hic definivimus, immobilitas, ut vulgo fieri solet, tribui nequit; si enim corpus, cuius respectu erat descriptus, ipsum promoveatur, locus cum ipso progredi censendus est. Sin autem cui videantur ea corpora absolute quiescere, quae respectu stellarum fixarum eundem locum retineant, ei locus absolutus erit certus ac determinatus situs respectu stellarum fixarum. Num autem relatio ad stellas fixas naturae rei magis sit consentanea, quam relatio ad alia quaevis corpora, hic etiamnum in dubio relinquere cogimur.
+
+DEFINITIO 3
+
+12. Si punctum O respectu alicuius corporis A, quod figuram conservat immutatam, situm suum continuo mutet, id respectu corporis A moveri dicitur.
+Evidens est figuram corporis A invariabilem assumi debere, ut quaterna puncta in eo concepta, ad quae punctum O refertur, inter se easdem distantias servent.
+
+COROLLARIUM 1
+
+13. Quae de quiete respectiva diximus, facile ad motum respectivum transferuntur; quando enim punctum O respectu corporis A eundem servat situm, quiescere, quando autem eius respectu situm continuo mutat, moveri respective dicitur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 33
+
+COROLLARIUM 2
+
+14. Simul vero patet fieri posse, ut idem punctum O, quod respectu corporis A quiescat, respectu alius corporis B moveatur. Unde haec idea tam motus quam quietis est relativa neque quicquam in ipso puncto O mutat.
+
+COROLLARIUM 3
+
+15. Motus igitur et quies nomine tantum, non vero re ipsa sibi opponuntur, cum utrumque simul eidem puncto, prout cum alio atque alio corpore conferatur, tribui possit. Neque motus a quiete aliter differt, atque alius motus ab alio.
+
+COROLLARIUM 4
+
+16. Motus itaque et quies perperam inter affectiones corporum numerantur, quandoquidem, dum affectio cuiuspiam rei mutatur, ipsa res mutationem passa sit censenda; cum contra corpori, sive ei motus sive quies tribuatur, nulla mutatio obveniat.
+
+EXPLICATIO 1
+
+17. Cadit ergo celebris illa distinctio inter motum et quietem, quam Philosophi tanquam maxime essentialem corporibus praedicare solent, si quidem rem de motu et quiete respectiva intelligimus. Verum obiicient rem longe aliter se habere, si de motu et quiete absoluta loquamur; quid autem sit motus absolutus et quies absoluta, non satis definiunt. Si velint has denominationes ex relatione ad stellas fixas petendas esse, nihilominus tam motus quam quies erunt respectivi neque a nostris definitionibus recedunt, nisi quod aliud ac determinatum corpus indicent, ad quod relatio sit instituenda, unde, quid in ipsum corpus, quod eo refertur, redundet, nondum apparet. Ceterum minime nego ullum esse discrimen inter motum et quietem vel inter corpus motum et quiescens, cum potius in eo definiendo tota Mechanica sit occupata; sed id iure equidem nego motum et quietem ullam internam corporis mutationem involvere. Ad quod ergo praedicamentorum genus referri debeant quies et motus, Philosophi viderint; qualitas certe minime vocari possunt, nihil autem prohibet has res inter relationes numerare, quandoquidem, utcunque eadem res cum aliis aliisque obiectis comparetur, eius indoles interna nullam mutationem subit.
+
+EXPLICATIO 2
+
+18. Cum loci ideam definiverim, prout eam quidem sensuum iudicium suppeditat, idea nunc quoque temporis, quae in notione quietis ac motus implicatur, occurrit. Dum enim quies perpetua in eodem loco permanentia dicatur, hoc ipsum perpetuum vel permanens sine temporis notione intelligi nequit. Verum motus idea temporis notionem magis evolutam postulat, ex qua etiam divisio temporis in partes sive aequales sive inaequales percipi queat. Dum enim punctum O situm respectu corporis A mutat, haec mutatio
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 34
+
+cognosci nequit, nisi, quanta mutatio quovis tempore sit facta, intelligamus. Si ergo, ut pluribus placet, temporis notitiam aliunde, nisi ex consideratione motus, haurire non liceret, neque tempus sine motu, neque motum sine tempore cognoscere possemus, neutrius ergo unquam ullam notitiam essemus consecuti. Divisionem quidem temporis ex motus contemplatione, solis scilicet, didicimus, verum sine motus subsidio videmur apprehendisse, quid sit ante et post; unde idea successionis sponte sequi videtur. Atque etiamsi nos temporis accuratiorem notitiam considerationi motus debeamus, hinc tamen nondum sequitur tempus in se nihil esse praeter nostrum conceptum. Quid enim sint duo temporis intervalla aequalia, quilibet intelligit, etiamsi fortasse nunquam in iis aequales mutationes eveniant, ex quibus illam aequalitatem colligere possit. Quicquid igitur de temporis fluxu disceptetur inter Philosophos, ad motus cognitionem temporis mensura uti debemus, concedendumque est tempus ita ab omni motu independenter fluere, ut in eo partes tam aequales quam secundum rationem quamcunque inaequales concipere liceat. Qui hanc nobis veniam recusaverit, omnem motus cognitionem funditus sustulerit. Tempus igitur perinde nobis liceat in calculum introducere, ac lineas aliasque magnitudines geometricas.
+
+DEFINITIO 4
+
+19. In motu puncti spatium vocatur via, quam punctum motu suo percurrit, quae cum sit linea erit vel recta vel curva. Illo casu motus dicitur rectilineus, hoc vero curvilineus.
+
+COROLLARIUM 1
+
+20. Cum aliam adhuc motus, nisi respectivi, ideam non habeamus, spatium quoque seu linea descripta ad corpus, cuius respectu motus aestimatur, est referenda.
+
+COROLLARIUM 2
+
+21. Hoc scilicet corpus, sive quiescat ipsum sive moveatur, quoniam haec ratio non in computum ducitur, tanquam fixum spectatur eiusque respectu tractus et positio illius spatii a puncto descripti assignari debet.
+
+COROLLARIUM 3
+
+22. Cognitio ergo huius spatii ad tres casus revocatur, quorum primus est, si motus sit rectilineus spatiumve linea recta. Secundus, si spatium quidem sit linea curva, sed tota in eodem plano sita. Tertius vero, si linea curva non eodem plano contineatur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 35
+
+EXPLICATIO 1
+
+23. In Geometria iam assumitur motu punctu lineam describi, quod ipsum per se clarius est, quam ut demonstratione egeat. Si enim punctum, quod ante fuerat in A, nunc sit in B, interea lineam quandam continuam ab A ad B porrectum percurrerit necesse est, nisi quis dicere velit id in A subito annihilatum, tum vero in B de novo reproductum esse; verum quia hoc esset miraculum, non motus, ad nostrum institutum non pertinet. Qui motum quidem agnoscere nolunt, rem clarius se concipere opinantur, si dicant in singulis punctis spatii, quod nobis percursum videtur, punctum annihilari statimque in sequentibus reproduci; quasi transitus ab uno loco in alium difficilior esset intellectu, quam alterna destructio et creatio. Verum cum motus alio respectu quies esse possit, idem de quiete dicere coguntur, ut sit perpetua eiusdem corporis destructio in eodemque loco subito secuta creatio; quae opinio cum non differat ab ea, qua conservatio corporum continua eorundem creatio statuitur, a vulgare vix dissentire videtur. Cum enim nullum temporis punctum sit, quo corpus non existat, quin continuo existat, dubitari nequit, haecque continua corporum existentia in motu aeque atque in quiete concedi debet. Ex quo conficitur punctum ab uno termino in alium transire non posse, quin successive totam quandam lineam ab illo termino ad hunc extensam percurrerit.
+
+EXPLICATIO 2
+
+24. Ponamus punctum percurrisse lineam APQB (Fig. 1), et cum id simul in A et B esse nequeat, necesse est, ut in B reperiatur, postquam fuerit in A. Ex iis ergo, quae non simul
+fuisse percipimus, ideam temporis colligimus, atque cum punctum fuerit in A, idem non nisi elapso aliquo tempore in B pervenire potuisse agnoscimus. Quod idem cum de punctis mediis P et Q sit statuendum punctumque prius pervenerit in P quam in Q atque prius in Q quam in B, inde simul devisionem temporis intelligimus, qua constat tempus, quo ex A in P pervenerit, minus esse eo, quo ex A in Q perveniat, hocque minus eo, quo ex A usque in B pertingat. Hinc patet tempus esse quantitatem divisibilem et messurabilem, ita ut non solum aliud alio maius minusve sit dicendum, sed etiam eius partes sive aequales sive secundum rationem quamcunque inaequales assignari quaeant. Cum enim tempus sit quantitas, necessario concedi debet tempus, quo punctum ex A in P pervenit, vel aequale vel maius esse vel minus tempore, quo porro ex P et Q pervenit : et quicquid dixeris, inter haec duo tempora quaedam ratio intercedat, necesse est. Summo ergo iure hic tempus, tanquam quantitatem divisibilem ac mensurae capacem, in calculum introduci posse postulo.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 36
+
+DEFINITIO 5
+
+25. Motus aequabilis seu uniformis dicitur, quo aequalibus temporibus aequalia spatia percurruntur. Sin autem aequalibus temporibus inaequalia spatia vel aequalia spatia inaequalibus temporibus conficiantur, motus vocatur inaequabilis.
+
+COROLLARIUM 1
+26. Si ergo punctum motu aequabili feratur, tempore duplo percurret spatium duplum, triplo triplum; atque in genere spatia percursa erunt in ratione temporum, ac vicissim. Nempe si tempore t percurratur spatium s, alio vero tempore T spatium S, erit t :T = s : S.
+COROLLARIUM 2
+27. In motu autem inaequabili res secus se habebit neque spatia percursa s et S rationem temporum t:T tenebunt; sermo hic autem est de motu quocunque respectivo, cuius solum adhuc habemus ideam, ac perinde est, sive motus sit rectilineus sive curvilineus.
+
+COROLLARIUM 2
+28. Ex motu ergo aequabili vicissim accuratam temporis divisionem nanciscimur; cum enim spatii divisio geometrice institui possit, tempus inde similem divisionem in partes sive aequales sive inaequales impetrabit.
+SCHOLION 1
+29. Hinc intelligitur temporis divisionem non esse meram mentis operationem, ut ii, qui tempori nonnisi in mente nostra locum concedunt, ideam temporis ab ipso tempore non secernentes, statuere solent. Si enim tempus nihil aliud esset, nisi ordo successivorum, neque extra mentem quicquam esset, quo tempus determinaretur, nihil impediret, quominus in omni motu temporis partes, quibus aequalia spatia conficiantur, pro aequalibus haberemus, cum successiones similes videantur, ita ut omnis motus aequo iure tanquam aequabilis spectari posset. Ipsa autem rei natura abunde testatur motum aequabilem essentialiter ab inaequabili differe; ideoque in aequalitate temporum, qua nititur, plus, quam quod in ideis nostris resideat, insit necesse est. Atque hinc aequalitas temporum rationi cuipiam extra mentem sitae inniti dicenda est, nosque potius eius cognitionem extrinsecus ex motu aequabili hausisse videmur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 37
+
+SCHOLION 2
+
+30. Quamdiu punctum motu aequabili fertur, ita ut temporibus aequalibus spatia aequalia percurrat, tamdiu aeque celeriter moveri dicitur : unde discimus, quid sit aeque celeriter moveri. Ac si duo puncto A et B motu aequabili incedant illudque A singulis temporibus t spatia = s, hoc vero B iisdem temporibus spatia =  percurrat fueritque s >  , punctum A celerius ferri dicitur quam B, hoc vero illo tardius: unde percipimus, quid sit celerius, quid tardius. Atque si punctum A eodem tempore spatium duplo vel triplo maius absolvat quam punctum B, illud duplo vel triplo celerius incedere dicitur; sicque hinc adeo comparatio hius rei, que vocabulo celerius subiicitur, menti clare obversatur, etiamsi de re ipsa nihil adhunc definiverimus. Est autem haec res conceptus abstractus, quasi basin exhibens eius, quod sub voce celeris cogitamus; vocaturque iste conceptus celeritas vel velocitas, cuius definitionem proponamus.
+
+DEFINITIO 6
+
+31. In motu aequabili ratio spatiorum ad tempora, quibus percurruntur, vocatur celeritas sive velocitas. Aestimatur ergo celeritas ex quoto, qui oritur, si spatium per tempus dividatur.
+
+COROLLARIUM 1
+
+32.
+
+Si ergo in motu aequabili spatium = s tempore = t percurratur, celeritas erit =
+
+s t
+
+.
+
+Unde,
+
+si
+
+celeritas
+
+littera
+
+v
+
+indicatur,
+
+habetur
+
+v
+
+=
+
+s t
+
+.
+
+COROLLARIUM 2
+
+33. Positis ergo his tribus, spatio = s, tempore = t et velocitate = v, ex binis tertia ita
+
+definitur, ut sit 1o
+
+v=
+
+s t
+
+,
+
+2
+
+o
+
+t
+
+=
+
+s v
+
+et 3o s = tv.
+
+COROLLARIUM 3
+34. Hinc si alius praeterea fuerit motus aequabilis, quo spatium = S tempore = T conficiatur eiusque celeritas dicatur = V, habebuntur istae notissimae proportione
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 38
+
+1st
+
+v :V
+
+=
+
+s t
+
+:
+
+S T
+
+,
+
+2nd t : T = s : S ,
+vV
+
+3rd s : S = tv :TV .
+
+EXPLICATIO 1
+
+35. Dubium hic orietur, quomodo spatio per tempora dividi queant, cum sint quantitates
+
+heterogeneae neque dici possit, quoties tempus v. gr. decem minutorum in spatio v. gr.
+
+decem pedum contineatur. Verum hic non de divisione absoluta est sermo, sed de
+
+comparativa, quoniam celeritas idea nihil absoluti involvit. Scilicet celeritas aliter nisi
+
+relative intelligi nequit; statim autem, atque celeritatem certi cuiusdam motus aequabilis
+
+tanquam cognitam assumimus et quasi unitatem spectamus, in quocunque alio motu
+
+aequabili celeritas per numerum exprimetur, neque ulla amplius occurret difficultas.
+
+Fingamus enim in motu aequabili, quo spatium = s tempore = t absolvitur, celeritatem pro
+
+unitate assumi, ita ut
+
+s t
+
+tanquam
+
+unitas
+
+spectetur;
+
+in
+
+alio
+
+quocunque
+
+motu
+
+aequabili,
+
+quo
+
+spatium = S tempore = T percurritur; celeritas talis erit numerus, qui sit ad unitatem, ut
+
+S T
+
+ad
+
+s t
+
+,
+
+eritque
+
+hic
+
+numerus
+
+=
+
+St Ts
+
+=
+
+S s
+
+. Tt
+
+, cuius factores
+
+S s
+
+et
+
+t T
+
+veros quotos exhibent.
+
+EXPLICATIO 2
+
+36. Verum superior difficultas quoque evanescit, omnia ad numeros absolutos revocando.
+
+Si enim in spatiis mensurandis spatium quoddam determinatum pro unitate assumamus
+
+similiterque pro temporibus tempus quoddam determinatum pro unitate habeamus,
+
+hacque mensura constanter utamur, omnia tam spatia quam tempora numeris absolutis
+
+exprimentur, quorum divisionem promiscuam nihil est, quod impediat. Quoti ergo supra
+
+indicati certe erunt celeritatibus proportionales, et quia arbitrio nostro adhuc relinquitur,
+
+quamnam celeritatem instar unitatis spectare velimus, nihil obstat, quominus eam ipsam
+
+celeritatem, quam quotus ille in unitatem abiens indicat, etiam pro unitate assumamus.
+
+Quam rationem si constituerimus, quoti supra assignati
+
+s t
+
+et
+
+S T
+
+reversa quasvis celeritates
+
+designabunt. Semper autem solae relationes mutuae sufficere possunt et quovis casu
+
+oblato facile erit eas ad mensuras absolutas revocare.
+
+SCHOLION
+37. Hanc celeritatis notionem ex motu uniformi seu aequabili petivimus, nihilo vero minus etiam inaequabilem patet. Uti enim in motu aequabili celeritas ubique est eadem, ita in inaequabili mutari est intelligenda. Mox enim ostendemus in omni motu, utcumque sit inaequabilis, minima spatii elementa singula motu aequabili percursa concipi posse,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 39
+
+sicque in quovis spatii puncto celeritatem assignare licet, qua scilicet minimum spatiolum ibi conceptum percurritur. Atque hinc celeritas tanquam indoles quaedam peculiaris motus a descriptione spatii non pedens considerari potest, cum in quolibet spatii descripti puncto certa detur celeritas. Ex quo celeritas etiam ita definiri posset, ut sit talis motus modificatio, qua is ad certum spatium certo tempore describendum determinetur. Ceterum uti hic motum utcunque respectivum considero celeritas quoque pari modo erit respectiva atque in eodem puncto diversa, idque eodem tempore, est agnoscenda, prouti motus ad alia atque alia corpora referatur. Ita fieri potest, ut corporis in nave moti celeritas respectu navis maxime discrepet ab eiusdem celeritate respectu ripae.
+
+DEFINITIO 7
+
+38. Si motus sit rectilineus, directio motus est ipsa recta, in qua fit; sin autem fuerit curvilineus, in quovis spatii puncto tangens curvae praebet directionem motus. Quare in motu curvilineo directio continuo mutari dicitur, dum in rectilineo perpetuo eadem manet.
+
+COROLLARIUM 1
+
+39. Directio ergo motus cognoscitur ex angulo, quo ea ad unam vel duas lineas rectas fixas inclinatur. Scilicet si motus fiat in eodem plano, sufficit eius inclinationem ad unam rectam fixam nosse, sin autem non fiat in eodem plano, eius inclinationem ad duas rectas fixas nosse oportet.
+
+COROLLARIUM 2
+40. In motu igitur curvilineo, statim ac linea curva a puncto moto descripta fuerit cognita, methodus inveniendi tangentes directionem motus in singulis punctis manifestabit.
+
+SCHOLION
+
+41. Quemadmodum motus sine celeritate, ita etiam sine directione cogitari nequit, cum
+enim punctum tempusculo etiam minimo ex suo loco in alium transeat, spatioli interea
+percursi magnitudo ad tempusculum applicata motus celeritatem, eius vero positio motus
+directionem praebet. In quiete quidem celeritas evanescit motusque, cuius celeritas est
+nullas, in quietem abit; verum de quiete dicere non licet directionem quoque evanescere,
+sed potius directionis ratio plane cessare est putanda; statim enim ac punctum quiescere
+dicimus, ne quaestio quidem de directione locum habet. Etsi autem in motu tot sint res, quae in eius cognitionem ingrediuntur, cum quare possit : 1st. Quonam loco punctum post datum tempus sit haesurum ? 2nd. Quamnam lineam seu spatium interea confecerit ? 3rd. Quantam quovis tempore habiturum sit celeritatem ? 4th .Quaenam eius futura sit
+motus directio ? quoniam celeritas et directio sunt notiones ex motus idea derivatae,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 40
+
+dummodo quovis casu primam quaestionem resolverimus, simul omnes confecerimus. Quod quo clarius exponatur, secundum supra factam divisionem tria motus genera persequar, quorum primo punctum in linea recta moveri assumam, secundo vero spatium descriptum curvum quidem statuam, sed in eodem plano existens, tertio denique id genus persequar, quo spatium motu descriptum non in eodem plano fuerit situm.
+
+PROBLEMA 1
+
+42. Si punctum in linea recta moveatur, universam motus determinationem ad calculum revocare.
+
+SOLUTIO
+
+Totum negotium huc redit, ut ad quodvis tempus locus assignetur, ubi tum punctum
+
+reperiatur. Sit ergo AB
+
+linea recta (Fig. 2), in
+
+qua punctum incedat,
+
+initio in A constituto,
+
+atque elapso tempore =
+
+t pervenerit in S,
+
+statuaturque AS = s, quod erit ipsum spatium tempore t descriptum. Quodsi iam inter t et
+
+s aequatio detur, qua alterum ex altero definiri queat, inde omnia, quae ad motus
+
+cognitionem pertinent, innotescent. Differentiatione enim instituta pro temporis elemento
+
+dt spatii elementum ds, quod eo percurritur, derivatur, atque fractio
+
+ds dt
+
+celeritatem
+
+puncti
+
+in S exprimet. Constat enim hanc fractionem continere quantitatem finitam. Quare, is
+
+celeritas in S ponatur = v, erit
+
+ds dt
+
+= v , unde tam ad quodvis tempus quam ad quemvis
+
+spatii locum celeritas assignari poterit. Directio autem motus ubique cum ipsa recta AB
+
+congruet.
+
+COROLLARIUM 1
+
+43. Si ad singula temporis momenta celeritas corporis detur v, ita ut relatio inter t et v constet, inde quoque spatia s singulis temporibus t descripta definientur ope aequationis
+ds = vdt, cuius integrale praebit ipsum spatium s =  vdt.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 41
+
+COROLLARIUM 2
+
+44. Simili modo si ad singula spatii puncta celeritas v fuerit cognita seu data sit relatio
+
+inter s et v, inde tempus t, quo spatium s absolvitur, definietur hac aequatione differentiali
+
+dt
+
+=
+
+ds v
+
+, ita ut sit
+
+t
+
+=
+
+
+
+ds v
+
+.
+
+COROLLARIUM 3
+
+45.
+
+Si ergo motus fuerit aequabilis, celeritas
+
+ds dt
+
+erit
+
+quantitas
+
+constans,
+
+quae
+
+si
+
+ponatur
+
+= c, erit ds = cdt et integrando s = ct, quoniam sumto t = 0 etiam spatium s evanescere
+
+debet. Vicissim ergo, si relatio inter s et t ita fuerit comparata, ut inde pro
+
+ds quantitas
+dt
+
+constans eliciatur, motus erit aequabilis.
+
+EXPLICATIO
+
+46. Quando dicimus punctum nostrum motum elapso tempore t in S esse, haec locutio admitti nequit, nisi a significatu vocabuli esse omnis mora vel mansio segregetur. In vulgari autem sermone phrasis in loco esse idem significare solet, atque in loco morari, unde vetus illud sophisma contra motus existentiam maximam vim adipiscitur : Si corpus movetur, vel movetur in loco , ubi est, vel in loco, ubi non est ; quorum cum neutrum dici possit, colligitur corpus plane moveri non posse : prius enim certe dici nequit, si in loco, ubi est, idem significat atque in loco, ubi moratur seu quiescit. Si loco vocabuli esse substitueretur transire, omnis difficultas tolleretur : nam ubi corpus transit, ibi sine dubio movetur; verum talis vox non satis fortis videtur ad existentiam simul innuendam, dum corpus seu punctum per S transit; videtur autem existentiae notio, ad quempiam locum applicata, moram quandam implicare a motu prorsus alienam. Quare nisi hoc solo nomine motum e mundo tollere velimus, cavere debemus, ne cum his loquendi formulis in loco esse vel existere vel haerere ullam mansionem coniungamus, atque tali significatu hic equidem semper utar, ita ut plus non declarent, quam per locum transire, siquidem corpus moveatur. Hinc est, quod nunnulli Philosophi hanc distinctionem negligentes admodum perversas sibi notiones de motu finxerint; dum enim motum per succissivam eiusdem corporis in diversis locis existentiam explicant, in singulis locis ipsi quandam moram tribuunt, unde subito in loca sequentia transeat. Si hac definitione incommodum, quod ex existentia sine mora in eadem loco pertimescunt, vitare volunt, saltus illos subitaneos certe multo magis pertimescere debebant; dum enim talis saltus sit, dicere non poterunt, ubi tum corpus existat; ac, si huic opinioni ulla ratio subesset, expediret potius omnem motum negare, quam huiusmodi principia naturam motusevertentia constituere.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 42
+
+PROBLEMA 2
+
+47. Si punctum in linea curva moveatur, quae autem tota sita sit in eodem plano, universam motus determinationem ad calculum revocare per binas coordinatas.
+
+SOLUTIO
+
+Quoniam id corpus, cuius respectu motus aestimatur, ut fixum spectatur, planum quoque, in quo spatium percursum est situm, pro fixo est habendum. In eo autem pro libitu duae rectae directrices OA et OB inter se sive normals sive oblique, accipiantur, ad quos motus referatur (Fig. 3), sitque ESF via seu spatium a puncto moto descriptum, in cuius puncto E initio fuerit. Iam tota quaestio huc redit, ut elapso tempore t locus in curva S definiatur, ubi tum punctum sit futurum. Ponatur totum spatium interea per cursum seu linea ES = s et ex S binis directricibus OA, OB parallelae agantur SY et SZ vocenturque coordinatae OX = SY = x, XS = OY = y; atque, si pro tempore t valores ipsarum x et y assignari queant, simul punctum S innotescet; quin etiam relatione inter x et y natura curvae ESF exprimetur. Tum vero ex angulo directricium AOB, qui sit =  , habebitur pro elemento temporis dt
+
+elementum spatii
+
+Ss = ds = (dx2 + 2dxdy cos + dy2 ) ,
+
+unde
+
+prodit
+
+celeritas
+
+in
+
+loco
+
+S
+
+=
+
+ds dt
+
+et
+
+pro
+
+motus
+
+directione
+
+reperitur
+
+angulus,
+
+quem
+
+ea
+
+cum altera directione OA facit, cuius anguli tangens est
+
+=
+
+dy sin dx+dy cos
+
+et sinus
+
+=
+
+dy sin ds
+
+.
+
+Vel si angulus quaeratur, quem motus direction Ss cum altera directione OB facit erit eius
+
+tangens
+
+=
+
+dx sin dy+dx cos
+
+et sinus
+
+=
+
+dx sin ds
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 43
+
+COROLLARIUM 1
+
+48. Ut locus curvae S per coordinates OX = x et XY = y determinatur, ita locus sequens s per earum elementa dx et dy definitur; scilicet punctum ex S egressum tempusculo dt secundum directionem OA per spatiolum dx, secundum directionem OB vero per spatiolum dy tranfertur.
+
+COROLLARIUM 2
+
+49. Duplex ergo haec translation per spatiola dx et dy veram translationem ex S in s per spatiolum Ss = ds ita ostendit, ut tam eius quantitatem ipsam quam directionem declaret.
+
+COROLLARIUM 3
+
+50. Sin autem mobile tempusculo dt spatiola dx et dy revera percurreret, eius celeritas
+
+future esset
+
+dx dt
+
+et
+
+dy dt
+
+; ex quibus celeritatibus mente conceptis non solum vera celeritas
+
+per spatiolum Ss = ds, set etiam huius direction indicator.
+
+COROLLARIUM 4
+
+51. Si inter binas directrices OA et OB angulus AOB =  constituatur rectus, calculus sit
+
+simplicissimus. Tum enim ex elementis dx et dy definitur ds = (dx2 + dy2 ) , et
+
+directionis Ss ad rectam fixam OA inclinationis tangens est =
+
+dy dx
+
+.
+
+SCHOLION 1
+
+52. Geometrica plane est haec consideratio, qua motus puncti, dum tempusculo dt
+
+spatiolum Ss = ds peragrat, resolvi concipitur in binos motus secundum directions fixas
+
+OA et OB, quippe qua in ipso motu nihil mutatur. Atque dum huic duplici motui sua
+
+assignatur celeritas
+
+dx dt
+
+et
+
+dy dt
+
+, hoc commodi inde consequimur, ut non solum veram
+
+celeritatem
+
+ds dt
+
+, sed etiam motus directionem cognoscamus, id quod in calculo plerumque
+
+maximum usum praestabit. Cum enim celeritas ac direction sint duae res natura sua
+
+diversae, ambas hoc modo per duas celeritates seu quantitates eiusdem generis
+
+cognoscere licet. Mente autem tantum motum puncti, pro quovis temporis elemento dt, in
+
+binos motus secundum datas directiones resolvimus et utrique suam velocitatem
+
+assignamus: non quasi in puncto duplex inesset motus , quod sane esset absonum, sed
+
+quoniam talis conceptus ad veram cognitionem perducit. Hoc subsidio uti licet, quando
+
+iam aliunde certum est motum puncti in eodem fieri plano; at si de hoc non constet, ad
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 44
+
+ternas directrices fixas recurrere debemus, secundum quas motum in ternos motus resolve convenient.
+
+SCHOLION 2
+
+53. Evolutio haec motus in plano facti usitata nititur ratione lineas curvas ad binas
+
+directions fixas, quibus coordinatae parallelae statuuntur, revocandi. Cum autem electio
+
+harum rectarum directricium ab arbitrio nostro pendeat, manifestum est eundem motum
+
+infinitis modis calculo exprimi posse, qui cum omnes, pro quovis tempore, tam eandem
+
+celeritatem quam directionem monstrare debeant, motus etiam resolution est arbitraria.
+
+Motus scilicet puncti, quo tempusculo dt spatiolum Ss = ds percurrit, infinitis modis,
+
+mente saltem, in binos motus resolve potest, prout aliae atque aliae lineae pro
+
+directricibus assumuntur, qui vero simper in hoc convenient, ut binae illae celeritates
+
+dx dt
+
+et
+
+dy dt
+
+, utcunque fuerint diversae, si iunctim sumantur, eandem simper tam
+
+celeritatem veram
+
+ds dt
+
+quam directionem seu positionem tangentis in S ductae sint
+
+ostensurae. Quae infinita varietas, quoniam a Geometria inducitur, nihil habet, quod sit
+
+mirandum; interim tamen quovis casu oblato plurimum interest, qua ratione rectae illae
+
+directrices eligantur, quo calculus maxime facilis reddatur.
+
+PROBLEMA 3
+54. Si spatium a puncto descriptum non sit in eodem plano, universam motus determinationem per ternas coordinates ad calculum revocare.
+SOLUTIO
+Corpus, cuius respectu motus aestimatur et quod pro fixo habetur, suppeditabit ternas directiones fixas, in longum, latum ac profundum extensas, quarum electio cum arbitrio nostro relinquatur, statuuntur eae ad calculi commodum inter se normals. Sint igitur OA, OB, et OC hae tres directrices, quarum binae priores in plano tabulae sint sitae, postrema vero OC huic plano perpendiculariter insistens concipiatur (Fig. 4). Punctum autem motum confecerit lineam ESF extra planum tabulae utcunque sitam, in qua elapso tempore t ex E pervenerit in S, unde ad planum AOB demittatur perpendiculum SY, et ex Y ad OA normalis YX. Vocentur hae coordinatae orthogonales OX = x, XY = y et YS = z, quae ternis directricibus erunt parallelae; inter quas per duplicem aequationem natura curvae ESF definitur, ita ut, si ad tempus t eorum valores assignari queant, iis locus S, ubi nunc punctum motum versatur, determinatur. Deinde posito toto spatio ES = s, quod tempore t est percursum, ex differentialibus dx, dy et dz,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 45
+
+tempusculo dt convenientibus, colligetur elementud spatii Ss = ds eodem tempusculo percursum, cum sit
+
+ds = (dx2 + dy2 + dz2 ) ,
+
+unde celeritas in S erit =
+
+ds dt
+
+.
+
+Quod
+
+autem
+
+ad
+
+directionem
+
+motus
+
+Ss
+
+attinet,
+
+ea
+
+indidem
+
+determinatur : producta enim recta yY ad concursum usque T cum recta AO, erit
+
+XT
+
+=
+
+ydx dy
+
+,
+
+et
+
+si
+
+concipiatur
+
+planum
+
+super
+
+YT
+
+plano
+
+AOB
+
+normaliter
+
+insistens,
+
+in
+
+eo
+
+erit
+
+elementum Ss, quod productum cum recta YT angulum faciet, cuius tangens est =
+
+= dz et sinus = dz . Quin etiam direction Ss cum recta per S ipsi OA parallela
+
+(dx2 +dy 2 )
+
+ds
+
+ducta faciet angulum, cuius consinus =
+
+dx ds
+
+, cum recta autem per S ipsi OB parallela ducta
+
+angulum, cuius cosinus = dy , et cum recta per S ipsi OC parallela ducta angulum, cuius
+ds
+
+cosinus est = dz ; quibus rebus universa motus determinatio continetur.
+ds
+
+COROLLARIUM 1
+
+55. Hic ergo elementum spatii Ss tanquam diagonalis parallelepipidi consideratur, cuius latera sunt dx, dy et dz, ternis directricibus fixis OA, OB et OC parallela; ex quibus, cum parallelepipedum statuatur rectangulum, diagonalis Ss = ds ita definitur, ut sit
+ds = (dx2 + dy2 + dz2 ) .
+COROLLARIUM 2
+
+56. Dum mobile tempusculo dt elementum Ss percurrit, interea secundum directionem ipsi OA parallelam per spatiolum dx, secundum directionem ipsi OB parallelam per spatiolum dy et secundum directionem ipsi OC parallelam per spatiolum dz progredi concipi solet.
+
+COROLLARIUM 3
+
+57. Si haec triplex translatio ut verus motus spectetur, etiamsi tantum mente concipiatur,
+
+exprimet
+
+dx dt
+
+celeritatem secundum directionem OA, porro
+
+dy dt
+
+celeritatem secundum
+
+directionem OB atque
+
+dz dt
+
+celeritatem secundun directionem OC.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 46
+
+COROLLARIUM 4
+
+58. Ex his tribus autem celeritatibus fictitiis non solum vera puncti celeritas in S, quae est
+
+=
+
+ds dt
+
+,
+
+colligitur,
+
+sed
+
+etiam
+
+motus
+
+directio;
+
+atque
+
+adeo
+
+ex
+
+earum
+
+integralibus
+
+totus
+
+motus
+
+definitur.
+
+SCHOLION 1
+
+59. Calculi gratia hic ternas directrices OA, OB et OC inter se normals constitui; quae etiam, ut praecedente casu fecimus, utcunque obliquae assumi potuissent; verum indoles angulorum solidorum obliquorum non tam nota plerisque esse solet, ut eorum proprietates tanquam ex elementis satis cognitae hic assumi potuissent. Quin potius, quoniam imprimis calculi prolixitas est evitanda, merito simper directricibus orthogonalibus utemur. Interim tamen, si eae essent obliquae angulique ponantur AOB =  , AOC =  et BOC =  ,atque iis coordinatae x, y, z parallelae ducantur,
+haberetur per formulam utique magis complicatam :
+
+ds = (dx2 + dy2 + dz2 + 2dxdy cos + 2dxdz cos + 2dydz cos )
+
+atque positio elementi Ss seu motus directio nimis incommode exprimeretur.
+
+SCHOLION 1
+
+60. Quoniam constitution ternarum directricium OA, OB, OC, etsi inter se normalium, infinitis modis variari potest, idem motus infinitis modis repraesentari potest. Quin etiam, si punctum moveatur in linea recta vel curva, tota in eodem plano existente, quasi hoc non constaret, motus nihilo minus per huiusmodi ternas directrices expediri poterit; praestabit tamen methodis simplicioribus supra traditis uti. Ex his ergo patet eundem motum semper infinitis modis in ternos resolve posse, quorum cuique sua tribuatur celeritas, ita ut omnes iunctim sumtae non solum ipsam puncti celeritatem, sed etiam motus directionem exhibeant, id quod in calculo summum praestabit usum, quoniam hoc modo a pluribus investigationibus satis taediosis circa curvaturam spatii descripti, eamque duplicem, nisi motus in eodem plano fiat, liberamur. Hae enim ternae celeritates, mente saltem puncto mobile tribuatae, totum negotium expedient; quo subsidio cum non sim usus in superioribus de Mechanica libris, in nimis intricatos calculus sum delapsus. Quare cum haec motus resolutio, etsi mente solum instituatur, tanti sit momenti, operae pretium erit eam per peculiarem definitionem stabilivisse.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 47
+
+DEFINITIO 8
+
+61. Motus resolvi dicitur, dum spatiolum elemento temporis percursum tanquam diagonalis parallelogrammi vel parallelepipidi consideratur, cuius latera datas tenent directions; punctoque mobile duplex vel triplex motus, secundum latera parallelogrammi vel parallelepipidi, quisque cum sua velocitate, adscribatur.
+
+SCHOLION 1
+62. Quae hic de motu quasi elementari per spatiolum infinite parvum dicuntur, tranferri possunt ad motum finitum, dum sit aequabilis et rectilineus; propterea, quod ea ideo motui elementari sint adstricta, quoniam quodque elementum lineae curvae ut lineola recta et motus per id aequabilis spectari potest. Quo igitur haec magis fiant sensibilia, ea in motu finitio aequabili et rectilineo explicabo, siquidem hinc applicatio ad motum elementarem facillime instituitur.
+
+EXPLICATIO 1
+
+63. Ponamus punctum temporum = t percurrere motu
+
+aequabili rectam SV (Fig. 5), ut eius celeritas sit = SV , et
+t
+
+concipiamus circa SV parallelogrammum quodcunque
+
+SAVB descriptum, cuius recta SV sit diagonalis. Quo
+
+facto motus secundum latera SA et SB ita mente resolve
+
+potest, ut illius celeritas sit =
+
+SA t
+
+et
+
+huius
+
+=
+
+SB t
+
+,
+
+utroque
+
+scilicet
+
+aequabili
+
+existente;
+
+atque
+
+existente ; atque hic duplex motus cum his celeritatibus lateribus non solum veram
+
+celeritatem SV , sed etiam veram motus directionem indicabit; sicque ad cognitionem
+t
+
+huius motus sufficiet binas illas celeritates laterales definivisse. Neque vero huiusmodi
+
+resolutio mechanico fundamento inniti est existimanda; cum potius certum sit plus uno
+
+motu simul in eodem puncto inesse non posse, sed ea ex mero conceptu geometrico nata
+
+atque a natura motus plane aliena est iudicanda, in subsidium tantum calculi in
+
+Mechanicam introducta.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 48
+
+EXPLICATIO 2
+
+64. Percurrat mobile tempore t motu aequabili rectam
+
+SV, quem motum secundum ternas directions resolvi
+
+oporteat (Fig. 6). His agantur ex utroque termino S et V
+
+rectae parallelae SA, SB, SC atque VP, VQ, VR, quoad
+
+quaeque plano binarum reliquarum directionum ad
+
+alterum terminum constitutarum occurat. Hoc modo
+
+orietur parallelepipedum, cuius SV est diagonalis, atque
+
+motus per SV, cuius celeritas est = SV , ita mente in tres
+t
+
+motus secundum SA, SB, SC resolve potest, ut motus secundum SA celeritas = SA , motus
+t
+
+secundum SB celeritas = SB et motus secundum SC celeritas
+t
+
+=
+
+SC t
+
+.
+
+Ex
+
+his
+
+tribus
+
+celeritatibus
+
+non
+
+solum
+
+vera
+
+celeritas
+
+per
+
+diagonalem
+
+SV
+
+determinabitur, sed etiam motus direction ratione ternarum directricium innotescit.
+
+Eodem vero modo, si SV sit elementum curvae cuiusqunque tempusculo dt percursum,
+
+resolutio in ternas celeritas secundum ternas quascunque directions institui potest.
+
+SCHOLION 2
+
+63. In his motus determinationibus secutus sum usitatam in Geometria methodum naturam linearum curvarum per binas vel ternas coordinates exprimendi : illud scilicet, quando curva tota in eodem plano est sita, hoc vero, ubi eodem plano contineri nequit. Quae methodus uti primum se obtulit, ita nos manuduxit ad insignem illam motus resolutionem secundum datas vel duas vel tres directions instituendam, quae per universam Mechanicam amplissimi erit usus, dum cognitio celeritatum lateralium simul motus directionem atque inflexionem in se complectitur, cuius consideration calculum alioquin non mediocriter perturbare solet. Verum cum in Geometria etiam saepe lineae curvae ad punctum aliquod fixum non sine egregio calculi compredio referentur, eodem modo quoque motus evolutionem exposuisse iuvabit, idque cum motus non solum in eodem sit plano, se etiam extra planum vagatur; hoc quippe modo Astronomi feliciter uti solent, dum motus planetarum respectu alicuius puncti per angulos circa id descriptos distantiasque ab eodem definiunt, ubi, si motus non fiat in eodem plano, insuper lineam nodorum cum inclinatione orbitae ad certum planum contemplantur; quare haud abs re erit etiam hanc motus repraesentandi rationem paucis in genere explicare.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 49
+
+PROBLEMA 4
+
+66. Si motus fiat in eodem plano, universam motus determinationem per angulos circa punctum quoddam fixum absolutos describere.
+
+SOLUTIO
+
+Si AS (Fig.7) sit via a puncto moto in eodem plani descripta, in eodem accipiatur punctum fixum O, quod ad motus determinationem maxime accommodatum videatur, ductaque ad motus initium A recta OA motus perfecte cognoscetur, si ad quodvis tempus elapsum = t, quo punctum in S versatur, definire poterimus tam angulum AOS =  quam distantiam OS = z. Cum enim inde natura
+curvae AS definiatur, tum etiam differentialia tam motus celeritatem quam eius directionem determinabunt. Si enim punctum tempulsculo dt ex S pervenerit in s, quo angulos AOS =  cepit incrementum SOs = d et distantia OS = z incrementum sp = dz, posito
+semper sinu toto = 1 erit
+Sp = zd et Ss = (dz2 + zzd 2 ) ,
+unde celeritas in S
+
+= (dz 2 + zzd 2 )
+dt
+
+et direction cognoscetur ex angulo ASO seu Ssp, cuius tangens est =
+
+zd dz
+
+.
+
+COROLLARIUM 1
+
+67. Cum punctum motum tempore = t circa O angulum descripserit AOS et ab eodem puncto O iam intervallo OS = z distet, eius motus tanquam duplex spectari potest, alter angularis circa punctum fixum O, alter directus ab eodem puncto rededens vel eo accedens.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 50
+
+COROLLARIUM 2
+
+68.
+
+Et cum tempusculo dt angulus AOS =
+
+
+
+crescat elemento
+
+d , fractio
+
+d dt
+
+celeritatem
+
+angularem exprimet, tum vero ob dz augmentum distantiae OS = z fractio
+
+dz dt
+
+celeritatum
+
+recessus a puncto O declarabit.
+
+COROLLARIUM 3
+
+69. Cognita autem utraque hac celeritate tam angulari quam recessus inde non solum vera puncti celeritas, sed etiam direction, tum vero insuper ipsa curva descripta AS assignari poterit.
+
+PROBLEMA 5
+70. Si punctum non in eodem plano moveatur, eius motum cum ad planum tum ad datum in eo punctum fixum per angulos exprimere.
+
+SOLUTIO
+
+Repraesentet tabula id planum, ad quod motus sit referendus (Fig.8), in quo sit O punctum illud fixum, quod quasi centrum spectetur. Moveatur punctum utcunque extra hoc planum in linea ES, et tempore elapso t pervenerit in S, unde in planum demittatur perpendiculum SM ducanturque rectae MO et SO. Sit OA directio fixa in hoc plano assumta, atque manifestum est ad datum tempus t locum puncti S definitum iri, si assignare poterimus 1o angulum AOM =  , 2o angulum MOS =  ac 3o
+distantiam OM = z. Quod quo facilius fieri possit, ducatur ex S tangens curvae descriptae, quae plano occurrat in T; unde agatur OT, quae erit intersectio plani, in quo punctum iam movetur, cum plano assumto. Vocarique solet haec recta OT linea nodorum, pro qua sit hoc tempore angulos AOT =  et inclinatio plani OST ad planum assumtum =  , qui duo anguli ,  si fuerint praeter angulum AOM =  et distantium
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 51
+
+OM = z ad datum tempus t cogniti, locus puncti S, hoc est angulus MOS =  cum
+
+distantia
+
+OS
+
+=
+
+z cos
+
+,
+
+commode
+
+assignari
+
+poterit.
+
+Hunc
+
+in
+
+finem ex
+
+M
+
+in
+
+rectam
+
+OT
+
+ducatur normalis MN simulque recta SN; atque ob angulum TOM =  -  erit
+
+MN = z sin( - ) et ON = z cos( - ) ; tum vero habebitur angulus MNS =  , unde fit
+
+MS
+
+=
+
+z
+
+sin(
+
+- )tang
+
+
+
+et
+
+NS
+
+=
+
+z
+
+sin( -) cos 
+
+,
+
+hincque
+
+OS
+
+=
+
+z cos 
+
+(sin( - )2 + cos( - )2 cos  2 )
+
+seu
+
+OS
+
+=
+
+z cos 
+
+(1- cos( - )2 sin  2 ).
+
+Verum hinc angulus MOS =  ita definitur, ut sit
+
+tang
+
+=
+
+MS OM
+
+= sin( - )tang .
+
+Cum igitur angulus AOT =  cum inclinatione =  aeque ad punctum sequens s, ubi
+
+punctum elapso insuper tempusculo dt haeret, atque ad punctum S pertineat, in differentiatione anguli  elementa et  pro constantibus habere licet, unde sit
+
+d cos 2
+
+=
+
+d cos( - )tang
+
+;
+
+erit vero etiam secundum praecepta differentiationis
+
+d cos 2
+
+= (d - d) cos(
+
+- )tang 
+
++
+
+d cos  2
+
+sin( - ),
+
+quibus valoribus aequatis oritur
+
+d tang ( -)
+
+=
+
+d sin  cos 
+
+=
+
+d .l
+
+tang
+
+
+
+,
+
+qua aequatione ratio inter progressionem momentaneam lineae nodorum OT et variationem inclinationis  continetur. Invento autem angulo MOS =  per formulam
+
+tang
+
+=
+
+sin( -) tang
+
+,
+
+inde
+
+innotescit
+
+distantia
+
+OS
+
+=
+
+z cos
+
+.
+
+COROLLARIUM 1
+
+71. Quoniam anguli et  ita se invicem pendent, ut sit
+
+d tang ( -)
+
+=
+
+d sin  cos
+
+
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter one.
+
+Translated and annotated by Ian Bruce.
+
+page 52
+
+patet, si angulus AOT =  maneat idem, etiam inclinationem  perpetuo eandem fore;
+tum ergo motus puncti fiet in eodem plano. Criterium ergo motus in eodem plano per punctum fixum O transeunte facti in hoc consistit, ut anguli  et  sint constants.
+
+COROLLARIUM 2
+72. Dum punctum mobile transit per planum assumtum, versabitur in ipsa linea nodorum OT eritque tang ( - ) = 0 , unde, utcunque inclination  varietur, erit d = 0 seu linea nodorum quiescent.
+COROLLARIUM 3
+73. Sin autem angulus TOM =  -  fuerit rectus, ob tang ( - ) =  , utcunque linea nodorum moveatur, erit d = 0 seu inclination per tempusculum dt non mutabitur.
+
+SCHOLION
+
+74. Si hoc modo elementum spatii Ss exprimere indeque celeritatem motus definire
+
+velimus, formula nimis fit complexa, quod etiam in directione usu venit. Alio igitur modo
+
+calculus institui potest, ut huic incommode occurratur : ad datum scilicet tempus quaeratur primo posito lineae nodorum OT seu angulus AOT =  , tum vero inclination MNS =  , deinde in ipso plano TOS, in quo iam punctum moveri concipitur, angulos
+
+TOS =  una cum distantia OS = v. Quibus positis habebitur ON = v cos , SN = v sin , hinc
+SM = v sin sin  et MN = v sin cos .
+
+Ex his angulus SOM = colligitur, nempe sin = sin sin . Porro ob
+
+tang TOM = tang  cos  , quia angulus TOM ante erat  -  , hic differentialia d et
+
+d ita a se invicem pendent, ut sit
+
+d tang  cos 
+
+=
+
+d sin  cos 
+
+seu
+
+d
+
+=
+
+d tang  sin 
+
+.
+
+Postea vero hinc colligitur elementum spatii Ss = (dv2 + vvd 2 ) ideoque celeritas ipsa
+
+=1
+dt
+
+(dv2 + vvd 2 );
+
+verum directio motus Ss in plano TOS ita ad rectam OS inclinatur, ut sit anguli OST
+
+tangens
+
+=
+
+vd dv
+
+. In Astronomia autem, ubi haec evolutio potissimum adhibetur, angulus
+
+TOS vocari solet argumentum latitudinis et angulus SOM latitudo; tum vero adiecto
+
+angulo TOM, cuius tangens = tang  cos  , ad longitudinem nodi AOT =  summa seu
+
+angulus AOM vocatur longitudo.
+
+

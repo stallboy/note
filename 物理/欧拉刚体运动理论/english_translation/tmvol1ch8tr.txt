@@ -1,0 +1,1051 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 501
+
+Chapter 8
+
+CONCERNING FREE AXES, AND THE MOTION OF RIGID BODIES ABOUT SUCH AXES
+DEFINITION 11
+572. A free axis of rotation in some rigid body is an axis of the kind which, while the body is rotating about this, sustains no forces on account of the motion.
+COROLLARY 1
+573. Therefore if a body begins to rotate about a free axis, the axis spontaneously remains at rest and no external effort is required so that this axis remains in its own position; which indeed must be understood, if the body is acted on by no forces.
+COROLLARY 2
+574. Hence a body which is the subject of no forces, if it undertakes some rotary motion about such a free axis, will go on rotating uniformly with this motion, and in the same manner as if the axis were fixed.
+SCHOLIUM
+575. Behold therefore another case of free motion falling upon rigid bodies, the explanation of which is evident. Clearly the first case was one in which we saw a body being carried forwards freely by its motion, but, if forces were acting passing through the centre of inertia of this, then we could define the disturbance of the motion. Again, when I showed a body, for which the rotational motion was impressed about a fixed axis, the same motion was perpetually conserved, while that fixed axis was retained, now it is clear, if this axis should be arranged so that the forces it sustains should mutually destroy each other, then that axis spontaneously remains without motion and the rotational motion of the body will continue indefinitely, which therefore is a case of free motion ; where indeed there is in doubt, whether or not such forces of this kind may be given also, while the rotational motion is either accelerated or decelerated, which do not affect the axis, and thus as up this stage remains at rest, concerning which we will treat henceforth. But before all else it is necessary that we should examine, for some body, whether such free axes of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 502
+
+gyration can be given or not, and how these are to be found. In which investigation these axes bear the greatest usefulness which we have examined above, concerned with the three principal axes, which likewise clearly can be considered as free axes of rotation.
+
+PROBLEM 51
+576. To define the conditions for free axes, which, while bodies are rotating about these, are acted upon by no forces, and sustain no forces.
+
+SOLUTION
+This question is resolved easily by problem 7 § 338. For in general, if a body is rotating about some axis OA with an angular speed equal to  (Fig. 32) and with some element of the body dM placed at Z, the orthogonal coordinates OX = x, XY = y, YZ = z, of which the first x is taken for the axis of rotation itself, we have observed the axis to sustain two forces from this motion along Ee and Ff, which are :
+
+force
+
+Ee
+
+=
+
+ 2g
+
+
+
+ydM
+
+and the force Ff
+
+=
+
+ 2g
+
+
+
+zdM
+
+,
+
+which are applied at the points E and F, in order that
+
+OE
+
+=
+
+ xydM  ydM
+
+and Of
+
+=  xzdM
+ zdM
+
+.
+
+Whereby, since here the axis of rotation is free OA, in the first place it is necessary that, as both these forces Ee and Ff separately vanish, and thus it is
+
+required that both  ydM = 0 and  zdM = 0 , from which it is apparent that the
+
+axis OA must pass through the centre of inertia I of the body, since on putting the mass of the body equal to M then
+
+ ydM = M GK and  zdM = M  KI .
+
+Hence this is the first condition of the free axis or rotation, that it passes through the centre of inertia I of the body; now, even if these two forces vanish, yet
+
+because the distances OE and OF become infinite, the moments of these about the point O produce turning about the axis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 503
+
+ 2g
+
+
+
+xydM
+
+and
+
+ 2g
+
+
+
+xzdM
+
+,
+
+which unless they also vanish, the axis cannot remain spontaneously at rest. On account of which, in order that the axis of rotation OA shall be free, it is not
+
+sufficient, that these pass through the centre of inertia I, but in addition this aforementioned property must be satisfied, so that from this there is made both
+
+ xydM = 0 as well as  xzdM = 0. Because this is a property of the principal
+
+axes demonstrated above, about which axes the moments of inertia are either a
+
+maximum or minimum, it is evident that the principal axes of this body, about finding which we have instructed above, likewise are the axes of free rotations.
+
+COROLLARY 1
+577. Therefore in any given body there are surely three free given axes of rotation, which evidently are the principal axes of this body, about which it is now possible to rotate freely, so that the axes spontaneously remain at rest.
+
+COROLLARY 2
+578. If the three principal axes should be unequal amongst themselves, there are still three free axis of gyration given; and the body cannot rotate about any other axis, even if it passes through the centre of mass, without the help of external forces holding the axis in place.
+
+COROLLARY 3
+579. But if the middle moment of inertia is equal to either the maximum or minimum moment of inertia, then two principal axes are not determined, but all pairs by enjoying the property of being normal to the third axis, likewise are axis of free rotation.
+
+COROLLARY 4
+580. But if all three principal moments of inertia were equal to each other, as in the case of the sphere and the cube, clearly all the lines passing through the centre of inertia have the property of being principal axes, and the body is able to rotate freely about these.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 504
+
+SCHOLIUM
+581. Therefore concerning the principal axes of all the bodies we have treated above, which not only have a use in finding the maximum moment of inertia, but also in the present investigation they accomplish the whole business, since in whatever body the principal axes and these alone are the axes of free rotation, about which the body is thus able to rotate, and these shall be retained at rest without the help of an external force. Therefore just as in any rigid body the centre of inertia is the point most notable, the reason for this in the whole of mechanics is widely apparent, thus the principal axes, which likewise are the axes of free rotation, are no less worthy of note in any body, since the whole theory of the motion of free bodies depends on these. Hence the mechanical properties between these principal axes of bodies are obtained after the particular position of the centre of inertia and in some body, it is undertaken to examine the motion of this, in that it will be chiefly by striving so that the principal axis of this can be sought. Clearly there are three [kinds of] properties known for bodies, in the first place those which are geometrical, from which the dimensions of the body are measured, secondly mechanical properties, from which the mass or inertia is observed, and thirdly, the physical properties, from which the rest of the qualities are evaluated ; therefore mechanical knowledge is considered to be held chiefly by knowing the centre of inertia and the principal axes.
+PROBLEMA 52
+582. While a body is moving around an axis of rotation, to find from whatever forces the body must be acted on, as thus there is no overwhelming effect on the axis, and the axis even now remains spontaneously in a state of rest.
+SOLUTION
+Whatever rotational motion around a principal or free axis should be untaken, we have seen the manner in which this motion always is going to be conserved and the axis spontaneously remains in a state of rest, since the forces arising from the motion mutually cancel each other out completely. Hence now we may see, how the forces acting must be compared, so that the axis is not affected by these, which is easily seen to be the case from problem 17. But in the first place forces acting at an angle must be clearly excluded, thus by resolution forces parallel to the axis might arise, evidently which cannot be removed by elementary forces. Hence there are left the forces which we have shown to be directed in planes normal to the axis; but we have shown thus that the axis is not affected by forces of this kind, as in the first place each sustains
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 505
+
+the same forces transferred to the axis in their own plane, then indeed the above
+
+forces from the opposite elements equally are transferred to the axis. But since
+
+on account of the principal axis, it follows that
+
+ xydM = 0
+
+ xzdM = 0,
+
+ (a - x) ydM = 0 and
+
+ (a - x) zdM = 0,
+
+and thus the forces arising from the elements, which are applied in problem 17
+
+to the points O and A, vanish ; thus the axis only sustains forces acting
+
+transferred to the axis. Whereby these forces acting must thus be compared, in
+
+order that, if the individual forces are applied in planes normal to the axis along
+
+their directions, then they must mutually destroy each other. Therefore also two
+
+equal and opposite forces must be furnished applied to the body in the same
+
+plane normal to this axis, in order that the axis clearly experiences no force from
+
+these. It is evident, if IA were a free axis of rotation and to that at some point L
+
+there is considered a normal plane (Fig.
+
+74), at which there act two equal and
+
+opposite forces Nn and Mm, indeed from
+
+these the rotational motion, in as much as
+
+the forces are applied at different distances
+
+from the axis, will change, but
+
+nevertheless the axis spontaneously
+
+remains at rest. Consequently, however
+
+many equal pairs of forces of this kind are
+
+applied to the body, the axis in no manner is to be affected.
+
+COROLLARY 1
+
+583. Hence with some proposed force vi Nn, the direction of this is in a plane normal to the axis, which cuts the axis at the point L, if in addition at the point L there is applied an equal and opposite force Ll to the axis, from these two forces no force is sustained by the axis.
+
+COROLLARY 2
+584. But if the body is acted on by the two forces Nn and Ll, the axis therefore remains at rest and only the rotary motion is disturbed by the moments of these. But since the force Ll has no moment, the change in the motion from the moment of the force alone Nn has to be defined.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 506
+
+COROLLARIUM 3
+
+585. Whereby, if the angular speed is equal to , the moment of the force
+
+Nn = Vf and the moment of inertia of the body about the axis IA is equal to
+
+Mkk, then
+
+d
+
+=
+
+±
+
+2Vfgdt Mkk
+
+for an element of time dt; where the ambiguity of the sign indicates either
+
+acceleration or deceleration.
+
+SCHOLIUM
+586. Therefore when a rigid body is rotating about some of its principal axes and likewise is acted on by a number of forces of some kind, of which with the individual forces themselves have to be applied in equal and opposite pairs, we are able to assign a continuation of the motion, because the axis spontaneously remains at rest and equally the motion is changed, and if the axis is held in place securely, as we have now explained in the above case. Truly this determination is restricted to that account of the forces acting, and it appears unimportant at this stage, other forces are to be producing an effect of this kind ; indeed with this anyhow it is understood that the axis is not to be remaining at rest ; now whether the simple progressive motion shall be obtained, or it shall progress by changing direction, is not yet resolved. Yet meanwhile the simple case is examined, as we are able to undertake the study of this, this is thus the case in which the axis is impressed by a progressive motion and in which the axis remains at rest. For it is to be observed, if it is joined together with any uniform and progressive linear motion, the action of the forces disturbs minimally, which principal we may be able to apply at present.
+THEOREM 4
+587. Which rotational motion a rigid body pursues about an axis at rest, it is able to pursue the same motion about this axis progressing uniformly along a line, if indeed it should be acted on by these forces.
+
+DEMONSTRATION
+While the axis remains at rest and the body in some manner is rotating around that, the motion of the individual elements are resolved along three directrices, the parallel coordinates of which x, y, z are put in place, and on putting the element of time equal to dt the speeds along these lengths will be :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 507
+
+dx dy dz ,,
+dt dt dt
+and
+
+ddx , ddy , ddz dt dt dt
+
+show the effect of the forces acting on the body, as long as the individual
+
+elements are affected by these. Now we attribute a progressive motion to the
+
+above body, by which it is carried forwards in a motion parallel to the axis with
+
+a uniform motion with a speed c, to which the x coordinates are taken parallel,
+
+and now the speeds of the individual elements will be :
+
+c + dx , dy , and
+
+dz ,
+
+dt dt
+
+dt
+
+the differential of which do not disagree with the proceeding; and thus the
+
+rotational motion about a progressing axis is obtained likewise, and as if the axis
+
+should be at rest; and the forces, if which should be exerting an influence,
+
+equally disturb the motion, whether the axis is at rest, or progressing uniformly
+
+along a direction.
+
+COROLLARY 1
+588. Therefore if, while the body is rotating about some axis, a progressive motion is attributed to the body and it is not acted on by other forces, then it will continue each motion uniformly.
+
+COROLLARY 2
+589. And if meanwhile the body is acted on by forces of this kind, in which only the rotational motion is changed, then the axis is not affected, also the change in the rotational motion is experienced, but the progressive motion remains uniform in a straight line.
+
+COROLLARY 3
+590. But if meanwhile the body is acted on by a force, the direction of which passes through the centre of inertia, the progressive motion only is affected by that. For, because from this force neither any moment arises about the axis of rotation nor is the axis disturbed from its own situation parallel to itself, no change in the rotational motion is undergone.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 508
+
+SCHOLIUM
+591. The truth of this theorem has been established sufficiently well, also by that which has been shown above concerning absolute and relative motion, when the body to which the motion is referred is progressing uniformly along a direction. Since indeed the body, should it take that rotational motion about a certain principal axis, thus always preserves this motion so that the axis spontaneously remains at rest; likewise this eventuates by necessity if the body is turning uniformly in a space, and with the direction taken at rest with respect to the axis. Then indeed the same result is returned, as if the body is progressing uniformly in a direction and at the same time it is uniformly rotating about a principal axis, which keeps the same position parallel to that axis. From which it can be considered thus, as if the body should be present with two motions, the one rotational, by which the body rotates about a principal axis, and the other now progressive, by which the axis thus is not changed from the direction of motion of the body, so that the axis is always maintained parallel to the motion of the body. And hence it is understood also from the forces defined above, that if the motion is required likewise to be accelerated or decelerated, and if the axis remains at rest, likewise the forces which have been shown to affect the progressive motion alone, change nothing whatsoever in the rotational motion, thus, in order that each motion by itself is able to be considered, as if it should be present alone. Therefore these cases, in which the conspicuous case of the free motion of rigid bodies is contained, generally are noteworthy, so that they are to be discussed with care.
+DEFINITION 11a
+592. Mixed motion with both progressive and rotational motion, that is, in which the above body is thus moving partially around some principal or free axis, and now partially thus as above, in order that its axis always remains parallel to itself.
+COROLLARY 1
+593. Therefore in order that such a mixed motion may be known, it is required to know at some time : 1. The angular speed around the axis of rotation; 2. The speed with which the motion of the axis is moving forwards; and 3. The direction of this progressive motion, in what way it is inclined to the axis of rotation.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 509
+
+COROLLARY 2
+
+594. Again the angular speed is reckoned in the same way, as if the axis were at rest ; but the speed and direction of the progressive motion must be judged either from the motion of the axis of rotation, or from the motion of the centre of inertia.
+
+EXPLANATION
+
+595. This idea of mixed motion has been put together from each of the ideas of progressive motion and rotational motion, thus comes about, as neither shall be contained in that motion purely and perfectly. For since we must thus define progressive motion, so that all the lines in the body it is allowed to consider, always remain parallel to each other, this property prevails the least in mixed motion, since it is only connected with the axis of gyration; meanwhile it is yet evident, if the rotational motion is taken away or vanishes, perfect progressive motion will be left. In a like manner the definition of the rotational motion given above is restricted to a fixed axis or one at rest, but now it is extended to a moving axis, which translation is corroborated by the idea of an interval moved, provided, as we have assumed here, the axis always remains parallel to itself. Also it is evident, if the other progressive motion is taken away or vanished, perfect rotational motion, of such a kind as we have described above, will be continuing. From which there is little doubt why such a motion derived from progressive and rotational motions should correctly be called mixed, since each by taking the name of the other, vindicates its own.
+
+SCHOLIUM
+596. Various questions come to be considered about such mixed motion, the first of which is, how such a motion shall itself be considered, if no forces are present, where indeed we have seen now that each motion is carried out equally. Then with forces added minimally, the question is allowed to be treated generally, so that the variation of each motion arising from any forces can be defined, but yet that must be restricted to certain kinds of forces. Since clearly there are certain forces, which thus upset each motion separately, and in order that the nature of the motion is not changed with these motions taken together, we will arrive at these forces for which we are able to define the effect in a mixed motion of this kind. But with all the other forces clearly nothing otherwise can be agreed upon, because the axis of rotation shall not always be kept parallel to itself. But as long as the axis remains parallel to itself, the motion shall always be mixed, arising from progressive and rotational motion, and the motion which we treat here will refer to that kind; in which a selected criterion of this motion is examined.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 510
+
+THEOREM 5
+597. If a mixed motion from progressive and rotational motions were impressed on a rigid body, and again that is not acted on by any forces, each motion will continue uniformly and the progression shall be rectilinear.
+DEMONSTRATION
+The truth of this theorem is clearly evident from the preceding, since each motion separately conserves itself spontaneously from the force of inertia, and in order that the continuation of one should not impede the continuation of the other, since, if the interval of the motion should be considered equal and opposite to the progressive motion impressed, then the progressive motion is taken away, and the rotational motion remains, following that which have been shown above. But it is necessary, which must be properly understood, that the axis of rotation must pass through the centre of inertia of the body and likewise it shall be one of the principal axis of this body. For unless the axis is put in place thus, soon the rotational motion will go over into another kind of motion, concerning which nothing is possible to be defined at this point.
+COROLLARY 1
+598. Hence in this mixed motion that a body is pursuing by the force of inertia, non only the centre of inertia is progressing uniformly along a direction, but also the axis of gyration always preserves the same position and meanwhile the body goes on rotating about that.
+COROLLARY 2
+599. Hence such a motion is recognised, if in the first place we should know the direction and speed of the centre of mass, then indeed in the second place the angular speed and the sense and position of the axis of rotation.
+COROLLARY 3
+600. Since in any body three principal axes are given and indeed in a certain infinitude of bodies which likewise are free axis of rotation, all the bodies are capable of such a motion, and that in an infinite number of ways.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 511
+
+SCHOLIUM
+601. Therefore with the calculation of motion of this kind requiring to be explained, let AB be a right line, on which the centre of inertia I is progressing uniformly (Fig. 75), the speed of which is equal to c. Moreover meanwhile the body is rotating about a principal axis MIN, which always makes the same angle AIM with AB, around which it is rotating with an angular speed equal to  . But if now initially the centre of inertia were at A and in the elapsed time t it should arrive at I, then the distance traversed in the progressive motion AI = ct and meanwhile from the angular motion about the axis MN the body describes an angle that by necessity is equal to  t . Moreover the structure of the body sustains the same forces as if the progressive motion were absent. Because in the end as concerns the motion that any point of the body may attain, this may be defined in the first place, as if the progressive motion were absent, then with that joined on, the progressive speed follows the precepts of the resolution of the motion treated above, and thus the true motion of this point will be obtained.
+PROBLEM 53
+602. If a rigid body were carried by a mixed motion both progressive and rotational, to define these forces, by the action of which the axis of rotation is not deflected from its own position parallel to itself, and thus the mixed motion
+arising from the progressive and rotational motions remains.
+SOLUTION
+In the first place it is evident that all the forces, the directions of which pass through the centre of inertia of the body, have no effect on the rotational motion, but are devoted only to the progressive motion, thus so that the axis of rotation is not deflected from its own position by
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 512
+
+these forces. Hence we ask for such forces as pertain to that kind of motion only, and then also these forces are to be referred to, which affect the rotational motion only : which forces we have considered to be prepared thus, so that AB is the axis of rotation (Fig. 76), and a plane normal to that axis is set up at some point L, and two equal and contrary forces Nn and Ll applied in this plane make good this effect; one of these forces Ll is considered to be applied to the axis. Now two similar forces applied are the equivalent of the two forces of this kind, established in a plane normal to the axis at the centre of inertia I , and these are Kk and Ii, parallel and equal to these, with the interval taken IK = LN; for the opposites of these forces are in equilibrium with these original forces. And thus in place of any such forces Nn and Ll as you please, it is always permitted to substitute two equal and similar forces in the plane drawn normally applied passing through the centre of inertia I. Whereby, if we should add two forces of this kind whatsoever Kk and Ii with any forces applied at the centre itself, generally we will have that kind of forces by which the mixed motion may be modified, in order that the axis of rotation may remain parallel to itself. Therefore among these forces applied to the centre of inertia I we put in place one I equal and opposite to Ii, by which this is destroyed, and now the forces
+sought can thus be described, so that in addition to the forces applied to the centre of inertia I any forces may be included, the directions of which are in the plane through the centre of inertia drawn normally to the axis, and, however many forces of this kind should be applied to the body, another mixed motion of this is thus not allowed, unless it is one in which the axis in place remains parallel to itself.
+
+COROLLARY 1
+603. Hence it is not permitted to contemplate other forces here, unless they are applied either to the centre of inertia itself or the directions of which are found in the plane drawn passing through the centre of inertia and normal to the axis.
+
+COROLLARY 2
+604. Therefore forces of this kind either are affecting the progressive motion or the rotational motion or both, but yet thus, so that the axis of rotation shall always remain placed parallel to itself.
+
+SCHOLIUM
+605. Hence behold the forces, to which our present discussion is tied, the effect of which on the change in the mixed motion of the body clearly is defined in terms of the principles established so far; but with any other forces, unless perhaps through equivalence they are able to be reduced to such, it is evident
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 513
+
+from these that the axis of rotation is to be disturbed from its own position and some other kind of motion introduced, that even now we are not prepared to discuss. But the forces assigned produce an effect of this kind, in the three problems we investigate, in the first of which we investigate the effect of these forces, the directions of which pass through the centre of inertia of the body, in the second we contemplate another kind of force, the directions of which are in a plane which is normal to the axis at the centre of inertia. Finally in the third we investigate the effect of each kind of force arising likewise acting, in order that the rotation is made about a principal axis of the body.
+
+PROBLEM 54
+
+606. If in the first place some mixed motion were impressed on a rigid body with both progressive and rotational motion about a principal axis, and that the body is then acted on by some forces, the mean [resultant] direction of which constantly passes through the centre of inertia, to determine the motion of the body.
+
+SOLUTION
+Because the mean direction of the forces acting always passes through the centre of inertia, thus no change of the rotational motion is experienced, but it goes on to be completed uniformly, as if the axis were are at rest, thus for any time you wish it is readily apparent, how big an angle by the rotational motion has now been described about the axis. Therefore the whole question is reduced to progressive motion, which is perfectly understood from the motion of the centre of inertia ; evidently the body can thus be considered, as if the whole of its mass should be gathered together at the centre of inertia, and from the forces by which it is acted on for any length of time, the motion of this can be defined in the same way, by which we have taught to determine the motion of free points acted on by any forces, thus so that it would be superfluous to pursue this further. For since at some time the position of the centre of inertia should be defined, and also the position of the axis of rotation, and by how large an angle the body will have turned about that axis, now becomes apparent.
+
+COROLLARY
+
+607. Hence here each motion is allowed to be considered separately, plainly as if the other were not present, while the rotary motion remains equal, but the progressive motion likewise is disturbed, as if the whole mass of the body were gathered together at the centre of the body acted on by the same forces.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 514
+
+PROBLEM 55
+
+608. If initially a mixed motion were impressed on a rigid body with both progressive and rotational motion about a principal axis and that is acted on by forces, the mean direction of which is found constantly acts in a direction in a plane drawn through the centre of inertia, to determine the motion of the body.
+
+SOLUTION
+
+Because the axis always remains parallel to itself, in the elapsed time t it attains the position AB (Fig. 76), and by drawing a plane through the centre of inertia I normal to the axes at this point, let Kk be the mean direction of the force now disturbing the body, and the force equivalent to that shall be Kk = V; to which at I an equal and opposite force Ii = V is considered to be applied, but which by the equal and opposite force I = V is destroyed anew, thus in order that the body now is acted on by the
+
+three forces Kk, Ii and I . But now only rotational motion is affected by the two
+
+forces Kk et Ii, [i.e. they form a couple] with the change due to this thus defined: from the centre of inertia I there is sent a perpendicular in the direction of the force Kk, which shall be equal to f, the moment of this force is equal to Vf tending to accelerate or decelerate the motion ; then let the mass of the body be equal to M and the moment of inertia of this about the axis AB is equal to Mkk. With which put in place, if the angular speed about the axis AB now should be equal to  , which likewise is considered, and if the axis were at rest,
+
+then
+
+d
+
+=
+
+±
+
+2Vfgdt Mkk
+
+;
+
+hence
+
+at
+
+some
+
+time
+
+the
+
+angular
+
+speed
+
+
+
+is
+
+desired.
+
+Then
+
+the
+
+force I = V only affects the progressive motion and that not otherwise, and if
+
+the whole mass of the body M should be gathered together at the centre of inertia I, thus in order that it is possible to consider the body as if it were at the point I, now acted on by the force I = V ; which determination with that in the
+
+preceding is explained well enough, it is evident by how much at some time both the progressive as well as the rotational motion are required to assigned.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 515
+
+[Thus, a force acting on a body perpendicular to a principal axis but not through the centre of mass, and thus producing both linear motion and rotation about this axis, can be replaced by a couple about this axis producing rotational motion only, and a force acting through the centre of mass producing translational motion only.]
+
+COROLLARY 1
+
+609. If the initial progressive motion were zero, the centre of inertia could begin to move in that plane normal to the axis and, since the forces acting are always disturbing in the same plane, the whole motion of the centre of inertia is completed in the same plane, in which the axis of gyration is normal everywhere. [See Fig. 75.]
+
+COROLLARY 2
+
+610. The same eventuates, if the first direction of the motion of the centre of inertia were normal to the axis of rotation; for then it continues its own motion constantly in the plane normal to the axis of gyration. But otherwise it comes about, if the initial progressive motion made an oblique angle with the angle of rotation.
+
+COROLLARY 3
+611. Hence the rotational motion is defined from the moment of the force acting Kk, which is equal to Vf, but the progressive motion from that force thus is defined by Kk = V , as if this forces should be applied in its own direction to the centre of inertia.
+PROBLEM 56
+612. If a mixed motion should be impressed on a rigid body from progressive and rotational motion about some principal axis and that henceforth the body should be acted on partially from forces, the mean [resultant] direction of which passes through the centre of inertia, and now the body is turning partially from forces of this kind, the mean direction of which passes in a plane through the centre of inertia crossing the axis normally, to determine the motion of the body.
+SOLUTION
+
+The solution of this problem follows immediately from the preceding, while above an account of the forces is given, the mean direction of which passes through the centre of inertia and from which we have considered the
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 516
+
+motion alone to be affected. Whereby for the determination of the progressive motion in addition to the former forces through the centre of inertia applied by themselves, to the same centre above all the later forces are considered individually along their own directions; then, if it pleases, the whole mass of the body is considered to be gathered together at the same point, in order that there may be given the case of a point or corpuscle indefinitely small to be acted on by some forces, which can be solved from the above. Then for the rotational motion, with the forces passing through the centre of inertia omitted, these forces alone can be considered, the mean direction of which is in a plane drawn through the centre of inertia normal to the axis, and from the individual or from all the forces with the equivalent moment gathered about the axis of rotation , which if it were equal to Vf, thus the change of the rotational motion is elicited as above, but with each known separately from the motion, the general motion of the body at once becomes known.
+
+COROLLARY 1
+
+613. Hence, in order that the progressive motion may be defined, all the forces by which the body is acted on, individually in their own directions must be transferred to the centre of mass and the progressive motion likewise is determined, as if no rotational motion should be present.
+
+COROLLARY 2
+614. But in order that the rotational motion can be defined, the moments of all the forces acting are gathered together about the axis of rotation; and hence the rotational motion is determined likewise, as if no progressive motion should be present, or the axis of rotation were held fixed.
+
+SCHOLIUM
+615. The first corollary appears the most extensive, as we will see below, also in whatever manner the forces should be applied; but this is sufficient in any case for forces of this kind, such as we assume to be admitted in the problem ; now in the latter corollaries, no opportunity is given, except for forces which themselves do not pass through the centre of inertia, the mean direction in place should be in a plane normal to the axis and passing through the centre of inertia; for otherwise the axis cannot remain parallel to itself. Hence we distance ourselves as far as possible from the general problem, in which the motion is sought of a rigid body with forces of any kind acting ; from which therefore we approach more closely to that, we consider a rigid body at rest, and while it is acted on by some forces, first we investigate the generation of the motion. For although we are able to approach that problem at once, yet it will be better to reach that in steps, as in this manner we will follow the examination of all the elements more clearly.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 517
+
+CAPUT VIII
+DE AXE GYRATIONIS LIBERO MOTUQUE CORPORUM RIGIDORUM CIRCA TALES AXES
+DEFINITIO 11
+572. Axis gyrationis liber in quovis corpore rigidore est eiusmodi axis, qui, dum corpus circa eum gyratur, nullas ob motum vires sustinet.
+COROLLARIUM 1
+573. Si igitur corpus circa axem liberum gyrari coeperit, axis sponte in quiete manebit neque opus est, ut is extrinsecus in situ suo retineatur; quod quidem intelligendum est, si corpus a nullis viribus sollicitetur.
+COROLLARIUM 2
+574. Corpus ergo nullis viribus subiectum, si circa talem axem liberum motum gyratorium quemcunque acceperit, hoc motu perpetuo uniformiter gyrari perget, perinde ac si axis esset fixus.
+SCHOLION
+575. En igitur alium casum motus liberi in corpora rigida cadentis, cuius explicatio iam est manifesta. Primus scilicet casus erat, quo vidimus tale corpus motu progressivo libere proferri, at, si vires sollicitantes per eius centrum inertiae transeant, motus perturbationem iam definivimus. Deinde, cum ostendissem corpus, cui circa axem fixa impressus fuerit motus gyratorius, eundem motum perpetuo conservare, dum axis ille fixus retineatur, nunc evidens est, si axis iste ita fuerit comparatus, ut vires, quas sustinet, se mutuo destruant, eum sponte immotum manere corpusque motum gyratorium perpetuo esse continuaturum, qui propterea est casus motus liberi; ubi quidem nullum est dubium, quin eius modi etiam dentur vires, quae, dum motum gyratorium vel accelerant vel retardant, axem non afficiant, ita ut adhuc in quiete persistat, de quo deinceps tractibimus. Ante omnia autem necesse est, ut inquiramus, an in quovis corpore tales axes gyrationis liberi dentur et quomodo ii sint investigandi. In quo negotio summam afferent utilatatem ea, quae supra de ternis axibus principalibus cuiusque corporis tradidimus quippe qui simul esse axes gyrationis liberi deprehendentur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 518
+
+PROBLEMA 51
+576. Definire conditiones axium liberorum, qui, dum corpora circa eos gyrantur a nullis viribus sollicitata, nullas vires sustineant.
+SOLUTIO
+Quaestio haec ex problemate 7 § 338 facile resolvetur. In genere enim, si corpus circa axem quemcunque OA gyratur celeritate angulari =  (Fig. 32) ac pro elemento corporis quemcunque dM in Z sito statuantur coordinatae orthogonales OX = x, XY = y, YZ = z, quarum prima x in ipso axe gyrationis capiatur, vidimus axem ab hunc motum duas sustinere vires secundum Ee et Ff, quae sint
+
+vis
+
+Ee
+
+=
+
+ 2g
+
+
+
+ydM
+
+et vis Ff
+
+=
+
+ 2g
+
+
+
+zdM
+
+,
+
+quae applicatae sint in punctis E et F, ut sit
+
+OE
+
+=
+
+ xydM  ydM
+
+et Of
+
+=
+
+ xzdM  zdM
+
+.
+
+Quare, ut hic axis gyrationis OA sit liber, primo necesse est, ut ambae hae vires
+
+Ee et Ff seorsim evanescant, ideoque esse oportet tam  ydM = 0 quam
+
+ zdM = 0 , unde patet axem OA per corporis centrum inertiae I transire debere,
+
+quoniam posita corporis massa = M est
+
+ ydM = M GK et  zdM = M  KI .
+
+Haec ergo est prima conditio axium gyrationis liberorum, ut per corporis
+
+centrum inertiae I transeant; verum, etiamsi hae duae vires evanescant, tamen,
+
+quia distantia OE et OF fiunt infinitae, earum momenta ad axem circa punctum
+
+O vertendum prodeunt
+
+ 2g
+
+
+
+xydM
+
+et
+
+ 2g
+
+
+
+xzdM
+
+,
+
+quae nisi etiam evanescant, axis non sponte in quiete permanet. Quocirca, ut axis gyrationis OA sit liber, non sufficit, ut is per corporis centrum inertiae I transeat, sed praeterea hac proprietate praeditus esse debet, ut pro eo fiat tam
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 519
+
+ xydM = 0 quam  xzdM = 0. Quae cum sit proprietas axium principalium
+supra demonstrata, quorum respectu momenta inertiae sunt vel maxima vel minima, manifestum est cuiusque corporis axes principales, quos supra invenire docuimus, simul esse gyrationis liberos.
+
+COROLLARIUM 1
+577. In quolibet ergo corpore libera tres certe dantur axes gyrationis liberi, qui scilicet sunt eius axes principales, circa quos ita liberere gyrati possit, ut axes sponte in quiete perseverent.
+
+COROLLARIUM 2
+578. Si tria principalia momenta fuerint inter se inaequalia, tres tantum dantur axes gyrationis liberi ; neque corpus circa ullum alium axem, etiamsi per centrum inertiae transeat, gyrari potest, quin viribus externis opus sit ad axem continendum.
+
+COROLLARIUM 3
+579. Sin autem momentum medium aequale sit vel maximo vel minimo, bini axes principales non determinantur, sed omnes ad tertium normales pari gaudent proprietate ideoque etiam sunt axes gyrationis liberi.
+COROLLARIUM 4
+580. At si omnia tria momenta principalia fuerint inter se aequalia, uti fit in globo et cubo, omnes plane rectae per centrum inertiae transeuntes proprietatem axium principalium habebunt corpusque circa eos libere gyrari poterit.
+SCHOLION
+581. Quae ergo supra de axibus principalibus omnium corporum tradidimus, non solum in inventione momentorum inertiae maximum habent usum, sed etiam in praesenti investigatione totum negotium conficiunt, cum in quovis corpore axes principales iique soli sunt sint axes gyrationis liberi, circa quos corus ita gyrari possit, ut non opus sit vi externa ad eos in quiete retenendos. Quaemadmodum ergo in quovis corpore rigido centrum inertiae est punctum maxime memorabile, cuius ratio per universam Mechanicam, latissime patet, ita axes principales, qui simul sunt axes gyrationis liberi, in quovis corpore non minus sunt notatu digni, cum iis universa doctrina de motu corporum libero innitatur. Inter proprietates ergo corporum mechanicas axes hi principales post
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 520
+
+centrum inertiae praecipuum locum obtinent atque in quovis corpore, cuius motus examinandas suscipitur, in id potissimum erit incumbendum, ut eius axes principales exquirantur. Triplex scilicet datur corporum cognitio, prima geometrica, qua eius extensio mensuratur, secunda mechanica, qua eius massa seu inertia spectatur, ac tertia physica, qua eius reliquae qualitates expenduntur; cognitio igitur mechanica potissimum centro inertia et axibus principalibus contineri est censenda.
+
+PROBLEMA 52
+582. Dum corpus circa axem gyrationis liberum movetur, invenire, a quibusnam viribus corpus sollicitari debeat, ut nullus inde effectus in axem redundet atque axis etiamnum sponte in quiete persistat.
+
+SOLUTIO
+
+Quemcunque motum gyratorium corpus circa axem principalem seu
+
+liberum acceperit, modo vidimus hunc motum perpetuo conservatum iri
+
+axemque sponte in quiete esse perseveraturum, cum vires ex motu natae se
+
+mutuo perfecte destruant. Nunc igitur videamus, quomodo vires sollicitantes
+
+comparatae esse debeant, ut ab iis etiam axis non afficiatur, id quod ex
+
+problemate 17 facile perspicere licet. Primo autem manifesto excluduntur vires
+
+obliquae, unde per resolutionem nascerentur vires axi parallelae, quippe quae a
+
+viribus elementaribus tolli non possent. Relinquuntur ergo vires, quae in planis
+
+normalibus sunt directae; ab huiusmodi autem viribus axem ita affici
+
+ostendimus, ut primo easdem vires in plano quamque suo ad axem translatas
+
+sustineat, tum vero insuper vires elementaribus contrarias pariter ad axem
+
+translatas. Cum autem ob axem principalem sit
+
+ xydM = 0
+
+ xzdM = 0,
+
+ (a - x) ydM = 0 et
+
+ (a - x) zdM = 0,
+
+vires ex elementaribus natae, quae in
+
+problemate 17 punctis O et A sunt
+
+applicatae, evanescunt; ideoque axis
+
+tantum ipsas vires sollicitantes ad axem
+
+translatas sustinebit. Quare vires
+
+sollicitantes ita debent esse comparatae,
+
+ut, si singulaer in planis ad axem
+
+normalis secundum suas directiones ipsi
+
+axi applicentur, se mutuo destruant.
+
+Binae igitur quaeque vires aequales et contrariae corpori in eodem plano ad
+
+axem normali applicatae hoc praestabunt, ut axis ab iis nullam plane vim sentiat.
+
+Scilicet, si IA fuerit axis gyrationis liber atque ad eum in puncto quovis L
+
+concipiatur planum normale (Fig. 74), in quo agant duae vires Nn et Mm
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 521
+
+aequales et contrariae, ab iis quidem motus gyratorius, quatenus in diversis ab axe distantiis sunt applicatae, mutabitur, sed axis nihilominus sponte in quiete persistet. Consequenter, quotcunque huiusmodi binarum virium paria corpori fuerint applicata, axis ab illis nullo modo afficietur.
+
+COROLLARIUM 1
+
+583. Proposita ergo quacunque vi Nn, cuius directio sit in plano ad axem normali, quod axem in puncto L secet, si praeterea axi in ipso puncto L vis aequalis contraria Ll applicatur, ab his duabus viribus axis nullam vim sustinebit.
+
+COROLLARIUM 2
+584. Quodsi igitur corpus a binis huiusmodi viribus Nn et Ll sollicitetur, axis manet immotus et solus motus gyratorius perturbabitur ab earum momentis. Cum autem vis Ll nullum habeat momentum, mutatio motus ex momento solius vis Nn erit definienda.
+
+COROLLARIUM 3
+
+585. Quare, si cereritas angularis fuerit =  , moment vis Nn = Vf et corporis
+
+momentum inertiae respectu axis IA = Mkk, erit
+
+d
+
+=
+
+±
+
+2Vfgdt Mkk
+
+pro elemento temporis dt; ubi ambiguitas signi vel accelerationem vel
+
+retardationem indicat.
+
+SCHOLION
+586. Quando ergo corpus rigidum circa quempiam axiam suorum principalium gyratur simulque a quotcunque huiusmodi viribus sollicitatur, quarum singulae sibi pares et contrarias ipsi axi applicatas habeant quasi comites, motus continuationem assignare valemus, quoniam axis sponte manet in quiete motusque aeque immutatur, ac si axis firmiter retineretur, quem casum iam supra evolvimus. Verum haec determinatio adstricta ad istam virium sollicitantium rationem minimeque adhuc patet, cuiusmodi effectum aliae vires essent producturae; hoc quidem saltem intelligitur axem non in quiete esse permansurum; utrum vero motum simplice progressivum sit nacturus, an se inclinando sit processurus, nondum liquet. Interim tamen casus, quo axi motus progressivus imprimitur, ita hunc, quo in quiete persistet, simplicitate excipit, ut eius evolutionem suscipere valeamus. Observandum enim est, si cum motu quocunque motus progressivus uniformis et rectilineus coniungatur, actionem
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 522
+
+virium minime perturbari, quod principium ad praesens institutum accommodemus.
+THEOREMA 4
+
+587. Quem motum gyratorium corpus rigidum circa axes quiescentem prosequitur, eundem motum circa hunc axem uniformiter in directum progredientem prosequi poterit, siquidem ab iisdem viribus sollicitetur.
+
+DEMONSTRATIO
+Dum axis quiescit et corpus quomodocunque circa eum gyratur, resolvantur singulorum elementorum motus secundum ternas directrices, quibus coordinatae x, y, z parallelae constituantur, eruntque posito temporis elemento = dt celeritates hae laterales
+dx dy dz ,,
+dt dt dt
+atque
+ddx , ddy , ddz dt dt dt
+exhibent effectus virium corpus sollicitantium, quatenus iis singula elementa afficiuntur. Ponamus iam corpori insuper tribui motum progressivum, quo axis motu sibi parallelo uniformiter in directum proferatur celeritate = c secundum eam directionem, cui coordinatae x capiuntur parallelae, ac iam singulorum corporis elementorum celeritates erunt
+c + dx , dy ,et dz , dt dt dt
+quarum differentialia non discrepabunt a praecedentibus; ideoque motus gyratorius circa axem uniformiter in directum progredientem perinde se habebit, ac si axis quiesceret; viresque, si quae affuerint, motum gyratorium aeque perturbabunt, sive axis quiescat, sive uniformiter in directum progrediatur.
+
+COROLLARIUM 1
+588. Si igitur corpori, dum circa axem principalem gyartur, motus progressivus tribuatur neque ab ullis viribus sollicitetur, utrumque motum uniformiter continuabit.
+
+COROLLARIUM 2
+589. Ac si corpus interea ab eiusmodi viribus sollicitetur, quibus solus motus gyratorius mutetur, axis vero non afficiatur, etiam motus gyratorius mutationem patietur; motus progressivus autem manebit uniformis rectilineus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 523
+
+COROLLARIUM 3
+590. Sin autem corpus interea sollicitetur a vi, cuius directio transit per centrum inertiae, ab ea solus motus progressivus afficietur. Nam, quia ab hac vi neque ullum momentum respectu axis gyrationis nascitur neque axis de situ suo sibi parallelo deturbatur, motus gyratorius nullam mutationem patitur.
+SCHOLION
+591. Veritas huius Theorematis etiam per ea, quae supra de motu absoluto et respectivo sunt exposita, quando corpus, ad quod motus referetur, uniformiter in directionum progreditur, sufficienter stabilitur. Cum enim corpus, quod motum gyratorium circa quendam axem principalem acceperit, hunc motum perpetuo ita conservet, ut axis sponte maneat in quiete, idem eveniat necesse est, si corpus in spatio uniformiter in directum lato versetur huiusque respectu eius axis quiescat. Tum enim res eodem redit, ac si corpus absolute uniformiter in directum progrediatur simulque circa axem principalem, qui perpetuo situm sibi parallelum servet, aequabiliter gyretur. Ex quo res ita concipi potest, quasi in corpore duplex inesset motus, alter gyratorius, quo corpus circa quendam axem principalem gyratur, alter vero progressivus, quo axis cum corpore ita abripiatur, ut axis perpetuo situm sibi parallelum conservet. Atque hinc etiam intellititur a viribus supra definitis motum gyratorium perinde accelerari vel retardi oportere, ac si axis quiesceret, simulque vires, quae solum motum progressivum afficere sunt ostensae, nihil quicquam in motu gyratorio mutare, ita, ut uterque motus seorsim, quasi solus adesset, considerari queat. Haec igitur, quibus tam insignis casus motus liberi corporum rigidorum continetur, omnino sunt digna, ut diligentius evolvantur.
+DEFINITIO 11a
+592. Motus mixtus ex progressivo et gyratorio est, quo corpus partim circa quempiam axem principalem seu liberum gyratur, partim vero ita insuper movetur, ut eius axis sibi semper maneat parallelus.
+COROLLARIUM 1
+593. Ad motum ergo talem mixum cognoscendum ad quodvis tempus nosse oportert 1o. celeritatem angularem circa axem gyrationis, 2o. celeritatem, qua axis motu progressivo promovetur, et 3o. directionem huius motus progressivi, quomodo ad axem gyrationis sit inclinata.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 524
+
+COROLLARIUM 2
+594. Celeritas porro angularis eodem modo aestimatur, ac si axis quiesceret; celeritas autem ac directio motus progressivi ex motu axis gyrationis vel ex motu centri inertiae iudicari debet.
+EXPLICATIO
+595. Idea haec motus mixti ex ideis utriusque motus progressivi et gyratorii est conflata, unde fit, ut neutra in ea pure et perfecte contineatur. Cum enim motum progressivum ita definivimus, ut omnes rectae, quas in corpore concipere licet, sibi perpetuo maneant parallelae, haec proprietas in motu mixto minime valet, sed tantum ad axem gyrationis adstringitur; interim tamen evidens est, si motus gyratorius tolleretur vel evanesceret, motum progressivum perfectum esse remansurum. Simili modo definitio motus gyratorii supra data ad axem fixum seu quiescentem erat adstricta, nunc autem ad axem motum extenditur, quae translatio per ideam spatii moti corroboratur, dummodo, ut hic assumimus, axis sibi semper maneat parallelus. Quin etiam perspicuum est, si alter motus progressivus tolleretur vel evanesceret, motum gyratorium perfectum, qualem supra descripsimus, esse remansurum. Quominus erit dubitandum, quin talis motus recte ex progressivo et gyratorio mixtus appelletur, quoniam alterutro sublato alter nomen suum sibi vendicat.
+SCHOLION
+596. Circa talem motum mixtum variae quaestiones veniunt considerandae, quarum prima est, quomodo talis motus, si nullae vires accesserint, se sit habiturus, ubi quidem iam vidimus utrumque aequabiliter esse perrecturum. Deinde viribus accedentibus quaestionem minime in genere tractare licet, ut variatio utriusque motus a viribus quibuscunque orta definiatur, sed ea tantum ad certa virium genera est restringenda. Cum scilicet certae sint vires, quae utrumque motum seorsim ita turbant, ut genus motus non mutetur, his coniungendis eas adipiscemur vires, quarum effectum in huiusmodi motibus mixtis definire valebimus. De reliquis autem cunctis viribus nihil alius affirmare licebit, nisi, quod axis gyrationis non sit situm sibi perpetuo parallelum conservaturus. Quamdiu enim axis sibi manet parallelus, motus semper erit mixtus ex progressivo et gyratorio atque ad genus, quod hic tractamus, erit referendus; in quo eximium huius motus criterium cernitur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 525
+
+THEOREMA 5
+597. Si corpori rigido impressus fuerit motus mixtus ex progressivo et gyratorio idque a nullis viribus porro solllicitetur, utrumque motum uniformiter continuabit et progressivus erit rectilineus.
+DEMONSTRATIO
+Veritas huius Theorematis ex praecedentibus luculenter perspicitur, cum uterque motus seorsim vi inertiae sponte se conservet neque continuatio unius impediat continuationem alterius, quandoquidem, si spatio motus aequalis et contrarius motui progressivo impressus concipiatur, motus progressivus tolletetur et gyatorius uniformis esset mansurus, secundum ea, quae supra sunt demonstata. Necesse autem est, quod probe notandum, ut axis gyrationis per centrum inertiae corporis transeat simulque sit unus ex eius axibus principalibus. Nisi enim axis ita sit comparatus, motus gyratorius mox in alius motus genus transibit, de quo hic nihil adhuc definire licet.
+COROLLARIUM 1
+598. In hoc ergo motum mixto, quem corpus vi inertiae prosequitur, non solum centrum inertiae uniformiter in directum progredietur, sed etiam axis gyrationis perpetuo eundem situm conservabit intereaque corpus circa eum uniformiter gyrari perget.
+COROLLARIUM 2
+599. Talis ergo motus cognoscetur, si noverimus primo directionem et celeritatem centri inertiae, tum vero celeritatem angularem eiusque sensum ac denique positionem axis gyrationis.
+COROLLARIUM 3
+600. Quoniam in omni corpore tres dantur axes principales atque in quibusdam adeo infiniti, qui simul sunt axes gyrationis liberi, omnia corpora talis motus sunt capacia idque infinitis modis.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 526
+
+SCHOLION
+
+601. Ad huiusmodi ergo motum calculo evolvendum sit AB recta, in qua centrum inertiae I uniformite progreditur (Fig. 75), cuius celeritas sit = c. Interea autem corpus circa axem principalem MIN gyretur, qui cum recta AB perpetua eundem angulum AIM constituat, circa quem gyretur celeritate angulari =  . Quodsi iam initio centrum inertiae fuerit in A et
+elapso tempore t pervenerit in I, erit spatium motu progressivo percursum AI = ct et interea motu angulari corpus circa axem MN describerit angulum =  t necesse est. Ceterum compages corporis easdem vires sustinebit, ac si motus
+progressivus abesset. Quod denique ad motum cuiuscunque puncti corporis attinet, is primo definiatur, quasi motus progressivus abesset, tum cum eo coniungatur celeritas progressiva secundum praecepta resolutionis motus supra tradita, sicque habebitur verus eius puncti motus.
+
+PROBLEMA 53
+
+602. Si corpus rigidum motu feratur mixto ex progressivo et gyratorio, definire eas vires, quarum actione axis gyrationis de situ suo sibi parallelo non deflectatur motusque ideo maneat mixtus ex progressivo et gyratorio.
+
+SOLUTIO
+
+Primo perspicuum est omnes vires, quarum directiones per centrum inertiae corporis transeunt, nihil in motu gyratorio efficere, sed tantum ad motum progressivum impendi, ita ut ab iis axis gyrationis non de situ suo deflectatur. Tales ergo vires ad id genus virium, quas quaerimus,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 527
+
+pertinent, tum vero etiam eo sunt referendae illae vires, quae solum motum gyratorium afficiunt, quas ita vidimus esse comparatas, ut, si AB sit axis gyrationis (Fig. 76) ad eumque in quovis puncto L constituatur planum normale, binae vires aequales et contrariae Nn et Ll in hoc plano applicatae hunc effectum praestent; atque harum virium altera Ll ipsi axi applicata concipi potest. Verum huiusmodi binis viribus aequivalent binae similes vires in plano, quod axi normaliter in ipso centro inertiae I constituitur, applicatae, quae sint Kk et Ii, illis aequales et parallelae, sumto intervallo IK = LN; harum enim contrariae cum illis in aequilibrio consisterent. Sicque loco binarum quarumvis talium virium Nn et Ll semper substituere licet binas similes et aequales in plano per centrum inertiae I ad axem normaliter ducto applicatas. Quare, si binas huiusmodi vires quascunque Kk et Ii cum viribus quibuscunque ipsi centro inertiae applicatis coniungamus, habebimus generatim id genus virium, quibus motus mixtus ita mutatur, ut axis gyrationis sibi maneat parallelus. Inter vires igitur centro inertiae I applicatas statuamus unam I ipsi Ii aequalem et
+contrariam, qua haec destruatur, ac iam vires quaesitae ita describi possunt, ut praeter vires centro inertiae I applicatas complectantur vires quascunque, quarum directiones sint in plano per centrum inertiae I ad axem normaliter ducto, et, quotcunque huiusmodi vires corpori fuerint applicatae, motus eius mixtus aliam inde mutationem non patitur, nisi qua axis situm sibi parallelum servet.
+
+COROLLARIUM 1
+
+603. Hic ergo alias vires contemplari non licet, nisi quae vel ipsi centro inertiae sint applicatae vel quarum directiones reperiantur in plano ad axem normali et per centrum inertiae ducto.
+
+COROLLARIUM 2
+604. Huiusmodi igitur viribus vel motus progressivus afficitur vel gyratorius vel uterque, sed tamen ita, ut axis gyrationis perpetuo situm sibi parallelum sit conservaturus.
+SCHOLION
+605. En ergo vires, ad quas nostra praesens tractatio adstringitur, quarum effectum in motu corporis mixto mutando ex principiis adhuc stabilitis definire licebit; de aliis autem viribus quibuscunque, nisi forte per aequivalentiam ad tales reduci queant, certum est ab iis axem gyrationis de situ suo deturbari motumque ad aliud genus traduci, quod etiamnum evolvere non valemus. Cuiusmodi autem effectum vires assignatae producant, tribus problematibus investigabimus, quorum primo in effectum earum virium inquiremus, quarum directiones per ipsum centrum inertiae corporis transeunt, in secundo alteram
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 528
+
+virium speciem contemplabimus, quarum directiones sitae sunt in plano, quod ad axem in ipso centro inertiae est normale. In tertio denique effectum a viribus utriusque speciei simul sollicitantibus oriundum investigemus, ut gyratorius fiat circa axem principalem corporis.
+
+PROBLEMA 54
+606. Si corpori rigido initio impressus fuerit motus quicunque mixtus ex progressivo et gyratorio circa axem principalem idque deinceps sollicitetur a viribus quibuscunque, quarum media directio constanter per eius centrum inertiae transeat, determinare corporis motum.
+SOLUTIO
+Quia virium sollicitantium media directio perpetuo per eius centrum inertiae transit, motus gyratorius nullam inde mutationem patietur, sed uniformite peragi perget, quasi axis quiesceret, unde ad quodvis tempus facillime patebit, quantus angulus iam circa axem motu gyratorio fuerit descriptus. Tota ergo quaestio reducitur ad motum progressivum, qui ex motu centri inertiae perfecte cognoscetur; corpus scilicet ita consideretur, quasi tota eius massa in centro inertiae esset collecta, atque ex viribus, quibus quovis temporis momento sollicitatur, eius motus eodem modo definietur, quo motum punctorum liberum a viribus quibuscunque sollicitatorum determinare docuimus, ita ut superfluum foret haec fusius prosequi. Cum autem ad quodvis tempus locus centri inertiae fuerit definitus, etiam positio axis gyrationis et, quanto angulo corpus circa eum iam se converterit, patebit.
+
+COROLLARIUM
+607. Hic ergo utrumque motum ita seorsim considerare licet, quasi alter plane non adesset, dum motus gyratorius manet aequabilis, progressivus autem perinde turbatur, ac si tota corporis massa in centro inertiae collecta ab iisdem viribus urgeretur.
+PROBLEMA 55
+608. Si corpora rigido initio impressus fuerit motus mixtus ex progressivo et gyratorio circa axem principalem idque sollicitetur a viribus, quarum media directio constanter in plano ad axem per centrum inertiae normaliter ducto reperiatur, determinare corporis motum.
+SOLUTIO
+
+Quia axis sibi semper manet parallelus, elapso tempore t teneat situm AB (Fig. 76) et ducta per centrum inertiae I plano ad axem normali in hoc sit Kk
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 529
+
+media directio virium iam corpus sollicitantium, et vis illis aequivalens sit Kk = V; cui in I aequalis et contraria Ii = V applicata concipiatur, quae autem a pari opposita I = V denuo destruatur, ita ut corpus iam ab his tribus viribus Kk, Ii
+
+et I sollicitetur. Nunc autem a binis viribus Kk et Ii solus motus gyatorius
+
+afficitur, cuius immutatio ita definitur : ex centro inertiae I in directionem vis Kk demittatur perpendiculum, quod sit = f, erit momentum huius vis = Vf ad motum sive accelerandum sive retardandum tendens; tum sit massa corporis = M eiusque respectu axis AB momentum inertiae = Mkk. Quibus positis, si celeritas angularis circa axem AB iam fuerit =  , quae perinde aestimatur, ac si axis
+
+quiesceret,
+
+erit
+
+d
+
+=
+
+±
+
+2Vfgdt Mkk
+
+;
+
+unde
+
+ad
+
+quodvis
+
+tempus
+
+vera
+
+celeritas
+
+angularis est petenda. Deinde vis I = V solum motum progressivum afficit
+
+idque non aliter, ac si tota corporis massa M in ipso centro inertiae I esset collecta, ita ut corpus tanquam punctum I, quod iam a vi I = V sollicitetur,
+
+considerare liceat; quae determinatio cum in praecedentibus satis sit explicata, manifestum est, quomodo ad quovis tempus tam motum progressivum quam gyatorium assignari oporteat.
+
+COROLLARIUM 1
+609. Si motus progressivus initio fuerit nullus, centrum inertiae in ipso plano ad axem normali moveri incipiet et, cum vires sollicitantes perpetuo in eodem plano agant, totius centri inertiae motus in eodem plano absolvetur, ad quod axis gyrationis ubique erit normalis.
+COROLLARIUM 2
+610. Idem evenit, si prima directio motus centri inertiae fuerit ad axem gyrationis normalis; tum enim constanter in plano ad axem gyrationis normali motum suum continuabit. Secus autem evenit, si prima motus progressivi directio cum axe gyrationis angulum fecerit obliquum.
+COROLLARIUM 3
+611. Motus ergo gyrationius ex momento vis sollicitantis Kk, quod est = Vf, motus autem progressivus ex ipsa hac vi Kk = V ita definitur, quasi haec vis in sua directione ipsi centro inertiae applicata esset.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 530
+
+PROBLEMA 56
+612. Si corpora rigido impressus fuerit motus mixtus ex progressivo et gyratorio circa quempiam axem principalem idque deinceps sollicitetur partim a viribus, quarum media directio per ipsum centrum inertiae transit, partim vero ab eiusmodi viribus, quarum directio media in plano per centrum inertiae normaliter ad axem transeunte versatur, determinare motum corporis.
+SOLUTIO
+Huius problematis solutio sponte ex praecedente fluit, dummodo insuper ratio habeatur virium, quarum media directio per ipsum centrum inertiae transit et quibus solum motum progressivum affici vidimus. Quare pro motu progressivo determinando praeter vires priores centro inertiae per se applicatas eidem centro insuper applicatae concipiantur omnes vires posteriores singualae secundum suas directiones; tum, si placet, tota etiam corporis massa in eodem puncto collecta consideretur, ut habeatur casus puncti seu corpusculi infinite parvi a viribus quibuscunque sollicitati, quem per praecepta superiora expedire licebit. Deinde pro motu gyratorio, omissis viribus per centrum inertiae transeuntibus, considerentur eae solae, quarum media directio est in plano per centrum inertiae ad axem normaliter ducto, atque ex singulis vel vi omnibus aequivalente colligeter momentum respectu axis gyrationis, quod si fuerit = Vf, mutatio motus gyratorii inde elicitur ut supra, cognito autem seorsim utroque motu universus corporis motus sponte innotescit.
+
+COROLLARIUM 1
+613. Ad motum ergo progressivum definiendum omnes vires, quibus corpus sollicitatur, singulae in suis directionibus ad centrum inertiae transferri debent per easque motus progressivus perinde determinabitur, ac si nullus motus gyratorius adesset.
+COROLLARIUM 2
+614. Ad motum autem gyratorium definiendum omnium virium sollicitantium colligantur momenta respectu axis gyrationis; hincque motus gyratorius perinde determinabitur, ac si nullus adesset motus progressivus seu axis gyrationis teneretur fixus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter Eight.
+
+Translated and annotated by Ian Bruce.
+
+page 531
+
+SCHOLION
+615. Corollarium prius latissime patet, uti infra videbimus, quomodocunque etiam vires sollicitantes fuerint applicatae; hic autem sufficiat ad saltem pro eiusmodi viribus, quales in problemate assumsimus, admisisse; posterius vero locum non habet, nisi virium, quae per se non transeunt per centrum inertiae, media directio sita fuerit in plano ad axem normali et per centrum inertiae transeunte; alioquin enim axis sibi non maneret parallelus. Longissime ergo adhuc distamus a problemate generali, quo corporis rigidi a viribus quibuscunque sollicitati motus quaeritur; quo igitur continuo proprius eo accedamus, corpus rigidum in quiete consideremus et, dum a viribus quibuscunque sollicitetur, primam motus generationem investigemus. Quamvis enim statim illud problema aggredi possemus, tamen praestabit per gradus quasi eo ascendere, ut hoc modo clariorem omnium elementorum cognitionem consequamur.
+
+

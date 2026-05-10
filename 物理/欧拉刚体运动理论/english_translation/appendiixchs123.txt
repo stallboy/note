@@ -1,0 +1,5247 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1042
+
+SUPPLEMENT CONCERNING THE MOTION OF RIGID BODIES
+DISTURBED BY FRICTION.
+CHAPTER I
+CONCERNING FRICTION IN GENERAL
+DEFINITION 955. Friction is the resistance that a body suffers in its motion as it proceeds scraping over a rough surface. Hence friction is a force contrary to the direction of the motion, applied to the base of the body, with which it is in contact with the surface.
+COROLLARY 1 956. As long as the body is at rest [with no applied force], clearly friction exerts no force, but also should the body move suddenly, at once the force of friction arises, always contrary and therefore retarding that motion.
+COROLLARY 2 957. If the body is acted on by some force, even if it is at rest, then friction itself is opposed to that force, because it is present in the first motion generated, and unless the force acting can overcome the friction, the body is unable to move.
+COROLLARY 3 958. Because the direction of the friction is always contrary to the direction of the motion, with a change in the direction of the motion likewise the direction of the friction is changed. And moreover immediately the body is reduced to rest, as the direction of the motion is removed, thus the friction at once vanishes.
+EXPLANATION 959. It is appropriate to attend to the elucidation of these features that pertain to friction under
+all circumstances, which can be gathered together regarding any kind of friction, although it may be less apparent at this stage what effect each is capable of producing. Therefore first the surface must be considered, upon which the body is proceeding, which either is a plane or otherwise it must refer to an equal part, because it has to be considered in contact at any time whatever. Therefore let EF be the surface (Fig. 125), as far as we shall consider a plane surface, if indeed hence it is judged permissible to be extended easily to convex or concave surfaces ; hence the roughness of a
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1043
+
+particular place between is the cause of the friction, because, if the surface were perfectly smooth and slippery, no place for friction would remain ; from which it is deduced that the rougher the surface should be, with that there should be more friction. Next the base of the body AB, which makes contact, it is not yet resolved that introducing the size and shape into the calculation has any bearing on the friction, and truly the roughness of the body combined together with the roughness of the surface, where it stands in the way of the impressed motion, thus is considered to be generating the friction. Finally about the body ABCD itself, in addition to the mass and its remaining properties, the applied force on the surface of this without doubt is of the maximum importance, because, if it is not pressed by any force, clearly no friction would be reducing the motion, and the body thus could move as if the surface were absent. Finally moreover, except where the friction can be determined from the motion, the speed too may be seen to be under a considerable influence of the friction, but in addition to the expected speed we may observe a speed that in no way concurs with the determination of friction, as for that more is the wonder, since with the speed removed all friction clearly ceases. But if hence the body is moving along the direction BF on the surface, it reduces the force, which is acting along the opposite direction AE, and this is called the force of friction.
+
+SCHOLIUM 960. Here I will consider friction in the first place as a phenomenon, the size and nature of this is to be determined by us from experiment, hence we set out to examine how much can become known about the causes of this. Since here indeed the physical qualities of bodies, and the roughness of the surfaces are of this kind and an account, the whole can be put together as such a business in which two surfaces may proceed mutually pressing against each other in turn and inducing a certain pressing together of the smallest particles; on account of the failure in the understanding of the bodies we must be content therefore to accept the concept of friction, as these are supplied to us from experiment, just as also of other forces, the effect of which we explain in mechanics, and for which the origin has been poorly understood. Hence we may briefly review these things which are known from experiment concerning the nature of friction.
+
+PHENOMENON 1 961. If all other things are equal, friction does not depend on the speed of the body, for if it should travel either faster or slower, friction exerts the same force, and the direction of this is always in a direction contrary to the motion.
+
+COROLLARY 1 962. Hence friction cannot be considered as a function of the speed, since it always maintains the same size, whether the motion is faster or slower. Yet meanwhile, with the motion completely finished, it suddenly vanishes.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1044
+
+COROLLARY 2 963. But even if the friction by no means depends on the speed of the motion, yet the direction of this is determined in a single direction, clearly contrary and is applied at the contact itself.
+SCHOLIUM 964. Concerning the absolute motion of bodies these rules above are to be understood if the surface on which the body proceeds is absolutely at rest, but if this surface itself is moving then it is required to judge the motion of the body relative to the surface. Clearly if the body is at rest relative to the surface, even if it is moving absolutely in some manner, then the friction is zero; but if the body is moving relative to the surface, then friction reaches that certain value, as brought about by the circumstances remaining, nor can any amount of motion be gathered. But the direction of friction with respect to the body is constantly determined from the direction with respect to the surface, and therefore neither is it possible here for the motion to be resolved along two or three directions and for any motion you please, friction is to be defined as if the whole motion should be diminished alone, and thus the whole friction is gathered together into one force, moreover since the amount of friction does not depend on the quantity of motion, thus the direction must always be defined from the direction along which the body proceeds on the surface. Moreover this phenomenon is not indicated accurately from experiment, so that clearly it is not placed under any doubt if the fastest motion is seen rather to recede a little from this rule. But if perhaps the rule were in agreement with the truth, we can attribute that departure to another cause, rather than changing the idea of friction ; and since the aberration is very small, the more we can ignore that here, just as we arrange to ignore some other small forces which are seen to have originated from the same source as friction. Here clearly only the effect in those bodies set up by friction as commonly considered are to be investigated, and the motion influenced minimally by other obstructions.
+PHENOMENON 2 965. If all other things are equal, the amount of friction also depends neither on the shape nor the size of the base, by which the body touches the surface, for if that should be greater or smaller and for a shape of any kind, friction always exerts the same force.
+COROLLARY 1 966. But if hence the base, with which the body touches the surface, AB is put equal to bb (Fig. 125), this quantity does not arise in the expression for the friction, and velocity of the body is equally insignificant.
+COROLLARY 2 967. And also, neither is the friction changed if the contact is permitted to be made in a single point, as arises if the body is a sphere or a body with a given convex base while the body scrapes along on the surface.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1045
+
+SCHOLIUM 968. This phenomenon, even if confirmed by the most reliable experiments, yet it is apparent has an exception, if the body ends in the sharpest of points, by which it is able to be driven into the surface, in which case without doubt it may be thoroughly held in position. Hence clearly there are to be exceptional cases, in which the surface suffers physical damage from the advancing body, also concerning which we will not treat here. Moreover a paradox may be seen especially, because from the contact made in a single point as much friction is able to arise, as from a wide enough base, when the friction is produced from the roughness of both surfaces mutually rubbing against each other, but in the larger contact more of the roughness ought to be overcome. Now this doubt soon disappears, when we show how friction itself ought to be considered on account of the pressing down force.
+PHENOMENON 3 969. If other things are equal, the friction is proportional to the pressing force, by which the body is pressed against the surface, and that is equal to a larger part of the pressing force by which more of the rough parts of the surfaces are rubbed together.
+COROLLARY 1 970. But if the body clearly is not pressed by any force on the surface, upon which it advances, also no friction is apparent ; but which therefore becomes greater with the pressing force increasing more.
+COROLLARY 2 971. Therefore if the roughness were the same, the friction that bodies experience as they advance on the surfaces certainly is equal to the same part of the pressing force, and with that part known, the amount of friction is determined perfectly.
+COROLLARUM 3 972. Hence if the body ABCD (Fig. 125) advances in the direction BF and is pressed on the surface with a force equal to P , then the friction is equal to  P (with  denoting that part of the pressing force mentioned), by which the body is drawn back along the opposing direction AE.
+SCHOLIUM 1 973. These are shown when the body advances in a progressive motion on a surface, in which case the friction is opposite to the direction of the motion. Now if the body above should have some rotational motion, it is evident in what direction the surface of the base is rubbed, and the direction of friction is the opposite of this, and the amount of this agrees with the expression, and it is possible to define the effect of friction on the motion of the body on being disturbed from the above principles of stability. Moreover just as friction arises from the rubbing together of the body and the surface, it is apparent, if the body thus should move forwards by rolling, since no rubbing is present, motion of this kind by rolling along is called perfect, also friction has no place in this; but as soon as the rotary motion should be a little faster or slower, as that condition demands, and thus rubbing itself must be added, even if it
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1046
+
+should be very small, yet suddenly at once the whole friction  P exerts itself. Whereby phenomena hence arise that must imply a sudden jump, since with a certain kind of motion all the friction is taken away suddenly, while moreover if the motion thus disagrees a little, it is present with the full effect.
+
+SCHOLIUM 2
+
+974. Hence we follow with a representative number of calculations, so that friction can be expressed more simply and defined in terms of the pressing force P with the fraction , as the
+
+roughness defines; for if above it should depend both on the speed of the body as well as on
+
+the base of this, then we might slide into inextricable calculations. And if we wish to adapt
+
+the calculation for practice, the whole transaction is reduced to the value of the fraction ,
+
+which it suffices to assign by a single experiment for particular bodies in general.
+
+But for wooden bodies experiments show that the value of the letter  must be attributed
+
+around
+
+1 3
+
+,
+
+if
+
+indeed
+
+the
+
+surface
+
+of
+
+these
+
+were
+
+moderately
+
+shaped,
+
+but
+
+if
+
+it
+
+should
+
+be
+
+more
+
+course and rough, a greater value is chosen, just as on the contrary with properly polished
+
+metallic bodies the fraction
+
+1 4
+
+and less are examined for the letter
+
+. Now it is apparent from
+
+the following, how in any case by appropriate experiments the size of the fraction  can be
+
+investigated easily. Moreover with the experiments we have become acquainted with, no
+
+surface or body is able to be polished perfectly, so that friction clearly vanishes, but rather
+
+always it is taken to be equal to a part of the pressing force that is well enough known at this
+
+point. Whereby what was concerned above with the motion of bodies on a most polished
+
+plane, which generated no friction, have been reported on, in practice by no means find a
+
+place.
+
+PROBLEM 1 975. If a body is at rest pressing on some surface and likewise is acted on by any forces, to distinguish the cases, in which it either set in motion or perseveres at rest.
+
+SOLUTION All the forces, with which the body ABCD (Fig. 125) is acted upon, are resolved into two parts, of which one is normal to the surface, and the other parallel to the same. Let P be the sum of all the components perpendicular to the surface, as far as the body is pressed onto the surface by these forces, the pressing force is P, and the friction becomes  P , if the body were moving. Because it is held by the other forces, we consider here only the case in which a progressive motion is induced by these for the body, if there should be no friction ; because the rotational motion demands greater development to be undertaken below. Therefore since the body cannot receive another motion unless it is along the direction of the surface, the forces parallel to this are seen to be applied as if to a single point, and of which the equivalent force is sought, which is equal to V acting along the direction BF , and it is clear that as long as it should satisfy V <  P, the body continues to be in a state of rest and that it is not possible to be displaced, unless the force acting V should be greater than  P . Hence we
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1047
+
+have for the force acting V the final value  P, to which if the force should be smaller, no motion shall be following, but if it should be greater, then at last motion is produced.
+
+COROLLARIUM 1 976. Since the body can go on persisting in a state of rest, as long as V < P, friction is required to be thought as a force exercised equal and opposite to the force V ; if indeed it should be pushed by a stronger force, then the body should move in the opposite sense AE, which would be absurd, since it is urged to move in the direction BF.
+COROLLARY 2 977. Hence while the body is at rest, friction does not exert a determined force, but in any case only that amount needed to keep the body at rest, unless there was a need for a force greater than  P. From which it follows that if the body is acted on by no force towards moving, also the friction exerts no force.
+COROLLARY 3 978. Hence as long as the motion can be impeded by a force which does not exceed P, friction supplies that force, and indeed along that direction which is needed to oppose the motion. But if maintaining rest demands a greater force, because friction cannot become greater, then motion is generated.
+SCHOLIUM 1 979. Since we asserted above that no friction to be given present in the rest of bodies, it is to be understood that concerned only the rest in which the body should be persisting, even if no friction should be present. Indeed once the body is acted on by forces, and by which it is urged into motion, if the friction should be zero; also friction resists this motion to be produced, even if at this stage the body should be in a state of rest. Therefore friction is to be defined both on account of motion as well as of rest, in order that, while the body is moving, the force it exerts is always equal to P and along a direction opposing the motion, but while the body is at rest that force cannot be defined on its own, but only to this extent that it exercises a force large enough to impede the motion, unless perhaps for that force being required to be greater than P; for then friction resists the production of motion only by a force as large as P, which since it is not able to prevent the motion, motion actually is produced. Clearly the force P is the greatest Endeavour with which friction is able to strive, by which always in fact it resists the motion, and by which also the motion produced is resisted, if the need arises. But if a smaller force is provided, also it exerts a smaller effort ; or as often as the force producing the motion is restrained, by necessity it is less than  P, and that force is suppressed by friction. But these are only to be understood for progressive motion ; for if rotational motion takes place, especially if the axis of rotation should be inclined to the surface, the thing is more difficult to resolve, and since in this case not all the elements of the base are moving in the same direction and rubbing the surface, the friction of the individual elements must be considered, from which both the base of the shape and it size
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1048
+
+must be admitted into the calculation. And we cannot consider that circumstance above, where we removed the shape of the base from the determination of friction.
+
+SCHOLIUM 2 980. It is certainly difficult to designate the cause of friction, as here we have just set this up in agreement with experiment, but other causes that spring to mind can be dismissed easily. For it is evident that friction cannot arise either from a certain abrasion of the particles or from depressions of the texture while the body advances over the surface, since then by necessity the magnitude of the base enters into the calculation. Because we notice regarding friction, in as much as it resists motions to be generated, that it cannot be considered in the following unsuitable manner.
+Certainly while the body ABCD is incumbent on the plane EF , it is required to become understood that the contact is not along the plane AB, as our senses show, but on account of small projections and cavities on both side along the surface as if sinuous and undulating, ab ab ab, while on account of the pressing force the projections of the one insinuate themselves into the cavities of the other (Fig. 126). With this granted the body is unable to move, unless the body above the surface AB should be raised a small amount at once; or the first motion impressed should become not along the direction OV parallel to AB, but along a certain inclined direction OS, which evidently is parallel to the maxima in contact with the declivity in that sinusoid as it were; and these declivities or sideways slanting projections correspond to the roughness of each surface thus in contact, in order that for the greater and lesser asperity the angle VOS must be considered greater or less. Hence this angle is put in place VOS =  : and the body is pressed onto the surface by the force OP = P, and
+now we see, how large the force acting along the direction OV needs to be, in order that the body is able to be separated from its position. Hence the force acting is OV = V, by which the body is acted on along the direction OS by a force equal to V cos ; but the pressing force OP = P resists this action with a force equal to P sin . Whereby unless is should be that V cos > P sin : or V > P tang  , then the body is not disturbed from rest; or as long as the force acting OV = V should be less than P tang  ,the body remains at rest. Since that agrees particularly well with the above treatment, in place of that fraction here we have the tangent of a certain angle . Now I am forced to admit that this is not to be realized, as while
+the body is moving, the force of the friction also opposite to the motion must itself be equal to P tang  ; for since the base of the body must in turn free itself from these folds, and again
+insinuate itself there, it is less apparent how much detriment this allows for the motion.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1049
+
+Because the hypothesis for stability is still not overturned, hence we may cling to this, and we consider that this cause is not totally at odds with the truth.
+
+[Which remarks are of course still valid; the business of overcoming static friction presented here is different from that of overcoming kinetic friction, where presumably some continuous deformation of the surfaces results in a lower value. The separate problem of rolling friction is not considered, and neither is the case for rubber, where the size of the contact patch e. g. of a rubber tire on a bitumen surface, does influence the size of the frictional force.]
+
+CHAPTER 11
+
+PROBLEM 2
+
+981. If a heavy body advances on some horizontal plane in a progressive motion, the determine the retardation of the motion arising from friction.
+
+SOLUTIO Let M be the mass of the body and likewise the weight of this, because the horizontal plane EF is tangent to its base AB, as equally it must be planer (Fig. 127). The centre of inertia of the body O, in which its weight is considered gathered together at M, thus so that the body is acted on upwards by the force OP =M, which since it is normal to the plane EF, with so large a force it is pressed also on the plane ; where first I note, unless OP falls within the base of the body AB, progressive motion is not possible. Now this indeed does not suffice, since indeed with the progression of the body along the direction BF, that is retarded by a force equal to  M along the opposite direction BE, on account of friction, with the ratio l : denoting the pressing force to the force of friction, and this force tries to induce a rotational motion about the horizontal axis passing through O, its moment is equal to  M OP . If the body is yielding to this force, in the first place at this instant the base point A begins to be raised, thus so that now the whole body is pressing on the extremity of the base B, to which also the pressing force is transferred. Hence in this position, towards the required downwards rotation, the body at B is required to be thought as urged upwards by the force BM = M, from which the moment resisting the rotation arising is equal to M  BP ; because unless it exceeds that moment M OP , the body actually begins to rotate. Whereby since here we have put it in place to consider progressive motion only, this above condition is required, so that BP >  OP , as hence we have assumed to have this in place. Hence initially the speed of the body along the direction EF= c and in the elapsed time t it has completed a distance equal to s and it has a speed equal to v. And on account of the opposite force  M then
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1050
+
+dv = -  M
+2gdt M
+
+= - .
+
+and thus v = c - 2g t . Again since there is ds = vdt, this becomes s = ct -  gtt . But the
+
+motion only endures so long, until the body is reduced to rest, with the friction  M then
+
+ceasing
+
+suddenly:
+
+hence
+
+the
+
+body
+
+is
+
+reduced
+
+to
+
+rest
+
+in
+
+the
+
+elapsed
+
+time
+
+t
+
+=
+
+c 2 g
+
+and
+
+on
+
+traversing an interval equal to
+
+cc 4 g
+
+.
+
+COROLLARY 1 982. Hence in order that a heavy body can advance in a progressive motion on a horizontal plane, the perpendicular OP sent from the centre of inertia of the body O to the plane not only must fall within the base AB, but also must lie at such an interval BP distant from the front end B so that there arises BP >  OP .
+
+COROLLARY 2
+
+983. Therefore with the perpendicular OP drawn from the centre of inertia O, as well as with
+
+the line OB drawn to the front end of the base B , the angle BOP is required to be greater than
+
+the
+
+angle
+
+,
+
+the
+
+tangent
+
+of
+
+which
+
+is
+
+equal
+
+to
+
+
+
+.
+
+From
+
+which,
+
+if
+
+
+
+=
+
+1 3
+
+,
+
+then
+
+the
+
+angle
+
+BOP
+
+must be greater than18° 26'. But if it should be less, then the body required to be progressing
+
+is likewise rolling along.
+
+COROLLARY 3 984. But if the body is moving forwards in a purely progressive motion, its motion is uniformly retarded, and similar to that in which the body with speed c ascends projected upwards, acted on by a downwards acting force, which is to its mass as  to 1. Only with this distinction, that here the body reduced to rest remains at rest.
+
+SCHOLIUM 1 985. In order that such bodies at rest start moving, it is necessary that it is sent along the horizontal direction by a force which is greater than  M ; but as long as the force acting is less than this amount, it remains at rest, unless perhaps it is urged on to roll along, since we establish more carefully when that must happen. Hence in the first place the body is acted on in the horizontal direction along OS, which passes through its centre of gravity O, with the force OS = S, in order that S <  M , and the friction to be equal to the force S acting along BA. Or whether the body is rolling about the other extremity B, judgement must be sought from the moment of the friction S OP and from the moment of the pressing force M translated to B, which is equal to M  BP ; hence if it were the case that S OP > M  BP , the body shall roll, if less, then it remains at rest; for since the force acting OS = S is applied to the centre of inertia, here this bestows nothing. Now let the force S be applied below the centre of inertia at R, and because hence the moment arising equal to S OR gives rise to rolling in the opposite sense, in order that the body does not roll, it is required that
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1051
+
+S OR + M ·BP > S OP or S  PR < M  BP ; from which likewise it is apparent, if the horizontal force S should be applied higher up at r, then the body is not liable to roll if S  Pr < M  BP , where indeed we assume that S <  M . Likewise also it hence becomes more evident, if we consider the point B as a fixed axis and the body to be moving about that, then indeed the force rv = S and the moment in the sense DC is equal to S  Pr , but from the weight of the body M gathered together at O there arises the moment in the opposite sense M  BP : and thus the body rolls if S  Pr > M  BP , and truly remains at rest if S  Pr < M  BP .
+SCHOLION 2 986. But if the force rv = S should be greater than M , progressive motion of the body is induced from the excess S -  M , because now the retarding friction is only the force equal to vi =  M along the direction BE . But whether likewise the body is about to be rolling or not, can be recognised in this manner. Without doubt on disregarding the progressive motion, I assume that another rotational motion of the body cannot be impressed, unless it is about the horizontal axis of the body passing through the centre of inertia O and in a direction normal to the motion along OS, to which requiring to be found, since the base point B remains in the horizontal plane, and likewise the point A begins to be raised, the total pressing force being exercised at the point B, thus in order that then there is had at B the force urging upwards BM equal to M. Therefore now from the force rv = S , BE =  M , OP = M and BM = M there is deduced the moment producing the rolling, equal to
+S Or +  M  PO - M  BP ; whereby so that the body is carried forwards by a progressive motion only, this condition is required, so that S Or +  M  PO < M  BP , where by the hypothesis there is S >  M . If the horizontal force S should be applied below the centre of inertia at R, then the body is not liable to be rolling , if it should be that
+ M  PO < M  BP + S OR or S OR + M  BP >  M  PO .
+Hence therefore we clearly understand, in order that no rolling is to be feared, by bringing together how much the size of the base or the distance from its end of the perpendicular OP sent from the centre of inertia shall be, as well as the height of the centre of inertia above the horizontal plane, and the height at which the horizontal force is applied, and the friction itself,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1052
+
+PROBLEM 3
+987. If a heavy body ABCD is set on an inclined plane EF, to define the conditions under which that on account of friction remains at rest (Fig. 128).
+SOLUTION Let the angle, which the inclined plane EF
+makes with the horizontal GF, GFE =  , moreover the mass of the body set on that is equal to M and the centre of inertia O, with the base AB pressing on the inclined plane. The vertical line OQR is drawn, along which the body is agreed to be acted on by a force equal to M on account of gravity, which is resolved along the directions OP and OC, of which the former is normal to the plane EF, and the latter is parallel to the same, and on account of the angle POQ = GFE =  , then the force OP = M cos and the force OC = M sin . Moreover the body is pressed on the plane EF by the first force OP, from which if it should be moving, and the friction becomes equal to M cos ; truly the body is acted on by the latter force OC = M sin to move along the direction of the inclined plane EF. Hence unless this force M sin should be greater than M cos , then the body gains no forwards motion ;
+whereby in order that the body should remain at rest, it is necessary that M sin <  M cos or tang  <  . Hence the first condition necessary for the maintenance of rest is demanded, in order that the tangent of the angle of inclination F =  is less than the fraction , from which the friction is determined. Then clearly it is required, that the vertical line OQ falls within the base AB. For lest the body rolls about the extremity of the base B, it is necessary that the moment of the force OQ = M about the point B, which is M  BQ cos , is positive, and thus BQ is positive or the point Q must fall within the base AB. Which also thus can be shown from the rotational motion to be produced about O. For we can imagine now such a rotational motion to begin, and while the point A is raised, the whole pressing force M cos is transferred to B , as now the body is acted on at B first by the force BM = M cos , and moreover on account of friction by the force BA = M sin , from which the moment generating the rotational motion become equal to
+M sin OP - M cos  BP . Whereby lest such a motion arises, it must be the case that
+BP  cos C > OP  sin or BP > OP  tang  , or OP  tang  = PQ , hence on account of BP> PQ the interval BQ is required to be positive. These follow so that the body ABCD placed on the plane EF remains at rest : first it is
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1053
+
+required, that the vertical OQ falls within the base AB, and then that the tangent of the angle of inclination F is less than  .
+
+COROLLARY 1 988. Therefore we hence come upon the most easy way of investigating friction or the fraction ; for the plane EF is raised to that point, until the body on that begins to descent,
+and the tangent of the maximum angle F, at which the body even now remains at rest, gives the value of the fraction .
+
+COROLLARIUM 2
+
+989.
+
+But
+
+if
+
+
+
+=
+
+1 3
+
+,
+
+the
+
+body
+
+meanwhile
+
+remains
+
+at
+
+rest
+
+as
+
+long
+
+as
+
+the
+
+angle
+
+of
+
+elevation
+
+GFE
+
+does
+
+not
+
+exceed
+
+18°
+
+26'.
+
+But
+
+if
+
+the
+
+angle
+
+
+
+=
+
+1 4
+
+,
+
+this
+
+angle
+
+is
+
+required
+
+to
+
+be
+
+less
+
+than
+
+14°
+
+2',
+
+and thus in turn the value of  itself becomes know from this angle.
+
+COROLLARY 3 990. But in order that the body is at rest on the inclined plane, it is not sufficient that this shall be the case as long as tang GFE<  , but also the base of the body must be so great, in order that BP > OP  tang GFE or so that the angle BOP must be greater than the angle GFE.
+
+SCHOLIUM 991. In the figure there is shown the vertical section of the body made through the centre of inertia of the body O, which likewise is normal to the inclined plane ; in which because the line OP is perpendicular to that and OC is made in the direction of the progressive motion, which the weight is trying to impress on the body. But from what has been said it is evident that the progressive motion is restrained, if it should be the case that tang F <  . Now in order that a judgement can be made, whether the body can accept rotational motion, it is not sufficient to consider only the section ABCD and the base of this AB, since it can happen that the body nowhere in this section is pressing on the plane, but only contacts are present with the extremities of the body. Therefore then a general contact ought to be considered and discerned, and how rolling can originate about some line, which certainly is required to be decided on the base of the figure. But if hence irregular bodies are to be considered, as this judgement becomes exceedingly difficult, then it is agreed to consult experiment, or the body may be prone to rolling ; but indeed the former conclusion regarding the angle F remains, and by no means depends on this irregularity.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1054
+
+PROBLEM 4
+992. If the height of the incline plane EF should be greater than that, in order that the weight can continue at rest incumbent on that ABCD, to define the conditions, by which that by progressive motion alone shall begin to descend on the inclined plane EF.
+SOLUTION Let the mass and the same weight of the body be equal to M and the centre of inertia of
+this O as before (Fig. 128) and  the exponent of friction. Hence on calling the angle of elevation GFE =  then by hypothesis, tang  >  . Now from the force of gravity OQR = M we deduce that the pressing force on the inclined plane or the force OP = M cos and the force aiding the descent OC = M sin  . Therefore since the friction resisting that is equal to M cos , the body is actually made to descent from the excess of the forces
+M sin -  M cos = M (sin -  cos ) ,
+from which a progressive motion can be produced, as long as in addition no rolling motion is generated in the body. Hence we can see, under whatever conditions rotational motion of the body can be generated about a horizontal axis normal to the plane COP drawn through the centre of inertia O ; but at once also such a motion begins, the total pressing force M cos is transferred to B, thus in order that now the body is acted on by a force BM = M cos , and on account of friction by a force BA =  M cos , from which the moment generating the rotation in the sense BADC is then equal to
+ M cos OP - M cos  BP . Whereby least the body shall be liable to rotation, it is necessary that this quantity be negative and thus
+BP >   0 P or tang BOP >  .
+
+COROLLARY 1 993. Because the condition found tang BOP >  does not depend on the inclination of the inclined plane EF, if the body were not liable to rolling at a smaller inclination, also at the greater angle rolling should be feared.
+
+COROLLARY 2
+
+994.
+
+But
+
+if
+
+hence
+
+it
+
+should
+
+be
+
+that 
+
+=
+
+1 3
+
+,
+
+as
+
+long
+
+as
+
+the
+
+angle
+
+BOP
+
+is
+
+greater
+
+than
+
+18°
+
+26',
+
+the
+
+body starts no rolling motion, but either remains at rest descends by progressive motion alone
+
+on the inclined plane.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1055
+
+SCHOLIUM 995. But in this judgement for the point B , not necessarily the end in the section ABCD made through the centre of inertia O is to be taken, but on the whole base with which it makes contact, a line through the ends furthest away from the point P has to be understood, and the distance of this from P must be taken for the interval PB. [i. e. the section considered may not include the extreme distance, as mentioned above.]
+
+PROBLEM 5 996. If the body were prepared thus, so that no rolling should be feared, to determine the motion of the descent of this on the inclined plane EF.
+
+SOLUTION With the mass of the body and with the same weight equal to M and with the elevation of the plane above the horizon or with the angle GFE =  , in order that tang  >  , because
+
+otherwise remains at rest. Now in the time equal to t the body completes a distance on the
+
+inclined plane equal to s, with a motion of course increasing from rest, and because the accelerating force is equal to M sin , arising from gravity, and moreover with the
+
+retardation equal to M cos proceeding from friction, hence we obtain this equation :
+
+dds = M sin  - M cos
+
+2 gdt 2
+
+M
+
+= sin -  cos
+
+,
+
+and hence on integrating
+
+ds dt
+
+=
+
+2gt (sin
+
+-
+
+cos 
+
+),
+
+which is the speed of the body acquired in this time t, moreover the interval completed
+
+meanwhile s = gtt(sin -  cos ) .
+
+COROLLARY 1 997. Hence friction does not impede the body less from descending on the inclined plane with a uniform acceleration, since the speeds increase in the ratio of the times : truly the increase in a much smaller ratio ; indeed with the friction taken away there becomes s = gtt sin .
+
+COROLLARY 2
+
+998. If the time t is observed in which the given distance s should be completed, and likewise the elevation of the plane or the angle  were investigated, then the exponent of the friction
+
+ can be deduced ; then it becomes :
+
+
+
+=
+
+tang
+
+-
+
+s gtt cos
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1056
+
+SCHOLIUM 999. In this manner it is possible to investigate, whether for rest the same value of the exponent may be found, and with that for motion either faster or slower ; but experiments of this kind are uncertain, because a small error in the observation of the time t greatly disturbs what has been assembled. Then also now, an account has to be taken of the resistance of the air, which especially in rapid motions can become a notable attribute. Whereby nothing can anything be concluded with certainty unless taken from many more experiments of this kind set up with the greatest care. But lest the resistance of the air should cause a delay, it is agreed not to raise the plane much beyond the position of rest, because the effect of this in slower motions is minimal. Then again it is pleasing to find out how much the weight can affect the friction of the body by including a little amount of lead within the volume.
+
+EXAMPLE
+
+1000. We put the length of the table EF to be 6 Rhenish feet long [A Rhenish or German
+
+foot is almost 3% greater than an Imperial or English foot.] and with the time t to be
+
+observed, in which the body completes this total length on descanting, and we see how great a distinction in the time t must arise from friction with  changed for a little while. Therefore
+
+since
+
+g
+
+=
+
+15
+
+5 8
+
+Rhen.ft the descent time is
+
+t=
+
+125
+
+48 (sin -
+
+cos 
+
+)
+
+.
+
+We
+
+put
+
+
+
+=
+
+1 3
+
+and
+
+the
+
+angle
+
+C=
+
+20°,
+
+because
+
+it
+
+must
+
+satisfy
+
+tang
+
+
+
+>
+
+1 3
+
+,
+
+and
+
+the
+
+descent
+
+time
+
+is found t = 3,652 sec. or
+
+t
+
+=
+
+3
+
+2 3
+
+sec. approx.
+
+Now let 
+
+be
+
+a
+
+little
+
+amount
+
+greater,
+
+truly
+
+
+
+=
+
+1 3
+
++
+
+1 100
+
+with the angle remaining
+
+
+
+=
+
+20°,and the time is produced t = 4,45 =
+
+4
+
+9 20
+
+sec.
+
+But if it should be that
+
+=
+
+1 3
+
+-
+
+1 100
+
+with C= 20° remaining,
+
+the time is found t= 3,171 =
+
+3 l sec.
+6
+Therefore the part increased by one hundredth of unity in the value of  distinguishes
+
+between the time in that case by as much as
+
+4 5
+
+sec., from which it is necessary to be very
+
+attentive in the observation of the time. If the plane is attributed a smaller elevation , in order
+
+that the motion arising is slower, then it is doubtful, or that we are able to be more confidant
+
+from observations. For the lightest inequality in the surface is able to affect the descent a
+
+great deal, thus as if the same experiment is repeated a number of times, the phenomena will
+
+disagree a great deal. And because of this, although I have constructed here a calculation
+
+according to the hypothesis of stable friction, yet if we wish to unite with experiment the
+
+conclusions thus deduced, we must expect the agreement to be less than perfect.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1057
+
+CHAPTER 111
+PROBLEM 6 1001. To bring about the rotation of a body about a fixed axis through the centre of the body.
+SOLUTIO If the body should rotate about the axis GG, it is necessary that both sides are fitted out with terminating cylinders CEFD (Fig.129), which the middle axis GG passes through, thus in order that it is the axis of each cylinder ; and here indeed I take this axis GG passing through the centre of inertia of the body I, though the same structure is to be observed if the line GG must not pass through the centre of inertia of the body. Now it can be held fast in many ways so that this line GG should remain fixed on bearing the rotational motion. In the first place these end cylinders can be inserted into fixed rings of the same sizes, within which they are able to turn freely, at least with the exception of friction ; now if the size of the rings does not exceed the size of the cylinders CEFD, it is to be feared, lest on account of the exceedingly close fit that a huge resistance is produced, and if the ends of those cylinder ends swell up minimally, then all motion is restrained. Then the cylindrical ends on both sides can be placed in square channels MLN in the figure (Fig. 130), so that contact is made only at the three points E, H, F ; indeed the axis GG remains fixed while the body rotates within this cavity L. But lest in Fig.130 motion is exceedingly hindered, there is no need that both the vertical walls M and N touch the cylinder, but in turn they are able to be at a greater distance from each other. And once the body is rotating, the end cylinders are applied to each wall and likewise, as if the other should be absent; which thus is added only so that the body, if perhaps it rotates in the opposite sense, itself in an equal manner can be applied to that. In the third place the end cylinders also with a cavity MLN on both sides, formed from two inclined planes ML and NL, can be put in place (Fig.131); in this manner contact is always made at the two points E and F and with the axis GG remaining at rest ; as long as the inclination of these planes is such that the end cylinders are not able to rise up on these, which condition we investigate next.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1058
+
+In the fourth place both end cylinders can be placed at the base of a hollowed­out circular figure MLN (Fig. 132), upon which the body thus presses while at rest, in order that the contact is made at the lowest point H. But when it is rotating, the contact is made at some other raised point, which since it remains the same always, as we have shown, the axis GG remains at rest, as long as the rotational motion endures in the same sense. Here it suffices that the radius of the circle MLN should be greater than the radius of the end cylinders, but the depth attributed to this cavity must be so great, in order that it is not to be feared that the body leaps out above the edges M and N.
+
+COROLLARY 1 1002. While the body rests in this manner in such cavities at each end, because of its weight it presses upon these ; and if the centre of inertia I is situated in the middle, the pressing force is exerted equally at each end, but if it should not be in the middle, the pressing forces are equal to the inverse distances, thus so that the sum is equal to the whole weight.
+
+COROLLARY 2 1003. But if moreover the body is rotating, the pressing force no further depends only on the weight of the body, but on account of the friction itself it is changed and thus it must thus be determined on account of the friction, from which finally in the furthest case the point of contact is to be determined.
+
+SCHOLIUM 1004. Also the body is exceedingly disturbed by forces, both the pressing force as well as friction while it is rotating, in addition to gravity acting. Whereby in which we set out to treat this argument clearly, at first in the mind we can remove forces of this kind and consider the body only with weight, and initially rotational motion should be impressed on this ; and we consider how much it must be retarded on account of friction. Then also indeed we take the axis of rotation GG to pass through the centre of inertia I of the body and with both ends equally distant , thus in order that both sides are similar to each other. But in order that the oblique forces do not disturb the calculation, we put in place the line GG likewise to be a principal axis of the body. Indeed it is seen by little deliberation, by attributing an exceedingly irregular shape to the body, to involve our investigations in more difficult calculations, since at this point the principles of stability themselves are sufficient for explaining these cases, if for which one is willing to undertake the labour. Moreover the case represented in fig. 130 is contained in fig. 131, while one plane is vertical and the other horizontal; indeed also we will see that the next case in fig.132 can be decided from that.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1059
+
+PROBLEM 7 1005. If the end cylinders of the body (represented in fig. 129) are held in place on both sides by two planes ML and NL inclined in some manner (Fig.133) and the body is set to rotate with some speed, to define the friction and its effect on slowing the body down.
+SOLUTION Because we assume the centre of inertia I to be placed in the middle of the axis GG,
+everything is equal about both sides of the end cylinders. Therefore let the radius of the base of the cylinder for one be GE = GF = f and the points of contact at E and F. With the vertical GH drawn the angles are put as EGH =  and FGH =  , from which the position of the planes ML and NL can be determined; then the body now in the elapsed time t can rotate in the sense EF with an angular speed equal to  ' , which initially is equal to  . Hence because this part of the body is held in place at the points E and F, let E and F be the pressing forces, with which the body is leaning on the planes, and in turn is acted on along the directions normal to that EG and FG. Again the friction at the points E and F, were it is rubbing, thus exerts itself, so that at E the body is acted on by a force along E M =  E and at F by a force along FL =  F , thus in order that from this part four forces are obtained :
+the force EG = E, the force EM =  E, the force FG = F , the force FL =  F ,
+and with the same total parts from the other side. Hence the mass and the same weight of the body is put equal M, because all progressive motion is excluded, these forces applied to the centre of inertia must mutually destroy each other. But from these four there is deduced the force tending vertically upwards
+E cos + F cos +  E sin -  F sin
+and the horizontal force to the right
+E sin - F sin -  E cos -  F cos ,
+where this latter force must vanish, but the other force is equal to half the weight of the body. Hence we obtain :
+E sin - F sin =  ( E cos + F cos )
+and
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1060
+
+and thus and from which there is elicited
+
+(1+ 
+
+)(E
+
+cos 
+
++
+
+F
+
+cos )
+
+=
+
+1 2
+
+M
+
+E cos
+
++
+
+F
+
+cos
+
+=
+
+M
+2(1+ )
+
+E
+
+sin 
+
+-
+
+F
+
+sin
+
+=
+
+M
+2(1+ )
+
+E
+
+=
+
+M (sin + cos ) 2(1+ ) sin( + )
+
+,
+
+F
+
+=
+
+M (sin - cos ) 2(1+ ) sin( + )
+
+,
+
+where it is to be noted at once that, since the forces E and F cannot be negative, it is required that sin >  cos or tang  >  .
+Now finally the moments arising from the friction are deduced, which are
+
+
+
+(E + F)
+
+f
+
+=
+
+M
+
+f (sin +sin - cos + cos )
+
+2(1+ ) sin( + )
+
+,
+
+the double of this is required for the motion. Whereby if the moment of inertia of the body about the central axis GG is equal to Maa, then we have this equation :
+
+and on integrating :
+
+d ' 2 gdt
+
+=
+
+-
+
+f
+
+(sin +sin - cos + 2(1+ ) sin( + )
+
+cos )
+
+
+
+'
+
+=
+
+
+
+-
+
+2
+
+fgt(sin +sin (1+ )aa
+
+- cos +
+sin( + )
+
+cos
+
+)
+
+.
+
+COROLLARY 1 1006. From which the smaller f should be or in which the end cylinders become more slender, the effect of friction on that is less. But it is not permitted to diminish these ends as you please, since it is required that these be strong enough to be bearing a load, and it must follow that the quantity f accounts generally for half the weight.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1061
+
+COROLLARY 2 1007. If it should be that  = 90° and  = 0°,which is the case in fig. 130, the moment of
+
+the friction is equal to
+
+M (1+ ) f
+1+
+
+;
+
+but if it should be the case that  =  or the planes ML and NL are inclined equally to the
+
+horizontal, then the moment of friction is given by :
+
+M f sin
+(1+ ) sin 2
+
+=
+
+M f
+(1+ ) cos
+
+,
+
+where it must be the case that tang  >  .
+
+COROLLARY 3 1008. But the smallest moment of friction arises on taking tang  =  ,
+for then on account of F = 0 it follows that
+
+E
+
+=
+
+M
+2(1+ ) cos
+
+=
+2
+
+M
+(1+ )
+
+and thus the moment of the friction is equal to M f .
+(1+ )
+
+Hence in this case the body leans on the plane ML alone and the other plane NL does not come into the calculation.
+
+COROLLARY 4 1009. Hence the case in fig. 132 is easily explained, for whatever the shape of the cavity MLN shall be. Indeed the end cylinders are applied at the point O, where touching with the horizontal it makes an angle, the tangent of which is equal to , and then the moment of the friction is equal to M f .
+2 (1+ )
+SCHOLIUM 1010. Hence the end cylinders thus are agreed to be supported, in order that the contact on both sides becomes a single point, as then the smallest moment of the friction is returned; which these in the end it is established with the cavities MLN (Fig.132) put in place, which in the form of semicircles hollowed out with not much greater a width, so that the position obtained in motion does not disagree much with the resting position. Then indeed it is required to make these cylinders of the maximum thinness, indeed of such a stiffness on account of the weight it is permitted to be carried. Besides also these ends are accustomed to be lubricated with some oil substance or another, by which the friction is diminished more and a smaller value of the fraction may be acquired. Yet meanwhile in this case that we have considered, the motion soon comes to an end, because in the elapsed time
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1062
+
+t
+
+=
+
+2
+
+ (1+ )aa sin( + ) fg(sin +sin - cos +
+
+cos
+
+)
+
+.
+
+But when the forces are called upon to conserve the motion, the magnitudes of these can be defined from the same principles, in order that the motion remains uniform. Since also machines of this kind, while they are engaged in rotation, are usually constructed to raise loads, which operation is performed with a uniform motion, and there is a need for such forces which are able to overcome not only the resistance of the load but also the friction ; which case explain here, since in everyday life it occurs the most often.
+PROBLEM 8 1011. If the cylinder in (fig. 129) is put to use in lifting a certain load, to determine the forces to be applied to this, in order that on account of the friction in place, the motion is performed uniformly.
+SOLUTION Either end cylinder, the radius of which GE = GF = f rests between two inclined planes ML and NL (Fig.134), which makes angles  and  with the horizontal, to which the angles are equal to those which the radii GE and GF make at the points of contact E and F, with the line GH drawn to the vertical. But while the body is rotating in the sense EF, with the help of a rope wound round the middle it raises a weight equal to Q, which resists being moved along the vertical direction SQ by its own weight equal to Q, by a horizontal lever GS = s. Then the normal force RP = P is applied continually to the radius
+GR = r, inclined to the vertical GA by the angle AGR =  , and the magnitude of this is required, in order that the motion remains uniform with angular speed arising about the axis GG equal to  ; [i. e. we are looking at a form of windless, where RG is the radius of the handle, and GS the radius of the central cylinder.] But if now the weight of the body, passing through the centre of inertia of the axis GG, is put as before equal to M and the forces, that either end cylinder is repulsed by the planes, on which it rests at E and F, along EG = E and along FG = F, from which friction arises along EM =  E and along FL =  F , we have seen above that the force hence arising tending vertically upwards is
+E cos + F cos +  (E sin - F sin) ,
+
+and the horizontal force to the right is equal to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1063
+
+E sin - F sin -  (E cos + F cos) ,
+which on account of two end cylinders is required to be doubled . Next from the weight of the body we have the vertical force pushing downwards equal to M and from the load to be raised the force is equal to Q. From the force P there now originates a force acting downwards equal to P sin and a horizontal force to the left equal to P cos ; which forces mutually between themselves must destroy each other, and we obtain these equations :
+
+E cos
+
++
+
+F
+
+cos
+
++
+
+(E
+
+sin 
+
+-
+
+F
+
+sin )
+
+=
+
+1 2
+
+M
+
++
+
+1 2
+
+Q
+
++
+
+1 2
+
+P sin ,
+
+E sin
+
+-F
+
+sin - 
+
+( E cos
+
++ F cos ) =
+
+1 2
+
+P cos ,
+
+from which we deduce that
+
+E cos
+
++
+
+F
+
+cos
+
+=
+
+M +Q+ P sin - P cos
+2(1+ )
+
+,
+
+E
+
+sin 
+
+-
+
+F
+
+sin
+
+=
+
+M
+
++Q + P sin + P cos
+2(1+ )
+
+and hence again
+
+E
+
+=
+
+M (sin +
+
+cos )+Q(sin +
+
+cos )+ P(sin + cos ) sin + P(cos - 2(1+ ) sin( + )
+
+sin ) cos
+
+,
+
+F
+
+=
+
+(M
+
++Q+P
+
+sin )(sin - cos )-P(cos 2(1+ ) sin( + )
+
++
+
+sin 
+
+) cos 
+
+.
+
+Now in addition, because we wish to describe uniform motion, the moments of the forces about the axis of rotation must destroy each other. But the accelerating moment is equal to Pr, and the opposing moments are equal to 2 (E + F ) f + Qs , from which it is necessary that
+
+and thus Pr ­ Qs =
+
+Pr = 2 (E + F ) f + Qs
+
+ (M +Q+ P sin )(sin +sin - cos + cos )+ P(cos -cos - sin - sin ) cos
+
+2(1+ ) sin( + )
+
+f
+
+and hence the force acting P is enabled to be defined. But if now we put the end cylinders to be supported in circular cavities, so that the contact is made at a single place, where clearly the tangent is inclined to the horizontal by an angle equal to  , then F = 0 and thus
+
+(M + Q + P sin -  P cos ) tang  =  (M + Q + P sin ) + P cos
+
+and
+
+E
+
+=
+
+M
+
++Q+ Psin - Pcos 2(1+ )cos
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1064
+
+From which it is deduced,
+
+P
+
+=
+
+(M +Q)( -tang  ) (sin - cos )tang  -cos
+
+-
+
+sin
+
+with which value put in place in the last equation, which becomes Pr - Qs = 2 EF , there is produced :
+( M + Q ) f cos = ( M + Q ) r (sin -  cos )
++ Qs ((sin - cos )) sin - (cos +  sin cos ),
+
+where if we put  = tang  , this equation becomes :
+(M + Q)f sin  cos = (M + Q) r sin ( -  ) - Qs cos ( + -  ) ,
+
+from which the angle  can be elicited ; from which found then
+
+P
+
+=
+
+(M +Q)f
+cos(
+
+sin( - + - )
+
+)
+
+or
+
+P
+
+=
+
+Qs r
+
++
+
+(M +Q)f sin  cos
+r cos( + - )
+
+.
+
+COROLLARY 1 1012. If the end cylinders rest in a single place in the hollow of a rounded trough, with the value substituted for P the pressing force is produced at that place
+
+E
+
+=
+
+(M +Q) cos 2(1+ )cos  cos( + - )
+
+=
+
+(M +Q) cos  cos 2 cos( + - )
+
+on putting = tang  . Hence this pressing force vanishes in the case cos = 0 , unless likewise there arises cos ( +  - ) = 0 .
+
+COROLLARY 2 1013. But on putting  = 90° then
+(M + Q) r sin ( -  ) + Qs cos ( -  ) = 0 ,
+from which case there becomes  =  or tang  =  and
+
+But since there is then
+
+P
+
+=
+
+Qs r
+
++
+
+(M
+
++Q)f r
+
+sin 
+
+
+
+0 0
+
+E
+
+=
+
+M +Q+P 2(1+ )cos
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1065
+
+Pr -
+
+Qs
+
+=
+
+ (M +Q+P) f (1+ ) cos 
+
+=(M +Q+P)f
+
+sin 
+
+and
+
+P
+
+=
+
+Qs + (M r-
+
++Q) fsin fsin
+
+COROLLARY 3 1014. If we put  = - 90°,in the first place on account of F = 0 we have
+(M + Q - P) tang  =  (M + Q - P) ,
+
+then now since
+
+E
+
+=
+
+M +Q-P 2(1+ )cos
+
+,
+
+then
+
+Pr
+
+-
+
+Qs
+
+=
+
+ f (M +Q-P)
+(1+ )cos
+
+.
+
+Whereby if there is taken P = M +Q, both the pressing force and the friction thus vanish, and
+
+it
+
+is
+
+required
+
+to
+
+take
+
+r
+
+=
+
+Qs M +Q
+
+.
+
+COROLLARY 4 1015. Moreover unless in this case  = - 90°,there is put in place P = M + Q, then
+
+tang =  and Pr - Qs =  f (M +Q-P) = f ( M + Q - P) sin 
+(1+ )
+
+and hence
+
+P
+
+=
+
+Qs + (M r+
+
++Q) fsin fsin
+
+But r thus is required to be taken, so that the value of E does not become negative. For in this case it becomes supported from the opposite and there friction arises.
+
+SCHOLIUM 1 1016. Hence in this manner friction can be completely removed, the force P thus on being applied, so that equilibrium can be established for the weight of the body M and the load Q. Now here the case appears to be of some use in practice, because the end cylinders within their circular channels, which themselves are required to be larger, hence and this CAE might show signs of weakness, by which inconvenience the motion might be hindered more than by friction. Then truly most machines of this kind are accustomed to be set up, in order that the force P acting is much smaller that the load to be lifted Q, and thus much more P < M +Q. If indeed we require the force of the load and the hindering forces to be equal, the business can be completed without machines, thus there is little wonder in this case of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1066
+
+friction to be able to obtain a gain. And if the force P is taken as given, from our formulas r is elicited, for the place of application ; from which if the angular speed of the machine is equal to  , the load is raised at a speed  s , now the force acting is driven with a speed equal to er. Hence unless the force of friction hinders the motion, the relation P r = Q s exists, but now
+on account of friction, then P r - Q s = 2 Ef ; where it is agreed to denote the action of the
+force acting by P r , and Q s now is the magnitude of the effect produced in one second,
+since  r and  s are the distances completed in one second. Now these are to be referred to the theory of machines, which it is appropriate to treat separately. [Thus the principles of work and power for machines were well­known at this time, though they did not appear under these names.]
+
+SCHOLIUM 2 1017. If the force acting P with the angle  should be given and there is sought the distance of the application or the length of the lever GR = r, from the first equation there is deduced at once the angle, or the point E, were the contact should be made in the cavity, clearly :
+
+tang 
+
+=
+
+ (M +Q+ P sin )+ P cos (M +Q+ P sin - P cos )
+
+;
+
+to the knowing of which the two angles  and  are put in place, in order that
+
+and hence
+
+tang  = 
+
+and
+
+tang
+
+
+
+=
+
+M
+
+P cos +Q+ P sin
+
+tang
+
+
+
+=
+
+tang  1- tang
+
++tang   tang 
+
+and thus 
+
+= + .
+
+From which it is apparent to be the case that  >  , if cos > 0 , that is, if the line GR is inclined upwards, but if it is directed downwards, then  <  , in which case it is possible to occur that the contact is made at the lowest point , clearly if should happen that
+
+P
+
+=
+
+ (M +Q) - cos - sin
+
+.
+
+Then indeed we have the pressing force
+
+E
+
+=
+
+(M
+
++Q+P
+
+sin - P cos 2 cos(  + )
+
+) cos2
+
+
+
+or
+
+( ) E
+
+=
+
+P cos  cos 2 sin
+
+=
+
+1 2
+
+cos
+
+(M + Q)2 + 2P(M + Q) sin + PP
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1067
+
+and hence finally it is concluded that the length of the lever
+
+( ) GR
+
+=
+
+r
+
+=
+
+Qs P
+
++
+
+f
+
+sin  P
+
+
+
+(M + Q)2 + 2P(M + Q) sin + PP .
+
+Therefore in order that, for the same force acting P, both the pressing force E and thus the friction become smallest, then the angle is required to be equal to ­ 90° or the lever GR it taken to agree with the radius GS, in which there becomes, as we have now seen,  = 0 and
+
+hence
+
+ =
+
+and
+
+E
+
+=
+
+1 2
+
+(M
+
++
+
+Q
+
+-
+
+P) cos 
+
+and
+
+GR
+
+=r
+
+=
+
+Qs P
+
++
+
+f (M +Q-P) sin 
+P
+
+Now we shall investigate the motion of a pendulum also, with the end cylinders suspended in a like manner, which clearly rest at both ends on two inclined planes ; and because this motion is reciprocating, it is agreed that planes are equally inclined to the horizontal.
+
+PROBLEM 9 1018. If the pendulum is oscillating around a fixed horizontal axis, the end cylinders of this are resting at both sides on two planes inclined equally, to define the motion of this disturbed on account of friction.
+
+Let AEBF be the base of either end cylinder, which rest on the planes ML and NL with an angle of inclination to the horizontal equal to  (Fig. 135), the points of contact are at E and F, so that the radii GE and GF make angles equal to 
+with the vertical ABLH , which likewise are had for the other side, so that the axis of rotation is the horizontal line GG. Again let the shape of the pendulum on each side be the same, and now in the elapsed time t let the centre of inertia I of the pendulum be declined from the vertical position by the angle HGI =  , from which to the vertical position it approaches with an angular speed equal to ' , thus in order that the motion
+is made in the sense EBF. Let the total mass and likewise the weight of the pendulum be equal to M, with the distance GI = h, and its moment of inertia about the axis of rotation GG be equal to Mkk. Hence because it is drawn by the action of gravity , the whole weight M is allowed to be considered to be gathered together at I.
+Now the radius of the ends of the end cylinders is put as GE = GF = f and the forces by which they are supported by the planes, are along EG = E and along GF= F; from which the friction forces are along EM =  E and along FL =  F .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1068
+
+Moreover from these forces as above in § 1005, where  =  , there arise in the first place the force pointing vertically upwards equal to
+(E + F ) cos +  (E - F ) sin
+
+and the horizontal force towards the right equal to (E - F) sin -  (E + F ) cos .
+
+But the weight presents a force directed downwards equal to M. From which for the progressive motion or for the motion of the centre of mass I we have in the first place the force directed vertically downwards :
+M - 2(E + F ) cos - 2 (E - F ) sin = P
+
+and the horizontal force acting to the right : 2(E - F ) sin - 2 (E + F ) cos = Q .
+
+But the motion of this, since the speed of the centre of inertia is equal to h ' , the vertical
+
+speed directed downwards is equal to h ' sin and the horizontal speed directed to the right is
+
+equal to h 'cos , from which we deduce :
+
+hd
+
+'
+
+sin +h ' 2 gdt
+
+d
+
+cos 
+
+=
+
+P M
+
+and
+
+hd
+
+'
+
+cos -h 2 gdt
+
+'
+
+d
+
+sin
+
+
+
+=
+
+Q M
+
+,
+
+where we have  ' dt = -d . Then since the body is rotating about the fixed axis GG, about
+
+this the moment of the forces to be producing the is equal to
+
+then there is obtained:
+
+Mh sin - 2 (E + F ) f ,
+
+d ' 2 gdt
+
+=
+
+Mk sin -2 (E + F )f Mkk
+
+.
+
+Which value, if it is substituted in these equations, we have
+
+Mhh sin2  -2 ( E + F ) fh sin - h '  ' cos
+
+Mkk
+
+2g
+
+=
+
+P M
+
+Mhh sin cos -2 ( E + F ) fh cos Mkk
+
++
+
+h '  ' sin 2g
+
+=
+
+Q M
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1069
+
+and hence
+
+Mhh sin2  -2 ( E + F ) fh = P sin +Q cos et h '  ' = Q sin -P cos ,
+
+Mkk
+
+M
+
+2g
+
+M
+
+from which quantities the pressing forces E and F must be defined. But since there shall be
+
+P +  Q = M - 2(1+  )(E + F )cos ,
+
+then M - 2(1+  )(E + F )cos
+
+= Mhh sin(sin + cos )-2 ( E + F ) fh(sin + cos ) - Mh '  '(cos - sin )
+
+kk
+
+2g
+
+and hence
+
+2(E + F )((1+  )kk cos -  fh (sin +  cos ))
+
+=
+
+Mkk
+
+-
+
+Mhh
+
+sin
+
+( sin 
+
++
+
+
+
+cos 
+
+)
+
++
+
+Mhkk
+
+'
+
+
+
+' ( cos 
+2g
+
+-
+
+sin )
+
+,
+
+from which the value of E +F substituted presents
+
+d ' 2 gdt
+
+=
+
+(1+ (1+
+
+)h cos
+
+sin -
+
+f
+
+-  fh '  ' (cos - sin ) 2g
+
+)kk cos - fh '  '(sin + cos )
+
+,
+
+from which equation it is possible to determine the motion of the pendulum with the aid of the formula  ' dt = -d .
+
+COROLLARIUM 1 1019. There is no doubt that the pressing force E is positive ; but the pressing force at F is determined in the following manner :
+
+2F ((1+  ) sin 2
+
+-
+
+2
+
+fh sin kk
+
+sin
+
+-
+
+2 fh kk
+
+sin 
+
+cos  )
+
+= M ( sin -  cos
+
++
+
+ fh kk
+
+cos) -
+
+Mhh sin kk
+
+(cos(
+
+-) +  sin(
+
+-  ))
+
++
+
+Mh '  ' 2g
+
+( sin (
+
+-) -  cos(
+
+-) +
+
+ fh kk
+
+),
+
+[The first negative sign in this equation is positive in the first edition, and has been corrected
+
+in the O.O by C. B.] from which the value of F must be made positive, which occurs, while tang  >  with the
+
+angle  present is small.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1070
+
+COROLLARY 2 1020. If the friction should be zero or  = 0 , there becomes
+
+d ' 2 gdt
+
+=
+
+hsin kk
+
+,
+
+from which the motion of pendulums defined above is easily extricated, moreover for the
+
+pressing forces E and F we have these equations :
+
+2(E + F ) kk cos
+
+=
+
+M
+
+(kk
+
+-
+
+hh
+
+sin2
+
+
+
++
+
+hkk
+
+'' 2g
+
+cos
+
+
+
+)
+
+and
+
+2Fk 2 sin 2
+
+=
+
+M
+
+ 
+
+kk
+
+sin 
+
+- hh sin cos (
+
+-)+
+
+hkk '  ' sin( - ) 
+
+2g
+
+
+
+and also
+
+2Ek 2 sin 2
+
+=
+
+M
+
+ 
+
+kk
+
+sin 
+
++ hh sin cos (
+
++)+
+
+hkk
+
+'
+
+
+
+' sin(
+2g
+
++
+
+)
+
+ 
+
+,
+
+in order that each is positive, there has to be :
+
+tang 
+
+>
+
+2ghh sin cos +hkk '  ' sin 2gkk -2ghh sin2  +hkk '  ' cos
+
+,
+
+where it is to be observed that kk> hh.
+
+COROLLARY 3
+
+1021. The differential equation found on account of
+
+dt
+
+=
+
+-
+
+d '
+
+assumes the form
+
+0 =  ' d ' ((1+  )kk cos -  fh( sin +  cos)) -  fh '  ' d( cos -  sin)
+
++ 2 (1+  )ghd cos sin - 2 fgd ,
+
+which multiplied by (1+  )kk cos -  fh( sin +  cos) is made integrable, and produces
+C =  '  ' ((1+  )kk cos -  fh( sin +  cos))2
+ + 4g d ((1+  )h cos sin -  f )((1+  )kk cos -  fh( sin +  cos)) .
+
+SCHOLIUM 1022. If we work out this integral, we come upon
+C =  '  ' ((1+  )kk cos -  fh( sin +  cos))2 - 4(1+  )2ghkk cos2  cos -  (1+  )fghh cos (2 - sin 2 -  cos 2 ) - 4  (1+  )fgkk cos - 4 ffgh (cos -  sin ) .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1071
+
+Whereby if we take the initial angle HG1 to be equal to  and thus the pendulum begins to descend from rest, the constant C is thus defined, so that it becomes
+
+C = -4(1+  )2 ghkk cos2  cos -  (l +  ) fghh cos (2 - sin 2 -  cos 2 )
+- 4 (1+  ) fgkk cos - 4 ffgh (cos -  sin ) ,
+with which value substituted the pendulum ascends in the other part as far as that, until again there arises  ' = 0 . Now this determination is not allowed to be supported in general. Now
+neither can we resolve the problem itself in the broadest sense, in order that all pendulums of any shape become well known, but in the first place we will assume two end cylinders each equally distant from the centre of gravity; then also we put in place such a structure, so that the line drawn through the centre of inertia I parallel to the axis of rotation GG likewise is a principal axis of the body. Unless which condition is put in place, it is not permitted for the moments of the forces to be immediately transferred to the axis of rotation GG, but also and account has to be had of the oblique forces, which produce unequal pressing forces at the ends of the axis GG and thus the formulas produced become much more complex. Therefore in order that we can conclude anything regarding the use, we must put in place small oscillations, and we can investigate with care how the motion of these is disturbed by friction.
+
+PROBLEM 10 1023. We assume as in the previous problem, that if the pendulum suspended in this manner performs small oscillations, then we are to determine the motion of these disturbed by friction.
+
+SOLUTION Everything remains, as we have set up as in the preceding problem, and if initially the pendulum is declined at the angle HG1 =  , from which it begins to descend from rest, moreover in the elapsed time t the angle HG1 becomes equal to  and the angular speed in the sense IH is equal to  ' , in the present circumstances for the hypothesis, the angles  and  are the smallest, which hence in place of the sines and cosines thus it is introduced,
+that the powers of these higher than the square are rejected. Hence the equation of the integral in the preceding paragraph elicited can be put in this form :
+
+( ) ( ) C =  '  '
+
+(1+  )kk cos
+
+-
+
+fh(
+
++
+
+-
+
+1 2
+
+
+
+)
+
+2
+
+- 4(1+  )2ghkk cos2 
+
+1
+
+-
+
+1 2
+
+
+
+( ) +  (1+  )fghh cos
+
+(1- 2 ) - 4
+
+ (1+  )fgkk cos
+
+- 4
+
+ffgh
+
+1- 
+
+-
+
+1 
+2
+
+,
+
+where the constant
+
+( ) C = -4(1+  )2ghkk cos2 
+
+1
+
+-
+
+1 2
+
+
+
++  (1+  )fghh cos (1- 2 )
+
+( ) -4 (1+  )fgkk cos
+
+- 4 ffgh
+
+1
+
+-
+
+
+
+-
+
+1 2
+
+
+
+.
+
+Therefore with the equation worked out we obtain these terms:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1072
+
+ '  ' ((1+  )kk cos -  fh)2
+( ) = 2gh (1+  )2kk cos2  - (1+  )fh cos +  ff ( - ) =
+- 4 fg ((1+  )kk cos - fh)( - ) ,
+where in the coefficient of  '  ' the angle  is to be ignored, because in the working it leads to higher powers. Towards resolving this equation for the sake of brevity we can set in place:
+
+in order that
+
+(1+  )kk cos -  fh = A , (1+  )2 kk cos2  -  (1+  ) fk cos +  ff = B ,
+AA '  ' = 2Bgh ( - ) - 4Afg( -),
+
+from which on putting  ' = 0 we find, while the pendulum is ascending, it is lead to rest again. But on division by 2g( -) put in place there arises
+
+Bh( + ) - 2A f = 0
+
+and hence
+
+
+
+=-
+
++
+
+2 A f Bh
+
+,
+
+or
+
+at
+
+the
+
+other
+
+side
+
+beyond
+
+H
+
+it
+
+ascends
+
+only
+
+through
+
+the
+
+angle
+
+
+
+-
+
+2
+
+A Bh
+
+f
+
+. Again in the
+
+investigation of the duration of this oscillation, since
+
+' =
+
+(2Bgh( - )-4 A fg( - ))
+A
+
+=
+
+-
+
+d dt
+
+,
+
+then
+
+dt =
+
+Ad
+
+(2Bgh( - )-4A fg( - ))
+
+or
+
+dt =
+
+Ad
+
+,
+
+2g( - )(Bh( - )-2 A f )
+
+from which integrated it is deduced that :
+
+t=
+
+A 2Bgh
+
+ Acos
+
+Bh - A Bh - A
+
+f f
+
+.
+
+Now there is put in place
+
+
+
+=
+
+-
+
++
+
+2 A Bh
+
+f
+
+or Bh - A f = -Bh + A f ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1073
+
+then the time of a whole oscillation is equal to  A ; which hence does not depend on the
+2Bgh
+amplitude of the oscillation, thus so that likewise if no friction should be present, all the smallest oscillations remain isochronous. But not to be completed in an equal time. But how much friction disturbs the time of each oscillation, the value is sought if we consider the thickness of the end cylinders or f as a minimum, that is
+
+and thus
+
+1 B
+
+=
+
+1
+(1+ )k cos
+
++
+
+ fh
+2(1+ )2 k3 cos2 
+
+A B
+
+=k
+
+-
+
+ fh
+2(1+ )k cos
+
+,
+
+whereby the time of one oscillation is equal to
+
+=
+
+ 2 gh
+
+ 
+
+k
+
+-
+
+ fh
+2(1+ )k cos
+
+ 
+
+,
+
+from which it is apparent on account of the friction for the time of the oscillation to be lessened.
+
+COROLLARY 1 1024. If the radius of the end cylinders f should be exceedingly small when compared with the quantities h and k, then approximately, B = A(1+  ) cos . Hence if the first arc of
+
+descent is equal to  , then the following arc of ascent is equal to
+
+
+
+-
+
+2 f
+(1+ )h cos
+
+
+
+,
+
+which likewise is the arc of descent in the second oscillation.
+
+COROLLARY 2 1025. Hence the successive oscillations are found in the following manner :
+
+In oscillation one
+two
+three
+four
+
+the descending arc 
+
+2
+
+-
+
+2 f
+(1+ )h cos
+
+
+
+
+
+-
+
+4 f
+(1+ )h cos
+
+
+
+
+
+-
+
+6 f
+(1+ )h cos
+
+
+
+the ascending arc
+
+
+
+-
+
+2 f
+(1+ )h cos
+
+
+
+
+
+-
+
+4 f
+(1+ )h cos
+
+
+
+
+
+-
+
+6 f
+(1+ )h cos
+
+
+
+
+
+-
+
+8 f
+(1+ )h cos
+
+
+
+the whole arc
+
+2
+
+-
+
+2 f
+(1+ )h cos
+
+2
+
+-
+
+6 f
+(1+ )h cos
+
+2
+
+-
+
+10 f
+(1+ )h cos
+
+2
+
+-
+
+14 f
+(1+ )h cos
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1074
+
+COROLLARY 3
+
+1026. As long as the oscillations endure, so the arcs of the ascents remain positive. And
+
+indeed at once they both vanish and avoid becoming negative, all the motion ceases. And in
+
+order that the motion arises, it is necessary that  > A f ; if indeed  = or < A f , the
+
+Bh
+
+Bh
+
+pendulum on account of friction is restrained at rest, although it keeps an inclined position.
+
+COROLLARIUM 4
+
+1027. Hence in order that the pendulum performs at any rate one oscillation, it must be the
+
+case that  >
+
+A f Bh
+
+with
+
+A B
+
+=
+
+1
+(1+ )
+
+cos 
+
+arising; in order that it performs two oscillations, it
+
+must be the case that for three,
+
+
+
+>
+
+3A f Bh
+
+,
+
+
+
+>
+
+5A f Bh
+
+,
+
+and in general, in order that it performs n oscillations, it must be the case that
+
+>
+
+(2n-1) A
+Bh
+
+f
+
+.
+
+Now this number n is not permitted to be taken greater, in order that the angle at this stage
+
+remains small.
+
+SCHOLIUM 1
+
+1028. As for the diminution of the times of the single oscillations, it is helpful to note that
+
+kk h
+
+indicates
+
+the
+
+distance
+
+of
+
+the
+
+centre
+
+of
+
+oscillation
+
+from
+
+the
+
+axis
+
+of
+
+rotation,
+
+which
+
+if
+
+it
+
+is
+
+put equal to l, then the time of a single oscillation is equal to
+
+l 2g
+
+1 -
+
+ f
+2(1+ )l cos
+
+ 
+
+.
+
+But here at first it must be taken that tang  >  , in order that the axis GG remains fixed in
+
+its position. Whereby if it should be that l = 3 feet, in which case the pendulum, unless
+
+obstructed by friction, completes the single oscillation in a time of nearly one second, but the
+
+radius of the small axis may be given by
+
+f
+
+=
+
+1 500
+
+feet, if now there is taken
+
+
+
+=
+
+1 3
+
+and 
+
+= 20o ,
+
+then the time of a single oscillation becomes
+
+( )  l 2g
+
+1
+
+-
+
+1 28191
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1075
+
+thus in order that on account of friction at last after 28191 completed oscillations or after nearly 8 hours, an error of one second is produced. With this in the same case, in order that the pendulum can perform n oscillations, before it is reduced to rest, it must be that
+
+ > 2n -1 or  > 43,905(2n -1) sec. of arc.
+4698
+
+[There is an arithmetical error in the first edition, corrected in the O. O by C. B.] Whereby if 100 oscillations are to be completed, first the inequality  > 8737" is taken or
+
+ > 2° 25' 37" . But if hence  is taken equal to 5°, then the pendulum performs 205
+
+oscillations, before it is reduced to rest. If f is greater or less than
+
+1 500
+
+, the effect of friction
+
+emerges greater or less in the same ratio.
+
+SCHOLIUM 2 1029. Since now we have determined the motion of bodies about a fixed axis, we can proceed to other kinds of motion, in which the body is abraded against a certain surface while moving. Therefore here especially the shape of body must be considered, in as much as successively other and still other parts of the surface are applied; where indeed at first bodies of this kind are introduced, which touch the surface only at the same single point always. This clearly is the case for tops ending in a point, by means of which they press on the surface continually, and for which it is agreed to define the motion in terms of the extent it is disturbed by friction at the point. Next there occur bodies, which indeed touch the surface at a single point, but which point is varied continually, as happens if balls or other spherical bodies are moving on a certain surface, and in addition to progressive motion they bear some kind of rotational motion. With these cases, the direction of motion must be known in determining the effect of friction, by which the contact point abrades on the surface, which is to be considered at some instant, for which clearly the direction of the force of friction is opposite to this motion. The cases follow, in which indeed the body touches the surface with the same base, as happens in progressive motion, but where likewise the body is rotating about an axis normal to the base, thus in order that the base is performing rotations on the surface. Again we can progress to the motion of cylindrical bodies on plane surfaces, where the contact always becomes a straight line, from the motion of this and from the pressing force friction is to be defined. Moreover bodies which have angular shapes of such a kind, that while they move, other and still other faces are applied to the surface; since there is such a conflict in the accompanying motion, while new faces are brought into contact, here the motion cannot yet be set out, but a first account of the motion should be presented. Following this, therefore, we undertake to determine the division of the motion of tops ending in points on a horizontal plane.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1076
+
+SUPPLEMENTUM DE
+MOTU CORPORUM RIGIDORUM A FRICTIONE
+PERTURBATO.
+CAPUT I DE FRICTIONE IN GENERE
+DEFINITIO 955. Frictio est resistentia, quam corpus super superficie aspera incedens eamque radens, in motu suo patitur. Est ergo frictio vis motus directioni contraria et basi corporis, qua superficiem tangit, applicata.
+COROLLARIUM 1 956. Quamdiu corpus quiescit, frictio nullam plane vim exerit, statim autem atque corpus movetur, subito eius vis existit motui semper contraria eumque propterea retardans.
+COROLLARIUM 2 957. Si corpus a vi quapiam sollicitetur, etiamsi quiescat, frictio se illi vi opponit, quoniam in prima motus generatione statim existit, ac nisi vis sollicitans frictionem superet, corpus movere non valebit.
+COROLLARIUM 3 958. Quia directio frictionis motus directioni iugiter est contraria, mutata motus directione simul frictionis directio mutatur. Statim autem atque corpus ad quietem redigitur, uti motus directio tollitur, ita subito frictio evanescit.
+EXPLICATIO 959. Ad haec, quae ad frictionem pertinent, dilucidanda ad omnes circumstantias, quae ad frictionem quicquam conferre posse videantur, attendi conveniet, etsi adhuc minime pateat, quid quisque efficere valeat. Primo igitur superficies, super qua sit incessus, considerari debet, quae sive sit plana sive secus parum refert, quoniam quovis tempore ad contactum est respiciendum. Sit igitur EF superficies (Fig. 125), quam tanquam planam contemplemur, siquidem hinc facile ad superficies convexas et concavas
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1077
+
+iudicium extendere licebit; huius ergo asperitas praecipuum locum inter causas frictionis tenet, quoniam, si superficies perfecte esset polita et laevigata, frictioni nullus locus relinqueretur; ex quo colligitur, quo magis superficies fuerit aspera, eo maiorem frictionem fieri oportere. Deinde basis corporis AB, qua fit contactus, in computum est ducenda, cuius magnitudo et figura an quicquam ad frictionem conferat, nondum liquet, asperitas vero certe cum asperitate superficiei coniuncta, ubi imprimis motui est obstaculo, ita frictionem generare est putanda. Circa ipsum denique corpus ABCD praeter eius massam reliquasque proprietates eius pressio ad superficiem sine dubio maximi est momenti, quoniam, si nulla vi ad eam apprimeretur, nulla certe frictio adesset corpusque perinde moveretur, ac si superficies abesset. Cum tandem frictio non nisi in motu cernatur, celeritas quoque tanquam insigne frictionis momentum videri posset, sed praeter expectationem videbimus celeritatem nullo modo ad frictionem determinandam concurrere, quod eo magis est mirandum, cum sublata celeritate omnis frictio certe cesset. Quodsi ergo corpus secundum directionem BF super superficie promoveatur, vis aderit, qua id secundum directionem oppositam AE sollicitatur, haecque vis frictio vocatur.
+
+SCHOLION 960. Frictionem hic primo tanquam phaenomenon considerabo, cuius quantitas et indoles nobis experientia innotuerit, deinceps in eius causas, quantum fieri licet, inquisiturus. Cum enim hic physicae corporum qualitates, cuiusmodi sunt asperitates superficierum et ratio, qua duae superficies invicem appressae sibi mutuo cedant et minimis particulis quasdam impressiones inducant, totum quasi negotium conficiant; ob defectum talis cognitionis corporum contenti esse debemus phaenomena frictionis ita accipere, prouti ea nobis ab experientia suppeditantur, quemadmodum etiam aliarum virium, quarum effectus in Mechanica evolvimus, origo minime est perspecta. Quae ergo per experientiam nobis circa frictionis indolem. innotuerunt, breviter recenseamus.
+
+PHAENOMENON 1 961. Si cetera sint paria, frictio non pendet a corporis celeritate, sed sive id celerius incedat sive tardius, eandem exerit vim, cuius directio semper est contraria motus directioni.
+
+COROLLARIUM 1 962. Frictio ergo non tanquam functio quaedam celeritatis spectari potest, cum perpetuo eandem quantitatem servet, sive motus sit celerrimus, sive tardissimus. Interim tamen, motu penitus cessante, subito evanescit.
+
+COROLLARIUM 2 963. Etsi autem frictio a motus celeritate neutiquam pendet, tamen eius directio per motus directionem unice determinatur, quippe cui est contraria et in ipso contactu applicata.
+
+SCHOLION 964. De motu corporis absoluto haec sunt intelligenda, si superfieies, in qua corpus incedit, absolute quieseat, sin autern haec superficies ipsa moveatur, ex motu corporis respectivo ad superficiem relato iudicium est petendum. Scilicet si corpus respectu superficiei quieseat,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1078
+
+etiamsi utcumque moveatur absolute, frictio est nulla, sin autem respectu superficiei moveatur, frictio eam impetrat quantitatem, quam reliquae circumstantiae exigunt, neque quantitas motus hue quicquam confert. Directio autem frictionis per directionem respectivam corporis respectu superficiei constanter determinatur neque igitur hic motum secundum duas tresve directiones resolvere licet et pro quolibet, quasi solus adesset, frictionem definire indeque frictionem totam colligere, sed uti quantitas frictionis non a motus quantitate pendet, ita directio semper ex directione, secundum quam corpus super superficie incedit, definiri debet. Ceterum hoc phaenomenon non ita accurate per experimenta indicatur, ut nullis plane dubiis sit subiectum, quin potius motus celerrimi ab hac regula aliquantillum recedere videntur. Quodsi forte veritati fuerit consentaneum, id potius alii causae tribuamus, quam stabilitam frictionis notionem immutemus; et cum aberratio sit valde parva, eam eo magis negligamus, cum alias nonnullas exiguas vires, quae ex eodem fonte atque frictio originem trahere videntur, negligere cogamur. Hic scilicet in eos tantum effectus, qui a frictione prouti vulgo concipi solet, inquirere constitui, de aliis motus obstaculis minime sollicitus.
+
+PHAENOMENON 2 965. Si cetera sunt paria, quantitas frictionis etiam neque a figura neque magnitudine basis, qua corpus superficiem contingit, pendet, sed sive ea fuerit maior sive minor, et cuiuscunque figurae, frictio eandem semper vim exerit.
+
+COROLLARIUM 1 966. Quodsi ergo basis, qua corpus superficiem contingit, AB ponatur = bb (Fig. 125), haec quantitas non in expressionem frictionis ingreditur, aeque parum ac velocitas corporis.
+
+COROLLARIUM 2 967. Neque etiam frictio mutatur, licet contactus in unico fiat puncto, quemadmodum evenit, si corpus sit globus seu corpus basi convexa praeditum, dummodo corpus superficiem radat.
+
+SCHOLION 968. Hoc phaenomenon, etsi certissimis experimentis confirmatum, exceptionem tamen patitur, si corpus in acutissimam desinat cuspidem, qua superficiei infigi queat, quo casu sine dubio penitus coerceretur. Excipiendi scilicet hinc sunt casus, quibus superficies ab incedente corpore damnum patitur, de quibus etiam hic non tractabimus. Ceterum maxime paradoxon videbitur, quod a contactu in unico puncto facto tanta frictio nasci queat, quanta a basi satis vasta, cum frictio ab asperitate ambarum superficierum, quae se mutuo terunt, producatur, in ampliori autem contactu plus asperitatis superari debeat. Verum hoc dubium mox evanescet, cum ostendemus, quomodo frictio se ratione pressionis habere debeat.
+
+PHAENOMENON 3 969. Si cetera sint paria, frictio proportionalis est pressioni, qua corpus ad superficiem apprimitur, eoque maiori pressionis parti aequatur, quo maior fuerit asperitas superficierum se mutuo atterentium.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1079
+
+COROLLARIUM 1 970. Quodsi corpus nulla plane vi ad superficiem, super qua incedit, apprimatur, nullam etiam patietur frictionem; quae autem eo maior evadet, quo magis appressio augetur.
+
+COROLLARIUM 2 971. Si ergo asperitas fuerit eadem, frictio, quam corpora super superficiebus incedentia patiuntur, certae cuidam parti pressionis aequatur, qua parte cognita, frictionis quantitas perfecte determinatur.
+
+COROLLARIUM 3 972. Quodsi ergo corpus ABOD (Fig. 125) vi = P ad superficiem apprimatur ac super ea incedat in directione BF, frictio erit =  P (denotante  partem illam memoratam), qua corpus secundum directionem appositam AE retrahitur.
+
+SCHOLION 1 973. Haec manifesta sunt, quando corpus motu progressivo incedit super superficie, quo casu frictio motus directioni est contraria. Verum si corpus insuper habeat motum quempiam gyratorium, videndum est, in quanam directione basis superficiem terat, huicque erit contraria frictionis directio, cuius quantitas cum expressione constet, effectus frictionis in motu corporis perturbando ex principiis supra stabilitis definiri poterit. Ceterum quemadmodum frictio a solo attritu corporis et superficiei oritur, patet, si corpus ita volvendo promoveatur, ut nullus attritus existat, cuiusmodi motus provolutio perfecta vocatur, nulla etiam frictio locum habebit; simulatque autem motus volutorius tantillo fuerit celerior vel tardior, quam illa conditio postulat, sicque attritus sese admisceat, etiamsi sit minimus, tamen statim subito plena frictio  P effectum suum exerit. Quare phaenomena hinc orta ingentem saltum implicare debent, cum pro certa motus specie omnis frictio subito tollatur, dum autem motus tantillum inde discrepat, pleno effectu adsit.
+
+SCHOLION 2
+
+974. Insigne calculi compendium hinc consequimur, quod frictio tam simpliciter exprimitur et a sola pressione P cum fractione  , quam asperitas definit, pendet; si enim insuper tam a
+
+celeritate corporis quam ab eius basi penderet, facile in calculos inextricabiles illaberemur. Ac si calculum ad praxin accommodare velimus, totum negotium ad valorem fractionis 
+
+reducitur, quem unico experimento pro singulis corporum generibus assignasse sufficit.
+
+Pro corporibus autem ligneis experimenta ostendunt litterae 
+
+valorem circiter
+
+1 3
+
+tribui
+
+debere, siquidem eorum superficies mediocriter fuerit dolata,sin autem magis sit rudis et
+
+aspera, maiorem valorem sortitur, quemadmodum e contrario corpora metallica probe polita
+
+pro littera
+
+
+
+fractionem
+
+1 4
+
+adeoque minorem exigunt. Verum ex sequentibus patebit,
+
+quomodo quovis casu per experimenta conveniens fractionis  quantitas facile explorari
+
+queat. Experientia autem didicimus nullam superficiem neque corpus tam perfecte poliri
+
+posse, ut frictio plane evanescat, quin potius semper satis notabili adhuc parti pressionis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1080
+
+aequari deprehenditur. Quare quae supra de motu corporum super plano politissimo, quod nullam gignat frictionem,sunt allata, in praxi neutiquam locum inveniunt.
+
+PROBLEMA 1 975. Si corpus superficiei cuicunque incumbens quiescat simulque a viribus quibuscunque sollicitetur, distinguere casus, quibus id vel ad motum impellatur vel in quiete perseveret.
+
+SOLUTIO Omnes vires, quibus corpus ABCD (Fig. 125) sollicitatur, resolvantur in binas, quarum altera sit ad superficiem nomnalis, altera eidem parallela. Sit P summa omnium ad superficiem perpendicularium, quatenus corpus ab iis ad superficiem apprimitur, erit P pressio, foretque  P frictio, si corpus moveretur. Quod ad alteras vires attinet, consideremus hic tantum casum, quo ab iis corpori motus progressivus induceretur, si nulla esset frictio; quoniam motus gyratorius ampliorem postulat evolutionem infra suscipiendam. Cum igitur corpus alium motum nisi secundum directionem superficiei recipere nequeat, vires huic parallelae quasi uni puncto applicatae spectentur earumque quaeratur aequivalens, quae sit = V secundum directionem BF urgens, atque manifestum est, quamdiu fuerit V <  P, corpus in quiete esse perseveraturum neque id commoveri posse, nisi vis sollicitans V maior fuerit, quam P . Habemus ergo pro vi sollicitante V terminum  P, quo si via fuerit minor, nullus motus sit consecuturus, sin autem fuerit maior, tum demum motus producatur.
+
+COROLLARIUM 1 976. Cum corpus in quiete persistere pergat, quamdiu fuerit V <  P, frictio censenda est vim exercere ipsi vi V aequalem et contrariam; si enim fortius urgeret, corpus in plagam oppositam AE moveri deberet, quod esset absurdum, cum in plagam BF incitetur.
+
+COROLLARIUM 2 977. Dum ergo corpus quiescit, frictio non determinatam exerit vim, sed quovis casu tantam, quanta opus est ad corpus in quiete conservandum, nisi opus fuerit vi maiori quam  P. Unde si corpus a nulla vi sollicitetur ad motum, etiam frictio nullam vim exercet.
+
+COROLLARIUM 3 978. Quamdiu ergo motus a vi, quae non superet  P, impediri potest, eam vim frictio suppeditat, et quidem secundum eam directionem, qua opus est ad motum impediendum. Sin autem quietis conservatio maiorem postulet vim, quoniam frictio tantum praestare nequit, motus generabitur.
+
+SCHOLION 1 979. Cum supra dixerimus in quiete corporum nullam dari frictionem, id de vera quiete tantum, in qua corpus esset perseveraturum, etiamsi nulla adesset frictio, est intelligendum. Statim enim atque corpus a viribus sollicitatur, quibus ad motum incitaretur, si nulla esset frictio, huic etiam motus productioni frictio reluctatur, etiamsi corpus adhuc sit in quiete. Ita igitur frictio tam ratione motus quam quietis est definienda, ut, dum corpus movetur, vim exerat perpetuo ipsi  P aequalem et secundum directionem motui contrariam, dum autem
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1081
+
+corpus quiescit, eadem vim non per se definitam, sed tantam duntaxat exerceat, quanta motui impediendo sufficit, nisi forte ad hoc maiori vi opus sit quam  P; tum enim hac tantum vi  P motus productioni resistit, quae cum motum coercere non valeat, motus revera generabitur. Vis scilicet  P est maximus conatus, quo frictio anniti potest, quo revera semper ipsi motui resistit et quo etiam motus generationi reluctatur, si opus est. Sin autem minor vis sufficiat, etiam minorem tantum exerit; seu quoties vis ad motus productionem cohibendam necessaria non fuerit maior quam  P, ea vis a frictione suppeditatur. Haec autem tantum de motu progressivo sunt tenenda; si enim motus gyratorius accedat, praecipue si axis gyrationis fuerit ad superficiem inclinatus, res est altioris indaginis, et quia hoc casu non omnia basis elementa secundum eandem directionem moventur superficiemque terunt, frictio singulorum elementorum considerari debet, ex quo etiam basis figura et magnitudo in computum ingredietur. Atque ad hanc circumstantiam supra, ubi basis figuram a determinatione frictionis removimus, non respeximus.
+
+SCHOLION 2 980. Difficile sane est frictionis, quemadmodum hic eam experientiae consentaneam statuimus, causam assignare, facile autem causas, quae forte menti occurrant, refellere. Perspicuum enim est neque ab abrasione quadam particularum neque a depressione filamentorum, dum corpus super superficie incedit, frictionem oriri posse, quia tum necessario baseos magnitudo in computum intraret. Quod ad frictionem, quatenus motus generationi resistit, attendamus, ea sequenti modo haud inepte explicari posse videtur.
+Dum nempe corpus ABCD superficiei EF incumbit, contactus non secundum planum AB, ut sensus ostendit, fieri est concipiendus, sed ob minimas utrinque prominentias et cavitates secundum superficiem sinuosam et quasi undulatam, ab ab ab, dum ob pressionem prominentiae alterius in cavitates alterius se insinuant (Fig. 126). Hoc admisso corpus moveri nequit, quin simul supra superficiem AB aliquantillum elevetur; seu prima motus impressio non secundum directionem OV ipsi AB parallelam, sed secundum quandam directionem OS inclinatam fieri debet, quae scilicet parallela sit maximae quasi declivitati in contactu illo sinuoso; atque haec declivitas seu obliquitas respondet asperitati utriusque superficiei in contactu ita, ut pro maiore minoreve asperitate angulus VOS maior minorve sit concipiendus. Statuatur ergo iste angulus VOS =  : corpusque superficiei apprimatur vi O P
+= P, ac iam videamus, quanta vi secundum directionem OVagente opus sit, ut corpus de situ suo dimovere valeat. Agat ergo vis OV = V, a qua corpus secundum directionem OS sollicitabitur vi =V cos ; at vis pressionis OP == P huic actioni resistit vi = = P sin .
+Quare nisi fuerit V cos > P sin : seu V > P tang  ,corpus de quiete non deturbabitur; vel
+quamdiu vis sollicitans OV = V minor fuerit quam P tang  ,corpus in quiete perseverabit. Id
+quod egregie cum supra traditis convenit, cum loco fractionis illius hic habeamus tangentem
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1082
+
+cuiuspiam anguli  . Verum fateri cogor hinc non intelligi, cur dum corpus movetur, frictionis vis motui contraria etiam ipsi P tang  aequalis esse debeat; cum enim basis
+corporis alternatim se ex illis sinuositatibus expediat, iterumque se eo insinuet, minus patet quantum detrimentum hinc motus sit passurus. Quoniam tamen hypothesis stabilita hinc non evertitur, ei inhaereamus causamque hic assignatam tanquam a vero non abhorrentem spectemus.
+
+CAPUT 11 DE MOTU PROGRESSIVO CORPORUM GRAVIUM
+A FRICTIONE IMPEDITO
+
+PROBLEMA 2 981. Si corpus grave super plano horizontali motu progressivo incedat, determinare motus retardationem a frictione oriundam.
+
+SOLUTIO Sit M corporis massa idemque eius pondus, quod planum horizontale EF tangat basi sua AB, quam pariter planam esse oportet (Fig. 127). Consideretur corporis centrum inertiae O, in quo eius Fig. 127 pondus M collectum concipiatur, ita ut corpus deorsum sollicitetur vi OP =M, quae cum ad planum EF sit normalis, tanta quoque vi ad planum apprimitur; ubi primum observo, nisi recta OP intra corporis basin AB cadat, motum progressivum esse non posse. Verum ne hoc quidem sufficit, cum enim progrediente corpore secundum directionem BF id secundum directionem contrariam BE ob frictionem retrahatur vi =  M, denotante l:  rationem pressionis ad frictionem, haec vis conatur corpori motum gyratorium circa horizontalem axem per O transeuntem inducere, cuius momentum est =  M OP . Cui vi si corpus obsequatur, primo instanti basis punctum A elevari incipiet, ita ut iam totum corpus extremitati basis B innitatur, quo etiam pressio transferetur. In hoc ergo statu ad gyrandum proclivi corpus in B sursum urgeri censendum est vi BM = M, unde momentum gyrationi resistens nascitur = M  BP ; quod nisi superet illud  M OP , corpus revera gyrari incipiet. Quare cum hic tantum motum progressivum contemplari statuerimus, haec conditio insuper requiritur, ut sit BP >  OP , quam ergo hic locum habere assumamus. Fuerit ergo initio corporis celeritas secundum directionem EF= c et elapso tempore t confecerit spatium = s habeatque celeritatem = v. Atque ob vim  M motui contrariam erit
+
+dv = -  M
+2gdt M
+
+= - .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1083
+
+ideoque v = c - 2g t . Porro quia est ds = vdt, fiet s = ct -  gtt . Motus autem tamdiu tantum
+
+durabit, quoad corpus ad quietem fuerit reductum, frictione  M tum subito cessante: corpus
+
+ergo
+
+ad
+
+quietem
+
+redigetur
+
+elapso
+
+tempore
+
+t
+
+=
+
+c 2 g
+
+et
+
+percurso
+
+spattio
+
+=
+
+cc 4 g
+
+.
+
+COROLLARIUM 1 982. Ut ergo corpus grave super plano horizontali motu progressivo incedere possit, perpendiculum OP ex centro inertiae corporis O in planum demissum non solum intra basin AB cadere, sed etiam a termino basis anteriori B tanto intervallo BP remotum esse debet, ut sit BP >  OP .
+
+COROLLARIUM 2
+
+983. Ductis igitur ex centro inertiae O cum perpendiculari OP, tum ad anteriorem basis terminum B recta OB angulum BOP maiorem esse oportet angulo, cuius tangens est =  .
+
+Unde
+
+si
+
+fuerit
+
+
+
+=
+
+1 3
+
+,
+
+angulus
+
+BOPmaior
+
+esse
+
+debet
+
+quam
+
+18°
+
+26'.
+
+Sin
+
+autem
+
+fuerit
+
+minor,
+
+corpus progrediendo simul provolvetur.
+
+COROLLARIUM 3 984. At si corpus motu progressivo puro promoveatur, eius motus erit uniformiter retardatus et similis ei, quo corpus celeritate c sursum proiectum ascenderet, deorsum sollicitatum vi, quae sit ad eius massam ut  ad 1. Hoc tantum discrimine, quod hic corpus ad quietem redactum perpetuo in quiete sit permansurum.
+
+SCHOLION 1 985. Ut tali corpori quieto motus imprimatur, necesse est ut secundum directionem horizontalem impellatur vi, quae maior sit quam  M ; quamdiu autem sollicitatur vi minore, in quiete perseverabit, nisi forte ad provolutionem incitetur, quod quando evenire debeat, accuratius evolvamus. Sollicitetur ergo primo corpus secunduni directionem horizontalem OS, quae per eius centrum inertiae O transeat, vi OS = S, ut sit S <  M , et frictio pari vi S secundum BA renitetur. An autem circa extremitatem B provolvatur, iudicium petetur ex momento frictionis S OP et momento pressionis M in B translatae, quod est = M  BP ; hinc si fuerit S OP > M  BP , corpus provolvetur, sin minus, in quiete persistet; quia enim vis sollicitans OS = S ipsi centro inertiae est applicata, ea nihil huc confert. Sit nunc vis S infra centrum inertiae in R applicata, et quia hinc momentum provolutioni contrarium nascitur = S OR , ne corpus provolvatur, esse oportet
+
+S OR + M ·BP > S OP seu S  PR < M  BP ;
+unde simul patet, si vis horizontalis S sublimius in r esset applicata, corpus provolutioni non fore obnoxium, si fuerit S  Pr < M  BP , ubi quidem assumimus esse S <  M . Idem etiam hinc magis fit perspicuum, si punctum B ut axem fixum corpusque circa eum mobile spectemus, tum enim vis rv = S momentum in sensum DC est = S  Pr , ex pondere autem corporis M in O collecto oritur momentum in sensunl contrarium M  BP : ideoque corpus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1084
+
+provolvetur si S  Pr > M  BP , quiescet vero si S  Pr < M  BP .
+
+SCHOLION 2 986. Sin autem vis rv = S maior fuerit quam  M , motus corpori progressivus inducetur ab excessu S -  M , quia frictio iam tantum vi =  M secundum directionem BE reluctatur. Utrum autem simul corpus sit motum gyratorium adepturum nec ne, hoc modo cognoscetur. Seposito nimirum motu progressivo, assumo corpori alium motum gyratoriunl imprimi non posse, nisi circa axem horizontalem per centrum inertiae O transeuntem et ad motus directionem OS normalem, ad quem investigandum, cum basis punctum B maneat in plano horizontali, simul ac punctum A elevari incipit, tota pressio in puncto B exercetur, ita ut tum in B habeatur vis sursum urgens BM = M. Nune igitur ex viribus rv = S , BE =  M , OP = M et BM = M colligitur momentum provolutionem producens
+= S Or +  M  PO - M  BP ; quare ut corpus solo motu progressivo feratur, haec conditio requiritur, ut sit S Or +  M  PO < M  BP , ubi per hypothesin est S >  M . Si vis horizontalis S infra centrum inertiae in R esset applicata, corpus provolutioni non erit obnoxium, si fuerit
+ M  PO < M  BP + S OR seu S OR + M  BP >  M  PO .
+
+Hinc igitur clare intelligimus, quantum eum amplitudo basis seu distantia perpendiculi ex centro inertiae dimissi OP ab eius terminis, tum elevatio centri inertiae supra planum horizontale, turn altitudo, in qua vis horizontalis applicatur, atque ipsa frictio conferant, ut nulla provolutio sit metuenda.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1085
+
+PROBLEMA 3
+
+987. Si corpus grave ABCD plano inclinato EF imponatur, definire conditiones, sub quibus id ob frictionem in quiete sit permansurum (Fig. 128).
+
+SOLUTIO Sit angulus, quem planum inclinatum EF cum horizonte GF constituit, GFE =  ,
+
+corporis autem ei impositi massa = M et centrum
+
+inertiae O, basi autem AB plano inclinato
+
+incumbat. Ducatur recta verticalis OQR,
+
+secundum quam corpus ob gravitatem sollicitari
+
+censendum est, vi = M, quae resolvatur secundum
+
+directiones OP et OC, quarum illa in planum EF
+
+sit normalis, haec vero eidem parallela, et ob angulum POQ = GFE =  , erit
+
+vis OP = M cos et vis OC = M sin .
+
+lIla autem vi OP corpus ad planum EF apprimitur, unde si moveretur, frictio foret =  M cos ; hac vero vi OC = M sin ad motum
+
+secundum plani inclinati EF directionem sollicitatur. Nisi ergo haec vis M sin maior sit
+
+quam M cos , corpus nullum motum progressivum adipiscetur; quare ut corpus quiescat,
+
+necesse est, sit M sin <  M cos seu tang  <  . Prima ergo conditio ad conservationem
+
+quietis necessaria exigit, ut anguli inclinationis F =  tangens minor sit quam fractio  , qua
+
+frictio determinatur. Deinde manifesto requiritur, ut recta verticalis OQ intra basin AB cadat.
+
+Nam ne corpus circa basis extremitatem B provolvatur, necesse est, ut vis OQ = Mmomentum respectu puncti B, quod est M  BQ cos , sit positivum, ideoque BQ positivum seu punctum
+
+Q intra basin AB cadere debet. Quod etiam ex motu gyratorio circa O generando ita ostendi
+
+potest. Fingamus enim corpus iam talem motum gyratorium incipere, et dum punctum A elevatur, tota pressio M cos in B transferetur, ut nunc corpus in B sollicitetur primo vi
+
+BM = M cos , ob frictionem autem vi BA = M sin , ex quibus momentum generans
+
+motum gyratorium erit
+
+= M sin OP - M cos  BP .
+
+Quare ne talis motus oriatur, debet esse BP  cos C > OP  sin seu BP > OP  tang  ,
+
+at OP  tang  = PQ , ergo ob BP> PQ intervallum BQ positivum esse oportet. Consequentur
+
+ut corpus ABCD plano inclinato EF impositum quiescat, primo requiritur, ut verticalis OQ intra basin AB cadat, deinde ut tangens anguli inclinationis F minor sit quam .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1086
+
+COROLLARIUM 1 988. Hinc igitur facillimum modum nanciscimur explorandi frictionem seu fractionem ;
+planum enim EF cousque elevetur, quoad corpus super eo descendere incipiat, et tangens anguli maximi F, quo corpus etiamnum in quiete persistit, dabit valorem fractionis  .
+
+COROLLARIUM 2
+
+989.
+
+Quodsi
+
+fuerit
+
+
+
+=
+
+1 3
+
+,
+
+corpus
+
+tamdiu
+
+in
+
+quiete
+
+permanebit,
+
+quamdiu
+
+angulus
+
+elevationis
+
+GFE
+
+non
+
+superat
+
+18°
+
+26'.
+
+Sin
+
+autem
+
+sit
+
+
+
+=
+
+1 4
+
+,
+
+hunc
+
+angulum
+
+minorem
+
+esse
+
+oportet
+
+quam
+
+14°
+
+2', sicque vicissim ex hoc angulo valor ipsius  innotescit.
+
+COROLLARIUM 3 990. Ut autem corpus super plano inclinato quiescat, non sufficit ut sit tang GFE <  , sed etiam basis corporis tam ampla esse debet, ut sit BP > OP  tang GFE seu ut angulus BOP
+maior sit quam angulus GFE.
+
+SCHOLION 991. In figura repraesentatur sectio corporis verticalis per eius centrum inertiae O facta, quae simul ad planum inclinatum sit normalis; in qua propterea recta OP ad id est perpendicularis et OC fit directio motus progressivi, quem gravitas corpori imprimere conatur. Ex dictis autem manifestum est motum progressivum coerceri, si fuerit tang F <  . Verum ad iudicium expediendum, num corpus motum gyratorium sit accepturum, non sufficit ad solam sectionem ABCD eiusque basin AB spectare, cum fieri posset, ut in hac sectione corpus plano nusquam incumberet, sed contactus in extremitatibus corporis tantum existeret. Tum igitur universus contactus considerari ac dispici debet, quomodo et circa quamnam lineam provolutio oriri possit, quae utique ex figura basis est diiudicanda. Quodsi ergo corporatam irregularia adhibeantur, ut hoc iudicium nimis difficile evadat, experientiam consulere conveniet, an corpus ad provolutionem sit proclive; prior vero conclusio de angulo F manet et ab hac irregularitate neutiquam pendet.
+
+PROBLEMA 4
+992. Si elevatio plani inclinati EF maior fuerit, quam ut grave ei incumbens ABCD in quiete persistere possit, definire conditiones, quibus id solo motu progressivo super plano inclinato EF sit descensurum.
+SOLUTIO Sit massa idemque pondus corporis = M et eius centrum inertiae O ut ante (Fig. 128) atque  exponens frictionis. Vocato ergo angulo elevationis GFE =  erit per hypothesin
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1087
+
+tang  >  . Iam ex vi gravitatis OQR = M colligimus pressionem in planum inclinatum seu vim OP = M cos et vim ad descensum sollicitantem OC = M sin . Cum igitur frictio ei renitatur vi = <  M cos  , corpus revera ad descensum incitabitur excessu virium
+M sin -  M cos = M (sin -  cos ) ,
+a qua motus progressivus producetur, dummodo praeterea in corpore nullus motus gyratorius generetur. Videamus ergo, sub quibusnam conditionibus corpori motus gyratorius circa axem horizontalem et ad planum COP normalem per centrum inertiae O ductum generari possit; statim autem ac talis motus incipit, tota pressio M cos in B transfertur, ita ut nunc corpus sollicitetur a vi BM = M cos , et ob frictionem a vi BA =  M cos , unde momentum
+gyrationem in sensum BADC generans est = M cos OP - M cos  BP .
+Quare ne corpus provolutioni sit obnoxium, oportet hanc quantitatem esse negativam ideoque BP >   0 P seu tang BOP >  .
+
+COROLLARIUM 1 993. Quia conditio inventa tang BOP >  non pendet ab inclinatione plani EF, si corpus in minori inclinatione provolutioni non fuerit obnoxium, etiam in maiori elevatione nulla provolutio erit metuenda.
+
+COROLLARIUM 2
+
+994.
+
+Quodsi
+
+ergo
+
+fuerit
+
+
+
+=
+
+1 3
+
+,
+
+dummodo
+
+angulus
+
+BOP
+
+maior
+
+sit
+
+quam
+
+18°
+
+26',
+
+corpus
+
+nullum motum volutorium accipiet, sed super plano inclinato vel quiescet vel solo motu
+
+progressivo descendet.
+
+SCHOLION 995. In hoc autem iudicio pro puncto B non tam extremitas in ipsa sectione ABCD per centrum inertiae O facta est sumenda, sed in tota basi, qua fit contactus, linea per terminos a puncto P maxime remotos ducta est intelligenda, cuius a P distantia pro intervallo PB accipi debet.
+
+PROBLEMA 5 996. Si corpus ita fuerit comparatum, ut nulla provolutio sit metuenda, eius motum descensus super plano inclinato EF determinare.
+
+SOLUTIO Posita corporis massa eodemque pondere = M et elevatione plani supra horizontem seu angulo GFE =  , ut sit tang  >  , quia alioquin corpus in quiete perseveraret. Confecerit
+iam corpus tempore = t super plano inclinato spatium = s, motu scilicet a quiete inchoato, et quia vis accelerans est = M sin , a gravitate oriunda, retardans autem =  M cos a frictione
+profecta, hinc nanciscimur istam aequationem:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1088
+
+dds 2 gdt 2
+
+=
+
+M sin
+
+
+
+- M cos M
+
+= sin -  cos
+
+,
+
+hincque integrando
+
+ds dt
+
+=
+
+2gt (sin
+
+-
+
+cos 
+
+),
+
+quae est celeritas corporis hoc tempore t acquisita, ipsum autem spatium interea confectum fit
+
+s = gtt(sin -  cos ) .
+
+COROLLARIUM 1 997. Frictio ergo non impedit, quominus corpus super plano inclinato descendat motu uniformiter accelerato, cum celeritates in ratione temporum crescant: verum in multo minore ratione crescunt; sublata enim frictione foret s = gtt sin .
+
+COROLLARIUM 2 998. Si observetur tempus t quo datum spatium s fuerit confectum, simulque elevatio plani seu angulus  fuerit exploratus, inde exponens frictionis  colligi poterit; erit enim
+
+
+
+=
+
+tang
+
+-
+
+s gtt cos
+
+SCHOLION 999. Hoc modo explorari poterit, utrum pro quiete idem valor exponentis  reperiatur, ac pro motu eoque sive celeriore sive tardiore; sed huiusmodi experimenta sunt lubrica, quia exiguus error in observatione temporis t commissus multum turbat. Tum vero etiam resistentiae aeris ratio est habenda, quae praesertim in motibus velocioribus insigne momentum afferre potest. Quare nonnisi plurimis huiusmodi experimentis summa cura institutis quicquam certi in hoc negotio concludi poterit. Ne autem resistentia aeris moram facessat, planum non multum ultra statum quietis elevari convenit, quia in motibus tardioribus eius effectus est minimus. Tum vero corpus quantum fieri potest, ponderosum efficiatur frustum plumbi intra eius volumen includendo, ut tamen basis ex ea constet materia, cuius frictionem explorare lubet.
+
+EXEMPLUM
+
+1000. Ponamus tabulae EF longitudinem esse 6 ped. Rhen. tempusque t observari, quo corpus
+
+descendendo totam hanc longitudinem conficiat, ac videamus, quantum discrimen in tempore
+
+t frictione
+
+
+
+parumper mutata oriri debeat. Cum igitur sit
+
+g
+
+=
+
+15
+
+5 8
+
+ped.
+
+Rhen.
+
+erit
+
+tempus
+
+descensus
+
+t=
+
+125
+
+48 (sin -
+
+cos 
+
+)
+
+.
+
+Ponamus
+
+
+
+=
+
+1 3
+
+et angulum C= 20°, quia debet esse
+
+tang 
+
+>
+
+1 3
+
+,
+
+ac
+
+reperietur
+
+tempus
+
+descensus t = 3,652 min.sec. seu
+
+t
+
+=
+
+3
+
+2 3
+
+sec. proxime.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1089
+
+Sit iam 
+
+aliquantulum
+
+maius,
+
+nempe
+
+
+
+=
+
+1 3
+
++
+
+1 100
+
+manente 
+
+=
+
+20°,et prodit tempus
+
+t
+
+=
+
+4,45
+
+=
+
+4
+
+9 20
+
+sec.
+
+At si esset
+
+=1- 1
+3 100
+
+manente C= 20°, invenitur tempus t= 3,171 =3l sec.
+
+Pars igitur centesima unitatis in valore ipsius  gignit temporis discrimen illo casu t sec.
+
+hoc vero tantum t sec., unde in observatione temporis valde attentum esse oportet. Si plano
+
+minor tribuatur elevatio, ut motus multo lentior oriatur, dubium est, an observationibus
+
+multum confidere queamus. Levissima enim inaequalitas in superficie descensum
+
+vehementer perturbare valebit, ita ut si experimentum idem aliquoties repetatur, phaenomena
+
+multum discrepare possint. Atque hanc ob causam, etsi hic calculum hypothesi de frictione
+
+stabilitae superstruo, tamen si conclusiones inde deductas cum experientia conferre velimus,
+
+minime perfectum consensum expectare debemus.
+
+CAPUT 111
+
+DE MOTU GYRATORIO CORPORUM GRAVIUM CIRCA AXEM FIXUM A FRICTIONE RETARDATO
+PROBLEMA 6 1001. Efficere ut corpus circa axem fixum per eius centrum inertiae transeuntem gyrari possit.
+SOLUTIO Si corpus debeat gyrari circa axem GG, necesse est, ut utrinque instructum sit terminis cylindricis CEFD (Fig.129), quos axis GG medium traiiciat, ita ut utriusque cylindri axis existat; atque hic quidem assumo hunc axem GG per corporis centrum inertiae I transire, quanquam eadem structura est observanda, si recta GG non per corporis centrum gravitatis transire debeat. Ut iam durante motu gyratorio haec recta GG fixa maneat, id pluribus modis obtineri potest. Primo hi termini cylindrici annulis fixis eiusdem amplitudinis inseri possunt,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1090
+
+intra quas libere, frictione saltem excepta, converti queant; verum si amplitudo annulorum non excedat amplitudinem cylindrorum CEFD, verendum est, ne ob nimis arctam insertionem ingens resistentia oriatur, ac si termini illi cylindrici vel minimum intumescant, motus omnis coerceatur.
+Deinde termini cylindrici utrinque canali MLN in figuram quadrati excavato imponi possunt (Fig. 130), ut contactus tantum in tribus punctis E, H, F fiat ; dum enim corpus intra L has cavitates circumvolvitur, axis GG manet immotus. Ne autem Fig.130 motus nimis impediatur, non opus est, ut ambo parietes verticales M et N cylindrum tangant, sed maiore intervallo a se invicem distare possunt. Statim enim atque corpus gyratur, cylindrici termini se alterutri parieti applicabunt perindeque est, ac si alter abesset; qui tantum ideo adiicitur, ut corpus, si forte in sensum contrarium gyretur, se ei pari modo applicare possit. Tertio termini cylindrici etiam utrinque cavitati MLN, ex duobus planis inclinatis ML et NL efformatae, imponi possunt (Fig.131); hoc modo contactus perpetuo flet in duobus punctis E et F axisque GG manebit in quiete; dummodo inclinatio illorum planorum tanta sit, ut termini cylindrici super illis non ascendant, quam conditionem deinceps investigabimus.
+Quarto imponi etiam possunt ambo termini cylindrici fulcris in figuram circularem MLN excavatis (Fig. 132), quibus quidem corpus dum quiescit ita incumbit, ut contactus flat in imo puncto H. Quando autem gyratur, contactus flet in alio puncto elevato, quod cum perpetuo maneat idem, uti ostendemus, axis GG, quamdiu motus gyratorius in eundem sensum durat, manebit immotus. Hic sufficit radium circuli MLN maiorem fuisse radio termini cylindrici, sed tanta profunditas huic cavitati tribui debet, ut non sit verendum, ne corpus supra eius oras M et N transiliat.
+COROLLARIUM 1 1002. Dum corpus hoc modo utrinque talibus cavitatibus incumbit, ob pondus suum eas premet; ac si centrum inertiae I in medio versetur, utrinque pressio aequalis exeretur, sin autem id non fuerit in medio, pressiones erunt distantiis reciproce aequales, ita ut summa sit toti ponderi aequalis.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1091
+
+COROLLARIUM 2 1003. Quodsi autem corpus gyretur, pressio non amplius a solo pondere corporis pendet, sed ob ipsam frictionem immutabitur ideoque ex frictionis ratione determinari debet, unde etiam ultimo casu punctum contactus est definiendum.
+
+SCHOLION 1004. Pressio etiam, ideoque et frictio, plurimum perturbatur a viribus, quibus corpus dum gyratur, praeter gravitatem sollicitatur. Quare quo hoc argumentum dilucide pertractemus, primo mentem ab huiusmodi viribus abstrahamus corpusque tantum grave spectemus, cui initio motus gyratorius fuerit impressus; et quantum is ob frictionem retardari debeat, indagemus.Tum vero etiam assumamus axem gyrationis GG per centrum inertiae corporis I transire ab eoque ambos terminos aeque esse remotos, ita ut corpus utrinque sibi sit simile. Quin etiam ne vires obliquae calculum turbent, statuamus rectam GG simul esse axem principalem corporis. Minime enim consultum videtur, corpori figuram nimis irregularem tribuendo, investigationes nostras difficilibus calculis implicare, cum ipsa principia hactenus stabilita etiam his casibus evolvendis sufficiant, si quis laborem suscipere voluerit. Casus autem fig. 130 repraesentatus in fig. 131 continetur, dum alterum planum sit verticale et alterum horizontale; deinde vero etiam casum fig.132 ex eo diiudicari posse videbimus.
+
+PROBLEMA 7 1005. Si corporis (in fig. 129 repraesentati) termini cylindrici utrinque inter duo plana utcunque inclinata ML et NL sustententur (Fig.133) corpusque in gyrum agatur celeritate quacunque, definire frictionem eiusque effectum in motu corporis retardando.
+
+SOLUTIO Quia centrum inertiae I in medio axis GG situm assumimus, respectu terminorum
+cylindricorum utrinque omnia erunt paria. Sit igitur pro altero termino radius basis circularis GE = GF = f et puncta contactus in E et F. Ducta verticali GH ponantur anguli EGH =  et FGH =  , quibus positio planorum
+ML et NL determinantur; tum vero corpus iam elapso tempore t gyretur in sensum EF celeritate angulari =  ' , quae initio fuerit = . Quia ergo ex hac parte corpus in punctis E et F sustinetur, sint E et F pressiones, quibus corpus planis innititur, ac vicissim secundum directiones eo normales EG et FG urgetur. Frictio porro in punctis E et F, ubi fit attritus, ita se exeret, ut in E corpus sollicitetur vi sec. E M =  E et in F vi sec. FL =  F , ita ut ex hac parte quatuor habeantur vires
+vis EG = E, vis EM =  E, vis FG = F , vis FL =  F ,
+
+totidemque pares ex altera parte. Posita ergo massa eodemque pondere corporis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1092
+
+= M, quia omnis motus progressivus excluditur, hae vires centro inertiae applicatae se mutuo destruere debent. Colligitur autem ex istis quaternis viribus vis verticaliter sursum tendens
+E cos + F cos +  E sin -  F sin
+et vis horizontalis dextorsum directa E sin - F sin -  E cos -  F cos ,
+ubi haec debet evanescere, illa autem dimidio ponderi corporis aequari. Hinc nanciscimur:
+
+et ideoque et ex quibus elicitur
+
+E sin - F sin =  ( E cos + F cos )
+
+(1+ 
+
+)(E
+
+cos 
+
++
+
+F
+
+cos )
+
+=
+
+1 2
+
+M
+
+E cos
+
++
+
+F
+
+cos
+
+=
+
+M
+2(1+ )
+
+E sin
+
+-F
+
+sin
+
+=
+
+M
+2(1+ )
+
+E
+
+=
+
+M (sin 2(1+ )
+
++ cos ) sin( + )
+
+,
+
+F
+
+=
+
+M (sin - cos ) 2(1+ ) sin( + )
+
+,
+
+ubi statim est observandum, cum vires E et F negative esse nequeant, necessario esse oportere sin >  cos seu tang  >  .
+Nunc denique colligantur momenta ex frictione nata, quae erunt
+
+ (E+F)
+
+f
+
+=
+
+M
+
+f
+
+(
+
+sin +sin - cos
+2(1+ ) sin( +
+
++
+)
+
+cos
+
+)
+
+,
+
+euius duplum motui opponitur. Quare si momentum inertiae corporis respectu axis GG fuerit
+
+= Maa, habebimus hanc aequationem:
+
+d ' 2 gdt
+
+=
+
+-
+
+f
+
+(sin +sin - cos + 2(1+ ) sin( + )
+
+cos )
+
+et integrando
+
+
+
+'
+
+=
+
+
+
+-
+
+2
+
+fgt(sin +sin (1+ )aa
+
+- cos +
+sin( + )
+
+cos
+
+)
+
+.
+
+COROLLARIUM 1
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1093
+
+1006. Quo minor ergo est f seu quo graciliores termini cylindrici, eo minor est effectus frictionis. Sed hos terminos non pro lubitu diminuere licet, quia eos satis fortes esse oportet ad onus gestandum, atque quantitas f fere rationem subduplicatam ponderis M sequi debet.
+
+COROLLARIUM 2 1007. Si sit  = 90° et  = 0°, qui est casus fig. 130, momentum frictionis est =
+
+M (1+ ) f
+1+ ; sin autem sit  =  seu plana ML et NL aequaliter ad horizontem inclinata, erit momentum
+
+frictionis
+
+M f sin
+(1+ ) sin 2
+
+=
+
+M
+(1+ )
+
+f cos 
+
+,
+
+ubi debet esse tang  >  .
+
+COROLLARIUM 3 1008. Minimum autem fit momentum frictionis sumendo tang  =  ,
+
+tum enim ob F = 0 erit
+
+E
+
+=
+
+M
+2(1+ ) cos
+
+=
+2
+
+M
+(1+ )
+
+ideoque momentum frictionis =
+
+M f .
+(1+ )
+
+Hoc ergo casu corpus soli plano ML innititur et alterum NL plane non in computum venit.
+
+COROLLARIUM 4 1009. Hinc casus fig. 132, quaecunque sit cavitatis MLN figura, facile evolvitur. Termini enim cylindrici puncto O applicabuntur, ubi tangens cum horizonte facit angulum, cuius tangens est =  , eritque momentum frictionis = M f .
+2 (1+ )
+
+SCHOLION
+
+1010. Terminos ergo cylindricos ita sustentari convenit, ut contactus utrinque in unico fiat
+
+puncto, quia tum momentum frictionis minimum redditur; quem in finem eos cavitatibus
+
+MLN (Fig.132) imponi expediet, quae in formam semicirculi crassitiem non multum
+
+superantis sint excavatae, ne situs, quem in motu obtinent, muItum discrepet a situ quietis.
+
+Tum vero hos terminos cylindricos quam maxime tenues effici oportet, quantum quidem
+
+eorum firmitas ratione ponderis gestandi permittit. Praeterea etiam hi termini oleo aliave
+
+materia lubrica inungi solent, quo magis attritus diminuatur fractionique  minor valor
+
+concilietur. Interim tamen casu, quem sumus contemplati, motus mox extinguetur, quod fiet
+
+elapso tempore
+
+t
+
+=
+
+2
+
+ (1+ )aa sin( + ) fg(sin +sin - cos +
+
+cos )
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1094
+
+Quando autem vires adhibentur ad motum conservandum, ex iisdem principiis earum quantitas definiri potest, ut motus maneat uniformis. Quin etiam huiusmodi machinae, dum in gyrum aguntur, ad onera elevanda instrui solent, quae operatio ut motu uniformi perficiatur, tantis viribus opus est, quae non solum oneris resistentiam, sed etiam frictionem superare valeant; quem casum, cum in vita communi frequentissime occurrat, hic evolvamus.
+
+PROBLEMA 8 1011. Si cylindrus (fig. 129) adhibeatur ad onus quodpiam elevandum, determinare vires ei applicandas, ut habita frictionis ratione motus servetur uniformis.
+
+SOLUTIO Incumbat alter terminus cylindricus, cuius radius GE = GF = f binis planis inclinatis ML et NL (Fig.134), quae cum horizonte angulos faciant  et  , quibus aequales erunt
+
+anguli, quos radii GE et GF ad puncta contactus E et F ducti cum recta verticali GH faciunt. Dum autem corpus in sensum EF gyratur, ope cordae in medio circumvolutae elevet onus = Q, quod pondere suo = Q vecti horizontali GS = s secundum directionem verticalem
+
+SQ motui reluctetur. Tum vero radio GR = r a verticali GA declinanti angulo AGR =  iugiter
+
+applicata sit vis RP = P ad eum normalis, cuius quantitas quaeritur, ut motus maneat uniformis
+
+existente celeritate angulari circa axem GG =  ' . Quodsi iam pondus ipsius corporis,
+
+per euius centrum inertiae axis gyrationis GG
+
+transit, ponatur ut ante = M et vires, quibus alter terminus cylindricus a planis, quibus in E et F
+
+incumbit, repellitur, secundum EG = E et secundum FG = F, unde frictiones nascuntur secundum EM =  E et secundum FL =  F ,
+
+supra vidimus hinc oriri vim verticaliter sursum tendentem E cos + F cos +  (E sin - F sin) ,
+
+et vim horizontalem dextrorsum directam= E sin - F sin -  (E cos + F cos) ,
+
+quas ob binos terminos cylindricos duplicari oportet. Deinde ex pondere ipsius
+corporis habemus vim verticaliter deorsum nitentem = M et ex onere elevando vim = Q. Ex vi sollicitante P vero oritur vis deorsum urgens = P sin et vis horizontaliter sinistrorsum = P cos ; quae vires cum se mutuo debeant destruere, obtinebimus has aequationes:
+
+E cos
+
++
+
+F
+
+cos
+
++
+
+( E sin
+
+-F
+
+sin )
+
+=
+
+1 2
+
+M
+
++
+
+1 2
+
+Q
+
++
+
+1 2
+
+P sin ,
+
+E sin
+
+-F
+
+sin
+
+-
+
+( E cos
+
++ F cos ) =
+
+1 2
+
+P cos ,
+
+unde colligimus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1095
+
+E cos
+
++
+
+F
+
+cos
+
+=
+
+M
+
++Q+ P sin - P cos
+2(1+ )
+
+,
+
+E sin
+
+-F
+
+sin
+
+=
+
+M +Q + P sin + P cos
+2(1+ )
+
+hincque porro
+
+E
+
+=
+
+M
+
+( sin
+
++
+
+cos )+Q(sin +
+
+cos )+ P(sin + cos 2(1+ ) sin( + )
+
+)
+
+sin +
+
+P(cos
+
+-
+
+sin
+
+) cos
+
+,
+
+F
+
+=
+
+(M
+
++Q+P
+
+sin )(sin - cos )-P(cos 2(1+ ) sin( + )
+
++
+
+sin 
+
+) cos 
+
+.
+
+Praeterea vero, quia motum uniformem desideramus, momenta virium respectu
+axis gyrationis se destruere debent. Est autem momentum accelerans = Pr, et momenta opposita = 2 (E + F) f + Qs , unde necesse est sit
+
+Pr = 2 (E + F ) f + Qs
+
+ideoque Pr ­ Qs =
+
+ (M +Q+ P sin )(sin +sin - cos + cos )+ P(cos -cos - sin - sin ) cos
+
+2(1+ ) sin( + )
+
+f
+
+hincque vim sollicitantem P definire licet. Quodsi iam ponamus terminos cylindricos in cavitatibus circularibus sustineri, ut contactus unico loco fiat, ubi scilicet tangens ad horizontem inclinetur angulo =  , erit F = 0 ideoque
+
+(M + Q + P sin -  P cos ) tang  =  (M + Q + P sin ) + P cos
+
+et Inde colligitur
+
+E
+
+=
+
+M +Q+ Psin - Pcos 2(1+ )cos
+
+.
+
+P
+
+=
+
+( sin
+
+(M +Q)( -tang  ) - cos )tang  -cos -
+
+sin
+
+quo valore in postrema aequatione, quae fit Pr - Qs = 2 EF , substituto prodet
+( M + Q ) f cos = ( M + Q ) r (sin -  cos )
++ Qs ((sin - cos )) sin - (cos +  sin cos ),
+
+ubi si ponamus  = tang  , haec aequatio erit
+
+(M + Q)f sin  cos = (M + Q) r sin ( -  ) - Qs cos ( + -  ) ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1096
+
+unde angulus  erui debet; quo invento erit
+
+P
+
+=
+
+(M +Q)f
+cos(
+
+sin( - ) + - )
+
+seu
+
+P
+
+=
+
+Qs r
+
++
+
+(M +Q)f sin  cos
+r cos( + - )
+
+.
+
+COROLLARIUM 1
+
+1012. Si terminus cylindricus unico loco incumbat in alveolo cavo, pro P substituto valore
+
+prodit pressio in eo loco
+
+E
+
+=
+
+(M +Q) cos 2(1+ )cos  cos( +
+
+- )
+
+=
+
+(M +Q) cos  cos 2 cos( + - )
+
+posito  = tang  . Haec ergo pressio evanescit casu cos = 0 , nisi simul fiat cos ( +  - ) = 0 .
+
+COROLLARIUM 2 1013. Posito autem  = 90° erit
+(M + Q) r sin ( -  ) + Qs cos ( -  ) = 0 ,
+
+quo ergo casu fit  =  seu tang  =  et
+
+Cum autem sit
+
+P
+
+=
+
+Qs r
+
++
+
+(M
+
++Q)f r
+
+sin 
+
+
+
+0 0
+
+E
+
+=
+
+M +Q+P 2(1+ )cos
+
+erit
+
+Pr -
+
+Qs
+
+=
+
+ (M +Q+P) f (1+ ) cos 
+
+=(M
+
++Q+ P)f
+
+sin 
+
+et
+
+P
+
+=
+
+Qs + (M r-
+
++Q) fsin fsin
+
+COROLLARIUM 3 1014. Si ponamus  = - 90°,primo ob F = 0 habemus
+
+(M + Q - P) tang  =  (M + Q - P) ,
+
+tum vero cum sit
+
+E
+
+=
+
+M +Q-P 2(1+ )cos
+
+,
+
+erit
+
+Pr
+
+-
+
+Qs
+
+=
+
+ f (M +Q-P
+(1+ )cos
+
+)
+
+.
+
+Quare si capiatur P = M +Q, pressio ideoque et frictio evanescit, sumique
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1097
+
+oportet
+
+r
+
+=
+
+Qs M +Q
+
+.
+
+COROLLARIUM 4 1015. Nisi autem hoc casu  = - 90°,statuatur P = M + Q, erit
+
+tang =  et Pr - Qs =  f (M +Q-P) = f (M + Q - P) sin 
+(1+ )
+
+hincque
+
+P
+
+=
+
+Qs + (M r+
+
++Q) fsin fsin
+
+At r ita sumi oportet, ut valor ipsius E ne fiat negativus. Hoc enim casu sustentatio ex
+
+opposito fieret ibique frictio oriretur.
+
+SCHOLION 1 1016. Hoc ergo modo frictio penitus tolli posset, vim P ita applicando, ut cum pondere corporis M et onere Q aequilibrium constituat. Verum hic casus in praxi parum utilitatis haberet, quia termini cylindrici intra alveos suos, quos ipsis ampliores esse oportet, hinc inde vacillarent, quo incommodo motus magis quam frictione impediretur. Deinde vero pleraeque huius generis machinae ita disponi solent, ut vis sollicitans P multo sit minor quam onus elevandum Q, ideoque multo magis P < M +Q. Si enim vim oneri aequalem eritque impendere velimus, negotium sine machina absolvi posset, unde non mirum hoc casu frictionis lucrum obtineri posse. Ac si vis P pro data sumatur, ex nostris formulis elicitur r, pro loco applicationis; unde si celeritas angularis machinae sit =  , onus elevabitur celeritate  s , vis vero sollicitans aget celeritate = er. Nisi ergo frietio motum impediret, foret P r = Q s , nunc autem ob frictionem erit P r - Q s = 2 Ef ; ubi observari convenit
+denotare P r actionem vis sollicitantis, Q s vero quantitatem efIectus uno minuto secundo
+producti, cum  r et  s sint spatia uno minuto secundo confecta. Verum haec ad Theoriam machinarum sunt referenda, quam seorsim pertractari convenit.
+
+SCHOLION 2
+
+1017. Si vis sollicitans P cum angulo  fuerit data quaeraturque distantia applicationis seu
+
+longitudo vectis GR = r, ex prima aequatione statim colligitur angulus , seu punctum E, ubi in
+
+cavitate fiet contactus, scilicet:
+
+tang 
+
+=
+
+ (M +Q (M +Q+
+
++ P sin )+ P cos P sin - P cos )
+
+;
+
+ad quem cognoscendum statuantur duo anguli  et  ,ut sit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1098
+
+eritque
+
+tang  = 
+
+et
+
+tang
+
+
+
+=
+
+M
+
+P cos +Q+ P sin
+
+;
+
+tang
+
+
+
+=
+
+tang  1- tang
+
++tang   tang 
+
+ideoque 
+
+= + .
+
+Unde patet fore  >  , si cos > 0 , hoc est, si recta GR sursum vergat, sin autem deorsum
+
+dirigatur, fore  <  , quo casu fieri potest, ut contactus fiat in infimo puncto, si scilicet
+
+fuerit Tum vero habebitur pressio
+
+P
+
+=
+
+-
+
+ (M cos
+
++Q) - sin
+
+.
+
+E
+
+=
+
+(M
+
++Q+P
+
+sin - P cos ) cos2
+2 cos(  + )
+
+
+
+seu
+
+( ) E
+
+=
+
+P cos  cos 2 sin
+
+=
+
+1 2
+
+cos
+
+(M + Q)2 + 2P(M + Q) sin + PP
+
+hincque tandem concluditur longitudo vectis
+
+( ) GR
+
+=
+
+r
+
+=
+
+Qs P
+
++
+
+f
+
+sin  P
+
+
+
+(M + Q)2 + 2P(M + Q) sin + PP .
+
+Ut igitur pro eadem vi sollicitante P pressio E ideoque et frictio fiat minima, angulum  esse
+
+oportet = ­ 90° seu vectem GR in ipso radio GS capi convenit, quo casu fit, ut iam vidimus,  = 0 hincque
+
+atque
+
+ =
+
+et
+
+E
+
+=
+
+1 2
+
+(M
+
++
+
+Q
+
+-
+
+P) cos 
+
+GR
+
+=
+
+r
+
+=
+
+Qs P
+
++
+
+f
+
+(M +Q-P) sin 
+P
+
+Investigemus nunc etiam motum penduli, terminis cylindricis simili modo suspensi, qui scilicet utrinque binis planis inclinatis incumbant; et quia hic motus est reciprocus, ista plana aequaliter ad horizontem inclinata statui conveniet.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1099
+
+PROBLEMA 9 1018. Si pendulum oscilletur circa axem horizontalem fixum, cuius termini cylindrici
+utrinque binis planis aequaliter inclinatis incumbant, definire eius motum ob frictionem perturbatum.
+
+Sit AEBF basis alterius termini cylindrici, qui incumbat planis ML et NL ad horizontem inclinatis angulo =  (Fig.
+
+135), erunt puncta contactus in E et F, ut radii GE et GF cum verticali ABLH angulos constituant =  , quae omnia ad
+
+alteram partem perinde se habeant, ut axis gyrationis sit recta
+
+horizontalis GG. Sit porro penduli forma utrinque sibi similis,
+
+ac iam elapso tempore t declinet penduli centrum inertiae I a situ verticali angulo HGI =  , unde ad situm verticalem
+
+accedat celeritate angulari =  ' , ita ut motus gyratorius fiat in
+
+sensum EBF. Sit massa tota idemque pondus penduli = M,
+
+distantia GI = h, et momentum inertiae eius respectu axis gyrationis GG = Mkk. Quod ergo ad
+
+actionem gravitatis attinet, totum pondus M in puncto I collectum concipere licet.
+
+Ponatur iam terminorum cylindricorum radius GE = GF = f sintque vires, quibus ii a planis
+
+sustentantur, secundum EG = E et secundum GF= F; unde frictiones erunt secundum EM =  E et secundum FL =  F . Ex his autem viribus ut supra § 1005, ubi  =  , nascuntur primo vis verticalis sursum
+
+tendens
+
+= (E + F) cos +  (E - F ) sin
+
+et vis horizontalis dextrorsum directa = (E - F ) sin -  (E + F ) cos .
+
+Pondus autem praebet vim deorsum tendentem = M. Unde pro motu progressivo seu motu centri inertiae I habemus primo vim verticaliter deorsum directam:
+M - 2(E + F ) cos - 2 (E - F ) sin = P
+
+et vim dextrorsum tendentem horizontalem 2(E - F ) sin - 2 (E + F ) cos = Q .
+
+Motus autem huius, cum celeritas centri inertiae sit = h ' , celeritas verticalis deorsum tendens est = h ' sin et celeritas horizontalis dextrorsum directa = h 'cos , unde colligimus:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1100
+
+hd
+
+'
+
+sin +h ' 2 gdt
+
+d
+
+cos 
+
+=
+
+P M
+
+et
+
+hd
+
+'
+
+cos -hd 2 gdt
+
+'
+
+sin
+
+=
+
+Q M
+
+,
+
+ubi est  ' dt = -d . Deinde cum corpus circa axem fixum GG gyretur, cuius respectu est
+
+momentum virium ad accelerandum = Mh sin - 2 (E + F ) f ,
+
+erit
+
+d ' 2 gdt
+
+=
+
+Mk sin -2 (E + F )f Mkk
+
+.
+
+Qui valor si in illis substituatur, habebimus
+
+hincque
+
+Mhh sin2  -2 ( E + F ) fh sin - h '  ' cos
+
+Mkk
+
+2g
+
+= P Mhh sin cos -2 ( E + F ) fh cos + h '  ' sin = Q
+
+M
+
+Mkk
+
+2g
+
+M
+
+Mhh sin2  -2 ( E + F ) fh = P sin +Q cos et h '  ' = Q sin -P cos ,
+
+Mkk
+
+M
+
+2g
+
+M
+
+ex quibus quantitatibus pressiones E et F definiri debent. Cum autem sit
+
+erit hincque
+
+P +  Q = M - 2(1+  )(E + F )cos ,
+
+M - 2(1+  )(E + F )cos
+
+= Mhh sin(sin + cos )-2 ( E + F ) fh(sin + cos ) - Mh '  '(cos - sin )
+
+kk
+
+2g
+
+2(E + F )((1+  )kk cos -  fh (sin +  cos ))
+
+=
+
+Mkk
+
+-
+
+Mhh
+
+sin
+
+( sin 
+
++
+
+
+
+cos 
+
+)
+
++
+
+Mhkk
+
+'
+
+
+
+'(cos -
+2g
+
+sin
+
+)
+
+,
+
+unde valor ipsius E +F substitutus praebet
+
+d ' 2 gdt
+
+=
+
+(1+ (1+
+
+)h cos
+
+sin -
+
+f
+
+-
+
+fh '  ' (cos - sin )
+2g
+
+)kk cos - fh '  '(sin + cos )
+
+,
+
+ex qua aequatione motus penduli ope formulae  ' dt = -d determinari potest.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1101
+
+COROLLARIUM 1 1019. De pressione in E nullum est dubium, quin ea fiat positiva; sed pressio in F sequenti modo determinatur:
+
+2F ((1+  ) sin 2
+
+-
+
+2
+
+fh sin kk
+
+sin
+
+-
+
+2 fh kk
+
+sin 
+
+cos  )
+
+= M ( sin -  cos
+
++
+
+ fh kk
+
+cos) -
+
+Mhh sin kk
+
+(cos(
+
+-) +  sin(
+
+-  ))
+
++
+
+Mh '  ' 2g
+
+( sin (
+
+-) -  cos(
+
+-) +
+
+ fh kk
+
+),
+
+unde valor ipsius F positivus prodire debet, quod fit, dum fuerit tang  >  existente 
+
+angulo parvo.
+
+COROLLARIUM 2 1020. Si frictio esset nulla seu  = 0 , foret
+
+d ' 2 gdt
+
+=
+
+hsin kk
+
+,
+
+unde motus pendulorum supra definitus facile eruitur, pro pressionibus autem E et F
+
+haberemus has aequationes:
+
+2(E + F )
+
+kk cos
+
+=
+
+M (kk
+
+- hh sin2  +
+
+hkk '  ' cos 2g
+
+)
+
+et
+
+2Fk 2 sin 2
+
+=
+
+M
+
+ 
+
+kk
+
+sin
+
+
+
+- hh sin cos (
+
+-)+
+
+hkk '  ' sin( - ) 
+
+2g
+
+
+
+et
+
+2Ek 2 sin 2
+
+=
+
+M
+
+ 
+
+kk
+
+sin 
+
++ hh sin cos (
+
++)+
+
+hkk
+
+'
+
+
+
+' sin(
+2g
+
++
+
+)
+
+ 
+
+,
+
+quarum utraque ut sit positiva, debet esse:
+
+tang 
+
+>
+
+2ghh sin cos +hkk '  ' sin 2gkk -2ghh sin2  +hkk '  ' cos
+
+,
+
+ubi notandum est esse kk> hh.
+
+COROLLARIUM 3
+
+1021. Aequatio differentialis inventa ob
+
+dt
+
+=
+
+-
+
+d '
+
+abit in hanc formam
+
+0 =  ' d ' ((1+  )kk cos -  fh( sin +  cos)) -  fh '  ' d( cos -  sin)
+
++ 2 (1+  )ghd cos sin - 2 fgd ,
+
+quae per (1+  )kk cos -  fh( sin +  cos) multiplicata fit integrabilis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1102
+
+proditque
+C =  '  ' ((1+  )kk cos -  fh( sin +  cos))2
+ + 4g d ((1+  )h cos sin -  f )((1+  )kk cos - fh( sin +  cos)) .
+
+SCHOLION 1022. Si hoc integrale evolvamus, reperiemus
+C =  '  ' ((1+  )kk cos -  fh( sin +  cos))2 - 4(1+  )2ghkk cos2  cos -  (1+  )fghh cos (2 - sin 2 -  cos 2 ) - 4  (1+  )fgkk cos - 4 ffgh (cos -  sin ) .
+Quare si sumamus angulum HG1 initio fuisse =  indeque pendulum a quiete descensum inchoasse, constans C ita definitur, ut sit
+C = -4(1+  )2 ghkk cos2  cos -  (l +  ) fghh cos (2 - sin 2 -  cos 2 ) - 4 (1+  ) fgkk cos - 4 ffgh (cos -  sin ) ,
+
+quo valore substituto pendulum ex altera parte eousque ascendet, donec iterum fiat  ' = 0 . Verum hanc determinationem in genere suscipere haud licet. Neque vero ipsum problema in latissimo sensu resolvimus, ut ad omnia cuiuscunque formae pendula pateret, sed primo assumsimus binos terminos cylindricos utrinque a centro gravitatis aeque esse remotos; deinde etiam talem structuram statuimus, ut recta per centrum inertiae 1 axi gyrationis GO parallela ducta simul esset corporis axis principalis. Quae conditio nisi locum haberet, non licuisset momenta virium statim ad axem gyrationis GG transferre, sed etiam ratio habenda fuisset virium obliquarum, quae in terminis axis GG inaequales pressiones produxissent ideoque formulae multo magis intricatae prodiissent. Ut igitur hinc quicquam ad usum concludamus, statuamus oscillationes esse minimas, et quomodo earum motus a frictione perturbetur, diligentius investigemus.
+PROBLEMA 10 1023. Si pendulum eo modo suspensum, uti in problemate praecedente assumsimus, oscillationes peragat quam minimas, earum motum a frictione perturbatum determinare.
+SOLUTIO Maneant omnia, uti in problenlate praecedente constituimus, ac si initio pendulum ad angulum HG1 =  fuerit declinatum, unde descensum ex quiete inchoaverit, elapso autem tempore t angulus HG1 sit =  et celeritas angularis in sensum IH =  ' , in praesenti hypothesi anguli  et  erunt minimi, qui ergo loco sinuum et cosinuum ita introducantur, ut eorum potestates quadrato altiores reiiciantur. Hinc aequatio integralis paragrapho praecedente eruta induet hanc formam:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1103
+
+( ) ( ) C =  '  '
+
+(1+  )kk cos
+
+-
+
+fh(
+
++
+
+-
+
+1 2
+
+
+
+)
+
+2
+
+- 4(1+  )2ghkk cos2 
+
+1
+
+-
+
+1 2
+
+
+
+( ) +  (1+  )fghh cos
+
+(1- 2 ) - 4
+
+ (1+  )fgkk cos
+
+- 4
+
+ffgh
+
+1- 
+
+-
+
+1 
+2
+
+,
+
+ubi constans
+
+( ) C = -4(1+  )2ghkk cos2 
+
+1
+
+-
+
+1 2
+
+
+
++  (1+  )fghh cos (1- 2 )
+
+( ) -4 (1+  )fgkk cos - 4 ffgh
+
+1
+
+-
+
+
+
+-
+
+1 2
+
+
+
+.
+
+Haec igitur aequatione evoluta obtinebimus:
+
+ '  ' ((1+  )kk cos -  fh)2
+
+( ) = 2gh (1+  )2kk cos2  - (1+  )fh cos +  ff ( - ) =
+
+- 4 fg ((1+  )kk cos - fh)( - ) ,
+ubi in coefficiente ipsius  '  ' angulum neglexi, quia in evolutione perducturus esset ad altiores potestates. Ad hanc aequationem resolvendam statuamus brevitatis gratia: ut sit
+(1+  )kk cos -  fh = A ,
+(1+  )2 kk cos2  -  (1+  ) fk cos +  ff = B ,
+AA '  ' = 2Bgh ( - ) - 4Afg( -),
+
+unde ponendo  ' = 0 invenimus, quousque pendulum sit ascensururn, donec iterum ad quietem perducatur. Divisione autem per 2g( -) instituta oritur
+
+Bh( + ) - 2A f = 0
+
+hincque
+
+
+
+=-
+
+
+
++
+
+2
+
+A Bh
+
+f
+
+,
+
+seu ad alteram partem ultra H tantum per angulum
+
+-
+
+2 A f Bh
+
+ascendet. Porro ad durationem
+
+huius oscillationis investigandam, cum sit
+
+' =
+
+(2Bgh( - )-4 A fg( - ))
+A
+
+=
+
+-
+
+d dt
+
+,
+
+erit
+
+dt =
+
+Ad
+
+(2Bgh( - )-4A fg( - ))
+
+seu
+
+dt =
+
+Ad
+
+,
+
+2g( - )(Bh( - )-2 A f )
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1104
+
+unde integrando colligitur:
+
+t=
+
+A 2Bgh
+
+ Acos
+
+Bh - A Bh - A
+
+f f
+
+..
+
+Statuatur nunc
+
+ = - + 2A f
+Bh
+
+seu Bh - A f = -Bh + A f ,
+
+erit tempus oscillationis integrae =  A ; quod ergo non pendet ab amplitudine
+2Bgh
+
+oscillationis, ita ut omnes oscillationes mimimae maneant isochronae, perinde ac si nulla
+
+frictio adesset. Sed non pari tempore absolventur. Quantum autem frictio tempus euiusque
+
+oscillationis turbet, quaeratur valor ubi si crassitiem terminorum cylindricorum seu f ut
+
+minimam spectamus, est
+
+1 B
+
+=
+
+1
+(1+ )k cos
+
++
+
+ fh
+2(1+ )2 k3 cos2 
+
+ideoque
+
+A B
+
+=k
+
+-
+
+ fh
+2(1+ )k cos
+
+,
+
+quare tempus unius oscillationis
+
+=
+
+ 2 gh
+
+ 
+
+k
+
+-
+
+ fh
+2(1+ )k cos
+
+ 
+
+,
+
+unde patet ob frictionem tempora oscillationum minui.
+
+COROLLARIUM 1 1024. Si radius terminorum cylindricorum f sit valde exiguus prae quantitatibus h et k, erit proxime B = A(1+  ) cos . Hinc si primus arcus descensus sit = , erit sequens arcus
+
+ascensus
+
+=
+
+
+
+-
+
+2 f
+(1+ )h cos
+
+
+
+,
+
+qui simul est arcus descensus in secunda oscillatione.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1105
+
+COROLLARIUM 2 1025. Oscillationes ergo successivae sequenti modo se habebunt :
+
+In Oscillatione prima
+secunda
+tertia
+quarta
+
+arcus descenus 
+
+
+
+-
+
+2 f
+(1+ )h cos
+
+
+
+
+
+-
+
+4 f
+(1+ )h cos
+
+
+
+
+
+-
+
+6 f
+(1+ )h cos
+
+
+
+arcus ascensus
+
+
+
+-
+
+2 f
+(1+ )h cos
+
+
+
+
+
+-
+
+4 f
+(1+ )h cos
+
+
+
+
+
+-
+
+6 f
+(1+ )h cos
+
+
+
+
+
+-
+
+8 f
+(1+ )h cos
+
+
+
+totus arcus
+
+2
+
+-
+
+2 f
+(1+ )h cos
+
+
+
+2
+
+-
+
+6 f
+(1+ )h cos
+
+
+
+2
+
+-
+
+10 f
+(1+ )h cos
+
+
+
+2
+
+-
+
+14 f
+(1+ )h cos
+
+
+
+COROLLARIUM 3
+
+1026. Oscillationes tamdiu durabunt, quamdiu arcus ascensuum manent positivi. Statim
+
+enimque ac vel evanescunt vel adeo negativi evadunt, motus omnis cessat. Atque ut motus
+
+oriatur, necesse est, ut sit
+
+>
+
+A f Bh
+
+; si enim fuerit  =
+
+vel <
+
+A f Bh
+
+, pendulum ob frictionem
+
+plane in quiete coercetur, etsi teneat situm inclinatum.
+
+COROLLARIUM 4
+
+1027. Ut ergo pendulum saltem unam oscillationem peragat, debet esse
+
+
+
+>
+
+A f Bh
+
+existente
+
+A B
+
+=
+
+1
+(1+ )
+
+cos 
+
+; ut duas peragat oscillationes, debet esse
+
+ > 3A f ,
+Bh
+
+ut tres, debet esse
+
+
+
+>
+
+5 A Bh
+
+f
+
+,
+
+atque in genere, ut peragat n oscillationes, debet esse
+
+>
+
+(2n-1) A
+Bh
+
+f
+
+.
+
+Verum hic numerum n maiorem assumere non licet, quam ut angulus  adhuc satis parvus
+
+maneat.
+
+SCHOLION 1
+
+1028. Quod ad diminutionem temporis oscillationum singularum attinet, notasse iuvabit
+
+significare
+
+kk h
+
+distantiam centri oscillationis ab axe gyrationis, quae si ponatur = l, erit tempus
+
+unius oscillationis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1106
+
+l 2g
+
+1 -
+
+ f
+2(1+ )l cos
+
+ 
+
+.
+
+Hic autem primum observetur capi debere tang  >  , ut axis GG in loco suo maneat
+
+immotus. Quare si fuerit l = 3 pedum, quo casu pendulum, nisi frictio obstaret, fere singulis
+
+minutis secundis oscillationes absolveret, axiculorum autem radius sit
+
+f
+
+=
+
+1 500
+
+pedis, tum
+
+vero sumatur
+
+
+
+=
+
+1 3
+
+et 
+
+= 20o , fiet tempus unius oscillationis
+
+( )  l 2g
+
+1
+
+-
+
+1 28191
+
+,
+
+ita ut ob frictionem demum post 28191 oscillationes peractas seu post 8 fere horas error unius minuti secundi producatur. Hoc eodem casu, ut pendulum n oscillationes peragere possit, antequam ad quietem redigatur, debet esse
+
+
+
+> 2n -1
+4698
+
+seu
+
+
+
+>
+
+43,905(2n -1) min. sec.
+
+Quare si 100 oscillationes absolvere debeat, primum sumi debet  > 8737"
+
+seu  > 2° 25' 37" . Quodsi ergo  capiatur = 5°, pendulum peraget oscillationes
+
+205, antequam ad quietem redigetur. Si f sit maior vel minor quam
+
+1 500
+
+,
+
+effectus frictionis in eadem ratione maior vel minor evadet.
+
+SCHOLION 2 1029. Cum iam determinaverimus motum corporum circa axem fixum, ad alias motus species progrediamur, quibus corpus, dum movetur, ad superficiem quandam atteritur. Hic igitur praecipue figura corporis, quatenus successive aliae atque aliae partes superficiei applicantur, spectari debet, ubi quidem prima eiusmodi corpora occurrunt, quae unico tantum puncto eodemque perpetuo superficiem tangunt. Hic scilicet est casus turbinum in cuspidem definentium, qua continuo superficiei insistunt, quorum motum, quantum ob frictionem cuspidis perturbetur, definiri conveniet. Deinde occurrunt corpora, quae unico quidem puncto perpetuo superficiem tangunt, quod autem iugiter varietur, quemadmodum fit, si globi aliave corpora sphaeroidica super quadam superficie moveantur ac praeter motum progressivum motu gyratorio quocunque ferantur. His casibus ad effectum frictionis cognoscendum directio motus, quo punctum contactus superficiem terit, quovis momento est spectanda, quippe cui directio vis frictionis est contraria. Sequuntur casus, quibus corpus eadem quidem basi superficiem perpetuo tangit, uti fit in motu progressivo, sed ubi corpus simul gyratur circa axem ad basin normalem, ita ut ipsa basis super superficie in gyrum agatur. Porro progrediamur ad motus corporum cylindricorum super planis superficiebus, ubi contactus perpetuo fit secundum lineam rectam, ex cuius motu et appressione frictio est definienda. Quae autem corpora figuram eiusmodi habent angulosam, ut, dum moventur, aliae atque aliae hedrae superficiei applicentur, quoniam conflictus talem motum
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS I, II, & III.
+
+Translated and annotated by Ian Bruce.
+
+page 1107
+
+comitatur, dum nova hedra ad contactum pertingit, eorum motus hic nondum evolvere licet, sed prius ratio conflictus explicari debet. Secundum hanc ergo divisionem motum turbinum in cuspidem desinentium super plano horizontali determinare aggrediamur.
+
+

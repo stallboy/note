@@ -1,0 +1,2795 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 755
+
+Chapter 14
+
+CONCERNING THE MOTION OF SPINNING TOPS ON A HORIZONTAL PLANE, IN WHICH ALL THE MOMENTS OF
+INERTIA ARE EQUAL TO EACH OTHER.
+
+DEFINITION 13
+764. A top is a rigid body with a shaft with a sharpened point below passing through the centre of inertia, which likewise is in agreement with the other principal axes of the body.
+DESCRIPTION
+765. ABbD is a top of this kind, in which AD refers to the shaft, and Bb the body transfixed (Fig. 99), so that the shaft with the body is agreed to constitute a single rigid body: indeed
+where the shaft not only passes through the centre of inertia I of the whole body, but also presents a principal axis of the body. I assume indeed that the shaft ends below at D in the sharpest of points, by which the top is kept constantly on the horizontal plane, and the top is able to precede on that surface ; I do not pursue these other motions here, as long as the top touches the plane only by the point D. For whenever the top leans over, the motion of this must be referred to another kind, I do not touch on this as the motion of the top is no longer regular. Hence this I assume : the line from the point D drawn through the centre of inertia I likewise is a principal axis of the whole body constituted from the shaft and the mass Bb, which line alone enters into the calculation, since nothing else in addition is present, as the shaft is connected to the rest of the mass. Then in this chapter I assume thus that the whole body of the top is composed, so that the moments of inertia about the principal axes are equal to each other, and all the lines drawn through the centre of inertia I are able to be taken as principal axes. Finally I assume that here the plane is the smoothest, so that the cusp D can proceed on that without any friction, where also I remove considerations of air resistance, and all kinds of obstructions to the motion, considering the force of gravity only.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 756
+
+SCHOLIUM
+766. Hence I observe for such a top, that if thus it stands upon the horizontal plane on its point D, so that the right line DJ is vertical, it can stay indefinitely in this position, even if it should fall with the smallest inclination. Then indeed now, because no friction is present, it is able to progress uniformly in this vertical position along a straight line [on the surface], since it is agreed that it never experiences friction. Then since the line DIA is the principal axis, if that should be vertical, and the body takes some rotational motion about that axis, this uniform motion is kept indefinitely, with the line DJA remaining motionless and thus vertical, neither does the weight produce any disturbance in the motion in this case, since it is expended pressing the point D on the horizontal plane. But once this axis should begin to be inclined by the smallest angle, the weight disturbs the motion, and tends to upset the motion ; it is required to examine this effect and likewise to examine the force by which the point D is pressed on the horizontal plane. But whenever this force is unknown, and on account of the motion depending on all the circumstances of the motion, it is still clear that the direction of this force is always vertical, and from that the same effect arises, as if the top is pushed upwards by a like force arising vertically from the point D: now this force always must be of such a size that the point D remains applied to the horizontal plane, from which condition the size of this force can be elicited at any time. But if this force is considered as known, then we can set out the motion of the centre of inertia of the top 1 in the following problem, irrespective of the rotational motion in place.
+
+PROBLEM 81
+767. If the force pressing the point onto the horizontal plane should be known at any time, then the motion of the centre of inertia of the top can be determined.
+
+SOLUTION
+At some given elapsed time equal to t, the axis of the top AID is held in place at some inclination, making an angle FDA =  with the horizontal DF (Fig. 100), where the cusp may press on the horizontal plane with a force equal to P, that is the same as if the point D is acted on by a second force directed upwards along the vertical direction DP by a force equal to P, but the mass and also the weight of the whole top is equal to M. Now because we seek only the motion of the centre of inertia I, irrespective of any rotational motion had, and the motion of this likewise can be effected as if the whole mass of the top M can be gathered together at the point 1, and the forces acting along some direction are to be applied to this point. Therefore we have at I a mass equal to M, acted on by two forces, the one from gravity equal to M acting vertically downwards along IX, the other a force equal to P acting along IQ upwards; from which the force emerges acting downwards along IX equal to = M ­ P. Therefore since there is no force
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 757
+
+present acting horizontally, unless the centre of inertia I takes a horizontal motion initially,
+
+XQ is yet carried either up or down along the vertical line ; but if it takes an initial horizontal
+
+motion, the same besides remains unblemished. Therefore we put the distance DI = f, then the height IX = f sin , from which the speed of the centre of inertia I turning upwards is
+
+equal to
+
+f
+
+cosd dt
+
+,
+
+on
+
+taking
+
+the
+
+element
+
+of
+
+time
+
+dt
+
+constant,
+
+on
+
+account
+
+of
+
+the
+
+force
+
+acting
+
+downwards, equal to M ­ P, we have [note that the 'forces' M and P which are really masses,
+
+are multiplied by 2g to become true forces, which divided by M gives the acceleration : thus,
+
+we are entitled to consider Euler's forces as having the dimensions of mass from our
+
+viewpoint, while 2g is taken as the acceleration of gravity.]
+
+( ) f dd cos -d2 sin = -2g(M -P)dt
+
+dt
+
+M
+
+or
+
+( ) dd
+
+cos
+
+-
+
+d 2
+
+sin
+
+=
+
+2g f
+
+P M
+
+-1
+
+dt2 .
+
+Whereby if the force P were given at some time t, on integrating there will be :
+
+( ) d
+
+cos
+
+=
+
+2g f
+
+dt
+
+
+
+dt
+
+P M
+
+-1
+
+and
+
+( ) sin
+
+=
+
+2g f
+
+
+
+dt 
+
+dt
+
+P M
+
+-1
+
+,
+
+where
+
+( ) f sin = 2g dt dt
+
+P M
+
+-1
+
+expressed the height IX of the centre of inertia
+
+( ) fd cos dt
+
+=
+
+2g  dt
+
+P M
+
+-1
+
+the speed of this in the upwards direction.
+
+COROLLARY 1.
+768. Therefore if at some time we should know the force P, by which the axis of the top is supported by the horizontal plane, then the motion of the centre of inertia or the position of this at some time can be assigned, and from this we are able to define the inclination of the of the axis to the horizontal or the angle FDA =  .
+
+COROLLARY 2
+769. If initially only a rotational motion is impressed on the top, so that at least the centre of inertia I remains at rest at some point of time, then in turn in whatever manner the axis of rotation is varied and thus the axis of the top is inclined, the centre of inertia takes no other motion, except vertically either up or down in a straight line.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 758
+
+COROLLARIUM 3
+770. But if likewise a progressive motion were impressed on the top, the uniform horizontal motion thus arising remains constant and progressing along a fixed direction, with whatever vertical motion to which it is added.
+
+SCHOLIUM
+
+771. Hence the motion of the centre of inertia of the top works without any difficulty, if the manner in which the point D presses on the horizontal plane can be assigned at some time. Now in this sum there is placed a difficulty, since arises from this there is a moment tending to turn the top about some axis, from which, unless the top itself is turning about this axis, then the axis of rotation is changing, and by which the inclination of the top to the horizontal can change. Now the change in the inclination must agree with the moment, since the accepted force P assumed produces that moment, and from this agreement this force must be determined, from which investigation the force of the general investigation of the theory of tops has to be established. Therefore so that we may reach this goal easier, we may consider the top drawn with some inclination in place and rotating around the centre of inertia, and we can enquire about how great a change should be undergone both by the axis of rotation and the angular speed, from the force of the point pressing on the horizontal plane.
+
+PROBLEM 82
+
+772. While the top is rotating in some manner, if the force should be given, by which the point is supported by the horizontal plane, to determine the momentary variation produced both in the axis of rotation and in the angular speed.
+
+SOLUTIO
+Let the inclination of the top to the horizontal or the angle FDA =  and the force pressing at D = P, by which the point D is pressed up (Fig. 100). Since all the moments of inertia in the body are equal, this force DP = P exerts itself on the top, if it is at rest, to turn about an axis
+passing through the centre of inertia I and normal to the plane ADF. Whereby on putting the moment of inertia of the top about all the axes equal to Maa and the distance ID < f, then the moment of force DP about the axis of this is equal to Pf cos ; and thus in the element of time dt the
+top may turn about that axis through the element of the angle d = Pfgdt2 cos . [Note that again d is a second order
+Maa
+differential, which should really be written as dd , and the angular acceleration is given by torque/moment of inertia, where the torque is 2gPf cos , and
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 759
+
+dd
+
+=
+
+1 2
+
+ dt2
+
+.]
+
+But
+
+since
+
+the
+
+top
+
+now
+
+has
+
+rotational
+
+motion,
+
+we
+
+may
+
+refer
+
+everything
+
+to
+
+the
+
+spherical surface described about the centre of inertia (Fig. 101), in which the point Z shall be as if the zenith and above the end of the axis of the top A, then the arc ZA = 90° - , that we
+
+have called equal to l above; but now the top maintains a position of this kind, so that the other two axes B and C are fixed and normal to that. Even if here the ratio of all the axes is
+
+equal, yet in the body it is agreed to consider the three axes to
+
+be normal to each other, as from these the position of the top can be defined. Hence the quadrants AB, AO, BO are put in place and the angle ZAB =  : then the top is now rotating
+
+about an axis 1O with an angular speed equal to ' in the sense
+
+ABC and the arcs are called AO =  , BO =  and CO =  , in
+
+order that
+
+cos
+
+BAO
+
+=
+
+cos  sin
+
+and
+
+sin
+
+BAO
+
+=
+
+cos  sin
+
+[Recall from spherical trigonometry :
+
+1. The cosine rule for sides : cos a = cos b cos c + sin b sin c cos A;
+
+cos b = cos c cos a + sin c sin a cos B;
+
+cos c = cos a cos b + sin a sin b cos C;
+
+2. The cosine rule for the angles : cos A = - cos B cos C + sin B sin C cos a;
+
+cos B = - cos C cos A + sin C sin Acos b;
+
+cos C = - cos Acos B + sin A sin B cos c;
+
+3. The sine rule :
+
+sin A sin a
+
+=
+
+sin B sin b
+
+=
+
+sin C sin c
+
+;
+
+in
+
+the
+
+figure,
+
+the
+
+radius
+
+is
+
+1.
+
+Thus,
+
+in
+
+the
+
+spherical
+
+triangle
+
+ABO,
+
+the
+
+arc
+
+AB is a quadrant, and so the cosine rule for sides gives here : cos  = cos AB cos + sin AB sin cos BAO = sin cos BAO as required. The expression for
+
+sin BAO follows from the sum of the squares of the direction cosines being one. ] Now the quadrant AS is drawn normal to the arc ZA, then that axis I S is vertical to the plane, in which the axis of the top AID is turning, and about that axis IS there is generated a rotation through the angle
+d = Pfgdt2 cos
+Maa
+by the force P, in the sense BAC contrary to the sense ABC [by the right-hand screw rule of physics]; by which change unless it is added on, the top goes on to rotate about the axis 1O,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 760
+
+which enjoys the property of being a principal axis. Therefore on account of that force the top
+
+begins to rotate about the pole o situated on the arc OS beyond O. Whereby if in the figure
+
+this point o is noted towards S by a position on the arc OS = s, and following problem 62,
+
+[§650, Ch.10, where the motion is explained in detail, except that here the secondary rotation
+
+about IS is negative.] there is put in place
+
+q
+
+=
+
+Pfg cos Maa
+
+,
+
+from this it can be deduced that the small arc
+
+Oo
+
+=
+
+-2qdt sin s '
+
+=
+
+-2Pfgdt cos Maa '
+
+sin s
+
+and the decrease in the angular speed  ' is taken to be
+
+2qdt
+
+cos
+
+s
+
+=
+
+2Pfgdt cos cos s Maa
+
+so that
+
+d
+
+'
+
+=
+
+-2Pfgdt cos Maa
+
+cos
+
+s
+
+.
+
+But the change made in the pole of the axis of rotation from O to o can be expressed more conveniently, since on letting the angle ZAB = then the angle BAS = 90° ­  , then the
+
+angle BAO =  is put in place so that
+
+cos
+
+=
+
+cos  sin
+
+and
+
+sin
+
+=
+
+cos  sin
+
+,
+
+and in triangle OAS we have AO =  , AS = 90o and OAS = 90o -  -;
+
+thus there is found
+
+cos OS = cos s = sin ( + ) sin
+
+and on producing the arc AO to p and on sending the perpendicular op to that from o
+
+cot
+
+oOp
+
+=
+
+sin( + ) cos cos( + )
+
+.
+
+[For
+
+in
+
+the
+
+quadrant
+
+triangle
+
+AOS,
+
+sin oOp
+
+=
+
+sin AOS sin 90o
+
+=
+
+sin AOS
+
+=
+
+cos(
+sin
+
++ s
+
+)
+
+from
+
+the
+
+sine
+
+rule
+
+cos2 ( + )
+
+above,
+
+and
+
+cot
+
+2
+
+oOp
+
+=
+
+1- 1-cos2 s
+cos2 ( + )
+
+, leading to the desired result on substituting
+
+1-cos2 s
+cos s = sin ( + ) sin .]
+
+Now since
+
+Oo
+
+=
+
+-2Pfgdt cos Maa '
+
+sin
+
+s
+
+,
+
+then
+
+Op
+
+=
+
+d
+
+=
+
+-2Pfgdt cos Maa '
+
+ sin
+
+s
+
+cos
+
+oOp
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 761
+
+and [from the elemental rectilinear triangle Apo :]
+
+op
+
+=
+
+-2Pfgdt cos Maa '
+
+
+
+sin
+
+s
+
+sin
+
+oOp
+
+=
+
+d
+
+sin
+
+.
+
+But then
+
+sin s sin oOp = cos ( + )
+
+and
+sin s cos oOp = sin s sin oOp cot oOp = sin ( + ) cos .
+
+Hence from these there is found :
+
+d
+
+'
+
+=
+
+-2Pfgdt cos Maa
+
+ sin
+
+sin (
+
++ ) ,
+
+d
+
+=
+
+-2Pfgdt cos Maa '
+
+ cos
+
+sin (
+
++)
+
+and
+
+d
+
+=
+
+-2Pfgdt cos Maa '
+
+
+
+cos( + )
+sin
+
+and thus the variation in the axes of rotation of the top as well as the change in the angular speed  ' has been defined.
+
+COROLLARY 1
+
+773. Hence it follows:
+
+d ':
+
+d
+
+=
+
+sin
+
+:
+
+cos  '
+
+,
+
+from which
+
+d ' '
+
+=
+
+d sin cos 
+
+and on integrating
+
+'
+
+=
+
+ cos a sin
+
+,
+
+if indeed the initial angular speed were equal to  , and the arc AO = a, which now is equal to
+
+ . And thus from the given axis of rotation O, the angular speed of the top  ' is known at
+
+once.
+
+COROLLARY 2
+774. Therefore when the axis of rotation O recedes more from axis of the top A, the greater shall be the angular speed  ' and thus that can increase indefinitely, if the axis of rotation IO
+should depart as far as a right angle from the axis of the top IA.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 762
+
+PROBLEM 83
+775. If the inclination of the top to the horizontal should be given at some time, and the axis of rotation as well as the angular speed, to determine the momentary change arising in the position of the top.
+SOLUTIO
+With the centre of the described sphere taken as the centre of inertia of the top with the point Z taken as if the zenith, also in the first place there is put in place ZX as a meridian and now indeed the axis of the top is turning about A, from which calling the arc ZA = 90° -  = l and the angle XZA =  , then indeed the two remaining principal axes are at B and C, and there is put in place the angle ZAB =  . But now the top can rotate about the pole O so that BAO =  and AO =  and the angular speed is equal to  ' in the sense ABC. With these in place, if following problem 68 [relative to an absolute space,] we call the arcs
+OB =  , OC =  , ZB = m, ZC = n, then we have for the variation of the position:
+dl sin l =  ' dt (cos  cos n - cos  cos m) dm sin m =  ' dt (cos  cos l - cos cos n) dn sin n =  ' dt (cos cos m - cos  cos l )
+and
+-d sin2 l =  ' dt (cos  cos m + cos  cos n) .
+Now indeed there are [from the above cosine rule, noting the quadrants present] l = 90o - and thus cos l = sin cos  = sin cos cos  = sin sin
+both cos m = cos cos ,
+and cos n = - sin cos
+from this there is inferred
+-d cos =  ' dt (- sin cos sin cos - sin sin cos cos )
+or
+d =  ' dt sin sin ( + )
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 763
+
+d sin cos + d cos sin =  ' dt (sin sin sin + cos sin cos )
+
+d cos cos - d sin sin =  ' dt (cos cos cos - sin cos sin )
+
+or
+d cos =  ' dt (- sin sin cos ( + ) + cos cos )
+
+and finally
+
+d
+
+=
+
+-
+
+
+
+'
+
+dt
+
+sin cos(
+cos
+
++ )
+
+Hence the momentary variation in the position of the top is contained in these differential
+
+formulas:
+
+d =  ' dt sin sin ( + )
+
+d =  ' dt (cos - sin tang cos ( + ))
+
+d
+
+=
+
+-
+
+
+
+'
+
+dt
+
+sin cos(
+cos
+
++ )
+
+SCHOLIUM
+776. It is necessary to describe these momentary variations of two kinds, before the solution of the problem can be explained, in which the argument of this chapter is contained. Therefore now from these momentary variations defined, indeed such as we have considered in this chapter, we can now inquire about the motion after any motion has been impressed.
+
+PROBLEM 84
+777. After a rotational motion was impressed about a given axis of this top at an inclination,
+to determine the continuation of this motion, that is, at some time both \
+the position as well as the motion of the top.
+
+SOLUTION
+Initially there is put in place the axis of the top at an inclination to the horizontal, about which it has taken a rotational motion with an angular speed equal to in the sense ABC (Fig. 101). Moreover we can take initially the axis of the top A to be on that meridian ZX itself, and likewise the arc AB to be inscribed pertaining to the top. For the top itself the mass of this is equal to M, the moment of inertia about every axis of this passing through the centre of inertia is equal to Maa, and on the axis of the top the distance of the lowest point from the centre of inertia ID = f. Now in the elapsed time equal to t, with the motion of the centre of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 764
+
+inertia requiring to be taken away in the mind, the axis of the top arrives at A, in order that the angle X ZA =  , and the inclination of this to the horizontal is equal to or the arc ZA = 90° ­ , thus so that initially it is the case that  = 0 and  =  , then the arc AB with the moving top makes an angle ZAB =  with ZA thus so that initially there should be = 0. Again the top rotates now about the pole O with an angular speed equal to  ' , even now in the sense ABC, and on putting the arc AO =  and the angle BAO =  , thus so that initially  = 0, since the top begins to rotate about the axis AID, the angle  moreover is initially
+undefined. But if now this instantaneous force of the point on the horizontal plane is put equal to P, the preceding problems supply the following equations :
+
+( ) 1. P M
+
+=1+
+
+f
+
+dd cos -d2 sin 2 gdt 2
+
+1I. 
+
+'
+
+=
+
+ cos 
+
+on account of
+
+a=0
+
+1II. d
+
+=
+
+-2Pfgdt cos Maa '
+
+cos 
+
+sin (
+
++ )
+
+1V.
+
+d
+
+=
+
+-2Pfgdt cos Maa '
+
+
+
+cos( + )
+sin
+
+V. d =  ' dt sin sin( + )
+
+VI. d =  ' dt (cos - sin tang cos ( + ))
+
+VII.
+
+d
+
+=
+
+-
+
+'
+
+dt
+
+sin cos(
+cos
+
++ )
+
+,
+
+to the resolution of which equations we must set out all the forces. Therefore so that we can
+
+restrict the number of variables, from equations III and IV
+
+by eliminating P we deduce that
+
+d cos( + )
+sin cos
+
+=
+
+d
+
+sin (
+
++ ) ;
+
+then V and VI on eliminating  ' dt present
+
+d cos sin
+
+- dtang cos (
+
++) = d
+
+sin (
+
++ ) .
+
+We can now add these two equations, and on putting + =  we have
+
+d cos sin cos
+
++
+
+d cos sin
+
+- dtang
+
+cos 
+
+- d
+
+sin
+
+=
+
+0,
+
+which multiplied by tang cos gives rise to
+
+d
+
+cos cos cos2 
+
++
+
+d
+
+cos
+
+-
+
+d tang
+
+sin
+
+cos 
+
+-
+
+d tang
+
+cos
+
+sin
+
+=
+
+0,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 765
+
+of which the integral arises tang cos cos + sin = sin ,
+
+since initially there is put in place  = 0 and  =  ; therefore we obtain hence
+
+either
+
+tang
+
+=
+
+sin -sin cos cos
+
+or
+
+cos 
+
+=
+
+sin -sin tang cos
+
+.
+
+Now we divide equation III by V, in order that we may remove sin ( + ) or sin , and there
+
+becomes
+
+d d
+
++
+
+2Pfg cos cos Maa '  ' sin
+
+=
+
+0
+
+or
+
+ d sin cos3 
+
++
+
+2Pfgd cos Maa
+
+=0;
+
+where if we put
+
+sin = x,
+
+in order that
+
+d cos = dx,
+
+because
+
+P M
+
+=
+
+1+
+
+fddx 2 gdt 2
+
+,
+
+we find this equation integrable at once :
+
+which integrated gives :
+
+ aad sin cos3 
+
++ 2 fgdx +
+
+ffdxddx dt 2
+
+= 0,
+
+ aa 2 cos2 
+
++ 2 fg sin +
+
+ffd2 cos2  2dt 2
+
+=
+
+1 2
+
+C
+
+or
+
+( ) fd cos = dt
+
+C
+
+-
+
+4
+
+fg
+
+sin
+
+-
+
+ aa cos2 
+
+.
+
+Whereby since from equation V there is d =  dt tang sin ,
+
+we have the new finite equation
+
+1 2
+
+C
+
+=
+
+ aa 2 cos2 
+
++
+
+2
+
+fg
+
+sin
+
++
+
+
+
+ff
+
+tang2 cos2  sin2  2
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 766
+
+where there must be
+
+1 2
+
+C
+
+=
+
+1 2
+
+
+
+aa
+
++
+
+2
+
+fg
+
+sin 
+
+,
+
+from which there arises
+
+2
+
+fg (sin
+
+- sin )
+
+=
+
+1 2
+
+
+
+aa
+
+tang2
+
++
+
+1 
+2
+
+ff
+
+tang2
+
+cos2 
+
+sin2  ,
+
+which on account of
+
+sin2
+
+
+
+=1-
+
+(sin -sin )2
+tang2 cos2 
+
+goes into
+
+4 fg (sin - sin ) =  aa tang2 +  ff tang2 cos2  -  ff (sin - sin )2 ,
+
+from which we elicit
+
+(sin -sin )(4 fg + ff (sin -sin ))
+
+tang =
+
+,
+
+( )  aa+ ff cos2 
+
+and hence again
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 767
+
+
+cos = cos ( + ) =
+
+( ) (sin -sin ) aa+ ff cos2 
+
+cos (4 fg + ff (sin -sin ))
+
+sin = sin ( + ) =
+
+( ) 4 fg cos2  - aa(sin -sin )
+,
+
+cos (4 fg + ff (sin -sin ))
+
+and thus now by the inclination  alone we define the arc and the angle  =  + ,so that we also arrive at the relation between and the time t from the equation
+
+d =  dt tang sin ,
+
+which turns into this form :
+
+( ) dt (sin -sin ) 4 fg cos2  - aa(sin -sin )
+
+d =
+
+,
+
+( ) cos aa+ ff cos2 
+
+or
+
+( ) d cos aa+ ff cos2 
+
+dt =
+
+.
+
+( ) (sin -sin ) 4 fg cos2  - aa(sin -sin )
+
+Then since there is
+
+d d
+
+=
+
+1 tang sin
+
+-
+
+tang cos sin
+
+,
+
+( )  d tang (sin -sin ) aa+ ff cos2 
+d =  dt -
+( ) 4 fg cos2  - aa(sin -sin )
+
+or
+
+( )  d (1-sin sin ) aa+ ff cos2 
+
+d =
+
+,
+
+( ) cos (sin -sin ) 4 fg cos2  - aa(sin -sin )
+
+from which the angle ZAB =  can be elicited from integration. Then since
+
+d
+
+=
+
+- dt
+
+tang cos
+
+cos 
+
+,
+
+we have
+
+d
+
+=
+
+- dt (sin -sin )
+cos2 
+
+or
+
+( ) - d (sin -sin ) aa+ ff cos2 
+
+d =
+
+.
+
+( ) cos 4 fg cos2  - aa(sin -sin )
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 768
+
+But if also we wish to know the force of the top on horizontal plane, that can be deduced
+
+from equation III, from which :
+
+ aa
+
+d
+
+ tang
+
+
+
+=
+
+-
+
+2P M
+
+
+
+fgdt cos
+
+sin ,
+
+and hence it is concluded
+
+( ) ( ) 2P
+M
+
+=
+
+aa ( 2
+
+fg + ff (sin -sin ))
+fg aa+ ff cos2 
+
+-
+
+aaff
+
+sin(sin -sin )(4 fg +
+fg aa+ ff cos2 
+
+ff
+2
+
+(sin -sin ))
+
+.
+
+COROLLARY 1
+
+778. If initially the axis of the top AD were vertical, or  = 90o , then the top perpetually
+remains in this position, and rotates uniformly about the same axis AD with an angular speed  . Because the equation also indicates
+
+( ) d cos aa+ ff cos2 
+
+dt =
+
+;
+
+(1-sin ) (4 fg(1+sin )- aa)
+
+from which it is apparent that except after an infinite time is it possible for sin < 1.
+
+COROLLARY 2
+779. But if it should be that < 90o or sin < 1, the phenomena of the motion can be known from the equation
+
+( ) d cos aa+ ff cos2 
+
+dt =
+
+;
+
+( ) (sin -sin ) 4 fg cos2  - aa(sin -sin )
+
+from which in the first place it is apparent that nowhere is it possible for sin > sin , clearly the inclination to the horizontal  is never greater than the initial .
+
+COROLLARY 3
+780. But the inclination  cannot vanish, unless  aa sin < 4 fg ;
+whereby if the angular speed impressed initially were made smaller than
+2 fg ,
+a sin
+then the top finally falls over, just as comes about if a rotational motion were impressed on the top with zero inclination.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 769
+
+COROLLARY 4
+782.[ § 781 has been omitted.] But if the angular speed impressed initially were greater than
+2 fg ,
+a sin
+then the inclination cannot be smaller than beyond a certain limit, but likewise if that should be reached, then the top again erects itself to the initial inclination  . But the minimum inclination  from the equation
+4 fg cos2  -  aa (sin -sin ) = 0
+is deduced
+
+( )  aa-  4a4 -16 aafg sin +64 ffgg
+
+sin =
+
+.
+
+8 fg
+
+COROLLARY 5
+
+783. Whereby if the initial angular speed impressed  were as if infinitely large, the limit of
+
+the minimum sin = sin , or the top keeps the same inclination perpetually; but if it should
+
+be exceedingly great, the minimum inclination thus is defined approximately :
+
+sin
+
+=
+
+sin 
+
+-
+
+2 fg cos2   aa
+
+,
+
+in order that
+
+
+
+=
+
+
+
+-
+
+2
+
+fg cos  aa
+
+.
+
+SCHOLIUM
+784. Since the top soon leans forwards in the act of spinning more slowly, that angular speed is worth noting, which if the top exceeds, then it erects itself again. Indeed this should be the speed equal to
+2 fg ,
+a sin
+clearly the maximum inclination is agreed upon to be  = 0; but since on account of the motion of the top the axis cannot be inclined as far as the horizontal, that has to be reconsidered as the maximum inclination, where the top were horizontal, as if with its own body; which if this inclination should be called equal to i, as the top cannot be inclined further than this, then the angular speed  impressed initially must be greater than
+2 cos i fg ,
+a (sin -sini)
+and as long as that remains greater, the top is prevented from falling. And the cause is this, because the top, as the motion slowly decreases on account of friction and other obstacles, finally falls over. Moreover while here I may not have regarded obstacles of this kind, it is
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 770
+
+not to be wondered at, if also the remaining phenomena experienced cannot be answered in a satisfactory manner ; even if clearly the change in the speed required for the continuation of the rotation should be greatly in harmony with experience. Now without doubt a great advantage can be seized upon, if we can integrate the differential formulas found ; but on this account the reward of the work undertaken is not worth the effort, as these will be so complicated that they cannot be established with the help of logarithms or circular arcs. But these motions yet to be produced will be more complex, if not all the moments of inertia in the top are placed equal to each other, concerning which I do not touch on this argument, since the principals of stability are illustrated well enough by these other examples, but rather I will advance to the study of a more productive theory of the motion of rigid bodies in mediums [to solve that kind of problem]. Even if, with what we have just treated, everything is considered to be resolved, yet if then we wish to define the effect of any forces, the method prescribed to date is exceedingly laborious. While in the first place the axes is to be defined, about which the forces begin to make the body rotate, if it should be at rest, and moreover now there is then the variation of the axis, about which the body acted on is rotating, and it is required hence to determine the angular speed ; regarding which I propose a more perfect and more convenient method to be used, which henceforth will be used in more difficult investigations.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 771
+
+CAPUT XIV
+DE MOTU TURBINUM SUPER PLANO HORIZONTALI IN QUIBUS OMNIA MOMENTIA INERTIA SUNT INTER SE
+AEQUALIA
+DEFINITIO 13
+764. Turbo est corpus rigidum hasta inferius acuminata per centrum inertia traiectum, quae simul cum axe aliquo principali corporis conveniat.
+EXPLICATIO
+765. Huiusmodi turbo est ABbD, in quo AD hastam, et Bb corpus traiectum refert (Fig. 99), ut hasta cum corpore unum corpus rigidum constituere sit censenda: ubi quidem hasta non
+solum per totius corporis centrum inertiae I transit, sed etiam axem principalem corporis exhibet. Hastam quidem infra in D in cuspidem acutissimam desinere assumo, qua turbo constanter plano horizontali insistat, et super eo incedat; hic enim alios motus non prosequor, nisi quamdiu turbo sola cuspide D planum horizontale contingit. Statim enim ac turbo procumbit, eius motus ad aliud genus est referendus, quod cum turbini non amplius sit proprium, hic non attingo. Id ergo hic assumo: rectam a cuspide D per centrum inertiae I ductam simul esse corporis totius ex hasta et massa Bb constantis axem principalem, quae sola linea in computum ingredietur, cum praeterea nihil intersit, quomodo hasta cum massa reliqua sit coniuncta. Tum vero in hoc capite totum turbinis corpus ita comparatum assumo, ut momenta inertiae respectu eius axium principalium sint inter se aequalia, ideoque omnes rectae per eius centrum inertiae I ductae pro axibus principalibus haberi queant. Planum denique hic laevigatissimum assumo, ut cuspis D super eo sine ulla frictione incedere possit, ubi etiam mentem ab aeris resistentia, omnibusque motus obstaculis abstraho, ad solam vim gravitatis respiciens.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 772
+
+SCHOLION
+766. De tali ergo turbine primum observo, si cuspide sua D plano horizontali ita insistat, ut recta DJ sit verticalis, eum in hoc situ constanter perseverare posse, etiamsi vel minimum inclinatus procidat. Tum vero etiam, quia nulla adest frictio, in hoc situ verticali uniformiter in directum progredi poterit, quamquam experientia nunquam propter frictionem consentiet. Deinde quia recta DIA est axis principalis, si ea fuerit verticalis, corpusque circa eam motum gyratorium quemcunque acceperit, hunc perpetuo uniformem conservabit, manente recta DJA immota ideoque verticali, neque hic gravitas quicquam turbabit in motu, sed tota ad turbinem in cuspide D ad planum horizontaIe apprimendum impendetur. Statim autem atque hic axis vel minimum inclinari coeperit, gravitas motum turbabit, turbinemque subvertere tendet; ad quem effectum explorandum simul ad vim, qua cuspis D pIano horizontali apprimitur, respici oportet. Quanquam autem haec vis est ignota, atque ab omnibus motus circumstantiis pendet, tamen certum est, eius directionem semper esse verticalem, ab eaque eundem effectum oriri, ac si turbo in puncto D verticaliter sursum a pari vi pelleretur: ipsa vero vis semper tanta esse debet, ut cuspis D perpetuo pIano horizontali maneat applicata, ex qua conditione eius quantitas ad quodvis tempus est elicienda. Sin autem haec vis ut cognita spectetur, motus centri inertiae 1 turbinis, nullo respectu ad eius motum gyratorium habito, definiri poterit, id quod in sequente problemate expediamus.
+
+PROBLEMA 81
+767. Si ad quodvis tempus cognita fuerit pressio cuspidis in planum horizontale, determinare motum centri inertiae turbinis.
+
+SOLUTIO
+Ad datum tempus elapsum = t, teneat axis turbinis AID situm quemcunque inclinatum, faciens cum horizontali DF angulum FDA =  (Fig. 100), ubi cuspi premat planum horizontale vi = P, quod idem est, ac si cuspis D sollicitaretur sursum secundum directionem verticalem vi DP = P, massa autem idemque pondus totius turbinis sit = M. lam quia tantum motum centri inertiae I quaerimus, sine ullo respectu ad motum gyratorium habito, eius motus perinde afficietur, ac si tota turbinis massa M in puncto 1 collecta eique vires sollicitantes secundum quaequae directionem applicatae essent. Habebimus igitur in I massam = M, sollicitatam a duabus viribus, altera gravitate = M verticaliter secundum IX deorsum, altera vi = P verticaliter sursum secundum IQ; ex quibus vis deorsum secundum IX sollicitans exoritur = M ­ P. Cum ergo nulla adsit vis horizontaliter urgens, nisi centrum inertiae I initio acceperit motum horizontalem, tantum vel sursum vel deorsum in recta verticali XQ feretur; sin autem initio acceperit motum horizontalem, eundem praeterea intemeratum conservabit. Ponamus ergo distanantiam DI = f, erit altitudo IX = f sin , unde centri inertiae I celeritas sursum vergens
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 773
+
+erit
+
+=
+
+f
+
+cosd dt
+
+,
+
+sumto
+
+elemento
+
+temporis
+
+dt
+
+constante,
+
+ob
+
+vim sollicitantem deorsum
+
+=
+
+M
+
+­
+
+P, habebimus ( ) f dd cos -d2 sin = -2g(M -P)dt
+
+dt
+
+M
+
+seu
+
+( ) dd
+
+cos
+
+-
+
+d 2
+
+sin
+
+=
+
+2g f
+
+P M
+
+-1
+
+dt2 .
+
+Quare si vis P ad quodvis tempus t fuerit data, erit integrando :
+
+( ) d
+
+cos
+
+=
+
+2g f
+
+dt 
+
+dt
+
+P M
+
+-1
+
+et
+
+( ) sin
+
+=
+
+2g f
+
+
+
+dt 
+
+dt
+
+P M
+
+-1
+
+,
+
+ubi
+
+( ) f sin = 2g dt dt
+
+P M
+
+-1
+
+altitudinem IX centri inertiae et
+
+( ) fd cos dt
+
+=
+
+2g  dt
+
+P M
+
+-1
+
+celeritatem eius sursum directam exprimit.
+
+COROLLARIUM 1.
+768. Si ergo ad quodvis tempus nossemus pressionem P, qua axis turbinis pIano horizontali innititur, motum centri inertiae seu eius locum ad quodvis tempus assignare, indeque inclinationem axis ad horizontem seu angulum FDA =  definire possemus.
+COROLLARIUM 2
+769. Si turbini initio solus motus gyratorius imprimatur, ut centrum inertiae I manserit in quiete per punctum saltem temporis, tum deinceps quomodocunque axis gyrationis varietur indeque axis turbinis inclinetur, centrum inertiae alium motum non recipiet, nisi verticaliter vel sursum vel deorsum directum.
+
+COROLLARIUM 3
+770. Sin autem turbini simul motus progressivus fuerit impressus, moturn horizontalem inde ortum constanter conservabit uniformem et in direoturn progredientem, quocum motus prior verticalis erit coniunctus.
+SCHOLION
+
+771. Motus ergo centri inertiae in turbine nulla Iaborat difficultate, si modo pressio cuspidis D in planum horizontale ad quodvis tempus assignari posset. Verum in hoc ipso summa sita est difficultas, cum ab hac pressione oriatur momentum ad turbinem circa quempiam axem convertendum tendens, ex quo, nisi turbo iam circa hunc ipsum axem gyretur, axis gyrationis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 774
+
+variabitur, unde etiam turbinis inclinatio ad horizontem mutationem patietur. lsta vero inclinationis mutatio convenire debet cum ea, quam pressio P assumta producit, atque ex hac convenientia ipsa haec pressio determinari debet, in qua investigatione vis universae Theoriae turbinum est constituenda. Quo igitur facilius ad hunc scopum pertingamus, turbinem in situ quocunque inclinato et circa axem per centrum inertiae ductum gyrantem consideremus atque inquiramus, quantam mutationem tam axis gyrationis quam celeritas angularis a pressione, qua cuspis plano horizontali insistit, sit passura.
+
+PROBLEMA 82
+
+772. Dum turbo utcunque gyratur, si detur pressio, qua cuspis plano horizontali innititur,
+
+determinare variationem momentaneam tam in axe gyrationis quam celeritate angulari
+
+productam.
+
+SOLUTIO
+Sit inclinatio turbinis ad horizontem seu angulus FDA =  et pressio in D = P, qua punctum
+
+D sursum urgetur (Fig. 100). Quoniam in corpore omnia momenta inertiae sunt aequalia, haec vis DP = P tendet turbinem, si quiesceret, convertere circa axem per centrum inertiae I transeuntem et ad planum ADF normalem. Quare posito momento inertiae turbinis circa
+omnes axes = M aa et distantia ID <f, erit momentum vis DP respectu ilIius axis = Pf cos ; ideoque tempusculo dt
+
+turbo circa ilium axem vertetur per angulum elementarem d = Pfgdt2 cos . Cum autem turbo iam habeat motum
+Maa
+gyratorium, iterum omnia ad superficiem sphaericam centro inertiae corporis descriptam referamus (Fig. 101), in qua sit punctum Z quasi zenith et A superior terminus axis turbinis, erit arcus ZA = 90° - , quem supra vocavimus = l ; nunc
+
+autem eiusmodi teneat situm turbo, ut alii bini axes in eo fixi et ad normales sint in B et C . Etsi enim hic omnium axium par est ratio, tamen in corpore ternos axes inter se normales concipi convenit, ut ex iis situs turbinis definiatur. Erunt ergo AB, AO, BO quadrantes ponaturque angulus ZAB =  : tum vero turbo iam gyretur
+
+circa axem 10 celeritate angulari = ' in sensum ABC
+
+vocenturque arcus AO =  , BO =  et CO =  , ut sit
+
+cos
+
+BAO
+
+=
+
+cos  sin
+
+et
+
+sin
+
+BAO
+
+=
+
+cos  sin
+
+Ducatur nunc quadrans AS ad arcum ZA normalis, erit I S axis
+
+ille ad planum verticale, in quo axis turbinis AID versatur,
+
+normalis, circa quem a vi P generatur conversio per angulum
+
+d
+
+=
+
+Pfgdt2 cos Maa
+
+in sensum BAC illi sensui ABC contrarium; quae mutatio nisi accederet, turbo circa axem
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 775
+
+1O, quia principalis proprietate gaudet, gyrari pergeret. Ob illam igitur vim iam gyrari
+
+incipiet circa polum o in arcu OS ultra O situm. Quare si in figura hoc punctum o versus S
+
+notetur posito arcu OS = s et secundum problema 62 statuatur
+
+q
+
+=
+
+Pfg cos Maa
+
+,
+
+colligetur inde arculus
+
+Oo
+
+=
+
+-2qdt sin s '
+
+=
+
+-2Pfgdt cos Maa '
+
+sin s
+
+et celeritas angularis  ' decrementum capiet
+
+2qdt
+
+cos
+
+s
+
+=
+
+2Pfgdt cos Maa
+
+cos
+
+s
+
+ut sit
+
+d
+
+'
+
+=
+
+-2Pfgdt cos Maa
+
+cos s
+
+.
+
+Ad mutationem autem poli gyrationis O in o factam commodius exprimendam, cum sit angulus ZAB = erit angulus BAS = 90° ­  , deinde vocetur angulus BAO = 
+
+ut sit
+
+cos
+
+=
+
+cos  sin
+
+et
+
+sin
+
+=
+
+cos  sin
+
+,
+
+in triangulo OAS habemus AO =  , AS = 90o et OAS = 90o -  -;
+
+unde reperitur
+
+cos OS = cos s = sin ( + ) sin
+
+et producto arcu AO in p eoque ex o demisso perpendiculo op
+
+cot
+
+oOp
+
+=
+
+sin( + ) cos cos( + )
+
+.
+
+Cum nunc sit erit
+
+Oo
+
+=
+
+-2Pfgdt cos Maa '
+
+sin
+
+s
+
+,
+
+Op
+
+=
+
+d
+
+=
+
+-2Pfgdt cos Maa '
+
+
+
+sin
+
+s cos
+
+oOp
+
+et
+
+op
+
+=
+
+-2Pfgdt cos Maa '
+
+
+
+sin
+
+s
+
+sin
+
+oOp
+
+=
+
+d
+
+sin
+
+.
+
+At est
+
+sin s sin oOp = cos ( + )
+
+et
+sin s cos oOp = sin s sin oOp cot oOp = sin ( + ) cos .
+
+Ex his ergo reperitur :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 776
+
+d
+
+'
+
+=
+
+-2Pfgdt cos Maa
+
+ sin
+
+sin (
+
++ ) ,
+
+d
+
+=
+
+-2Pfgdt cos Maa '
+
+ cos
+
+sin (
+
++)
+
+et
+
+d
+
+=
+
+-2Pfgdt cos Maa '
+
+
+
+cos( + )
+sin
+
+sicque tam variatio axis gyrationis in turbine quam celeritatis angularis  ' est definita.
+
+COROLLARIUM 1
+
+773. Est ergo
+
+d ' : d
+
+=
+
+sin
+
+:
+
+cos  '
+
+,
+
+unde fit
+
+d ' '
+
+=
+
+d sin cos 
+
+et integrando
+
+'
+
+=
+
+ cos a sin
+
+,
+
+si quidem initio fuerit celeritas angularis =  , et arcus AO = a, qui nunc = . Sicque ex dato
+
+axe gyrationis O statim innotescit celeritas turbinis angularis  ' .
+
+COROLLARIUM 2
+774. Quo magis ergo axis gyrationis O ab axe turbinis A recedit, maior sit celeritas angularis  ' eaque adeo in infinitum augeretur, si axem gyrationis IO usque ad angulum rectum ab axe
+turbinis IA digrederetur.
+PROBLEMA 83
+
+775. Si detur ad aliquod tempus inclinatio turbinis ad horizontem, et axis gyrationis celeritate angulari, determinare mutationem momentaneam in situ turbinis ortam.
+
+SOLUTIO
+Sumto sphaerae immobilis centro inertiae turbinis descriptae punctu summo Z quasi zenith, constituatur etiam primus quasi meridianus ZX et nunc quidem versetur axis turbinis in A, pro quo dicatur arcus ZA = 90° -  = l et angulus XZA =  , tum vero reliqui bini axes principales sint in B et C, ponaturque angulus ZAB =  . Nunc autem turbo gyretur circa polum O ut sit BAD =  et AO =  celeritasque angularis =  ' in sensum ABC. His positis, si secundum
+problema 68 vocemus arcus OB =  , OC =  , ZB = m, ZC = n,
+habebimus pro variatione situs:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 777
+
+dl sin l =  ' dt (cos  cos n - cos  cos m)
+
+dm sin m =  ' dt (cos  cos l - cos cos n)
+
+dn sin n =  ' dt (cos cos m - cos  cos l )
+
+et
+-d sin2 l =  ' dt (cos  cos m + cos  cos n) .
+
+Iam vero est
+
+l = 90o - ideoque cos l = sin
+
+cos  = sin cos
+
+cos  = sin sin
+
+atque
+
+cos m = cos cos
+
+et cos n = - sin cos
+
+unde concluditur
+-d cos =  ' dt (- sin cos sin cos - sin sin cos cos )
+
+seu
+d =  ' dt sin sin ( + )
+
+d sin cos + d cos sin =  ' dt (sin sin sin + cos sin cos )
+
+d cos cos - d sin sin =  ' dt (cos cos cos - sin cos sin )
+
+seu
+d cos =  ' dt (- sin sin cos ( + ) + cos cos )
+
+et denique
+
+\
+
+d
+
+=
+
+-
+
+
+
+'
+
+dt
+
+sin cos(
+cos
+
++ )
+
+Variatio ergo momentanea in situ turbinis his continetur formulis differentialibus:
+
+d =  ' dt sin sin ( + )
+
+d =  ' dt (cos - sin tang cos ( + ))
+
+d
+
+=
+
+-
+
+
+
+'
+
+dt
+
+sin cos(
+cos
+
++
+
+)
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 778
+
+SCHOLION
+776. Has duplicis generis variationes momentaneas evolvi necesse erat, antequam solutionem problematis, quo argumentum huius capitis continetur, suscipere liceret. Nunc igitur his variationibus momentaneis definitis, in motum turbinis, qualem quidem hoc capite consideramus, postquam ipsi motus quicunque fuerit impressus, inquiramus.
+PROBLEMA 84
+777. Postquam turbini in data axis sui inclinatione motus gyratorius circa hunc axem fuerit impressus, determinare motus huius continuationem, hoc est, ad quodvis tempus tam situm quam motum turbinis.
+SOLUTIO
+Habuerit initio axis turbinis ad horizontem inclinationem  , circa quem acceperit motum gyratorium celeritate angulari =  in sensum ABC (Fig. 101). Sumamus autem initio axem turbinis A in ipso meridiano ZX fuisse, in eumque simul arcum AB ad turbinem pertinentem incidisse. Pro ipso turbine sit eius massa = M, momentum inertiae respectu omnium axium per eius centrum inertiae transeuntium = Maa, et in axe turbinis distantia imae cuspidis a centro inertiae ID = f. Nunc elapso tempore = t, mentem a motu centri inertiae abstrahendo, pervenerit axis turbinis in A, ut sit angulus X ZA =  , eiusque inclinatio ad horizontem  seu arcus ZA = 90° ­ , ita ut initio fuerit  = 0 et  =  , tum vero arcus AB cum turbine mobilis iam cum ZA faciat angulum ZAB =  , ita ut initio fuerit  = 0. Porro gyretur nunc turbo circa polum O celeritate angulari = ' etiamnum in sensum ABC, ponaturque arcus AO =  et angulus BAO =  ,ita ut initio fuerit  = 0, quia turbo circa ipsum axem AID gyrari coepit, angulus autem initio erat indefinitus.
+Quodsi iam hoc instanti pressio cuspidis in planum horizontale ponatur = P, praecedentia problemata suppeditant sequentes aequationes:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 779
+
+( ) 1.
+
+P M
+
+=1+
+
+f
+
+dd cos -d2 sin 2 gdt 2
+
+1I. 
+
+'
+
+=
+
+ cos 
+
+ob a = 0
+
+1II. d
+
+=
+
+-2Pfgdt cos Maa '
+
+cos 
+
+sin (
+
++ )
+
+1V. d
+
+=
+
+-2Pfgdt cos Maa '
+
+
+
+cos( + )
+sin
+
+V. d =  ' dt sin sin ( + )
+
+VI. d =  ' dt (cos - sin tang cos ( + ))
+
+VII.
+
+d
+
+=
+
+-
+
+'
+
+dt
+
+sin cos(
+cos
+
++ )
+
+,
+
+ad quarum aequationum resolutionem omnes vires intendere debemus. Quo
+
+igitur multitudinem variabilium restringamus, ex aequationibus III et IV
+
+eliminando P colligimus
+
+d cos( + )
+sin cos
+
+=
+
+d
+
+sin (
+
++ ) ;
+
+tum V et VI eliminando  ' dt praebent
+
+d cos sin
+
+- dtang cos (
+
++)
+
+=
+
+d
+
+sin (
+
++ ) .
+
+Addamus has duas aequationes, et posito  + =  habebimus
+
+d cos sin cos
+
++
+
+d cos sin
+
+- dtang
+
+cos 
+
+- d
+
+sin
+
+=
+
+0,
+
+quae multiplicata per tang cos abit in hanc
+
+d
+
+cos cos cos2 
+
++
+
+d
+
+cos
+
+-
+
+d tang
+
+sin
+
+cos 
+
+-
+
+d tang
+
+cos
+
+sin
+
+=
+
+0,
+
+quae integrabilis existit praebetque tang cos cos + sin = sin ,
+
+quia initio sit  = 0 et  =  ; hinc ergo nancisimur
+
+vel
+
+tang
+
+=
+
+sin -sin cos cos
+
+vel
+
+cos 
+
+=
+
+sin -sin tang cos
+
+.
+
+Dividamus nunc aequationem III per V, ut sin ( + ) seu sin removeamus, fiet
+
+d d
+
++
+
+2Pfg cos cos Maa '  ' sin
+
+=0
+
+seu
+
+ d sin cos3 
+
++
+
+2Pfgd cos Maa
+
+=
+
+0;
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 780
+
+ubi si ponamus
+
+sin = x,
+
+ut sit d cos = dx,
+
+quoniam est
+
+P M
+
+=
+
+1+
+
+fddx 2 gdt 2
+
+,
+
+nanciscemur hanc aequationem sponte integrabilem :
+
+quae integrata dat :
+
+ aad sin cos3 
+
++ 2 fgdx +
+
+ffdxddx dt 2
+
+= 0,
+
+ aa 2 cos2 
+
++ 2 fg sin +
+
+ffd2 cos2  2dt 2
+
+=
+
+1 2
+
+C
+
+seu
+
+( ) fd cos = dt
+
+C
+
+-
+
+4
+
+fg
+
+sin
+
+-
+
+ aa cos2 
+
+.
+
+Quare cum ex aequatione Vsit
+
+d =  dt tang sin ,
+
+habemus novam aequationem finitam
+
+1 2
+
+C
+
+=
+
+ aa 2 cos2 
+
++
+
+2
+
+fg
+
+sin
+
++
+
+
+
+ff
+
+tang2 cos2  2
+
+sin2 
+
+,
+
+ubi esset debet
+
+1 2
+
+C
+
+=
+
+1 2
+
+
+
+aa
+
++
+
+2
+
+fg
+
+sin 
+
+,
+
+unde oritur
+
+2
+
+fg (sin
+
+-
+
+sin )
+
+=
+
+1 2
+
+
+
+aa
+
+tang
+
+2
+
++
+
+1 
+2
+
+ff
+
+tang2
+
+cos2 
+
+sin2  ,
+
+quae ob
+
+sin2 
+
+=1-
+
+(sin -sin )2
+tang2 cos2 
+
+abit in
+
+4 fg (sin - sin ) =  aa tang2 +  ff tang2 cos2  -  ff (sin - sin )2 ,
+
+unde elicimus
+
+(sin -sin )(4 fg + ff (sin -sin ))
+
+tang =
+
+,
+
+( )  aa+ ff cos2 
+
+hincque porro
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 781
+
+cos = cos ( + ) =  ( ) (sin -sin ) aa+ ff cos2 
+cos (4 fg + ff (sin -sin ))
+
+sin = sin ( + ) =
+
+( ) 4 fg cos2  - aa(sin -sin )
+,
+
+cos (4 fg + ff (sin -sin ))
+
+sicque iam per solam inclinationem  definimus arcum  et angulum  =  + ,quin etiam
+
+relationem inter et tempus t adipiscimur aequatione d =  dt tang sin ,
+
+quae induit hanc formam
+
+( ) dt (sin -sin ) 4 fg cos2  - aa(sin -sin )
+
+d =
+
+,
+
+( ) cos aa+ ff cos2 
+
+seu
+
+( ) d cos aa+ ff cos2 
+
+dt =
+
+.
+
+( ) (sin -sin ) 4 fg cos2  - aa(sin -sin )
+
+Deinde cum sit erit
+
+d d
+
+=
+
+1 tang sin
+
+-
+
+tang cos sin
+
+,
+
+( )  d tang (sin -sin ) aa+ ff cos2 
+d =  dt -
+( ) 4 fg cos2  - aa(sin -sin )
+
+seu
+
+( )  d (1-sin sin ) aa+ ff cos2 
+
+d =
+
+,
+
+( ) cos (sin -sin ) 4 fg cos2  - aa(sin -sin )
+
+unde angulus ZAB =  per integrationem est eliciendus. Deinde cum sit
+
+d
+
+=
+
+- dt
+
+tang cos
+
+cos 
+
+,
+
+habebimus
+
+d
+
+=
+
+- dt (sin -sin )
+cos2 
+
+seu
+
+( ) - d (sin -sin ) aa+ ff cos2 
+
+d =
+
+.
+
+( ) cos 4 fg cos2  - aa(sin -sin )
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 782
+
+Quodsi etiam pressionem turbinis in planum horizontale nosse velimus, ea ex aequatione III
+
+colligatur, unde est :
+
+ aa
+
+d
+
+ tang
+
+
+
+=
+
+-
+
+2P M
+
+
+
+fgdt cos
+
+sin ,
+
+hincque concluditur
+
+( ) ( ) 2P
+M
+
+=
+
+aa(2 fg + ff (sin -sin ))
+fg aa+ ff cos2 
+
+-
+
+aaff
+
+sin(sin -sin )(4 fg +
+fg aa+ ff cos2 
+
+ff
+2
+
+(sin -sin ))
+
+.
+
+COROLLARIUM 1
+
+778. Si initio axis turbinis AD fuerit verticalis, seu  = 90o , turbo perpetuo hunc situm
+
+servabit, et uniformiter circa eundem axem AD gyrabitur celeritate angulari  . Quod etiam
+
+declaret aequatio
+
+( ) d cos aa+ ff cos2 
+
+dt =
+
+;
+
+(1-sin ) (4 fg(1+sin )- aa)
+
+unde patet nonnisi post tempus infinitum hoc est nunquam fieri posse sin < 1.
+
+COROLLARIUM 2
+779. At si fuerit  < 90o seu sin < 1, phaenomina motus ex aequatione
+
+( ) d cos aa+ ff cos2 
+dt =
+( ) (sin -sin ) 4 fg cos2  - aa(sin -sin )
+cognosci possunt ; ex qua primum patet nunquam fieri posse sin > sin , nempe inclinatio ad horizontem  nunquam superabit initialem  .
+
+COROLLARIUM 3
+780. Inclinatio autem  evanescere nequit, nisi sit  aa sin < 4 fg ;
+quare si celeritas angularis initio impressa  minor fuerit, quam
+2 fg ,
+a sin
+turbo tandem procidet, quemadmodum evenit, si turbini inclinato nullus impressus fuerit motus gyratorius.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 783
+
+COROLLARIUM 4
+782. At si celeritas angularis initio impressa maior fuerit, quam
+2 fg ,
+a sin
+inclinatio  non ultra certum limitem imminui poterit, quem simul atque attigerit, turbo se iterum ad initialem inclinationem  eriget. At minima inclinatio  ex aequatione
+
+colligitur,
+
+4 fg cos2  -  aa (sin -sin ) = 0
+
+( )  aa-  4a4 -16 aafg sin +64 ffgg
+
+sin =
+
+8 fg
+
+.
+
+COROLLARIUM 5
+
+783. Quare si celeritas angularis  initio impresses fuerit quasi infinita, limes minimi
+
+sin = sin , seu turbo perpetuo eandem inclinationem servabit; sin autem sit valde magna,
+
+minima inclinatio ita proxime definitur :
+
+sin
+
+=
+
+sin 
+
+-
+
+2 fg cos2   aa
+
+,
+
+ut sit
+
+
+
+=
+
+-
+
+2 fg cos  aa
+
+.
+
+SCHOLION
+784. Cum turbo tardius in gyrum actus mox procumbat, ea celeritas angularis notari meretur, quam si turbo superaverit, iterm erigatur. Esset quidem haec celeritas
+= 2 fg ,
+a sin
+quippe cui maxima inclinatio convenit, nempe  = 0; sed quia ob motum turbinis axis non ad horizontem usque inclinari potest, ea pro maxima inclinatione erit reputanda, ubi turbo quasi corpore suo horizontem attingit; quae si vocetur = i, ne turbo eousque inclinetur, celeritas angularis initio impressa  maior esse debet, quam
+2 cos i fg ,
+a (sin -sini)
+et quamdiu ea maior manserit, turbo a lapsu erit immunise. Haecque est causa, quod turbo, cum ob frictionem aliaque obstacula eius motus sensim imminuatur, tandem prolabatur. Ceterum cum hic ad eiusmodi obstacula non respexerim, mirum non est, si etiam reliqua phaenomena experientiae non satis respondeant; etiamsi certus velocitatis gradus, ad
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter FOURTEEN.
+
+Translated and annotated by Ian Bruce.
+
+page 784
+
+perennitatem gyrationis requisitus, experientiae maxime sit consentaneus. Verum ingens sine dubio discrimen deprehenderetur, si formulas differentiales inventas integraremus; atque ob hanc ipsam causam istum laborem suscipere haud operae esset pretium, cum eae tarn sint complicatae, ut per logarithmos et arcus circulares expediri nequeant. Eae autem adhuc magis proditurae essent intricatae, si in turbine non omnia momenta inertiae inter se aequalia statuerentur, quocirca etiam hoc argumentum non attingam, quoniam principia stabilita his allatis exemplis satis sunt illustrata, sed potius uberiorem ipsius Theoriae de motu corporum rigidorum explicationem in medium afferre studebo. Etsi enim, quae hactenus sunt tradita, totum opus absolvere videntur, tamen si inde effectum virium quarumcunque definire velimus, methodus ante praescripta nimis est operosa; dum primo axem, circa quem vires corpus, si quiesceret, convertere inciperent definiri, tum vero hinc variationem axis, circa quem corpus actu gyratur, et celeritatis angularis determinari oportet; ex quo methodum perfectiorem magisque ad usum accommodatam proponam, qua deinceps ad investigationes magis arduas uti liceat.
+
+

@@ -1,0 +1,8914 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1108
+
+CHAPTER IV
+
+CONCERNING THE MOTION OF TOPS ENDING IN A SHARP POINT ON A HORIZONTAL PLANE WITH FRICTION TAKEN INTO ACCOUNT.
+
+PROBLEM 11 1030. If a top is moving on a horizontal plane in some manner and the pressing force of this on the plane is given with the individual moments, to define the friction and the progressive motion of the top.
+SOLUTION The figure represents the horizontal plane (Fig. 136), upon which the top advances, the axis of this passing through the centre of inertia and the point now at the elapsed time t maintains
+the position AIF, so that I is the centre of inertia in the elevated position, and indeed F is the point of this, by which it makes contact with the horizontal plane ; and the distance IF is put equal to f, which is constant. The perpendicular IG is sent from I to the plane, and on taking the direction OV in the plane regarded as in a fixed direction in space [i. e. according to the idea of the universal reference frame of the fixed stars], from G and F the normals GX and FZ are drawn to that, and likewise through G the line KL is drawn parallel to OV. The angle FIG =  , which expresses the declination of the axis of the top AF from the vertical position ; and the angle KGH =  , which shows the declination of
+the vertical plane in which the axis of the top is now rotating, from the vertical plane constructed on OV or LK. Hence let GI = f cos  and GF = f sin  ; then indeed GN = f sin  cos and FN = f sin  sin . In addition now let OX = x and XG = y; from
+which for the point F there becomes
+OZ = x - f sin  cos and ZF = y + f sin  sin ;
+
+from which the motion of the point F can be deduced :
+
+the speed of this along the direction OV or NG is equal to
+
+dx-
+
+fd sin dt
+
+
+
+cos 
+
+,
+
+and the speed along the direction NF is equal to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1109
+
+dy +
+
+fd sin  sin dt
+
+,
+
+each of which, unless it vanishes, is disturbed by the friction of the point F on the surface ; to find the direction of this, let Ff be the direction of the point as it advances, which produced backwards gives the direction of friction FL at L, for which there is put in place the angle FLG =  and then
+
+tang
+
+
+
+=
+
+dy+ fd sin  sin dx- fd sin  cos
+
+.
+
+Now let the pressing force, which the point exerts on the plane be equal to  , with the whole
+
+weight of the top present equal to M, and on account of friction the top is acted on at F by the force equal to along the direction FL, which resolved gives the force along XO =  cos and along FZ =  sin . Hence towards defining the progressive motion
+
+of the centre of inertia I, in addition to that force acting downwards along IG equal to M -  , the forces of friction are considered applied to that, and the principles of
+
+motion supply these three equations:
+
+ddx 2 gdt 2
+
+=
+
+-
+
+
+
+cos  M
+
+,
+
+ddy = -  sin
+
+2 gdt 2
+
+M
+
+and
+
+fddcos 2 gdt 2
+
+=
+
+-1 +
+
+ M
+
+,
+
+from which we deduce at once that ddx sin = ddy cos . From these equations, if the angles
+
+
+
+and
+
+
+
+are
+
+considered
+
+as
+
+known
+
+at
+
+the
+
+time
+
+t,
+
+from which
+
+in
+
+the
+
+first
+
+place
+
+ M
+
+then indeed
+
+the differentials dx and dy are determined, and from these finally the angle  is found from
+
+the formula
+
+tang
+
+
+
+=
+
+dy+ fd sin  sin dx- fd sin  cos
+
+COROLLARY 1
+
+1031.
+
+If
+
+the
+
+value
+
+ M
+
+found
+
+is
+
+substituted
+
+for
+
+in
+
+terms
+
+of 
+
+,
+
+we
+
+have
+
+these
+
+second
+
+order
+
+differential equations for determination the quantities x and y
+
+ddx = -2 gdt2 cos -  f cos dd  cos  , ddy = -2 gdt2 sin -  f sin dd  cos .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1110
+
+COROLLARY 2 1032. For the direction of friction FL, with regard to the line FH, since the angle LGF = 
+and the angle FLG =  , then the angle GFL = 180o - -  ; but the friction itself is equal to  , unless the speed of the point F is zero, in which case the friction suddenly vanishes [Euler does not distinguish between static and kinetic friction; one could argue that there is no friction present to give the same result], which comes about if
+
+dx = fd  sin  cos and
+dy = - fd  sin  sin
+
+SCHOLIUM 1033. From these equations it is not possible to conclude anything at this stage, since the relation between the variables  and  or  at the time t is not yet agreed upon, which finally must be elicited from the rotational motion. But with these found, then through the formulas treated here, and thus the progressive motion of the centre of inertia I can be defined through the variables x and y. On account of which we can introduce the angle in the determination of the rotational motion, even if the relation between the angles  , and the time can be assigned. For since then
+dy cos + f cos d  sin  sin - dx sin + f sin d  sin  cos = 0 ,
+
+since we are able to remove x and y more easily, we put f cos d  sin  sin + f sin d  sin  cos = sdt ,
+
+in order that
+
+dy cos - dx sin + sdt = 0 ;
+
+which differential equation on account of ddy cos = ddx sin gives
+
+-dy
+
+sin 
+
+-
+
+dx cos
+
++
+
+dsdt d
+
+=
+
+0.
+
+Again on differentiation, and on account of
+
+ddy sin + ddx cos  = -2 g dt2
+M
+
+there is produced
+
+2 g dt2 M
+
+- dyd cos + dxd sin
+
++
+
+dt
+
+
+
+ds d
+
+= 0;
+
+there is produced in addition first on multiplication by d , and then on division by dt
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1111
+
+2
+
+g M
+
+dt 2
+
++
+
+sd
+
++
+
+d
+
+
+
+ds d
+
+=
+
+0
+
+,
+
+in which equation the relation between s,, and t is expressed, which perhaps in the
+
+following has a use. But s involves the angles  ,  and  and then
+
+ M
+
+=
+
+1+
+
+fdd cos  2 gdt 2
+
+thus so that at this stage there are four variables present  ,  and  and also t .
+
+PROBLEM 12 1034. While the top is moving in some manner on a horizontal plane and friction is apparent, to determine the moments of the forces acting on the top about the principal axes of the top.
+
+SOLUTION
+
+In a sphere described by the centre of inertia of the top I (Fig. 137) the circle GZH represents
+
+a vertical plane, in which the axis AIF of the top now is
+
+turning, drawn through the centre of inertia I and the
+
+sharp point F, which likewise is an axis of the top, and
+
+the moment of inertia about this is equal to Maa, now
+
+the two remaining principal axes drawn from I touch
+
+the sphere at the points B and C, of which the moments
+
+of inertia about these are equal to Mcc, thus so that in
+
+our general formulas there is bb = cc, just as we have
+
+now assumed above. From the vertical point of the sphere Z the arc ZA =  ; moreover we put for the arcs
+
+drawn ZB and ZC, as above, ZA = l, ZB = m and C = n , so that  = l . With these in place, the forces acting on
+
+the top are in the first place the weight of this equal to
+
+M, which force applied through the centre of inertia I presents no moment ; then the pressing
+
+force is present, by which the horizontal plane reacts at the point F, the direction of this is vertically upwards along F , which force is equal to  , and we consider it to be the case
+
+that
+
+ M
+
+=1+
+
+fdd  cos  2 gdt 2
+
+.
+
+And then the top is acted upon at F by the friction equal to  , unless the point is at rest,
+
+and the direction of this FL is horizontal; and for the position of this a great horizontal circle GB is drawn, in which there is taken the arc, following §1032 H  = 180° - -  or GA =  + , where  denotes the declination of the plane GZH from a
+
+certain fixed vertical plane ; but the angle treated in the preceding problem must be defined and the direction FL is parallel to the radius I  . Now regarding the investigation of the
+
+moments of these forces about the principal axes, in the first place these forces are to be
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1112
+
+resolved along the directions of these axes, which in the end we can consider as applied to the centre of inertia. Hence the force F =  , applied in the direction IZ, gives rise to
+
+a force along IA =  cos ZA =  cos l ,
+a force along IB =  cos ZB =  cos m and
+a force along IC =  cos ZC =  cos n .
+
+Then the force FL =  applied at I  is resolved into the forces
+
+1st along IA =  cos A, 2nd along IB =  cos B, 3rd along IC =  cos C.
+
+Moreover to these set out let ZX be that fixed vertical circle and thus the angle XZA =  , moreover we put as above the angles XZA =  , XZB =  and XZC = , in order
+
+that  =  and, on account of AZ = 180° -  - , then XZ = 180° -  , and hence
+
+BZ  =  +  -180° and CZ = 180° - v -  , from which on account of the quadrant ZA there
+
+is produced
+
+cos A = - sin l cos ( + ) ,
+
+cos B = - sin m cos ( + )
+
+and cos C = - sin n cos (v + ) .
+
+On account of which we have
+force along IA =  cos l -  sin l cos ( + ), force along IB =  cos m -  sin m cos ( + ), force along IC =  cos n -  sin n cos (v + ),
+
+now moreover it is required to consider these forces applied at the point F , with IF = f arising, from which the moments of these about the principal axes, which we have designated above by the letters P, Q, R , are concluded to be
+P = 0, Q =  f cos n -  f  sin n cos (v + ) , R = - f cos m +  f sin m cos ( + ) .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1113
+
+PROBLEM 13
+
+1035. From the moments of these forces found to show the equations, in which the motion of the top advancing on a horizontal surface is contained, and which is disturbed by friction.
+
+SOLUTION Initially the top is situated in the figure representing the rotational motion maintained at the elapsed time t (Fig.137), where all the denominations made remain in the same manner. And now the top is rotating about the axis IO in the sense ABC with an angular speed equal to  ' , moreover for the point O the arcs are AO =  , BO =  , CO =  and there is put in place  ' cos = x,  ' cos  = y,  ' cos  = z , which quantities are thus to be determined from the
+moments just found, so that initially dx = 0, and thus x = const. Hence putting x = h, and for y and z we have these equations :
+
+dy
+
++
+
+(
+
+aa-cc cc
+
+)
+
+hzdt
+
+=
+
+2 fgdt Mcc
+
+(
+
+cos
+
+n
+
+-
+
+
+
+sin n cos( v +  )
+
+,
+
+dz
+
++
+
+(
+
+aa-cc cc
+
+)
+
+hydt
+
+=
+
+-
+
+2 fgdt Mcc
+
+(cos
+
+m
+
+-
+
+sin m cos
+
+(
+
++ )).
+
+Then truly for the arcs l, m, n and likewise for the angles  , , we have shown:
+
+dl sin l = dt(y cos n - z cos m), d sin2 l = -dt(y cos m + z cos n), dm sin m = dt(z cos l - h cos n), d  sin2 m = -dt(z cos n + h cos l), dn sin n = dt(h cos m - y cos l), dv sin2 n = -dt(h cos l + y cos m) ,
+
+where in addition these relations are to be noted :
+
+cos
+
+(
+
+-
+
+)
+
+=
+
+-
+
+cos sin
+
+l l
+
+cos m sin m
+
+,
+
+sin
+
+(
+
+-
+
+
+
+)
+
+=
+
+-
+
+cos n sin l sin
+
+m
+
+,
+
+cos (
+
+-)
+
+=
+
+-
+
+cos l sin l
+
+cos n sin n
+
+,
+
+sin ( - ) =
+
+cos m sin l sin
+
+n
+
+,
+
+from which the angles  and v by  thus are to be defined :
+
+cos
+
+
+
+=
+
+- cos  cos l cos m+sin  cos n sin l sin m
+
+,
+
+sin 
+
+=
+
+- sin 
+
+cos l cos m-cos  sin l sin m
+
+cos n
+
+,
+
+cos
+
+=
+
+- cos  cos l cos n-sin  cos m sin l sin n
+
+,
+
+sin
+
+=
+
+-
+
+sin
+
+
+
+cos l cos n+cos sin l sin n
+
+
+
+cos
+
+m
+
+.
+
+And here there is the equation
+
+ M
+
+=
+
+1+
+
+fdd cos l 2 gdt 2
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1114
+
+But the angle has entered from the progressive motion, from which because of the distinction, if in fig.136 at the position of the centre of inertia I we call the coordinates OX = X and XG = Y, with GI = f cos l present, we must add these to the above equations :
+
+ddX 2g 2dt
+
+= - 
+M
+
+cos 
+
+,
+
+ddY 2g 2dt
+
+= - 
+M
+
+sin 
+
+and dY cos - dX sin + f cosd  sin l sin  + f sind  sin l cos  = 0 .
+
+And everything is determined in these equations, both for the progressive motion as well as for the rotational motion considered. If initially we wish to exclude the quantities X from Y from the calculation, in place of the last three equations it is sufficient to have present the single equation ; for which if there is put
+sdt = f cosd  sin l sin  + f sind  sin l cos  ,
+
+or with the differentials taken and in place of dl and d with the above values put in place
+then s = - fy sin n sin ( + ) + fz sin m sin ( + )
+
+and the equation in place of these three taken above becomes
+
+2
+
+g M
+
+dt
+
++
+
+sd
+
++
+
+d
+
+
+
+ds d
+
+=
+
+0.
+
+SCHOLIUM 1 1036. Many of these equations are unable to be resolved under any circumstances, the reason for this especially is the angle entering the first equations. From which it is apparent that the motion of tops is greatly disturbed by friction, thus we are unable to conclude anything at all about which this motion can become known. But if now we consider in passing only the causes of this motion, it is evident that the centre of inertia I not only ascends and descends in a straight line, as comes about with the removal of friction, but also gains a horizontal motion, which arises from the force of friction, of which that direction is opposite to the direction of the motion of the sharpened end, and the motion of the centre of inertia is acted on in the same direction, from which the motion is neither uniform nor rectilinear, and as far as it is curved, it is considered convex in that region in which the point is progressing. In a like manner also the rotational motion is greatly disturbed on account of both the speed as well as of the axis of rotation, which can be confirmed with hardly any consideration of friction.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1115
+
+SCHOLIUM 2 1037. Now this great disturbance of the motion only continues until friction stops, but it is evident that this finally must come about by itself, since the motion on account of friction is continually slowed down. But friction is unable to cease, unless the point of the top stays in the same place, by which it is necessary that the motion must thus be tempered, in order that the point finally shall be continuing at the same point in the plane, provided this comes about, before the top falls over. If indeed the rotational motion at first impressed were exceedingly slow, there is no doubt why it should not fall over before that phenomenon arises; from which in turn it is permitted to conclude, if the motion were slow enough, to be the case that as before the top falls over, it is reduced to rotating at the same point of the plane from the friction of the point. Because since that happens, and with the top at this stage involved in rotational motion, from the above it is apparent that the axis of the top must be vertical ; for if it should be inclined, thus in no manner can it be rotating, in order that the cusp remains at the same point. Therefore from these taken together, we can deduce this conclusion : only if enough speed of the rotational motion can be impressed on the top, on account of friction finally the top erects itself into a vertical position and then the rotational motion is to be continuing. Which phenomenon is more noteworthy there, since it is indebted only to friction ; thus in order that with the help of friction it is able to maintain both a vertical line and thus also a horizontal plane ; which may be of great use in navigation, which was pointed out in England some time ago.
+[ Serson, Phil. Trans. 47 (1752), p. 352., as noted in the O. O. by C. B. ]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1116
+
+CHAPTER V
+CONCERNING THE MOTION OF GLOBES ON A HORIZONTAL PLANE, HAVING THE CENTRE OF
+INERTIA PLACED AT THEIR CENTRE
+PROBLEM 14 1038. If the globe is moving on a horizontal plane in some manner with both a progressive motion as well as a rotational motion, then to determine the speed and direction, with which the point of contact touches the horizontal surface.
+[I have used the word globe throughout for globus as it seems more appropriate than ball or sphere]
+SOLUTION Let I be the centre and likewise the centre of inertia of the globe (Fig. 138), and the radius of this is equal to f and contact is made at the lowest point T. Moreover the motion of the globe is thus established so that the centre of inertia I is moving along the direction PIR with
+a speed equal to v, now likewise it is rotating about some axis IO with an angular speed equal to  ' in that sense, so that the point T advances along the arclet Tt about O [normal to OT], and from the position of the point O we put in place the [spherical] angle PTO =  and the arc TO = s, where I take a certain arc thus, as if the radius of the globe were equal to 1. TV is drawn parallel to PIR itself, and if the rotational motion were absent, the contact point T is moving along the horizontal plane with a speed equal to v in the direction TV. Then if the globe is carried only by rotational motion, because the point T is moving along Tt with a speed equal to f  ' sinTO = f  ' sin s , [Note that the perpendicular distance of T from the axis of rotation IO is fsin s.] since the direction of this is horizontal, it is referred to in the plane by the lineT , thus so that the angle ST = PTt =  - 90° on account of the right angle OTt. [The equality of these angles is a kinematic condition, as indeed is the whole proposition.] Hence then VT = 270o - . The lines are taken TV = v and T = f  ' sin s , and because the point T is moving from these two motions taken together, now the motion of this point is made along the diagonal line TF of the parallelogram TVF . From with the normal FH drawn from F to TV , then
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1117
+
+VH = f  ' sin s sin and FH = - f  ' sin s cos
+
+from which there arises
+
+TH = v - f  ' sin s sin
+
+and the speed of the contact point
+
+TF = (vv - 2 f  ' v sin s sin + ff  '  ' sin2 s)
+
+and
+
+tang
+
+VTF
+
+=
+
+-
+
+f  ' sin s cos v- f  ' sin s sin
+
+.
+
+There is drawn IQ from the centre I parallel to TF, then the arc TQ is a quadrant and the [spherical] angle RTQ = VTF. Whereby if IQ is parallel to the direction along which the point T moves, then
+
+tang
+
+PTQ
+
+=
+
+f v- f
+
+' sin s cos  ' sin s sin
+
+,
+
+and on putting the speed of the contact point
+
+(vv - 2 f  ' v sin s sin + ff  '  ' sin2 s) = u
+
+then
+
+sin
+
+PTQ
+
+=
+
+-
+
+f
+
+
+
+'
+
+sin u
+
+s cos
+
+and
+
+cos PTQ =
+
+f  ' sin s sin -v u
+
+COROLLARY 1 l039. Hence it can happen, that both the speed of the contact point and therefore the grazing [or grinding] action vanish, in which case these two conditions must become instead, for the one  ' sin s cos = 0 , and for the other v = f  ' sin s sin . From which it is apparent at once,
+if no progressive motion should be present, or v = 0, no friction is present, if sin s = 0 , that is if the globe is rotating about the vertical Z T.
+
+COROLLARY 2 1040. Then the motion of the globe is free from grazing if initially there is put cos = 0 or
+the angle PTO is right; then again the progressive speed v hence must hold this relation to the angular speed  ' , in order that v = f  ' sin s or TV = T and the angle ST = 0 .
+
+COROLLARY 3 1041. Hence when the globe follows motion of this kind, because with all grinding removed also there is no friction present, the sphere constantly maintains the same motion, if indeed the axis of rotation IO has the property of a principal axis.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1118
+
+SCHOLIUM 1 1042. Just as here we have established that friction that does not oppose the globe on the horizontal plane any the less from conserving its pure motion, which yet we observe to be reduced, since a globe placed on a table with such a motion soon loses all the motion, and the reason for this cannot be attributed to the resistance of the air. Now here initially I note that experiments do not agree perfectly with theory ; just as while in the case treated here we have assumed the contact to be made at a single point, that always in practice turns out otherwise. Yet meanwhile if the arc TO is a quadrant and PTO = 90°, with v = f  ' arising, even if the
+contact is not made at a single point, yet the grinding action vanishes, and therefore here the extinction of the motion cannot be ascribed by any means to friction. From which we must conclude that in addition to friction, as we have defined this here, another impediment to the motion must be given at this point, while bodies proceed on surfaces, to be distinguished properly from friction, an account of this should be provided in some manner, it is agreed rather to investigate the effect of this on its own, than to change the innate established nature of friction. And just as here we abstract the resistance of the air, thus also it is permitted to separate this obstacle attending friction from the present argument.
+[People at this time did not fully appreciate the nature of the interactions of a ball rolling on a surface, a sort of continual slightly inelastic collision process of parts of the ball within a finite area or contact patch involving deformation of the surfaces, leading to rolling friction.]
+SCHOLION 2 1043. Here I examine spherical bodies, in which the centre of inertia I of these is placed at the centre, hence as also it is moving in a horizontal plane then it is always vertically above the point of contact T. From which it is apparent that the contact force at contact is always equal to the weight of the body M. Hence, if the body should consist of some uniform material, then all the diameters of this share the characteristic of principal axes, but we can consider the distribution of the material to be unequal in some manner, yet thus in order that the centre of inertia falls on the centre of the figure. Whereby it is required that three principal axes are to be considered in the globe, which extend from the centre I to the points A, B, C, with the distance from each other in quadrants in turn, about which as we have put in place above, the moments of inertia are Maa, Mbb, Mcc. But then nevertheless we may decide that two or all of these moments are equal to each other, yet it is appropriate to observe three points of this kind fixed on the surface, because from the relation of these to absolute space, the motion of the globe can be more easily defined. Moreover with these three points in place A, B, and C, because the rotational motion about O, which we assume to be directed along Tt, has the opposite sense CBA to that, which we have put in place above, in the application of the general formulas in this case, we must consider the angular speed  ' as negative.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1119
+
+PROBLEM 15 1044. If a sphere is moving in some manner on a horizontal surface, to define the forces by which it is acted on, and the moments of these about the three principal axes.
+
+SOLUTION The included globe is considered to be either for a fixed sphere or with that having a constant progressive motion (Fig. 139), in which Z is the vertical point and the opposite of this is the
+point of contact T, now DE is a horizontal diameter tending towards a certain direction in the world [i. e. the fixed stars], and DPQE a horizontal great circle. But now in the elapsed time t, the globe is moved in a progressive motion along the direction PI with a speed equal to v, and the arc DP is put in place or the angle DZP =  ; moreover the principal axes
+now are at A, B, & C .Then indeed the glove now rotates about the axis IO with an angular speed equal to  ' in the
+sense ACB; and for the position of the point O let the angle be PTO or PZO =  and the arc ZO = s. And if indeed before we put the arc TO equal to s, likewise it is the case that only the sine of this enters into the calculation. Hence the sine of the angle DZO =  +  and EZO = 180o - -. Then if from the points A, B, C both to O as
+well as to Z arcs of great circles are considered to be drawn, in order that the arcs so far are :
+
+AO =  , BO =  ,CO =  ,
+
+ZA = l, ZB = m, ZC = n
+
+and the angles
+
+EZA =  , EZB =  , EZC = v .
+
+[No attempt has been made to put these well­know quantities on the diagram, to avoid undue clutter.] Moreover in the preceding problem we have shown that the plane contact point T, subject to abrasion, progresses along the direction parallel to the radius IQ with a speed equal to
+
+(vv - 2 f  ' v sin s sin + ff  '  ' sin2 s) .
+
+and there is present
+
+tang
+
+PTQ
+
+=
+
+tang
+
+PZQ
+
+=
+
+f  ' sin s cos v- f  ' sin s sin
+
+with f denoting the radius of the globe. Therefore since the pressing force at T is equal to M, then the friction is equal to  M , at which point T it has been applied along the direction parallel to QI. Hence with this force resolved along the directions of the principal axes IA, IB, IC, there arises :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1120
+
+the force along IA = - M cos AQ,
+the force along IB = - M cos BQ, and
+the force along IC = - M cos CQ ,
+
+which threefold forces are to be considered to be applied at the point T, from which the moments are deduced :
+About the axis IA in the sense BC = -  Mf cos CQ cos BT +  Mf cos BQ cos OT = P, About the axis IB in the sense CA = -  Mf cos AQ cos CT +  Mf cos CQ cos AT = Q, About the axis IC in the sense AB = -  Mf cos BQ cos AT +  Mf cos AQ cos BT = R .
+
+Hence there are these three moments:
+P =  Mf ( cos m cos CQ - cos n cos BQ), Q =  Mf ( cos n cos AQ - cos l cos CQ), R =  Mf ( cos l cos BQ - cos m cos AQ).
+
+Moreover for the point Q we put the angle PZQ =  ; in order that
+
+tang
+
+
+
+=
+
+f  ' sin s cos v- f  ' sin s sin
+
+and with the speed of the abrasion
+
+(vv - 2 f  ' v sin s sin + ff  '  ' sin2 s) = u ,
+
+then
+
+sin 
+
+=
+
+-
+
+f
+
+
+
+'
+
+sin s cos u
+
+and
+
+cos 
+
+=
+
+f  ' sin s sin -v u
+
+.
+
+Hence there becomes DZQ =  +  and EZQ = 180° -  - ; and hence
+
+AZQ = 180o -  - -  , BZQ =  +  +  -180o , CZQ = 180o -  - -
+
+hence
+
+cos AQ = - cos( +  +  ) sin l ,
+
+cos BQ = - cos(  +  +  ) sin m,
+
+cos CQ = - cos(  +  + ) sin n . Therefore from the relation, which exists between the angles  , and , we conclude that the
+
+moments of the forces:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1121
+
+P =  Mf sin l sin ( +  +  ), Q =  Mf sin m sin ( +  +  ), R =  Mf sin n sin ( +  +  ).
+
+PROBLEM 16 1045. If we consider the rotational motion as given at some time, to define the progressive motion of the sphere.
+
+SOLUTION Because the centre of the globe is moving on the horizontal plane, it describes the line GI in
+the time t, which refers to the above direction GX parallel to the fixed direction DE, and with IX drawn normal to GX, the coordinates are GX = X, XI = Y (Fig. 140). The line DE is drawn through I parallel to GX, which is the diameter itself DE in figure 139. IP is drawn, in order that DIP = EIR =  , and the centre I
+by the hypothesis is progressing in the direction I R with a speed equal to v, thus in order that the speed along XI = v sin and thus dX = vdt cos and dY = vdt sin . The line QIS is drawn, in order that IQ is parallel
+to the direction in which the point of contact rubs against the surface, then the angle EIQ = DIS = 180° -  - ; indeed it is equal to the angle EZQ in the preceding figure, from which the globe is agreed to be acted on by the force equal to  M in the direction IS. Hence therefore there arises the force along ID = -  M cos ( + ) and the force along
+XI = -  M sin ( + ) . From which it is deduced that :
+
+and hence again thus in order that
+
+d v cos 2 gdt
+
+=
+
+dv cos -vdv sin 2 gdt
+
+=
+
+
+
+cos (
+
++),
+
+d v sin 2 gdt
+
+=
+
+dv sin +vdv cos 2 gdt
+
+=
+
+sin (
+
++)
+
+dv 2 gdt
+
+=
+
+cos 
+
+and
+
+vd 2 gdt
+
+=
+
+sin 
+
+vd dv
+
+=tang
+
+
+
+=
+
+f  ' sin s cos v- f  ' sin s sin
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1122
+
+PROBLEM 17
+1046. With the progressive motion of the globe defined, to determine the rotational motion of the globe.
+SOLUTION Now the centre of the globe I can be considered at rest, and all the denominations applied in problem 15 remain, and let Maa, Mbb, Mcc be the moments of inertia about the principal
+axes IA, IB, IC, which initially we consider as unequal (Fig. 139). Now since here we must consider the angular speed  ' as negative, because it tends in the sense ACB, if we put
+ ' cos = x,  ' cos  = y, et  ' cos  = z ,
+
+into the general formulas it is required to take these letters x, y, z as negative, from § 810 we have these equations determining the motion :
+
+dl sin l =
+
+dx
+
++
+
+bb - cc aa
+
+yzdt
+
++
+
+2 fg aa
+
+dt
+
+sin
+
+l
+
+sin
+
+(
+
++
+
++
+
+
+
+)
+
+=
+
+0,
+
+dy
+
++
+
+cc - aa bb
+
+xzdt
+
++
+
+2 fg bb
+
+dt
+
+sin
+
+m
+
+sin
+
+(
+
++
+
++
+
+
+
+)
+
+=
+
+0,
+
+dz
+
++
+
+aa -bb cc
+
+xydt
+
++
+
+2 fg cc
+
+dt
+
+sin n
+
+sin (
+
++
+
++)
+
+=
+
+0,
+
+dt(z cos m - y cos n) , dsin2l = dt(y cos m + z cos n),
+
+dm sin m = dt(x cos n - z cos l) , d  sin2 m = dt(z cos n + x cos l),
+
+dn sin n = dt(y cos l - x cos m) , dv sin2 n = dt(x cos l + y cos m).
+
+Then indeed from the progressive motion we have:
+
+dv = 2 gdt cos , vd = 2 f  gdt sin
+
+and
+
+tang
+
+
+
+=
+
+f  ' sin s cos v- f  ' sin s sin
+
+,
+
+where PZO =  and ZO = s. Hence since EZO = 180o - - , then AZO = 180o -  - -
+
+and hence
+
+cos  = cos l cos s - sin l sin s cos ( + + ),
+
+cos  = cos m cos s - sin m sin s cos ( + + ),
+
+cos  = cos n cos s - sin n sin s cos (v + + ) ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1123
+
+with cos s = cos l cos + cos m cos + cos n cos  ,
+from which it follows that
+
+sin l cos l cos ( + + ) + sin m cos m cos ( + + ) + sin n cos n cos (v + + ) = 0 .
+
+We put  ' cos s = p and  ' sin s = q , in order that
+
+tang
+
+
+
+=
+
+fq cos v- fq sin
+
+=
+
+vd dv
+
+;
+
+and then
+
+x = p cos l - q sin l cos ( + + ) , y = p cos m - q sin m cos ( + + ), z = p cos n - q sin n cos ( + + ) ,
+
+from which values there becomes
+dl = qdt sin ( + + ), d = pdt + qdt cot l cos ( + + ), dm = qdt sin ( + + ), d  = pdt + qdt cot m cos ( + + ) , dn = qdt sin (v + + ), dv = pdt + qdt cot n cos (v + + )
+
+and thus again
+dx = dp cos l - dq sin l cos ( + + ) + q(d + d) sin l sin ( + + ), dy = dp cos m - dq sin m cos ( + + ) + q(d + d) sin m sin ( + + ), dz = dp cos n - dq sin n cos ( + + ) + q(d + d) sin n sin ( + + ).
+
+But without the help of these substitutions from the three equations, since in general then sin l cos l sin ( + A) + sin m cos m sin ( + A) + sin n cos n sin (v + A) = 0 ,
+
+we elicit this equation aadx cos l + bbdy cos m + ccdz cos n - aaxdl sin l - bbydm sin m - cczdn sin n = 0
+
+and the integral of this is aax cos l + bby cos m + ccz cos n = C ,
+
+which with the substitutions applied goes over into this form :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1124
+
+p(aa cos2 l + bb cos2 m + cc cos2 n ) - q(aa sin l cos l cos ( + + ) + bb sin m cos m cos ( + + ) + cc sin n cos n cos ( + + )) = Const.
+
+Then also by the reductions treated in § 934 this differential equation is deduced for the vis viva :
+aaxdx + bbydy + cczdz = 2 fgqdt sin ( - ) .
+
+SCHOLIUM 1047. Towards understanding the reductions made here from the formulas treated above, where we express the angles  and v by  , l, m, n , it is appropriate to be made aware that:
+
+cos ( + + )
+
+=
+
+-
+
+cos l cos m cos (
+
++ + )+cos n sin ( sin l sin m
+
++
+
++ )
+
+,
+
+cos ( + + )
+
+=
+
+-
+
+cos l cos n cos (
+
++ +)-cos m sin ( sin l sin n
+
++
+
++ )
+
+,
+
+sin ( + + )
+
+=
+
+-
+
+cos l cos m sin (
+
++ +)-cos n cos ( sin l sin m
+
++
+
++ )
+
+,
+
+sin ( + +  )
+
+=
+
+- cos l cos n sin ( + +)+cos m cos ( + +) .
+sin l sin n
+
+And in a similar manner the angles  +  +  and v +  +  can be recalled to the angle  +  +  . Then also for the following reductions this form especially is to be noted :
+
+sin ( + B) cos( v + C ) - sin (v + B) cos ( + C )
+which on account of
+
+is reduced to
+
+sin M cos N =
+
+l 2
+
+sin (M
+
++
+
+N)
+
++
+
+l 2
+
+sin (M
+
+-
+
+N)
+
+sin ( - v) cos ( B - C ) ;
+
+and in this way we can find a reduction to be put in place for all the formulas :
+sin ( + B) cos( v + C ) - sin( v + B) cos ( + C ) = sin(  - v )cos ( B - C ) , sin ( + B) sin( v + C ) - sin( v + B) sin ( + C ) = - sin(  - v ) sin ( B - C ) , cos ( + B) cos( v + C ) - cos( v + B) cos ( + C ) = - sin(  - v )sin( B - C ) ,
+
+where sin ( - v) given for all the formulas used, is indeed
+
+sin
+
+(
+
+-
+
+v)=
+
+cos l sin m sin n
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1125
+
+PROBLEM 18 1048. If the globe is established from a uniform material, or perhaps it is assemble thus, so that all the moments of inertia are equal to each other and that is initially impressed with some motion, the determine the continuation of this motion.
+
+SOLUTION Since here there is aa = bb = cc or the moments of inertia about all of the diameters are equal to Maa, the first equation integrated gives aap = Const., from which p is a constant quantity. Hence there is put in place p = h, and the three differential equations adopt these forms :
+
+I.
+
+-
+
+dq
+
+cos
+
+(
+
++
+
++
+
+
+
+)
+
++
+
+q(d
+
++
+
+d)
+
+sin
+
+(
+
++
+
++)
+
++
+
+2 fg aa
+
+dt
+
+sin
+
+( +  +  ) =
+
+0,
+
+II .
+
+-
+
+dq
+
+cos
+
+(
+
++
+
++
+
+)+
+
+q(d
+
++
+
+d )
+
+sin
+
+(
+
++
+
++
+
+)
+
++
+
+2 fg aa
+
+dt
+
+sin
+
+(
+
++
+
+
+
++
+
+
+
+)
+
+=
+
+0,
+
+III. -
+
+dq cos
+
+(
+
++
+
++
+
+)+
+
+q(d
+
++
+
+d)
+
+sin (
+
++
+
++)
+
++
+
+2 fg aa
+
+dt
+
+sin (
+
++
+
++)
+
+=
+
+0,
+
+of which moreover two suffice to be considered, because now the conclusion p = h has been noted . Now from the above reductions the two final equations thus can be combined :
+
+giving or
+
+II. cos (v + + ) - III. cos ( + + )
+
+q(d
+
++
+
+d )
+
+sin
+
+(
+
+-
+
+)
+
++
+
+2 fg aa
+
+dt
+
+sin
+
+(
+
+-
+
+)
+
+cos
+
+(
+
+-)
+
+=
+
+0
+
+Then
+
+q(d
+
++
+
+d)
+
++
+
+2 fg aa
+
+dt
+
+cos
+
+(
+
+-)
+
+=
+
+0.
+
+II. sin ( + + ) - III. sin ( + + )
+
+gives
+
+q
+
+sin
+
+(
+
+-
+
+)
+
+-
+
+2 fg aa
+
+dt
+
+sin
+
+(
+
+-
+
+)
+
+sin
+
+(
+
+-)
+
+=
+
+0
+
+or
+
+q
+
+=
+
+2 fg aa
+
+dt
+
+sin (
+
+- )
+
+which value substituted in the last equation for the vis viva produces
+
+and hence
+
+xdx + ydy + zdz = qdq xx + yy + zz =  ' ' = Const.+ qq = Const.+  ' ' sin2 s
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1126
+
+thus so that  '  ' cos2 s = const ., as we find now on account of  ' cos s = p = h . Hence
+
+we have these equations exempt from the letters l, m, n,  ,  ,  :
+
+1.
+
+q(d
+
++
+
+d)
+
++
+
+2 fg aa
+
+dt cos ( -) =
+
+0,
+
+II .
+
+dq
+
+=
+
+2 fg aa
+
+dt
+
+sin (
+
+-)
+
+,
+
+III. dv = 2 gdtcos ,
+
+IV.vd = 2 gdt sin ,
+
+to which this finite equation can be adjoined
+
+tang
+
+=
+
+fq cos v- fq sin
+
+,
+
+which transformed into this
+
+v sin - fq cos ( -) = 0 ,
+
+is differentiated :
+
+dv sin + vdv cos - fdq cos ( -) + fqd sin ( -) - fqd sin ( -) = 0.
+
+Now gives
+
+I. sin ( -) + II. cos ( -) q(d + d) sin ( -) + dq cos ( -) = 0,
+
+which multiplied by f is added to that:
+
+dv sin + vd cos + fq(d + d) sin ( - ) = 0 .
+
+Again on account of there then arises
+
+dv vd
+
+=
+
+cos  sin 
+
+v(d + d ) cos + fq(d + d) sin ( -) = 0
+
+or
+(d + d ) (v cos + fq sin ( -)) = 0 ,
+
+of which the finite factor
+
+v cos + fq sin ( -)
+
+is unable to vanish on account of [from above]
+
+for then it follows that
+
+v sin - fq cos ( -)=0 ;
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1127
+
+v cos = 0 and fq cos = 0 ,
+
+which cannot have a place unless  = 90° . Hence it is left that d + d = 0
+
+and thus
+
+ +  = Const.
+
+With this explained the remainder can be extricated without difficulty ; but towards
+
+determining the integrations, for the initial position t = 0 we can put the progressive speed v = e, the angle  = 0, the angle PZO =  = h, the arc ZO = s = f and the angular speed
+
+ ' =  in the sense ACB; and hence
+
+p = h =  'cos s =  cos f and q =  sin f ;
+
+again
+
+tang
+
+
+
+=
+
+f  -
+
+sin f cosh f sin f sinh
+
+There is established
+
+f  -
+
+sin f cosh f sin f sinh
+
+=
+
+tang 
+
+,
+
+so that initially  =  , and always there shall be  +  =  thus so that the angle DZQ =  remains constant. Whereby since  =  - , then
+
+v sin ( -) = fq cos ( - -) . But above we have found :
+
+d v cos 2 gdt
+
+=
+
+
+
+cos (
+
++)
+
+=
+
+cos 
+
+et
+
+d v sin 2 gdt
+
+=
+
+sin (
+
++) =
+
+sin 
+
+,
+
+from which on integration we deduce v cos = e + 2 gt cos and v sin = e + 2 gt sin
+
+and hence and
+
+v=
+
+(ee + 4 egt cos + 4 ggtt)
+
+and
+
+tang
+
+
+
+=
+
+2 gt sin e+ 2 gt cos
+
+tang (
+
+-)
+
+=
+
+e sin e cos +2 gt
+
+=
+
+fq cos v- fq sin
+
+=
+
+tang
+
+.
+
+Then on account of d = -d the two first equations become
+
+1.
+
+q(d
+
+-
+
+d )
+
+=
+
+2 fg aa
+
+dt cos ( -) ,
+
+II .
+
+dq
+
+=
+
+2 fg aa
+
+dt
+
+sin (
+
+- )
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1128
+
+of which the one divided by the other gives :
+
+dq q(d -d)
+
+=
+
+sin ( -) cos ( -)
+
+which integrated gives q cos ( -) = Const. : and thus
+
+q cos ( -) =  sin f cos ( - h) ,
+
+from which the value of q substituted in the first gives :
+
+and on integrating
+
+ (d -d) sin f cos ( cos2 ( -)
+
+-h)
+
+=
+
+2 fg aa
+
+dt
+
+
+
+sin f cos (
+
+- h)
+
+tang(
+
+-)
+
+=
+
+C
+
++
+
+2 fg aa
+
+t
+
+,
+
+where C =  sin f sin ( - h) . But
+
+tang(
+
+-)
+
+=
+
+tang
+
+(
+
+-
+
+- )
+
+=
+
+tang ( -)-tang 1+tangtang ( - )
+
+and
+
+tang
+
+=
+
+tang -tang ( -) 1+tang tang ( -)
+
+But by the hypothesis there is :
+
+
+
+sin f =
+
+f
+
+e sin cos ( -h)
+
+from which there becomes
+
+tang (
+
+- ) = tang (
+
+-
+
+h)
+
++
+
+2 eaa
+
+ffgt sin 
+
+,
+
+but
+
+tang
+
+=
+
+e sin e cos +2
+
+gt
+
+and hence the angle  is easily determined, and thus
+
+q=
+
+f
+
+e sin
+cos( - )
+
+Now this is required to be noted, since then
+
+tang
+
+=
+
+f e-
+
+sin f cosh f sin f sinh
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1129
+
+to be as we have shown above for the angle ,
+
+sin = -
+
+ f sin f cosh
+
+( ) ee-2 ef sin f sinh+eeff sin2 f
+
+and
+
+cos =
+
+-e+ f sin f sinh
+
+( ) ee-2 ef sin f sinh+eeff sin2 f
+
+from which
+
+cos ( -h) = -
+
+e cosh
+
+.
+
+( ) ee-2 ef sin f sinh+eeff sin2 f
+
+With these found since  ' cos s =  cos f and  ' sin s = q , then
+
+( )  ' =
+
+qq +  cos2 f
+
+and tang s
+
+=
+
+
+
+q cos
+
+f
+
+And thus now both the progressive motion, as well as the angular speed  ' can be assigned
+to the axis of rotation O at whatever time, which is sufficient to recognise the motion. But the determination of the position of the points A, B, C at some time is exceedingly hard, so as that that can be brought about.
+
+COROLLARY I
+
+1049.
+
+Since
+
+the
+
+angular
+
+speed
+
+
+
+'
+
+=
+
+ cos f cos s
+
+or
+
+inversely
+
+proportional
+
+to
+
+the
+
+cosine
+
+of
+
+the
+
+arc
+
+SO,
+
+it follows, if the pole of the rotation O should be in the upper hemisphere DZE initially, at no
+
+time is it possible for that to arrive in the lower hemisphere ; for in crossing through the
+
+horizontal circle DE an infinite angular speed  ' is produced.
+
+COROLLARY 2 1050. On account of the same reason, if the pole of rotation O initially were in the lower hemisphere DTE, this at no time rises to the upper. But if initially it should be in the horizontal circle DE, it always remains in the same. Obviously if initially the axis of rotation were horizontal, it always remains horizontal.
+
+COROLLARY 3 1051. If the initial angle DZO = h is right, this makes sin = 0 and on account of
+
+tang (
+
+- h)
+
+=
+
+
+
+f
+
+sin f-e sinh e cosh
+
+also  - is right. But on account of
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1130
+
+tang
+
+=
+
+e sin e cos +2
+
+gt
+
+the angle  vanishes, from which the angle  = PZO becomes right. Therefore as soon as the angle PZO is made right, it always remains right.
+
+COROLLARY 4 1052. Also remarkable is the property that the angle +  or DZQ remains constant and in
+Fig. 140 the angle DIQ remains constant. For the line QIS always remains parallel to itself, an because the globe in progressive motion is acted on by the constant force  M along the same direction IS, it is necessary that curve described from that that GI is a parabola.
+
+SCHOLION 1 1053. But this motion of the globe, as defined from our formulas, does not last for ever, as actually friction is present, or it is being acted on by the friction of the horizontal plane at the point of contact T. For if it comes about that the friction ceases or the speed of the grazing action vanishes at T, the friction vanishes at once and the formulas found no more have a place. Therefore then the globe moves forwards both with a progressive motion as well as with a uniform rotation, and it is apparent that the axis of rotation is not allowed any more change. And if at once the initial motion impressed on the globe was put in place, so that there was no friction, which comes about both  f sin f cosh = 0 as well as e =  f sin f sinh ,
+then also the globe experiences no friction ; and at once from the start it pursues the uniform progressive motion in direction and likewise it rotates uniformly about the same axis. Now if initially some other motion were impressed on the body , in any elapsed time that is always reduced, in order that friction vanishes and then it pursues its own uniform motion ; which remarkable point of time we investigate in the following problem.
+
+SCHOLIUM 2 1054. Which matters we elicited in the solution of the problem, here they are presented again : From the first motion impressed we have the speed of the progressive motion equal to e along the direction DI; and if the globe is rotating about the axis IO with an angular speed  in the sense ACB or ZETD (Fig. 139), which usually said to be tending clockwise [tendens antrorsum in the original Latin text, a turning forwards or upwards (shorter Oxford English dictionary): there is a problem as to which way one is looking along the axis, here it has been assumed by the translator that one is looking along OI, i. e. towards the origin. There is of course no equivalent word in classic Latin, as such an idea was not encountered with water clocks!], the arc ZO = f and the angle DZO = h ; then the radius of the globe is
+now equal to f and the moment of inertia of this is equal to Maa about all the diameters, with M present as the mass; with these given, the speed of the grazing contact point is deduced
+
+(ee - 2 ef sin f sinh +  ff sin2 f) ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1131
+
+which if it is put equal to k, the angle is sought so that
+
+sin 
+
+=
+
+-
+
+f
+
+sin f cosh k
+
+and
+
+cos 
+
+=
+
+
+
+f
+
+sin
+
+f sinh-e k
+
+,
+
+which is DZQ =  , and then IQ is the direction of the grazing motion. Then if in the elapsed
+time t the centre of the globe is carried forwards with a speed v along the direction PI and is rotating with an angular speed equal to  ' in the sense ZETD about the pole O and there is put DZP =  , PZO =  and ZO = s , initially we find :
+
+and the speed of the centre
+
+tang
+
+=
+
+2 gt sin e+2 gt cos
+
+D = (ee + 4 egt cos + 4 ggtt) ,
+
+but the grazing speed even now is made in the direction IQ, with DZQ =  present: from
+
+which on putting PZQ =  then
+
+tang
+
+=
+
+e sin e cos +2
+
+gt
+
+.
+
+Again there is
+
+tang (
+
+-)
+
+=
+
+tang (
+
+-h) +
+
+2 ffgt eaa sin
+
+with the equation arising
+
+tang (
+
+- h)
+
+=
+
+ef
+
+sin f-e sinh e cosh
+
+,
+
+from which the angle becomes known, and hence on account of DZ 0 =  + =  -  +
+
+there is deduced
+
+tang DZO =
+
+tang ( + ) =
+
+ aak sin f sinh+2 fgt(e-  aak sin f cosh-2 ffgt
+
+f sin f sinh) sin f cosh
+
+.
+
+And from these finally obtained we have :
+
+ ' cos s =  cos f
+
+and  ' sin s =
+
+f
+
+e sin
+cos( - )
+
+.
+
+And then for the grazing speed along IQ this is equal to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1132
+
+(vv - 2 ' fv sin s sin +  '  ' ff sin2 s) ;
+
+which if it is called equal to w, we have shown above to be
+
+sin 
+
+=
+
+- '
+
+f
+
+sin s cos w
+
+and
+
+cos 
+
+='
+
+f
+
+sin s sin -v w
+
+,
+
+from which  ' and s are defined. But for the position of the points A, B, C in the fixed globe
+at some time to be determined the formulas thus become intricate, so that nothing can be concluded. Meanwhile if for the point A on calling ZA = l and EZA =  , the whole calculation is reduced to these two equations :
+
+( ) 1. dl = dt
+
+
+
+sin
+
+f
+
+sin
+
+(h
+
++
+
+)
+
+-
+
+2 fgt aa
+
+cos
+
+(
+
++ )
+
+,
+
+( ) II. d sinl =  dt cos f sinl + dt cos l
+
+e
+
+sin
+
+f
+
+cos
+
+(h
+
++
+
+
+
+)
+
++
+
+2 fgt aa
+
+sin
+
+(
+
++ )
+
+,
+
+the resolution of which can be undertaken without disappointment I fear. But since at some time we are able to assign the axis of rotation with the angular speed, so that in recognising the motion, such as generally is desired, it suffices to be able, and with that the more the wonder it is that, as it were, analytical forces can overcome the motions of the single points of the globes. It is much less permissible therefore to define any motion concerned with globes, in which the moments of inertia are unequal.
+
+PROBLEM 19 1055. If some motion should be impressed on a globe, all the moments of inertia of which are equal to each other, then to assign the point in time when the grazing speed and thus the friction vanish, and thus the globe goes on to progress with a uniform motion.
+
+SOLUTION Above in § 1039 we saw, that these two conditions are required in order that the grazing motion vanishes : the one that  ' sin s cos = 0 and the other that v = f  ' sin s sin , or in the
+expression
+
+tang 
+
+=
+
+f  ' sin s cos v- f  ' sin s sin
+
+so the numerator as well as the denominator likewise must vanish. But since we have found
+
+tang 
+
+=
+
+e sin e cos +2 gt
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1133
+
+where the numerator e sin is constant, if in that formula the numerator vanishes, it is
+
+necessary that likewise the denominator vanishes, because otherwise the equality between
+
+these two fractions cannot stand. From which on putting cos = 0 the time sought is
+
+indicated. Now we can determine the same more clearly, if we investigate the speed of
+
+grazing w at some elapsed time t. Therefore since from the formula
+
+sin 
+
+=
+
+-
+
+
+
+'
+
+f
+
+sin s cos w
+
+then
+
+w
+
+=
+
+-
+
+
+
+'
+
+f
+
+sin s cos sin 
+
+,
+
+which expression on account of
+
+ ' sin s =
+
+f
+
+e sin
+cos( -
+
+)
+
+,
+
+turns into
+
+w
+
+=
+
+-e sin cos
+sin cos( - )
+
+,
+
+and on account of  =  - ( -) ,
+
+into this
+
+w = -e sin (cot + tang ( - )) ;
+
+if here for tang  and tang ( -) we substitute the above values found, then we find:
+
+( ) w = -
+
+e cos
+
++ 2 gt + e sin tang (
+
+-
+
+h)
+
++
+
+2 ffgt aa
+
+But
+
+from which
+
+cos 
+
++ sin
+
+tang
+
+(
+
+- h)
+
+=
+
+cos h sin ( -h)
+
+et
+
+cos (
+
+- h)= -
+
+e cosh k
+
+;
+
+e cos + e sin tang ( - h) = -k ,
+
+where k denotes the initial grazing speed. On account of which in the elapsed time t we have
+
+the grazing speed
+
+( ) w = k - 2 g
+
+1+
+
+ff aa
+
+t,
+
+thus so that this decreases uniformly with the passage of time. Hence finally it certainly disappears, and that happens in the elapsed time
+
+t
+
+=
+
+2
+
+aak
+g ( aa +
+
+ff
+
+)
+
+;
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1134
+
+then at this time cos = 0 and  = 90o = PZO . Which hence as it comes about, we can
+
+consider how the determination of the remaining motions themselves can be obtained ; and
+
+since
+
+2 gt =
+
+aak aa+ ff
+
+, then
+
+tang 
+
+=
+
+aak sin
+e(aa+ ff )+aak
+
+cos 
+
+and
+
+tang 
+
+=
+
+e(aa+ ff ) sin e(aa+ ff ) cos +aak
+
+.
+
+[Corrected from the first edition by C. B. in the O. O. edition.]
+
+Hence there becomes
+
+
+
+'
+
+sin s
+
+=
+
+e sin f sin
+
+.
+
+But as there is
+
+v=
+
+ 
+
+ee
+
++
+
+
+
+2aaek cos aa+ ff
+
++ a4kk
+(aa+ ff )2
+
+  
+
+,
+
+then
+
+sin
+
+=
+
+aak sin
+(aa+ ff )v
+
+and
+
+cos 
+
+=
+
+e(aa+ ff )+aak cos (aa+ ff )v
+
+and
+
+sin 
+
+=
+
+e sin v
+
+Again since  ' cos s =  cos f , then
+
+and thus
+
+'
+
+sin s
+
+=
+
+v f
+
+.
+
+( ) tang
+
+s
+
+=
+
+
+
+f
+
+v cos f
+
+and
+
+' =
+
+vv ff
+
++ 
+
+cos2
+
+f
+
+or
+
+( ) eeff +2 eaaf sin f sinh+ a4 sin2 f+ (aa+ ff )2 cos2 f
+
+' =
+
+aa+ ff
+
+on account of kk = ee - 2 ef sin f sinh + eeff sin2 f .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1135
+
+COROLLARY 1
+
+1056. So that hence the greater the initial speed of grazing k should be, for that a longer motion endures, before with friction ceasing it is reduced to uniform motion. And if the globe
+
+consists of a homogeneous material, there is made aa =
+
+2 5
+
+ff
+
+, and thus the uniform motion
+
+starts after the time
+
+t
+
+=
+
+k 7
+
+g
+
+sec. hence in the hypothesis
+
+
+
+=
+
+1 3
+
+there comes about
+
+t
+
+=
+
+3k 7g
+
+,
+
+on taking
+
+g=
+
+15
+
+5 8
+
+Rhen.ft.
+
+[Recall that a Rhenish foot is around 3% greater than the Imperial foot.]
+
+COROLLARY 2
+
+1057. In order that the centre of the globe is reduced to rest in the same time, the initial
+
+position must be prepared thus, in order that
+
+cos 
+
+= -1
+
+and
+
+e=
+
+aak aa+ ff
+
+. Hence there arises
+
+k = e -  f sin f sinh and sinh = 1 or h = 90° and k = e -  f sin f ;
+
+and hence
+
+
+
+sin f
+
+=
+
+-
+
+ef aa
+
+.
+
+Again on account of v = 0 there arises s = 0 and  ' =  cosf , from which angular speed the
+
+globe now rotates about a vertical axis at rest after an elapsed time from the beginning
+
+t
+
+=
+
+e 2 g
+
+min.
+
+sec.
+
+COROLLARY 3
+
+1058. Moreover in this case, in which initially
+
+h=
+
+90° and
+
+
+
+=
+
+-
+
+ef aa sin
+
+f
+
+,
+
+there
+
+becomes
+
+ = 180°,  = 0,  = 180°,  = 90°, v = e - 2 gt ; then now
+
+
+
+'
+
+cos
+
+s
+
+=
+
+- ef cos f aasinf
+
+,
+
+( ) 
+
+'
+
+sin
+
+s
+
+=
+
+- ef aa
+
+1
+
+-
+
+2 gt e
+
+,
+
+and hence
+
+( ) tang s =
+
+1-
+
+2 gt e
+
+tang f
+
+and
+
+( ) 
+
+'
+
+=
+
+-ef aa sin f
+
+1-
+
+4 gt e
+
+sin2
+
+f
+
++
+
+4 ggtt ee
+
+sin2
+
+f
+
+.
+
+But initially the grazing speed was
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1136
+
+( ) k
+
+=
+
+e
+
+1+
+
+ff aa
+
+,
+
+and moreover after the t this is
+
+( ) w
+
+=
+
+e
+
+1+
+
+ff aa
+
+(e - 2 gt ) ,
+
+and thus on putting
+
+t
+
+=
+
+-
+
+e 2 g
+
+likewise
+
+there
+
+becomes
+
+w = 0, v = 0 and
+
+s = 0, as before.
+
+1059. Lest the value
+
+COROLLARIUM 4
+
+ ' sin s =
+
+f
+
+e sin
+cos( - )
+
+is considered to be indefinite, which happens if the numerator and the denominator vanish or
+ = 0 , it is agreed to substitute the values from above in place of sin and cos ( - ) , and
+
+hence there is found:
+
+ ' sin s =
+
+ 
+
+sin2
+
+f
+
+-
+
+4
+
+fgt (
+
+f sin aak
+
+f-e
+
+sinh)
+
++
+
+4 ffggtt a4
+
+ 
+
+,
+
+from which on account of  'cos s = e cos f there is produced:
+
+
+
+'
+
+
+
+'
+
+=
+
+
+
+-
+
+4
+
+fgt
+
+sin f( f sin f-e
+aak
+
+sin h)
+
++
+
+4 ffggtt a4
+
+.
+
+COROLLARY 5
+1060. Since the vis viva of the globe is equal to M (vv + aa '  ' ) , that initially is equal to
+
+M (ee +  aa) , but after the time t that becomes equal to
+
+( ) M
+
+ee +  aa - 4 gkt +
+
+4(1
+
++
+
+ff aa
+
+)
+
+ggtt
+
+.
+
+But after the time the vis viva becomes
+
+t
+
+=
+
+aak 2 g(aa+
+
+ff
+
+)
+
+( ) M (eeff +2 eaaf sin f sinh)+ aa aa+ ffcos2f
+
+aa+ ff
+
+,
+
+and the deficiency of this from the beginning is
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1137
+
+( ) Maaee-2 ef sin f sinh+ ffcos2f
+aa+ ff
+
+=
+
+Maakk aa+ ff
+
+,
+
+thus so that this vis viva is equal to
+
+( ) M
+
+ee
+
++
+
+
+
+aa
+
+-
+
+aakk aa+ ff
+
+SCHOLlUM 1061. Hence the whole motion of the globe can be assigned from these formulas , whatever motion initially should be impressed on that ; yet meanwhile these formulas are not a little complex, from which towards presenting a clearer explanation independent of these, I have set out certain more notable cases. They are of this kind, as we have now intimated above, two in particular, the one in which the arc ZO is a quadrant initially, and the other now in which the angle DZO = h is right; therefore we shall explain each in turn.
+
+PROBLEM 20 1062. If initially a rotational motion about a horizontal axis in addition to a progressive motion were impressed on a globe, to define the continuation of this motion.
+SOLUTION Since the initial axis of rotation is horizontal, then f = ZO = 90°. Hence on denoting by e the progressive motion along the direction DIE (Fig. 139) et  the angular speed about the axis IO in the sense ZETD, then for the point O the angle DZO = h,with f remaining equal to the radius of the globe and Maa equal to the moment of inertia. From these initially the grazing speed
+
+k = (ee - 2e f sinh +  ff )
+and for the direction 1Q of this the angle DZQ =  , so that then (Fig. 140).
+
+sin 
+
+=-
+
+f
+
+cos h k
+
+and
+
+cos 
+
+=
+
+f
+
+sin h- e k
+
+.
+
+With these in place for the initial position, after a time t the centre of the globe has described
+
+a path GI, so that now it is at I, where the speed along 1R is equal to
+
+v=
+
+ 
+
+ee
+
++
+
+4
+
+egt (
+
+f k
+
+sin h- e )
+
++
+
+4
+
+ggtt
+
+ 
+
+;
+
+from which with the coordinates in place GX = X and XI = Y on account of
+
+tang EIR =
+
+tang
+
+=
+
+-
+
+ek
+
+2 fgt cosh
++2 gt( f sinh
+
+-e)
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1138
+
+then there is and and thus
+
+dX
+
+=
+
+edt
+
++
+
+2 gtdt k
+
+(
+
+f
+
+sinh - e)
+
+dY
+
+=
+
+-2
+
+fgtdt cosh k
+
+GX
+
+=
+
+X
+
+= et +
+
+ gtt k
+
+(
+
+f
+
+sinh - e)
+
+et
+
+XI
+
+=
+
+Y
+
+=
+
+-
+
+
+
+gtt k
+
+cos h
+
+.
+
+Then for the rotational motion, which now is made in the sense ZETD with an angular speed equal to  ' about the point O with ZO = s arising, PZO =  and DZQ =  +  , where
+
+IQ refers to the direction of the grazing speed, since that constantly is  +  =  , or along the
+
+fixed direction IQ, then we have
+
+tang  =
+
+-
+
+ ef
+
+ ef cosh sin h-ee + 2
+
+gkt
+
+and
+
+tang ( - ) =
+
+ f -e sinh a cosh
+
+-
+
+
+
+2 gkt eaa cos
+
+h
+
+,
+
+from which both the angles  et  are defined. Or
+
+tang ( + ) =
+
+
+
+aak sinh+2 gkt(e- f sinh)
+ aak cosh-2 ffgt cosh
+
+.
+
+But the grazing speed along the direction IQ is
+
+( ) w = k - 2 g
+
+1
+
++
+
+ff aa
+
+t
+
+.
+
+Then now on account of  'cos s = 0 the arc ZO = s is a quadrant and
+
+' =
+
+ 
+
+
+
+-
+
+4
+
+fgt( f -e
+aak
+
+sinh)
+
++
+
+4 ffggtt a4
+
+ 
+
+But this non-uniform motion only lasts for the time
+
+at the end of which
+
+t
+
+=
+
+2
+
+aak
+g ( aa +
+
+ff
+
+)
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1139
+
+tang
+
+=
+
+-
+
+e( aa +
+
+ aaf cosh
+ff )+aa( f sinh
+
+-e)
+
+=
+
+-
+
+ aa cosh ef + aa sinh
+
+,
+
+v=
+
+  
+
+ee
+
++
+
+2aae( f sinh
+aa+ ff
+
+-e)
+
++
+
+a 4 kk
+(aa+ ff
+
+)2
+
+  
+
+,
+
+( ) s =
+
+90 o
+
+and  ' =
+
+v f
+
+=
+
+eeff +2 eaaf sinh+ a4
+
+aa+ ff
+
+,
+
+substituted for the value kk. But then the angle  becomes 90o and
+
+sin 
+
+=
+
+e sin v
+
+.
+
+COROLLARY 1 1063. If initially the angle DZO = h = 0 , then
+k = (ee +  ff ) ;
+and for the angle DZQ =  there becomes
+
+sin 
+
+= - f
+k
+
+,
+
+cos 
+
+=-e
+k
+
+;
+
+then after the time t there is produced
+
+( ) v =
+
+ee
+
+-
+
+4 eegt k
+
++
+
+4
+
+ggtt
+
+,
+
+tang  =
+
+-
+
+2 fgt
+e(k -2 gt
+
+)
+
+,
+
+( ) X
+
+= et
+
+1
+
+-
+
+ gt k
+
+,
+
+Y
+
+=
+
+-
+
+ fgtt k
+
+.
+
+Again
+
+tang  =
+
+-
+
+eef
+
+eef -2
+
+gkt
+
+,
+
+tang ( - ) =
+
+f a
+
+-
+
+2 gkt  eaa
+
+;
+
+tang
+
+(
+
++
+
+)
+
+=
+
+
+
+2 efgt aak -2
+
+ffgt
+
+,
+
+( ) ( )  ' =
+
+ - 4 ffgt + 4 ffggtt
+
+aak
+
+a4
+
+et
+
+w = k - 2 g
+
+1+
+
+ff aa
+
+t
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1140
+
+but
+
+in
+
+the
+
+elapsed
+
+time
+
+t
+
+=
+
+aak 2 g(aa+
+
+ff
+
+)
+
+then
+
+tang
+
+=
+
+-
+
+ aa ef
+
+,
+
+( ) f eeff + a4
+v = aa+ ff = f  ' ,
+
+=
+
+90 o
+
+and
+
+tan
+
+=
+
+ ef (aa+ ff ) ee(aa+ ff )-aakk
+
+=
+
+ e(aa+ ff ) f (ee- aa)
+
+COROLLARY 2 1064. If the angle DZO = h is equal to 180°, the same formulas indicate the motion, with the
+
+angular speed  taken negative or in a rotational motion in the opposite sense. But if  = 0
+
+or only a progressive motion were impressed on the globe, then there arises k=e,
+
+ = 180°, v = e - 2 gt,  = 0, X = t (e -  gt ) , Y = 0,
+
+ = 180°;  = 90o ,
+
+
+
+'
+
+=
+
+2 fgt aa
+
+and
+
+in
+
+the
+
+elapsed
+
+time
+
+t
+
+=
+
+aae
+2 g( gaa+
+
+ff
+
+)
+
+,
+
+there arises
+
+v=
+
+eff aa+ ff
+
+,
+
+
+
+'
+
+=
+
+ef aa +
+
+ff
+
+et
+
+X
+
+=
+
+et(aa+2 ff )
+2(aa+ ff )
+
+=
+
+aaee( aa+ 4 g(aa+
+
+2 ft ) ff )2
+
+.
+
+[Small corrections have been made in the O. O. to these formulas by C. B.]
+
+SCHOLIUM
+
+1065. Here the case prevails in general, in which the globe has not been given any rotational motion initially, and neither is it restricted to any hypothesis of the angles f and h . Therefore
+
+then the globe advances in the direction of the motion with uniform retardation, and the
+
+motion gradually acquires rotational motion, then in the elapsed time
+
+t=
+
+aae 2 g(aa+ ff )
+
+it has
+
+acquired a uniform motion, which henceforth it progresses continually. Hence we can deduce
+
+that case, in which the globe initially has only taken rotational motion without any progressive motion, and this is easily set out. For on putting e = 0 then k =  f sin f and hence there arises
+
+sin = - cosh and cos = sinh,
+
+hence  = h - 90°; where for the initial axis of rotation IO impressed ZO = f and DZO = h ,
+
+with the angular speed arising in the sense ZETD =  . Hence in the elapsed time t there becomes  =  , clearly with the right angle PZO removed from the angle DZO = h then PI
+
+is the direction of the progressive motion which the globe acquires, and the speed of this is then v = 2 gt and thus proportional to the time. Then there arises tang = 0 and
+
+tang ( - ) = , hence on account ot  +  =  = h - 90° then  = 0 and  = 90°,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1141
+
+hence DZO =  + 90° = h , thus so that the pole or the rotation O is always found in the same vertical circle. And then from §1059 we have
+
+( )  ' sin s =
+
+
+
+sin2
+
+f
+
+-
+
+4
+
+fgt aa
+
+sin f
+
++
+
+4 ffggtt a4
+
+=
+
+
+
+sin
+
+f
+
+-
+
+2 fgt aa
+
+and  ' cos s =  cos f ,
+
+from which there becomes
+
+tang
+
+s
+
+=
+
+tang
+
+f
+
+-
+
+2 fgt  aa cos f
+
+,
+
+thus in order that the arc ZO is diminished, unless it should be a quadrant or greater, and
+
+( )  ' =
+
+ - 4 fgt sin f + 4 ffggtt
+
+aa
+
+a4
+
+.
+
+But the motion is reduced to uniformity in the elapsed time
+
+and then it becomes
+
+t =  aaf sin f ; aa + ff
+
+( ) 
+' =
+
+a4 sin2 f +(aa+ ff )2 cos2 f
+
+aa+ ff
+
+,
+
+v
+
+=
+
+
+
+aaf sin aa+ ff
+
+f
+
+and
+
+tang
+
+s
+
+=
+
+aa tang aa+ ff
+
+f
+
+.
+
+Hence if it should be that f = 0 or the motion should be impressed on the globe about a
+
+vertical axis without any progressive motion, then the same motion would be conserved without any change.
+
+[This non-physical event occurs in the derivation as the body rests on a point, about which frictional forces cannot exert any moment.]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1142
+
+PROBLEM 21 1066. If the rotational motion were impressed on a globe about an axis normal to the direction of progression, in which all the moments of inertia are equal, to define the continuation of the motion.
+SOLUTION Since the initial direction of the progressive motion impressed is the line DIE (Fig. 139) and the speed equals e, the angle DZO = h is right, and on taking ZO = f then O is the pole,
+about which the globe initially accepts the angular speed equal to  in the sense ZETD. Hence we have k = ± (e -  f sin f) , as the positive value for k it is required to take, thus so
+that here two cases arise to be treated.
+
+Case I. Let e >  f sin f, then k = e -  f sin f , which is the initial grazing speed, and
+
+IQ is the direction of this, as then sin DQ = 0 and cos DQ = ­1 and thus DQ =  = 180o and
+
+Q falls on E; and the globe is held back constantly by the friction  M along ID, from which
+it is deduced at once that the centre I of the globe is always on the same line DE. In the elapsed time t hence on account of cos = -1the speed of the centre v = e - 2 gt and the
+
+grazing speed
+
+( ) w = e -  fsinf - 2 g
+
+1
+
++
+
+f aa
+
+t;
+
+then  = 0 and  = 180o and also  = 90o . Whereby for the present axis of rotation IO there is DIO = 90° and on putting the arc ZO = s and with the angular speed equal to  ' we have
+
+and from § 1059
+
+ ' cos s =  cos f
+
+ ' sin s
+
+=
+
+
+
+sin
+
+f
+
++
+
+2 fgt aa
+
+,
+
+from which it is deduced,
+
+( ) tang s
+
+=
+
+tang
+
+f
+
++
+
+
+
+2 aa
+
+fgt cos
+
+f
+
+and  ' =
+
+ + 4 fgt sin f + 4 ffggtt
+
+aa
+
+a4
+
+.
+
+And in this time t the centre I traverses the straight line GX = X = t (e -  gt ) .
+
+But here the uneven motion lasts for the time
+
+t
+
+=
+
+aa(e- f sin f) 2 g(aa+ ff )
+
+,
+
+with which elapsed the distance is
+
+X
+
+=
+
+aa(e-
+
+f
+
+sin f)(e(aa+2 ff )+ aaf 2 g(aa+ ff )2
+
+sin f)
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1143
+
+and the speed
+
+v=
+
+f
+
+(ef
+
++ aa sin aa+ ff
+
+f)
+
+.
+
+But for the rotational motion
+
+tang s =
+
+tang ZO =
+
+tang
+
+f
+
+=
+
+f (e- f  (aa+ ff
+
+sin f) ) cos f
+
+=
+
+ef + aa sin f  (aa+ ff ) cos f
+
+.
+
+with DIO = 90o always arising and the angular speed
+
+( ) eeff +2 eaaf sin f+ a4 sin2 f+ (aa+ ff )2 cos2 f
+
+' =
+
+aa+ ff
+
+.
+
+Case II. Let e <  f sin f or k =  f sin f - e , which is the initial grazing speed, and the direction of this IQ such that, as sin DQ = 0 and cos DQ = 1, hence DQ =  = 0 and Q falls in D. Hence the globe is constantly accelerated by the friction  M along the direction IE and the centre I progresses along the same line IE ; and in the elapsed time t then the speed of this v = e + 2 gt and the grazing speed
+( ) w =  fsinf - e - 2 g 1+ f t aa
+Then let  = 0 and  = 0 and also  = 90° . Whereby for the present axis of rotation IO there is DIO = 90° and on putting the arc ZO = s and with the speed of rotation  ' we have
+
+ ' cos s =
+
+ sin f
+
+and  ' sin s =
+
+
+
+sin
+
+f
+
+-
+
+2 fgt aa
+
+from which there arises
+
+( ) tang s
+
+=
+
+tang
+
+f
+
+-
+
+
+
+2 aa
+
+fgt cos
+
+f
+
+and  ' =
+
+
+
+-
+
+4
+
+fgt aa
+
+sin f
+
++
+
+4 ffggtt a4
+
+and thus in the time t the centre of the globe traverses the line
+
+GX = X = t (e +  gt )
+Moreover here the unequal motion lasts for the time
+
+from which in the elapsed time and the distance
+
+t
+
+=
+
+aa( f sin f-e) 2 g(aa+ ff )
+
+,
+
+v=
+
+f (ef - aa sin f) aa+ ff
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1144
+
+X
+
+=
+
+aa(
+
+f
+
+sin f-e)(e(aa+2 ff )+ aaf 2 g(aa+ ff )2
+
+sin f)
+
+But for the rotational motion there is found
+
+tang s =
+
+tang ZO
+
+=
+
+ef + aa sin f  (aa+ ff ) cos
+
+f
+
+with DIO = 90° always arising and the angular speed
+
+( ) eeff +2 eaaf sin f+ a4 sin2 f+ (aa+ ff )2 cos2 f
+
+' =
+
+(aa+ ff )
+
+COROLLARY 1 1067. If it were that e =  f sin f , then the globe at once proceeds uniformly with its initial
+speed, both progressive as well as rotational, which case constitutes the boundary between the two cases treated.
+
+COROLLARY 2
+
+1068. These situations in which  has a negative value or the initial motion impressed on the
+
+globe should be in the sense ZDTE, are to be referred to the first case in which e >  f sin f .
+
+For on putting - in place of  it can happen, so that on reverting the globe, that as before
+
+it
+
+reached
+
+uniform
+
+motion,
+
+clearly
+
+as
+
+if
+
+it
+
+were
+
+the
+
+case
+
+that 
+
+>
+
+ef aa sin f
+
+.
+
+COROLLARY 3
+
+1069. In this case, in which is taken as negative, we have at the time t:
+
+( )  = 0,  = 90o
+
+ = 180o ,
+
+v = e - 2g gt,
+
+w = e +  f sin f - 2 g
+
+1+
+
+ff aa
+
+t,
+
+( ) tang s
+
+=
+
+tang
+
+f
+
+-
+
+
+
+2 aa
+
+fgt cos
+
+f
+
+and  ' =
+
+
+
+-
+
+4
+
+fgt aa
+
+sin f
+
++
+
+4 ffggtt a4
+
+But after the time
+
+t
+
+=
+
+aa(e+ f sin f) 2 g(aa+ ff )
+
+in the distance traversed
+
+X
+
+=
+
+aa(e+
+
+f
+
+sin f)(e(aa+2 ff )- aaf 2 g(aa+ ff )2
+
+sin f)
+
+it can reach uniformity and then
+
+v=
+
+f
+
+(ef
+
+- aa sin aa+ ff
+
+f)
+
+,
+
+tang s
+
+=
+
+ aa sin f-ef  (aa+ ff ) cos
+
+f
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1145
+
+and
+
+( ) eeff -2 eaaf sin f+ a4 sin2 f+ (aa+ ff )2 cos2 f
+
+' =
+
+aa+ ff
+
+SCHOLIUM 1070. Here the case is especially remarkable, in which motion of this kind is impressed on the globe, so that in the first place it recedes, but soon it reverts back again, as it is accustomed to show by experiment, while with a finger applied to the globe around D and on pressing downwards a two-fold motion is impressed on the globe, the one progressive in the direction DIE, the other of rotation in the sense ZDTE. But in order that the phenomenon succeeds, it is required that the rotational speed must exceed the progressive speed by a certain limit ; which in order that we may more easily understand this , we adapt the calculation to this case, in which in which the rotational motion is impressed on the globe about a horizontal axis and normal to the direction of the progressive motion. Hence if e denotes the progressive speed along the direction DIE and  ' the backwards angular speed in
+
+the sense ZNTE, with the radius of the globe f arising and Maa the moment of inertia of this, and with friction equal to  M ; in the first place globe proceeds in the direction DIE, and in the elapsed time t the speed of this in the same direction is given by v = e - 2 gt , with the
+interval completed X = t (e -  gt ) ; then even now it is rotating backwards about the same
+
+axis with an angular speed
+
+' =
+
+
+
+-
+
+2 fgt aa
+
+But uniform motion eventuates after the elapsed time
+
+t
+
+=
+
+aa(e+ f ) 2 g(aa+ ff
+
+)
+
+and then
+
+the progressive speed
+
+v=
+
+f (ef - aa) aa+ ff
+
+and the angular speed  '
+
+=
+
+ aaf -ef aa+ ff
+
+.
+
+Whereby
+
+if
+
+it
+
+is
+
+the
+
+case
+
+that
+
+
+
+>
+
+ef aa
+
+,
+
+the
+
+globe
+
+now
+
+moves
+
+backwards,
+
+at
+
+this
+
+stage
+
+with
+
+a
+
+backwards rotation ; but if it should be that
+
+
+
+<
+
+ef aa
+
+, the globe at this point proceeds and with
+
+the rotation in the contrary sense reversed. In the case that the globe begins to return, and in
+
+the elapsed time
+
+t
+
+=
+
+e 2 g
+
+and with the interval traversed
+
+X
+
+=
+
+ee 4 g
+
+.
+
+If the globe is homogeneous, then aa = 2 ff and  f expresses the speed of rotation at the
+5
+
+contact point, which if it is called equal to h, then after the time t the progressive speed v = e - 2 gt and the rotational speed at the point of contact, which is u = h - 5 gt , and the
+
+interval traversed is equal to t(e -  gt); now the uniform motion arises after the elapsed time
+
+t=
+
+e+ h 7 g
+
+and on completing an interval equal to
+
+( 6e - h )( e + h )
+49 g
+
+; when
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1146
+
+there is
+
+v
+
+=
+
+5e
+
+-2h 7
+
+and
+
+u
+
+=
+
+2h -5e 7
+
+.
+
+Hence
+
+in order
+
+that
+
+the
+
+remarkable
+
+phenomenon
+
+succeeds,
+
+initially
+
+there
+
+must
+
+be
+
+h>
+
+5 2
+
+e
+
+.
+
+But
+
+if
+
+it
+
+should
+
+be
+
+that
+
+h
+
+=
+
+5 2
+
+e
+
+each
+
+motion
+
+is
+
+likewise
+
+destroyed,
+
+in
+
+an
+
+elapsed
+
+time
+
+equal
+
+to
+
+e 2 g
+
+sec.,
+
+and
+
+on
+
+completing
+
+a
+
+distance
+
+equal
+
+to
+
+ee 4 g
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1147
+
+CAPUT IV DE MOTU TURBINUM IN CUSPIDEM DESINENTIUM SUPER PLANO HORIZONTALI
+FRICTIONIS HABITA RATIONE
+
+PROBLEMA 11
+
+1030. Si turbo super plano horizontali moveatur utcunque deturque singulis momentis eius pressio in planum, definire frictionem motumque turbinis progressivum.
+
+SOLUTIO
+
+Repraesentet tabula planum horizontale (Fig. 136), super quo turbo incedit, cuius axis
+
+transiens per centrum inertiae et cuspidem nunc
+
+elapso tempore t situm teneat AIF, ut I sit centrum inertiae in sublimi situm, F vero cuspis,
+
+qua fit contactus in plano horizontali; voceturque intervalium IF = f, quod est
+
+constans. Ex I in planum demittatur
+
+perpendiculum IG, et sumta in plano recta directrice OV ad fixam mundi plagam spectante,
+
+ad eam ex G et F ducantur normales GX et FZ, itemque per G recta KL ipsi OV parallela. Ponatur angulus FIG =  , qui exprimit
+
+declinationem axis turbinis AF a situ verticali; et angulus KGH =  , qui praebet
+
+declinationem plani verticalis, in quo iam axis turbinis versatur, a plano verticali super OV vel LK exstructo. Erit ergo GI = f cos  et GF = f sin  ; tum vero
+
+GN = f sin  cos et FN = f sin  sin . Praeterea vero sit OX = x et XG = y; unde pro
+
+puncto F fit
+
+OZ = x - f sin  cos et ZF = y + f sin  sin ;
+
+ex quibus motus cuspidis F colligi potest, cuius celeritas secundum directionem OV vel NG
+
+est
+
+=
+
+dx
+
+-
+
+fd
+
+ sin dt
+
+
+
+cos 
+
+et celeritas secundum directionem NF
+
+=
+
+dy
+
++
+
+fd
+
+sin dt
+
+
+
+sin
+
+,
+
+quarum utraque nisi evanescat, cuspis F super plano movebitur frictionemque excitabit; ad cuius directionem inveniendam sit Ff directio secundum quam cuspis progreditur, quae retro in L producta dabit directionem frictionis FL, pro qua ponatur angulus FLG =  eritque
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1148
+
+tang
+
+
+
+=
+
+dy + dx-
+
+fd sin  fd sin 
+
+sin cos 
+
+.
+
+Sit iam pressio, quam cuspis in planum exerit =  , pondere totius turbinis existente = M, atque ob frictionem turbo in F sollicitatur secundum directionem FL vi =  , quae resoluta dat vim sec. XO =  cos et sec. FZ =  sin . Ad motum ergo progressivum centri
+
+inertiae I definiendum praeter has vires frictionis ei applicata concipiatur vis deorsum urgens secundum IG = M -  , ac principia motus suppeditabunt has ternas aequationes:
+
+ddx 2 gdt 2
+
+=
+
+-
+
+
+
+cos M
+
+
+
+,
+
+ddy = -  sin
+
+2 gdt 2
+
+M
+
+et
+
+fddcos 2 gdt 2
+
+=
+
+-1 +
+
+ M
+
+,
+
+unde statim colligimus ddx sin = ddy cos . Ex his aequationibus, si anguli  et  ad
+
+tempus t ut cogniti spectentur, inde primo
+
+ M
+
+tum vero differentialia dx et dy determinantur
+
+ex iisque tandem angulus  ex formula
+
+tang
+
+
+
+=
+
+dy+ fd sin  sin dx- fd sin  cos
+
+COROLLARIUM 1
+
+1031. Si pro
+
+ M
+
+valor inventus per  substituatur, pro quantitatibus x et y determinandis
+
+habebimus has aequationes differentiales secundi gradus
+
+ddx = -2 gdt2 cos -  f cos dd  cos  ,
+
+ddy = -2 gdt2 sin -  f sin dd  cos .
+
+COROLLARIUM 2 1032. Pro directione frictionis FL, ratione rectae FH, cum sit angulus LGF =  et
+angulus FLG =  , erit angulus GFL = 180o - -  ; ipsa autem frictio est =  , nisi sit celeritas cuspidis F nulla, quo casu frictio subito evanescit, id quod evenit, si fuerit
+dx = fd sin cos
+et
+dy = - fd sin sin
+
+SCHOLION 1033. Ex his aequationibus nihil adhuc concludere licet, cum relatio variabilium  et  seu  ad tempus t nondum constet, quae demum ex motu gyratorio erui debet. Iis autem
+inventis, per formulas hic traditas variabiles x et y, sicque motus progressivus centri inertiae I
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1149
+
+definiri poterit. Quamobrem angulum  in determinationem motus gyratorii introducamus, etiamsi eius relatio ad angulos  , et tempus assignari possit. Cum enim sit
+dy cos + f cosd  sin  sin - dx sin + f sind  sin  cos = 0 ,
+quo x et y facilius elidere queamus, ponamus f cosd  sin  sin + f sind  sin  cos = sdt ,
+
+ut sit dy cos - dx sin + sdt = 0 ;
+
+quae aequatio differentiata ob ddy cos = ddx sin dat
+
+Differentietur porro, et ob
+
+-dy
+
+sin 
+
+-
+
+dx
+
+cos 
+
++
+
+dsdt d
+
+=
+
+0.
+
+ddy sin + ddx cos  = -2 g dt2
+M
+
+prodit
+
+2 g dt2 - dyd cos + dxd sin
+M
+
++
+
+dt
+
+
+
+ds d
+
+=
+
+0
+
+addatur prima per d multiplicata fietque per dt dividendo
+
+2 g M
+
+dt 2
+
++
+
+sd
+
++d
+
+
+
+ds d
+
+=
+
+0
+
+qua aequatione relatio inter s,, et t exprimitur, quae forte in sequentibus usum habebit.
+
+Involvit autem s angulos  ,  et  estque
+
+ M
+
+=
+
+1
+
++
+
+fdd  cos  2 gdt 2
+
+ita ut hic adhuc insint quatuor variabiles  ,  et  et t .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1150
+
+PROBLEMA 12 1034. Dum turbo utcunque super plano horizontali movetur et frictionem patitur, determinare virium, quibus sollicitatur, momenta respectu axium principalium turbinis.
+
+SOLUTIO In sphaera centro inertiae turbinis I descripta (Fig. 137) repraesentet circulus GZH planum verticale, in quo iam axis turbinis per centrum inertiae I et cuspidem F ductus AlF versetur, qui simul sit axis principalis turbinis, eiusque respectu momentum inertiae = Maa, bini reliqui vero axes principales ex I ad sphaerae puncta B et C pertingant, quorum respectu sint momenta inertiae aequalia = Mcc, ita ut in formulis nostris generalibus sit bb = cc, quemadmodum iam supra assumsimus. Posito Z puncto sphaerae verticali, erit arcus ZA =  ; ponamus autem ductis
+
+arcubus ZB et ZC, ut supra ZA = l, ZB = m et ZC = n , ut sit  = l . His positis vires, quibus turbo sollicitatur,
+
+sunt primo eius pondus = M, quae vis centro inertiae I applicata nulla praebet momenta;
+
+deinde adest pressio, qua planum horizontale in cuspidem F reagit, cuius directio est
+
+verticalis sursum directa F , quae vis sit =  , vidimusque esse
+
+ M
+
+=
+
+1
+
++
+
+fdd  cos  2 gdt 2
+
+.
+
+Denique sollicitatur turbo in F a frictione =  , nisi cuspis qu iescat, cuius
+
+directio FL est horizontalis; ac pro eius situ ducatur circulus maximus horizontalis GB , in
+
+quo capiatur secundum paragraphum 1032 arcus H  = 180° - -  seu GA =  + , ubi 
+
+denotat declinationem plani GZH a plano quodam verticali fixo; angulus  autem ex formulis in praecedente problemate traditis definiri debet eritque directio FL radio I 
+parallela. Iam ad virium harum momenta respectu axium principalium investiganda primum
+ipsae vires secundum directiones horum axium resolvantur, quem in finem ut in centro inertiae applicatae considerentur. Vis ergo F =  , in directione IZ applicata praebet
+vim sec.IA =  cos ZA =  cos l ,
+
+vim sec.IB =  cos ZB =  cos m
+et vim sec.IC =  cos ZC =  cos n .
+Deinde vis FL =  in I  applicata resolvitur in vires 1° sec.IA =  cos A,
+
+2° sec.IB =  cos B,
+
+3° sec.IC =  cos C. Ad has autem evolvendas sit ZX ille circulus verticalis fixus ideoque angulus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1151
+
+XZA =  , ponamus autem ut supra angulos XZA =  , XZB =  et XZC = , ut sit  =  et, ob AZ = 180° -  - , erit XZ = 180° -  , hincque BZ  =  +  -180° et CZ = 180° - v -  , unde ob ZA quadrantem prodit
+cos A = - sin l cos ( + ) ,
+cos B = - sin m cos ( + ) et
+cos C = - sin n cos (v + ) . Quocirca habebimus
+vim sec. IA =  cos l -  sin l cos ( + ),
+vim sec. IB =  cos m -  sin m cos ( + ),
+vim sec. IC =  cos n -  sin n cos (v + ), has autem vires nunc in puncto F applicatas concipi oportet, existente IF = f, unde momenta earum respectu axium principalium, quae supra litteris P, Q, R designavimus, concluduntur
+P = 0,
+Q =  f cos n -  f  sin n cos (v + ) ,
+R = - f cos m +  f sin m cos ( + ) .
+
+PROBLEMA 13
+
+1035. His virium momentis inventis exhibere aequationes, quibus motus turbinis super plano horizontali incedentis et a frictione perturbatus contineatur.
+
+SOLUTIO Primo pro motu gyratorio teneat elapso tempore t turbo situm in figura repraesentatum (Fig.137), ubi omnes denominationes modo factae maneant. Ac nunc gyretur turbo circa axem IO in sensum ABC celeritate angulari =  ' , pro puncto O autem sint arcus AO =  , BO =  , CO =  ponaturque  ' cos = x,  ' cos  = y,  ' cos  = z , quae
+quantitates per momenta modo inventa ita determinantur, ut primo sit dx = 0, ideoque x = const. Ponatur ergo x = h, et pro y et z has habebimus aequationes
+
+dy + ( aa-cc ) hzdt =
+cc
+
+2 fgdt Mcc
+
+(cos
+
+n
+
+-
+
+
+
+sin
+
+n
+
+cos(
+
+v
+
++
+
+)
+
+,
+
+dz
+
++
+
+(
+
+aa-cc cc
+
+)
+
+hydt
+
+=
+
+-
+
+2 fgdt Mcc
+
+(cos
+
+m
+
+-
+
+sin
+
+m
+
+cos
+
+(
+
++
+
+))
+
+.
+
+Tum vero pro arcubus l, m, n itemque angulis  , , ostendimus esse:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1152
+
+dl sin l = dt(y cos n - z cos m), d sin2 l = -dt(y cos m + z cos n), dm sin m = dt(z cos l - h cos n), d  sin2 m = -dt(z cos n + h cos l), dn sin n = dt(h cos m - y cos l), dv sin2 n = -dt(h cos l + y cos m) ,
+
+ubi praeterea hae relationes sunt notandae:
+
+cos
+
+(
+
+-
+
+
+
+)
+
+=
+
+-
+
+cos sin
+
+l l
+
+cos m sin m
+
+,
+
+sin
+
+(
+
+-
+
+
+
+)
+
+=
+
+-
+
+cos n sin l sin
+
+m
+
+,
+
+unde anguli  et v per  ita definiuntur :
+
+cos
+
+(
+
+-
+
+)
+
+=
+
+-
+
+cos l cos n sin l sin n
+
+,
+
+sin ( - ) =
+
+cos m sin l sin
+
+n
+
+,
+
+cos
+
+
+
+=
+
+- cos 
+
+cos l cos m+sin  cos n sin l sin m
+
+,
+
+sin
+
+
+
+=
+
+-
+
+sin 
+
+cos l cos m-cos sin l sin m
+
+
+
+cos
+
+n
+
+,
+
+cos
+
+=
+
+- cos  cos l cos n-sin  cos m sin l sin n
+
+,
+
+sin
+
+=
+
+-
+
+sin
+
+
+
+cos l cos n+cos sin l sin n
+
+
+
+cos
+
+m
+
+.
+
+Hicque est
+
+ M
+
+=
+
+1+
+
+fdd cos l 2 gdt 2
+
+.
+
+At angulus  ex motu progressivo est ingressus, pro quo si in fig.136 ad situm centri inertiae
+
+I definiendum distinctionis causa vocemus coordinatas
+
+OX = X et XG = Y, existente GI = f cos l , ad superiores aequationes
+
+insuper has adiungere debemus:
+
+ddX 2g 2dt
+
+=
+
+- 
+M
+
+cos 
+
+,
+
+ddY 2g 2dt
+
+= - 
+M
+
+sin 
+
+et dY cos - dX sin + f cosd  sin l sin  + f sind  sin l cos  = 0 .
+
+Atque in his aequationibus omnia, quae tam ad motum progressivum quam gyratorium spectant, determinantur. Si primo quantitates X et Y e calculo excludere velimus, loco harum trium postremarum aequationum sequentem unicam adhibuisse sufficit; pro qua si ponatur
+sdt = f cosd  sin l sin  + f sind  sin l cos  ,
+
+seu sumtis his differentialibus locoque dl et d valoribus superioribus substitutis
+
+erit s = - fysinnsin ( + ) + fzsinmsin( + )
+
+et aequatio loco illarum trium usurpanda supra inventa est
+
+2 g M
+
+dt
+
++
+
+sd
+
++
+
+d
+
+
+
+ds d
+
+=
+
+0.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1153
+
+SCHOLION 1 1036. Multitudo harum aequationum, praecipue autem angulus  primas aequationes ingrediens in causa est, quod earum resolutionem nullo modo suscipere liceat. Unde patet motum turbinum ob frictionem maxime fore peturbatum, ita ut ex his aequationibus nihil omnino, unde hic motus cognosci posset, concludere valeamus. Quodsi vero huius motus causas obiter tantum contemplemur, evidens est centrum inertiae I non in recta tantum verticali, ut remota frictione eveniebat, ascendere vel descendere, sed etiam motum horizontalem adipisci, qui oritur a vi frictionis, euius directio eum sit contraria motui cuspidis, motus centri inertiae secundum eandem directionem incitatur, unde neque uniformis neque rectilineus erit, et quatenus incurvatur, eius convexitas in eam regionen spectabit, in quam cuspis progreditur. Simili modo etiam motus gyratorius tam ratione celeritatis quam ratione axis gyrationis maxime perturbabitur, de quo vix quicquam ex consideratione frictionis affirmare licet.
+
+SCHOLION 2 1037. Verum haec tanta motus perturbatio tamdiu duntaxat durat, donec frictio cessat, hoc autem tandem evenire debere per se est evidens, quandoquidem motus ob frictionem continuo retardatur. At frictio cessare nequit, nisi cuspis turbinis in eodem loco persistat, ex quo necesse est motum ita temperari debere, ut cuspis tandem in eodem plani puncto sit perseveraturus, dummodo hoc eveniat, antequam turbo procumbat. Si enim turbini primo motus gyratorius nimis tardus fuerit impressus, nullum est dubium, quin procumbat, antequam illud phaenomenon oriatur; ex quo vicissim concludere licet, si motus satis fuerit celer, fore, ut antequam turbo procumbat, cuspis a frictione ad idem plani horizontalis punctum redigatur. Quod cum evenerit, atque in turbine adhuc motus insit gyratorius, ex superioribus patet axem turbinis verticalem esse debere; si enim esset inclinatus, nullo modo ita gyrari posset, ut cuspis eidem puncto insisteret. Ex his igitur coniunctis hanc conclusionem deducimus: turbinem, si modo ei satis celer motus gyratorius fuerit impressus, ob frictionem se tandem in situm verticalem erigere et tum circa axem verticalem motum gyratorium esse continuaturum. Quod phaenomenon eo magis est notatu dignum, quod soli frictioni debeatur; ita ut ope frictionis linea verticalis ideoque etiam planum horizontale obtineri queat; id quod in navigatione magnum usum habere potest, ad quem etiam in Anglia olim fuit commendatum.
+
+1) Vide SERSON, Phil. Trans. 47 (1752), p. 352. C.ß.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1154
+
+CAPUT V
+
+DE MOTU GLOBORUM CENTRUM INERTIAE IN IPSORUM CENTRO SITUM HABENTIUM
+SUPER PLANO HORIZONTALI
+
+PROBLEMA 14 1038. Si globus super plano horizontali utcunque tam motu progressivo quam gyratorio moveatur, determinare celeritatem et directionem, qua punctum contactus radii superficiem horizontalem.
+
+SOLUTIO Sit I centrum simulque centrum inertiae globi (Fig. 138), eiusque radius = f et contactus fiet in puncto imo T. Motus autem globi ita sit comparatus, I ut centrum inertiae moveatur secundum directionem PIR celeritate = v, simul vero gyretur circa axem quemcunque IO celeritate angulari =  ' in eum sensum, ut
+
+punctum T circa O incedat per arculum Tt, ac pro positione puncti O statuamus angulum PTO =  et arcum TO = s, ubi quidem arcus ita sumo, quasi radius globi esset = 1. Ducatur TV ipsi PIR parallela, ac si motus gyratorius abesset, punctum contactus T rasurum esset planum horizontale celeritate = v in directione TV. Deinde si globus solo motu gyratorio ferretur, quia punctum T per Tt moveretur celeritate = f  ' sinTO = f  ' sin s ,cuius directio cum sit
+horizontalis, in plano per rectam T referatur, ita ut sit angulus ST = PTt =  - 90° ob OTt
+
+rectum. Erit ergo VT = 270o - . Capiantur rectae TV = v et T = f  ' sin s , et quia
+
+punctum T his duobus motibus coniunctim movetur, eius verus motus fiet secundum rectam TF diagonalem parallelogrammi TVF . Ex F ad TV ducta normali FH erit ,
+VH = f  ' sin s sin  et FH = - f  ' sin s cos
+
+unde fit
+
+TH = v - f  ' sin s sin
+
+atque celeritas radens
+
+TF = (vv - 2 f  ' v sin s sin + ff  '  ' sin2 s)
+
+et
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1155
+
+tang
+
+VTF
+
+=
+
+-
+
+f  ' sin s cos v- f  ' sin s sin
+
+Ducatur ex centro I ipsi TF parallela IQ, erit arcus TQ quadrans et angulus RTQ = VTF. Quare si IQ sit directioni, secundum quam punctum T radit, parallela, erit
+
+ac posita celeritate radente
+
+tang
+
+PTQ
+
+=
+
+f  ' sin s cos v- f  ' sin s sin
+
+,
+
+(vv - 2 f  ' v sin s sin + ff  '  ' sin2 s) = u
+
+erit
+
+sin
+
+PTQ
+
+=
+
+-
+
+f
+
+
+
+'
+
+sin u
+
+s cos
+
+et
+
+cos PTQ =
+
+f  ' sin s sin -v u
+
+COROLLARIUM 1 l039. Fieri ergo potest, ut celeritas radens ideoque et attritus evanescat, quo casu hae duae conditiones locum habere debent, altera  ' sin s cos = 0 , altera v = f  ' sin s sin . Unde
+statim patet, si nulIus adsit motus progressivus, seu v = 0, nullum attritum aflore, si sin s = 0 , hoc est si globus circa axem verticalem Z T gyretur.
+
+COROLLARIUM 2 1040. Deinde motus globi ab attritu erit liber, si fuerit primo cos = 0 seu angulus PTO rectus; deinde celeritas progressiva v ad angularem  ' hanc relationem tenere debet, ut sit
+v = f  ' sin s seu TV = T et angulus ST = 0 .
+
+COROLLARIUM 3 1041. Quando ergo globus huiusmodi motum est consecutus, quia sublato omni attritu etiam nulla adest frictio, globus eundem motum constanter conservabit, siquidem axis gyrationis IO habeat proprietatem axis principalis.
+
+SCHOLION 1 1042. Quemadmodum hic frictionem constituimus, ea non obstat, quominus globus super plano horizontali motum suum intemeratum conservare possit, quod tamen minime fieri observamus, cum globus super tabula tali motu latus mox omnem motum amittat, cuius rei causa resistentiae aeris tribui nequit. Verum hic primum animadverto experimenta nunquam Theoriae perfectissime congruere; veluti dum casu hic tractato assumsimus contactum unico fieri puncto, id semper in praxi secus evenit. Interim tamen si arcus TO est quadrans et PTO = 90°, existente v = f  ' , tametsi contactus non fiat in uno puncto, tamen attritus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1156
+
+evanescit, ideoque hic motus extinctio neutiquam frictioni adscribi potest. Ex quo concludere debemus praeter frictionem, uti hic eam definivimus, aliud adhuc dari motus impedimentum, dum corpora super superficiebus incedunt, a frictione probe distinguendum, cuius ratio utcunque fuerit comparata, eius effectus potius seorsim investigari convenit, quam frictionis indolem hic stabilitam immutari. Et quemadmodum hic a resistentia aeris mentem abstrahimus, ita etiam licebit hoc obstaculum frictionem concomitans a praesenti argumento seiungere.
+
+SCHOLION 2 1043. Corpora hic sphaerica considero, in quorum centro situm sit ipsorum centrum inertiae I, quod ergo ipsum etiam in plano horizontali moveatur et puncto contactus T perpetuo verticaliter immineat. Ex quo patet pressionem in contactu semper fore ponderi corporis M aequalem. Si ergo corpus ex materia uniformi constaret, omnes eius diametri proprietate axium principalium gauderent, sed concipiamus materiae distributionem utcunque inaequabilem, ita tamen ut centrum inertiae cadat in centrum figurae. Quare necesse erit in globo ternos axes principales considerari, qui ex centro I pertingant in puncta A, B, C, quadrantibus a se invicem distantia, quorum respectu sit, ut supra posuimus, momenta inertiae Maa, Mbb, Mcc. Quanquam autem deinceps bina vel omnia haec momenta inter se aequalia statuemus, tamen conveniet huiusmodi tria puncta in superficie fixa notasse, quo ex eorum relatione ad spatium absolutum, facilius motus globi definiri possit. Constitutis autem in globo his tribus punctis A, B, C, quoniam motus gyrationis circa O, quem in plagam Tt dirigi assumsimus, sensum habet CBA contrarium ei, quem supra statuimus, in applicatione formularum generalium ad hunc casum celeritatem angularem  ' ut negativam spectare
+debemus.
+
+PROBLEMA 15 1044. Si globus super plano horizontali utcunque moveatur, definire vires, quibus sollicitatur, earumque momenta respectu ternorum axium principalium globi.
+
+SOLUTIO Inclusus concipiatur globus sphaerae vel fixae vel cum eo parem motum progressivum habenti (Fig. 139), in qua Z sit punctum verticale eiusque oppositum T punctum contactus,
+DE vero sit diameter horizontalis ad certam mundi plagam tendens, et DPQE circulus maximus horizontalis. Nunc autem elapso tempore t, moveatur globus motu progressivo secundum directionem PI celeritate = v, ponaturque arcus DP seu angulus DZP =  ;
+axes autem principales nunc sint in A,B,C .Tum vero globus iam gyretur circa axem IO celeritate angulari =  ' in sensum ACB; sitque pro situ puncti O angulus PTO seu PZO =  et arcus ZO = s. Etsi enim ante arcum TO posuimus = s, quia tantum eius sinus in computum intrat, perinde. est. Erit ergo
+angulus DZO =  +  et EZO = 180o - -.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1157
+
+Deinde si a punctis A, B, C tam ad O quam ad Z arcus circulorum magnorum ducti concipiantur, sint ut hactenus arcus
+AO =  , BO =  ,CO =  ,
+ZA = l, ZB = m, ZC = n
+
+et anguli
+
+EZA = , EZB =  , EZC = v .
+
+In praecedente autem problemate ostendimus, punctum contactus T planum subiectum radere
+
+secundum directionem radio IQ parallelam celeritate
+
+= (vv - 2 f  ' v sin s sin + ff  '  ' sin2 s) .
+
+foreque
+
+tang
+
+PTQ
+
+=
+
+tang
+
+PZQ
+
+=
+
+f v- f
+
+' sin s cos  ' sin s sin
+
+denotante f radium globi. Cum igitur pressio in T sit = M, frictio erit =  M , quae puncto T
+
+est applicata secundum directionem ipsi QI parallelam. Hac ergo vi resoluta secundum
+
+directiones axium principalium IA, IB, IC, prodit vis sec. IA = - M cos AQ,
+
+vis sec. IB = - M cos BQ,
+
+et vis sec. IC = - M cos CQ ,
+
+quae ternae vires in puncto T applicatae sunt concipiendae, unde colliguntur momenta Resp. axis IA in sensum BC = -  Mf cos CQ cos BT +  Mf cos BQ cos OT = P,
+Resp. axis IB in sensum CA = -  Mf cos AQ cos CT +  Mf cos CQ cos AT = Q,
+Resp. axis IC in sensum AB = -  Mf cos BQ cos AT +  Mf cos AQ cos BT = R .
+
+Erunt ergo haec tria momenta:
+
+P =  Mf ( cos m cos CQ - cos n cos BQ),
+
+Q =  Mf ( cos n cos AQ - cos l cos CQ),
+
+R =  Mf ( cos l cos BQ - cos m cos AQ).
+
+Pro puncto autem Q ponamus angulum PZQ =  ; ut sit
+
+tang
+
+
+
+=
+
+f  ' sin s cos v- f  ' sin s sin
+
+et posita celeritate radente (vv - 2 f  ' v sin s sin + ff  '  ' sin2 s) = u ,
+erit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1158
+
+sin = - f  ' sin s cos et cos  = f  ' sin s sin -v .
+
+u
+
+u
+
+Fit ergo DZQ =  +  et EZQ = 180° -  - ; hincque
+
+AZQ = 180o -  - -  , BZQ =  +  +  -180o , CZQ = 180o -  - -
+
+ergo cos AQ = - cos( +  +  ) sin l ,
+
+cos BQ = - cos(  +  +  ) sin m,
+
+cos CQ = - cos(  +  + ) sin n .
+
+Ex relatione igitur, quae inter angulos  , et  intercedit, concludemus momenta
+
+virium:
+
+P =  Mf sin l sin ( +  +  ),
+
+Q =  Mf sin m sin ( +  +  ),
+
+R =  Mf sin n sin ( +  +  ).
+
+PROBLEM 16 1045. Si motum gyratorium ad quodvis tempus ut datum spectemus, definire motum progressivum globi.
+
+SOLUTIO Quia centrum globi in plano horizontali movetur, descripserit id tempore t lineam GI,
+
+quae referatur ad directricem GX superiori directioni fixae DE parallelam, ductaque IX
+
+ad GX normali, sint coordinatae GX = X, XI = Y
+
+(Fig. 140). Per I ducatur recta DE ipsi GX parallela, quae erit ipsa diameter DE in figura 139. Ducatur IP, ut sit DIP = EIR =  , et
+
+centrum I per hypothesin progreditur in
+
+directione I R celeritate = v, ita ut sit celeritas secundum GX = v cos et celeritas secundum
+
+XI = v sin ideoque
+
+dX = vdt cos et dY = vdt sin . Ducatur recta QIS, ut IQ sit directioni, qua punctum
+
+contactus radit, parallela, erit angulus EIQ = DIS = 180° -  - ;est enim aequalis angulo
+
+EZQ in praecedente figura, unde globus sollicitari censendus est vi =  M in directione IS.
+
+Hinc ergo oritur vis secundum ID = -  M cos ( + ) et vis secundum XI = -  M sin ( + ) . Ex quibus colligitur
+
+d v cos 2 gdt
+
+=
+
+dv cos -vdv sin 2 gdt
+
+=
+
+cos (
+
++),
+
+d v sin 2 gdt
+
+=
+
+dv sin +vdv cos 2 gdt
+
+=
+
+sin (
+
++)
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1159
+
+hincque porro ita ut sit
+
+dv 2 gdt
+
+=
+
+cos 
+
+et
+
+vd 2 gdt
+
+=
+
+sin 
+
+vd dv
+
+=tang
+
+
+
+=
+
+f  ' sin s cos v- f  ' sin s sin
+
+PROBLEMA 17 1046. Definito motu progressivo globi determinare eius motum gyratorium.
+
+SOLUTIO
+
+Spectetur nunc centrum globi I ut quiescens et maneant omnes denominationes
+
+in problemate 15 adhibitae sintque Maa, Mbb, Mcc momenta inertiae respectu axium
+
+principalium IA, IB, IC, quae primo ut inaequalia consideremus (Fig. 139). Quoniam vero hic celeritatem angularem  ' ut negativam spectare debemus, quia tendit in sensum ACB, si
+
+ponamus
+
+ ' cos = x,  ' cos  = y, et  ' cos  = z ,
+
+in formulis generalibus has literas x, y, z negative sumi oportet, ex § 810 habebimus has
+
+aequationes motum determinantes
+
+dx
+
++
+
+bb - cc aa
+
+yzdt
+
++
+
+2 fg aa
+
+dt
+
+sin l
+
+sin (
+
++
+
++)
+
+=
+
+0,
+
+dy
+
++
+
+cc - aa bb
+
+xzdt
+
++
+
+2 fg bb
+
+dt
+
+sin
+
+m
+
+sin
+
+(
+
++
+
+
+
++
+
+
+
+)
+
+=
+
+0,
+
+dz
+
++
+
+aa -bb cc
+
+xydt
+
++
+
+2 fg cc
+
+dt
+
+sin n
+
+sin (
+
++
+
++)
+
+=
+
+0,
+
+dl sin l = dt(z cos m - y cos n) , dsin2l = dt(y cos m + z cos n) ,
+
+dm sin m = dt(x cos n - z cos l) , d  sin2 m = dt(z cos n + x cos l),
+
+dn sin n = dt(y cos l - x cos m) , dv sin2 n = dt(x cos l + y cos m).
+
+Tum vero ex motu progressivo habemus:
+
+dv = 2 gdt cos , vd = 2 f  gdt sin
+
+et
+
+tang
+
+
+
+=
+
+f  ' sin s cos v- f  ' sin s sin
+
+,
+
+ubi est PZO =  et ZO = s. Cum ergo sit EZO = 180o - - , erit AZO = 180o -  - -
+
+hincque
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1160
+
+cos  = cos l cos s - sin l sin s cos ( + + ), cos  = cos m cos s - sin m sin s cos ( + + ), cos  = cos n cos s - sin n sin s cos (v + + ) ,
+
+existente unde sequitur fore
+
+cos s = cos l cos + cos m cos + cos n cos  ,
+
+sin l cos l cos ( + + ) + sin m cos m cos ( + + ) + sin n cos n cos (v + + ) = 0 .
+
+Ponamus  ' cos s = p et  ' sin s = q , ut sit
+
+tang
+
+
+
+=
+
+fq cos v- fq sin
+
+=
+
+vd dv
+
+;
+
+eritque ex quibus valoribus fit
+
+x = p cos l - q sin l cos ( + + ) , y = p cos m - q sin m cos ( + + ), z = p cos n - q sin n cos ( + + ) ,
+
+dl = qdt sin ( + + ), d = pdt + qdt cot l cos ( + + ), dm = qdt sin ( + + ), d  = pdt + qdt cot m cos ( + + ) , dn = qdt sin (v + + ), dv = pdt + qdt cot n cos (v + + )
+
+indeque porro
+dx = dp cos l - dq sin l cos ( + + ) + q(d + d) sin l sin ( + + ), dy = dp cos m - dq sin m cos ( + + ) + q(d + d) sin m sin ( + + ), dz = dp cos n - dq sin n cos ( + + ) + q(d + d) sin n sin ( + + ).
+
+At sine subsidio harum substitutionum ex aequationibus ternis primis, cum in genere sit sin l cos l sin ( + A) + sin m cos m sin ( + A) + sin n cos n sin (v + A) = 0 ,
+
+elicimus hanc aequationem aadx cos l + bbdy cos m + ccdz cos n - aaxdl sin l - bbydm sin m - cczdn sin n = 0
+
+cuius integrale est
+
+aax cos l + bby cos m + ccz cos n = C ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1161
+
+quae adhibitis substitutionibus abit in hanc formam:
+
+p(aa cos2 l + bb cos2 m + cc cos2 n ) - q(aa sin l cos l cos ( + + ) + bb sin m cos m cos ( + + ) + cc sin n cos n cos ( + + )) = Const.
+
+Deinde etiam per reductiones § 934 traditas pro vi viva colligitur haec aequatio differentialis
+aaxdx + bbydy + cczdz = 2 fgqdt sin ( - ) .
+
+SCHOLION 1047. Ad reductiones hic factas intelligendas ex formulis supra traditis, ubi angulos  et v per  , l, m, n expressimus, notari convenit fieri:
+
+cos ( + + )
+
+=
+
+-
+
+cos l cos m cos (
+
++ + )+cos n sin ( sin l sin m
+
++
+
++ )
+
+,
+
+cos ( + + )
+
+=
+
+-
+
+cos l cos n cos (
+
++ +)-cos m sin ( sin l sin n
+
++
+
++) ,
+
+sin ( + + )
+
+=
+
+-
+
+cos l cos m sin (
+
++ +)-cos n cos ( sin l sin m
+
++
+
++ )
+
+,
+
+sin ( + +  )
+
+=
+
+-
+
+cos l cos n sin (
+
++ +)+cos m cos ( sin l sin n
+
++
+
++) .
+
+Ac simili modo anguli  +  +  et v +  +  ad angulum  +  +  revocari possunt. Deinde etiam pro sequentibus reductionibus haec forma imprimis est notanda
+
+quae ob
+
+sin ( + B) cos( v + C ) - sin (v + B) cos ( + C )
+
+reducitur ad
+
+sin M cos N =
+
+l 2
+
+sin (M
+
++
+
+N)
+
++
+
+l 2
+
+sin (M
+
+-
+
+N)
+
+sin ( - v) cos ( B - C ) ;
+
+hocque modo reductionem pro allis formulis instituendo reperimus:
+sin ( + B) cos( v + C ) - sin( v + B) cos ( + C ) = sin(  - v )cos ( B - C ) , sin ( + B) sin( v + C ) - sin( v + B) sin ( + C ) = - sin(  - v ) sin ( B - C ) , cos ( + B) cos( v + C ) - cos( v + B) cos ( + C ) = - sin(  - v )sin( B - C ) ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1162
+
+ubi sin ( - v) per formulas usurpatas datur, est enim
+
+sin
+
+(
+
+-
+
+v)=
+
+cos l sin m sin
+
+n
+
+PROBLEMA 18 1048. Si globus ex materia uniformi constet vel saltem ita fuerit comparatus, ut omnia momenta inertiae sint inter se aequalia eique initio impressus fuerit motus quicunque, determinare eius continuationem.
+
+SOLUTIO Cum hic sit aa = bb = cc seu momentum inertiae respectu omnium diametrorum = Maa, prima aequatio integrata praebet aap = Const., unde p erit quantitas constans. Statuatur ergo p = h, et ternae aequationes differentiales priores induent has formas:
+
+I.
+
+-
+
+dq
+
+cos
+
+(
+
++
+
++
+
+)
+
++
+
+q(d
+
++
+
+d)
+
+sin
+
+(
+
++
+
++)
+
++
+
+2 fg aa
+
+dt
+
+sin
+
+( +  +  ) =
+
+0,
+
+II .
+
+-
+
+dq
+
+cos
+
+(
+
++
+
+
+
++
+
+
+
+)
+
++
+
+q(d
+
++
+
+d
+
+)
+
+sin
+
+(
+
++
+
++)
+
++
+
+2 fg aa
+
+dt
+
+sin
+
+(
+
++
+
+
+
++
+
+
+
+)
+
+=
+
+0,
+
+III. -
+
+dq
+
+cos (
+
++
+
++
+
+)+
+
+q(d
+
++
+
+d)
+
+sin (
+
++
+
++)
+
++
+
+2 fg aa
+
+dt
+
+sin (
+
++
+
++)
+
+=
+
+0,
+
+quarum autem sufficit binas considerasse, quia inde iam nota est conclusio p = h. Iam per superiores reductiones binae posteriores ita combinentur:
+
+praebet seu
+
+II. cos (v + + ) - III. cos ( + + ) q(d + d) sin ( - ) + 2 fg dt sin ( - ) cos ( -) = 0
+aa
+
+q(d
+
++
+
+d)
+
++
+
+2 fg aa
+
+dt
+
+cos
+
+(
+
+-)
+
+=
+
+0.
+
+Deinde
+
+II. sin ( + + ) - III. sin ( + + )
+
+dat
+
+q
+
+sin
+
+(
+
+-
+
+)
+
+-
+
+2 fg aa
+
+dt
+
+sin
+
+(
+
+-
+
+)
+
+sin
+
+(
+
+-)
+
+=
+
+0
+
+seu
+
+q
+
+=
+
+2 fg aa
+
+dt
+
+sin
+
+(
+
+- )
+
+qui valor in ultima aequatione pro viribus vivis substitutus praebet
+
+xdx + ydy + zdz = qdq
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1163
+
+hincque
+
+xx + yy + zz =  ' ' = Const.+ qq = Const.+  ' ' sin2 s
+
+ita ut sit  '  ' cos2 s = const ., ut iam invenimus ob  ' cos s = p = h . Hinc
+
+istas habemus aequationes a litteris l, m, n,  ,  ,  immunes:
+
+1. q(d + d) +
+
+2 fg aa
+
+dt cos ( -) =
+
+0,
+
+II .
+
+dq
+
+=
+
+2 fg aa
+
+dt
+
+sin (
+
+-)
+
+,
+
+III. dv = 2 gdtcos ,
+
+IV.vd = 2 gdt sin ,
+
+quibus adiungatur haec finita quae transformata in hanc differentietur
+
+tang
+
+=
+
+fq cos v- fq sin
+
+,
+
+v sin - fq cos ( -) = 0 ,
+
+dv sin + vdv cos - fdq cos ( -) + fqd sin ( -) - fqd sin ( -) = 0.
+
+Iam I. sin ( -) + II. cos ( -)
+dat q(d + d) sin ( -) + dq cos ( -) = 0,
+
+quae per f multiplicata illi addatur
+
+dv sin + vd cos + fq(d + d) sin ( - ) = 0 .
+
+Porro ob
+
+dv vd
+
+=
+
+cos  sin 
+
+erit v(d + d ) cos + fq(d + d) sin ( -) = 0
+
+seu
+(d + d ) (v cos + fq sin ( -)) = 0 ,
+
+quorum factorum finitus
+
+v cos + fq sin ( -)
+
+evanescere nequit ob
+
+v sin - fq cos ( -)=0 ;
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1164
+
+sequeretur enim inde
+
+v cos = 0 et fq cos = 0 ,
+
+quod nonnisi casu  = 90° locum habet. Relinquitur ergo ut sit d + d = 0
+
+ideoque
+
+ +  = Const.
+
+Hoc impetrato reliqua non difficulter expedientur; ad integrationes autem determinandas pro statu initiali t = 0 ponamus fuisse celeritatem progressivam v = e, ang. = 0, ang.PZO =  = h, arcum ZO = s = f et celeritatem angularem  ' =  in
+
+sensum ACB; hincque
+
+p = h =  'cos s =  cos f et q =  sin f ;
+
+porro
+
+tang
+
+
+
+=
+
+f  -
+
+sin f cosh f sin f sinh
+
+Statuatur
+
+f  -
+
+sin f cosh f sin f sinh
+
+=
+
+tang 
+
+,
+
+ut fuerit initio  =  , ac perpetuo erit  +  =  ita ut angulus DZQ =  maneat constans. Quare cum sit  =  - , erit
+
+Supra autem invenimus:
+
+v sin ( -) = fq cos ( - -) .
+
+d v cos 2 gdt
+
+=
+
+cos (
+
++)
+
+=
+
+cos 
+
+et
+
+d v sin 2 gdt
+
+=
+
+sin (
+
++)
+
+=
+
+sin 
+
+,
+
+unde integrando colligimus v cos = e + 2 gt cos and v sin = e + 2 gt sin
+
+hincque atque
+
+v=
+
+(ee + 4 egt cos + 4 ggtt)
+
+et
+
+tang
+
+
+
+=
+
+2 gt sin e+ 2 gt cos
+
+tang (
+
+-)
+
+=
+
+e sin e cos +2 gt
+
+=
+
+fq cos v- fq sin
+
+=
+
+tang
+
+.
+
+Deinde ob d = -d binae priores aequationes abeunt in
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1165
+
+1. q(d
+
+-
+
+d )
+
+=
+
+2 fg aa
+
+dt cos ( -) ,
+
+II .
+
+dq
+
+=
+
+2 fg aa
+
+dt
+
+sin (
+
+- )
+
+,
+
+quarum haec per illam divisa dat:
+
+dq q(d -d)
+
+=
+
+sin ( -) cos ( -)
+
+quae integrata dat q cos ( -) = Const. : ideoque
+
+q cos ( -) =  sin f cos ( - h) ,
+
+unde valor ipsius q in prima substitutus praebet:
+
+et integrando
+
+ (d -d) sin f cos ( cos2 ( -)
+
+-h)
+
+=
+
+2 fg aa
+
+dt
+
+
+
+sin f cos (
+
+- h)
+
+tang(
+
+-)
+
+=
+
+C
+
++
+
+2 fg aa
+
+t
+
+,
+
+ubi C =  sin f sin ( - h) . At
+
+tang(
+
+-)
+
+=
+
+tang
+
+(
+
+-
+
+- )
+
+=
+
+tang ( -)-tang 1+tangtang ( - )
+
+et
+
+tang
+
+=
+
+tang -tang ( -) 1+tang tang ( -)
+
+Sed per hypothesin est
+
+ sin f =
+
+e sin f cos ( -h)
+
+unde fit
+
+tang ( - ) = tang (
+
+-
+
+h)
+
++
+
+2 eaa
+
+ffgt sin 
+
+,
+
+at
+
+tang
+
+=
+
+e sin e cos +2
+
+gt
+
+hincque angulus  facile determinatur, indeque
+
+q=
+
+e sin
+f cos( - )
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1166
+
+Verum hic notari oportet, cum sit
+
+tang
+
+=
+
+f e-
+
+sin f cosh f sin f sinh
+
+,
+
+esse ut supra de angulo ostendimus,
+
+sin = -
+
+ f sin f cosh
+
+( ) ee-2 ef sin f sinh+eeff sin2 f
+
+et
+
+cos ( -h) = -
+
+e cosh
+
+( ) ee-2 ef sin f sinh+eeff sin2 f
+
+unde
+
+cos ( -h) = -
+
+e cosh
+
+.
+
+( ) ee-2 ef sin f sinh+eeff sin2 f
+
+His inventis cum sit  ' cos s =  cos f et  ' sin s = q , erit
+
+( )  ' =
+
+qq +  cos2 f
+
+et tang s
+
+=
+
+
+
+q cos
+
+f
+
+Sicque tam motus progressivus, quam ad quodvis tempus axis gyrationis Ocum celeritate angulari  ' poterit assignari, id quod ad motus cognitionem sufficit. Determinatio autem
+
+situs punctorum A, B, C ad quodvis tempus nimis est ardua, quam ut eam perficere liceat.
+
+COROLLARIUM I
+
+1049.
+
+Cum
+
+sit
+
+ce1eritas
+
+angu1aris
+
+
+
+'
+
+=
+
+ cos f cos s
+
+seu
+
+cosinui
+
+arcus
+
+SO
+
+reciproce
+
+proportionalis,
+
+sequitur, si polus gyrationis O initio fuerit in superiori hemisphaerio DZE, eum nunquam in
+
+inferius pervenire posse; in transitu enim per circulum horizontalem DE prodiret celeritas
+
+angularis  ' infinita.
+
+COROLLARIUM 2 1050. Ob eandem rationem, si polus gyrationis O initio fuerit in hemisphaerio inferiori DTE, is nunquam in superius ascendet. Sin autem initio fuerit in ipso circulo horizontali DE, perpetuo in eodem manebit. Scilicet si initio axis gyrationis fuerit horizontalis, perpetuo horizontalis manebit.
+COROLLARIUM 3 1051. Si fuerit initio angulus DZO = h rectus, fiet sin = 0 et ob
+
+tang (
+
+- h)
+
+=
+
+
+
+f
+
+sin f-e sinh e cosh
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1167
+
+erit etiam  - rectus. Sed ob
+
+tang
+
+=
+
+e sin e cos +2
+
+gt
+
+angulus  evanescit, unde angulus  = PZO prodit rectus. Simulatque igitur angulus PZO factus fuerit rectus, perpetuo rectus manebit.
+
+COROLLARIUM 4 1052. Memorabilis est etiam proprietas, quod angulus  +  seu DZQ et angulus DIQ in fig.
+140 sit constans. Recta enim QIS sibi perpetuo manebit parallela, et quia globus in motu progressivo sollicitatur vi constante  M secundum eandem directionem IS, curva ab eo descripta GI parabola sit necesse est.
+
+SCHOLION 1 1053. Hic autem motus globi, uti nostris formulis est definitus, diutius non durat, quam revera frictio adest, seu planum horizontale in puncto contactus T raditur. Si enim eveniat, ut rasio cesset seu celeritas radens in T evanescat, subito frictio evanescit formulaeque inventae non amplius locum habent. Tum igitur globus motu tam progressivo quam gyratorio uniformiter in directum progredietur, neque axis gyrationis ullam amplius mutationem patietur. Ac si statim initio motus globo impressus ita fuerit comparatus, ut frictio fuerit nulla, quod evenit, si tam  f sin f cosh = 0 quam e =  f sin f sinh , deinceps etiam globus nullam
+frictionem sentiet; et statim ab initio motum progressivum uniformiter in directum prosequetur simulque uniformiter circa eundem axem gyrabitur. Verum si corpori ab initio alius motus quicunque fuerit impressus, semper aliquo tempore elapso eo reducetur, ut frictio evanescat indeque motum suum uniformiter prosequetur; quod memorabile temporis punctum in sequenti problemate investigabimus.
+
+SCHOLION 2 1054. Quae in solutione problematis elicuimus, hue redeunt: Ex motu primum impresso habemus celeritatem motus progressivi = e secundum directionem DI; ac si gyretur circa axem IO celeritate angulari  in sensum ACB seu ZETD (Fig. 139), qui sensus antrorsum tendens dici solet, fueritque arcus ZO = f et angulus DZO = h ; tum vero radius globi sit = f
+eiusque momentum inertiae = Maa respectu omnium diametrorum, existente M eius massa; ex his datis colligitur celeritas radens in puncto contactus
+
+(ee - 2 ef sin f sinh +  ff sin2 f) ,
+
+quae si ponatur = k, quaeratur angulus  ut sit
+
+et
+
+sin
+
+=-
+
+f
+
+sin f cosh k
+
+et
+
+cos 
+
+=
+
+f
+
+sin f sinh-e k
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1168
+
+qui sit DZQ =  , eritque IQ directio motus radentis. Tum si elapso tempore t globi centrum proferatur celeritate v secundum directionem PI et gyretur celeritate angulari =  ' in sensum ZETD circa polum O ponaturque DZP =  , PZO =  et ZO = s , invenimus primo:
+
+et celeritatem centri
+
+tang
+
+=
+
+2 gt sin e+2 gt cos
+
+D = (ee + 4 egt cos + 4 ggtt) ,
+
+at celeritas radens etiamnum fiet in directione IQ, existente DZQ =  : unde
+
+posito PZQ =  erit
+
+tang
+
+=
+
+e sin e cos +2
+
+gt
+
+Porro est
+
+tang (
+
+-)
+
+=
+
+tang (
+
+-h) +
+
+2 ffgt eaa sin
+
+existente
+
+tang (
+
+- h)
+
+=
+
+ef
+
+sin f-e sinh e cosh
+
+unde angulus  innotescit, hincque ob DZ 0 =  + =  -  + concluditur
+
+tang DZO =
+
+tang ( + ) =
+
+ aak sin f sinh+2 fgt(e- f sin f sinh)  aak sin f cosh-2 ffgt sin f cosh
+
+Atque ex his tandem nacti sumus:
+
+ ' cos s =  cos f
+
+et  ' sin s =
+
+f
+
+e sin
+cos( - )
+
+. Denique pro celeritate radente secundum IQ ea est =
+
+(vv - 2 ' fv sin s sin +  '  ' ff sin2 s) ;
+
+quae si vocetur = w, supra ostendimus esse
+
+sin
+
+=
+
+- '
+
+f
+
+sin s cos w
+
+et
+
+cos 
+
+='
+
+f
+
+sin s sin -v w
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1169
+
+unde  ' et s definiuntur. Sed pro situ punctorum A, B, C in globe fixorum ad quodvis tempus
+determinando formulae adeo fiunt intricatae, ut nihil inde concludi queat. Interim si pro puncto A vocetur ZA = l et EZA =  , ad has binas aequationes totum negotium reducitur:
+
+( ) 1. dl = dt
+
+
+
+sin
+
+f
+
+sin
+
+(h
+
++
+
+)
+
+-
+
+2 fgt aa
+
+cos
+
+(
+
++ )
+
+,
+
+( ) II. d sin l =  dt cos f sin l + dt cos l
+
+e
+
+sin
+
+f
+
+cos
+
+(h
+
++
+
+
+
+)
+
++
+
+2 fgt aa
+
+sin
+
+(
+
++ )
+
+,
+
+quarum resolutio vereor ne frustra suscipiatur. Cum autem ad quodvis tempus axem gyrationis cum celeritate angulari assignare valeamus, quod ad motus cognitionem, qualis vulgo desideratur, sufficere potest, eo magis mirum videtur, quod motus singulorum globi punctorum quasi vires analyseos superet. Multo minus igitur de motu globorum, in quibus momenta inertiae non sunt aequalia, quicquam definire licebit.
+
+PROBLEMA 19 1055. Si globo, cuius omnia momenta inertiae sunt inter se aequalia, motus quicunque fuerit impressus, assignare temporis punctum, ubi celeritas radens ideoque frictio evanescit indeque globus motu uniformi progredi pergat.
+
+SOLUTIO Supra § 1039 vidimus, ut attritus evanescat, has duas requiri conditiones, alteram ' sin s cos = 0 alteram v = f  ' sin s sin , seu in expressione
+
+tang 
+
+=
+
+f  ' sin s cos v- f  ' sin s sin
+
+tam numeratorem quam denominatorem simul evanescere debere. Cum autem invenerimus
+
+tang
+
+
+
+=
+
+e sin e cos +2 gt
+
+,
+
+ubi numerator e sin est constans, si in ilIa formula numerator evanescit, necesse est,
+
+denominator simul evanescat, quia alioquin aequalitas inter has duas fractiones subsistere nequit. Unde positio cos = 0 tempus quaesitum declarabit. Verum idem luculentius
+
+determinabimus, si ad quodvis tempus elapsum t celeritatem radentem w investigemus. Cum
+
+igitur ex formula
+
+sin 
+
+=
+
+- '
+
+f
+
+sin s cos w
+
+sit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1170
+
+quae expressio ob abit in atque ob  =  - ( -)
+
+w
+
+=
+
+-
+
+
+
+'
+
+f
+
+sin s cos sin 
+
+ ' sin s =
+
+f
+
+e sin
+cos( - )
+
+w
+
+=
+
+-e sin cos
+sin cos( - )
+
+in hanc
+
+w = -e sin (cot + tang ( - ))
+
+si hic pro tang et tang( -) valores supra inventos substituamus, reperiemus:
+
+( ) w = -
+
+e cos
+
++ 2 gt + e sin tang (
+
+-
+
+h)
+
++
+
+2 ffgt aa
+
+At
+
+unde
+
+cos 
+
++ sin
+
+tang
+
+(
+
+- h) =
+
+cos h sin ( -h)
+
+et
+
+cos (
+
+- h)= -
+
+e cosh k
+
+;
+
+e cos + e sin tang ( - h) = -k ,
+
+ubi k denotat celeritatem radentem initialem. Quamobrem elapso tempore t habebimus
+
+celeritatem radentem
+
+( ) w = k - 2 g
+
+1
+
++
+
+ff aa
+
+t
+
+ita ut ea labente tempore uniformiter decrescat. Tandem ergo certo evanescet, idque fiet
+
+elapso tempore
+
+t
+
+=
+
+2
+
+aak
+g ( aa +
+
+ff
+
+)
+
+eritque tum cos = 0 et  = 90o = PZO . Quod ergo cum evenerit, videamus, quomodo
+
+reliquae
+
+motus
+
+determinationes
+
+se
+
+sint
+
+habiturae;
+
+et
+
+quoniam
+
+2
+
+gt
+
+=
+
+aak aa+ ff
+
+, erit
+
+Hinc fit
+
+tang 
+
+=
+
+aak sin
+e(aa+ ff )+aak
+
+cos 
+
+et
+
+tang 
+
+=
+
+e(aa+ ff ) sin e(aa+ ff ) cos +aak
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1171
+
+
+
+'
+
+sin s
+
+=
+
+e sin f sin
+
+.
+
+Cum autem sit
+
+v=
+
+ 
+
+ee
+
++
+
+
+
+2aaek cos aa+ ff
+
++
+
+a 4 kk
+(aa+ ff
+
+)2
+
+  
+
+,
+
+erit
+
+sin
+
+=
+
+aak sin
+(aa+ ff )v
+
+et
+
+cos 
+
+=
+
+e(aa+ ff )+aak cos (aa+ ff )v
+
+atque
+
+sin 
+
+=
+
+e sin v
+
+Porro quia  ' cos s =  cos f , erit
+
+ideoque
+
+ ' sin s
+
+=
+
+v f
+
+.
+
+( ) tang
+
+s
+
+=
+
+
+
+f
+
+v cos
+
+f
+
+et
+
+' =
+
+vv ff
+
++ 
+
+cos2
+
+f
+
+seu
+
+( ) eeff +2 eaaf sin f sinh+ a4 sin2 f+ (aa+ ff )2 cos2 f
+
+' =
+
+aa+ ff
+
+ob kk = ee - 2 ef sin f sinh + eeff sin2 f .
+
+COROLLARIUM 1 1056. Quo maior ergo initio fuerit celeritas radens k, eo diutius motus durat, antequam cessante frictione ad uniformitatem redigatur. Ac si globus constet ex materia homogenea, fit
+
+aa =
+
+2 5
+
+ff
+
+, ideoque motus uniformitas incipit elapso tempore
+
+t
+
+=
+
+k 7
+
+g
+
+min.
+
+sec.
+
+hinc
+
+in
+
+hypothesi  =
+
+1 3
+
+fit
+
+t
+
+=
+
+3k 7g
+
+, existente
+
+g=
+
+15
+
+5 8
+
+ped. Rhen.
+
+COROLLARIUM 2
+
+1057. Ut centrum globi eodem tempore ad quietem redigatur, status initialis ita comparatus
+
+esse debet, ut sit
+
+cos 
+
+= -1
+
+et
+
+e=
+
+aak aa+ ff
+
+. Fit ergo
+
+k = e -  f sin f sinh et sinh = 1 seu h = 90° et k = e -  f sin f ;
+
+hincque
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1172
+
+ sin f = - ef .
+aa
+Porro ob v = 0 fit s = 0 et  ' =  cosf , qua celeritate angulari iam globus circa axem
+
+verticalem
+
+quiescentem
+
+gyrabitur
+
+elapso
+
+ab
+
+initio
+
+tempore
+
+t
+
+=
+
+e 2 g
+
+min.
+
+sec.
+
+COROLLARIUM 3
+
+1058. Hoc autem casu, quo initio est
+
+h=
+
+90° et
+
+
+
+=
+
+-
+
+ef aa sin
+
+f
+
+,
+
+fit
+
+ = 180°,  = 0,  = 180°,  = 90°, v = e - 2 gt ; tum vero
+
+
+
+'
+
+cos
+
+s
+
+=
+
+- ef cos aasinf
+
+f
+
+,
+
+( ) 
+
+'
+
+sin
+
+s
+
+=
+
+- ef aa
+
+1
+
+-
+
+2 gt e
+
+,
+
+hincque
+
+( ) tang s =
+
+1
+
+-
+
+2 gt e
+
+tang f
+
+et
+
+( ) 
+
+'
+
+=
+
+-ef aa sin f
+
+1-
+
+4 gt e
+
+sin2
+
+f
+
++
+
+4 ggtt ee
+
+sin2
+
+f
+
+.
+
+At initio erat celeritas radens
+
+( ) k = e 1+ ff , aa
+
+elapso autem tempore t ea est
+
+( ) w = e
+
+1+
+
+ff aa
+
+(e - 2 gt ) ,
+
+sicque posito
+
+t
+
+=
+
+-
+
+e 2 g
+
+simul
+
+fit
+
+w
+
+=
+
+0,
+
+v
+
+=
+
+0
+
+et
+
+s
+
+=
+
+0,
+
+ut
+
+ante.
+
+COROLLARIUM 4
+
+1059. Ne valor
+
+ ' sin s =
+
+e sin
+f cos( - )
+
+indefinitus videatur, quod fit si numerator ac denominator evanescant seu  = 0 , conveniet
+
+loco sin et cos ( - ) valores ex superioribus substitui, atque hinc reperietur:
+
+ ' sin s =
+
+ 
+
+
+
+sin2
+
+f
+
+-
+
+4
+
+fgt (
+
+f sin aak
+
+f-e
+
+sinh)
+
++
+
+4 ffggtt a4
+
+ 
+
+,
+
+unde ob  'cos s = e cos f prodit:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1173
+
+
+
+'
+
+
+
+'
+
+=
+
+
+
+-
+
+4
+
+fgt
+
+sin f( f sin f-e
+aak
+
+sinh)
+
++
+
+4 ffggtt a4
+
+.
+
+COROLLARIUM 5
+1060. Cum sit vis viva globi = M (vv + aa '  ' ) , erat ea initio = M (ee +  aa) , elapso autem
+
+tempore t ea erit =
+
+( ) M
+
+ee +  aa - 4 gkt +
+
+4(1
+
++
+
+ff aa
+
+)
+
+ggtt
+
+.
+
+At elapso tempore vis viva fiet
+
+t
+
+=
+
+2
+
+aak g(aa +
+
+ff
+
+)
+
+( ) M (eeff +2 eaaf sin f sinh)+ aa aa+ ffcos2f
+
+aa+ ff
+
+,
+
+cuius defectus ab initiali est
+
+( ) Maaee-2 ef sin f sinh+ ffcos2f
+aa+ ff
+
+=
+
+Maakk aa+ ff
+
+,
+
+ita ut ista vis viva sit =
+
+( ) M
+
+ee
+
++
+
+
+
+aa
+
+-
+
+aakk aa+ ff
+
+SCHOLlON 1061. Ex his ergo formulis totus motus globi assignari potest, quicunque motus ei initio fuerit impressus; interim tamen hae formulae non parum sunt complexae, unde ad clariore explicationem haud abs re erit, casus quosdam magis notabiles evolvi. Cuiusmodi sunt, uti iam supra innuimus, duo potissimum, alter quo arcus ZO initio erat quadrans, alter vero quo angulus DZO = h erat rectus; utrumque igitur seorsim explicemus.
+
+PROBLEMA 20 1062. Si globo, in quo omnia momenta inertiae sunt aequalia, initio motus gyratorius circa axem horizontalem fuerit impressus praeter motum progressivum, definire continuationem motus.
+SOLUTIO Cum initio axis gyrationis fuerit horizontalis, erit f = ZO = 90°. Denotante ergo e celeritatem progressivam secundum directionem DIE (Fig. 139) et  celeritatem angularem circa axem IO in sensum ZETD, sit pro puncto O angulus DZO = h,manente f = radio globi et Maa =
+momento inertiae. Ex his erat initio celeritas radens
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1174
+
+k = (ee - 2e f sinh +  ff )
+et pro eius directione 1Q angulus DZQ =  , ut sit (Fig. 140).
+
+sin
+
+= - f
+
+cos h k
+
+et
+
+cos 
+
+=
+
+
+
+f
+
+sin h- e k
+
+.
+
+His pro statu initiali constitutis elapso tempore t centrum globi descripserit
+
+viam GI, ut iam sit in I, ubi eius celeritas secundum 1R erit =
+
+v=
+
+ 
+
+ee
+
++
+
+4
+
+egt (
+
+f k
+
+sin h- e )
+
++
+
+4
+
+ggtt
+
+ 
+
+;
+
+unde positis coordinatis GX = X et XI = Y ob
+
+erit et ideoque
+
+tang EIR =
+
+tang
+
+=
+
+-
+
+ek
+
+2 fgt cosh
++2 gt( f sinh
+
+-e)
+
+dX
+
+=
+
+edt
+
++
+
+2 gtdt k
+
+(
+
+f
+
+sinh - e)
+
+dY
+
+=
+
+-2
+
+fgtdt k
+
+cos h
+
+GX
+
+=
+
+X
+
+=
+
+et
+
++
+
+ gtt k
+
+(
+
+f
+
+sinh - e)
+
+et
+
+XI
+
+=Y
+
+=
+
+-
+
+ gtt k
+
+cosh .
+
+Tum vero pro motu gyratorio, qui iam fiat in sensum ZETD celeritate angulari =  ' circa polum O existente ZO = s, PZO =  et DZQ =  +  , ubi
+
+IQ refert directionem celeritatis radentis, quia constanter est  +  =  , seu
+
+directio IQ constans, erit
+
+tang  =
+
+-
+
+ ef
+
+ ef cosh sin h-ee + 2
+
+gkt
+
+et
+
+tang ( - ) =
+
+ f -e sinh a cosh
+
+-
+
+
+
+2 gkt eaa cos
+
+h
+
+,
+
+unde ambo anguli  et  definiuntur. Vel erit
+
+tang ( + ) =
+
+
+
+aak sinh+2  aak cosh-
+
+gkt (
+2
+
+e- f sinh)
+ffgt cosh
+
+.
+
+Celeritas autem radens secundum directionem I Q est
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1175
+
+( ) w =
+
+k
+
+- 2 g
+
+1+
+
+ff aa
+
+t
+
+.
+
+Tum vero ob  'cos s = 0 erit arcus ZO = s quadrans et
+
+' =
+
+ 
+
+
+
+-
+
+4
+
+fgt( f -e
+aak
+
+sinh)
+
++
+
+4 ffggtt a4
+
+ 
+
+Hic motus inaequabilis autem tantum durabit per tempus
+
+quo elapso est
+
+t
+
+=
+
+2
+
+aak
+g ( aa +
+
+ff
+
+)
+
+,
+
+tang
+
+=
+
+-
+
+e( aa +
+
+ aaf cosh
+ff )+aa( f sinh
+
+-e)
+
+=
+
+-
+
+ aa cosh ef + aa sinh
+
+v=
+
+  
+
+ee
+
++
+
+2aae( f sinh
+aa+ ff
+
+-e)
+
++
+
+a 4 kk
+(aa+ ff
+
+)2
+
+  
+
+( ) s =
+
+90 o
+
+et  ' =
+
+v f
+
+=
+
+eeff +2 eaaf sinh+ a4
+
+aa+ ff
+
+,
+
+substituto pro kk valore. Tum autem fit angulus  = 90o et
+
+sin 
+
+=
+
+e sin v
+
+.
+
+COROLLARIUM 1 1063. Si initio fuerit angulus DZO = h = 0 , erit
+k = (ee +  ff ) ;
+pro angulo DZQ =  fit
+
+tum post tempus t prodit
+
+sin 
+
+= - f
+k
+
+,
+
+cos 
+
+=
+
+-
+
+e k
+
+;
+
+( ) v =
+
+ee
+
+-
+
+4
+
+eegt k
+
++
+
+4
+
+ggtt
+
+,
+
+tang  =
+
+-
+
+2 fgt
+e(k -2 gt
+
+)
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1176
+
+( ) X
+
+= et
+
+1
+
+-
+
+ gt k
+
+,
+
+Y
+
+=
+
+-
+
+
+
+fgtt k
+
+.
+
+Porro
+
+tang  =
+
+-
+
+eef
+
+eef -2
+
+gkt
+
+,
+
+tang ( - ) =
+
+f a
+
+-
+
+2 gkt  eaa
+
+;
+
+tang
+
+(
+
++
+
+)
+
+=
+
+
+
+2 efgt aak -2
+
+ffgt
+
+,
+
+( ) ( )  ' =
+
+
+
+-
+
+4 ffgt aak
+
++
+
+4 ffggtt a4
+
+et
+
+w = k - 2 g
+
+1+
+
+ff aa
+
+t
+
+lapso
+
+autem
+
+tempore
+
+t
+
+=
+
+aak 2 g(aa+
+
+ff
+
+)
+
+erit
+
+tang
+
+=
+
+-
+
+ aa ef
+
+,
+
+( ) f eeff + a4
+
+v = aa+ ff
+
+= f',
+
+=
+
+90 o
+
+et
+
+tan
+
+=
+
+ ef (aa+ ff ) ee(aa+ ff )-aakk
+
+=
+
+ e(aa+ ff ) f (ee- aa)
+
+COROLLARIUM 2 1064. Si angulus DZO = h esset = 180°, eaedem formulae motum indicabunt, sumta
+
+celeritate angulari  negativa seu motu gyratorio in contrarium verso. At si sit  = 0 seu globo solus motus progressivus fuerit impressus, fit k=e,  = 180°,
+
+v = e - 2 gt,  = 0, X = t (e -  gt ) , Y = 0,
+
+ = 180°,  = 90o ,
+
+
+
+'
+
+=
+
+2 fgt aa
+
+;
+
+et
+
+elapso
+
+tempore
+
+t
+
+=
+
+aae
+2 g( gaa+
+
+ff
+
+)
+
+fit
+
+v=
+
+eff aa+ ff
+
+,
+
+
+
+'
+
+=
+
+ef aa +
+
+ff
+
+et
+
+X
+
+=
+
+et(aa+2 ff )
+2(aa+ ff )
+
+=
+
+aaee( aa+2 ft ) 4 g(aa+ ff )2
+
+.
+
+SCHOLION 1065. Casus hic, quo globus initio nullum motum gyratorium est adeptus, in genere valet, neque ad ullam hypothesin angulorum f et h est adstrictus. Tum igitur globus in directum
+
+progreditur motu progressivo retardato, motumque paulatim gyratorium accipiet, donec
+
+elapso tempore
+
+t
+
+=
+
+2
+
+aae g (aa +
+
+ff
+
+)
+
+motum uniformem acquirat, quo deinceps continuo
+
+progrediatur. Hinc deducimur ad casum, quo globus initio motum tantum gyratorium acceperit sine ullo motu progressivo, cuius evolutio est facilis. Posito enim e = 0 erit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1177
+
+k =  f sin f hincque fit
+
+sin = - cosh et cos = sinh,
+
+ergo  = h - 90°; ubi pro axe gyrationis initio impressae IO est ZO = f et DZO = h ,
+
+existente celeritate angulari in sensum ZETD =  . Elapso ergo tempore t fit  =  , scilicet
+
+sublato ab angulo DZO = h angulo recto PZO erit PI directio motus progressivi, quem globus
+
+acquiret, cuius celeritas erit v = 2 gt ideoque tempori proportionalis. Tum vero erit
+
+tang = 0 et tang ( - ) = , ergo ob  +  =  = h - 90° erit  = 0 et  = 90°,
+
+hinc DZO =  + 90° = h , ita ut polus gyrationis O in eodem perpetuo circulo verticali
+
+reperiatur. Denique ex §1059 est
+
+( )  ' sin s =
+
+
+
+sin2
+
+f
+
+-
+
+4
+
+fgt aa
+
+sin f
+
++
+
+4 ffggtt a4
+
+=
+
+
+
+sin
+
+f
+
+-
+
+2 fgt aa
+
+et  ' cos s =  cos f ,
+
+unde fit
+
+tang
+
+s
+
+=
+
+tang
+
+f
+
+-
+
+2  aa
+
+fgt cos f
+
+ita ut arcus ZO diminuatur, nisi fuerit quadrans vel eo maior, et
+
+( )  ' =
+
+ - 4 fgt sin f + 4 ffggtt
+
+aa
+
+a4
+
+.
+
+Motus autem ad uniformitatem reducetur elapso tempore
+
+fitque tum
+
+t =  aaf sin f ; aa + ff
+
+( ) 
+' =
+
+a4 sin2 f +(aa+ ff )2 cos2 f
+
+aa+ ff
+
+,
+
+v
+
+=
+
+ aaf sin f aa+ ff
+
+et
+
+tang
+
+s
+
+=
+
+aa tang aa+ ff
+
+f
+
+.
+
+Si ergo fuisset f = 0 seu globo motus gyratorius circa axem verticalem impressus
+
+esset sine ullo motu progressivo, eundem motum sine ulla mutatione esset conservaturus.
+
+PROBLEMA 21 1066. Si globo, in quo omnia momenta inertiae sunt aequalia, motus gyratorius fuerit impressus circa axem ad motus progressivi directionem normalem, definire continuationem motus.
+SOLUTIO Cum motus progressivi initio impressi directio sit recta DIE (Fig. 139) et celeritas = e, angulus DZO = h est rectus, et sumto ZO = f erat Opolus, circa quem initio globus accepit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1178
+
+celeritatem angularem =  in sensum ZETD. Habemus ergo k = ± (e -  f sin f) , ubi valorem
+
+positivum pro k sumi oportet, ita ut hic prodeant duo casus seorsim tractandi. Casus I. Sit e >  f sin f, erit k = e -  f sin f , quae est celeritas radens initio, eiusque directio
+
+IQ, ut sit sin DQ = 0 et cos DQ = ­1 ideoque DQ =  = 180o et Q cadat in E; globusque a
+frictione  M secundum ID constanter retrahatur, unde statim colligitur globi centrum I in eadem recta DE esse incessurum. Elapso tempore t ergo ob cos = -1fit celeritas centri
+
+v = e - 2 gt et celeritas radens
+
+( ) w = e -  fsinf - 2 g
+
+1
+
++
+
+f aa
+
+t;
+
+tum vero  = 0 et  = 180o atque  = 90o . Quare pro axe gyrationis praesente IO est DIO = 90° et posito arcu ZO = s et celeritate angulari =  ' habemus
+
+et ex § 1059
+
+ ' cos s =  cos f
+
+ ' sin s
+
+=
+
+
+
+sin
+
+f
+
++
+
+2 fgt aa
+
+,
+
+unde colligitur
+
+( ) tang s
+
+=
+
+tang
+
+f
+
++
+
+
+
+2 aa
+
+fgt cos
+
+f
+
+et  ' =
+
+ + 4 fgt sin f + 4 ffggtt
+
+aa
+
+a4
+
+.
+
+Hocque tempore t percurrit centrum I lineam rectam GX = X = t (e -  gt ) .
+Hic autem motus inaequabilis durabit per tempus
+
+t
+
+=
+
+aa(e- f sin 2 g(aa+ ff
+
+f) )
+
+,
+
+quo elapso erit spatium
+
+X
+
+=
+
+aa(e-
+
+f
+
+sin f)(e(aa+2 ff )+ aaf 2 g(aa+ ff )2
+
+sin f)
+
+et celeritas
+
+v=
+
+f
+
+(ef
+
++ aa sin aa+ ff
+
+f)
+
+.
+
+At pro motu gyratorio
+
+tang s =
+
+tang ZO =
+
+tang
+
+f
+
+=
+
+f (e- f  (aa+ ff
+
+sin f) ) cos f
+
+=
+
+ef + aa sin f  (aa+ ff ) cos f
+
+.
+
+existente perpetuo DIO = 90o et celeritas angularis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1179
+
+( ) eeff +2 eaaf sin f+ a4 sin2 f+ (aa+ ff )2 cos2 f
+
+' =
+
+aa+ ff
+
+Casus II. Sit e <  f sin f seu k =  f sin f - e , quae est celeritas radens initio, eiusque
+
+directio IQ talis, ut sit sin DQ = 0 et cos DQ = 1, ergo DQ =  = 0 et Q in D cadat.
+
+Globus ergo a frictione  M secundum directionem IE constanter acceleratur eiusque centrum I in eadem recta IE progreditur; atque elapso tempore t erit eius celeritas v = e + 2 gt et
+
+celeritas radens
+
+( ) w =  fsinf - e - 2 g
+
+1
+
++
+
+f aa
+
+t
+
+Tum vero fit  = 0 et  = 0 atque  = 90° . Quare pro axe gyrationis praesente IO est
+
+DIO = 90° et posito arcu ZO = s et celeritate angulari =  ' habemus
+
+unde fit
+
+ ' cos s =
+
+ sin f
+
+et  ' sin s =
+
+
+
+sin
+
+f
+
+-
+
+2 fgt aa
+
+( ) tang s
+
+=
+
+tang
+
+f
+
+-
+
+
+
+2 aa
+
+fgt cos
+
+f
+
+et  ' =
+
+
+
+-
+
+4
+
+fgt sin f aa
+
++
+
+4 ffggtt a4
+
+hocque tempore t centrum globi percurrit lineam rectam
+
+GX = X = t (e +  gt )
+Hic autem motus inaequabilis durabit tantum tempore
+
+t
+
+=
+
+aa( f sin f-e) 2 g(aa+ ff )
+
+,
+
+quo elapso erit celeritas
+
+v=
+
+f (ef - aa sin f) aa+ ff
+
+et spatium
+
+X
+
+=
+
+aa(
+
+f
+
+sin f-e)(e(aa+2 ff )+ aaf 2 g(aa+ ff )2
+
+sin f)
+
+At pro motu gyratorio reperitur
+
+tang s =
+
+tang ZO
+
+=
+
+ef + aa sin f  (aa+ ff ) cos f
+
+existente perpetuo DIO = 90° et celeritas angularis
+
+( ) eeff +2 eaaf sin f+ a4 sin2 f+ (aa+ ff )2 cos2 f
+
+' =
+
+(aa+ ff )
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1180
+
+COROLLARIUM 1 1067. Si fuerit e =  f sin f , globus statim ab initio motum prosequetur uniformem, tam
+progressivum quam gyratorium, qui casus limitem constituit inter binos tractatos.
+
+COROLLARIUM 2 1068. Ad priorem' casum, quo e >  f sin f , referendi sunt ii, quibus  habet valorem
+
+negativum seu globo impressus fuerit initio motus gyratorius in sensum ZDTE. Posito autem - ; loco  fieri potest, ut globus revertatur, antequam ad uniformitatem pervenerit, scilicet
+
+si
+
+fuerit
+
+
+
+>
+
+ef aa sin f
+
+.
+
+COROLLARIUM 3
+
+1069. Casu hoc, quo  negative capitur, habebimus ad tempus t:
+
+( )  = 0,  = 90o
+
+ = 180o ,
+
+v = e - 2g gt,
+
+w = e +  f sin f - 2 g
+
+1+
+
+ff aa
+
+t,
+
+( ) tang s
+
+=
+
+tang
+
+f
+
+-
+
+
+
+2 aa
+
+fgt cos
+
+f
+
+et  ' =
+
+ - 4 fgt sin f + 4 ffggtt
+
+aa
+
+a4
+
+At post tempus
+
+t
+
+=
+
+aa(e+ f sin 2 g(aa+ ff
+
+f) )
+
+percurso spatio
+
+X
+
+=
+
+aa(e+
+
+f
+
+sin f)(e(aa+2 ff )- aaf 2 g(aa+ ff )2
+
+sin f)
+
+uniformitatem attinget, eritque tum
+
+v=
+
+f
+
+(ef
+
+- aa sin aa+ ff
+
+f)
+
+,
+
+tang s
+
+=
+
+ aa sin f-ef  (aa+ ff ) cos
+
+f
+
+et
+
+( ) eeff -2 eaaf sin f+ a4 sin2 f+ (aa+ ff )2 cos2 f
+
+' =
+
+aa+ ff
+
+SCHOLION 1070. Casus hic praecipue est memorabilis, quo globo eiusmodi motus imprimi potest, ut primo recedat, mox autem iterum revertatur, quod experimento ostendi solet, dum digito ad globum circa D applicato et deorsum presso duplex motus globo imprimitur, alter progressivus in directione DIE, alter gyratorius in sensum ZDTE. Sed ut phaenomenon
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+APPENDIX : CHAPTERS IV & V.
+
+Translated and annotated by Ian Bruce.
+
+page 1181
+
+succedat, necesse est, ut celeritas angularis prae progressiva certum quendam limitem excedat; quem quo facilius agnoscamus, calculum ad istum casum accommodemus, quo motus gyratorius globo circa axem horizontalem et ad directionem motus progressivi normalem imprimitur. Quodsi ergo e denotet celeritatem progressivam secundum directionem DIE et  ' celeritatem angularem retro gyrantem in sensum ZNTE, existente f
+radio globi et Maa eius momento inertiae, frictioneque =  M ; primo globus in directione DIE procedet, et elapso tempore t eius celeritas secundum eandem directionem erit
+v = e - 2 gt , confecto spatio X = t (e -  gt ) ; tum vero etiamnum circa eundem axem retro
+
+volvetur celeritate angulari
+
+' =
+
+ - 2 fgt
+aa
+
+Motus autem aequabilis evadit elapso tempore
+
+t
+
+=
+
+aa(e+ f ) 2 g(aa+ ff
+
+)
+
+eritque tum
+
+celeritas progressiva
+
+v=
+
+f (ef - aa) aa+ ff
+
+et
+
+angularis  '
+
+=
+
+ aaf -ef aa+ ff
+
+.
+
+Quare
+
+si
+
+fuerit
+
+
+
+>
+
+ef aa
+
+,
+
+globus
+
+nunc
+
+retro
+
+movetur,
+
+gyratorio
+
+adhuc
+
+retro
+
+vergente;
+
+sin
+
+autem
+
+fuerit  < ef , globus adhuc procedit et gyratio in sensum contrarium est versa. Illo casu
+aa
+
+globus regredi coepit elapso tempore
+
+t
+
+=
+
+e 2 g
+
+et
+
+percurso
+
+spatio
+
+X
+
+=
+
+ee 4 g
+
+.
+
+Si globus sit homogeneus, erit
+
+aa =
+
+2 5
+
+ff
+
+et
+
+
+
+f
+
+exprimit celeritatem gyrationis in puncto
+
+contactus, quae si vocetur = h, erit post tempus t celeritas progressiva v = e - 2 gt et
+
+gyratoria in puncto contactus, quae sit u = h - 5 gt , et spatium percursum = t(e - gt); motus
+
+vero aequabilis evadet elapso tempore t =
+
+e+ h 7 g
+
+et confecto spatio =
+
+( 6e - h )( e + h )
+49 g
+
+; ubi
+
+erit
+
+v = 5e-2h et u = 2h-5e .
+
+7
+
+7
+
+Ut
+
+ergo
+
+phaenomenum
+
+memoratum
+
+succedat,
+
+debet
+
+esse
+
+initio
+
+h>
+
+5 2
+
+e
+
+.
+
+Sin
+
+autem esset
+
+h=
+
+5 2
+
+e
+
+uterque
+
+motus
+
+simul
+
+extingueretur
+
+elapso
+
+tempore
+
+=
+
+e 2 g
+
+min. sec. et confecto spatio =
+
+ee 4 g
+
+.
+
+

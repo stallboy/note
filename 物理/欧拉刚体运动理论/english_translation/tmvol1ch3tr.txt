@@ -1,0 +1,5141 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 274
+
+Chapter 3
+
+Concerning the Generation of Rotational Motion
+
+PROBLEM 10
+352. IF a rigid body moveable about a fixed axis is at rest, to define the elementary forces, by which that body may be moved through a given angle in the smallest time.
+
+SOLUTION
+Let ABCD be a section of some body normal to the axis of gyration (Fig. 33), to which therefore the axis at O may be considered to remain perpendicular, about which in the element of time dt the body is able to move forwards through an
+
+angle dt2 , if indeed we accept that in
+
+an infinitely small time dt, the increment
+
+of the interval is in proportion to the
+
+square of the time [which is the case for uniform motion accelerated from rest].
+
+Therefore if we consider some element at M, the mass of this shall be equal to dM and
+
+the distance from the axis OM = r, then this element must be carried through an
+
+element of arc Mm =  rdt2. It is necessary in the production of this effect, that this
+
+element is acted on by a certain force in the direction Mm, which force is put equal to
+
+p; moreover, the element of mass dM acted on by the force p for the element of time dt
+
+is accelerated forwards through a small interval equal to gpdt2 (§305: cf the equation
+dM
+
+for
+
+linear
+
+acceleration
+
+:
+
+Ii
+
+=
+
+x
+
+=
+
+gVtt M
+
+=
+
+1 2
+
+2 gVtt M
+
+.)
+
+,
+
+because
+
+with
+
+this
+
+interval
+
+put
+
+equal
+
+( ) to rdt2 then the force produced
+
+p
+
+=
+
+ rdM g
+
+[
+
+=
+
+2 r
+
+dM 2g
+
+] . From which an increment
+
+in
+
+the
+
+speed
+
+arises
+
+equal to
+
+2 gpdt dM
+
+,
+
+which
+
+which
+
+is
+
+equal
+
+to
+
+2 rdt
+
+,
+
+thus
+
+the
+
+angular
+
+speed acquired is equal to 2 dt .
+
+COROLLARY 1
+
+353.
+
+If the angle arising in the element of time dt is called
+
+d , since
+
+
+
+=
+
+d dt 2
+
+then the
+
+angular speed produced is equal to
+
+2d dt
+
+[from the linear speed
+
+2 rdt above], where it
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 275
+
+must be noted that the angle d is a differential of the second order, or homogenous
+
+with
+
+the
+
+square
+
+of
+
+the
+
+speed
+
+dt.
+
+[Thus
+
+we
+
+can
+
+imagine
+
+
+
+=
+
+d dt 2
+
+=
+
+[
+
+dd dt 2
+
+]
+
+as
+
+the
+
+angular
+
+acceleration. Euler amends this in §410]
+
+COROLLARY 2
+
+354. In order that the angle d is generated in the element of time dt, the element of
+
+the
+
+body
+
+dM
+
+situated
+
+at
+
+M
+
+must
+
+be
+
+acted
+
+on
+
+by
+
+a
+
+force
+
+equal
+
+to
+
+rd gdt 2
+
+ dM
+
+,
+
+in
+
+the
+
+direction of the motion Mm, hence the forces acting on the individual elements are in
+
+the ratio composed of the masses and of the distances from the axis of gyration.
+
+[Cf. rate of change of angular momentum.]
+
+COROLLARY 3
+355. If another element should be considered at N, the mass of which is dN, that must be acted on in the direction Nn drawn normally to the distance ON in the plane perpendicular to the axis of rotation. Moreover these forces acting on these elements at M and N are as OM  dM to ON  dN .
+
+COROLLARY 4
+
+356. Therefore in turn, if the individual elements of the body dM along the direction of
+
+motion are to be acted on by forces equal to
+
+rd gdt 2
+
+.dM, then the whole body will be
+
+moved around the axis of gyration by an angle equal to d in the element of time dt
+
+and
+
+acquires
+
+an
+
+angular
+
+velocity
+
+equal
+
+to
+
+2d dt
+
+.
+
+COROLLARY 5
+356a. Because the individual elements are rushing forwards separately in this manner they do not in turn impede each other, neither is the structure of the body nor the axis of gyration affected by these elemental forces ; for the motion is produced in the same way, and as if all the elements were in turn free from the axis.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 276
+
+PROBLEM 11
+
+357. The elemental forces, by which a rigid body progresses about an axis OA in a given element of time dt through the given angle d , are reduced to two finite forces,
+which are equivalent to all these elemental forces, for all the elements.
+
+SOLUTION
+
+Two other directrices OB and OC are taken together with the axis of gyration OA (Fig. 34), and for some element of the body taken at Z, the mass of this is equal to dM, thus a perpendicular ZY is sent to the the plane AOB, and from Y the normal YX is sent to the axis, and the three coordinates are put in place OX = x, XY = y and YZ = z, now the distance of this element from the axis
+XZ = ( yy + zz) = r. Now with the
+
+element Z impressed so that the motion of the whole body is in the sense Z , which line is normal to XZ in the plane
+
+XYZ, and along this direction Z the element dM by necessity is acted on by a force
+
+equal to
+
+rd gdt 2
+
+ dM
+
+=
+
+ rdM g
+
+on
+
+putting
+
+
+
+=
+
+d dt 2
+
+.
+
+With
+
+YZ
+
+produced
+
+to
+
+z,
+
+ZV
+
+is
+
+acting
+
+parallel
+
+to
+
+YX
+
+and
+
+the
+
+force
+
+Z
+
+=  rdM
+g
+
+is resolved along the directions ZV and Zz, and hence [there are
+
+inconsistencies with the factor of '2' : here, to avoid upsetting Euler's equations further,
+
+we can assume it has been absorbed in the term  ]
+
+the
+
+force
+
+along
+
+ZV
+
+=
+
+ zdM g
+
+,
+
+and
+
+the
+
+force
+
+along
+
+Zz
+
+=
+
+ ydM g
+
+.
+
+[The red rectangle as viewed along the x axis towards O, the red arrows and symbols have been added to the diagram as an aid; from similar triangles, the horizontal force is ZV = Z cos = Z z / r while Zz = Z sin = Z y / r .]
+
+Because it is the case likewise, in which the directions of the points of these applied
+
+forces
+
+are
+
+taken,
+
+that
+
+ zdM g
+
+is applied
+
+normally
+
+to
+
+the
+
+[vertical] plane
+
+AOC
+
+at
+
+the
+
+point
+
+V
+
+along
+
+Vv,
+
+thus
+
+so
+
+that
+
+force
+
+along
+
+Vv
+
+=
+
+ zdM g
+
+;
+
+moreover
+
+the
+
+applied
+
+force
+
+
+
+ydM g
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 277
+
+taken normally to the [horizontal] plane AOB at the point Y, thus so that the force
+
+given
+
+along
+
+Yz
+
+=
+
+ ydM g
+
+.
+
+Now
+
+for
+
+all
+
+the
+
+forces
+
+along
+
+Vv,
+
+there
+
+is one
+
+equivalent
+
+force
+
+Rr applied normally to the plane AOC at R [i. e. parallel to, and at a height PR above, the xy plane, and at some distance OP along the axis of gyration OA], and then with
+
+RP drawn parallel to OC :
+
+the
+
+force
+
+Rr
+
+=
+
+ g
+
+
+
+zdM
+
+,
+
+OP
+
+=
+
+ xzdM  zdM
+
+and
+
+PR
+
+=
+
+ zzdM  zdM
+
+.
+
+Then, for all the forces along Yz there is one equivalent force Ss normal to the plane
+
+AOB applied at the point S, thus with SQ drawn normal to OA then
+
+the
+
+force
+
+Ss
+
+=
+
+ g
+
+
+
+ydM
+
+,
+
+OQ
+
+=
+
+ xydM  ydM
+
+and
+
+QS
+
+=
+
+ yydM  ydM
+
+.
+
+Therefore these two forces Rr and Ss exert the same effect on the body as all the
+
+elementary forces taken likewise, provided that the body should be rigid.
+
+[See e. g. Fig. 32 §332 onwards of Ch. 2 ; note that OP, PR, OQ, and QS are
+
+geometrical properties of the figure, now related to two perpendicular average forces.
+
+We may surmise the details omitted from this calculation, which depend on the
+
+integral mean value theorem applied to simple functions.
+
+The contributions to the element of mass of the moments of the forces acting at Z are
+
+given
+
+by Zz 
+
+y +Vv  z
+
+=
+
+ y2dM g
+
++  z2dM
+g
+
+; hence the torque exerted by all the elemental
+
+forces
+
+is
+
+equal
+
+to
+
+ g
+
+
+
+y2dM
+
++
+
+ g
+
+
+
+z 2 dM
+
+.
+
+Euler
+
+has
+
+chosen
+
+to
+
+write
+
+this
+
+integral
+
+in
+
+the
+
+form
+
+ g
+
+
+
+ydM
+
+×
+
+ yydM  ydM
+
++
+
+ g
+
+ zdM
+
+×
+
+ zzdM  zdM
+
+=
+
+Ss × QS
+
++ Rr × PR ,
+
+to
+
+which
+
+he
+
+can
+
+apply
+
+a mean value to a part of the integrand. The points of application of these average
+
+forces is found from their equivalent moments about O on the OA or x-axis :
+
+ xydM = OQ ×  ydM and  xzdM = OP ×  zdM ; in the same manner, we can
+
+write  ydM =M Q' S ' and  zdM = M  P' R' for some average values of y, Q'S' and z,
+
+P'R', relating to the location of the centre of mass, where M is the mass of the body, and from which in turn all the integrals can be evaluated in principle, and the average forces and points of application found.]
+
+COROLLARY 1
+358. Therefore if a rigid body is acted on by these two forces Rr and Ss of this kind, from these the body thus begins to revolve about the axis OA, in order that in the element of time dt the body completes the angle d =  dt2 ; neither from these forces
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 278
+
+does the axis sustain any force, nor meanwhile is there any need for a force to keep the axis in a state of rest.
+COROLLARY 2
+
+359. Because it is possible to present other pairs of forces equivalent to these in an infinite number of ways, and also the same motion is to be impressed on the body by all these forces, thus so that the axis OA is not being affected by these. Moreover otherwise an account of the structure has been prepared, which experiences hardly any force from the elementary forces.
+
+SCHOLIUM
+
+360. We have not considered the firmness of the axis in this reduction of the forces,
+
+but have proceeded as if the [particles of the] body should be perfectly free, and thus
+
+we have found that two forces are equivalent to all the elementary forces, which in
+
+addition exert no effect on the axis. But if we adopt the idea of a fixed axis, then we
+
+are able to show an infinitude of other forces, which indeed induce the same motion in
+
+the body about the axis OA, and which do also affect the above axis. Clearly all the
+
+forces, which provide the same moment with respect to the axis OA, and the
+
+elementary forces all taken together, or equivalent to the two forces found, since the
+
+opposites of these are consistent with these in equilibrium, also impress the same
+
+motion on the body. Now since the moment of the force
+
+Z
+
+=
+
+
+
+rdM g
+
+with respect to
+
+the
+
+axis
+
+OA
+
+is
+
+equal
+
+to
+
+ rrdM g
+
+,
+
+from all
+
+the
+
+elementary
+
+forces
+
+there
+
+arises
+
+a
+
+moment
+
+equal to
+
+ g
+
+ rrdM
+
+=
+
+d gdt 2
+
+ rrdM
+
+;
+
+hence all the forces, which have an equal moment with respect to the axis OA, rotate the body about this axis in the element of time dt through the angle equal to d , thus
+
+the following problem is easily solved.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 279
+
+PROBLEM 12
+
+361. If a rigid body at rest and mobile about a fixed axis is acted upon by some forces, to find the motion arising in the first instant of time.
+
+SOLUTION
+
+The moments of all the forces are gathered together with respect to the axis of
+
+gyration, wiith attention paid to whatever sense they turn, and let the sum of all the
+
+moments be equal to Vf, and from the sense of this motion the first direction to be impressed is known. Then let d be the angle, through which the body is urged
+
+forwards [i. e. accelerated] about the axis in the element of time dt, and the individual
+
+elements of the body dM are multiplied by the square of their distances from the axis
+
+rr and from the calculation there is gathered the integral  rrdM . With which put in
+
+place it is necessary that
+
+d 2 gdt 2
+
+ rrdM
+
+= Vf , thus now in turn the angle d is elicited,
+
+through which the body turns in the element of time dt from the moment of the forces
+
+Vf, clearly
+
+d
+
+=
+
+[ dd ]
+
+=
+
+Vf 2gdt2  rrdM
+
+.
+
+[Thus, we have the equation that sum of the external torques or moments is proportional to the moment of inertia × the angular acceleration.]
+
+But the [incremental] angular speed, that the body acquires in this element of time dt,
+
+then is equal to
+
+2Vfgdt  rrdM
+
+;[a
+
+'2'
+
+has
+
+been
+
+inserted
+
+into
+
+the
+
+first
+
+two
+
+equations
+
+by
+
+the
+
+translator] and thus the effect arising from any forces is known in the first instant of
+
+time.
+
+COROLLARY 1
+
+362. Hence the angle completed d in the element of time dt varies directly as the moment of the forces Vf and inversely as  rrdM , which is the sum of all the elements of the body dM multiplied by the square of their distances from the axis of gyration.
+
+COROLLARY 2
+
+363. This formula is similar to that, by which the generation of progressive [i. e. linear] motion is expressed, while here in place of the forces, the moment of the forces and in place of the mass of the body M the value of the integral  rrdM is taken, which value henceforth we will call the moment of inertia.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 280
+
+SCHOLIUM
+364. Therefore in this problem, the effect of any forces on the motion being generated about a fixed axis has been fully defined, as nothing further could be wished to be added. Indeed, as the moments of the forces acting must be taken with respect to some axis, as taught in statics, and soon to be explained more clearly by us. Now, besides the motion itself arising, it is of great concern to determine the forces which the axis sustains ; and not only that, as it is understood, by the aid of forces of such a size that the axis is to be held in place, lest it be moved, but as henceforth we may wish to judge, when we revert to the motion of free rigid bodies, whether or not there are cases in which the axis clearly sustains no forces. But this question concerning the forces which the axis sustains from the forces acting, and although the desire has been great, yet this has been treated less studiously hitherto, on account of which I will now produce a work that I can set out clearly and distinctly.
+
+PROBLEM 13
+
+365. If a rigid body moveable about a fixed axis is at rest and acted on by some forces, to determine the forces which the axis thus sustains.
+
+SOLUTION
+
+This question thus again must be reduced to a state of rest, in order that certain
+
+forces are considered to be applied to the body holding it in equilibrium, and by which
+
+likewise the axis is affected by the forces acting on it, provided they generate motion
+
+in the body. In the end all these forces acting on the body are considered and from these the moments with respect to the axis of gyration are gathered together, the sum of which is equal to Vf, thus the angle is sought arising in the element of time dt, which has been found [The '2' in the numerator has been inserted by the translator for
+
+consistency, and continued below]: d = Vf 2gdt2 .
+ rrdM
+
+Then the elementary forces are sought generating the same motion, which we have
+
+defined thus for the individual elements of the body, in order that the element dM placed at Z along the direction Z at a perpendicular distance XZ = r from the axis
+
+OA and placed in the plane nomal to the axis (Fig. 34) , or [the element dM] is acted on by a force generated along the direction of the motion, equal to
+
+rddM 2 gdt 2
+
+=
+
+VfrdM  rrdM
+
+,
+
+and likewise we have observed that the axis is not affected by these forces. Whereby, if we apply forces equal and opposities to these above to the body, then the body will
+
+be kept at rest or in equilibrium [rotating uniformly], and likewise the axis of gyration
+
+still sustains these same forces, which it sustains in the generation of the motion.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 281
+
+Hence to the forces found for the body affecting the axis, by which it is acted on, the
+
+elementary forces considered arising from the motion of the structure, again are to be
+
+removed; or in place of these from §357 there are applied forces to the body opposite
+
+to
+
+the
+
+forces
+
+Rr
+
+and
+
+Ss,
+
+on
+
+deciding
+
+to
+
+assign
+
+there
+
+
+
+=
+
+Vf 2g  rrdM
+
+;
+
+in
+
+this
+
+manner
+
+the
+
+body will continue in equilibrium and the axis sustains the same force, that it sustained
+
+in the generation of the motion.
+
+[Clearly, forces must be exerted on the axis related to the applied external forces.
+
+Thus, the introduction of the internal forces is necessarily an effect due to the external
+
+forces, which establish a definite angular accereration according to the torque and
+
+moment of inertia about the axis. This angular accereration is then used in the two
+
+expressions for the summed or equivalent internal forces normal to each other found
+
+previously, which then act on or are sustained by the axis. The equal and opposites of
+
+these forces are then the forces exerted by the axis to keep it at rest, and lead to the
+
+disappearance of the internal forces from the equations. In addition, the moments of
+
+these reaction forces at the two points of contact are equal and opposite, as the axis is
+
+not rotating.]
+
+COROLLARY 1
+
+366. Hence besides the body forces actually acting, in the first place the opposite
+
+force Rr has to be applied ; but this force Rr is equal to
+
+Vf  zdM
+
+ rrdM
+
+on taking
+
+OP
+
+=
+
+ xzdM  zdM
+
+and
+
+PR
+
+=
+
+ zzdM  zdM
+
+.
+
+Then also contrarily the force must be applied :
+
+Ss
+
+=
+
+Vf  ydM  rrdM
+
+on taking
+
+OQ
+
+=
+
+ xydM  ydM
+
+and
+
+QS
+
+=
+
+ yydM  ydM
+
+.
+
+COROLLARY 2
+367. Or if forces disturbing the motion of the body are impressed in the opposite sense to Z , then besides these, those forces Rr and Ss must be understood to be applied to the body ; where it is necessary to remember that OX = x, XY = y, YZ = z and rr = yy + zz.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 282
+
+COROLLARY 3
+
+368. Hence from these forces, by which the body is held in equilibrium, it must be judged, how much the axis is affected by these or the size of the force that it must retain, so that it does not change from its own position.
+
+SCHOLIUM
+369. Clearly here the axis is considered generally as fixed, thus so that the body is turning in equilibrium, if the moments of the forces with respect to this mutually destroy each other. But so that it may become clearer, how great the forces the axis should sustain, thus the matter most conveniently is understood, as if the axis were held by two points, so that there is a need to define the sizes of the forces to apply to these points so that the axis can retain its own position. Because indeed that is easily judged if individual forces are to be applied to the axis itself ; since for whatever the proposed force should be applied to the axis it can always be shown to be equivalent to two forces applied at the two given points. Therefore since the directions of the forces, which induce [rotational] motion in the body do not themselves pass through the axis, and also the applied forces Rr and Ss themselves do not affect the axis, now the whole business is reduced to this, in which all the forces we consider the body to be acted on, we recall as equivalent to other forces, which are all applied immediately to the axis. Indeed at first it is permitted to doubt, or that this may be possible to happen ; but we can show, that just as often as forces are applied to the body in equilibrium, that always equivalent forces of the same kind can be assigned for these, which are applicable to the axis of gyration itself. But of the forces acting there are two kinds that have to be considered, in the first of these, which present no moment with respect to the axis, which shall be the case if the directions of these are in the same plane as the axis of gyration; and in the second of these, the direction of which is found in a plane normal to the axis which as if they are entirely devoted to the generation of rotational motion. Now it is allowed to reduce all forces to forces of these two kinds, thus at first I will examine, how much the axis is affected from the first to arise, since no motion results.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 283
+
+PROBLEM 14
+
+370. If a rigid body mobile about a fixed axis is acted on by a force, the direction of which has been placed in the same plane with the axis, to find the forces, which the axis sustains at two given points.
+
+SOLUTION
+
+Let MN be the axis of gyration (Fig. 35) and PQ the direction of the force acting V, which, unless it should be parallel to the axis, cuts the axis at some point T, since it has been placed in the same plane. Therefore since no moment arises from this force with respect to the axis MN, [i. e. about the axis] the motion from that also, if that should be present, it is not affected and the axis is urged likewise as if the body were at rest. Hence we can consider the matter thus, and if the force V shall be applied at the point T of the axis along the direction TQ, and which will give on resolution thus along the directions TN and Tt, which is normal to MN and in the plane MNPQ, the force TN = V cos NTQ and the force Tt = V sin NTQ.
+
+But if now it is sought, how large the forces sustained by the axis are to be at the
+
+points M and N, then the perpendiculars MP and NQ are sent to the direction of the
+
+force PQ, and on this account
+
+cos
+
+NTQ
+
+=
+
+TQ TN
+
+= TP
+TM
+
+=
+
+PQ MN
+
+and
+
+sin NTQ
+
+=
+
+NQ TN
+
+=
+
+MP TM
+
+then
+
+the
+
+force
+
+TN
+
+=V
+
+
+
+PQ MN
+
+and
+
+the
+
+force
+
+Tt
+
+=V
+
+
+
+NQ TN
+
+=
+
+V
+
+
+
+MP TM
+
+.
+
+Therefore in the first place the axis is acted on by a force along its own direction MN
+
+equal
+
+to
+
+V
+
+
+
+PQ MN
+
+,
+
+and
+
+it
+
+does
+
+not
+
+matter
+
+at
+
+which
+
+point
+
+of
+
+this
+
+that
+
+force
+
+is
+
+to
+
+be
+
+applied. But for the other force Tt , equivalent forces Mm and Nn can be applied at M
+
+and N normal to the axis in the plane MNPQ, which are [taking moments] :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 284
+
+the
+
+force
+
+Mn
+
+= force
+
+Tt 
+
+TN MN
+
+=V
+
+
+
+NQ MN
+
+and
+
+the
+
+force
+
+Nn
+
+=
+
+force
+
+Tt 
+
+TM MN
+
+=V
+
+
+
+MP MN
+
+.
+
+Therefore from the proposed force V, the axis sustains these forces at the given points
+
+M and N , as well as that force
+
+V
+
+
+
+PQ MN
+
+, by which the axis is urged along its length,
+
+by
+
+which the body is acted on along the direction PQ.
+
+COROLLARY 1
+
+371. If the intersection T does not fall between the points M and N (Fig. 36), the perpendicular NQ must be considered as negative, and thus the force Mm to be applied at M is directed towards PQ, so that
+
+the
+
+force
+
+Mm
+
+=
+
+V
+
+
+
+NQ MN
+
+and
+
+the
+
+force
+
+Nn
+
+=
+
+V
+
+
+
+MP MN
+
+,
+
+besides
+
+which
+
+the
+
+axis
+
+is
+
+acted
+
+along
+
+MN
+
+by
+
+a
+
+force
+
+equal
+
+to
+
+V
+
+
+
+PQ MN
+
+.
+
+COROLLARY 2
+
+372. If the direction of the force V acting along
+
+PQ is parallel to the axis MN at a distance MP
+
+(Fig. 37), by that the axis in the first place is
+
+drawn along its own direction MN by a force
+
+equal to V, now in addition it sustains the forces
+
+Mm and Nn equal to each other, of which each
+
+is equal to
+
+MP MN
+
+V
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 285
+
+SCHOLIUM
+
+373. It suffices that this final case of our problem be added to our proposition, in
+
+which the direction of the force acting is itself
+
+parallel to the axis. Indeed with any force
+
+whatever that the body is acted on, that can
+
+always be resolved into two forces, of which
+
+the direction of one is always parallel to the
+
+axis itself, and the other is placed now in a
+
+plane normal to the axis. So that this appears
+
+clearer, let OA be the axis of gyration (Fig. 38)
+
+and let the force applied to the body be some
+
+force PV = V, from any point of this P the
+
+right line PQ is drawn parallel to the axis OA,
+
+and with the perpendicular VR from V sent to the plane OAPQ, and with RQ drawn
+
+normal to PQ then also VQ is placed in a plane normal to PQ; if Pv is put in place
+
+parallel and equal to VQ, then this is perpendicular to PQ and present in the plane
+
+normal to the axis OA. Whereby since PQVv is a right angled parallelogram, the force
+
+PV = V is resolved into the forces PQ and Pv, in order that
+
+the
+
+force
+
+PQ
+
+=
+
+PQ PV
+
+V
+
+and
+
+the
+
+force
+
+Pv
+
+=
+
+Pv PV
+
+V .
+
+[The reader will no doubt have noted that Euler uses directed line segments to
+
+represent forces : not too far away from vector notation.] Therefore since we have now
+
+defined the effect of that force PQ on the axis, it remains to show however much the
+
+axis is affected by the force Pv, while we may determine the rotational motion it
+
+generates; which we set out in the final following problems.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 286
+
+PROBLEM 15
+
+374. If EFBG is a plane rigid lamina moveable about an axis fixed normal to that at O, and acted on in the same plane by a given force (Fig. 39) V along the direction BD, to find the forces which the axis sustains in the generation of that motion.
+
+SOLUTION
+
+From the axis O in the direction of the force acting there is sent a perpendicular OD = f, and the moment of this is equal to Vf; then on taking the element of the body dM at Z, the distance of this from the axis is OZ = r, the lamina in the element of time dt is turned in the sense Z through an angle [hence onwards, the factor '2' is not
+introduced, which should be present, thus preserving Euler's equations untouched.] d = Vfgdt2 ;
+ rrdM
+in the production of which effect it is necessary for the force acting on the element along Z to be equal to
+rddM = VfrdM
+gdt2  rrdM
+
+Which elementary forces, in order that they may be gathered together, are summed in the plane of the lamina, the two directrices OB and OC normal between themselves, and with the coordinates OY = y and YZ = z, are put in place so that rr = yy + zz ; the
+force Z is resolved along the directions ZV and Zz, and then
+
+the force
+
+ZV
+
+=
+
+VfzdM  rrdM
+
+,
+
+and
+
+the
+
+force
+
+Zz
+
+=
+
+VfydM  rrdM
+
+.
+
+Now the force Rr is equivalent to all these forces ZV, and for all these forces Zz,
+
+indeed the force Ss, and hence
+
+the
+
+force
+
+Rr
+
+=
+
+Vf  zdM  rrdM
+
+and
+
+OR
+
+=
+
+ zzdM  zdM
+
+and
+
+the force
+
+Ss
+
+=
+
+Vf  ydM  rrdM
+
+and
+
+OS
+
+=
+
+ yydM  ydM
+
+,
+
+which forces are understood to be applied in the opposite directions at R and S [being the reaction forces, and as previously, OR and OS are derived from
+
+averaging the moments along an axis], by which, if taken with the force acting BD =
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 287
+
+V, the forces are given acting on the axis. Now moreover the force Dd = V is equivalent to the force itself equal to O = V to be applied at O along the same
+
+direction, and in addition for the force being applied to vanish as the distance OD is
+
+produced indefinitely, but the moment of this shall remain equal to Vf. In a similar manner in place of the forces R and S at O, forces equal to these OR et OS can be
+
+substituted, together with the applied forces vanishing thus with infinite distances, so
+
+that
+
+the
+
+moments
+
+of
+
+these
+
+become
+
+Vf  zzdM  rrdM
+
+and
+
+Vf  yydM  rrdM
+
+.
+
+Therefore
+
+since
+
+these
+
+moments arising from vanishing forces cancel each other out, vanishing forces are no longer introduced into the calculation ; from which the axis sustains these three forces
+
+at the point O :
+
+1st the force O = V equal and parallel to the external force acting,
+
+2 nd
+
+the
+
+force
+
+OR
+
+=
+
+Vf  zdM  rrdM
+
+and
+
+3rd
+
+the force OS =
+
+Vf  ydM  rrdM
+
+.
+
+[Thus, an equivalent set of forces acting at O is introduced, the external force and the
+
+resolved reaction forces.]
+
+COROLLARY 1
+
+375. If the directrix OB is drawn through the centre of inertia I , then
+
+ zdM = 0 and  ydM = M OI
+
+with M denoting the total mass. Hence the axis at O sustains two forces O = V and
+
+OS =
+
+Vf M OI  rrdM
+
+,
+
+which
+
+are
+
+easily
+
+reduced
+
+to
+
+a
+
+single
+
+force.
+
+COROLLARY 2
+
+376. In order that clearly the axis sustains no force, it is necessary that the direction of
+
+the force acting BD is normal to the line OIB, then, in order that
+
+V=
+
+Vf M OI  rrdM
+
+or
+
+f=
+
+ rrdM M OI
+
+,
+
+where f = OD designates the distance of the applied force from the axis O.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 288
+
+COROLLARY 3
+
+377. But if the force acting V thus should be applied, in order that the axis O is not
+
+affected by that, on account of
+
+f=
+
+ rrdM M OI
+
+the lamina is turned in the time increment dt through the angle d , so that it becomes
+
+d =
+
+Vgdt 2 M OI
+
+;
+
+hence the point I likewise begins to be moved, and as if the whole mass were collected
+
+there, and to be acted on by the same force V .
+
+EXPLANATION
+
+378. The basis of this solution depends on the principle herein, that the forces, the moments of which with respect to the axis of gyration cancel each other, exert the same effect on the axis, as if these forces are to be applied at once to the axis itself along their own directions. Because even if it is established well enough in the solution, since therefore the forces vanish [at infinite distances], the moments of which cancel each other, then clearly they are able to be ignored, yet, even if the vanishing and the infinite distances should offend, at which these applied forces are considered, then it would be pleasing to show this likewise by other means. Therefore let the two forces Bb and Cc be in the same plane, the moments of which cancel each other with respect to the point O, thus in order that with the perpendiculars OB and OC drawn in the directions of these from the point O (Fig. 40) then Bb OB = Cc OC or Bb:Cc = OC:OB. The directions of these forces are concurrent at the point E and the same forces can be taken as if applied to the point E; then moreover there is given a single force Ee equivalent to these, the direction of which by necessity passes through the point O, otherwise indeed then a moment with respect to O arises contrary to the hypothesis. Which indeed can thus be demonstrated. Let Ee be the mean direction of the forces Bb and Cc of the applied forces at E, then by resolution of the forces :
+Bb : Cc = sin : sin  ;
+but the same ratio prevails, if Ee passes through O, because then sin : sin  = Oc : OB = Bb : Cc .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 289
+
+Hence the equivalent force Ee can be considerer to be applied as if at O, which shall be O ; therefore to this also the forces O and O equal themselves to Bb and Cc are
+equivalent and thus in place of the forces Bb and Cc it is correctly allowed to substitute the equal forces O and O themselves, and applied at the point O. Hence
+from this demonstration the principle used in the solution is established beyond doubt.
+
+SCHOLIUM
+
+379. Generally the case is worthy of note, in which the force acting on the body exerts
+
+no force on the axis of gyration, which hence at once, while the force begins to exert
+
+an effect, remains at rest. So that we understand this case more accurately, on the line
+
+OI produced from the axis O through the centre of inertia I it is required to find the
+
+point H (Fig. 39), in order that the distance OH =
+
+ rrdM M OI
+
+; for then any force Hh
+
+normal to OH in the proposed plane in no way affects the axis O. Moreover below
+
+likewise it becomes apparent that the point H is the same as that commonly
+
+accustomed to be called the centre of oscillation, just as I is the centre of gravity.
+
+Moreover the solution to this problem is reduced more clearly in the following, where
+
+an extension is attributed to the body along the length of the axis as well.
+
+PROBLEM 16
+
+380. If a rigid body moveable about a fixed axis OA is acted on by some number of forces, the directions of which are in planes normal to the axis (Fig. 41), to find the forces acting on the axis at the beginning of the motion.
+
+SOLUTION
+
+Since all the forces act in planes normal to the axis, the moments of the individual forces are sought with respect to the axis OA, of which, according to whether they tend in the same or opposite sense, the sum shall be Vf, from which the body is turned about the axis in an element of time dt through an angle d , thus so that an element at Z is carried in the sense Z . With the two
+directrices to assist in the calculation OB and OC taken normally to OA, the three coordinates are set up for the element of the body dM placed at Z , OX = x, XY = y, YZ = z, and the distance of this point form the axis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 290
+
+XZ = ( yy + zz) = r.
+
+With these in position we have found [the increment in the angle] to be :
+
+d = Vfgdt2 .
+ rrdM
+
+But in addition to these forces, by which the body is really acted on, the above axis is
+
+acted on as well by forces equal and opposite to these, to which we have reduced the
+
+elementary forces above (see §366) ; where it is to be noted that the moments of all
+
+these forces taken together mutually cancel each other. Whereby, if in place of each
+
+single force, there is substituted a force equal to that applied to the axis in the same
+
+direction, and the other forces vanishing on being applied at an infinite distance,
+
+moreover the moment of this force shall be equal to the moment of that [external]
+
+force, as of all these internal forces the moments of the forces destroy each other and,
+
+since they vanish, clearly they are not to be included in the calculation. Hence
+
+therefore, the forces immediately acting on the axis thus are considered : In the first
+
+place the individual forces act on the body in planes normal to the axis and are applied
+
+to the axis itself in the same direction; then on account of the elementary forces with
+
+the interval taken :
+
+OP
+
+=
+
+ xzdM  zdM
+
+;
+
+a force is applied at P, along a direction parallel to the axis OB :
+
+P
+
+=
+
+Vf  zdM  rrdM
+
+;
+
+then for the given interval
+
+OQ
+
+=
+
+ xydM  ydM
+
+there is applied the force at Q, along the direction parallel and opposite to OC:
+
+Q
+
+=
+
+Vf  ydM  rrdM
+
+;
+
+and thus all the forces may be considered, which the axis immediately sustains, which
+
+thus must be fastened well enough, lest it may be disturbed from its place by these
+
+forces.
+
+COROLLARY 1
+
+381. Thus if the plane AOB is taken, so that it passes through the centre of inertia,
+
+then  zdM = 0 , thus the force P vanishes, now likewise the distance OP becomes
+
+infinite;
+
+where
+
+it
+
+is
+
+to
+
+be
+
+noted
+
+that
+
+still
+
+P OP
+
+=
+
+Vf  xzdM  rrdM
+
+,
+
+as
+
+thus
+
+it
+
+is
+
+not
+
+permissible to neglect this force.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 291
+
+COROLLARY 2
+382. Since in this way all the forces, which the axis sustains, have been applied to the axis, if these are held mutually in equilibrium, the axis experiences no force, and the body is able to begin at once rotating around that as if free.
+COROLLARY 3
+383. But from the individual forces acting, as many forces arise applied to the axis of the body, to which must be added the two forces P and Q applied likewise to the same axis; and thus all the forces affecting the axis are considered.
+EXPLANATION
+384. Now we have shown before, if two forces in the same plane should be applied normal to the axis, the moments of which cancel each other, two equal forces equivalent to these are applied in the same directions to the axis ; now therefore, lest any doubt should remain about this solution, it is necessary that the same value should be demonstrated from the principles of statics, even if these forces should be applied along normals to the axis in different planes. Therefore let some force be applied to the axis OA (Fig. 42) in a plane at E along a normal to the figure, but not shown in the diagram, then in the plane normal to the axis the force Nn is applied at F, with the moment of this equal and opposite to the moment of that, and let the right line FN be perpendicular to the direction of this force Nn. From E there is drawn the right line EM equal and parallel to FN, to which at M the force Mm is considered applied equal and parallel to Nn ; then indeed the equal forces at E and F are understood likewise to be applied parallel to these Fv and E . And it is clear the three forces Mm, E , and F are equivalent to the one force Nm, because this applied in the opposite way with these three establishes equilibrium. Whereby in place of the force Nn it is permitted to substitute the three forces Mm, E , and F , of which the two latter are normal to the axis, but the first is in the same plane, in which the force not expressed acts, has been applied. Therefore since the moment of this force Mm is equal and opposite to the moment of the force not shown in the figure, these forces can be transferred to the axis itself, and thus in
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 292
+
+place of the force Mm, the equal and parallel force EM itself ; which as it is cancelled by the force E , there remains the single force Fv, which now can be substituted in
+the place of the force Nn, then also the force not shown in the figure is applied to the axis at the point E. From which in general it is understood that in place of forces of which the moments cancel, the same applied forces can be substituted acting on the axis itself, if indeed the directions should be in planes normal to the axis.
+
+PROBLEM 17
+
+385. If a rigid body moveable about a fixed axis OA is acted on by some forces, the axis of which must be held at two given points O and A, to define the forces, in order that the body is not disturbed from that position (Fig. 41).
+
+SOLUTION
+
+Through one of the given points O the two directrices OB and OC are put in place so that they are normal to each other and to the axis to the axis OA, and with some element dM of the body put in place at Z, with the three coordinates OX = x, XY = y and YZ = z, and the distance of this point from the axis is called
+XZ = ( yy + zz) = r. Then the
+
+individual body forces acting are to
+
+be considered and, should which be oblique, can be resolved into two, of which the first are parallel to the axis, and the
+
+other are placed normal to the axis OA in a plane. The former, which are bringing nothing to the motion, however great an effect they exert on the axis, we have defined
+
+above (§372), thus likewise it appears, how large the forces are arising thus at the
+
+given points O and A. Now the latter forces likewise are the cause of the moment equal to Vf turning the body in the sense Z ; but for whatever the point of the axis to
+
+which one of the latter forces corresponds, it is applied along its direction, and one force of this kind shall be LA = L. Therefore in place of this at O and A there are applied the parallel forces O and AA , in order that
+
+O
+
+=
+
+L
+
+
+
+AL OA
+
+and AA =
+
+L
+
+
+
+OL OA
+
+,
+
+which two forces are clearly equivalent to that force; and in this way from the
+
+individual forces two such forces are transferred to the points O and A. Then with the interval OA set equal to a, now on account of the forces P and Q , the points O and
+
+A sustain the forces Oo, Aa and O, A parallel to these, thus in order that :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 293
+
+force
+
+Oo
+
+=
+
+Vf
+
+ (a- x)zdM a rrdM
+
+,
+
+force
+
+Aa
+
+=
+
+Vf  xzdM a rrdM
+
+,
+
+force
+
+O
+
+=
+
+Vf
+
+ (a- x)ydM a rrdM
+
+,
+
+force
+
+A
+
+=
+
+Vf  xydM a rrdM
+
+.
+
+Therefore since by this arrangement all the forces which the axis sustains, can be taken
+
+at the points O and A, the points of the axis are actually acted on by these taken
+
+together; whereby it is necessary that they be constrained by opposite forces.
+
+COROLLARY 1
+
+386. All these forces applied at the points O and A likewise are normal to the axis, unless they should be forces present parallel to the axis, then in addition to the normal forces to the axis, each point is urged along its length.
+
+COROLLARY 2
+387. But however great the forces applied to each terminal O and A are found to be, it is allowed for both to be reduced to one force, that is sustained by the axis at that point; unless the forces at O and A vanish, the axis will not remain spontaneously in its own place.
+
+COROLLARY 3
+388. If no forces are present parallel to the axis, then by no means is the axis forced along its direction, but it is only to be resisted by forces normal to the axis at the points O and A, thus it suffices for the axis to be suspended between two fixed rings.
+
+SCHOLIUM
+389. But it is clear that the ways in which the axis is accustomed to be kept at rest have not yet been presented here, since in practice the axes of bodies have a notable thickness, thus so that the suspension is not referred to the axis of a line such as we have postulated here; whereby it is to be warned, lest these which have been shown with the axis to be linear, without thought are extended to any thick axis whatsoever. Hence here our axis is always held to be a straight line, which itself is not moved by the motion from the body : motion of this kind exists, if the body is held between two sharp points, yet around which without friction the body can rotate freely. But if a material axis should be present, of such a kind as is attached to wheels, and this presses either on a plane or cavity, it is certainly necessary that a motion of this is kind is come upon in the calculation, then neither is it easy to assign that line by which with the enduring motion of the body the line itself remains at rest. But yet, because here only the start of the motion has been talked about, it is not difficult to recognise the line, which persists at rest for any method of suspension.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 294
+
+[Indeed, the reader should be aware that this whole chapter is concerned with the initial conditions of the motion.]
+
+PROBLEM 18
+
+390. If a rigid body is moveable about an axis OA, to find the forces, by which the body is acted on, thus so that the axis clearly sustains no force.
+
+SOLUTION
+
+Forces of this kind have to be applied in planes normal to the axis and because, however many of these there shall be, it is permitted to reduce these into two planes, then we seek forces applied in normal planes at the points O and A, by which the axis is not affected at all. With the two directrices OB and OC put in place as before at O so that they are normal to each other and to the axis OA (Fig. 43), and with the same parallel lines AF and AH put in place at A. But now if the solution from the preceding problems and the formulas found there are called upon to help to satisfy this problem, then if to the lines BO, OC, AF and AH the forces Oo, O, Aa and A are to be applied somewhere to these, which we find there
+equal and opposite to these, since these translated to the axis from the elementary forces cancel each other. Therefore let Ee and Ff be the forces which act parallel to the directrix OC, and moreover Gg and Hh to the directrix OB, as the figure shows. Whereby on putting the distance OA = a these forces thus must be prepared :
+
+force
+
+Ee
+
+=
+
+Vf
+
+ (a- x)ydM a rrdM
+
+,
+
+force
+
+Ff
+
+=
+
+Vf  xydM a rrdM
+
+,
+
+force
+
+Gg
+
+=
+
+Vf
+
+ (a- x)zdM a rrdM
+
+,
+
+force
+
+Hh
+
+=
+
+Vf  xzdM a rrdM
+
+.
+
+Now in addition it is required that the sum of the moments of these four forces be
+
+equal to Vf; from which then :
+
+OE   (a - x)ydM + AF   xydM + OG   (a - x)zdM + AH   xzdM = a rrdM .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 295
+
+It is possible for this equation to be satisfied in an infinite number of ways, so that
+
+with three distances freely assumed the fourth is determined. But an easier solution is
+
+deduced, if the distances OE, AF, as well as the distances OG, AH are taken equal :
+
+hence we put in place :
+
+OE = AF = m and OG = AH = n,
+
+and then it is necessary for the equation to become
+
+m ydM + n zdM =  rrdM ,
+
+thus either m or n can be assumed as it pleases. Then is suffices, in order that these
+
+four forces hold the reasoning of the above formulas, that they become thus, [where
+
+we
+
+set
+
+b
+
+=
+
+ rrdM Vf
+
+]:
+
+force
+
+Ee
+
+=
+
+ (a- x)ydM ab
+
+,
+
+force
+
+Ff
+
+=
+
+ xydM ab
+
+,
+
+force
+
+Gg
+
+=
+
+ (a- x)zdM ab
+
+,
+
+force
+
+Hh
+
+=
+
+
+
+xzdM ab
+
+.
+
+Therefore these four forces applied to the body in the prescribed manner, clearly have
+
+no effect on the axis. [That is, they maintain the axis in a state of rest.]
+
+COROLLARY 1
+
+391. If the plane AOB is taken through the centre of inertia I, then  zdM = 0 and
+
+KI
+
+=
+
+ ydM M
+
+with
+
+M
+
+denoting
+
+the
+
+total
+
+mass
+
+of
+
+the
+
+body.
+
+Hence
+
+the
+
+forces
+
+are
+
+:
+
+force
+
+Ee
+
+=
+
+MaKI - ab
+
+xydM
+
+,
+
+force
+
+Ff
+
+=
+
+ xydM ab
+
+,
+
+force
+
+Gg
+
+=
+
+-
+
+xzdM ab
+
+,
+
+force
+
+Hh
+
+=
+
+ xzdM ab
+
+,
+
+and the distances of these from the axis in general thus must be compared, so that the equation becomes :
+
+Ma  KI OE + (AF - OE)  xydM + (AH - OG) xzdM = a rrdM
+
+COROLLARY 2
+
+392. If also the axis itself OA passes through the centre of inertia I, so that KI = 0,
+
+thus the forces themselves are given :
+
+force
+
+Ee
+
+=
+
+- xydM ab
+
+,
+
+force
+
+Ff
+
+=
+
+ xydM ab
+
+,
+
+force
+
+Gg
+
+=
+
+-
+
+xzdM ab
+
+,
+
+force
+
+Hh
+
+=
+
+
+
+xzdM ab
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 296
+
+and the distances of these from the axis in this manner, in order that the equation becomes :
+
+(AF - OE)  xydM + (AH - OG) xzdM = a rrdM .
+
+COROLLARY 3
+393. But if hence the values of the integrals  xydM and  xzdM vanish, then the forces vanish, so that certain distances must become infinite. But in place of the vanishing force applied at an infinite distance, it is permitted for two finite distances to be applied.
+
+SCHOLIUM 1
+
+394. Here we have investigated forces in two planes applied normal to the axis, by which the axis sustains no force. But with these forces taken in the same planes, now an infinite number of other ways are shown to be equivalent. Just as in place of the force Ee the forces Pp and O can be taken in parallel directions, so that then :
+Pp =Ee + O and Ee  EP = O OP
+
+or
+
+Ee = Pp - O
+
+and
+
+OE
+
+=
+
+OPPp Pp -O
+
+.
+
+Whereby with the plane AOB drawn through the centre of inertia of the body I and in place of the force Ee, with the forces Pp and O introduced, of which the one O
+
+remains indefinite, the remaining thus can be obtained between themselves :
+
+force Ee = vis O + MaKI - xydM , force Ff =  xydM ,
+
+ab
+
+ab
+
+force
+
+Gg
+
+=
+
+- xzdM ab
+
+,
+
+force
+
+Hh
+
+=
+
+
+
+xzdM ab
+
+;
+
+ab OP  force O + Ma  KI OP - OP   xydM + AF   xydM + (AH - OG) xzdM = a rrdM .
+
+If in addition in a similar way in place of the force Ff the two forces Rr and A are introduced, since then
+
+Ff
+
+= Rr - A
+
+and AF
+
+=
+
+ARRr Rr - A
+
+and with our choice for the force A left, the forces are:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 297
+
+force
+
+Pp
+
+=
+
+force
+
+O
+
++
+
+MaKI - ab
+
+xydM
+
+,
+
+force
+
+Rr
+
+=
+
+force
+
+O
+
++
+
+
+
+xydM ab
+
+,
+
+force
+
+Gg
+
+=
+
+-
+
+xzdM ab
+
+,
+
+force
+
+Hh
+
+=
+
+
+
+xzdM ab
+
+.
+
+Then the distances thus are able to be compared :
+
++ ab OP  force O + Ma  KI OP + (AR - OP) xydM
+
++ ab  AR  force A
+
++ (AH - OG) xzdM = a rrdM .
+
+And if then in place of the force Gg the two forces Qq and O , and also in place of the
+
+force Hh the two forces Ss and A are introduced, on account of which :
+
+Gg = Qq - O ,
+
+OG
+
+=
+
+OQQq Qq -O
+
+,
+
+Hh = Ss - A ,
+
+AH
+
+=
+
+AS Ss Ss- A
+
+,
+
+now in general the forces are thus taken :
+
+force
+
+Pp
+
+=
+
+force
+
+O
+
++
+
+MaKI - xydM ab
+
+,
+
+force
+
+Rr
+
+=
+
+force
+
+A
+
++
+
+
+
+xydM ab
+
+,
+
+force
+
+Qq
+
+=
+
+force
+
+O
+
+-
+
+ xzdM ab
+
+,
+
+force
+
+Ss
+
+=
+
+force
+
+A
+
++
+
+
+
+xzdM ab
+
+,
+
+and the distances of these from the axis are thus had, in order that there results :
+
++ ab OP  force O + Ma  KI OP + (AR - OP) xydM
+
++ ab  AR  force A + ab OQ  force O
+
++ (AS - OQ) xzdM
+
++ ab  AS  force A
+
+= a rrdM .
+
+Now therefore, even if the interval KI with the integrals  xydM and  xzdM vanish, yet
+there is found an infinite number of forces applied at finite distances, which satisfy the question.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 298
+
+SCHOLIUM 2
+
+395. In this general solution the four forces O , O , A and A are left to our choice,
+applied at the points O and A of the axis along the two directions OB and OC: then also of the four remaining forces Pp, Qq, Rr, and Ss the distances from the axis OP, OQ, AR and AS are able to be assumed as it pleases, while the quantity ab thus can be defined, so that then
+
+ab
+
+=
+
+a rrdM -MaKI OP+(OP- AR) xydM +(OQ- AS ) xzdM OPforce O +OQforce O + ARforce A + ASforce A
+
+.
+
+With which value found these last four forces thus can be determined , so that then :
+
+force
+
+Pp
+
+=
+
+force
+
+O
+
++
+
+MaKI - xydM ab
+
+,
+
+force Rr = force A +  xydM ,
+ab
+
+force
+
+Qq
+
+=
+
+force
+
+O
+
+-
+
+ xzdM ab
+
+,
+
+force
+
+Ss
+
+=
+
+force
+
+A
+
++
+
+
+
+xzdM ab
+
+,
+
+which forces have the opposite directions with respect to the former; but all the
+
+moments are assumed to be taken tending in the same sense and this total moment
+
+from all the moments arises equal to
+
+a rrdM ab
+
+, which we have called Vf above from
+
+which the initial motion is thus being defined, in order that in the element of time dt
+
+the
+
+body
+
+is
+
+turned
+
+through
+
+the
+
+angle
+
+d
+
+=
+
+gdt 2 b
+
+.
+
+But
+
+it
+
+has
+
+to
+
+be
+
+recorded
+
+here
+
+that
+
+a
+
+designates the interval OA, then for any element of the body dM the coordinates x, y, z,
+
+are to be parallel to the directrices OA, OB, OC of which the first x is taken from the
+
+point O; now in addition here we have drawn the plane AOB through the centre of
+
+inertia I of the body, in order that OC is normal to this plane.
+
+PROBLEM 19
+396. If a rigid body is moveable about a fixed axis is acted on by some forces and it is set in motion, to define the forces which the structure of the body itself sustains.
+SOLUTION
+Here it is required to find forces of this kind, which applied to a body can indeed hold it in equilibrium, now likewise they can equally affect the structure of the body, and that in turn brings about the motion of the body. Hence in the first place the body sustains the forces by which it is actually disturbed, where these parts at which the
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 299
+
+individual forces have been applied are to be properly observed; since any force only acts at a particular part of the body. Then from the moments of all those forces, the elementary forces can be gathered together which generate the same motion in the individual elements ; and for these individual elements equal and opposite forces are taken, in the place of which it is not permitted here as above to substitute other forces equivalent to themselves, since the reason for the rigidity is sought. In the third place forces are added, in which the axis is actually kept at rest ; and these three kinds of forces will continue to hold the body in perfect equilibrium and likewise they clearly have the same effect on the structure of the parts, which the body is allowed in the generation of motion. And hence it is understood, that the individual particles of the body must be connected together by firm bonds, so that there should be no fear of these tearing being torn apart, and, unless the structure prevails to resist these forces well enough, then the body cannot be considered as being rigid. [Euler compares the situations for a body at rest under the influence of external forces, and a body set in motion about an axis by external forces; in each case there are in addition internal forces generated, and reaction forces provided by the axis, which stays at rest in either case.]
+SCHOLION
+
+397. Here we do not undertake to define further, by how great the forces are acting on the individual elements of the body, which are trying to wrest themselves away from their connection with others; indeed how the structure of the body is resistant to this effect, this is not therefore the place to enquire, how this reason for the rigidity depends on the kind of the bodies. Moreover in this chapter we have considered only the initial motion, which is impressed on a rigid body free to move about a fixed axis by some forces, so that is it is easier now to see the separate effect of only the individual forces on the motion in place. But help is hence desired especially in further investigations, when, while a body is turning about some axis, forces are present trying to change the motion to a rotation about another axis ; then indeed from the momentary effect produced about this axis it will be allowed to judge, how the preceding motion is changing. Therefore now we will consider a rigid body in motion about a fixed axis and we will carefully observe, how this can be changed by some forces, after we have shown that this motion is then uniform in the future if no forces should be present acting. Now in addition these forces will be carefully considered which the axis sustains meanwhile.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 300
+
+CAPUT III DE MOTUS GYRATORII GENERATIONE
+
+PROBLEMA 10
+352. Si corpus rigidum circa axem fixum mobile quiescat, definire vires elementares, quibus id tempusculo minimo per datum angulum promovetur.
+
+SOLUTIO
+
+Sit ABCD sectio corporis quaecunque ad axem gyrationis normalis (Fig. 33), cui ergo axis in O perpendiculariter insistere concipiatur, circa quem tempusculo dt per angulum
+
+dt2 promoveri debeat, siquidem
+
+novimus spatiola tempusculo infinite parvo dt genita quadrato tempusculi esse proportionalia. Si ergo elementum quodpiam in M consideremus, cuius massa sit = dM et distantia ab axe OM = r, id
+
+transferendum est per arculum Mm =  rdt2. Ad quem effectum producendum necesse
+
+est, ut elementum hoc sollicitetur in directione Mm a vi quadam, quae ponatur = p; at massula dM a vi p sollicitata tempusculo dt protrahitur per spatiolum = gpdt2 (§305),
+dM
+
+quod illi rdt2 aequale positum praebet vim
+
+p
+
+=
+
+
+
+rdM g
+
+. Tum vero hoc elementum
+
+adipiscetur celeritatem =
+
+2 gpdt dM
+
+,
+
+quae
+
+abit
+
+in
+
+2 rdt , unde celeritas angularis acquisita
+
+erit = 2 dt .
+
+COROLLARIUM 1
+
+353.
+
+Si angulus tempusculo dt genitus vocetur = d , ob
+
+
+
+=
+
+d dt 2
+
+erit celeritas
+
+angularis
+
+genita
+
+=
+
+2d dt
+
+,
+
+ubi
+
+notandum
+
+est
+
+angulum
+
+d
+
+esse
+
+differentiale
+
+secundi
+
+gradus seu homogeneum esse cum quadrato tempusculi dt.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 301
+
+COROLLARIUM 2
+
+354. Ut tempusculo dt angulus d generetur, elementum corporis dM in M situm
+
+secundum directionem motus Mm sollicitari debet a vi =
+
+rd gdt 2
+
+.dM,
+
+vires
+
+ergo
+
+singula
+
+elementa sollicitantes sunt in ratione composita massarum et distantiarum ab axe
+
+gyrationis.
+
+COROLLARIUM 3
+
+355. Si aliud elementum consideretur in N, cuius massa sit dN, id sollicitari debet in directione Nn ad distantiam ON normaliter ducta in plano ad axem gyrationis perpendiculari. Vires autem sollicitantes haec elementa in M et N erunt ut OM.dM ad ON.dN.
+
+COROLLARIUM 4
+
+356. Vicissem ergo, si singula corporis elementa dM secundum directionem motus
+
+imprimendi sollicitentur viribus =
+
+rd gdt 2
+
+.dM,
+
+totum
+
+corpus
+
+circa
+
+axem
+
+gyrationis
+
+promovebitur angulo =
+
+d tempusculo dt et acquiret celeritatem angularem =
+
+2d dt
+
+.
+
+COROLLARIUM 5
+356a. Quoniam hoc modo singula elementa seorsim ad motum concitantur neque se invicem impediunt, ab istis viribus elementaribus neque corporis compages neque axis gyrationis afficietur; sed motus perinde producetur, ac si cuncta elementa tam a se invicem quam ab axe essent soluta.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 302
+
+PROBLEMA 11
+
+357. Vires elementares, quibus corpus rigidum circa axem OA dato tempusculo dt per datum angulum d promovetur, ad duas vires finitas reducere, quae illis, omnibus
+aequivaleant.
+
+SOLUTIO
+
+Cum axe gyrationis OA normaliter coniungantur binae aliae directrices OB et OC (Fig. 34), sumtoque corporis quocunque elemento in Z, cuius massa sit = dM, inde ad planun AOB demittatur perpendiculum ZY et ex Y ad axem normalis YX ponanturque ternae coordinatae OX = x, XY = y et YZ = z, tum vero eius ab axe distantia
+XZ = ( yy + zz) = r. Imprimatur
+
+iam elemento Z ut toti corpori motus in sensum Z , quae linea ad XZ est
+
+normalis in plano XYZ, et secundum hanc directionem Z elementum dM sollicitetur
+
+necesse est vi =
+
+rd gdt 2
+
+ dM
+
+=
+
+ rdM g
+
+posito
+
+
+
+=
+
+d dt 2
+
+.
+
+Producta
+
+YZ
+
+in
+
+z
+
+agatur
+
+ZV
+
+parallela
+
+ipsi
+
+YX
+
+et
+
+vis
+
+Z
+
+=  rdM
+g
+
+resolvatur secundum directiones ZV et Zz, eritque
+
+vis
+
+secundum
+
+ZV
+
+=
+
+ zdM g
+
+et
+
+vis
+
+secundum
+
+Zz
+
+=
+
+
+
+ydM g
+
+.
+
+Quia perinde est, in quibusnam harum directionum punctis istae vires applicatae
+
+concipiantur,
+
+concipiatur
+
+illa
+
+ zdM g
+
+applica
+
+plano
+
+AOC
+
+in
+
+puncto
+
+V
+
+secundum
+
+Vv,
+
+ita
+
+ut
+
+sit
+
+ista
+
+vis
+
+secundum
+
+Vv =
+
+ zdM g
+
+; vis autem
+
+ ydM g
+
+applicata
+
+concipiatur
+
+plano
+
+AOB
+
+in
+
+puncto
+
+Y,
+
+ita
+
+ut
+
+habeatur
+
+vis
+
+secundum
+
+Yz
+
+=
+
+ ydM g
+
+.
+
+Nunc
+
+omnibus
+
+viribus
+
+secundum Vv aequivaleat vis una Rr plano AOC normaliter in R, eritque ducta RP ipsi
+
+Oc parallela
+
+vis
+
+Rr
+
+=
+
+ g
+
+
+
+zdM
+
+,
+
+OP
+
+=
+
+ xzdM  zdM
+
+et
+
+PR
+
+=
+
+ zzdM  zdM
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 303
+
+Deinde omnibus viribus secundum Yz aequivaleat vis una Ss plano AOB normaliter applicata in puncto S, unde ad OA ducta normali SQ erit
+
+vis
+
+Ss
+
+=
+
+ g
+
+
+
+ydM
+
+,
+
+OQ
+
+=
+
+ xydM  ydM
+
+et
+
+QS
+
+=
+
+ yydM  ydM
+
+.
+
+Hae ergo duae vires Rr et Ss in corpus eundem effectum exerent atque omnes vires
+
+elementares simul sumtae, si modo corpus fuerit rigidum.
+
+COROLLARIUM 1
+
+358. Si ergo corpus rigidum ab huiusmodi duabus viribus Rr et Ss sollicetur, ab iis circa axem OA ita volvi incipit, ut tempusculo dt conficiat angulum d =  dt2 ; neque ab his viribus ipsis axis ullam vim sustinebit seu nulla opus erit vi ad axem interea in quiete conservandum.
+
+COROLLARIUM 2
+359. Quoniam infinitis modis aliae binae vires exhiberi possunt his aequivalentes, etiam ab his omnibus corpori idem motus imprimetur, ita ut axis OA ab illis non afficiatur. Secus autem ratio compagis est comparata, quae tantum a viribus elementaribus nullam vim patitur.
+
+SCHOLION
+
+360. In hac virium reductione non respeximus ad axis firmitatem, sed, quasi corpus perfecte esset liberum, ita omnibus viribus elementaribus binas invenimus vires aequivalentes, quae propterae etiam in axem nullum effectum exerunt. Sed si fixitatis
+
+axis rationem teneamus, infinitas alias vires exhibere possumus, quae quidem corpori eundem motum circum axem OA inducant, sed insuper etiam axem afficiant. Omnes
+
+scilicet vires, quae respectu axis OA idem praebent momentum ac vires elementares
+
+omnes iunctim sumtae seu binae vires aequivalentes inventae, quoniam earum
+
+contrariae cum his in aequilibrio consisterent, corpori quoque eundem motum
+
+imprimunt.
+
+Cum
+
+vero
+
+vis
+
+Z
+
+=
+
+ rdM g
+
+momentum
+
+respectu
+
+axis
+
+OA
+
+sit
+
+=
+
+ rrdM g
+
+,
+
+ex
+
+omnibus viribus elementaribus nascitur momentum =
+
+ g
+
+ rrdM
+
+=
+
+d gdt 2
+
+ rrdM
+
+;
+
+omnes ergo vires, quae respectu axis OA aequale habent momentum, corpus circa hunc axem tempusculo dt convertent per angulum = d , unde sequens problema
+
+facile solventur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 304
+
+PROBLEMA 12
+361. Si corpus rigidum quiescens et circa axem fixum mobile a viribus quibuscunque sollicitetur, invenire motum primo temporis instante genitum.
+
+SOLUTIO
+
+Colligantur omnium virium momenta respectu axis gyrationis, attendendo in
+
+utrum sensum quaelibet vergat, sitque summa omnium momentorum = Vf, ex cuius sensu motus primo impressi directio innotescit. Tum sit d angulus, per quem corpus
+
+circa axem tempusculo dt protruditur, et singula corporis elementa dM multiplicentur
+
+per quadrata distantiarum suarum ab axe rr et calculo colligatur integrale  rrdM . Quo
+
+facto oportet esse
+
+d gdt 2
+
+ rrdM
+
+= Vf
+
+,unde
+
+iam
+
+vicissam
+
+angulus d
+
+elicitur,
+
+per
+
+quem
+
+corpus tempusculo dt a virium momento Vf promovetur, scilicet
+
+d
+
+=
+
+Vfgdt 2  rrdM
+
+.
+
+Celeritas autem angularis, quam corpus hoc tempusculo dt acquirit, erit =
+
+2Vfgdt  rrdM
+
+;
+
+sicque cognoscitur effectus a viribus quibuscunque primo temporis instanti dt genitus.
+
+COROLLARIUM 1
+362. Angulus ergo d dato tempusculo dt confectus est directe ut momentum virium Vf et reciproce ut integrale  rrdM , quod est aggregatum omnium corporis elementorum dM per quadrata distantiarum suarum ab axe gyrationis multiplicatorum.
+
+COROLLARIUM 2
+363. Haec formula similis est ei, qua generatio motus progressivi exprimitur, dum hic loco virium momentum virium et loco massae corporis M valor integralis  rrdM capiatur, quem valorem deinceps momentum inertiae appellabimus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 305
+
+SCHOLION
+364. In hoc ergo problemate effectus virium quarumcunque in motu circa axem fixum generando perfecte est definitus, ut nihil amplius desiderari queat. Quemadmodum enim virium sollicitantium momenta respectu axis cuiusvis capi debeant, in Statica docetur et mox a nobis accuratius explicabitur. Verum praeter ipsum motum genitum plurimum interest hic vires, quas axis sustinet, determinare; hocque non solum, ut intelligatur, quantis viribus opus sit ad axem continendum, ne dimoveatur, sed ut deinceps, quando ad motum corporum rigidorum liberum revertemur, iudicare valeamus, quibusnam casibus axis nullas plane vires sustineat. Haec autem quaestio de viribus, quas axis a viribus sollicitantibus sustinet, etsi maximi est momenti, tamen adhuc minus studiose est tractata, quamobrem operam dabo, ut eam luculenter et distincte evolvam.
+
+PROBLEMA 13
+365. Si corpus rigidum quiescens et circa axem fixum mobile a viribus quibuscunque sollicitetur, determinare vires, quas axis inde sustinet.
+
+SOLUTIO
+
+Haec quaestio iterum ita ad statum quietis est reducenda, ut corpori certae vires se
+
+in aequilibrio continentes applicatae concipiantur, a quibus axis perinde afficiatur
+
+atque a viribus sollicitantibus, dum in corpore motum generant. Hunc in finem
+
+perpendantur omnes vires corpus sollicitantes ex iisque momenta respectu axis
+
+gyrationis colligantur, quorum summa sit = Vf, unde quaeratur angulus tempusculo dt
+
+genitus, qui inventus est
+
+d = Vfgdt2 .
+ rrdM
+
+Deinde quaerantur vires elementares eundem motum generantes, quas pro singulis corporis elementis ita definivimus, ut elementum dM in Z positum secundum directionem Z ad distantium XZ = r ab axe OA perpendicularem et in plano ad axem
+
+normali sitam (Fig. 34) seu secundum directionem motus geniti sollicitetur vi =
+
+rddM gdt 2
+
+=
+
+VfrdM  rrdM
+
+,
+
+simulque notavimus ab his viribus axem nihil pati. Quari, si his viribus aequales et
+
+contrarias corpori insuper applicemus, corpus in quiete seu aequilibrio servabitur
+
+simulque axis gyrationis easdem adhuc vires sustinebit, quas in motus generatione
+
+sustinuerat. Hinc ad vires axem afficientes inveniendas corpori praeter vires, quibus
+
+actu sollicitatur, applicatae concipiantur vires elementares motum genitum iterum
+
+tollentes; seu harum loco ex §357 corpori applicentur vires oppositae viribus Rr et Ss
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 306
+
+ibi
+
+assignatis
+
+statuendo
+
+
+
+=
+
+Vfg  rrdM
+
+;
+
+hoc
+
+modo
+
+corpus
+
+in
+
+aequilibrio
+
+continebitur
+
+axisque easdem vires sustinebit, quas in generatione motus sustinet.
+
+COROLLARIUM 1
+
+366. Praeter vires ergo corpus actu sollicitantes primo ipsi vis Rr contrarie est
+
+applicanda ; vis autem Rr est =
+
+Vf  zdM
+
+ rrdM
+
+sumtis
+
+OP
+
+=
+
+ xzdM  zdM
+
+et
+
+PR
+
+=
+
+ zzdM  zdM
+
+.
+
+Deinde etiam contrare applicari debet
+
+vis
+
+Ss
+
+=
+
+Vf  ydM  rrdM
+
+existente
+
+OQ
+
+=
+
+ xydM  ydM
+
+et
+
+QS
+
+=
+
+ yydM  ydM
+
+.
+
+COROLLARIUM 2
+367. Vel si vires sollicitantes corpori motum in sensum oppositum ipsi Z imprimant, tum praeter eas hae ipsae vires Rr et Ss corpori applicatae sunt intelligendae; ubi meminisse oportet esse OX = x, XY = y, YZ = z et rr = yy + zz.
+
+COROLLARIUM 3
+368. Ex his ergo viribus, quibus corpus in aequilibrio tenetur, iudicari debet, quantum axis ab iis patiatur seu quanta vi retineri debea, ne de loco suo dimoveatur.
+SCHOLION
+369. Axis scilicet hic ut omnino fixus consideratur, ita ut corpus in aequilibrio versetur, si virium momenta respectu istius se mutuo destruant. Quo autem clarius pateat, quantas vires axis sustineat, res ita commodissime concipitur, quasi axis in duobus punctis teneretur, ut definiendum sit, quantis viribus in his punctis applicandis opus sit, ut in situ suo retineatur. Quod quidem iudicium esset facile, si singualae vires ipsi axi essent applicatae; quoniam proposita quacunque vi axi applicata duae semper vires in datis duobus punctis applicandae exhiberi possunt illi aequivalentes. Cum igitur directiones virium, quae corpori motum inducunt, eo ipso non per axem transeant atque etiam vires insuper applicandae Rr et Ss axem non afficiant, totum
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 307
+
+negotium iam eo reducitur, ut omnes vires, quibus corpus sollicitari consideramus,ad alias ipsis aequivalentes revocemus, quae omnes axi immediate sint applicatae. Primum quidem dubitare liceret, an hoc fieri posset; sed ostendemus, quoties vires corpori applicatae fuerint in aequilibrio, iis semper eiusmodi aequivalentes assignari posse, quae ipsi axi gyrationis sint applicatae. Virium autem sollicitantium duo genera sunt constituenda, alterum earum, quae nullum momentum respectu axis praebent, quod fit, si earum directiones cum axe gyrationis in eodem fuerint plano; alterum earum, quarum directio reperitur in plano ad axem normali quae quasi totae ad motum gyratorium generandum impenduntur. Verum omnes vires ad haec duo genera reducere licet, unde primum investigabo, quantum axis a primo genere, quod nullum motum gignit, afficiatur.
+PROBLEMA 14
+
+370. Si corpus rigidum circa axem fixum mobile sollicitetur a vi, cuius directio cum axe in eodem plano est sita, invenire vires, quas axis inde in datis duobus punctis sustinet.
+
+SOLUTIO
+
+Sit MN axis gyrationis (Fig. 35) et PQ directio vis sollicitantis V, quae, nisi fuerit axi parallela, eum in quodam puncto T secabit, quoniam cum axe in eodem plano est sita. Cum igitur ab hac vi nullum oriatur momentum respectu axis MN, ab ea etiam motus, si quis adesset, non afficietur axisque perinde urgebitur, ac si quiesceret. Possimus ergo rem ita concipere, ac si vis V ipsi axi in puncto T secundum directionem TQ esset applicata, quae itaque secundum directiones TN et Tt, quae ad MN in plano MNPQ sit normalis, resoluta dabit vim TN = V cos NTQ et vim Tt = V sin NTQ.
+
+Quodsi iam quaeratur, quantas vires axis in punctis M et N sustineat, inde ad
+
+directionem vis PQ demittantur perpendicula MP et NQ, et ob
+
+cos NTQ
+
+=
+
+TQ TN
+
+=
+
+TP TM
+
+=
+
+PQ MN
+
+et
+
+sin
+
+NTQ
+
+=
+
+NQ TN
+
+=
+
+MP TM
+
+erit
+
+vis
+
+TN
+
+=
+
+V
+
+
+
+PQ MN
+
+et
+
+vis
+
+Tt
+
+=V
+
+
+
+NQ TN
+
+=
+
+V
+
+
+
+MP TM
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 308
+
+Primum
+
+ergo
+
+axis
+
+secundum
+
+suam
+
+directionem
+
+MN
+
+sollicitatur
+
+a
+
+vi
+
+=
+
+V
+
+
+
+PQ MN
+
+,
+
+nihilque
+
+refert, in quonam eius puncto ea applicata concipiatur. Alteri autem vi Tt applicari
+
+poterunt in M et N vires aequivalentes Mm et Nn nomales ad axem in plano MNPQ,
+
+quae erunt :
+
+vis
+
+Mn
+
+=
+
+vis
+
+Tt 
+
+TN MN
+
+=V
+
+
+
+NQ MN
+
+et
+
+vis
+
+Nn
+
+=
+
+vis
+
+Tt 
+
+TM MN
+
+=V
+
+
+
+MP MN
+
+.
+
+Has
+
+ergo
+
+vires
+
+axis
+
+in
+
+punctis
+
+datis
+
+M
+
+et
+
+N
+
+praeter
+
+illam
+
+V
+
+
+
+PQ MN
+
+,
+
+qua
+
+secundum
+
+suam
+
+longitudinem urgetur, sustinet a vi proposita V, qua corpus secundum directionem PQ
+
+sollicitatur.
+
+COROLLARIUM 1
+
+371. Si intersectio T non cadat inter puncta M et
+
+N (Fig. 36), perpendiculum NQ ut negativum
+
+spectari debet, ideoque vis Mm in M applicanda
+
+versus PQ dirigetur, ut sit
+
+vis
+
+Mm
+
+=
+
+V
+
+
+
+NQ MN
+
+et
+
+vis
+
+Nn
+
+=V
+
+
+
+MP MN
+
+,
+
+praeter quas axis secundum MN sollicitatur vi
+
+=V
+
+
+
+PQ MN
+
+.
+
+COROLLARIUM 2
+
+372. Si vis sollicitantis V directio PQ fuerit axi
+
+MN parallela ad distantiam MP (Fig. 37), ab ea
+
+axis primo secundum suam directionem MN
+
+trahetur vi = V, praeterea vero sustinebit vires
+
+Mm et Nn aequales inter se, quarum utraque est =
+
+MP MN
+
+V
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 309
+
+SCHOLION
+
+373. Ad nostrum propositum sufficit hunc casum postremum problematis notasse, quo
+
+directio vis sollicitantis est ipsi axi parallela.
+
+A quacunque enim vi corpus urgeatur, ea
+
+semper resolvi potest in duas, quarum alterius
+
+directio sit ipsi axi parallela, altera vero in
+
+plano ad axem normali sita. Quod quo clarius
+
+appareat, sit OA axis gyrationis (Fig. 38)
+
+corporique applicata sit vis quaecunque PV =
+
+V, ex cuius puncto quocunque P ducatur recta
+
+PQ axi OA parallela, et ex V in planum OAPQ
+
+demissi perpendiculo VR ductaque RQ ad PQ
+
+normali erit quoque VQ ad PQ normalis et in
+
+plano ad PQ normali sita; cui si parallela et aequalis statuatur Pv, erit haec ad PQ
+
+perpendicularis et in plano ad axem OA normali existens. Quare cum PQVv sit
+
+parallelogrammum rectangulum, vis PV = V resolvetur in vires PQ et Pv, ut sit
+
+vis
+
+PQ
+
+=
+
+PQ PV
+
+V
+
+et
+
+vis
+
+Pv
+
+=
+
+Pv PV
+
+V
+
+.
+
+Quoniam igitur illius vis PQ effectum in axem iam definivimus, superest, ut, quantum
+
+axis a vi Pv, dum motum gyratorium gignit, afficiatur, determinemus; quem in finem
+
+sequentia problemata evolamus.
+
+PROBLEMA 15
+374. Si lamina plana rigida EFBG mobilis sit circa axem fixum ad eam in O normalem eaque in eodem plano sollicitetur (Fig. 39) a data vi V secundum directionem BD, invenire vires, quas axis sustinet in ipsa generatione.
+
+SOLUTIO
+
+Ab axe O in directionem vis sollicitantis demittatur perpendiculum OD = f, erit
+
+eius momentum = Vf; tum sumto elemento corporis dM in Z, cuius distantia ab axe sit OZ = r, lamina tempusculo dt in sensum Z convertetur per angulum
+
+d
+
+=
+
+Vfgdt 2  rrdM
+
+;
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 310
+
+ad quem effectum producendum opus est vi elementari secundum Z sollicitante =
+
+rddM = VfrdM
+gdt2  rrdM
+
+Quae vires elementares ut colligantur, sumantur in plano laminae duae directrices OB et OC inter se normales, positisque coordinates OY = y et YZ = z, ut sit rr = yy + zz ,
+
+vis Z resolvatur secundum directiones ZV et Zz, erit
+
+vis
+
+ZV
+
+=
+
+VfzdM  rrdM
+
+et
+
+vis
+
+Zz
+
+=
+
+VfydM  rrdM
+
+Iam illis omnibus ZV aequivaleat vis Rr, his vero Zz vis Ss, eritque
+
+vis
+
+Rr
+
+=
+
+Vf  zdM  rrdM
+
+et
+
+OR
+
+=
+
+ zzdM  zdM
+
+atque
+
+vis
+
+Ss
+
+=
+
+Vf  ydM  rrdM
+
+et
+
+OS
+
+=
+
+ yydM  ydM
+
+,
+
+quae vires contrario modo in R et S applicatae intelligantur, quibuscum si vis
+
+sollicitans BD = V coniungatur, habebuntur vires, quarum actionem axis sustinet. Nunc autem vis Dd = V aequivalet vi ipsi aequali O = V in O secundum eandem
+
+directionem applicatae et insuper vi evanescenti in distantia OD in infinitum producta applicanda, cuius autem momentum sit = Vf. Simili modo loco virium R et S in O
+
+substitui possunt vires ipsis OR et OS , una cum viribus evanescantibus ita ut in
+
+distantias
+
+infinitis
+
+applicandis,
+
+ut
+
+earum
+
+momenta
+
+sint
+
+Vf  zzdM  rrdM
+
+et
+
+Vf  yydM  rrdM
+
+.
+
+Cum
+
+igitur haec momenta a viribus evanescentibus orta se destruant, ipsae vires
+
+evanescentes non amplius in computum ingrediuntur; ex quo axis in puncto O has
+
+ternas vires sustinet :
+
+10 vim O = V aequalem et parallelam vi sollicitanti,
+
+20
+
+vim
+
+OR
+
+=
+
+Vf  zdM  rrdM
+
+et
+
+30
+
+vim OS =
+
+Vf  ydM  rrdM
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 311
+
+COROLLARIUM 1
+
+375. Si directrix OB per centrum inertiae laminae I ducatur, erit
+
+ zdM = 0 et  ydM = M OI
+
+denotante M massam totam. Hinc axis in O sustinet duas vires O = V et
+
+OS =
+
+Vf 
+
+M OI rrdM
+
+,
+
+quae
+
+facile
+
+ad
+
+unicam
+
+reducuntur.
+
+COROLLARIUM 2
+
+376. Ut axis nullam plane vim sustineat, necesse est, ut directio vis sollicitantes BD
+
+sit ad rectam OIB normalis, tum vero, ut sit
+
+V=
+
+Vf M OI  rrdM
+
+seu
+
+f=
+
+ rrdM M OI
+
+,
+
+ubi f = OD designat distantiam vis applicatae ab axe O.
+
+COROLLARIUM 3
+
+377. Sin autem vis sollicitans V ita fuerit applicata, ut axis O ab ea non afficiatur, ob
+
+f=
+
+ rrdM M OI
+
+lamina tempusculo dt per angulum d vertetur, ut sit
+
+d =
+
+Vgdt 2 M OI
+
+;
+
+punctum ergo I perinde moveri incipiet, ac si tota massa ibi esset collecta eaque ab
+
+eadem vi V sollicitaretur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 312
+
+EXPLICATIO
+
+378. Fundamentum huius solutionis isti
+
+nititur principio, quod vires, quarum
+
+momenta respectu axis gyrationis se destruunt, in axem eundem effectum
+
+exerant, ac si hae vires ipsi axi immediate in suis directionibus essent applicatae. Quod etiamsi in ipsa solutione satis sit
+
+confirmatum, propterea quod vires evanescentes, quarum momenta se
+
+desruunt, recte negligi possunt, tamen, si quem evanescentia et distantia infinita, ad quam hae vires applicatae considerantur,
+
+offendant, idem alio modo ostendisse iuvabit. Sint ergo in eodem plano duae vires Bb et Cc, quarum momenta respectu puncti O se destruant, ita ut ductis in earum
+
+directiones ex O perpendiculis OB et OC (Fig. 40) sit Bb OB = Cc OC seu Bb:Cc = OC:OB.
+
+Concurrant earum directiones in E eaedemque vires quasi puncto E applicatae concipi
+
+possunt; tum autem dabitur una Ee illis aequivalens, cuius directio per ipsum punctum
+
+O necessario transit, alioquin enim inde momentum respectu O oriretur contra hypothesin. Quod etiam sic demonstratur. Sit Ee media directio virium Bb et Cc in E
+
+applicatarum, erit per resolutionem virium
+
+Bb : Cc = sin : sin  ;
+
+at eadem ratio valet, si Ee per O transeat, quoniam est sin : sin  = Oc : OB = Bb : Cc .
+
+Hinc vis aequivalens Ee quasi in O applicata considerari potest, quae sit O ; cui ergo etiam vires O et O ipsis Bb et Cc aequales aequivalebunt sicque loco virium Bb et
+
+Cc recte substituere licet vires O et O ipsis aequales et in ipso puncto O applicatas.
+
+Hac igitur demonstratione vicissim principium in solutione usurpatum extra dubium collocatur.
+
+SCHOLION
+
+379. Notatu omnino dignus est casus, quo vis corpus sollicitans nullam vim in axem
+
+gyrationis exerit, qui ergo sponte, dum vis effectum exerere incipit, in quiete manebit. Quo hunc casum accuratius cognoscamus, in recta OI ab axe O per centrum inertiae I
+
+producta quaeri debet punctum H (Fig. 39), ut sit distantia
+
+OH =
+
+ rrdM M OI
+
+;
+
+tum
+
+enim
+
+quaecunque vis Hh ad OH normalis in plano proposito nullo modo axem O afficiet.
+
+Infra autem patebit punctum H idem esse, quod vulgo centrum oscillationis vocari
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 313
+
+solet, quemadmodum I est centrum gravitatis. Ceterum hoc problemate soluto planior reddetur solutio sequentis, ubi corpori etiam extensio secundum longitudinem axis tribuitur.
+
+PROBLEMA 16
+380. Si corpus rigidum circa axem fixum OA mobile a quotcunque viribus sollicitetur, quarum directiones sint in planis ad axem normalis (Fig. 41), invenire vires, quibus in ipso motus initio axis immediate urgetur.
+
+SOLUTIO
+
+Cum omnes vires agant in planis ad axem normalibus, quaerantur singularum momenta respectu axis OA, quarum, prout in eundem sensum tendunt vel contra, aggregatum sit Vf, a quo corpus circa axem tempusculo dt vertatur per angulum d , ita ut particula in Z feratur in sensum Z . Assumtis in subsidium
+calculi binis directricibus OB et OC ad OA normalibus constituantur pro elemento corporis dM in Z sito ternae coordinatae OX = x, XY = y, YZ = z sitque eius ab axe distantia
+XZ = ( yy + zz) = r.
+
+Quibus positis supra invenimus fore
+
+d
+
+=
+
+Vfgdt 2  rrdM
+
+.
+
+Praeter has autem vires, quibus corpus actu sollicitatur, axis insuper sollicitatur a
+
+viribus aequalibus et contrariis iis, ad quas supra vires elementares reduximus (vide
+
+§366); ubi notandum est omnium harum virium momenta iunctim sumta se mutuo
+
+tollere. Quare, si loco cuiusque vis substituatur una ei aequalis ipsi axi in eadem
+
+directione applicata et alia evanescens ad distantiam infinitam applicata, cuius autem
+
+momentum sit illius momento aequale, omnium harum virium momenta se destruent
+
+et, cum evanescant, prorsus non in censum venient. Hinc igitur vires axem immediate
+
+sollicitantes ita se habebunt : Primo singulae vires corpus sollicitantes in planis ad
+
+axem normalibus ad ipsum axem in eadem directione applicentur; deinde ob vires
+
+elementares sumto intervallo
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 314
+
+OP
+
+=
+
+ xzdM  zdM
+
+in P secundum directionem ipsi OB parallelam axi applicetur
+
+P
+
+=
+
+Vf  zdM  rrdM
+
+;
+
+tum vero sumto intervallo
+
+OQ
+
+=
+
+ xydM  ydM
+
+in Q secundum directionem ipsi OC parallelam et oppositam applicetur
+
+vis
+
+Q
+
+=
+
+Vf 
+
+ ydM rrdM
+
+;
+
+sicque omnes habebuntur vires, quas axis immediate sustinebit, qui ergo satis fixus
+
+esse debet, ne ab iis de situ suo deturbetur.
+
+COROLLARIUM 1
+
+381. Si planum AOB ita capiatur, ut per corporis centrum inertiae transeat, erit
+
+ zdM = 0 , unde vis P evanescet, simul vero distantia OP fiet infinita; ubi tamen
+
+notandum est fore
+
+P
+
+ OP
+
+=
+
+Vf  xzdM  rrdM
+
+,
+
+ita
+
+ut
+
+hanc
+
+vim
+
+neglegere
+
+non
+
+liceat.
+
+COROLLARIUM 2
+382. Quoniam hoc modo omnes vires, quas axis sustinet, ipsi axi sunt applicatae, si eae se mutuo in aequilibrio teneant, axis nullam vim patietur corpusque circa eum, etiamsi sit liber, sponte converti incipiet.
+COROLLARIUM 3
+383. A singulis autem viribus corpus sollicitantibus oriuntur totidem vires ipsi axi applicatae, quibus deinde adiungi debent binae vires P et Q axi itidem applicatae; sicque omnes habentur vires axem afficientes.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 315
+
+EXPLICATIO
+384. Iam ante ostendimus, si duae vires eodem plano ad axem normali fuerint applicatae, quarum momenta se destruant, iis aequivalere duas aequales vires ipsi axi in iidem directionibus applicatas; nunc igitur, ne ullum dubium circa hanc solutionem supersit, ex principiis staticis demonstrari oportet idem valere, etiamsi illae vires in diversis planis ad axem normalibus fuerint applicatae. Sit igitur axi OA (Fig. 42) in plano ad E normali applicata vis quaecunque in figura non expressa, tum vero in plano ad axem in F normali applicata sit vis Nn, cuius momentum illius momento sit aequale et contrarium, sitque recta FN ad directionem istius vis Nn perpendicularis. Ducatur ex E recta EM ipsi FN aequalis et parallela, cui in M vis Mm ipsi Nn aequalis et parallela applicata concipiatur; tum vero in E et F aequales vires illis Fv et E itidem parallelae applicatae intelligantur. Atque evidens est tres vires Mm, E et F aequivalere vi uni Nm, quoniam haec contrario modo applicata cum illis tribus aequilibrium constitueret. Quare loco vis Nn substituere licet tres vires Mm, E et F , quarum binae posteriores ipsi axi, prior autem in eodem plano ad axem normali, in quo vis non expressa agit, est applicata. Cum igitur huius vis Mm momentum aequale sit et contrarium momento vis in figura non exhibitae, eae vires ad ipsum axem transferri possunt, sicque loco vis Mm, substituetur vis EM ipsi aequalis et parallela; quae cum a vi E destruatur, unica relinquitur vis Fv, quae iam locum vis Nn sustinebit, dum etiam vis in figura non expressa axi in puncto E applicatur. Ex quo in genere intelligitur loco virium, quarum momenta se destruunt, easdem vires ipsi axi applicatas substitui licere, siquidem directiones fuerint in planis ad axem normalibus.
+PROBLEMA 17
+385. Si corpus rigidum circa axem fixum OA mobile a viribus quibuscunque sollicitetur, definire vires, quibus axis in datis duobus punctis O et A sustentari debet, ne de situ suo deturbetur (Fig. 41).
+SOLUTIO
+Per alterum datorum punctorum O statuantur binae directrices OB et OC tam inter se quam ad axem OA normales, et positis pro corporis elemento quovis dM in Z sito
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 316
+
+ternis coordinatis OX = x, XY = y et YZ = z vocetur eius ab axe distantia
+XZ = ( yy + zz ) = r. Tum considerentur singulae vires corpus sollicitantes et, quae
+
+fuerint obliquae, resolvantur in binas, quarum alterae sint axi OA parallelae, alterae
+
+vero in planis ad axem normalibus sint sitae. Priores, quae ad motum nihil conferunt,
+
+quantum effectum in axem exerant, supra (§372) definivimus, unde simul patet,
+
+quantae vires inde in datis punctis O et A oriantur. Posteriores vero simul praebeant
+
+momentum = Vf ad corpus in sensum Z convertendum; earum autem quaelibet
+
+puncto axis, cui respondet, in sua directione applicetur, cuiusmodi una vis sit LA = L. Huius ergo loco in O et A applicentur vires parallelae O et AA , ut sit
+
+O
+
+=
+
+L
+
+
+
+AL OA
+
+et
+
+AA
+
+=
+
+L
+
+
+
+OL OA
+
+,
+
+quippe quae duae illi aequivalent; atque hoc modo ex singulis viribus tales binae vires
+
+ad puncta O et A transferantur. Deinde vero posito intervallo OA = a ob vires
+
+P et Q puncta O et A sustinebunt vires Oo, Aa et O, A illis parallelas, ita ut sit
+
+vis
+
+Oo
+
+=
+
+Vf
+
+ (a- x)zdM a rrdM
+
+,
+
+vis
+
+Aa
+
+=
+
+Vf  xzdM a rrdM
+
+,
+
+vis
+
+O
+
+=
+
+Vf
+
+ (a- x)ydM a rrdM
+
+,
+
+vis
+
+A
+
+=
+
+Vf  xydM a rrdM
+
+.
+
+Cum igitur hoc pacto omnes vires, quas axis sustinet, ad puncta O et A fuerint
+
+perductae, ab his iunctim sumtis ista axis puncta revera sollicitabuntur; quare ea a
+
+viribus contrariis coerceantur necesse est.
+
+COROLLARIUM 1
+
+386. Omnes istae vires axi in puncti O et A applicatae simul ad axem sunt normales, nisi affuerint vires axi parallerae, unde praeter normales axis etiam secundum suam longitudinem urgetur.
+
+COROLLARIUM 2
+387. Quotcunque autem vires utrique termino O et A applicatae reperiuntur, pro utroque cunctas ad unam revocare licet, quam propterea axis in eo puncto sustinebit; quae vires in O et A nisi evanescant, axis non sponte in situ suo permanebit.
+
+COROLLARIUM 3
+388. Si nullae adsint vires axi parallelae, axis etiam nequaquam secundum suam longitudinem urgetur, sed in punctis O et A viribus tantum ad axem normalibus erit resistendum, unde sufficiet axem intra duos annulos fixos suspendisse.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 317
+
+SCHOLION
+389. Hic autem nondum modos, quibus axis in quiete conservari solet, explicare licet, quoniam in praxi axes corporum notabilem crassitiem habent, ita ut suspensio non ad axem linearum, qualem hic postulamus referatur; quare cavendum est, ne ea, quae hic de axe lineari sunt demonstrata, temere ad quosvis axes crassos extendantur. Teneatur ergo hic perpetuo axem nobis esse lineam rectam, quae moto corpore ipsa non moveatur, cuiusmodi motus existeret, si corpus intra duas cuspides contineretur, circa quas tamen liberrime sine frictione revolvi posset. Sin autem adsit axis materialis, qualis rotis affigi solet, isque vel plano vel cavitati incumbat, eius motus utique in computum veniat necesse est, neque tum facile erit lineam illam, quae durante motu corporis ipsa maneat immota, assignare. Verumtamen, quia hic nobis tantum de primo motus initio sermo est, haud difficile est lineam, quae pro quovis suspensionis modo in quiete persistat, agnoscere.
+PROBLEMA 18
+390. Si corpus rigidum circa axem OA fuerit mobile, invenire vires, a quibus si corpus sollicitetur, axis inde nullas plane vires sustineat.
+SOLUTIO
+Huiusmodi vires applicari debent in planis ad axem normalis et, quoniam, quotquot earum fuerint, eas ad duo plana reducere licet, quaeramus vires in planis ad axem in punctis O et A normalibus applicandas, a quibus axis nullatenus afficiatur. Constitutis ut ante in O binis directricibus OB et OC tam inter se quam ad axem OA normalibus (Fig. 43), iisdem in A parallelae statuantur AF et AH. Quodsi iam solutio praecedentis problematis et formulae ibi inventae in subsidium vocentur, huic problemati satisfiet, si rectis BO, OC, AF et AH alicubi vires applicentur illis Oo, O, Aa et A , quas ibi invenimus, aequalis et contrariae, quoniam hae ad axem translatae a
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 318
+
+viribus elementaribus destruuntur. Sint ergo Ee et Ff vires directrici OC, at Gg et Hh vires directrici OB parallelae, quae agant, uti figura ostendit. Quare posita distantia OA = a vires istae ista esse debent comparatae :
+
+vis
+
+Ee
+
+=
+
+Vf
+
+ (a- x)ydM a rrdM
+
+,
+
+vis
+
+Ff
+
+=
+
+Vf a
+
+ xydM  rrdM
+
+,
+
+vis
+
+Gg
+
+=
+
+Vf
+
+ (a- x)zdM a rrdM
+
+,
+
+vis
+
+Hh
+
+=
+
+Vf  xzdM a rrdM
+
+.
+
+Praeterea vero summam momentarum harum quatuor virium ipsi Vf aequalem esse
+
+oportet; ex quo erit
+
+OE   (a - x)ydM + AF   xydM + OG   (a - x)zdM + AH   xzdM = a rrdM .
+
+Cui aequationi ita infinitis modis satisfieri potest, ut ternis distantiis pro lubitu assumtis quarta determinetur. Facilior autem reddetur solutio, si tam distantiae OE, AF, quam OG, AH aequales capiantur : statuamus ergo
+OE = AF = m et OG = AH = n, atque fieri oportet
+m ydM + n zdM =  rrdM ,
+unde vel m vel n pro lubitu assumi potest. Deinde sufficit, ut quatuor illae vires rationem superiorum formularum teneant, ita ut sint :
+
+vis
+
+Ee
+
+=
+
+ (a- x)ydM ab
+
+,
+
+vis
+
+Ff
+
+=
+
+ xydM ab
+
+,
+
+vis
+
+Gg
+
+=
+
+ (a- x)zdM ab
+
+,
+
+vis
+
+Hh
+
+=
+
+
+
+xzdM ab
+
+.
+
+Hae ergo quatuor vires praescripto modo corpori applicatae axem plane non afficient.
+
+COROLLARIUM 1
+
+391. Si planum AOB per centrum inertiae I capiatur, erit  zdM = 0 et
+
+KI
+
+=
+
+ ydM M
+
+denotante
+
+M
+
+massam
+
+totius
+
+corporis.
+
+Erunt
+
+ergo
+
+vires
+
+:
+
+vis
+
+Ee
+
+=
+
+MaKI - xydM ab
+
+,
+
+vis
+
+Ff
+
+=
+
+ xydM ab
+
+,
+
+vis
+
+Gg
+
+=
+
+-
+
+xzdM ab
+
+,
+
+vis
+
+Hh
+
+=
+
+
+
+xzdM ab
+
+,
+
+earumque distantiae ab axe in genere ita debent esse comparatae, ut sit
+
+Ma  KI OE + (AF - OE)  xydM + (AH - OG) xzdM = a rrdM
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 319
+
+COROLLARIUM 2
+
+392. Si etiam ipse axis OA per centrum inertiae I transeat, ut sit KI = 0, vires ita se
+
+habebunt :
+
+vis
+
+Ee
+
+=
+
+-
+
+xydM ab
+
+,
+
+vis
+
+Ff
+
+=
+
+ xydM ab
+
+,
+
+vis
+
+Gg
+
+=
+
+-
+
+xzdM ab
+
+,
+
+vis
+
+Hh
+
+=
+
+
+
+xzdM ab
+
+,
+
+earumque distantiae ab axe hoc modo, ut sit
+
+(AF - OE)  xydM + (AH - OG) xzdM = a rrdM .
+
+COROLLARIUM 3
+
+393. Quodsi ergo valores integralium  xydM et  xzdM evanescant, tam vires
+evanescunt, quam distantiarum quaedam debent esse infinitae. At loco vis evanescentis in distantia infinita applicatae substituere licet duas in distantiiis finitis applicandas.
+
+SCHOLION 1
+
+394. Vires hic investigavimus in duobus planis ad axem normalibus applicandas, a quibus axis nullam vim sustineat. His autem viribus infinitis modis aliae tam in iisdem planis quam in aliis aequivalentes exhiberi possunt. Veluti loco vis Ee sumi possunt vires Pp et O in directionibus parallelis, ut sit
+Pp =Ee + O et Ee  EP = O OP
+
+seu
+
+Ee = Pp - O
+
+et
+
+OE
+
+=
+
+OPPp Pp -O
+
+.
+
+Quare ducto plano AOB per centrum inertiae I corporis locoque vis Ee introductis viribus Pp et O , quarum altera O maneat indefinita, reliquae ita se habebunt :
+
+vis
+
+Ee
+
+=
+
+vis
+
+O
+
++
+
+MaKI - xydM ab
+
+,
+
+vis
+
+Ff
+
+=
+
+ xydM ab
+
+,
+
+vis
+
+Gg
+
+=
+
+-
+
+xzdM ab
+
+,
+
+vis
+
+Hh
+
+=
+
+
+
+xzdM ab
+
+;
+
+ab OP  vis O + Ma  KI OP - OP   xydM + AF   xydM + (AH - OG) xzdM = a rrdM .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 320
+
+Si praeterea simuli modo loco vis Ff binae vires Rr et A introducantur, cum sit
+
+Ff
+
+=
+
+Rr - A
+
+et AF
+
+=
+
+ARRr Rr - A
+
+atque vis A arbitrio nostro relinquatur, erunt vires:
+
+vis
+
+Pp
+
+=
+
+vis
+
+O
+
++
+
+MaKI - xydM ab
+
+,
+
+vis
+
+Rr
+
+=
+
+vis
+
+O
+
++
+
+
+
+xydM ab
+
+,
+
+vis
+
+Gg
+
+=
+
+- xzdM ab
+
+,
+
+vis Hh =  xzdM .
+ab
+
+Tum vero distantiae ita debent esse comparatae :
+
++ ab OP  vis O + Ma  KI OP + (AR - OP) xydM
+
++ ab  AR  vis A
+
++ (AH - OG) xzdM = a rrdM .
+
+Si denique loco vis Gg binae Qq et O nec non loco vis Hh
+
+binae Ss et A introducantur, ob
+
+Gg = Qq - O ,
+
+OG
+
+=
+
+OQQq Qq -O
+
+,
+
+Hh = Ss - A ,
+
+AH
+
+=
+
+AS Ss Ss- A
+
+,
+
+iam in genere vires ita capiantur :
+
+vis
+
+Pp
+
+=
+
+vis
+
+O
+
++
+
+MaKI - xydM ab
+
+,
+
+vis
+
+Rr
+
+=
+
+vis
+
+A
+
++
+
+
+
+xydM ab
+
+,
+
+vis
+
+Qq
+
+=
+
+vis
+
+O
+
+-
+
+ xzdM ab
+
+,
+
+vis Ss = vis A +  xzdM ,
+ab
+earumque distantiae ab axe ita se habeant, ut sit
+
++ ab OP  vis O + Ma  KI OP + (AR - OP) xydM
+
++ ab  AR  vis A
+
++ (AS - OQ) xzdM
+
++ ab OQ  vis O
+
++ ab  AS  vis A
+
+= a rrdM .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 321
+
+Nunc igitur, etiamsi intervallum KI cum integralibus  xydM et  xzdM evanescat,
+tamen infinitae habentur vires finitae et in distantiis finitis applicatae, quae quaesito satisfaciant.
+SCHOLION 2
+395. In hac generali solutione quatuor relinquuntur vires O , O , A et A arbitrio nostro axi in punctis O et A secundum binas directiones OB et OC applicandae: deinde etiam quaternarum reliquarum virium Pp, Qq, Rr, et Ss distantiae ab axe OP, OQ, AR et AS pro lubitu assumi possunt, dummodo quantities ab ita definiatur, ut sit
+
+ab
+
+=
+
+a rrdM -MaKI OP+(OP- AR) xydM +(OQ- AS ) xzdM OPvis O +OQvis O + ARvis A + AS vis A
+
+.
+
+Quo valore invento vires hae posteriores ita determinantur, ut sit
+
+vis
+
+Pp
+
+=
+
+vis
+
+O
+
++
+
+MaKI - xydM ab
+
+,
+
+vis
+
+Rr
+
+=
+
+vis
+
+A
+
++
+
+
+
+xydM ab
+
+,
+
+vis
+
+Qq
+
+=
+
+vis
+
+O
+
+-
+
+ xzdM ab
+
+,
+
+vis
+
+Ss
+
+=
+
+vis
+
+A
+
++
+
+
+
+xzdM ab
+
+,
+
+quae vires respectu priorum habent directiones oppositas; omnes autem momenta in
+
+eundem sensum tendentia praebere assumuntur eritque momentum totale ex omnibus
+
+ortum =
+
+a rrdM ab
+
+, quod supra vocavimusVf, ex quo motus initium ita definitur, ut
+
+tempusulo
+
+dt
+
+corpus
+
+vertatur
+
+per
+
+angulum
+
+d
+
+=
+
+gdt 2 b
+
+.
+
+Recordandum
+
+est
+
+autem
+
+hic
+
+a
+
+designare intervallum OA, tum vero pro quolibet corporis elemento dM coordinatas
+
+directricibus OA, OB, OC parallelas esse x, y, z, quarum prima x a puncto O capiatur;
+
+praeterea vero hic planum AOB per centrum inertiae I corporis duximus, ut esset OC
+
+ad istud planum normalis.
+
+PROBLEMA 19
+
+396. Si corpus rigidum circa axem fixum mobile sollicitetur a viribus quibuscunque atque ad motum cieatur, definire vires, quas ipsa corporis compages sustinet.
+
+SOLUTIO
+
+Hic eiusmodi vires inveniri oportet, quae corpori applicatae id quidem in aequilibrio teneant, simul vero compagem eius aeque afficiant, atque ea in productione motus afficitur. Primo ergo corpus sustinet vires, quibus actu sollicitatur, ubi eae partes, quibus singulae immediate sunt applicatae, probe notentur; quandoquidem quaelibet vis unicam tantum corporis particulam urget. Deinde ex momento omnium
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter THREE.
+
+Translated and annotated by Ian Bruce.
+
+page 322
+
+istarum virium colligantur vires elementares, quae in singulis elementis parem motum gignerent; ac singulis elementis his aequales et contrariae applicatae concipiantur, quarum loco hic alias ipsis aequivalentes ut supra substituere non licet, quoniam hunc ipsa rigiditatis ratio exquiritur. Tertio adiiciantur vires, quibus axis actu in quiete servatur; atque hi tres virium ordines corpus in perfecto aequilibrio continebunt simulque in compage partium idem plane efficiunt, quod corpus in motus generatione patitur. Hincque intelligitur, quam firmo nexu singulae corporis particuale inter se colligatae esse debeant, ut nulla earum divulsio sit metuenda, et, nisi compages his viribus satis resistere valeat, corpus non pro rigido esset habendum.
+
+SCHOLION
+
+397. Hic plus definire non suscipimus, quam quantis viribus singulae corporis particulae sollicitentur, quae eas a nexu cum reliquis avellere conentur; quomodo enim structura corporis huic effectui resistat, huius loci non est inquirere, propterea quod haec ratio rigiditatis cuique corporum generi est peculiaris. Ceterum in hoc capite tantum motus initium, qui corpori rigido circa axem fixum mobili a viribus quibuscunque imprimitur, sumus contemplati, quo facilius solus virium effectus a motu iam insito separatus perspiceretur. Imprimis autem hinc ad sequentes investigationes subsidia petentur, quando, dum corpus circa quempiam axem gyratur, vires adsunt id circa alium axem convertere conantes; tum enim ex effectu momentaneo circa hunc axem producto iudicare licebit, quomodo motus praecedens turbetur. Nunc igitur corpus rigidum in motu circa axem fixum considerabimus et scrutabimur, quomodo is a viribus quibuscunque immutari debeat, postquam iam demonstravimus eius motum, si nullae adessent vires sollicitantes, uniformem esse futurum. Praeterea vero vires, quas axis gyrationis interea sustinet, sollicite erunt perpendendae.
+
+

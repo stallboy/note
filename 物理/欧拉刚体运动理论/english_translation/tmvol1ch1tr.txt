@@ -1,0 +1,1678 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 207
+
+Chapter I
+
+Concerning the Progressive Motion of Rigid Bodies
+
+DEFINITION 1
+260. A body is called rigid, the shape of which undergoes no change, or the individual elements of which maintain a constant distance amongst themselves.
+COROLLARY 1
+261. Hence with the position of four points of the body known, the situation of this rigid body is known, since then the locations of all the remaining points can be determined; provided these four points do not lie in the same plane.
+COROLLARY 2
+262. Also generally it is sufficient to know the position of three points to know the position [of all the points] of a rigid body, as long as they do not lie along the same direction; in this way a twofold situation is left, most often, either location is given, with the other accessible. [The requirements to establish an origin and two axes defines a plane; the other coordinate can be above or below this plane.]
+EXPLANATION
+263. I do not define rigid bodies thus, so that the shapes of these as it were cannot suffer any change ; since it is agreed that nowhere in the world are bodies given that are so hard that generally no suitable forces are available to alter the shape, since even the hardest steel can be broken into pieces. Hence I refer all bodies to that class of rigid bodies, which, while they may be moving, do not undergo a change in their shape by any of the forces they are subjected to, and to this extent they are able to withstand any change in their shape, even if they should be unable to withstand greater forces. Thus in bodies, the motion of which I have decided to observe here, from parts of this kind I have set up a tied structure [held together by bonds], that is unable to be disturbed by the forces acting, without having to worry about when they should be affected by other forces. Hence, concerning the forces acting, this chiefly is to be attended to, that with respect to these forces, the bodies are to be given as rigid, and the strength of which can resist the action of these forces well enough, even if with respect to other forces they should not be considered as rigid. And thus it arises, that very soft and weak bodies shall be rigid for us, while others much harder must hence
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 208
+
+be excluded. Whereby, while we investigate the motion of bodies of this kind for forces, for which the bonds and the connection of the part is affected, it is agreed to inquire carefully into the forces, in order that we may understand how much firmness shall be necessary, in order that the shape may be conserved. Therefore we will regard a body as rigid, when a bond between the parts of this is firm enough, so that indeed two elements, which the body sustains on being acted on by the forces, neither in turn can be forced closer together nor torn apart.
+
+SCHOLIUM
+264. Hence a rigid body is unable to receive any motion, unless all the points in which always keep the same distance between each other ; such a body is capable of nothing less than infinitesimal motions, while indeed so far one certain point of this body is taken at rest, another can be carried around the circumference of a sphere, and however this is moving, some other third point is able to be moving either faster or slower, in order that it still maintains the appropriate distances from these two points. From which it is understood, if no point is at rest, that the complexity of the motions which can be present in the body thus far considered will be much greater ; but with the known motions of the three points not in the direction of that allowed for the motion, then the motion of all the remaining points, that is, the motion of the whole body, will not be known. But among all these motions this is the simplest, in which the individual points of the body follow directions parallel to each other with equal speeds in whatever moment of time they are moved forwards; for in such motion the relative position of all the particles is by no means disturbed. And this kind of motion, that falls to all bodies, we will consider more carefully.
+DEFINITION 2
+265. Progressive motion is that, in which the individual points of the body are moving forwards with the same speeds along directions parallel to each other at whatever moment of time.
+COROLLARY 1
+266. Therefore from the known motion of a single point the motion of all the points becomes known as equal to that; indeed that point and any individual points are carried along the same direction and with the same speed for any moment of time.
+
+COROLLARY 2
+267. Therefore some one point describes by the motion either along a right line or a curve, clearly all the points are moved in a similar way in equal right lines or curves.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 209
+
+COROLLARY 3
+
+268. In such a motion, either a right line or a curved line, the distance of any two points of the body does not change. Also the lines joining any two points always remain parallel to each other.
+
+SCHOLIUM
+
+269. As this motion is the simplest, and all the bodies of this kind are large, the first consideration presents itself, and we first turn our attention to the motion of celestial bodies. For while we look at these points, thus as we have put a calculation in place, as if they are carried by progressive motion through the heavens only, and then finally at last we may present in addition the motion of the gyrations; where indeed the former is usually called the periodic motion, the latter that of the gyration. But when we attribute the motion of the body to progression alone without any gyration added, we may thus consider the matter as the straight lines joining any two points of the body always being parallel to each other, or they maintain the same direction towards a region of the heavens. But just as this condition of the motion at some location is not given, that body is not to be moved with a pure or progressing forwards only, but in addition is thought to be involved in some gyratory motion ; how a mixture of this kind occurs is set out in more detail below. Hence moreover it appears at once that the moon, because it almost always turns the same face to the earth, is not moving forwards in a purely progressive motion, for its motion involves a certain gyration. Which motions hence are to be treated in this chapter, that are concerned with a pure progressive motion, even if it is not said to be pure, then this is to be understood ; for when a certain gyration is added on top, the motion crosses over into another kind.
+THEOREM 1
+
+270. A body, to which once there should be impressed a progressive motion, on account of inertia always goes on with this uniform motion in a fixed direction, unless it should be disturbed by some external cause.
+
+DEMONSTRATION
+
+The body may be conceived to be divided up into the smallest elements, and since the single parts take equal speeds along parallel directions, while they try to remain in their own state, they do not change the relative situation between themselves. Hence all the elements likewise are able to pursue their own motion along a direction without any danger of penetration and hence no force arises which tends to change the state of any element. Therefore the individual elements likewise continue their own motion, and if they should be free from each other and with no bonds between them they still
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 210
+
+stay together. Whereby, unless external causes are added, the body, that once accepted a progressive motion, goes on to progress forwards with this uniform motion perpetually in a fixed direction.
+
+COROLLARY 1
+
+271. Hence as the body is finite, if once it comes to rest, it continues at rest, thus, if once it takes a progressive motion, it preserves the same always. And thus the perseverance of bodies in the same state applies to bodies of finite size, as long as the motion should be progressive.
+COROLLARY 2
+
+272. Because from the continuation of this state of the parts of the body no binding force is apparent, the conservation of the shape arises without any firmness, therefore with regard to such, the motion of all bodies can be considered as rigid.
+
+COROLLARY 3
+
+273. Hence inertia is the cause, as all bodies, lest with the exception of fluids, of which the particles are not connected to each other by small chains, remain either in a state of rest or to be continuing to progress uniformly in the same state of motion.
+EXPLANATION
+
+274. The truth of this theorem depends on the fundamental principle that the individual elements are able to pursue their own freedom and not to have any impedance, by which the remaining bodies continue in their own state. The reason for this is more clearly seen, if we consider a case in which the initial motion of the body had some gyration impressed, thus in order that other elements begin to move more quickly or more slowly; then indeed, if the individual elements should each continue their motion, soon they would be separated from each other in turn and scattered, and thus the bonds of the body would be loosened. Hence in this case bonds between the particles would stand in the way, by which the equal individual motions of the elements would be impressed less along parallel directions, which is the condition of the motion to be progressive, for there is no cause present why the situation of any elements should be changed. Moreover no element can be allowed to make a change in its motion, without likewise disturbing the state of the remaining particles. From which it is necessary that the body, because one it has accepted a motion of this kind, must be progressing uniformly along a direction for ever. Where in the first place it is to be noted that in such a motion the bond of the parts sustains no force, thus so that, even if between these with every bond being removed, yet the elements maintain the
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 211
+
+same distances between each other always. Whereby, as no force is arising to change the shape of the body, to that must be accorded the rigidity to resist, and all bodies with respect of such motion can be considered as rigid.
+
+THEOREM 2
+
+275. If the individual elements of the body have been carried along by forces in a progressive motion, which are proportional to the masses of these, acted upon along directions parallel to each other, the relative situation of these does not change and the individual elements are free to continue their own motion.
+
+DEMONSTRATION
+
+Since the forces disturbing the individual elements are established to be proportional to the masses, they produce equal effects in the same time, and since the directions of the forces are parallel to each other, then from the action of the forces the relative situation of the parts does not change and the individual elements likewise are moving in accordance with whatever forces they may have of their own, and if from these in turn they are to be freed. Clearly all the elements at some instant are moving equally, thus so that the motion of the whole body is soon to become equal to the motion, by which some element is moving, if it should be alone ; and thus the motion of the body progresses.
+
+COROLLARY 1
+
+276. Hence neither in this case, even if forces should be present acting, the bonds of the parts should sustain no force. From which, if indeed the body should be fluid and the parts of this in turn are not held together by any bond, yet it maintains its motion and can be considered as rigid.
+COROLLARY 2
+
+277. Therefore as the forces can be compared with the single instances of time, the individual elements of the body are moving either in straight lines or along curves and, if the motion of one is determined, likewise the motion of the whole body is known.
+
+COROLLARY 3
+
+278. But a body is put in place with forces of this kind acting, which thus act on the individual elements of the body, so that they are in proportion to the masses and acting along directions parallel to each other. Then is required, that the body initially should
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 212
+
+either be at rest or undertaking a pure motion, in which the individual elements of this have begun to move with equal speeds along the same direction.
+
+SCHOLIUM
+
+279. If these should be in doubt, and forces of this kind should be given, which thus act on the individual elements of the body, so that they are in proportion to the masses of these, and likewise acting along the same direction, then indeed the example of gravity can be raised, which, as now we have noted above, it affects the individual elements of bodies and indeed by reason of the mass. Now this property of the mass can be admitted for extremely small bodies only, so that [their size] can be taken as zero besides the distance from the centre of the earth; if indeed a specified body has a mass, the element of which is at a greater or less distance from the centre of the earth, then it undergoes unequal actions under gravity ; then also the directions of the individual forces, clearly which converge around the centre of the earth, are no longer able to be given as being parallel. But here little is sought from that effect, or we assume the forces are of the kind, such as we assume in the theorem, that are present in the world; indeed it is sufficient for the truth of such forces to be recognised even if perhaps they are fictitious. But as concerns these forces we have shown, the same prevails likewise with other forces which are equivalent to these ; and hence that must be the starting point, if indeed we wish to investigate the effect of any kind of forces acting on a rigid body. Now such forces are clearly equivalent to these assumed for a rigid body as taught in statics, thus the investigation of one force from these equivalent forces has to be considered. But so far, only the reduction of all that infinitude of forces to a single force has been put in place, as far as the body is rigid and resists change of shape ; if indeed all the elements of this body in turn are able to be freed completely from each other, then it is not possible to substitute in place of these the other forces, which by themselves are perfectly equivalent. Now therefore the reason for rigidity or firmness, by which the parts of the body are connected, can be advanced into the calculation.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 213
+
+PROBLEM 1
+
+280. If the individual elements of a rigid body are acted upon along directions parallel to each other, which are themselves in proportion to the masses, to find the single equivalent force from all these forces jointly taken together.
+
+SOLUTION
+
+A rigid body can be referred to the three directrices OA, OB, OC normal to each other (Fig. 27) and let Z be some element of this, the mass of which is put equal to dM while the whole mass of the body the called M. There are put in place of the point Z, the three coordinates parallel to the directrices: OX = x, XY = y and YZ = z. Therefore the individual elements of the body are acted on by forces themselves in proportion to the masses along the directions parallel to the directrix OC, thus in order that the element dM at Z is acted on in the direction Zv by a force equal to dM . Since all these forces are parallel to each other, the equivalent general force maintains the same direction and is equal to the sum of all these forces, thus so that it is equal to M . The right line GV can be assigned parallel to OC and hence the force is equivalent to M , the position of which from the point G, where that crossed the plane AOB, will become known. Hence with the right lines GE and GF parallel to the directrices OB and OA and calling OE = e and OF = f, and from statics the moment of the force GV with respect to any axis must agree to be equal to the moments of the individual forces likewise taken with respect to the same axis. Now with respect to the axis OA the moment of the force Zv = dM is equal to  ydM and
+
+the sum of all the moments is equal to   ydM , which must be equal to the moment
+
+of the force GV, which is equal to Mf , thus there is made :
+
+f
+
+= OF
+
+= GE =
+
+ ydM M
+
+.
+
+In a similar manner with respect to the axis OB there is the force Zv = dM , and the
+
+moment is equal to  xdM , the integral of this is equal to   xdM , which must be
+equal to the moment of the force GV = M with respect to the same axis, which is equal to Me , thus there comes about :
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 214
+
+e
+
+=
+
+OE
+
+=
+
+GF
+
+=
+
+
+
+xdM M
+
+.
+
+And from these formulas the position of the equivalent force GV can now be determined, the magnitude of which is equal to M , in a direction parallel to the
+
+directrix
+
+OC,
+
+and
+
+distant
+
+from
+
+the
+
+plane
+
+AOC
+
+by
+
+the
+
+interval
+
+GE
+
+=
+
+
+
+ydM M
+
+,
+
+and
+
+moreover
+
+from
+
+the
+
+plane
+
+BOC
+
+by
+
+the
+
+interval
+
+GF
+
+=
+
+ xdM M
+
+.
+
+And
+
+thus
+
+there
+
+is
+
+given
+
+the
+
+one force GV = M equivalent to all the elementary forces Zv, but only if the body
+
+should be rigid, as it is assumed in statics.
+
+COROLLARY 1
+
+281. Hence while the elementary forces Zv are proportional to the small masses and parallel to each other, the general equivalent force GV has the same position, if these forces are either greater or less, for the letter  does not enter into the distances GE and GF.
+COROLLARY 2
+
+282. Since the direction of the equivalent force GV = M is parallel to the line OC, but only just as a single point I may be agreed, through which it may pass, and the position of this can be determined completely. Moreover from the formulas found for GE and GF , it is clear that the direction GV passes through the centre of gravity of the body.
+
+COROLLARY 3
+
+283. Therefore the whole body force GV is given by M , but only if it is carried forwards by a pure motion, and likewise this can be put into effect, and the force on any element Zv = dM , remains an element of the body dM of the whole body moving forwards, while the individual elements of this are carried forwards by an equal motion.
+SCHOLIUM
+
+284. Because, if the elementary forces are parallel to the directrix OC, the mean
+
+direction
+
+GV
+
+is
+
+distant
+
+from
+
+the
+
+plane
+
+AOC
+
+by
+
+the
+
+interval GE
+
+=
+
+
+
+ydM M
+
+and
+
+from
+
+the
+
+plane
+
+BOC
+
+by
+
+the
+
+interval GF
+
+=
+
+
+
+xdM M
+
+;
+
+thus
+
+if
+
+the
+
+elementary
+
+forces
+
+of
+
+the
+
+elements
+
+are also proportional to the masses parallel to the directrix OB, the same mean
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 215
+
+direction is parallel and distant from the plane BOC by an interval equal to
+
+ xdM M
+
+and
+
+from the plane AOB by an interval
+
+ ydM M
+
+. Whereby, since all these mean directions
+
+are equidistant both from the plane AOB as well as from AOC and BOC, these cut each
+
+other at a common point ; which point if it is I, the position of this thus can be
+
+compared, in order that :
+
+OE =  xdM , EG =  ydM , GI =  zdM .
+
+M
+
+M
+
+M
+
+Hence this point I once found, if the individual elements of the body are acted on along some common direction by forces in proportion to the masses themselves, then the force equivalent to all these passes through this point I. And because the force equivalent to the sum of all the elemental forces is equal and kept in the same direction, the position of this through the point I is completely determined. But this point agrees with that which is commonly called the centre of gravity, the reason for this agreement clearly is, because the individual elements of mass are assumed to be proportional to the weight and the directions of the weights are assumed to be parallel to each other. Now since this hypothesis is not always true and the point I may not depend on gravity at all, yet it has a place in all bodies, it will be better to be called by that other name.
+
+DEFINITION 3
+
+285. The centre of mass or the centre of inertia is a point in any body, around which the mass or inertia is equally distributed in some manner according to the equality of the moments.
+
+EXPLANATION
+
+286. The centre of mass or inertia is the same point, as that which is commonly called the centre of gravity; moreover since this point thus is essential to all bodies, in order that for these bodies it can be agreed upon on account of inertia alone, and moreover gravity must be considered as an extrinsic force acting on bodies, thus I have preferred to attribute to that the name of the centre of mass or inertia, since that is understood to be determined by inertia only. Because moreover on account of the equality of the mass to be kept in mind around this centre, it is less easily explained. Without doubt the best explanation is desired from the rule, by which this centre is found. Of course the body is referred to the three directrices OA, OB, and OC normal amongst themselves, from which the parallel coordinates both for any element of the body as well as for the centre of inertia I, which is sought. Let the whole mass of the body be equal to M, of which some element is considered at Z of which the element of mass
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 216
+
+put in place is equal to dM, and on calling the coordinates OX = x, XY = y and YZ = z
+
+the position of the centre of inertia I thus is determined, so that it becomes :
+
+OE
+
+=
+
+
+
+xdM M
+
+,
+
+EG
+
+=
+
+
+
+ydM M
+
+and
+
+GI
+
+=
+
+ zdM M
+
+,
+
+with these integrations extending over the whole body. But if hence the point is itself taken as the centre of inertia I, these three integrals
+
+ xdM ,  ydM and  zdM vanish, thus we hence learn about the nature of the centre
+
+of inertia, that, if the body is cut by some plane passing through the centre of inertia,
+
+the individual elements of the body multiplied by the distance from that plane produce the same sum on both sides. And thus these principles are to be understood, how the equality of the distribution of the material around the centre of mass or inertia
+
+according to the equality of moments have been stated.
+
+COROLLARY 1
+287. Therefore if the individual elements of the body along the same direction are acted on by forces themselves proportional to the elements of mass, a single force is equivalent to these applied at the centre of inertia equal and parallel to the sum from these, if indeed the body should be rigid.
+COROLLARY 2
+288. And in turn, if some force were applied to a rigid body at the centre of inertia, that can be considered to act as if through all the elements of mass of the body proportionally distributed. And on account of the equivalence of the effect on disturbing the motion, they shall be equal.
+SCHOLIUM
+289. But if a rigid body hence is acted on by a force, the direction of which passes through the centre of inertia, to that body if at rest, a progressive motion will be impressed, but now if it is carried by the progressive motion, indeed either the speed or the direction or both of these will change, yet thus truly so that the motion remains progressing. That is, if we consider some right lines drawn by the body, these by enduring with the motion themselves always remain parallel, which is the criterion of progressive motion. Hence how the motion of rigid bodies of this kind is agreed to be determined, we shall see in the following problem. Meanwhile it has to be warned, lest the equivalence of forces shown here may be extended to non rigid bodies, a certain basis of this, that with the equilibrium of a lever has been put in place, it may have been flawed, if the lever is able to be bent by the forces. On account of which here I take the bodies as rigid, so that by the forces acting no changes in their shape are
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 217
+
+apparent ; and I will investigate those that must have firm bonds in the following, in order that the action of the forces are able to be sustained without any change in the shape.
+
+PROBLEM 2
+
+290. If a rigid body, that initially is either at rest or is progressing uniformly, is continually acted on by forces, the mean direction of which passes through the centre of inertia of this body, to determine the motion of this body.
+
+SOLUTION
+Because the force, by which the body is disturbed, or if there should be several, the mean direction of these always passes through the centre of inertia of this body, as the motion is changed in some manner by reason of both the speed and direction, yet all the time it must remain progressing. Hence it suffices for that to be understood that the motion of a certain single point of this body has been defined ; since indeed the initial position of the body with respect to this point has been put in place, that henceforth will be maintained, if indeed as we have assumed, initially it is at rest or it has taken a pure progressive motion. Whereby therefore chiefly it will be agreed that the motion of the centre of gravity of this, since the force is acting as if considered to be applied to that. Thus let the mass of the body equal M and the lapse in the time is equal to t, and it is acted on by a force equal to V or, if it is acted on by several likewise, let V be the equivalent force from all these having a direction passing through the centre of inertia. Because if now in this centre an element of the body, and of this the element of mass is equal to iM with i denoting an infinitely small fraction, is to be considered, that by a similar small part of iV of the total force to be acting has to be considered. Now from the principles of the forces acting treated before it is apparent that the mass iM is likewise to be affected by a force iV , and the mass M by a force V, because the ratio of the mass to the force are still present in the calculation.
+Hence one may consider the matter, as if the total mass of the body M gathered into the centre of inertia of this body and the total force V shall be applied to this ; from which the solution of this problem shall not disagree with the above solutions about the motion of given points. As one may know, in order that we may put these things together, we refer the motion to three directrices OA, OB and OC (Fig. 21) normal between themselves and with the elapse in the time t the centre of inertia arrives at S, with the coordinates present OX = x, XY = y and YS = z. Then the force acting V is resolved along these three directions, thus the forces arise : along SP = P,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 218
+
+along SQ = Q and along SR = R. Hence on taking the element of time dt constant, the whole motion is determined from these three formulas :
+
+Mddx = 2gPdt2 , Mddy = 2gQdt2 , Mddz = 2gRdt2 ,
+
+and for whatever case they are to be applied, that now has been set out above.
+
+COROLLARY 1
+291. Therefore in the case, in which the rigid body is carried forwards in a progressive motion, and thus the mean direction of the forces acting crosses through the centre of inertia, the whole mass of the body is gathered together as if at the centre of inertia, and the equivalent applied force is allowed to act on this.
+COROLLARY 2
+292. Since for the given time the position of the centre of mass will have been found, also the situation of the whole body will become known, obviously which is always the same with respect to the centre of inertia, which it was initially; for the same parts of the body are always seen pointing towards the same directions of the universe.
+COROLLARY 3
+293. Again with the speed of the centre of inertia found at some time, likewise all the points of the body are moving with equal speeds and all the directions are parallel to each other, thus so that the motion of the whole body is recognised perfectly from the motion of the centre of inertia.
+SCHOLIUM 1
+294. Therefore everything, which was concerned with the free motion of points or of infinitely small bodies treated in the above books, also prevails for the progressive motion of rigid bodies and thus, since in themselves they may seem exceedingly sterile, now have the greatest use, since the general kind of progressive motion can be referred to this. Without doubt, as often as rigid bodies advance in a progressive motion, that becomes, if the mean direction of the forces acting passes through the centre of inertia and at the start they are either at rest or they were impelled by a progressive motion, the motion of these by the theorem of the motion of points now can be explained in great detail; thus this tract will be able to pursue the remaining parts in more detail. Moreover we state this at once, that if the mean direction of the
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 219
+
+forces acting on celestial bodies passes through the centre of inertia of these, and once they have began to advance in a pure motion, then such motion will always be conserved, nor at any time will a rotational motion be adapted. Whereby, since gyrations are to be observed in whirling motion, it is required that the body should now have been impressed with such a motion at the beginning, or that the mean direction does not always pass through the centre of inertia, that in due course, we may suspect rightly to eventuate for the moon.
+
+SCHOLIUM 2
+
+295. Moreover, while bodies are moving under the action of such forces, it is required that the bond between these is strong enough, whereby whatever the magnitude of the force sustained, it has to be defined so that the bodies do not suffer a change in shape of their own figures. And now indeed in the first place we turn our attention to this problem, if the proportional forces for the individual elements of the body are to be applied along the same direction, then the bonding of the body clearly sustains no force, and so the shape, even if the inner parts have been freed from each other, are going to remain together. [E. g., the case of the free fall of a body near the surface of the earth.] Moreover we now consider forces to be equivalent to these, that can only be understood from the ratio of the motion, and inasmuch as they are diverse from these above, at this stage they may tend to change the shape of the body; as the bonding must be strong enough so that this does not happen. From which now a judgement is required about the strength of bonding required to be put in place, so that the forces acting on the body can be compared with these [internal] forces acting between the elements, since if they were different from these values, on increasing the external force, the bonding would be destroyed. Whereby, in order that we can evolve a clearer idea, these forces, even if they are equivalent in the ratio of the motion, it is convenient to distinguish between these in turn, and that I set out in the final following definition.
+
+DEFINITION 4
+
+296. Elementary forces are forces, applied to the individual elements of the body separately, which may produce the same change in the state of these, as likewise actually enter into the motion of the body.
+
+EXPLANATION
+
+297. It is agreed to distinguish between the elementary disturbing forces and the forces truly acting on the body. When indeed we know the motion of the body produced from the forces acting, it has to be discovered [discipiendum??] how much the position of any element may be disturbed ; then the individual elements, as if they are present separately, are easily considered and may be defined from the preceding
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 220
+
+forces, which applied produce the same change in the position for these; and these
+
+forces jointly taken are these which I have included later under the name of
+
+elementary forces. From which at once it becomes clear that these elementary forces
+
+taken together are equivalent to the forces actually acting, since both produce the same
+
+change in the motion. Clearly if an element of the body, of which the element of the
+
+mass is dM, from the motion or from the resolution of the motion in some direction,
+
+which in the element of time dt describes the element of distance dx, thus the element
+
+is accelerated, so that on taking dt constant the increment of the distance dx, ddx is
+
+produced, then the force acting on the same direction is equal to:
+
+dMddx 2 gdt 2
+
+.
+
+Thus, if the motion of the element were resolved along two or three directions, then
+
+the force disturbing the state of this element is gathered, and thus the elementary
+
+forces become known for any change in the motion.
+
+COROLLARY 1
+
+298. Therefore the elementary forces taken at the same time are equivalent to the forces actually disturbing the body and thus besides they are comparable, so that the bonds of the body experience no force from these; besides the elements are affected, as if from these, likewise as if they alone should be present. [Recall that Euler is discussing here external forces in proportion to the masses, so that the accelerations are all the same, and thus there is no extra bonding force between elements.]
+
+COROLLARY 2
+
+299. Therefore in a progressive motion the elementary forces are these forces, which induce the same change in the motion of the individual elements as the whole body experiences from the disturbing forces.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 221
+
+PROBLEM 3
+
+300. If a body acted on by some forces, the mean direction of which passes through the centre of inertia, is moving freely in a progressive motion, to determine the forces which are sustained by the structure of this body, remaining rigid.
+
+SOLUTION
+
+At a given time the body is acted
+
+on by forces EP and FQ (Fig. 28), for
+
+which the equivalent force IV = V
+
+passing through the centre of inertia I,
+
+which, if the mass of the body should
+
+be equal to M, will produce the same
+
+effect in the whole body; and on some
+
+element of this mass M, the mass of
+
+which is dM, the force produced is
+
+then
+
+Mm
+
+=
+
+VdM M
+
+,
+
+and the direction of this force Mm
+
+shall be parallel to IV ; and thus Mm shows the elementary force. Therefore when it is
+
+asked, how great a force the bond of the body sustains from the forces EP and FQ
+
+actually causing the effect, or how strong that must be, so that the shape suffers no
+
+change, since the body is turning in a motion, then the same state of this kind of rest or
+
+of equilibrium must be assigned to this, in which the shape of the body is to be
+
+subjected under the action of like forces. Moreover we come to such a state, if
+
+somehow we can attribute motion and forces to the body in the mind, thus so that the
+
+bond should sustain no force, and moreover the body itself is reduced to perfect rest.
+
+But whatever motion the body may have, in the first place an equal and contrary
+
+motion must be impressed, in order that as it were the body should be for the present
+
+at rest; now in this fictitious state of motion no force is introduced to the bonds of the
+
+body. Now moreover in addition the motion from the forces acting must be taken by
+
+forces of the same kind inside, which do not affect the bond ; which shall be, if the
+
+forces applied to the individual elements are considered with the elements equal and
+
+opposite
+
+truly
+
+on
+
+the
+
+element
+
+dM
+
+in
+
+M
+
+the
+
+force
+
+to
+
+be
+
+present
+
+Mv
+
+=
+
+VdM M
+
+, forces
+
+of
+
+this
+
+kind applied to the individual elements are to be understood; and in this way the body
+
+is reduced to a state of rest. On account of which the body acted on by the forces EP
+
+and FQ, for which the equivalent force IV = V passing through the centre of inertia, in
+
+some manner is carried by the progressive motion, to be affected in the same way in
+
+the ratio of the bonds, and if it should be at rest in addition to these forces actually
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 222
+
+acting EP and FQ there must be applied at the individual elements forces equal and contrary to the elementary forces. In this state of equilibrium it is not difficult to judge, which parts of the body have to be connected to each other, in order that the bonding is not disturbed by these forces.
+
+COROLLARY 1
+301. Therefore the forces, by which the bonds of the body must resist, are 1st forces actually disturbing the body and 2nd elementary forces applied in the opposite direction; which is expressed opposite by the applied negative sign, the forces acting with the elementary forces taken away must give the forces affecting the bonds.
+
+COROLLARY 2
+
+302. Since here concerning the motion of rigid bodies it is said that the structure of the body by necessity must be so firm that the bondage prevails to resist these affecting forces. And if it has not enough strength to do this, then here the motion is not relevant.
+
+SCHOLIUM 1
+
+303. The rule, that we have found here for the forces to be determined affecting the bonds of the body, generally is well known and can be deduced from the principles of metaphysics, which reason is always fully effective, but only if this principle is correctly understood ; and indeed it is usually proposed generally in an exceedingly wandering manner, so thus its conclusions cannot be reached without any risk. Moreover here the actual forces acting bear the causes in turn, that we designate by the letter V ; then the effect is twofold : on the one hand, by which the motion of the body is affected, in place of this the elementary forces are to be assumed immediately effecting a change in the motion, which forces likewise we denote by the letter T. Now the other effect consists in trying to change the structure of the body, in place of this the forces affecting the bonds must be taken, which we denote by the letter S. Therefore since from the cause V there is produced the effect equal to T + S , it must be considered that V = T + S , thus on collecting terms together, S = V - T , in short as we have found above. Now with so much of metaphysical things in a mist, I have preferred to report on a demonstration put in place illustrated according to metaphysical principles. [E.g. we may consider a line of masses connected by massless springs on a frictionless table : at some instant an end mass is pulled sharply by a force V along a spring, then the neighbouring spring is extended and exerts a force S on the neighbouring mass, while the original mass has the difference T of these forces applied across the ends.]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 223
+
+SCHOLIUM 2
+
+304. Moreover here it is sufficient for us to have assigned these forces, which the bonds of rigid bodies must be able to sustain; indeed how the body resists from these forces depends on the structures of the bodies and how the parts of the body are stuck together, and as if connected together somehow by glue. Which reason for the cohesion, since in the different kinds of bodies there is a lot that disagrees, that seems to refer to physics rather than to mechanics. Meanwhile it has to be admitted that this argument presented thus far is partially in cultivation and the principles on which the strength of bodies depend, generally the inner workings, are unknown to us ; which study certainly is merited, as it should be investigated with all enthusiasm. Now this is of the least concern to the present intentions, in which we only assume the bodies, of which we consider the motion, to be provided with a sufficient level of stiffness, so that from the bodies by which they are affected, no change in the shapes are apparent, with the least care of how the structure and the cohesion of the parts have been prepared. Moreover it is sufficiently plausible to be seen that no connection of the parts is to be so strong that they do not give way a little bit to the action of such forces, even if they should be minimal ; just as there is no doubt, why also the hardest bodies in mutual collisions should not themselves induce certain forces, although these frequently escape our senses. Which opinion, if it should be true, then clearly no bodies are able to be taken as rigid, unless those which in general there are no forces trying to disturb the bond, since even by the smallest forces a certain change in the shape is being produced. Now whether such rigid bodies, such as I assume here, are present in the world or not, this question does not touch on the present treatment, since in all disciplines it is allowed that the objects are not in existence to be contemplated, from which it appears easier henceforth to cross over to the existence. For neither is it apparent to enquire into the mechanics of the motion of non rigid bodies, unless before the theory of rigid bodies had been put in place. Yet meanwhile it cannot be denied, why bodies of this kind cannot be given, which with forces that resist so much, that the change in their shape arising clearly shall be imperceptible, and this generally is sufficient, that we may consider such bodies as perfectly rigid.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 224
+
+PROBLEM 4
+
+305. If a rigid body at rest is acted on by a force the direction of which passes through the centre of inertia, to determine the small distance that it moves forwards in that small element of time, and likewise the speed that it acquires.
+
+SOLUTION
+
+Since the time is assumed as a minimum, the force can be considered meanwhile as constant and acting in the same direction. Therefore let the mass of the rigid body be equal to M, to his is applied the force equal to V, the direction of this IV passes through the centre of inertia I (Fig. 28). Hence the point I will begin to move forwards in this direction IV and the whole body likewise gains a similar progressive motion.
+We put that lapse in the time t, which as it is seen to be very small, the translation to have been through the interval Ii = x and at i the speed
+
+now acquired is equal to v, then on taking the element dt constant : Mddx = 2gVdt2 or
+
+ddx dt
+
+=
+
+2 gVdt M
+
+,
+
+on account of which the force V is elicited to be constant.
+
+dx dt
+
+=
+
+2 gVt M
+
+;
+
+since when dx expresses the speed v , which by hypothesis vanishes on putting t = 0,
+dt
+there is no need for the addition of a constant. Hence in the elapsed time t the speed is
+
+given
+
+by v
+
+=
+
+2 gVt M
+
+;
+
+then
+
+on
+
+account
+
+of
+
+dx
+
+=
+
+2 gVtdt M
+
+the small distance completed in the
+
+time t :
+
+Ii
+
+=
+
+x
+
+=
+
+gVtt M
+
+.
+
+COROLLARY 1
+
+306. Hence the small interval Ii, through which the body is thrust forwards in the small time t, is in proportion to the square of the time, now the speed acquired v itself follows from the ratio with the time. Then now the equation is 2x = vt or with the acquired speed v twice the interval 2x can be traversed in the same time t.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 225
+
+[Hence at last there is complete agreement between dynamics and kinematics, and all the nonsense of the vis viva has been laid to rest.]
+
+COROLLARY 2
+
+307. These likewise prevail the same for a time t of any magnitude, provided meanwhile the force V always maintains the same size and direction, and the body initially remains at rest.
+
+SCHOLIUM
+
+308. The motion of rigid bodies and in the same way of infinitely small corpuscles has to be discussed in a twofold manner, according as whether the motion is free or restricted by external impediments. And indeed this chapter pertains to free motion, since we have assumed nothing from without to stand in the way, by which the body yields less to the actions of the forces ; but yet only a small part of this theory has been established, for a body moving freely in addition to moving in a pure progressive motion, as I have considered here, can receive rotational motion in an infinite number of ways; thus far we have stayed away from the evolution of complicated motion of this kind, and how it may evolve under the action of any forces. Nor is it reasonable to undertake this investigation before we have extricated gyratory motion about a fixed axis ; for hence in turn to it will be permitted to progress to rotational motion about moving axes and from that to free motion in general. Whereby we will contemplate what remains, as if now thus restricted by a natural order from outside influences for rigid bodies, in order that they will only be able to receive a certain kind of motion, which shall happen, while two points of the body are kept fixed free from other external causes. For it is easily seen, if three points of a rigid body are not situated along the same direction and remain in fixed positions, or not moving, then the whole body is not capable of any future motion; moreover when only two points remain fixed, as the body is able to revolve about the axis, which motion, in whatever way it shall be compared and affected by forces acting, we will begin now [to investigate] ; where indeed above it was agreed to define how, however great the force these fixed points may sustain, as now also, how great the bonds of the body may be affected.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 226
+
+CAPUT I DE MOTU PROGRESSIVO CORPORUM RIGIDORUM
+
+DEFINITIO 1
+260. Corpus rigidum vocatur, cuius figure nullam mutationem patitur seu cuius singula elementa constanter easdem inter se distantias conservant.
+COROLLARIUM 1
+261. Cognito ergo loco quaternorum punctorum corporis rigidi eius situs innotescit, cum inde omnium reliquorum punctorum loca determinentur; dummodo quatuor illa puncta non sint in eodem plano.
+COROLLARIUM 2
+262. Plerumque etiam ad situm corporis rigidi cognoscendum sufficit positionem trium eius punctorum nosse, dummodo non sint in directum sita; quanquam enim hoc modo duplex relinquitur situs, saepissime, uter locum habeat, aliunde patet.
+EXPLICATIO
+263. Corpora rigida non ita definio, ut eorum figura nullam plane mutationem pati possit; quandoquidem constat nulla in mundo dari corpora tam dura, quorum figurae alterandae nullae omnino vires pares existant, cum etiam durissimus adamas diffringi queat. Ad classem ergo corporum rigidorum ea omnia refero corpora, quae, dum moventur, actu nulla mutationem in figura sua patiuntur seu quae vires, quarum actionem revera subeunt, sine ulla figurae suae mutatione sustinere valeant, etiamsi maioribus viribus non resisterent. Ita in corporibus, quarum motus hic contemplari institui, eiusmodi structuram partiumque nexum statuo, qui a viribus ea actu sollicitantibus turbari nequeat, id minime curans, quando ab aliis viribus afficerentur. Hinc ad vires sollicitantes hic potissimum erit attendendum, quarum respectu corpora pro rigidis erunt habenda, quarum compages earum actioni satis resistat, etiamsi eadem respectu aliarum virium minime pro rigidis essent habenda. Fieri itaque poterit, ut corpora admodum mollia ac debilia nobis sint rigida, alia vero per se multo duriora hinc excludi debeant. Quare, dum motus huiusmodi corporum investigamus, in vires,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 227
+
+quibus eorum compages partiumque connexio afficitur, sedulo inquiri conveniet, ut intelligamus, quanta firmitate sit opus, ut figura conservetur. Corpus igitur ut rigidum spectabimus, quando nexus inter eius partes satis est firmus, ut ne duo quidem elementa a viribus, quas actu sustinet, vel propius ad se invicem cogi vel longius a se invicem divelli queant.
+
+SCHOLION
+264. Corpus ergo rigidum alium motum recipere nequit, nisi quo omnia eius puncta easdem perpetuo inter se distantias conservant; nihilo vero minus tale corpus infinitorum motuum est capax, dum enim adeo unum aliquod eius punctum quiescit, aliud per circumferentiam sphaerae circumferri potest, et quomodocunque hoc moveatur, tertium aliquod punctum sive celerius sive tardius moveri potest, ut tamen ab illis duobus debitas distantias servet. Ex quo intelligitur, si nullum punctum quiescat, adhuc multo maiorem fore motuum multiplicitatem, qui quidem in corpore inesse possint; cognito autem trium punctorum non in directum sitorum motu, reliquorum omnium hoc est motus totius corporis innotescit. Inter omnes autem hos motus is est simplicissimus, quo singula corporis puncta secundum directiones inter se parallelas paribus celeritatibus quovis temporis momento promoventur; tali enim motu situs relativus omnium particularum neutiquam turbatur. Atque hoc motus genus, quod in omnia corpora cadit, accuratius contemplemur.
+DEFINITIO 2
+265. Motus progressivus est, quo singula corporis puncta paribus celeritatibus secundum directiones inter se parallelas quovis temporis momento promoventur.
+
+COROLLARIUM 1
+266. Cognito ergo motu unici puncti omnium punctorum motus utpote illi aequalis innotescit; singula enim puncta quavis temporis momento secundum eandem directionem et eadem celeritate feruntur atque illud punctum.
+
+COROLLARIUM 2
+267. Sive ergo unum aliquod punctum lineam rectam sive curvam motu quocunque describit, omnia plane puncta in aequalibus lineis sive rectis sive curvis simili modo movebuntur.
+COROLLARIUM 3
+268. Tali motu, sive sit rectilineus sive curvilineus, distantiae binorum quorumque punctorum corporis non mutantur. Quin etiam rectae binae quaeque puncta iungentes perpetuo sibi manent parallelae.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 228
+
+SCHOLION
+269. Hic motus tanquam simplicissimus, et cuius omnia corpora sunt capacia, primus se considerandum offert, eumque in motibus corporum coelestium primo animadvertimus. Dum enim ea ut puncta spectamus, calculum ita insituimus, quasi solo motu progressivo per coelos ferrentur, ac deinceps demum ipsis insuper motum gyratorium tribuimus; ubi quidem prior motus periodicus, posterior vertiginis vocari solet. Quando autem corpori solum motum progressivum sine ullo adiuncto gyratorio tribuimus, rem ita concipimus, ut rectae bina quaeque puncta corporis iungentes perpetuo sibi parallelae seu easdem coeli plagas versus directae maneant. At quoties haec conditio in quopiam motu locum non habet, illud corpus non motu progressivo solo seu puro moveri, sed insuper motus quidam gyratorius admisceri censetur; cuiusmodi admixtio quomodo fiat, infra fusius exponetur. Ceterum hinc statim patet lunam, quoniam terrae semper fere eadem faciem obvertit, non motu progressivo puro promoveri, sed ei motum quendam gyratorium admisceri. Quae ergo hoc capite tradentur, e motu progressivo puro, etiamsi vox puri non adiicitur, intelligenda sunt; quando enim gyratio quaedam superadditur, motus in alius genus transit.
+
+THEOREMA 1
+270. Corpus, cui semel fuerit impressus motus progressivus, ob inertiam perpetuo hoc motu uniformiter in directum progredi perget, nisi a causis exterioris turbetur.
+DEMONSTRATIO
+Concipiatur corpus in minima elementa divisum, et cum singula aequales celeritates secundum directiones parallelas acceperunt, dum in statu suo persevere conantur, situm relativum inter se non mutant. Omnia ergo simul motum suum uniformiter in directum prosequi possunt sine ullo penetrationis periculo hincque nullo nascetur vis, quae cuiusquam elementi statum immutare tendat. Singula igitur elementa perinde motum suum continuabunt,ac si a se invicem essent soluta nulloque nexu inter se cohaererent. Quare, nisi externae causae accedant, corpus, quod semel acceperit motum progressivum, hoc motu perpetuo uniformiter in directum progredi perget.
+COROLLARIUM 1
+271. Quemadmodum ergo corpus finitum, si semel quieverit, quiescere pergit, ita, si semel motum progressivum acceperit, eundem perpetuo conservat. Sicque perseverantia in eodem statu etiam ad corpora finitae magnitudinis patet, dummodo motus fuerit progressivus.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 229
+
+COROLLARIUM 2
+272. Quia a continuatione huius status partium corporis nexus nullum vim patitur, conservatio figurae etiam nullam firmatatem exigit, respectu ergo talis motus omnia corpora ut rigida considerari possunt.
+COROLLARIUM 3
+273. Inertia ergo est causa, quod omnia corpora, ne fluidis quidem exceptis, quorum particulae nullo vinculo inter se connectuntur, vel in eodem statu quietis vel in eodem statu motus progressivi perseverent.
+EXPLICATIO
+274. Veritas Theorematis hoc nititur fundamento, quod singula elementa motum suum libere prosequi possint neque ullum impediat, quominus reliqua in suo statu perseverent. Cuius ratio clarius percipietur, si casum contemplemur, quo corpori initio motus quidam gyratorius fuerit impressus, ita ut alia elementa celerius alia tardius moveri inceperint; tum enim, si singula elementa suum quaeque motum continuarent, mox a se invicem separarentur ac dissiparentur sicque corporis compages dissolveretur. Hoc ergo casu nexus particularum obstaret, quominus singula elementis motus aequales secundum directiones parallelas fuerint impressi, quae est conditio motus progressivi, nulla etiam causa adest, cur cuiusquam elementi status mutataretur. Quin etiam nullum elementum in motu suo mutationem pati posset, quin simul status reliquorum perturbaretur. Ex quo necesse est, ut corpus, quod semel huiusmodi motum progressivum acceperit, eodem motu perpetuo uniformiter in directum progredi debeat. Ubi imprimis notandum est in tali motu compagem partium nullam vim sustinere, ita ut, etiamsi inter se omni nexu destituerentur, tamen easdem perpetuo distantias inter se essent conservaturae. Quare, cum nulla hinc gignatur vis figuram corporis mutare tendens, cui rigiditas resistere debeat, omnia corpora respectu talis motus tanquam rigida spectari possunt.
+THEOREMA 2
+275. Si corporis motu progressivo lati singula elementa viribus, quae massis eorum sint proportionales, secundum directiones inter se parallelas sollicitentur, eorum situs relativus non mutabitur et singula elementa motum quaeque suum libere continuabunt.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 230
+
+DEMONSTRATIO
+Quia vires singula elementa sollicitantes ipsorum massis statuuntur proportionales, effectus eodem tempusculo producti erunt aequales, et quia directiones virium sunt inter se parallelae, ab actione virium situs partium relativus non mutabitur et singula elementa perinde movebuntur suis quaeque viribus obsequentia, ac si a se invicem essent dissoluta. Omnia scilicet elementa quovis momento aequaliter movebuntur, ita ut motus totius corporis aequalis sit futurus motui, quo quodque eius elementum, si esset solitarium, moveretur; ideoque motus corporis erit progressivus.
+COROLLARIUM 1
+276. Neque ergo hoc casu, etiamsi vires adsint sollitatentes, compages partium ullam vim sustinet. Ex quo, si etiam corpus esset fluidum eiusque partes nullo nexu invicem cohaererent, tamen figuram suam consevaret et pro rigido haberi poterit.
+COROLLARIUM 2
+277. Prout ergo vires singulis temporis momentis fuerint comparatae, singulae corporis elementa in lineis vel rectis vel curvis movebuntur ac, si unius motus erit determinatus, simul motus totius corporis innotescit.
+COROLLARIUM 3
+278. Corpus autem ab eiusmodi viribus sollicitari ponitur, quae in singula corporis elementa ita agunt, ut sint massis eorum proportionales et secundum directiones inter se parallelas agant. Deinde requiritur, ut corpus initio vel fuerit in quiete vel motum acceperit progressivum purum, quo singula eius elementa celeritatibus aequalibus secundum eandem directionem moveri coeperint.
+SCHOLION
+279. Si quis dubitet, an dentur eiusmodi vires, quae in singula corporis elementa ita agant, ut sint massis eorum proportionales simulque ea secundum eandem directionem sollicitent, exemplum quidem gravitatis adduci posset, quae, ut iam supra notavimus, singula corporum elementa et quidem pro ratione massae afficit. Verum haec proprietatas tantum in corporibus tam exiguae molis admitti potest, ut prae distantia a centro terrae pro nihilo haberi queat; si enim corpus insignem habeat molem, eius elementa, quae a centro terrae magis minusve distant, inaequale actiones gravitatis subibunt; deinde etiam singularum virium directiones, quippe quae circa centrum terrae convergunt, non amplius pro parallelis haberi possunt. Sed hic minime de eo quaeritur, an eiusmodi vires, quales in Theoremate assumsimus, in mundo existant; sufficit enim eius veritatem pro talibus viribus etsi forte fictis agnovisse. Quod autem
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 231
+
+de his viribus demonstravimus, idem etiam de aliis, quae his aequivalent, valebit; atque hinc erat exordiendum, siquidem effectum quarumcunque virium in corpora rigida agentium indagare velimus. Quales vero vires his assumtis aequivaleant posito scilicet corpore rigido, in Statica docetur, unde investigatio unius vis illis aequivalentis est haurienda. Eatenus autem tantum reductio omnium istarum infinitarum virium ad unicam habet locum, quatenus corpus est rigidum mutationique figurae resistit; si enim omnia eius elementa a se invicem prorsus essent dissoluta, loco harum virium alias, quae ipsis perfecte aequivalerent, substituere non liceret. Nunc igitur ratio rigiditatis seu firmatatis, qua partes corporis invicem connectuntur, in computum ingredietur.
+PROBLEMA 1
+
+280. Si corporis rigidi singula elementa secundum directiones inter se parallelas a viribus sollicitentur, quae sint ipsorum massis proportionales, invenire unicam vim omnibus illis viribus iunctim sumtis aequivalentem.
+
+SOLUTIO
+
+Referatur corpus rigidum ad ternas directrices OA, OB, OC inter se normales (Fig. 27) et sit in Z eius elementum quodcunque, cuius massa ponatur = dM vocata totius corporis massa = M. Statuantur pro puncto Z ternae coordinatae directionibus parallelae OX = x, XY = y et YZ = z. Sollicitentur ergo singula corporis elementa a viribus ipsorum massis proportionalibus secundum directiones directrici OC parallelas, ita ut elementum dM in Z sollicitetur in directione Zv vi = dM . Quia omnes istae vires sunt inter se parallelae, vis omnibus aequivalens eandem tenebit directionem eritque summae omnium aequalis, ita ut sit = M . Designet recta GV ipsi OC parallela hanc vim aequivalentem = M , cuius positio ex puncto G, ubi ea per planum AOB transit, innotescet. Ductis ergo inde rectis GE et GF directricibus OB et OA parallelis vocetur OE = e et OF = f, atque ex Statica constat momentum vis GV respectu cuiusvis axis aequale esse debere momentis singularum virium respectu eiusdem axis simul sumtis. Iam respectu axis OA vis Zv = dM momentum est
+
+ ydM omniumque momentorum summa =   ydM , quae aequalis esse debet
+
+momento vis GV, quod est = Mf , unde fit
+
+f
+
+= OF
+
+= GE
+
+=
+
+ ydM M
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 232
+
+Simili modo respectu axis OB erit vis Zv = dM momentum =  xdM eiusque
+
+integrale =   xdM , quod aequale esse debet momento vis GV = M respectu
+
+eiusdem axis, quod est Me , unde fit
+
+e
+
+=
+
+OE
+
+=
+
+GF
+
+=
+
+
+
+xdM M
+
+.
+
+Atque his formulis vera positio vis aequivalentis GV determinatur, cuius quantitas est
+
+=
+
+M ,
+
+directio
+
+parallela
+
+directrici
+
+OC,
+
+ac
+
+distat
+
+a
+
+plano
+
+AOC
+
+intervallo
+
+GE
+
+=
+
+
+
+ydM M
+
+,
+
+a
+
+plano
+
+autem
+
+BOC
+
+intervallo
+
+GF
+
+=
+
+
+
+xdM M
+
+.
+
+Sicque
+
+una
+
+habetur
+
+vis
+
+GV = M omnibus viribus elementaribus Zv aequivalens, si modo corpus fuerit
+
+rigidum, uti in Statica assumitur.
+
+COROLLARIUM 1
+
+281. Dum ergo vires elementares Zv sint massulis proportionales et inter se parallelae, vis omnibus aequivalens GV eandem habet positionem, sive illae vires sint maiores sive minores, littera enim  non ingreditur in distantias GE et GF.
+
+COROLLARIUM 2
+
+282. Quia vis aequivalentis GV = M directio est rectae OC parallela, si modo unicum punctum veluti I constaret, per quod transeat, eius positio perfecte determinaretur. Ex formulis autem pro GE et GF inventis patet directionem GV per centrum gravitatis corporis transire.
+
+COROLLARIUM 3
+
+283. Vis igitur GV = M totum corpus, si modo motu progressivo puro feratur, perinde afficiet, ac vis quaelibet elementaris Zv = dM elementum corporis dM totiusque corporis motus manebit progressivus, dum singula eius elementa pari motu proferentur.
+SCHOLION
+
+284. Quoniam, si singulae vires elementares sunt directrici OC parallelae, media
+
+directio GV distat a plane AOC intervallo
+
+GE
+
+=
+
+
+
+ydM M
+
+et
+
+plano
+
+BOC
+
+intervallo
+
+GF
+
+=
+
+ xdM M
+
+;
+
+ita
+
+si
+
+vires
+
+elementares
+
+massulis
+
+quoque
+
+elementorum
+
+proportionales
+
+sint
+
+parallelae directrici OB, media directio eidem erit parallela et a plano BOC distabit
+
+intervallo
+
+=
+
+ xdM M
+
+et
+
+plano
+
+AOB
+
+intervallo
+
+=
+
+
+
+ydM M
+
+.
+
+Quare,
+
+cum
+
+hae
+
+mediae
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 233
+
+directiones omnes tam a plano AOB quam AOC et BOC aequis intervaliis distent, eae
+
+se in communi puncto secabunt; quod punctum si sit I, erit eius situs ita comparatus, ut
+
+sit :
+
+OE
+
+=
+
+
+
+xdM M
+
+,
+
+EG
+
+=
+
+
+
+ydM M
+
+,
+
+GI
+
+=
+
+
+
+zdM M
+
+.
+
+Puncto ergo hoc I semel invento, si singula corporis elementa a viribus ipsorum massis proportionalis secundum directionem commumem quamcunque sollicitentur, vis illis omnibus aequivalens per hoc punctum I transibit. Et quia vis aequivalens summae omnium virium elementarium est aequalis et eandem directionem tenet, eius positio per punctum I perfecte determinatur. Convenit autem hoc punctum cum eo, quod vulgo centrum gravitatis vocatur, cuius convenientiae ratio manifesta est, quoniam singula elementa massis proportionaliter gravia et directiones gravitatis inter se parallelae assumuntur. Quoniam vero haec hypothesis veritati adversatur et punctum I minime a gravitate pendet, sed in omnibus corporibus locum habet, id alia nomine appellari praestabit.
+
+DEFINITIO 3
+
+285. Centrum massae seu centrum inertiae est punctum in quovis corpore, circa quod eius massa seu inertia quaquaversus aequaliter est distributa secundum aequalitatem momentorum.
+
+EXPLICATIO
+
+286. Centrum massae seu inertiae idem est punctum, quod vulgo centrum gravitatis
+
+vocatur; cum autem hoc punctum ita omnibus corporibus sit essentiale, ut iis ob
+
+inertiam solam conveniat, gravitas autem pro vi extrinsecus in corpora agente sit
+
+habenda, malui ei nomen centri massae seu inertiae tribuere, ut intelligatur id per
+
+solam inertiam determinari. Quod autem de aequali distributione massae circa hoc
+
+centrum commemoravi, minus facile explicatur. Optima explicatio sine dubio ex
+
+regula, qua hoc centrum invenitur, est petenda. Scilicet referatur corpus ad ternas
+
+directrices OA, OB, OC inter se normales, quibus parallelae constituantur coordinatae
+
+tam pro quovis corporis elemento quam pro centro inertiae I, quod quaeritur. Sit massa
+
+totius corporis = M, cuius quodpiam elementam consideretur in Z eius massula posita
+
+= dM, ac vocatis coordinatis OX = x, XY = y et YZ = z situs centri inertiae I ita
+
+determinatur, ut sit
+
+OE
+
+=
+
+
+
+xdM M
+
+,
+
+EG
+
+=
+
+
+
+ydM M
+
+et
+
+GI
+
+=
+
+
+
+zdM M
+
+,
+
+his integralibus per totum corpus extensis.
+
+Quodsi ergo punctum O in ipso centro inertiae I capiatur, haec tria integralia
+
+ xdM ,  ydM et  zdM evanescent, unde hanc centri inertiae indolem discimus, ut,
+
+si corpus secetur plano quocunque per centrum inertiae transeunte, singula elementa
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 234
+
+corporis per distantias ab hoc plano multiplicata utrinque eandem summam producant. Atque ita intelligenda sunt, quae de aequali materiae distributione circa centrum massae seu inertiae secundum aequalitatem momentorum sunt dicta.
+
+COROLLARIUM 1
+
+287. Si ergo singula corporis elementa secundum eandem directionem a viribus ipsorum massulis proportionalibus sollicitentur, iis una vis summae omnium aequalis et parallela atque in centro inertiae applicata aequivalebit, siquidem corpus fuerit rigidum.
+
+COROLLARIUM 2
+
+288. Ac vicissim, si corpori rigido in centro inertiae applicata fuerit vis quacunque, ea quasi per omnia corporis elementa massis proportionaliter distributa considerari poterit. Atque ob aequivalentiam effectus in motus turbando erunt aequales.
+SCHOLION
+
+289. Quodsi ergo corpus rigidum a vi sollicitetur, cuius directio transeat per eius centrum inertiae, illi, si quieverit, motus progressivus imprimetur, sin autem iam motu progressivo feratur, eius quidem vel celeritas vel directio vel utraque mutabitur, verum tamen ita, ut motus maneat progressivus. Hoc est, si in corpore ductas concipiamus lineas rectas quascunque, eae durante motu perpetuo sibi manebunt parallelae, quod est criterium motus progressivi. Quomodo ergo huiusmodi motum corporis rigidi determinari conveniet, in sequente problemate videamus. Intermin cavendum est, ne aequivalentia virium hic monstrata ad corpora non rigida extendatur, quandoquidem fundamentum eius, quod in aequilibrio vectis est positum, corruerit, si vectis a viribus posset inflecti. Quocirca hic corpora tam rigida assumo, ut a viribus sollicitantibus nullam mutationem in figura sua patiantur; ac deinceps investigabo, quam firma eorum compages esse debeat, ut actionem virium sine ulla figurae mutatione sustinere valeant.
+PROBLEMA 2
+
+290. Si corpus rigidum, quod initio vel quieverit vel motum progressivum acceperit, continuo sollicitetur a viribus, quarum medio directio per eius centrum inertiae transeat, eius motum determinare.
+SOLUTIO
+Quia vis, qua corpus sollicitatur, vel si plures fuerint, earum media directio perpetuo per eius centrum inertiae transit, motus quomodocunque tam ratione celeritatis quam directionis mutabitur, tamen usque manebit progressivus. Ad eum
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 235
+
+ergo cognoscendum sufficit motum unici cuiusdam eius puncti definivisse ; quam enim positionem corpus initio respectu huius puncti tenuerit, eam deinceps perpetuo servabit, siquidem, uti assumimus, initio vel quieverit vel motum progressivum purum acceperit. Quari igitur potissimum conveniet motum eius centri inertiae, quoniam vis sollicitans tanquam ei applicata concepi potest. Sit itaque massa corporis = M et elapso tempore = t sollicitetur a vi = V seu, si a pluribus simul sollicitetur, sit V vis iis omnibus aequivalens directionem habens per centrum inertiae transeuntem. Quodsi iam in hoc centro elementum corporis, cuius massula sit = iM denotante i fractionem infinite parvam, concipiatur, ea a simuli particula iV totius vis sollicitari est censenda. Verum ex doctrina sollicitationum ante tradita patet massam iM a vi iV perinde affici, ac massam M a vi V, quoniam ratio tantum massae ad vim in calculum ingreditur. Rem ergo ita concipere licet, ac si tota corporis massa M in eius centro inertiae collecta eique vis tota V applicata esset; ex quo problematis huius solutio a superioribus de motu puncti datis non discrepabit. Scilicet, ut rem generalissime complectamur, referamus motum ad ternas directiones OA, OB et OC (Fig. 21) inter se normales elapsoque tempore t pervenerit centrum inertiae in S, coordinatis existentibus OX = x, XY = y et YS = z. Deinde vis sollicitans V pariter secundum has tres directiones resolvatur, unde orientur vires secundum SP = P, secundum SQ = Q et secundum SR = R. Hinc sumto elemento temporis dt constante totus motus his tribus formulis determinabitur :
+Mddx = 2gPdt2 , Mddy = 2gQdt2 , Mddz = 2gRdt2 ,
+
+quae quomodo quovis casu sint tractandae, iam supra est expositum.
+COROLLARIUM 1
+
+291. Casu ergo, quo corpus rigidum motu progressivo profertur ideoque media directio virium sollicitantium per eius centrum inertiae transit, totam corporis massam tanquam in centro inertiae collectam eique vim aequivalentem applicatam concipere licet.
+COROLLARIUM 2
+
+292. Cum ad datum tempus locus centri inertiae fuerit inventus, etiam totius corporis situs innotescet, quippe qui respectu centri inertiae idem erit perpetuo, qui fuerat initio; eaedem enim corporis partes semper ad easdem mundi plagas spectabunt.
+
+COROLLARIUM 3
+
+293. Inventa porro ad quodpiam tempus celeritate centri inertiae, simul omnia corporis puncta pari celeritate movebuntur omniumque directiones inter se erunt parallelae, ita ut totius corporis motus ex motu centri inertiae perfectae cognoscatur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 236
+
+SCHOLION 1
+
+294. Omnia ergo, quae de motu libero punctorum seu corpusculorum infinite parvorum in superioribus libris sunt tradita, etiam pro motu corporum rigidorum progressivo valent ideoque, cum in se nimis sterilia videantur, nunc amplissimum usum habebunt, cum eo universum genus motuum progressivorum sit referendum. Quoties nimirum corpora rigida motu progressivo incedunt, quod fit, si virium sollicitantium media directio per eorum centrum inertiae transit eaque initio vel quieverint vel motu progressivo fuerint impulsa, eorum motus per Theoriam motus punctorum iam cumulate expositam determinari poterit; unde hanc tractionem fusius persequi superfluum foret. Hinc autem statim diximus, si virium corpora coelestia sollicitantium media directio per eorum centrum inertiae transeat eaque semel motu progressivo puro ingredi coepissent, ea perpetua talem motum esse conservatura neque unquam motum vertiginis esse adeptura. Quare, cum motu vertiginis gyrari observentur, necesse est, ut ipsis talis motus iam ob initio fuerit impressus vel ut media directio non perpetuo per eorum centrum inertiae transeat, quod posterius in luna evenire merito suspicamur.
+SCHOLION 2
+
+295. Ne autem, dum corpora talibus viribus sollicitata moventur, in figura sua mutatione patiantur, eorum compagem satis firmam esset oportet, quare, quantam vim ea sustineat, erit definiendum. Ac primo quidem iam animadvertimus, si singulis corporis elementis vires ipsorum massulis proportionales secundum eandem directionem essent applicatae, compagem corporis nullam plane vim sustinere, sed figuram, etiamsi partes a se invicem penitus essent dissolutae, conservatum iri. Quas autem vires nunc ostendimus illis aequivalere, id tantum ratione motus est intelligendum, et quatenus ab illis sunt diversae, eatenus etiam figuram mutare tendent; quod ne eveniat, compagem satis firmam esse oportet. Ex quo iam perspicuum est iudicium, quanta compagis firmitate opus sit, eo reduci, ut vires, quibus corpus actu sollicatur, cum viribus illis elementaribus, quibus aequivalent, comparentur, quoniam, quo magis ab iis fuerint diversae, eo plus conferent ad compagem destruendam. Quare, quo clarius hoc argumentum evolvere queamus, vires illas, etiamsi ratione motus aequipolleant, sollicite a se invicem distingui conveniet, quem in finem sequentem definitionem praemitto.
+
+DEFINITIO 4
+
+296. Vires elementares sunt vires, quae singulis corporis elementis seorsim applicatae in iis eandem status mutationem producerent, quam eadem in motu corporis revera subeunt.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 237
+
+EXPLICATIO
+
+297. Has vires elementares sollicite distingui convenit a viribus corpus actu
+
+sollicantibus. Cum enim cognovimus motum corporis a viribus sollicitantibus
+
+productum, discipiendum est, quantum cuiusvis elementi status turbetur; tum singula
+
+elementa, quasi seorsim existerent, considerentur facileque ex praecedentibus vires
+
+definientur, quae iis applicatae eandem status mutationem producerent; atque istae
+
+vires iunctim sumtae sunt eae, quas in posterum sub nomine virium elementorium sum
+
+complexurus. Ex quo quidem statim liquet has vires elementares iunctim sumtas esse
+
+aequivalentes viribus actu sollicitantibus, quoniam ambae in motu corporis eandem
+
+mutationem pariunt. Nempe si elementum corporis, cuius massula sit dM, motu vel
+
+vero vel resoluto secundum quandum directionem, in qua tempusculo dt spatiolum dx
+
+describat, ita acceleretur, ut sumto dt constante incrementum spatioli dx prodeat ddx,
+
+tum vis secundum eandem directionem urgens erit =
+
+dMddx 2 gdt 2
+
+.
+
+Unde, si motus elementi secundum binas vel ternas directiones fuerit resolutas, vis
+
+elementaris eius statum perturbans colligetur sicque innotescent vires elementares pro
+
+quavis motus mutatione.
+
+COROLLARIUM 1
+
+298. Vires ergo elementares simul sumtae viribus actu sollicitantibus aequivalent ac praeterea ita sunt comparatae, ut ab iis compages corporis nullam vim patiatur; propterea quod ab iis singula elementa, perinde quasi sola adessent, afficiuntur.
+
+COROLLARIUM 2
+
+299. In motu igitur progressivo vires elementares sunt eae vires, quae singulis elementis eandem motus mutationem inducunt, quam totum corpus a viribus sollicitantibus patitur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 238
+
+PROBLEMA 3
+
+300. Si corpus a viribus quibuscunque sollicitatum, quarum media directio per eius centrum inertiae transit, motu progressivo libere moveatur, determinare vires, quas eius compages sustinet, ne solvatur.
+
+SOLUTIO
+
+Ad datum tempus sollicitetur corpus a viribus EP et FQ (Fig. 28), quibus
+
+aequivaleat vis IV = V per centrum inertiae I transiens, quae, si massa corporis fuerit =
+
+M, in toto corpore eundem effectum producet, atque in elemento eius quocunque M,
+
+cuius massa sit dM, produceret vis
+
+Mm
+
+=
+
+VdM M
+
+,
+
+cuius directio Mm illi IV esset parallela;
+
+sicque Mm exhibebit vim elementarem.
+
+Cum igitur quaeratur, quantam vim
+
+sustineat compages corporis a viribus EP et
+
+FQ actu sollicitantibus seu quam fortis ea
+
+esset debeat, ut figura nullam mutationem
+
+patiatur, quoniam corpus in motu versatur,
+
+eiusmodi status quietis seu aequalibrii
+
+assignari debet, in quo figura corporis pari
+
+virium actioni esset subiecta. Ad talem
+
+autem statum perveniemus, si corpori mente saltem eiusmodi motum et vires
+
+tribuamus, unde compages nullam vim sustineat, ipsum autem corpus ad perfectam
+
+quietem redigatur. Quemcunque autem corpus habuerit motum, ipsi primo aequalis et
+
+contrarius imprimatur, ut hoc saltem instanti corpus in quiete existat; hoc vero motu
+
+fictitio nulla vis compagi corporis infertur. Nunc autem praeterea motus a viribus
+
+sollicitantibus penitus tolli debet per eiusmodi vires, quae compagem non afficiant;
+
+quod sit, si singulis elementis vires elementaribus aequales et contrariae applicatae
+
+concipiantur
+
+elemento
+
+nempe
+
+dM
+
+in
+
+M existenti
+
+vis
+
+Mv
+
+=
+
+VdM M
+
+, cuiusmodi
+
+vires
+
+singularis elementis applicatae sunt intelligendae; hocque modo corpus in statum
+
+quietis reducitur. Quamobrem corpus a viribus EP et FQ, quibus aequivalet vis IV = V
+
+per centrum inertiae transiens, sollicitatum, quomodocunque motu progressivo feratur,
+
+ratione compagis perinde afficietur, ac si quiesceret eique praeter vires actu
+
+sollicitantes EP et FQ applicatae essent in singulis elementis vires viribus
+
+elementaribus aequales et contrariae. In hoc statu aequilibrii haud difficile erit
+
+iudicare, quam partes corporis inter se esse debeant connexae, ut earum compages ab
+
+istis viribus non turbetur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 239
+
+COROLLARIUM 1
+301. Vires igitur, quibus compages corporis resistere debet, sunt 10 vires corpus actu sollicitantes et 20 vires elementares contrario modo applicatae; quae contraria applicatio si signo negationis exprimatur, vires sollicitantes demptis viribus elementaribus dabunt vires compagem afficientes.
+COROLLARIUM 2
+302. Cum hic de motu corporum rigidorum sit sermo, structura corporum tam firma sit necesse est, ut his viribus compagem afficientibus resistere valeat. Ac nisi ad hoc satis roboris haberet, motus huc non pertineret.
+SCHOLION 1
+303. Regula, quam hic invenimus pro viribus compagem corporis afficientibus determinandis, latissime patet atque ex principio Metaphysico, quod causa semper aequalis sit effectui pleno, deduci potuisset, si modo hoc principium recte intelligatur; plerumque enim nimis vage proponi solet, quam ut inde quicquam tuto concludi queat. Hic autem vires actu sollicitantes vicem causae gerunt, quam littera V designemus; deinde effectus est duplex : alter, quo motus corporis afficitur, cuius loco assumi debent vires elementares mutationem motus immediate efficientes, quas vires simul littera T denotemus. Alter vero effectus in conatu structuram corporis turbandi consistit, cuius loco sumi debent vires compagem afficientes, quas littera S notemus. Cum igitur a causa V producatur effectus = T + S , censeri debet V = T + S , unde colligitur S = V - T , prorsus uti invenimus. Verum in tanta rerum metaphysicarum caligine malim demonstrationem allatam adhibere ad principium metaphysicum illustrandum.
+SCHOLION 2
+304. Sufficiat autem hic nobis eas vires assignasse, quas compages corporum rigidorum sustinere debet; quomodo enim his viribus resistat, id pendet a structura corporum et modo, quo partes inter se cohaerent et quasi glutine quodam connectuntur. Quae cohaesionis ratio, cum in diversus corporum generibus plurimum discrepet, ad Physicam potius quam Mechanicam referenda videtur. Interim fatendum est hoc argumentum adhuc parum esse cultum ac principia, quibus firmitas corporum innititur, plerumque penitus nobis esse incognita; quae doctrina utique meretur, ut omni studio investigaretur. Verum hoc minime ad praesens institutum pertinet, in quo tantum assumimus corpora, quorum motum consideramus, sufficienti gradu rigoris esse praedita, ut a viribus, quibus afficiuntur, nullam mutationem in figura patiantur,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 240
+
+minime curantes, quomodo structura et cohaesio partium sit comparata. Ceterum satis verisimile videtur nullam parium connexionem tam esse robustam, quae actioni talium virium, etiamsi sint minimae, non aliquantillum cedant; quemadmodum nullum est dubium, quin corpora etiam durissima in mutua collisione sibi quasdam impressiones inducant, etsi eae plerumquae sensus nostros effugiant. Quae sententia si vera esset, nulla plane corpora pro rigidis haberi possent, nisi quae nullas omnino vires compagem turbare conantes sustinerent, cum etiam a minimis viribus mutatio quaedam in figura produceretur. Verum utrum corpora talia rigida, qualia hic assumo, in mundo existant necne, haec quaestio praesentem tractationem non tangit, cum in omnibus disciplinis liceat obiecta non existentia contemplari, quo facilius deinceps ad existentia transitus pateat. Neque enim in Mechanica in motum corporum non rigidorum inquirere licet, nisi ante doctrina de motu rigidorum fuerit constituta. Interim tamen negare nequit, quin eiusmodi dentur corpora, quae viribus tantopere resistant, ut mutatio in eorum figura orta plane sit imperceptibilis, atque hoc plerumque sufficit, ut talia corpora pro perfecte rigidis habere possimus.
+
+PROBLEMA 4
+
+305. Si corpus rigidum quiescens a vi, cuius directio per eius centrum inertiae transit, sollicitetur, determinare spatiolum, per quod tempusculo minimo protrudetur, simulque celeritatem, quam acquiret.
+
+SOLUTIO
+
+Quia tempus ut minimum assumitur, vis interea ut constans et eandem directionem servans considerari potest. Sit igitur massa corporis rigidi = M, cui applicata sit vis = V, cuius directio IV per centrum inertiae I transeat (Fig. 28). In hac ergo directione IV punctum I promovebitur totumque corpus similem motum progressivum adipiscetur. Ponamus id elapso tempore t, quod ut minimum spectetur, translatum fuisse per spatium Ii = x et in i iam celeritatem acquisivisse = v, erit sumto
+
+elemento dt constante Mddx = 2gVdt2 seu
+
+ddx dt
+
+=
+
+2 gVdt M
+
+,
+
+unde ob vim V constantem elicitur
+
+dx dt
+
+=
+
+2 gVt M
+
+;
+
+ubi cum
+
+dx dt
+
+celeritatem v exprimat, quae per hypothesin evanescit posito t = 0,
+
+additione
+
+constantis
+
+non
+
+est
+
+opus.
+
+Hinc
+
+habetur
+
+elapso
+
+tempore
+
+t
+
+celeritas
+
+v
+
+=
+
+2 gVt M
+
+;
+
+deinde ob
+
+dx
+
+=
+
+2 gVtdt M
+
+elicitur spatiolum tempore t confectum
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+Chapter One.
+
+Translated and annotated by Ian Bruce.
+
+page 241
+
+Ii
+
+=
+
+x
+
+=
+
+gVtt M
+
+.
+
+COROLLARIUM 1
+
+306. Est ergo spatiolum Ii, per quod corpus tempusculo t protruditur, ut quadratum temporis, celeritas vero acquisita v ipsam temporis rationem sequitur. Tum vero est 2x = vt seu celeritate acquisita v eodem tempore t duplum spatium 2x percurri potest.
+
+COROLLARIUM 2
+
+307. Haec eadem quoque valent pro tempore quantumvis magno t, dummodo interea vis V perpetuo eandem quantitatem et directionem retineat corpusque initio quiverit.
+
+SCHOLION
+
+308. Motus corporum rigidorum perinde ac corpusculorum infinite parvorum duplici modo est tractandus, prout fuerit vel liber vel ob externa impedimenta restrictus. Atque hoc quidem caput ad motum liberum pertinet, quandoquidem extrinsecus nihil obstare assumimus, quominus corpus sollicitationi virium obsequatur; verumtamen minimam tantum eius partem complectitur, dum corpus libere motum praeter motum progressivum purum, quem hic sum contemplatus, infinitis modis motus gyratorios recipere potest; a cuiusmodi motu complicato evolvendo et quomodo is a viribus quibuscunque pertubetur, adhuc longissime absumus. Neque hanc investigationem suscipere licet, antequam motus gyratorios circa axes fixos expediverimus; hinc enim demum ad motus gyratorios circa axes mobiles ac porro ad motus liberos in genere progredi licebit. Quare relicto quasi ordine naturae nunc corpora rigida extrinsecus ita restricta contemplabor, ut certum tantum genus motus recipere possint, quod fit, dum ab aliqua causa externa duo corporis puncta fixa retinentur. Facile enim patet, si tria puncta corporis rigidi non in directum sita fixa seu immota manerent, totum corpus nullius motus capax esse futurum; quando autem duo tantum puncta fixa tenentur, circa ea tanquam circa axem motu gyratorio revolvi poterit, qui motus, quomodo sit comparatus et a viribus sollicitantibus afficiatur, iam indagabimus; ubi quidem insuper definiri conveniet cum, quantam vim illa puncta fixa sustineant, tum vero etiam, quantum compages corporis afficiatur.
+
+

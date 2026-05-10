@@ -1,0 +1,6158 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 828
+
+Chapter 16
+
+Concerning the Rotational or Turning Motions of Celestial Bodies
+PROBLEM 91 815. If the individual elements of a rigid body is acted upon by forces towards some point F, which shall be as the masses and divided by the square of the distances of these from that point, to determine the moments of the forces about the principal axes of the body.
+SOLUTION
+Let IA, IB, IC be the principal axes of the body (Fig. 104), and the moments of inertia about these axes shall be Maa, Mbb, Mcc. Moreover the distance of the point F or of the centre of forces from the centre of inertia I of the body is put as IF = s, which thus shall be inclined to the three principal axes, in order that the angles shall be
+AIF =  , BIF =  and CIF =  ;
+
+on sending a perpendicular FE from F to the plane AIB and the normal EA from E to the axis IA, then
+IA = s cos , AE = s cos and EF = s cos.
+Again the force pushing the individual bodies to the point F shall be so great, that at the distance equal to e it is equal to gravity, but at other distances it is diminishes following the square of their distances. Now some element of the body dM is considered at Z, for which the coordinates agreeing with the principal axes shall be
+IX = x, XY = y, YZ=z
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 829
+
+and the force, by which this element dM is urged towards F is then equal to
+
+ee ZF 2
+
+dM
+
+.
+
+Now this force is resolved along the directions of the axes Zp, Zq, Zr, and then
+
+force
+
+along
+
+Zp
+
+=
+
+ee( scos - x )dM ZF 3
+
+,
+
+force
+
+along
+
+Zq
+
+=
+
+ee(
+
+scos - y ZF 3
+
+)dM
+
+,
+
+force
+
+along
+
+Zr
+
+=
+
+ee(
+
+scos - z ZF 3
+
+)dM
+
+and hence the moments of these forces about the principal axes become :
+
+moment
+
+about
+
+the
+
+axis
+
+IA
+
+in
+
+the
+
+sense
+
+BC
+
+=
+
+ees(
+
+ycos - z cos ZF 3
+
+)dM
+
+,
+
+moment
+
+about
+
+the
+
+axis
+
+IB
+
+in
+
+the
+
+sense
+
+CA
+
+=
+
+ees(
+
+zcos - x cos ZF 3
+
+)dM
+
+,
+
+moment
+
+about
+
+the
+
+axis
+
+IC
+
+iin
+
+the
+
+sense
+
+AB
+
+=
+
+ees(
+
+xcos - y cos ZF 3
+
+)dM
+
+.
+
+Therefore from these moments gathered together through the whole body we obtain the
+
+moments, which we indicate by the letters P, Q, R, thus in order that as the quantity s remains
+
+constant :
+
+But since
+
+P
+
+=
+
+ees
+
+
+
+(
+
+ycos
+
+- z cos ZF 3
+
+)dM
+
+,
+
+Q=
+
+ees
+
+(
+
+zcos
+
+- x cos ZF 3
+
+)dM
+
+,
+
+R=
+
+ees
+
+
+
+(
+
+xcos
+
+- y cos ZF 3
+
+
+
+)dM .
+
+ZF = ((s cos - x)2 + (s cos - y)2 + (s cos - z)2 )
+
+or, on account of cos2  + cos2  + cos2  = 1,
+
+ZF = (ss - 2sx cos -·2sy cos - 2sz cos + xx + yy + zz).
+
+But since in celestial bodies the distance 1F = s is always much greater in comparison with the body itself or with the quantities x, y, z, it is completely satisfactory for us to set up
+
+1 ZF 3
+
+=
+
+1 s3
+
++
+
+3x
+
+cos 
+
++3y
+
+cos s4
+
++3z
+
+cos
+
+.
+
+Now because I is the centre of mass, and IA, IB, IC are the principal axes of this, we have
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 830
+
+ xdM = 0,  ydM = 0,  zdM = 0,
+
+and
+
+ xydM = 0,  xzdM = 0,  yzdM = 0,
+
+from these put in place there are produced :
+
+(3yy cos cos -3zz cos cos ) dM
+
+P =ees
+
+s4
+
+=
+
+3ee cos cos s3
+
+(
+
+yy
+
+-
+
+zz )dM
+
+Q
+
+=
+
+3ee cos s3
+
+cos
+
+(
+
+zz
+
+-
+
+xx )dM
+
+R
+
+=
+
+3ee cos s3
+
+cos
+
+(
+
+xx -
+
+yy )dM
+
+.
+
+Now from the given moments of inertia there is
+
+ xxdM
+
+=
+
+1 2
+
+M
+
+(
+
+bb
+
++
+
+cc
+
+- aa ),
+
+
+
+yydM
+
+=
+
+1 2
+
+M ( aa + ce ~
+
+bb )
+
+and
+
+on account of which,
+
+
+
+zzdM
+
+=
+
+1 2
+
+M ( aa + bb - cc ),
+
+P
+
+=
+
+3Mee( cc-bb ) s3
+
+cos cos
+
+Q
+
+=
+
+3Mee( aa-cc ) s3
+
+cos 
+
+cos
+
+R
+
+=
+
+3Mee( bb-aa ) s3
+
+cos 
+
+cos
+
+.
+
+COROLLARY 1 816. Therefore these moments of the forces have not been defined with geometrical rigor, but they only prevail, when the distance of the point of the attraction exceeds the magnitude of the body being attracted. And thus it readily comes about, that these can be expressed so neatly by the moments of inertia.
+COROLLARY 2 817. If the attracting body has all the moments of inertia equal to each other, also these moments of the forces vanish ; hence so far only the rotational motion of the celestial bodies is affected by forces of this kind, in as much as those are not spherical, or perhaps they are provided with equal moments of inertia.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 831
+
+SCHOLlUM 1 818. If we want to define how much these forces are involved in the progressive motion, we must apply the elementary forces to the centre of inertia itself ; because if for some axis we gather these into one sum, then we have the whole body force acting towards progressive motion. But in order that we can rise to second order in the variables x, y, z, we must express the value ZF more accurately, so that it becomes :
+
+1 = 1 + 3 ( x cos + y cos + z cos )
+
+ZF 3
+
+s3
+
+s4
+
++ 15
+
+( x cos +
+
+y cos 2s5
+
++
+
+z cos )2
+
+-
+
+3 ( xx+ yy + zz)
+
+2 s5
+
+.
+
+This formula multiplied by ( s cos - x )dM and integrated according to the above precepts,
+
+gives
+
+
+
+(
+
+s
+
+cos - x ZF 3
+
+)dM
+
+=
+
+M cos ss
+
++ 15cos
+2s4
+
+ dM ( xx cos2 
+
++
+
+yy cos2 + zz cos2  )
+
+-
+
+3 cos  2s4
+
+
+
+dM
+
+(
+
+xx
+
++
+
+yy
+
++
+
+zz
+
+)
+
+-
+
+3 cos  s4
+
+ xxdM
+
+,
+
+which can be changed into this form :
+
+( ( ) ( ) ( )) M cos + 3M cos 
+
+ss
+
+2s4
+
+aa 3 - 5 cos2  + bb 1 - 5cos2 + cc 1 - 5 cos2  .
+
+Whereby we obtain the three following forces :
+
+( ( ) ( ) ( )) I. Along
+
+IA =
+
+Mee cos ss
+
++ 3Meecos
+2s4
+
+aa 3 - 5 cos2 + bb 1- 5 cos2 + cc 1- 5 cos2
+
+( ( ) ( ) ( )) 1I.
+
+Along
+
+IB
+
+=
+
+Mee cos ss
+
++
+
+3Meecos 2s4
+
+bb 3 - 5 cos2 + cc 1- 5 cos2 + aa 1- 5 cos2
+
+( ( ) ( ) ( )) III.
+
+Along
+
+IC
+
+=
+
+Mee cos ss
+
++
+
+3Meecos 2s4
+
+cc 3 - 5 cos2 + aa 1- 5 cos2 + bb 1- 5 cos2
+
+.
+
+But these three forces can be replaced in the first place by a single force acting along the line 1F, which is :
+
+( ( ) ( ) ( )) Mee
+ss
+
++
+
+3Mee 2s4
+
+aa 1- 5cos2 + bb 1- 5cos2 + cc 1- 5 cos2
+
+,
+
+to this above force these three are to be added
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 832
+
+1.
+
+Along
+
+IA
+
+=
+
+3Maaee s4
+
+cos 
+
+2.
+
+Along IB
+
+=
+
+3Mbbee s4
+
+cos
+
+
+
+3.
+
+Along IC
+
+=
+
+3Mccee s4
+
+cos
+
+.
+
+From which it is apparent, if the three principal moments of inertia should be equal to each
+
+other,
+
+then
+
+all
+
+the
+
+forces
+
+are
+
+reduced
+
+to
+
+the
+
+one
+
+force
+
+Mee ss
+
+acting along 1F, which is
+
+considered in theoretical astronomy, now in the remaining cases that centripetal force will not
+
+be purely inversely proportional with the square of the distances, but they agree with that
+
+above with a small term inversely proportional to the fourth power of the distances, but
+
+which in addition depend on the position of the body with respect to the forces F ; which is of
+
+assistance in attending to the aberration in astronomical calculations, especially if bodies
+
+deviate notably from the spherical shape.
+
+SCHOLlUM 2 819. I have assumed here that the individual elements of the body are attracted towards a single point F, since in the hypothesis of attraction the individual elements of the body are still also being attracted. Now if the attracting body were a sphere, it is clear that between themselves the bodies are attracted in the same way, as if the whole mass were to be united at the centre of the sphere ; so that thus our problem also includes this case between the bodies. But if the body were not spherical, indeed in a short time there is a change in both the reciprocal square ratio, as well as the direction of the force, which no longer is directed towards a certain point ; now, it is to be agreed that these irregularities are to vanish completely at great distances, especially since celestial bodies may depart a little from spherical shapes. But here since I only consider rotational motion, and by disregarding progressive motion, I consider the centre of inertia to be at rest, and in the first place, if the body itself is at rest, I will investigate what rotational motion it shall undertake about some axis.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 833
+
+PROBLEM 92 820. If the body is at rest, and acted on by from the centre of forces F in the manner defined before, to define the axis about which in the first instant it begins to rotate, and the angular speed thus arising.
+SOLUTION Hence we consider the body at rest, or rather with the progressive motion of the body not
+borne in the mind; therefore with the centre of inertia of this in the centre of a sphere there are put in place the poles of the principal axes A, B, C (Fig. 105), and with respect to which, at this stage, the moments of inertia are Maa, Mbb, Mcc. Now a right line drawn from the centre of inertia to the centre of force cuts the surface at the point F, in order that the arcs are AF =  , BF =  , CF = ; moreover the
+
+distance of the centre of forces is equal to s and the
+
+attracting force of this is of such a size that at a distance
+
+equal to e it is equal to gravity. Hence the moments of the
+
+forces P, Q, R about the principal axes IA, IB, IC are :
+
+P
+
+=
+
+3Mee( cc-bb ) s3
+
+cos cos
+
+Q
+
+=
+
+3Mee( aa-cc ) s3
+
+cos 
+
+cos
+
+and
+
+R
+
+=
+
+3Mee( bb-aa ) s3
+
+cos 
+
+cos
+
+.
+
+Whereby from § 806 the body begins to rotate about an axis of this kind IO, so that on
+
+putting the arcs
+
+AO =  , BO =  , CO = 
+
+there soon becomes
+
+( ) cos
+
+=
+
+P aa
+
+:
+
+PP a4
+
++
+
+QQ b4
+
++
+
+RR c4
+
+( ) cos 
+
+=
+
+Q bb
+
+:
+
+PP a4
+
++
+
+QQ b4
+
++
+
+RR c4
+
+( ) cos
+
+=
+
+R cc
+
+:
+
+PP a4
+
++
+
+QQ b4
+
++
+
+RR c4
+
+,
+
+moreover in the increment of time dt there is acquired the angular speed arising :
+
+( ) d'
+
+=
+
+2 gdt M
+
+PP a4
+
++
+
+QQ b4
+
++
+
+RR c4
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 834
+
+which is directed in the sense ABC. And from these the distance of the pole of rotation O from the point F thus can be found from the expression, in order that
+
+( ) ( ) cosOF =
+
+P cos aa
+
++
+
+Q
+
+cos bb
+
++
+
+R cos cc
+
+:
+
+PP + QQ + RR
+
+a4
+
+b4 c4
+
+.
+
+COROLLARY 1 821. This case is worth remembering, in which the centre of forces F falls between two principal poles; indeed if the point F falls on the arc AB and on account of cos = 0 and
+
+cos2  + cos2  = 1, then
+
+P= 0, Q= 0
+
+and
+
+R
+
+=
+
+3Mee(bb-aa) sin s3
+
+cos 
+
+from which also there arises cos = 0 , cos  = 0 and cos  = 1, thus so that the pole of
+
+rotation O falls on the principal pole C.
+
+COROLLARY 2
+
+822. In the same case, when the centre of the forces is in the plane AIB and the body begins
+
+to rotate about the axis IC, in the first increment of time dt the angular speed arising is
+
+acquired
+
+d
+
+'
+
+=
+
+6gee(bb-aa) dt ccs3
+
+sin 
+
+cos 
+
+in the sense AB, or
+
+d '
+
+=
+
+3gee(bb-aa) dt sin 2 ccs3
+
+.
+
+COROLLARY 3 823. But hence in the same case if the body now has a rotary motion about the axis IC with a speed equal to  ' in the sense AB, this is accelerating towards the centre of forces F on account
+
+of the force acting, so that it becomes
+
+d '
+
+=
+
+3gee(bb-aa) dt sin 2 ccs3
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 835
+
+SCHOLIUM
+
+824. Hence it is therefore evident, if the centre of forces F thus is carried around the body, so that it falls on great circle AB contained by the two principal axes IA and IB and the body begins to rotate about the remaining principal axis IC, so that it will always be rotating about the same axis IC, and only the angular speed  ' is going to be increased a little. This case is
+entirely worthy of note, which can be set out with great enthusiasm, because the motion of the moon's librations, where nearly always the same face is turned towards the earth, is seen to be included. Which investigation is rendered simpler and clearer, if in the first place we assume the centre of the forces to remain in uniform motion about the centre of inertia of the body, in the same plane and always to be carried around at the same distance.
+
+PROBLEM 93 825. If a body is rotating about its own principal axis IC, moreover the centre of forces F is carried around in the plane uniformly normal to that axis, with the distance of this from the centre of inertia remaining the same, to define the rotational motion of this body.
+
+SOLUTION Hence because the axis of rotation IC remains
+constant and as if fixed with respect to the sky (Fig. 106), let XCY be a celestial hemisphere and XY the great circle described with the pole C, in which the centre of forces F advances uniformly, and on this circle also there are present the two remaining poles of the principal axes A and B of the body. The angular speed of the centre of forces F is put equal to  , since initially is was at X, then in the elapsed
+time equal to t the arc described by necessity is XF =  t [note that here is an angular velocity]. But at the same instant of time t the other principal axes is found at A, and on putting the arc XA =  , if the angular speed of the body about the axis IO is equal to ' in the sense AB,
+then d =  ' dt . So now on account of AF =  t -  , which above was  , this for us is
+ t -  ; but on retaining the remaining quantities aa, bb, cc and likewise ee and s, which are constants, as above, we have this equation :
+
+d ' =
+
+3gee( bb - aa ) ccs3
+
+dt sin 2 .
+
+But we introduce the angle ACF =  , and because  =  t -  we obtain
+
+ =t -
+and d =  dt - d =  ' dt,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 836
+
+from which there becomes
+
+
+
+'
+
+=
+
+-
+
+d dt
+
+.
+
+On account of which on taking the element dt constant, this equation is produced to be
+
+resolved :
+
+dd +
+
+3gee( bb - aa ) ccs3
+
+dt2 sin 2
+
+= 0.
+
+For brevity's sake we put
+
+3gee( bb - aa ) ccs3
+
+= N,
+
+and by multiplying by 2d the equation becomes :
+
+2d dd + 2Ndt2d sin 2 = 0,
+
+the integral of this is :
+
+d 2 - Ndt2 cos 2 = Cdt2 ,
+
+from which there is deduced
+
+dt =
+
+d
+
+(C + N cos 2 )
+
+and
+ ' =  - (C + N cos 2 ).
+
+It is necessary to define the arc AF =  from that equation at some time t, which if it should
+
+be constant, then the body remains for ever turning the same face towards the centre of forces F. Hence as far as N is not equal to 0 and the angle  in not liable to variation, the angular
+speed  ' is variable ; to which phenomena it is fitting that two cases are to be examined,
+
+provided either bb > aa or bb < aa, each of which for the constant ratio C can be established in an infinite number of ways.
+
+CASE I, in which bb > aa
+
+826. Therefore let
+
+3 gee(bb - aa ) ccs3
+
+=n
+
+be a positive number, and while the centre of forces F is progressing along the circle XFY
+
+with the speed and at the time t the inclining arc FA in the preceding is called equal to  ,
+
+then
+
+dt =
+
+d
+
+,
+
+(C +n cos 2 )
+
+where I note the following in an account of the constant C : 1st. If C = -n (for it cannot have a more negative value), then
+
+dt =
+
+d
+
+,
+
+n(-1+ cos 2 )
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 837
+
+and thus by necessity the angle is equal to zero ; clearly the point A always coincides with
+
+F, since it rotates uniformly with that about the axis IA. 2nd. If C = 0, then the angle is less than a half a right­angle, either positive or negative
+
+and wanders between the limits +45° et ­ 45°. The point A hence never recedes beyond 45°
+
+from the point F, but only in the previous manner is found after that point, which motion
+
+must be deduced from the equation
+
+dt = d .
+n cos 2
+
+3rd. If C = n, and the equation
+
+dt =
+
+d
+
+n(1+ cos 2 )
+
+is changed into this
+
+dt = d ,
+cos 2n
+
+which integrated gives
+
+( ) t =
+
+1 2n
+
+l tang
+
+45°
+
++ 1
+2
+
+,
+
+if by taking t = 0 there should be  = 0, from which it is apparent at last in an infinite lapse
+
+of time to become  = 90°.
+
+4th. If C > n, the point A moves away from F in a finite time to 90° and hence again it
+
+progresses to the point opposite to F and by circling around to the other part it returns again
+
+to F. For if C = mmn, with the number mm being a number greater than one, on account of
+
+dt =
+
+d
+
+n(mm+ cos 2 )
+
+then approximately,
+
+( ) dt = d n
+
+1 m
+
+-
+
+cos 2 2m3
+
+and on integrating
+
+t
+
+n
+
+=
+
+ m
+
+-
+
+sin 2 4m3
+
+,
+
+from which it is apparent that the angle  moves successively through all the values.
+
+5th. Up to this point we have put ' <  , thus so that the motion of the point F is faster,
+
+than the rotation about the axis 1C; if the opposite comes about, only the sign of the formula
+
+(C + n cos 2 ) needs to be changed.
+
+827. Therefore let then
+
+CASE 11, in which bb < aa.
+
+3 gee(aa -bb) ccs3
+
+= n,
+
+dt =
+
+d
+
+,
+
+(C -n cos 2 )
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 838
+
+and
+ ' =  - (C - n cos 2 ) ;
+in which formulas, if there is put = 90° +  , so that now  denotes the distance of the pole B from the centre of forces F taken according to the foregoing, then the preceding formulas result, which therefore show the same phenomena.
+
+COROLLARY 1 828. Therefore if we put the centre of forces F initially with the pole A agreeing with the condition arising, bb > aa, then the body always turns the same face to the point F, if the angular speed is equal to the angular speed of the centre of forces .
+
+COROLLARY 2 829. But if initially, when F agrees with A, the angular speed of the body  ' is some amount
+
+greater or less than , in order that the difference does not exceed
+
+2n =
+
+6
+
+gee(bb-aa) ccs3
+
+,
+
+the pole A moves away from F on both sides but not by more than a certain interval and appears as if it performs oscillations about the point F ; in which certainly the similarity with
+
+the librational motion of the moon is discerned.
+
+COROLLARY 3 830. Hence in librational motion of this kind, the angular speed of the body is a maximum or a minimum while the point A is together with F itself, from that either as a consequence or in the foregoing it will be moving apart ; from which it follows that the smallest speed is greater
+than  - 2n . Therefore it can come about that such a motion arises, clearly while initially the body has no rotational motion.
+
+SCHOLIUM 1 831. Hence no doubt remains, why the libratory motion of the moon should not arise from this reason, and so far it seems probable that the moon clearly has a place in that case in which initially no rotational motion of the moon has been impressed ; but then the principal axis of the moon IA, about which the moment of inertia Maa is a minimum, is to be directed towards the earth. Therefore since we know that the separation of the pole A from F to be a minimum, we are able to define the time of these oscillations ; for since the arc AF =  is
+certainly small, then cos 2 = 1- 2 and hence
+
+dt =
+
+d
+
+,
+
+(C +n-2n )
+
+from which on integration
+
+t 2n = A sin  2n .
+(C+n)
+
+Whereby since the maximum digression becomes
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 839
+
+ = C+n ,
+2n
+the time in which the point A moves apart maximally from F is equal to  seconds, the
+2 2n
+double of which  gives the time, in which the pole A moving apart from F returns to the
+2n
+same again. But then the minimum angular speed, clearly when the pole A from F in the
+
+preceding digression, is then equal to  - (C +n) ; which in order that is should vanish, the
+
+constant C must be equal to  - n , from which it is necessary that the maximum digression
+
+in this case should be equal to  . Now we consider also the time of one revolution about
+2n
+
+the
+
+centre
+
+of
+
+forces
+
+F,
+
+which
+
+is
+
+equal
+
+to
+
+2 
+
+seconds, half of this is equal to the time of one
+
+oscillation of the pole which is equal to
+
+ , there arises  =
+2n
+
+2n or n =
+
+ 2
+
+and
+
+thus C
+
+=
+
+ 2
+
+= n ; neither hence have we assumed that a greater digression should be the
+
+smallest.
+
+SCHOLIUM 2 832. Hence therefore we will conclude that the motion of the moon's librations are not possible to be explained thus, clearly as we have set up [the problem] initially in which no rotational motion of the moon was to be impressed, but since rather it is exceedingly plausible that the moon, if that is carried uniformly around the earth in a circular orbit, which is the hypothesis of our problem, and clearly always has the same face directed towards us, and no nutation in that is going to be observed ; then we must establish in the same hypothesis : initially that such a motion of the moon be impressed, in order that the angular speed be precisely equal to , clearly equal to the speed of the earth around the moon, and likewise the axis of this IA to be pointed towards the earth. But this seems plausible enough ; since indeed the moment of inertia about the axis 1A is a minimum, and thus of the moon, if the body of this is taken as an oblong spheroid, the maximum axis can be the cause, which initially this axis points towards the earth, and perhaps it is to be attributed to the same cause, because, while the moon takes the first motion, here the direction of the axis itself is conserved towards the earth; since it is the same, and if the angular speed at first should be equal to the angular speed of the earth . Therefore since the moon, if it describes a uniform motion around the earth, constantly turns the same face to us to be observed, the librations of this for the observed motion of the moon are irregular, for which the manner of the increasing or decreasing speed must be presented. Whereby also we have resolved the preceding problem according to this hypothesis, as we neither assume that the point F is carried around uniformly nor that it always holds the same distance from the centre of inertia of the body.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 840
+
+PROBLEM 94
+
+833. If a body is rotating about its principal axis 1C, moreover the centre of forces F is carried around in a plane normal to that neither uniformly nor at the same distance, if initially the axis 1A is along the direction of the centre of forces F , then to define the motion of the librations of the body.
+SOLUTION
+
+The irregular motion of the point F of the body can be expressed thus, so that in the time t let
+
+the arc described be
+
+XF =  t +  sin At ;
+
+and let the variable distance be
+
+1 s3
+
+=
+
+1 f3
+
+(1
+
++  cos At)
+
+.
+
+Whereby if now the angular speed is equal to  ' , on putting the arc XA =  , then
+
+d =  ' dt and on calling the arc AF =  we have
+
+Therefore since
+
+d ' =
+
+3gee(bb - aa)dt sin 2 ccs3
+
+.
+
+ =  t +  sin At -  ,
+
+then
+
+'
+
+=
+
+
+
++
+
+A cosAt
+
+-
+
+d dt
+
+and thus on putting
+
+3gee(bb - aa) ccf 3
+
+=n
+
+then
+
+-
+
+AA
+
+dt
+
+sin
+
+At
+
+-
+
+dd dt
+
+= ndt(1
+
++  cosAt) sin 2
+
+.
+
+But if now we assume that the arc  always remains very small, then we have this equation
+
+dd dt 2
+
++
+
+AA sin At + 2n (1
+
++  cosAt) = 0 ,
+
+to this there is an approximate solution on putting  = m sin At , from which
+
+- AAm sin At + AA sin At + 2mn sin At = 0
+
+on account of the term  cosAt being very small besides 1. Hence we obtain therefore
+
+m
+
+=
+
+AA AA-2n
+
+and thus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 841
+
+
+
+=
+
+AA AA-2n
+
+sin At,
+
+from which there arises
+
+
+
+'
+
+=
+
+
+
++
+
+A
+
+cos
+
+At
+
+-
+
+A3 cos At AA-2n
+
+=
+
+
+
+-
+
+2 A n AA-2n
+
+cos
+
+At.
+
+Here since there is
+
+XF =  t +  sin At ,
+
+the first part  t is called the mean location of the point F and the other part  sin At of this
+
+equation the prostapheresis, from which it is apparent that the digression FA is to be proportional to this prostapheresis, and greater than that on account of the positive number n. Thus with the vanishing of the prostaphaeresis, or to what extent the true position agrees with the mean position, so the body turns it face towards the centre of forces F, indeed with the smaller inequalities ignored, which ratio might produce the quantity  . Now this needs to be
+
+pursued further and determined more accurately if it is to agree with the greater known part of astronomy.
+
+COROLLARY 1 834. Hence if the unequal motion of the point F is thus expressed, so that in the time t it completes the arc
+
+XF =  t +  sin At ,
+
+in the same time the arc of the libration is
+
+FA =
+
+
+
+=
+
+AA AA-2n
+
+sin
+
+At
+
+,
+
+with
+
+n=
+
+3gee(bb- ccf 3
+
+aa)
+
+,
+
+being present,
+
+where f denotes the mean distance of the centre of forces F.
+
+COROLLARY 2 835. If we wish to define this arc of the libration  more accurately, then the variable of the
+distance FI = s is also present in the calculation, thus in order that, if it were
+
+1 s3
+
+=
+
+1 f3
+
+(1
+
++  cos At),
+
+then it is found that
+
+
+
+=
+
+AA AA-2n
+
+sin
+
+At
+
++
+
+n 4(AA-2n)
+
+sin 2At.
+
+[On assuming that n < < A2 , as noted in the O. O edition.]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 842
+
+COROLLARY 3
+
+836. In a like manner if more generally the arc completed in the time t were XF = C +  t +  sin (At + A ) +  sin (A' t + 2A' ) + etc.
+
+and
+
+1 s3
+
+=
+
+1 f3
+
+(1+  cos ( At + A) + ' cos ( A' t + A') + etc.),
+
+then the arc of the libration is found approximately :
+
+. FA = 
+
+=
+
+AA AA-2n
+
+sin ( At + A) +
+
+A' A'  ' A' A' -2n
+
+sin ( A' t + A') + etc.
+
+SCHOLIUM 1
+
+837. Now this likewise is the case, that the number
+
+n=
+
+3gee(bb-aa) ccf 3
+
+can be either positive or negative, nor does the above required condition that bb > aa have a greater place, in order that the arc vanishes. For in case II (§ 827) if there is put
+
+C = n, then there becomes
+
+dt
+
+2n
+
+=
+
+d sin 
+
+and
+
+t 2n = l tang 1  - Const.,
+2
+from which if initially t = 0, then there is  = 0, and the constant to be added must be infinite,
+
+[note of course that l means here the natural log function] and therefore A does not move
+
+away F unless an infinite time has elapsed. Whereby while the point F is carried uniformly in
+
+a circle, whichever principal axis initially is directed towards the point F, when it begins to
+
+rotate with an equal speed to F, each remains fixed to the other. And if hence the point F
+
+extends or decreases its motion, the pole A digresses from that according to the formulas
+
+found. Also it is apparent, if n = 0 or bb = aa, in which case the body is rotating uniformly around the pole C, that the digressions of the difference between the mean position and the
+
+true value of F always remain equal in the future. Moreover if the number n is positive or bb
+
+> aa, the digressions are greater than this difference, but if bb < aa on the other hand they
+
+become less. Moreover the number A defining an inequality of the motion, from the time in
+
+which sin At reverts to the same values, it is possible to deduce, because if that comes about after the time equal to  min. sec., that
+sin A = sin 2
+
+and thus
+
+A
+
+=
+
+2 
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 843
+
+SCHOLIUM 2
+
+838. Hence it is apparent that the motion of the moons librations, in which the same face is
+
+not always turned towards the earth, mainly are due to defects in the uniformity of the
+
+motion, by which the earth is carried around the moon, or what is the same, the moon
+
+appears to be carried around the earth, and must not be attributed much to this inequality of
+
+the principal moments deduced for the moon, because that only affects the coefficients of the
+
+terms. Clearly a libration can be present, even if the moon were a spherical body, or its
+
+principal moments were equal. Now there is no apparent reason, why precisely so much
+
+initial rotational motion should be impressed on the moon, as great as our formulas show; but
+
+if the moon should be a spheroidal body either oblong or compressed, the reason can be
+
+understood in a certain way, and on account of that the motion begins with a certain principal
+
+axis being more notable than the others with respect to the earth. But whichever it shall be,
+
+an oblong or compressed spheroid, from the magnitude of the libration it is possible to judge,
+
+that if it exceeds the difference between the true position of the moon and the average, this
+
+indicates that bb > aa, or it is pleased to show the axis of the moon with the smallest moment
+
+turned towards the earth. Now here is not the place for anything to be defined, since the moon
+
+is also acted on by the sun and thus the librations may be disturbed; now in addition too, as
+
+the moon is not moving in the same plane around the earth, thus also in turn the motion of the
+
+centre of forces F may not be completed in the same plane around the moon, by which this
+
+enquiry becomes more complicated, as in the general treatment the position [of F] cannot be
+
+found. Moreover this always indicates a great mystery, because initially the moon accepts
+
+only a certain amount of rotational motion, as much as is here postulated for the cause of the
+
+librations ; for if it should take more or less, with the passage of time it must still be turned
+
+to present the face opposite us. Yet meanwhile the degree of the speed of this prescribed
+
+phenomenon is not so exactly set out, because although it should be a little larger or smaller,
+
+the librations must be touched on, on account of the previous problem; from which another
+
+deeper mystery is illustrated. But from such freedom nothing can be admitted , unless in the
+
+case in which bb > aa or n > 0; for the more general differential equation
+
+dd dt 2
+
++
+
+AA sin At + 2n (1
+
++  cosAt) = 0
+
+with the preceding constant thus can be integrated, in order that
+
+ = C sin t
+
+2n
+
++
+
+AA AA-2n
+
+sin
+
+At ,
+
+from which the angular speed becomes
+
+' = -C
+
+2n  cos t
+
+2n
+
+-
+
+2 A n AA-2n
+
+cos
+
+At ,
+
+where also for t 2n there can be written (t +  ) 2n , thus so that C and  can be assumed
+as you please. Whereby when initially t = 0 then  = C sin 2n , while the impressed angular speed is equal to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 844
+
+ -C
+
+2n  cos 
+
+2n
+
+-
+
+2 A n AA-2n
+
+,
+
+and C is a small enough fraction, the libratory motion follows, so that constantly a certain
+
+part
+
+of
+
+the
+
+moon
+
+remains
+
+hidden
+
+from
+
+us.
+
+But
+
+now
+
+also
+
+the
+
+fraction
+
+AA AA- 2n
+
+must be very
+
+small, in order that the line 2 can be written for sin 2 .
+
+SCHOLIUM 3 839. Therefore here an explanation of the libratory motion of the moon has been given, as we have stated the body of the moon is an oblong spheroid , the major axis of which, or that, with respect of which the moment of inertia is a minimum, initially is pointed towards the earth, moreover while the rotational motion of the moon is impressed about the axis normal to the plane of the orbit of the earth, just about equal to the angular speed of the mean motion of the moon, in which it is possible to have a certain latitude in its position. Then this is also sufficient, provided the axis of rotation is just about normal to the plane of the earth's orbit and the major axis of such a size is almost directed towards the earth ; in as much as also from these cases the reciprocal change in the disc of the moon must come about, even if that is not allowed to be determined. Whereby with this case left we may progress to the other perturbations of rotational motion arising from centripetal forces, from which it is possible to explain the nutation of the axis of the earth. [Euler's explanation of the moon's librations does not form part of the modern explanation, although his equations could be the starting point for such an investigation, if such a thing can actually be found; for the moon is almost spherical, and the slow rotation rate on its axis rules out the case of an oblate spheroid. A good place to begin an investigation on the librations or swings is Wikipedia, as is often the case these days, where a number of sources are given. But one wonders why the fact that there are 13 lunar months in the year is not discussed in this article : each month on reaching full moon, the moon has turned approximately 30o further on its axis relative to distant stars in order to keep the same face to the earth, and so in a year it turns round 12 + 1 times approximately, similar to the case of the earth with its solar and sidereal days. Thus there is perhaps little wonder that the moon has a longitudinal libration of a few degrees plus or minus as it tries to meet this deadline each month, while rotating at a steady rate on its axis, and orbiting around the earth in a slightly elliptical orbit with a varying speed. The latitudinal oscillation is due to the slight inclination of the moon's axis to the plane of its orbit around the earth, while in addition the diurnal rotation of the earth gives different views of the moon's disc as the observer rotates with the earth. Historically, it was just sheer bad luck that such a difficult problem was faced by Newton and those who followed him, as a test of their new theories of dynamics.]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 845
+
+PROBLEM 95 840. If a body is rotating about an axis that is close to some principal axis, and likewise it is subjected to the action of some central force, to determine the momentary change produced, both in the axis of rotation itself as well as in the angular speed.
+
+SOLUTION Let A, B, C, be the three principal poles of the body (Fig.107), and the moments of inertia of
+these about the respective axes are Maa, Mbb, Mcc ; moreover the body now rotates about the pole O close to A with an angular speed itself equal to  ' in the
+
+sense ABC; from which with the arcs put in place OA =  , OB =  , OC = 
+
+the arc  is very small, but  and  disagree little with
+
+the quadrant, thus in order that cos = 1 and cos  = cos  = 0 . Whereby on putting
+
+x =  ' cos , y =  ' cos  and z =  ' cos 
+
+these letters y and z can be taken as vanishing, yet not
+
+the differentials of these , which shall be dy = -  ' d  and dz = -  ' d .
+
+Now a right line is drawn crossing from the centre of forces to the centre of inertia at F and
+gives the arcs AF =  , BF =  , CF = ,
+
+moreover the distance of the centre of forces is put equal to s and the force attracting is of
+
+such a size that on putting the distance equal to e it is equal to that of gravity. Hence from the
+
+action of this force, the magnitudes x, y, z thus are changed in the element of time dt, in order
+
+that
+
+dx
+
++
+
+cc -bb aa
+
+yzdt
+
+=
+
+6gee( cc-bb ) dt cos aas3
+
+cos
+
+dy
+
++
+
+aa - cc bb
+
+xzdt
+
+=
+
+6gee( aa-cc ) dt cos bbs3
+
+cos
+
+dz
+
++
+
+bb-aa cc
+
+xydt
+
+=
+
+6gee( bb-aa ) dt ccs3
+
+cos 
+
+cos
+
+.
+
+Since now on putting dx = d ' , on account of y and z vanishing, then
+
+d
+
+'
+
+=
+
+6gee( cc-bb ) dt cos aas3
+
+cos
+
+ ' d
+
+=
+
+6gee( aa-cc ) dt cos bbs3
+
+cos
+
+ ' d
+
+=
+
+6gee( bb-aa ) dt cos ccs3
+
+cos
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 846
+
+Which variation, so that we can examine it more carefully, we look for that arc FO, but on
+
+account of
+
+sin
+
+BAF
+
+=
+
+cos sin
+
+,
+
+cos
+
+BAF
+
+=
+
+cos sin 
+
+,
+
+there becomes
+
+sin
+
+FAO
+
+=
+
+cos 
+
+cos -cos  sin sin
+
+cos
+
+and
+
+cos
+
+FAO
+
+=
+
+cos
+
+
+
+cos +cos  sin sin
+
+cos
+
+.
+
+and hence
+
+cos FO = cos  cos + cos  cos + cos cos ;
+
+with the differential of this giving
+
+on account of
+
+( Fo - FO) sin FO = d  cos + d cos
+sin  = sin = 1 et sin = 0 .
+
+Whereby since FO = FA =  , there is found
+
+( ) (Fo -
+
+FO) sin
+
+=
+
+6geedt cos cos cos  ' s3
+
+aa - cc bb
+
++
+
+bb-aa cc
+
+or
+
+Fo
+
+-
+
+FO
+
+=
+
+6gee( ce-bb )
+
+( bb+ce-aa )  ' bbccs3
+
+dtcot
+
+coscos
+
+on account of
+
+tang
+
+BAO
+
+=
+
+cos  cos 
+
+.
+
+But for the position of the point o to be found, we have from differentiation :
+
+and thus and Then now, since
+
+-
+
+OAo cos2 BAO
+
+=
+
+-d
+
+cos
+
+
+
+sin +d  cos2 
+
+cos 
+
+sin
+
+
+
+OAo
+
+=
+
+d
+
+cos
+
+
+
+sin -d  sin2 
+
+cos 
+
+sin 
+
+( ) Oo = d 2 + d 2 .
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 847
+
+there arises an account of cos = 1 or
+
+d
+
+=
+
+-d 
+
+sin  cos  -d sin sin cos
+
+cos 
+
+,
+
+tang
+
+OoA
+
+=
+
+d d
+
+ 
+
+sin sin
+
+ 
+
+cos cos
+
+ -d  +d
+
+sin  sin 
+
+cos  cos 
+
+tang
+
+OoA
+
+=
+
+d d
+
+cos  -d cos  cos  +d cos 
+
+.
+
+COROLLARY 1 841. If the moments of inertia about the axis 1B and IC are equal or bb = cc, in the first place let d ' = 0 , or the angular speed suffers no change, then now we have
+
+and so that it becomes
+
+d
+
+=
+
+-6gee( aa-cc )dt cos  ' ccs3
+
+cos
+
+d
+
+=
+
+6gee( aa-cc )dt cos  ' ccs3
+
+cos
+
+,
+
+d  cos + d cos = 0.
+
+COROLLARIUM 2
+
+842. Again in the case bb = cc if Fo ­ FO = 0 or the pole of rotation o thus is moved to O, in
+
+order that the interval OO is normal to the arc FO ; that is the interval
+
+Oo =
+
+6gee( aa-cc ) dt cos  ' ccs3
+
+sin 
+
+,
+
+but now it is sought, whether is shall point from O towards FA or the contrary.
+
+COROLLARY 3
+
+843. But since then it is the case that sin FO : sin FAO = sin AO : sin AFO,
+
+then
+
+sin
+
+AFO
+
+=
+
+cos 
+
+cos - cos  sin sin FO
+
+cos
+
+.
+
+Now because FO does not change, there becomes following the figure, where O is taken to
+
+approach AF :
+
+-OFo  cos AFO =
+
+-d cos +d  cos sin sin FO
+
+=
+
+-
+
+6
+
+gee(
+
+aa '
+
+-cc )dt sin ccs3 sin FO
+
+cos 
+
+,
+
+and thus
+
+OFo =
+
+6gee( aa-cc )dt sin cos  ' ccs3 sin FO cos AFO
+
+.
+
+Therefore since the angle AFO is infinitely small and cos AFO = 1 and FO = FA =  ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 848
+
+then
+
+OFo =
+
+6gee( aa-cc ) dt cos  ' ccs3
+
+.
+
+Hence if aa > cc, the point O approaches the arc AF, or proceeds around A in the sense CB.
+
+SCHOLIUM
+
+843 [a]. This case, in which bb = cc, thus so that the body has two equal moments of inertia
+
+about the principal axes I B et 1C and just as it rotates about the singular axis IA with an angular speed  ' in the sense BC, has an especial place in the rotational motion of the earth
+
+and thus merits to be considered further. So that this can be made easier, since AO =  , the angle BAO is put equal to  , then
+
+90° -  = cos and 90° -  = sin ,
+
+from which
+
+ = 90° - cos  and  = 90° - sin .
+
+But if for the sake of brevity we put hence
+
+3gee( '
+
+aa - cc ccs3
+
+)
+
+=
+
+N
+
+,
+
+so that
+
+d  = -2Ndt cos cos
+and d = 2Ndt cos cos ,
+then - d cos  + d  sin  = -2N dt cos cos
+and - d sin  -d  cos  = 2Ndt cos cos ; .
+from which there is deduced d = 2N dt cos (cos  cos - sin  cos )
+and d  = -2Ndt cos (sin  cos + cos  cos ).
+Now if we give the centre of forces F some kind of motion, also as long as we are able to use these formulas, for as long as the arc AO =  remains so small, so that the contractions put in place can be used.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 849
+
+PROBLEM 96 844. If a body has two equal principal moments and it is rotating almost about the third singular axis, moreover the centre of forces is carried uniformly in a circle about the centre of inertia, to determine the position and motion of the body at whatever time.
+
+SOLUTION The centre of forces progresses along the great circle XFY (Fig. 108) with an angular speed equal to and in an elapsed time equal to t it arrives at F from X, so that XF =  t .
+
+Therefore on the sphere the fixed circle XZY is considered, on which Z is the pole of the circle XFY, so that the angle XZF =  t . Moreover now the singular axis of the body is turning about A, and there is placed the angle XZA =  and the arc ZA = p [measuring
+
+longitude and latitude from the zenith Z]; then truly it is as if the first meridian of the body is
+
+AB, being distant from the arc ZA by the angle ZAB = q. Again the body now rotates about the axis 1O, so that the smallest arc AO =  and the angle BAO =  , with the
+
+rotational speed equal to , since now we
+
+know that to be constant, and the point A
+
+in the element of time dt goes to a, so that Aa =  dt sin =  dt
+
+[note as usual that the arc is replaced by the linear section sin , which here reverts to  as it is small.]
+
+and the angle aAO is right; whereby on
+
+account of ZAO = q + 
+
+there becomes ZAa = q +  - 90° ,
+
+and thus on sending the perpendicular a to ZA there becomes a = - dt cos( q +  )
+
+and A = edt sin( q +  ),
+
+from which there is deduced
+
+dp = - dt sin( q +  )
+
+and
+
+d
+
+=
+
+
+
+dt
+
+cos( q+  sin p
+
+)
+
+;
+
+indeed following, as if the body is rotating about the pole A, then dq =  dt . And then in the
+
+triangle AZF on account of ZA = p, ZF = 90° and AZF =  -  t there is found
+
+cos FA = cos = sin p cos(  -  t )
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 850
+
+and
+cotZAF = - cos p cot ( -  t) .
+
+For the sake of brevity putting the angle ZAF =  , in order that
+
+tang
+
+=
+
+-
+
+tang(
+cos
+
+- t )
+p
+
+,
+
+then BAF =  - q
+
+and hence
+
+cosBF = cos( - q )sin = cos
+
+and cos CF = sin( - q )sin = cos .
+
+Now there is
+
+sin sin = sin(  -  t )
+
+and cos sin  = - cos p cos(  -  t )
+
+and hence
+
+cos = - cosp cosq cos(  - t ) + sinq sin ( -  t )
+
+and cos = cosq sin(  -  t ) + cosp sinq cos(  -  t ).
+
+From which there is put
+
+3gee( aa-cc  ccs3
+
+)
+
+=
+
+N
+
+,
+
+and there is deduced to be
+
+d = 2N dt sinp cos ( -  t ) (cosp sin( q +  )cos ( -  t ) + cos( q +  )sin ( -  t ) )
+
+and
+ d  = - 2Ndt sinp cos ( -  t ) (sin( q +  )sin ( -  t ) - cos p cos( q +  )cos ( -  t ) ),
+
+from which if we join with
+
+dq =  dt
+
+and dp = -dtsin ( q +  ) ,
+from these four equations it is necessary for the four quantities p, q,  and  to be defined.
+
+But the first two are transformed into these simpler equations:
+
+d cos( q +  ) -d  sin( q +  ) = 2Ndt sin p sin( A - t )cos( A - t )
+d sin( q +  ) +  d  cos( q +  ) = 2Ndt sin p cos p cos2 ( A - t ) .
+Since then q = t + C , we put q +  =  , in order that  =  - q , and on joining to the first four equations we thus have these equations:
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 851
+
+dp = -  dt sin
+
+d =  dt cos
+sin p
+d cos - d sin +  dt sin = 2Ndt sin p sin(  -  t )cos(  -  t )
+
+d sin +  d cos -  dt cos = 2Ndt sin p cos p cos2(  -  t ) ; and if above we put  -  t =  , which letter is not to be confused with the previous  , then
+
+these become :
+
+dp = -  dt sin
+
+d =
+
+-
+
+
+
+dt
+
++
+
+
+
+dt cos sin p
+
+
+
+d cos - d sin +  dt sin = 2N dt sin p sin cos
+
+d sin +  d cos -  dt cos = 2N dt sin p cos p cos2 . Again we put  cos = x and  sin = y , so that we have these equations : 1. dp = - ydt
+
+2.
+
+d
+
+=
+
+ xdt sin p
+
+3. d =
+
+-  dt +
+
+ xdt sin p
+
+4. dx +  ydt = Ndt sin p sin 2
+
+5. dy -  xdt = Ndt sin p cos p + Ndt sin p cos p cos 2 ,
+
+where since x and y are small quantities, we will be near enough to the truth, if in the two last equations we consider the arc p and the angle  as constants. Hence we attribute to these as if the mean values, and then approximately p = n and  = m and thus d = - dt , so that we
+
+have the equations:
+
+4.
+
+dx
+
+-
+
+
+
+yd 
+
+=
+
+-
+
+Nd 
+
+sinn
+
+sin2 ;
+
+5.
+
+dy
+
++
+
+ xd 
+
+=
+
+-
+
+Nd
+
+sin n cos
+
+n
+
+-
+
+Nd
+
+sin n cos n cos 2 
+
+,
+
+which it is evident they can be satisfied on putting
+
+x = E + F cos 2
+
+y = G sin 2 ,
+
+and these coefficients are defined thus, so that there becomes
+
+E
+
+=-
+
+N sin n cos n 
+
+F
+
+=
+
+-
+
+N
+
+sin n( 2 + cos  - 4
+
+n)
+
+G
+
+=
+
+N
+
+sin n( 2 cos n+  -4
+
+).
+
+Then since this solution is only to be considered as a particular one, there is put
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 852
+
+x = E + F cos 2 + u
+
+and y = G sin 2 + v ,
+
+and these equations are produced:
+
+du
+
+-
+
+
+
+vd 
+
+=0
+
+and
+
+dv
+
++
+
+ vd 
+
+=
+
+0,
+
+from which there is elicited
+
+u
+
+=
+
+h
+
+sin
+
+ 
+
+(
+
++
+
+)
+
+and
+
+v
+
+=
+
+h cos
+
+ 
+
+(
+
++
+
+),
+
+where h et  are arbitrary constants. Concerning which we have :
+
+x
+
+=
+
+
+
+cos 
+
+=
+
+-
+
+N
+
+sin n 
+
+cos
+
+n
+
+-
+
+N
+
+sin n (  cos n+2  -4
+
+) cos 2
+
++
+
+hsin
+
+ 
+
+(
+
++
+
+)
+
+y =  sin =
+
+N
+
+sin n(  -2 cos n )  -4
+
+sin 2
+
++ h cos
+
+ 
+
+(
+
++
+
+), ,
+
+where  expresses the angle FZA =  -  t . Then on account of
+
+dp
+
+=
+
+-
+
+ydt
+
+=
+
+
+
+yd 
+
+we obtain on integration :
+
+p
+
+=
+
+n-
+
+N
+
+sin 2
+
+n( 
+(
+
++2 cos
+-4 )
+
+n
+
+)
+
+cos
+
+2
+
++ h sin
+
+ 
+
+(
+
++
+
+)
+
+=
+
+ZA.
+
+And
+
+then
+
+the
+
+equation
+
+d
+
+=
+
+ xdt sin p
+
+=
+
+-
+
+ xd  sin n
+
+gives:
+
+
+
+=
+
+m-
+
+Nt
+
+cos n
+
++
+
+ N(  cos n+2
+2 ( -4 )
+
+)
+
+sin 2
+
++
+
+h sin n
+
+cos
+
+ 
+
+(
+
++
+
+)
+
+=
+
+XZA.
+
+COROLLARY 1 845. Since by our putting in place  = ( xx + yy ), it is apparent that in the succession of time the distance AO =  is unable to be increased beyond a certain limit, which if it is small enough, we can use our hypothesis without risk. Now likewise it is apparent that the interval  clearly at no time vanishes, except perhaps it happens when both x = 0 as well as y = 0.
+COROLLARY 2 846. With the depending inequalities ignored in the angle
+2 = 2FZA
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 853
+
+and
+
+ 
+
+(
+
++
+
+),
+
+the pole A uniformly goes around the point Z in the preceding with an angular speed equal to
+
+N cos n, if indeed
+
+N
+
+=
+
+3gee( aa-cc eccs3
+
+)
+
+should be a positive number, and thus the whole revolution is completed in a time equal to
+
+2 Ncosn
+
+sec.,
+
+while the centre of forces F completes a revolution
+
+in a time equal to
+
+2 
+
+; and the body itself
+
+in a time equal to
+
+2 
+
+.
+
+COROLLARY 3 847. Now in addition both the interval ZA as well as the angle XZA appear to be very small inequalities, partially from the angle 2 = 2FZA , partially from the angle
+
+ 
+
+(
+
++
+
+
+
+)
+
+=
+
+C
+
+- t,
+
+that is, partially from the motion of the centre of forces, partially from the rotational motion
+
+depending on the body itself. Whereby if we put the angle ZAB =  , then
+
+ZA
+
+=
+
+n-
+
+N
+
+sin n( 
+2 (
+
++2 cos
+-4 )
+
+n
+
+)
+
+cos
+
+2
+
+-
+
+h
+
+sin
+
+ 
+
+(
+
++
+
+)
+
+XZA
+
+=
+
+m-
+
+Nt cos n +
+
+ N(  cos n+2
+2 ( -4 )
+
+)
+
+sin 2
+
++
+
+h sin n
+
+cos
+
+ 
+
+(
+
++
+
+).
+
+SCHOLIUM 1
+
+848. Here we have accepted the body to be rotating in the same sense that the centre of forces F is carried around it, just as happens on the earth, which rotates from the west to the east, in which sense also the sun and moon by their own motion are discerned to be moving [on removing the diurnal motion]. As also we have considered the number
+
+N
+
+=
+
+3gee( aa-cc eccs3
+
+)
+
+as positive, or the body thus composed, in order that the moment of inertia of this with
+
+respect to the axis, about which it is turning nearby, is the maximum equal to Maa, while about the axis taken at the equator it is the minimum equal to Mcc, for which property observations in place indicate that the shape of the earth to be a compressed spheroid. Hence in this arrangement, the axis of the earth must be turning around the pole of the ecliptic Z in the preceding, just as that also from observation is constant. Now in addition neither is that
+
+motion of the axis uniform, nor is the distance of that axis from the pole of the ecliptic Z
+
+constant, but it is liable to two inequalities, of which one depends on twice the angle FZA =  and the other indeed depends on the rotational motion of the body itself, which
+
+latter may become greater or less, as initially the pole of the rotation O has been put in place
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 854
+
+both on account of the position of the pole A as well as of the centre of forces F. Clearly since  can denote the angle ZAO, if initially or at some given time the quantities AO =  , ZAO = , FZA =  become known, and ZAB = , on taking AB for the first
+
+meridian of the body, the two constants h and  are defined from the equations :
+
+
+
+cos 
+
++
+
+N
+
+sin n cos n 
+
++
+
+N
+
+sin n(  cos n+2  -4
+
+) cos 2
+
++
+
+hsin( 
+
++
+
+)
+
+=
+
+0
+
+ sin -
+
+N
+
+sin n(  +2 cos n )  -4
+
+sin 2
+
+- h cos(
+
++
+
+)=
+
+0
+
+Hence unless h = 0 is produced, the pole A also undergoes diurnal inequalities, thus in order
+
+that from the interval and the rotation of this alternately it approaches and recedes from the
+
+pole of the ecliptic, and likewise in turn it nutates in the preceding and subsequent motion.
+
+On this account the pole A describes an unequal circle in the individual revolutions ; since the
+
+centre of this is at rest, that it taken rather for the true pole of the earth, in order that these
+
+inequalities are not perceived. Then the remaining inequalities depending on the action of the
+
+centre of forces do not now appear at this pole, but they do affect the pole of the principal
+
+axis.
+
+SCHOLIUM 2
+
+849. But with these diurnal inequalities omitted, by which perhaps the axis of nutation is
+
+affected, if it should be the case that aa > cc and the body is rotating in the same sense as the
+
+centre of forces, thus these phenomena are themselves found :
+
+In the first place the distance of the pole A from the point Z, which is the vertex or the pole of
+
+the orbit, that the centre of forces describes, is variable and a certain minima can be taken, if
+
+either the angle FZA becomes zero or 180°, but a maxima if the angle should be either 90° or
+
+270°, difference between the maximum and the minimum distance present is equal to
+
+
+
+N
+
+sin n(  +2
+ ( -4
+
+cosn
+)
+
+)
+
+.
+
+Secondly the pole A in the preceding motion is returning non­uniformly about the point Z, which if, according to custom, to be represented by a correction of the prostapheresis of the mean motion, with the mean returning with an angular speed equal to N cos n, while now a correction or the maximum prostapheresis to be added equal to
+ N sin n(  +2 cosn )
+2 ( -4 )
+
+[corrected from the original by C. H. in the O. O. edition], if the angle FZA is either 45° or 225°, and to be subtracted, if the angle itself becomes either 135° or 315°, where it is noted, this angle FZA =  is to be found if the longitude of the centre of forces F is subtracted from
+
+the longitude of the pole A. Moreover here we see that the speed of the rotational motion  is much larger compared to the speed of the centre of forces ; if indeed it should be given by  = 2 , then the attempts found thus go to infinity; now in this case the integration of our
+equations are to be set up in a singular way, by putting x = E + F cos 2 + A sin 2 ;
+
+and
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 855
+
+y = G sin 2 + B cos 2 ,,
+
+and there being discovered
+
+E
+
+=
+
+-Nsinn cosn 2
+
+A=
+
+B
+
+=
+
+-
+
+Nsinn(1+ 2
+
+cos n )
+
+F
+
++G
+
+=
+
+N sin n(1 - 4
+
+cos n ) .
+
+Since indeed here x and y continually increase, soon the hypothesis made is transgressed, and
+
+there is no longer a place for the whole calculation. Whereby unless is notably different
+
+from 4 our formulas are unable to be put to use.
+
+[Here we may note that prior to discovering the 'Euler equations' used in this derivation, Euler had deduced similar equations from first principles in what is now E171, where he had gone as far as to predict the future yearly changes in the pole's coordinates due to perturbations of both the sun and moon : Recherces sur la précherches sur la precession des equinoxes et sur la nutation de l'axe de la terr, in Opera Omnia, Series II, vol, 30, p. 92-123, published in Mémoires de l'acad´emie dessciences de Berlin 5 (1749), 1751, p. 289-325. A translation of this paper by Steven Jones, edited by Robert E. Bradley, is available at MathDL. ]
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 856
+
+CAPUT XVI
+DE MOTU GYRATORIO SEU VERTIGINIS CORPORUM COELESTIUM
+PROBLEMA 91 815. Si corporis rigidi singula elementa sollicitentur versus aliquod punctum F viribus, quae sint ut eorum massae per quadrata distantiarum ab eo puncto divisae, determinare harum virium momenta respectu axium principalium corporis.
+SOLUTIO
+Sint IA, IB, IC axes principales corporis (Fig. 104), eorumque respectu eius momenta inertiae Maa, Mbb, Mcc. Puncti autem F seu centri virium a centro inertiae corporis I distantia ponatur IF = s, quae ita ad ternos axes prineipales corporis sit inclinata, ut sint anguli
+AIF =  , BIF =  et CIF =  ;
+
+hinc demisso ex F ad planum AIB perpendiculo FE et ex E ad axem IA normali EA, erit
+IA = s cos , AE = scos et EF = s cos.
+Vis porro singula corpora ad punctum F pellens tanta sit, ut in distantia = e aequetur gravitati, in aliis autem distantiis secundum quadrata earum diminuatur. Consideretur nunc corporis elementum quodcunque dM in Z, pro quo sint coordinatae axibus principalibus congruae
+IX = x, XY = y, YZ=z
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 857
+
+atque
+
+vis,
+
+qua
+
+hoc
+
+elementum
+
+dM
+
+ad
+
+punctum
+
+F
+
+urgetur,
+
+erit
+
+=
+
+ee ZF 2
+
+dM
+
+.
+
+Iam haec vis resolvatur secundum directiones axium Zp, Zq, Zr, eritque
+
+vis
+
+secundum
+
+Zp
+
+=
+
+ee( s
+
+cos - x )dM ZF 3
+
+,
+
+vis secundum Zq =
+
+ee(
+
+s
+
+cos - y ZF 3
+
+)dM
+
+,
+
+vis
+
+secundum
+
+Zr
+
+=
+
+ee(
+
+s
+
+cos - z ZF 3
+
+)dM
+
+atque hinc erunt momenta istarum virium respectu axium principalium:
+
+momentum
+
+axis
+
+IA
+
+in
+
+sensum
+
+BC
+
+=
+
+ees(
+
+ycos - z cos ZF 3
+
+)dM
+
+,
+
+momentum axis IB in sensum CA =
+
+ees(
+
+zcos - x cos ZF 3
+
+)dM
+
+,
+
+momentum axis IC in sensum AB =
+
+ees(
+
+xcos - y cos ZF 3
+
+)dM
+
+.
+
+His igitur momentis per totum corpus colligendis obtinebimus momenta, quae
+
+supra litteris P, Q, R indicavimus, ita ut sit ob s quantitatem constantem:
+
+Est autem ZF =
+
+P
+
+=
+
+ees
+
+
+
+(
+
+ycos
+
+- z cos ZF 3
+
+)dM
+
+,
+
+Q=
+
+ees
+
+
+
+(
+
+zcos
+
+- x cos ZF 3
+
+)dM
+
+,
+
+R=
+
+ees
+
+
+
+(
+
+xcos
+
+- y cos ZF 3
+
+
+
+)dM .
+
+((s cos - x)2 + (s cos - y)2 + (s cos - z)2 )
+
+seu ob cos2  + cos2 + cos2  = 1,
+
+ZF = (ss - 2sx cos -·2sy cos - 2sz cos + xx + yy + zz).
+
+Cum autem in corporibus coelestibus distantia 1F = s sit semper vehementer magna prae ipso
+
+corpore seu quantitatibus x, y, z, erit satis exacte ad nostrum institutum
+
+1 ZF 3
+
+=
+
+1 s3
+
++
+
+3x cos +3y cos +3z cos s4
+
+.
+
+Quoniam vero ob 1 centrum corporis inertiae et IA, IB, IC eius axes principales habemus
+
+ xdM = 0,  ydM = 0,  zdM = 0,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 858
+
+atque
+
+ xydM = 0,  xzdM = 0,  yzdM = 0,
+
+prodibit his factis substitutionibus :
+
+(3yy cos cos -3zz cos cos ) dM
+
+P =ees
+
+s4
+
+=
+
+3ee cos s3
+
+cos
+
+(
+
+yy
+
+-
+
+zz )dM
+
+Q
+
+=
+
+3ee cos s3
+
+cos
+
+
+
+(
+
+zz
+
+-
+
+xx )dM
+
+R
+
+=
+
+3ee cos s3
+
+cos
+
+(
+
+xx -
+
+yy)dM .
+
+Verum ob data momenta inertiae est
+
+ xxdM
+
+=
+
+1 2
+
+M
+
+(
+
+bb
+
++
+
+cc
+
+- aa ),
+
+
+
+yydM
+
+=
+
+1 2
+
+M ( aa
+
++ ce
+
+~
+
+bb
+
+)
+
+et
+
+quocirca erit
+
+ zzdM
+
+=
+
+1 2
+
+M ( aa + bb - cc ),
+
+P
+
+=
+
+3Mee( cc-bb ) s3
+
+cos cos
+
+Q
+
+=
+
+3Mee( aa-cc ) s3
+
+cos 
+
+cos
+
+R
+
+=
+
+3Mee( bb-aa ) s3
+
+cos 
+
+cos
+
+.
+
+COROLLARIUM 1 816. Haec igitur momenta virium non rigore geometrico sunt definita, sed tantum valent, quando distantia puncti attrahentis magnitudinem corporis attracti longe superat. Atque sic commode evenit, ut ea per momenta inertiae tam concinne exprimi potuerint.
+
+COROLLARIUM 2 817. Si corpus attractum omnia momenta inertiae habeat inter se aequalia, etiam haec virium momenta evanescunt; eatenus ergo tantum motus gyratorius corporum coelestium ab huiusmodi viribus afficitur, quatenus ea non sunt sphaerica, seu saltem momentis inertiae aequalibus praedita.
+SCHOLlON 818. Si, quantum hae vires ad motum progressivum conferant, definire velimus, singulas vires elementares ipsi centro inertiae applicare debemus; quas si pro quolibet axe in unam summam colligamus, habebimus totam vim corpus ad motum progressivum sollicitantem. Ut
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 859
+
+autem ad binas dimensiones variabilium x, y, z ascendamus, accuratius valorem ZF exprimere
+
+debemus, ut sit:
+
+1 ZF 3
+
+=
+
+1 s3
+
++
+
+3 ( x cos + y cos + z cos )
+s4
+
+15
+
+( x cos +
+
+y cos 2s5
+
++
+
+z cos )2
+
+-
+
+3 ( xx+ yy + zz)
+
+2 s5
+
+.
+
+Haec formula per ( s cos - x )dM multiplicata et secundum praecepta superiora integrata
+
+dabit
+
+
+
+(
+
+s
+
+cos - x ZF 3
+
+)dM
+
+=
+
+M cos ss
+
++
+
+15 cos 2s4
+
+
+
+ dM ( xx cos2 
+
++
+
+yy cos2 
+
++ zz cos2 
+
+)
+
+-
+
+3 cos  2s4
+
+
+
+dM
+
+(
+
+xx
+
++
+
+yy
+
++
+
+zz
+
+)
+
+-
+
+3 cos  s4
+
+ xxdM
+
+,
+
+quae in hanc formam transmutatur:
+
+( ( ) ( ) ( )) M
+
+cos  ss
+
++
+
+3M cos  2s4
+
+aa 3 - 5 cos2  + bb 1 - 5cos2 + cc 1 - 5 cos2  .
+
+Quare nanciscemur sequentes tres vires:
+
+( ( ) ( ) ( )) I.
+
+sec .IA =
+
+Mee cos ss
+
++
+
+3Meecos 2s4
+
+aa 3 - 5 cos2 + bb 1- 5 cos2 + cc 1- 5 cos2
+
+( ( ) ( ) ( )) 1I.
+
+sec .IB
+
+=
+
+Mee cos ss
+
++
+
+3Meecos 2s4
+
+bb 3 - 5 cos2 + cc 1- 5 cos2 + aa 1- 5 cos2
+
+( ( ) ( ) ( )) III.
+
+sec .IC
+
+=
+
+Mee cos ss
+
++
+
+3Meecos 2s4
+
+cc 3 - 5 cos2 + aa 1- 5 cos2 + bb 1- 5 cos2
+
+Hac tres autem vires revocantur primo ad unicam in directione 1F sollicitantem,
+
+quae est:
+
+( ( ) ( ) ( )) Mee
+ss
+
++
+
+3Mee 2s4
+
+aa 1- 5cos2 + bb 1- 5cos2 + cc 1- 5 cos2
+
+,
+
+cui insuper sunt adiungendae hae ternae
+
+1 °.
+
+sec
+
+.
+
+IA
+
+=
+
+3Maaee s4
+
+cos 
+
+2 °.
+
+sec
+
+.
+
+IB
+
+=
+
+3Mbbee cos s4
+
+3°.
+
+sec .
+
+IC
+
+=
+
+3Mccee cos s4
+
+.
+
+Unde patet, si terna momenta inertiae principalia fuerint inter se aequalia, omnes vires ad
+
+unicam
+
+Mee ss
+
+secundum 1F agentem reduci, quae in Theoria Astronomiae spectatur, reliquis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 860
+
+vero casibus vis illa centripeta non erit pure quadrato distantiae reciproce proportionalis, sed eo accedunt insuper exiguae particulae biquadrato distantiae reciproce proportionales, quae autem praeterea a situ corporis respectu virium F pendent; ad quam aberrationem in calculo Astronomico attendisse iuvabit, praecipue si corpora notabiliter a figura sphaerica recedant.
+
+SCHOLlON 2 819. Assumsi hic singula corporis elementa versus unicum punctum F urgeri, cum tamen in hypothesi Attractionis etiam ad singula corporis attrahentis elementa sollicitentur. Verum si corpus attrahens fuerit sphaera, certum est id perinde ad se adtrahere, ac si tota eius massa in centro esset unita; ita ut nostrum problema etiam hos casus in se complectatur. At si corpus attrahens non fuerit sphaericum, mutabitur quidem paulisper tam ratio reciproca duplicata, quam directio vis, quae non amplius ad certum punctum erit directa; verum, haec irregularitas in ingenti distantia penitus evanescere est censenda, praecipue cum corpora coelestia parum a figura sphaerica discrepent. Hic autem quoniam tantum ad motum gyratorium respicio, a motu progressivo mentem abstrahendo, centrum inertiae corporis in quiete considero, ac primo, si ipsum corpus quiescat, circa quemnam axem motum gyratorium sit accepturum, investigabo.
+
+PROBLEMA 92 820. Si corpus quiescat, idque a centro virium F modo ante definito sollicitetur, definire
+
+axem, circa quem primo instanti motum gyratorium accipiet, ac celeritatem angularem inde genitam.
+
+SOLUTIO Corpus ergo in quiete consideramus, seu potius ab eius motu progressivo mentem abstrahimus; eius igitur centro inertiae
+
+in centro sphaerae constituto sint
+
+A, B, C poli axium principalium (Fig. 105), eorumque
+
+respectu, ut hactenus, momenta inertiae Maa, Mbb,Mcc. Iam
+
+recta ex centro inertiae ad centrum virium ducta traiiciat
+
+superficiem sphaericam in puncto F, ut sint arcus AF =  , BF =  , CF = ; distantia autem centri virium sit
+
+= s eiusque vis attrahens tanta, ut in distantia = e aequetur gravitati. Hinc virium momenta P, Q, R respectu axium
+
+principalium IA, IB, IC sunt:
+
+P
+
+=
+
+3Mee( cc-bb ) s3
+
+cos cos
+
+Q
+
+=
+
+3Mee( aa-cc ) s3
+
+cos 
+
+cos
+
+atque
+
+R
+
+=
+
+3Mee( bb-aa ) s3
+
+cos 
+
+cos
+
+.
+
+Quare ex § 806 corpus gyrari incipiet circa eiusmodi axem IO, ut positis arcubus
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 861
+
+futurum sit
+
+AO =  , BO =  , CO = 
+
+( ) cos
+
+=
+
+P aa
+
+:
+
+PP a4
+
++
+
+QQ b4
+
++
+
+RR c4
+
+( ) cos 
+
+=
+
+Q bb
+
+:
+
+PP a4
+
++
+
+QQ b4
+
++
+
+RR c4
+
+( ) cos
+
+=
+
+R cc
+
+:
+
+PP a4
+
++
+
+QQ b4
+
++
+
+RR c4
+
+,
+
+tempusculo autem dt acquiret celeritatem angularem nascentem
+
+( ) d'
+
+=
+
+2 gdt M
+
+PP a4
+
++
+
+QQ b4
+
++
+
+RR c4
+
+,
+
+quae in sensum ABC erit directa. Atque ex his distantia poli gyrationis O a puncto F ita reperitur expressa, ut sit
+
+( ) ( ) cosOF =
+
+P cos + Q cos
+
+aa
+
+bb
+
++ R cos
+cc
+
+:
+
+PP + QQ + RR
+
+a4
+
+b4 c4
+
+.
+
+COROLLARIUM 1 821. Memoratu hic dignus est casus, quo centrum virium F cadit intra binos polos
+
+principales; cadat enim punctum F in arcum AB et ob cos = 0 et cos2  + cos2  = 1, erit
+
+P= 0, Q= 0
+
+et
+
+R
+
+=
+
+3Mee(bb-aa) sin s3
+
+cos 
+
+unde etiam fit cos = 0 et cos  = 0 et cos  = 1, ita ut polus gyrationis O cadat in polum
+
+principalem C.
+
+COROLLARIUM 2
+
+822. Eodem casu, quo centrum virium est in plano AIB et corpus circa axem IC gyrari incipit,
+
+primo tempusculo dt acquirit celeritatem angularem nascentem
+
+d
+
+'
+
+=
+
+6gee(bb-aa) dt ccs3
+
+sin 
+
+cos 
+
+in sensum AB, seu
+
+d '
+
+=
+
+3gee(bb-aa) dt sin 2 ccs3
+
+.
+
+COROLLARIUM 3 823. Quodsi ergo eodem casu corpus iam habuerit motum gyratorium circa istum axem IC
+celeritate =  ' in sensum AB, is ob vim sollicitantem versus centrum virium F tendentem
+accelerabitur, ita ut fiat
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 862
+
+d '
+
+=
+
+3gee(bb-aa) dt sin 2 ccs3
+
+.
+
+SCHOLION
+
+824. Hinc ergo evidens est, si centrum virium F ita circa corpus circumferatur, ut per circulum maximum AB duos axes principales IA et IB continentem incedat corpusque circa reliquum axem principalem IC gyrari coeperit, tum perpetuo circa eundem axem IC esse gyraturum, solamque celeritatem angularem  ' modo auctum modo minutum iri. Casus
+hic omnino dignus est, qui omni studio evolvatur, quoniam motum libratorium lunae, quo semper fere eandem faciem terrae obvertit, complecti videtur. Quae investigatio quo facilior et clarior reddatur, primo centrum virium motu uniformi circa corporis centrum inertiae in eodem plano circumferri ac perpetuo eandem distantiam servare assumamus.
+
+PROBLEMA 93 825. Si corpus gyretur circa suum axem principalem IC, centrum virium autem F in plano ad eum normali uniformiter circumferatur, eius distantia a centro inertiae corporis eadem manente, definire motum gyratorium huius corporis.
+
+SOLUTIO Quoniam ergo axis gyrationis IC manet constans
+et coeli respectu quasi fixus (Fig. 106), sit XCY hemisphaerium coeleste et XY circulus maximus polo C descriptus, in quo centrum virium F uniformiter incedat, atque in hoc circulo quoque constanter inerunt bini reliqui poli principales corporis A et B. Ponatur celeritas angularis centri virium F =  ,quod eum initio
+fuisset in X, tempore elapso = t arcum descripserit necesse est XF =  t . Eodem autem temporis momento alter axis principalis reperiatur in A, positoque arcu XA =  , si celeritas angularis corporis circa axem IO sit =  ' in sensum AB,
+erit d =  ' dt . Tum vero ob AF =  t -  , quod supra erat  , hic nobis est  t -  ; at retentis
+reliquis quantitatibus aa, bb,cc itemque ee et s, quae sunt constantes, ut supra, habebimus hanc aequationem
+
+d ' =
+
+3gee( bb - aa ) ccs3
+
+dt sin 2 .
+
+Introducamus autem angulum ACF =  , et ob  =  t -  nanciscimur
+
+ =t -
+
+et d =  dt - d =  ' dt,
+
+unde fit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 863
+
+
+
+'
+
+=
+
+-
+
+d dt
+
+.
+
+Quocirca sumto elemento dt constante prodit haec aequatio resolvenda:
+
+dd +
+
+3gee( bb - aa ) ccs3
+
+dt2 sin 2
+
+= 0.
+
+Statuamus brevitatis gratia et multiplicando per 2d fit
+
+3gee( bb - aa ) ccs3
+
+= N,
+
+2d dd + 2Ndt2d sin 2 = 0,
+
+cuius integralis est:
+
+d 2 - Ndt2 cos 2 = Cdt2 ,
+
+unde colligitur
+
+dt =
+
+d
+
+(C + N cos 2 )
+
+atque
+
+ ' =  - (C + N cos 2 ).
+
+Ex illa autem aequatione ad quodvis tempus t arcum AF =  definiri oportet, qui si esset
+
+constans, corpus perpetuo eandem faciem centro virium F obverteret. Quatenus ergo N non est = 0 et angulus  variationi obnoxius, celeritas angularis  ' est variabilis ; ad quae
+
+phaenomena exploranda binos casus evolvi decet, prout fuerit vel bb > aa vel bb < aa, quorum uterque pro ratione constantis C infinitam varietatem complectitur.
+
+CASUS I quo bb > aa
+
+826. Sit igitur
+
+3 gee(bb - aa ) ccs3
+
+=n
+
+numero positivo, et dum centrum virium F celeritate  per eirculum XFY progreditur et ad
+
+tempus t arcus FA in antecedentia vergens vocetur =  ,
+
+erit
+
+dt =
+
+d
+
+,
+
+(C +n cos 2 )
+
+ubi ratione constantis C sequentia annoto:
+
+1°. Si C = -n (nam valorem negativum maiorem habere nequit), erit
+
+dt =
+
+d
+
+,
+
+n(-1+ cos 2 )
+
+ideoque angulus  ; necessario est = 0; scilicet punctum A cum F semper congruet, cum
+
+eoque uniformiter circa axem IA gyrabitur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 864
+
+2°. Si C = 0, angulus  minor erit semirecto sive positivus sive negativus et intra limites
+
++45° et ­ 45° vagabitur. Punctum A ergo nunquam ultra 45° a puncto F recedet, sed modo ante modo post id reperietur, qui motus ex aequatione
+dt = d
+n cos 2
+
+eolligi debet. 3°. Si C = n, et aequatio
+
+dt =
+
+d
+
+n(1+ cos 2 )
+
+abit in hanc
+
+dt = d ,
+cos 2n
+
+quae integrata dat
+
+( ) t =
+
+1 2n
+
+l tang
+
+45°
+
++ 1
+2
+
+,
+
+si sumto t = 0 fuerit  = 0, unde patet demum elapso tempore infinito
+
+fieri  = 90°.
+
+4°. Si C > n, punctum A ab F tempore finito ad 90° digredietur indeque porro in
+
+oppositum ipsi F punctum progredietur et ad alteram partem circumeundo iterum in F
+
+revertet. Sit enim C = mmn, existente mm numero unitate maiore, ob
+
+dt =
+
+d
+
+n(mm+ cos 2 )
+
+erit proxime
+
+( ) dt = d n
+
+1 m
+
+-
+
+cos 2 2m3
+
+et integrando
+
+t
+
+n
+
+=
+
+-
+m
+
+sin 2 4m3
+
+,
+
+unde patet angulum  successive per omnes valores migrare.
+
+5°. Hactenus posuimus  ' <  , ita ut motus puncti F celerior sit, quam gyratorius circa
+
+axem 1C; si contrarium eveniat, tantum signum formulae (C + n cos 2 ) mutari debet.
+
+827. Sit igitur erit et
+
+CASUS 11 quo bb < aa
+
+3 gee(aa -bb) ccs3
+
+= n,
+
+dt =
+
+d
+
+,
+
+(C -n cos 2 )
+
+ ' =  - (C - n cos 2 ) ;
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 865
+
+in quibus formulis si ponatur  = 90° +  , ut iam  denotet distantiam poli B a centro
+
+virium F antecedentia versus sumtam, resultabunt formulae praecedentes, quae propterea
+
+eadem phaenomena exhibebunt.
+
+COROLLARIUM 1 828. Si ergo ponamus centrum virium F initio cum polo A convenisse existente bb > aa,
+
+corpus semper eandem faciem puncto F obvertet, si celeritas angularis ipsi celeritati centri virium  fuerit aequalis.
+
+COROLLARIUM 2 829. Sin autem initio, quo F cum A conveniebat, celeritas corporis angularis  ' sit aliquanto
+
+maior vel minor quam  , ut differentia non superet
+
+2n =
+
+6
+
+gee(bb-aa) ccs3
+
+,
+
+polus A utrinque ab F digredietur non ultra certum intervallum et circa punctum F quasi oscillationes peragere videbitur; In quo utique similitudo cum motu lunae libratorio cernitur.
+
+COROLLARIUM 3 830. In huiusmodi ergo motu libratorio celeritas angularis eorporis est maxima vel minima, dum punctum A ipsi F coniungitur, ab eo vel in consequentia vel in antecedentia
+digressurum; unde celeritas minima maior est quam - 2n . Fieri igitur potest, ut talis motus oriatur, dum initio corpus plane nullum habuit motum gyratorium.
+
+SCHOLION 1 831. Dubium ergo relinquitur nullum, quin motus libratorius lunae hae ratione oriatur, atque adeo probabile videtur in luna eum casum locum habere, quo lunae initio nullus plane motus gyratorius fuerat impressus ; tum autem axem lunae principalem IA, cuius respectu momentum inertiae Maa est minimum, terram versus fuisse directum. Quoniam igitur novimus digressiones poli A ab F esse minimas, tempus harum oscillationum definire poterimus; cum enim arcus AF =  sit valde parvus, erit cos 2 = 1- 2 ideoque
+
+dt =
+
+d
+
+,
+
+(C +n-2n )
+
+unde fit integrando
+
+t 2n = A sin  2n .
+(C+n)
+
+Quare cum in digressione maxima fiat
+
+=
+
+C+n 2n
+
+,
+
+erit tempus, quo punetum A ab F maxime digreditur, =  secundis, cuius
+2 2n
+
+duplam  dabit tempus, quo polus A ab F digressus iterum eodem redit.
+2n
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 866
+
+Tum autem celeritas angularis minima, quando scilicet polus A ab F in antecedentia
+digreditur, erit =  - (C +n) ; quae ut evaneseat, constans C esse debet =  - n , unde
+
+digressio maxima hoc casu fuerit =  necesse est. Consideremus nunc etiam tempus unius
+2n
+
+revolutionis centri virium F, quod est =
+
+2 
+
+; min. sec., cuius dimidium si aequale sit uni
+
+oscillationi poli A =  , fiet  = 2n seu n =  ideoque C =  = n ; neque ergo
+
+2n
+
+2
+
+2
+
+digressio amplius foret minima, uti assumseramus.
+
+SCHOLION 2 832. Hinc igitur concludimus motum lunae libratorium non ita explicari posse, ut statuamus lunae initio nullum plane motum gyratorium fuisse impressum, sed potius cum vehementer verisimile sit, lunam, si ea circa terram in orbita circulari uniformiter circumferretur, quae est hypothesis nostri problematis, perpetuo eandem plane faciem nobis esse obversuram neque ullam nutationem in ea observatum iri; in eadem hypothesi statuere debemus; lunae initio talem motum gyratorium fuisse impressum, ut praecise fuerit celeritas angularis =  , nempe celeritati terrae circa lunam, et simul axem eius IA terram versus fuisse directum. Hoc autem satis probabile videtur; cum enim respectu axis IA momentum inertiae sit minimum, ideoque lunae, si eius corpus sphaeroides oblongum statuatur, axis maximus, causa esse potuit, quae initio hunc axem ad terram direxerit, atque eidem causae fortasse tribuendum est, quod, dum luna primum motum accepit, hic ipse axis directionem suam versus terram conservaverit; quod idem est, ac si celeritas angularis prima ipsi celeritati terrae  fuisset aequalis. Cum igitur luna, si circulum circa terram motu uniformi describeret, nobis constanter eandem faciem esset obversura, eius librationes observatae motui lunae irregulari, quo modo celerius modo tardius incedit, tribui debent. Quare etiam praecedens problema in hac hypothesi resolvamus, ut punctum F neque uniformiter circumferri neque perpetuo eandem distantiam a centro inertiae corporis tenere assumamus.
+
+PROBLEMA 94
+
+833. Si corpus gyretur circa suum axem principalem 1C, centrum virium autem F in plano ad
+
+eum normali neque uniformiter neque in eadem distantia circumferatur, initio vero axis 1A
+
+fuerit ad centrum virium F directus similemque motum acceperit, definire motum corporis
+
+libratorium.
+
+SOLUTIO
+
+Motus corporis irregularis puncti F ita exprimi poterit, ut tempore t descripserit arcum
+
+XF =  t +  sin At ;
+
+ac pro distantia variabili sit
+
+1 s3
+
+=
+
+1 f3
+
+(1
+
++  cos At)
+
+.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 867
+
+Quare si iam celeritas angularis sit =  ' , posito arcu XA =  . erit d =  ' dt
+
+et vocato arcu AF =  habebimus
+
+Cum igitur sit
+
+d ' =
+
+3gee(bb - aa)dt sin 2 ccs3
+
+.
+
+ =  t +  sin At -  ,
+
+erit
+
+'
+
+=
+
+
+
++
+
+A cosAt
+
+-
+
+d dt
+
+ideoque posito
+
+3gee(bb - aa) ccf 3
+
+=n
+
+erit
+
+-
+
+AA
+
+dt
+
+sin
+
+At
+
+-
+
+dd dt
+
+= ndt(1
+
++  cosAt) sin 2
+
+.
+
+Quodsi iam assumamus arcum  semper manere valde parvum, habebimus hanc
+
+aequationem
+
+dd dt 2
+
++
+
+AA sin At + 2n (1
+
++  cosAt) = 0 ,
+
+cui proxime satisfieri potest ponendo  = m sin At , unde fit
+
+- AAm sin At + AA sin At + 2mn sin At = 0
+
+ob terminum  cosAt prae 1 valde parvum. Hinc ergo adipiscimur
+
+ideoque
+
+m
+
+=
+
+AA AA-2n
+
+unde fit
+
+
+
+=
+
+AA AA-2n
+
+sin At,
+
+
+
+'
+
+=
+
++
+
+A
+
+cos
+
+At
+
+-
+
+A3 cos At AA-2n
+
+=
+
+-
+
+2 A n AA-2n
+
+cos
+
+At.
+
+Hic cum sit
+
+XF =  t +  sin At ,
+
+pars prior  t vocatur locus medius puncti F et pars altera  sin At eius aequatio
+
+seu prostaphaeresis, unde patet digressionem FA huic prostaphaeresi esse proportionalem,
+
+eaque maiorem ob n numerum positivum. Ita evanescente prostaphaeresi, seu quoties locus verus cum medio congruit, toties corpus eandem faciem centro virium F obvertit, neglectis quidem minoribus inaequalitatibus, quas ratio quantitatis  inveheret. Verum haec fusius
+
+prosequi atque accuratius determinare sine maiori astronomiae cognitione haud convenit.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 868
+
+COROLLARIUM 1 834. Si ergo inaequalitas motus puncti F ita exprimitur, ut tempore t conficiat arcum
+
+XF =  t +  sin At ,
+
+eodem tempore sit arcus librationis
+
+FA =
+
+
+
+=
+
+AA AA-2n
+
+sin
+
+At
+
+,
+
+existente
+
+n=
+
+3gee(bb-aa) ccf 3
+
+,
+
+ubi f distantianl mediam centri virium F denotat.
+
+COROLLARIUM 2 835. Si hunc arcum librationis  accuratius definire velimus, variabilitas distantiae FI = s
+
+etiam in computum ingreditur, ita ut, si fuerit
+
+1 s3
+
+=
+
+1 f3
+
+(1
+
++  cos At),
+
+reperiatur
+
+
+
+=
+
+AA AA-2n
+
+sin At
+
++
+
+n 4(AA-2n)
+
+sin 2At.
+
+COROLLARIUM 3
+
+836. Simili modo si generalius fuerit arcus tempore t confectus XF = C +  t +  sin (At + A ) +  sin (A' t + 2A' ) + etc.
+
+et
+
+1 s3
+
+=
+
+1 f3
+
+(1+  cos ( At + A) + ' cos ( A' t + A') + etc.),
+
+invenitur proxime arcus librationis
+
+. FA = 
+
+=
+
+AA AA-2n
+
+sin ( At
+
++ A) +
+
+A' A'  ' A' A' -2n
+
+sin ( A' t
+
++
+
+A') + etc.
+
+SCHOLION 1
+
+837. Hic iam perinde est, sive numerus
+
+n=
+
+3gee(bb-aa) ccf 3
+
+sit positivus sive negativus, neque conditio superius requisita, ut pro arcu 
+
+evanescente esse debeat bb > aa, amplius locum habet. Casu enim II (§ 827) si ponatur
+
+C = n, fit
+
+dt
+
+2n
+
+=
+
+d sin 
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 869
+
+et
+
+t
+
+2n
+
+=l
+
+tang
+
+1
+2
+
+- Const.,
+
+unde si initio t = 0, fuerit  = 0, constans addenda fit infinita, ideoque nonnisi elapso tempore
+
+infinito punctum A ab F digredietur. Quare dum punctum F uniformiter in circulo circumfertur, quicunque axis principalis initio ad punctum F fuerit directus, cum eoque pari
+
+celeritate gyrari coeperit, is ei constanter manebit annexus. Ac si deinceps punctum F motum suum vel intendat vel remittat, polus A ab eo digredietur secundum formulas inventas.
+
+Quin etiam patet, si fuerit n = 0 seu bb = aa, quo casu corpus uniformiter circa polum C gyraretur, digressiones  perpetuo differentiae inter locum medium et verum puncti F
+
+futuras esse aequales. At si numerus n sit positivus seu bb > aa, digressiones ista differentia
+
+essent maiores, contra autem sin bb< aa minores. Ceterum numerus A inaequalitatem motus
+definiens, ex tempore, quo inaequalitas sin At ad eosdem valores revertitur, colligi potest, quod si eveniat post tempus =  min. sec., erit
+sin A = sin 2
+
+ideoque
+
+A
+
+=
+
+2 
+
+.
+
+SCHOLION 2 838. Hinc patet motum libratorium lunae, quo non semper eandem faciem terrae obvertit, potissimum defectui uniformitatis motus, quo terra circa lunam, seu quod idem est, luna circa terram circumferri videtur, tribui debere neque huc inaequalitatem momentorum principalium in luna multum conferre, quoniam ea tantum coefficientes terminorum afficiuntur. Libratio scilicet adesse posset, etiamsi luna esset corpus sphaericum, seu eius momenta principalia aequalia. Verum tum nulla ratio patet, cur lunae initio praecise tantus motus gyratorius fuisset impressus, quantum formulae nostrae exhibent; sin autem luna sit corpus sphaeroidicum sive oblongum sive compressum, rationem quodammodo intelligere licet, ob quam initio quidam axis principalis reliquis notabilior terram respicere inceperit. Utrum autem sit sphaeroides oblongum an compressum, ex quantitate librationis diiudicare licet, quae si excedat differentiam inter locum lunae verum ac medium, indicet esse bb > aa, seu axem lunae terrae obversum momento minimo gaudere. Verum hic non est locus quicquam definiendi, cum etiam luna ad solem urgeatur indeque libratio turbetur; praeterea vero quoque, uti luna non in eodem plano circa terram movetur, ita etiam vicissim motus centri virium F non in eodem plano circa lunam absolvetur, ex quo haec investigatio vehementer intricata reddetur, ut in tractatu generali locum invenire nequeat. Ceterum hoc semper insigne foret mysterium, quod luna initio praecise tantum motum gyratorium, quantum hic librationis casus postulat, acceperit; si enim vel maiorem vel minorem accepisset, labente tempore tandem facies opposita nobis obverti debuisset. Interim tamen hoc phaenomenon praescriptum celeritatis gradum non tam exacte postulat, quoniam etsi fuerit tantillo vel maior vel minor, librationes tamen ob problema praecedens contingere deberent; unde illud mysterium haud leviter illustratur. Talis autem latitudo admitti nequit, nisi casu quo bb > aa seu n > 0; aequatio enim differentialis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 870
+
+dd dt 2
+
++
+
+AA sin At + 2n (1
+
++  cosAt) = 0
+
+generalius accedente constante arbitraria ita integrari potest, ut sit
+
+ = C sin t
+
+2n
+
++
+
+AA AA-2n
+
+sin At,
+
+unde fit celeritas angularis
+
+' = -C
+
+2n  cos t
+
+2n
+
+-
+
+2 A n AA-2n
+
+cos
+
+At ,
+
+ubi etiam pro t 2n scribi potest (t +  ) 2n , ita ut C et  pro lubitu assumi queant. Quare
+
+cum initio t = 0 fuerit  = C sin 2n , dum celeritas angularis impressa sit
+
+=  -C
+
+2n  cos 
+
+2n
+
+-
+
+2 A n AA-2n
+
+,
+
+atque C sit fractio satis parva, motus libratorius sequetur, ut constanter pars quaedam lunae
+
+nobis maneat abscondita. At vero etiam fractio
+
+AA AA- 2n
+
+esse debet valde parva, ut pro
+
+sin 2 recte scribere liceat 2 .
+
+SCHOLION 3 839. Explicatio ergo motus libratorii lunae huc redit, ut statuamus lunae corpus esse sphaeroides oblongum, cuius maior axis, vel is, cuius respectu momentum inertiae est minimum, initio terram versus directus, lunae autem tum circa axem ad planum orbitae terrestris normalem impressus fuerit motus gyratorius, cuius celeritas angularis propemodum motui lunae medio fuerat aequalis, in quo quidem insignis latitudo locum habere potest. Quin etiam sufficit, dummodo axis gyrationis propemodum fuerit ad planum orbitae terrestris normalis et axis maior propemodum tantum terram versus directus; namque etiam his casibus nutatio disci lunae reciproca evenire debet, etiamsi eam haud facile determinare liceat. Quare hoc casu relicto ad alias motus gyratorii perturbationes a viribus centripetis ortas progrediamur, unde nutatio axis terrae explicari possit.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 871
+
+PROBLEMA 95 840. Si corpus gyretur circa axem, qui alicui axi principali fuerit proximus, ac simul actioni
+
+centri virium subiiciatur, determinare mutationem momentaneam, tam in ipso axe gyrationis
+
+quam in celeritate angulari productam.
+
+SOLUTIO Sint A, B, C, terni poli principales corporis (Fig.107), eorumque respectu momenta inertiae
+
+Maa, Mbb, Mcc ; corpus autem nunc gyretur circa polum O ipsi A proximum celeritate angulari  ' in
+
+sensum ABC; unde positis ternis arcubus OA =  , OB =  , OC = 
+
+erit arcus  valde parvus, at  et  minime a
+
+quadrante discrepabunt, ita ut sit cos = 1 et cos  = cos  = 0 . Quare posito
+
+x =  ' cos , y =  ' cos  et z =  ' cos 
+
+hae litterae y et z pro evanescentibus haberi poterunt, neque tamen earum differentialia, quae erunt dy = -  ' d  et dz = -  ' d . Transeat iam
+
+recta ad centrum virium ducta per punctum F sintque arcus AF =  , BF =  , CF = ,
+
+distantia autem centri virium ponatur = s eiusque vis attrahens tanta, ut in distantia = e
+
+aequetur gravitati. Ab actione ergo huius vis quantitates x, y, z tempusculo dt ita
+
+immutabuntur, ut sit
+
+dx
+
++
+
+cc -bb aa
+
+yzdt
+
+=
+
+6gee( cc-bb ) dt cos cos aas3
+
+dy
+
++
+
+aa - cc bb
+
+xzdt
+
+=
+
+6 gee(
+
+aa-cc ) dt bbs3
+
+cos 
+
+cos
+
+dz
+
++
+
+bb-aa cc
+
+xydt
+
+=
+
+6gee( bb-aa ) dt ccs3
+
+cos 
+
+cos
+
+.
+
+Cum nunc sit dx = d ' , ob y et z evanescentes erit
+
+d
+
+'
+
+=
+
+6gee( cc-bb ) dt aas3
+
+cos
+
+cos
+
+
+
+'
+
+d
+
+=
+
+6gee( aa-cc ) dt cos bbs3
+
+cos
+
+ ' d
+
+=
+
+6gee( bb-aa ) dt cos ccs3
+
+cos
+
+.
+
+Quam variationem quo diligentius exploremus, quaeramus arcum FO, at ob
+
+sin
+
+BAF
+
+=
+
+cos sin 
+
+,
+
+cos
+
+BAF
+
+=
+
+cos sin 
+
+,
+
+fit
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 872
+
+sin
+
+FAO
+
+=
+
+cos 
+
+cos -cos  sin sin
+
+cos
+
+et
+
+cos
+
+FAO
+
+=
+
+cos 
+
+cos +cos  sin sin
+
+cos
+
+.
+
+hincque
+
+cos FO = cos  cos + cos  cos + cos cos ;
+
+cuius differentiale dat ob
+
+( Fo - FO) sin FO = d  cos + d cos
+sin  = sin = 1 et sin = 0 .
+
+Quare cum sit FO = FA =  , habebitur
+
+( ) (Fo -
+
+FO) sin
+
+=
+
+6geedt cos cos cos  ' s3
+
+aa-cc + bb-aa
+
+bb
+
+cc
+
+seu
+
+Fo
+
+-
+
+FO
+
+=
+
+6 gee(
+
+ce-bb
+
+)
+
+(
+
+bb+ce-aa )  ' bbccs3
+
+dtcot
+
+coscos
+
+ob
+
+tang
+
+BAO
+
+=
+
+cos  cos 
+
+.
+
+Pro situ autem puncti o inveniendo habemus differentiando:
+
+ideoque et Tum vero, cum sit oritur ob cos = 1 seu
+
+-
+
+OAo cos2 BAO
+
+=
+
+-d
+
+cos
+
+
+
+sin +d  cos2 
+
+cos 
+
+sin
+
+
+
+OAo
+
+=
+
+d
+
+cos
+
+
+
+sin -d  sin2 
+
+cos 
+
+sin 
+
+( ) Oo = d 2 + d 2 .
+
+d
+
+=
+
+-d 
+
+sin  cos  -d sin sin cos
+
+cos 
+
+,
+
+tang
+
+OoA
+
+=
+
+d d
+
+ 
+
+sin sin
+
+ 
+
+cos cos
+
+ -d  +d
+
+sin  sin 
+
+cos  cos 
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 873
+
+tang
+
+OoA
+
+=
+
+d d
+
+cos cos
+
+ -d  +d
+
+cos  cos 
+
+.
+
+COROLLARIUM 1 841. Si momenta inertiae respectu axium1B et IC sint aequalia seu bb = cc, primo fit d ' = 0 ,
+
+seu celeritas angularis nullam patitur mutationem, tum vero erit
+
+d
+
+=
+
+-6gee( aa-cc )dt cos  ' ccs3
+
+cos
+
+et
+
+d
+
+=
+
+6gee( aa-cc )dt cos  ' ccs3
+
+cos
+
+,
+
+ita ut sit
+
+d  cos + d cos = 0.
+
+COROLLARIUM 2
+
+842. Hoc porro casu bb = cc fit Fo ­ FO = 0 seu polus gyrationis o ita transfertur in O, ut
+
+spatiolum OO sit normale ad arcum FO ; est hoc
+
+spatiolum
+
+Oo =
+
+6gee( aa-cc ) dt cos  ' ccs3
+
+sin 
+
+,
+
+sed iam quaeritur, utrum ab O versus FA an contra sit directum.
+
+843. Cum autem sit
+
+COROLLARIUM 3 sin FO : sin FAO = sin AO : sin AFO,
+
+erit
+
+sin
+
+AFO
+
+=
+
+cos 
+
+cos - cos  sin sin FO
+
+cos
+
+.
+
+Iam quia FO non variatur, fiet secundum figuram, ubi O ad AF accedere sumitur:
+
+-OFo  cos AFO =
+
+-d cos +d  cos sin sin FO
+
+= - 6gee( aa-cc )dt sin
+ ' ccs3 sin FO
+
+cos 
+
+,
+
+ideoque
+
+OFo
+
+=
+
+6gee( aa-cc )dt sin cos  ' ccs3 sin FO cos AFO
+
+.
+
+Cum igitur sit angulus AFO infinite parvus et cosAFO = 1 et FO = FA =  ,
+
+erit
+
+OFo
+
+=
+
+6gee( aa-cc ) dt cos  ' ccs3
+
+.
+
+Ergo si aa > cc, punctum O ad arcum AF accedit, vel circa A in sensum CB procedit.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 874
+
+SCHOLION 843 [a]. Casus hic, quo bb = cc, ita ut corpus duo habeat momenta principalia respectu axium I B et 1C aequalia et propemodum circa axem singularem IA gyretur celeritate angulari  ' in
+
+sensum BC, praecipue locum habet in motu vertiginis terrae ideoque meretur plenius evolvi. Quod quo facilius fieri possit, cum sit AO =  , ponatur angulus BAO =  , erit
+
+90° -  = cos et 90° -  = sin ,
+
+unde  = 90° - cos  et  = 90° - sin .
+
+Quodsi ergo brevitatis gratia ponamus
+
+3gee( aa-cc  ' ccs3
+
+)
+
+=
+
+N
+
+,
+
+ut sit
+
+d  = -2Ndt cos cos
+
+et d = 2Ndt cos cos ,
+
+erit - d cos  + d  sin  = -2N dt cos cos
+
+et - d sin  -d  cos  = 2Ndt cos cos ; .
+
+unde colligitur
+
+d = 2N dt cos (cos  cos - sin  cos )
+
+et d  = -2Ndt cos (sin  cos + cos  cos ).
+
+Si iam centro virium F motum quemcunque tribuamus, etiam tamdiu his formulis uti poterimus, quamdiu arcus AO =  manet tam parvus, ut contractiones adhibitae locum
+
+habere possint.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 875
+
+PROBLEMA 96 844. Si corpus habeat duo momenta principalia aequalia ac circa tertium axem singularem propemodum gyretur, centrum autem virium uniformiter in circulo circa centrum inertiae corporis circumferatur, ad quodvis tempus situm et motum corporis determinare.
+
+SOLUTIO Progrediatur centrum virium per circulum maximum XFY (Fig. 108) celeritate angulari =  ac tempore elapso = t ex X pervenerit in F, ut sit XF =  t . In sphaera igitur consideretur circulus fixus XZY, in quo sit Z polus circuli XFY, ut sit angulus XZF =  t . Nunc autem versetur axis corporis singularis in A, ponaturque angulus XZA =  et arcus ZA =
+p ; tum vero corporis quasi primus meridianus sit AB, distans ab arcu ZA angulo ZAB = q. Porro gyretur nunc corpus circa axem 1O, ut sit arcus minimus AO =  et angulus BAO =  ,
+celeritate angulari =  , quoniam iam novimus eam fore constantem, et punctum A abibit tempusculo dt in a, ut sit Aa =  dtsin  =  dt
+
+et angulus aAO rectus; quare ob
+
+ZAO = q + 
+
+erit ZAa = q +  - 90° ,
+
+ideoque demisso a perpendiculo ad ZA
+
+fiet a = - dt cos( q +  )
+
+et A = edt sin( q +  ),
+
+unde colligimus dp = - dt sin( q +  )
+
+et
+
+d
+
+=
+
+
+
+dt
+
+cos( q+ sin p
+
+
+
+)
+
+;
+
+deinde vero, quia corpus quasi circa polum A gyratur~ erit dq =  dt . Denique in triangulo
+
+AZF ob ZA = p, ZF = 90° et AZF =  -  t reperitur
+
+cos FA = cos = sin p cos(  -  t )
+
+et
+cotZAF = - cos p cot ( -  t) .
+
+Ponamus brevitatis gratia angulum ZAF =  , ut sit
+
+tang
+
+=
+
+-
+
+tang( - t )
+cos p
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 876
+
+erit BAF =  - q
+
+hincque
+
+cosBF = cos( - q )sin = cos
+
+et cos CF = sin( - q )sin = cos .
+
+Est vero
+
+sin sin = sin(  -  t )
+
+et cos sin  = - cos p cos(  -  t )
+
+ideoque
+
+cos = - cosp cosq cos(  - t ) + sinq sin ( -  t )
+
+et cos = cosq sin(  -  t ) + cosp sinq cos(  -  t ).
+
+Unde si ponatur
+
+3gee( aa-cc  ccs3
+
+)
+
+=
+
+N
+
+,
+
+colligitur fore
+
+d = 2N dt sinp cos ( -  t ) (cosp sin( q +  )cos ( -  t ) + cos( q +  )sin ( -  t ) )
+
+et
+ d  = - 2Ndt sinp cos ( -  t ) (sin( q +  )sin ( -  t ) - cos p cos( q +  )cos ( -  t ) ),
+
+quibus si adiungamus
+
+dq =  dt
+
+et dp = -dtsin ( q +  ) ,
+ex his quatuor aequationibus quatuor quantitates p, q,  et  definiri oportet.
+
+Binae autem priores transformantur in has simpliciores:
+
+d cos( q +  ) -d  sin( q +  ) = 2Ndt sin p sin( A - t )cos( A - t )
+d sin( q +  ) +  d  cos( q +  ) = 2Ndt sin p cos p cos2 ( A - t ) .
+Cum sit q = t + C , ponamus q +  =  , ut sit  =  - q , et adiungendo aequationes priores quaternas adhuc habebimus aequationes:
+
+dp = -  dt sin
+
+d
+
+=
+
+ dt cos sin p
+
+d cos - d sin +  dt sin = 2Ndt sin p sin(  -  t )cos(  -  t )
+
+d sin +  d cos -  dt cos = 2Ndt sin p cos p cos2(  -  t ) ;
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 877
+
+ac si insuper ponamus  -  t =  , quae littera cum praecedente  non est confundenda,
+
+erunt:
+
+dp = -  dt sin
+
+d =
+
+-
+
+
+
+dt
+
++
+
+
+
+dt cos sin p
+
+
+
+d cos - d sin +  dt sin = 2N dt sin p sin cos
+
+d sin +  d cos -  dt cos = 2N dt sin p cos p cos2 . Ponamus porro  cos = x et  sin = y , ut habeamus has aequationes 1°. dp = - ydt
+
+2 °.
+
+d
+
+=
+
+ xdt sin p
+
+3°. d =
+
+-  dt +
+
+ xdt sin p
+
+4°. dx +  ydt = Ndt sin p sin 2
+
+5°. dy -  xdt = Ndt sin p cos p + Ndt sin p cos p cos 2 ,
+
+ubi cum x et y sint quantitates minimae, ad veritatem satis appropinquabimus, si in binis postremis aequationibus arcum p et angulum  ut constantes spectemus. Tribuamus ergo illis valores quasi medios sitque proxime p = n et  = m ideoque d = - dt , ut habeamus
+
+aequationes:
+
+4o.
+
+dx -
+
+
+
+yd 
+
+=
+
+-
+
+Nd 
+
+sinn
+
+sin2 ;
+
+5o.
+
+dy +
+
+ xd 
+
+=
+
+-
+
+Nd
+
+sin
+
+n
+
+cos
+
+n
+
+-
+
+Nd
+
+sin
+
+n
+
+cos 
+
+n
+
+cos
+
+2
+
+,
+
+quibus evidens est satisfieri posse ponendo
+
+x = E + F cos 2
+
+y = G sin 2 ,
+
+ac hi coefficientes ita definiuntur, ut sit
+
+E
+
+=-
+
+N sin n cos n 
+
+F
+
+=
+
+-
+
+N
+
+sin n( 2 + cos n  - 4
+
+)
+
+G
+
+=
+
+N
+
+sin n( 2 cos n+  -4
+
+)
+
+.
+
+Tum vero quia haec solutio tantum esset particularis, ponatur
+
+et orienturque hae aequationes
+
+x = E + F cos 2 + u y = G sin 2 + v
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 878
+
+du
+
+-
+
+ vd 
+
+=
+
+0
+
+et
+
+dv
+
++
+
+
+
+vd 
+
+= 0,
+
+ex quibus elicitur
+
+u
+
+=
+
+h
+
+sin
+
+ 
+
+(
+
++
+
+)
+
+et
+
+v
+
+=
+
+h
+
+cos
+
+ 
+
+(
+
++
+
+),
+
+ubi h et  sunt constantes arbitrariae. Quocirca habebimus
+
+x
+
+=
+
+
+
+cos
+
+
+
+=
+
+-
+
+N
+
+sin n cos 
+
+n
+
+-
+
+N
+
+sin n (  cos n+2  -4
+
+) cos 2
+
++
+
+hsin
+
+ 
+
+(
+
++
+
+)
+
+y =  sin =
+
+N
+
+sin
+
+n(  -2  -4
+
+cos
+
+n
+
+)
+
+sin
+
+2
+
++ h cos
+
+ 
+
+(
+
++
+
+), ,
+
+ubi  exprimit angulum FZA =  -  t . Deinde ob
+
+dp
+
+=
+
+-
+
+ydt
+
+=
+
+
+
+yd 
+
+nanciscimur integrando:
+
+p
+
+=
+
+n-
+
+N
+
+sin 2
+
+n( 
+(
+
++2 cos
+-4 )
+
+n
+
+)
+
+cos
+
+2
+
++
+
+h
+
+sin
+
+ 
+
+(
+
++
+
+)=
+
+ZA.
+
+Denique
+
+aequatio
+
+d
+
+=
+
+ xdt sin p
+
+=
+
+-
+
+ 
+
+xd sin n
+
+praebebit:
+
+
+
+=
+
+m-
+
+Nt cos n +
+
+ N(  cos n+2
+2 ( -4 )
+
+)
+
+sin 2
+
++
+
+h sin n
+
+cos
+
+ 
+
+(
+
++
+
+)=
+
+XZA.
+
+COROLLARIUM 1
+
+845. Cum sit ex nostris positionibus  = ( xx + yy ),patet successu temporis distantiam
+
+AO =  non ultra certum limitem augeri posse, qui si fuerit satis exiguus, hypothesi nostra tuto utimur. Simul vero patet hanc distantiam nunquam plane evanescere, nisi forte fiat tam
+
+x = 0 quam y = 0.
+
+COROLLARIUM 2
+846. Neglectis inaequalitatibus ab angulis 2 = 2FZA
+
+et
+
+ 
+
+(
+
++
+
+)
+
+pendentibus, polus A uniformiter circa punctum Z in antecedentia regreditur celeritate angulari = N cos n, si quidem
+
+N
+
+=
+
+3gee( aa-cc eccs3
+
+)
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 879
+
+fuerit numerus positivus, sicque integram revolutionem absolvet tempore
+
+=
+
+2 Ncosn
+
+min.sec.
+
+,
+
+dum
+
+centrum
+
+virium
+
+F
+
+revolutionem
+
+absolvit
+
+tempore
+
+=
+
+2 
+
+;
+
+et
+
+ipsum
+
+corpus
+
+tempore
+
+=
+
+2 
+
+.
+
+COROLLARIUM 3 847. Praeterea vero tam distantia ZA quam angulus XZA exiguas inaequalitates patientur, partim ab angulo 2 = 2FZA , partim ab angulo
+
+ 
+
+(
+
++
+
+)
+
+=
+
+C
+
+- t,
+
+hoc est, partim a motu centri virium, partim a motu vertiginis ipsius corporis pendentes.
+
+Quare si ponamus angulum ZAB =  , erit
+
+ZA
+
+=
+
+n-
+
+N
+
+sin n( 
+2 (
+
++2 cos
+-4 )
+
+n
+
+)
+
+cos
+
+2
+
+-
+
+h
+
+sin
+
+ 
+
+(
+
++
+
+)
+
+XZA
+
+=
+
+m-
+
+Nt cos n +
+
+ N(  cos n+2
+2 ( -4 )
+
+)
+
+sin 2
+
++
+
+h sin n
+
+cos
+
+ 
+
+(
+
++
+
+).
+
+SCHOLION 1 848. Sumsimus hic corpus in eundem sensum gyrari, in quem centrum virium F circa id
+
+circumfertur, quemadmodum fit in terra, quae ab occidente in orientem gyratur, in quem
+
+sensum etiam sol et luna motu proprio promoveri cernuntur. Deinde etiam spectavimus
+
+numerum
+
+N
+
+=
+
+3gee( aa-cc eccs3
+
+)
+
+ut positivum, seu corpus ita comparatum, ut eius momentum inertiae respectu axis, circa
+
+quem proxime gyratur, sit maximum = Maa, dum respectu axium in aequatore sumtorum est
+
+minimum = Mcc, qua proprietate terram esse praeditam observationes circa figuram terrae sphaeroidicam compressam institutae declarant. In hac ergo constitutione axis terrae circa polum eclipticae Z in antecedentia regredi debet, quemadmodum etiam per observationes constat. Praeterea vero neque iste axis motus est aequabilis, neque eius distantia a polo eclipticae Z constans, sed duplici inaequalitati est obnoxia, quarum altera ab angulo FZA =  duplicato pendet, altera vero ab ipso motu vertiginis corporis, quae posterior maior
+
+minorve esse potest, prout initio polus gyrationis O tam ratione poli A quam ratione situs centri virium F fuerit constitutus. Scilicet cum  denotet angulum ZAO, si initio vel dato saltem tempore innotuerint quantitates AO =  , ZAO = , FZA =  et ZAB = , sumto AB
+
+pro corporis prima meridiano, ex aequationibus
+
+
+
+cos 
+
++
+
+N
+
+sin n cos n 
+
++
+
+N
+
+sin n(  cos n+2  -4
+
+) cos 2
+
++
+
+hsin( 
+
++
+
+)=
+
+0
+
+ sin -
+
+N
+
+sin n(  +2 cos n )  -4
+
+sin 2
+
+- h cos(
+
++
+
+)
+
+=
+
+0
+
+binae constantes h et  definiuntur. Nisi ergo prodeat h = 0, polus A inaequalitates
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 2.
+
+Chapter SIXTEEN : DE MOTU GYRATORIO CORPORUM COELESTIUM
+
+Translated and annotated by Ian Bruce.
+
+page 880
+
+etiam diurnas patietur, ita ut intervallo cuiusque revolutionis ad polum eclipticae alternatim accedat ab eoque recedat, simulque alternatim in antecedentia et consequentia nutet. Ob hanc scilicet inaequalitatem polus A singulis revolutionibus circulum describeret; cuius centrum cum quiescat, id potius pro vero polo terrae habebitur, ita ut hae inaequalitates non percipiantur. Tum vero reliquae inaequalitates ab actione centri virium pendentes non hunc polum apparentem, sed ipsum polum axis principalis afficient.
+
+SCHOLION 2
+
+849. Praetermissis autem his inaequalitatibus diurnis, quibus forte nutatio axis afficitur, si
+
+fuerit aa > cc corpusque in eundem sensum gyratur ac centrum virium, phaenomena ita se
+
+habebunt :
+
+Primo distantia poli A a puncto Z, quod est vertex seu polus orbitae, quam centrum virium
+
+describit, erit variabilis ac minima quidem deprehedetur, si angulus FZA vel evanescit, vel sit
+
+180°, maxima autem, si iste angulus fuerit vel 90° vel 270°, differentia inter maximam
+
+minimamque distantiam existente =
+
+
+
+N
+
+sin n(  +2 cosn
+ ( -4 )
+
+)
+
+.
+
+Secundo polus A circa punctum Z in antecedentia motu non uniformi regredietur, qui si, ut
+
+moris est, per motum medium prostaphaeresi corrigendu repraesentetur, motu medio
+
+regredietur celeritate angulari = N cos n, tum vero correctio seu prostaphaeresis maxima erit
+
+=
+
+
+
+N
+
+sin n( 
+2 (
+
++2 cosn
+-4 )
+
+)
+
+.
+
+addenda, si angulus FZA sit ve1 45° ve1 225°, subtrahenda vero, si iste angulus fiat vel 135° vel 315°, ubi notandum est, hunc angulum FZA =  ; reperiri si longitudo centri
+virium F a longitudine poli A subtrahatur. Ceterum hic celeritatem motus vertiginis  prae celeritate centri virium  ut multo maiore spectamus; si enim esset  = 2 , conationes inventae adeo in infinitum abirent; verum hoc casu integratio nostrarum aequationum singulari modo esset instituenda, ponendo
+x = E + F cos 2 + A sin 2 ;
+
+et y = G sin 2 + B cos 2 ,,
+
+reperireturque
+
+E
+
+=
+
+- Nsinn 2
+
+cosn
+
+A=
+
+B
+
+=
+
+-
+
+Nsinn(1+ 2
+
+cos n )
+
+F
+
++G
+
+=
+
+N sin n(1 - 4
+
+cos n ) .
+
+Verum quia hic x et y continuo crescerent, mox hypothesin factam trangrederentur, totusque
+
+calculus non amplius locum haberet. Quare nisi  notabiliter discrepet a 4 formulae
+
+nostrae adhiberi nequeunt.
+
+

@@ -1,0 +1,1428 @@
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 53
+
+Chapter II
+Concerning the Elements of Internal Motion
+DEFINITION 9
+75. The first principles of internal motion embrace all those motions which are present within the bodies themselves, in which the reason either for rest or motion of these is contained, with the exclusion of all external causes that are able to contribute anything to their state of motion or rest.
+EXPLANATION I
+76. Since in the preceding chapter I set out the manner in which motion considered in general, is to be referred to calculation, and now I am resolved to find the causes of this motion. For a body either remains at rest or it is moving, or it continues in a state of rest or it undertakes to continue in motion in some manner, certainly it is necessary that these phenomena arise from a cause. Clearly whatever there is within the body that affects the state of rest or motion, that cannot be decided rashly to happen in any manner without good reason. Moreover, whatever the reason shall be, by necessity it is to be sought either within or outside the body itself; thus, the causes come from two general principles that have to be put in place, by which the motion of bodies can be defined, one of which I will call internal, and indeed the other external. Clearly I refer to as being internal, any principle which is present in bodies themselves, by reason of which either their state of motion or of rest continues ; but these thus acting on bodies externally so that their state of rest or motion is affected, are referred to as external principles. But since in the universe all bodies are in contact with others, and to the nearest of which they may happen to be joined in some way, in this joining together it is by no means permitted to discern to which of the external or internal principles the state is to be attributed. Whereby lest we are confused in this investigation, even in our imagination, it is necessary for all the neighbouring bodies to be removed from the region of interest, so that, concerning what is sought, acts as if a solitary body remains; and for such a body, either it will be in a state of rest or of motion, and henceforth, what condition the body shall be in must be the subject of our inquiry ; and hence the principles of internal motion are to become known, and to be distinguished from the external causes acting.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 54
+
+EXPLANATION 2
+77. But while the body that I am presently to consider, thus solitary and beyond all the bonds with other bodies, and as if it should be present in the universe alone, will at once be proclaimed by some philosophers to involve a contradiction within itself, since everything in the universe has been connected to everything else through ties to their nearest neighbours, so that even with one body removed the whole bonding is destroyed. Now this has a minimal effect on any body taken from the universe, but in whatever manner some body is affected by the connection with other bodies, lest a philosopher shall indeed be prohibited from posing the question : what should happen to that body, if it should not be affected by others at all? We ourselves ask this question not in order to affirm that this is going to happen in our discourse, but rather, in order to learn which of these effects that actually eventuate may be attributed to external causes. Certainly philosophers are always using such abstractions, if they wish to make these known, and surely the way of recognising any truth is not abandoned by doing this. But if it is allowed to investigate the body thus, as if it may not be affected by any other bodies, then likewise it maintains itself clearly as if no other bodies are present ; therefore what is the need in this inquiry for all the remaining bodies besides that for which the question is to be put in place, so that the existence of this body can be contemplated? since clearly they bring nothing to that argument. Surely nothing can stand in the way of these careful thoughts, and we shall consider nothing less than some body clearly solitary, and as if all the remaining bodies have been removed from the universe; and, if which hypothesis should perhaps offend someone at this stage, then the hypothesis may be stated to leave all the bodies in place, while it will be conceded by us, that no action from these on that body we have selected, are to be in excess.
+AXIOM I
+78. Every body, even without being relative to other bodies, either remains at rest or is moving, that is, it is either at absolute rest or in absolute motion.
+EXPLANATION 1
+79. Thus far we have not felt the need to follow a different definition of motion or state of rest, other than with respect to other bodies, and thus we have talked about relative rest and motion [Euler calls such motion with respect to rather than relative, that we normally use here in translation]. Now indeed, if we have taken away all the bodies except the one in mind, the relation of this motion too is taken away, from which we have decided the state of rest, or of motion, of this body; whereby in the first place even now it may be asked: whether the judgement about motion or rest of the body can have a place or not? For if this judgement does not come from elsewhere, but
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 55
+
+is desired only from the comparison of the position of the proposed body with other bodies, it is necessary that the judgement from these also be removed. Now, even if we recognise that the state of rest or of motion of some body, cannot be defined other than from the relation to other bodies, then it is not yet possible to conclude [without further argument] that this idea is nothing in itself except a relation established in the mind, and that nothing tangible is present within the bodies themselves, that responds to our ideas of rest and motion. Clearly we cannot recognise the quantity otherwise, except by comparison ; yet with these bodies removed, whatever comparison we were putting in place, or yet another remaining in the body as if it were a fundamental quantity, thus, [as an example] if on extending the body more or contracting it to become less, the true change made in that could be considered. Again, even if only one body were present, that could be said to be either at rest or moving, since neither both could be in occurring at the same time, or neither. Thus I conclude that rest and motion are not ideal separate things, arising only from comparison, thus so that nothing can be present in the bodies themselves that responds to these [Euler has in mind the concept of inertia, that he is to develop]; but with a body even alone can it be asked rightly : is it moving or at rest? where on my part I fear little these philosophers who refer everything to relations, since they attribute much the same to motion, as they recognise also something of substance in the force of motion.
+
+EXPLANATION 2
+
+80. Thus, even with a single body having nothing to do with respect to other bodies, or with these annihilated, thus is it correct to ask whether it is at rest or moving ? by necessity we can assume that it must it be in one state or the other. But what kind of rest or motion shall the body have in the future ? with the change in place with respect to other bodies having been removed this comes to nothing, unless indeed we are able to consider that we can admit to an absolute space, in which our body occupies a certain place, and thus it is possible to go to other places. For since, following the same philosophers especially those who attack absolute space, is it mostly undecided, whether some body is at rest or moving? even having nothing to do with respect to other bodies, they may say that the distinction can stand according to some other definition. But do they say that the body is actually moving that continually changes its position with respect to its vicinity ? now moving with the vicinity belongs to the state of rest of that place. But will a comparison put in place with distant bodies be appropriate ? but with which in the first place? then why with these rather than with others ? Finally they will answer, 'with such bodies which are at rest between each other'. Then again moreover I ask, not how we recognise that our bodies are at rest amongst themselves, but which shall it be that is at rest ? when now indeed it is not allowed to flee further to a place with respect to others. Hence they are finally forced to confess that the bodies are at rest amongst themselves, which persist in the same place in space, from which the consideration shall be of all other bodies that are remote, from which such philosophers come upon absolute space itself, relative to
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 56
+
+which the bodies are either at rest or moving, that we say either to be absolutely at rest or absolutely moving.
+
+SCHOLIUM
+
+81. Anyone who wishes to deny absolute space will fall into the most serious inconvenience. For since absolute motion and rest as being false must be rejected without argument, as not only the laws of motion, which depend on this principle, ought to be rejected, but also lest any given laws of motion are indeed forced to confirm. For that question, which has lead us to this point : what will come about in the body on separating its connection from other bodies ? is by itself absurd, also these influences on those bodies present which can be proven from other bodies, by themselves become uncertain and indefinable, and thus anything rashly and without any reason can eventuate and be put in place. Or, if it is desired to escape from these conclusions, all motion ought to be denied, yet which in a manner of thinking, even if it will have happily refuted all the arguments given against that, can only be accepted minimally, since indeed not saying what rest may be can prevail, since it has been established through the whole universe. But to argue most firmly against such open absurdities is considered to be our fundamental way of thinking.
+
+AXIOM 2
+82. A body, which is absolutely at rest, if subjected to no external actions, will persist indefinitely in a state of rest.
+EXPLANATION
+83. This axiom is accustomed to be proclaimed concerning any body and by itself is considered to be so evident, that no approval is needed. Moreover since the strength of this is understood clearer, only a point or element of the body is considered, which, if likewise absolutely at rest, must persevere for ever in a state of rest; for indeed in that state no reason is present, why it should begin to move in one direction rather than in any other, and since all the extrinsic causes of motion have been withdrawn, then it cannot commence motion along any direction. Therefore this truth depends on the principle of having sufficient reason ; yet meanwhile in the point or element of the body itself the cause of remaining at rest must be recognised, thus in order that by necessity this truth shall follow. But what has been tested for any point, that too for all the points taken together and thus by necessity for the whole body prevails; for if the individual elements of this body are at rest and remain in a state of test, it is unable to be doubted. Meanwhile there can be some doubt about a body of this kind being able to move, because perhaps the parts of this, even if at rest, can act mutually against each other and cause motion; but this also makes no concession to the axiom, while
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 57
+
+not only the whole body but also we free the individual parts from all external actions, and by our judgement the axiom suffices to be admitted, so that all the particles of the smallest bodies are at rest, in as much as they do not act against each other, and remain at rest.
+
+SCHOLIUM
+
+84. Which law concerning absolute rest has been confirmed, but by no means can be extended to relative rest. For if a body, with respect to which the corpuscles of which hitherto were at rest, should suddenly be disturbed, this no further remains at rest with respect to this. Imagine a sphere lying on a table in a ship progressing uniformly, which with respect to the ship certainly persists in a state of rest; but with the intrusion of the ship upon a rock, this relative rest suddenly ceases and the sphere takes on a motion with respect to the ship, even if no external cause had itself come to pass. Hence necessarily this law is tied up with absolute rest, and since the law is necessary, also the relation of bodies to certain place which they occupy is necessary. Clearly since this law of the preservation of rest at the same place is agreed upon, but otherwise cannot be allowed unless the body is in a state of [rest at an] absolute position, moreover absolute places coexisting between each other in order cannot be defined, because otherwise our law with respect to rest would have to be extended.
+
+AXIOM 3
+85. A body, which is moving absolutely, if subjected to no external actions, continues to progress uniformly along the same direction.
+
+EXPLANATION 1
+86. This axiom also is to be understood properly from the smallest particles of bodies, as if with points, nor indeed does it prevail for the aforementioned bodies, unless all the particles are moving in the same direction with an equal speed; if indeed initially they may have taken either unequal speeds or different directions, then the individual particles are indeed unable to maintain this motion, so that they scatter from each other, and the structure of the body is broken up. Since this is not to be feared, if the speeds of all the particles are equal and making towards the same direction, or if the body thus should become very small, so that in that there would be no such difference in position. Hence a corporeal point of this kind is considered, as if it were present alone, and if it has taken some kind of motion, thus in order that it starts to move with a given speed along a given direction ; and this point on the strength of this axiom perpetually maintains the same speed as well as the same direction. Whereas since
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 58
+
+there is no need of a demonstration for the axiom to be received; yet meanwhile it is not difficult for a reason to be produced. For in the first place it is evident that there is no change in the direction, since there is no reason why it should be deflected from that in any one way rather than in all the other directions ; clearly it surely maintains the same direction, and a point at rest persists at rest. But again because the speed it reaches, unless that always remains the same, is said to be either increased or decreased, of which neither absurdity can be said to be possible ; for if it is either being increased or decreased, it must happen to follow a certain law; but what this law may be cannot be conceived in any way, since nothing surely will be agreed upon to take pride of place [before other possible laws]. Thus if perhaps, by which the speed may be said to be diminished in the ratio of the times, the problem may still not be defined; for in the above it is necessary to determine how great a part of the speed is to be lost in a certain time, to which whatever has been assigned, since it may not be supported by any reason, and so cannot be admitted at all ; which prevails for any other law also. Therefore nothing is relinquished, unless as we have stated, the speed too always stays the same, and the direction likewise. [Thus, Euler again uses his principle of minimal effect to describe the simplest situation.]
+
+EXPLANATION 2
+
+87. The belief of these philosophers is opposed to this axiom and the preceding, who decide that all bodies are provided with a certain hidden force, in order that their state of rest or of motion can be continually changed; which belief, by depending on no reason, is completely overturned, because it is contrary to the axiom. Now in the first place this axiom is usually considered to be the opposite by looking from experience, since in all experiments we can observe the motion to be gradually slowed down and finally completely stopped, thus so that continual motion is denied from this source, while according to the strength of our axiom, all the motion should be perpetual. Now from these trials themselves the cause of the retardation is quickly seized upon, since by friction as in accordance with the resistance of the air and other obstacles to the motion, which cannot be completely removed. If we are to consider these circumstances properly, we must conclude from these experiments that if all these obstacles were absent, then the motion would really be of indefinite duration. Whereby since according to the axiom all the obstacles have been expressly removed, so much has been removed, by which these experiments were against this condition, so that they confirm the truth by a proof perceivable to the senses. Moreover it is proper to be warned lest this axiom, restricted to absolute motion, is extended to relative motion too.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 59
+
+DEFINITION 10
+88. While a body is either absolutely at rest or moving uniformly in a direction, it is said to persist in the same state.
+COROLLARY 1
+89. Therefore both the axioms presented thus can be enunciated, since the bodies , as far as they are not impeded by these, continue in the same state.
+COROLLARY 2
+90. Therefore if a body, which was at rest before, begins to move or that motion appears to change in speed or direction, that body must be considered to have changed its state.
+SCHOLIUM
+91. Being permanently at rest or being in uniform rectilinear motion, not inconsistently, is called the state, because the body is at once determined according to that; for as long as the body has been left to itself and not subjected to any external action, is said correctly to stay in the same state, even if the body is considered to be under an external action. Therefore remaining in the same state differs greatly from remaining in the same place, with which the definition then finally agrees when the body is at rest. The axioms have led us to the same idea of state before stability, and nor in turn is the idea of state able to lead to the recognition of these [special conditions, i. e. of rest], which by itself may be arbitrary ; moreover this idea of [the state of a body, of] establised significance has been gained.
+DEFINITION 11
+92. That quality of bodies, the reason for persisting in the same state present within a body itself, is called inertia, and also sometimes the force of inertia.
+COROLLARY 1
+93. Therefore inertia is now the cause why bodies persist in the same state; for since the cause is to be sought within the body itself, that has to be without doubt by a common property on behalf of all bodies.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 60
+
+COROLLARY 2
+94. Because if therefore it is asked, why a body is at absolute rest or why it goes on moving uniformly in a direction, then another cause besides the inertia of this body cannot be assigned; nor can one ask for a cause of this phenomena from beyond the body.
+SCHOLIUM
+95. Calling this property inertia indicates that character of bodies, whereby being at rest means that they will continue to be at rest, therefore as if they oppose not being in that state of motion themselves; but since bodies set up in motion themselves equally oppose all to be changed, either on account of the speed or direction, this name is not a bad choice taken to account for the conservation of the state of rest or of motion. Also now and then it is called the force of inertia, because the force is a little resistant to the change of the state; but if the force is defined by some cause, which is changing the state of the body, here it is not in the least acceptable with this meaning [though Euler occasionally uses it himself!]; certainly the reason for this strongly disagrees with that by which henceforth we show a force to be acting. Whereby, lest any confusion should arise, we omit the name force and this property of the body and we will call it by the simpler name of inertia.
+EXPLANATION
+96. Therefore inertia is only perceived in the absolute state of bodies, neither can it refer to relative rest nor to relative motion. For such a body relative to some other nonuniform motion can [appear to] travel along some curved line, which yet is either absolutely at rest or moving uniformly along a direction and thus persisting in its own state; and if the body happens to be considered by us, concerning which we can be sure that it is not subjected to any external action, that in whatever manner it will appear by us to be carried along by the motion, certainly we are still able to pronounce that it is either at rest or to be progressing uniformly in a direction. Moreover, since the rest or motion of bodies are permitted to be recognised by us only with respect to other bodies, our senses tell us the minimum absolute state of bodies, from which criterion the absolute state is thus demanded, when bodies are not subjected to any external actions, in this the knowledge is of the greatest importance. Yet is can come about that this axiom also has a place in relative motion, when clearly the body, relative to which the motion is considered, itself remains in its own state, that is either absolute rest or it is progressing in absolute uniform motion along some direction.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 61
+
+THEOREM 1
+97. If a body, relative to which we are to consider the motion of other bodies, remains absolutely at rest or absolutely moving uniformly in a straight line, then the axioms for relative rest or relative motion prevail equally and for absolute motion.
+
+DEMONSTRATION
+Two bodies are to be considered (Fig. 9), both of which are carried in an absolute motion uniformly along straight lines, the one describes the distance Aa = at in a time equal to t, and now the other in the same time the distance Bb = bt, thus so that the speed of that one is equal to a, and the speed of this one is equal to b; moreover it is likewise, whether these right lines Aa and Bb are in the same plane or not. Now the motion of the body B can be referred to the body A, as A is considered at rest, and since at the start the body B is at B, in the time elapsed equal to t the body B will be considered to be at  , with A drawn equal and parallel to ab. Whereby on account of b = Aa = at then Bb : b = b : a or in a constant ratio; and because the angle Bb is also always the same, the triangle Bb is of the appearance given, and hence the angle bB is also constant and does not depend on the time, and equally the ratio of the sides Bb to B , which is as b to  , and thus B = t . From which it is concluded that the motion relative to the body B thus to be compared, as from B it shall be progressing along the right line B and in the time t it describes the distance B = t and thus it has a constant speed. Consequently the body B, since we put it to be moving with absolute uniformity, also is moving uniformly relative to the body A along a fixed direction, while this body A is being carried forwards in absolute uniformity.
+COROLLARY 1
+98. If the angle Bb is put equal to , which is the same everywhere, and if the right lines Aa and Bb are not in the same plane, then
+B = t (aa - 2ab cos + bb) ,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 62
+
+and thus the relative speed is equal to (aa - 2ab cos + bb) , and moreover the
+
+tangent of the angle Bb
+
+is equal to :
+
+a sin b-a cos
+
+.
+
+COROLLARY 2
+99. If the body is absolutely at rest A, then the relative motion of the body B does not differ from the absolute motion of this body. Thus if in the universe there should be a single body at absolute rest, then the remaining bodies can be referred to that, for the absolute motion of these to become known.
+
+COROLLARY 3
+100. If in the universe there should be a body progressing along a fixed direction uniformly, to which the remaining bodies are referred, concerning these, if they are not undergoing any external action, then we are able to affirm that these too will be persisting in a relative state.
+
+COROLLARY 4
+101. Therefore on account of inertia, bodies are not only trying to persist in a state of absolute rest, but also even in the same relative state, while the body, the state of which relative to these we are considering, can be at rest or moving uniformly along a fixed direction.
+
+EXPLANATION
+
+102. If in the universe the sun, or rather the centre of that should be absolutely at rest, and all the bodies because of this situation can be compared with that, inertia brings it about so that all the bodies, which are at rest with respect to the centre of the sun at rest, but which may be moving, try to progress in the same uniform motion in a fixed direction, because in this case the relative motion of these would not disagree. But if, as is plausible, it is not the centre of the sun, but rather the common centre of gravity of the whole system that is absolutely at rest, then it is with respect to this that the property of inertia is to be understood. Now in the determination of the relative motion it does not suffice to consider a single point as fixed, since from that only the distances and not the directions can become known, but there is a need for three or even four fixed points, to be used as we have shown above. Therefore in the universe the fixed stars are accustomed to be considered as many fixed points, which hypothesis if it should be true, all the bodies in the universe, which with respect to these are either moving or at rest, on account of inertia, shall be persisting in the same state. And this likewise will eventuate, if all the fixed stars are carried in the same direction with
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 63
+
+equal speeds. Now with the fixed stars themselves certain small inequalities arise, and it is required to form an opinion about the reason for this, which can be had from this only with the merit of much labour.
+
+SCHOLIUM
+
+103. But therefore if bodies of this kind, or rather, lest the magnitude of their speeds should be changed a little, the points are to be considered as corporeal points, which should not be subject to any external action, and they either remain perpetually at rest, or continue to move forwards in a uniform motion in a constant direction, and not only for absolute, but also for relative motion, but only if the body to which they are referred, persists in the same absolute state. Therefore such motion, the reasoning of which has been set up from inertia alone, depend more accurately and are in agreement on being referred to calculation. Moreover we have handled the above in three general cases, in which the calculation can be adapted to finding the motion. The first was that, in which rectilinear motion is being referred to a directrix as in agreement with direction; in the second case, in which the motion is reduced to two directrices, which, since in all the motion made follows in the same plane, it can also be applied to uniform rectilinear motion, such as we examine here. The third case appears to be the most general, in which we take three directrices to be used, also this that we treat is complex within itself, and the reward for the effort will be to discern, how these general formulae for uniform rectilinear motion are to be compared in the future. Whereby following these three cases that we may be able to refer to calculation, and hence we gather that this is all concerning motion that can be attributed to inertia. Since indeed from now on, the cause of some motion of the body must found by looking elsewhere, for a cause which in not in its inertia, but which must be sought otherwise beyond the body.
+PROBLEM 6
+
+104. If uniform rectilinear motion is referred to a single directrix in agreement with the direction of this motion, that is to be determined by calculation or to assign the position at whatever time.
+SOLUTION
+
+With the body, which is
+
+moving, the image of the point
+
+to be considered shall be at A
+
+initially and in the elapsed time
+
+t it arrives at S, on traversing the interval AS = s (Fig. 2). Therefore since the speed at
+
+S is equal to
+
+ds dt
+
+and this must always stay the same, if that is put equal to c, we have
+
+then
+
+ds dt
+
+= c and on integrating, s = ct, which now is the formula treated above for
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 64
+
+uniform speed. But so that in general we can pursue the phenomena of this motion
+
+without respect to the magnitude of the speed I dwell on, it suffices to be noted that
+
+ds dt
+
+is
+
+a
+
+constant
+
+quantity;
+
+thus
+
+the
+
+differential
+
+of
+
+this
+
+is
+
+equal
+
+to
+
+nothing.
+
+Therefore
+
+with
+
+the
+
+element
+
+of
+
+the
+
+time
+
+dt
+
+taken
+
+as
+
+constant,
+
+then
+
+dds dt
+
+=
+
+0
+
+and
+
+thus
+
+also
+
+from
+
+homogeneity there is supplied :
+
+dds dt 2
+
+=0.
+
+COROLLARY 1
+
+105.
+
+Therefore
+
+if
+
+in
+
+rectilinear
+
+motion
+
+is
+
+should
+
+be
+
+that
+
+dds dt 2
+
+= 0 , this likewise is
+
+uniform motion, and if this is absolute or equivalent to absolute motion, then the
+
+motion
+
+is
+
+to
+
+be
+
+attributed
+
+to
+
+inertia,
+
+which
+
+shall
+
+be
+
+dds dt 2
+
+=
+
+0
+
+.
+
+COROLLARY 2
+
+106.
+
+But if moreover in the rectilinear motion it should not be the case that
+
+dds dt 2
+
+=0,
+
+that has indicated that the small body does not only follow inertia, but the value of
+
+dds dt 2
+
+must be attributed to some external cause, if indeed the motion is considered to be
+
+absolute.
+
+PROBLEM 7
+
+107. If a point is moving in some direction uniformly and the motion of this is referred to two directrices situated in the same plane, the phenomena of this motion is to be determined by referring to calculation.
+
+SOLUTION
+
+Therefore let the distance described by this
+
+point be the right line EF (Fig. 3), situated in the
+
+same plane as the directrices OA and OB, and in
+
+the elapsed time t the point is moving at S, thus SY
+
+and SX are acting parallel to the directrices, and let
+
+OX = x and XS = y. Now since the line ESF is
+
+right, then
+
+dy dx
+
+is a constant quantity; then in the
+
+small element of time passing dt the moving point arrives at s, an on putting Xx = Sp
+
+= dx and ps = dy likewise the angle AOB =  , then
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 65
+
+Ss = (dx2 + dy2 + 2dxdy cos ) and the speed at S is equal to :
+
+(dx2 +dy2 +2dxdy cos ) .
+dt
+
+Moreover since the quantity
+
+dy dx
+
+is constant, on putting dy = adx then the speed is equal
+
+to :
+
+dx dt
+
+(1+ aa + 2a cos ) ,
+
+which also by the hypothesis is constant. On account of which as
+
+dx dt
+
+as well as
+
+dy dt
+
+are
+
+constant quantities and thus the differentials of these vanish, thus, if the motion is
+
+rectilinear and uniform, on taking the element dt constant then both
+
+ddx dt 2
+
+=0
+
+and
+
+ddy dt 2
+
+=
+
+0,
+
+and
+
+in
+
+turn,
+
+if
+
+these
+
+formulae
+
+vanish,
+
+then
+
+dx dt
+
+and
+
+dy dt
+
+are constant quantities
+
+and thus also
+
+dy dx
+
+,
+
+hence
+
+the
+
+motion
+
+is
+
+rectilinear
+
+and
+
+uniform.
+
+COROLLARY 1
+
+108. Therefore if the point experiences no external action and the motion is pursued
+
+by its own inertia, certainly then both
+
+ddx dt 2
+
+=0
+
+and
+
+ddy dt 2
+
+= 0 , clearly in which
+
+conditions the motion is indicated to be rectilinear and uniform.
+
+COROLLARY 2
+
+109. Whereby if the rectilinear uniform motion is resolved along the directions of the two directrices OA and OB, each speed of the motion is constant; and if in turn here each of the side motions were constant, now not only is the motion also constant, but also it is rectilinear.
+
+COROLLARY 3
+
+110. Therefore on the other hand, if in any motion relative to the directrices OA and
+
+OB, either
+
+ddx dt 2
+
+is
+
+not
+
+equal
+
+to
+
+zero,
+
+or
+
+ddy dt 2
+
+is
+
+not
+
+equal
+
+to
+
+zero,
+
+or
+
+even
+
+neither,
+
+then
+
+from this is indicated that the body is not only to be freed from inertia, but to be
+
+affected by some external action.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 66
+
+SCHOLIUM
+111. Therefore as long as the body is moving uniformly in a direction in accordance with inertia alone, either absolutely or with respect to a body, because it persists in the same absolute state, in whatever way the motion can be resolved along two directrices, because that certainly can be done in an infinite number of ways, each of the lateral motions is always uniform, such is the case, when the body is following the force of inertia. And this is the conspicuous property of this resolution, because now the axioms for motion also to be restricted to these lateral motions are too numerous. Now this resolution will be recognised as of greater interest then hitherto, when we show below from the action of forces these motions arising from resolution and the ideas are to be affected so much, and if the motion should be correct. Now likewise too in general the motion is to be extended for resolution along three directions, as becomes apparent in the following problem.
+
+PROBLEM 8
+112. If a point is moving uniformly in a direction and the motion of this is referred to three directrices, the phenomena of this motion are to be determined by referring to calculation.
+SOLUTION
+
+With the three directrices established OA, OB, OC (Fig. 4) let ESF be a right line traversed by the motion of a point, and in the elapse of the time t it moves to S, for which the coordinates OX = x, XY = y and YS = z, are parallel to the directrices, and if these are either normal to each other or oblique. Since ESF is a right line, also
+
+the projection of this TY in the plane AOB is a right line, thus
+
+dy dx
+
+is
+
+a
+
+constant
+
+quantity.
+
+In like manner, since the projection in the plane AOC is right, then also
+
+dz dx
+
+is a
+
+constant quantity, and likewise
+
+dz dy
+
+. Now the small element of distance described Ss =
+
+dx is put in place in the element of time dt , then also
+
+ds ,
+dx
+
+ds dy
+
+,
+
+ds dz
+
+are constant
+
+quantities, which conditions thus follow, because the line ESF is right. Again because
+
+of
+
+the
+
+equality
+
+of
+
+the
+
+motion,
+
+the
+
+speed
+
+ds dt
+
+is
+
+constant,
+
+and
+
+thus
+
+the
+
+constants
+
+are
+
+those
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 67
+
+quantities
+
+ds dt
+
+,
+
+ds dt
+
+,
+
+and
+
+ds dt
+
+,
+
+from
+
+which
+
+both
+
+the
+
+equality
+
+of
+
+the
+
+motion
+
+as
+
+well
+
+as
+
+the
+
+rectitude of the distance is contained. Hence with the differentials taken, on putting the
+
+element dt constant, the following formulas must be put equal to zero:
+
+ddx dt 2
+
+=
+
+0,
+
+ddy dt 2
+
+= 0 , and
+
+ddz dt 2
+
+=0,
+
+from which likewise the nature of uniform rectilinear motion can be determined.
+
+COROLLARY 1
+
+113. Therefore when the point is subjected to no external action and the absolute
+
+motion of this is referred to whatever three directrices, certainly these three equations
+
+are put in place :
+
+ddx dt 2
+
+=
+
+0,
+
+ddy dt 2
+
+= 0 , and
+
+ddz dt 2
+
+=0,
+
+in which the account of the inertia of small bodies is being put together.
+
+COROLLARY 2
+
+114. Whereby if the motion should be rectilinear and uniform, in whatever manner
+
+these three fixed directions are resolved, the triple motions of the sides are also
+
+uniform,
+
+since
+
+they
+
+are
+
+the
+
+constant
+
+quantities
+
+dx dt
+
+,
+
+dy dt
+
+,
+
+and
+
+dz dt
+
+.
+
+COROLLARY 3
+115. Therefore in absolute motion the motion of the sides, along the three fixed directions it is resolved, even if they are imagined, yet they follow the law of inertia, thus as in this chapter they are able to possess true motion.
+
+SCHOLION
+116. Therefore these are the principles of internal motion, which are supported by this common property, which usually goes by the name of inertia. And from these principles we prevail to determine the motions of points of bodies, when they are not subjected to any actions. Clearly everything reverts to this, if with such a small body at absolutely at rest, then that shall perpetually persist in a state of rest, but if the body should take on some absolute motion, it shall be progressing with that same speed in the same direction. Here indeed I have contemplated the motions of bodies as infinitely small, but yet these, which are in a stable position, can be applied to bodies of any size. Now before we progress to that, it is necessary to consider what external forces prevail to bring about changes, which investigation we hence undertake for points or the smallest particles of bodies.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 68
+
+CAPUT II
+DE INTERNIS MOTUS PRINCIPIIS
+DEFINITIO 9
+75. Interna motus principia complectuntur omnia ea, quae in ipsis corporibus insunt, in quibus ratio sive quietis sive motus eorum contineatur exclusisis omnibus causis externis, quae quicquam ad eorum motum vel quitem conferre queant.
+EXPLICATIO I
+76. Cum in capite praecedente modum exposuerim motum in genere spectatum ad calculum revocandi, nunc in eius causas inquirere animus est. Sive enim corpus quiescat sive moveatur sive in quiete perseveret sive motum accipiat eumque quommodocunque continuet, haec phaenomena a certis causis proficiscantur necesse est. Quidquid scilicet in corpore ratione motus vel quietis contingit, id temere ac sine ulla ratione fieri nullo modo statui potest. Quaecunque autem sit ratio ea, vel in ipso corpore, de quo quaeritur, insit necesse est vel extra sit quaerenda; unde duo genera principiorum, quibus motus corporum definiatur, constitui debent, quorum illa interna, haec vero externa appellabo. Ad interna scilicet refero, quicquid in ipsis corporibus inest, in quo ratio sive motus sive quietis eorum continiatur; quae autem extrinsecus ita in corpora agunt, ut eorum status sive motus sive quietis afficiatur, ea ad principia motus externa erunt referenda. Cum autem in mundo omnia corpora quaquaversus aliis contingantur arctissimoque nexu inter se coniungantur, in hoc complexu neutiquam discernere licebit, quid principiis sive externis sive internis seorsim sit tribuendum. Quare ne in hac investigatione confundamur, mente saltem opus erit omnia corpora ambientia e medio tollere, ut id, de quo quaeritur, quasi solitarium relinquatur; atque tale corpus, sive fuerit in quiete sive in motu, quomodo dienceps se sit habiturum, erit explorandum; hincque motus principia interna cognoscentur, ab externis sollicite distinguenda.
+EXPLICATIO 2
+77. Dum autem corpus ita solitarium et extra omnem nexum cum aliis corporibus, quasi solum in mundo existeret, sum consideraturus, a nonnullis Philosophis statim clamabitur hanc hypothesin in se contradictionem involvere, cum omnia in mundo ita arctissimo nexu sint inter se colligata, ut uno sublato tota compages destruatur. Verum hic minime de ullo corpore e mundo tollendo agitur, sed, quomodocunque aliquod corpus ab aliis ob nexum illum afficiatur, ne Philosophus quidem prohibebitur quaestionem instituere, quid de illoa corpore esset futurum, si nullatenus ab aliis
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 69
+
+afficeretur ? non ut deinceps affirmet hoc revera esse eventurum, sed ut discat, quid eorum, quae ipsi revera eveniunt, externis causis sit tribuendum. Talibus sane abstractionibus Philosophi perpetuo utuntur ac, si eas proscribere vellent, ad nullius certe veritatis cognitionem aditus relinqueretur. Si autem licet corpus ita considerare, quasi a nullis aliis afficeretur, perinde se habebit, ac si alia corpora plane non adessent; quid igitur opus est hac investigatione reliqua corpora omnia praeter id, de quo quaesito instituitur, tanquam existentia contemplari ? cum eo nihil plane conferant. His perpensis nihil profecto obstare potest, quominus aliquod corpus tanquam prorsus solitarium, et quasi reliqua corpora omnia e mundo essent sublata, consideremus; ac, si quem forte haec hypothesis adhuc offendat, relinquat is omnia corpora, dum nobis concesserit, nullam ab iis actionem in id corpus, quod considerandum sumsimus, redundare.
+
+AXIOMA I
+
+78. Omne corpus, etiam sine respectu ad alia corpora, vel quiescit vel movetur, hoc est vel absolute quiescit vel absolute movetur.
+
+EXPLICATIO 1
+
+79. Hactenus sensus secuti alium motum vel quietem non agnovimus, nisi respectu aliorum corporum, unde tam quietem quam motum respectivum diximus. Nunc vero, si omnia corpora praeter unum mente tollimus, eius quoque ad illa relatio aufertur, qua hactenus eius quietem vel motum diiudicavimus; ubi primo quaeritur, utrum etiamnunc iudicium de motu vel quiete corporis locum habere posit necne ? Si enim hoc iudicium non aliunde, nisi ex comparatione situs corporis propositi cum aliis corporibus peti queat, his remotis etiam ipsum iudicium tollatur necesse est. Verum tametsi nos quietem vel motum cuiuspiam corporis non nisi ex relatione eius ad alia corpora cognoscimus, inde tamen concludere non licet has res in se nihil esse praeter relationem in mente institutam nihilque in ipsis corporibus inesse, quod ideis nostris quietis ac motus respondeat. Quantitatem quipped nobis etiam aliunde cognoscere non licet, nisi ex comparatione; tamen sublatis his, quibuscum comparationem instituebamus, in corpore tamen relinquitue quasi fundamentum quantitatis, quoniam, si in maius extenderetur vel in minus contraheretur, vera mutation in eo facta esset censenda. Ita si etiam unicum corpus existeret, id vel quiescere vel moveri esset dicendum, cum neque utrumque simul neque neutrum statui posit. Unde concludo quietem et motum non esse meras res ideales, ex comparatione sola natas, ita ut in ipsis corporibus nihil, quod iis respondeat, insit; sed de corpore etiam solitario recte quaeri posse, utrum moveatur an quiescat ? ubi equidem eos Philosophos, qui omnia ad relationes revocant, minime pertimesco, cum iidem tantum motui tribuant, ut in vi motrice etiam aliquid substantiale agnoscant.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 70
+
+EXPLICATIO 2
+80. Cum ergo etiam de unico corpore nullo ad alia habito respectu vel his adeo annihilatis recte quaerit possit, quiescantne an moveatur ? alterutrum necessario statui debet. Qualis autem haec future sit quies qualisve hic motus ? cum mutatio situs respectu aliorum corporum hic nullum inveniat locum, ne cogitare quidem possumus, nisi spatium absolutum admittamus, in quo nostrum corpus locum quendam occupet indeque in alia loca transire possit. Cum enim secundum eosdem Philosophos, qui spatium absolutum maxime impugnant, plurimum intersit, utrum corpus quodpiam moveatur an quiescat ? nullo etiam ad alia corpora respectu habito dicant, in quanam alia re discrimen consistat. An dicent id corpus revera moveri, quod situm suum respectu vicinorum continuo mutet ? verum motus in his vicinis inesse posset illo quiescente. An comparationem cum remotis institui oportebit ? sed cum quibus primo ? deinde cur cum hisce potius quam cum aliis ? Respondebunt tandem cum talibus, quae per se quiescent. Tum autem porro interrogo, non quomodo nos corpora per se quiescentia agnoscamus, sed quid sit per se quiescere ? quando quidem nunc ad situm respectu aliorum non amplius confugere licet. Cogentur ergo tandem confiteri ea corpora per se quiescere, quae in eodem spatii loco perseverant, a quo cum omnis consideratio aliorum corporum sit remota, ad ipsum spatium absolutum perveniunt, cuius respectu quae corpora vel quiescunt vel moventur, ea absolute vel quiescere vel moveri dicimus.
+SCHOLION
+81. Qui spatium absolutum negare voluerit, in gravissima incommode delabitur. Cum enim motum et quietem absolutam tanquam vanos sine mente sonos reiicere debeat, non solum leges motus, quae huic principio innituntur, reiicere debet, sed etiam ne ullas quidem motus leges dari affirmare cogitur. Namque si ea, quae nos huc perduxit, quaestio, quid in corpore a nexu reliquorum separato sit eventurum ? per se est absurda, etiam ea, quae ab aliis in eo effici possent, per se incerta et indeterminabilia erunt, sicque omnia temere ac sine ulla ratione evenire essent statuenda. Vel si haec effugere velit, motum omnem negare debebit, qua tamen in sententia, etiamsi omnia argumenta contra eam allata feliciter refutaverit, minime acquiescere poterit, cum ne dicere quidem valeat, quid sit quies, quam per totum mundum constituerit. Sed contra tam apertas absurditates pugnare firmissimum nostrae sententiae fundamentum videtur.
+AXIOMA 2
+82. Corpus, quod absolute quiescit, si nulli externae actioni fuerit subiectum, perpetuo in quiete perseverabit.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 71
+
+EXPLICATIO
+
+83. Pronunciari hoc axioma solet de corpore quocunque et per se tam perspicuum videtur, ut nulla probatione indigeat. Quo autem vis eius clarius intellitatur, punctum tantum seu elementum corporis consideretur, quod, si semel absolute quiverit, perpetuo in quiete persevere debet; cum enim in eo nulla insit ratio, cur in unam potius directionem moveri incipiat quam in omnes alias, atque extrinsecus omnis causa motus adimatur, secundum nullam directionem motum concipere poterit. Nititur igitur quidem haec veritas principio sufficientis rationis; interim tamen in ipso puncto seu elemento corporea cause permanentiae in quiete agnosci debet, ita ut haec veritas pro necessaria sit habenda. Quod autem de puncto quocunque est probatum, id quoque de omnibus iunctim sumtis ideoque de quovis corpore valeat necesse est; si enim singula eius elementa quiescent et in quiete perseverant, quin totum corpus sit quieturum, dubitari nequit. Interim circa hiusmodi corpus dubium moveri potest, quod fortasse eius partes, etsi quiescat, in se mutuo agant motumque excitant; sed hoc etiam concessum nihil contra axioma facit, dum non solum totum corpus, sed etiam singuluas eius partes ab omni actione externa liberamus, atque nobis sufficit axioma hoc sensu admisisse, ut saltem omnes particulae corporum minimae quiescentes, quatenus in se invicem non agunt, in quiete persistant.
+
+SCHOLION
+
+84. Quae lex hic circa quietem absolutam est sanctia, neutiquam ad quietem respectivam extendi potest. Si enim corpus, cuius respectu corpusculum adhuc quieverat, subito concutiatur, hoc non amplius eius respectu in quiete permanebit. Finge globum super tabula iacentem in navi uniformiter progrediente, qui respectu navis utique in quiete perseverabit; irruente autem navi in scopulum, haec quies respective subito cessabit globusque respectu navis motum concipiet, etiamsi ipse nullam causam externam fuerit passus. Necessario ergo haec lex ad quietem absolutam adstringitur, et cum lex sit necessaria, etiam relatio corporum ad locum quempiam, quem occupent, est necessaria. Scilicet cum haec lex quietis perseverantiam in eodem loco innuat, ad aliter nisi de loco absolute interpretari non licet, locus autem absolutus per ordinem inter coexistentia definiri nequit, quia alioquin nostra lex ad quietem respectivam extenderetur.
+
+AXIOMA 3
+
+85. Corpus, quod absolute movetur, si nulli externae actioni subiiciatur, secundum eandem directionem motu aequabili progredi perget.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 72
+
+EXPLICATIO 1
+86. Hoc axioma quoque de particulis corporum minimis, quasi punctis, proprie est intelligendum, neque enim de corporibus magnitudine praeditis valet, nisi omnes particulae pari celeritate secundum eandem directionem moveantur; si enim initio vel inaequales celeritates vel secundum diversas directions accepissent, singulae particuale ne motum hunc quidem conservare possent, quin a se invicem dissipentur et corporis compages dissolvatur. Quod autem non est metuendum, si omnium particularum celeritates fuerint aequales in eandemque directionem tendant vel si corpus ita fuerit exiguum, ut in eo talis disparitas locum habere nequeat. Consideretur ergo huiusmodi punctum corporeum, quasi solum existeret, ac si motum quemcunque acceperit, ita ut data celeritate secundum datam directionem moveri inceperit; atque hoc punctum vi istius axiomatic perpetuo tam eandem celeritatem quam eandem directionem conservabit. Quod cum sit pro axiomate receptum, demonstratione non indiget; interim tamen ratio haud difficulter afferi potest. Primo enim in directione nullam patietur mutationem, cum nulla esse possit ratio, cur in unam potius quam omnes alias plagas ab ea deflectat; aeque scilicet certe eandem directionem conservabit, ac punctum quiescens in quiete perseverabit. Quod autem porro ad celeritatem attinet, nisi ea perpetuo eadem maneret, vel augeri vel minui esset dicenda, quorum neutrum sine absurditate dici potest; sive enim augeretur sive minueretur, id secundum certam legem fieri deberet; quals autem haec futura esset lex, nullo modo concipi posset, cum nulli certe prae reliquis tanta praerogativa conveniret. Deinde si quis forte dicat celeritatem in ratione temporum diminui, rem nondum definiret; determinare enim insuper deberet, quanta celeritatis pars quovis tempore interiret, in quo quicquid assignaverit, cum nulla ratione fulciatur, nullo modo admitti potest; id quod etiam de quacunque alia lege valebit. Nihil aliud ergo relinquitur, nisi ut statuamus celeritatem quoque perpetuo eandem manere, perinde ac directionem.
+EXPLICATIO 2
+87. Huic axiomatic aeque ac praecedenti opinio eorum Philosophorum adversatur, qui statuunt omnia corpora vi quadam occulta praedita esse, statum suum motus vel quietis continuo mutandi; quae opinio, nulli rationi innixa, funditus eo ipso evertitur, quod axiomatic contradicat. Verum hoc axioma primo intuitu experientiae contrarium videri solet, cum in omnibus experimentis observemus motum pedetentim retardari ac tandem penitus extingui, ita ut ex hoc fonte motus perpetuus negetur, dum vi nostri axiomatis omnis motus perpetuus esse deberet. Verum in his ipsis experimentis causa retardationis manifesto deprehenditur, cum in frictione tum in resistentia aeris aliisque motus obstaculis, quae nequaquam penitus tollere licet. Quas circumstantias si probe perpendamus, ex his ipsis experimentis concludere debemus, si omnia haec obstacula abessent, motum revera perpetuo esse duraturum. Quare cum in axiomate omnia obstacula expresse sint remota, tantum abest, ut haec experimenta ei adversentur, ut
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 73
+
+potius eius veritatem sensibili argumento confirment. Ceterum probe cavendum est, ne hoc axiomata, ad motum absolutum adstrictum, ad motus quoque respectivos extendatur.
+DEFINITIO 10
+
+88. Dum corpus absolute vel quiescit vel aequabiliter in directum promovetur, in eodem statu perseverare dicitur.
+
+COROLLARIUM 1
+
+89. Ambo ergo axiomata allata ita enunciari possunt, ut corpora, quatenus ab aliis non impediuntur, in eodem statu perseverant.
+
+COROLLARIUM 2
+
+90. Si ergo corpus, quod ante quieverat, moveri incipit vel, quod motum, mutationem sive in celeritate sive in directione patitur, id statum suum mutasse est censendum.
+
+SCHOLION
+
+91. Permanentia in quiete sive in motu aequabili rectilineo non incongrue status appellatur, quia corpus ad eam sponte determinatur; quamdiu enim corpus sibi est relictum neque ulli externae actioni subiectum, recte in eodem statu manere dicitur, siquidem mutatio status actionem extranam innuere videtur. Mansio ergo in eodem statu maxime differt a mansione in eodem loco, cum qua tum demum convenit, quando corpus quiescit. Ad hanc status ideam nos deduxerunt axiomata ante stabilita, neque vicissim idea status, quae per se esset arbitraria, ad eorum cognitionem ducere potuisset; hinc autem ipsa haec idea fixam significationem est adepta.
+
+DEFINITIO 11
+
+92. Proprietas illa corporum, quae rationem perseverationis in eodem statu in se continet, inertia appellatur, quandoque etiam vis inertiae.
+
+COROLLARIUM 1
+
+93. Inertia ergo vera est causa, cur corpora in eodem statu perseverant; cum enim causa in ipso corpore sit quaerenda, ea sine dubio pro communi omnium corporum proprietate haberi debet.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 74
+
+COROLLARIUM 2
+94. Quodsi ergo quaeratur, cur corpus absolute quiescens quiescere vel motum aequabiliter in directum moveri pergat, alia causa praeter eius inertiam assignari nequit; neque huius phaenomeni causam usquam extra corpus quaeri licet.
+SCHOLION
+95. Vox inertiae proprie ad eam corporum proprietatem indicandam, qua quiescentia in quiete persistent, est adhibita, propterea quod in hoc statu motui se quasi opponunt; sed quia corpora in motu constitua aeque se omni mutationi, ratione tam celeritatis quam directionis, opponunt, hoc nomen haud inepte ad consevationem status sive quietis sive motus indicandam usurpatur. Vocatur etiam passim vis inertiae, quia vis est aliquid mutationi status reluctans; sed si vis definitur per causam quamcunque, qua status corporum mutatur, hic in ista significatione neutiquam accipi potest; eius certe ratio maxime discrepat ab ea, qua deinceps virs agere ostendemus. Quare, ne hinc ulla confusio oriatur, nomen vis omittamus et hanc corporum proprietatem simpliciter nomine inertiae appelabimus.
+EXPLICATIO
+96. Inertia ergo tantum cernitur in statu corporum absolute, neque ad quietem respectivam aut motum respectivum referri potest. Corpus enim respectu alterius motu utcunque inaequabili et in linea curva incedere potest, cum tamen absolute vel quiescat vel uniformiter in directum moveatur ideoque in statu suo perseveret; atque si nobis contigerit corpus videre, de quo certi fuerimus id nulli actioni externae esse subiectum, quomodocunque id nobis videbitur inaequaliter motu respective ferri, certe tamen pronunciare poterimus id absolute vel quiescere vel uniformiter in directum progredi. Quoniam autem quietem vel motum corporum nonnise respectu aliorum nobis cognoscere licet, sensus nobis statum corporum absolutum minime declarant, unde criterium status absoluti inde petitum, quando corpora nulli actioni externae sunt subiecta, in hac scientia maximi est momenti. Fieri tamen potest, ut hoc axioma etiam in motu respective locum habeat, quando scilicet corpus, cuius respectu motus aestimatur, ipsum in statu suo manet, hoc est vel absolute quiescit vel absolute uniformiter in directum promovetur.
+THEOREMA 1
+97. Si corpus, cuius respectu aliorum corporum motum aestimamus, absolute vel quiescit vel uniformiter in directum promovetur, tum axiomata pro quiete vel motu respectu aeque valebunt ac pro absoluto.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 75
+
+DEMONSTRATIO
+
+Considerentur duo corpora (Fig. 9), quorum ambo motu absoluto uniformiter in directum ferantur, alterum describat tempore = t spatium Aa = at, alterum vero eodem tempore spatium Bb = bt, ita ut illius celeritas sit = a, huius vero = b; perinde autem est, sive hae rectae Aa et Bb sint in eodem plano necne. Referatur iam motus corporis B ad corpus A, quod tanquam quiescens in A spectetur, et cum initio corpus B fuerit in B, elapso tempore = t corpus B aestimabitur esse in  , ducta A ipsi ab parallela et aequali. Quare ob b = Aa = at erit Bb : b = b : a seu in ratione constante; et quia angulus Bb est quoque perpetuo idem, triangulum Bb est specie datum, hincque etiam angulus bB constans neque a tempore pendens, pariter ac ratio laterum Bb ad B , quae sit ut b ad  , sicque B = t . Ex quibus concluditur motum respectivum corporis B ita fore comparatum, ut ex B secundum rectam B sit progressum temporeque t spatium descripserit B = t ideoque celeritatem habeat constantem. Conseqenter corpus B,
+quod absolute uniformite in directum moveri ponebatur, etiam respectu corporis A uniformiter in directum movebitur, dummodo hoc corpus A etiam absolute uniformite in directum proferatur.
+COROLLARIUM 1
+
+98. Si angulus Bb ponatur =  , qui ubique est idem, etsi rectae Aa et Bb non sunt in eodem plano,erit
+B = t (aa - 2ab cos + bb) ,
+
+sicque celeritas respective = (aa - 2ab cos + bb) , anguli autem Bb tangens est =
+
+a sin b-a cos
+
+.
+
+COROLLARIUM 2
+99. Si corpus A quiesceret absolute, motus respectivus corporis B non differret a motu eius absoluto. Unde si mundo unicum esset corpus absolute quiescens, reliqua corpora ad id referendo, eorum motum absolutum cognoscere liceret.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 76
+
+COROLLARIUM 3
+100. Si in mundo esset corpus uniformite in directum progrediens, ad quod reliqua corpora referantur,de iis, si nullam actionem externam subirent, affirmare possemus ea etiam in statu respectivo esse perseveratura.
+COROLLARIUM 4
+101. Ob inertiam igitur corpora non solum in eodem statu absolute, sed etiam in eodem statu respective perseverare conantur, dummodo corpus, cuius respectu eorum status aestimatur, absolute vel quiescat vel uniformiter in directum promoveatur.
+EXPLICATIO
+102. Si in universo sol vel potius eius centrum absolute quiesceret omniaque corpora ratione situs cum eo comparentur, inertia efficiet, ut omnia corpora, quae respectu centri solis quiescent, in quiete, quae autem moventur, in eodem motu aequabili in directum progredi conentur, quoniam hoc casu eorum motus a respectivo non discreparet. At si, ut est verisimile, non centrum solis, sed potius centrum gravitatis commune totius systematis absolute quiescat, eius respectu haec inertiae proprietas est intelligenda. Verum ad motum respectivum determinandum non sufficit unicum punctum tanquam fixum considerare, quoniam inde tantum distantias non vero directions cognoscere liceret, sed tribus vel adeo quatuor punctis fixis adhuc est opus, uti supra ostendimus. In mundo ergo stellae fixae tanquam totidem puncta fixa considerari solent, quae hypothesis si vera esset, omnia corpora in mundo, quae earum respectu vel quiescunt vel moventur, ob inertiam in eodem statu essent perseveratura. Atque hoc perinde evenerit, si omnes stellae fixae celeritatibus aequalibus secundum directiones parallelas per coelos uniformiter in directum feruntur. Verum in ipsis stellas fixis quaedam exiguae inaequalitates animadvertuntur, quarum rationem in hoc iudicio haberi oportet, quod ergo pro maxime arduo merito habetur.
+SCHOLION
+103. Quodsi ergo eiusmodi corpora vel potius, ne eorum magnitudo moram facessat, puncta quasi corporea contemplemur, quae nulli actioni externae sint exposita, ea vel perpetuo quiescent vel continuo uniformiter in directum promovebuntur, idque non solum absolute, sed etiam respective, si modo corpus, ad quod referentur, ipsum in eodem statu absolute persistat. Talem igitur motum, cuius ratio in sola inertia est sita, accuratius perpendere ad calculumque revocare conveniet. Supra autem in genere tres pertractavimus casus, quibus calculus ad motus determinationem accommodabatur. Primus erat, quo motus rectilineus ad directricem cum eius directione congruentem referebatur; secundus, quo motus ad duas directrices reducebatur, qui, cum in omni
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 77
+
+motu in eodem plano facto succedat, etiam ad motum rectilineum uniformem, qualem hic examinamus, adhiberi poterit. Tertius casus latissime patens, quo tribus directricibus sumus usi, etiam hunc, quem tractamus, in se complectitur, operaeque pretium erit discipere, quomodo formulae illae generales pro motu uniformi rectilineo futurae sint comparatae. Quare secundum hos tres casus motum aequabilem rectilineum ad calculum revocemus hincque colligere poterimus, quid in omni motu inertiae sit tribuendum. Quatenus enim deinceps motus cuispiam corporis aliter se habere deprehendetur, eius causa non in inertia eius, sed aliter extra corpus erit quaerenda.
+PROBLEMA 6
+
+104. Si motus rectilineus aequabilis ad unicam directricem cum eius directione congruentem referatur, eum per calculum determinare seu ad quodvis tempus eius locum assignare.
+SOLUTIO
+
+Corpore, quod movetur, instar puncti considerato fuerit id initio in A et elapso
+
+tempore t pervenerit in S, percurso spatio AS = s (Fig. 2). Cum igitur celeritas in S sit
+
+=
+
+ds dt
+
+eaque perpetuo maneat eadem, si ea ponatur = c, havebimus
+
+ds dt
+
+= c et integrando
+
+s = ct, quae formula iam supra pro motu aequabili est tradita. Sed ut in genere
+
+phaenomena huius motus sine respectu ad quantitatem celeritatis habito evolvamus,
+
+sufficit notasse
+
+ds dt
+
+esse quantitatem constantem; unde eius differentiale nihilo erit
+
+aequale. Sumto ergo temporis elementi dt pro constante, erit
+
+dds dt
+
+= 0 ideoque etiam
+
+suppleta homogeneitate
+
+dds dt 2
+
+=0.
+
+COROLLARIUM 1
+
+105.
+
+Si igitur in motu rectilineo fuerit
+
+dds dt 2
+
+= 0 , is simul erit aequabilis, atque si is
+
+fuerit absolutus vel absoluto aequipollens, inertiae est tribuendum, quod sit
+
+dds dt 2
+
+=0.
+
+COROLLARIUM 2
+
+106.
+
+Sin autem in motu rectilineo non fuerit
+
+dds dt 2
+
+= 0 , id indicio est
+
+corpusculum non
+
+solam inertiam sequi, sed valorem ipsius
+
+dds dt 2
+
+causae
+
+cuipiam
+
+externae
+
+esse
+
+tribuendum, siquidem motus absolute spectetur.
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 78
+
+PROBLEMA 7
+
+107. Si punctum uniformiter in directum moveatur eiusque motus ad duas directrices in eodem plano sitas referatur, determinare huius motus phaenomena ad calculum revocata.
+SOLUTIO
+
+Sit ergo spatium a puncto descriptum EF linea recta (Fig. 3), in eodem cum
+
+directricibus OA et OB plano sita, atque elapso tempore t versetur mobile in S, unde
+
+directricibus parallelae agantur SY et SX, sitque OX = x et XS = y. Quia nunc linea
+
+ESF est recta, erit
+
+dy dx
+
+quantitas constans; deinde labente tempusculo dt perveniat
+
+mobile in s, positisque Xx = Sp = dx et ps = dy item angulo AOB =  , erit
+
+Ss = (dx2 + dy2 + 2dxdy cos )
+
+et celeritas in S =
+
+(dx2 +dy 2 +2dxdy cos dt
+
+)
+
+.
+
+Cum autem sit
+
+dy dx
+
+quantitas
+
+constans, posito dy = adx erit celeritas =
+
+dx dt
+
+(1+ aa + 2a cos ) ,
+
+quae etiam per hypothesin est constans. Quocirca tam dx quam dy erunt quantities
+
+dt
+
+dt
+
+constantes ideoque earum differentialia evanescent, hinc, si motus sit rectilineus et
+
+aequabilis, sumto elemento dt constante erit tam
+
+ddx dt 2
+
+= 0 quam
+
+ddy dt 2
+
+= 0 , ac vicissim, si
+
+hae formulae evenescant, erunt
+
+dx dt
+
+et
+
+dy dt
+
+quantitates constantes ideoque etiam
+
+dy dx
+
+,
+
+unde motus erit rectilineus et aequabilis.
+
+COROLLARIUM 1
+
+108. Si ergo punctum nullam actionem externam patiatur motumque suum per solam
+
+inertiam prosequatur, certe erit tam
+
+ddx dt 2
+
+= 0 quam
+
+ddy dt 2
+
+= 0 , quippe quibus
+
+conditionibus motus rectilineus et aequabilis indicator.
+
+COROLLARIUM 2
+109. Quare si motus rectilineus aequabilis secundum directiones binarum directricium OA et OB resolvatur, utriusque motus celeritas erit constans; ac si vicissim uterque hic
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 79
+
+motus lateralis fuerit aequabilis, etiam motus verus non solum aequabilis, sed etiam rectilineus erit.
+
+COROLLARIUM 3
+
+110. Contra igitur,si in quopiam motu ad directrices OA et OB relato vel non fuerit
+
+ddx dt 2
+
+= 0 vel non
+
+ddy dt 2
+
+=0
+
+vel etiam neutrum, hoc indicio est corpus non soli inertiae
+
+esse relictum, se dab aliqua actione externa affici.
+
+SCHOLION
+
+111. Quamdiu ergo corpus soli inertiae obediens uniformiter in directum movetur, sive absolute sive respectu corporis, quod ipsum in eodem statu absolute perseverat, quomodocunque eius motus secundum duas directrices resolvatur, id quod utique infinitis modis fieri potest, semper uterque motus lateralis erit uniformis, hoc est talis, quem corpus vi inertiae prosequeretur. Atque haec est insignis proprietas huius resolutionis, quod axiomata ad motum verum adstricta etiam in his motibus lateralibus redundabunt. Maioris vero adhuc momenti haec resolutio agnoscetur, quando infra ostendemus ab actione virium hos motus ex resolutione natos et ideales tantum perinde affici, ac si motus essent veri. Verum idem quoque in genere est tenendum de resolutione secundum ternas directiones, uti ex sequente problemate patebit.
+
+PROBLEMA 8
+
+112. Si punctum uniformiter in directum moveatur eiusque motus ad ternas directrices quascunque referatur, determinare huius motus phaenomena ad calculum revocata.
+SOLUTIO
+
+Constitutis tribus directricibus OA, OB, OC (Fig. 4) sit ESF linea recta a puncto motu uniformi percursa, elapsoque tempore t versetur in S, pro quo directricibus
+
+parallelae sint coordinatae OX = x, XY = y et YS = z, sive sint inter se normals sive
+
+oblique. Quoniam ESF est linea recta, eius etiam proiectio TY in plano AOB erit linea
+
+recta, unde
+
+dy dx
+
+est
+
+quantitas
+
+constans.
+
+Simili
+
+modo,
+
+quia
+
+proiectio
+
+in
+
+plano
+
+AOC
+
+est
+
+recta, erit quoque
+
+dz dx
+
+quantitas
+
+constans
+
+itemque
+
+dz dy
+
+.
+
+Ponatur
+
+nunc
+
+spatiolum
+
+tempusculo dt descriptum Ss = ds,erunt etiam
+
+ds dx
+
+,
+
+ds dy
+
+,
+
+ds dz
+
+quantities
+
+constantes,
+
+quae
+
+conditiones inde sequuntur, quod linea ESF est recta. Ob motus porro aequabilitatem
+
+celeritas
+
+ds dt
+
+est
+
+constans,
+
+sicque
+
+constantes
+
+erunt
+
+istae
+
+quantitates
+
+ds dt
+
+,
+
+ds dt
+
+,
+
+et
+
+ds dt
+
+,
+
+EULER'S
+
+Theoria Motus Corporum Solidorum Seu Rigidorum VOL. 1.
+
+CONSIDERATIO MOTUS IN GENERE :Chapter two.
+
+Translated and annotated by Ian Bruce.
+
+page 80
+
+quibus tam aequabilitas motus quam rectitude spatii continetur. Sumtis ergo
+
+differentialibus, posito elemento dt constante, sequentes formulas nihilo aequales esse
+
+oportet :
+
+ddx dt 2
+
+= 0,
+
+ddy dt 2
+
+= 0 et
+
+ddz dt 2
+
+=0,
+
+quibus adeo natura motus uniformis rectilinei determinatur.
+
+COROLLARIUM 1
+
+113. Quando ergo punctum nulli actioni externae subiicitur eiusque motus absolutus
+
+ad tres directrices quascunque refertur, certe hae tres aequationes locum habebunt :
+
+ddx dt 2
+
+= 0,
+
+ddy dt 2
+
+= 0 et
+
+ddz dt 2
+
+=0,
+
+quarum ratio in inertia corpusculi est collocanda.
+
+COROLLARIUM 2
+
+114. Quare si motus fuerit rectilineus et aequabilis, quomodocunque is secundum
+
+ternas directions fixas resolvatur, terni motus laterales etiam erunt aequabiles, cum sint
+
+dx dt
+
+,
+
+dy dt
+
+et
+
+dz dt
+
+quantities constantes.
+
+COROLLARIUM 3
+115. In motu ergo absolute motus laterales, in quos secundum ternas directions fixas resolvitur, etiamsi sint ficti, tamen legem inertiae sequuntur, ita ut hoc capite tanquam veri motus spectari possint.
+
+SCHOLION
+116. Haec igitur sunt principia motus interna, quae ea proprietate communi innituntur, quae inertiae nominee appellari solet. Atque ex his principiis motum punctorum corporeorum, quando nulli actioni externae subiiciuntur, determinare valemus. Omnia nempe huc redeunt, ut, si tale corpusculum quiescat absolute, id perpetuo in quiete sit perseveraturum, sin autem motum acceperit absolutum quemcunque, id perpetuo eadem celeritate in directum sit progressurum. Hic quidem corpora mota tanquam infinite parva sum contemplatus, sed tamen ea, quae sunt stabilita, ad corpora cuiusvis magnitudinis accommodare licet. Verum antequam eo progrediamur, necesse est, quid vires externae efficere valeant, expendere, quam ergo investigationem etiam pro punctis seu particulis corporum minimis suscipiamus.
+
+
