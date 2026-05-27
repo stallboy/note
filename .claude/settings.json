@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__web-search-prime__web_search_prime",
+      "mcp__web-reader__webReader",
+      "Bash(curl -s \"https://www.17centurymaths.com/contents/mechanica3.html\")",
+      "Bash(curl -L -o tmvol1ch9tr.pdf \"https://www.17centurymaths.com/contents/euler/mechvol3/tmvol1ch9tr.pdf\")",
+      "Bash(pdftotext tmvol1ch9tr.pdf tmvol1ch9tr.txt)"
+    ]
+  }
+}
