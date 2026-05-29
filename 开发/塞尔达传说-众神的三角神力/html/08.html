@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08 经济与资源 — 塞尔达传说：众神的三角神力</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-wrapper">
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-title">塞尔达传说<br>众神的三角神力</div>
+            <div class="sidebar-subtitle">设计拆解分析</div>
+        </div>
+        <ul class="sidebar-nav">
+            <li><a href="index.html">首页</a></li><li><a href="01.html"><span class="nav-number">01</span>核心循环</a></li><li><a href="02.html"><span class="nav-number">02</span>世界设计</a></li><li><a href="03.html"><span class="nav-number">03</span>地下城设计</a></li><li><a href="04.html"><span class="nav-number">04</span>进度系统</a></li><li><a href="05.html"><span class="nav-number">05</span>战斗系统</a></li><li><a href="06.html"><span class="nav-number">06</span>谜题设计</a></li><li><a href="07.html"><span class="nav-number">07</span>叙事结构</a></li><li><a href="08.html" class="active"><span class="nav-number">08</span>经济与资源</a></li><li><a href="09.html"><span class="nav-number">09</span>元素协同</a></li><li><a href="10.html"><span class="nav-number">10</span>系统交叉</a></li><li><a href="11.html"><span class="nav-number">11</span>涌现玩法</a></li><li><a href="12.html"><span class="nav-number">12</span>难度与心流</a></li><li><a href="13.html"><span class="nav-number">13</span>设计全景图与遗产</a></li>
+        </ul>
+        <div class="sidebar-footer">第 8/13 篇</div>
+    </nav>
+    <main class="main-content">
+        <div class="content-area">
+            <div class="breadcrumb">
+        <a href="index.html">首页</a><span class="sep">&rsaquo;</span>
+        <span>08 经济与资源</span>
+    </div>
+            <h1>08 经济与资源</h1>
+            <div class="page-toc">
+        <ul class="page-toc-list"><li><a href="#核心问题">核心问题</a></li><li><a href="#机制描述">机制描述</a></li><li><a href="#设计分析">设计分析</a></li><li><a href="#设计过程推导">设计过程推导</a></li><li><a href="#反事实推演">反事实推演</a></li><li><a href="#可迁移经验">可迁移经验</a></li><li><a href="#补充材料">补充材料</a></li></ul>
+    </div>
+            <h2 id="核心问题">核心问题</h2>
+<ol>
+<li>卢比作为货币，如何在一个没有真正"市场"的单人冒险游戏中保持购买决策的意义感——既不泛滥到让玩家失去兴趣，也不稀缺到制造痛苦？</li>
+<li>消耗品系统（炸弹、箭矢、瓶装物品）如何同时服务于战斗续航和解谜探索两个目标，而不让资源焦虑侵蚀探索乐趣？</li>
+<li>心之碎片和瓶子的有限数量如何转化为驱动世界探索的核心动力？</li>
+</ol>
+<h2 id="机制描述">机制描述</h2>
+<h3 id="货币系统-卢比-Rupees">货币系统：卢比（Rupees）</h3>
+<p><strong>获取途径：</strong></p>
+<div class="table-wrapper"><table><thead><tr><th>来源</th><th>频率</th><th>典型金额</th></tr></thead><tbody><tr><td>击杀敌人掉落</td><td>高频，每次战斗</td><td>1-20（随敌人强度）</td></tr><tr><td>砍草/砸罐子</td><td>极高频，遍布世界</td><td>1-5</td></tr><tr><td>宝箱</td><td>中频，地下城和隐藏地点</td><td>5-200</td></tr><tr><td>小游戏奖励</td><td>低频，主动参与</td><td>20-300</td></tr><tr><td>出售物品给商人</td><td>低频</td><td>按物品定价</td></tr><tr><td>特殊事件（如树后藏宝）</td><td>低频，探索奖励</td><td>20-100</td></tr></tbody></table></div><p><strong>面值体系：</strong></p>
+<div class="table-wrapper"><table><thead><tr><th>面值</th><th>颜色</th><th>稀有度</th></tr></thead><tbody><tr><td>1</td><td>绿色</td><td>极常见</td></tr><tr><td>5</td><td>蓝色</td><td>常见</td></tr><tr><td>20</td><td>红色</td><td>较少</td></tr><tr><td>50</td><td>紫色/珍贵</td><td>稀有</td></tr><tr><td>200</td><td>金色</td><td>极稀有</td></tr></tbody></table></div><p>携带上限：999卢比。</p>
+<p><strong>主要消耗项：</strong></p>
+<div class="table-wrapper"><table><thead><tr><th>物品</th><th>价格</th><th>必要性</th></tr></thead><tbody><tr><td>Medicine of Life（瓶装回复药）</td><td>~150卢比</td><td>高——Boss战续航核心</td></tr><tr><td>Medicine of Magic（瓶装魔法药）</td><td>~160卢比</td><td>中——依赖魔法道具的玩家更需要</td></tr><tr><td>Medicine of Life and Magic</td><td>~180卢比</td><td>中——效率最高但最贵</td></tr><tr><td>小游戏入场费</td><td>10-100卢比</td><td>低-中——奖励通常是心之碎片或道具</td></tr><tr><td>特殊NPC服务</td><td>不等</td><td>低——多为主线流程外内容</td></tr></tbody></table></div><h3 id="消耗品系统">消耗品系统</h3>
+<p><strong>弹药类消耗品：</strong></p>
+<div class="table-wrapper"><table><thead><tr><th>消耗品</th><th>基础上限</th><th>升级后上限</th><th>恢复方式</th></tr></thead><tbody><tr><td>炸弹（Bomb）</td><td>10</td><td>30→50</td><td>击杀敌人掉落、砍草掉落、宝箱、购买</td></tr><tr><td>箭矢（Arrow）</td><td>30</td><td>50→70</td><td>击杀敌人掉落、砍草掉落、宝箱、购买</td></tr></tbody></table></div><p>炸弹和箭矢的双重角色——既是战斗武器又是解谜工具——是消耗品系统的核心张力来源。</p>
+<p><strong>魔法值系统：</strong></p>
+<ul>
+<li>魔法槽提供一根统一的能量条，多种特殊道具共享消耗</li>
+<li>消耗魔法的道具：Fire Rod、Ice Rod、Cane of Somaria、Cane of Byrna、Magic Cape、Lamp等</li>
+<li>可升级为"大魔法槽"：效果为所有魔法消耗减半</li>
+<li>恢复方式：魔法瓶（绿色瓶，敌人/草丛掉落）、瓶装魔法药、妖精泉</li>
+</ul>
+<p><strong>瓶装物品系统：</strong></p>
+<p>玩家在游戏世界中可以找到最多4个空瓶子。每个瓶子可以在特定地点装入不同物品：</p>
+<div class="table-wrapper"><table><thead><tr><th>瓶装物</th><th>获取方式</th><th>功能</th></tr></thead><tbody><tr><td>Medicine of Life</td><td>商店购买</td><td>回复所有心</td></tr><tr><td>Medicine of Magic</td><td>商店购买</td><td>回复全部魔法</td></tr><tr><td>Medicine of Life and Magic</td><td>商店购买/特殊地点</td><td>回复所有心和魔法</td></tr><tr><td>Fairy（妖精）</td><td>妖精泉/特定地点捕捉</td><td>死亡时自动复活（回复几颗心）</td></tr><tr><td>Bee</td><td>随机草丛中</td><td>放出后攻击敌人，效果弱</td></tr><tr><td>Golden Bee</td><td>特定隐藏位置</td><td>攻击力更强的蜜蜂</td></tr></tbody></table></div><h3 id="升级系统">升级系统</h3>
+<p><strong>装备升级路线：</strong></p>
+<div class="table-wrapper"><table><thead><tr><th>类别</th><th>初始</th><th>升级1</th><th>升级2</th><th>升级3</th><th>升级方式</th></tr></thead><tbody><tr><td>剑</td><td>Fighter's Sword</td><td>Master Sword</td><td>Tempered Sword</td><td>Golden Sword</td><td>地下城进度/锻造任务/大妖精</td></tr><tr><td>盾</td><td>Fighter's Shield</td><td>Red Shield</td><td>Mirror Shield</td><td>—</td><td>地下城/探索</td></tr><tr><td>防具</td><td>Green Clothes</td><td>Blue Mail</td><td>Red Mail</td><td>—</td><td>地下城</td></tr><tr><td>炸弹上限</td><td>10</td><td>30</td><td>50</td><td>—</td><td>NPC/特殊位置</td></tr><tr><td>箭矢上限</td><td>30</td><td>50</td><td>70</td><td>—</td><td>NPC/特殊位置</td></tr><tr><td>魔法槽</td><td>普通</td><td>大魔法（消耗减半）</td><td>—</td><td>—</td><td>特殊地点NPC</td></tr></tbody></table></div><p><strong>心之系统：</strong></p>
+<div class="table-wrapper"><table><thead><tr><th>类型</th><th>获取方式</th><th>数量</th><th>总计效果</th></tr></thead><tbody><tr><td>心之容器（Heart Container）</td><td>击败Boss</td><td>11个</td><td>每个+1心</td></tr><tr><td>心之碎片（Piece of Heart）</td><td>世界各处散布</td><td>24个</td><td>每4个+1心</td></tr></tbody></table></div><p>初始3心，最大20心。心之碎片是本作首创机制。</p>
+<figure><img src="images/alttp_heart_container_artwork.png" alt="Heart Container" loading="lazy"><figcaption>Heart Container——每个Boss击倒后掉落，直接增加一格HP上限</figcaption></figure>
+<figure><img src="images/alttp_piece_of_heart_artwork.png" alt="心之碎片" loading="lazy"><figcaption>心之碎片——24个散布于世界各处，4枚合一，首创的"整数门槛"收集设计</figcaption></figure>
+<h3 id="商店分布">商店分布</h3>
+<div class="table-wrapper"><table><thead><tr><th>商店位置</th><th>主要商品</th><th>定位</th></tr></thead><tbody><tr><td>Kakariko Village商店</td><td>基础药水、基础道具</td><td>早期补给站</td></tr><tr><td>Light World其他商店</td><td>药水、特定道具</td><td>区域性补给</td></tr><tr><td>Dark World商店</td><td>更贵的药水、高级物品</td><td>后期补给站</td></tr><tr><td>特殊商人（如蜜蜂瓶商人）</td><td>买卖特定物品</td><td>独特交易体验</td></tr><tr><td>妖精泉</td><td>免费回复心/魔法、装瓶妖精</td><td>免费的"安全屋"</td></tr></tbody></table></div><h2 id="设计分析">设计分析</h2>
+<h3 id="解决了什么设计问题">解决了什么设计问题</h3>
+<p><strong>问题一：如何让货币在单人冒险游戏中有意义。</strong></p>
+<p>在RPG中，货币有意义是因为有大量可购买的装备和持续升级的需求。但在ALttP中，核心装备几乎都从地下城获取，不依赖购买。这意味着卢比不能作为进度驱动器——它必须找到另一个角色。</p>
+<p>ALttP的解决方案是让卢比成为<strong>战斗续航的保险</strong>而非进度的门票。玩家不需要攒钱买装备，但需要花钱买药水来降低Boss战和长迷宫的失败成本。卢比的价值不来自"我必须买才能推进"，而来自"如果我不买，我会在Boss战更艰难"。这是一个柔和的紧迫感——不是"买不起就过不去"的硬门槛，而是"省着用会更轻松"的软激励。</p>
+<p><strong>问题二：消耗品如何同时服务战斗和解谜而不产生冲突。</strong></p>
+<p>炸弹是最典型案例：它既是破墙开路的解谜工具，也是对付敌人群的范围武器。这意味着每次扔炸弹都是一个隐含的资源分配决策——"我该留着炸墙还是现在用在敌人身上？"</p>
+<p>ALttP通过一个巧妙的不对称设计消解了这个冲突：<strong>解谜用炸弹消耗的是确定性知识</strong>（你知道这面墙可以炸开），而战斗用炸弹消耗的是对不确定性的应对。一旦玩家知道哪里需要炸弹，他们会主动保留弹药；在未知区域，炸弹可以放心用于战斗。知识和经验自然地将消耗品分配到正确的用途上。</p>
+<p><strong>问题三：如何让探索产生持续的微小奖励。</strong></p>
+<p>砍草掉落1卢比、砸罐子掉落1个炸弹——这些看似微不足道的奖励，在累计数十小时的探索中构成了一个持续的"微型正反馈层"。这个微奖励层的存在使得"即使我不知道该去哪，随便走走也有收获"成为事实，降低了迷路时的挫败感。</p>
+<h3 id="创造了什么体验">创造了什么体验</h3>
+<p><strong>"需要但不是必须"的经济感。</strong> 药水不便宜（150卢比约占携带上限的15%），但也不是买不起。这使得每次购买都有"我正在花掉辛苦赚来的钱"的重量感，但不至于让玩家为了省钱而反复刷怪。这种感觉的平衡点非常精确——略微偏向"充足"而非"稀缺"，确保经济系统增加深度而不增加痛苦。</p>
+<p><strong>瓶子作为战术配置板。</strong> 4个瓶子意味着4次紧急回复的机会，但每个瓶子只能装一种物品。在进入Boss战前，玩家需要决定配置：全部装回复药？留一个装妖精当保险？留一个装魔法药？这个决策本身构成了战斗准备阶段的策略乐趣。瓶子的有限性（4个，不能更多）确保了这个决策始终有意义——如果瓶子无限，配置的权衡就不存在了。</p>
+<p><strong>心之碎片的"寻宝图"效应。</strong> 24个心之碎片散布在世界各处——有些藏在需要特定道具才能到达的角落，有些需要完成小游戏，有些隐藏在可炸开的墙壁后面。每个碎片都是一个微型探索目标，它们的存在赋予了表世界漫游以目的性。当玩家走过一个可疑的角落时，"这里会不会藏着一个心之碎片？"的念头本身就是探索驱动力。</p>
+<p><strong>妖精作为"黑暗中的安全网"。</strong> Fairy的自动复活机制创造了一种独特的心理体验：带一个妖精进Boss战等于多了一条命。这不是简单的"多回复一些HP"——它是"即使我犯了致命错误，游戏也不会立刻结束"。这种安全网降低了挑战的心理门槛，让玩家敢于在Boss战中尝试更激进的战术。</p>
+<h3 id="关键设计决策及其理由">关键设计决策及其理由</h3>
+<p><strong>决策一：卢比携带上限设为999。</strong></p>
+<p>这个数字远超游戏内任何单次购买需求。设计意图不是让卢比成为稀缺资源，而是让玩家在早期和中期始终有"可以花"的余裕。如果上限很低（比如99），玩家会频繁面临"买这个还是存着"的焦虑，这种焦虑在ALttP的探索驱动型设计中是不必要的。999的上限确保了经济系统服务于"轻量决策"而非"生存压力"。</p>
+<p><strong>决策二：弹药从环境掉落，而非仅限购买。</strong></p>
+<p>草丛和敌人掉落炸弹和箭矢意味着玩家不需要频繁回城补给。这是保证探索流畅性的关键决策。如果弹药只能购买，玩家的行为模式会变成"探索→弹尽→回城→购买→返回探索"，这个循环中的"回城"环节会打断探索的心流。环境掉落让补给发生在探索过程中，维持了连续性。</p>
+<p><strong>决策三：炸弹上限和箭矢上限可升级。</strong></p>
+<p>初期炸弹只有10个，在需要频繁炸墙的迷宫中显得紧张。但升级到50后，资源焦虑基本消失。这个设计创造了一个"先紧后松"的资源曲线——早期教会玩家重视消耗品管理，后期让玩家自由使用。这与游戏整体的难度曲线一致：早期是"学会珍惜资源"的阶段，后期是"自由运用资源"的阶段。</p>
+<p><strong>决策四：心之碎片需要4枚合一而非单独生效。</strong></p>
+<p>如果每个碎片直接加0.25心，奖励感会非常弱——玩家很难感知0.25心的实际效果。4枚合一的设计创造了一种"进度积攒"的仪式感：前3枚碎片是"期待"，第4枚是"兑现"。收集过程中的"还差几枚"的追踪感本身就是一种持续的微小驱动力。</p>
+<p><strong>决策五：4个瓶子的硬上限。</strong></p>
+<p>瓶子不是从商店购买的——它们是散布在世界各处的收集品，总共只有4个。这个设计确保了：(1) 瓶子的获取本身是探索奖励；(2) 4个的硬上限使得瓶装物品的配置始终是一个受限的决策——你不能无限堆叠回复药。限制催生决策，决策产生策略深度。</p>
+<h2 id="设计过程推导">设计过程推导</h2>
+<p><strong>起点约束：</strong></p>
+<ul>
+<li>核心装备从地下城获取，商店不能卖核心进度物品</li>
+<li>游戏需要长达15小时的持续驱动力</li>
+<li>目标受众包括儿童和休闲玩家，不能有太重的资源管理负担</li>
+</ul>
+<p><strong>推导路径：</strong></p>
+<ol>
+<li>核心装备不从商店获得 → 卢比不能是进度驱动器 → 卢比必须找到"辅助性"角色 → 定位为"战斗续航的保险"</li>
+</ol>
+<ol>
+<li>需要持续15小时 → 需要持续的微小正反馈 → 砍草掉落1卢比的微奖励系统 → 这同时解释了为什么世界中有如此大量的草丛和罐子</li>
+</ol>
+<ol>
+<li>不能太重的资源管理 → 弹药从环境掉落，不必购买 → 消耗品焦虑被缓解 → 玩家注意力可以集中在探索和战斗上</li>
+</ol>
+<ol>
+<li><span class="tag-speculation">推测</span> 炸弹作为消耗品的"双重角色"可能不是预设的，而是在开发过程中自然涌现的。炸弹最初可能只是解谜工具（炸墙），测试中发现玩家也想用它在战斗中炸敌人，于是正式将其纳入战斗系统。这解释了为什么战斗中的炸弹投掷手感不如专用战斗武器那么精确——它本质上是一个解谜工具被借用到战斗场景中。</li>
+</ol>
+<ol>
+<li><span class="tag-speculation">推测</span> 心之碎片的4枚合一设计可能是从心理学角度出发的。如果碎片直接加微量HP，玩家会忽视它们（太小的数值提升缺乏吸引力）。将4个碎片捆绑为一个"完整的心"创造了一种积累的仪式感——类似集齐4块拼图的满足感。这种设计将微小的数值提升包装成了有意义的收集里程碑。</li>
+</ol>
+<ol>
+<li><span class="tag-speculation">推测</span> 妖精瓶的设计可能受到了街机游戏"续币"机制的启发。街机游戏允许玩家投币继续，降低失败的心理冲击。ALttP将这个概念融入游戏世界：妖精是"免费续币"，但它需要玩家主动去捕捉和携带——不是一个被动保险，而是需要规划的主动策略。这比简单的"死亡后复活"更有参与感。</li>
+</ol>
+<h2 id="反事实推演">反事实推演</h2>
+<div class="counterfactual-section">
+<details class="counterfactual-card" open>
+<summary>如果药水只能通过商店购买，没有环境掉落的回复：</summary>
+<div class="card-body">
+<p>每次进入迷宫前，玩家需要精确计算"我需要带多少药水"。一旦在迷宫中耗尽，必须退出迷宫、回城购买、重新进入。这个循环会严重打断探索的连贯性。更关键的是，它会将游戏的核心体验从"探索与发现"推向"资源计划与补给管理"，改变了游戏的本质性格。ALttP是一个冒险游戏，不是生存游戏。</p>
+</div>
+</details>
+<details class="counterfactual-card">
+<summary>如果卢比上限很低（如99）：</summary>
+<div class="card-body">
+<p>玩家将频繁处于"钱包满了"的状态。砍草掉落的卢比变成纯粹的无用信息——看到绿色卢比弹出，但钱包已满，产生的是轻微的失望而非奖励感。这会破坏微奖励层的核心功能。高上限确保了卢比几乎永远不会"溢出浪费"，保持了环境掉落的意义。</p>
+</div>
+</details>
+<details class="counterfactual-card">
+<summary>如果瓶子数量不限（比如8个或更多）：</summary>
+<div class="card-body">
+<p>玩家可以携带大量回复药进入任何Boss战，将Boss战变成消耗战——不需要学习Boss模式，只需要带着足够多的药水硬撑。瓶子的稀缺性（4个）迫使玩家在Boss战中认真对待每一次受伤，因为回复次数是有限的。去掉这个限制等于去掉了Boss战中最核心的生存压力。</p>
+</div>
+</details>
+<details class="counterfactual-card">
+<summary>如果炸弹和箭矢不能升级上限：</summary>
+<div class="card-body">
+<p>整个游戏过程中炸弹只有10个。在后期需要频繁炸墙和战斗的迷宫中，10个炸弹远远不够。玩家将被迫在"解谜用"和"战斗用"之间做更频繁、更痛苦的选择。升级系统的价值在于让这种选择从"持续的痛苦"逐渐变为"可控的管理"——早期紧张、后期从容，与玩家的技能成长同步。</p>
+</div>
+</details>
+<details class="counterfactual-card">
+<summary>如果心之碎片不存在，只有Boss的心之容器：</summary>
+<div class="card-body">
+<p>全游戏只有11个心之容器（加上初始3心，总计14心），比实际的最大值少了6心。更关键的是，表世界中将失去24个微型探索目标。玩家的表世界漫游将变成纯粹的"从一个地下城走到另一个地下城"的过渡行为，缺乏独立的价值。心之碎片赋予表世界探索以"除了走到目的地之外的额外理由"。</p>
+</div>
+</details>
+<details class="counterfactual-card">
+<summary>如果所有装备都可以在商店购买：</summary>
+<div class="card-body">
+<p>进度系统的核心从"完成地下城"变为"攒够钱"。玩家将反复刷怪攒钱而非探索地下城。核心循环从"探索→获取→解锁新区域"退化为"刷钱→购买→推进"，游戏的本质从冒险游戏变成了RPG刷子游戏。这直接证明了ALttP将装备获取与地下城进度绑定的设计的必要性。</p>
+</div>
+</details>
+</div>
+<h2 id="可迁移经验">可迁移经验</h2>
+<div class="experience-grid">
+<div class="experience-card">
+<div class="experience-card-title">1. 经济系统的角色定位应该匹配游戏类型。</div>
+<div class="experience-card-body">
+<p>冒险游戏中的货币不应该成为进度门槛，而应该成为"降低难度的保险"。RPG中的货币是驱动成长的核心资源；冒险游戏中的货币是让玩家在挑战失败后不会太痛苦的缓冲垫。ALttP的卢比系统正确定位为后者——你不需要它来推进，但有它会更轻松。</p>
+</div>
+</div>
+<div class="experience-card">
+<div class="experience-card-title">2. 消耗品的"先紧后松"曲线。</div>
+<div class="experience-card-body">
+<p>在游戏早期让资源紧张，教会玩家重视和管理；在游戏后期让资源充裕，允许玩家自由运用。炸弹从10到50的升级路径就是一个案例。这种曲线与玩家的技能成长同步——新手时期需要外部约束来避免浪费，老手时期需要取消约束来释放创造力。</p>
+</div>
+</div>
+<div class="experience-card">
+<div class="experience-card-title">3. 限制数量是策略深度的来源。</div>
+<div class="experience-card-body">
+<p>4个瓶子、10个炸弹初始上限——这些硬性限制不是设计缺陷，而是策略设计的原材料。没有限制就没有决策，没有决策就没有策略。当你希望玩家在某个维度上产生有意义的思考时，不要给无限资源，而是给一个刚好够用但需要规划的数量。</p>
+</div>
+</div>
+<div class="experience-card">
+<div class="experience-card-title">4. 微奖励层是探索的底层润滑剂。</div>
+<div class="experience-card-body">
+<p>砍草掉落1卢比看似微不足道，但它确保了玩家在"不知道该去哪"的时候也有理由继续走动。这个设计原则可以泛化为：在任何需要自由探索的系统中，都应该有一个极低成本的随机奖励机制，使漫无目的的移动也有正反馈。</p>
+</div>
+</div>
+<div class="experience-card">
+<div class="experience-card-title">5. 收集目标的"整数门槛"设计。</div>
+<div class="experience-card-body">
+<p>4枚碎片合一的设计比"每枚碎片加微量属性"更有驱动力。原因在于人类心理对"完成一个整数"有强烈的满足感。当进度以"3/4"的形式展示时，玩家会产生明确的"还差一个"的目标感。当进度以"75%"展示时，同样的数值产生的主观驱动力更弱。设计收集系统时，使用离散的整数门槛而非连续百分比。</p>
+</div>
+</div>
+<div class="experience-card">
+<div class="experience-card-title">6. "免费的"安全屋创造节奏。</div>
+<div class="experience-card-body">
+<p>妖精泉提供免费的心和魔法回复，是一种"免费的"安全屋设计。它的功能不是提供挑战，而是提供节奏——在两个高压区域（地下城）之间插入一个低压的休息点。安全屋不需要消耗任何资源，其价值在于让玩家带着满状态进入下一个挑战，确保每次挑战的起点是公平的。</p>
+</div>
+</div>
+</div>
+<h2 id="补充材料">补充材料</h2>
+<details class="supplement-details">
+<summary>补充材料</summary>
+<div class="supplement-body">
+<h3 id="系列横向对比">系列横向对比</h3>
+<div class="table-wrapper"><table><thead><tr><th>维度</th><th>众神的三角神力 (1991)</th><th>时之笛 (1998)</th><th>旷野之息 (2017)</th></tr></thead><tbody><tr><td>货币角色</td><td>辅助（续航保险）</td><td>辅助（续航+收集）</td><td>核心（武器耐久→购买循环）</td></tr><tr><td>瓶子数量</td><td>4（硬上限）</td><td>4（硬上限）</td><td>无限（烹饪系统替代）</td></tr><tr><td>弹药恢复</td><td>环境掉落为主</td><td>环境掉落为主</td><td>完全取消弹药概念</td></tr><tr><td>心之收集</td><td>碎片4枚合一+容器</td><td>碎片4枚合一+容器</td><td>神庙（固定奖励）+ DLC</td></tr><tr><td>消耗品焦虑</td><td>低（早期中等）</td><td>低</td><td>中-高（武器耐久系统）</td></tr></tbody></table></div><h3 id="资源获取节奏分析">资源获取节奏分析</h3>
+<div class="table-wrapper"><table><thead><tr><th>游戏阶段</th><th>卢比收入</th><th>消耗压力</th><th>主要购买决策</th></tr></thead><tbody><tr><td>序章-Light World早期</td><td>低（敌人弱，掉落少）</td><td>低（消耗品需求少）</td><td>几乎没有</td></tr><tr><td>Light World中后期</td><td>中（更多敌人，更多宝箱）</td><td>中（开始有Boss战需求）</td><td>买回复药准备Boss</td></tr><tr><td>Dark World早期</td><td>中-高（更强的敌人掉更多）</td><td>高（迷宫更长更难）</td><td>频繁补给药水和弹药</td></tr><tr><td>Dark World中后期</td><td>高（探索充分，积累丰厚）</td><td>中（装备升级减轻压力）</td><td>偶尔补给，资金充裕</td></tr><tr><td>终局（Ganon's Tower）</td><td>—</td><td>最高（最终挑战）</td><td>全力备战</td></tr></tbody></table></div><h3 id="交叉引用">交叉引用</h3>
+<ul>
+<li><a href="04.html" class="cross-ref" data-summary="6 按键约束下如何设计十余种核心物品，让每次变强带来新探索可能？">04 进度系统</a>（物品能力成长如何与经济系统互补——质变靠探索，量变靠经济）</li>
+<li><a href="05.html" class="cross-ref" data-summary="在2D俯视角约束下如何用极少操作构建有策略深度且低门槛的战斗系统？">05 战斗系统</a>（药水和瓶子如何支撑战斗续航，防具减伤如何改变消耗品需求）</li>
+<li><a href="01.html" class="cross-ref" data-summary="四层嵌套循环如何在十余小时流程中持续制造"再走一步"的冲动？">01 核心循环</a>（微循环中的击杀掉落作为即时奖励层）</li>
+<li><a href="02.html" class="cross-ref" data-summary="双世界系统如何在同一份地图拓扑上创造双倍探索深度？">02 世界设计</a>（心之碎片在世界中的分布如何驱动表世界探索）</li>
+</ul>
+</div>
+</details>
+
+        </div>
+    </main>
+</div>
+</body>
+</html>

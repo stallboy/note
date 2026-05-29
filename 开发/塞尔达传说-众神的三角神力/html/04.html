@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04 进度系统 — 塞尔达传说：众神的三角神力</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-wrapper">
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-title">塞尔达传说<br>众神的三角神力</div>
+            <div class="sidebar-subtitle">设计拆解分析</div>
+        </div>
+        <ul class="sidebar-nav">
+            <li><a href="index.html">首页</a></li><li><a href="01.html"><span class="nav-number">01</span>核心循环</a></li><li><a href="02.html"><span class="nav-number">02</span>世界设计</a></li><li><a href="03.html"><span class="nav-number">03</span>地下城设计</a></li><li><a href="04.html" class="active"><span class="nav-number">04</span>进度系统</a></li><li><a href="05.html"><span class="nav-number">05</span>战斗系统</a></li><li><a href="06.html"><span class="nav-number">06</span>谜题设计</a></li><li><a href="07.html"><span class="nav-number">07</span>叙事结构</a></li><li><a href="08.html"><span class="nav-number">08</span>经济与资源</a></li><li><a href="09.html"><span class="nav-number">09</span>元素协同</a></li><li><a href="10.html"><span class="nav-number">10</span>系统交叉</a></li><li><a href="11.html"><span class="nav-number">11</span>涌现玩法</a></li><li><a href="12.html"><span class="nav-number">12</span>难度与心流</a></li><li><a href="13.html"><span class="nav-number">13</span>设计全景图与遗产</a></li>
+        </ul>
+        <div class="sidebar-footer">第 4/13 篇</div>
+    </nav>
+    <main class="main-content">
+        <div class="content-area">
+            <div class="breadcrumb">
+        <a href="index.html">首页</a><span class="sep">&rsaquo;</span>
+        <span>04 进度系统</span>
+    </div>
+            <h1>04 进度系统</h1>
+            <div class="page-toc">
+        <ul class="page-toc-list"><li><a href="#核心问题">核心问题</a></li><li><a href="#机制描述">机制描述</a></li><li><a href="#设计分析">设计分析</a></li><li><a href="#设计过程推导">设计过程推导</a></li><li><a href="#反事实推演">反事实推演</a></li><li><a href="#可迁移经验">可迁移经验</a></li><li><a href="#补充材料">补充材料</a></li></ul>
+    </div>
+            <h2 id="核心问题">核心问题</h2>
+<ol>
+<li>如何让玩家持续感受到"我在变强"的同时，确保每次变强都带来新的探索可能性而非单纯的数值膨胀？</li>
+<li>在仅有6个可用按键的硬件约束下，如何设计一个包含十余种核心物品的进度系统，使每种物品都让人觉得不可或缺？</li>
+</ol>
+<h2 id="机制描述">机制描述</h2>
+<h3 id="物品驱动的进度结构">物品驱动的进度结构</h3>
+<p>《众神的三角神力》的进度系统以<strong>核心物品获取</strong>为主轴，辅以数值成长。玩家能力的扩展几乎完全由物品驱动，而非经验值或技能树。</p>
+<p><strong>核心物品获取路线：</strong></p>
+<div class="table-wrapper"><table><thead><tr><th>物品</th><th>获取位置</th><th>地下城内用途</th><th>表世界/战斗用途</th></tr></thead><tbody><tr><td>弓</td><td>Eastern Palace</td><td>射击远处眼睛开关</td><td>远程攻击敌人</td></tr><tr><td>Power Glove</td><td>Light World（非地下城）</td><td>搬起石头</td><td>搬起挡路的浅色石头进入新区域</td></tr><tr><td>Titan's Mitt</td><td>Dark World</td><td>搬起深色石头</td><td>搬起深色石头进入更多区域</td></tr><tr><td>Zora's Flippers</td><td>Light World（非地下城）</td><td>深水区域通行</td><td>游泳穿越水域、通过瀑布</td></tr><tr><td>Moon Pearl</td><td>Tower of Hera</td><td>—</td><td>在Dark World保持人形</td></tr><tr><td>Magic Hammer</td><td>Palace of Darkness</td><td>砸桩开关、砸栅栏</td><td>砸开障碍物</td></tr><tr><td>Hookshot</td><td>Swamp Palace</td><td>跨越悬崖、拉物品、触发开关</td><td>跨越悬崖探索、眩晕敌人</td></tr><tr><td>Fire Rod</td><td>Skull Woods</td><td>点火解谜</td><td>远程火焰攻击</td></tr><tr><td>Ice Rod</td><td>可早期获取（非强制）</td><td>冻结敌人</td><td>冻结敌人配合其他攻击</td></tr><tr><td>Cane of Somaria</td><td>Misery Mire</td><td>生成方块压开关、垫脚</td><td>—</td></tr><tr><td>Magic Mirror</td><td>早期获得</td><td>—</td><td>Dark→Light世界切换</td></tr><tr><td>Pegasus Shoes</td><td>早期获得</td><td>冲刺撞破障碍</td><td>冲刺斩、撞树掉物品、快速移动</td></tr></tbody></table></div>
+<figure><img src="images/alttp_hookshot_artwork.png" alt="Hookshot" loading="lazy"><figcaption>Hookshot——Swamp Palace获得，跨越悬崖、触发开关、拉取敌人，三用典范</figcaption></figure>
+<h3 id="数值成长体系">数值成长体系</h3>
+<div class="table-wrapper"><table><thead><tr><th>维度</th><th>起点</th><th>终点</th><th>成长方式</th></tr></thead><tbody><tr><td>HP（心）</td><td>3心</td><td>20心</td><td>心之容器（地下城Boss）+ 心之碎片（4枚合一）</td></tr><tr><td>攻击力</td><td>1×</td><td>4×</td><td>剑升级（3次）</td></tr><tr><td>防御力</td><td>1×</td><td>0.25×</td><td>蓝色铠甲（0.5×）、红色铠甲（0.25×）</td></tr><tr><td>魔法槽</td><td>基础</td><td>2×容量</td><td>魔法仙子升级</td></tr><tr><td>炸弹容量</td><td>基础</td><td>50</td><td>NPC/小游戏奖励</td></tr><tr><td>箭矢容量</td><td>基础</td><td>70</td><td>NPC/小游戏奖励</td></tr><tr><td>瓶子</td><td>0</td><td>4</td><td>散布于世界各处</td></tr></tbody></table></div><h3 id="物品获取顺序约束">物品获取顺序约束</h3>
+<ul>
+<li><strong>硬性前置</strong>：Eastern Palace 必须第一个完成（弓是多个后续地下城的前置条件）</li>
+<li><strong>Light World</strong>：三个地下城的大致顺序固定</li>
+<li><strong>Dark World</strong>：7个地下城存在一定弹性，但受物品能力限制——例如需要Hookshot才能到达某些地下城入口</li>
+<li>Power Glove、Zora's Flippers、Magic Mirror、Pegasus Shoes 在Light World阶段早期获取，属于基础能力层</li>
+</ul>
+<h3 id="按键与装备系统">按键与装备系统</h3>
+<p>SNES控制器可用按键：A/B/X/Y/L/R（6个），实际映射为：</p>
+<ul>
+<li><strong>A键</strong>：情境化动作（持剑=攻击，持道具=使用道具）</li>
+<li><strong>B键</strong>：取消/特殊动作</li>
+<li><strong>X/Y</strong>：装备的道具切换</li>
+<li><strong>L/R</strong>：地图/道具菜单</li>
+</ul>
+<p>玩家同一时间只能装备极少数道具，大部分物品需要通过菜单切换后才能使用。</p>
+<h2 id="设计分析">设计分析</h2>
+<h3 id="解决了什么设计问题">解决了什么设计问题</h3>
+<p><strong>问题一：如何让线性流程感觉开放？</strong></p>
+<p>物品作为"钥匙"的设计哲学解决了这个核心矛盾。每个核心物品同时承担三个角色：</p>
+<ol>
+<li><strong>地下城解谜工具</strong>——在获取该物品的地下城内，作为关卡机制的核心</li>
+<li><strong>表世界探索钥匙</strong>——解锁之前遇到过但无法通过的地形障碍</li>
+<li><strong>战斗工具</strong>——提供新的攻击或防御手段</li>
+</ol>
+<p>这种"一物三用"的设计使得玩家的注意力始终在三个系统间流动。获得新物品后，玩家的第一反应不是"我变强了"，而是"我现在能去哪儿了"。</p>
+<p><strong>问题二：如何在有限输入下管理大量能力？</strong></p>
+<p>6个按键的硬件约束迫使设计团队做出一个关键决策：<strong>让每个物品尽可能多功能</strong>。如果玩家同一时间只能装备一个道具，那这个道具最好在很多场景下都有用。这是"约束催生创新"的经典案例。</p>
+<p>对比一个反面假设：如果手柄有20个按键，设计师可以为每种场景设计专用物品，结果是每个物品都只有单一用途，玩家的决策空间反而缩小——因为不存在"装备什么"这个策略选择。</p>
+<p><strong>"约束催生创新"的模式在ALttP中反复出现：</strong></p>
+<ul>
+<li>6个按键 → 物品必须多功能 → 一物多用协同设计（本报告 + <a href="09.html" class="cross-ref" data-summary="物品如何在解谜/探索/战斗三个系统间产生协同效应？">09 元素协同</a>）</li>
+<li>1MB卡带 → 地图不能简单翻倍 → 双世界复用拓扑（<a href="02.html" class="cross-ref" data-summary="双世界系统如何在同一份地图拓扑上创造双倍探索深度？">02 世界设计</a>）</li>
+<li>无文字教学 → 谜题自身必须教会玩家 → 教学→应用→精通三阶段（<a href="06.html" class="cross-ref" data-summary="谜题系统如何完全不依赖文字教程教会玩家理解每种机关？">06 谜题设计</a>）</li>
+</ul>
+<p>这不是巧合——当设计资源（按键数、存储空间、文本量）受限时，设计师被迫寻找"用更少做更多"的方案。关键是：这些方案在约束消失后仍然比"用更多做更多"更好。一物多用在20按键的手柄上仍然比一物一用更优雅，因为多功能物品在系统间产生的化学反应是单一功能物品永远无法提供的。</p>
+<p><strong>问题三：如何维持长周期的探索动力？</strong></p>
+<p>宏循环的核心驱动力被精简为一个模式：<strong>获得新物品 → 回忆之前遇到过的障碍 → 回去探索</strong>。这要求：</p>
+<ul>
+<li>世界设计必须在玩家早期路径上布置可见但不可达的区域（"诱惑"）</li>
+<li>物品能力必须与这些障碍精确对应</li>
+<li>玩家必须能从记忆中检索出这些障碍的位置（因此障碍需要视觉上显著且易于记忆）</li>
+</ul>
+<h3 id="创造了什么体验">创造了什么体验</h3>
+<ul>
+<li><strong>顿悟时刻</strong>：拿到新物品后，玩家脑海中会闪过"啊，那个地方我现在可以去了"的念头。这种连接是玩家自行建立的，比任何任务标记都更有驱动力。</li>
+<li><strong>渐进式的世界开放</strong>：世界不是一次性展开的，而是随能力增长一圈一圈地扩大。每次扩展都让之前走过的区域呈现新的意义。</li>
+<li><strong>能力身份感</strong>：玩家不是在扮演一个固定角色，而是在逐步构建自己的"能力配置"。装备哪个道具、带什么瓶子，这些选择构成了每次探索的独特性。</li>
+</ul>
+<h3 id="关键设计决策及其理由">关键设计决策及其理由</h3>
+<p><strong>决策一：物品获取绑定地下城，但使用场景主要在表世界</strong></p>
+<p>理由：这确保了地下城体验与表世界探索之间的双向驱动。地下城是"获取"的场所，表世界是"使用"的场所，两者互为因果。</p>
+<p><strong>决策二：数值成长作为物品系统的辅助而非主体</strong></p>
+<p>理由：心之容器和剑升级提供的是"我能承受更多失误"的容错空间，而非"我能不能通过"的关键门槛。这保证了进度主要由玩家的知识（知道去哪、怎么解谜）和能力物品驱动，而非数值碾压。</p>
+<p><strong>决策三：Ice Rod等非必需物品的存在</strong></p>
+<p>理由：非必需物品为探索者型玩家提供了奖励。它们不是通关的必经之路，但找到它们会让体验更丰富。这创造了一种"世界上有我不知道的东西"的感觉，激励彻底探索。</p>
+<h2 id="设计过程推导">设计过程推导</h2>
+<p>从设计目标和硬件约束反推决策路径：</p>
+<p><strong>起点约束</strong>：</p>
+<ul>
+<li>SNES手柄，6个可用按键</li>
+<li>需要支撑约13小时的游玩时长</li>
+<li>两个世界（Light/Dark），需要大量可探索内容</li>
+<li>目标受众包括儿童和休闲玩家</li>
+</ul>
+<p><strong>推导路径</strong>：</p>
+<ol>
+<li>6个按键 → 同一时间只能装备少量物品 → 每个物品必须多功能 → "一物三用"设计（探索/战斗/解谜）</li>
+</ol>
+<ol>
+<li>需要支撑13小时 → 需要大量能力扩展节点 → 但按键有限，不能无限增加物品种类 → 将部分进度转移到数值成长（心、剑、铠甲），形成双层进度</li>
+</ol>
+<ol>
+<li>双层进度需要协调 → 物品进度提供"质变"（新能力），数值进度提供"量变"（更强更耐打） → 质变控制流程推进，量变控制难度曲线</li>
+</ol>
+<ol>
+<li>两个世界需要差异化 → Moon Pearl + Magic Mirror 构成世界切换的能力基础 → Dark World的障碍类型需要比Light World更复杂 → 引入Titan's Mitt作为Power Glove的升级版</li>
+</ol>
+<ol>
+<li><span class="tag-speculation">推测</span> 数值成长中，心之碎片（4枚合一）的设计可能是为了提供更密集的奖励节奏。如果只有心之容器（Boss掉落），玩家在地下城之间可能长时间没有正反馈。碎片提供了"虽然没有获得新能力，但我离变强又近了一步"的渐进感。</li>
+</ol>
+<ol>
+<li><span class="tag-speculation">推测</span> 4个瓶子的限制可能是为了与物品栏空间协调，同时也是对资源管理的轻度压力——玩家需要思考"这个瓶子里装什么"，这本身就是一种决策乐趣。</li>
+</ol>
+<h2 id="反事实推演">反事实推演</h2>
+<div class="counterfactual-section">
+<details class="counterfactual-card" open>
+<summary>如果去掉"物品三用"设计，每种物品只有单一用途：</summary>
+<div class="card-body">
+<p>物品数量需要大幅增加才能覆盖同样多的场景。在6按键约束下，菜单切换频率急剧上升，操作体验恶化。更关键的是，玩家不再需要在脑中建立"这个物品还能用在哪里"的联想，探索的动力从主动回忆变为被动接受任务指引。游戏的可玩时长可能缩短30-40%，因为失去了一物多用的深度。</p>
+</div>
+</details>
+<details class="counterfactual-card">
+<summary>如果所有地下城可以任意顺序完成：</summary>
+<div class="card-body">
+<p>需要取消物品之间的前置关系。这意味着每个地下城都不能依赖任何特定物品作为解谜核心。地下城的关卡设计将变得同质化——所有谜题只能用基础能力（剑、冲刺）解决。这直接破坏了"新物品=新机制"的节奏感，地下城体验的多样性将大幅下降。</p>
+</div>
+</details>
+<details class="counterfactual-card">
+<summary>如果去掉数值成长，只保留物品进度：</summary>
+<div class="card-body">
+<p>Boss战的难度曲线将变得非常陡峭。后期Boss的设计空间被压缩——不能假设玩家有多少HP或攻击力，只能依赖物品能力做差异化。数值成长在这里的作用不是"让玩家变强"，而是"给关卡设计师一个可控的难度参数范围"。</p>
+</div>
+</details>
+<details class="counterfactual-card">
+<summary>如果按键数量翻倍（12个可用键）：</summary>
+<div class="card-body">
+<p>设计师可能会为每种场景设计专用物品，导致物品数量膨胀但单个物品的深度下降。玩家的策略选择（装备什么）的重要性降低，因为所有能力都能随时使用。"装备决策"这个隐性玩法层面消失。游戏的优雅度下降，可能变成一个更平庸的动作冒险游戏。</p>
+</div>
+</details>
+</div>
+<h2 id="可迁移经验">可迁移经验</h2>
+<div class="experience-grid">
+<div class="experience-card">
+<div class="experience-card-title">1. 约束催生多功能设计</div>
+<div class="experience-card-body">
+<p>当输入方式有限时，不要试图突破限制，而是让每个元素承担更多职责。多功能物品比单一功能物品更令人印象深刻，因为玩家在使用时会主动发现它的多种用途，这种发现感本身就是奖励。</p>
+</div>
+</div>
+<div class="experience-card">
+<div class="experience-card-title">2. 质变控制流程，量变控制难度</div>
+<div class="experience-card-body">
+<p>进度系统应区分两类成长：改变玩家能做什么的"质变"（新物品/新能力），和改变玩家做多好的"量变"（数值提升）。质变控制游戏的流程节奏和探索范围，量变控制难度曲线和容错空间。两者不应混淆。</p>
+</div>
+</div>
+<div class="experience-card">
+<div class="experience-card-title">3. 障碍前置，能力后置</div>
+<div class="experience-card-body">
+<p>先让玩家看到无法通过的障碍，再给玩家通过的能力。这种"悬念-解答"结构比"获得能力后才知道去哪用"更有驱动力，因为它激活了玩家主动回忆和规划的认知过程。</p>
+</div>
+</div>
+<div class="experience-card">
+<div class="experience-card-title">4. 非必需物品作为探索激励</div>
+<div class="experience-card-body">
+<p>在必需的线性流程之外，放置非必需但有价值的物品。这为"探索者"型玩家提供了与"完成者"型玩家不同的满足感来源，同时也暗示了世界的丰富程度超出主线流程。</p>
+</div>
+</div>
+<div class="experience-card">
+<div class="experience-card-title">5. 渐进式世界展开优于一次性开放</div>
+<div class="experience-card-body">
+<p>世界应随玩家能力逐步展开，而非一开始就完全开放。每次展开都应该让玩家重新审视已探索的区域——不是回到原点，而是以新的能力在已知区域中发现新路径。</p>
+</div>
+</div>
+<div class="experience-card">
+<div class="experience-card-title">6. 约束作为设计工具——人为限制催生更优解</div>
+<div class="experience-card-body">
+<p>当设计空间过大（"什么都可以"）时，反而容易产出平庸的设计——每个功能用专用工具解决，系统间没有交集。主动引入约束（如"同一时间只能装备3个能力""世界地图不超过64屏"），迫使自己在约束内寻找全局最优解。</p>
+<p>具体操作：在设计初期为每个系统设定一个"人为约束"——不是硬件限制，而是设计规则。如果最终方案在约束内工作良好，保留约束；如果方案明显需要突破约束，才放宽。这个"先紧后松"的过程比"一开始就不设限"产出更有结构感的设计。</p>
+</div>
+</div>
+</div>
+<h2 id="补充材料">补充材料</h2>
+<details class="supplement-details">
+<summary>补充材料</summary>
+<div class="supplement-body">
+<ul>
+<li><a href="01.html" class="cross-ref" data-summary="四层嵌套循环如何在十余小时流程中持续制造"再走一步"的冲动？">01 核心循环</a>（宏循环中物品驱动探索）</li>
+<li><a href="02.html" class="cross-ref" data-summary="双世界系统如何在同一份地图拓扑上创造双倍探索深度？">02 世界设计</a>（物品能力控制世界可达性）</li>
+<li><a href="05.html" class="cross-ref" data-summary="在2D俯视角约束下如何用极少操作构建有策略深度且低门槛的战斗系统？">05 战斗系统</a>（武器升级与战斗能力）</li>
+</ul>
+</div>
+</details>
+
+        </div>
+    </main>
+</div>
+</body>
+</html>
