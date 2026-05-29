@@ -35,11 +35,14 @@
 <p>玩家的战斗操作仅由四个动作组成：</p>
 <div class="table-wrapper"><table><thead><tr><th>操作</th><th>按键</th><th>功能</th></tr></thead><tbody><tr><td>挥砍</td><td>A（持剑时）</td><td>面朝方向的横向斩击</td></tr><tr><td>旋转斩</td><td>长按A蓄力后松开</td><td>360°范围攻击，消耗无</td></tr><tr><td>冲刺斩</td><td>装备Pegasus Shoes后+方向键双击</td><td>带无敌帧的突进撞击</td></tr><tr><td>举盾</td><td>不按攻击键时自动</td><td>正面格挡投掷物和部分近战</td></tr></tbody></table></div>
 <figure><img src="images/img_alttp_link_spin_attack.png" alt="旋转斩" loading="lazy"><figcaption>Link的旋转斩——长按A蓄力后释放的360°范围攻击</figcaption></figure>
+<figure><img src="images/alttp_link_slashing.png" alt="Link挥剑" loading="lazy"><figcaption>Link的标准挥砍——面朝方向的扇形判定，宽松碰撞体是手感友好的基石</figcaption></figure>
 <p>剑的攻击判定为面朝方向的一个扇形区域，非精确的线形判定。这个"宽松"的碰撞体是整个战斗系统手感友好的基石。</p>
 <h3 id="伤害与防御数值">伤害与防御数值</h3>
 <p>剑伤害与剑等级成正比：</p>
 <div class="table-wrapper"><table><thead><tr><th>剑</th><th>基础伤害倍率</th><th>获取时机</th></tr></thead><tbody><tr><td>Fighter's Sword</td><td>1×</td><td>游戏开局从叔叔处获得</td></tr><tr><td>Master Sword</td><td>2×</td><td>收集三枚pendant后</td></tr><tr><td>Tempered Sword (Lv2)</td><td>3×</td><td>锻造任务奖励</td></tr><tr><td>Golden Sword (Lv3)</td><td>4×</td><td>大妖精泉升级</td></tr></tbody></table></div><p>防具减伤：</p>
-<div class="table-wrapper"><table><thead><tr><th>防具</th><th>效果</th></tr></thead><tbody><tr><td>Green Clothes</td><td>基础（无减伤）</td></tr><tr><td>Blue Mail</td><td>受到伤害×0.5</td></tr><tr><td>Red Mail</td><td>受到伤害×0.25</td></tr></tbody></table></div><p>减伤为乘法叠加。装备Red Mail后，原本造成2心伤害的攻击只造成0.5心。这意味着后期防具的边际效益极高——玩家从"三下死"变为"十二下死"。</p>
+<div class="table-wrapper"><table><thead><tr><th>防具</th><th>效果</th></tr></thead><tbody><tr><td>Green Clothes</td><td>基础（无减伤）</td></tr><tr><td>Blue Mail</td><td>受到伤害×0.5</td></tr><tr><td>Red Mail</td><td>受到伤害×0.25</td></tr></tbody></table></div>
+<figure><img src="images/alttp_blue_mail.png" alt="Blue Mail" loading="lazy"><figcaption>Blue Mail防具——伤害×0.5，乘法减伤确保防具在任何阶段都有显著效果</figcaption></figure>
+<p>减伤为乘法叠加。装备Red Mail后，原本造成2心伤害的攻击只造成0.5心。这意味着后期防具的边际效益极高——玩家从"三下死"变为"十二下死"。</p>
 <h3 id="敌人配置系统">敌人配置系统</h3>
 <p>士兵系敌人通过颜色+武器的组合矩阵产生大量变体：</p>
 <div class="table-wrapper"><table><thead><tr><th>颜色</th><th>含义</th><th>武器变体</th></tr></thead><tbody><tr><td>绿</td><td>最弱，不主动追击</td><td>剑/矛/弓</td></tr><tr><td>蓝</td><td>中等，主动追击</td><td>剑/矛/弓/链球</td></tr><tr><td>红</td><td>强，快速追击</td><td>剑/矛/弓/链球/炸弹</td></tr><tr><td>金</td><td>最强，高血高攻</td><td>全武器</td></tr></tbody></table></div><p>一套行为参数（速度、攻击频率、追击距离、HP）× 四种颜色 × 五种武器 = 二十种战斗遭遇变体，但策划只需要维护两套参数表。</p>
@@ -80,6 +83,7 @@
 <p><strong>"读谱"式的战斗节奏。</strong> 敌人行为高度模式化——士兵举剑→停顿→挥砍，Wallmaster从墙边阴影出现→缓缓移动→抓取。玩家一旦识破模式，战斗就从"反应"变为"预判"，从紧张变为从容。这种"从恐惧到掌控"的情感弧线是塞尔达战斗体验的核心。</p>
 <p><strong>低惩罚的实验空间。</strong> 被击倒后损失极小（不丢物品，不丢卢比，仅回到房间入口），玩家可以反复尝试同一敌人直到理解其模式。战斗难度体现在"理解敌人"而非"惩罚失败"上。</p>
 <p><strong>道具驱动的战斗风格切换。</strong> 由于道具栏可以自由切换，同一场战斗有多种通关方式。面对一群远程敌人，玩家可以选择：</p>
+<figure><img src="images/alttp_link_bow.png" alt="Link使用弓箭" loading="lazy"><figcaption>Link使用弓箭——消耗箭矢的远程高伤害手段，首个核心地下城物品</figcaption></figure>
 <ul>
 <li>冲刺斩快速接近→挥砍（近战流）</li>
 <li>回旋镖眩晕→逐个击破（控制流）</li>
@@ -89,6 +93,7 @@
 <p>游戏从不强制某种打法，但会通过地形和敌人配置让某些选择明显更优。</p>
 <h3 id="关键设计决策及其理由">关键设计决策及其理由</h3>
 <p><strong>决策一：旋转斩不消耗魔法。</strong> 在后续作品（如《时之笛》）中，旋转斩消耗魔法。但《众神》中选择让它免费使用，理由可能是：作为唯一的全方向攻击手段，如果消耗珍贵资源，玩家会囤积不用，反而让战斗变得僵硬。免费旋转斩鼓励玩家频繁使用它，使战斗节奏更流畅。</p>
+<figure><img src="images/alttp_link_blocking.png" alt="Link举盾格挡" loading="lazy"><figcaption>Link的自动举盾——不按攻击键时自动格挡，让防御成为走位的自然结果</figcaption></figure>
 <p><strong>决策二：盾牌全自动。</strong> 盾牌在玩家不攻击时自动举起，面朝方向格挡。这是关键的设计直觉——如果盾牌需要手动操作，等于要求玩家在"攻击"和"防御"之间频繁切换，在2D俯视角下这会变成操作负担。自动盾牌让"防御"成为移动和走位的自然结果，而非额外的操作负担。</p>
 <p><strong>决策三：Boss掉落心之容器（满心恢复）。</strong> 每次击败Boss必掉一个完整的心之容器，这个设计同时满足三个功能：(1) 奖励——即时正反馈；(2) 恢复——Boss战后满血进入下一个区域；(3) 进度——永久增加最大HP。一个掉落物承载了奖励、恢复、进度三重意义，是高效设计的典范。</p>
 <h2 id="设计过程推导">设计过程推导</h2>

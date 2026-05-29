@@ -44,6 +44,10 @@
 <li><strong>核心物品（Item）</strong>：多数地下城有一个独特物品，获得后立即在地下城内使用，同时解锁表世界的新区域。</li>
 <li><strong>Boss</strong>：每个地下城末尾的挑战峰值，击倒后获得进度奖励（挂坠/少女解救）。</li>
 </ul>
+<figure><img src="images/alttp_dungeon_map.png" alt="地下城地图" loading="lazy"><figcaption>地下城地图——揭示房间布局，通常放在非关键路径上奖励探索型玩家</figcaption></figure>
+<figure><img src="images/alttp_compass.png" alt="指南针" loading="lazy"><figcaption>指南针——标记Boss房间和大宝箱位置，提供方向感</figcaption></figure>
+<figure><img src="images/alttp_small_key.png" alt="小钥匙" loading="lazy"><figcaption>小钥匙——1-4把不等，地下城内灵活使用但不可跨地下城携带</figcaption></figure>
+<figure><img src="images/alttp_big_key.png" alt="大钥匙" loading="lazy"><figcaption>大钥匙——打开Boss房间和大宝箱，地下城前半段的终点目标</figcaption></figure>
 <h3 id="地下城的内部结构模式">地下城的内部结构模式</h3>
 <p>ALttP 的地下城路径可以归纳为四种基本结构：</p>
 <p><strong>1. 线性走廊（Linear Corridor）</strong></p>
@@ -53,7 +57,9 @@
 <p><strong>3. 分支树（Branching Tree）</strong></p>
 <p>从中心区域向多个方向分叉，玩家需要逐条探索分支，收集各分支的钥匙/物品后才能继续前进。Swamp Palace 和 Palace of Darkness 有明显的分支结构。</p>
 <p><strong>4. 散布迷宫（Scattered Maze）</strong></p>
-<p>不使用标准的"一层一层"布局，而是多个小区域通过隐藏通道、传送点或特殊机关连接。Skull Woods 是极端案例——地下城不是一个连续的建筑，而是散布在森林中的多个洞口，玩家需要在表世界的 Skull Woods 和地下城内部之间反复进出。</p>
+<p>不使用标准的"一层一层"布局，而是多个小区域通过隐藏通道、传送点或特殊机关连接。<figure><img src="images/alttp_trinexx_sprite.png" alt="Trinexx" loading="lazy"><figcaption>Trinexx——Turtle Rock的Boss，火头/冰头/石头三头龙，需要反属性杖击晕对应头部</figcaption></figure>
+Skull Woods 是极端案例——地下城不是一个连续的建筑，而是散布在森林中的多个洞口，玩家需要在表世界的 Skull Woods 和地下城内部之间反复进出。</p>
+<figure><img src="images/alttp_moldorm_sprite.png" alt="Moldorm" loading="lazy"><figcaption>Moldorm——Tower of Hera的Boss，快速移动意图将玩家撞下平台，尾部是弱点</figcaption></figure>
 <h3 id="地下城内-教学-应用-精通-的三阶段结构">地下城内"教学→应用→精通"的三阶段结构</h3>
 <p>以 Palace of Darkness（黑暗宫殿）为例，展示典型的三阶段设计：</p>
 <p><strong>阶段一：教学——安全环境下的新机制引入</strong></p>
@@ -66,6 +72,7 @@
 <div class="table-wrapper"><table><thead><tr><th>地下城</th><th>新物品</th><th>教学阶段</th><th>应用阶段</th><th>精通阶段</th></tr></thead><tbody><tr><td>Eastern Palace</td><td>弓</td><td>无压力射击水晶开关</td><td>战斗中射击敌人</td><td>对 Armos Knights 的弱点射击</td></tr><tr><td>Swamp Palace</td><td>钩爪</td><td>跨越简单悬崖</td><td>战斗中拉取/眩晕</td><td>对 Arrghus 的眼珠逐一拉取击杀</td></tr><tr><td>Skull Woods</td><td>火焰杖</td><td>点燃远处火把</td><td>攻击远距离敌人</td><td>对 Mothula 的持续输出</td></tr><tr><td>Tower of Hera</td><td>无新物品</td><td>利用 Moldorm 战斗的空间感知</td><td>多层推石头解谜</td><td>Boss 战中对 Moldorm 弱点的精准打击</td></tr></tbody></table></div><h3 id="Boss-设计的数据">Boss 设计的数据</h3>
 <figure><img src="images/alttp_armos_knight.png" alt="Armos Knight" loading="lazy"><figcaption>Armos Knight——Eastern Palace的Boss，6个一组，箭矢是弱点</figcaption></figure>
 <p>每个 Boss 遵循"模式识别 + 反应测试"的设计框架：</p>
+<figure><img src="images/alttp_crystal_switch.png" alt="水晶开关" loading="lazy"><figcaption>水晶开关——需要用剑或特定道具击打来改变状态，是地下城谜题的基础元素</figcaption></figure>
 <div class="table-wrapper"><table><thead><tr><th>Boss</th><th>攻击模式</th><th>弱点</th><th>识别的模式</th><th>反应测试</th></tr></thead><tbody><tr><td>Armos Knights ×6</td><td>跳跃压击，编队冲撞</td><td>弓箭射击（可被剑击倒但弓更有效）</td><td>6个一组的行为模式变化</td><td>躲避落地范围</td></tr><tr><td>Lanmolas ×3</td><td>从地下钻出，释放碎片弹</td><td>弓/剑攻击钻出瞬间</td><td>固定位置轮流出没</td><td>在碎片弹间隙找攻击窗口</td></tr><tr><td>Moldorm</td><td>快速移动，意图将玩家撞下平台</td><td>尾部</td><td>移动轨迹可预判</td><td>在平台边缘保持位置</td></tr><tr><td>Helmasaur King</td><td>冲撞、尾部横扫、火球</td><td>面具被锤子打碎后暴露的头部</td><td>攻击前的蓄力动作</td><td>躲避冲撞后接近攻击</td></tr><tr><td>Arrghus</td><td>大量眼珠围护本体</td><td>用钩爪逐一拉下眼珠并击杀</td><td>眼珠全部清除后本体暴露</td><td>处理本体反弹冲撞</td></tr><tr><td>Mothula</td><td>发射光束，房间内尖刺轨道移动</td><td>火焰杖/剑攻击本体</td><td>尖刺的移动模式</td><td>在尖刺和光束间找空间</td></tr><tr><td>Blind the Thief</td><td>四方向火球，头部分离攻击</td><td>头部分离时的本体</td><td>火球发射节奏</td><td>走位到正确位置输出</td></tr><tr><td>Kholdstare</td><td>冰块包裹，释放冰追踪弹</td><td>破冰（火焰杖/炸弹）后攻击内核</td><td>冰弹追踪模式</td><td>破冰窗口的利用</td></tr><tr><td>Vitreous</td><td>大眼释放小眼攻击，闪电</td><td>击落小眼后攻击本体</td><td>闪电的前兆</td><td>躲闪闪电后反击</td></tr><tr><td>Trinexx</td><td>三头龙（火头/冰头/石头），交替攻击</td><td>先用反属性杖击晕火/冰头，再打石头头</td><td>元素头的属性对应</td><td>切换道具的时机</td></tr><tr><td>Agahnim</td><td>三个幻影，反弹魔法球</td><td>用剑反弹魔法球</td><td>幻影真假的识别</td><td>反弹的时机把握</td></tr><tr><td>Ganon</td><td>冲刺+火蝙蝠+地裂，三阶段循环</td><td>丢脸后用剑攻击，光照时用银箭</td><td>三阶段的循环节奏</td><td>多阶段的持续反应</td></tr></tbody></table></div><h3 id="Ganon-s-Tower-的复战设计">Ganon's Tower 的复战设计</h3>
 <p>Ganon's Tower 内部复现了 Light World 的三个 Boss——Armos Knights、Lanmolas 和 Moldorm。这是 ALttP 中唯一重复使用 Boss 的地下城。</p>
 <p>设计效果：</p>
@@ -185,6 +192,7 @@
 <li>在后续几乎所有地下城中都有钩爪谜题（基础能力）</li>
 </ol>
 <p>这种"一物四用"的设计使得每个物品都物超所值。玩家永远觉得"这个物品还有新用途"。</p>
+<figure><img src="images/alttp_treasure_chest.png" alt="宝箱" loading="lazy"><figcaption>获得新物品的瞬间——地下城体验的高峰之一，同时也是"教学阶段"的起点</figcaption></figure>
 <h2 id="设计过程推导">设计过程推导</h2>
 <h3 id="13-个地下城的数量决策">13 个地下城的数量决策</h3>
 <p>为什么是 13 个而不是更少或更多？从约束和目标反推 <span class="tag-speculation">推测</span>：</p>
