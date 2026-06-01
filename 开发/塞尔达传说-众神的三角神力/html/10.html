@@ -80,12 +80,12 @@
 <h3 id="1-世界设计-进度系统-强耦合">1. 世界设计 ←→ 进度系统 [强耦合]</h3>
 <div class="table-wrapper"><table><thead><tr><th>交叉点</th><th>耦合性质</th><th>具体表现</th></tr></thead><tbody><tr><td>物品能力决定可达区域</td><td>显式预设</td><td>每个核心物品精确对应一类地形障碍，构成区域解锁的"钥匙"体系</td></tr><tr><td>双世界放大物品的解锁价值</td><td>显式预设</td><td>同一件物品在 Light World 和 Dark World 各有独立的可解锁区域，单个物品的探索价值被倍增</td></tr><tr><td>Moon Pearl 作为 Dark World 进度门</td><td>显式预设</td><td>无 Moon Pearl 则在 Dark World 变为兔子（丧失战斗/使用能力），强制玩家在进入 Dark World 前完成 Light World 全部地下城</td></tr><tr><td>传送点被物品能力封锁</td><td>显式预设</td><td>Light→Dark 传送点被深色石头、悬崖等障碍遮挡，需要 Titan's Mitt、Hookshot 等物品才能到达</td></tr><tr><td>障碍前置-能力后置的记忆回路</td><td>显式预设</td><td>世界设计在玩家早期路径上布置可见但不可达的区域，物品获取后激活玩家的"障碍记忆"，驱动回溯探索</td></tr></tbody></table></div><p>这是整个游戏中最核心的强耦合对。世界设计提供"去哪"的空间，进度系统提供"能不能去"的条件，两者共同构成了 ALttP 的探索脊柱。移除这对耦合，游戏退化为纯粹的线性关卡序列。</p>
 <p><a href="02.html" class="cross-ref" data-summary="双世界系统如何在同一份地图拓扑上创造双倍探索深度？">02 世界设计</a>（区域可达性控制） <a href="04.html" class="cross-ref" data-summary="6 按键约束下如何设计十余种核心物品，让每次变强带来新探索可能？">04 进度系统</a>（物品即钥匙的设计哲学）</p>
-<figure><img src="images/alttp_magic_mirror.png" alt="Magic Mirror" loading="lazy"><figcaption>Magic Mirror——世界切换的核心工具，强耦合了世界设计与进度系统</figcaption></figure>
-<figure><img src="images/alttp_moon_pearl.png" alt="Moon Pearl" loading="lazy"><figcaption>Moon Pearl——世界设计与进度系统的关键交叉点：没有它，Dark World的探索被彻底改变</figcaption></figure>
+<figure><img src="images/alttp_magic_mirror.webp" alt="Magic Mirror" loading="lazy"><figcaption>Magic Mirror——世界切换的核心工具，强耦合了世界设计与进度系统</figcaption></figure>
+<figure><img src="images/alttp_moon_pearl.webp" alt="Moon Pearl" loading="lazy"><figcaption>Moon Pearl——世界设计与进度系统的关键交叉点：没有它，Dark World的探索被彻底改变</figcaption></figure>
 <h3 id="2-地下城-表世界-强耦合">2. 地下城 ←→ 表世界 [强耦合]</h3>
 <div class="table-wrapper"><table><thead><tr><th>交叉点</th><th>耦合性质</th><th>具体表现</th></tr></thead><tbody><tr><td>地下城物品解锁表世界新路径</td><td>显式预设</td><td>这是宏循环的核心脊柱——地下城是"获取"场所，表世界是"使用"场所，两者互为因果</td></tr><tr><td>表世界隐藏洞穴给予地下城升级</td><td>显式预设</td><td>心之碎片、容量升级等散布在表世界的隐藏洞穴/支线中，反哺地下城挑战的容错空间</td></tr><tr><td>地下城入口需要表世界探索才能发现</td><td>显式预设</td><td>部分地下城入口隐藏在需要特定物品或双世界切换才能到达的位置</td></tr><tr><td>Magic Mirror 在地下城内的跨世界谜题</td><td>显式预设</td><td>部分 Dark World 地下城需要切到 Light World 再返回来绕过障碍——地下城不再封闭，可达性依赖表世界地形</td></tr></tbody></table></div><p>这对耦合使地下城和表世界绝非两个独立的游戏区域，而是互锁的齿轮。地下城产出能力，能力解锁表世界，表世界提供升级和入口，驱动下一个地下城——这个正反馈循环是 ALttP 宏循环的引擎。</p>
 <p><a href="01.html" class="cross-ref" data-summary="四层嵌套循环如何在十余小时流程中持续制造"再走一步"的冲动？">01 核心循环</a>（宏循环的四层嵌套结构） <a href="03.html" class="cross-ref" data-summary="13 个地下城如何在 1MB 容量限制下实现主题差异化与难度递进？">03 地下城设计</a>（地下城与表世界的双向驱动）</p>
-<figure><img src="images/alttp_crystal_switch.png" alt="水晶开关" loading="lazy"><figcaption>水晶开关——谜题系统与战斗系统的弱耦合节点，攻击动作在解谜语境下的复用</figcaption></figure>
+<figure><img src="images/alttp_crystal_switch.webp" alt="水晶开关" loading="lazy"><figcaption>水晶开关——谜题系统与战斗系统的弱耦合节点，攻击动作在解谜语境下的复用</figcaption></figure>
 <h3 id="3-进度系统-战斗系统-弱耦合">3. 进度系统 ←→ 战斗系统 [弱耦合]</h3>
 <div class="table-wrapper"><table><thead><tr><th>交叉点</th><th>耦合性质</th><th>具体表现</th></tr></thead><tbody><tr><td>新物品扩展战斗选项</td><td>规则自然延伸</td><td>Hookshot 眩晕、Fire Rod 远程、Ice Rod 冻结——这些战斗效果是物品物理行为的自然推论，不是为每个敌人单独编写</td></tr><tr><td>剑/盾/防具升级改变战斗难度曲线</td><td>规则自然延伸</td><td>数值成长让后期战斗从容，但不改变"能不能过"的门槛——策略可以弥补装备不足</td></tr><tr><td>Boss 战作为道具使用的综合考核</td><td>显式预设</td><td>这是弱耦合对中唯一的显式预设点——每个 Boss 要求特定道具组合，将进度考核嵌入战斗</td></tr></tbody></table></div><p>这对耦合的关键特征是<strong>不对称</strong>：进度系统强烈影响战斗（新物品带来新战术），但战斗本身不直接决定进度。玩家可以靠策略弥补装备差距，战斗失败不会锁死进度路径。这种单向弱耦合保护了探索驱动的设计核心——战斗服务于探索，而非反过来。</p>
 <p><a href="04.html" class="cross-ref" data-summary="6 按键约束下如何设计十余种核心物品，让每次变强带来新探索可能？">04 进度系统</a>（数值成长作为物品系统的辅助） <a href="05.html" class="cross-ref" data-summary="在2D俯视角约束下如何用极少操作构建有策略深度且低门槛的战斗系统？">05 战斗系统</a>（Boss 作为道具使用考核场）</p>
@@ -101,7 +101,7 @@
 <h3 id="7-经济-探索-弱耦合">7. 经济 ←→ 探索 [弱耦合]</h3>
 <div class="table-wrapper"><table><thead><tr><th>交叉点</th><th>耦合性质</th><th>具体表现</th></tr></thead><tbody><tr><td>卢比购买道具和升级支撑探索</td><td>规则自然延伸</td><td>炸弹/箭矢购买、容量升级——经济让探索更顺畅，但不控制探索路径</td></tr><tr><td>心之碎片作为经济之外的第二探索奖励</td><td>显式预设</td><td>心之碎片散布在世界各处，提供独立于货币系统的收集动机</td></tr><tr><td>小游戏入场费消耗卢比</td><td>显式预设</td><td>钓鱼、赛马等小游戏提供心之碎片等独特奖励，但需要卢比入场</td></tr></tbody></table></div><p>经济与探索的耦合是最弱的——它提供润滑而非驱动力。砍草掉落 1 卢比的微奖励层让"不知道去哪时的漫游"也有正反馈，但这层反馈太轻，不足以独立驱动探索。真正的探索驱动力来自"障碍记忆"（世界设计 ←→ 进度系统）和心之碎片的收集欲望。</p>
 <p><a href="08.html" class="cross-ref" data-summary="卢比如何在无"市场"的单人冒险中保持购买决策的意义感？">08 经济与资源</a>（微奖励层作为探索的底层润滑剂）</p>
-<figure><img src="images/alttp_rupees.png" alt="卢比" loading="lazy"><figcaption>卢比经济系统——与战斗（敌人掉落）和探索（隐藏宝箱）两个系统的弱耦合连接</figcaption></figure>
+<figure><img src="images/alttp_rupees.webp" alt="卢比" loading="lazy"><figcaption>卢比经济系统——与战斗（敌人掉落）和探索（隐藏宝箱）两个系统的弱耦合连接</figcaption></figure>
 <h2 id="设计分析">设计分析</h2>
 <h3 id="1-强耦合-vs-弱耦合的区分标准">1. 强耦合 vs 弱耦合的区分标准</h3>
 <p><strong>强耦合的特征：</strong></p>
