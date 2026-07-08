@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：仿射变换 (x,y)↦(2x,y) 把单位圆变成椭圆
+     左：原图(单位圆)；中：变换箭头；右：虚线原位(单位圆)+实线像(椭圆)
+     坐标按几何精确计算(1单位=70px)；文字为真 <text>，清晰锐利、易改。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- ===== 左图：单位圆 x²+y²=1 ===== -->
+  <g>
+    <!-- 坐标轴 -->
+    <line x1="25" y1="130" x2="235" y2="130" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+    <line x1="130" y1="221" x2="130" y2="39" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+    <!-- 圆 -->
+    <circle cx="130" cy="130" r="70" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5"/>
+    <!-- 关键点 (1,0) 与 (0,1) -->
+    <circle cx="200" cy="130" r="4" fill="#1f3a5f"/>
+    <circle cx="130" cy="60" r="4" fill="#1f3a5f"/>
+    <!-- 标签 -->
+    <text x="130" y="250" text-anchor="middle" fill="#374151" font-size="16">圆 x²+y²=1</text>
+  </g>
+
+  <!-- ===== 变换箭头：(x,y) ↦ (2x,y) ===== -->
+  <g>
+    <line x1="250" y1="130" x2="365" y2="130" stroke="#6b7280" stroke-width="2.2" marker-end="url(#arr)"/>
+    <text x="307" y="118" text-anchor="middle" fill="#374151" font-size="15">(x, y) ↦ (2x, y)</text>
+  </g>
+
+  <!-- ===== 右图：椭圆 u²/4+v²=1（虚线原位单位圆 + 实线变换后椭圆） ===== -->
+  <g>
+    <!-- 坐标轴 -->
+    <line x1="349" y1="130" x2="671" y2="130" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+    <line x1="510" y1="221" x2="510" y2="39" stroke="#6b7280" stroke-width="1.5" marker-end="url(#arr)"/>
+    <!-- 实线变换后：椭圆（半轴 2 与 1） -->
+    <ellipse cx="510" cy="130" rx="140" ry="70" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5"/>
+    <!-- 虚线原位：单位圆（拉伸前），叠加于椭圆之上以凸显水平拉伸 -->
+    <circle cx="510" cy="130" r="70" fill="none" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
+    <!-- 关键点 (2,0) 与 (0,1) -->
+    <circle cx="650" cy="130" r="4" fill="#1f3a5f"/>
+    <circle cx="510" cy="60" r="4" fill="#1f3a5f"/>
+    <text x="660" y="146" fill="#6b7280" font-size="13">(2, 0)</text>
+    <text x="520" y="54" fill="#6b7280" font-size="13">(0, 1)</text>
+    <!-- 标签 -->
+    <text x="510" y="250" text-anchor="middle" fill="#374151" font-size="16">椭圆 u²/4+v²=1</text>
+  </g>
+</svg>

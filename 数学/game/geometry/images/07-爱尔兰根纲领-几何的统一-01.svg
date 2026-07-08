@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：爱尔兰根纲领——几何层级数轴
+     五类几何（等距⊂相似⊂仿射⊂射影⊂拓扑）沿一条带箭头的轴排列，
+     每类下方列出其不变量；左端"不变量更多"、右端"更少"；
+     底部灰色箭头标注"群越大→越自由→不变量越少、范围越广"。
+     文字一律 <text> 真字体，坐标按几何精确对齐。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 240" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr-navy" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f3a5f"/>
+    </marker>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- ===== 主轴（navy，右端箭头） ===== -->
+  <line x1="70" y1="120" x2="725" y2="120" stroke="#1f3a5f" stroke-width="2.5" marker-end="url(#arr-navy)"/>
+
+  <!-- 五个分级点（等距/相似/仿射/射影/拓扑） -->
+  <circle cx="130" cy="120" r="4.5" fill="#1f3a5f"/>
+  <circle cx="270" cy="120" r="4.5" fill="#1f3a5f"/>
+  <circle cx="410" cy="120" r="4.5" fill="#1f3a5f"/>
+  <circle cx="550" cy="120" r="4.5" fill="#1f3a5f"/>
+  <circle cx="690" cy="120" r="4.5" fill="#1f3a5f"/>
+
+  <!-- 点上方：几何名称 -->
+  <g fill="#374151" font-size="16" text-anchor="middle">
+    <text x="130" y="60">等距</text>
+    <text x="270" y="60">相似</text>
+    <text x="410" y="60">仿射</text>
+    <text x="550" y="60">射影</text>
+    <text x="690" y="60">拓扑</text>
+  </g>
+
+  <!-- 轴两端：左"不变量更多"、右"更少" -->
+  <g fill="#6b7280" font-size="13" text-anchor="middle">
+    <text x="95" y="100">不变量更多</text>
+    <text x="705" y="100">更少</text>
+  </g>
+
+  <!-- 点下方：各类几何的不变量（蓝色，呼应原图语义着色） -->
+  <g fill="#1d4ed8" font-size="13" text-anchor="middle">
+    <text x="130" y="146">距离、角、面积</text>
+    <text x="270" y="146">角、比</text>
+    <text x="410" y="146">平行、比</text>
+    <text x="550" y="146">交比</text>
+    <text x="690" y="146">连通、亏格</text>
+  </g>
+
+  <!-- ===== 底部灰色箭头：群越大→越自由→不变量越少、范围越广 ===== -->
+  <line x1="70" y1="185" x2="725" y2="185" stroke="#6b7280" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="397" y="210" text-anchor="middle" fill="#6b7280" font-size="13">群越大 → 越自由 → 不变量越少、范围越广</text>
+</svg>

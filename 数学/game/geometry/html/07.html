@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 07 章 · 爱尔兰根纲领：统一 — 从变换看几何</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="progress-bar"></div>
+<div class="topbar">
+  <button class="icon-btn menu-btn" data-act="menu" aria-label="菜单">☰</button>
+  <a class="brand" href="index.html">从变换看几何 <small>· 交互式课件</small></a>
+  <span class="spacer"></span>
+  <span class="crumb"></span>
+  <button class="icon-btn" data-act="theme" aria-label="切换主题" title="切换深 / 浅色">◐</button>
+</div>
+<div class="layout">
+  <aside class="sidebar"></aside>
+  <main class="content">
+<div class="chapter-head"><div class="eyebrow"><span class="pill">第 7 章</span> 从变换看几何</div><h1>爱尔兰根纲领：一句话统一全部几何</h1><div class="lead">这一章是全书的高潮。前 5 章我们攒了一抽屉的变换——等距、相似、仿射、射影、反演——它们各自"保"一些性质。1872 年，23 岁的克莱因站在这些成果之上，说了一句<strong>把所有几何收进一个公式</strong>的话。</div></div>
+
+<h2 id="sec-7-1"><span class="hn">7.1</span>1872 年的几何学：一盘散沙</h2><p>19 世纪中叶的几何学，是一团<strong>混乱的繁荣</strong>。</p>
+<ul><li>欧几里得几何还在教；</li><li>射影几何（德沙格、帕斯卡的后继者，如彭赛列、施泰纳）蓬勃发展，自认比欧氏更"基本"；</li><li>仿射几何、相似几何各有信徒；</li><li><strong>非欧几何</strong>（罗巴切夫斯基、波尔约、黎曼）横空出世，动摇了"平行公设"两千年的地位；</li><li><strong>微分几何</strong>（高斯、黎曼）研究曲面上的几何，方法完全不同；</li><li>庞大杂乱的"<strong>度量几何</strong>"派系林立。</li></ul>
+<p>每派都有自己的概念、定理、教材，彼此<strong>鸡同鸭讲</strong>。一个根本问题悬而未决：</p>
+<div class="callout tip"><p><strong>到底什么是"一种几何"？凭什么说射影几何和欧氏几何是"两门"几何，而不是同一门的两个部分？</strong></p></div>
+<p>这个问题不解决，几何学就永远是一堆互不连通的碎片。</p>
+<h2 id="sec-7-2"><span class="hn">7.2</span>克莱因的钥匙：群</h2><p>年轻克莱因的洞察，借来了一个<strong>30 年前刚诞生的强大工具</strong>——<strong>群</strong>。</p>
+<p>群的概念来自<strong>伽罗瓦</strong>（Évariste Galois, 1811–1832，21 岁死于决斗）。伽罗瓦研究"方程什么时候能用根式求解"时发现：关键不在方程本身，而在它的<strong>根的对称性</strong>——根之间可以互相替换而保持代数关系，这些"允许的替换"组成一个<strong>群</strong>（伽罗瓦群）。群的"大小"决定了方程能不能解（这套故事第 8 章细讲）。</p>
+<div class="callout insight"><p>💡 <strong>回顾：我们早在 2.4 节就见过群了</strong>。那里我们把"全体等距变换"放在一起、配上"复合"运算，逐条验证了封闭、结合、单位、逆——它们构成**等距群 $E(2)$**，还看到子群 $\mathrm{SO}(2)\subset E^{+}(2)\subset E(2)$。所以"群"对读者已经不是新词，记住那句白话定义即可：<strong>一组变换 + 复合运算 + 四条公理（封闭、结合、有恒等、有逆）= 群</strong>。</p></div>
+<p>克莱因的天才不在"发明群"（那是伽罗瓦），而在一次<strong>层次跃迁</strong>：</p>
+<div class="callout tip"><p><strong>伽罗瓦</strong>：给定一个方程，它的根有什么样的对称群？
+<strong>克莱因</strong>：给定一个<strong>群</strong>，它定义一门<strong>几何</strong>。</p></div>
+<p>换句话说，克莱因把问题<strong>反过来</strong>了——不再问"这个图形有什么对称"，而是**先选一个群 $G$，再问"在 $G$ 的所有变换下，什么不变"**。不同的选择，得到不同的几何：</p>
+<ul><li>选 $G=E(2)$（等距群）→ 欧氏几何（不变量：距离、角、面积）；</li><li>选 $G=$ 相似群 → 相似几何（不变量：角、长度比）；</li><li>选 $G=$ 仿射群 → 仿射几何（不变量：平行、共线比）；</li><li>选 $G=$ 射影群 → 射影几何（不变量：交比）；</li><li>选 $G=$ 同胚群 → 拓扑（不变量：连通性、亏格）。</li></ul>
+<p><strong>同一个平面，换一群，就换一门几何。</strong> 这就是下一节"爱尔兰根宣言"的核心。</p>
+<div class="callout calc"><p>✏️ <strong>一个让人安心的事实</strong>：上面每"一级"变换都<strong>各自成群</strong>——验证方法和 2.4 节对等距做的一样（复合封闭、有恒等、有逆），只是把"保距"换成"保角/保平行/保共线/保连续"。例如两个仿射 $\mathbf{x}\mapsto M_1\mathbf{x}+\mathbf t_1$ 和 $\mathbf{x}\mapsto M_2\mathbf{x}+\mathbf t_2$ 的复合 $\mathbf{x}\mapsto M_2M_1\mathbf{x}+(M_2\mathbf t_1+\mathbf t_2)$ 还是仿射（$M_2M_1$ 仍可逆）。所以每一级几何都有自己的群，群与群之间还一个套一个（第 7.4 节）。</p></div>
+<h2 id="sec-7-3"><span class="hn">7.3</span>核心宣言：几何 = 群 + 不变量</h2><p>克莱因在爱尔兰根纲领里给出的，是这样一个<strong>定义</strong>（用现代语言表述）：</p>
+<div class="callout tip"><p><strong>一种"几何"，由两样东西完全决定</strong>：</p>
+<ol><li>一个集合 $S$（研究的对象，比如平面上的点）；</li><li>一个作用在 $S$ 上的<strong>变换群</strong> $G$。</li></ol>
+<p>**这门几何要研究的，是 $G$ 的不变量**——也就是那些在 $G$ 的所有变换下都不变的性质。</p></div>
+<p>把不同想法翻译成这个定义：</p>
+<div class="table-wrap"><table><thead><tr><th>几何</th><th>集合 $S$</th><th>变换群 $G$</th><th>关心不变量</th></tr></thead><tbody><tr><td><strong>欧氏几何</strong></td><td>平面</td><td>等距群</td><td>距离、角、面积</td></tr><tr><td><strong>相似几何</strong></td><td>平面</td><td>相似群</td><td>角、长度比</td></tr><tr><td><strong>仿射几何</strong></td><td>平面</td><td>仿射群</td><td>平行、共线比</td></tr><tr><td><strong>射影几何</strong></td><td>射影平面</td><td>射影群</td><td>交比、共线/共点</td></tr><tr><td><strong>拓扑</strong></td><td>平面</td><td>同胚群</td><td>连通性、亏格、欧拉示性数</td></tr></tbody></table></div>
+<div class="callout def"><p>🎯 <strong>一句话</strong>：<strong>几何学 = 变换群 + 该群的不变量。</strong> 不同的群 → 不同的几何。</p></div>
+<p>这一下子解决了 6.1 的混乱：原来"两门几何"的区别，<strong>就是变换群的区别</strong>。射影几何和欧氏几何之所以不同，因为它们的变换群（射影群 vs 等距群）不同。混乱变成了秩序。</p>
+<h3 id="手算一个例子-欧氏几何的不变量">手算一个例子：欧氏几何的不变量</h3>
+<p>光看定义还是抽象。我们用<strong>欧氏几何</strong>（$G=$ 等距群 $E(2)$）把"在 $G$ 的所有变换下都不变"这句话每个字都摸到。</p>
+<p><strong>主角</strong>：一个 3-4-5 直角三角形 $\triangle ABC$，$A=(0,0),\; B=(3,0),\; C=(0,4)$。在 $G$ 里挑一个变换——绕原点逆时针旋转 $90°$，即 $(x,y)\mapsto(-y,x)$：</p>
+<div class="eq-display">$$A\to A'=(0,0),\quad B\to B'=(0,3),\quad C\to C'=(-4,0)$$</div>
+<p>查"边长"——它顶住了吗？</p>
+<div class="table-wrap"><table><thead><tr><th>边</th><th>变换前</th><th>变换后</th></tr></thead><tbody><tr><td>$AB$</td><td>$3$</td><td>$A'B'=3$ <span class="check">✓</span></td></tr><tr><td>$AC$</td><td>$4$</td><td>$A'C'=4$ <span class="check">✓</span></td></tr><tr><td>$BC$</td><td>$\sqrt{3^2+4^2}=5$</td><td>$\sqrt{4^2+3^2}=5$ <span class="check">✓</span></td></tr></tbody></table></div>
+<p>三边纹丝不动。再换 $G$ 里别的成员——平移 $(x,y)\mapsto(x+1,y+2)$、关于 $y$ 轴反射 $(x,y)\mapsto(-x,y)$——边长<strong>还是</strong>不变。**"距离"顶住了 $G$ 里每一个变换**，所以它是 $E(2)$ 的不变量。这就是欧氏几何真正研究的主角。</p>
+<div class="callout calc"><p>✏️ <strong>反例：光顶住一个变换不算数。</strong> 那"$A$ 到原点的距离"算不变量吗？绕原点旋转 $90°$，$A=(0,0)$ 还在原点，距离 $0$，没变——看起来"不变"。但换一个 $G$ 里的变换：平移 $(x,y)\mapsto(x+1,y)$，$A$ 跑到 $(1,0)$，到原点的距离从 $0$ 变成 $1$。<strong>变了！</strong> 所以"到原点的距离"顶不住 $E(2)$ 里的平移，<strong>不是</strong> $E(2)$ 的不变量——它只是"绕原点旋转群"这个<strong>更小子群</strong>的不变量。</p></div>
+<p>这句话的内涵，全在<strong>"所有"</strong>两个字：</p>
+<div class="callout tip"><p>不变量不是"在某一个变换下不变"，而是"在 $G$ 里<strong>随便挑哪一个</strong>都不变"。</p></div>
+<p>$G$ 越大（变换越多），能同时顶住的量越少——这就是下一节"群越大，不变量越少"的来历。所以欧氏几何<strong>不关心</strong>"$B$ 的坐标是 $(3,0)$ 还是 $(0,3)$"（这会变），<strong>只关心</strong>"边长 $3$、内角 $90°$、面积 $6$"（这些不变）。<strong>全等判定 SSS</strong> 正是这套思想的结晶：边长这个不变量把三角形在等距群下的"身份"定死了——三边一对上，就存在 $G$ 里的某个变换把两者互变，它们就是"同一个"三角形。</p>
+<h2 id="sec-7-4"><span class="hn">7.4</span>几何的层级：群越大，不变量越少</h2><div class="viz" data-viz="hierarchy"></div><p>注意一个关键事实：前面那些群，<strong>一个套一个</strong>（子群关系）：</p>
+<div class="eq-display">$$\underbrace{\text{等距群}}_{\text{欧氏}} \;\subset\; \underbrace{\text{相似群}}_{\text{相似}} \;\subset\; \underbrace{\text{仿射群}}_{\text{仿射}} \;\subset\; \underbrace{\text{射影群}}_{\text{射影}} \;\subset\; \underbrace{\text{同胚群}}_{\text{拓扑}}$$</div>
+<p>每个群都是后一个的<strong>子群</strong>（更"小"、约束更多）。这件事有深刻推论：</p>
+<div class="callout tip"><p><strong>群越大（变换越多），不变量越少，但结论越普适（适用范围越广）。</strong></p></div>
+<p>为什么"群大 ⟹ 不变量少"？因为"不变量"要顶住群里<strong>每一个</strong>变换。群里变换越多，要同时满足的条件越苛刻，能"幸存"的量自然越少。</p>
+<p>为什么"不变量少 ⟹ 结论更普适"？因为不变量是<strong>所有这些变换都承认</strong>的性质——变换越多，承认这个性质的范围越广，结论越"放之四海皆准"。</p>
+<h3 id="一个数轴图">一个数轴图</h3>
+<p>![](images/07-爱尔兰根纲领-几何的统一-01.svg)</p>
+<details class="fold"><summary>📐 tikz 源码</summary><div class="fold-body"><pre><code class="language-latex">\begin{tikzpicture}[scale=1.8, every node/.style={font=\normalsize}]
+  \draw[very thick, -&gt;] (-0.5,0) -- (10.8,0);
+  \foreach \x/\name in {1/isometry, 3/similarity, 5/affine, 7/projective, 9/topology} {
+    \fill (\x,0) circle (3pt);
+    \node[above=4pt] at (\x,0) {\name};
+  }
+  \node[below=8pt, blue!70!black] at (1,0) {dist, angle, area};
+  \node[below=8pt, blue!70!black] at (3,0) {angle, ratio};
+  \node[below=8pt, blue!70!black] at (5,0) {parallel, ratio};
+  \node[below=8pt, blue!70!black] at (7,0) {cross-ratio};
+  \node[below=8pt, blue!70!black] at (9,0) {connect, genus};
+  \node[left] at (-0.4,0.45) {more invariants};
+  \node[right] at (10.4,0.45) {fewer};
+  \draw[-&gt;, gray, very thick] (-0.3,-1.5) -- (10.3,-1.5);
+  \node[gray] at (5,-1.8) {larger group $\to$ wilder $\to$ fewer invariants, broader};
+\end{tikzpicture}</code></pre></div></details>
+<h2 id="sec-7-5"><span class="hn">7.5</span>同一个问题，五种答案</h2><p>理解层级最好的办法，是看<strong>同一个问题在不同几何里</strong>的答案。我们问：<strong>"圆和三角形是同一个东西吗？"</strong></p>
+<ul><li><strong>欧氏几何</strong>：当然不同。圆无边、三角形有三边；任何等距都保不住"边数"。</li><li><strong>相似几何</strong>：仍不同（相似保形，圆还是圆，三角形还是三角形）。</li><li><strong>仿射几何</strong>：仍不同（仿射把圆变椭圆，但不会变成三角形）。</li><li><strong>射影几何</strong>：仍不同（射影把圆变椭圆/抛物线/双曲线，但不会变三角形）。</li><li><strong>拓扑</strong>：<strong>是同一个东西！</strong> 圆和三角形的边界都是一条<strong>简单闭曲线</strong>（不交叉、闭合），可以连续变形（把圆"捏"成三角形）。在拓扑眼里，圆 = 三角形 = 正方形 = 椭圆。</li></ul>
+<p>![](images/07-爱尔兰根纲领-几何的统一-02.svg)</p>
+<details class="fold"><summary>📐 tikz 源码</summary><div class="fold-body"><pre><code class="language-latex">\begin{tikzpicture}[scale=1.8, every node/.style={font=\normalsize}]
+  \draw[blue, very thick] (0,0) circle (1);
+  \node[below] at (0,-1.3) {circle};
+  \draw[-&gt;, gray, very thick] (1.3,0) -- (2.4,0);
+  \draw[blue, very thick] (3.5,1) -- (2.64,-0.5) -- (4.36,-0.5) -- cycle;
+  \node[below] at (3.5,-1.3) {triangle};
+  \draw[-&gt;, gray, very thick] (4.8,0) -- (5.9,0);
+  \draw[blue, very thick] (7,1) -- (9,1) -- (9,-1) -- (7,-1) -- cycle;
+  \node[below] at (8,-1.3) {square};
+  \node[gray] at (4.5,1.6) {continuous deformation};
+\end{tikzpicture}</code></pre></div></details>
+<p>每一次"放宽"（群变大），原本"不同"的东西变得"相同"。</p>
+<div class="callout calc"><p>✏️ <strong>再看"椭圆和圆"</strong>：</p>
+<ul><li>欧氏：不同（不能等距互变）；</li><li>仿射：<strong>相同</strong>（拉伸就能互变，第 4 章）；</li><li>拓扑：相同（都是闭曲线）。</li></ul>
+<p>"相同"还是"不同"，取决于你站在哪一级。</p></div>
+<h3 id="拓扑的不变量举例">拓扑的不变量举例</h3>
+<p>拓扑是最"狂野"的一级（允许任意连续变形，像揉橡皮泥，只要不撕裂不粘合）。它丢失了几乎所有度量，只剩"<strong>最顽固</strong>"的几个性质：</p>
+<ul><li><strong>连通性</strong>：一块还是几块？（"0" 连通，"8" 两块相交，"O" 一块有洞）。</li><li><strong>洞的个数（亏格）</strong>：球面 $0$ 个洞，甜甜圈 $1$ 个洞，双圈 $2$ 个洞。</li><li><strong>欧拉示性数</strong> $\chi = V-E+F$（顶点数 - 边数 + 面数）。</li></ul>
+<div class="callout calc"><p>✏️ <strong>欧拉示性数</strong>：立方体 $V{=}8,E{=}12,F{=}6$，$\chi=8-12+6=2$。四面体 $V{=}4,E{=}6,F{=}4$，$\chi=4-6+4=2$。八面体 $V{=}6,E{=}12,F{=}8$，$\chi=6-12+8=2$。**所有"球面状"的多面体，$\chi$ 都是 $2$！** 因为它们拓扑等价于球面。而甜甜圈状的多面体 $\chi=0$。$\chi$ 是拓扑不变量——连续变形改不了它。这是拓扑层级里"交比"级别的基本量。</p></div>
+<h2 id="sec-7-6"><span class="hn">7.6</span>不变量哲学：剥去表象，留下本质</h2><p>爱尔兰根纲领背后，是一种深刻的<strong>认识论</strong>：</p>
+<div class="callout tip"><p><strong>一个东西的"本质"，是它在所有允许的变化下都不变的那部分。表象（会变的）不重要，本质（不变的）才重要。</strong></p></div>
+<p>这种思想在数学内外都威力巨大：</p>
+<ul><li><strong>物理学</strong>：一个实验在中国做和在美国做，结果一样（空间平移不变）→ 推出<strong>动量守恒</strong>（诺特定理）。"对称性"↔"守恒律"——这是爱尔兰根纲领思想在物理学的回响（第 9 章详谈）。</li><li><strong>计算机视觉</strong>：识别一只猫，不管它旋转、缩放、遮挡——要找的是"猫"的<strong>不变特征</strong>，而不是某个特定姿态。</li><li><strong>不变量理论</strong>（代数）：研究多项式在某些变换下不变的组合，是 19 世纪代数的核心，直接通向现代代数几何。</li></ul>
+<div class="callout insight"><p>💡 <strong>元思想</strong>：<strong>"找不变量"是一种通用解题/认知策略</strong>——面对一个变化的系统，别盯着变化的部分发愁，去揪住那个"守恒"的量。它往往是问题的钥匙。</p></div>
+<h2 id="sec-7-7"><span class="hn">7.7</span>纲领的边界：什么没被统一</h2><p>克莱因的纲领极其成功，但<strong>不是</strong>几何的全部。它统一了"<strong>齐性</strong>"几何（有足够多对称变换的空间），但有两类对象<strong>不在</strong>框架内：</p>
+<ol><li><strong>黎曼微分几何</strong>：黎曼研究"任意弯曲"的曲面/空间，它们<strong>没有</strong>大群的对称变换（一般 curved 空间除了恒等变换没别的等距）。克莱因的纲领要求一个大群，所以黎曼几何的"局部"视角<strong>进不去</strong>这个框架。后来（20 世纪，嘉当的"几何子流形"理论）才把两者调和。</li><li><strong>代数几何 / 度量数论</strong>：研究方程定义的图形，方法更代数，不和变换群直接挂钩。</li></ol>
+<p>所以爱尔兰根纲领是<strong>一座大山，不是全部山脉</strong>。但作为"用变换统一经典几何"的纲领，它至今是几何学的骨架。</p>
+<h2 id="sec-7-8"><span class="hn">7.8</span>历史意义：群征服几何</h2><p>爱尔兰根纲领的真正分量，在于它标志着<strong>"群"这个概念完成了对数学的全面征服</strong>：</p>
+<ul><li>1830 伽罗瓦：群征服<strong>代数</strong>（方程论）；</li><li>1872 克莱因：群征服<strong>几何</strong>（爱尔兰根纲领）；</li><li>之后：群征服<strong>物理</strong>（晶体、相对论、粒子物理的规范对称）。</li></ul>
+<p>"用群来组织一门学科"成了现代数学的范式。一个 23 岁年轻人的就职演讲，定义了之后 150 年几何学的语言。</p>
+<p>下一章我们看变换思想最直观的应用——<strong>对称性</strong>：一个图形的"对称"，正是"保持它不变的变换"组成的群。</p>
+<p>下一章：<a href="08.html">第 08 章 · 对称性与群</a></p>
+<hr>
+<h2>🧩 本章习题</h2><div class="exercises">
+<div class="exercise"><p class="q"><span class="tag think">概念</span><strong>题 7.1</strong> 分类</p><p>下列性质分别属于哪一级几何的不变量（从欧氏、相似、仿射、射影、拓扑里选最"弱"的那级）？
+(a) 三角形内角和 $180°$；(b) 三点共线；(c) 线段长度；(d) 两条直线平行；(e) 圆的周长；(f) 一条闭曲线把平面分成内外两块（若尔当定理）。</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：(a) 相似（角不变量，但长度没了）；(b) 射影（最弱的一级仍保共线）；(c) 欧氏；(d) 仿射；(e) 欧氏；(f) 拓扑。<strong>关键</strong>：把每个性质归到"最弱仍保住它"的那级。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag calc">手算</span><strong>题 7.2</strong> 欧拉示性数</p><p>计算下列多面体的 $\chi=V-E+F$：(a) 三棱柱；(b) 一个"框"形（四棱柱挖掉中间一个小四棱柱贯通）。</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：(a) 三棱柱 $V=6,E=9,F=5,\chi=6-9+5=2$（球面状）。(b) 框形拓扑等价于<strong>甜甜圈</strong>（一个洞），$\chi=0$。数一下：外框 8 顶点 + 内框 8 顶点 = 16；边数较多，但 $V-E+F$ 必等于 $0$（甜甜圈状）。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag think">思考</span><strong>题 7.3</strong> "相同"还是"不同"</p><p>字母 <strong>R</strong> 和字母 <strong>Я</strong>（R 的镜像）在各级几何里是否相同？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：欧氏、相似、仿射、射影里都<strong>不同</strong>（反向等距把 R 变 Я，但这些都是"等距/相似"等变换——等等：镜像反射<strong>是</strong>等距！所以 R 和 Я 在欧氏里<strong>是相同的</strong>，因为存在等距（反射）把它们互变）。<strong>修正</strong>：R 和 Я 在欧氏几何里<strong>相同</strong>（反射是等距）。真正"不同"的是定向，但定向不是欧氏不变量。这道题提醒：判断"相同"要看<strong>有没有</strong>变换连接它们，反射是合法的等距。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag adv">进阶</span><strong>题 7.4</strong> 非欧几何进得了纲领吗？</p><p>球面几何（在球面上，"直线"是大圆）有自己的等距群（绕球心的旋转）。它符合爱尔兰根纲领吗？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：符合。球面几何 = {球面上的点} + {绕球心的旋转群}，不变量是大圆距离、球面角等。非欧的双曲几何也类似（有完整的等距群）。克莱因纲领对<strong>齐性</strong>的非欧几何完全适用；只是对一般弯曲的黎曼流形不适用（见 6.7）。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag think">开放</span><strong>题 7.5</strong> 反演在哪一级？</p><p>反演保角但不保共线、不保直线。它在爱尔兰根纲领的层级里吗？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>讨论</em>：反演<strong>不</strong>在经典层级（欧氏⊂相似⊂仿射⊂射影）里——它是"<strong>共形几何</strong>"（保角几何）的成员，对应"莫比乌斯变换群"。共形几何是另一条独立的层级线，和射影层级交叉。这说明变换群的世界比单一层级更丰富。</p></div></details></div>
+</div>
+<div class="chapter-nav"><a class="prev" href="06.html"><span class="nav-label">← 上一章</span><span class="nav-title">06 · 反演</span></a><a class="next" href="08.html"><span class="nav-label">下一章 →</span><span class="nav-title">08 · 对称性与群</span></a></div>
+  </main>
+</div>
+<button class="to-top" aria-label="回到顶部">↑</button>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="assets/main.js"></script>
+<script src="assets/viz.js"></script>
+</body>
+</html>

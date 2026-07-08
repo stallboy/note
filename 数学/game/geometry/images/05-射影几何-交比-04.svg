@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：双圆锥的截面 —— 斜截得椭圆(红)，截面⊥轴得圆(蓝)。
+     线框双圆锥：前半缘实线、后半缘虚线；对称轴灰虚线。
+     坐标按几何精确换算（TikZ scale 1.8，再以 50px/unit 投到 SVG，y 轴翻转）。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="90 100 310 400" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+  <!-- 对称轴（灰虚线）：tikz (0,-3.4)~(0,3.4) -->
+  <line x1="200" y1="130" x2="200" y2="470" stroke="#9aa7b8" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- 锥面四条母线：顶点 (0,0)→(200,300)；上缘 ±1.6,3 → (120,150)/(280,150)；下缘 → (120,450)/(280,450) -->
+  <g fill="none" stroke="#1f3a5f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="200" y1="300" x2="120" y2="150"/>
+    <line x1="200" y1="300" x2="280" y2="150"/>
+    <line x1="200" y1="300" x2="120" y2="450"/>
+    <line x1="200" y1="300" x2="280" y2="450"/>
+  </g>
+
+  <!-- 上锥顶缘椭圆（中心 200,150，rx 80 ry 20）：前半缘实线(过 200,170=sweep0)，后半缘虚线(过 200,130=sweep1) -->
+  <g fill="none" stroke="#1f3a5f" stroke-width="2.5" stroke-linecap="round">
+    <path d="M120,150 A80,20 0 0 0 280,150"/>
+    <path d="M120,150 A80,20 0 0 1 280,150" stroke-dasharray="5 4"/>
+  </g>
+
+  <!-- 下锥底缘椭圆（中心 200,450，rx 80 ry 20）：前半缘实线(过 200,470=sweep0)，后半缘虚线(过 200,430=sweep1) -->
+  <g fill="none" stroke="#1f3a5f" stroke-width="2.5" stroke-linecap="round">
+    <path d="M120,450 A80,20 0 0 0 280,450"/>
+    <path d="M120,450 A80,20 0 0 1 280,450" stroke-dasharray="5 4"/>
+  </g>
+
+  <!-- 斜截面交线 = 椭圆（红）：中心 tikz(0,1.6)→(200,220)，rx=1.35→67.5 ry=0.38→19，tikz rotate(-18°)=SVG rotate(18°) -->
+  <ellipse cx="200" cy="220" rx="67.5" ry="19" fill="none" stroke="#c0392b" stroke-width="2.5"
+           stroke-linecap="round" transform="rotate(18 200 220)"/>
+
+  <!-- 横截面交线 = 圆（蓝）：中心 tikz(0,-1.8)→(200,390)，rx=0.5→25 ry=0.14→7 -->
+  <ellipse cx="200" cy="390" rx="25" ry="7" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- 标注 -->
+  <g font-size="15">
+    <text x="305" y="215" fill="#c0392b">斜截</text>
+    <text x="305" y="235" fill="#c0392b">→ 椭圆</text>
+    <text x="305" y="385" fill="#2563eb">横截</text>
+    <text x="305" y="405" fill="#2563eb">→ 圆</text>
+  </g>
+</svg>

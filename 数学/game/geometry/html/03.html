@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 03 章 · 相似变换：保形 — 从变换看几何</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="progress-bar"></div>
+<div class="topbar">
+  <button class="icon-btn menu-btn" data-act="menu" aria-label="菜单">☰</button>
+  <a class="brand" href="index.html">从变换看几何 <small>· 交互式课件</small></a>
+  <span class="spacer"></span>
+  <span class="crumb"></span>
+  <button class="icon-btn" data-act="theme" aria-label="切换主题" title="切换深 / 浅色">◐</button>
+</div>
+<div class="layout">
+  <aside class="sidebar"></aside>
+  <main class="content">
+<div class="chapter-head"><div class="eyebrow"><span class="pill">第 3 章</span> 从变换看几何</div><h1>相似变换：允许放缩，保住形状</h1></div>
+<p>上一章的等距变换坚持"保距"——硬纸板不能变形。现在我们<strong>放松第一道约束</strong>：允许整体放大缩小，但不允许"只拉一个方向"。这就是<strong>相似变换</strong>。</p>
+<div class="callout tip"><p>一句话：<strong>相似 = 等距 + 放缩</strong>。它丢了"大小"，保住"形状"。</p></div>
+<hr>
+<h2 id="sec-3-1"><span class="hn">3.1</span>什么是相似变换</h2><p>把硬纸板换成一张<strong>能均匀拉伸的橡胶膜</strong>——你可以整体放大缩小，但每个方向按同一比例。</p>
+<div class="callout def"><p>🎯 <strong>定义</strong>：变换 $\mathbf{T}$ 是<strong>相似变换</strong>（similarity），如果存在常数 $k>0$（<strong>相似比</strong>），使得</p>
+<div class="eq-display">$$d(\mathbf{T}(P),\mathbf{T}(Q)) = k\cdot d(P,Q) \quad \text{对任意 } P,Q.$$</div>
+<p>$k=1$ 时就是等距；$k\ne 1$ 时是真正的"放缩"。</p></div>
+<div class="callout insight"><p>💡 "所有距离同乘 $k$"这个条件<strong>极强</strong>——它不只要求"变大"，而是<strong>每个方向均匀变大</strong>。如果横拉 2 倍、纵不动（不同方向不同比例），那就不是相似，而是下一章的<strong>仿射</strong>了。</p></div>
+<h3 id="相似比-面积比-体积比">相似比、面积比、体积比</h3>
+<p>距离乘 $k$，立刻推出：</p>
+<ul><li><strong>长度</strong> $\times k$；</li><li><strong>面积</strong> $\times k^2$（二维：长、宽各乘 $k$）；</li><li><strong>体积</strong> $\times k^3$（三维）。</li></ul>
+<div class="callout calc"><p>✏️ <strong>手算</strong>：把一张 1:1 图纸按相似比 $k=5$ 放大。边长变 5 倍，面积变 $25$ 倍。原图是个边长 $2$ 的正方形（面积 $4$），放大后边长 $10$、面积 $100=25\times 4$ ✓。</p></div>
+<hr>
+<h2 id="sec-3-2"><span class="hn">3.2</span>用复数看清相似</h2><div class="viz" data-viz="similarity"></div><p>平面上的<strong>正向相似变换</strong>（保持手性，不翻面）有极其简洁的复数形式：</p>
+<div class="eq-display">$$\boxed{\;z \;\mapsto\; a z + b,\quad a,b\in\mathbb{C},\;a\ne 0.\;}$$</div>
+<ul><li>$|a|$ 是<strong>相似比</strong>（放缩倍数）；</li><li>$\arg a$（$a$ 的幅角）是<strong>旋转角</strong>；</li><li>$b$ 是<strong>平移</strong>。</li></ul>
+<p>"<strong>乘一个复数 + 加一个复数</strong>" = 旋转 + 放缩 + 平移，一气呵成。这正是"相似 = 等距（旋转 + 平移）+ 放缩（$|a|$）"的复数表达。</p>
+<p>![](images/03-相似变换-01.svg)</p>
+<details class="fold"><summary>📐 tikz 源码</summary><div class="fold-body"><pre><code class="language-latex">\begin{tikzpicture}[scale=1.0, every node/.style={font=\normalsize}]
+  \draw[-&gt;, gray!50, very thick] (-0.5,0) -- (5,0) node[right] {$x$};
+  \draw[-&gt;, gray!50, very thick] (0,-0.5) -- (0,3.2) node[above] {$y$};
+  \draw[blue, very thick, fill=blue!12] (1,0) -- (2,0) -- (1,1) -- cycle;
+  \node[blue, below=2pt] at (1.5,0) {$ABC$};
+  \fill[blue] (1,0) circle (2pt) node[below right]{$A$};
+  \fill[blue] (2,0) circle (2pt) node[below]{$B$};
+  \fill[blue] (1,1) circle (2pt) node[left]{$C$};
+  \draw[red, very thick, fill=red!12] (3,1) -- (4,2) -- (2,2) -- cycle;
+  \node[red] at (3.1,1.55) {$A&#x27;B&#x27;C&#x27;$};
+  \fill[red] (3,1) circle (2pt) node[below right]{$A&#x27;$};
+  \fill[red] (4,2) circle (2pt) node[right]{$B&#x27;$};
+  \fill[red] (2,2) circle (2pt) node[left]{$C&#x27;$};
+  \node at (0.9,2.8) {$z\mapsto(1{+}i)z+2$};
+  \node[gray, font=\small] at (3.4,0.35) {scale $\sqrt2$, rot $45°$, shift $2$};
+\end{tikzpicture}</code></pre></div></details>
+<p><strong>这个形式怎么从定义推出来？</strong> 设正向相似 $\mathbf{T}$，比 $k>0$（$d(\mathbf{T}P,\mathbf{T}Q)=k\,d(P,Q)$）。</p>
+<p>记 $b=\mathbf{T}(0)$、$a=\mathbf{T}(1)-b$（注意 $|a|=d(\mathbf{T}(1),\mathbf{T}(0))=k\,d(1,0)=k$）。要证 $\mathbf{T}(z)=az+b$，就是证</p>
+<div class="eq-display">$$\mathbf{T}(z)-b=a\,z\qquad(\text{对任意 }z).$$</div>
+<p><strong>像点的相对位置，由定义定死。</strong> $\mathbf{T}$ 把距离同乘 $k$，所以：</p>
+<ul><li>**到 $b$ 的距离乘 $k$**：$|\mathbf{T}(z)-b|=d(\mathbf{T}(z),\mathbf{T}(0))=k\,d(z,0)=k|z|$，即"以 $0$ 为心、半径 $r$ 的圆"映成"以 $b$ 为心、半径 $kr$ 的圆"。</li><li><strong>把直线映成直线、保角</strong>：三点共线 $\Leftrightarrow d(P,R)=d(P,Q)+d(Q,R)$，被"同乘 $k$"保持；角由三边经余弦定理定，三边同乘 $k$、$\cos$ 不变。</li></ul>
+<p>**正向 ⟹ 从 $b$ 出发的方向整体偏转同一角。** 保直线 + $0$ 映到 $b$ ⟹ 从 $0$ 出发的射线映成从 $b$ 出发的射线。设辐角 $\phi$ 的射线映到辐角 $f(\phi)$ 的射线；保角 ⟹ $f(\phi)-\phi$ 是常数（两条射线夹角不变）；正向定下偏转方向。正实轴（$\phi=0$）映到从 $b$ 过 $\mathbf{T}(1)$ 的射线，方向是 $\arg(\mathbf{T}(1)-b)=\arg a$——所以偏转量 $=\arg a$。</p>
+<p><strong>落下形式。</strong> 任意 $z=re^{i\phi}$（距 $0$ 为 $r$、辐角 $\phi$）：像 $\mathbf{T}(z)$ 距 $b$ 为 $kr$、方向 $\phi+\arg a$。又 $|a|=k$，故 $a=ke^{i\arg a}$，于是</p>
+<div class="eq-display">$$\mathbf{T}(z)-b=kr\,e^{i(\phi+\arg a)}=a\,re^{i\phi}=a\,z,$$</div>
+<p>即 $\mathbf{T}(z)=az+b$。$\square$</p>
+<div class="callout calc"><p>✏️ <strong>手算</strong>：$z\mapsto 2iz$。$|2i|=2$（放大 2 倍），$\arg(2i)=90°$（转 $90°$）。它把 $(1,0)$（即 $z=1$）送到 $2i=(0,2)$：放大 2 倍、转 $90°$。✓</p></div>
+<div class="callout calc"><p>✏️ <strong>含反射的相似（反向）</strong>：$z\mapsto a\bar z+b$。推理和正向几乎一样，只差一步——正向让射线<strong>偏转</strong>同一角，反向让射线<strong>翻转</strong>（定向反了）。同样记 $b=\mathbf{T}(0)$、$a=\mathbf{T}(1)-b$（$|a|=k$）；保角 + <strong>反向</strong> ⟹ 辐角 $\phi$ 的射线映到辐角 $-\phi+\arg a$ 的射线（正实轴仍映到过 $\mathbf{T}(1)$、方向 $\arg a$ 的射线，但 $\phi$ 增大的方向翻了过去）。于是 $z=re^{i\phi}$ 映到 $kr\,e^{i(-\phi+\arg a)}=a\,\overline{z}$，即 $\mathbf{T}(z)=a\bar z+b$。</p></div>
+<p>![](images/03-相似变换-02.svg)</p>
+<details class="fold"><summary>📐 tikz 源码</summary><div class="fold-body"><pre><code class="language-latex">\begin{tikzpicture}[scale=1.0, every node/.style={font=\normalsize}]
+  \draw[-&gt;, gray!50, very thick] (-0.5,0) -- (5,0) node[right] {$x$};
+  \draw[-&gt;, gray!50, very thick] (0,-0.5) -- (0,3.2) node[above] {$y$};
+  \draw[blue, very thick, fill=blue!12] (1,0) -- (2,0) -- (1,1) -- cycle;
+  \node[blue, below=2pt] at (1.5,0) {$ABC$};
+  \fill[blue] (1,0) circle (2pt) node[below right]{$A$};
+  \fill[blue] (2,0) circle (2pt) node[below]{$B$};
+  \fill[blue] (1,1) circle (2pt) node[left]{$C$};
+  \draw[red, very thick, fill=red!12] (3,1) -- (4,2) -- (4,0) -- cycle;
+  \node[red] at (4.3,1) {$A&#x27;B&#x27;C&#x27;$};
+  \fill[red] (3,1) circle (2pt) node[left]{$A&#x27;$};
+  \fill[red] (4,2) circle (2pt) node[above]{$B&#x27;$};
+  \fill[red] (4,0) circle (2pt) node[below]{$C&#x27;$};
+  \node at (0.9,2.8) {$z\mapsto(1{+}i)\bar z+2$};
+  \node[gray, font=\small] at (2.7,-0.4) {flip + scale $\sqrt2$, rot $45°$, shift $2$};
+\end{tikzpicture}</code></pre></div></details>
+<hr>
+<h2 id="sec-3-3"><span class="hn">3.3</span>相似变换的不变量</h2><div class="table-wrap"><table><thead><tr><th>不变量</th><th>在相似变换下</th></tr></thead><tbody><tr><td><strong>角度</strong></td><td><span class="check">✓</span> 保持</td></tr><tr><td><strong>长度比</strong> $\dfrac{AB}{CD}$</td><td><span class="check">✓</span> 保持（都被同乘 $k$）</td></tr><tr><td><strong>面积比</strong></td><td><span class="check">✓</span> 保持（都被同乘 $k^2$）</td></tr><tr><td>平行、垂直</td><td><span class="check">✓</span> 保持</td></tr><tr><td>绝对长度</td><td><span class="cross">✗</span> 丢失（被 $k$ 缩放）</td></tr><tr><td>绝对面积</td><td><span class="cross">✗</span> 丢失（被 $k^2$ 缩放）</td></tr></tbody></table></div>
+<p><strong>关键洞察</strong>：相似变换丢失了"<strong>大小</strong>"，但保留了"<strong>形状</strong>"。</p>
+<div class="callout insight"><p>💡 "<strong>形状</strong>"的数学精确含义：<strong>两个图形同形 ⟺ 存在一个相似变换把它们互变</strong>。日常说"这两个三角形形状一样"，就是存在相似变换连接它们。</p></div>
+<hr>
+<h2 id="sec-3-4"><span class="hn">3.4</span>位似：最纯粹的相似</h2><p>固定一点 $O$（<strong>位似中心</strong>），把每个点沿射线 $OP$ 放缩 $k$ 倍：$\mathbf{H}_{O,k}(P)$ 在射线 $OP$ 上，且 $\dfrac{O\mathbf{H}(P)}{OP}=k$。这叫<strong>位似变换</strong>（homothety）。它是相似里"不旋转、不平移，只放缩"的纯净版本。</p>
+<p>![](images/03-相似变换-03.svg)</p>
+<details class="fold"><summary>📐 tikz 源码</summary><div class="fold-body"><pre><code class="language-latex">\begin{tikzpicture}[scale=2.0, every node/.style={font=\normalsize}]
+  \draw[-&gt;, gray!50, very thick] (-0.5,0) -- (4.9,0) node[right] {$x$};
+  \draw[-&gt;, gray!50, very thick] (0,-0.5) -- (0,3.8) node[above] {$y$};
+  \fill (0,0) circle (3pt) node[below left] {$O$};
+  \draw[blue, very thick, fill=blue!12] (1,0.5) -- (2,0.5) -- (1.5,1.5) -- cycle;
+  \node[blue, below=2pt] at (1.5,0.5) {$ABC$};
+  \draw[gray, dashed, very thick] (0,0) -- (2,1);
+  \draw[gray, dashed, very thick] (0,0) -- (4,1);
+  \draw[gray, dashed, very thick] (0,0) -- (3,3);
+  \draw[red, very thick, fill=red!12] (2,1) -- (4,1) -- (3,3) -- cycle;
+  \node[red] at (3.7,2.2) {$A&#x27;B&#x27;C&#x27;$};
+  \node at (1.6,3.3) {homothety, $k=2$};
+\end{tikzpicture}</code></pre></div></details>
+<div class="callout insight"><p>💡 位似的一个妙用：<strong>任意两个相似图形都能用"位似 + 等距"互变</strong>——先位似把大小对齐，再等距把位置/方向对齐。所以"<strong>相似 = 位似 ∘ 等距</strong>"。</p></div>
+<hr>
+<h2 id="sec-3-5"><span class="hn">3.5</span>相似三角形：AAA 判定的变换本质</h2><p>中学里"相似三角形"判据（AAA、SAS 相似、SSS 相似）用变换一句话说完：</p>
+<div class="callout tip"><p><strong>两个图形相似 ⟺ 存在一个相似变换把一个映成另一个。</strong></p></div>
+<p>几条判据都在问：<strong>给多少数据，一个三角形的形状就被定死（大小可任选）？</strong> 而"相似"无非是说——两个三角形能按同一比例 $k$ <strong>缩放着</strong>对应起来（所有距离都乘 $k$，3.1）。AAA 最底层，直接证；其余归约到它。</p>
+<h3 id="AAA-三角相等-边上距离同比例-相似">AAA：三角相等 ⟺ 边上距离同比例 ⟺ 相似</h3>
+<p>三角对应相等 ⟹ 三边成同一比例：正弦定理给出同一三角形内 $|AB|:|BC|:|AC|=\sin\angle C:\sin\angle A:\sin\angle B$，两三角形角相同 ⟺ 三边之比相同 ⟺ 对应边成同一比例 $k$（$|A'B'|=k|AB|$ 等）。</p>
+<p>于是<strong>边上任意两点</strong>的距离都按 $k$ 缩放。任取两点 $D,E$：</p>
+<ul><li>同一条边上：$DE$ 是弧长之差，按 $k$ 缩放得 $D'E'=k\cdot DE$。</li><li>两条相邻边上：取公共顶点为枢（设为 $A$，$D$ 在 $AB$、$E$ 在 $AC$），由余弦定理</li></ul>
+<div class="eq-display">$$DE^2=AD^2+AE^2-2\cdot AD\cdot AE\cos\angle A,$$</div>
+<p>而 $A'D'=k\cdot AD$、$A'E'=k\cdot AE$、$\angle A'=\angle A$，故 $D'E'=k\cdot DE$。</p>
+<p>边上任意两点的距离都按同一 $k$ 缩放 ⟺ 两三角形相似。$\square$</p>
+<h3 id="SAS-SSS-相似-归约到-AAA">SAS、SSS 相似：归约到 AAA</h3>
+<ul><li><strong>SAS 相似</strong>（$\angle A=\angle A'$ 且 $\dfrac{|AB|}{|A'B'|}=\dfrac{|AC|}{|A'C'|}$）：第三边由余弦定理定，且成同一比例；三边成比例 ⟹ 三角相等（余弦定理反推）⟹ 归约到 AAA。</li><li><strong>SSS 相似</strong>（三边成同一比例 $k$）：余弦定理 $\cos\angle A=\dfrac{|AB|^2+|AC|^2-|BC|^2}{2|AB|\cdot|AC|}$，三边同比 ⟹ $\cos\angle A=\cos\angle A'$ ⟹ $\angle A=\angle A'$，同理三角 ⟹ 归约到 AAA。</li></ul>
+<div class="callout think"><p>🤔 <strong>对比"全等"与"相似"</strong>：差别就一个"大小"——</p>
+<ul><li><strong>全等</strong>（第 2 章）= 所有距离<strong>不变</strong>（$k=1$）⟺ 大小、形状都同 ⟺ 判据用 SSS（边长定）。</li><li><strong>相似</strong>（本章）= 所有距离**同乘 $k$** ⟺ 形状同、大小可异 ⟺ 判据用 AAA（角定形状）。</li></ul>
+<p>全等比相似多约束了"大小"。**约束放松（$k=1$ → $k$ 任意），判据就从"边"换成"角"**——这是变换层级给的一个干净洞察。AAA 之所以是相似的旗舰判据，正因为它直接动用了相似变换最该保的不变量：角。</p></div>
+<hr>
+<h2 id="sec-3-6"><span class="hn">3.6</span>相似群</h2><p>全体相似变换构成一个<strong>群</strong>（用复合运算），叫<strong>相似群</strong> $\mathrm{Sim}(2)$。用 3.2 的复数形式 $\mathbf{T}_{a,b}:z\mapsto az+b$（<strong>正向</strong>相似，$a\ne 0$）来写，群的运算——<strong>复合</strong>与<strong>逆</strong>——有完全显式的公式：</p>
+<ul><li><strong>复合</strong>（群的"乘法"，先做 $\mathbf{T}_{a_2,b_2}$、再做 $\mathbf{T}_{a_1,b_1}$）：</li></ul>
+<div class="eq-display">$$\mathbf{T}_{a_1,b_1}\circ\mathbf{T}_{a_2,b_2}:\; z\mapsto a_1(a_2 z+b_2)+b_1=(a_1 a_2)\,z+(a_1 b_2+b_1),$$</div>
+<p>即复合的参数为 $a=a_1 a_2$、$b=a_1 b_2+b_1$。读出几何意义：<strong>相似比相乘</strong>（$|a|=|a_1||a_2|=k_1 k_2$）、<strong>转角相加</strong>（$\arg a=\arg a_1+\arg a_2$）。所以"先放缩 $2$ 倍转 $30°$、再放缩 $3$ 倍转 $20°$" $=$ "一次放缩 $6$ 倍转 $50°$"——多次操作可合并成一次，这正是封闭性的内容（$a_1 a_2\ne 0$，结果仍是相似）。</p>
+<ul><li><strong>逆</strong>：解 $w=az+b$ 得 $z$，</li></ul>
+<div class="eq-display">$$\mathbf{T}_{a,b}^{-1}:\; z\mapsto \tfrac{1}{a}(z-b)=\tfrac{1}{a}z-\tfrac{b}{a},\qquad\text{即 }a'=\tfrac{1}{a},\ b'=-\tfrac{b}{a},$$</div>
+<p>相似比从 $|a|$ 变成 $1/|a|$（放缩 $k$ 的逆是放缩 $1/k$）✓。</p>
+<ul><li><strong>单位</strong>：$\mathbf{T}_{1,0}:z\mapsto z$（比 $1$、不转、不平移）。</li></ul>
+<p>四条公理由此逐条成立（封闭：$a_1a_2\ne0$ ✓；结合律：复数乘法/加法天然结合；单位、逆：如上）。</p>
+<h3 id="相似的类型-分类定理">相似的类型：分类定理</h3>
+<p>等距按"最少反射数"分成五类（2.4）。相似也有一套分类，而且<strong>更简洁</strong>——只看相似比 $k$ 和正反向。</p>
+<p>**$k=1$**：就是等距，退化为 2.4 的五类（恒等 / 反射 / 旋转 / 平移 / 滑动反射）。</p>
+<p>**$k\ne 1$（真正放缩）<strong>：只剩两类，</strong>都有唯一不动点**——</p>
+<div class="table-wrap"><table><thead><tr><th></th><th>类型</th><th>不动点</th></tr></thead><tbody><tr><td>正向（$\det>0$）</td><td><strong>螺旋相似</strong>（旋转位似）</td><td>唯一</td></tr><tr><td>反向（$\det<0$）</td><td><strong>反射位似</strong></td><td>唯一</td></tr></tbody></table></div>
+<ul><li><strong>螺旋相似</strong>：$z\mapsto az+b$（$|a|\ne 1$）有唯一不动点 $z_0=b/(1-a)$，变换即"绕 $z_0$ 转 $\arg a$、以 $z_0$ 为心放缩 $|a|$"。只放缩不转（$\arg a=0$）就是纯位似；只转不放缩（$|a|=1$）则退化成纯旋转。</li><li><strong>反射位似</strong>：$z\mapsto a\bar z+b$（$|a|\ne 1$）也有唯一不动点，是"关于过不动点的某轴反射 + 同心放缩 $|a|$"。</li></ul>
+<div class="callout insight"><p>💡 **为什么 $k\ne 1$ 只有这两类？** 放缩把"无不动点"的等距吸收掉了：平移再放缩不再是平移，而是绕某点的螺旋相似（$z\mapsto kz+b$ 总解得出不动点 $z_0=b/(1-k)$）。所以等距里"平移、滑动反射"这类<strong>无不动点</strong>的运动，在真正放缩时根本不存在——被吸成了有不动点的螺旋相似 / 反射位似。</p></div>
+<p>而且等距群 $E(2)$ 是 $\mathrm{Sim}(2)$ 的<strong>子群</strong>（$k=1$，即 $|a|=1$ 的那些；含正向 $z\mapsto az+b$ 与反向 $z\mapsto a\bar z+b$）。层级：</p>
+<div class="eq-display">$$E(2)\subset\mathrm{Sim}(2).$$</div>
+<div class="callout insight"><p>💡 <strong>"是群"为什么重要</strong>：它意味着"先放缩 2 倍、再放缩 3 倍"等价于"一次放缩 6 倍"——多次放缩可以合并。这种"可合并"正是群结构的威力。第 7 章爱尔兰根纲领会把它变成：**相似几何 = 研究 $\mathrm{Sim}(2)$ 的不变量**（角、长度比）。</p></div>
+<hr>
+<h2 id="sec-3-7"><span class="hn">3.7</span>自相似与分形：相似在造"怪东西"</h2><p>相似变换有个迷人应用：<strong>反复用相似，造出自相似图形（分形）</strong>。</p>
+<p><strong>Koch 雪花</strong>：从一条线段开始，反复"把每段中间 $1/3$ 替换成向外小三角形的两条边"。每一步，图形由**四个相似比 $1/3$ 的小拷贝<strong>拼成——它是</strong>自相似**的（局部放大 3 倍 ≈ 整体）。</p>
+<div class="callout calc"><p>✏️ <strong>手算 Koch 曲线长度</strong>：每步把每段长度乘 $4/3$（1 段 → 4 段，每段 $1/3$）。初始长 1，$n$ 步后长 $(4/3)^n$。$n\to\infty$ 时长度 $\to\infty$——但它围的面积有限！<strong>无限长的边界围有限的面积</strong>，这是分形的奇观。</p></div>
+<p><strong>Sierpiński 三角形</strong>：把一个三角形分四份、挖中间那个、对剩下三个重复。每步 = 三个相似比 $1/2$ 的小拷贝。</p>
+<p><strong>曼德博集合</strong>：那个著名的"心形 + 无数小芽"，每个小芽放大后又是整体的相似拷贝。</p>
+<div class="callout insight"><p>💡 分形几何（Mandelbrot, 1975）的核心正是<strong>自相似</strong>——图形在相似变换下不变。相似不只用于"放大地图"，它是描述自然界（海岸线、云、血管、闪电）粗糙结构的语言。</p></div>
+<hr>
+<h2 id="sec-3-8"><span class="hn">3.8</span>应用：地图、模型、缩放</h2><p>相似变换无处不在：</p>
+<ul><li><strong>地图与模型</strong>：1:1000 的地图 = 把现实按 $k=1/1000$ 缩小。形状对（角不变），大小不对。</li><li><strong>缩放 UI / 字体</strong>：放大字体 = 相似变换，字形不变。</li><li><strong>黄金比例</strong>：正五边形里到处是黄金比 $\varphi$——它和相似的"不动点"有关（第 8 章对称群会再遇 $D_5$）。</li></ul>
+<hr>
+<h2 id="sec-3-9"><span class="hn">3.9</span>本章小结</h2><div class="summary"><ul><li><strong>相似变换</strong> = 距离同乘 $k$ = 保角变换。复数形式 $z\mapsto az+b$。</li><li><strong>丢大小、保形状</strong>：不变量是角、长度比、面积比。</li><li><strong>位似</strong> = 不转不平移的相似；<strong>相似 = 位似 ∘ 等距</strong>。</li><li><strong>相似三角形 AAA</strong>：三角定形状，相似变换连接。</li><li><strong>相似群</strong> $\mathrm{Sim}(2)\supset E(2)$。</li><li><strong>相似分类</strong>：$k=1$ 退化成等距五类；$k\ne1$ 只两类——螺旋相似（正向）、反射位似（反向），<strong>都有不动点</strong>（放缩吸住了不动点，平移、滑动反射这类无不动点的等距被吸收）。</li><li><strong>自相似</strong>造出分形（Koch、Sierpiński、曼德博）。</li></ul>
+<p>下一章我们再放松一步——允许"斜切、单向拉伸"，得到<strong>仿射变换</strong>：保住平行，但丢掉角和圆。</p>
+<p>下一章：<a href="04.html">第 04 章 · 仿射变换</a></p>
+<hr></div>
+<h2>🧩 本章习题</h2><div class="exercises">
+<div class="exercise"><p class="q"><span class="tag calc">手算</span><strong>题 3.1</strong> 相似比与旋转角</p><p>变换 $z\mapsto 3(\cos 30°+i\sin 30°)\,z+5$ 的相似比和旋转角各是多少？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：$a=3(\cos 30°+i\sin 30°)$，$|a|=3$（相似比 3），$\arg a=30°$（转 $30°$）。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag think">思考</span><strong>题 3.2</strong> 相似 vs 等距</p><p>两个相似变换复合，相似比是多少？为什么 $E(2)$ 是 $\mathrm{Sim}(2)$ 的子群？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：相似比相乘 $k_1 k_2$。等距 = $k=1$ 的相似，两个 $k=1$ 复合还是 $k=1$，故 $E(2)$ 在 $\mathrm{Sim}(2)$ 中封闭，是子群。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag calc">应用</span><strong>题 3.3</strong> 地图面积</p><p>1:50000 的地图上某省面积 $120\text{ cm}^2$，实际面积多少？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：相似比 $k=1/50000$，面积比 $k^2=1/(2.5\times10^9)$。实际 $=120\times 2.5\times10^9\text{ cm}^2=3\times10^{11}\text{ cm}^2=30\text{ km}^2$。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag calc">动手</span><strong>题 3.4</strong> 位似作图</p><p>以 $O$ 为中心、$k=2$ 位似，三角形 $ABC$ 的像在哪？面积变几倍？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：每顶点沿 $OA,OB,OC$ 方向延伸到 $2$ 倍距离处。面积变 $2^2=4$ 倍。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag adv">进阶</span><strong>题 3.5</strong> 分形维数</p><p>Sierpiński 三角形每步 = 三个相似比 $1/2$ 的小拷贝。它的（Hausdorff）维数是多少？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>提示</em>：自相似维数 $d=\dfrac{\log N}{\log(1/k)}$，$N$ 是拷贝数，$k$ 是相似比。
+<em>答</em>：$N=3,k=1/2$，$d=\dfrac{\log 3}{\log 2}\approx 1.585$——介于 1 维（线）和 2 维（面）之间，这就是"分形维数"。</p></div></details></div>
+</div>
+<div class="chapter-nav"><a class="prev" href="02.html"><span class="nav-label">← 上一章</span><span class="nav-title">02 · 刚体变换</span></a><a class="next" href="04.html"><span class="nav-label">下一章 →</span><span class="nav-title">04 · 仿射变换</span></a></div>
+  </main>
+</div>
+<button class="to-top" aria-label="回到顶部">↑</button>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="assets/main.js"></script>
+<script src="assets/viz.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>从变换看几何 · 交互式课件</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="index.html">从变换看几何 <small>· 交互式课件</small></a>
+  <span class="spacer"></span>
+  <button class="icon-btn" data-act="theme" aria-label="切换主题" title="切换深 / 浅色">◐</button>
+</div>
+
+<main class="cover">
+  <div class="cover-main">
+
+    <!-- ============ HERO ============ -->
+    <section class="cover-hero">
+      <span class="kicker">Felix Klein · Erlanger Programm · 1872</span>
+      <h1>从变换看几何</h1>
+      <p class="tagline">换一副眼镜：不再静态地盯着图形，而问——<br>
+        当图形被<strong>移动、旋转、翻转、拉伸、投影</strong>时，<strong>什么留了下来</strong>？</p>
+      <div class="equation">
+        $\text{几何学} \;=\; \text{变换群} \;+\; \text{该群的不变量}$
+      </div>
+      <div class="cover-cta">
+        <a class="btn primary" href="01.html">开始阅读 →</a>
+        <a class="btn ghost" href="#route">查看路线</a>
+      </div>
+    </section>
+
+    <!-- ============ 核心精神 ============ -->
+    <section style="margin: 30px 0 56px;">
+      <div class="bigidea">
+        <span class="label">一句话精神</span>
+        传统中学几何是<strong>静态</strong>的：研究"摆在那里不动的图形本身"。<br>
+        而变换几何问的是——图形在<strong>运动</strong>下，<strong>什么不变</strong>。<br>
+        <span style="color:var(--brand-deep);font-size:1.02rem">每一种几何，都对应一种"允许的运动"；这门几何关心的，就是那些在变换下幸存的性质。</span>
+      </div>
+    </section>
+
+    <!-- ============ 为什么值得学 ============ -->
+    <section style="margin: 0 0 56px;">
+      <div class="section-label">为什么值得学</div>
+      <div class="feature-grid">
+        <div class="feature">
+          <div class="ficon">🧩</div>
+          <h3>把碎片串成地图</h3>
+          <p>全等、相似、对称、位似、平行投影——中学里零散的知识，在变换的眼光下全是同一棵树上的枝叶。</p>
+        </div>
+        <div class="feature">
+          <div class="ficon">🔍</div>
+          <h3>"找不变量"的智慧</h3>
+          <p>面对变化的系统，盯住那个"守恒"的量。这种思维在物理守恒律、代数不变量、信息不变性里一再重现。</p>
+        </div>
+        <div class="feature">
+          <div class="ficon">🌌</div>
+          <h3>通向现代数学腹地</h3>
+          <p>群、对称、不变量、流形——这些 19–20 世纪数学的语言，其几何起源正是这里。</p>
+        </div>
+        <div class="feature">
+          <div class="ficon">⚛️</div>
+          <h3>直通物理学</h3>
+          <p>相对论的"对称性决定定律"、诺特定理的"对称 ↔ 守恒"，数学骨架就是变换群与不变量。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 阅读路线 ============ -->
+    <section id="route" style="margin: 0 0 56px;">
+      <div class="section-label">阅读路线 · 九章</div>
+      <div class="toc-grid">
+        <a class="toc-card" href="01.html">
+          <div class="tc-num">第 01 章</div>
+          <div class="tc-title">引子：运动的眼光看几何</div>
+          <div class="tc-desc">从"静态图形"到"运动眼光"；克莱因 1872 年的革命性宣言。</div>
+          <div class="tc-tags"><span class="tc-tag">克莱因</span><span class="tc-tag">变换群</span></div>
+        </a>
+        <a class="toc-card" href="02.html">
+          <div class="tc-num">第 02 章</div>
+          <div class="tc-title">刚体变换：等距</div>
+          <div class="tc-desc">保距；反射生成一切；等距群 $E(2)$；不变量：距离、角度。</div>
+          <div class="tc-tags"><span class="tc-tag">反射</span><span class="tc-tag">E(2)</span></div>
+        </a>
+        <a class="toc-card" href="03.html">
+          <div class="tc-num">第 03 章</div>
+          <div class="tc-title">相似变换：保形</div>
+          <div class="tc-desc">保角；位似；相似群；自相似与分形（Koch、Sierpiński）。</div>
+          <div class="tc-tags"><span class="tc-tag">位似</span><span class="tc-tag">分形</span></div>
+        </a>
+        <a class="toc-card" href="04.html">
+          <div class="tc-num">第 04 章</div>
+          <div class="tc-title">仿射变换：保平行</div>
+          <div class="tc-desc">保平行、共线比；高潮：椭圆是圆的仿射像；免积分算面积。</div>
+          <div class="tc-tags"><span class="tc-tag">椭圆</span><span class="tc-tag">剪切</span></div>
+        </a>
+        <a class="toc-card" href="05.html">
+          <div class="tc-num">第 05 章</div>
+          <div class="tc-title">射影几何：交比</div>
+          <div class="tc-desc">中心投影、灭点；只保共线；交比是射影不变量；圆锥曲线统一。</div>
+          <div class="tc-tags"><span class="tc-tag">交比</span><span class="tc-tag">灭点</span></div>
+        </a>
+        <a class="toc-card" href="06.html">
+          <div class="tc-num">第 06 章</div>
+          <div class="tc-title">反演变换：直线变圆</div>
+          <div class="tc-desc">关于圆的反演；直线 ↔ 圆互换；保角（反向）；广义圆。</div>
+          <div class="tc-tags"><span class="tc-tag">保角</span><span class="tc-tag">广义圆</span></div>
+        </a>
+        <a class="toc-card" href="07.html">
+          <div class="tc-num">第 07 章 · 高潮</div>
+          <div class="tc-title">爱尔兰根纲领：统一</div>
+          <div class="tc-desc">几何 = 变换群 + 不变量；群越大不变量越少；几何的层级。</div>
+          <div class="tc-tags"><span class="tc-tag">群 + 不变量</span><span class="tc-tag">层级</span></div>
+        </a>
+        <a class="toc-card" href="08.html">
+          <div class="tc-num">第 08 章</div>
+          <div class="tc-title">对称性与群</div>
+          <div class="tc-desc">对称 = 保持图形不变的变换；二面体群；伽罗瓦类比；伯恩赛德计数。</div>
+          <div class="tc-tags"><span class="tc-tag">二面体群</span><span class="tc-tag">伽罗瓦</span></div>
+        </a>
+        <a class="toc-card" href="09.html">
+          <div class="tc-num">第 09 章</div>
+          <div class="tc-title">影响与意义</div>
+          <div class="tc-desc">物理学对称性、计算机视觉、伽罗瓦理论——不变量思想走向现代世界。</div>
+          <div class="tc-tags"><span class="tc-tag">诺特定理</span><span class="tc-tag">规范场</span></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ 层级互动 ============ -->
+    <section style="margin: 0 0 48px;">
+      <div class="section-label">先睹为快 · 几何的层级</div>
+      <p style="color:var(--text-soft);margin-bottom:8px">九个章节，本质是顺着这张表，一层层"剥夺"图形的性质，看每一步剥夺之后，还剩下什么。点击下方任一级，感受"群越大，不变量越少"：</p>
+      <div data-viz="hierarchy"></div>
+    </section>
+
+    <!-- ============ 给读者的话 ============ -->
+    <section style="margin: 0 0 40px;">
+      <div class="section-label">给读者的话</div>
+      <div class="callout def">
+        <div class="callout-title"><span class="ico">🎯</span>前置与约定</div>
+        <ul>
+          <li><strong>前置知识</strong>：会平面直角坐标系、基本三角、复数初步。需要群论的地方会现讲，不强求先学。</li>
+          <li><strong>每个概念都配例子</strong>，而且尽量选<strong>能动手算一遍</strong>的——数学不是看会的，是算会的。</li>
+          <li><strong>符号约定</strong>：变换用粗体字母（如 $\mathbf{T}$），复合按"右起作用"读，即 $\mathbf{S}\mathbf{T}(P)$ 表示先 $\mathbf{T}$ 后 $\mathbf{S}$。</li>
+          <li><strong>关于证明</strong>：每一条重要定理都会给出能跟进、可手算验证的证明。看不懂证明的结论只是别人的话；看懂了，才是你自己的几何。</li>
+        </ul>
+      </div>
+      <div class="callout insight">
+        <p>💡 这套课件不只是文字——<strong>每一章都嵌有可动手的交互演示</strong>：拖动镜子看反射合成旋转、滑动矩阵看圆变椭圆、拖动点算交比、转正多边形看对称群……让"变换"真正动起来。</p>
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="cover-foot">
+    从变换看几何 · 交互式课件 &nbsp;|&nbsp; 基于 Felix Klein《Erlangen Programm》(1872) &nbsp;|&nbsp;
+    <a href="01.html">开始第 1 章 →</a>
+  </footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="assets/main.js"></script>
+<script src="assets/viz.js"></script>
+</body>
+</html>

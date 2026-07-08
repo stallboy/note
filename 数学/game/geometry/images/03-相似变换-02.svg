@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：相似变换 z ↦ (1+i)z̄ + 2
+     原图 ABC 经 翻转+放大√2+旋转45°+平移2 得 像 A'B'C'；
+     虚线箭头标出三对对应顶点的映射。坐标按几何精确计算。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 40 500 340" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+    <marker id="arrSm" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9aa7b8"/>
+    </marker>
+  </defs>
+
+  <!-- 坐标系：原点 O(60,320)，单位 80px。x 向右、y 向上 -->
+  <g stroke="#9aa7b8" stroke-width="1.8" fill="none">
+    <line x1="20" y1="320" x2="460" y2="320" marker-end="url(#arr)"/>
+    <line x1="60" y1="360" x2="60" y2="64" marker-end="url(#arr)"/>
+  </g>
+  <text x="468" y="325" fill="#6b7280" font-size="15">x</text>
+  <text x="52" y="56" fill="#6b7280" font-size="15">y</text>
+  <text x="52" y="332" fill="#6b7280" font-size="13">O</text>
+
+  <!-- 变换公式 -->
+  <text x="132" y="96" fill="#374151" font-size="16">z ↦ (1+i)z̄ + 2</text>
+
+  <!-- ===== 原图 ABC：(1,0)(2,0)(1,1) → 屏幕(140,320)(220,320)(140,240) ===== -->
+  <g>
+    <polygon points="140,320 220,320 140,240" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="140" cy="320" r="2.6" fill="#1f3a5f"/>
+    <circle cx="220" cy="320" r="2.6" fill="#1f3a5f"/>
+    <circle cx="140" cy="240" r="2.6" fill="#1f3a5f"/>
+    <text x="150" y="338" fill="#374151" font-size="15">A</text>
+    <text x="220" y="340" text-anchor="middle" fill="#374151" font-size="15">B</text>
+    <text x="130" y="244" text-anchor="end" fill="#374151" font-size="15">C</text>
+    <text x="180" y="306" text-anchor="middle" fill="#374151" font-size="14">原图</text>
+  </g>
+
+  <!-- ===== 对应顶点映射：虚线箭头 A→A', B→B', C→C' ===== -->
+  <g stroke="#9aa7b8" stroke-width="1.5" stroke-dasharray="4 3" fill="none">
+    <line x1="148" y1="316" x2="292" y2="244" marker-end="url(#arrSm)"/>
+    <line x1="226" y1="316" x2="374" y2="166" marker-end="url(#arrSm)"/>
+    <line x1="146" y1="236" x2="372" y2="314" marker-end="url(#arrSm)"/>
+  </g>
+
+  <!-- ===== 像 A'B'C'：(3,1)(4,2)(4,0) → 屏幕(300,240)(380,160)(380,320) ===== -->
+  <g>
+    <polygon points="300,240 380,160 380,320" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="300" cy="240" r="2.6" fill="#1f3a5f"/>
+    <circle cx="380" cy="160" r="2.6" fill="#1f3a5f"/>
+    <circle cx="380" cy="320" r="2.6" fill="#1f3a5f"/>
+    <text x="290" y="244" text-anchor="end" fill="#374151" font-size="15">A′</text>
+    <text x="380" y="150" text-anchor="middle" fill="#374151" font-size="15">B′</text>
+    <text x="380" y="340" text-anchor="middle" fill="#374151" font-size="15">C′</text>
+    <text x="404" y="244" fill="#6b7280" font-size="14">像</text>
+  </g>
+
+  <!-- 说明 -->
+  <text x="276" y="358" text-anchor="middle" fill="#6b7280" font-size="13">翻转 + 放大 √2，旋转 45°，平移 2</text>
+</svg>

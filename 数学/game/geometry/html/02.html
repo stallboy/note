@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 02 章 · 刚体变换：等距 — 从变换看几何</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="progress-bar"></div>
+<div class="topbar">
+  <button class="icon-btn menu-btn" data-act="menu" aria-label="菜单">☰</button>
+  <a class="brand" href="index.html">从变换看几何 <small>· 交互式课件</small></a>
+  <span class="spacer"></span>
+  <span class="crumb"></span>
+  <button class="icon-btn" data-act="theme" aria-label="切换主题" title="切换深 / 浅色">◐</button>
+</div>
+<div class="layout">
+  <aside class="sidebar"></aside>
+  <main class="content">
+<div class="chapter-head"><div class="eyebrow"><span class="pill">第 2 章</span> 从变换看几何</div><h1>刚体变换：把图形当一块"刚硬的铁板"</h1></div>
+
+<h2 id="sec-2-1"><span class="hn">2.1</span>什么是"刚体"</h2><p>把一个三角形画在一张<strong>硬纸板</strong>上，剪下来。你能对它做的事，无非三种：</p>
+<ul><li><strong>平移</strong>：整个推走，不转；</li><li><strong>旋转</strong>：钉住一个点，转动；</li><li><strong>翻折</strong>：翻个面（镜像）。</li></ul>
+<p>无论怎么折腾，这块硬纸板<strong>绝不会变形</strong>——边还是那么长，角还是那么大，面积还是那么大。这就是"<strong>刚体</strong>"（rigid body）的含义：<strong>任何两点间的距离都不变</strong>。</p>
+<div class="callout def"><p>🎯 <strong>定义</strong>：平面上的一个变换 $\mathbf{T}$ 称为<strong>等距变换</strong>（isometry，又称<strong>刚体运动</strong>），如果它<strong>保持任意两点的距离</strong>：</p>
+<div class="eq-display">$$\text{对任意 } P,Q,\quad d(\mathbf{T}(P),\,\mathbf{T}(Q)) = d(P,Q).$$</div></div>
+<p>这是变换几何的<strong>地基</strong>。整个欧氏几何研究的就是这种变换下不变的性质。</p>
+<div class="callout insight"><p>💡 注意"等距"的精确定义只要求"保距"，<strong>没有</strong>直接要求保角、保面积、把直线变直线。神奇的是——<strong>这些全都是"保距"的自动推论</strong>！等距变换天然保角、保面积、把直线映成直线。这就是"不变量"思想的第一课：<strong>一个看似不起眼的不变量（距离），竟能拖出一整套性质。</strong></p></div>
+<h2 id="sec-2-2"><span class="hn">2.2</span>三种基本等距：平移、旋转、反射</h2><div class="viz" data-viz="transform-lab" data-title="变换实验台：动手感受平移 / 旋转 / 反射 / 拉伸"></div><p>我们用坐标公式把它们一个个写清楚。</p>
+<h3 id="1-平移-translation">(1) 平移 translation</h3>
+<p>把平面上每个点都朝同一方向移动同样距离。设移动向量 $(a,b)$：</p>
+<div class="eq-display">$$\mathbf{T}_{(a,b)}:\;(x,y) \mapsto (x+a,\; y+b).$$</div>
+<div class="callout calc"><p>✏️ <strong>手算</strong>：平移 $(3,-2)$ 把点 $(1,4)$ 送到 $(4,2)$；把原点 $(0,0)$ 送到 $(3,-2)$。</p>
+<p><strong>保距验证</strong>：任两点 $P=(x_1,y_1), Q=(x_2,y_2)$，平移后 $P'=(x_1+a,y_1+b), Q'=(x_2+a,y_2+b)$。</p>
+<div class="eq-display">$$d(P',Q')=\sqrt{((x_2+a)-(x_1+a))^2+((y_2+b)-(y_1+b))^2}=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}=d(P,Q).\checkmark$$</div>
+<p>减号把 $a,b$ 全消掉了——平移保距，根本原因在此。</p></div>
+<h3 id="2-旋转-rotation">(2) 旋转 rotation</h3>
+<p>钉住一个点 $O$（旋转中心），把每个点绕 $O$ 转过角度 $\theta$。最常见的是绕原点：</p>
+<div class="eq-display">$$\mathbf{R}_\theta:\;(x,y)\mapsto (x\cos\theta - y\sin\theta,\; x\sin\theta + y\cos\theta).$$</div>
+<div class="callout calc"><p>✏️ <strong>手算</strong>：绕原点转 $90°$（$\theta=\pi/2$，$\cos=0,\sin=1$）：</p>
+<div class="eq-display">$$(x,y)\mapsto (-y,\;x).$$</div>
+<p>检验：$(1,0)\mapsto(0,1)$ ✓（正 $x$ 轴转到正 $y$ 轴）；$(0,1)\mapsto(-1,0)$ ✓。</p></div>
+<p>为什么旋转保距？最优雅的看法是<strong>复数</strong>。记 $z=x+iy$，绕原点转 $\theta$ 就是乘以 $e^{i\theta}=\cos\theta+i\sin\theta$：</p>
+<div class="eq-display">$$z \mapsto e^{i\theta} z.$$</div>
+<p>而乘法保模长：$|e^{i\theta}z|=|e^{i\theta}|\,|z|=1\cdot|z|=|z|$。两个点 $z_1,z_2$ 的距离是 $|z_1-z_2|$，旋转后 $|e^{i\theta}z_1-e^{i\theta}z_2|=|e^{i\theta}|\,|z_1-z_2|=|z_1-z_2|$。<strong>一行就证完了。</strong></p>
+<h3 id="3-反射-reflection">(3) 反射 reflection</h3>
+<p>关于一条直线（"镜面"$\ell$）翻折。每个点 $P$ 映到它关于 $\ell$ 的对称点 $P'$。</p>
+<p>最简单的两个反射：</p>
+<ul><li>关于 $x$ 轴：$(x,y)\mapsto(x,-y)$；</li><li>关于 $y$ 轴：$(x,y)\mapsto(-x,y)$；</li><li>关于直线 $y=x$：$(x,y)\mapsto(y,x)$（横纵坐标互换）。</li></ul>
+<div class="callout calc"><p>✏️ <strong>手算</strong>：关于 $y=x$ 反射，把 $(3,5)\mapsto(5,3)$。在直角坐标系里，这就是点 $(3,5)$ 翻到对角线另一侧的镜像。</p></div>
+<p>反射<strong>保距</strong>（镜像不拉伸），但它<strong>反转定向</strong>——左手变右手。这是反射区别于平移、旋转的关键，下面会用到。</p>
+<h3 id="定向-左手系-vs-右手系">定向：左手系 vs 右手系</h3>
+<p>平移和旋转（叫"<strong>正向等距</strong>"，proper isometries）保持图形的"手性"：一个字母 <strong>R</strong> 转来转去还是 R，不会变成镜像。</p>
+<p>反射把 <strong>R</strong> 变成 <strong>Я</strong>（镜像）。这种"翻面"的变换叫"<strong>反向等距</strong>"（improper）。</p>
+<p>判定一个等距是正向还是反向，看它的矩阵行列式：$\det = +1$ 正向，$\det=-1$ 反向。</p>
+<div class="table-wrap"><table><thead><tr><th>变换</th><th>矩阵（线性部分）</th><th>$\det$</th><th>定向</th></tr></thead><tbody><tr><td>旋转 $\theta$</td><td>$\begin{pmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{pmatrix}$</td><td>$+1$</td><td>正</td></tr><tr><td>关于 $x$ 轴反射</td><td>$\begin{pmatrix}1&0\\0&-1\end{pmatrix}$</td><td>$-1$</td><td>反</td></tr><tr><td>关于 $y=x$ 反射</td><td>$\begin{pmatrix}0&1\\1&0\end{pmatrix}$</td><td>$-1$</td><td>反</td></tr></tbody></table></div>
+<h2 id="sec-2-3"><span class="hn">2.3</span>反射生成定理：万物皆由镜子造</h2><div class="viz" data-viz="mirror"></div><p>现在来了本章最重要、也最优雅的定理。</p>
+<div class="theorem-box"><div class="thm-head"><span class="tag">定理</span></div><p><strong>定理（反射生成定理）</strong>：平面上的<strong>任何</strong>等距变换，都可以写成<strong>至多三个反射的复合</strong>。</p></div>
+<p>换句话说——<strong>平面上所有的刚体运动，全都是"照镜子"造出来的</strong>。镜面反射是唯一的"基本砖"，平移和旋转都是用砖砌出来的。</p>
+<p>我们用具体例子拆开来看，每一种等距怎么由反射拼出。</p>
+<h3 id="例-1-两个反射-一个旋转-当镜面相交">例 1：两个反射 = 一个旋转（当镜面相交）</h3>
+<p>取两条过原点、夹角为 $\alpha$ 的直线作镜面，做两次反射，结果是**绕原点转 $2\alpha$**。</p>
+<div class="callout calc"><p>✏️ <strong>手算</strong>：取镜面为 $x$ 轴，再取镜面为直线 $y=x$（与 $x$ 轴夹角 $\alpha=45°$）。</p>
+<ul><li>关于 $x$ 轴反射：$\mathbf{S}_1(x,y)=(x,-y)$；</li><li>关于 $y=x$ 反射：$\mathbf{S}_2(x,y)=(y,x)$。</li></ul>
+<p>先 $\mathbf{S}_1$ 后 $\mathbf{S}_2$（注意复合顺序，右起作用）：</p>
+<div class="eq-display">$$\mathbf{S}_2\mathbf{S}_1(x,y)=\mathbf{S}_2(x,-y)=(-y,\;x).$$</div>
+<p>这正是绕原点转 $90°$！而 $90° = 2\times 45° = 2\alpha$。✓</p></div>
+<p>![](images/02-刚体变换-等距-01.svg)</p>
+<details class="fold"><summary>📐 tikz 源码</summary><div class="fold-body"><pre><code class="language-latex">\begin{tikzpicture}[scale=3.25, every node/.style={font=\normalsize}]
+  \draw[-&gt;, gray!50, very thick] (-1.7,0) -- (2.3,0) node[right] {$x$};
+  \draw[-&gt;, gray!50, very thick] (0,-1.3) -- (0,1.9) node[above] {$y$};
+  \draw[blue, very thick] (-1.5,0) -- (1.5,0);
+  \node[blue] at (1.85,-0.28) {mirror 1};
+  \draw[blue, very thick] (0,0) -- (1.3,1.3);
+  \node[blue] at (1.05,1.5) {mirror 2};
+  \draw[-&gt;, gray, very thick] (0.75,0) arc (0:45:0.75);
+  \node at (0.95,0.2) {$\alpha$};
+  \fill            (0.866, 0.5) circle (3pt) node[right] {$P$};
+  \fill[gray]      (0.866,-0.5) circle (3pt) node[right] {$S_1(P)$};
+  \draw[gray, dashed, very thick] (0.866,0.5) -- (0.866,-0.5);
+  \fill[red]       (-0.5,0.866) circle (3pt) node[above left] {$S_2S_1(P)$};
+  \draw[red, dashed, very thick] (0.866,-0.5) -- (-0.5,0.866);
+  \draw[-&gt;, red!55, very thick] (0.866,0.5) arc (30:120:1);
+  \node[red] at (0.6,1.45) {rot $2\alpha$};
+\end{tikzpicture}</code></pre></div></details>
+<p>**为什么是 $2\alpha$？** 一面镜子把方向"翻过去"，翻的角度是 $2\alpha$；再翻一次只是平移了镜面，不再增加转角。几何直观：两条相交直线间的角 $\alpha$，反射一次把光线"折"了 $2\alpha$。</p>
+<h3 id="例-2-两个反射-一个平移-当镜面平行">例 2：两个反射 = 一个平移（当镜面平行）</h3>
+<p>取两条<strong>平行</strong>直线作镜面，做两次反射，结果是<strong>沿垂直方向的一个平移</strong>，平移距离 = 两镜面距离的 2 倍。</p>
+<div class="callout calc"><p>✏️ <strong>手算</strong>：取镜面 $x=0$（$y$ 轴）和 $x=1$（与 $y$ 轴平行，距离 1）。</p>
+<ul><li>关于 $x=0$ 反射：$\mathbf{S}_1(x,y)=(-x,y)$；</li><li>关于 $x=1$ 反射：$\mathbf{S}_2(x,y)=(2-x,y)$（点 $(x,y)$ 关于直线 $x=1$ 的对称点横坐标为 $2-x$）。</li></ul>
+<p>先 $\mathbf{S}_1$ 后 $\mathbf{S}_2$：</p>
+<div class="eq-display">$$\mathbf{S}_2\mathbf{S}_1(x,y)=\mathbf{S}_2(-x,y)=(2-(-x),\;y)=(x+2,\;y).$$</div>
+<p>这是**沿 $x$ 方向平移 $2$**！而两镜面距离 $1$，平移量 $2=2\times1$。✓</p></div>
+<p>![](images/02-刚体变换-等距-02.svg)</p>
+<details class="fold"><summary>📐 tikz 源码</summary><div class="fold-body"><pre><code class="language-latex">\begin{tikzpicture}[scale=3.25, every node/.style={font=\normalsize}]
+  \draw[-&gt;, gray!50, very thick] (-1.0,0) -- (2.7,0) node[right] {$x$};
+  \draw[-&gt;, gray!50, very thick] (0,-1.5) -- (0,1.8) node[above] {$y$};
+  \draw[blue, very thick] (0,-1.2) -- (0,1.6);
+  \draw[blue, very thick] (1,-1.2) -- (1,1.6);
+  \node[blue] at (-0.55,1.55) {mirror 1};
+  \node[blue] at (1.55,1.55) {mirror 2};
+  \draw[&lt;-&gt;, gray, very thick] (0,-1.05) -- (1,-1.05) node[midway, below] {dist 1};
+  \fill       (-0.6,0.6) circle (3pt) node[left] {$P$};
+  \fill[gray] ( 0.6,0.6) circle (3pt) node[above] {$S_1(P)$};
+  \draw[gray, dashed, very thick] (-0.6,0.6) -- (0.6,0.6);
+  \fill[red]  ( 1.4,0.6) circle (3pt) node[above] {$S_2S_1(P)$};
+  \draw[red,  dashed, very thick] (0.6,0.6) -- (1.4,0.6);
+  \draw[-&gt;, red!55, very thick] (-0.6,0.18) -- (1.4,0.18)
+        node[midway, below] {shift $=2$};
+\end{tikzpicture}</code></pre></div></details>
+<h3 id="例-3-旋转-平移-还是旋转-或平移">例 3：旋转 + 平移 = 还是旋转（或平移）</h3>
+<p>正向等距 $\mathbf{R}_\theta$ 后接平移 $\mathbf{T}$，结果<strong>仍然是某个旋转</strong>（只是旋转中心变了），除非 $\theta=0$（那就退化成平移）。这就是说：<strong>正向等距全体对"复合"封闭</strong>——它们组成一个"群"（下一节 2.4 正式讲什么是群、为什么等距是群）。</p>
+<h3 id="一般等距的拼装">一般等距的拼装</h3>
+<p>把上面的规律组合起来：</p>
+<div class="table-wrap"><table><thead><tr><th>等距类型</th><th>反射个数</th><th>拼法</th></tr></thead><tbody><tr><td>平移</td><td>2</td><td>两平行镜面</td></tr><tr><td>旋转</td><td>2</td><td>两相交镜面</td></tr><tr><td>反射</td><td>1</td><td>一面镜子</td></tr><tr><td>滑移反射（glide reflection）</td><td>3</td><td>反射 + 沿镜面平移</td></tr></tbody></table></div>
+<p>所以任何等距 $\le 3$ 个反射搞定。下面给出<strong>严格证明</strong>——它是本章最重要的证明，值得逐行跟进。</p>
+<h3 id="反射生成定理的证明">反射生成定理的证明</h3>
+<p>证明分两步：先证一个引理（等距被三点钉死），再用"逐点对齐法"构造反射。</p>
+<div class="theorem-box"><div class="thm-head"><span class="tag">引理</span></div><p><strong>引理（等距被不共线三点唯一决定）</strong>：若两个等距 $\mathbf{T},\mathbf{U}$ 在<strong>不共线</strong>的三点 $A,B,C$ 上取值相同（即 $\mathbf{T}(A)=\mathbf{U}(A)$ 等），则对平面上<strong>任意</strong>点 $X$ 都有 $\mathbf{T}(X)=\mathbf{U}(X)$，从而 $\mathbf{T}=\mathbf{U}$。</p>
+<p><em>证</em>：$\mathbf{T}(X)$ 到 $\mathbf{T}(A),\mathbf{T}(B),\mathbf{T}(C)$ 的三个距离，等于 $X$ 到 $A,B,C$ 的三个距离（等距保距）。同理 $\mathbf{U}(X)$ 到这三点也等于同样的三个距离。所以 $\mathbf{T}(X)$ 与 $\mathbf{U}(X)$ 都是"以三个不共线的已知点为心、已知半径的三个圆"的公共交点。而<strong>三个圆心不共线时，三个圆至多一个公共点</strong>（两个交点必然要求圆心共线——因为两圆交点的连线垂直于连心线，第三圆要过这两点则其圆心也在那条连线上）。故 $\mathbf{T}(X)=\mathbf{U}(X)$。$\square$</p>
+<p>💡 这正是 <strong>GPS 三点定位</strong>的原理：到三个不共线卫星的距离，唯一锁定你的位置。</p></div>
+<p><strong>主定理的构造证明</strong>：给定等距 $\mathbf{T}$ 和不共线三点 $A,B,C$，记 $A'=\mathbf{T}(A)$ 等。我们<strong>造出</strong>至多三个反射 $\mathbf{S}_1,\mathbf{S}_2,\mathbf{S}_3$，让它们的复合把 $A,B,C$ 依次送到 $A',B',C'$。</p>
+<ul><li>**第 1 个反射（对齐 $A$）**：若 $A\ne A'$，取线段 $AA'$ 的<strong>中垂线</strong> $\ell_1$。中垂线上每点到 $A,A'$ 等距，故关于 $\ell_1$ 的反射 $\mathbf{S}_1$ 把 $A$ 送到 $A'$。（若 $A=A'$，跳过这步。）</li><li>**第 2 个反射（对齐 $B$，同时<strong>保住</strong>$A$）**：记 $B_1=\mathbf{S}_1(B)$。因 $\mathbf{S}_1$ 保距，$|A'B_1|=|AB|$；因 $\mathbf{T}$ 保距，$|A'B'|=|AB|$。所以 $B_1,B'$ 同在以 $A'$ 为心、半径 $|AB|$ 的圆上。若 $B_1\ne B'$，取 $B_1B'$ 的中垂线 $\ell_2$——它**过 $A'$**（因为 $A'$ 到 $B_1,B'$ 等距）。关于 $\ell_2$ 的反射 $\mathbf{S}_2$ 把 $B_1$ 送到 $B'$，且**固定 $A'$**（因 $A'\in\ell_2$）。于是 $\mathbf{S}_2\mathbf{S}_1$ 已把 $A\to A'$、$B\to B'$。</li><li>**第 3 个反射（对齐 $C$，同时<strong>保住</strong>$A,B$）**：记 $C_2=\mathbf{S}_2\mathbf{S}_1(C)$。$C_2$ 和 $C'$ 到 $A'$ 的距离都是 $|AC|$、到 $B'$ 的距离都是 $|BC|$。以 $A',B'$ 为心的两个圆至多两个交点，且关于直线 $A'B'$ 对称。所以若 $C_2\ne C'$，它们关于直线 $A'B'$ 对称；关于 $A'B'$ 的反射 $\mathbf{S}_3$ 固定 $A',B'$，把 $C_2$ 送到 $C'$。</li></ul>
+<p>至此 $\mathbf{S}_3\mathbf{S}_2\mathbf{S}_1$ 把 $A,B,C$ 分别送到 $A',B',C'$，与 $\mathbf{T}$ 在三点上取值相同。由引理，$\mathbf{T}=\mathbf{S}_3\mathbf{S}_2\mathbf{S}_1$——<strong>至多 3 个反射</strong>。$\square$</p>
+<div class="callout insight"><p>💡 这个证明是<strong>构造性</strong>的：它不只说"存在"，还告诉你<strong>怎么造</strong>镜面（中垂线、连线）。每一步"对齐一个新点、保住已对齐的点"。这种"逐步对齐"是几何作图与几何证明的典范手法，后面（第 8 章对称群）会反复见到它的影子。</p></div>
+<div class="callout insight"><p>💡 <strong>为什么这个定理重要？</strong></p>
+<ol><li>它说明反射是等距的"<strong>原子</strong>"——复杂运动有简单结构。</li><li>它是"<strong>几何代数化</strong>"的典范：把几何操作（运动）还原为代数操作（反射的复合）。</li><li>它在三维、在物理（晶体对称、分子结构）里直接复用：3D 中任何刚体运动 = 至多 4 个反射。</li></ol></div>
+<h2 id="sec-2-4"><span class="hn">2.4</span>等距变换构成一个群</h2><h3 id="什么是-群-一组变换-接着做-的运算">什么是"群"？——一组变换 + "接着做"的运算</h3>
+<p>我们已经攒了平移、旋转、反射，还看到它们能<strong>复合</strong>（两个反射 = 旋转或平移，见 2.3）。把这些变换放在一起，它们有某种统一的结构——数学上叫<strong>群</strong>。群是描述"对称"和"可逆操作"的基本语言。</p>
+<div class="callout def"><p>🎯 <strong>群的定义（变换版本）</strong>：一组变换 $G$，配上"<strong>复合</strong>"这个运算（记 $\mathbf{S}\circ\mathbf{T}$ 或简写 $\mathbf{ST}$，意思是"先做 $\mathbf{T}$，再做 $\mathbf{S}$"），满足四条公理：</p>
+<ol><li><strong>封闭</strong>：$G$ 中任两个 $\mathbf{S},\mathbf{T}$，其复合 $\mathbf{ST}$ **仍在 $G$ 中**。</li><li><strong>结合律</strong>：$(\mathbf{ST})\mathbf{R}=\mathbf{S}(\mathbf{TR})$（连做三次，先合并哪两次不影响结果）。</li><li><strong>单位元</strong>：$G$ 中有一个"什么都不做"的恒等变换 $\mathbf{id}$，对任何 $\mathbf{T}$ 满足 $\mathbf{id}\,\mathbf{T}=\mathbf{T}\,\mathbf{id}=\mathbf{T}$。</li><li><strong>逆元</strong>：$G$ 中每个 $\mathbf{T}$ 都有"撤销"它的 $\mathbf{T}^{-1}$，使 $\mathbf{T}\,\mathbf{T}^{-1}=\mathbf{T}^{-1}\mathbf{T}=\mathbf{id}$。</li></ol></div>
+<p>一句话：<strong>群 = 一组"动作"，可以接连着做（封闭）、有个"不做"（单位）、每个都能撤销（有逆）</strong>。复合就是群的"乘法"。</p>
+<div class="callout insight"><p>💡 <strong>群乘法不一定可交换</strong>：$\mathbf{ST}$ 未必等于 $\mathbf{TS}$。例如"先平移再旋转"和"先旋转再平移"，结果一般不同（你自己拿 $(1,0)$ 试一下：先右移 1 再转 90° 得 $(0,2)$，先转 90° 再右移 1 得 $(2,0)$——不同）。所以群允许"乘法不交换"，这是它比普通加法丰富的地方。</p></div>
+<h3 id="为什么等距变换是群-逐条验证">为什么等距变换是群？——逐条验证</h3>
+<p>这是本章最重要的"群练习"：把抽象的四条公理，落到"等距"这个具体对象上。</p>
+<p><strong>① 封闭</strong>：两个等距的复合还是等距。若 $\mathbf{S},\mathbf{T}$ 都保距，对任意 $P,Q$：</p>
+<div class="eq-display">$$d\bigl((\mathbf{ST})(P),(\mathbf{ST})(Q)\bigr)=d\bigl(\mathbf{S}(\mathbf{T}P),\mathbf{S}(\mathbf{T}Q)\bigr)\overset{\mathbf{S}\text{ 保距}}{=}d(\mathbf{T}P,\mathbf{T}Q)\overset{\mathbf{T}\text{ 保距}}{=}d(P,Q).$$</div>
+<p>所以 $\mathbf{ST}$ 保距，是等距。✓</p>
+<p><strong>② 结合律</strong>：变换复合天然结合，这是"函数复合"的普遍性质（与是否等距无关）。对任意点 $P$：</p>
+<div class="eq-display">$$((\mathbf{ST})\mathbf{R})(P)=(\mathbf{ST})(\mathbf{R}P)=\mathbf{S}(\mathbf{T}(\mathbf{R}P))=\mathbf{S}((\mathbf{TR})(P))=(\mathbf{S}(\mathbf{TR}))(P).$$</div>
+<p>所以 $(\mathbf{ST})\mathbf{R}=\mathbf{S}(\mathbf{TR})$。✓</p>
+<p><strong>③ 单位元</strong>：恒等变换 $\mathbf{id}(P)=P$ 不动任何点，自然保距，是等距。✓</p>
+<p><strong>④ 逆元</strong>：先说明等距一定是<strong>双射</strong>——<strong>单射</strong>：若 $\mathbf{T}(P)=\mathbf{T}(Q)$，则 $0=d(\mathbf{T}P,\mathbf{T}Q)=d(P,Q)$，故 $P=Q$；又由反射生成定理 $\mathbf{T}=$ 反射的复合，而每个反射是双射，复合仍双射，故 $\mathbf{T}$ 满射。于是 $\mathbf{T}^{-1}$ 存在。它还保距：对任意 $P',Q'$，令 $P=\mathbf{T}^{-1}P',\,Q=\mathbf{T}^{-1}Q'$（即 $P'=\mathbf{T}P,\,Q'=\mathbf{T}Q$），则</p>
+<div class="eq-display">$$d(\mathbf{T}^{-1}P',\mathbf{T}^{-1}Q')=d(P,Q)=d(\mathbf{T}P,\mathbf{T}Q)=d(P',Q').$$</div>
+<p>所以 $\mathbf{T}^{-1}$ 也是等距，**仍在 $E(2)$ 中**。✓</p>
+<p>四条全满足——<strong>全体等距变换构成一个群</strong>，记作 $E(2)$（二维欧氏群）。</p>
+<div class="callout insight"><p>💡 <strong>反射生成定理的新含义</strong>：$E(2)$ 这个群，由"反射"这一类元素<strong>生成</strong>——整个群从这一种砖砌出来。反射叫做 $E(2)$ 的<strong>生成元</strong>。这是"用生成元刻画群"的第一个例子，第 8 章会反复用到。</p></div>
+<h3 id="等距的四种类型-分类定理">等距的四种类型：分类定理</h3>
+<p>反射生成定理（2.3）说每个等距 $\le 3$ 个反射。按"<strong>最少需要几个反射来实现它</strong>"分类，恰好得到四类（加恒等）：</p>
+<div class="callout tip"><p><strong>等距分类定理</strong>：每个平面等距，恰为以下五类之一：</p>
+<div class="table-wrap"><table><thead><tr><th>最少反射数</th><th>类型</th><th>几何描述</th></tr></thead><tbody><tr><td>0</td><td>恒等 $\mathbf{id}$</td><td>不动</td></tr><tr><td>1</td><td><strong>反射</strong></td><td>关于一条直线翻折</td></tr><tr><td>2</td><td><strong>旋转</strong> 或 <strong>平移</strong></td><td>两镜面相交 → 旋转；两镜面平行 → 平移（见 2.3）</td></tr><tr><td>3</td><td><strong>滑动反射</strong>（glide reflection）</td><td>反射 + 沿镜面方向平移</td></tr></tbody></table></div>
+<p>这五类<strong>穷尽且互斥</strong>——每个等距属于且仅属于一类。（证明要点：反射个数决定定向——偶数个反射为正向、奇数个为反向；再用"是否有不动点"区分旋转/平移、反射/滑动反射。）</p></div>
+<p><strong>滑动反射</strong>是唯一还没解释的一类：先关于一条直线 $\ell$ 反射，再沿 $\ell$ 方向平移一段<strong>非零</strong>距离。最直观的例子是<strong>沙滩上一串脚印</strong>——左右脚交替，每一步正是"翻面（换左右脚）+ 沿前进方向平移"。</p>
+<div class="callout calc"><p>✏️ <strong>手算</strong>：关于 $x$ 轴反射，再沿 $x$ 轴平移 $1$：$(x,y)\mapsto(x,-y)\mapsto(x+1,-y)$。点 $(0,1)$ 经此滑动反射到 $(1,-1)$：既翻到 $x$ 轴下方，又右移了 $1$。</p>
+<p>注意：若平移量恰好是 $0$，它就退化成普通反射（1 个反射）；所以"真正的"滑动反射要求平移非零，这才需要 $3$ 个反射。</p></div>
+<h3 id="为什么-3-个反射一定合成滑动反射-证明">为什么 3 个反射一定合成滑动反射？（证明）</h3>
+<p>"3 个反射<strong>能</strong>凑出滑动反射"很好理解——滑动反射 = 反射 + 平移 = 1 个反射 + 2 个反射 = 3 个反射。难的是反方向：<strong>任意 3 个反射的复合，为什么一定塌缩成滑动反射（或退化成反射）</strong>？这需要两招化简。</p>
+<h4 id="招-1-核心引理-反射-平移-滑动反射-或反射">招 1（核心引理）：反射 + 平移 = 滑动反射（或反射）</h4>
+<p>设 $\mathbf{S}_\ell$ 是关于直线 $\ell$ 的反射，$\mathbf{T}_{\mathbf v}$ 是平移。把 $\mathbf v$ 拆成**沿 $\ell$** 的分量 $\mathbf v_\parallel$ 和**垂直 $\ell$** 的分量 $\mathbf v_\perp$：</p>
+<ul><li><strong>垂直分量能"吸进"反射</strong>：关于 $\ell$ 反射再沿 $\mathbf v_\perp$ 平移，等价于关于**另一条平行线 $\ell'$** 的反射（$\ell'$ 由 $\ell$ 沿 $\mathbf v_\perp/2$ 平移得到）。</li></ul>
+<div class="callout calc"><p>✏️ <strong>手算</strong>：取 $\ell$ 为 $x$ 轴、$\mathbf v_\perp=(0,a)$。"$x$ 轴反射 + 上移 $a$"：$(x,y)\mapsto(x,-y)\mapsto(x,a-y)$。而关于直线 $y=a/2$ 的反射正是 $(x,y)\mapsto(x,a-y)$。两者相同！✓ 也就是说垂直平移被一条平移后的镜面"吃掉了"。</p></div>
+<ul><li><strong>平行分量吸不进去</strong>：沿镜面方向的平移和反射<strong>可交换</strong>（沿镜子滑动不改变镜像），只能留在外面。</li></ul>
+<p>合起来：$\mathbf{S}_\ell\,\mathbf{T}_{\mathbf v}=\mathbf{T}_{\mathbf v_\parallel}\,\mathbf{S}_{\ell'}$——"沿 $\ell'$ 平移 $\mathbf v_\parallel$ + 关于 $\ell'$ 反射"——正是<strong>滑动反射</strong>（当 $\mathbf v_\parallel\ne\mathbf 0$），或退化成纯<strong>反射</strong> $\mathbf{S}_{\ell'}$（当 $\mathbf v_\parallel=\mathbf 0$）。$\square$</p>
+<h4 id="招-2-3-个反射总能化成-反射-平移">招 2：3 个反射总能化成"反射 + 平移"</h4>
+<p>设 $\mathbf{T}=\mathbf{S}_3\mathbf{S}_2\mathbf{S}_1$，看前两个 $\mathbf{S}_2\mathbf{S}_1$：</p>
+<ul><li><strong>情形 A（两镜面平行）</strong>：$\mathbf{S}_2\mathbf{S}_1=$ 平移（2.3 节）。于是 $\mathbf{T}=\mathbf{S}_3\circ(\text{平移})$，已经是"反射 + 平移"，<strong>用招 1</strong> ⟹ 滑动反射 / 反射。✓</li><li><strong>情形 B（两镜面相交）</strong>：$\mathbf{S}_2\mathbf{S}_1=$ 旋转 $\mathbf{R}$（绕交点 $O$），于是 $\mathbf{T}=\mathbf{S}_3\mathbf{R}$，看着像"反射 + 旋转"，不像滑动反射——<strong>但旋转可以重新拆</strong>。</li></ul>
+<p>把旋转 $\mathbf{R}$ 重新写成两个反射 $\mathbf{S}_b\mathbf{S}_a$（都过 $O$、夹角 $\theta/2$）。关键自由度：这<strong>两个镜面可以整体旋转</strong>（只要保持夹角 $\theta/2$），所以**故意让镜面 $b\parallel\ell_3$**（$\ell_3$ 是 $\mathbf{S}_3$ 的镜面；过 $O$ 作 $\ell_3$ 的平行线当 $b$）。</p>
+<p>这样 $\mathbf{S}_3\mathbf{S}_b$ 成了"两个<strong>平行</strong>镜面的反射" = <strong>平移</strong>！于是</p>
+<div class="eq-display">$$\mathbf{T}=\mathbf{S}_3\,\mathbf{S}_b\,\mathbf{S}_a=(\underbrace{\mathbf{S}_3\mathbf{S}_b}_{\text{平移}})\,\mathbf{S}_a=\text{平移}\circ\text{反射},$$</div>
+<p>又变回"反射 + 平移"，<strong>用招 1</strong> ⟹ 滑动反射 / 反射。✓</p>
+<p>两种情形都化为"反射 + 平移"，再由招 1 得出滑动反射（或退化成反射）。$\square$</p>
+<div class="callout insight"><p>💡 <strong>精髓</strong>：两个化简招——(1) <strong>反射 + 平移</strong> 总能整理成滑动反射；(2) <strong>旋转可重拆为两反射</strong>，且能<strong>挑</strong>其中一个镜面去和别的反射"对齐"成平移。两招一用，3 个反射必然塌缩成滑动反射形态。这就是"最少 3 个反射" $\Leftrightarrow$ "滑动反射"的真正原因，也是分类定理最难的一块。</p></div>
+<h3 id="回到那个问题-四类合起来是群吗">回到那个问题：四类合起来是群吗？</h3>
+<div class="callout tip"><p><strong>问</strong>：平移、旋转、反射、滑动反射，这四类合起来构成群吗？</p>
+<p><strong>答</strong>：<strong>是。</strong> 因为这四类（加恒等）<strong>穷尽了所有等距</strong>——它们的并集就是 $E(2)$ 全体，而 $E(2)$ 是群（本节上半已证四条公理）。所以"四类合起来" $=E(2)=$ 群。</p></div>
+<p>但<strong>单独每一类不一定是子群</strong>，要逐个甄别：</p>
+<ul><li><strong>平移</strong>全体：是子群 ✓（平移 + 平移 = 平移）。</li><li>**绕同一点 $O$ 的旋转**全体：是子群 ✓（即 $\mathrm{SO}(2)$）。但"绕<strong>任意</strong>点的所有旋转"<strong>不是</strong>子群——两个绕<strong>不同</strong>点的旋转复合，通常仍是旋转（转角相加 $\theta+\varphi\ne0$ 时，绕第三个点转 $\theta+\varphi$）；可一旦两个转角<strong>互为相反数</strong>（例如绕 $A$ 转 $90°$ 再绕另一点 $B$ 转 $-90°$），复合就退化成一个<strong>平移</strong>，掉出了"旋转"这一类！</li><li><strong>反射</strong>全体：<strong>不是</strong>子群——两个反射的复合是旋转或平移（2.3），已经掉出反射类。</li><li><strong>滑动反射</strong>全体：<strong>不是</strong>子群——两个滑动反射的复合可能是平移。</li></ul>
+<div class="callout insight"><p>💡 <strong>关键区别</strong>：<strong>"几类的并集是群"</strong> $\ne$ <strong>"每一类自己是子群"</strong>。并集能成群，是因为它们<strong>加起来</strong>覆盖了 $E(2)$、而 $E(2)$ 满足公理；但每类<strong>内部</strong>对复合不封闭（复合后可能掉到另一类），所以单独不成群。这正好印证 2.3 的教训——**反射不成群，却能生成整个 $E(2)$**。下面正式介绍几个"够格"的子群。</p></div>
+<h3 id="子群-群里的群">子群：群里的群</h3>
+<p>$E(2)$ 里有些子集自己也是群（用同样的复合运算），叫<strong>子群</strong>：</p>
+<ul><li><strong>平移群</strong> $\mathrm{Trans}(2)$：所有平移。两个平移复合 = 平移（向量相加 $\mathbf{T}_{\mathbf a}\mathbf{T}_{\mathbf b}=\mathbf{T}_{\mathbf a+\mathbf b}$），平移的逆 = 平移（反向量 $\mathbf{T}_{\mathbf a}^{-1}=\mathbf{T}_{-\mathbf a}$）。是 $E(2)$ 的子群，而且<strong>交换</strong>（向量加法可交换）。</li><li><strong>正向等距群</strong> $E^{+}(2)$：只含平移和旋转（行列式 $=+1$，不翻面）。两个正向复合还是正向（$\det$ 相乘 $+1\cdot{+1}=+1$，见 2.2），逆也正向。是子群。但<strong>反射不在</strong>其中（$\det=-1$）。</li><li>**绕定点 $O$ 的旋转群** $\mathrm{SO}(2)$：所有绕<strong>同一点</strong> $O$ 的旋转。$\mathbf{R}_\alpha\mathbf{R}_\beta=\mathbf{R}_{\alpha+\beta}$ 还是绕 $O$ 的旋转，逆是 $\mathbf{R}_{-\alpha}$。是 $E^{+}(2)$ 的子群（从而也是 $E(2)$ 的子群），且<strong>交换</strong>（转 $\alpha$ 再转 $\beta$ = 转 $\alpha{+}\beta$ = 转 $\beta$ 再转 $\alpha$）。</li></ul>
+<p>它们层层嵌套：</p>
+<div class="eq-display">$$\mathrm{SO}(2)\;\subset\;E^{+}(2)\;\subset\;E(2).$$</div>
+<p>![](images/02-刚体变换-等距-03.svg)</p>
+<details class="fold"><summary>📐 tikz 源码</summary><div class="fold-body"><pre><code class="language-latex">\begin{tikzpicture}[scale=2, every node/.style={font=\normalsize}]
+  \draw[very thick, fill=gray!12] (0,0) ellipse (4.3 and 2.5);
+  \draw[very thick, fill=blue!15] (0,0) ellipse (2.7 and 1.7);
+  \draw[very thick, fill=red!18]  (0,0) ellipse (1.3 and 0.85);
+  \node[red!70!black]  at (0, 0.1) {$\mathrm{SO}(2)$};
+  \node[red!70!black]  at (0,-0.2) {rotations about $O$};
+  \node[blue!70!black] at (-1.0, 1.25) {$E^{+}(2)$};
+  \node at (0, 1.25) {+ translations};
+  \node at (3.4, 0.2) {$E(2)$};
+  \node at (3.4,-0.2) {+ ref{}lections};
+\end{tikzpicture}</code></pre></div></details>
+<div class="callout think"><p>🤔 <strong>想一想</strong>：所有<strong>反射</strong>的集合是子群吗？<strong>不是</strong>——两个反射的复合是旋转或平移（2.3 节），已经不再是反射，<strong>不满足封闭</strong>。所以"反射"单独不成群，但它<strong>生成</strong>了整个 $E(2)$。这里有个重要区别：<strong>生成元 ≠ 群元素</strong>——一个集合本身可以不是群，却能生成一个群。</p></div>
+<h3 id="为什么-是群-这件事很重要">为什么"是群"这件事很重要？</h3>
+<p>"等距构成群"不是分类游戏，它有三重后果：</p>
+<ol><li><strong>复合可以无限进行</strong>：任何复杂刚体运动都能拆成基本变换的复合（反射生成定理保证"拆得开"），拆出来的东西还在群里（封闭保证"装得回"）。</li><li><strong>每个运动都能撤销</strong>：有逆元，所以"先 $\mathbf{T}$ 再 $\mathbf{T}^{-1}$"回到原状——刚体运动"不丢失信息"。</li><li><strong>它是爱尔兰根纲领的地基</strong>：第 7 章克莱因说"几何 = 变换群 + 不变量"，那个"群"正是 $E(2)$。**欧氏几何 = 研究 $E(2)$ 的不变量**（距离、角、面积——见下节）。</li></ol>
+<div class="callout insight"><p>💡 群是描述"对称"的通用语言。一个图形的"对称"= $E(2)$ 中那些<strong>固定该图形</strong>的元素组成的子群——这正是第 8 章"对称群"的起点。我们在第 2 章埋下的种子，会在 07、08 开花。</p></div>
+<h3 id="等距的复数形式">等距的复数形式</h3>
+<p>分类定理把等距归了类，用复数一写，正向 / 反向各自一个极简形式。记 $z=x+iy$。</p>
+<p><strong>正向等距</strong>（平移、旋转）:</p>
+<div class="eq-display">$$\boxed{\;z\;\mapsto\;e^{i\theta}z+c,\quad\theta\in\mathbb{R},\;c\in\mathbb{C}.\;}$$</div>
+<p><em>从定义推</em>：正向等距要么平移（$z\mapsto z+c$，即 $\theta=0$），要么绕某点 $z_0$ 转 $\theta$（$z\mapsto e^{i\theta}(z-z_0)+z_0=e^{i\theta}z+(1-e^{i\theta})z_0$，仍是 $e^{i\theta}z+c$ 形，$c=(1-e^{i\theta})z_0$）。两种合一，得正向形式。不动点由 $e^{i\theta}z+c=z$ 解出 $z=\dfrac{c}{1-e^{i\theta}}$（旋转中心）；$\theta=0$ 时无不动点，正是平移。</p>
+<p><strong>反向等距</strong>（反射、滑动反射）:正向形式再复合一次反射，复数上等价于多一个共轭，</p>
+<div class="eq-display">$$z\;\mapsto\;e^{i\theta}\bar z+c.$$</div>
+<div class="callout insight"><p>💡 这与第 3 章相似变换的 $az+b$/$a\bar z+b$ 完全同构——**等距就是 $|a|=1$（$a=e^{i\theta}$）的那个特例**。第 3 章会从相似定义推 $az+b$，到时只需把这里的等距形式再放缩一下。</p></div>
+<hr>
+<h2 id="sec-2-5"><span class="hn">2.5</span>等距变换的不变量</h2><p>等距变换下，<strong>什么东西不变</strong>？这是爱尔兰根纲领精神的预演。</p>
+<ul><li><strong>距离</strong>不变（定义）；</li><li><strong>角度</strong>不变（可由余弦定理 + 距离推出）；</li><li><strong>面积</strong>不变（行列为 $\pm1$，绝对值 $1$）；</li><li><strong>共线、共点</strong>保持（直线映成直线）；</li><li><strong>平行、垂直</strong>保持。</li></ul>
+<div class="theorem-box"><div class="thm-head"><span class="tag">命题</span></div><p><strong>命题（等距保角、保面积）</strong>：等距变换保持角的大小与面积。</p>
+<p><em>证（保角）</em>：设 $\angle BAC$ 是 $\triangle ABC$ 的一角。等距 $\mathbf{T}$ 把它映成 $\triangle A'B'C'$，三边 $|AB|=|A'B'|$、$|AC|=|A'C'|$、$|BC|=|B'C'|$。由余弦定理：</p>
+<div class="eq-display">$$\cos\angle A = \frac{|AB|^2+|AC|^2-|BC|^2}{2|AB|\cdot|AC|} = \frac{|A'B'|^2+|A'C'|^2-|B'C'|^2}{2|A'B'|\cdot|A'C'|} = \cos\angle A'.$$</div>
+<p>所以 $\angle A=\angle A'$（角在 $[0,\pi]$ 内由余弦唯一决定）。同理另两角。$\square$</p>
+<p><em>证（保面积）</em>：三角形面积 $S=\tfrac12|AB|\cdot|AC|\sin\angle A$，完全由边长和角决定；等距保边保角 ⟹ $S$ 不变。任意多边形可剖分成三角形，故多边形（乃至任意由多边形组成的图形）面积不变。$\square$</p></div>
+<div class="callout think"><p>🤔 <strong>想一想（精髓）</strong>：这个证明的关键是"<strong>角和面积都从距离被决定</strong>"。距离是"<strong>源不变量</strong>"，角、面积是"<strong>派生不变量</strong>"。爱尔兰根纲领的精神正源于此：找到<strong>最小</strong>的源不变量集，其余性质都从它派生。欧氏几何里，距离这一个源不变量，就派生出了角、面积、平行、垂直……整片大厦。</p></div>
+<p>这就解释了第 1 章那句话：<strong>一个不起眼的不变量（距离），拖出整片欧氏几何。</strong></p>
+<h2 id="sec-2-6"><span class="hn">2.6</span>用变换重新看"全等"</h2><p>中学里"全等三角形"判别法（SSS, SAS, ASA, AAS）用变换几何重述：</p>
+<div class="callout tip"><p><strong>两个图形全等 ⟺ 存在一个等距变换，把一个映成另一个。</strong></p></div>
+<p>几条判据都在问同一件事：<strong>给多少数据，一个三角形就被定死？</strong> 而"全等"无非是说——两个三角形能<strong>保距地</strong>对应起来（对应点的距离都不变）。SSS 最底层，直接证它；其余归约到它。</p>
+<h3 id="SSS-三边相等-边上距离结构相同-全等">SSS：三边相等 ⟺ 边上距离结构相同 ⟺ 全等</h3>
+<p>三边对应相等 ⟹ 三角对应相等——余弦定理 $\cos\angle A=\dfrac{|AB|^2+|AC|^2-|BC|^2}{2|AB|\cdot|AC|}$ 右边逐项由三边定，故 $\angle A=\angle A'$，同理另两角（2.5 证"保角"已用过这步）。</p>
+<p>于是<strong>边上任意两点</strong>的距离都被保持。任取两点 $D,E$：</p>
+<ul><li>同一条边上：$DE$ 是弧长之差，由边等长直接得 $DE=D'E'$。</li><li>两条相邻边上：三角形任意两边共享一个顶点，取它为枢（设为 $A$，$D$ 在 $AB$、$E$ 在 $AC$），由余弦定理</li></ul>
+<div class="eq-display">$$DE^2=AD^2+AE^2-2\cdot AD\cdot AE\cos\angle A,$$</div>
+<p>而 $AD=A'D'$、$AE=A'E'$（弧长对应）、$\angle A=\angle A'$，故 $DE=D'E'$。</p>
+<p>边上任意两点的距离都被保持——两个三角形也就全等了。$\square$</p>
+<h3 id="SAS-ASA-归约到-SSS">SAS、ASA：归约到 SSS</h3>
+<p>SSS 地基一稳，其余判据只需补全边长，便归约到 SSS：</p>
+<ul><li><strong>SAS</strong>：$|AB|=|A'B'|$、$|AC|=|A'C'|$、夹角 $\angle A=\angle A'$。第三边被余弦定理钉死：</li></ul>
+<div class="eq-display">$$|BC|^2=|AB|^2+|AC|^2-2|AB|\cdot|AC|\cos\angle A,$$</div>
+<p>右边每项都已给定，故 $|BC|=|B'C'|$ ⟹ 归约到 SSS。</p>
+<ul><li><strong>ASA</strong>：$\angle B=\angle B'$、$\angle C=\angle C'$、夹边 $|BC|=|B'C'|$。先由内角和 $\pi$ 补出第三角 $\angle A=\angle A'$，再用正弦定理</li></ul>
+<div class="eq-display">$$\frac{|AB|}{\sin\angle C}=\frac{|BC|}{\sin\angle A}=\frac{|AC|}{\sin\angle B}$$</div>
+<p>定出 $|AB|,|AC|$ ⟹ 归约到 SSS。（AAS 同理：内角和补出第三个角，归约到 ASA。）</p>
+<div class="callout calc"><p>✏️ <strong>再看 AAA</strong>：为什么"角角角"不够？回头看 SSS 的证明——它靠的全是<strong>边长</strong>：按弧长对应边上的点（$AD=A'D'$）、用余弦定理从边长定角。AAA 却只给角、不给任何一条边长：连 $|A'B'|$ 多长都不知道，边上的点没法对应，余弦定理也没有边长可代入——整套机制缺了"距离"这个燃料，启动不了。这就是"角定形状、定不住大小"的<strong>构造性</strong>原因——存在<strong>相似但不全等</strong>的三角形（边长按比例缩放，角不变），它们之间隔着的是<strong>相似变换</strong>（下章主角），不是等距。<strong>AAA 是相似变换的判据，不是等距变换的判据</strong>。变换的层级，直接解释了为何有些判据成立、有些不成立。</p></div>
+<h2 id="sec-2-7"><span class="hn">2.7</span>本章小结</h2><div class="summary"><ul><li><strong>等距变换</strong> = 保距变换 = 刚体运动；它<strong>自动</strong>保角、保面积、保共线。</li><li>三种基本等距：<strong>平移、旋转、反射</strong>。</li><li><strong>反射生成定理</strong>：任何等距 $\le 3$ 个反射的复合。镜子是几何运动的"原子"。</li><li><strong>等距分类定理</strong>：每个等距恰为恒等 / 反射 / 旋转 / 平移 / 滑动反射之一（按最少反射数 $0/1/2/2/3$）。这五类并集 = $E(2)$ = 群；但单独各类未必是子群（反射、滑动反射自身都不成群）。</li><li>**等距构成群 $E(2)$<strong>：以"复合"为运算，四条公理（封闭、结合、单位、逆）逐条成立。反射是它的</strong>生成元**；重要子群有平移群、正向等距群 $E^{+}(2)$、绕定点旋转群 $\mathrm{SO}(2)$，且 $\mathrm{SO}(2)\subset E^{+}(2)\subset E(2)$。</li><li>平移、旋转 = 两个反射（平行镜面 / 相交镜面）；行列式 $\pm1$ 区分正向 / 反向。</li><li><strong>不变量</strong>：等距保距离，进而保角、保面积。"全等"= 存在等距把它们连起来。</li></ul>
+<p>下一章我们迈出放松的第一步：不再要求保距，只要求"保形"（保角）——那就是<strong>相似变换</strong>（仿射变换是再下一章、第 4 章的事）。</p>
+<p>下一章：<a href="03.html">第 03 章 · 相似变换</a></p>
+<hr></div>
+<h2>🧩 本章习题</h2><div class="exercises">
+<div class="exercise"><p class="q"><span class="tag calc">手算</span><strong>题 2.1</strong> 旋转的复合</p><p>$\mathbf{R}_{90°}$ 表示绕原点转 $90°$。求 $\mathbf{R}_{90°}\circ\mathbf{R}_{90°}$（做两次）和 $\mathbf{R}_{90°}\circ\mathbf{R}_{60°}$（先转 $60°$ 再转 $90°$）。</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：两次 $90°$ = 转 $180°$：$(x,y)\mapsto(-x,-y)$。$60°$ 再 $90°$ = 转 $150°$。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag calc">手算</span><strong>题 2.2</strong> 拼出反射</p><p>用第 2.3 节的"两相交镜面 = 旋转"，拼出一个绕原点转 $60°$ 的旋转。需要哪两条镜面？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：取 $x$ 轴和与它夹角 $30°$ 的直线 $y=\tan30°\cdot x=\frac{x}{\sqrt3}$，依次反射。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag think">思考</span><strong>题 2.3</strong> 为什么"反向等距"不能是平移或旋转？</p><p>提示：平移和旋转的矩阵行列式是多少？反射呢？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：平移、旋转 $\det=+1$（正向），反射 $\det=-1$（反向）。一个等距是否反向，看它含<strong>奇数</strong>个反射。两个反射的复合总是正向的。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag prove">证明</span><strong>题 2.4</strong> 等距保面积</p><p>设等距 $\mathbf{T}$ 的线性部分矩阵为 $M$。证明 $|\det M|=1$，进而面积不变。</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>提示</em>：等距把单位正方形 $(0,0),(1,0),(0,1)$ 映成一个边长为 1 的直角三角形（其实仍是单位正方形），其面积 $=|\det M|=1$。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag adv">进阶</span><strong>题 2.5</strong> 三维情形</p><p>在 3D 中，"反射"是关于一个<strong>平面</strong>的对称。猜一猜：3D 中任何刚体运动等于至多几个平面反射的复合？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：至多 4 个。这正是分子几何与晶体对称学的基础。</p></div></details></div>
+</div>
+<div class="chapter-nav"><a class="prev" href="01.html"><span class="nav-label">← 上一章</span><span class="nav-title">01 · 引子</span></a><a class="next" href="03.html"><span class="nav-label">下一章 →</span><span class="nav-title">03 · 相似变换</span></a></div>
+  </main>
+</div>
+<button class="to-top" aria-label="回到顶部">↑</button>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="assets/main.js"></script>
+<script src="assets/viz.js"></script>
+</body>
+</html>

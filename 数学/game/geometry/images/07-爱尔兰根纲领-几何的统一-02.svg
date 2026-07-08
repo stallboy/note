@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：拓扑层级的"连续变形"——圆 / 三角形 / 正方形 同伦等价
+     对应 07 章"圆和三角形是同一个东西吗？"（拓扑眼里：圆 = 三角形 = 正方形）。
+     坐标按 TikZ 比例精确还原；文字为真 <text>，清晰锐利、易改。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 25 425 200" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- 三个图形水平排列，竖直中心线 y=130；按 TikZ 比例：圆 r=1、三角形宽1.72高1.5、正方形边2 -->
+
+  <!-- ===== 圆：中心 (75,130) 半径 35 ===== -->
+  <g>
+    <circle cx="75" cy="130" r="35" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5"/>
+    <text x="75" y="192" text-anchor="middle" fill="#374151" font-size="16">圆</text>
+  </g>
+
+  <!-- ===== 形变箭头 1 ===== -->
+  <line x1="118" y1="130" x2="200" y2="130" stroke="#6b7280" stroke-width="2.2" marker-end="url(#arr)"/>
+
+  <!-- ===== 三角形：顶点 (225,88)(193,160)(257,160)，底边水平、顶点朝上 ===== -->
+  <g>
+    <polygon points="225,88 193,160 257,160" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="225" y="192" text-anchor="middle" fill="#374151" font-size="16">三角形</text>
+  </g>
+
+  <!-- ===== 形变箭头 2 ===== -->
+  <line x1="268" y1="130" x2="334" y2="130" stroke="#6b7280" stroke-width="2.2" marker-end="url(#arr)"/>
+
+  <!-- ===== 正方形：(340,95)(410,95)(410,165)(340,165)，边长 70 ===== -->
+  <g>
+    <polygon points="340,95 410,95 410,165 340,165" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="375" y="192" text-anchor="middle" fill="#374151" font-size="16">正方形</text>
+  </g>
+
+  <!-- ===== 顶部说明：连续变形 ===== -->
+  <text x="225" y="55" text-anchor="middle" fill="#6b7280" font-size="15">连续变形</text>
+</svg>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：反演变换定义图
+     反演圆 Γ（圆心 O、半径 R），P 在圆内沿射线 OP 反演到圆外 P′，满足 OP·OP′ = R²。
+     坐标按几何精确计算（O 于 (200,240)，1 单位 = 60px，R=2→120px，P 距 O 60、P′ 距 O 240）。
+     文字为真 <text>，清晰锐利、易改；风格与 01 章样板一致。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 110 480 250" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- ===== 反演圆 Γ ===== -->
+  <circle cx="200" cy="240" r="120" fill="none" stroke="#1f3a5f" stroke-width="2.5"/>
+  <text x="282" y="148" fill="#374151" font-size="16">Γ</text>
+
+  <!-- ===== 过 O, P, P′ 的射线（辅助虚线，原位贯穿圆内外） ===== -->
+  <line x1="152" y1="240" x2="500" y2="240" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
+
+  <!-- ===== 反演映射弧 P → P′（强化"圆内点弹到圆外"的运动语义） ===== -->
+  <path d="M 270 240 Q 350 80 430 240" fill="none" stroke="#6b7280" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="350" y="150" text-anchor="middle" fill="#6b7280" font-size="14">反演</text>
+
+  <!-- ===== 反演定义式 ===== -->
+  <text x="445" y="150" text-anchor="middle" fill="#374151" font-size="16">OP · OP′ = R²</text>
+
+  <!-- ===== 中心 O ===== -->
+  <circle cx="200" cy="240" r="4.5" fill="#1f3a5f"/>
+  <text x="192" y="256" text-anchor="end" fill="#374151" font-size="16">O</text>
+
+  <!-- ===== P（圆内，原图点位） ===== -->
+  <circle cx="260" cy="240" r="4.5" fill="#2563eb"/>
+  <text x="260" y="262" text-anchor="middle" fill="#374151" font-size="16">P</text>
+
+  <!-- ===== P′（圆外，反演像） ===== -->
+  <circle cx="440" cy="240" r="4.5" fill="#dc2626"/>
+  <text x="440" y="228" text-anchor="middle" fill="#374151" font-size="16">P′</text>
+
+  <!-- ===== OP 双向箭头（圆内段长度） ===== -->
+  <line x1="200" y1="282" x2="260" y2="282" stroke="#6b7280" stroke-width="2.2"
+        marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text x="230" y="300" text-anchor="middle" fill="#6b7280" font-size="13">OP</text>
+
+  <!-- ===== OP′ 双向箭头（圆心到像的总距离） ===== -->
+  <line x1="200" y1="309" x2="440" y2="309" stroke="#6b7280" stroke-width="2.2"
+        marker-start="url(#arr)" marker-end="url(#arr)"/>
+  <text x="320" y="327" text-anchor="middle" fill="#6b7280" font-size="13">OP′</text>
+</svg>

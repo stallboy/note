@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：仿射变换——剪切。
+     单位正方形（虚线原位）经水平剪切 (x,y)↦(x+y,y) 变为平行四边形（实线像），
+     底边不动、顶边整体右移 1 个单位。坐标按几何精确计算；文字为真 <text>。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 20 525 365" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- 坐标轴：O=(60,320)，单位 160px；y 轴向上为正（SVG y 向下，故翻转） -->
+  <g stroke="#6b7280" stroke-width="1.8" fill="none">
+    <line x1="12" y1="320" x2="476" y2="320" marker-end="url(#arr)"/>
+    <line x1="60" y1="368" x2="60" y2="64" marker-end="url(#arr)"/>
+  </g>
+  <text x="488" y="325" fill="#6b7280" font-size="15">x</text>
+  <text x="60" y="52" text-anchor="middle" fill="#6b7280" font-size="15">y</text>
+
+  <!-- 原位单位正方形（虚线）：(0,0)(1,0)(1,1)(0,1) -->
+  <polygon points="60,320 220,320 220,160 60,160"
+           fill="none" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
+
+  <!-- 剪切后的平行四边形（实线填充）：(0,0)(1,0)(2,1)(1,1) —— (x,y)↦(x+y,y) -->
+  <polygon points="60,320 220,320 380,160 220,160"
+           fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- 关键顶点（平行四边形的新位置） -->
+  <circle cx="220" cy="320" r="3.5" fill="#1f3a5f"/>
+  <circle cx="380" cy="160" r="3.5" fill="#1f3a5f"/>
+  <circle cx="220" cy="160" r="3.5" fill="#1f3a5f"/>
+  <text x="388" y="154" fill="#374151" font-size="14">(2,1)</text>
+  <text x="212" y="154" text-anchor="end" fill="#374151" font-size="14">(1,1)</text>
+
+  <!-- 形名标注 -->
+  <text x="140" y="240" text-anchor="middle" fill="#374151" font-size="15">正方形</text>
+  <text x="268" y="240" text-anchor="middle" fill="#374151" font-size="15">平行四边形</text>
+
+  <!-- 剪切方向指示：顶边整体右移 1 个单位（从 x=0 列平移到 x=1 列） -->
+  <line x1="60" y1="132" x2="214" y2="132" stroke="#6b7280" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="137" y="122" text-anchor="middle" fill="#6b7280" font-size="13">剪切</text>
+</svg>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：两次反射 = 一次旋转（2α）。
+     镜面1 取 x 轴、镜面2 取 y=x（夹角 α=45°）。点 P 在单位圆 30° 处；
+     S₁(P) 为 P 关于镜面1 的反射（-30°）；
+     S₂S₁(P) 为再关于镜面2 的反射（120°）。
+     合成 S₂S₁ 把 P 送到 S₂S₁(P)，等价于绕原点旋转 2α=90°（红色弧）。
+     坐标按旋转/反射矩阵精确计算：原点 SVG(285,310)，单位 140px。
+     文字为真 <text>，清晰锐利、易改。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="25 20 610 495" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+    <marker id="arr-r" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c0463a"/>
+    </marker>
+    <marker id="arr-axis" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b8c2cc"/>
+    </marker>
+  </defs>
+
+  <!-- 坐标轴（淡灰参考线） -->
+  <g stroke="#b8c2cc" stroke-width="1.5" fill="none">
+    <line x1="47" y1="310" x2="607" y2="310" marker-end="url(#arr-axis)"/>
+    <line x1="285" y1="492" x2="285" y2="44" marker-end="url(#arr-axis)"/>
+  </g>
+  <text x="616" y="315" fill="#6b7280" font-size="15" font-style="italic">x</text>
+  <text x="285" y="34" text-anchor="middle" fill="#6b7280" font-size="15" font-style="italic">y</text>
+
+  <!-- 镜面1：沿 x 轴（与 x 轴重合的一段，盖在淡灰轴之上） -->
+  <line x1="75" y1="310" x2="495" y2="310" stroke="#1f3a5f" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="544" y="352" text-anchor="middle" fill="#1f3a5f" font-size="15">镜面1</text>
+
+  <!-- 镜面2：直线 y=x（与镜面1 夹角 α=45°） -->
+  <line x1="285" y1="310" x2="467" y2="128" stroke="#1f3a5f" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="432" y="100" text-anchor="middle" fill="#1f3a5f" font-size="15">镜面2</text>
+
+  <!-- 两镜面夹角 α 的指示弧（0°→45°，r=105） -->
+  <path d="M390 310 A 105 105 0 0 0 359 236" fill="none" stroke="#6b7280" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="418" y="284" text-anchor="middle" fill="#6b7280" font-size="14" font-style="italic">α</text>
+
+  <!-- 反射路径1：P ↔ S₁(P)（关于镜面1，灰色虚线，竖直） -->
+  <line x1="406" y1="240" x2="406" y2="380" stroke="#9aa7b8" stroke-width="2" stroke-dasharray="6 4"/>
+
+  <!-- 反射路径2：S₁(P) ↔ S₂S₁(P)（关于镜面2，红色虚线） -->
+  <line x1="406" y1="380" x2="215" y2="189" stroke="#c0463a" stroke-width="2" stroke-dasharray="6 4"/>
+
+  <!-- 合成旋转弧：P → S₂S₁(P)，扫过 2α=90°（r=140） -->
+  <path d="M406 240 A 140 140 0 0 0 215 189" fill="none" stroke="#c0463a" stroke-width="2.2" marker-end="url(#arr-r)"/>
+  <text x="305" y="148" text-anchor="middle" fill="#c0463a" font-size="14">旋转 2<tspan font-style="italic">α</tspan></text>
+
+  <!-- 点 P（原图上的点，30°） -->
+  <circle cx="406" cy="240" r="3.8" fill="#1f3a5f"/>
+  <text x="413" y="245" fill="#1f3a5f" font-size="15" font-style="italic">P</text>
+
+  <!-- 点 S₁(P)（关于镜面1 反射后，-30°） -->
+  <circle cx="406" cy="380" r="3.8" fill="#6b7280"/>
+  <text x="413" y="385" fill="#6b7280" font-size="15">S₁(P)</text>
+
+  <!-- 点 S₂S₁(P)（再关于镜面2 反射后，120°） -->
+  <circle cx="215" cy="189" r="3.8" fill="#c0463a"/>
+  <text x="208" y="183" text-anchor="end" fill="#c0463a" font-size="15">S₂S₁(P)</text>
+</svg>

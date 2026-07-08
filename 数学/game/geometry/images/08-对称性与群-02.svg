@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：结晶学约束——正五边形（内角 108°，360°÷108°≈3.33，铺不满）
+     vs 三个正六边形绕公共顶点旋转 120°×3 = 360°（能铺满）。
+     对应 8.7 节：只有 n=3,4,6 的正多边形能铺满平面。
+     坐标按旋转矩阵/三角函数精确计算；文字为真 <text>，清晰锐利、易改。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="75 15 560 380" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- ===== 左图：正五边形（内角 108°，不能铺满平面） =====
+       中心 (190,175)，半径 85，顶点角 90/162/234/306/18°；标记顶点 18° -->
+  <g>
+    <polygon points="190,90 109,149 140,244 240,244 271,149"
+             fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="271" cy="149" r="4" fill="#1f3a5f"/>
+    <text x="285" y="133" fill="#1f3a5f" font-size="14">108°</text>
+    <text x="190" y="288" text-anchor="middle" fill="#374151" font-size="16">正五边形</text>
+    <text x="190" y="310" text-anchor="middle" fill="#6b7280" font-size="13">360°÷108° ≈ 3.33（铺不满）</text>
+  </g>
+
+  <!-- ===== 右图：三个正六边形绕公共顶点旋转 120°×3 = 360°（能铺满） =====
+       旋转中心/公共顶点 (480,175)；六边形边长 80（局部坐标 ×80）；
+       三份分别整体旋转 0°/120°/240°；仅描边以显露三份叠加的密铺结构。 -->
+  <g>
+    <!-- 旋转 0° -->
+    <polygon points="480,175 560,175 600,106 560,36 480,36 440,106"
+             fill="none" stroke="#9c3a2e" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- 旋转 120° -->
+    <polygon points="480,175 440,106 360,106 320,175 360,244 440,244"
+             fill="none" stroke="#9c3a2e" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- 旋转 240° -->
+    <polygon points="480,175 440,244 480,314 560,314 600,244 560,175"
+             fill="none" stroke="#9c3a2e" stroke-width="2.5" stroke-linejoin="round"/>
+
+    <!-- 公共顶点 -->
+    <circle cx="480" cy="175" r="4" fill="#9c3a2e"/>
+
+    <!-- 120° 旋转角弧（下右楔形：从 +x 边到下左边，扫过 copy240 的 120° 内角） -->
+    <path d="M510,175 A30,30 0 0 1 465,201" fill="none" stroke="#6b7280" stroke-width="2.2" marker-end="url(#arr)"/>
+    <text x="518" y="196" fill="#6b7280" font-size="13">120°</text>
+
+    <text x="460" y="350" text-anchor="middle" fill="#374151" font-size="16">正六边形</text>
+    <text x="460" y="372" text-anchor="middle" fill="#6b7280" font-size="13">3 × 120° = 360°（能铺满）</text>
+  </g>
+</svg>

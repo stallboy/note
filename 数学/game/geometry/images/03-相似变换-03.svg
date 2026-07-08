@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：以 O 为中心、k=2 的位似变换
+     小三角形 ABC 经三条射线 O→A′,O→B′,O→C′ 映射到大三角形 A′B′C′；
+     A,B,C 恰为各射线中点（像距 = 2 × 原距，即 k=2）。
+     坐标按几何精确计算；文字为真 <text>，清晰锐利、易改。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 555 445" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- 坐标轴：浅灰、带箭头 -->
+  <g stroke="#9aa7b8" stroke-width="1.6" fill="none">
+    <line x1="25" y1="380" x2="511" y2="380" marker-end="url(#arr)"/>
+    <line x1="70" y1="425" x2="70" y2="38" marker-end="url(#arr)"/>
+  </g>
+  <text x="519" y="384" fill="#6b7280" font-size="13" font-style="italic">x</text>
+  <text x="70" y="28" text-anchor="middle" fill="#6b7280" font-size="13" font-style="italic">y</text>
+
+  <!-- 原图三角形 ABC（实线） -->
+  <polygon points="160,335 250,335 205,245" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- 三条位似射线 O→A′, O→B′, O→C′（虚线，分别经过 A, B, C） -->
+  <g stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4" fill="none">
+    <line x1="70" y1="380" x2="250" y2="290"/>
+    <line x1="70" y1="380" x2="430" y2="290"/>
+    <line x1="70" y1="380" x2="340" y2="110"/>
+  </g>
+
+  <!-- 像三角形 A′B′C′（实线，k=2 放大） -->
+  <polygon points="250,290 430,290 340,110" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- 原点 O -->
+  <circle cx="70" cy="380" r="3" fill="#6b7280"/>
+  <text x="62" y="396" text-anchor="end" fill="#6b7280" font-size="13" font-style="italic">O</text>
+
+  <!-- 文字标签 -->
+  <text x="205" y="352" text-anchor="middle" fill="#374151" font-size="15" font-style="italic">ABC</text>
+  <text x="340" y="234" text-anchor="middle" fill="#374151" font-size="15" font-style="italic">A′B′C′</text>
+  <text x="214" y="83" text-anchor="middle" fill="#374151" font-size="16">位似，<tspan font-style="italic">k</tspan> = 2</text>
+</svg>

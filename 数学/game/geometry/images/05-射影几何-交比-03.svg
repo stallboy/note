@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：中心投影——从视点 O 把直线 ℓ 上四点 A B C D 投到直线 ℓ′ 上，
+     像为 A′ B′ C′ D′（交比不变）。坐标按 TikZ 比例精确换算，A′B′C′D′ 恰在射线 OA/OB/OC/OD 与 ℓ′ 交点。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 5 580 360" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- 直线 ℓ（原线，实线，主描边色） -->
+  <line x1="31" y1="320" x2="549" y2="320" stroke="#1f3a5f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- 直线 ℓ′（像线，虚线，蓝色以区分原线与像线） -->
+  <line x1="52" y1="205" x2="528" y2="205" stroke="#3b82f6" stroke-width="2.2" stroke-dasharray="6 5" stroke-linecap="round"/>
+
+  <!-- 四条投射线 O→A, O→B, O→C, O→D -->
+  <g stroke="#6b7280" stroke-width="2.0" stroke-linecap="round">
+    <line x1="290" y1="61" x2="103" y2="320"/>
+    <line x1="290" y1="61" x2="232" y2="320"/>
+    <line x1="290" y1="61" x2="384" y2="320"/>
+    <line x1="290" y1="61" x2="499" y2="320"/>
+  </g>
+
+  <!-- ℓ 上四点 A B C D -->
+  <g fill="#1f3a5f">
+    <circle cx="103" cy="320" r="4.5"/>
+    <circle cx="232" cy="320" r="4.5"/>
+    <circle cx="384" cy="320" r="4.5"/>
+    <circle cx="499" cy="320" r="4.5"/>
+  </g>
+
+  <!-- ℓ′ 上四像点 A′ B′ C′ D′（蓝色） -->
+  <g fill="#3b82f6">
+    <circle cx="186" cy="205" r="4.5"/>
+    <circle cx="258" cy="205" r="4.5"/>
+    <circle cx="342" cy="205" r="4.5"/>
+    <circle cx="406" cy="205" r="4.5"/>
+  </g>
+
+  <!-- 投影中心 O -->
+  <circle cx="290" cy="61" r="4.5" fill="#1f3a5f"/>
+
+  <!-- 原线与中心标签 -->
+  <g fill="#374151" font-size="16">
+    <text x="290" y="48" text-anchor="middle">O</text>
+    <text x="103" y="329" text-anchor="middle" dominant-baseline="hanging">A</text>
+    <text x="232" y="329" text-anchor="middle" dominant-baseline="hanging">B</text>
+    <text x="384" y="329" text-anchor="middle" dominant-baseline="hanging">C</text>
+    <text x="499" y="329" text-anchor="middle" dominant-baseline="hanging">D</text>
+    <text x="558" y="320" dominant-baseline="middle">ℓ</text>
+  </g>
+
+  <!-- 像点与像线标签（深蓝，与像元素同色系） -->
+  <g fill="#1d4ed8" font-size="16">
+    <text x="180" y="198" text-anchor="end">A′</text>
+    <text x="258" y="195" text-anchor="middle">B′</text>
+    <text x="342" y="195" text-anchor="middle">C′</text>
+    <text x="412" y="198">D′</text>
+    <text x="536" y="205" dominant-baseline="middle">ℓ′</text>
+  </g>
+</svg>

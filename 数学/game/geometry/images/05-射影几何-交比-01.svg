@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：中心射影(交比前置)——以 O 为投影中心，把直线 ℓ 上的点 P, Q
+     沿射线 POQ 投到直线 ℓ′ 上的 P′, Q′。坐标按几何精确计算；文字为真 <text>。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="42 30 382 276" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- ===== 两条参照直线 ℓ 与 ℓ′ ===== -->
+  <line x1="80" y1="78" x2="80" y2="282" stroke="#1f3a5f" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="380" y1="78" x2="380" y2="282" stroke="#1f3a5f" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="80" y="66" text-anchor="middle" fill="#374151" font-size="16">ℓ</text>
+  <text x="380" y="66" text-anchor="middle" fill="#374151" font-size="16">ℓ′</text>
+
+  <!-- ===== 射线 P→O→P′(蓝) 与 Q→O→Q′(橙)：三组点各自共线，两射线交于 O ===== -->
+  <path d="M80,120 L230,168 L380,216" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M80,228 L230,168 L380,108" fill="none" stroke="#ea580c" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- ===== 点：原图 P,Q(深)；像 P′,Q′(随射线色)；中心 O(红) ===== -->
+  <circle cx="80" cy="120" r="4.5" fill="#1f3a5f"/>
+  <circle cx="80" cy="228" r="4.5" fill="#1f3a5f"/>
+  <circle cx="380" cy="216" r="4.5" fill="#2563eb"/>
+  <circle cx="380" cy="108" r="4.5" fill="#ea580c"/>
+  <circle cx="230" cy="168" r="5.5" fill="#dc2626"/>
+
+  <!-- ===== 标注 ===== -->
+  <text x="72" y="125" text-anchor="end" fill="#374151" font-size="16">P</text>
+  <text x="72" y="233" text-anchor="end" fill="#374151" font-size="16">Q</text>
+  <text x="388" y="221" text-anchor="start" fill="#374151" font-size="16">P′</text>
+  <text x="388" y="113" text-anchor="start" fill="#374151" font-size="16">Q′</text>
+  <text x="230" y="156" text-anchor="middle" fill="#dc2626" font-size="16">O</text>
+</svg>

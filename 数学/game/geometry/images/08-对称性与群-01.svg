@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：等边三角形的对称群 D₃ 生成元 —— 三条对称轴(虚线) + 120° 旋转载荷 r
+     顶点编号 1(顶) 2(左下) 3(右下)；重心在中心。坐标按等边三角形几何精确计算。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="12 0 350 308" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- 等边三角形：v1(190,40) v2(60,265) v3(320,265)；边长 260，高 225，重心 (190,190) -->
+  <polygon points="190,40 60,265 320,265" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- 三条对称轴(反射轴 s_k)：中线，虚线。端点为各边中点 -->
+  <line x1="190" y1="40"  x2="190" y2="265"   stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <line x1="60"  y1="265" x2="255" y2="152.5" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <line x1="320" y1="265" x2="125" y2="152.5" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
+
+  <!-- 旋转载荷 r：从 15° 到 135°(逆时针 120°)，箭头指向末端 -->
+  <path d="M 236.35 177.57 A 48 48 0 0 1 156.06 156.06" fill="none" stroke="#6b7280" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="285" y="101" text-anchor="middle" fill="#6b7280" font-size="14" font-style="italic">r</text>
+
+  <!-- 重心 -->
+  <circle cx="190" cy="190" r="2.6" fill="#374151"/>
+
+  <!-- 三个顶点 + 编号 -->
+  <circle cx="190" cy="40"  r="4" fill="#1f3a5f"/>
+  <circle cx="60"  cy="265" r="4" fill="#1f3a5f"/>
+  <circle cx="320" cy="265" r="4" fill="#1f3a5f"/>
+
+  <text x="190" y="27"  text-anchor="middle" fill="#374151" font-size="16">1</text>
+  <text x="48"  y="285" text-anchor="end"    fill="#374151" font-size="16">2</text>
+  <text x="334" y="285" text-anchor="start"  fill="#374151" font-size="16">3</text>
+</svg>

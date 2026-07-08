@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：等距变换群的嵌套关系 SO(2) ⊂ E⁺(2) ⊂ E(2)
+     三层同心椭圆，由内向外：绕 O 的旋转 / 正向等距(旋转+平移) / 全体等距(再+反射)。
+     静态结构图；文字为真 <text>，坐标按 TikZ 比例 (scale≈55px/unit) 精确换算。
+     标签中文；群名保持数学排版：SO(2) 正体，E⁺(2)/E(2) 斜体（与 LaTeX 一致）。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 325" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <title>等距变换群的包含关系：SO(2) ⊂ E⁺(2) ⊂ E(2)</title>
+  <desc>三层同心椭圆：最外层 E(2) 含全体等距（旋转+平移+反射）；中层 E⁺(2) 为正向等距（旋转+平移）；最内层 SO(2) 为绕 O 的旋转。</desc>
+
+  <!-- 外层 E(2)：全体等距（含反射）—— TikZ 半轴 4.3×2.5 -->
+  <ellipse cx="300" cy="163" rx="236" ry="138" fill="#eef0f4" stroke="#1f3a5f" stroke-width="2.5"/>
+
+  <!-- 中层 E⁺(2)：正向等距（旋转+平移）—— TikZ 半轴 2.7×1.7 -->
+  <ellipse cx="300" cy="163" rx="148" ry="94" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5"/>
+
+  <!-- 内层 SO(2)：绕 O 的旋转 —— TikZ 半轴 1.3×0.85 -->
+  <ellipse cx="300" cy="163" rx="72" ry="47" fill="#f4d5d5" stroke="#1f3a5f" stroke-width="2.5"/>
+
+  <!-- 内层标签：SO(2) + 绕 O 的旋转（红，对应 TikZ red!70!black；SO(2) 正体） -->
+  <text x="300" y="156" text-anchor="middle" dominant-baseline="middle" fill="#b32420" font-size="16" font-weight="600">SO(2)</text>
+  <text x="300" y="178" text-anchor="middle" dominant-baseline="middle" fill="#b32420" font-size="12.5">绕 <tspan font-style="italic">O</tspan> 的旋转</text>
+
+  <!-- 中层环带标签：E⁺(2)（蓝，blue!70!black，斜体） + + 平移，位于上方环带 y≈1.25 -->
+  <text x="232" y="94" text-anchor="middle" dominant-baseline="middle" fill="#1f3a5f" font-size="16" font-weight="600" font-style="italic">E⁺(2)</text>
+  <text x="318" y="94" text-anchor="middle" dominant-baseline="middle" fill="#374151" font-size="12.5">+ 平移</text>
+
+  <!-- 外层环带标签：E(2)（斜体） + + 反射，位于右侧环带 x≈3.4 -->
+  <text x="491" y="152" text-anchor="middle" dominant-baseline="middle" fill="#374151" font-size="16" font-weight="600" font-style="italic">E(2)</text>
+  <text x="491" y="172" text-anchor="middle" dominant-baseline="middle" fill="#374151" font-size="12.5">+ 反射</text>
+</svg>
