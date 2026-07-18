@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：梅涅劳斯定理（题3）。△ABC：A(200,60) B(60,300) C(360,300)；
+     截线过 F(140,163)∈AB、E(325,248)∈CA、D(440,300)∈BC延长线，三点共线。
+     (BD/DC)·(CE/EA)·(AF/FB) = -1。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 480 320" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+  <!-- △ABC -->
+  <polygon points="200,60 60,300 360,300" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- 截线 DEF（红） -->
+  <line x1="140" y1="163" x2="440" y2="300" stroke="#c0463a" stroke-width="2.4"/>
+
+  <!-- D, E, F 点 -->
+  <circle cx="440" cy="300" r="4.5" fill="#c0463a"/>
+  <text x="448" y="296" fill="#c0463a" font-size="15" font-style="italic">D</text>
+  <circle cx="325" cy="248" r="4.5" fill="#c0463a"/>
+  <text x="333" y="244" fill="#c0463a" font-size="15" font-style="italic">E</text>
+  <circle cx="140" cy="163" r="4.5" fill="#c0463a"/>
+  <text x="132" y="158" text-anchor="end" fill="#c0463a" font-size="15" font-style="italic">F</text>
+
+  <!-- 顶点 -->
+  <text x="200" y="52" text-anchor="middle" fill="#1f3a5f" font-size="16" font-style="italic">A</text>
+  <text x="52" y="316" text-anchor="end" fill="#1f3a5f" font-size="16" font-style="italic">B</text>
+  <text x="368" y="316" fill="#1f3a5f" font-size="16" font-style="italic">C</text>
+
+  <text x="240" y="120" fill="#c0463a" font-size="13">(BD/DC)·(CE/EA)·(AF/FB) = −1</text>
+</svg>

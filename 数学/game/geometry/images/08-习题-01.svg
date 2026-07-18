@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：正六边形对称群 D₆（题1）。中心(180,180)，半径100；
+     6 顶点（角度 0,60,...,300）；6 条对称轴（3 过对角顶，3 过对边中点）。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 340 320" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+  <!-- 正六边形 -->
+  <polygon points="280,180 230,93.4 130,93.4 80,180 130,266.6 230,266.6" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- 6 条对称轴（虚线）：3 过对角顶 + 3 过对边中点 -->
+  <line x1="80"  y1="180" x2="280" y2="180" stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <line x1="130" y1="93.4" x2="230" y2="266.6" stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <line x1="230" y1="93.4" x2="130" y2="266.6" stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <line x1="180" y1="93.4" x2="180" y2="266.6" stroke="#c0463a" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <line x1="105" y1="136.7" x2="255" y2="223.3" stroke="#c0463a" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <line x1="255" y1="136.7" x2="105" y2="223.3" stroke="#c0463a" stroke-width="1.6" stroke-dasharray="5 4"/>
+
+  <!-- 中心 -->
+  <circle cx="180" cy="180" r="3" fill="#374151"/>
+
+  <text x="180" y="305" text-anchor="middle" fill="#c0463a" font-size="13">D₆：6 旋转 + 6 反射 = 12 个对称</text>
+</svg>

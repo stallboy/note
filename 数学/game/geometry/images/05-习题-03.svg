@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：第四调和点尺规作图（题3）。A(60,200) B(380,200) C(200,200) 共线；
+     辅助点 E,F,G,H 构成完全四点形，FH 与 AB 交于 D，使 (A,B;C,D)=-1。图为示意。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 440 280" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+  <!-- 直线 AB -->
+  <line x1="40" y1="200" x2="420" y2="200" stroke="#1f3a5f" stroke-width="2.4"/>
+
+  <!-- 辅助构型（虚线） -->
+  <line x1="60"  y1="200" x2="180" y2="60"  stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <line x1="380" y1="200" x2="240" y2="70"  stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <line x1="200" y1="200" x2="210" y2="65"  stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <line x1="380" y1="200" x2="120" y2="120" stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <line x1="60"  y1="200" x2="265" y2="115" stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <!-- FH 连线（红），交 AB 于 D -->
+  <line x1="120" y1="120" x2="305" y2="130" stroke="#c0463a" stroke-width="2"/>
+
+  <!-- E, F, G, H -->
+  <circle cx="210" cy="65" r="3.5" fill="#6b7280"/><text x="216" y="62" fill="#6b7280" font-size="13">E</text>
+  <circle cx="120" cy="120" r="3.5" fill="#6b7280"/><text x="112" y="116" text-anchor="end" fill="#6b7280" font-size="13">F</text>
+  <circle cx="265" cy="115" r="3.5" fill="#6b7280"/><text x="272" y="112" fill="#6b7280" font-size="13">G</text>
+  <circle cx="305" cy="130" r="3.5" fill="#6b7280"/><text x="312" y="128" fill="#6b7280" font-size="13">H</text>
+
+  <!-- A, B, C, D -->
+  <circle cx="60" cy="200" r="4.5" fill="#1f3a5f"/><text x="60" y="222" text-anchor="middle" fill="#1f3a5f" font-size="15" font-style="italic">A</text>
+  <circle cx="380" cy="200" r="4.5" fill="#1f3a5f"/><text x="380" y="222" text-anchor="middle" fill="#1f3a5f" font-size="15" font-style="italic">B</text>
+  <circle cx="200" cy="200" r="4.5" fill="#1f3a5f"/><text x="200" y="222" text-anchor="middle" fill="#1f3a5f" font-size="15" font-style="italic">C</text>
+  <circle cx="335" cy="200" r="4.5" fill="#c0463a"/><text x="335" y="222" text-anchor="middle" fill="#c0463a" font-size="15" font-style="italic">D</text>
+
+  <text x="220" y="260" text-anchor="middle" fill="#c0463a" font-size="13">(A, B ; C, D) = −1（尺规可作）</text>
+</svg>

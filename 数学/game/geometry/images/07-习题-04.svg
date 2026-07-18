@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：欧拉示性数（题4）。左：立方体（球面状，χ=2）；右：环面状多面体（χ=0）。
+     立方体 V=8,E=12,F=6；环面状 V=16,E=32,F=16（示意）。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 500 300" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+  <!-- 左：立方体（斜二测） -->
+  <g stroke="#1f3a5f" stroke-width="2" fill="#dbe9fb" stroke-linejoin="round">
+    <polygon points="50,120 150,120 150,220 50,220"/>
+    <polygon points="50,120 80,90 180,90 150,120"/>
+    <polygon points="150,120 180,90 180,190 150,220"/>
+  </g>
+  <text x="115" y="255" text-anchor="middle" fill="#1f3a5f" font-size="13">立方体</text>
+  <text x="115" y="275" text-anchor="middle" fill="#c0463a" font-size="13">χ = 8−12+6 = 2</text>
+
+  <!-- 右：环面状（示意：带方洞的框） -->
+  <g stroke="#1f3a5f" stroke-width="2" fill="none" stroke-linejoin="round">
+    <!-- 外框 -->
+    <polygon points="290,100 470,100 470,220 290,220"/>
+    <!-- 内框（洞） -->
+    <polygon points="340,140 420,140 420,180 340,180"/>
+    <!-- 连接（示意三维厚度） -->
+    <line x1="340" y1="140" x2="340" y2="180"/>
+    <line x1="420" y1="140" x2="420" y2="180"/>
+  </g>
+  <text x="380" y="255" text-anchor="middle" fill="#1f3a5f" font-size="13">环面状（一个洞）</text>
+  <text x="380" y="275" text-anchor="middle" fill="#c0463a" font-size="13">χ = 16−32+16 = 0</text>
+
+  <text x="250" y="40" text-anchor="middle" fill="#374151" font-size="13">欧拉示性数 χ = V − E + F 区分"有洞没洞"</text>
+</svg>

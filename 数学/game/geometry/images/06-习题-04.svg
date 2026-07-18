@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：切割线定理（题4）。圆 C 圆心(220,180) r=80；外点 P(400,180)；
+     切点 T(300,180)（PT=180，PT⊥OT，故反演圆 P,PT 与 C 正交）；割线 PAB（示意斜割）。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 460 280" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+  <!-- 圆 C -->
+  <circle cx="220" cy="180" r="80" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.4"/>
+  <circle cx="220" cy="180" r="2.5" fill="#374151"/>
+  <text x="220" y="172" text-anchor="middle" fill="#374151" font-size="13" font-style="italic">O</text>
+
+  <!-- 反演圆（虚线，以 P 为心、PT 为半径，与 C 正交） -->
+  <circle cx="400" cy="180" r="180" fill="none" stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
+
+  <!-- 切线 PT（红） -->
+  <line x1="400" y1="180" x2="300" y2="180" stroke="#c0463a" stroke-width="2.4"/>
+  <!-- 割线 PAB（灰，斜） -->
+  <line x1="400" y1="180" x2="150" y2="245" stroke="#6b7280" stroke-width="1.8"/>
+
+  <!-- 切点 T -->
+  <circle cx="300" cy="180" r="4.5" fill="#c0463a"/>
+  <text x="300" y="168" text-anchor="middle" fill="#c0463a" font-size="14" font-style="italic">T</text>
+
+  <!-- 割点 A, B（示意） -->
+  <circle cx="250" cy="220" r="4" fill="#6b7280"/><text x="244" y="234" text-anchor="end" fill="#6b7280" font-size="13" font-style="italic">A</text>
+  <circle cx="175" cy="240" r="4" fill="#6b7280"/><text x="168" y="238" text-anchor="end" fill="#6b7280" font-size="13" font-style="italic">B</text>
+
+  <!-- 外点 P -->
+  <circle cx="400" cy="180" r="4.5" fill="#1f3a5f"/>
+  <text x="408" y="176" fill="#1f3a5f" font-size="15" font-style="italic">P</text>
+
+  <text x="40" y="50" fill="#c0463a" font-size="13">PA · PB = PT²</text>
+  <text x="40" y="70" fill="#9aa7b8" font-size="12">（反演圆与 C 正交 ⟹ A,B 互换）</text>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：帕斯卡定理（题5）。椭圆中心(250,180)，半轴 180×110；
+     内接六边形 A(406,125) B(250,70) C(94,125) D(94,235) E(250,290) F(406,235)（角度 30,90,...,330）；
+     对边 AB∩DE=P、BC∩EF=Q、CD∩FA=R 共线（帕斯卡线）。图为示意。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 480 320" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+  <!-- 椭圆 -->
+  <ellipse cx="250" cy="180" rx="180" ry="110" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.4"/>
+
+  <!-- 六边形（淡） -->
+  <polygon points="406,125 250,70 94,125 94,235 250,290 406,235" fill="none" stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
+
+  <!-- 三对对边（红），延长相交 -->
+  <line x1="406" y1="125" x2="250" y2="70"  stroke="#c0463a" stroke-width="2"/>
+  <line x1="94"  y1="235" x2="250" y2="290" stroke="#c0463a" stroke-width="2"/>
+  <line x1="250" y1="70"  x2="94"  y2="125" stroke="#c0463a" stroke-width="2"/>
+  <line x1="406" y1="235" x2="250" y2="290" stroke="#c0463a" stroke-width="2"/>
+  <line x1="94"  y1="125" x2="94"  y2="235" stroke="#c0463a" stroke-width="2"/>
+  <line x1="406" y1="125" x2="406" y2="235" stroke="#c0463a" stroke-width="2"/>
+
+  <!-- 帕斯卡线（红虚，示意三个对边交点共线） -->
+  <line x1="20" y1="180" x2="480" y2="180" stroke="#c0463a" stroke-width="2" stroke-dasharray="7 4" opacity="0.7"/>
+
+  <!-- 六个顶点 -->
+  <circle cx="406" cy="125" r="4" fill="#1f3a5f"/><text x="414" y="122" fill="#1f3a5f" font-size="14" font-style="italic">A</text>
+  <circle cx="250" cy="70"  r="4" fill="#1f3a5f"/><text x="250" y="62" text-anchor="middle" fill="#1f3a5f" font-size="14" font-style="italic">B</text>
+  <circle cx="94"  cy="125" r="4" fill="#1f3a5f"/><text x="86" y="122" text-anchor="end" fill="#1f3a5f" font-size="14" font-style="italic">C</text>
+  <circle cx="94"  cy="235" r="4" fill="#1f3a5f"/><text x="86" y="240" text-anchor="end" fill="#1f3a5f" font-size="14" font-style="italic">D</text>
+  <circle cx="250" cy="290" r="4" fill="#1f3a5f"/><text x="250" y="306" text-anchor="middle" fill="#1f3a5f" font-size="14" font-style="italic">E</text>
+  <circle cx="406" cy="235" r="4" fill="#1f3a5f"/><text x="414" y="240" fill="#1f3a5f" font-size="14" font-style="italic">F</text>
+
+  <text x="250" y="170" text-anchor="middle" fill="#c0463a" font-size="12">帕斯卡线（对边交点 P, Q, R 共线）</text>
+</svg>

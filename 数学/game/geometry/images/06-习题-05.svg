@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：用反演证四点共圆（题5）。A,B,C,D 四点共圆（以 A 为反演中心，
+     过 A 的圆反演成直线，B,C,D 的像 B',C',D' 共线）。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 400 300" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+  <!-- 过 A 的圆 -->
+  <circle cx="200" cy="170" r="110" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.2"/>
+
+  <!-- 四点（A 在圆上） -->
+  <circle cx="90"  cy="170" r="4.8" fill="#1f3a5f"/>
+  <text x="82" y="166" text-anchor="end" fill="#1f3a5f" font-size="16" font-style="italic">A</text>
+  <circle cx="310" cy="170" r="4.5" fill="#1f3a5f"/>
+  <text x="318" y="166" fill="#1f3a5f" font-size="15" font-style="italic">B</text>
+  <circle cx="245" cy="75" r="4.5" fill="#1f3a5f"/>
+  <text x="245" y="67" text-anchor="middle" fill="#1f3a5f" font-size="15" font-style="italic">C</text>
+  <circle cx="155" cy="265" r="4.5" fill="#1f3a5f"/>
+  <text x="155" y="282" text-anchor="middle" fill="#1f3a5f" font-size="15" font-style="italic">D</text>
+
+  <text x="200" y="180" text-anchor="middle" fill="#c0463a" font-size="12">A,B,C,D 共圆</text>
+  <text x="200" y="198" text-anchor="middle" fill="#6b7280" font-size="12">⟺（以 A 为心反演）⟺ B',C',D' 共线</text>
+</svg>

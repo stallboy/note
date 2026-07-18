@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：两相切圆→平行线（题3）。左：两圆 C1,C2 相切于 T；
+     右：以 T 为反演中心后，变成两条平行直线 L1,L2。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 540 280" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9aa7b8"/>
+    </marker>
+  </defs>
+
+  <!-- 左：两相切圆 -->
+  <circle cx="110" cy="140" r="60" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.2"/>
+  <circle cx="235" cy="140" r="45" fill="#f4d9d6" stroke="#c0463a" stroke-width="2.2"/>
+  <circle cx="170" cy="140" r="4.5" fill="#374151"/>
+  <text x="170" y="132" text-anchor="middle" fill="#374151" font-size="14" font-style="italic">T</text>
+  <text x="110" y="144" text-anchor="middle" fill="#1f3a5f" font-size="13" font-style="italic">C₁</text>
+  <text x="235" y="144" text-anchor="middle" fill="#c0463a" font-size="13" font-style="italic">C₂</text>
+  <text x="160" y="240" text-anchor="middle" fill="#374151" font-size="12">相切圆</text>
+
+  <!-- 反演箭头 -->
+  <path d="M300,140 L370,140" fill="none" stroke="#9aa7b8" stroke-width="1.8" marker-end="url(#arr)"/>
+  <text x="335" y="130" text-anchor="middle" fill="#6b7280" font-size="12">反演（中心 T）</text>
+
+  <!-- 右：两条平行线 -->
+  <line x1="410" y1="105" x2="530" y2="105" stroke="#1f3a5f" stroke-width="2.4"/>
+  <line x1="410" y1="175" x2="530" y2="175" stroke="#c0463a" stroke-width="2.4"/>
+  <text x="535" y="109" fill="#1f3a5f" font-size="13" font-style="italic">L₁</text>
+  <text x="535" y="179" fill="#c0463a" font-size="13" font-style="italic">L₂</text>
+  <text x="470" y="240" text-anchor="middle" fill="#374151" font-size="12">平行线</text>
+</svg>

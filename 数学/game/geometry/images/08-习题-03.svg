@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：水分子 H₂O（题3）。O(180,170) 中心；两个 H 在 104.5° 张开；
+     H1(120,225) H2(240,225)；一条对称轴（竖直，平分 HOH）。对称群 C₂ᵥ（4 元）。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 340 260" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+  <!-- 化学键 -->
+  <line x1="180" y1="170" x2="120" y2="225" stroke="#374151" stroke-width="2.4"/>
+  <line x1="180" y1="170" x2="240" y2="225" stroke="#374151" stroke-width="2.4"/>
+
+  <!-- 对称轴（虚线） -->
+  <line x1="180" y1="110" x2="180" y2="240" stroke="#c0463a" stroke-width="1.6" stroke-dasharray="5 4"/>
+
+  <!-- O -->
+  <circle cx="180" cy="170" r="16" fill="#1f3a5f"/>
+  <text x="180" y="176" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">O</text>
+  <!-- H1, H2 -->
+  <circle cx="120" cy="225" r="13" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="1.8"/>
+  <text x="120" y="230" text-anchor="middle" fill="#1f3a5f" font-size="14" font-weight="bold">H</text>
+  <circle cx="240" cy="225" r="13" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="1.8"/>
+  <text x="240" y="230" text-anchor="middle" fill="#1f3a5f" font-size="14" font-weight="bold">H</text>
+
+  <text x="170" y="100" text-anchor="end" fill="#c0463a" font-size="13">对称轴</text>
+  <text x="180" y="200" text-anchor="middle" fill="#1f3a5f" font-size="13">104.5°</text>
+  <text x="180" y="252" text-anchor="middle" fill="#374151" font-size="13">水 H₂O：对称群 C₂ᵥ（4 元）</text>
+</svg>

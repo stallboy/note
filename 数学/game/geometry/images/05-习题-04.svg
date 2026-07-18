@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：帕普斯定理（题4）。两条直线 l(上) m(下) 各三点；
+     交叉连线 AB'∩A'B=P, AC'∩A'C=Q, BC'∩B'C=R 三点共线（帕斯卡线）。
+     坐标按精确交点：P(145,200) Q(217,198) R(276,196)，近似共线。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 440 320" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+  <!-- 两条直线 l, m -->
+  <line x1="40"  y1="105" x2="400" y2="108" stroke="#1f3a5f" stroke-width="2"/>
+  <line x1="60"  y1="290" x2="380" y2="287" stroke="#1f3a5f" stroke-width="2"/>
+
+  <!-- 交叉连线（虚线灰）：AB',A'B；AC',A'C；BC',B'C -->
+  <line x1="80"  y1="100" x2="210" y2="300" stroke="#9aa7b8" stroke-width="1.4"/>
+  <line x1="100" y1="290" x2="200" y2="90"  stroke="#9aa7b8" stroke-width="1.4"/>
+  <line x1="80"  y1="100" x2="340" y2="285" stroke="#9aa7b8" stroke-width="1.4"/>
+  <line x1="100" y1="290" x2="330" y2="110" stroke="#9aa7b8" stroke-width="1.4"/>
+  <line x1="200" y1="90"  x2="340" y2="285" stroke="#9aa7b8" stroke-width="1.4"/>
+  <line x1="210" y1="300" x2="330" y2="110" stroke="#9aa7b8" stroke-width="1.4"/>
+
+  <!-- 帕普斯线（红，过 P,Q,R） -->
+  <line x1="100" y1="202" x2="340" y2="194" stroke="#c0463a" stroke-width="2.2"/>
+
+  <!-- 六个点 -->
+  <circle cx="80"  cy="100" r="4" fill="#1f3a5f"/><text x="76" y="92" text-anchor="end" fill="#1f3a5f" font-size="14" font-style="italic">A</text>
+  <circle cx="200" cy="90"  r="4" fill="#1f3a5f"/><text x="200" y="82" text-anchor="middle" fill="#1f3a5f" font-size="14" font-style="italic">B</text>
+  <circle cx="330" cy="110" r="4" fill="#1f3a5f"/><text x="336" y="106" fill="#1f3a5f" font-size="14" font-style="italic">C</text>
+  <circle cx="100" cy="290" r="4" fill="#1f3a5f"/><text x="96" y="306" text-anchor="end" fill="#1f3a5f" font-size="14" font-style="italic">A′</text>
+  <circle cx="210" cy="300" r="4" fill="#1f3a5f"/><text x="210" y="316" text-anchor="middle" fill="#1f3a5f" font-size="14" font-style="italic">B′</text>
+  <circle cx="340" cy="285" r="4" fill="#1f3a5f"/><text x="346" y="283" fill="#1f3a5f" font-size="14" font-style="italic">C′</text>
+
+  <!-- P, Q, R（红） -->
+  <circle cx="145" cy="200" r="4.5" fill="#c0463a"/><text x="145" y="186" text-anchor="middle" fill="#c0463a" font-size="14" font-style="italic">P</text>
+  <circle cx="217" cy="198" r="4.5" fill="#c0463a"/><text x="217" y="186" text-anchor="middle" fill="#c0463a" font-size="14" font-style="italic">Q</text>
+  <circle cx="276" cy="196" r="4.5" fill="#c0463a"/><text x="276" y="186" text-anchor="middle" fill="#c0463a" font-size="14" font-style="italic">R</text>
+</svg>

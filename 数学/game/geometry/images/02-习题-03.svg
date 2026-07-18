@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：等边Δ内 3-4-5 求角（题3）。等边ΔABC：A(260,50) B(80,360) C(440,360)；
+     内点 P(240,230)，PA=3, PB=4, PC=5。把 ΔABP 绕 A 旋转 60°(B→C) 到 ΔACP'，P'(406,157)；
+     PP'=PA=3(ΔAPP' 等边)，P'C=PB=4，PC=5 ⟹ ΔPP'C 为 3-4-5 直角三角形(∠PP'C=90°)，
+     故 ∠APB=∠AP'C=60°+90°=150°。（边长为示意比例） -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 10 460 380" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- 等边 ΔABC -->
+  <polygon points="260,50 80,360 440,360" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- 旋转后的 ΔACP'（虚线） -->
+  <polygon points="260,50 440,360 406,157" fill="none" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4" stroke-linejoin="round"/>
+
+  <!-- P 出发的三条线 PA, PB, PC -->
+  <line x1="240" y1="230" x2="260" y2="50" stroke="#1f3a5f" stroke-width="2"/>
+  <line x1="240" y1="230" x2="80" y2="360" stroke="#1f3a5f" stroke-width="2"/>
+  <line x1="240" y1="230" x2="440" y2="360" stroke="#1f3a5f" stroke-width="2"/>
+
+  <!-- ΔPP'C 高亮（红） -->
+  <polygon points="240,230 406,157 440,360" fill="#f4d9d6" stroke="#c0463a" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- 直角符号 ∠PP'C -->
+  <path d="M393,168 L400,175 L407,168" fill="none" stroke="#c0463a" stroke-width="1.8"/>
+
+  <!-- 旋转弧 P→P'（绕 A，60°） -->
+  <path d="M240,230 A185,185 0 0 1 406,157" fill="none" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="300" y="148" fill="#6b7280" font-size="13">旋转 60°</text>
+
+  <!-- 顶点 -->
+  <circle cx="260" cy="50" r="4.5" fill="#1f3a5f"/>
+  <text x="266" y="44" fill="#1f3a5f" font-size="16" font-style="italic">A</text>
+  <circle cx="80" cy="360" r="4.5" fill="#1f3a5f"/>
+  <text x="68" y="378" text-anchor="end" fill="#1f3a5f" font-size="16" font-style="italic">B</text>
+  <circle cx="440" cy="360" r="4.5" fill="#1f3a5f"/>
+  <text x="452" y="378" fill="#1f3a5f" font-size="16" font-style="italic">C</text>
+  <circle cx="240" cy="230" r="4.5" fill="#1f3a5f"/>
+  <text x="222" y="226" text-anchor="end" fill="#1f3a5f" font-size="16" font-style="italic">P</text>
+  <circle cx="406" cy="157" r="4.5" fill="#c0463a"/>
+  <text x="414" y="152" fill="#c0463a" font-size="16" font-style="italic">P′</text>
+
+  <!-- 边长标注：PA=3, PB=4, PC=5；ΔPP'C 内 PP'=3, P'C=4 -->
+  <text x="262" y="140" fill="#1f3a5f" font-size="13">3</text>
+  <text x="142" y="306" fill="#1f3a5f" font-size="13">4</text>
+  <text x="350" y="312" fill="#1f3a5f" font-size="13">5</text>
+  <text x="334" y="186" fill="#c0463a" font-size="13">3</text>
+  <text x="432" y="262" fill="#c0463a" font-size="13">4</text>
+</svg>

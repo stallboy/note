@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：费马点（题4）。ΔABC：A(120,90) B(400,150) C(180,360)；费马点 F(235,200)；
+     把 ΔABF 绕 A 旋转 60°(逆时针，B→C' 到形外上方) 得 ΔAC'F'，C'(312,-123) F'(273,45)；
+     FA+FB+FC = 折线 C-F-F'-C' 的长 ≥ CC'，等号当共线(拉直)；共线时 ∠CFA=180°-60°=120°。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -150 460 540" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- ΔABC -->
+  <polygon points="120,90 400,150 180,360" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- 旋转到形外的 ΔAC'F'（虚线） -->
+  <polygon points="120,90 312,-123 273,45" fill="none" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4" stroke-linejoin="round"/>
+
+  <!-- F 处三条线 FA, FB, FC -->
+  <line x1="235" y1="200" x2="120" y2="90" stroke="#1f3a5f" stroke-width="2"/>
+  <line x1="235" y1="200" x2="400" y2="150" stroke="#1f3a5f" stroke-width="2"/>
+  <line x1="235" y1="200" x2="180" y2="360" stroke="#1f3a5f" stroke-width="2"/>
+
+  <!-- 折线 C-F-F'-C'（红，= FA+FB+FC） -->
+  <polyline points="180,360 235,200 273,45 312,-123" fill="none" stroke="#c0463a" stroke-width="2.6" stroke-linejoin="round"/>
+  <!-- CC' 直线（最短，虚线） -->
+  <line x1="180" y1="360" x2="312" y2="-123" stroke="#6b7280" stroke-width="1.8" stroke-dasharray="5 4"/>
+
+  <!-- 旋转弧 B→C'（绕 A，60°） -->
+  <path d="M400,150 A286,286 0 0 0 312,-123" fill="none" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="332" y="36" fill="#6b7280" font-size="13">旋转 60°</text>
+
+  <!-- 顶点 -->
+  <circle cx="120" cy="90" r="4.5" fill="#1f3a5f"/>
+  <text x="108" y="84" text-anchor="end" fill="#1f3a5f" font-size="16" font-style="italic">A</text>
+  <circle cx="400" cy="150" r="4.5" fill="#1f3a5f"/>
+  <text x="412" y="146" fill="#1f3a5f" font-size="16" font-style="italic">B</text>
+  <circle cx="180" cy="360" r="4.5" fill="#1f3a5f"/>
+  <text x="168" y="378" text-anchor="end" fill="#1f3a5f" font-size="16" font-style="italic">C</text>
+  <circle cx="235" cy="200" r="4.5" fill="#c0463a"/>
+  <text x="244" y="196" fill="#c0463a" font-size="16" font-style="italic">F</text>
+  <circle cx="312" cy="-123" r="4.5" fill="#6b7280"/>
+  <text x="322" y="-128" fill="#6b7280" font-size="16">C′</text>
+  <circle cx="273" cy="45" r="4" fill="#6b7280"/>
+  <text x="282" y="42" fill="#6b7280" font-size="15">F′</text>
+
+  <!-- 标注 -->
+  <text x="200" y="222" fill="#1f3a5f" font-size="13">120°</text>
+  <text x="120" y="300" fill="#6b7280" font-size="13">拉直 → CC′ 最短</text>
+</svg>

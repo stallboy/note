@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：同调群 H₁ 数"洞"（题3）。左：圆（1 个洞，H₁=Z）；
+     中：球面（0 个一维洞，H₁=0）；右：环面（2 个独立圈，H₁=Z²）。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 520 240" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+  <!-- 左：圆 -->
+  <circle cx="90" cy="110" r="50" fill="none" stroke="#1f3a5f" stroke-width="2.6"/>
+  <text x="90" y="185" text-anchor="middle" fill="#1f3a5f" font-size="14">圆 S¹</text>
+  <text x="90" y="205" text-anchor="middle" fill="#c0463a" font-size="13">H₁ = Z（1 个洞）</text>
+
+  <!-- 中：球面（透视：大圆+椭圆赤道） -->
+  <circle cx="260" cy="110" r="50" fill="none" stroke="#1f3a5f" stroke-width="2.6"/>
+  <ellipse cx="260" cy="110" rx="50" ry="18" fill="none" stroke="#9aa7b8" stroke-width="1.6"/>
+  <text x="260" y="185" text-anchor="middle" fill="#1f3a5f" font-size="14">球面 S²</text>
+  <text x="260" y="205" text-anchor="middle" fill="#c0463a" font-size="13">H₁ = 0（无洞）</text>
+
+  <!-- 右：环面（外椭圆 + 内椭圆 + 两条侧弧） -->
+  <ellipse cx="430" cy="110" rx="60" ry="40" fill="none" stroke="#1f3a5f" stroke-width="2.6"/>
+  <ellipse cx="430" cy="110" rx="22" ry="14" fill="none" stroke="#1f3a5f" stroke-width="2.2"/>
+  <path d="M370,110 Q400,70 430,70" fill="none" stroke="#c0463a" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <path d="M430,70 Q460,70 490,110" fill="none" stroke="#1f3a5f" stroke-width="2.6"/>
+  <path d="M370,110 Q400,150 430,150" fill="none" stroke="#1f3a5f" stroke-width="2.6"/>
+  <path d="M430,150 Q460,150 490,110" fill="none" stroke="#1f3a5f" stroke-width="2.6"/>
+  <path d="M430,70 L430,150" fill="none" stroke="#c0463a" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <text x="430" y="185" text-anchor="middle" fill="#1f3a5f" font-size="14">环面 T²</text>
+  <text x="430" y="205" text-anchor="middle" fill="#c0463a" font-size="13">H₁ = Z²（2 个独立圈）</text>
+
+  <text x="260" y="40" text-anchor="middle" fill="#374151" font-size="13">同调群 H₁ 把"洞的个数"翻译成代数</text>
+</svg>

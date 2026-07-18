@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：两个旋转的复合（题6）。A(150,260) B(350,260)；m2=AB；
+     R_A(绕A转60°)=S_m2·S_m1，m1 过 A 与 AB 夹 30°；
+     R_B(绕B转60°)=S_m3·S_m2'(m2'=AB)，m3 过 B 与 BA 夹 30°；
+     复合 R_B R_A = S_m3·(S_AB²)·S_m1 = S_m3·S_m1，m1,m3 交于 C(250,202)、夹角 60°
+     ⟹ 绕 C 转 2×60°=120°。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 480 340" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c0463a"/>
+    </marker>
+  </defs>
+
+  <!-- 镜面 m1（过 A，虚线） -->
+  <line x1="150" y1="260" x2="323" y2="160" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="332" y="156" fill="#1f3a5f" font-size="14" font-style="italic">m₁</text>
+  <!-- 镜面 m3（过 B，虚线） -->
+  <line x1="350" y1="260" x2="177" y2="160" stroke="#1f3a5f" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="148" y="156" text-anchor="end" fill="#1f3a5f" font-size="14" font-style="italic">m₃</text>
+  <!-- 共用镜面 m2 = AB（实线） -->
+  <line x1="150" y1="260" x2="350" y2="260" stroke="#1f3a5f" stroke-width="2.6"/>
+  <text x="250" y="280" text-anchor="middle" fill="#1f3a5f" font-size="14">m₂ = AB（共用，两次反射抵消）</text>
+
+  <!-- A, B 点 -->
+  <circle cx="150" cy="260" r="4.5" fill="#1f3a5f"/>
+  <text x="150" y="305" text-anchor="middle" fill="#1f3a5f" font-size="16" font-style="italic">A</text>
+  <circle cx="350" cy="260" r="4.5" fill="#1f3a5f"/>
+  <text x="350" y="305" text-anchor="middle" fill="#1f3a5f" font-size="16" font-style="italic">B</text>
+
+  <!-- 复合中心 C -->
+  <circle cx="250" cy="202" r="4.8" fill="#c0463a"/>
+  <text x="250" y="192" text-anchor="middle" fill="#c0463a" font-size="16" font-style="italic">C</text>
+
+  <!-- 120° 旋转弧（绕 C） -->
+  <path d="M211,224 A45,45 0 0 1 289,224" fill="none" stroke="#c0463a" stroke-width="2.4" marker-end="url(#arr)"/>
+  <text x="250" y="244" text-anchor="middle" fill="#c0463a" font-size="13">绕 C 转 120°</text>
+
+  <text x="35" y="45" fill="#374151" font-size="13">两个 60° 旋转 ⟹ 一个 120° 旋转</text>
+</svg>
