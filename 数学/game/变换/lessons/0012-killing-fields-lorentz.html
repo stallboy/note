@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 12 课 · Killing 场与 Lorentz 群 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>12</b> 课 · 连续与李 II</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 12 课</span> 连续与李 II</div>
+  <h1>Killing 场与 Lorentz 群:换一种度量,换一门物理</h1>
+  <p class="lead">欧氏度量 $\sum dx_i^2$ 给出 $O(n)$。如果改用<strong>Minkowski 度量</strong> $dt^2-dx^2-dy^2-dz^2$,等距群就变成 <strong>Lorentz 群</strong>——这正是<strong>狭义相对论</strong>的几何。同一套"度量 → 等距群"的机器,换一个二次型,就从欧氏几何跨进了相对论。</p>
+</div>
+
+<h2><span class="hn">1</span>度量的等距群;Killing 场</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义</strong>　流形上给度量 $g$。<strong>等距群</strong> $\mathrm{Isom}(g)=\{\,\varphi:\varphi^*g=g\,\}$。它的李代数 = <strong>Killing 向量场</strong>:其"流"(沿场移动)保持 $g$ 不变的向量场。</p>
+</div>
+
+<div class="callout calc">
+<p>✏️ <strong>欧氏度量</strong> $g=dx^2+dy^2+dz^2$ 的 Killing 场:</p>
+<ul>
+<li><strong>平移</strong>$\partial_x,\partial_y,\partial_z$(3 个)——沿轴滑动不改度量;</li>
+<li><strong>旋转</strong>$y\partial_x-x\partial_y$ 等(3 个)——第 11 课 $\mathfrak{so}(3)$ 的向量场化身。</li>
+</ul>
+<p>共 6 维 = $E(3)$ 的李代数($\mathfrak{so}(3)\ltimes\mathbb{R}^3$)。一致!平移 + 旋转撑起了欧氏几何的全部对称。</p>
+</div>
+
+<h2><span class="hn">2</span>Minkowski 度量与 Lorentz 群</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义</strong>　$\mathbb{R}^4$ 上的 <strong>Minkowski 度量</strong> $\eta=\mathrm{diag}(1,-1,-1,-1)$,记坐标 $(t,x,y,z)$。保它的线性等距全体 = <strong>Lorentz 群</strong></p>
+<div style="text-align:center;margin:8px 0">$$O(1,3)=\{\,A:A^{\mathsf T}\eta A=\eta\,\}.$$</div>
+<p>加上平移 = <strong>Poincaré 群</strong> $O(1,3)\ltimes\mathbb{R}^4$。<strong>不变量</strong>:时空间隔 $s^2=t^2-x^2-y^2-z^2$。</p>
+</div>
+
+<p>与欧氏的唯一差别:度量的<strong>符号差</strong>(signature)。欧氏是 $(+,+,+,+)$,Minkowski 是 $(+,-,-,-)$。这"几个负号"的差别,造出截然不同的几何与物理。</p>
+
+<h2><span class="hn">3</span>Lorentz 代数:旋转 + 洛伦兹推动</h2>
+
+<p>对 $A(t)^{\mathsf T}\eta A(t)=\eta$ 在 $t=0$ 求导($A(0)=I,A'(0)=X$),得 Lorentz 代数:</p>
+<div style="text-align:center;margin:8px 0">$$\mathfrak{o}(1,3)=\{\,X:X^{\mathsf T}\eta+\eta X=0\,\}.$$</div>
+<p>它有 6 维,分两类(写成 $4\times4$ 分块):</p>
+<ul>
+<li><strong>空间旋转</strong>(作用于 $x,y,z$):$\mathfrak{so}(3)$ 块,与第 11 课同。3 维。</li>
+<li><strong>洛伦兹推动</strong>(混合 $t$ 与某空间轴):3 个,沿 $x,y,z$ 各一。</li>
+</ul>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">命题</span> 沿 $x$ 方向的推动(速度 $v$,$\beta=v/c$,$\gamma=1/\sqrt{1-\beta^2}$)</div>
+<div style="text-align:center;margin:10px 0">$$\begin{pmatrix}\gamma&-\beta\gamma&0&0\\-\beta\gamma&\gamma&0&0\\0&0&1&0\\0&0&0&1\end{pmatrix},\qquad \text{即}\ \ t'=\gamma(t-\beta x),\ x'=\gamma(x-\beta t).$$</div>
+<p class="proof"><span class="proof-mark">核验保间隔.</span> $t'^2-x'^2=\gamma^2[(t-\beta x)^2-(x-\beta t)^2]=\gamma^2[(1-\beta^2)t^2-(1-\beta^2)x^2]=t^2-x^2$(用了 $\gamma^2(1-\beta^2)=1$)。$y,z$ 不变,故 $s^2$ 守恒。$\blacksquare$</p>
+</div>
+
+<h2><span class="hn">4</span>物理:狭义相对论 = Minkowski 几何</h2>
+
+<div class="callout key">
+<p>🔑 <strong>爱因斯坦的洞察</strong>:物理定律在 Lorentz 变换下不变(<strong>相对性原理</strong>)。所以"时空"不是欧氏的,而是 Minkowski 的。<strong>同一套"度量 → 等距群 → 不变量"的机器,换个符号差,就从欧氏几何走进相对论。</strong></p>
+<ul>
+<li><strong>时间膨胀</strong>:静止系中 $dt=1$ 的"一秒",在以 $\beta$ 运动的系里,$s^2=t^2=t'^2-x'^2$ 守恒 $\Rightarrow$ 运动系测得更长($\gamma$ 倍)。</li>
+<li><strong>长度收缩</strong>:运动方向的长度缩短 $1/\gamma$ 倍——同样是"$s^2$ 守恒"在不同切片的体现。</li>
+<li>光速不变 = 零间隔($s^2=0$)的世界线在一切惯性系中仍是零间隔。</li>
+</ul>
+</div>
+
+<div class="callout insight">
+<p>💡 回头看整门课的脉络:$O(n)$(欧氏)→ 换符号差 → $O(1,3)$(相对论)。<strong>"几何 = 变换群 + 不变量"在物理里兑现为"物理 = 对称群 + 守恒量"</strong>。下一课(Noether)将把这句话变成定理。</p>
+</div>
+
+<h2><span class="hn">5</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> Minkowski 度量与欧氏度量的关键差别是——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">符号差(几个负号)</button>
+<button class="quiz-opt">空间的维数</button>
+<button class="quiz-opt">是否可微</button>
+<button class="quiz-opt">坐标系的选择</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。欧氏 $(+,+,+,+)$,Minkowski $(+,-,-,-)$。符号差决定等距群($O(4)$ vs $O(1,3)$)。</div>
+<div class="quiz-fb" data-kind="wrong">两者同在 $\mathbb{R}^4$,差别全在度量的符号差(正/负号的个数)。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> Lorentz 变换保的不变量是——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">时空间隔 $t^2-x^2-y^2-z^2$</button>
+<button class="quiz-opt">时间 $t$ 本身</button>
+<button class="quiz-opt">空间距离 $\sqrt{x^2+y^2+z^2}$</button>
+<button class="quiz-opt">速度 $v$</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。这正是 $A^{\mathsf T}\eta A=\eta$ 的直接含义。时间、空间距离单独都不不变。</div>
+<div class="quiz-fb" data-kind="wrong">Lorentz 变换混合 $t$ 与 $x$,故 $t$、$\sqrt{x^2+y^2+z^2}$ 都会变。守恒的是组合 $t^2-x^2-y^2-z^2$。</div>
+</div>
+
+<h2><span class="hn">6</span>习题</h2>
+<div class="exercises">
+<div class="exercise"><span class="tag prove">证</span> <span class="q">证明 Lorentz 代数条件 $X^{\mathsf T}\eta+\eta X=0$ 蕴含 $X$ 的迹为零。(故 $\mathfrak{o}(1,3)\subset\mathfrak{sl}(4)$,即 Lorentz 变换保 4 维体积。)</span></div>
+<div class="exercise"><span class="tag calc">手算</span> <span class="q">设 $\beta=3/5$(故 $\gamma=5/4$)。一根静止长 $1$ 的尺沿 $x$ 运动,在静止系中测得长度多少?(长度收缩:乘 $1/\gamma$。)</span></div>
+<div class="exercise"><span class="tag think adv">进阶</span> <span class="q">$O(1,3)$ 有几个连通分支?哪一部分是"物理上允许"的(保定向 + 时间方向)?称为<strong>限制 Lorentz 群</strong> $SO^+(1,3)$。</span></div>
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>度量 → 等距群 → Killing 场</strong>;欧氏度量的 Killing 场 = 平移 + 旋转 = $E(3)$ 的李代数。</li>
+<li>Minkowski 度量 $\eta=\mathrm{diag}(1,-1,-1,-1)$ → <strong>Lorentz 群</strong> $O(1,3)$;不变量 = 时空间隔。</li>
+<li>Lorentz 代数 = 空间旋转 + 推动推动(6 维);推动混合 $t$ 与空间轴。</li>
+<li><strong>狭义相对论 = Minkowski 几何</strong>;换符号差,同一机器从欧氏跨进物理。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源</h2>
+<ul>
+<li>Katok《<em>Lectures on Lie Groups</em>》;Artin《<em>Algebra</em>》第 9 章(双线性型与符号差)。</li>
+<li>Baez《<em>This Week's Finds</em>》——几何与物理的桥梁。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="0011-lie-groups-lie-algebra.html"><span class="nav-label">← 上一课</span><span class="nav-title">11 · 李群与李代数</span></a>
+<a class="next" href="0013-noether-theorem.html"><span class="nav-label">下一课 →</span><span class="nav-title">13 · Noether 定理</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 可问:为什么"符号差"是真正的几何不变量?推动为什么不能像旋转那样"周期回到原位"?广义相对论的"弯曲时空"和这里的 Minkowski 差在哪(第 15 课)?</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

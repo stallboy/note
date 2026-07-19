@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 06 课 · 仿射变换 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>06</b> 课 · 矩阵几何塔 III</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 06 课</span> 矩阵几何塔 III</div>
+  <h1>仿射变换:保平行,不保角</h1>
+  <p class="lead">塔的第三层:把"正交"放宽成"<strong>任意可逆</strong>",得到仿射群 $\mathrm{Aff}(n)=GL(n)\ltimes\mathbb{R}^n$。它保平行、保共线比、保面积比,但<strong>不</strong>保长度与角度。最有名的事实:<strong>椭圆是圆的仿射像</strong>——一行代数就把椭圆几何归结为圆。</p>
+</div>
+
+<h2><span class="hn">1</span>仿射群</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义</strong>　<strong>仿射映射</strong> $f:\mathbb{R}^n\to\mathbb{R}^n$ 是 $f(x)=Ax+b$,$A\in GL(n)$、$b\in\mathbb{R}^n$。全体仿射映射 $\mathrm{Aff}(n)=GL(n)\ltimes\mathbb{R}^n$,乘法 $(A,b)(A',b')=(AA',Ab'+b)$(与 $E(n)$ 同构形式,只是 $O(n)$ 换成 $GL(n)$)。</p>
+</div>
+
+<div class="callout insight">
+<p>💡 <strong>仿射 = 线性 + 平移</strong>。它<strong>不</strong>固定原点(平移 $b$),所以"仿射几何"里没有"原点"这个概念——只有"点的相对位置"。这解释了为什么仿射不变量都是<strong>比值</strong>而非绝对量:绝对量依赖原点,比值不依赖。</p>
+</div>
+
+<h2><span class="hn">2</span>不变量:共线、共线比、平行、面积比</h2>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">定理</span> 仿射保什么</div>
+<p>设 $f(x)=Ax+b$ 仿射。则 $f$ 保:</p>
+<ol>
+<li><strong>共线</strong>:共线的点映到共线的点(直线映成直线)。</li>
+<li><strong>共线有向比</strong>:共线三点 $P,Q,R$,$\overline{PR}/\overline{QR}$ 不变。</li>
+<li><strong>平行</strong>:平行直线映成平行直线。</li>
+<li><strong>面积比</strong>:任意两块区域面积比不变(每块面积乘 $|\det A|$)。</li>
+</ol>
+<p>它<strong>不</strong>保:长度、角度、垂直。</p>
+<p class="proof"><span class="proof-mark">证明(要点).</span> (1)(2)设 $P,Q,R$ 共线,$R=P+t(Q-P)$。则 $f(R)=A(P+t(Q-P))+b=(AP+b)+t(AQ-AP)=f(P)+t(f(Q)-f(P))$,仍在 $f(P),f(Q)$ 决定的直线上且<strong>同一参数 $t$</strong>——所以有向比不变。(3)两平行线方向向量相同 $v$,$Av$ 仍相同,故仍平行。(4)换元 $y=Ax+b$,雅可比 $|\det A|$,故面积乘 $|\det A|$,比值不变。$\blacksquare$</p>
+</div>
+
+<h2><span class="hn">3</span>椭圆 = 圆的仿射像(关键事实)</h2>
+
+<div class="callout calc">
+<p>✏️ <strong>手算</strong>:单位圆 $\{(\cos t,\sin t)\}$ 在 $M=\begin{pmatrix}a&0\\0&b\end{pmatrix}$($a,b>0$)下变成</p>
+<div style="text-align:center;margin:8px 0">$$(\cos t,\sin t)\mapsto(a\cos t,\,b\sin t).$$</div>
+<p>设 $u=a\cos t,\ v=b\sin t$,则 $(u/a)^2+(v/b)^2=\cos^2t+\sin^2t=1$,即</p>
+<div style="text-align:center;margin:8px 0">$$\frac{u^2}{a^2}+\frac{v^2}{b^2}=1\quad\text{——标准的半轴 $a,b$ 椭圆。}$$</div>
+<p><strong>面积</strong>:单位圆面积 $\pi$,乘 $|\det M|=ab$,得椭圆面积 $\pi ab$。<strong>无需积分。</strong></p>
+</div>
+
+<div class="callout insight">
+<p>💡 这件事的力量:<strong>任何关于椭圆的仿射性质,都可化归为关于圆的性质</strong>。仿射变换 $M$ 是"翻译机",把椭圆问题翻成圆问题——而解圆问题通常容易得多。这是仿射在竞赛与物理里反复出现的根。</p>
+</div>
+
+<h2><span class="hn">4</span>重心坐标:仿射的自然坐标</h2>
+
+<p>三角形 $ABC$ 内一点 $P$ 可写成 $P=\alpha A+\beta B+\gamma C$,$\alpha+\beta+\gamma=1$,$\alpha,\beta,\gamma\ge0$,这组 $(\alpha,\beta,\gamma)$ 叫 $P$ 的<strong>重心坐标</strong>。</p>
+<div class="callout def">
+<p>🎯 <strong>仿射保重心坐标</strong>:若 $f$ 仿射,则 $f(P)=\alpha f(A)+\beta f(B)+\gamma f(C)$。所以"重心坐标"是仿射不变量——这就是 Menelaus、Ceva 能用重心坐标一统处理的根。</p>
+</div>
+
+<h2><span class="hn">★</span>竞赛联结:仿射秒杀</h2>
+
+<div class="callout key">
+<p>🔑 <strong>原则:遇到椭圆 / 任意三角形,先仿射归一</strong>。</p>
+<ul>
+<li><strong>椭圆内接三角形最大面积</strong>:仿射把椭圆变成单位圆(所有面积乘同一 $|\det M|$,故<strong>面积比不变</strong>)。单位圆内接三角形面积最大者是<strong>正三角形</strong>(面积 $3\sqrt3/4$)。故椭圆情形 = 正三角形的仿射像,最大面积 $=|\det M|\cdot\tfrac{3\sqrt3}{4}$。一道难题,一行归约。</li>
+<li><strong>任意三角形的中线、重心、Menelaus/Ceva</strong>:仿射把任意三角形变成标准三角形(如坐标三角形),结论对标准情形显然成立、且仿射不变,故对原三角形成立。<strong>"仿射不变"让你能假设坐标而不失一般性。</strong></li>
+<li><strong>面积比问题</strong>(如"两线分三角形面积成某比"):仿射保面积比,化成最简坐标算。</li>
+</ul>
+</div>
+
+<h2><span class="hn">5</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> 仿射变换<strong>不</strong>保下列哪个量?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">两线的夹角</button>
+<button class="quiz-opt">两线是否平行</button>
+<button class="quiz-opt">共线三点的有向比</button>
+<button class="quiz-opt">两块区域的面积比</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。仿射可剪切、斜拉,角度会变(如把正方形剪成菱形)。平行、共线比、面积比都不变。</div>
+<div class="quiz-fb" data-kind="wrong">仿射保平行、共线比、面积比(都不依赖"正交")。唯独角度依赖内积,会被剪切破坏。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> 矩阵 $M=\mathrm{diag}(a,b)$ 把单位圆变成椭圆,面积乘以——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">$|\det M|=ab$</button>
+<button class="quiz-opt">$a+b$</button>
+<button class="quiz-opt">$a^2+b^2$</button>
+<button class="quiz-opt">$\sqrt{a^2+b^2}$</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。换元的雅可比 $=|\det M|$,所有面积同乘它。圆 $\pi$ → 椭圆 $\pi ab$。</div>
+<div class="quiz-fb" data-kind="wrong">换元 $u=Ax+b$ 的雅可比行列式 $=|\det A|$。对 $\mathrm{diag}(a,b)$ 即 $ab$。</div>
+</div>
+
+<h2><span class="hn">6</span>习题</h2>
+<div class="exercises">
+<div class="exercise"><span class="tag prove">证</span> <span class="q">证明仿射保重心坐标:$f(\alpha A+\beta B+\gamma C)=\alpha f(A)+\beta f(B)+\gamma f(C)$($\alpha+\beta+\gamma=1$)。由此说明重心(重心坐标 $(1/3,1/3,1/3)$)被仿射映到三像点的重心。</span></div>
+<div class="exercise"><span class="tag calc">竞赛</span> <span class="q">求半轴为 $a,b$ 的椭圆<strong>内接三角形面积的最大值</strong>。(用仿射归约到单位圆,圆内最大者是正三角形。)</span></div>
+<div class="exercise"><span class="tag think adv">进阶</span> <span class="q">剪切变换 $M=\begin{pmatrix}1&k\\0&1\end{pmatrix}$ 把单位圆变成什么?写出方程,验证它是椭圆(当 $k\ne0$),并求其面积(应仍为 $\pi$,因 $\det M=1$)。</span></div>
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>仿射</strong> $=GL(n)+$ 平移;$\mathrm{Aff}(n)=GL(n)\ltimes\mathbb{R}^n$。保共线、共线比、平行、面积比;不保长度、角度。</li>
+<li><strong>椭圆 = 圆的仿射像</strong>,面积 $\pi ab$ 由 $|\det M|$ 一行给出。</li>
+<li><strong>仿射保重心坐标</strong> $\Rightarrow$ Menelaus/Ceva/中线结论仿射不变 $\Rightarrow$ 竞赛里可假设坐标而不失一般性。</li>
+<li>"仿射归一"是秒杀椭圆/任意三角形问题的标准武器。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源</h2>
+<ul>
+<li>Stillwell《<em>Four Pillars</em>》第 4 章(线性代数支柱)与第 7 章(变换)。</li>
+<li>Evan Chen《<em>EGMO</em>》——仿射/坐标技巧的竞赛用法。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="0005-similarity-and-spiral-similarity.html"><span class="nav-label">← 上一课</span><span class="nav-title">05 · 相似与旋转相似</span></a>
+<a class="next" href="0007-projective-homogeneous-coordinates.html"><span class="nav-label">下一课 →</span><span class="nav-title">07 · 射影几何与齐次坐标</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 可问:为什么"仿射不变量都是比值"?"椭圆内接最大三角形"如果不是三角形而是 $n$ 边形,归约还成立吗?剪切($k\ne0$)保面积为什么?</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

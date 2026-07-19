@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 04 课 · 欧氏群 E(n) 与反射生成 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>04</b> 课 · 矩阵几何塔 I</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 04 课</span> 矩阵几何塔 I</div>
+  <h1>欧氏群 $E(n)$:等距 = 正交 + 平移</h1>
+  <p class="lead">从这课起爬"矩阵几何塔"。第一站是欧氏几何。我们要严格证明一件你在科普里"觉得显然"的事:<strong>任何保距变换都是"正交矩阵 + 平移"</strong>,即 $E(n)=O(n)\ltimes\mathbb{R}^n$;并看清"反射"为何是唯一的基本砖。</p>
+</div>
+
+<h2><span class="hn">1</span>定义:等距与欧氏群</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义</strong>　$f:\mathbb{R}^n\to\mathbb{R}^n$ 是<strong>等距</strong>(isometry),若 $\|f(x)-f(y)\|=\|x-y\|$ 对一切 $x,y$。全体等距记 $E(n)$,在复合下成群(验:两个保距的复合保距,逆保距)。</p>
+</div>
+
+<h2><span class="hn">2</span>核心定理:等距必为 $x\mapsto Ax+b$,$A\in O(n)$</h2>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">定理</span> 等距的代数形式</div>
+<p>每个等距 $f$ 都可写成 $f(x)=Ax+b$,其中 $A\in O(n)$、$b\in\mathbb{R}^n$。反之每个这种形式都是等距。</p>
+<p class="proof"><span class="proof-mark">证明.</span> 令 $b=f(0)$,$g(x)=f(x)-b$,则 $g$ 是等距且 $g(0)=0$。下证 $g$ 是正交线性映射。</p>
+<p><strong>第一步:$g$ 保内积。</strong>由 $\|g(x)-g(y)\|=\|x-y\|$ 与 $\|g(x)\|=\|x\|$(取 $y=0$ 用 $g(0)=0$),展开两边平方:</p>
+<div style="text-align:center;margin:8px 0">$$\|g(x)\|^2-2\langle g(x),g(y)\rangle+\|g(y)\|^2=\|x\|^2-2\langle x,y\rangle+\|y\|^2,$$</div>
+<p>消去两端相等的 $\|g(x)\|^2=\|x\|^2$、$\|g(y)\|^2=\|y\|^2$,得 $\langle g(x),g(y)\rangle=\langle x,y\rangle$。</p>
+<p><strong>第二步:$g$ 把标准正交基 $\{e_i\}$ 送到标准正交基</strong> $\{g(e_i)\}$(由保内积直接得)。</p>
+<p><strong>第三步:$g$ 是线性的。</strong>对任意 $x=\sum x_i e_i$,在标准正交基 $\{g(e_i)\}$ 下比较坐标:第 $i$ 个坐标</p>
+<div style="text-align:center;margin:8px 0">$$\langle g(x),g(e_i)\rangle=\langle x,e_i\rangle=x_i=\Big\langle\textstyle\sum_j x_j g(e_j),\,g(e_i)\Big\rangle.$$</div>
+<p>故 $g(x)=\sum_i x_i g(e_i)$,即 $g(x)=Ax$,$A$ 的列是 $g(e_i)$,属于 $O(n)$。于是 $f(x)=Ax+b$。$\blacksquare$</p>
+</div>
+
+<div class="callout insight">
+<p>💡 这个证明把两件事焊在了一起:<strong>"保距"⟺"保内积"⟺"正交矩阵"</strong>。从此 $O(n)$ 不再只是"$A^{\mathsf T}A=I$"的代数定义,而是"<strong>欧氏度量的全部对称</strong>"。整本欧氏几何,就是 $O(n)$-不变量的展开。</p>
+</div>
+
+<h2><span class="hn">3</span>$E(n)=O(n)\ltimes\mathbb{R}^n$:半直积</h2>
+
+<p>等距写成对子 $(A,b)$,对应 $x\mapsto Ax+b$。复合两个:</p>
+<div style="text-align:center;margin:10px 0">$$(A,b)\circ(A',b')(x)=A(A'x+b')+b=(AA')x+(Ab'+b).$$</div>
+<div class="callout def">
+<p>🎯 于是 $E(n)$ 的乘法是 <strong>半直积</strong> $E(n)=O(n)\ltimes\mathbb{R}^n$:</p>
+<div style="text-align:center;margin:8px 0">$$(A,b)\cdot(A',b')=(AA',\;Ab'+b).$$</div>
+<p>注意中间那个 $A$ 要"扭"一下(把 $b'$ 用 $A$ 旋/翻过去)——这是"半直积"区别于直积的地方。平移子群 $\mathbb{R}^n$ 正规,旋转/反射 $O(n)$ 不正规。</p>
+</div>
+
+<h2><span class="hn">4</span>反射生成定理(平面版)</h2>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">定理</span> 平面等距 ≤ 3 个反射</div>
+<p>$\mathbb{R}^2$ 上每个等距,都是<strong>至多三个</strong>直线反射的复合。</p>
+<p class="proof"><span class="proof-mark">证明(思路).</span> 关键引理:<strong>等距被不共线三点钉死</strong>($f$ 在三个不共线点的值确定 $f$)。然后"逐点对齐":</p>
+<ul>
+<li>用 <strong>1 个</strong>反射把 $f$ 的像的第一个点对齐到目标;</li>
+<li>再 <strong>1 个</strong>(关于第一个点处的合适镜面)对齐第二个点;</li>
+<li>若第三个点还没对齐,再 <strong>1 个</strong>(关于过前两点的直线为镜面,它已不动前两点)对齐第三点。</li>
+</ul>
+<p>三步后三个不共线点全对齐,由引理 $f$ 被唯一确定,故 $f$ = 这 ≤3 个反射之积。$\blacksquare$</p>
+</div>
+
+<div class="callout calc">
+<p>✏️ <strong>手算:两个反射的复合</strong>(右起作用,先右后左)。</p>
+<p><strong>(a) 相交镜面 → 旋转。</strong>镜面为 $x$ 轴($S_1(x,y)=(x,-y)$)与 $y=x$($S_2(x,y)=(y,x)$,夹角 $\alpha=45°$):</p>
+<div style="text-align:center;margin:8px 0">$$S_2S_1(x,y)=S_2(x,-y)=(-y,x),$$</div>
+<p>正是绕原点转 $90°=2\alpha$。 ✓</p>
+<p><strong>(b) 平行镜面 → 平移。</strong>镜面 $x=0$($S_1(x,y)=(-x,y)$)与 $x=1$($S_2(x,y)=(2-x,y)$):</p>
+<div style="text-align:center;margin:8px 0">$$S_2S_1(x,y)=S_2(-x,y)=(2+x,y),$$</div>
+<p>沿 $x$ 平移 $2$ = 两镜面距 $1$ 的两倍。 ✓</p>
+</div>
+
+<p>于是平面等距分四类:平移(2 反射,平行镜)、旋转(2 反射,相交镜)、反射(1 个)、<strong>滑移反射</strong>(3 个:反射 + 沿镜面平移)。定向由 $\det A$:$+1$ 正向(平移、旋转),$-1$ 反向(反射、滑移)。</p>
+
+<h2><span class="hn">★</span>竞赛联结:用等距解题</h2>
+
+<div class="callout key">
+<p>🔑 <strong>反射是竞赛几何的"折叠术"</strong>。两类高频招:</p>
+<ul>
+<li><strong>最短路(将军饮马)</strong>:$A$、$B$ 在直线 $\ell$ 同侧,求 $\ell$ 上点 $P$ 使 $AP+PB$ 最小。把 $B$ 关于 $\ell$ 反射成 $B'$,则 $AP+PB=AP+PB'\geq AB'$,取等当 $P$ 在 $AB'\cap\ell$。<strong>反射把"折线"拉成"直线"</strong>。</li>
+<li><strong>费马点</strong>:三角形内使到三顶点距离和最小的点,常通过把三角形关于边旋转 $60°$ 来证(旋转 = 两反射)。这些"妙招"的本质都是"等距不改变长度,但能把图形摆到方便的位置"。</li>
+</ul>
+</div>
+
+<h2><span class="hn">5</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> 等距 $f$ 满足 $f(0)=0$,则 $f$ 必为——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">正交线性映射 $x\mapsto Ax,\ A\in O(n)$</button>
+<button class="quiz-opt">平移 $x\mapsto x+b$</button>
+<button class="quiz-opt">标量乘 $x\mapsto\lambda x$</button>
+<button class="quiz-opt">任意线性映射</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。保距 + 固定原点 ⟹ 保内积 ⟹ 把标准正交基送成标准正交基 ⟹ 正交矩阵。</div>
+<div class="quiz-fb" data-kind="wrong">提示:保距 + $f(0)=0$ ⟹ $\|f(x)\|=\|x\|$,展开距离平方得保内积,进而 $f$ 线性正交。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> 两条相交成角 $\alpha$ 的直线,各做一次反射,复合是——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">绕交点转 $2\alpha$ 的旋转</button>
+<button class="quiz-opt">沿角平分线的平移</button>
+<button class="quiz-opt">关于角平分线的反射</button>
+<button class="quiz-opt">恒等变换</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。手算 $(x,y)\mapsto(-y,x)$ 等例子都给出转角 $=2\alpha$。</div>
+<div class="quiz-fb" data-kind="wrong">回看第 4 节手算 (a):镜面夹 $45°$ 复合得转 $90°$。规律是"夹角 $\alpha$ → 转 $2\alpha$"。</div>
+</div>
+
+<h2><span class="hn">6</span>习题</h2>
+<div class="exercises">
+<div class="exercise"><span class="tag prove">证</span> <span class="q">证明:若线性映射 $T$ 满足 $\|Tx\|=\|x\|$ 对一切 $x$,则 $T\in O(n)$(即 $T^{\mathsf T}T=I$)。</span></div>
+<div class="exercise"><span class="tag calc">手算</span> <span class="q">写出平面上"关于直线 $y=2x$ 反射"的 $2\times2$ 矩阵(提示:先旋转该线到 $x$ 轴,反射,再转回)。验证它是 $O(2)$ 且 $\det=-1$。</span></div>
+<div class="exercise"><span class="tag prove adv">进阶</span> <span class="q">证明"等距被不共线三点钉死":若两个等距 $f,g$ 在不共线三点 $A,B,C$ 上取值相同,则 $f=g$。(提示:等距把直线映成直线——可先用保内积证。)用此完成反射生成定理。</span></div>
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>等距 ⟺ 正交矩阵 + 平移</strong>;$E(n)=O(n)\ltimes\mathbb{R}^n$,半直积乘法 $(A,b)(A',b')=(AA',Ab'+b)$。</li>
+<li>"保距 ⟺ 保内积 ⟺ $O(n)$"——三者焊死,欧氏几何 = $O(n)$-不变量。</li>
+<li><strong>反射生成</strong>:平面任何等距 ≤ 3 反射;相交镜→旋转($2\alpha$),平行镜→平移。</li>
+<li>竞赛:反射/旋转是"折叠术",把折线拉直、把图形摆顺。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源</h2>
+<ul>
+<li>Stillwell《<em>Four Pillars</em>》第 7 章(变换);Artin《<em>Algebra</em>》第 4 章(线性群)。</li>
+<li>Evan Chen《<em>EGMO</em>》——反射、旋转的竞赛用法。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="0003-what-is-an-invariant.html"><span class="nav-label">← 上一课</span><span class="nav-title">03 · 不变量的精确定义</span></a>
+<a class="next" href="0005-similarity-and-spiral-similarity.html"><span class="nav-label">下一课 →</span><span class="nav-title">05 · 相似与旋转相似</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 可问:半直积里那个"扭"的 $A$ 直观是什么?为什么"被三点钉死"只对不共线成立?滑移反射为何必须 3 个反射?</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

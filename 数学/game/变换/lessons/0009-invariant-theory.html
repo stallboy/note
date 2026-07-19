@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 09 课 · 不变量理论入门 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>09</b> 课 · 不变量理论 I</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 09 课</span> 不变量理论 I</div>
+  <h1>不变量理论:让"不变量"可计算</h1>
+  <p class="lead">前几课的"不变量"是一个个具体函数(距离、交比)。这课升级到<strong>所有</strong>不变量的集合——<strong>不变环</strong>。问题变成:"给定一个群作用,把它的全部不变多项式<strong>列出来</strong>。" 这是克莱因的梦想:用不变量生成元把一门几何<strong>算</strong>出来。</p>
+</div>
+
+<h2><span class="hn">1</span>不变环</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义</strong>　设群 $G$ 线性作用于向量空间 $V$(从而作用于多项式环 $\mathbb{R}[V]$)。<strong>不变环</strong></p>
+<div style="text-align:center;margin:8px 0">$$\mathbb{R}[V]^G=\{\,p\in\mathbb{R}[V]:p(g\cdot x)=p(x)\ \forall g\in G\,\}.$$</div>
+<p>它是 $\mathbb{R}[V]$ 的子环(不变多项式的和、积、数乘仍不变)。第 03 课的"$G$-不变量"是函数,这里把它们打包成环。</p>
+</div>
+
+<h2><span class="hn">2</span>三个范例(手算可验)</h2>
+
+<div class="callout calc">
+<p>✏️ <strong>(a) $O(2)\curvearrowright\mathbb{R}^2$。</strong>旋转 + 反射下,唯一的多项式不变量是 $r^2=x^2+y^2$:</p>
+<div style="text-align:center;margin:8px 0">$$\mathbb{R}[x,y]^{O(2)}=\mathbb{R}[x^2+y^2].$$</div>
+<p><strong>理由</strong>:任一 $O(2)$-不变多项式 $p$,在圆 $x=r\cos\theta,y=r\sin\theta$ 上与 $\theta$ 无关,只依赖 $r$,故 $p=q(r^2)=q(x^2+y^2)$。</p>
+</div>
+
+<div class="callout calc">
+<p>✏️ <strong>(b) 反射 $\sigma(x,y)=(y,x)$ 生成 $S_2$。</strong>不变多项式 = <strong>对称多项式</strong>:</p>
+<div style="text-align:center;margin:8px 0">$$\mathbb{R}[x,y]^{S_2}=\mathbb{R}[\,x+y,\;xy\,]=\mathbb{R}[e_1,e_2].$$</div>
+<p>$p(x,y)=p(y,x)$ $\Leftrightarrow$ $p$ 是初等对称多项式 $e_1=x+y,e_2=xy$ 的多项式。(置换 $\Leftrightarrow$ 对称。)</p>
+</div>
+
+<div class="callout calc">
+<p>✏️ <strong>(c) $S_n$ 置换 $n$ 个变量</strong>(对称多项式基本定理):</p>
+<div style="text-align:center;margin:8px 0">$$\mathbb{R}[x_1,\ldots,x_n]^{S_n}=\mathbb{R}[e_1,\ldots,e_n],\quad e_k=\text{第 $k$ 个初等对称多项式}.$$</div>
+<p>这正是韦达定理的代数骨架:多项式的根 $x_i$ 被置换,其初等对称式(= 系数)不变。</p>
+</div>
+
+<h2><span class="hn">3</span>$O(n)$ 的第一基本定理(FFT)</h2>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">定理</span> $O(n)$-不变多项式 = 内积的多项式</div>
+<p>设 $O(n)$ 作用于 $k$ 个向量 $v_1,\ldots,v_k\in\mathbb{R}^n$。则每个 $O(n)$-不变多项式,都是这 $k$ 个向量<strong>两两内积</strong> $\langle v_i,v_j\rangle$ 的多项式:</p>
+<div style="text-align:center;margin:8px 0">$$\mathbb{R}[v_1,\ldots,v_k]^{O(n)}=\mathbb{R}\big[\langle v_i,v_j\rangle:1\le i,j\le k\big].$$</div>
+</div>
+
+<div class="callout insight">
+<p>💡 这条定理把"<strong>欧氏几何的全部多项式不变量</strong>"压缩成一句话:<strong>只有内积</strong>。距离($\|v_i-v_j\|^2=\|v_i\|^2-2\langle v_i,v_j\rangle+\|v_j\|^2$)、角度($\cos\theta=\langle v_i,v_j\rangle/\|v_i\|\|v_j\|$)全是内积的组合——所以"长度 + 角度 = 欧氏几何"不是口号,是 FFT 的推论!</p>
+</div>
+
+<h2><span class="hn">4</span>有限生成(Hilbert)</h2>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">定理</span> Hilbert 有限生成(简化版)</div>
+<p>对"好"的群(有限群、$O(n)$、$GL(n)$ 等 reductive 群),不变环 $\mathbb{R}[V]^G$ 是<strong>有限生成的</strong>:存在有限多个不变多项式 $f_1,\ldots,f_m$,使每个不变量都是它们的多项式。</p>
+</div>
+<div class="callout insight">
+<p>💡 这意味着:<strong>每门(由这样的群定义的)几何,都能用有限个不变量生成元"算"出来</strong>。克莱因的梦想——"几何 = 用不变量生成元刻画"——在 19–20 世纪被 Hilbert、Noether 等人严格兑现。不变量理论从此成为代数几何、表示论的核心。</p>
+</div>
+
+<h2><span class="hn">★</span>竞赛联结:对称多项式 ↔ 韦达</h2>
+
+<div class="callout key">
+<p>🔑 不变量理论在代数竞赛里的化身:<strong>对称多项式</strong>。</p>
+<ul>
+<li>多项式 $x^n+a_{n-1}x^{n-1}+\cdots+a_0$ 的根 $r_1,\ldots,r_n$ 在 $S_n$ 下被置换,而系数 $a_k=(-1)^k e_{n-k}$ 是 $S_n$-不变量。<strong>韦达定理 = 对称多项式定理。</strong></li>
+<li>"$r_1^2+r_2^2+r_3^2$" 这类根的对称式,必能表成系数的多项式(用牛顿恒等式 $p_k=e_1p_{k-1}-e_2p_{k-2}+\cdots$)——这就是把 $S_n$-不变量用生成元 $e_1,\ldots,e_n$ 表出。</li>
+</ul>
+</div>
+
+<h2><span class="hn">5</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> $\mathbb{R}[x,y]^{O(2)}$(旋转 + 反射不变的多项式)由谁生成?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">$x^2+y^2$</button>
+<button class="quiz-opt">$x+y$</button>
+<button class="quiz-opt">$xy$</button>
+<button class="quiz-opt">$x^2-y^2$</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。不变 ⟺ 只依赖 $r$ ⟺ 是 $r^2=x^2+y^2$ 的多项式。其余选项都不是 $O(2)$-不变($x+y$、$x^2-y^2$ 会被旋转改,$xy$ 会被反射改)。</div>
+<div class="quiz-fb" data-kind="wrong">只有 $x^2+y^2$ 在旋转、反射下都不变。其余都会被某个 $O(2)$ 元素改变。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> $O(n)$ 作用于多个向量,FFT 说不变多项式由什么生成?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">两两内积 $\langle v_i,v_j\rangle$</button>
+<button class="quiz-opt">各向量的坐标</button>
+<button class="quiz-opt">各向量的行列式</button>
+<button class="quiz-opt">各向量的迹</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。距离、角度都是内积的组合,故内积生成全部。</div>
+<div class="quiz-fb" data-kind="wrong">FFT:全部 $O(n)$-不变多项式 = 两两内积 $\langle v_i,v_j\rangle$ 的多项式。</div>
+</div>
+
+<h2><span class="hn">6</span>习题</h2>
+<div class="exercises">
+<div class="exercise"><span class="tag prove">证</span> <span class="q">证明 $\mathbb{R}[x,y]^{S_2}=\mathbb{R}[x+y,xy]$:(i) $x+y$、$xy$ 是 $S_2$-不变;(ii) 任一对称多项式 $p(x,y)=p(y,x)$ 可写成 $e_1=x+y,e_2=xy$ 的多项式(提示:把 $p$ 按 $x$ 的幂整理,用对称性配对)。</span></div>
+<div class="exercise"><span class="tag calc">手算</span> <span class="q">用牛顿恒等式,把 $p_3=r_1^3+r_2^3+r_3^3$ 表成初等对称多项式 $e_1,e_2,e_3$。验证 $p_3=e_1p_2-e_2p_1+3e_3$ 之类。</span></div>
+<div class="exercise"><span class="tag think adv">进阶</span> <span class="q">$SO(2)$(只旋转、不反射)作用在 $\mathbb{R}^2$ 上,不变环还是 $\mathbb{R}[x^2+y^2]$ 吗?(提示:旋转不变的多项式里,$(x+iy)^k$ 的实/虚部会怎样?它们是 $SO(2)$-不变吗?)</span></div>
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>不变环</strong> $\mathbb{R}[V]^G$ = 全体不变多项式;几何 = 用它刻画。</li>
+<li>$O(2)$→$\mathbb{R}[x^2+y^2]$;$S_n$→对称多项式 $\mathbb{R}[e_1,\ldots,e_n]$(韦达的根)。</li>
+<li><strong>FFT($O(n)$)</strong>:不变量 = 两两内积;距离、角度是其组合。</li>
+<li><strong>Hilbert</strong>:不变环有限生成——克莱因"算出几何"之梦兑现。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源</h2>
+<ul>
+<li>Artin《<em>Algebra</em>》第 9 章(对称多项式、双线性型);Olver《<em>Classical Invariant Theory</em>》概念入口。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="0008-cross-ratio.html"><span class="nav-label">← 上一课</span><span class="nav-title">08 · 交比</span></a>
+<a class="next" href="0010-polarity-conics.html"><span class="nav-label">下一课 →</span><span class="nav-title">10 · 对偶、圆锥曲线、极点极线</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 可问:$SO(2)$ 与 $O(2)$ 的不变环为何不同(差一个反射)?FFT 为什么是"内积"而不是别的?"reductive 群"到底好在哪?</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

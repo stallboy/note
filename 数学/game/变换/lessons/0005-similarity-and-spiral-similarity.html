@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 05 课 · 相似与旋转相似 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>05</b> 课 · 矩阵几何塔 II</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 05 课</span> 矩阵几何塔 II</div>
+  <h1>相似与旋转相似</h1>
+  <p class="lead">塔的第二层:把"保距"放宽成"<strong>等比</strong>放缩",得到相似群 $\mathrm{CO}(n)$。在 2D,正向相似恰好是<strong>复数乘法</strong> $z\mapsto az+b$——而"旋转 + 放缩"的组合,就是 IMO 几何的头号武器<strong>旋转相似</strong>(spiral similarity)。</p>
+</div>
+
+<h2><span class="hn">1</span>相似群 $\mathrm{CO}(n)$</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义</strong>　$f$ 是<strong>相似</strong>,若存在常数 $\lambda>0$ 使 $\|f(x)-f(y)\|=\lambda\|x-y\|$ 对一切 $x,y$。$\lambda$ 叫<strong>相似比</strong>。全体相似记 $\mathrm{Sim}(n)$。</p>
+</div>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">命题</span> 相似的代数形式</div>
+<p>每个相似形如 $f(x)=\lambda A x+b$,$A\in O(n)$、$\lambda>0$。其线性部分全体 $\mathrm{CO}(n)=\{\lambda A:\lambda>0,\,A\in O(n)\}\cong\mathbb{R}_{>0}\times O(n)$。</p>
+<p class="proof"><span class="proof-mark">证明.</span> $\frac{1}{\lambda}f$ 是等距(相似比归一),由第 04 课 $\frac{1}{\lambda}f(x)=A'x+b'$,$A'\in O(n)$。故 $f(x)=\lambda A'x+\lambda b'=Ax+b$,$A=\lambda A'\in\mathrm{CO}(n)$。$\blacksquare$</p>
+</div>
+
+<p><strong>不变量</strong>:相似<strong>保角</strong>(conformal)、保长度之比。它<strong>不</strong>保长度本身($\lambda\ne1$ 时距离被缩放)。故相似几何介于欧氏(保距)与仿射(只保比/共线)之间。</p>
+
+<h2><span class="hn">2</span>2D 的奇迹:相似 = 复数变换</h2>
+
+<p>把 $\mathbb{R}^2$ 看成复平面,$z=x+iy$。则:</p>
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">定理</span> 平面相似的复数形式</div>
+<p>平面上的相似,在复坐标下恰为 $z\mapsto az+b$(正向,$|a|=\lambda$,$\arg a=\theta$)或 $z\mapsto a\bar z+b$(反向)。其中 $a\in\mathbb{C}\setminus\{0\}$、$b\in\mathbb{C}$。</p>
+<p class="proof"><span class="proof-mark">证明.</span> 正向相似的线性部分 $\lambda R_\theta\in\mathrm{CO}(2)$。而 $\lambda R_\theta$ 在复数下正是"乘 $a=\lambda e^{i\theta}$":$z\mapsto az$ 旋转 $\theta$ 再放缩 $\lambda$。再加平移 $b$。反向情形 $\bar z$ 给出反射(共轭)。$\blacksquare$</p>
+</div>
+
+<div class="callout insight">
+<p>💡 <strong>为什么复数乘法同时"转又拉"?</strong>因为 $a=\rho e^{i\theta}$,乘 $a$ = 转 $\theta$、拉 $\rho$。这把"旋转 + 相似"统一成<strong>一个复数</strong>。$O(2)\subset\mathrm{CO}(2)$ 就是"$|a|=1$"的子情形(纯旋转)。整门 2D 相似几何,被压缩成"复平面上的仿射变换 $z\mapsto az+b$"。</p>
+</div>
+
+<h2><span class="hn">3</span>旋转相似:IMO 头号武器</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义</strong>　<strong>旋转相似</strong>(spiral similarity)= 有<strong>不动点</strong> $O$ 的正向相似:以 $O$ 为中心,转角 $\theta$、相似比 $\rho$。复数下即 $z\mapsto a(z-O)+O$,$a=\rho e^{i\theta}$。</p>
+</div>
+
+<div class="callout key">
+<p>🔑 <strong>核心事实</strong>:旋转相似把任一线段 $AB$ 送到任一线段 $CD$(当 $|CD|/|AB|=\rho$)。其中心 $O$ 满足</p>
+<div style="text-align:center;margin:8px 0">$$\triangle OAB\sim\triangle OCD,\qquad \angle AOC=\angle BOD=\theta,\quad \frac{OA}{OC}=\frac{OB}{OD}=\frac{|AB|}{|CD|}.$$</div>
+<p><strong>构造中心</strong>:$O$ 是"过 $A,C$ 的圆"与"过 $B,D$ 的圆"的另一个交点(若 $AB\parallel CD$ 则退化)。这正是 <strong>Miquel 点</strong>的化身——多条共圆关系交汇处。</p>
+</div>
+
+<div class="callout calc">
+<p>✏️ <strong>手算:旋转相似把 $A=1,B=i$ 送到 $C=-1,D=-i$(都绕原点)。</strong></p>
+<p>$AB$ 从 $1$ 到 $i$;$CD$ 从 $-1$ 到 $-i$。把 $1\mapsto-1$、$i\mapsto-i$ 的相似:中心 $O=0$,比值 $\rho=|-1|/|1|=1$,转角 $\theta=180°$。复数:$a=-1$,$z\mapsto-z$。</p>
+<p>核验 $\triangle OAB\sim\triangle OCD$:都是腰为 $1$ 的等腰直角三角形 ✓。$\angle AOC=\angle(1\to-1)=180°=\theta$ ✓。</p>
+</div>
+
+<h2><span class="hn">★</span>竞赛联结:旋转相似秒杀什么</h2>
+
+<div class="callout key">
+<p>🔑 旋转相似是 2D 几何最强工具之一(Evan Chen《EGMO》专章)。典型题:</p>
+<ul>
+<li><strong>共圆判定</strong>:若旋转相似把 $AB$ 送 $CD$,则 $A,B,C,D$ 四点共圆(中心 $O$ 也在某些圆上)。</li>
+<li><strong>Miquel 点 / 三圆共点</strong>:三角形三边上各取一点,三个小三角形的外接圆共点——本质是若干旋转相似中心的巧合。</li>
+<li><strong>"两个正方形/等边三角形"问题</strong>:两个正方形外/内接,某线段相等垂直——构造一个转 $90°$、比 $1$ 的旋转相似(或转 $60°$ 的)一步证完。</li>
+</ul>
+<p><strong>用我们的语言</strong>:这些都是 $\mathrm{CO}(2)$ 里某个特定元素 $a=\rho e^{i\theta}$(常见 $\theta=90°,60°$)的不变量性质。妙招不再是"灵感",而是"找一个合适的复数 $a$"。</p>
+</div>
+
+<h2><span class="hn">4</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> 相似变换 $z\mapsto az+b$($a\ne0$)的相似比 $\lambda$ 和转角 $\theta$ 是——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">$\lambda=|a|$,$\theta=\arg a$</button>
+<button class="quiz-opt">$\lambda=\arg a$,$\theta=|a|$</button>
+<button class="quiz-opt">$\lambda=|b|$,$\theta=\arg b$</button>
+<button class="quiz-opt">$\lambda=\mathrm{Re}\,a$,$\theta=\mathrm{Im}\,a$</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。$a=\lambda e^{i\theta}$,乘 $a$ = 放缩 $\lambda$、转 $\theta$;$b$ 只是平移,不参与。</div>
+<div class="quiz-fb" data-kind="wrong">$a=\lambda e^{i\theta}$,$|a|=\lambda$、$\arg a=\theta$。$b$ 是平移,与比值、转角无关。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> 相似变换<strong>不</strong>保下列哪个量?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">线段的绝对长度</button>
+<button class="quiz-opt">两线的夹角</button>
+<button class="quiz-opt">两条线段长度的比</button>
+<button class="quiz-opt">三点是否共线</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。相似把一切距离乘 $\lambda$,故绝对长度改变;但角度、长度比、共线性都保。</div>
+<div class="quiz-fb" data-kind="wrong">相似把每条距离乘同一常数 $\lambda$,所以"比"被消掉、角度(余弦=点积/长度积)也被消掉。唯独"绝对长度"被放大。</div>
+</div>
+
+<h2><span class="hn">5</span>习题</h2>
+<div class="exercises">
+<div class="exercise"><span class="tag prove">证</span> <span class="q">证明:旋转相似的中心 $O$ 满足 $\triangle OAB\sim\triangle OCD$。由此说明 $A,B,C,D$ 四点共圆的充要条件(用 $O$ 看到的角)。</span></div>
+<div class="exercise"><span class="tag calc">手算</span> <span class="q">求把线段 $AB$($A=0,B=1$)送到 $CD$($C=2,D=2+i$)的旋转相似的中心 $O$、转角、比值。(提示:写方程 $a\cdot 0+b=2$、$a\cdot1+b=2+i$。)</span></div>
+<div class="exercise"><span class="tag think adv">竞赛</span> <span class="q">在同一顶点 $A$ 外接两个正方形 $ABCD$ 与 $AB'C'D'$(共顶点 $A$)。用"$90°$ 旋转相似"证明:$CC'=DD'$ 且 $CC'\perp DD'$。(经典"两正方形"题。)</span></div>
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>相似</strong> = 距离乘常数 $\lambda$;$\mathrm{CO}(n)=\mathbb{R}_{>0}\times O(n)$;保角、保比,不保长度。</li>
+<li><strong>2D 奇迹</strong>:相似 $=z\mapsto az+b$;$a=\lambda e^{i\theta}$ 同时编码"放缩 + 旋转"。</li>
+<li><strong>旋转相似</strong> = 有不动点的正向相似,把 $AB$ 送 $CD$,中心满足 $\triangle OAB\sim\triangle OCD$;通向 Miquel、共圆、"两正方形"。</li>
+<li>每个竞赛妙招 = $\mathrm{CO}(2)$ 里某个 $a=\rho e^{i\theta}$(常 $90°$、$60°$)的性质。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源</h2>
+<ul>
+<li>Evan Chen《<em>EGMO</em>》第 4–5 章(相似、旋转相似、Miquel)——竞赛侧权威。</li>
+<li>《<em>几何变换</em>》奥赛小丛书·"位似旋转变换"一章。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="0004-euclidean-group-isometries.html"><span class="nav-label">← 上一课</span><span class="nav-title">04 · 欧氏群 E(n)</span></a>
+<a class="next" href="0006-affine-transformations.html"><span class="nav-label">下一课 →</span><span class="nav-title">06 · 仿射变换</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 可问:为什么"有不动点"让相似从一般 $z\mapsto az+b$ 变成"旋转相似"?Miquel 点和旋转相似中心怎么精确对应?反向相似 $z\mapsto a\bar z+b$ 何时出现?</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

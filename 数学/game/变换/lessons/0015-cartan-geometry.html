@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 15 课 · Cartan 几何 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>15</b> 课 · 现代形态</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 15 课</span> 现代形态</div>
+  <h1>Cartan 几何:弯曲的 Klein 几何</h1>
+  <p class="lead">Klein 几何漂亮,但只描述"<strong>平坦</strong>"空间(处处相同)。真实世界是<strong>弯曲</strong>的——球面各点曲率相同但非欧;时空在质量周围弯曲。<strong>Cartan</strong> 的天才:保留 Klein 的"局部模型 $G/H$",却允许它逐点<strong>弯曲</strong>。于是 Klein 几何成了 Cartan 几何的"曲率为零"特例——和"欧氏空间是流形的局部模型"完全平行。</p>
+</div>
+
+<h2><span class="hn">1</span>类比:从欧氏到流形</h2>
+
+<div class="callout insight">
+<p>💡 你已经见过一次这种"平坦→弯曲"的升级:</p>
+<ul>
+<li><strong>流形</strong>(manifold):整体弯曲,但<strong>局部</strong>同胚于 $\mathbb{R}^n$(每点附近"看起来像"欧氏空间)。$\mathbb{R}^n$ 是它的"平坦模型",曲率为零。</li>
+<li>球面、环面、任意曲面:处处局部像 $\mathbb{R}^2$,但全局弯曲。</li>
+</ul>
+<p>Cartan 把这个想法<strong>搬到 Klein 几何上</strong>:让空间"局部像 $G/H$",但允许弯曲。</p>
+</div>
+
+<h2><span class="hn">2</span>Cartan 几何的定义(概念版)</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义(Cartan 几何,概念)</strong>　以 Klein 几何 $(G,H)$ 为<strong>模型</strong>的 Cartan 几何,是一个流形 $M$,配上一个"$G/H$-值的无穷小模型"——在每点,切空间<strong>看起来像</strong>齐性空间 $G/H$ 的切空间,但有一个衡量"偏离平坦"的<strong>曲率</strong>(curvature)。</p>
+<p>当曲率 $=0$,$M$ <strong>就是</strong>原来的 Klein 几何 $G/H$(全局平坦);曲率 $\ne0$ 时,$M$ 是"$G/H$ 的弯曲版本"。</p>
+</div>
+
+<div class="callout calc">
+<p>✏️ <strong>三个模型与它们的弯曲版</strong>:</p>
+<ul>
+<li>模型 $(E(n),O(n))$(欧氏)→ 弯曲版 = <strong>黎曼曲面</strong>(任意 2 维黎曼流形,局部像平面但弯曲)。</li>
+<li>模型 $(SO(3),SO(2))$(球面)→ 球面本身曲率 $=+1$;常正曲率曲面是它的"整体解"。</li>
+<li>模型 $(O(1,3),\text{Lorentz})$(Minkowski)→ 弯曲版 = <strong>洛伦兹流形</strong>(广义相对论的时空,局部像 Minkowski 但被质量弯曲)。<strong>引力 = 时空曲率。</strong></li>
+</ul>
+</div>
+
+<h2><span class="hn">3</span>狭义 → 广义相对论:一个 Cartan 故事</h2>
+
+<div class="callout key">
+<p>🔑 把第 12、14、15 课串起来读相对论:</p>
+<ul>
+<li>Minkowski 几何 $(O(1,3),\dots)$ = <strong>狭义相对论</strong>(平坦时空,无引力)。</li>
+<li>它的 <strong>Cartan 弯曲版</strong>(洛伦兹流形,曲率 $\ne0$)= <strong>广义相对论</strong>。</li>
+<li><strong>爱因斯坦方程</strong>(粗略)$\text{曲率}=\text{能量动量}$:物质告诉时空如何弯曲,时空告诉物质如何运动。</li>
+</ul>
+<p>所以广义相对论 = "Minkowski 这门 Klein 几何的 Cartan 推广"。<strong>整门物理,在 Klein–Cartan 框架里是一句话的延伸。</strong></li>
+</div>
+
+<h2><span class="hn">4</span>统一图景:从 $GL(n)$ 到时空</h2>
+
+<div class="bigidea">
+<span class="label">全课程的一句话谱系</span>
+$GL(n)$(第 01 课,你的第一个群)<br>
+→ 子群 $O(n)$/扩张 $E(n),\mathrm{Aff},PGL$(塔,第 04–08 课)<br>
+→ 连续化:李群 + 李代数(第 11 课)<br>
+→ 换度量:$O(n)\to O(1,3)$(第 12 课,相对论)<br>
+→ 物理:对称→守恒(第 13 课,Noether)<br>
+→ 统一:Klein 几何 $(G,H)$(第 14 课)<br>
+→ 弯曲:Cartan 几何(本课)→ 引力、规范场、现代几何物理
+</div>
+
+<h2><span class="hn">5</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> Cartan 几何与 Klein 几何的关系是——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">Klein 是 Cartan 曲率为零的特例</button>
+<button class="quiz-opt">两者完全无关</button>
+<button class="quiz-opt">Cartan 是 Klein 的子情形</button>
+<button class="quiz-opt">Cartan 取消了群</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。Cartan 几何以 $(G,H)$ 为局部模型;曲率 $=0$ 时退化为 Klein 几何 $G/H$。</div>
+<div class="quiz-fb" data-kind="wrong">Cartan 保留 Klein 的 $(G,H)$ 作局部模型,但允许曲率;$\kappa=0$ 时就是 Klein 几何。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> 广义相对论的"弯曲时空"是哪个 Klein 几何的 Cartan 推广?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">Minkowski / Lorentz $(O(1,3))$</button>
+<button class="quiz-opt">欧氏 $(E(4))$</button>
+<button class="quiz-opt">射影 $(PGL)$</button>
+<button class="quiz-opt">仿射 $(\mathrm{Aff}(4))$</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。狭义相对论 = 平坦 Minkowski;广义相对论 = 它的弯曲 Cartan 版。</div>
+<div class="quiz-fb" data-kind="wrong">时空是洛伦兹的(符号差 $+---$);平坦 Lorentz = 狭义相对论,其 Cartan 弯曲版 = 广义相对论。</div>
+</div>
+
+<h2><span class="hn">6</span>习题</h2>
+<div class="exercises">
+<div class="exercise"><span class="tag think">想</span> <span class="q">用"局部模型 + 全局弯曲"类比,解释为何球面是"欧氏平面的正曲率版"(尽管球面也是 Klein 几何 $S^2=SO(3)/SO(2)$)。</span></div>
+<div class="exercise"><span class="tag think adv">进阶</span> <span class="q">查阅"规范理论作为 Cartan 几何":电磁 $U(1)$ 规范场可视为以某个 $(G,H)$ 为模型的 Cartan 几何。这说明 Cartan 框架不仅管引力,也管其他基本力。</span></div>
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>Cartan 几何</strong>:以 Klein $(G,H)$ 为局部模型、允许曲率;曲率 $=0$ 退化为 Klein。</li>
+<li>平行于"流形局部像 $\mathbb{R}^n$ 但弯曲"。</li>
+<li><strong>广义相对论</strong> = Minkowski(Lorentz)几何的 Cartan 弯曲版;引力 = 曲率。</li>
+<li>全谱系:$GL(n)\to O(n)/E(n)/\mathrm{Aff}/PGL\to$ 李 $\to O(1,3)\to$ Noether $\to$ Klein $\to$ Cartan $\to$ 现代几何物理。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源</h2>
+<ul>
+<li>Sharpe《<em>Differential Geometry: Cartan's Generalization of Klein's Erlangen Program</em>》——权威(进阶)。</li>
+<li>Baez《<em>This Week's Finds</em>》——Cartan/规范场的科普桥梁。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="0014-erlangen-rigorous.html"><span class="nav-label">← 上一课</span><span class="nav-title">14 · 爱尔兰根纲领</span></a>
+<a class="next" href="0016-teaching-and-synthesis.html"><span class="nav-label">下一课 →</span><span class="nav-title">16 · 教学法总览 + Master 清单</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 可问:"曲率"在这套语言里精确是什么(联络形式)?规范场为何也是 Cartan 几何?Cartan 几何比黎曼几何强在哪里?</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

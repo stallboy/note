@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 01 课 · GL(n) 是你的第一个群 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>01</b> 课 · 地基重铸 I</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 01 课</span> 地基重铸 I</div>
+  <h1>「群」这个词,你早就懂一半</h1>
+  <p class="lead">克莱因那句"几何 = <strong>变换群</strong> + 不变量"里,"不变量"我们在科普里聊过很多,但"群"这个字一直含糊地"现讲"带过。今天把它钉死——而且你会发现:你的线性代数里,早就住着一整个群。</p>
+</div>
+
+<h2><span class="hn">1</span>为什么"群"非定义不可</h2>
+
+<p>科普里说"反射全体组成一个群",意思是"反射能复合,复合回来还是反射"。但"能复合"到底要满足什么?如果不钉死,后面遇到"等距是不是群""相似是不是群""可逆矩阵是不是群"这种问题,就没法判断。</p>
+
+<p>好消息:你在线代里早就反复用过一种"能复合、能还原"的运算——<strong>矩阵乘法</strong>。我们就从它身上,把"群"的四个条件提炼出来。</p>
+
+<div class="callout def">
+<p>🎯 <strong>定义(群)</strong>　一个集合 $G$ 配一个运算 $\cdot$,记作 $(G,\cdot)$,称为<strong>群</strong>,若满足四条:</p>
+<ol>
+<li><strong>封闭性</strong>: $a,b\in G \Rightarrow a\cdot b\in G$。</li>
+<li><strong>结合律</strong>: $(a\cdot b)\cdot c = a\cdot(b\cdot c)$。</li>
+<li><strong>单位元</strong>: 存在 $e\in G$,使 $e\cdot a=a\cdot e=a$ 对一切 $a\in G$ 成立。</li>
+<li><strong>逆元</strong>: 每个 $a\in G$ 都有 $a^{-1}\in G$,使 $a\cdot a^{-1}=a^{-1}\cdot a=e$。</li>
+</ol>
+<p>本课里 $\cdot$ 几乎总是<strong>复合</strong>(矩阵乘法),按<strong>右起作用</strong>读:$\mathbf{S}\mathbf{T}(P)$ 表示先 $\mathbf{T}$ 后 $\mathbf{S}$。</p>
+</div>
+
+<h2><span class="hn">2</span>GL(n):你认识的第一个群</h2>
+
+<p>令 $GL(n)$ 为所有 $n\times n$ <strong>可逆</strong>实矩阵的集合,运算取矩阵乘法。逐条验证它是群:</p>
+
+<ol>
+<li><strong>封闭</strong>: $A,B$ 可逆 $\Rightarrow$ $AB$ 可逆,且 $(AB)^{-1}=B^{-1}A^{-1}$。<br>
+(可逆 $\Leftrightarrow \det\ne 0$;而 $\det(AB)=\det A\cdot\det B\ne 0$。) ✓</li>
+<li><strong>结合</strong>: 矩阵乘法天然满足结合律。 ✓</li>
+<li><strong>单位</strong>: 单位阵 $I_n$。 ✓</li>
+<li><strong>逆</strong>: $A$ 可逆 $\Rightarrow$ $A^{-1}$ 存在,且 $A^{-1}$ 仍可逆($\det(A^{-1})=1/\det A\ne 0$)。 ✓</li>
+</ol>
+
+<div class="callout insight">
+<p>💡 四条里,<strong>只有第 1、4 条是"真信息"</strong>——结合律和单位元是矩阵乘法白送的。换句话说,"$GL(n)$ 是群"这件事的实质,浓缩成一句话:</p>
+<p style="text-align:center"><strong>可逆矩阵的乘积还可逆,可逆矩阵的逆还可逆。</strong></p>
+<p>这正是"变换能复合、复合了还能还原"的代数内核。后面所有"某某变换是不是群",你都用这两句话去判。</p>
+</div>
+
+<div class="callout calc">
+<p>✏️ <strong>手算验证一条:$(AB)^{-1}=B^{-1}A^{-1}$</strong></p>
+<p>取 $A=\begin{pmatrix}0&1\\1&0\end{pmatrix}$(对换,$\det=-1$),$B=\begin{pmatrix}1&1\\0&1\end{pmatrix}$(剪切,$\det=1$)。</p>
+<ul>
+<li>$AB=\begin{pmatrix}0&1\\1&0\end{pmatrix}\begin{pmatrix}1&1\\0&1\end{pmatrix}=\begin{pmatrix}0&1\\1&1\end{pmatrix}$,$\det(AB)=0-1=-1\ne0$,可逆 ✓</li>
+<li>$A^{-1}=A$(对换的逆是自己);$B^{-1}=\begin{pmatrix}1&-1\\0&1\end{pmatrix}$(剪切的逆是反向剪切)。</li>
+<li>于是 $(AB)^{-1}=B^{-1}A^{-1}=\begin{pmatrix}1&-1\\0&1\end{pmatrix}\begin{pmatrix}0&1\\1&0\end{pmatrix}=\begin{pmatrix}-1&1\\1&0\end{pmatrix}$。</li>
+<li>复核 $AB\cdot(AB)^{-1}=\begin{pmatrix}0&1\\1&1\end{pmatrix}\begin{pmatrix}-1&1\\1&0\end{pmatrix}=\begin{pmatrix}1&0\\0&1\end{pmatrix}=I$ ✓</li>
+</ul>
+<p>注意顺序翻过来了:先 $A$ 后 $B$ 的逆,是先 $B^{-1}$ 后 $A^{-1}$——就像"先穿袜后穿鞋,脱的时候先脱鞋"。这是后面所有"反射复合"运算的根。</p>
+</div>
+
+<h2><span class="hn">3</span>子群:把群"缩小",就得到一门新几何</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义(子群)</strong>　$H\subseteq G$ 是 $G$ 的<strong>子群</strong>(记 $H\le G$),若 $H$ 在 $G$ 的运算下自己也成群。实操上只需验两条:对 $H$ 中元素,<strong>乘积不出界、取逆不出界</strong>。(单位元会自动跟来:取 $a\in H$,则 $a^{-1}\in H$,故 $aa^{-1}=e\in H$。)</p>
+</div>
+
+<p>最有名的例子:<strong>正交群</strong></p>
+<div style="text-align:center;margin:14px 0">
+$$O(n)=\{\,A\in GL(n)\;:\;A^{\mathsf T}A=I\,\}.$$
+</div>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">命题</span> $O(n)$ 是 $GL(n)$ 的子群。</div>
+<p class="proof"><span class="proof-mark">证明.</span> 只需验封闭与取逆。</p>
+<p><strong>封闭</strong>: 设 $A,B\in O(n)$,即 $A^{\mathsf T}A=I$、$B^{\mathsf T}B=I$。则</p>
+<div style="text-align:center;margin:10px 0">
+$$(AB)^{\mathsf T}(AB)=B^{\mathsf T}A^{\mathsf T}AB=B^{\mathsf T}(A^{\mathsf T}A)B=B^{\mathsf T}IB=B^{\mathsf T}B=I,$$
+</div>
+<p>故 $AB\in O(n)$。</p>
+<p><strong>取逆</strong>: 由 $A^{\mathsf T}A=I$ 知 $A$ 可逆且 $A^{-1}=A^{\mathsf T}$。又 $A$ 是方阵,左可逆 $\Rightarrow$ 右可逆,故 $AA^{\mathsf T}=I$。于是</p>
+<div style="text-align:center;margin:10px 0">
+$$(A^{-1})^{\mathsf T}(A^{-1})=(A^{\mathsf T})^{\mathsf T}A^{\mathsf T}=AA^{\mathsf T}=I,$$
+</div>
+<p>故 $A^{-1}\in O(n)$。$\qquad\blacksquare$</p>
+</div>
+
+<div class="callout think">
+<p>🤔 <strong>想一想: $O(n)$ 里的矩阵保什么?</strong></p>
+<p>条件 $A^{\mathsf T}A=I$ 意味着对任意向量 $x$,</p>
+<div style="text-align:center;margin:10px 0">
+$$\|Ax\|^2=(Ax)^{\mathsf T}(Ax)=x^{\mathsf T}A^{\mathsf T}Ax=x^{\mathsf T}Ix=x^{\mathsf T}x=\|x\|^2.$$
+</div>
+<p><strong>它保长度。</strong>而保长度 $\Leftrightarrow$ 保两点距离 $\Leftrightarrow$(下一课我们证)保角度。所以 $O(n)$ 正是"保距的<strong>线性</strong>变换"——欧氏几何的灵魂。科普里说的"反射、旋转",它们的矩阵全在 $O(n)$ 里;而反射矩阵 $\det=-1$,旋转矩阵 $\det=+1$。</p>
+</div>
+
+<h2><span class="hn">4</span>这一课的回报:整门几何是一座塔</h2>
+
+<p>把第 2、3 节连起来,你已经能看懂整门课的骨架。每一层"砍掉一部分矩阵",就丢掉一些不变量,也定义出一门新几何:</p>
+
+<div class="table-wrap"><table>
+<thead><tr><th>层</th><th>群</th><th>保什么(不变量)</th><th>几何</th></tr></thead>
+<tbody>
+<tr><td>最宽</td><td>$GL(n)$</td><td>共线、共线比、平行</td><td>仿射的"线性核"</td></tr>
+<tr><td>↓</td><td>$O(n)\le GL(n)$</td><td>长度、角度、面积</td><td>欧氏</td></tr>
+<tr><td>↓</td><td>$SO(n)\le O(n)$</td><td>同上,且保定向</td><td>正向欧氏</td></tr>
+</tbody></table></div>
+
+<p>(平移要靠把 $GL(n)$ 与 $\mathbb{R}^n$ 拼成"仿射群" $GL(n)\ltimes\mathbb{R}^n$;射影要靠 $PGL(n+1)$ 作用在射影空间上——后面逐层搭。)</p>
+
+<div class="bigidea">
+<span class="label">本课一句话</span>
+"变换群"不再是口号。它是 $GL(n)$ 与它的一族子群;<br>
+<strong>每一族保住一组不变量,就是一门几何。</strong>
+</div>
+
+<h2><span class="hn">★</span>竞赛联结:这塔通向 IMO 的桥</h2>
+
+<div class="callout key">
+<p>🔑 竞赛里你用<strong>复数</strong> $z$ 或<strong>向量</strong>做几何,本质就是让 $\mathbb{R}^2$ 上的<strong>线性变换</strong>(即 $2\times2$ 矩阵、或复数乘法)替你算。本课的 $GL(2)$、$O(2)$,正是那些"妙招"的家:</p>
+<ul>
+<li><strong>旋转相似</strong>(spiral similarity)——IMO 高频招——= 乘一个复数 $re^{i\theta}$,即 $\mathbb{C}$ 上的<strong>正向相似</strong>,对应 $O(2)$ 里的旋转 × 缩放。(第 06 课)</li>
+<li><strong>复数法</strong>证共圆、共线、等角——就是 $GL(2,\mathbb{R})$ 在 $\mathbb{C}\cong\mathbb{R}^2$ 上的作用。(第 08 课)</li>
+<li><strong>反演</strong>、<strong>调和点列</strong>——后面分别在反演课、射影课,用更大的群 $PGL$ 讲清"为什么有效"。</li>
+</ul>
+<p>本课先记住一句话:<strong>每个竞赛"妙招",都住在某个矩阵群里;讲清它的群,妙招就变成定理的推论,而不是背下来的技巧。</strong></p>
+</div>
+
+<h2><span class="hn">5</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> 群公理四条里,矩阵乘法"白送"(不需额外假设就成立)的是哪两条?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">结合律与单位元</button>
+<button class="quiz-opt">封闭性与逆元</button>
+<button class="quiz-opt">单位元与逆元</button>
+<button class="quiz-opt">结合律与封闭性</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。矩阵乘法天然结合,且 $I_n$ 天然是单位元。需要靠"$A$ 可逆"这条<strong>假设</strong>才成立的,只有封闭(乘积还可逆)和逆(逆还可逆)。所以 $GL(n)$ 的"群性",实质就一句话。</div>
+<div class="quiz-fb" data-kind="wrong">再看一眼第 2 节的逐条验证:结合律、单位元这两条,根本没用"$A$ 可逆"就成立;真正用到"可逆"的是封闭和逆两条。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> $O(n)$ 保住的"不变量"是——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">向量的长度(距离)</button>
+<button class="quiz-opt">直线的平行关系</button>
+<button class="quiz-opt">三点的共线关系</button>
+<button class="quiz-opt">四点的交比</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。$\|Ax\|=\|x\|$ 由 $A^{\mathsf T}A=I$ 直接推出。平行是仿射($GL(n)$ 层)的不变量,共线更宽,交比是射影层——群越大,保得越少。</div>
+<div class="quiz-fb" data-kind="wrong">提示:$A^{\mathsf T}A=I\Rightarrow \|Ax\|^2=x^{\mathsf T}A^{\mathsf T}Ax=x^{\mathsf T}x=\|x\|^2$。它保的是关于"度量"的那个量。</div>
+</div>
+
+<div class="quiz" data-qid="q3">
+<div class="quiz-q"><span class="qid">Q3</span> 设 $A\in O(n)$,它的逆 $A^{-1}$ 等于——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">$A$ 的转置 $A^{\mathsf T}$</button>
+<button class="quiz-opt">$A$ 的行列式 $\det A$</button>
+<button class="quiz-opt">$A$ 本身,即 $A$</button>
+<button class="quiz-opt">$A$ 的伴随矩阵 $A^{*}$</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。由 $A^{\mathsf T}A=I$ 直接读出 $A^{-1}=A^{\mathsf T}$。这是后面"反射的逆是它自己""旋转的逆是反向旋转"的统一根源。</div>
+<div class="quiz-fb" data-kind="wrong">$A^{\mathsf T}A=I$ 正是"$A^{\mathsf T}$ 是 $A$ 的逆"的定义。再读一遍第 3 节的取逆证明。</div>
+</div>
+
+<h2><span class="hn">6</span>习题</h2>
+<div class="exercises">
+
+<div class="exercise">
+<span class="tag calc">手算</span>
+<span class="q">用四个矩阵实现"Klein 四元群" $V=\{I,\;R_x,\;R_y,\;R_{xy}\}$,其中 $R_x=\begin{pmatrix}-1&0\\0&1\end{pmatrix}$、$R_y=\begin{pmatrix}1&0\\0&-1\end{pmatrix}$、$R_{xy}=\begin{pmatrix}-1&0\\0&-1\end{pmatrix}$。验证 $V\le GL(2)$:列出它的乘法表,确认封闭且每个元素自逆。</span>
+</div>
+
+<div class="exercise">
+<span class="tag prove">证</span>
+<span class="q">令 $SL(n)=\{A\in GL(n):\det A=1\}$(特殊线性群)。证明 $SL(n)\le GL(n)$。(提示:用 $\det(AB)=\det A\,\det B$ 与 $\det(A^{-1})=1/\det A$。)</span>
+</div>
+
+<div class="exercise">
+<span class="tag prove adv">进阶</span>
+<span class="q">证明 $O(n)$ 的<strong>刻画定理</strong>:$A\in O(n)\;\Leftrightarrow\;$ 对一切 $x\in\mathbb{R}^n$ 有 $\|Ax\|=\|x\|$。(方向 $\Leftarrow$ 是难点。提示:<strong>极化</strong>——用 $\|x+y\|^2$ 表出内积 $x^{\mathsf T}y$,再推出 $A^{\mathsf T}A=I$。)</span>
+</div>
+
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>群</strong> = 集 + 运算,满足封闭、结合、单位、逆四条。</li>
+<li><strong>$GL(n)$ 是你认识的第一个群</strong>;其"群性"实质 = 可逆矩阵的乘积与逆仍可逆。</li>
+<li><strong>子群</strong> = 缩小群;$O(n)\le GL(n)$,且 $O(n)$ = 保长度的线性变换 = 欧氏几何的群。</li>
+<li>整门几何 = $GL(n)$ 的一族子群,每族一组不变量。每个竞赛妙招,都住在某个矩阵群里。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源推荐</h2>
+<ul>
+<li><strong>入门对位</strong>:Stillwell《<em>The Four Pillars of Geometry</em>》第 3、4 章(线性代数 + 变换两根支柱)。<a href="https://websites.math.leidenuniv.nl/edixhoven/teaching/2019-2020/CIMPA/Stillwell_Geometry.pdf">免费 PDF(Leiden 镜像)</a>。</li>
+<li><strong>更硬</strong>:Artin《<em>Algebra</em>》第 1 章(群)、第 4 章(线性群),矩阵群从头讲,是"$GL(n)$ 当原型教群论"的范本。</li>
+<li><strong>竞赛侧</strong>:Evan Chen《<em>Euclidean Geometry in Mathematical Olympiads</em>》(MAA, 2016)——变换、反演、旋转相似的系统讲法。</li>
+<li>本工作区的全资源清单见 <code>../RESOURCES.md</code>。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="../reference/curriculum.html"><span class="nav-label">← 参考</span><span class="nav-title">课程地图</span></a>
+<a class="next" href="0002-group-action-orbit-stabilizer.html"><span class="nav-label">下一课 →</span><span class="nav-title">02 · 群作用:几何如何"发生"</span></a>
+</div>
+
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)">
+<p>🙋 <strong>我是你的老师,任何不清楚的都可以问。</strong>例如:为什么要强调"右起作用"?$O(n)$ 与 $SO(n)$ 差一个反射,这"差一点"在几何上意味着什么?极化恒等式具体怎么推出 $A^{\mathsf T}A=I$?——随便打断。</p>
+</div>
+
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

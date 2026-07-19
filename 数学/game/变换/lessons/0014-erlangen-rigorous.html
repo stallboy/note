@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 14 课 · 爱尔兰根纲领(严格版) — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>14</b> 课 · 爱尔兰根</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 14 课</span> 爱尔兰根纲领</div>
+  <h1>爱尔兰根纲领:把口号变成定义</h1>
+  <p class="lead">现在把全课的纲领严格化。克莱因 1872 年那句"几何 = 变换群 + 不变量",在第 03 课已翻成公式;这课把它升级为<strong>Klein 几何</strong> $(G,X)$ 的标准框架,看清"<strong>几何的层级</strong>"为何自然成立,并指出它的边界——为下一课 Cartan 埋下引线。</p>
+</div>
+
+<h2><span class="hn">1</span>Klein 几何 $(G,X)$</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义(Klein 几何)</strong>　一门 <strong>Klein 几何</strong>是一个二元组 $(G,X)$:$G$ 是李群,<strong>传递</strong>作用于空间 $X$。</p>
+<ul>
+<li>两个图形(子集)$F,F'\subseteq X$ 在这门几何里<strong>等价</strong>,若存在 $g\in G$ 使 $g(F)=F'$。</li>
+<li>这门几何的研究对象 = $X$ 上的 $G$-不变量(函数与关系,第 03、09 课)。</li>
+<li>固定一点 $x_0\in X$,其稳定化子 $H=G_{x_0}$;由传递性,$X\cong G/H$(齐性空间)。</li>
+</ul>
+</div>
+
+<div class="callout insight">
+<p>💡 <strong>同一个空间 $X$,换不同的传递群 $G$,就是不同的几何。</strong>而且:传递作用意味着"几何不分地点"(任何点可送到任何点);<strong>几何的全部信息,编码在"一点的稳定化子 $H$"里</strong>(因为 $X\cong G/H$)。例如欧氏几何里 $H=O(n)$(保一个点的变换就是正交),这正是"欧氏几何 = $O(n)$-不变量"的齐性空间说法。</p>
+</div>
+
+<h2><span class="hn">2</span>各门几何,一一对应</h2>
+
+<div class="table-wrap"><table>
+<thead><tr><th>几何</th><th>$(G,X)$</th><th>稳定化子 $H$</th><th>代表不变量</th></tr></thead>
+<tbody>
+<tr><td>欧氏</td><td>$(E(n),\mathbb{R}^n)$</td><td>$O(n)$</td><td>距离、角度</td></tr>
+<tr><td>相似</td><td>$(\mathrm{Sim}(n),\mathbb{R}^n)$</td><td>$\mathrm{CO}(n)$</td><td>角度、长度比</td></tr>
+<tr><td>仿射</td><td>$(\mathrm{Aff}(n),\mathbb{R}^n)$</td><td>$GL(n)$</td><td>共线、平行、面积比</td></tr>
+<tr><td>射影</td><td>$(PGL(n+1),\mathbb{P}^n)$</td><td>(射影稳定化子)</td><td>共线、交比</td></tr>
+<tr><td>球面</td><td>$(SO(n+1),S^n)$</td><td>$SO(n)$</td><td>球面距离</td></tr>
+</tbody></table></div>
+
+<h2><span class="hn">3</span>层级:群越小,几何越"细"</h2>
+
+<p>关键观察:$E(n)\subset\mathrm{Sim}(n)\subset\mathrm{Aff}(n)\subset PGL(n+1)$ <strong>都是子群链</strong>。每往上一层(群变大):</p>
+<ul>
+<li><strong>不变量变少</strong>(大群的轨道更粗,第 03 课);</li>
+<li><strong>等价更宽松</strong>(更多图形被视作"一样");</li>
+<li><strong>结论更普适</strong>(对更多变换都成立)。</li>
+</ul>
+
+<div class="callout key">
+<p>🔑 <strong>层级方向(务必记牢)</strong>:<br>
+<strong>欧氏 $\supset$ 相似 $\supset$ 仿射 $\supset$ 射影 $\supset$ 拓扑</strong>(从右往左读:每往左,几何越"严格",不变量越多)。<br>
+推论:<strong>射影几何的定理,对仿射、欧氏都自动成立</strong>(因为射影群最大、不变量最少,故其结论对子群的几何也真)。反之不成立——欧氏定理(用距离)在射影里没有意义。这解释了"为什么能从射影推导欧氏,却不能反过来"。</p>
+</div>
+
+<h2><span class="hn">4</span>读克莱因原文</h2>
+
+<div class="callout insight">
+<p>💡 现在你能读懂 1872 年原文了(英译:<a href="https://arxiv.org/abs/0807.3161">arXiv:0807.3161</a>)。Klein 的核心动作:</p>
+<ul>
+<li>把当时并存的几门几何(欧氏、射影、反演/球面、黎曼等)<strong>统一</strong>成"一个变换群 + 它的不变量";</li>
+<li>建议用<strong>变换群的大小</strong>来给几何分类(就是上面的层级);</li>
+<li>把<strong>函数论</strong>也纳入(保持某群不变的函数 = 该几何的"几何函数")。</li>
+</ul>
+<p>注意:Klein 从未真正发表这篇"演讲"——它是他就任埃尔朗根大学教授的<strong>就职纲领</strong>(Programm),以小册子流通。其影响在几十年后才被完全认识。</p>
+</div>
+
+<h2><span class="hn">5</span>纲领的边界 → Cartan</h2>
+
+<div class="callout key">
+<p>🔑 <strong>Klein 几何是"平坦"的</strong>:$G$ 传递作用 $\Rightarrow$ 空间每一点的局部几何完全相同(齐性)。但自然的几何常是<strong>弯曲</strong>的——曲面上各点曲率不同、时空中各点引力不同——没有大的传递群。<strong>Klein 框架抓不住这种"逐点变化"的几何。</strong>这正是 Cartan 的切入点(下一课):保留 Klein 的"局部模型 $G/H$",但允许它"弯曲"。</p>
+</div>
+
+<h2><span class="hn">6</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> 在 Klein 几何 $(G,X)$ 中,$X$ 同构于——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">$G/H$($H$ = 一点的稳定化子)</button>
+<button class="quiz-opt">$G$ 本身</button>
+<button class="quiz-opt">$H$ 本身</button>
+<button class="quiz-opt">$G\times H$</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。传递作用下 $X\cong G/G_{x_0}=G/H$。故几何由 $(G,H)$ 编码。</div>
+<div class="quiz-fb" data-kind="wrong">由轨道—稳定化子(第 02 课)的连续版:$X\cong G/H$,$H$ 为一点稳定化子。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> 为何"射影定理对欧氏几何也成立,反之不然"?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">射影群最大、不变量最少,其结论对子群几何自动成立</button>
+<button class="quiz-opt">两者无关,巧合</button>
+<button class="quiz-opt">欧氏是射影的子几何</button>
+<button class="quiz-opt">射影用齐次坐标,欧氏不用</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。$E\subset\mathrm{Sim}\subset\mathrm{Aff}\subset PGL$。大群的不变量自动是小群的不变量(第 03 课),故射影结论下传;欧氏"距离"在射影里无意义,故不能上推。</div>
+<div class="quiz-fb" data-kind="wrong">群链 $E\subset\cdots\subset PGL$:大群(射影)的不变量自动是子群(欧氏)的不变量,故射影定理对欧氏成立;欧氏用距离,射影无距离,故反之不成立。</div>
+</div>
+
+<h2><span class="hn">7</span>习题</h2>
+<div class="exercises">
+<div class="exercise"><span class="tag prove">证</span> <span class="q">证明 $X\cong G/H$($H=G_{x_0}$)是双射:定义 $\varphi:G/H\to X$,$gH\mapsto g\cdot x_0$,验证良定义、单、满(用传递性)。</span></div>
+<div class="exercise"><span class="tag think">想</span> <span class="q">球面几何 $(SO(3),S^2)$:$H=SO(2)$(固定北极的旋转)。验证 $S^2\cong SO(3)/SO(2)$ 与"$S^2$ 每点局部相同"一致。</span></div>
+<div class="exercise"><span class="tag think adv">进阶</span> <span class="q">"拓扑"对应群 $\mathrm{Homeo}$(全体同胚),它极大、几乎无不变量。列出拓扑的(极少)不变量;说明为何欧拉示性数 $V-E+F$ 是拓扑不变量。</span></div>
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>Klein 几何</strong> $(G,X)$:$G$ 传递作用;$X\cong G/H$;几何 = $G$-不变量;等价 = 同一 $G$-轨道。</li>
+<li>欧氏/相似/仿射/射影/球面 各对应一个 $(G,H)$。</li>
+<li><strong>层级</strong> $E\subset\mathrm{Sim}\subset\mathrm{Aff}\subset PGL\subset\mathrm{Homeo}$:群越大,不变量越少越普适;故射影定理自动下传到欧氏。</li>
+<li><strong>边界</strong>:Klein 几何齐性(平坦),抓不住弯曲几何 → 引出 Cartan。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源</h2>
+<ul>
+<li>Klein《<em>Erlangen Program</em>》原文英译 <a href="https://arxiv.org/abs/0807.3161">arXiv:0807.3161</a>;Baez <a href="https://math.ucr.edu/home/baez/erlangen/">解读</a>。</li>
+<li>Sharpe《<em>Differential Geometry</em>》(Cartan 推广)——进阶。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="0013-noether-theorem.html"><span class="nav-label">← 上一课</span><span class="nav-title">13 · Noether 定理</span></a>
+<a class="next" href="0015-cartan-geometry.html"><span class="nav-label">下一课 →</span><span class="nav-title">15 · Cartan 几何</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 可问:为什么"传递"等价于"几何不分地点"?"稳定化子 $H$"如何决定局部不变量?双曲几何在 Klein 框架里对应哪个 $(G,H)$?</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

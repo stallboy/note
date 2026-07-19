@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 11 课 · 李群与李代数 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>11</b> 课 · 连续与李 I</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 11 课</span> 连续与李 I</div>
+  <h1>李群与李代数:有限变换的"无穷小源头"</h1>
+  <p class="lead">到目前为止,我们的群是"离散列举"的(每个矩阵是一个元素)。但旋转可以<strong>连续</strong>地变(转 $0°,1°,1.0001°,\ldots$)——这正是克莱因当年的真实语境:<strong>连续变换群</strong>(李群)。这课从矩阵群出发,把"<strong>无穷小变换</strong>"钉死,并亲手用指数映射把旋转矩阵<strong>推导</strong>出来。</p>
+</div>
+
+<h2><span class="hn">1</span>李群 = 群 + 流形</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义(李群)</strong>　一个<strong>李群</strong> $G$ 既是群,又是光滑流形,且乘法 $G\times G\to G$、取逆 $G\to G$ 光滑。<strong>$GL(n)$ 是原型</strong>:它是 $\mathbb{R}^{n^2}$ 的开子集($\det\ne0$),乘法是多项式,自然光滑。</p>
+</div>
+
+<p>关键直觉:李群在单位元 $I$ 附近"<strong>像线性空间</strong>"——这个切空间就是<strong>李代数</strong>。它捕捉了群的"<strong>无穷小</strong>"行为。</p>
+
+<h2><span class="hn">2</span>单参数子群与指数映射</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义</strong>　$G$ 中一条<strong>单参数子群</strong>是连续同态 $\gamma:\mathbb{R}\to G$($\gamma(s+t)=\gamma(s)\gamma(t)$,$\gamma(0)=I$)。对矩阵群,它一定形如</p>
+<div style="text-align:center;margin:8px 0">$$\gamma(t)=\exp(tX),\qquad \exp(A)=\sum_{k=0}^{\infty}\frac{A^k}{k!}.$$</div>
+<p>$X=\gamma'(0)$ 是 $\gamma$ 在单位元的切向量,叫<strong>无穷小生成元</strong>。$\exp$ 把"切向量"$X$ 放大成"有限变换"$\exp(X)$。</p>
+</div>
+
+<div class="callout insight">
+<p>💡 <strong>$\exp$ 是矩阵版的 $e^x$</strong>。它把"<strong>无穷小</strong>"($X$,很小)累积成"<strong>有限</strong>"($\exp(X)$)。整门李论的纲领是:<strong>李群(大范围) ↔ 李代数(单位元附近) ↔ 指数映射(两者桥梁)</strong>。</p>
+</div>
+
+<h2><span class="hn">3</span>李代数:切空间 + 括号</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义</strong>　李群 $G$ 的<strong>李代数</strong> $\mathfrak{g}$ = 单位元处的切空间。对矩阵群,$\mathfrak{gl}(n)$ = 所有 $n\times n$ 矩阵;括号 $[X,Y]=XY-YX$。子群的李代数是其子空间,且对括号封闭。</p>
+</div>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">命题</span> $O(n)$ 的李代数是反对称矩阵</div>
+<p>$\mathfrak{o}(n)=\{\,X:X^{\mathsf T}+X=0\,\}$(反对称矩阵)。</p>
+<p class="proof"><span class="proof-mark">证明.</span> 取 $O(n)$ 中过单位元的曲线 $A(t)$($A(0)=I$,$A'(0)=X$)。由 $A(t)^{\mathsf T}A(t)=I$,求导在 $t=0$:</p>
+<div style="text-align:center;margin:8px 0">$$A'(0)^{\mathsf T}A(0)+A(0)^{\mathsf T}A'(0)=X^{\mathsf T}+X=0.$$</div>
+<p>故 $X^{\mathsf T}=-X$。反之反对称矩阵也确实给出 $O(n)$ 的曲线(见下)。$\blacksquare$</p>
+</div>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">命题</span> $\exp$ 把 $\mathfrak{o}(n)$ 送进 $O(n)$</div>
+<p>若 $X^{\mathsf T}=-X$,则 $\exp(X)\in O(n)$。</p>
+<p class="proof"><span class="proof-mark">证明.</span> $\exp(X)^{\mathsf T}\exp(X)=\exp(X^{\mathsf T})\exp(X)=\exp(X^{\mathsf T}+X)=\exp(0)=I$(用了 $X^{\mathsf T}=-X$ 与 $X^{\mathsf T},X$ 可交换)。故 $\exp(X)^{\mathsf T}=\exp(X)^{-1}$,$\exp(X)\in O(n)$。$\blacksquare$</p>
+</div>
+
+<h2><span class="hn">4</span>手算亮点:从李代数推出旋转矩阵</h2>
+
+<div class="callout calc">
+<p>✏️ $\mathfrak{o}(2)$ = 反对称 $2\times2$ 矩阵,由 $J=\begin{pmatrix}0&-1\\1&0\end{pmatrix}$ 张成(每个反对称 $2\times2$ 是 $\theta J$)。</p>
+<p><strong>关键</strong>:$J^2=\begin{pmatrix}0&-1\\1&0\end{pmatrix}^2=\begin{pmatrix}-1&0\\0&-1\end{pmatrix}=-I$。故 $J^3=-J,J^4=I,\ldots$ 把指数级数按 $J$ 的幂分组:</p>
+<div style="text-align:center;margin:8px 0">$$\exp(\theta J)=I\Big(1-\frac{\theta^2}{2!}+\frac{\theta^4}{4!}-\cdots\Big)+J\Big(\theta-\frac{\theta^3}{3!}+\cdots\Big)=I\cos\theta+J\sin\theta.$$</div>
+<p>写成矩阵:</p>
+<div style="text-align:center;margin:8px 0">$$\exp(\theta J)=\begin{pmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{pmatrix}\quad\text{——正是绕原点转 $\theta$ 的旋转矩阵!}$$</div>
+<p><strong>我们没"背"旋转矩阵,而是从"$\mathfrak{o}(2)$ 由 $J$ 生成 + $J^2=-I$"推导出来的。</strong>这是李论最优雅的回报之一。</p>
+</div>
+
+<div class="callout insight">
+<p>💡 <strong>$J$ ↔ $i$。</strong>复数里 $e^{i\theta}=\cos\theta+i\sin\theta$;矩阵里 $e^{\theta J}=I\cos\theta+J\sin\theta$。$J$ 就是"$i$ 的矩阵化身"($J^2=-I$)。第 05 课说的"旋转 = 乘 $e^{i\theta}$",在这里找到了矩阵根:$\mathfrak{o}(2)$ 的生成元 $J$,对应复数里的 $i$。<strong>复数法做几何,本质就是李代数。</strong></p>
+</div>
+
+<h2><span class="hn">5</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> $O(n)$ 的李代数 $\mathfrak{o}(n)$ 是哪种矩阵?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">反对称($X^{\mathsf T}+X=0$)</button>
+<button class="quiz-opt">对称($X^{\mathsf T}=X$)</button>
+<button class="quiz-opt">正交($X^{\mathsf T}X=I$)</button>
+<button class="quiz-opt">迹为零</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。对 $A(t)^{\mathsf T}A(t)=I$ 在 $t=0$ 求导直接得 $X^{\mathsf T}+X=0$。</div>
+<div class="quiz-fb" data-kind="wrong">对 $A(t)^{\mathsf T}A(t)=I$ 求导(在单位元 $A(0)=I$),$A'(0)^{\mathsf T}+A'(0)=0$,即 $X$ 反对称。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> $\exp(\theta J)$($J=\begin{pmatrix}0&-1\\1&0\end{pmatrix}$)等于——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">旋转矩阵 $\begin{pmatrix}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{pmatrix}$</button>
+<button class="quiz-opt">单位阵 $I$</button>
+<button class="quiz-opt">反射矩阵</button>
+<button class="quiz-opt">剪切矩阵</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。用 $J^2=-I$ 把指数级数分成 $I$ 与 $J$ 两组,得 $\cos\theta\,I+\sin\theta\,J$。</div>
+<div class="quiz-fb" data-kind="wrong">$J^2=-I$ 让级数交替,结果是 $\cos\theta\,I+\sin\theta\,J$ = 旋转矩阵。</div>
+</div>
+
+<h2><span class="hn">6</span>习题</h2>
+<div class="exercises">
+<div class="exercise"><span class="tag prove">证</span> <span class="q">证明 $\exp(A+B)=\exp(A)\exp(B)$ 当且仅当 $A,B$ 可交换($AB=BA$)。(用 $\exp$ 级数展开; BCH 公式提示。)</span></div>
+<div class="exercise"><span class="tag calc">手算</span> <span class="q">$\mathfrak{sl}(2)$(迹为零的 $2\times2$ 矩阵)的一组基是 $H=\mathrm{diag}(1,-1)$、$E=\begin{pmatrix}0&1\\0&0\end{pmatrix}$、$F=\begin{pmatrix}0&0\\1&0\end{pmatrix}$。算括号 $[H,E],[H,F],[E,F]$,验证它们仍是 $\mathfrak{sl}(2)$ 的元素。</span></div>
+<div class="exercise"><span class="tag think adv">进阶</span> <span class="q">$SO(3)$ 的李代数 $\mathfrak{so}(3)$ 也是三维反对称矩阵。它和"叉积"$\mathbb{R}^3$ 上的运算有何关系?(提示:把向量 $\omega$ 对应到矩阵 $\hat\omega$,使 $\hat\omega v=\omega\times v$。)</span></div>
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>李群</strong> = 群 + 流形;$GL(n)$ 是原型。李代数 $\mathfrak{g}$ = 单位元切空间。</li>
+<li><strong>单参数子群</strong> $=\exp(tX)$;$\exp$ 把无穷小生成元放大成有限变换。</li>
+<li>$\mathfrak{o}(n)$ = 反对称矩阵;$\exp$ 把它送进 $O(n)$。</li>
+<li><strong>$\exp(\theta J)$ = 旋转矩阵</strong>($J^2=-I$);$J$ ↔ 复数 $i$——复数法的矩阵根。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源</h2>
+<ul>
+<li>Katok《<em>Lectures on Lie Groups and Lie Algebras</em>》——本科级,矩阵群出发。</li>
+<li>Artin《<em>Algebra</em>》第 8 章(矩阵指数、李代数简介)。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="0010-polarity-conics.html"><span class="nav-label">← 上一课</span><span class="nav-title">10 · 对偶与极点极线</span></a>
+<a class="next" href="0012-killing-fields-lorentz.html"><span class="nav-label">下一课 →</span><span class="nav-title">12 · Killing 场与 Lorentz 群</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 可问:$\exp$ 为何总是收敛?为什么"反对称"恰好对应"保距"?$J$ 与 $i$ 的对应能不能推广到 $SO(3)$?</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

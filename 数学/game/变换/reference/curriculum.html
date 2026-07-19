@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>课程地图 · 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">课程地图 · 16 课</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">课程地图</span> 从入门到 master</div>
+  <h1>从变换看几何(严格版)</h1>
+  <p class="lead">统一杠杆:<strong>把每种几何重铸为矩阵群</strong>——等距 $O(n)$、相似 $\mathrm{CO}(n)$、仿射 $GL(n)\ltimes\mathbb{R}^n$、射影 $PGL(n+1)$。群论与不变量沿这族矩阵群自然长出,绝不悬空。每课含🎯定义/📐证明/✏️手算/🤔自测/习题/🏆竞赛联结。</p>
+</div>
+
+<div class="bigidea">
+<span class="label">一句话精神</span>
+几何 = 变换群 + 该群的不变量。<br>
+每种几何 = $GL(n)$ 的一个子群(或近亲)+ 它保住的那组量。
+</div>
+
+<div class="start-cta"><a href="../lessons/0001-gl-n-is-a-group.html">从第 01 课开始 →</a></div>
+
+<h2><span class="hn">I</span>地基重铸:群与作用 <span class="phase-tag">0001–0003</span></h2>
+<ul class="lesson-list">
+<li><a class="lesson-link" href="../lessons/0001-gl-n-is-a-group.html"><span class="ln-num">01</span><span class="ln-title">GL(n) 是你的第一个群</span><span class="ln-essence">群公理 / 子群 / O(n) / 几何塔</span></a></li>
+<li><a class="lesson-link" href="../lessons/0002-group-action-orbit-stabilizer.html"><span class="ln-num">02</span><span class="ln-title">群作用:几何如何"发生"</span><span class="ln-essence">轨道 / 稳定化子 / Burnside</span></a></li>
+<li><a class="lesson-link" href="../lessons/0003-what-is-an-invariant.html"><span class="ln-num">03</span><span class="ln-title">"不变量"的精确定义</span><span class="ln-essence">G-不变量 ⟷ 轨道 / 完备性</span></a></li>
+</ul>
+
+<h2><span class="hn">II</span>矩阵几何塔 <span class="phase-tag">0004–0008</span></h2>
+<ul class="lesson-list">
+<li><a class="lesson-link" href="../lessons/0004-euclidean-group-isometries.html"><span class="ln-num">04</span><span class="ln-title">欧氏群 E(n)</span><span class="ln-essence">等距 = 正交 + 平移 / 反射生成</span></a></li>
+<li><a class="lesson-link" href="../lessons/0005-similarity-and-spiral-similarity.html"><span class="ln-num">05</span><span class="ln-title">相似与旋转相似</span><span class="ln-essence">CO(n) / 复数法 / Miquel</span></a></li>
+<li><a class="lesson-link" href="../lessons/0006-affine-transformations.html"><span class="ln-num">06</span><span class="ln-title">仿射变换</span><span class="ln-essence">GL(n)⋊Rⁿ / 椭圆=圆的像 / 面积比</span></a></li>
+<li><a class="lesson-link" href="../lessons/0007-projective-homogeneous-coordinates.html"><span class="ln-num">07</span><span class="ln-title">射影几何与齐次坐标</span><span class="ln-essence">Pⁿ / PGL / 两直线必相交</span></a></li>
+<li><a class="lesson-link" href="../lessons/0008-cross-ratio.html"><span class="ln-num">08</span><span class="ln-title">交比:唯一射影不变量</span><span class="ln-essence">三重传递 / 调和点列</span></a></li>
+</ul>
+
+<h2><span class="hn">III</span>不变量理论 <span class="phase-tag">0009–0010</span></h2>
+<ul class="lesson-list">
+<li><a class="lesson-link" href="../lessons/0009-invariant-theory.html"><span class="ln-num">09</span><span class="ln-title">不变量理论入门</span><span class="ln-essence">不变环 / FFT(内积) / Hilbert</span></a></li>
+<li><a class="lesson-link" href="../lessons/0010-polarity-conics.html"><span class="ln-num">10</span><span class="ln-title">对偶与极点极线</span><span class="ln-essence">对偶原理 / 圆锥曲线统一 / Pascal</span></a></li>
+</ul>
+
+<h2><span class="hn">IV</span>连续与李:通向物理 <span class="phase-tag">0011–0013</span></h2>
+<ul class="lesson-list">
+<li><a class="lesson-link" href="../lessons/0011-lie-groups-lie-algebra.html"><span class="ln-num">11</span><span class="ln-title">李群与李代数</span><span class="ln-essence">exp / so(n) / 推出旋转矩阵</span></a></li>
+<li><a class="lesson-link" href="../lessons/0012-killing-fields-lorentz.html"><span class="ln-num">12</span><span class="ln-title">Killing 场与 Lorentz 群</span><span class="ln-essence">度量→等距 / 狭义相对论</span></a></li>
+<li><a class="lesson-link" href="../lessons/0013-noether-theorem.html"><span class="ln-num">13</span><span class="ln-title">Noether 定理</span><span class="ln-essence">对称 ↔ 守恒 / 规范场</span></a></li>
+</ul>
+
+<h2><span class="hn">V</span>爱尔兰根与 Cartan <span class="phase-tag">0014–0015</span></h2>
+<ul class="lesson-list">
+<li><a class="lesson-link" href="../lessons/0014-erlangen-rigorous.html"><span class="ln-num">14</span><span class="ln-title">爱尔兰根纲领(严格版)</span><span class="ln-essence">Klein 几何 (G,X) / 层级</span></a></li>
+<li><a class="lesson-link" href="../lessons/0015-cartan-geometry.html"><span class="ln-num">15</span><span class="ln-title">Cartan 几何</span><span class="ln-essence">弯曲的 Klein / 引力</span></a></li>
+</ul>
+
+<h2><span class="hn">VI</span>教学法 <span class="phase-tag">0016</span></h2>
+<ul class="lesson-list">
+<li><a class="lesson-link" href="../lessons/0016-teaching-and-synthesis.html"><span class="ln-num">16</span><span class="ln-title">教学法总览 + Master 清单</span><span class="ln-essence">讲法 / 误解 / 竞赛速查表</span></a></li>
+</ul>
+
+<h2><span class="hn">★</span>竞赛联结:每一站配一座金矿</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>矩阵几何站</th><th>对应竞赛"妙招"</th><th>为何是它的化身</th></tr></thead>
+<tbody>
+<tr><td>相似 CO(n)</td><td>旋转相似 / Miquel / 共圆</td><td>= 乘复数 $re^{i\theta}$</td></tr>
+<tr><td>仿射 Aff(n)</td><td>仿射秒杀:共线、线段比、椭圆→圆</td><td>保共线比</td></tr>
+<tr><td>射影 PGL</td><td>交比 / 调和点列 / Desargues</td><td>交比是唯一不变量</td></tr>
+<tr><td>对偶</td><td>极点极线 / Pascal / Brianchon</td><td>射影对偶</td></tr>
+<tr><td>群作用</td><td>Burnside 对称计数</td><td>轨道数 = 平均不动点</td></tr>
+<tr><td>不变环</td><td>韦达(根的对称式)</td><td>$S_n$-不变量</td></tr>
+</tbody></table></div>
+<div class="callout key"><p>🔑 <strong>原则</strong>:本课不教题海。每个竞赛技巧,先在矩阵群里讲清<strong>为何有效</strong>(哪个群、保哪个不变量),再上真题。妙招 = 定理的推论,不是背诵。</p></div>
+
+<h2><span class="hn">≫</span>怎么用这个工作区</h2>
+<ul>
+<li><strong>按序学</strong>:0001 → 0016,每课短,做完 quiz + 习题再进下一课。</li>
+<li><strong>矩阵是锚</strong>:任何抽象概念,先用 $GL(n)/O(n)$ 落地再升级。</li>
+<li><strong>状态有记忆</strong>:你的起点与偏好记在 <code>../MISSION.md</code>、<code>../NOTES.md</code>、<code>../learning-records/</code>。</li>
+<li><strong>主源</strong>:Stillwell《Four Pillars》(免费 PDF)、Artin《Algebra》、Klein 原文(<a href="https://arxiv.org/abs/0807.3161">arXiv:0807.3161</a>)、Evan Chen《EGMO》。详见 <code>../RESOURCES.md</code>。</li>
+</ul>
+
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

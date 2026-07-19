@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 13 课 · Noether 定理 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>13</b> 课 · 连续与李 III</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 13 课</span> 连续与李 III</div>
+  <h1>Noether 定理:对称决定守恒</h1>
+  <p class="lead">这门课的高潮之一。克莱因说"几何 = 变换群 + 不变量";<strong>Noether(1918)把它变成物理定律</strong>:<strong>每个连续对称,对应一个守恒量</strong>。这课给出证明骨架,并看清"对称↔守恒"与"群↔不变量"是同一句话的两个版本。</p>
+</div>
+
+<h2><span class="hn">1</span>定理</h2>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">定理</span> Noether(1918)</div>
+<p>设拉格朗日量 $L(q,\dot q,t)$,作用量 $S=\int L\,dt$。若 $q\mapsto q+\varepsilon\varphi(q)$ 是<strong>连续对称</strong>($\delta L=0$,即 $L$ 在此变换下不变),则</p>
+<div style="text-align:center;margin:10px 0">$$I=\sum_i \frac{\partial L}{\partial \dot q_i}\,\varphi_i(q)\quad\text{沿真实运动是常数}(\dot I=0).$$</div>
+<p>$I$ 叫这个对称的<strong>守恒荷</strong>。<strong>对称 $\Rightarrow$ 守恒。</strong></p>
+</div>
+
+<h2><span class="hn">2</span>证明(变分一行)</h2>
+
+<p>设 $\varphi=(\varphi_i)$ 是无穷小对称。计算作用量在 $q\to q+\varepsilon\varphi$ 下的变分:</p>
+<div style="text-align:center;margin:8px 0">$$\delta S=\int\sum_i\Big(\frac{\partial L}{\partial q_i}\varphi_i+\frac{\partial L}{\partial\dot q_i}\dot\varphi_i\Big)dt.$$</div>
+<p>对第二项分部积分($\int (\partial L/\partial\dot q_i)\dot\varphi_i\,dt=\big[(\partial L/\partial\dot q_i)\varphi_i\big]-\int\frac{d}{dt}\frac{\partial L}{\partial\dot q_i}\varphi_i\,dt$):</p>
+<div style="text-align:center;margin:8px 0">$$\delta S=\Big[\sum_i\frac{\partial L}{\partial\dot q_i}\varphi_i\Big]_{t_1}^{t_2}+\int\sum_i\Big(\frac{\partial L}{\partial q_i}-\frac{d}{dt}\frac{\partial L}{\partial\dot q_i}\Big)\varphi_i\,dt.$$</div>
+
+<div class="callout insight">
+<p>💡 两件事让等式塌缩:</p>
+<ul>
+<li><strong>真实运动</strong>满足 Euler–Lagrange $\frac{d}{dt}\frac{\partial L}{\partial\dot q_i}=\frac{\partial L}{\partial q_i}$ $\Rightarrow$ 积分项 $=0$。</li>
+<li><strong>对称</strong> $\delta L=0$ $\Rightarrow$ $\delta S=0$。</li>
+</ul>
+<p>两相结合,边界项 $\big[\sum_i(\partial L/\partial\dot q_i)\varphi_i\big]$ 在 $t_1,t_2$ 取相同值——即 $I=\sum_i(\partial L/\partial\dot q_i)\varphi_i$ <strong>不随时间变</strong>。$\blacksquare$</p>
+</div>
+
+<h2><span class="hn">3</span>三大经典守恒</h2>
+
+<div class="table-wrap"><table>
+<thead><tr><th>对称</th><th>生成元 $\varphi$</th><th>守恒荷 $I$</th></tr></thead>
+<tbody>
+<tr><td>空间平移 $x\to x+\varepsilon$</td><td>$\varphi=1$</td><td>$\partial L/\partial\dot x$=<strong>动量</strong></td></tr>
+<tr><td>时间平移 $t\to t+\varepsilon$($L$ 不显含 $t$)</td><td>—</td><td>$\sum\dot q_i\frac{\partial L}{\partial\dot q_i}-L$=<strong>能量</strong></td></tr>
+<tr><td>旋转 $x\to x+\varepsilon\,(y,-x,0)$</td><td>$\varphi=(y,-x,0)$</td><td>$x p_y-y p_x$=<strong>角动量</strong></td></tr>
+</tbody></table></div>
+
+<div class="callout calc">
+<p>✏️ <strong>手算:自由粒子 $L=\frac12m\dot x^2$</strong>。平移对称($x\to x+\varepsilon$,$\varphi=1$):</p>
+<div style="text-align:center;margin:8px 0">$$I=\frac{\partial L}{\partial\dot x}\cdot1=m\dot x=\text{动量,守恒。}$$</div>
+<p>时间平移($L$ 不显含 $t$):$I=\dot x\cdot m\dot x-\frac12m\dot x^2=\frac12m\dot x^2$=<strong>动能</strong>(= 能量)。 ✓</p>
+</div>
+
+<h2><span class="hn">4</span>这就是克莱因纲领的物理版</h2>
+
+<div class="bigidea">
+<span class="label">全课的统一句</span>
+<strong>几何</strong>:变换群 $G$ $\Rightarrow$ $G$-不变量(第 03 课)<br>
+<strong>物理</strong>:对称群 $G$ $\Rightarrow$ 守恒荷(Noether)<br>
+<span style="font-size:.92em;color:var(--text-soft)">——同一句话,两个版本。这是物理学家如此痴迷"对称"的根本原因。</span>
+</div>
+
+<div class="callout key">
+<p>🔑 <strong>现代物理</strong>:把对称从"全局"升级到"局部"(<strong>规范对称</strong> gauge),守恒荷升级到"相互作用"。</p>
+<ul>
+<li>电磁场 = $U(1)$ 规范对称 $\Rightarrow$ <strong>电荷守恒</strong>。</li>
+<li>标准模型 = 规范群 $SU(3)\times SU(2)\times U(1)$ $\Rightarrow$ 色、弱同位旋、电荷等守恒。<strong>基本相互作用 = 规范群的体现。</strong></li>
+</ul>
+<p>整部粒子物理的标准模型,在 Noether 眼里,就是"一个大对称群 + 它的守恒荷"。</p>
+</div>
+
+<h2><span class="hn">5</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> 空间平移对称对应的守恒量是——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">动量</button>
+<button class="quiz-opt">能量</button>
+<button class="quiz-opt">角动量</button>
+<button class="quiz-opt">电荷</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。$\varphi=1$,$I=\partial L/\partial\dot x$=动量。时间平移→能量,旋转→角动量。</div>
+<div class="quiz-fb" data-kind="wrong">平移的 $\varphi=1$,$I=\partial L/\partial\dot x$ = 动量。(旋转才给角动量,时间平移给能量。)</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> Noether 定理与"几何=变换群+不变量"的关系是——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">同一句话的物理版(对称群→守恒不变量)</button>
+<button class="quiz-opt">无关的两个定理</button>
+<button class="quiz-opt">Noether 是几何的反例</button>
+<button class="quiz-opt">几何是 Noether 的特例</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。"群决定不变量"在物理里就是"对称决定守恒"。</div>
+<div class="quiz-fb" data-kind="wrong">两者同构:克莱因"群→不变量",Noether"对称→守恒"。同一个数学骨架。</div>
+</div>
+
+<h2><span class="hn">6</span>习题</h2>
+<div class="exercises">
+<div class="exercise"><span class="tag prove">证</span> <span class="q">完成 Noether 的细节:由 $\delta L=0$ 与 Euler–Lagrange,推出 $\frac{d}{dt}\big[\sum_i(\partial L/\partial\dot q_i)\varphi_i\big]=0$。</span></div>
+<div class="exercise"><span class="tag calc">手算</span> <span class="q">中心力场 $L=\frac12m(\dot x^2+\dot y^2)-V(r)$。验证 $L$ 在旋转下不变,写出角动量守恒 $I=x\,m\dot y-y\,m\dot x$。</span></div>
+<div class="exercise"><span class="tag think adv">进阶</span> <span class="q">时间平移对应的"生成元"不是坐标变换 $\varphi$,而是 $L$ 不显含 $t$。证明此时的守恒量 $H=\sum\dot q_i\frac{\partial L}{\partial\dot q_i}-L$(能量函数)守恒。</span></div>
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>Noether</strong>:连续对称 $\Rightarrow$ 守恒荷 $I=\sum(\partial L/\partial\dot q_i)\varphi_i$。证明 = 变分 + 分部积分 + Euler–Lagrange。</li>
+<li>平移→动量、时间平移→能量、旋转→角动量。</li>
+<li><strong>克莱因(群→不变量)= Noether(对称→守恒)</strong>,同一句话两个版本。</li>
+<li>规范对称($U(1)$、$SU(3)\!\times\!SU(2)\!\times\!U(1)$)→ 电荷、色等守恒 → 基本相互作用。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源</h2>
+<ul>
+<li>Neuenschwander《<em>Emmy Noether's Wonderful Theorem</em>》——本科可读的 Noether 导引。</li>
+<li>Baez《<em>This Week's Finds</em>》第 249 周及 Erlangen 页——对称到规范场的桥梁。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="0012-killing-fields-lorentz.html"><span class="nav-label">← 上一课</span><span class="nav-title">12 · Killing 场与 Lorentz 群</span></a>
+<a class="next" href="0014-erlangen-rigorous.html"><span class="nav-label">下一课 →</span><span class="nav-title">14 · 爱尔兰根纲领(严格版)</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 可问:为什么"连续"对称才有守恒(离散对称没有 Noether 荷)?规范对称和全局对称的差别如何对应"相互作用"?能量守恒对应的"时间平移"在广义相对论里为何变得微妙?</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

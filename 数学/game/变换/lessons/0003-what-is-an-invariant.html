@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 03 课 · 不变量的精确定义 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>03</b> 课 · 地基重铸 III</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 03 课</span> 地基重铸 III</div>
+  <h1>"不变量"的精确定义</h1>
+  <p class="lead">克莱因那句"几何 = 变换群 + <strong>不变量</strong>",前半句("群")已钉死。现在钉后半句——"不变量"。一句话:它是<strong>在群作用下取值不变的函数</strong>。这一课把口号变成公式,并看清"不变量"与"轨道"如何互为表里。</p>
+</div>
+
+<h2><span class="hn">1</span>定义</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义($G$-不变量)</strong>　设 $G\curvearrowright X$。函数 $f:X\to V$ 称为<strong>$G$-不变量</strong>,若</p>
+<div style="text-align:center;margin:10px 0">$$f(g\cdot x)=f(x)\quad\text{对一切 }g\in G,\ x\in X.$$</div>
+<p>即:无论你用群里的哪个变换去动 $x$,$f$ 的值都不变。几何学 = 研究 $(G,X)$ 上的 $G$-不变量。</p>
+</div>
+
+<div class="callout insight">
+<p>💡 <strong>不变量 ⟷ 轨道。</strong>$f$ 是 $G$-不变量 $\Leftrightarrow$ $f$ 在每条轨道上取常值(因为轨道里的点都是 $g\cdot x$,而 $f(g\cdot x)=f(x)$)。所以:</p>
+<ul>
+<li><strong>找不变量 = 给轨道贴标签。</strong></li>
+<li>若这些标签<strong>能区分所有不同轨道</strong>(即 $f(x)=f(y)\Leftrightarrow x,y$ 同轨道),称 $f$ 是<strong>完备不变量</strong>(complete invariant)——它彻底回答了"$G$ 眼里两个东西等不等价"。</li>
+</ul>
+</div>
+
+<h2><span class="hn">2</span>每个群,配它的不变量(全塔一览)</h2>
+
+<p>现在我们能用同一把尺子,把整门几何的"不变量"逐一摆出来。注意一个规律:<strong>群越大,轨道越粗,不变量越少、越普适。</strong></p>
+
+<div class="table-wrap"><table>
+<thead><tr><th>作用 $G\curvearrowright X$</th><th>$G$-不变量</th><th>轨道 / 完备不变量</th></tr></thead>
+<tbody>
+<tr><td>$O(2)\curvearrowright\mathbb{R}^2$(一点)</td><td>长度 $\|x\|$</td><td>圆 $\|x\|=r$;$\|\cdot\|$ 完备</td></tr>
+<tr><td>$E(2)\curvearrowright$(一点)</td><td>无(只有一个轨道:全平面)</td><td>欧氏几何不关心"在哪"</td></tr>
+<tr><td>$E(2)\curvearrowright$(两点 $P,Q$)</td><td><strong>距离</strong> $d(P,Q)$</td><td>$d$ 完备:等距即等长</td></tr>
+<tr><td>$\mathrm{Aff}(2)\curvearrowright$(共线三点)</td><td>共线<strong>有向比</strong> $\overline{AC}/\overline{BC}$</td><td>仿射不关心"多长",只关心"几分之几"</td></tr>
+<tr><td>$\mathrm{PGL}\curvearrowright$(共线四点)</td><td><strong>交比</strong></td><td>射影唯一不变量(第 08 课)</td></tr>
+</tbody></table></div>
+
+<div class="callout key">
+<p>🔑 <strong>为什么"距离"是欧氏几何的主角?</strong>因为 $E(2)$ 作用在"<strong>点对</strong>"$(P,Q)$ 上时,<strong>距离是完备不变量</strong>:两个点对 $d$ 相同 $\Leftrightarrow$ 存在等距把一个送到另一个。整本中学几何(全等三角形 SSS/SAS)其实都在用这件事——"三边对应相等则全等"的本质,就是"点对的距离这一族不变量,完备地分类了三角形"。</p>
+</div>
+
+<h2><span class="hn">3</span>把克莱因纲领写成公式</h2>
+
+<p>有了精确定义,克莱因那句话现在可以一比一翻译:</p>
+
+<div class="bigidea">
+<span class="label">爱尔兰根纲领(严格版,预告)</span>
+一门几何 = 一个群作用 $G\curvearrowright X$;<br>
+研究对象 = $X$ 上的全体 $G$-不变量(函数与关系);<br>
+两个图形"在这门几何里等价" $\Leftrightarrow$ 它们同处一条 $G$-轨道。<br>
+<span style="font-size:.92em;color:var(--text-soft)">几何学 = 变换群 + 该群的不变量。</span>
+</div>
+
+<p>同一片空间 $X$,换一个作用群,就是一门新几何——这正是"层级"的来历(第 14 课严格化):$E\subset\mathrm{Sim}\subset\mathrm{Aff}\subset\mathrm{PGL}\subset\mathrm{Homeo}$,群越来越大,不变的越来越少,但结论越来越普适。</p>
+
+<h2><span class="hn">4</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> "$f$ 是 $G$-不变量"等价于下列哪一句?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">$f$ 在每条 $G$-轨道上取常值</button>
+<button class="quiz-opt">$f$ 把每条轨道映成一条直线</button>
+<button class="quiz-opt">$f$ 在 $G$ 上是单射</button>
+<button class="quiz-opt">$f$ 与 $G$ 可交换地复合</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。轨道里的点形如 $g\cdot x$,而 $f(g\cdot x)=f(x)$,故 $f$ 在整条轨道上不变。反之,在每条轨道取常值 ⟹ $f(g\cdot x)=f(x)$。</div>
+<div class="quiz-fb" data-kind="wrong">回忆定义 $f(g\cdot x)=f(x)$。轨道里所有点都是某个 $g\cdot x$,所以这条等式说的就是"$f$ 在每条轨道上不变"。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> $E(2)$ 作用在"<strong>点对</strong>"$(P,Q)$ 上,完备不变量是——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">两点间的距离 $d(P,Q)$</button>
+<button class="quiz-opt">两点连线的方向角</button>
+<button class="quiz-opt">两点的坐标之和</button>
+<button class="quiz-opt">中点的位置</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。等距把任意一对相距 $d$ 的点送到另一对相距 $d$ 的点。方向、中点位置都不是不变量(平移、旋转会改它们)。</div>
+<div class="quiz-fb" data-kind="wrong">平移会改方向角和中点,旋转会改方向角——它们都不是 $E(2)$-不变量。只有"两点间距"在等距下不变,且能完备分类。</div>
+</div>
+
+<div class="quiz" data-qid="q3">
+<div class="quiz-q"><span class="qid">Q3</span> 群变大(从 $O(2)$ 扩到 $E(2)$ 又扩到 $\mathrm{Aff}$),不变量的个数——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">变少(但每个更普适)</button>
+<button class="quiz-opt">变多(且更精细)</button>
+<button class="quiz-opt">不变</button>
+<button class="quiz-opt">与群大小无关</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。群越大 ⟹ 轨道越粗(能区分的越少)⟹ 不变量越少。但幸存的不变量更普适(如交比对一切射影变换都不变)。</div>
+<div class="quiz-fb" data-kind="wrong">群变大 = 能"动"得更狠 = 轨道更粗 = 区分能力下降 = 不变量更少(但更普适)。</div>
+</div>
+
+<h2><span class="hn">5</span>习题</h2>
+<div class="exercises">
+<div class="exercise"><span class="tag prove">证</span> <span class="q">设 $G\curvearrowright X$,$f$ 是 $G$-不变量。证明:$f(x)=f(y)$ 是 $X$ 上的等价关系;其等价类恰是若干条 $G$-轨道的并。何时 $f$ 是完备不变量?</span></div>
+<div class="exercise"><span class="tag think">想</span> <span class="q">$O(2)$ 作用于<strong>三角形</strong>(三顶点的无序组)。列举几个 $O(2)$-不变量;哪个是完备的?(提示:三条边长。)</span></div>
+<div class="exercise"><span class="tag prove adv">进阶</span> <span class="q">证明:若 $H\le G$,则每个 $G$-不变量自动是 $H$-不变量,反之不然。用此解释"为什么欧氏几何的结论对仿射几何不一定成立,而仿射的结论对射影一定成立"——即层级方向。</span></div>
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>不变量</strong> = 在群作用下不变的函数;$f(g\cdot x)=f(x)$。</li>
+<li><strong>不变量 ⟷ 轨道</strong>:不变量在轨道上取常值;完备不变量能区分所有轨道。</li>
+<li>距离是 $E(2)$-点对的完备不变量(= 全等判据的根源);群越大,不变量越少越普适。</li>
+<li>克莱因纲领 = $(G,X)$ + $G$-不变量。层级:$E\subset\mathrm{Sim}\subset\mathrm{Aff}\subset\mathrm{PGL}\subset\mathrm{Homeo}$。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源</h2>
+<ul>
+<li>Stillwell《<em>Four Pillars of Geometry</em>》第 7 章(变换与不变量)。<a href="https://websites.math.leidenuniv.nl/edixhoven/teaching/2019-2020/CIMPA/Stillwell_Geometry.pdf">免费 PDF</a>。</li>
+<li>Artin《<em>Algebra</em>》第 9 章(双线性型)——"保双线性型"是不变量的矩阵语言。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="0002-group-action-orbit-stabilizer.html"><span class="nav-label">← 上一课</span><span class="nav-title">02 · 群作用与轨道—稳定化子</span></a>
+<a class="next" href="0004-euclidean-group-isometries.html"><span class="nav-label">下一课 →</span><span class="nav-title">04 · 欧氏群 E(n) 与反射生成</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 可问:为什么"完备不变量"那么重要?层级方向(大群的不变量自动是小群的)如何解释"射影定理对仿射成立、反之不然"?</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

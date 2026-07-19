@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 08 课 · 交比 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>08</b> 课 · 矩阵几何塔 V</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 08 课</span> 矩阵几何塔 V</div>
+  <h1>交比:射影直线上唯一的不变量</h1>
+  <p class="lead">$PGL$ 几乎保不住任何"大小"——但在一条射影直线上,它<strong>恰好保住一个数</strong>:<strong>交比</strong>。这课严格证明交比在 $PGL(2)$ 下不变,并说明<strong>为什么它是唯一</strong>的(自由度计数)。它是射影几何的"距离",也是调和点列的故乡。</p>
+</div>
+
+<h2><span class="hn">1</span>定义</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义(交比)</strong>　射影直线 $\mathbb{P}^1$ 上四个不同点 $A,B,C,D$(取仿射坐标 $a,b,c,d$),其<strong>交比</strong></p>
+<div style="text-align:center;margin:10px 0">$$(A,B;C,D)=\frac{AC/BC}{AD/BD}=\frac{(c-a)(d-b)}{(c-b)(d-a)},$$</div>
+<p>其中 $AC=c-a$ 等为<strong>有向</strong>差。</p>
+</div>
+
+<div class="callout calc">
+<p>✏️ <strong>手算</strong>:$(1,2;3,4)=\dfrac{(3-1)(4-2)}{(3-2)(4-1)}=\dfrac{2\cdot2}{1\cdot3}=\dfrac{4}{3}$。</p>
+<p><strong>验证 $z\mapsto 1/z$ 不改变它</strong>:四点变 $\frac11,\frac12,\frac13,\frac14=1,\frac12,\frac13,\frac14$,</p>
+<div style="text-align:center;margin:8px 0">$$(1,\tfrac12;\tfrac13,\tfrac14)=\frac{(\tfrac13-1)(\tfrac14-\tfrac12)}{(\tfrac13-\tfrac12)(\tfrac14-1)}=\frac{(-\tfrac23)(-\tfrac14)}{(-\tfrac16)(-\tfrac34)}=\frac{\tfrac16}{\tfrac18}=\frac{4}{3}.\ \checkmark$$</div>
+</div>
+
+<h2><span class="hn">2</span>交比在 $PGL(2)$ 下不变</h2>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">定理</span> 交比是射影不变量</div>
+<p>对任意 $M\in PGL(2)$,$(MA,MB;MC,MD)=(A,B;C,D)$。</p>
+<p class="proof"><span class="proof-mark">证明.</span> $PGL(2)$(Möbius 变换 $z\mapsto\frac{\alpha z+\beta}{\gamma z+\delta}$)由三种生成元复合而成:$z\mapsto z+b$、$z\mapsto az$($a\ne0$)、$z\mapsto 1/z$。逐个验证:</p>
+<ul>
+<li>$z\mapsto az$:每个差 $(c-a)\to a(c-a)$,分子分母的四个因子各乘一个 $a$,全部约掉。不变。 ✓</li>
+<li>$z\mapsto z+b$:每个差不变(平移消去)。不变。 ✓</li>
+<li>$z\mapsto 1/z$:$\frac1c-\frac1a=\frac{a-c}{ac}=-\frac{c-a}{ac}$,每个差变号并除以两坐标积。分子分母各两个差、各得两个负号(乘积为正)、各除以同样的坐标积(约掉)。整体不变。 ✓(上节手算已核。)</li>
+</ul>
+<p>三种生成元都保交比,故其复合(一切 Möbius 变换)保交比。$\blacksquare$</p>
+</div>
+
+<h2><span class="hn">3</span>为什么"唯一":自由度计数</h2>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">定理</span> 交比是完备的射影不变量</div>
+<p>射影直线上,$PGL(2)$ 关于四点的任何不变量,都是交比的函数。即:交比完全分类了"四点在射影下的位置"。</p>
+<p class="proof"><span class="proof-mark">证明(自由度计数).</span> $PGL(2)$ 是<strong>三重传递</strong>的:任意三个不同点可被<strong>唯一</strong> Möbius 变换送到 $0,1,\infty$(第 07 课习题)。所以给定四点 $A,B,C,D$,先用唯一 Möbius 把 $A,B,C$ 送到 $0,1,\infty$;此时 $D$ 被送到某个确定的点 $t$。这个 $t$ 就是四点组在射影下的全部"自由度"——而 $t$ 恰是交比(直接算 $(0,1;\infty,t)$ 或 $(0,1;t,\infty)$ 得 $t$)。故唯一的不变量就是这一个数。$\blacksquare$</p>
+</div>
+
+<div class="callout insight">
+<p>💡 <strong>四点 - 三点 = 一个数。</strong>四个点里,$PGL(2)$ 能任意固定其中三个(三重传递),剩下的第四个无法再动——它的位置就是唯一的射影信息,正是交比。这就是"为什么射影几何在直线上只有一个不变量"的代数根:自由度恰好剩 1。<strong>这是整门课最美的论证之一。</strong></p>
+</div>
+
+<h2><span class="hn">4</span>调和点列</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义</strong>　当 $(A,B;C,D)=-1$,称 $A,B,C,D$ 构成<strong>调和点列</strong>(harmonic)。这是射影几何里最特殊的四点组,对称、自对偶。</p>
+</div>
+<div class="callout calc">
+<p>✏️ 求 $A=0,B=1,C=2$ 时使 $(0,1;2,D)=-1$ 的 $D$:</p>
+<div style="text-align:center;margin:8px 0">$$\frac{(2-0)(D-1)}{(2-1)(D-0)}=-1\Rightarrow\frac{2(D-1)}{D}=-1\Rightarrow 2D-2=-D\Rightarrow D=\tfrac23.$$</div>
+<p>$D=2/3$。注意 $D$ 落在 $A=0$ 与 $C=2$ "内侧"的对称位置——调和分割的几何特征。</p>
+</div>
+
+<h2><span class="hn">★</span>竞赛联结:交比秒杀共点共线</h2>
+
+<div class="callout key">
+<p>🔑 <strong>原则:交比是射影的"距离"</strong>。用 $PGL$ 把图形化到最简(三点定 $0,1,\infty$),交比自动给出答案。</p>
+<ul>
+<li><strong>共线四点</strong>问题(如"某投影下四点是否等价"):算交比即可——交比相等 ⟺ 射影等价。</li>
+<li><strong>调和点列</strong>在竞赛里是"<strong>完全四点形</strong>对角线"的化身:完全四点形的两条对角线与第三对角线的交点,构成调和点列。常用于证线段比、共线。</li>
+<li><strong>从一点投影</strong>:从一点 $O$ 把直线 $\ell$ 上四点投到另一直线 $\ell'$,投影是射影变换,故<strong>交比不变</strong>——这是"转移问题到更方便的直线"的合法依据。</li>
+</ul>
+</div>
+
+<h2><span class="hn">5</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> $(1,2;3,4)$ 的值是——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">$4/3$</button>
+<button class="quiz-opt">$3/4$</button>
+<button class="quiz-opt">$-1$</button>
+<button class="quiz-opt">$1$</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。$\frac{(3-1)(4-2)}{(3-2)(4-1)}=\frac{4}{3}$。</div>
+<div class="quiz-fb" data-kind="wrong">套公式 $\frac{(c-a)(d-b)}{(c-b)(d-a)}=\frac{(3-1)(4-2)}{(3-2)(4-1)}=\frac{4}{3}$。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> 为什么交比是射影直线上"唯一"的不变量?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">$PGL(2)$ 三重传递,四点剩 1 个自由度</button>
+<button class="quiz-opt">$PGL(2)$ 不动一切,故无不变量</button>
+<button class="quiz-opt">交比依赖点的坐标,所以唯一</button>
+<button class="quiz-opt">射影直线只有一个点</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。三重传递让三点定到 $0,1,\infty$,第四点位置 = 唯一自由度 = 交比。</div>
+<div class="quiz-fb" data-kind="wrong">$PGL(2)$ 能任意移动三点(三重传递),所以四点中只剩第四点的位置无法消去——这就是交比。</div>
+</div>
+
+<div class="quiz" data-qid="q3">
+<div class="quiz-q"><span class="qid">Q3</span> 调和点列的交比值是——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">$-1$</button>
+<button class="quiz-opt">$0$</button>
+<button class="quiz-opt">$1$</button>
+<button class="quiz-opt">$2$</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。$(A,B;C,D)=-1$ 定义调和点列。</div>
+<div class="quiz-fb" data-kind="wrong">调和点列的定义就是交比 $=-1$。</div>
+</div>
+
+<h2><span class="hn">6</span>习题</h2>
+<div class="exercises">
+<div class="exercise"><span class="tag calc">手算</span> <span class="q">求 $(0,1;2,3)$ 与 $(0,1;3,2)$。验证:交换 $C,D$ 使交比变成原来的补 $1-\lambda$;交换 $A,C$ 变倒数。这六种排列给出至多 6 个值 $\{\lambda,1-\lambda,1/\lambda,\frac1{1-\lambda},\frac{\lambda-1}{\lambda},\frac{\lambda}{\lambda-1}\}$。</span></div>
+<div class="exercise"><span class="tag prove">证</span> <span class="q">完成"$PGL(2)$ 三重传递"的证明:对任意三个不同点 $p,q,r$,显式写出唯一的 Möbius 变换把它们送到 $0,1,\infty$。</span></div>
+<div class="exercise"><span class="tag think adv">竞赛</span> <span class="q">用交比证明:从一点 $O$ 投影直线 $\ell\to\ell'$ 保持共线四点的交比。由此说明"射影下的等价"可由交比判定。</span></div>
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>交比</strong> $(A,B;C,D)=\frac{(c-a)(d-b)}{(c-b)(d-a)}$,是射影直线的唯一数值不变量。</li>
+<li><strong>不变性</strong>:三种生成元($z+b$、$az$、$1/z$)逐一验证。</li>
+<li><strong>唯一性</strong>:$PGL(2)$ 三重传递,四点只剩 1 个自由度 = 交比。完备不变量。</li>
+<li><strong>调和点列</strong> = 交比 $-1$;完全四点形的对角线化身。竞赛里用来判共线、转线段。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源</h2>
+<ul>
+<li>Stillwell《<em>Four Pillars</em>》第 5 章;Coxeter《<em>Introduction to Geometry</em>》第 10–11 章。</li>
+<li>Evan Chen《<em>EGMO</em>》——交比、调和的竞赛用法。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="0007-projective-homogeneous-coordinates.html"><span class="nav-label">← 上一课</span><span class="nav-title">07 · 射影几何与齐次坐标</span></a>
+<a class="next" href="0009-invariant-theory.html"><span class="nav-label">下一课 →</span><span class="nav-title">09 · 不变量理论入门</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 可问:交比的六种排列值为什么恰好 6 个?"三重传递"和"完备不变量"如何严格挂钩?调和点列为何如此特殊?</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

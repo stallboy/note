@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 10 课 · 对偶、圆锥曲线、极点极线 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>10</b> 课 · 不变量理论 II</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 10 课</span> 不变量理论 II</div>
+  <h1>对偶、圆锥曲线、极点极线</h1>
+  <p class="lead">射影几何的一个奇观:在 $\mathbb{P}^2$ 里,"点"与"直线"地位完全对等——这叫<strong>对偶原理</strong>。配上<strong>圆锥曲线</strong>,它产生一个点 ↔ 直线的一一对应(<strong>极点极线</strong>),统一了切线、Pascal、Brianchon——竞赛几何的"高级开关"。</p>
+</div>
+
+<h2><span class="hn">1</span>对偶原理</h2>
+
+<div class="callout def">
+<p>🎯 <strong>对偶原理</strong>:在 $\mathbb{P}^2$ 中,把每个命题里的"点"与"直线"互换(以及"过"与"在上"互换),所得<strong>对偶命题</strong>自动为真。</p>
+<p>原因:直线 $ax+by+cz=0$ 由系数 $[a:b:c]$ 决定,与点 $[x:y:z]$ 形式相同。故<strong>直线的集合也是射影平面</strong> $\mathbb{P}^{2*}$,"点在直线上"$ax+by+cz=0$ 对两者对称。</p>
+</div>
+
+<p>经典例子:第 07 课"两点定一直线"的对偶是"两直线定一点";Desargues 的对偶是它的逆。</p>
+
+<h2><span class="hn">2</span>圆锥曲线的统一</h2>
+
+<div class="callout def">
+<p>🎯 <strong>圆锥曲线</strong> = $\mathbb{P}^2$ 中二次齐次方程的零集:$x^{\mathsf T}Qx=0$($Q$ 对称 $3\times3$)。</p>
+</div>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">定理</span> 三种圆锥曲线射影等价</div>
+<p>椭圆、抛物线、双曲线,在 $\mathbb{P}^2$ 中<strong>互相射影等价</strong>。它们的区别,只在"<strong>无穷远直线</strong> $z=0$ 相对于曲线的位置":不相交(椭圆)、相切(抛物线)、交于两点(双曲线)。</p>
+<p class="proof"><span class="proof-mark">证明(思路).</span> 仿射坐标下三种是 $\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$、$y=ax^2$、$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$。齐次化后看与 $z=0$ 的交:第一类无实交点、第二类相切、第三类两点。但任给两条有实点的非退化二次曲线,都可用 $PGL(3)$(配方法 + 坐标伸缩)化到同一标准型 $x^2+y^2-z^2=0$。<strong>是"无穷远直线"的位置不同,造成了仿射分类;射影上它们是同一个东西。</strong>$\blacksquare$</p>
+</div>
+
+<div class="callout insight">
+<p>💡 这就是"圆锥曲线"名字的射影含义:<strong>同一个射影对象</strong>,在不同的"仿射切片"($z=1$ 平面)里,显得像椭圆、抛物线或双曲线。古希腊人用平面切圆锥得到的"三种曲线",射影眼光下是<strong>一种</strong>。</p>
+</div>
+
+<h2><span class="hn">3</span>极点与极线</h2>
+
+<div class="callout def">
+<p>🎯 <strong>定义</strong>　给非退化圆锥曲线 $C:x^{\mathsf T}Qx=0$。对点 $P=[p]$,其<strong>极线</strong>是 $p^{\mathsf T}Qx=0$(一条直线)。反向:一条直线的<strong>极点</strong>是 $Q^{-1}\ell$。这给出点 ↔ 直线的双射。</p>
+</div>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">命题</span> 极线的几何 + 互反性(La Hire)</div>
+<ul>
+<li>若 $P$ 在 $C$ 上,其极线就是 $C$ 在 $P$ 处的<strong>切线</strong>。</li>
+<li><strong>互反性</strong>:$Q$ 在 $P$ 的极线上 $\Leftrightarrow$ $P$ 在 $Q$ 的极线上。</li>
+<li><strong>弦切构造</strong>:$P$ 在 $C$ 外,过 $P$ 作两条割线交 $C$ 于 $A,B$ 与 $A',B'$,则两弦 $AB'$、$A'B$ 的交点的轨迹 = $P$ 的极线。</li>
+</ul>
+</div>
+
+<div class="callout calc">
+<p>✏️ <strong>手算:单位圆 $x^2+y^2=1$。</strong>齐次化 $x^2+y^2-z^2=0$,$Q=\mathrm{diag}(1,1,-1)$。点 $P=(a,0)=[a:0:1]$ 的极线:</p>
+<div style="text-align:center;margin:8px 0">$$p^{\mathsf T}Qx=(a,0,1)\cdot(x,y,-z)=ax-z=0\;\Rightarrow\;x=\tfrac1a\text{(仿射 }z=1\text{)}.$$</div>
+<p>故 $P=(a,0)$ 的极线是竖线 $x=1/a$。当 $a=1$($P$ 在圆上),极线 $x=1$ = $(1,0)$ 处切线 ✓。当 $a\to\infty$,极线 $\to x=0$=$y$ 轴($P$ 是 $x$ 方向的无穷远点,极线过圆心)✓。</p>
+</div>
+
+<h2><span class="hn">4</span>Pascal 与 Brianchon(对偶对)</h2>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">定理</span> Pascal / Brianchon</div>
+<p><strong>Pascal</strong>:六边形 $A_1A_2A_3A_4A_5A_6$ 内接于圆锥曲线 $C$,则三对对边的交点 $A_1A_2\cap A_4A_5$、$A_2A_3\cap A_5A_6$、$A_3A_4\cap A_6A_1$ <strong>共线</strong>(Pascal 线)。</p>
+<p><strong>Brianchon</strong>(对偶):六边形外切于 $C$,则三条对角线<strong>共点</strong>。</p>
+</div>
+<div class="callout insight">
+<p>💡 两者是<strong>对偶</strong>关系(内接↔外切,共线↔共点)。Pascal 的退化情形(让两点重合,弦变切线)给出大量竞赛题;Pappus 定理是"Pascal + 圆锥曲线退化为两条直线"的特例。<strong>极点极线 + Pascal/Brianchon = 射影竞赛几何的核心三件套。</strong></p>
+</div>
+
+<h2><span class="hn">★</span>竞赛联结:极点极线的妙用</h2>
+
+<div class="callout key">
+<p>🔑 极点极线把"<strong>切线问题</strong>"翻译成"<strong>点的问题</strong>",反之亦然:</p>
+<ul>
+<li><strong>切线 = 极线</strong>:从外点 $P$ 引圆锥曲线的两条切线,切点弦就是 $P$ 的极线。把"求切线"变成"求极线"——一行。</li>
+<li><strong>共轭点</strong>:$P$ 在 $Q$ 极线上称 $P,Q$ 关于 $C$ 共轭。许多"垂直/正交"在射影里是"共轭"的推广。</li>
+<li><strong>Pascal 退化</strong>:六点中让相邻两点重合 $\Rightarrow$ 得到"切线 + 弦"版本,直接秒杀一批共点共线题。</li>
+</ul>
+</div>
+
+<h2><span class="hn">5</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> 椭圆、抛物线、双曲线在射影几何里——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">互相射影等价(同一种对象)</button>
+<button class="quiz-opt">仍然不同(射影也区分)</button>
+<button class="quiz-opt">只有椭圆与圆等价</button>
+<button class="quiz-opt">全部退化为直线</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。它们的差别只在"与无穷远直线的位置",射影变换可移动这条直线,故三者等价。</div>
+<div class="quiz-fb" data-kind="wrong">仿射分类才分三种;射影上,移动"无穷远直线"就能互换三者。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> Brianchon 定理是 Pascal 定理的——</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">对偶(点↔线,内接↔外切,共线↔共点)</button>
+<button class="quiz-opt">逆定理</button>
+<button class="quiz-opt">推广到高维</button>
+<button class="quiz-opt">退化情形</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。射影对偶原理自动把 Pascal 翻译成 Brianchon。</div>
+<div class="quiz-fb" data-kind="wrong">由对偶原理:Pascal(内接六边形→共线)对偶得 Brianchon(外切六边形→共点)。</div>
+</div>
+
+<h2><span class="hn">6</span>习题</h2>
+<div class="exercises">
+<div class="exercise"><span class="tag calc">手算</span> <span class="q">对单位圆 $x^2+y^2=1$,求点 $P=(2,3)$ 的极线方程。验证:若 $P$ 在圆外,其极线与圆相交于从 $P$ 引出的两切线的切点。</span></div>
+<div class="exercise"><span class="tag prove">证</span> <span class="q">证明 La Hire 互反性:$Q$ 在 $P$ 的极线上 $\Leftrightarrow$ $P$ 在 $Q$ 的极线上。(用 $p^{\mathsf T}Qq=q^{\mathsf T}Qp$。)</span></div>
+<div class="exercise"><span class="tag think adv">竞赛</span> <span class="q">写出 Pascal 让 $A_5=A_6$ 退化后的命题(切线版)。用它解决一道"圆锥曲线 + 切线 + 共线"的题。</span></div>
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>对偶原理</strong>:$\mathbb{P}^2$ 中点 ↔ 直线互换,命题自动成立。</li>
+<li><strong>圆锥曲线统一</strong>:椭圆/抛物线/双曲线射影等价,差别在无穷远直线的位置。</li>
+<li><strong>极点极线</strong> $p^{\mathsf T}Qx=0$:点↔直线双射,切线=极线,La Hire 互反。</li>
+<li><strong>Pascal/Brianchon</strong> 对偶对;退化得 Pappus 与切线版,是射影竞赛三件套之一。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源</h2>
+<ul>
+<li>Coxeter《<em>Introduction to Geometry</em>》第 10–14 章;Richter-Gebert《<em>Perspectives on Projective Geometry</em>》。</li>
+<li>Evan Chen《<em>EGMO</em>》——极点极线、Pascal 的竞赛用法。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="0009-invariant-theory.html"><span class="nav-label">← 上一课</span><span class="nav-title">09 · 不变量理论入门</span></a>
+<a class="next" href="0011-lie-groups-lie-algebra.html"><span class="nav-label">下一课 →</span><span class="nav-title">11 · 李群与李代数</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 可问:为什么"对偶"自动保真?极点和极线在物理/光学里有何对应(光线、焦散)?Pascal 退化为何能产生这么多题?</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 16 课 · 教学法总览 + Master 清单 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>16</b> 课 · 教学法</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 16 课</span> 教学法 · Master 清单</div>
+  <h1>站上讲台:怎么讲,常错在哪,题怎么配</h1>
+  <p class="lead">目标不是"学过",是"能教"。这课是回炉总结:每阶段<strong>怎么讲、学生常踩的坑、配什么题</strong>,外加一份 Master 自检清单。把前面 15 课的严格内容,转译成可在大学/竞赛班站上讲台的版本。</p>
+</div>
+
+<h2><span class="hn">1</span>每阶段:讲法 / 误解 / 习题</h2>
+
+<div class="table-wrap"><table>
+<thead><tr><th>阶段</th><th>怎么讲(钩子)</th><th>常见误解</th><th>典型习题</th></tr></thead>
+<tbody>
+<tr><td>地基:群与作用</td><td>从"$GL(n)$ 你早认识"切入;群公理只 2 条"真信息"</td><td>把"群"想成"对称图形的集合"(应是变换);混淆轨道与稳定化子</td><td>验证 $SL(n)\le GL(n)$;立方体顶点的 $|G_x|$</td></tr>
+<tr><td>欧氏 $E(n)$</td><td>"保距 ⟺ 保内积 ⟺ $O(n)$"三焊</td><td>以为等距必线性(忘平移);以为反射保定向</td><td>证等距 $=Ax+b$;两反射复合</td></tr>
+<tr><td>相似/旋转相似</td><td>复数 $z\mapsto az+b$ 一统;旋转相似 $=$ Miquel 钥匙</td><td>把相似当"只放缩";忽略反向 $a\bar z$</td><td>两正方形题;找螺旋相似中心</td></tr>
+<tr><td>仿射</td><td>"椭圆 = 圆的像"一行;仿射归一秒杀</td><td>以为仿射保角;不会用"假设坐标不失一般性"</td><td>椭圆内接最大三角形;剪切保面积</td></tr>
+<tr><td>射影/交比</td><td>"平行线在远处相交";三重传递 ⟹ 交比唯一</td><td>齐次坐标当普通坐标;交比公式记错</td><td>$(1,2;3,4)=4/3$;送直线到无穷远</td></tr>
+<tr><td>不变量理论</td><td>"把全部不变量列出来";FFT $=$ 内积</td><td>以为"一个不变量够了"(忘完备性)</td><td>对称多项式 $=e_i$;$O(2)$-不变环</td></tr>
+<tr><td>李/相对论</td><td>从 $\exp(\theta J)$ 推旋转;换符号差得相对论</td><td>$\exp$ 当普通指数;Minkowski 当欧氏</td><td>推 $\mathfrak{so}(n)$;核验推动保间隔</td></tr>
+<tr><td>Noether</td><td>"对称↔守恒"= 克莱因物理版</td><td>以为离散对称也给守恒荷</td><td>自由粒子动量/能量;中心力场角动量</td></tr>
+<tr><td>Klein/Cartan</td><td>$(G,H)$ 一统;"弯曲的 Klein"</td><td>以为 Klein 抓得住广义相对论(实则需 Cartan)</td><td>$X\cong G/H$;辨识各几何的 $H$</td></tr>
+</tbody></table></div>
+
+<h2><span class="hn">2</span>竞赛联结速查表</h2>
+
+<div class="table-wrap"><table>
+<thead><tr><th>题型信号</th><th>用它(群/不变量)</th><th>对应课</th></tr></thead>
+<tbody>
+<tr><td>旋转 $90°$/$60°$、两正方形、共圆连环</td><td>旋转相似(复数 $a=\rho e^{i\theta}$)</td><td>05</td></tr>
+<tr><td>椭圆/任意三角形的最值、面积比</td><td>仿射归一(椭圆→圆)</td><td>06</td></tr>
+<tr><td>共点线一堆、完全四点形、Desargues</td><td>送一条线到无穷远($PGL$)</td><td>07</td></tr>
+<tr><td>共线四点、投影、调和</td><td>交比($PGL(2)$ 唯一不变量)</td><td>08</td></tr>
+<tr><td>圆锥曲线切线、Pascal/Brianchon</td><td>极点极线(对偶)</td><td>10</td></tr>
+<tr><td>对称计数(项链、染色)</td><td>Burnside(群作用轨道数)</td><td>02</td></tr>
+<tr><td>根的对称式(韦达)</td><td>对称多项式($S_n$-不变环)</td><td>09</td></tr>
+</tbody></table></div>
+
+<h2><span class="hn">3</span>Master 自检清单</h2>
+
+<div class="callout key">
+<p>能不假思索地做到以下,就算 master:</p>
+<ol>
+<li>听到"某某变换是不是群",立刻用"封闭 + 取逆"两条判断。</li>
+<li>能把任意欧氏等距写成 $Ax+b$,$A\in O(n)$,并说出 $\det A=\pm1$ 的定向含义。</li>
+<li>看到 2D 相似/旋转,立刻翻译成 $z\mapsto az+b$。</li>
+<li>看到椭圆问题,本能地"仿射归一到圆"。</li>
+<li>能解释"为何交比是射影直线上唯一不变量"(三重传递 + 自由度)。</li>
+<li>能说清不变环、FFT,并解释"距离/角度 $=$ 内积 $=$ $O(n)$-不变量"。</li>
+<li>能从 $\mathfrak{o}(n)$ 反对称 + $\exp$ 推出旋转矩阵,并把 $J$ 与复数 $i$ 对应。</li>
+<li>能讲清 Noether 的证明骨架,以及"克莱因 = Noether"的同一性。</li>
+<li>能指出 Klein 几何的边界,并说清 Cartan 如何推广到弯曲几何(含相对论)。</li>
+<li>能把一道竞赛几何题,识别出它住在哪个矩阵群里、保哪个不变量,从而选对方法。</li>
+</ol>
+</div>
+
+<h2><span class="hn">4</span>一句话全课程</h2>
+
+<div class="bigidea">
+<span class="label">如果你只记一句</span>
+<strong>几何 = 变换群 + 不变量。</strong><br>
+从 $GL(n)$ 出发,选一个子群,就得到一门几何;<br>
+群越大,不变量越少,结论越普适;<br>
+连续化得李群,换度量得相对论,<br>
+"群→不变量"在物理里就是 Noether 的"对称→守恒",<br>
+而弯曲的版本(Cartan)通向引力与规范场。<br>
+<span style="font-size:.9rem;color:var(--text-soft)">—— 一个骨架,撑起了从中学全等到标准模型。</span>
+</div>
+
+<h2><span class="hn">5</span>深入阅读</h2>
+<ul>
+<li><strong>本科几何/代数</strong>:Artin《Algebra》、Stillwell《Four Pillars》、Coxeter《Introduction to Geometry》。</li>
+<li><strong>竞赛</strong>:Evan Chen《EGMO》、《几何变换》奥赛小丛书、沈文选《平面几何证明方法全书》。</li>
+<li><strong>原典</strong>:Klein《Erlangen Program》(<a href="https://arxiv.org/abs/0807.3161">arXiv:0807.3161</a>)。</li>
+<li><strong>李/物理</strong>:Katok《Lie Groups》、Neuenschwander《Noether》、Baez <a href="https://math.ucr.edu/home/baez/erlangen/">Erlangen 解读</a>。</li>
+<li><strong>进阶</strong>:Sharpe《Cartan 几何》、Olver《Classical Invariant Theory》。</li>
+</ul>
+
+<h2><span class="hn">6</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> 一道"两正方形共顶点,证某两线段相等且垂直"的题,首选工具?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">$90°$ 旋转相似(复数乘 $i$)</button>
+<button class="quiz-opt">仿射归一</button>
+<button class="quiz-opt">交比</button>
+<button class="quiz-opt">极点极线</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。旋转 $90°$ = 乘 $i$,是把一个正方形送到另一个的螺旋相似,一步证完相等 + 垂直。</div>
+<div class="quiz-fb" data-kind="wrong">"两正方形 + 相等垂直"是旋转相似($90°$,比 $1$)的招牌题。见第 05 课。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> "椭圆内接三角形最大面积",首选工具?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">仿射归一(椭圆→单位圆→正三角形)</button>
+<button class="quiz-opt">交比</button>
+<button class="quiz-opt">Noether</button>
+<button class="quiz-opt">Burnside</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。仿射保面积比,把椭圆归一到单位圆,圆内最大 $=$ 正三角形。</div>
+<div class="quiz-fb" data-kind="wrong">仿射变换把椭圆变圆且保面积比——归约到"圆内最大三角形 $=$ 正三角形"。见第 06 课。</div>
+</div>
+
+<div class="quiz" data-qid="q3">
+<div class="quiz-q"><span class="qid">Q3</span> "为何 Klein 纲领抓不住广义相对论?"</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">Klein 几何齐性(平坦);GR 时空弯曲,需 Cartan</button>
+<button class="quiz-opt">Klein 不用群</button>
+<button class="quiz-opt">GR 没有对称</button>
+<button class="quiz-opt">Klein 只管 2D</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。Klein $(G,H)$ 传递作用 ⟹ 处处相同(平坦);GR 时空逐点曲率不同,需 Cartan 的"弯曲 Klein"。</div>
+<div class="quiz-fb" data-kind="wrong">Klein 几何是齐性(平坦)的;广义相对论的时空是弯曲的,需 Cartan 推广。见第 14、15 课。</div>
+</div>
+
+<h2><span class="hn">7</span>下一步</h2>
+<ul>
+<li><strong>真世界试炼</strong>:挑 5 道 IMO/CMO 几何真题,用本课的"群/不变量"语言重做,贴上你用的群与不变量。</li>
+<li><strong>讲一遍</strong>:选一课(推荐 04 欧氏 或 05 旋转相似),向一个虚拟的本科班讲 20 分钟,录音回放找卡壳处。</li>
+<li><strong>深挖</strong>:若对物理侧着迷,接 Katok + Neuenschwander;若对几何侧着迷,接 Sharpe + Richter-Gebert。</li>
+</ul>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li>教学三件套:<strong>钩子(从已知切入) / 误解(提前拆雷) / 习题(分级)</strong>。</li>
+<li>竞赛联结速查:题型信号 → 群/不变量 → 选法。</li>
+<li>Master 清单 10 条 + 一句话全课程。</li>
+<li>下一步:真题试炼 + 试讲 + 深挖。</li>
+</ul>
+</div>
+
+<div class="chapter-nav">
+<a class="prev" href="0015-cartan-geometry.html"><span class="nav-label">← 上一课</span><span class="nav-title">15 · Cartan 几何</span></a>
+<a class="next" href="../reference/curriculum.html"><span class="nav-label">回到目录 →</span><span class="nav-title">课程地图</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 全课完成!现在可问任何综合题:某道真题归到哪个群?某两个几何如何用 $(G,H)$ 对照?想把哪一课扩成 20 分钟的讲稿?——任意开口。</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>

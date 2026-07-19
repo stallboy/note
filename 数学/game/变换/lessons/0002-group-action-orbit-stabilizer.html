@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 02 课 · 群作用 — 从变换看几何(严格版)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="../reference/curriculum.html">变换看几何 <small>· 严格版</small></a>
+  <span class="spacer"></span>
+  <span class="crumb">第 <b>02</b> 课 · 地基重铸 II</span>
+  <button class="icon-btn" data-act="theme" title="切换深 / 浅色">◐</button>
+</div>
+<main class="content">
+
+<div class="chapter-head">
+  <div class="eyebrow"><span class="pill">第 02 课</span> 地基重铸 II</div>
+  <h1>群作用:几何如何"发生"</h1>
+  <p class="lead">上一课我们让"群"落地成 $GL(n)$。但"几何"还有另一半——变换如何<strong>作用</strong>在一个空间上。这一课把"作用"钉死,并得到一个万能工具:<strong>轨道—稳定化子定理</strong>,它直接通向竞赛里的对称计数。</p>
+</div>
+
+<h2><span class="hn">1</span>什么是"群作用"</h2>
+
+<p>一个群 $G$ <strong>作用</strong>在集合 $X$ 上,记 $G\curvearrowright X$,是给一个映射 $G\times X\to X$,$(g,x)\mapsto g\cdot x$,满足:</p>
+<div class="callout def">
+<p>🎯 <strong>定义(群作用)</strong>　两条公理:</p>
+<ol>
+<li>$e\cdot x=x$(单位元"什么都不做");</li>
+<li>$(gh)\cdot x=g\cdot(h\cdot x)$(先 $h$ 后 $g$,与群的乘法一致)。</li>
+</ol>
+</div>
+<p>每个 $g\in G$ 给出 $X$ 上的一个置换 $x\mapsto g\cdot x$(可逆,逆是 $g^{-1}$)。所以"群作用"就是把 $G$ 实现成 $X$ 的一族置换——<strong>这正是"一群变换作用于空间"的严格含义</strong>。一门几何,本质就是一个 $(G,X)$。</p>
+
+<h2><span class="hn">2</span>轨道与稳定化子</h2>
+
+<div class="callout def">
+<p>🎯 给定 $G\curvearrowright X$、点 $x\in X$:</p>
+<ul>
+<li><strong>轨道</strong> $G\cdot x=\{\,g\cdot x:g\in G\,\}$——$x$ 能被变到的所有位置。</li>
+<li><strong>稳定化子</strong> $G_x=\{\,g\in G:g\cdot x=x\,\}$——把 $x$ 钉住不动的那些 $g$。</li>
+</ul>
+</div>
+<p>两条直接事实:$G_x\le G$ 是子群(验:钉住 $x$ 的两个变换复合、取逆仍钉住 $x$);轨道是 $X$ 的一个划分(不同轨道要么重合要么不相交)。所以<strong>全体轨道 $X/G$ 把空间切成"等价类"</strong>。</p>
+
+<div class="callout insight">
+<p>💡 <strong>关键直觉:轨道 = 不变量的等值面。</strong>轨道就是"在 $G$ 眼里无法区分"的点集。所以找一个<strong>不变量</strong>(下下节课精确定义)等价于<strong>给轨道分类</strong>。轨道与不变量是一枚硬币的两面——这正是整门课的引擎。</p>
+</div>
+
+<h2><span class="hn">3</span>万能工具:轨道—稳定化子定理</h2>
+
+<div class="theorem-box">
+<div class="thm-head"><span class="tag">定理</span> 轨道—稳定化子(有限群)</div>
+<p>设有限群 $G$ 作用在有限集 $X$ 上,$x\in X$。则</p>
+<div style="text-align:center;margin:10px 0">$$|G|=|G\cdot x|\cdot|G_x|.$$</div>
+<p class="proof"><span class="proof-mark">证明.</span> 建立 $G$ 的左陪集 $G/G_x$ 到轨道 $G\cdot x$ 的双射:$gG_x\mapsto g\cdot x$。</p>
+<p><strong>良定义</strong>:若 $g'=gh$($h\in G_x$),则 $g'\cdot x=(gh)\cdot x=g\cdot(h\cdot x)=g\cdot x$。</p>
+<p><strong>单射</strong>:若 $g\cdot x=g'\cdot x$,则 $g^{-1}g'\cdot x=x$,故 $g^{-1}g'\in G_x$,$g'G_x=gG_x$。满射显然。</p>
+<p>故 $|G/G_x|=|G\cdot x|$,即 $|G|/|G_x|=|G\cdot x|$。$\blacksquare$</p>
+</div>
+
+<div class="callout calc">
+<p>✏️ <strong>手算:正三角形顶点上的 $D_3$。</strong>$D_3$(6 元,见第 01 课习题里的 Klein 群升级版)作用于顶点 $\{1,2,3\}$。</p>
+<ul>
+<li>顶点 $1$ 的<strong>轨道</strong>:旋转、反射能把 $1$ 送到 $\{1,2,3\}$ 全部 $\Rightarrow |G\cdot 1|=3$。</li>
+<li>顶点 $1$ 的<strong>稳定化子</strong>:钉住 $1$ 不动的,只有恒等 $e$ 与"过顶点 1 的对称轴反射"$s$ $\Rightarrow |G_1|=2$。</li>
+<li>核验 $|D_3|=6=3\times 2$。 ✓</li>
+</ul>
+<p>一句话:<strong>群有多大 = 它能走多远 × 它能定多稳。</strong></p>
+</div>
+
+<div class="callout think">
+<p>🤔 <strong>连续的例子:$O(2)\curvearrowright\mathbb{R}^2$。</strong>对 $x=(3,4)$:</p>
+<ul>
+<li>轨道 $O(2)\cdot x$ = 所有长度为 $\sqrt{3^2+4^2}=5$ 的向量 = 半径 $5$ 的圆。</li>
+<li>稳定化子 = 把 $(3,4)$ 钉住的正交变换,只有恒等与"关于直线 $\span\{(3,4)\}$ 的反射",$\cong\mathbb{Z}_2$。</li>
+</ul>
+<p>轨道—稳定化子对无限群要用"维数"版,但图像一致:<strong>轨道就是 $\|x\|$ 这个不变量的等值线</strong>。$O(2)$ 把平面分成了一族同心圆。</p>
+</div>
+
+<h2><span class="hn">★</span>竞赛联结:Burnside 计数</h2>
+
+<div class="callout key">
+<p>🔑 <strong>Burnside 引理</strong>:有限群 $G$ 作用于有限集 $X$,轨道个数(即"本质不同"的构型数)</p>
+<div style="text-align:center;margin:10px 0">$$|X/G|=\frac{1}{|G|}\sum_{g\in G}|X^g|,\qquad X^g=\{x:g\cdot x=x\}.$$</div>
+<p>(直觉:平均下来,每个 $g$ 钉住多少个点,就是轨道数。)这是 IMO 组合里的"项链/手链染色"问题的标准武器。</p>
+</div>
+
+<div class="callout calc">
+<p>✏️ <strong>4 珠 2 色的项链</strong>(只考虑旋转等价,群 $C_4=\{e,r,r^2,r^3\}$,$|G|=4$,色集 $\{B,W\}$,共 $2^4=16$ 种染色):</p>
+<ul>
+<li>$e$(转 $0$):全钉住 $\Rightarrow |X^e|=2^4=16$。</li>
+<li>$r$(转 $1$):只有全同色被钉住 $\Rightarrow |X^r|=2$。</li>
+<li>$r^2$(转 $2$):BBWW 之类两头一致 $\Rightarrow |X^{r^2}|=2^2=4$。</li>
+<li>$r^3$(转 $3$):同 $r$,$\Rightarrow |X^{r^3}|=2$。</li>
+<li>项链数 $=\dfrac{16+2+4+2}{4}=\dfrac{24}{4}=6$。 ✓</li>
+</ul>
+<p>6 条——和你之前在科普版手算的 $D_n$ 结果吻合。轨道—稳定化子把"对称计数"变成了代入公式。</p>
+</div>
+
+<h2><span class="hn">4</span>自测</h2>
+
+<div class="quiz" data-qid="q1">
+<div class="quiz-q"><span class="qid">Q1</span> $G\curvearrowright X$ 中,$x$ 的"轨道"$G\cdot x$ 在几何上是什么?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">$x$ 在 $G$ 下能到达的全部位置</button>
+<button class="quiz-opt">把 $x$ 钉住不动的那些变换</button>
+<button class="quiz-opt">$G$ 里所有元素构成的集合</button>
+<button class="quiz-opt">$X$ 里所有点构成的集合</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。"钉住不动"的是稳定化子 $G_x$;轨道是 $x$ 能被变到的位置全体。</div>
+<div class="quiz-fb" data-kind="wrong">轨道 = $\{g\cdot x:g\in G\}$,即 $x$ 能被变到的全部位置。"钉住 $x$"的是稳定化子,不是轨道。</div>
+</div>
+
+<div class="quiz" data-qid="q2">
+<div class="quiz-q"><span class="qid">Q2</span> 立方体 8 个顶点上,$|S_4|$(旋转群,24 元)作用。一个顶点的稳定化子有几个元素?</div>
+<div class="quiz-opts">
+<button class="quiz-opt" data-correct="true">$3$ 个(绕该顶点对角线的旋转)</button>
+<button class="quiz-opt">$4$ 个(绕该顶点的旋转)</button>
+<button class="quiz-opt">$8$ 个(顶点总数)</button>
+<button class="quiz-opt">$24$ 个(整群的阶)</button>
+</div>
+<div class="quiz-fb" data-kind="correct">对。轨道 = 8 个顶点($|G\cdot x|=8$),故 $|G_x|=24/8=3$,正是绕该顶点—对心顶点对角线的三个旋转($0°,120°,240°$)。</div>
+<div class="quiz-fb" data-kind="wrong">用 $|G|=|G\cdot x|\cdot|G_x|$:旋转能把任一顶点送到其余 7 个,故 $|G\cdot x|=8$,$|G_x|=24/8=3$。</div>
+</div>
+
+<h2><span class="hn">5</span>习题</h2>
+<div class="exercises">
+<div class="exercise"><span class="tag prove">证</span> <span class="q">证明 $G_x\le G$ 是子群(封闭 + 取逆)。</span></div>
+<div class="exercise"><span class="tag calc">手算</span> <span class="q">$D_4$(8 元,正方形对称群)作用于 4 个顶点。求每个顶点的 $|G\cdot x|$ 与 $|G_x|$,核验轨道—稳定化子。</span></div>
+<div class="exercise"><span class="tag think adv">进阶</span> <span class="q">用 Burnside 求"正六边形 6 顶点染 3 色、只计旋转等价"的不同构型数。</span></div>
+</div>
+
+<div class="summary">
+<h2>小结</h2>
+<ul>
+<li><strong>群作用</strong> $G\curvearrowright X$ = 把群实现成空间上的置换;几何 = $(G,X)$。</li>
+<li><strong>轨道</strong> = $x$ 能到的位置;<strong>稳定化子</strong> = 钉住 $x$ 的子群;两者满足 $|G|=|G\cdot x|\cdot|G_x|$。</li>
+<li>轨道 = 不变量的等值面(下下节课)。<strong>Burnside</strong> 把对称计数变成公式。</li>
+</ul>
+</div>
+
+<h2><span class="hn">📚</span>主源</h2>
+<ul>
+<li>Artin《<em>Algebra</em>》第 5、6 章(群作用、轨道、对称计数)——轨道—稳定化子的标准讲法。</li>
+<li>Armstrong《<em>Groups and Symmetry</em>》——用对称现象讲群作用,Burnside 的教学化版本。</li>
+</ul>
+
+<div class="chapter-nav">
+<a class="prev" href="0001-gl-n-is-a-group.html"><span class="nav-label">← 上一课</span><span class="nav-title">01 · GL(n) 是你的第一个群</span></a>
+<a class="next" href="0003-what-is-an-invariant.html"><span class="nav-label">下一课 →</span><span class="nav-title">03 · "不变量"的精确定义</span></a>
+</div>
+<div class="callout tip" style="border-left-color:var(--text-faint);background:var(--bg-soft)"><p>🙋 任何不清楚都可问:陪集 $G/G_x$ 为什么是"集合的集合"?Burnside 里"平均钉住数"为何恰好是轨道数?无限群时 $|G|=|G\cdot x|\cdot|G_x|$ 该怎么读?</p></div>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script src="../assets/main.js"></script>
+</body>
+</html>
