@@ -160,6 +160,23 @@
 <p><strong>构造思路（一步代数）</strong>：齐次坐标下有"标准四点"</p>
 <div class="eq-display">$$E_1=(1:0:0),\quad E_2=(0:1:0),\quad E_3=(0:0:1),\quad E_4=(1:1:1).$$</div>
 <p>先求把 $P_i$ 映到 $E_i$ 的矩阵：前三对定出矩阵的三列方向，第四对 $P_4\mapsto E_4$ 负责定出三列之间的<strong>相对比例</strong>——这正是"第四对点"的活儿。再求把 $E_i$ 映到 $Q_i$ 的矩阵，两者复合即得。全程只解线性方程；存在性与唯一性都归结为"任三点不共线 ⟺ 相应行列式非零"。</p>
+<p><strong>几何上怎么理解？</strong> 一句话：<strong>三对点钉死"仿射部分"，第四对点钉死"无穷远直线的去向"。</strong> 分三步看。</p>
+<p><strong>① 三对点之后还剩什么自由？</strong> 给定 $P_1,P_2,P_3\mapsto Q_1,Q_2,Q_3$，若只是仿射变换这已经定死了（4.4 节）。但射影比仿射多出的本事只有一件：<strong>能把某条普通直线送到无穷远去</strong>（等价地，把无穷远直线拉到眼前——画家眼里的地平线）。所以固定三对点后，剩下的全部自由就是"<strong>哪条直线将变成地平线</strong>"——平面上一条直线恰有 2 个自由度，正好补上 $8-6=2$ 的差额。三对点不够（习题 5.7），缺的就是"地平线还没定"。</p>
+<p><strong>② 唯一性的几何证明（完全四点形的传播）。</strong> 只用"射影变换保持共线关系"和 5.3 的一维版本：</p>
+<ul><li>四点 $P_1P_2P_3P_4$ 构成<strong>完全四点形</strong>（6 条边）。设 $R=P_1P_2\cap P_3P_4$。射影变换保持交点关系，故 $R$ 的像<strong>必须是</strong> $Q_1Q_2\cap Q_3Q_4$——被强制了。</li><li>看直线 $P_1P_2$：上面已有三对对应点 $P_1\mapsto Q_1$、$P_2\mapsto Q_2$、$R\mapsto R'$。由一维基本定理，这条边上的射影变换被唯一钉死——边上每个点的像都被交比强制。六条边同理全部钉死。</li><li>任意点 $X$：过 $X$ 作一条线交两条边于 $U,V$（像已知），则 $X$ 的像必在直线 $U'V'$ 上；再作一条线得第二条约束线，两线相交即得 $X$ 的像——唯一确定。</li></ul>
+<p>从四对点出发，像的确定沿着连线关系<strong>传播</strong>到全平面（这套构造即 von Staudt 的"射影网格"），没有任何选择余地——这就是"唯一"的几何含义。下图右半由左半经<strong>真实射影变换</strong>算出：$R'$、$U'V'$、$X'$ 的位置没有一处是自由的。</p>
+<div class="figure"><img src="../images/05-射影几何-交比-11.svg" alt=""></div>
+<p><strong>③ 第四对点"在干什么活"。</strong> 对照上面的代数构造：前三对点定三列的<strong>方向</strong>（三个顶点去哪，即仿射骨架），第四对点定三列的<strong>相对比例</strong>。几何翻译：$P_4$ 相对于三角形 $P_1P_2P_3$ 的位置，编码的正是"无穷远直线被拉到了哪、平面朝哪个方向以多大透视压缩率弯向地平线"。</p>
+<p>至于条件"任三点不共线"：若有三点共线，它们只激活一维理论（3 个约束），钉不死平面（要 8 个）；而"任三点不共线"保证完全四点形的六条边、所有交点都非退化，② 的传播机制才转得起来。</p>
+<p><strong>代数版本：矩阵证明（与几何证明 ② 对照）。</strong> 射影变换在齐次坐标下极其干净——就是一个 $3\times3$ 可逆矩阵（模比例）。于是基本定理其实是一道线性代数题：把上面的"构造思路"写完整即可。记 $\vec p_i$ 为 $P_i$ 的齐次坐标列向量。</p>
+<p><strong>约化</strong>：只需证标准四点 $E_1,E_2,E_3,E_4$ 可以唯一地映到任意四点 $P_i$——一般的 $P_i\mapsto Q_i$ 由"$\{E\}\to\{Q\}$"复合"$\{E\}\to\{P\}$ 的逆"即得。</p>
+<p><strong>存在性</strong>：任三点不共线 ⟺ $\vec p_1,\vec p_2,\vec p_3$ <strong>线性无关</strong>。取三列各带一个待定比例的矩阵</p>
+<div class="eq-display">$$M=\begin{pmatrix} a\vec p_1 & b\vec p_2 & c\vec p_3 \end{pmatrix},$$</div>
+<p>它已自动把 $E_i\mapsto P_i$（$i=1,2,3$，因为 $M\vec e_1=a\vec p_1$ 与 $\vec p_1$ 代表同一点）。剩下要求 $E_4=(1:1:1)\mapsto P_4$，即</p>
+<div class="eq-display">$$a\,\vec p_1+b\,\vec p_2+c\,\vec p_3=\vec p_4$$</div>
+<p>——一个 $3\times3$ 线性方程组，系数矩阵可逆，$(a,b,c)$ <strong>唯一</strong>解出；且 $a,b,c$ 全不为零（若 $a=0$，则 $\vec p_4$ 落在 $\vec p_2,\vec p_3$ 张成的平面内，即 $P_2,P_3,P_4$ 共线，矛盾）。三列无关故 $M$ 可逆。存在性证毕——**"第四对点定相对比例"，在代数里就是解出 $(a,b,c)$ 这一步**。</p>
+<p><strong>唯一性</strong>：设 $M,N$ 都把 $E_i\mapsto P_i$，则 $S=N^{-1}M$ 固定四个 $E_i$。固定 $E_1,E_2,E_3$（作为点）⇒ $S$ 的每列都是坐标轴方向 ⇒ $S=\mathrm{diag}(s_1,s_2,s_3)$ 是<strong>对角矩阵</strong>；再固定 $E_4=(1:1:1)$ ⇒ $(s_1,s_2,s_3)\propto(1,1,1)$ ⇒ $S$ 是数量阵 ⇒ 在 $\mathrm{PGL}_3$ 里就是<strong>恒等</strong>。故 $M\propto N$。一般的 $P_i\mapsto Q_i$ 情形经上述约化共轭即得。</p>
+<div class="callout insight"><p>💡 <strong>两种证明是同一件事的两种语言</strong>：几何证明用直尺和交比把像<strong>一步步传播</strong>到全平面（机制直观）；矩阵证明用线性代数<strong>一页算完</strong>（"任三点不共线"就是 $\det\ne0$，自由度 $9-1=8$ 就是九个矩阵元模掉整体倍数）。前者告诉你变换"为什么被钉死"，后者告诉你它"有多好算"。</p></div>
 <div class="figure"><img src="../images/05-射影几何-交比-07.svg" alt="" style="max-width:560px"></div>
 <h3 id="递进线收束">递进线收束</h3>
 <div class="table-wrap"><table><thead><tr><th>变换</th><th>需要几对对应点</th><th>自由度</th></tr></thead><tbody><tr><td>等距（第 2 章）</td><td>2 对（正向唯一；允许反向则差一个反射）</td><td>3</td></tr><tr><td>相似（第 3 章）</td><td>2 对（存在且唯一）</td><td>4</td></tr><tr><td>仿射（第 4 章）</td><td>3 对</td><td>6</td></tr><tr><td><strong>射影（本章）</strong></td><td><strong>4 对</strong></td><td>8</td></tr></tbody></table></div>
@@ -205,7 +222,25 @@
 <div class="figure"><img src="../images/05-射影几何-交比-08.svg" alt="" style="max-width:560px"></div>
 <div class="callout insight"><p>💡 <strong>为什么这是射影几何独有的福利</strong>：欧氏几何里点和线不对称（两点定一线，两线却未必交出普通点）。射影平面补齐无穷远后，对称性完美了——<strong>对偶原理是"补无穷远点"收到的最大红利：一条定理的证明，自动变成两条定理。</strong></p></div>
 <hr>
-<h2 id="sec-5-10"><span class="hn">5.10</span>射影几何的不变量清单</h2><div class="table-wrap"><table><thead><tr><th>性质</th><th>射影变换下</th></tr></thead><tbody><tr><td>共线 / 共点</td><td><span class="check">✓</span></td></tr><tr><td><strong>交比</strong></td><td><span class="check">✓</span> <strong>（唯一的核心不变量）</strong></td></tr><tr><td>调和点列（交比 $-1$）</td><td><span class="check">✓</span></td></tr><tr><td>圆锥曲线（作为一类）</td><td><span class="check">✓</span></td></tr><tr><td>点线结合关系（对偶原理的舞台）</td><td><span class="check">✓</span></td></tr><tr><td>平行</td><td><span class="cross">✗</span>（平行线会相交）</td></tr><tr><td>角度、长度、面积</td><td><span class="cross">✗</span></td></tr><tr><td>"圆"</td><td><span class="cross">✗</span>（圆变抛物线 / 双曲线）</td></tr></tbody></table></div>
+<h2 id="sec-5-10"><span class="hn">5.10</span>射影几何的不变量清单</h2><p>全章零散出现的"保 / 不保"，这里收拢成一张清单，并<strong>逐条给出证明或反例</strong>。工具就是本章的两套语言：几何的（中心投影）与代数的（矩阵 $M\in\mathrm{PGL}_3$，点 $X\mapsto MX$）。</p>
+<div class="table-wrap"><table><thead><tr><th>性质</th><th>射影变换下</th><th>理由（见下）</th></tr></thead><tbody><tr><td>共线 / 共点（一切结合关系）</td><td><span class="check">✓</span></td><td>①</td></tr><tr><td><strong>交比</strong></td><td><span class="check">✓</span> <strong>（唯一的数值不变量）</strong></td><td>②</td></tr><tr><td>调和点列（交比 $-1$）</td><td><span class="check">✓</span></td><td>③</td></tr><tr><td>圆锥曲线（作为一类）</td><td><span class="check">✓</span></td><td>④</td></tr><tr><td>相切 / 切线</td><td><span class="check">✓</span></td><td>⑤</td></tr><tr><td>平行</td><td><span class="cross">✗</span></td><td>⑥</td></tr><tr><td>简比、长度、角度、面积</td><td><span class="cross">✗</span></td><td>⑦</td></tr><tr><td>"圆"（作为特殊曲线）</td><td><span class="cross">✗</span></td><td>⑧</td></tr></tbody></table></div>
+<h3 id="保持的-证明">保持的（证明）</h3>
+<p><strong>① 共线、共点——一切结合关系。</strong> 代数证明最干净：点 $X$ 在直线 $l$ 上 ⟺ $l^{\mathsf T}X=0$（$l=(a,b,c)^{\mathsf T}$ 是直线坐标，5.9）。变换后像点集满足 $l^{\mathsf T}M^{-1}Y=0$——仍是<strong>一条直线</strong>（其坐标为 $M^{-\mathsf T}l$）。所以直线仍映成直线，"点在直线上"一字不改；可逆线性映射保持子空间的交与和，故交点映成交点、连线映成连线。共点是共线的对偶（5.9），自动成立。几何说法同样直观：中心投影把直线映成"投影平面与像平面的交线"，仍是直线。</p>
+<p><strong>② 交比——唯一的数值不变量。</strong> 几何证明见 5.2（交比 = 光束角正弦之比，光束的内禀属性）。代数证明也只需一行：直线上的射影变换在参数 $t$ 下是分式线性变换 $t\mapsto\dfrac{\alpha t+\beta}{\gamma t+\delta}$，而</p>
+<div class="eq-display">$$t_i'-t_j'=\frac{(\alpha\delta-\beta\gamma)\,(t_i-t_j)}{(\gamma t_i+\delta)(\gamma t_j+\delta)},$$</div>
+<p>代入交比的四个差，因子 $\alpha\delta-\beta\gamma$ 与分母两两<strong>约去</strong>——交比分毫不动。</p>
+<p><strong>③ 调和点列。</strong> 交比 $-1$ 的特例，② 的直接推论（完全四点形、第四调和点随之保持，5.4）。</p>
+<p><strong>④ 圆锥曲线（作为一类）。</strong> 圆锥曲线 $X^{\mathsf T}AX=0$（$A$ 对称，5.5）。代 $X=MY$ 得 $Y^{\mathsf T}(M^{\mathsf T}AM)Y=0$，$M^{\mathsf T}AM$ 仍对称——仍是圆锥曲线；且 $M$ 可逆故<strong>秩不变</strong>，非退化的仍非退化。注意保的是"一类"：具体是椭圆、抛物线还是双曲线<strong>不保</strong>，那取决于曲线与无穷远直线的位置关系（5.7）。</p>
+<p><strong>⑤ 相切 / 切线。</strong> 直线与曲线相切 ⟺ 代入后方程有<strong>重根</strong>；可逆线性代换不改变根的重数。故切线映成切线——帕斯卡与布利昂雄互为对偶（5.9）能落到同一舞台，靠的就是这条加④。</p>
+<h3 id="不保持的-反例">不保持的（反例）</h3>
+<p><strong>⑥ 平行 ✗。</strong> 平行 = "交于无穷远直线"。射影变换把 $Z=0$ 映成一条普通直线（像平面上的地平线），原先交于无穷远的两线如今交于普通点——铁轨在照片里汇于灭点（5.1）。代数上：无穷远直线的像是 $M^{-\mathsf T}(0,0,1)^{\mathsf T}$，一般不再是 $(0,0,1)^{\mathsf T}$。</p>
+<p><strong>⑦ 简比、长度、角度、面积 ✗。</strong> 连一条直线上最简单的<strong>简比</strong> $\dfrac{AC}{BC}$ 都不保：它是交比的特例 $(A,B;C,\infty)=\dfrac{AC}{BC}$（$\infty$ 为该线的无穷远点），而射影变换恰恰会把无穷远点挪到有限处。反例俯拾即是：照片上等距的枕木间距不再相等；正方形拍成一般四边形——角度、面积自然全军覆没。</p>
+<p><strong>⑧ "圆" ✗。</strong> 圆只是圆锥曲线中"与无穷远直线交于两个固定点"的特殊成员；经一般射影变换后成为任意圆锥曲线——5.7 已见圆可变成抛物线、双曲线。</p>
+<h3 id="为什么说交比-唯一-完备性">为什么说交比"唯一"（完备性）</h3>
+<p>清单不只是"交比不变"，更强的断言是"<strong>数值不变量本质上只有交比</strong>"：</p>
+<ul><li><strong>直线上</strong>：$n$ 个点（$n\ge4$）。射影变换的 3 个自由度恰好把其中 3 点标准化到 $\infty,0,1$（唯一，5.3）；剩下 $n-3$ 个点的坐标被钉死——它们是<strong>全部</strong>独立不变量，而每个本身就是一个交比：$t_i=(\infty,0;\,1,t_i)$（按 5.2 的约定取极限即得）。</li><li><strong>平面上</strong>：$n$ 个一般位置的点共 $2n$ 个坐标，群有 8 个自由度（5.6），故独立不变量 $2n-8$ 个。用基本定理把 4 点送到标准位置后，其余点的坐标全被钉死；每个坐标经"连线、投影到定线"都能读成某条直线上四点的交比。</li></ul>
+<p><strong>点构形的一切射影不变量都是交比的函数</strong>——这就是"射影几何第一基本定理"。交比不是众多不变量中的一个，而是<strong>生成全部不变量的唯一原子</strong>。</p>
+<div class="callout insight"><p>💡 <strong>不变量越少的几何越"大"</strong>：等距保长度，相似保角度，仿射保平行与简比，射影只剩交比与结合关系。变换群每放大一次，不变量就丢掉一批——第 7 章爱尔兰根纲领将把这种<strong>群与不变量的此消彼长</strong>说成一般原理。</p></div>
 <p>射影几何是<strong>最"贫乏"也最"普适"</strong>的经典几何：不变量最少（基本只有交比和结合关系），但结论适用于一切投影——所以绘画、摄影、计算机视觉里的"灭点校正"全靠它。</p>
 <p>下一章我们看一种<strong>特殊</strong>的变换——反演，它能把直线变圆，是"保角"的典范。</p>
 <p>下一章：<a href="06.html">第 06 章 · 反演</a></p>
