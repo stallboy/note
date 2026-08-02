@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 手写 SVG：法格纳诺定理（题5）。锐角 ΔABC：A(250,60) B(70,330) C(430,330)；
-     垂足 D(250,330)(A→BC), E(319,164)(B→AC), F(181,164)(C→AB)，三者均精确垂直(点积=0)；
-     垂足 ΔDEF(红) 是周长最短的内接三角形；三条高线虚线。 -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 460 350" text-rendering="geometricPrecision"
+<!-- 手写 SVG：法格纳诺定理（题5），几何精确。锐角 ΔABC：A(250,60) B(70,330) C(430,330)；
+     垂足 D(250,330)(A→BC), E(319.2,163.8)(B→AC), F(180.8,163.8)(C→AB)，三者精确垂直；
+     D 关于 AB、AC 的对称点 D₁(0.8,163.8)、D₂(499.2,163.8)——反射展开后 D₁,F,E,D₂ 恰好共线，
+     周长 = D₁F+FE+ED₂ = D₁D₂（直线），故垂足三角形周长最短。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-30 20 560 355" text-rendering="geometricPrecision"
      font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
 
   <!-- 锐角 ΔABC -->
   <polygon points="250,60 70,330 430,330" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
 
   <!-- 三条高（虚线灰）：AD, BE, CF -->
-  <line x1="250" y1="60"  x2="250" y2="330" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
-  <line x1="70"  y1="330" x2="319" y2="164" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
-  <line x1="430" y1="330" x2="181" y2="164" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <line x1="250" y1="60"  x2="250" y2="330" stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <line x1="70"  y1="330" x2="319.2" y2="163.8" stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <line x1="430" y1="330" x2="180.8" y2="163.8" stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
 
-  <!-- 垂足 ΔDEF（红高亮） -->
-  <polygon points="250,330 319,164 181,164" fill="#f4d9d6" stroke="#c0463a" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- D 与两个对称点的连线（淡灰虚线，垂直于 AB、AC） -->
+  <line x1="0.8" y1="163.8" x2="250" y2="330" stroke="#c9d2dc" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <line x1="499.2" y1="163.8" x2="250" y2="330" stroke="#c9d2dc" stroke-width="1.4" stroke-dasharray="4 4"/>
 
-  <!-- 直角符号：D(AD⊥BC 水平)、E(BE⊥AC)、F(CF⊥AB) -->
+  <!-- 展开直线 D₁D₂（灰虚线，恰过 F、E） -->
+  <line x1="0.8" y1="163.8" x2="499.2" y2="163.8" stroke="#6b7280" stroke-width="1.6" stroke-dasharray="6 4"/>
+
+  <!-- 垂足 ΔDEF（红高亮；FE 落在展开线上） -->
+  <polygon points="250,330 319.2,163.8 180.8,163.8" fill="none" stroke="#c0463a" stroke-width="2.4" stroke-linejoin="round"/>
+
+  <!-- 等长刻度：D₁F=DF（单刻）、D₂E=DE（单刻） -->
+  <line x1="90.8" y1="157" x2="90.8" y2="170.5" stroke="#c0463a" stroke-width="2"/>
+  <line x1="222.8" y1="243.8" x2="208" y2="250" stroke="#c0463a" stroke-width="2"/>
+  <line x1="409.2" y1="157" x2="409.2" y2="170.5" stroke="#c0463a" stroke-width="2"/>
+  <line x1="277.2" y1="243.8" x2="292" y2="250" stroke="#c0463a" stroke-width="2"/>
+
+  <!-- 直角符号（精确）：D(AD⊥BC)、E(BE⊥AC)、F(CF⊥AB) -->
   <path d="M250,318 L238,318 L238,330" fill="none" stroke="#374151" stroke-width="1.4"/>
-  <path d="M311,170 L316,179 L307,184" fill="none" stroke="#374151" stroke-width="1.4"/>
-  <path d="M189,170 L184,179 L193,184" fill="none" stroke="#374151" stroke-width="1.4"/>
+  <path d="M325.9,173.8 L315.9,180.5 L309.2,170.5" fill="none" stroke="#374151" stroke-width="1.4"/>
+  <path d="M174.1,173.8 L184.1,180.5 L190.8,170.5" fill="none" stroke="#374151" stroke-width="1.4"/>
 
   <!-- 顶点 -->
   <circle cx="250" cy="60"  r="4.5" fill="#1f3a5f"/>
@@ -31,12 +45,19 @@
 
   <!-- 垂足 -->
   <circle cx="250" cy="330" r="4" fill="#c0463a"/>
-  <text x="250" y="348" text-anchor="middle" fill="#c0463a" font-size="15" font-style="italic">D</text>
-  <circle cx="319" cy="164" r="4" fill="#c0463a"/>
-  <text x="332" y="160" fill="#c0463a" font-size="15" font-style="italic">E</text>
-  <circle cx="181" cy="164" r="4" fill="#c0463a"/>
-  <text x="168" y="160" text-anchor="end" fill="#c0463a" font-size="15" font-style="italic">F</text>
+  <text x="258" y="350" fill="#c0463a" font-size="15" font-style="italic">D</text>
+  <circle cx="319.2" cy="163.8" r="4" fill="#c0463a"/>
+  <text x="332" y="158" fill="#c0463a" font-size="15" font-style="italic">E</text>
+  <circle cx="180.8" cy="163.8" r="4" fill="#c0463a"/>
+  <text x="168" y="158" text-anchor="end" fill="#c0463a" font-size="15" font-style="italic">F</text>
 
-  <text x="248" y="252" text-anchor="middle" fill="#c0463a" font-size="13">垂足三角形</text>
-  <text x="248" y="270" text-anchor="middle" fill="#c0463a" font-size="13">周长最短</text>
+  <!-- 对称点 -->
+  <circle cx="0.8" cy="163.8" r="4" fill="#6b7280"/>
+  <text x="-8" y="158" text-anchor="end" fill="#6b7280" font-size="15">D₁</text>
+  <circle cx="499.2" cy="163.8" r="4" fill="#6b7280"/>
+  <text x="508" y="158" fill="#6b7280" font-size="15">D₂</text>
+
+  <!-- 标注 -->
+  <text x="-22" y="100" fill="#c0463a" font-size="12">周长 = D₁F + FE + ED₂ = D₁D₂（拉直）</text>
+  <text x="392" y="240" fill="#c0463a" font-size="12">垂足三角形周长最短</text>
 </svg>

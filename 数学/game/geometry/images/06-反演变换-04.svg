@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：圆幂的视角——P 与 P' 互为单位圆反演像，过 P,P' 的任一圆，O 关于它的圆幂都是 R²。
+     O=(150,230)，R=100px；P=(330,230) 在圆外，P'=(205.6,230) 为其反演像（OP·OP'=100·55.6=R²）；
+     割线 PAB：PA=112.3、PB≈199.5（图上 A 为远交点），PA·PB≈22400=PT²（切线长 149.7²）；切点 T=(205.6,146.8)。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 95 400 265" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- 反演圆 Γ（参照系） -->
+  <circle cx="150" cy="230" r="100" fill="none" stroke="#9aa7b8" stroke-width="2.5"/>
+  <text x="92" y="150" text-anchor="middle" fill="#6b7280" font-size="14">圆 Γ（半径 R）</text>
+
+  <!-- 切线 P–T 与割线 P–B–A -->
+  <line x1="330" y1="230" x2="205.6" y2="146.8" stroke="#1f3a5f" stroke-width="2.2"/>
+  <line x1="352" y1="242.7" x2="143" y2="123.1" stroke="#1f3a5f" stroke-width="2.2"/>
+
+  <!-- 切点处的直角标记（OT ⟂ PT） -->
+  <path d="M199.0,156.8 L208.9,163.4 L215.6,153.5" fill="none" stroke="#6b7280" stroke-width="1.8"/>
+
+  <!-- 半径 O–T -->
+  <line x1="150" y1="230" x2="205.6" y2="146.8" stroke="#9aa7b8" stroke-width="1.8"/>
+
+  <!-- O 到 P 的虚线：反演点对共线 -->
+  <line x1="150" y1="230" x2="330" y2="230" stroke="#6b7280" stroke-width="1.6" stroke-dasharray="5 5"/>
+
+  <!-- 点 -->
+  <circle cx="150" cy="230" r="2.8" fill="#374151"/>
+  <text x="142" y="250" text-anchor="end" fill="#374151" font-size="15">O</text>
+  <circle cx="330" cy="230" r="3" fill="#1f3a5f"/>
+  <text x="336" y="252" text-anchor="middle" fill="#1f3a5f" font-size="15">P</text>
+  <circle cx="205.6" cy="230" r="3" fill="#b4562a"/>
+  <text x="205.6" y="252" text-anchor="middle" fill="#b4562a" font-size="15">P′</text>
+  <circle cx="232.7" cy="173.8" r="3" fill="#1f3a5f"/>
+  <text x="246" y="168" text-anchor="middle" fill="#1f3a5f" font-size="15">B</text>
+  <circle cx="157.2" cy="130.2" r="3" fill="#1f3a5f"/>
+  <text x="148" y="118" text-anchor="middle" fill="#1f3a5f" font-size="15">A</text>
+  <circle cx="205.6" cy="146.8" r="3" fill="#1f3a5f"/>
+  <text x="196" y="140" text-anchor="end" fill="#1f3a5f" font-size="15">T</text>
+
+  <!-- 结论标注 -->
+  <text x="300" y="120" text-anchor="middle" fill="#374151" font-size="15">PA·PB = PT²（圆幂）</text>
+  <text x="243" y="352" text-anchor="middle" fill="#374151" font-size="15">OP·OP′ = R²</text>
+</svg>

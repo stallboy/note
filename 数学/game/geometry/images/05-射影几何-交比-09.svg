@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：x ↦ 1/x 是中心投影的诱导。
+     数轴看成直线 ℓ: y=1（点 (x,1) 的读数即 x），从原点 O 中心投影到直线 ℓ′: x=1，
+     光线过 (x,1) 交 ℓ′ 于 (1, 1/x)——像的读数（纵坐标）正是 1/x。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="ax" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+
+  <!-- 坐标轴 -->
+  <line x1="30" y1="290" x2="545" y2="290" stroke="#9ca3af" stroke-width="1.4" marker-end="url(#ax)"/>
+  <line x1="70" y1="322" x2="70" y2="45" stroke="#9ca3af" stroke-width="1.4" marker-end="url(#ax)"/>
+
+  <!-- 直线 ℓ: y=1（原数轴，实线深色） -->
+  <line x1="100" y1="110" x2="520" y2="110" stroke="#1f3a5f" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- 直线 ℓ′: x=1（像线，虚线蓝色） -->
+  <line x1="175" y1="55" x2="175" y2="322" stroke="#3b82f6" stroke-width="2.2" stroke-dasharray="6 5" stroke-linecap="round"/>
+
+  <!-- 投射线 O→(x,1) -->
+  <g stroke="#6b7280" stroke-width="1.8" stroke-linecap="round">
+    <line x1="70" y1="290" x2="175" y2="110"/>
+    <line x1="70" y1="290" x2="280" y2="110"/>
+    <line x1="70" y1="290" x2="385" y2="110"/>
+    <line x1="70" y1="290" x2="490" y2="110"/>
+  </g>
+
+  <!-- ℓ 上四点 x = 1,2,3,4 -->
+  <g fill="#1f3a5f">
+    <circle cx="175" cy="110" r="4.5"/>
+    <circle cx="280" cy="110" r="4.5"/>
+    <circle cx="385" cy="110" r="4.5"/>
+    <circle cx="490" cy="110" r="4.5"/>
+  </g>
+
+  <!-- ℓ′ 上四像点 1, 1/2, 1/3, 1/4 -->
+  <g fill="#3b82f6">
+    <circle cx="175" cy="200" r="4.5"/>
+    <circle cx="175" cy="230" r="4.5"/>
+    <circle cx="175" cy="245" r="4.5"/>
+  </g>
+
+  <!-- 投影中心 O -->
+  <circle cx="70" cy="290" r="4.5" fill="#1f3a5f"/>
+
+  <!-- 标签 -->
+  <g font-size="16" fill="#374151">
+    <text x="58" y="294" text-anchor="end">O</text>
+    <text x="545" y="312">x</text>
+    <text x="80" y="52">y</text>
+    <text x="112" y="98">ℓ: y=1</text>
+    <text x="175" y="98" text-anchor="middle">1</text>
+    <text x="280" y="98" text-anchor="middle">2</text>
+    <text x="385" y="98" text-anchor="middle">3</text>
+    <text x="490" y="98" text-anchor="middle">4</text>
+  </g>
+  <g font-size="15" fill="#1d4ed8">
+    <text x="184" y="60">ℓ′: x=1</text>
+    <text x="166" y="116" text-anchor="end">1</text>
+    <text x="166" y="204" text-anchor="end">1/2</text>
+    <text x="166" y="227" text-anchor="end">1/3</text>
+    <text x="166" y="254" text-anchor="end">1/4</text>
+  </g>
+
+  <!-- 构造说明 -->
+  <text x="380" y="40" text-anchor="middle" font-size="15" fill="#6b7280">过 (x, 1) 的光线交 ℓ′ 于 (1, 1/x)：像的读数 = 1/x</text>
+</svg>

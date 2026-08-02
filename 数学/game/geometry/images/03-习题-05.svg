@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 手写 SVG：正五边形黄金比（题5）。正五边形 ABCDE，中心 (200,200)，半径 100；
-     A(200,100) B(105,169) C(141,281) D(259,281) E(295,169)。对角线 AC 与 BE 交于 P(178,169)；
-     △ABP ∽ △ABE ⟹ AP=1/d；△BCP 等腰 ⟹ PC=1；d=1/d+1 ⟹ d=φ。 -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 360 320" text-rendering="geometricPrecision"
-     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
-
-  <!-- 正五边形 -->
-  <polygon points="200,100 105,169 141,281 259,281 295,169" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
-
-  <!-- 对角线 AC, BE -->
-  <line x1="200" y1="100" x2="141" y2="281" stroke="#9aa7b8" stroke-width="1.8"/>
-  <line x1="105" y1="169" x2="295" y2="169" stroke="#9aa7b8" stroke-width="1.8"/>
-
-  <!-- △ABP 高亮（红） -->
-  <polygon points="200,100 105,169 178,169" fill="#f4d9d6" stroke="#c0463a" stroke-width="2" stroke-linejoin="round"/>
-
-  <!-- 交点 P -->
-  <circle cx="178" cy="169" r="4" fill="#c0463a"/>
-  <text x="178" y="160" text-anchor="middle" fill="#c0463a" font-size="14" font-style="italic">P</text>
-
-  <!-- 顶点 -->
-  <text x="200" y="92" text-anchor="middle" fill="#1f3a5f" font-size="15" font-style="italic">A</text>
-  <text x="96" y="166" text-anchor="end" fill="#1f3a5f" font-size="15" font-style="italic">B</text>
-  <text x="133" y="296" text-anchor="end" fill="#1f3a5f" font-size="15" font-style="italic">C</text>
-  <text x="267" y="296" fill="#1f3a5f" font-size="15" font-style="italic">D</text>
-  <text x="304" y="166" fill="#1f3a5f" font-size="15" font-style="italic">E</text>
-
-  <text x="200" y="312" text-anchor="middle" fill="#c0463a" font-size="13">△ABP ∽ △ABE ⟹ 对角线 d = (1+√5)/2 = φ</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 360 305" text-rendering="geometricPrecision" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+<!-- 题5 正五边形黄金比。五角星（灰）中，工作对角线 AC、BE（蓝）交于 P；
+     △ABP（红）∽ △ABE；内小五边形（橙虚线）是整体的自相似拷贝。d = 1 + 1/d ⟹ d = φ。 -->
+<polygon points="200.0,100.0 104.9,169.1 141.2,280.9 258.8,280.9 295.1,169.1" fill="#eef2f7" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+<line x1="200" y1="100" x2="258.8" y2="280.9" stroke="#c3ccd6" stroke-width="1.3"/>
+<line x1="104.9" y1="169.1" x2="258.8" y2="280.9" stroke="#c3ccd6" stroke-width="1.3"/>
+<line x1="141.2" y1="280.9" x2="295.1" y2="169.1" stroke="#c3ccd6" stroke-width="1.3"/>
+<polygon points="177.5,169.1 222.5,169.1 236.3,211.8 200.0,238.2 163.7,211.8" fill="#fdeccb" stroke="#b45309" stroke-width="1.4" stroke-dasharray="4 3" stroke-linejoin="round"/>
+<line x1="200" y1="100" x2="141.2" y2="280.9" stroke="#1f3a5f" stroke-width="1.7"/>
+<line x1="104.9" y1="169.1" x2="295.1" y2="169.1" stroke="#1f3a5f" stroke-width="1.7"/>
+<polygon points="200.0,100.0 104.9,169.1 177.5,169.1" fill="#f4d9d6" fill-opacity="0.9" stroke="#c0463a" stroke-width="2" stroke-linejoin="round"/>
+<path d="M192.0,124.7 A26,26 0 0 1 179.0,115.3" fill="none" stroke="#c0463a" stroke-width="1.4"/>
+<text x="185" y="122" text-anchor="middle" fill="#c0463a" font-size="10.5">36°</text>
+<path d="M125.9,153.8 A26,26 0 0 1 130.9,169.1" fill="none" stroke="#c0463a" stroke-width="1.4"/>
+<text x="144" y="157" text-anchor="middle" fill="#c0463a" font-size="10.5">36°</text>
+<circle cx="177.5" cy="169.1" r="4" fill="#c0463a"/>
+<text x="171.5" y="161.1" text-anchor="end" fill="#c0463a" font-size="14" font-style="italic">P</text>
+<text x="200" y="90" text-anchor="middle" fill="#1f3a5f" font-size="15" font-style="italic">A</text>
+<text x="95.9" y="167.1" text-anchor="end" fill="#1f3a5f" font-size="15" font-style="italic">B</text>
+<text x="133.2" y="296.9" text-anchor="end" fill="#1f3a5f" font-size="15" font-style="italic">C</text>
+<text x="266.8" y="296.9" text-anchor="start" fill="#1f3a5f" font-size="15" font-style="italic">D</text>
+<text x="304.1" y="167.1" text-anchor="start" fill="#1f3a5f" font-size="15" font-style="italic">E</text>
+<text x="144" y="122" text-anchor="middle" fill="#1f3a5f" font-size="13" font-style="italic">1</text>
+<text x="172" y="148" text-anchor="end" fill="#1f3a5f" font-size="12" font-style="italic">1/d</text>
+<text x="146" y="225" text-anchor="end" fill="#1f3a5f" font-size="13" font-style="italic">1</text>
+<text x="258" y="160" text-anchor="middle" fill="#1f3a5f" font-size="13" font-style="italic">d</text>
+<text x="200" y="316" text-anchor="middle" fill="#c0463a" font-size="12.5">△ABP ∽ △ABE：d = 1 + 1/d ⟹ d = (1+√5)/2 = φ</text>
 </svg>

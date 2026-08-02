@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 手写 SVG：定向（题9）。左：顺时针弧箭头（一种定向，蓝）；右：其镜像逆时针（红）；
-     中间镜面虚线。正向等距(平移/旋转)保手性(det=+1)，反射翻手性(det=−1)。 -->
+<!-- 手写 SVG：定向（题9）。左：字母 R + 顺时针弧箭头（一种定向，蓝）；
+     右：镜像 Я + 逆时针弧（反向，红）；中间镜面虚线。
+     正向等距(平移/旋转)保手性(det=+1)，反射翻手性(det=−1)。 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 460 280" text-rendering="geometricPrecision"
      font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
   <defs>
@@ -16,15 +17,17 @@
   <line x1="240" y1="45" x2="240" y2="240" stroke="#9aa7b8" stroke-width="2" stroke-dasharray="6 4"/>
   <text x="240" y="38" text-anchor="middle" fill="#9aa7b8" font-size="13">镜面（反射）</text>
 
-  <!-- 左：顺时针圆弧箭头 -->
+  <!-- 左：顺时针圆弧箭头 + 字母 R -->
   <path d="M140,100 A50,50 0 1 1 140,200" fill="none" stroke="#1f3a5f" stroke-width="3" marker-end="url(#arrL)"/>
-  <circle cx="140" cy="150" r="3" fill="#1f3a5f"/>
-  <text x="140" y="225" text-anchor="middle" fill="#1f3a5f" font-size="14">左手系</text>
+  <text x="140" y="163" text-anchor="middle" fill="#1f3a5f" font-size="38" font-weight="bold">R</text>
+  <text x="140" y="225" text-anchor="middle" fill="#1f3a5f" font-size="14">左手系（原定向）</text>
 
-  <!-- 右：逆时针圆弧箭头（镜像） -->
+  <!-- 右：逆时针圆弧箭头（镜像）+ 镜像字母 Я -->
   <path d="M340,100 A50,50 0 1 0 340,200" fill="none" stroke="#c0463a" stroke-width="3" marker-end="url(#arrR)"/>
-  <circle cx="340" cy="150" r="3" fill="#c0463a"/>
-  <text x="340" y="225" text-anchor="middle" fill="#c0463a" font-size="14">右手系（镜像）</text>
+  <g transform="translate(680,0) scale(-1,1)">
+    <text x="340" y="163" text-anchor="middle" fill="#c0463a" font-size="38" font-weight="bold">R</text>
+  </g>
+  <text x="340" y="225" text-anchor="middle" fill="#c0463a" font-size="14">右手系（镜像定向）</text>
 
   <text x="250" y="265" text-anchor="middle" fill="#374151" font-size="13">平移 + 旋转：保手性 (det = +1)　｜　反射：翻手性 (det = −1)</text>
 </svg>

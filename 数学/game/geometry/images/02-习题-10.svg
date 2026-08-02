@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 手写 SVG：双镜反射偏转角（题10）。两镜面交于 O(240,250)：m1 水平、m2 向右上夹 α=50°；
-     入射光 (40,100)→P1(200,250)∈m1→反射→P2(388,74)∈m2→反射→出射方向(0.546,−0.835)；
-     出射相对入射(0.728,0.682)的偏转 = 100° = 2α，与入射方向无关（已数值验证）。 -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 -30 480 330" text-rendering="geometricPrecision"
+<!-- 手写 SVG：双镜反射偏转角（题10），几何精确（已数值验证）。
+     两镜面交于 O(240,250)：m1 水平、m2 夹角 α=50°（方向角 −50°，端点 (349.3,119.8)）；
+     入射方向角 25°：(-39.4,157)→P1(200,250)∈m1 → 反射后方向 −25° →P2(291.4,188.7)∈m2
+     → 反射后方向 25°−2×50°=−75° →出射至 (323.8,68)；
+     P2 处灰虚线为入射方向的平移，红弧标出偏转角 2α=100°（与入射方向无关）。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 40 530 280" text-rendering="geometricPrecision"
      font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
   <defs>
     <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
@@ -14,32 +16,38 @@
   </defs>
 
   <!-- 镜面 m1（水平） -->
-  <line x1="240" y1="250" x2="450" y2="250" stroke="#1f3a5f" stroke-width="3"/>
+  <line x1="170" y1="250" x2="450" y2="250" stroke="#1f3a5f" stroke-width="3"/>
   <text x="452" y="255" fill="#1f3a5f" font-size="14" font-style="italic">m₁</text>
-  <!-- 镜面 m2（夹 α 向右上） -->
-  <line x1="240" y1="250" x2="433" y2="97" stroke="#1f3a5f" stroke-width="3"/>
-  <text x="438" y="92" fill="#1f3a5f" font-size="14" font-style="italic">m₂</text>
+  <!-- 镜面 m2（夹 α=50° 向右上） -->
+  <line x1="240" y1="250" x2="349.3" y2="119.8" stroke="#1f3a5f" stroke-width="3"/>
+  <text x="355" y="116" fill="#1f3a5f" font-size="14" font-style="italic">m₂</text>
 
   <!-- α 角弧 -->
-  <path d="M290,250 A50,50 0 0 0 272,212" fill="none" stroke="#6b7280" stroke-width="1.8" marker-end="url(#arrg)"/>
-  <text x="298" y="240" fill="#6b7280" font-size="13" font-style="italic">α</text>
+  <path d="M290,250 A50,50 0 0 0 272.1,211.7" fill="none" stroke="#6b7280" stroke-width="1.8" marker-end="url(#arrg)"/>
+  <text x="300" y="242" fill="#6b7280" font-size="13" font-style="italic">α</text>
 
   <!-- 交点 O -->
   <circle cx="240" cy="250" r="3.5" fill="#1f3a5f"/>
+  <text x="228" y="272" text-anchor="end" fill="#1f3a5f" font-size="14" font-style="italic">O</text>
 
   <!-- 入射 → P1 -->
-  <line x1="40" y1="100" x2="200" y2="250" stroke="#c0463a" stroke-width="2.4" marker-end="url(#arr)"/>
-  <text x="70" y="165" fill="#c0463a" font-size="13">入射</text>
+  <line x1="-39.4" y1="157" x2="200" y2="250" stroke="#c0463a" stroke-width="2.4" marker-end="url(#arr)"/>
+  <text x="48" y="198" fill="#c0463a" font-size="13">入射</text>
   <!-- P1 → P2 -->
-  <line x1="200" y1="250" x2="388" y2="74" stroke="#c0463a" stroke-width="2.4" marker-end="url(#arr)"/>
+  <line x1="200" y1="250" x2="291.4" y2="188.7" stroke="#c0463a" stroke-width="2.4" marker-end="url(#arr)"/>
   <!-- P2 → 出射 -->
-  <line x1="388" y1="74" x2="449" y2="-19" stroke="#c0463a" stroke-width="2.4" marker-end="url(#arr)"/>
-  <text x="408" y="40" fill="#c0463a" font-size="13">出射</text>
+  <line x1="291.4" y1="188.7" x2="323.8" y2="68" stroke="#c0463a" stroke-width="2.4" marker-end="url(#arr)"/>
+  <text x="330" y="64" fill="#c0463a" font-size="13">出射</text>
 
   <!-- 反射点 -->
   <circle cx="200" cy="250" r="3.5" fill="#c0463a"/>
-  <circle cx="388" cy="74" r="3.5" fill="#c0463a"/>
+  <circle cx="291.4" cy="188.7" r="3.5" fill="#c0463a"/>
 
-  <!-- 偏转 2α 标注（入射方向 与 出射方向 之间） -->
-  <text x="30" y="40" fill="#374151" font-size="13">偏转角 = 2α（与入射方向无关）</text>
+  <!-- P2 处：入射方向的平移（灰虚线）与偏转角 2α（红弧） -->
+  <line x1="291.4" y1="188.7" x2="345.8" y2="214.1" stroke="#6b7280" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <path d="M318.6,201.4 A30,30 0 0 0 299.2,159.7" fill="none" stroke="#c0463a" stroke-width="1.8"/>
+  <text x="337" y="173" fill="#c0463a" font-size="13" font-style="italic">2α</text>
+
+  <!-- 标注 -->
+  <text x="-50" y="62" fill="#374151" font-size="13">偏转角 = 2α（与入射方向无关）</text>
 </svg>

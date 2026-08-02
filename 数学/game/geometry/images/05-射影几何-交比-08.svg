@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：对偶原理——点与线的镜像世界。
+     左：三点 A,B,C 共线（点在直线上）；右：三直线 a,b,c 共点（直线过同一点）。
+     中间双向箭头表示"点 ↔ 直线、共线 ↔ 共点"的互换。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 40 580 250" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arrB" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c05621"/>
+    </marker>
+  </defs>
+
+  <!-- 左面板：三点共线 -->
+  <line x1="40" y1="170" x2="240" y2="170" stroke="#1f3a5f" stroke-width="2.5"/>
+  <circle cx="80" cy="170" r="5" fill="#c05621"/>
+  <circle cx="140" cy="170" r="5" fill="#c05621"/>
+  <circle cx="200" cy="170" r="5" fill="#c05621"/>
+  <text x="80" y="152" text-anchor="middle" fill="#c05621" font-size="15">A</text>
+  <text x="140" y="152" text-anchor="middle" fill="#c05621" font-size="15">B</text>
+  <text x="200" y="152" text-anchor="middle" fill="#c05621" font-size="15">C</text>
+  <text x="252" y="175" fill="#1f3a5f" font-size="15">l</text>
+  <text x="140" y="220" text-anchor="middle" fill="#374151" font-size="14">三点共线</text>
+  <text x="140" y="110" text-anchor="middle" fill="#6b7280" font-size="13">命题：点 · 线 · 共线</text>
+
+  <!-- 右面板：三线共点 -->
+  <circle cx="440" cy="150" r="5" fill="#1f3a5f"/>
+  <line x1="340" y1="196" x2="540" y2="104" stroke="#c05621" stroke-width="2.5"/>
+  <line x1="360" y1="90" x2="520" y2="210" stroke="#c05621" stroke-width="2.5"/>
+  <line x1="440" y1="80" x2="440" y2="220" stroke="#c05621" stroke-width="2.5"/>
+  <text x="408" y="192" text-anchor="middle" fill="#1f3a5f" font-size="15">L</text>
+  <text x="546" y="100" fill="#c05621" font-size="15">a</text>
+  <text x="526" y="222" fill="#c05621" font-size="15">b</text>
+  <text x="448" y="76" fill="#c05621" font-size="15">c</text>
+  <text x="440" y="248" text-anchor="middle" fill="#374151" font-size="14">三线共点</text>
+  <text x="440" y="272" text-anchor="middle" fill="#6b7280" font-size="13">对偶：线 · 点 · 共点</text>
+
+  <!-- 中央双向箭头：对偶互换 -->
+  <line x1="268" y1="150" x2="352" y2="150" stroke="#c05621" stroke-width="2.6" marker-start="url(#arrB)" marker-end="url(#arrB)"/>
+  <text x="310" y="132" text-anchor="middle" fill="#c05621" font-size="14">对偶</text>
+  <text x="310" y="180" text-anchor="middle" fill="#6b7280" font-size="12">点 ↔ 直线</text>
+  <text x="310" y="198" text-anchor="middle" fill="#6b7280" font-size="12">共线 ↔ 共点</text>
+
+  <!-- 顶部说明 -->
+  <text x="290" y="66" text-anchor="middle" fill="#374151" font-size="15">齐次坐标下"点在线上的条件"对点与线完全对称</text>
+</svg>

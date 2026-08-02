@@ -22,6 +22,15 @@
   <line x1="150" y1="260" x2="350" y2="260" stroke="#1f3a5f" stroke-width="2.6"/>
   <text x="250" y="280" text-anchor="middle" fill="#1f3a5f" font-size="14">m₂ = AB（共用，两次反射抵消）</text>
 
+  <!-- 30° 角弧：A 处（AB 与 m1）、B 处（BA 与 m3） -->
+  <path d="M184,260 A34,34 0 0 0 179.4,243" fill="none" stroke="#6b7280" stroke-width="1.6"/>
+  <text x="194" y="250" fill="#6b7280" font-size="12">30°</text>
+  <path d="M316,260 A34,34 0 0 1 320.6,243" fill="none" stroke="#6b7280" stroke-width="1.6"/>
+  <text x="286" y="250" fill="#6b7280" font-size="12">30°</text>
+  <!-- 60° 镜面夹角弧（C 右侧，m1 与 m3 的锐角） -->
+  <path d="M270.8,190.2 A24,24 0 0 1 270.8,214.2" fill="none" stroke="#6b7280" stroke-width="1.6"/>
+  <text x="278" y="186" fill="#6b7280" font-size="12">60°</text>
+
   <!-- A, B 点 -->
   <circle cx="150" cy="260" r="4.5" fill="#1f3a5f"/>
   <text x="150" y="305" text-anchor="middle" fill="#1f3a5f" font-size="16" font-style="italic">A</text>

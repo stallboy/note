@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：主轴定理的几何证明——"最远点处，半径 ⊥ 切线"。
+     左：单位圆上的一对垂直方向 u1（蓝）、u2（橙）。
+     右：经剪切 M 后的像椭圆。Q=Mu1 是像曲线上离 O 最远的点，
+     虚线圆是以 O 为心、|OQ| 为半径的"最远圆"，椭圆在 Q 处与它相切、其余都在其内。
+     切线方向 = Mu2（橙），半径 OQ = Mu1（蓝），二者垂直——主轴找到。
+     数据按剪切 M=[[1,1],[0,1]] 精确计算：长半轴 φ、方向角 ≈31.7°。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 40 600 300" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f3a5f"/>
+    </marker>
+  </defs>
+
+  <!-- ===== 左面板：单位圆与一对垂直方向（中心 (140,190)，半径 70px） ===== -->
+  <circle cx="140" cy="190" r="70" fill="none" stroke="#9aa7b8" stroke-width="1.8"/>
+  <circle cx="140" cy="190" r="3" fill="#374151"/>
+  <text x="132" y="206" text-anchor="end" fill="#374151" font-size="13">O</text>
+  <!-- u1 方向 (0.526, 0.851)（数学坐标，y 向上） -->
+  <line x1="140" y1="190" x2="176.8" y2="130.4" stroke="#1f3a5f" stroke-width="2.4" marker-end="url(#arr)"/>
+  <text x="182" y="122" fill="#1f3a5f" font-size="14">u₁</text>
+  <!-- u2 方向 (−0.851, 0.526)，与 u1 垂直 -->
+  <line x1="140" y1="190" x2="80.4" y2="153.2" stroke="#c05621" stroke-width="2.4" marker-end="url(#arr)"/>
+  <text x="62" y="146" fill="#c05621" font-size="14">u₂</text>
+  <!-- 直角标记：u1·0.28 + u2·0.28 处的小方框 -->
+  <path d="M 150.3,173.2 L 139.9,166.4 L 130.3,176.8" fill="none" stroke="#6b7280" stroke-width="1.4"/>
+  <text x="140" y="292" text-anchor="middle" fill="#374151" font-size="13.5">单位圆：u₁ ⊥ u₂</text>
+
+  <!-- 中央箭头 -->
+  <line x1="228" y1="185" x2="292" y2="185" stroke="#1f3a5f" stroke-width="2.6" marker-end="url(#arr)"/>
+  <text x="260" y="170" text-anchor="middle" fill="#1f3a5f" font-size="14">M</text>
+  <text x="260" y="208" text-anchor="middle" fill="#6b7280" font-size="12">（剪切）</text>
+
+  <!-- ===== 右面板：像椭圆与"最远圆"（中心 (450,190)） ===== -->
+  <circle cx="450" cy="190" r="3" fill="#374151"/>
+  <text x="442" y="210" text-anchor="end" fill="#374151" font-size="13">O</text>
+
+  <!-- 最远圆（虚线）：半径 = |OQ| = φ·70 ≈ 113.3 -->
+  <circle cx="450" cy="190" r="113.3" fill="none" stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="352" y="112" text-anchor="middle" fill="#9aa7b8" font-size="12.5">半径 |OQ| 的圆</text>
+
+  <!-- 像椭圆：长半轴 φ·70≈113.3，短半轴 70/φ≈43.3，长轴方向角 31.7°（SVG 中 −31.7°） -->
+  <ellipse cx="450" cy="190" rx="113.3" ry="43.3" transform="rotate(-31.7 450 190)"
+           fill="#dbe9fb" fill-opacity="0.55" stroke="#1f3a5f" stroke-width="2.5"/>
+
+  <!-- 最远点 Q：中心 + 113.3·(cos31.7°, −sin31.7°) ≈ (546.4, 130.5) -->
+  <circle cx="546.4" cy="130.5" r="4.5" fill="#1f3a5f"/>
+  <text x="540" y="116" text-anchor="end" fill="#1f3a5f" font-size="14">Q = Mu₁</text>
+
+  <!-- 半径 OQ（蓝） -->
+  <line x1="450" y1="190" x2="546.4" y2="130.5" stroke="#1f3a5f" stroke-width="2.4"/>
+  <text x="492" y="180" text-anchor="middle" fill="#1f3a5f" font-size="12.5">半径</text>
+
+  <!-- Q 处切线（橙）：方向 (−0.526, −0.851)（SVG 坐标），即 Mu2 的方向 -->
+  <line x1="494.1" y1="81.6" x2="546.4" y2="130.5" stroke="#c05621" stroke-width="2.4" marker-end="url(#arr)"/>
+  <line x1="546.4" y1="130.5" x2="585" y2="166.6" stroke="#c05621" stroke-width="2.4"/>
+  <text x="480" y="76" fill="#c05621" font-size="13.5">切线 ∥ Mu₂</text>
+
+  <!-- 直角标记：半径 ⊥ 切线 -->
+  <path d="M 539.9,140.8 L 529.7,135.1 L 535.4,124.9" fill="none" stroke="#6b7280" stroke-width="1.4"/>
+
+  <text x="450" y="292" text-anchor="middle" fill="#374151" font-size="13.5">最远点 Q 处：半径 ⊥ 切线 ⟹ Mu₁ ⊥ Mu₂</text>
+</svg>

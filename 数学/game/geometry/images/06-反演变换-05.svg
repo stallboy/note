@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：正交圆 ⟺ 反演不变。Γ：O=(170,250)、R=90；C：圆心 (320,250)、r=120。
+     d=150，d²=22500=8100+14400=R²+r² ⟹ 两圆正交，交点 T=(224,178)（另一交点 (224,322)）。
+     过 O 的直线交 C 于 P=(202.1,227.5)、P′=(339.1,131.5)：OP·OP′=39.2·206.5≈8100=R²，互为反演像，
+     所以 C 在 Γ 反演下整体不变（点在圆上互换，而非逐点不动）。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="55 105 430 292" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- 反演圆 Γ 与圆 C（正交） -->
+  <circle cx="170" cy="250" r="90" fill="none" stroke="#9aa7b8" stroke-width="2.5"/>
+  <text x="105" y="180" text-anchor="middle" fill="#6b7280" font-size="14">反演圆 Γ</text>
+  <circle cx="320" cy="250" r="120" fill="#dbe9fb" fill-opacity="0.45" stroke="#1f3a5f" stroke-width="2.5"/>
+  <text x="416" y="180" text-anchor="middle" fill="#1f3a5f" font-size="15">圆 C（正交 ⟹ 不变）</text>
+
+  <!-- 交点 T 处的两条半径 + 直角标记 -->
+  <line x1="170" y1="250" x2="224" y2="178" stroke="#9aa7b8" stroke-width="1.8"/>
+  <line x1="320" y1="250" x2="224" y2="178" stroke="#1f3a5f" stroke-width="1.8"/>
+  <path d="M215.6,189.2 L226.8,197.6 L235.2,186.4" fill="none" stroke="#6b7280" stroke-width="1.8"/>
+  <circle cx="224" cy="178" r="3" fill="#374151"/>
+  <text x="214" y="168" text-anchor="end" fill="#374151" font-size="15">T</text>
+
+  <!-- 过 O 的直线：交 C 于反演点对 P、P′ -->
+  <line x1="170" y1="250" x2="368" y2="111" stroke="#6b7280" stroke-width="1.6" stroke-dasharray="5 5"/>
+
+  <!-- 圆心与点 -->
+  <circle cx="170" cy="250" r="2.8" fill="#374151"/>
+  <text x="162" y="270" text-anchor="end" fill="#374151" font-size="15">O</text>
+  <circle cx="320" cy="250" r="2.8" fill="#1f3a5f"/>
+  <text x="330" y="272" text-anchor="middle" fill="#1f3a5f" font-size="15">C 的圆心</text>
+  <circle cx="202.1" cy="227.5" r="3" fill="#b4562a"/>
+  <text x="196" y="216" text-anchor="middle" fill="#b4562a" font-size="15">P</text>
+  <circle cx="339.1" cy="131.5" r="3" fill="#b4562a"/>
+  <text x="352" y="124" text-anchor="middle" fill="#b4562a" font-size="15">P′</text>
+
+  <!-- 结论标注 -->
+  <text x="270" y="390" text-anchor="middle" fill="#374151" font-size="15">正交 d² = R² + r²　⟹　OP·OP′ = R²，C 映成自身</text>
+</svg>

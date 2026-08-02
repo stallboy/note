@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：射影基本定理——四对点定一个射影变换。
+     左：四边形 P1P2P3P4（虚线）；右：任意的像四边形 Q1Q2Q3Q4（实线）；
+     中间大箭头标"唯一射影变换 T"。四对顶点同色对应。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 40 580 300" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f3a5f"/>
+    </marker>
+  </defs>
+
+  <!-- 左：四边形 P1P2P3P4（虚线灰） -->
+  <polygon points="60,140 190,110 210,250 90,270"
+           fill="none" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <circle cx="60" cy="140" r="4" fill="#6b7280"/>
+  <circle cx="190" cy="110" r="4" fill="#6b7280"/>
+  <circle cx="210" cy="250" r="4" fill="#6b7280"/>
+  <circle cx="90" cy="270" r="4" fill="#6b7280"/>
+  <text x="48" y="136" text-anchor="end" fill="#6b7280" font-size="14">P₁</text>
+  <text x="196" y="102" fill="#6b7280" font-size="14">P₂</text>
+  <text x="222" y="256" fill="#6b7280" font-size="14">P₃</text>
+  <text x="84" y="290" text-anchor="middle" fill="#6b7280" font-size="14">P₄</text>
+  <text x="135" y="322" text-anchor="middle" fill="#6b7280" font-size="13">任意三点不共线</text>
+
+  <!-- 右：像四边形 Q1Q2Q3Q4（实线蓝） -->
+  <polygon points="370,160 480,120 500,240 400,290"
+           fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="370" cy="160" r="4" fill="#1f3a5f"/>
+  <circle cx="480" cy="120" r="4" fill="#1f3a5f"/>
+  <circle cx="500" cy="240" r="4" fill="#1f3a5f"/>
+  <circle cx="400" cy="290" r="4" fill="#1f3a5f"/>
+  <text x="358" y="156" text-anchor="end" fill="#1f3a5f" font-size="14">Q₁</text>
+  <text x="486" y="112" fill="#1f3a5f" font-size="14">Q₂</text>
+  <text x="512" y="246" fill="#1f3a5f" font-size="14">Q₃</text>
+  <text x="394" y="310" text-anchor="middle" fill="#1f3a5f" font-size="14">Q₄</text>
+
+  <!-- 中央大箭头：唯一射影变换 -->
+  <line x1="238" y1="190" x2="342" y2="190" stroke="#1f3a5f" stroke-width="3" marker-end="url(#arr)"/>
+  <text x="290" y="172" text-anchor="middle" fill="#1f3a5f" font-size="14">唯一射影变换 T</text>
+  <text x="290" y="214" text-anchor="middle" fill="#6b7280" font-size="13">Pᵢ ↦ Qᵢ（i = 1,2,3,4）</text>
+
+  <!-- 顶部说明 -->
+  <text x="290" y="78" text-anchor="middle" fill="#374151" font-size="15">四对对应点（各四点中任意三点不共线）⇒ 存在唯一射影变换</text>
+</svg>

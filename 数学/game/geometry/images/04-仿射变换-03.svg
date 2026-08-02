@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：仿射基本定理——三对点定一个仿射。
+     源三角形 A(0,0)B(1,0)C(0,1)（虚线）与像三角形 A'(1,1)B'(3,1)C'(1,2)（实线），
+     三对对应点用橙色箭头连接。取 4.4 节手算的同一组数据。坐标按几何精确计算。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 10 560 390" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+    <marker id="arrO" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c05621"/>
+    </marker>
+  </defs>
+
+  <!-- 坐标轴：O=(70,330)，单位 130px；y 轴向上为正（SVG y 向下，故翻转） -->
+  <g stroke="#6b7280" stroke-width="1.8" fill="none">
+    <line x1="14" y1="330" x2="512" y2="330" marker-end="url(#arr)"/>
+    <line x1="70" y1="382" x2="70" y2="46" marker-end="url(#arr)"/>
+  </g>
+  <text x="524" y="335" fill="#6b7280" font-size="15">x</text>
+  <text x="70" y="34" text-anchor="middle" fill="#6b7280" font-size="15">y</text>
+
+  <!-- 源三角形 ABC（虚线）：A(0,0) B(1,0) C(0,1) -->
+  <polygon points="70,330 200,330 70,200"
+           fill="none" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <circle cx="70" cy="330" r="3.5" fill="#6b7280"/>
+  <circle cx="200" cy="330" r="3.5" fill="#6b7280"/>
+  <circle cx="70" cy="200" r="3.5" fill="#6b7280"/>
+  <text x="58" y="348" text-anchor="end" fill="#6b7280" font-size="14">A</text>
+  <text x="200" y="348" text-anchor="middle" fill="#6b7280" font-size="14">B</text>
+  <text x="58" y="204" text-anchor="end" fill="#6b7280" font-size="14">C</text>
+
+  <!-- 像三角形 A'B'C'（实线填充）：A'(1,1) B'(3,1) C'(1,2) -->
+  <polygon points="200,200 460,200 200,70"
+           fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="200" cy="200" r="3.5" fill="#1f3a5f"/>
+  <circle cx="460" cy="200" r="3.5" fill="#1f3a5f"/>
+  <circle cx="200" cy="70" r="3.5" fill="#1f3a5f"/>
+  <text x="212" y="222" fill="#1f3a5f" font-size="14">A′(1,1)</text>
+  <text x="468" y="204" fill="#1f3a5f" font-size="14">B′(3,1)</text>
+  <text x="212" y="74" fill="#1f3a5f" font-size="14">C′(1,2)</text>
+
+  <!-- 三对对应点箭头（橙）：A→A′, B→B′, C→C′ -->
+  <g stroke="#c05621" stroke-width="2" fill="none" stroke-dasharray="7 4">
+    <line x1="76" y1="322" x2="192" y2="206" marker-end="url(#arrO)"/>
+    <line x1="208" y1="324" x2="452" y2="206" marker-end="url(#arrO)"/>
+    <line x1="78" y1="192" x2="192" y2="78" marker-end="url(#arrO)"/>
+  </g>
+
+  <!-- 说明 -->
+  <text x="330" y="300" text-anchor="middle" fill="#374151" font-size="15">三对对应点 ⇒ 唯一仿射变换</text>
+</svg>

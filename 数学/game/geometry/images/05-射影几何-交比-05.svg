@@ -1,45 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 手写 SVG：德沙格定理 —— 两三角形 ABC 与 A′B′C′ 关于视点 O 透视，
-     三对对应顶点连线 AA′/BB′/CC′ 共点于 O，三对对应边交点共线（德沙格轴）。
-     坐标按 TikZ 精确换算（C′ 微调至严格落在线 OC 上）；文字为真 <text>，清晰锐利。 -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 610" text-rendering="geometricPrecision"
+<!-- 手写 SVG：德沙格定理 —— 两三角形 ABC(蓝) 与 A′B′C′(红) 关于视点 O 透视。
+     布局：O 在左，两三角形在右、互不重叠；三对对应边延长后两两相交于
+     P / Q / R 三点，全部落在画面上方的德沙格轴上。
+     A′/B′/C′ 分别位于 OA/OB/OC 的 0.50/0.65/0.75 处（远离位似配置，
+     否则对应边两两平行、德沙格轴退到无穷远）。
+     交点精确坐标（取整后共线偏差 ≈1px，不可见）：
+     P = AB∩A′B′ = (650.3,117.7)，Q = BC∩B′C′ = (97.4,71.4)，R = CA∩C′A′ = (332.9,92.2)。
+     红色 A′B′ 延长线穿过蓝色三角形区域，故所有延长线加白色描边底（halo）保持清晰。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" text-rendering="geometricPrecision"
      font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
-  <defs>
-    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
-    </marker>
-  </defs>
 
-  <!-- 德沙格轴（示意位置：三对对应边交点所在的共线） -->
-  <line x1="26" y1="595" x2="666" y2="515" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <!-- 德沙格轴：过 P、Q、R 的直线，取画面内一段 -->
+  <line x1="55" y1="68" x2="725" y2="124" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
 
   <!-- 三角形 ABC（原图） -->
-  <polygon points="130,495 570,495 250,239" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="518,573 579,363 394,251" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
 
   <!-- 三角形 A′B′C′（透视下的像） -->
-  <polygon points="230,275 462,297 294,138" fill="#fbdada" stroke="#8b2e2e" stroke-width="2.5" stroke-linejoin="round"/>
+  <polygon points="289,489 397,378 311,290" fill="#fbdada" stroke="#8b2e2e" stroke-width="2.5" stroke-linejoin="round"/>
 
-  <!-- 三条透视连线 OA / OB / OC（分别穿过 A′ / B′ / C′），置于填充之上以保持可见 -->
-  <g stroke="#6b7280" stroke-width="2.2" fill="none">
-    <line x1="130" y1="495" x2="330" y2="55"/>
-    <line x1="570" y1="495" x2="330" y2="55"/>
-    <line x1="250" y1="239" x2="330" y2="55"/>
+  <!-- 对应边延长线（同色虚线 + 白色 halo，画在填充之上） -->
+  <g fill="none" stroke-linecap="round">
+    <g stroke="#ffffff" stroke-width="4.6" stroke-dasharray="5 4">
+      <line x1="579" y1="363" x2="650.3" y2="117.7"/>
+      <line x1="394" y1="251" x2="97.4" y2="71.4"/>
+      <line x1="394" y1="251" x2="332.9" y2="92.2"/>
+      <line x1="397" y1="378" x2="650.3" y2="117.7"/>
+      <line x1="311" y1="290" x2="97.4" y2="71.4"/>
+      <line x1="311" y1="290" x2="332.9" y2="92.2"/>
+    </g>
+    <g stroke-width="1.8" stroke-dasharray="5 4">
+      <line x1="579" y1="363" x2="650.3" y2="117.7" stroke="#1f3a5f"/>
+      <line x1="394" y1="251" x2="97.4" y2="71.4" stroke="#1f3a5f"/>
+      <line x1="394" y1="251" x2="332.9" y2="92.2" stroke="#1f3a5f"/>
+      <line x1="397" y1="378" x2="650.3" y2="117.7" stroke="#8b2e2e"/>
+      <line x1="311" y1="290" x2="97.4" y2="71.4" stroke="#8b2e2e"/>
+      <line x1="311" y1="290" x2="332.9" y2="92.2" stroke="#8b2e2e"/>
+    </g>
   </g>
 
-  <!-- 视点 O -->
-  <circle cx="330" cy="55" r="3.8" fill="#6b7280"/>
+  <!-- 三条透视连线 OA / OB / OC（分别穿过 A′ / B′ / C′） -->
+  <g stroke="#6b7280" stroke-width="2.2" fill="none">
+    <line x1="60" y1="405" x2="518" y2="573"/>
+    <line x1="60" y1="405" x2="579" y2="363"/>
+    <line x1="60" y1="405" x2="394" y2="251"/>
+  </g>
+
+  <!-- 视点 O 与三对对应边的交点 P / Q / R -->
+  <g fill="#6b7280">
+    <circle cx="60" cy="405" r="3.8"/>
+    <circle cx="650.3" cy="117.7" r="3.8"/>
+    <circle cx="97.4" cy="71.4" r="3.8"/>
+    <circle cx="332.9" cy="92.2" r="3.8"/>
+  </g>
 
   <!-- 点字母标签 -->
   <g fill="#374151" font-size="15">
-    <text x="130" y="515" text-anchor="middle">A</text>
-    <text x="570" y="515" text-anchor="middle">B</text>
-    <text x="262" y="231" text-anchor="start">C</text>
-    <text x="218" y="280" text-anchor="end">A′</text>
-    <text x="474" y="302" text-anchor="start">B′</text>
-    <text x="306" y="143" text-anchor="start">C′</text>
-    <text x="330" y="43" text-anchor="middle">O</text>
+    <text x="48" y="409" text-anchor="end">O</text>
+    <text x="518" y="597" text-anchor="middle">A</text>
+    <text x="591" y="367" text-anchor="start">B</text>
+    <text x="406" y="255" text-anchor="start">C</text>
+    <text x="283" y="511" text-anchor="end">A′</text>
+    <text x="409" y="382" text-anchor="start">B′</text>
+    <text x="305" y="312" text-anchor="end">C′</text>
+    <text x="639" y="110" text-anchor="end">P</text>
+    <text x="86" y="90" text-anchor="end">Q</text>
+    <text x="333" y="78" text-anchor="middle">R</text>
   </g>
 
   <!-- 轴标签 -->
-  <text x="674" y="519" text-anchor="start" fill="#6b7280" font-size="13">德沙格轴</text>
+  <text x="58" y="54" text-anchor="start" fill="#6b7280" font-size="13">德沙格轴</text>
 </svg>

@@ -21,7 +21,7 @@
   <main class="content">
 <div class="chapter-head"><div class="eyebrow"><span class="pill">第 4 章</span> 从变换看几何</div><h1>仿射变换：保住平行，丢掉角和圆</h1></div>
 <p>上一章我们允许"均匀放缩"（相似）。现在再放松一步：<strong>允许"斜切"和"单向拉伸"</strong>——不再要求各方向同比例。这就是<strong>仿射变换</strong>。</p>
-<div class="callout tip"><p>一句话：<strong>仿射 = 任意可逆线性变换 + 平移</strong>。它丢了角和圆，但保住平行与共线比例。本章高潮：<strong>椭圆就是被拉伸的圆</strong>。</p></div>
+<div class="callout tip"><p>一句话：<strong>仿射 = 任意可逆线性变换 + 平移</strong>。它丢了角和圆，但保住平行与共线比例。本章两大高潮：<strong>主轴定理</strong>（仿射 = 旋转 + 垂直拉伸 + 旋转）和<strong>椭圆就是被拉伸的圆</strong>。</p></div>
 <hr>
 <h2 id="sec-4-1"><span class="hn">4.1</span>什么是仿射变换</h2><p>把橡胶膜换成一张<strong>可以斜着推、可以单方向拉伸的弹性膜</strong>。现在你可以：</p>
 <ul><li>横向拉长纵向不动；</li><li>像推一副扑克牌那样<strong>斜推</strong>（剪切）；</li><li>任意线性变形。</li></ul>
@@ -33,22 +33,11 @@
 <div class="callout insight"><p>💡 "$ad-bc\ne0$"就是 $\det M\ne0$，保证 $M$ 可逆（变换能撤销）。若 $\det M=0$，整个平面被压成一条线或一点，信息丢失，<strong>不</strong>算仿射。</p></div>
 <hr>
 <h2 id="sec-4-2"><span class="hn">4.2</span>三个经典仿射：拉伸、剪切、挤压</h2><div class="viz" data-viz="transform-lab" data-title="仿射变换实验台：圆→椭圆，正方形→平行四边形" data-presets="identity,stretch,shear,squeeze,rot90,reflx"></div><p><strong>(a) 单向拉伸</strong>：$M=\begin{pmatrix}2&0\\0&1\end{pmatrix}$，即 $(x,y)\mapsto(2x,y)$。</p>
-<ul><li>单位正方形 → 长方形（宽变 2，高不变）。</li><li>单位<strong>圆</strong> → 下节证明：变成<strong>椭圆</strong>。</li></ul>
+<ul><li>单位正方形 → 长方形（宽变 2，高不变）。</li><li>单位<strong>圆</strong> → 4.6 节证明：变成<strong>椭圆</strong>。</li></ul>
 <p><strong>(b) 剪切</strong>（shear）：$M=\begin{pmatrix}1&1\\0&1\end{pmatrix}$，即 $(x,y)\mapsto(x+y,\,y)$。</p>
 <ul><li>像推一摞卡片：横坐标越往上偏移越大。</li><li>单位正方形 → 平行四边形。</li></ul>
 <div class="callout calc"><p>✏️ <strong>手算剪切</strong>：单位正方形四顶点 $(0,0),(1,0),(1,1),(0,1)\mapsto(0,0),(1,0),(2,1),(1,1)$，是个<strong>平行四边形</strong>。面积 $\det M=1$，<strong>不变</strong>——剪切"歪了但没缩"，这是它的特色。</p></div>
-<p>![](images/04-仿射变换-01.svg)</p>
-<details class="fold"><summary>📐 tikz 源码</summary><div class="fold-body"><pre><code class="language-latex">\begin{tikzpicture}[scale=3.5, every node/.style={font=\normalsize}]
-  \draw[-&gt;, gray!50, very thick] (-0.3,0) -- (2.6,0) node[right] {$x$};
-  \draw[-&gt;, gray!50, very thick] (0,-0.3) -- (0,1.6) node[above] {$y$};
-  \draw[blue, very thick, dashed] (0,0) -- (1,0) -- (1,1) -- (0,1) -- cycle;
-  \draw[red, very thick, fill=red!8] (0,0) -- (1,0) -- (2,1) -- (1,1) -- cycle;
-  \fill[red] (1,0) circle (3pt);
-  \fill[red] (2,1) circle (3pt) node[above right] {$(2,1)$};
-  \fill[red] (1,1) circle (3pt) node[above left] {$(1,1)$};
-  \node[blue] at (0.45,0.5) {square};
-  \node[red]  at (1.5,0.62) {parallelogram};
-\end{tikzpicture}</code></pre></div></details>
+<div class="figure"><img src="../images/04-仿射变换-01.svg" alt="" style="max-width:560px"></div>
 <p><strong>(c) 挤压</strong>（squeeze）：$M=\begin{pmatrix}k&0\\0&1/k\end{pmatrix}$。横拉 $k$ 倍、纵压 $1/k$ 倍，$\det=1$ 面积不变。物理上"光沿 $x$ 方向洛伦兹收缩"就是这个矩阵。</p>
 <hr>
 <h2 id="sec-4-3"><span class="hn">4.3</span>仿射变换的不变量</h2><p>仿射"暴力"得多——<strong>不再保角、不再保圆</strong>。但保住：</p>
@@ -66,31 +55,112 @@
 <p>（矩阵乘法的行列式 = 行列式相乘）。所以每个三角形面积都乘 $|\det M|$，<strong>面积之比自然不变</strong>。✓ 多边形剖分成三角形，结论推广。</p>
 <div class="callout insight"><p>💡 三个证明合起来揭示仿射的"骨架"：<strong>保共线、保平行、保比例、保面积比</strong>——丢了角和长度，保住一切"用直线和平行能表达"的关系。<strong>仿射几何 = 不在乎直角与刻度的几何</strong>。</p></div>
 <hr>
-<h2 id="sec-4-4"><span class="hn">4.4</span>高潮：椭圆是圆的仿射像</h2><p>仿射几何最漂亮的成果：</p>
+<h2 id="sec-4-4"><span class="hn">4.4</span>仿射基本定理：三对点定一个仿射</h2><p>第 2、3 章有一条暗线："<strong>决定一个变换，需要几对对应点？</strong>"现在轮到仿射。</p>
+<div class="callout def"><p>🎯 <strong>仿射基本定理</strong>：设 $A,B,C$ <strong>不共线</strong>，$A',B',C'$ 是任意三点。则<strong>存在唯一</strong>的仿射变换 $\mathbf{T}$ 使</p>
+<div class="eq-display">$$\mathbf{T}(A)=A',\qquad \mathbf{T}(B)=B',\qquad \mathbf{T}(C)=C'.$$</div>
+<p>它是真仿射（可逆）当且仅当 $A',B',C'$ 也<strong>不共线</strong>。</p></div>
+<p><strong>为什么恰好三对点？</strong> 数自由度：仿射 $\mathbf{x}\mapsto M\mathbf{x}+\mathbf{t}$ 有 $4+2=6$ 个参数（$M$ 四元、$\mathbf t$ 两元）。每规定一对对应点给出 2 个方程（$x,y$ 各一）。三对点恰好 6 个方程——<strong>不多不少</strong>。</p>
+<p><strong>唯一性的证明（一步线性代数）</strong>：先平移把 $A$ 送到原点。记 $\mathbf{b}=B-A,\ \mathbf{c}=C-A$。不共线 ⟺ $\mathbf b,\mathbf c$ <strong>线性无关</strong>（构成平面的一组基）。条件 $\mathbf{T}(B)=B',\ \mathbf{T}(C)=C'$ 变成</p>
+<div class="eq-display">$$M\mathbf b=\mathbf b',\qquad M\mathbf c=\mathbf c'.$$</div>
+<p>$\mathbf b,\mathbf c$ 是基，而线性映射被它在一组基上的像<strong>唯一决定</strong>——$M$ 定死了。若 $\mathbf b',\mathbf c'$ 也线性无关，$M$ 把基映成基，可逆 ✓；若 $A',B',C'$ 共线，则 $\mathbf b'\parallel\mathbf c'$，$\det M=0$，平面被压到一条线上——退化。$\square$</p>
+<div class="callout calc"><p>✏️ <strong>手算一个</strong>：把 $A=(0,0),B=(1,0),C=(0,1)$ 映到 $A'=(1,1),B'=(3,1),C'=(1,2)$。
+$\mathbf b=(1,0)\mapsto\mathbf b'=(2,0)$，$\mathbf c=(0,1)\mapsto\mathbf c'=(0,1)$，直接读出</p>
+<div class="eq-display">$$M=\begin{pmatrix}2&0\\0&1\end{pmatrix},\qquad \mathbf t=A'=(1,1).$$</div>
+<p>正是"横向拉伸 2 倍 + 平移"，$\det M=2$，面积全部翻倍。</p></div>
+<div class="figure"><img src="../images/04-仿射变换-03.svg" alt="" style="max-width:560px"></div>
+<h3 id="递进线-几对点定一个变换">递进线：几对点定一个变换？</h3>
+<div class="table-wrap"><table><thead><tr><th>变换</th><th>需要几对对应点</th><th>参数个数</th></tr></thead><tbody><tr><td>等距（第 2 章）</td><td>2 对（正向唯一；允许反向则差一个反射）</td><td>3</td></tr><tr><td>相似（第 3 章）</td><td>2 对（3.8 节：存在且唯一）</td><td>4</td></tr><tr><td><strong>仿射（本章）</strong></td><td><strong>3 对</strong></td><td>6</td></tr><tr><td>射影（下一章）</td><td>4 对</td><td>8</td></tr></tbody></table></div>
+<p>每放松一层约束，变换多出两个自由度，就要多喂一对点才能把它钉死。<strong>"几对点"是贴在每类变换身上的标本签</strong>——下一章的射影变换会把这条线推到尽头。</p>
+<hr>
+<h2 id="sec-4-5"><span class="hn">4.5</span>分类定理：主轴定理——仿射 = 旋转 + 垂直拉伸 + 旋转</h2><p>3.7 节用不动点把相似分成两类。仿射的分类更惊人：<strong>所有仿射变换，拆开都长一个样。</strong></p>
+<h3 id="先交代平移-分解是对-线性部分-说的">先交代平移：分解是对"线性部分"说的</h3>
+<p>仿射是 $\mathbf{x}\mapsto M\mathbf{x}+\mathbf{t}$，有两个零件：$M$ 和 $\mathbf t$。定理为什么只管 $M$？因为<strong>平移不变形，只搬家</strong>——它不改变任何图形的形状、方向和拉伸倍数，"这个仿射长什么样"的全部信息都在 $M$ 里。所以主轴定理分解的是线性部分 $M$，完整变换是</p>
+<div class="eq-display">$$\text{平移}\;\circ\;\text{旋转}\;\circ\;\text{沿两垂直方向的拉伸}\;\circ\;\text{旋转}.$$</div>
+<p>而且平移往往还能"隐身"：本节末会看到，<strong>大多数仿射有不动点，绕不动点重写后平移被吸进中心</strong>——整个变换就是"绕某一点的 转 + 拉 + 转"。</p>
+<div class="callout def"><p>🎯 <strong>主轴定理</strong>：对任何可逆 $2\times2$ 矩阵 $M$，存在旋转 $R_1,R_2$ 与对角拉伸 $D=\begin{pmatrix}s_1&0\\0&s_2\end{pmatrix}$（$s_1\ge s_2>0$），使</p>
+<div class="eq-display">$$M=R_2\,D\,R_1.$$</div>
+<p>（若 $\det M<0$ 即反向，$R_1,R_2$ 中有一个是反射型的反向等距；以下手算都是正向情形。）</p></div>
+<p>几何读法：随便给一个仿射变换，平面里都存在一对<strong>垂直方向</strong>，变换后它们<strong>仍然垂直</strong>，且各自只被等倍拉伸（$s_1$ 倍、$s_2$ 倍）——它们叫变换的<strong>主轴</strong>。变换的全部内容就是：转到主轴、沿轴拉伸、再转到位。</p>
+<h3 id="证明-找-被拉得最狠-的方向-几何论证">证明：找"被拉得最狠"的方向（几何论证）</h3>
+<p>核心断言：**存在一对垂直的单位向量 $\mathbf u_1,\mathbf u_2$，使 $M\mathbf u_1\perp M\mathbf u_2$**（像保持垂直）。有了它，定理立刻到手——下面先证断言。</p>
+<p>一句话版本：<strong>单位圆的像上，离中心最远的点，半径一定垂直于切线</strong>（否则挪一步会更远）。这个"最远点"的原像，和它的垂直伙伴，就是主轴。看图就懂了：</p>
+<div class="figure"><img src="../images/04-仿射变换-04.svg" alt="最远点处半径垂直于切线，给出主轴"></div>
+<p><strong>第一步：最狠方向存在。</strong> 单位圆被 $M$ 映成一条闭合有界曲线（4.6 节会证明它正是椭圆）。像曲线上离原点<strong>最远</strong>的点 $Q$ 一定存在。设 $Q=M\mathbf u_1$（$\mathbf u_1$ 单位向量）——$\mathbf u_1$ 就是"被拉得最狠"的方向，$s_1=|M\mathbf u_1|$ 是最大拉伸倍数。图中即椭圆长轴端点。</p>
+<p><strong>第二步：垂直伙伴的像躺在切线上。</strong> 这一步里有两个小弯，逐个拐。</p>
+<p>**第一弯：为什么切线方向是 $M\mathbf u_2$？<strong> "切线方向"就是"</strong>沿曲线走一小步时，面朝的方向**"。沿单位圆走一小步 $t=\varepsilon$（比如 $\varepsilon=0.01$）：</p>
+<div class="eq-display">$$\mathbf c(\varepsilon)=\cos\varepsilon\,\mathbf u_1+\sin\varepsilon\,\mathbf u_2\;\approx\;\mathbf u_1+\varepsilon\,\mathbf u_2,$$</div>
+<p>因为 $\varepsilon$ 很小时 $\cos\varepsilon\approx1$、$\sin\varepsilon\approx\varepsilon$（$\varepsilon=0.01$ 时 $\cos\varepsilon=0.99995$、$\sin\varepsilon=0.00999\ldots$，误差仅十万分之一）。也就是说：从 $\mathbf u_1$ 出发沿圆走 $\varepsilon$ 步，大致等于"朝 $\mathbf u_2$ 方向走 $\varepsilon$ 步"。被 $M$ 一映（用<strong>线性</strong>拆开）：</p>
+<div class="eq-display">$$\boldsymbol{\gamma}(\varepsilon)=M\mathbf c(\varepsilon)\;\approx\;M\mathbf u_1+\varepsilon\,M\mathbf u_2\;=\;Q+\varepsilon\,M\mathbf u_2.$$</div>
+<p>像点从 $Q$ 出发，面朝 $M\mathbf u_2$ 的方向——**所以 $M\mathbf u_2$ 就是像曲线在 $Q$ 处的切线方向**（图中橙色切线）。</p>
+<p><strong>第二弯：为什么最远点处切线 ⊥ 半径？</strong> 把切线方向 $M\mathbf u_2$ 拆成两份：一份**沿半径 $OQ$<strong>（朝外为正），一份</strong>垂直于半径**。</p>
+<ul><li>若"向外分量" $>0$：沿切线往前走一小步 $\varepsilon$，新点 $\approx Q+\varepsilon\,M\mathbf u_2$，它到 $O$ 的距离 $\approx|Q|+\varepsilon\times(\text{向外分量})>|Q|$——<strong>比"最远"还远</strong>，矛盾；</li><li>若"向外分量" $<0$（即朝内）：沿切线<strong>退</strong>一小步（$\varepsilon<0$），距离同样变大——<strong>后方</strong>像点比 $Q$ 更远，也矛盾。</li></ul>
+<p>唯一出路是"向外分量" $=0$，即切线与半径垂直：$M\mathbf u_2\perp OQ=M\mathbf u_1$。✓</p>
+<div class="callout calc"><p>✏️ <strong>用圆校准一下直觉</strong>：单位圆上最右的点 $(1,0)$ 是离 $y$ 轴"最远"的点，那里的切线是<strong>竖直</strong>的——沿水平方向（半径方向）的分量恰好为 $0$。设想某条曲线在它的"最右点"处切线是斜的（指向右上方），那么沿切线再挪一点，$x$ 坐标就会超过这个"最右点"——说明它根本不是最右点。<strong>"最远 ⟹ 半径 ⊥ 切线"对任何闭曲线都成立</strong>，理由完全相同：最远点处，曲线只能"横着走"，不能"往外走"。</p></div>
+<div class="callout tip"><p>🔧 <strong>严格化（一行，可跳过）</strong>："走一小步距离变大"的严格版是一个展开式。记 $v=M\mathbf u_2$，用 $\boldsymbol{\gamma}(\varepsilon)=\cos\varepsilon\,Q+\sin\varepsilon\,v$ 的<strong>精确</strong>公式：</p>
+<div class="eq-display">$$|\boldsymbol{\gamma}(\varepsilon)|^2=\cos^2\varepsilon\,|Q|^2+2\sin\varepsilon\cos\varepsilon\,(Q\cdot v)+\sin^2\varepsilon\,|v|^2.$$</div>
+<p>$\varepsilon$ 很小时 $\cos^2\varepsilon\approx1$、$2\sin\varepsilon\cos\varepsilon\approx2\varepsilon$、$\sin^2\varepsilon\approx\varepsilon^2$，于是</p>
+<div class="eq-display">$$|\boldsymbol{\gamma}(\varepsilon)|^2\approx|Q|^2+2\varepsilon\,(Q\cdot v)+(\text{含 }\varepsilon^2\text{ 的项}).$$</div>
+<p>$Q\cdot v$ 正是"向外分量"（半径方向与切线方向的内积）。$\varepsilon$ 充分小时，一次项 $2\varepsilon(Q\cdot v)$ 说了算，二次项跟不上：$Q\cdot v>0$ 取 $\varepsilon>0$，$Q\cdot v<0$ 取 $\varepsilon<0$，都得到 $|\boldsymbol{\gamma}(\varepsilon)|^2>|Q|^2$——比最远还远，矛盾。故 $Q\cdot v=0$，即 $M\mathbf u_1\perp M\mathbf u_2$。几何直觉到此被翻译成不等式。</p></div>
+<p><strong>第三步：从断言到定理。</strong> 写</p>
+<div class="eq-display">$$M\mathbf u_1=s_1\mathbf w_1,\qquad M\mathbf u_2=s_2\mathbf w_2,$$</div>
+<p>其中 $\mathbf w_1\perp\mathbf w_2$ 是单位向量，$s_1,s_2>0$ 是像的长度。$\mathbf u_1,\mathbf u_2$ 是一组（旋转了的）标准基，在这组基下 $M$ 的作用就是"沿两轴各乘 $s_1,s_2$"——正是对角矩阵 $D$。把"坐标轴 → $\mathbf u$ 基"的旋转记为 $R_1^{-1}$、"$\mathbf w$ 基 → 坐标轴"的旋转记为 $R_2$，串起来即 $M=R_2DR_1$。$\square$</p>
+<div class="callout insight"><p>💡 <strong>证明的精髓</strong>：整个证明就是一条几何事实——<strong>"最远处的半径垂直于切线"</strong>。$\mathbf u_1$ 是"被拉得最狠"的方向，它的像 $Q$ 是椭圆的长轴端点；$\mathbf u_2$ 的像自动躺在 $Q$ 处的切线上，与长轴垂直——短轴方向也就位了。<strong>主轴就是椭圆的长短轴</strong>，4.6 节的椭圆在这里已经整个露头了。</p>
+<p>另有一个等价的直觉（"转十字"）：让一对垂直方向连续转动，像的夹角从锐角渐渐变成钝角——连续变化中间必有一刻恰好是 $90°$。同一个定理的两种说法，"最狠方向"版还顺带告诉我们主轴<strong>在哪里</strong>。</p></div>
+<h3 id="手算-s_1-s_2-不用猜-两个方程解出来">手算：$s_1,s_2$ 不用猜，两个方程解出来</h3>
+<p>拉伸倍数由 $M$ 完全确定，靠两条守恒：</p>
+<ul><li><strong>乘积</strong>：$s_1s_2=|\det M|$（面积缩放因子，4.3 节）；</li><li><strong>平方和</strong>：$s_1^2+s_2^2=M$ 四个元素的平方和。理由：$M^{\mathsf T}M=R_1^{\mathsf T}D^2R_1$，左边对角线之和恰是 $M$ 各元平方和，右边经旋转共轭对角线之和不变，等于 $s_1^2+s_2^2$。</li></ul>
+<div class="callout calc"><p>✏️ <strong>手算一（对称矩阵）</strong>：$M=\begin{pmatrix}2&1\\1&2\end{pmatrix}$。平方和 $=4+1+1+4=10$，$\det M=3$。$s_1^2,s_2^2$ 是 $\lambda^2-10\lambda+9=0$ 的两根：$\lambda=9,1$，故 $s_1=3,\ s_2=1$。主轴方向试 $45°$：</p>
+<div class="eq-display">$$M\binom{1}{1}=\binom{3}{3}=3\binom{1}{1},\qquad M\binom{1}{-1}=\binom{1}{-1}=1\cdot\binom{1}{-1}.$$</div>
+<p>沿 $y=x$ 拉 3 倍、沿 $y=-x$ 不动，乘积 $3=\det M$ ✓。</p></div>
+<div class="callout calc"><p>✏️ <strong>手算二（剪切里藏着黄金比例）</strong>：4.2 节的剪切 $M=\begin{pmatrix}1&1\\0&1\end{pmatrix}$。平方和 $=1+1+0+1=3$，$\det M=1$。$s_1^2,s_2^2$ 是 $\lambda^2-3\lambda+1=0$ 的两根：</p>
+<div class="eq-display">$$\lambda=\frac{3\pm\sqrt5}{2}.$$</div>
+<p>注意 $\dfrac{3+\sqrt5}{2}=\left(\dfrac{1+\sqrt5}{2}\right)^2=\varphi^2$（黄金比例的平方！），故</p>
+<div class="eq-display">$$s_1=\varphi\approx1.618,\qquad s_2=\frac1\varphi\approx0.618.$$</div>
+<p>$\varphi$ <strong>不是猜的，是解出来的</strong>。主轴方向直接验证：取 $\mathbf u_1=(1,\varphi)$、$\mathbf u_2=(-\varphi,1)$（垂直），用 $\varphi^2=\varphi+1$：</p>
+<div class="eq-display">$$M\mathbf u_1=(1+\varphi,\ \varphi)=(\varphi^2,\varphi)=\varphi\,(\varphi,1),\qquad M\mathbf u_2=(1-\varphi,\ 1)=\left(-\tfrac1\varphi,\ 1\right).$$</div>
+<p>两个像方向 $(\varphi,1)$ 与 $(-\tfrac1\varphi,1)$ 的点积 $=-1+1=0$——<strong>仍然垂直</strong> ✓，拉伸倍数恰为 $\varphi$ 与 $\tfrac1\varphi$。所以剪切 = 旋转 + "一方向拉 $\varphi$ 倍、垂直方向压 $\tfrac1\varphi$ 倍" + 旋转。乘积 $\varphi\cdot\tfrac1\varphi=1$——又一次看到"剪切面积不变"。</p></div>
+<h3 id="平移去哪儿了-不动点把它-吸收-成中心">平移去哪儿了：不动点把它"吸收"成中心</h3>
+<p>回到完整的 $\mathbf{T}(\mathbf{x})=M\mathbf{x}+\mathbf{t}$。问：$\mathbf T$ 有没有<strong>不动点</strong>？解</p>
+<div class="eq-display">$$\mathbf{x}=M\mathbf{x}+\mathbf{t}\quad\Longleftrightarrow\quad (I-M)\mathbf{x}=\mathbf{t}.$$</div>
+<ul><li>**$\det(I-M)\ne0$（绝大多数情形）**：唯一不动点 $\mathbf{p}=(I-M)^{-1}\mathbf{t}$。绕 $\mathbf p$ 改写：</li></ul>
+<div class="eq-display">$$\mathbf{T}(\mathbf{x})-\mathbf{p}=M(\mathbf{x}-\mathbf{p}),$$</div>
+<p>即**整个变换 = 绕 $\mathbf p$ 的"转 + 拉 + 转"**——平移不见了，只剩一个中心。这正是 3.7 节螺旋相似的老把戏：$k\ne1$ 时平移被不动点吸收；在仿射里，只要 $M$ 不以 $1$ 为"不动方向倍率"，同一招依然有效。</p>
+<ul><li>**$\det(I-M)=0$**：方程可能无解（纯平移 $M=I,\ \mathbf t\ne\mathbf0$：无不动点），也可能有整条不动直线。例如剪切：$I-M=\begin{pmatrix}0&-1\\0&0\end{pmatrix}$，不动点条件是 $y=0$——**整个 $x$ 轴逐点不动**，剪切就是"钉住 $x$ 轴的滑动"。</li></ul>
+<p>于是仿射的全貌：<strong>中心型</strong>（绕不动点的 $R_2DR_1$，绝大多数）+ <strong>滑移/平移型</strong>（$\det(I-M)=0$ 的少数派，如平移、剪切）。</p>
+<div class="callout calc"><p>✏️ <strong>手算三（找中心）</strong>：$\mathbf{T}(x,y)=(2x+1,\ y+2)$。$I-M=\begin{pmatrix}-1&0\\0&0\end{pmatrix}$ 不可逆——属于少数派（沿 $y$ 方向是平移）。改成 $\mathbf{T}(x,y)=(2x+1,\ 2y+2)$：$(I-M)\mathbf p=(-p_1,-p_2)=(1,2)$，不动点 $\mathbf p=(-1,-2)$。验证：$\mathbf{T}(\mathbf p)=(−2+1,−4+2)=(-1,-2)=\mathbf p$ ✓。绕 $\mathbf p$ 它就是"放大 2 倍的位似"——平移被吸进了中心。</p></div>
+<h3 id="顺手得到层级分类-两个数-s_1-s_2-里的三层几何">顺手得到层级分类：两个数 $s_1,s_2$ 里的三层几何</h3>
+<p>主轴定理把前三章的层级压缩进两个数 $s_1,s_2$：</p>
+<ul><li>$s_1=s_2=1$：$M=R_2R_1$ 是旋转（或反射）—— <strong>等距</strong>（第 2 章）；</li><li>$s_1=s_2=k\ne1$：$M=k\,R_2R_1$ 是旋转位似 —— <strong>相似</strong>（第 3 章）；</li><li>$s_1\ne s_2$：仿射的特有成员 —— 把圆拉成<strong>真正的椭圆</strong>。</li></ul>
+<p>但这只是"主轴语言"。同一个分类，用<strong>矩阵元素</strong>和<strong>复数</strong>各怎么说呢？三种语言都要会说，才算把分类做踏实了。</p>
+<h4 id="矩阵语言-看两列">矩阵语言：看两列</h4>
+<p>$M$ 的两列不是别人，正是坐标轴方向的像 $\mathbf c_1=M\mathbf e_1,\ \mathbf c_2=M\mathbf e_2$。逐层翻译：</p>
+<ul><li><strong>等距</strong> ⟺ $\mathbf c_1,\mathbf c_2$ <strong>都是单位长且垂直</strong> ⟺ $M^{\mathsf T}M=I$（$M$ 正交）。此时 $M=\begin{pmatrix}\cos\theta&\mp\sin\theta\\ \sin\theta&\pm\cos\theta\end{pmatrix}$：旋转（同号）或反射型（异号）。</li><li><strong>相似</strong> ⟺ $\mathbf c_1,\mathbf c_2$ <strong>等长且垂直</strong>（公共长度 $k$）⟺ $M^{\mathsf T}M=k^2I$ ⟺ $M=k\cdot$正交。</li><li><strong>仿射</strong> ⟺ 只要求 $\mathbf c_1,\mathbf c_2$ <strong>不共线</strong>（$\det M\ne0$）——等长、垂直全不要求。</li></ul>
+<div class="callout calc"><p>✏️ <strong>手算判层（看两列就够了）</strong>：
+<strong>(a)</strong> $M=\begin{pmatrix}3/5&-4/5\\4/5&3/5\end{pmatrix}$：两列 $(\tfrac35,\tfrac45)$、$(-\tfrac45,\tfrac35)$ 都是单位长，点积 $-\tfrac{12}{25}+\tfrac{12}{25}=0$ → <strong>等距</strong>，旋转角 $\cos\theta=\tfrac35$（$\theta\approx53°$）。
+<strong>(b)</strong> $M=\begin{pmatrix}1&-\sqrt3\\ \sqrt3&1\end{pmatrix}$：两列长度都是 $\sqrt{1+3}=2$，点积 $-\sqrt3+\sqrt3=0$ → <strong>相似</strong>，$k=2$；$\det=4>0$ 为正向，转角 $\cos\theta=\tfrac12$ 即 $60°$——正是 3.7 节的<strong>螺旋相似</strong>（旋转 $60°$ + 放大 2 倍）。
+<strong>(c)</strong> $M=\begin{pmatrix}2&1\\1&2\end{pmatrix}$：两列等长 $\sqrt5$，但点积 $3\ne0$，<strong>不垂直</strong> → 不是相似，是<strong>真仿射</strong>（上文手算一已见：主轴 $45°$，拉伸 $3$ 与 $1$）。</p></div>
+<h4 id="复数语言-为什么复数乘法天生只会-相似">复数语言：为什么复数乘法天生只会"相似"</h4>
+<p>第 2、3 章的复数形式 $z\mapsto az+b$（正向）、$z\mapsto a\bar z+b$（反向），写成矩阵正是（设 $a=p+qi$）：</p>
+<div class="eq-display">$$z\mapsto az:\;\; M=\begin{pmatrix}p&-q\\ q&p\end{pmatrix};\qquad z\mapsto a\bar z:\;\; M=\begin{pmatrix}p&q\\ q&-p\end{pmatrix}.$$</div>
+<p>检查正向的两列 $(p,q)$、$(-q,p)$：<strong>自动等长</strong>（都是 $|a|$）、<strong>自动垂直</strong>（点积 $-pq+qp=0$）。换句话说，**单个复数乘法 $z\mapsto az$ 天生"各方向同转 $\arg a$、同缩 $|a|$"——它只会做相似，想做真仿射都做不了**。这就是复数形式的刚性：2.7、3.5 节的分类之所以"自己吐出来"，根子在这里。</p>
+<p>那一般仿射怎么用复数写？需要 **$z$ 与 $\bar z$ 两条通道**：任何实线性映射都能写成</p>
+<div class="eq-display">$$z\;\longmapsto\;\alpha z+\beta\bar z.$$</div>
+<p>**相似 ⟺ $\alpha,\beta$ 恰有一个为 $0$**（只剩一条通道，保角）。两条都非零时，$z$ 通道逆时针拧、$\bar z$ 通道顺时针拧，各方向拉伸倍数不再一致——这才是真仿射。而且拉伸倍数有漂亮公式：$|z|=1$ 时 $|\alpha z+\beta\bar z|=|\alpha+\beta\,e^{-2i\theta}|$，最大 $|\alpha|+|\beta|$、最小 $\bigl||\alpha|-|\beta|\bigr|$，即</p>
+<div class="eq-display">$$s_1=|\alpha|+|\beta|,\qquad s_2=\bigl||\alpha|-|\beta|\bigr|.$$</div>
+<div class="callout calc"><p>✏️ <strong>手算验证（黄金比例第三条来路）</strong>：剪切 $(x,y)\mapsto(x+y,y)$ 写成复数：$z\mapsto\alpha z+\beta\bar z$，解出 $\alpha=1-\tfrac{i}{2},\ \beta=\tfrac{i}{2}$。$|\alpha|=\tfrac{\sqrt5}{2}$，$|\beta|=\tfrac12$，于是</p>
+<div class="eq-display">$$s_1=\frac{\sqrt5+1}{2}=\varphi,\qquad s_2=\frac{\sqrt5-1}{2}=\frac1\varphi.$$</div>
+<p>与主轴定理用 $\lambda^2-3\lambda+1=0$ 解出的 $s_1=\varphi,\ s_2=\tfrac1\varphi$ <strong>完全一致</strong>——$\varphi$ 从复数通道又冒出来了。</p></div>
+<div class="callout insight"><p>💡 <strong>精髓</strong>：<strong>仿射 = 两个等距夹一个轴向拉伸</strong>。第 2、3 章的变换是零件，仿射只是它们的组装——等距与相似的差别、相似与仿射的差别，全压缩在 $s_1,s_2$ 这两个数里。三种语言对照着记：主轴看 $s_1,s_2$、矩阵看两列、复数看几条通道。4.7 节还会补上第四种语言——坐标系（尺子），并给出四合一总表。</p></div>
+<div class="callout insight"><p>💡 <strong>与下一节的联系</strong>：单位圆被 $M$ 映成椭圆，椭圆的**长轴、短轴方向正是主轴经 $R_2$ 转出的方向**，半轴长就是 $s_1,s_2$。所以"椭圆 = 拉伸的圆"将升级为最一般形式：<strong>任何椭圆都是圆经"垂直拉伸 + 旋转"得到的</strong>，不必轴向对齐。</p></div>
+<hr>
+<h2 id="sec-4-6"><span class="hn">4.6</span>高潮：椭圆是圆的仿射像</h2><p>仿射几何最漂亮的成果：</p>
 <div class="theorem-box"><div class="thm-head"><span class="tag">定理</span></div><p><strong>定理</strong>：任何<strong>椭圆</strong>都是某个<strong>圆</strong>经过仿射变换得到的。圆是椭圆的特例（两轴相等）。</p></div>
 <p>证明一行代数。单位圆 $x^2+y^2=1$，施加横向拉伸 $(x,y)\mapsto(2x,y)$。令像点 $(u,v)=(2x,y)$，则 $x=u/2,\;y=v$，代回圆方程：</p>
 <div class="eq-display">$$\left(\frac{u}{2}\right)^2+v^2=1\;\Longrightarrow\;\frac{u^2}{4}+v^2=1.$$</div>
 <p>正是**半轴 $2$ 和 $1$ 的椭圆**！✓</p>
-<p>![](images/04-仿射变换-02.svg)</p>
-<details class="fold"><summary>📐 tikz 源码</summary><div class="fold-body"><pre><code class="language-latex">\begin{tikzpicture}[scale=2.0, every node/.style={font=\normalsize}]
-  \draw[-&gt;, gray!50, very thick] (-1.5,0) -- (1.5,0);
-  \draw[-&gt;, gray!50, very thick] (0,-1.3) -- (0,1.3);
-  \draw[blue, very thick] (0,0) circle (1);
-  \fill[blue] (1,0) circle (3pt);
-  \fill[blue] (0,1) circle (3pt);
-  \node[below] at (0,-1.45) {circle $x^2+y^2=1$};
-  \draw[-&gt;, very thick, gray] (1.55,0) -- (2.65,0)
-        node[midway, above] {$(x,y)\!\mapsto\!(2x,y)$};
-  \begin{scope}[xshift=4.6cm]
-    \draw[-&gt;, gray!50, very thick] (-2.3,0) -- (2.3,0);
-    \draw[-&gt;, gray!50, very thick] (0,-1.3) -- (0,1.3);
-    \draw[red, very thick] (0,0) ellipse (2 and 1);
-    \fill[red] (2,0) circle (3pt) node[below right] {$(2,0)$};
-    \fill[red] (0,1) circle (3pt) node[above right] {$(0,1)$};
-    \node[below] at (0,-1.45) {ellipse $\frac{u^2}{4}+v^2=1$};
-  \end{scope}
-\end{tikzpicture}</code></pre></div></details>
+<div class="figure"><img src="../images/04-仿射变换-02.svg" alt="" style="max-width:560px"></div>
 <div class="callout calc"><p>✏️ <strong>手算验证几个点</strong>：$(1,0)\mapsto(2,0)$（椭圆右端点）；$(0,1)\mapsto(0,1)$（上端点）；$(\tfrac{\sqrt2}{2},\tfrac{\sqrt2}{2})\mapsto(\sqrt2,\tfrac{\sqrt2}{2})$，代入 $\tfrac{(\sqrt2)^2}{4}+(\tfrac{\sqrt2}{2})^2=\tfrac24+\tfrac12=1$ ✓。</p></div>
+<div class="callout insight"><p>💡 这只是轴向拉伸的情形。由 4.5 主轴定理，<strong>最一般的椭圆</strong>（主轴倾斜的）也不过是再复合一个旋转——结论不变：一切椭圆都是圆的仿射像。</p></div>
 <h3 id="这意味着什么">这意味着什么？</h3>
 <p><strong>圆和椭圆，在仿射几何里没有区别。</strong> 圆的仿射性质自动适用于椭圆：</p>
 <ul><li><strong>椭圆中平行弦的中点共线</strong>（圆里平行弦中点在直径上；仿射保平行、保中点）。</li><li><strong>椭圆的切线</strong>：仿射把圆的切线变成椭圆的切线。</li></ul>
@@ -100,25 +170,42 @@
 <p>一般地，半轴 $a,b$ 的椭圆 = 单位圆经 $(x,y)\mapsto(ax,by)$，$\det=ab$，面积 $=\pi ab$。</p>
 <div class="callout calc"><p>✏️ <strong>一行得椭圆面积公式</strong> $S=\pi ab$，无需任何积分！这就是变换的力量——<strong>把椭圆"看作"被拉伸的圆</strong>，问题瞬间简化。</p></div>
 <hr>
-<h2 id="sec-4-5"><span class="hn">4.5</span>仿射坐标系：换一把"尺子"</h2><p>仿射还有一层深刻含义：它等于<strong>换了一个坐标系</strong>。</p>
-<p>标准坐标下，正方形是正方形、圆是圆。但这些概念依赖<strong>直角</strong>和<strong>等距</strong>。若允许用<strong>两根不垂直、刻度不一的轴</strong>当坐标轴（<strong>仿射坐标系</strong>）：</p>
-<ul><li>仿射坐标下，"圆"的方程长得不一样；</li><li>仿射变换 = 从直角坐标换到某个仿射坐标。</li></ul>
+<h2 id="sec-4-7"><span class="hn">4.7</span>仿射坐标系：换一把"尺子"</h2><p>仿射还有一层深刻含义：它等于<strong>换了一个坐标系</strong>。这是同一个变换的"被动读法"：</p>
+<ul><li><strong>主动读法</strong>（点动）：$\mathbf T$ 把点 $\mathbf x$ 搬到 $M\mathbf x+\mathbf t$——前几章我们都是这么读的；</li><li><strong>被动读法</strong>（尺子动）：点一个没动，是**原点搬到 $\mathbf t$、坐标轴换成 $M\mathbf e_1,\,M\mathbf e_2$**——$\mathbf T(\mathbf x)$ 是"同一点在新尺子下的读数"。</li></ul>
+<p>一个变换，两种读法。这一节换上"被动"眼镜：三层几何忽然变成<strong>三把尺子</strong>。</p>
+<h3 id="三层几何-三把尺子">三层几何 = 三把尺子</h3>
+<p>4.5 用主轴、矩阵、复数三种语言做了分类。被动读法给出第四种：</p>
+<ul><li><strong>等距 = 全等的尺子</strong>：新尺子与旧尺子一模一样——直角、同样的刻度，只是挪了位置、转了方向（或照了镜子）。所有度量结论原样成立。</li><li><strong>相似 = 缩放的尺子</strong>：还是直角、两轴刻度仍然<strong>相同</strong>，但刻度单位整体放大 $k$ 倍、方向转了 $\theta$。长度统一乘 $k$，角度不变——所以相似保角不保距。</li><li><strong>仿射 = 任意的尺子</strong>：两轴<strong>不垂直、刻度不一样</strong>的平行四边形网格。"垂直""长度"在这把尺子下失去意义；但"平行、共线、共线比例"是<strong>纯网格概念</strong>（数格子就能判断），依然有效。</li></ul>
+<p>被动读法下，分类一句话说完：<strong>尺子越随便，能谈论的性质越少</strong>。</p>
+<h3 id="手算-仿射尺子下-圆-是椭圆">手算：仿射尺子下，"圆"是椭圆</h3>
+<p>拿一把简单的仿射尺子：新原点 $\mathbf{O}'=(1,1)$，新轴 $\mathbf b_1=(2,0)$、$\mathbf b_2=(0,1)$（轴还垂直，但刻度不一样）。点 $P=(5,3)$ 的新坐标是多少？解 $P=\mathbf O'+x'\mathbf b_1+y'\mathbf b_2$：</p>
+<div class="eq-display">$$(5,3)=(1,1)+2\cdot(2,0)+1\cdot(0,1)\;\Longrightarrow\;(x',y')=(2,1).$$</div>
+<p>现在在新尺子下画"单位圆" $x'^2+y'^2=1$。换回旧坐标（$x=1+2x',\;y=1+y'$）：</p>
+<div class="eq-display">$$\left(\frac{x-1}{2}\right)^2+(y-1)^2=1$$</div>
+<p>——是<strong>椭圆</strong>！同一条曲线：直角尺子看是椭圆，仿射尺子看就是"圆"。</p>
+<div class="callout insight"><p>💡 <strong>4.6 的被动读法</strong>："椭圆 = 圆的仿射像"（主动）就是"<strong>椭圆 = 仿射坐标系下的圆</strong>"（被动）——两种读法，同一事实。这也解释了为什么仿射几何里圆和椭圆没有区别：换把尺子，它们本来就是同一条曲线。</p>
+<p>若新轴也不垂直（如 $\mathbf b_2=(1,1)$），同一方程给出<strong>倾斜</strong>椭圆——正是题 4.2 剪切的情形。</p></div>
+<h3 id="四种语言一张表">四种语言一张表</h3>
+<div class="table-wrap"><table><thead><tr><th>层级</th><th>主轴 $s_1,s_2$（4.5）</th><th>矩阵判据</th><th>复数形式</th><th>尺子（坐标系）</th><th>保住</th></tr></thead><tbody><tr><td>等距</td><td>$1,\,1$</td><td>$M^{\mathsf T}M=I$</td><td>$z\mapsto az+b$，$\lvert a\rvert=1$（反向 $z\mapsto a\bar z+b$）</td><td>全等的直角尺</td><td>距离、角度、一切度量</td></tr><tr><td>相似</td><td>$k,\,k$</td><td>$M^{\mathsf T}M=k^2I$</td><td>$z\mapsto az+b$，$\lvert a\rvert=k$</td><td>缩放 $k$ 倍、旋转 $\theta$ 的直角尺</td><td>角度、长度之比</td></tr><tr><td>仿射</td><td>$s_1\ne s_2$</td><td>$\det M\ne0$</td><td>$z\mapsto\alpha z+\beta\bar z$（两条通道）</td><td>任意平行四边形网格</td><td>平行、共线、比例、面积比</td></tr></tbody></table></div>
 <div class="callout tip"><p><strong>仿射几何 = 不在乎坐标轴是否垂直、刻度是否均匀的几何</strong>。它只承认"用直线网格定位"，至于网格是不是方的、疏密是否一样，无所谓。</p></div>
-<div class="callout think"><p>🤔 <strong>对照</strong>：欧氏坚持"直角 + 等距"网格；仿射放松到"任意平行四边形网格"。放松"直角"这个奢侈要求，换来更大的普适性。</p></div>
+<div class="callout think"><p>🤔 <strong>对照</strong>：欧氏坚持"直角 + 等距"网格；相似允许刻度统一缩放；仿射放松到"任意平行四边形网格"。每放松一层，尺子更随便、能谈论的性质更少，但承认的变换更多、结论的普适性更强。<strong>放松"直角"这个奢侈要求，换来的是普适性。</strong></p></div>
 <hr>
-<h2 id="sec-4-6"><span class="hn">4.6</span>仿射群</h2><p>和等距、相似一样，全体仿射变换也构成<strong>群</strong>（复合运算），叫<strong>仿射群</strong> $\mathrm{Aff}(2)$：</p>
+<h2 id="sec-4-8"><span class="hn">4.8</span>仿射群</h2><p>和等距、相似一样，全体仿射变换也构成<strong>群</strong>（复合运算），叫<strong>仿射群</strong> $\mathrm{Aff}(2)$：</p>
 <ul><li><strong>封闭</strong>：两个仿射 $(M_1,\mathbf{t}_1),(M_2,\mathbf{t}_2)$ 的复合 $=(M_2M_1,\;M_2\mathbf{t}_1+\mathbf{t}_2)$ 还是仿射。</li><li><strong>单位</strong>：$(I,\mathbf{0})$。</li><li><strong>逆</strong>：$(M,\mathbf{t})^{-1}=(M^{-1},-M^{-1}\mathbf{t})$。</li></ul>
 <p>子群链越来越长：</p>
 <div class="eq-display">$$\mathrm{SO}(2)\;\subset\;E(2)\;\subset\;\mathrm{Sim}(2)\;\subset\;\mathrm{Aff}(2).$$</div>
 <p>每往右一步，矩阵 $M$ 的限制更松：旋转（正交且 $\det=1$）→ 等距（正交）→ 相似（$k\cdot$正交）→ 仿射（任意可逆）。<strong>群越大，约束越松，不变量越少</strong>——这正是第 7 章爱尔兰根纲领要讲的核心。</p>
 <hr>
-<h2 id="sec-4-7"><span class="hn">4.7</span>几何层级的雏形</h2><p>至此我们排出一列：</p>
+<h2 id="sec-4-9"><span class="hn">4.9</span>几何层级的雏形</h2><p>至此我们排出一列：</p>
 <div class="eq-display">$$\boxed{\;\text{等距} \;\subset\; \text{相似} \;\subset\; \text{仿射}\;}$$</div>
 <p>每往右一步，变换更多，<strong>不变量更少</strong>：</p>
 <div class="table-wrap"><table><thead><tr><th>性质</th><th>等距</th><th>相似</th><th>仿射</th></tr></thead><tbody><tr><td>距离</td><td><span class="check">✓</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td></tr><tr><td>角度</td><td><span class="check">✓</span></td><td><span class="check">✓</span></td><td><span class="cross">✗</span></td></tr><tr><td>平行</td><td><span class="check">✓</span></td><td><span class="check">✓</span></td><td><span class="check">✓</span></td></tr><tr><td>共线比例</td><td><span class="check">✓</span></td><td><span class="check">✓</span></td><td><span class="check">✓</span></td></tr><tr><td>共线</td><td><span class="check">✓</span></td><td><span class="check">✓</span></td><td><span class="check">✓</span></td></tr></tbody></table></div>
 <p>记住这张表——它是第 7 章爱尔兰根纲领的预演。</p>
 <p>下一章：<a href="05.html">第 05 章 · 射影几何</a></p>
 <hr>
+<h2 id="sec-4-10"><span class="hn">4.10</span>本章小结</h2><div class="summary"><ul><li><strong>定义</strong>：仿射 = 任意可逆线性 + 平移，$\mathbf x\mapsto M\mathbf x+\mathbf t$（$\det M\ne0$）。等距（$M$ 正交）、相似（$M=k\cdot$正交）都是限制 $M$ 形式的特例（4.1）。</li><li><strong>三个经典</strong>：单向拉伸、剪切、挤压——剪切与挤压 $\det=1$，"歪了但没缩"，面积不变（4.2）。</li><li><strong>不变量</strong>：保共线、平行、共线比例、面积之比；丢角度、长度、圆、绝对面积。保平行、保比例、保面积比三个证明是全章骨架（4.3）。</li><li><strong>仿射基本定理</strong>：三对不共线对应点<strong>唯一</strong>决定一个仿射；自由度 $6=3$ 对点 $\times\,2$。"几对点定一个变换"的递进线推进到 3 对（4.4）。</li><li><strong>分类（主轴定理）</strong>：线性部分 = 旋转 ∘ 垂直拉伸 ∘ 旋转，$M=R_2DR_1$；几何证明只需"最远点半径 ⊥ 切线"——主轴就是像椭圆的长短轴；$s_1,s_2$ 由"乘积 $=|\det M|$、平方和 $=M$ 各元平方和"解出。平移只负责搬家——有不动点时被吸收成中心，整个变换就是绕不动点的"转 + 拉 + 转"。层级分类四种语言：主轴看 $s_1,s_2$、矩阵看两列（等长？垂直？）、复数看几条通道（$z\mapsto\alpha z+\beta\bar z$，相似 ⟺ 单通道）、坐标系看尺子（4.5、4.7）。</li><li><strong>高潮</strong>：椭圆 = 圆的仿射像，圆的仿射性质免费传给椭圆；椭圆面积 $S=\pi ab$ 免积分——"复杂对象 = 简单对象 + 变换"（4.6）。</li><li><strong>另一视角（三把尺子）</strong>：变换的被动读法 = 换坐标系。等距 = 全等的直角尺，相似 = 缩放旋转的直角尺，仿射 = 任意平行四边形网格；"椭圆 = 仿射坐标系下的圆"（4.7）。</li><li><strong>群与层级</strong>：$\mathrm{Aff}(2)$ 成群；子群链 $\mathrm{SO}(2)\subset E(2)\subset\mathrm{Sim}(2)\subset\mathrm{Aff}(2)$，每往右约束更松、不变量更少——第 7 章的预演（4.8、4.9）。</li></ul>
+<p>下一章我们放上最后一只"猛兽"：允许<strong>投影</strong>——平行线可以相交，圆可以变抛物线。不变量只剩一个，但它极其顽强：<strong>交比</strong>。</p>
+<hr></div>
 <h2>🧩 本章习题</h2><div class="exercises">
 <div class="exercise"><p class="q"><span class="tag calc">手算</span><strong>题 4.1</strong> 椭圆像</p><p>仿射 $(x,y)\mapsto(3x,2y)$ 把单位圆变成什么椭圆？写出方程，求半轴和面积。</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：$\frac{x^2}{9}+\frac{y^2}{4}=1$，半轴 $3,2$，面积 $\pi\cdot3\cdot2=6\pi$（原圆面积 $\pi$ 乘 $|\det|=3\cdot2=6$）。</p></div></details></div>
 <div class="exercise"><p class="q"><span class="tag calc">手算</span><strong>题 4.2</strong> 剪切的面积</p><p>剪切 $(x,y)\mapsto(x+y,y)$ 把单位圆变成什么？面积多少？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：$\det\begin{pmatrix}1&1\\0&1\end{pmatrix}=1$，**面积不变仍是 $\pi$**。形状是被斜推的椭圆。写方程：令像点 $(u,v)=(x+y,y)$，则 $x=u-v,y=v$，代回 $x^2+y^2=1$ 得 $(u-v)^2+v^2=1$，是倾斜椭圆。</p></div></details></div>
@@ -126,6 +213,10 @@
 <div class="exercise"><p class="q"><span class="tag prove">证明</span><strong>题 4.4</strong> 仿射保中点</p><p>设 $M$ 是 $AB$ 中点。证明 $\mathbf{T}(M)$ 是 $\mathbf{T}(A)\mathbf{T}(B)$ 的中点。</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>提示</em>：中点 $\mathbf{m}=\frac12(\mathbf{a}+\mathbf{b})$ 是仿射组合（系数和 $\frac12+\frac12=1$），仿射保持仿射组合。</p></div></details></div>
 <div class="exercise"><p class="q"><span class="tag calc">应用</span><strong>题 4.5</strong> 椭圆里的弦</p><p>用"椭圆 = 拉伸的圆"证明：椭圆中所有<strong>平行于同一方向</strong>的弦的中点共线（在一条过椭圆中心的直线上）。</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>提示</em>：圆里平行弦中点在过圆心、垂直于弦方向的直径上；仿射保平行、保中点，搬到椭圆仍成立。这条线就是椭圆的"共轭直径"。</p></div></details></div>
 <div class="exercise"><p class="q"><span class="tag adv">进阶</span><strong>题 4.6</strong> 仿射群</p><p>验证两个仿射 $(M_1,\mathbf{t}_1)$ 与 $(M_2,\mathbf{t}_2)$ 的复合是 $(M_2M_1,\,M_2\mathbf{t}_1+\mathbf{t}_2)$，仍是仿射。由此说明全体仿射构成群。</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：$(M_2M_1)$ 仍可逆（$\det M_2M_1=\det M_2\det M_1\ne0$），故是仿射，封闭成立。单位 $(I,0)$、逆 $(M^{-1},-M^{-1}\mathbf t)$ 都在，故成群。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag calc">手算</span><strong>题 4.7</strong> 三对点定仿射</p><p>求把 $(0,0),(1,0),(0,1)$ 映到 $(2,1),(0,1),(2,3)$ 的仿射变换。它其实属于哪一类更"小"的变换？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：$\mathbf b=(1,0)\mapsto\mathbf b'=(-2,0)$，$\mathbf c=(0,1)\mapsto\mathbf c'=(0,2)$，故 $M=\begin{pmatrix}-2&0\\0&2\end{pmatrix}$，$\mathbf t=(2,1)$。$M=2\cdot(-I)$ 是"旋转 $180°$ + 放大 2 倍"——解出来竟是个<strong>相似</strong>（螺旋相似/旋转位似）！仿射基本定理只承诺仿射，碰巧落进子群完全可能。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag calc">手算</span><strong>题 4.8</strong> 主轴与拉伸倍数</p><p>求 $M=\begin{pmatrix}2&1\\1&2\end{pmatrix}$ 的主轴方向与两个拉伸倍数，并验证倍数之积等于 $\det M$。</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：$M(1,1)=(3,3)=3(1,1)$，$M(1,-1)=(1,-1)=(1,-1)$。主轴为直线 $y=x$ 与 $y=-x$（互相垂直 ✓），拉伸倍数 $3$ 与 $1$，乘积 $3=\det M$ ✓。单位圆被拉成半轴 $3$、$1$、主轴沿 $y=x$ 的椭圆。</p>
+<hr>
+<div class="callout tip"><p>📚 <strong>延伸：仿射变换的经典应用题</strong>（椭圆内接三角形最大面积、三角形仿射标准化、梅涅劳斯定理、塞瓦定理、重心 $2:1$，加上<strong>仿射基本定理求矩阵</strong>、<strong>主轴定理分解剪切</strong>，共 7 道），见 <a href="04-仿射变换-习题.md">04-仿射变换-习题.md</a>。它们都用<strong>仿射标准化</strong>——把椭圆变圆、把任意三角形变标准三角形——一两步解决，正是仿射几何"只在乎共线、平行、比例"的威力。</p></div></div></details></div>
 </div>
 <div class="chapter-nav"><a class="prev" href="03.html"><span class="nav-label">← 上一章</span><span class="nav-title">03 · 相似变换</span></a><a class="next" href="05.html"><span class="nav-label">下一章 →</span><span class="nav-title">05 · 射影几何</span></a></div>
   </main>

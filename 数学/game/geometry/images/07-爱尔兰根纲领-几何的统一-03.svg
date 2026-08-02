@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：非欧三巨头——三种几何里的三角形内角和
+     左：球面几何（"直线"=大圆，边向外鼓）内角和 > 180°；
+     中：欧氏几何（直边三角形）内角和 = 180°；
+     右：双曲几何（庞加莱圆盘，边垂直于边界、向内凹）内角和 < 180°。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 260" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+  <!-- ================= 左：球面几何 ================= -->
+  <text x="130" y="28" text-anchor="middle" fill="#374151" font-size="16">球面几何</text>
+  <circle cx="130" cy="125" r="85" fill="#eef4fc" stroke="#1f3a5f" stroke-width="2"/>
+  <!-- 赤道（虚线椭圆，示意球面） -->
+  <ellipse cx="130" cy="125" rx="85" ry="24" fill="none" stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <!-- 球面三角形：三条大圆弧，边向外鼓 -->
+  <path d="M 130 55 Q 48 108 62 168" fill="none" stroke="#1f3a5f" stroke-width="2.5"/>
+  <path d="M 130 55 Q 212 108 198 168" fill="none" stroke="#1f3a5f" stroke-width="2.5"/>
+  <path d="M 62 168 Q 130 205 198 168" fill="none" stroke="#1f3a5f" stroke-width="2.5"/>
+  <circle cx="130" cy="55" r="3.5" fill="#1f3a5f"/>
+  <circle cx="62" cy="168" r="3.5" fill="#1f3a5f"/>
+  <circle cx="198" cy="168" r="3.5" fill="#1f3a5f"/>
+  <text x="130" y="244" text-anchor="middle" fill="#374151" font-size="15">内角和 &gt; 180°</text>
+
+  <!-- ================= 中：欧氏几何 ================= -->
+  <text x="390" y="28" text-anchor="middle" fill="#374151" font-size="16">欧氏几何</text>
+  <polygon points="390,55 322,168 458,168" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="390" cy="55" r="3.5" fill="#1f3a5f"/>
+  <circle cx="322" cy="168" r="3.5" fill="#1f3a5f"/>
+  <circle cx="458" cy="168" r="3.5" fill="#1f3a5f"/>
+  <text x="390" y="244" text-anchor="middle" fill="#374151" font-size="15">内角和 = 180°</text>
+
+  <!-- ================= 右：双曲几何（庞加莱圆盘） ================= -->
+  <text x="650" y="28" text-anchor="middle" fill="#374151" font-size="16">双曲几何（庞加莱圆盘）</text>
+  <circle cx="650" cy="125" r="85" fill="#f5f5f4" stroke="#1f3a5f" stroke-width="2"/>
+  <!-- 双曲三角形：边向内凹（圆弧垂直于边界圆） -->
+  <path d="M 650 60 Q 636 120 595 168" fill="none" stroke="#1f3a5f" stroke-width="2.5"/>
+  <path d="M 650 60 Q 664 120 705 168" fill="none" stroke="#1f3a5f" stroke-width="2.5"/>
+  <path d="M 595 168 Q 650 148 705 168" fill="none" stroke="#1f3a5f" stroke-width="2.5"/>
+  <circle cx="650" cy="60" r="3.5" fill="#1f3a5f"/>
+  <circle cx="595" cy="168" r="3.5" fill="#1f3a5f"/>
+  <circle cx="705" cy="168" r="3.5" fill="#1f3a5f"/>
+  <text x="650" y="244" text-anchor="middle" fill="#374151" font-size="15">内角和 &lt; 180°</text>
+</svg>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 手写 SVG：正方形 ∠EAF=45°（题2）。A(110,80) B(350,80) C(350,320) D(110,320)；
-     E(350,144)∈BC, F(249,320)∈CD, ∠EAF=45°；ΔABE 绕 A 逆时针 90°(B→D) 到 ΔADG，G(46,320)∈DC 延长线；
-     ΔAEF≅ΔAGF(SAS) ⟹ EF=GF=GD+DF=BE+DF。 -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 40 430 320" text-rendering="geometricPrecision"
+     E(350,144)∈BC, F(249,320)∈CD, ∠EAF=45°(精确)；ΔABE 绕 A 旋转 90°(B→D) 到 ΔADG，G(46,320)∈DC 延长线；
+     刻度：BE=DG(单刻)、AE=AG(双刻)；∠GAF=45°(红弧)；ΔAEF≅ΔAGF(SAS) ⟹ EF=GF=GD+DF=BE+DF。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 40 430 330" text-rendering="geometricPrecision"
      font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
   <defs>
     <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
@@ -24,13 +24,25 @@
   <line x1="350" y1="144" x2="249" y2="320" stroke="#c0463a" stroke-width="2.6"/>
   <line x1="249" y1="320" x2="46" y2="320" stroke="#c0463a" stroke-width="2.2" stroke-dasharray="6 4"/>
 
+  <!-- 等长刻度：BE=DG（单刻，红） -->
+  <line x1="344" y1="112" x2="356" y2="112" stroke="#c0463a" stroke-width="2"/>
+  <line x1="78" y1="313" x2="78" y2="327" stroke="#c0463a" stroke-width="2"/>
+  <!-- 等长刻度：AE=AG（双刻，灰） -->
+  <line x1="226.9" y1="103.3" x2="233.1" y2="120.7" stroke="#6b7280" stroke-width="1.8"/>
+  <line x1="231.5" y1="102" x2="237.7" y2="119.4" stroke="#6b7280" stroke-width="1.8"/>
+  <line x1="69.3" y1="196.6" x2="86.7" y2="201.1" stroke="#6b7280" stroke-width="1.8"/>
+  <line x1="71.6" y1="202.4" x2="89" y2="206.9" stroke="#6b7280" stroke-width="1.8"/>
+
   <!-- 旋转弧 B→D（绕 A，90°） -->
   <path d="M150,80 A40,40 0 0 1 110,120" fill="none" stroke="#6b7280" stroke-width="2" marker-end="url(#arr)"/>
-  <text x="158" y="116" fill="#6b7280" font-size="13">旋转 90°</text>
+  <text x="146" y="68" fill="#6b7280" font-size="13">旋转 90°</text>
 
-  <!-- ∠EAF=45° 标注（AE 方向 14.9° 到 AF 方向 59.9°） -->
+  <!-- ∠EAF=45° 标注（蓝弧，14.9°→59.9°） -->
   <path d="M148.6,90.3 A40,40 0 0 1 130.1,114.6" fill="none" stroke="#1f3a5f" stroke-width="1.6"/>
-  <text x="156" y="104" fill="#1f3a5f" font-size="13">45°</text>
+  <text x="152" y="103" fill="#1f3a5f" font-size="13">45°</text>
+  <!-- ∠GAF=45° 标注（红弧，59.9°→105°） -->
+  <path d="M130.1,114.6 A40,40 0 0 1 99.6,118.6" fill="none" stroke="#c0463a" stroke-width="1.6"/>
+  <text x="106" y="140" fill="#c0463a" font-size="13">45°</text>
 
   <!-- 顶点标签 -->
   <text x="102" y="74" text-anchor="end" fill="#1f3a5f" font-size="15" font-style="italic">A</text>

@@ -23,7 +23,7 @@
 <p>克莱因 1872 年的纲领，表面上是几何学内部的一次整理。但"<strong>用变换群和不变量来组织一门学科</strong>"这套思想，像一粒种子，在接下来 150 年里长成了参天大树，荫蔽了数学和物理学的半个版图。这一章我们走到前沿，看看它结出了什么果。</p>
 <h2 id="sec-9-1"><span class="hn">9.1</span>不变量理论：19 世纪代数的皇冠</h2><p>"找不变量"一旦被提炼成方法，立刻在<strong>代数</strong>里引爆了一场运动——<strong>不变量理论</strong>（invariant theory）。</p>
 <p>问题是这样的：给一个多项式（或一组多项式），在某些变换（通常是变量替换 / 线性变换）下，它的哪些组合<strong>保持不变</strong>？</p>
-<div class="callout calc"><p>✏️ <strong>小例子</strong>：二次型 $Q=ax^2+bxy+cy^2$。在变量替换 $x,y\to$（线性变换）下，系数 $a,b,c$ 都会变。但判别式 $\Delta=b^2-4ac$ 这个组合<strong>不变</strong>（差一个因子）。$\Delta$ 就是二次型的一个不变量——它决定了曲线是椭圆（$\Delta<0$）、抛物线（$\Delta=0$）还是双曲线（$\Delta>0$），而这个分类在坐标变换下不变。</p></div>
+<div class="callout calc"><p>✏️ <strong>小例子</strong>：二次型 $Q=ax^2+bxy+cy^2$。在变量替换 $x,y\to$（线性变换）下，系数 $a,b,c$ 都会变。但判别式 $\Delta=b^2-4ac$ 这个组合<strong>几乎不变</strong>——它只被乘上替换矩阵行列式的<strong>平方</strong>（一个正数因子），所以 $\Delta$ 的<strong>符号</strong>纹丝不动。正是这个符号决定了曲线是椭圆（$\Delta<0$）、抛物线（$\Delta=0$）还是双曲线（$\Delta>0$），而这个分类因此与坐标选法无关。</p></div>
 <p>19 世纪后半叶，<strong>凯莱、西尔维斯特、戈尔丹</strong>等人狂热地计算各种不变量。戈尔丹证明了"二元型的不变量有限生成"（1870，"不变量之王"）。<strong>希尔伯特</strong>（David Hilbert, 1862–1943）在 1890 用抽象的存在性论证（而非构造）一举证明了<strong>一般情形的不变量有限基定理</strong>，宣告了这门学科的成熟——也开创了现代抽象代数的方法论。</p>
 <div class="callout insight"><p>💡 不变量理论后来演变为<strong>代数几何</strong>和<strong>代数不变量论</strong>，是今天表示论、几何不变量论（Mumford）的祖先。一条从克莱因到今天的清晰血脉。</p></div>
 <h2 id="sec-9-2"><span class="hn">9.2</span>代数拓扑：把拓扑不变量"代数化"</h2><p>拓扑（第 7 章层级最右端）丢失了几乎所有度量，只剩"最顽固"的不变量。20 世纪初，<strong>庞加莱</strong>（Henri Poincaré）提出了一个天才想法：<strong>给拓扑空间配上代数对象（群），让拓扑不变量变成代数不变量</strong>。这就是<strong>代数拓扑</strong>。</p>
@@ -39,6 +39,10 @@
 <p>爱因斯坦的<strong>狭义相对论</strong>（1905）说：物理定律在所有惯性系里形式相同。用变换语言说——<strong>物理定律在洛伦兹变换群下不变</strong>。</p>
 <p>洛伦兹变换（匀速运动 + 旋转 + 平移）是<strong>闵可夫斯基四维时空</strong>的"等距变换"。牛顿力学用的是伽利略变换群，相对论换成洛伦兹群——<strong>换变换群，就是换物理</strong>。</p>
 <div class="callout insight"><p>💡 <strong>克莱因的胜利</strong>：相对论把"几何 = 变换群 + 不变量"从空间推广到<strong>时空</strong>。时空有哪种等距群，就有什么样的几何（欧氏 / 闵氏 / 黎曼）。爱因斯坦后来用<strong>黎曼几何</strong>（广义相对论，1915）描述引力，本质仍是"找时空对称性"。</p></div>
+<div class="callout calc"><p>✏️ <strong>不变量叫"时空间隔"。</strong> 洛伦兹群下到底什么不变？不是空间距离，也不是时间间隔——而是带<strong>减号</strong>的"间隔"</p>
+<div class="eq-display">$$\Delta s^2=c^2t^2-x^2-y^2-z^2.$$</div>
+<p>那个减号，就是闵可夫斯基时空和欧氏空间的<strong>唯一</strong>区别（欧氏是四个 $+$）。手算感受一下：一束光从原点出发，$1$ 秒走 $c$ 米，事件 $(t,x)=(1,c)$ 的间隔 $\Delta s^2=c^2-c^2=0$。换一个高速运动的惯性系，$(t,x)$ 的数值都变了，但 $\Delta s^2$ **还是 $0$<strong>。</strong>"光速不变"本质上就是"光的间隔 $\Delta s^2=0$ 在洛伦兹群下不变"**——克莱因模板里那个"不变量"，在物理学里就是光速不变原理。</p></div>
+<div class="figure"><img src="../images/09-影响与意义-01.svg" alt="时空图上的光锥：光的轨迹 Δs²=0 在任何惯性系下不变，双曲线是等间隔曲线" style="max-width:560px"></div>
 <h3 id="诺特定理-对称-守恒">诺特定理：对称 ↔ 守恒</h3>
 <p><strong>埃米·诺特</strong>（Emmy Noether, 1882–1935）在 1915 证明了一个定理，被誉为"物理学最美的定理"：</p>
 <div class="callout tip"><p><strong>每一种连续对称性，对应一个守恒律。</strong></p></div>
@@ -49,7 +53,8 @@
 <p>若系统有<strong>空间平移对称</strong>，则 $L$ 不显含 $q$（$\partial L/\partial q=0$），上式变成</p>
 <div class="eq-display">$$\frac{d}{dt}\underbrace{\frac{\partial L}{\partial\dot q}}_{\text{动量 }p}=0,$$</div>
 <p>即动量 $p$ 守恒。同理，<strong>时间平移对称</strong>（$L$ 不显含 $t$）$\Longrightarrow$ 能量守恒。</p>
-<p>严格的诺特定理用变分法（对作用量 $S=\int L\,dt$ 施加连续变换并令变分为零），但<strong>核心就是这一行</strong>：对称让某个导数为零，零导数就是守恒。守恒律由此从"经验规律"升级为"对称性的必然推论"。</p></div>
+<p>严格的诺特定理用变分法（对作用量 $S=\int L\,dt$ 施加连续变换并令变分为零），但<strong>核心就是这一行</strong>：对称让某个导数为零，零导数就是守恒。守恒律由此从“经验规律”升级为“对称性的必然推论”。</p></div>
+<div class="callout insight"><p>💡 <strong>延伸专题</strong>：诺特是谁？一位半生没有正式教职、被性别与种族门槛挡在门外的女数学家，如何给出“物理学最美的定理”，又如何单枪匹马重塑了抽象代数。见 <a href="09-侧栏-诺特.md">诺特：对称即守恒</a>。</p></div>
 <h3 id="规范对称与标准模型">规范对称与标准模型</h3>
 <p>20 世纪后半叶，物理学家发现<strong>基本粒子</strong>也能用对称群分类。<strong>粒子物理标准模型</strong>的整个结构，由一个规范对称群决定：</p>
 <div class="eq-display">$$\mathrm{SU}(3)\times\mathrm{SU}(2)\times\mathrm{U}(1)$$</div>
@@ -73,10 +78,12 @@
 <div class="callout calc"><p>✏️ <strong>最后一句</strong>：下次你看到一个"对称"的图案、一个"守恒"的物理量、一个"鲁棒"的特征——记住，它们背后都是同一个百年前的洞见：<strong>盯住变化中不变的东西。</strong> 这就是从变换看几何留给世界的礼物。</p></div>
 <hr>
 <h2>🧩 本章习题（开放讨论）</h2><div class="exercises">
-<div class="exercise"><p class="q"><span class="tag calc">物理</span><strong>题 9.1</strong> 诺特定理</p><p>一个自由下落的系统，"时间反演"（$t\to -t$）是不是它的对称？哪个守恒律和它有关？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>讨论</em>：自由下落在时间反演下不变（落体运动倒过来看仍是合法运动）。时间平移对称 → 能量守恒。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag calc">物理</span><strong>题 9.1</strong> 诺特定理</p><p>一个自由下落的系统，"时间反演"（$t\to -t$）是不是它的对称？它对应哪个守恒律？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>讨论</em>：自由下落在时间反演下不变（落体运动倒过来放仍是一段合法运动），所以时间反演<strong>是</strong>它的对称。但它<strong>不对应任何守恒律</strong>——时间反演是<strong>离散</strong>对称（只做一次、没有"参数"），而诺特定理只对<strong>连续</strong>对称（带连续参数的变换族，如"平移任意 $t_0$ 秒"）发言。真正对应守恒律的是<strong>时间平移</strong>对称（规律不显含时刻）$\to$ <strong>能量</strong>守恒。这道题的关键教训：别把"对称"和"诺特守恒律"自动挂钩——<strong>只有连续对称才有守恒量</strong>。</p></div></details></div>
 <div class="exercise"><p class="q"><span class="tag calc">视觉</span><strong>题 9.2</strong> 不变特征</p><p>设计一个"平移 + 旋转 + 缩放"都不变的图像特征。提示：先对图像做某种"规范化"（如把质心移到原点、主轴对齐），再提取特征。</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>讨论</em>：这是 SIFT、矩不变量等算法的核心思路——<strong>先把变换"消除掉"，再在规范化的对象上提取特征</strong>。</p></div></details></div>
 <div class="exercise"><p class="q"><span class="tag think">思考</span><strong>题 9.3</strong> 化学与对称</p><p>为什么水分子（$H_2O$，对称群 $C_{2v}$，4 元）和过氧化氢分子（$H_2O_2$，对称性更低）的红外光谱"峰"的数量不同？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>讨论</em>：对称性越高的分子，越多振动模式因对称而"简并"或"禁戒"，谱峰越少。<strong>对称群的结构，直接编码在光谱里。</strong></p></div></details></div>
 <div class="exercise"><p class="q"><span class="tag think">总结</span><strong>题 9.4</strong> 回到引子</p><p>重读第 1 章那道"哪个三角形是同一个"的题。现在用变换几何的语言重新回答：什么叫"同一个"？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：两个图形"同一个"（在某种几何里），当且仅当存在该几何的变换群里的一个变换，把一个映成另一个。"同一个"是<strong>相对于变换群</strong>的概念——同一对图形，在欧氏里可能"不同"（不全等），在拓扑里可能"相同"（同胚）。<strong>"相同"不是绝对的，是相对于你选的对称标准的。</strong></p>
+<hr>
+<div class="callout tip"><p>📚 <strong>延伸：变换思想的跨学科应用题</strong>（时空间隔不变、诺特对称↔守恒配对、同调群数洞、判别式分类曲线、设计不变特征，共 5 道），见 <a href="09-影响与意义-习题.md">09-影响与意义-习题.md</a>。它们把"盯住变化中不变的东西"这套思想从几何带到物理、拓扑、代数、工程。</p></div>
 <hr>
 <div class="callout tip"><p>🎓 <strong>结语</strong>：从欧几里得的静止图形，到克莱因的运动眼光，再到诺特的对称守恒——人类花了 2200 年，才看清"几何是关于变换的"。这套思维一旦掌握，你看世界的眼光就变了：不再问"这个东西是什么"，而问"<strong>它在变化中守住了什么</strong>"。这就是数学给的最深刻的礼物之一。</p></div>
 <hr>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：两个同心圆反演的复合 = 位似。O=(220,240)，Γ₁ 半径 60（R₁=1）、Γ₂ 半径 120（R₂=2）。
+     P 距 O 为 0.8（图上 48px）：I₁(P) 距 O 为 1/0.8=1.25（75px），再经 I₂ 得 Q 距 O 为 4/1.25=3.2（192px）。
+     净效果：OQ = 4·OP，比率 R₂²/R₁²=4 的位似（一个相似变换，而非反演）。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="75 95 400 290" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- 两个同心反演圆 -->
+  <circle cx="220" cy="240" r="60" fill="none" stroke="#9aa7b8" stroke-width="2.5"/>
+  <text x="182" y="192" text-anchor="middle" fill="#6b7280" font-size="14">Γ₁（R₁=1）</text>
+  <circle cx="220" cy="240" r="120" fill="none" stroke="#9aa7b8" stroke-width="2.5"/>
+  <text x="132" y="132" text-anchor="middle" fill="#6b7280" font-size="14">Γ₂（R₂=2）</text>
+
+  <!-- 射线 O → P → I₁(P) → Q -->
+  <line x1="220" y1="240" x2="398" y2="137" stroke="#6b7280" stroke-width="1.6" stroke-dasharray="5 5"/>
+
+  <!-- 两步：P 经 I₁ 到 M，再经 I₂ 到 Q（箭头沿射线指示方向） -->
+  <line x1="270" y1="211" x2="280" y2="205" stroke="#b4562a" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="272" y="190" text-anchor="middle" fill="#b4562a" font-size="13">I₁</text>
+  <line x1="305" y1="191" x2="366" y2="160" stroke="#b4562a" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="335" y="162" text-anchor="middle" fill="#b4562a" font-size="13">I₂</text>
+
+  <!-- 点 -->
+  <circle cx="220" cy="240" r="2.8" fill="#374151"/>
+  <text x="212" y="260" text-anchor="end" fill="#374151" font-size="15">O</text>
+  <circle cx="261.6" cy="216" r="3" fill="#1f3a5f"/>
+  <text x="250" y="213" text-anchor="end" fill="#1f3a5f" font-size="15">P</text>
+  <circle cx="285" cy="202.5" r="3" fill="#6b7280"/>
+  <text x="300" y="232" text-anchor="middle" fill="#6b7280" font-size="13">I₁(P)</text>
+  <circle cx="386.3" cy="144" r="3.2" fill="#1f3a5f"/>
+  <text x="402" y="136" text-anchor="middle" fill="#1f3a5f" font-size="15">Q</text>
+
+  <!-- 结论标注 -->
+  <text x="275" y="372" text-anchor="middle" fill="#374151" font-size="15">I₂∘I₁ = 以 O 为心的位似，比率 R₂²/R₁² = 4</text>
+</svg>

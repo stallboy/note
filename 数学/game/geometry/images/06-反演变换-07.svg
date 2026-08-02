@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 手写 SVG：球极投影（截面图）。球心 (210,190)、半径 110；N=(210,80) 北极、S=(210,300) 南极；
+     平面为直线 y=300。从 N 出发的投影线把球面上的 Q=(294.3,260.7) 投到平面上的 P=(312.7,300)。
+     Q*=(294.3,119.3) 是 Q 关于赤道面的镜像；它的投影 P′ 落在很远处（虚线方向）——
+     球面上的"上下翻面"，正是平面上的反演"里外翻面"。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="90 40 330 320" text-rendering="geometricPrecision"
+     font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- 球（截面圆）与赤道 -->
+  <circle cx="210" cy="190" r="110" fill="#dbe9fb" fill-opacity="0.4" stroke="#1f3a5f" stroke-width="2.5"/>
+  <line x1="100" y1="190" x2="320" y2="190" stroke="#9aa7b8" stroke-width="1.6" stroke-dasharray="5 5"/>
+  <text x="104" y="182" text-anchor="start" fill="#6b7280" font-size="13">赤道面</text>
+
+  <!-- 南北极与轴 -->
+  <line x1="210" y1="80" x2="210" y2="300" stroke="#9aa7b8" stroke-width="1.4" stroke-dasharray="4 5"/>
+  <circle cx="210" cy="80" r="3.2" fill="#374151"/>
+  <text x="200" y="72" text-anchor="end" fill="#374151" font-size="15">N（北极 ↔ ∞）</text>
+  <circle cx="210" cy="300" r="3" fill="#374151"/>
+  <text x="200" y="322" text-anchor="end" fill="#374151" font-size="15">S（南极 ↔ O）</text>
+
+  <!-- 平面 -->
+  <line x1="100" y1="300" x2="400" y2="300" stroke="#374151" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="394" y="322" text-anchor="end" fill="#374151" font-size="15">平面</text>
+
+  <!-- Q 与它的赤道镜像 Q* -->
+  <circle cx="294.3" cy="260.7" r="3.2" fill="#1f3a5f"/>
+  <text x="306" y="268" text-anchor="start" fill="#1f3a5f" font-size="15">Q</text>
+  <circle cx="294.3" cy="119.3" r="3.2" fill="#b4562a"/>
+  <text x="306" y="116" text-anchor="start" fill="#b4562a" font-size="15">Q*（镜像）</text>
+  <line x1="294.3" y1="260.7" x2="294.3" y2="119.3" stroke="#b4562a" stroke-width="1.4" stroke-dasharray="3 4"/>
+
+  <!-- 投影线 N→Q→P（实线，带箭头） -->
+  <line x1="210" y1="80" x2="312.7" y2="300" stroke="#1f3a5f" stroke-width="1.8"/>
+  <circle cx="312.7" cy="300" r="3.4" fill="#1f3a5f"/>
+  <text x="320" y="322" text-anchor="middle" fill="#1f3a5f" font-size="15">P</text>
+
+  <!-- 投影线 N→Q*（虚线，指向远处：P′ 落在图外） -->
+  <line x1="210" y1="80" x2="395.4" y2="166.5" stroke="#b4562a" stroke-width="1.6" stroke-dasharray="5 5" marker-end="url(#arr)"/>
+  <text x="392" y="158" text-anchor="end" fill="#b4562a" font-size="13">P′ 在很远处</text>
+</svg>

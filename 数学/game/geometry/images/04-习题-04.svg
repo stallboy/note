@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 手写 SVG：塞瓦定理（题4）。△ABC：A(200,60) B(60,300) C(360,300)；内点 P(200,200)；
-     AP 交 BC 于 D(200,300)，BP 交 CA 于 E(263,155)，CP 交 AB 于 F(140,163)。
+     三条塞瓦线恰为：A→D(200,300)、B→E(263.2,154.8)、C→F(140.2,162.6)，均过 P。
      (BD/DC)·(CE/EA)·(AF/FB) = 1。 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 400 320" text-rendering="geometricPrecision"
      font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
 
+  <text x="415" y="44" text-anchor="end" fill="#c0463a" font-size="13">(BD/DC)·(CE/EA)·(AF/FB) = 1</text>
+
   <!-- △ABC -->
   <polygon points="200,60 60,300 360,300" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5" stroke-linejoin="round"/>
 
-  <!-- 三条共点线 AP, BP, CP（红） -->
-  <line x1="200" y1="60"  x2="200" y2="300" stroke="#c0463a" stroke-width="2.2"/>
-  <line x1="60"  y1="300" x2="360" y2="60"  stroke="#c0463a" stroke-width="2.2"/>
-  <line x1="360" y1="300" x2="60"  y2="300" stroke="#c0463a" stroke-width="2.2" opacity="0"/>
-  <line x1="360" y1="300" x2="140" y2="163" stroke="#c0463a" stroke-width="2.2"/>
+  <!-- 三条共点塞瓦线（红）：顶点 → 对边垂足点，均过 P(200,200) -->
+  <line x1="200" y1="60"  x2="200" y2="300"   stroke="#c0463a" stroke-width="2.2"/>
+  <line x1="60"  y1="300" x2="263.2" y2="154.8" stroke="#c0463a" stroke-width="2.2"/>
+  <line x1="360" y1="300" x2="140.2" y2="162.6" stroke="#c0463a" stroke-width="2.2"/>
 
   <!-- 内点 P -->
   <circle cx="200" cy="200" r="4.5" fill="#c0463a"/>
-  <text x="208" y="196" fill="#c0463a" font-size="15" font-style="italic">P</text>
+  <text x="214" y="207" fill="#c0463a" font-size="15" font-style="italic">P</text>
 
   <!-- D, E, F -->
   <circle cx="200" cy="300" r="4" fill="#374151"/>
   <text x="200" y="318" text-anchor="middle" fill="#374151" font-size="14" font-style="italic">D</text>
-  <circle cx="263" cy="155" r="4" fill="#374151"/>
-  <text x="271" y="151" fill="#374151" font-size="14" font-style="italic">E</text>
-  <circle cx="140" cy="163" r="4" fill="#374151"/>
-  <text x="132" y="158" text-anchor="end" fill="#374151" font-size="14" font-style="italic">F</text>
+  <circle cx="263.2" cy="154.8" r="4" fill="#374151"/>
+  <text x="274" y="150" fill="#374151" font-size="14" font-style="italic">E</text>
+  <circle cx="140.2" cy="162.6" r="4" fill="#374151"/>
+  <text x="130" y="158" text-anchor="end" fill="#374151" font-size="14" font-style="italic">F</text>
 
   <text x="200" y="52" text-anchor="middle" fill="#1f3a5f" font-size="16" font-style="italic">A</text>
   <text x="52" y="316" text-anchor="end" fill="#1f3a5f" font-size="16" font-style="italic">B</text>
   <text x="368" y="316" fill="#1f3a5f" font-size="16" font-style="italic">C</text>
-
-  <text x="40" y="100" fill="#c0463a" font-size="13">(BD/DC)·(CE/EA)·(AF/FB) = 1</text>
 </svg>

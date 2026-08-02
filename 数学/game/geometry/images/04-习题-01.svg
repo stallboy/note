@@ -1,20 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 手写 SVG：椭圆内接最大三角形（题1）。椭圆中心(200,180)，半轴 a=150,b=100；
-     圆内接正三角形(顶点 90°,210°,330°)经仿射 (x,y)→(ax,by) 得椭圆内接最大三角形：
-     (200,80) (70,230) (330,230)。最大面积 = (3√3/4)·ab。 -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 380 320" text-rendering="geometricPrecision"
+<!-- 手写 SVG：椭圆内接最大三角形 = 圆内接正三角形的仿射像（题1）。
+     左：单位圆(圆心(140,190), r=110)内接正三角形(顶点 90°,210°,330°)：
+         (140,80) (44.7,245) (235.3,245)，面积 3√3/4。
+     右：仿射 (x,y)→(ax,by) 得椭圆(中心(480,190), rx=130, ry=85)，
+         三角形像 (480,105) (367.4,232.5) (592.6,232.5)，最大面积 (3√3/4)·ab。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 30 660 300" text-rendering="geometricPrecision"
      font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
 
-  <!-- 椭圆 -->
-  <ellipse cx="200" cy="180" rx="150" ry="100" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5"/>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#374151"/>
+    </marker>
+  </defs>
 
-  <!-- 内接最大三角形（红） -->
-  <polygon points="200,80 70,230 330,230" fill="#f4d9d6" stroke="#c0463a" stroke-width="2.6" stroke-linejoin="round"/>
+  <!-- 左：单位圆 + 内接正三角形 -->
+  <circle cx="140" cy="190" r="110" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5"/>
+  <polygon points="140,80 44.7,245 235.3,245" fill="#f4d9d6" stroke="#c0463a" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="140" cy="190" r="3" fill="#374151"/>
+  <text x="140" y="58" text-anchor="middle" fill="#1f3a5f" font-size="13">单位圆 x² + y² = 1</text>
+  <text x="140" y="316" text-anchor="middle" fill="#c0463a" font-size="13">内接正三角形：面积 3√3 / 4</text>
 
-  <!-- 中心 -->
-  <circle cx="200" cy="180" r="3" fill="#374151"/>
+  <!-- 仿射箭头 -->
+  <line x1="272" y1="190" x2="348" y2="190" stroke="#374151" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="310" y="158" text-anchor="middle" fill="#374151" font-size="12.5">仿射 (x,y)</text>
+  <text x="310" y="174" text-anchor="middle" fill="#374151" font-size="12.5">↦ (ax, by)</text>
+  <text x="310" y="214" text-anchor="middle" fill="#6b7280" font-size="12.5">面积 ×ab</text>
 
-  <text x="200" y="60" text-anchor="middle" fill="#1f3a5f" font-size="13">椭圆 x²/a² + y²/b² = 1</text>
-  <text x="200" y="280" text-anchor="middle" fill="#c0463a" font-size="13">最大面积 = (3√3 / 4)·ab</text>
-  <text x="200" y="300" text-anchor="middle" fill="#6b7280" font-size="12">（圆内接正三角形的仿射像）</text>
+  <!-- 右：椭圆 + 内接最大三角形 -->
+  <ellipse cx="480" cy="190" rx="130" ry="85" fill="#dbe9fb" stroke="#1f3a5f" stroke-width="2.5"/>
+  <polygon points="480,105 367.4,232.5 592.6,232.5" fill="#f4d9d6" stroke="#c0463a" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="480" cy="190" r="3" fill="#374151"/>
+  <text x="480" y="58" text-anchor="middle" fill="#1f3a5f" font-size="13">椭圆 x²/a² + y²/b² = 1</text>
+  <text x="480" y="316" text-anchor="middle" fill="#c0463a" font-size="13">内接最大三角形：面积 (3√3 / 4)·ab</text>
 </svg>

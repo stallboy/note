@@ -30,22 +30,7 @@
 <div class="callout insight"><p>💡 一个图形越"对称"，对称群越大。圆的对称群<strong>无穷大</strong>（任意角度旋转、任意直径反射都让圆不变）；任意三角形的对称群只有恒等（如果它不等边不等腰）。</p></div>
 <hr>
 <h2 id="sec-8-2"><span class="hn">8.2</span>手算：等边三角形的对称群 $D_3$</h2><div class="viz" data-viz="dihedral"></div><div class="viz" data-viz="cayley"></div><p>给等边三角形三个顶点编号：$1$（顶）、$2$（左下）、$3$（右下）。</p>
-<p>![](images/08-对称性与群-01.svg)</p>
-<details class="fold"><summary>📐 tikz 源码</summary><div class="fold-body"><pre><code class="language-latex">\begin{tikzpicture}[scale=3.5, every node/.style={font=\normalsize}]
-  \coordinate (v1) at (0, 1);
-  \coordinate (v2) at (-0.866, -0.5);
-  \coordinate (v3) at ( 0.866, -0.5);
-  \draw[blue, very thick, fill=blue!8] (v1) -- (v2) -- (v3) -- cycle;
-  \draw[dashed, red, very thick] (v1) -- ( 0.000, -0.5);
-  \draw[dashed, red, very thick] (v2) -- ( 0.433,  0.25);
-  \draw[dashed, red, very thick] (v3) -- (-0.433,  0.25);
-  \fill (v1) circle (3pt) node[above] {1};
-  \fill (v2) circle (3pt) node[below left] {2};
-  \fill (v3) circle (3pt) node[below right] {3};
-  \fill (0,0) circle (2pt);
-  \draw[-&gt;, orange!80!black, very thick] (15:0.32) arc (15:135:0.32);
-  \node[orange!80!black] at (0.62,0.62) {$r$};
-\end{tikzpicture}</code></pre></div></details>
+<div class="figure"><img src="../images/08-对称性与群-01.svg" alt="" style="max-width:560px"></div>
 <p>每个对称变换都把三个顶点<strong>重新排列</strong>——所以可以用"置换"记号记录。比如 $(1\,2\,3)$ 表示"$1\to2\to3\to1$ 的轮换"。</p>
 <h3 id="旋转-3-个">旋转（3 个）</h3>
 <div class="table-wrap"><table><thead><tr><th>变换</th><th>置换</th><th>含义</th></tr></thead><tbody><tr><td>转 $0°$（恒等 $e$）</td><td>$()$</td><td>不动</td></tr><tr><td>转 $120°$（$r$）</td><td>$(1\,2\,3)$</td><td>$1\to2,2\to3,3\to1$</td></tr><tr><td>转 $240°$（$r^2$）</td><td>$(1\,3\,2)$</td><td>再转一次</td></tr></tbody></table></div>
@@ -71,13 +56,22 @@
 <h2 id="sec-8-4"><span class="hn">8.4</span>对称群揭示"结构"</h2><p>对称群不只是"数对称有多少"，它<strong>编码了图形的全部对称结构</strong>。比如：</p>
 <ul><li><strong>圆</strong>的对称群是无穷的（含所有旋转和反射），叫 $O(2)$。圆是"最对称"的平面图形。</li><li><strong>长方形（非正方形）</strong>的对称群只有 4 个元素：恒等、转 $180°$、两条中轴反射。它"不如"正方形对称。</li><li><strong>任意三角形</strong>的对称群只有恒等（除非等腰/等边）。</li></ul>
 <div class="callout insight"><p>💡 <strong>思想</strong>：<strong>对称群的大小和结构，是图形的"指纹"。</strong> 两个图形"对称等价"当且仅当它们的对称群同构。这就是为什么化学家用对称群分类分子（水分子 $C_{2v}$，甲烷 $T_d$，苯 $D_{6h}$……），物理学家用对称群分类粒子。</p></div>
+<h3 id="对称不必-画得出-图自同构">对称不必"画得出"：图自同构</h3>
+<p>对称群甚至不要求图形是"几何的"。考虑一个<strong>图</strong>（graph）——只有<strong>顶点</strong>和连接顶点的<strong>边</strong>，没有坐标、没有长度、没有角度。它的"对称"叫<strong>图自同构</strong>：</p>
+<div class="callout def"><p>🎯 <strong>定义</strong>：图自同构是一种<strong>给顶点重新编号</strong>的方式，要求<strong>谁和谁相连</strong>这件事完全不变。一个图的所有自同构组成它的自同构群 $\mathrm{Aut}(G)$——就是它的"对称群"。</p></div>
+<p>**手算：三个顶点连成一条链 $A-B-C$**（$B$ 在中间）。$B$ 是唯一连了<strong>两条边</strong>的点，$A$、$C$ 各连一条。自同构必须保持"连了几条边"（<strong>度</strong>）这个量，所以 $B$ 钉死不动，只能交换 $A\leftrightarrow C$。于是 $\mathrm{Aut}(A\text{-}B\text{-}C)$ 只有 <strong>2</strong> 个元素——恰好对应"把线段关于中点翻转"。</p>
+<p><strong>最妙的对比：图会"忘记"长度。</strong> 四个顶点围成一圈 $C_4$，无论画成<strong>正方形</strong>还是<strong>长方形</strong>，作为"图"是同一个（图只记"相邻不相邻"，忘了边长）。但：</p>
+<div class="table-wrap"><table><thead><tr><th></th><th>刚体对称（保距离）</th><th>图自同构（只保连接）</th></tr></thead><tbody><tr><td>正方形 $C_4$</td><td>$8$ 个 ($D_4$)</td><td>$8$ 个</td></tr><tr><td><strong>长方形</strong> $C_4$</td><td>**$4$ 个** ($D_2$)</td><td>**$8$ 个**</td></tr></tbody></table></div>
+<p>长方形在欧氏几何里只有 4 个对称（两条邻边不等长，转 $90°$ 对不上），但<strong>图把长度忘了</strong>，所以在图的眼里长方形 = 正方形，自同构群也是 8 个。这正是第 7.4 节"群越大，不变量越少"的活样本：<strong>忘掉的性质越多（这里忘了距离），允许的变换越多</strong>。</p>
+<div class="callout insight"><p>💡 图自同构群是图的"指纹"，而它<strong>不必画得出图</strong>——所以化学家用它研究分子骨架（哪些原子地位等价）、计算机科学家用它分析网络（哪些节点结构相同）、社交平台用它识别"角色相同"的用户。<strong>只要对象之间有"连接关系"，它就能当克莱因意义上的"地"</strong>——对称与不变量照样成立。</p></div>
 <hr>
 <h2 id="sec-8-5"><span class="hn">8.5</span>与伽罗瓦理论的深刻类比</h2><p>这里出现全书最惊人的联系之一：<strong>几何的对称群</strong> 和 <strong>代数的伽罗瓦群</strong>，是<strong>同一件事</strong>的两个面孔。</p>
 <div class="table-wrap"><table><thead><tr><th></th><th>几何（图形的对称）</th><th>代数（方程的伽罗瓦）</th></tr></thead><tbody><tr><td>研究对象</td><td>图形 $\Omega$（如三角形）</td><td>多项式方程的根</td></tr><tr><td>变换</td><td>把图形映成自己的几何变换</td><td>把根重新排列、保持代数关系的置换</td></tr><tr><td>群</td><td>对称群 $\mathrm{Sym}(\Omega)$</td><td>伽罗瓦群 $\mathrm{Gal}(f)$</td></tr><tr><td>群越"大"</td><td>图形越对称</td><td>方程越"难解"（根之间关系越乱）</td></tr><tr><td>群的结构</td><td>决定图形对称类型</td><td><strong>决定方程能不能用根式求解</strong></td></tr></tbody></table></div>
 <p>伽罗瓦的伟大定理：**方程 $f$ 能用根式求解 ⟺ 它的伽罗瓦群 $\mathrm{Gal}(f)$ 是"可解群"**（一种结构较简单的群）。</p>
 <ul><li>一二三四次方程：伽罗瓦群足够小、可解 → 根式可解（有求根公式）。</li><li>一般五次方程：伽罗瓦群是 $S_5$（120 个元素），$S_5$ <strong>不可解</strong> → <strong>没有根式求根公式</strong>（阿贝尔-鲁菲尼定理）。</li></ul>
 <div class="callout insight"><p>💡 <strong>类比点睛</strong>：正五边形（对称群 $D_5$）和五次方程（伽罗瓦群 $S_5$），都涉及"5"和"对称"——这不是巧合。"5"是<strong>第一个</strong>让事情变复杂的临界点：正五边形可以用直尺圆规作（高斯之前就知道），但一般五次方程不能根式解。<strong>群的结构</strong>是隐藏在两者背后的共同本质。</p></div>
-<p>这就是为什么克莱因能"用群统一几何"，而伽罗瓦"用群攻克代数"——<strong>群是对称的通用语言</strong>，跨学科通用。</p>
+<p>这就是为什么克莱因能“用群统一几何”，而伽罗瓦“用群攻克代数”——<strong>群是对称的通用语言</strong>，跨学科通用。</p>
+<div class="callout insight"><p>💡 <strong>延伸专题</strong>：这套“几何对称群 ↔ 伽罗瓦群”的类比，背后是一段惊心动魄的历史——20 岁死于决斗的伽罗瓦如何用一个“群”同时解释五次方程为什么无解、以及它与正二十面体对称（$A_5$）的神秘联系。见 <a href="08-侧栏-伽罗瓦.md">伽罗瓦：群、决斗与五次方程</a>。</p></div>
 <hr>
 <h2 id="sec-8-6"><span class="hn">8.6</span>用群计数：伯恩赛德引理（彩珠手链）</h2><div class="viz" data-viz="bracelet"></div><p>对称群还能干一件漂亮的事——<strong>计数</strong>。</p>
 <div class="callout tip"><p><strong>问题</strong>：用 3 颗珠子串成手链，每颗珠子有 2 种颜色（黑/白）。<strong>旋转和翻转视为同一种</strong>，共有几种不同的手链？</p></div>
@@ -104,6 +98,7 @@
 <div class="eq-display">$$N=\frac{1}{|G|}\sum_g|\mathrm{Fix}(g)|.\qquad\square$$</div>
 <div class="callout insight"><p>💡 <strong>精髓</strong>：直接数"不同对象"难（要反复去重），但数"被某个 $g$ 固定的对象"容易（局部问题）。双向计数把"难"转成了"易"——这是组合数学反复出现的妙招。</p></div>
 <div class="callout calc"><p>✏️ <strong>4 种手链</strong>：全黑、全白、一黑二白、二黑一白（其余染色都旋转/翻转到这 4 种之一）。手算可验证确实 4 种 ✓。</p></div>
+<div class="figure"><img src="../images/08-对称性与群-03.svg" alt="3 颗珠子 2 种颜色：8 种染色在旋转翻转下归为 4 种手链" style="max-width:560px"></div>
 <div class="callout insight"><p>💡 伯恩赛德引理的精神：<strong>直接数"不同的对象"很难（要不断去重），但数"被某个变换固定的对象"很容易（局部问题），取平均就得到答案</strong>。这是"用群作用简化计数"的典范，化学里数异构体、晶体里数构型都用它。</p></div>
 <hr>
 <h2 id="sec-8-7"><span class="hn">8.7</span>对称的分类：结晶学约束与 17 种壁纸图案</h2><p>把对称推到极致，会得到惊人的<strong>分类定理</strong>。</p>
@@ -115,26 +110,7 @@
 <div class="eq-display">$$k=\frac{360°}{\text{内角}}=\frac{360\,n}{(n-2)\cdot 180}=\frac{2n}{n-2}=2+\frac{4}{n-2}.$$</div>
 <p>$k$ 是整数 $\iff \dfrac{4}{n-2}$ 是整数 $\iff n-2$ 整除 $4$ $\iff n-2\in\{1,2,4\}$ $\iff n\in\{3,4,6\}$。</p>
 <p>逐一验证 $k\ge3$：$n=3\Rightarrow k=6$（6 个三角形拼一点）；$n=4\Rightarrow k=4$（4 个正方形）；$n=6\Rightarrow k=3$（3 个正六边形）。都成立。而 $n=5$ 给 $k=2+\tfrac43\approx3.33$ 不是整数——拼不出 $360°$，必留 $36°$ 缝。$\square$</p></div>
-<p>![](images/08-对称性与群-02.svg)</p>
-<details class="fold"><summary>📐 tikz 源码</summary><div class="fold-body"><pre><code class="language-latex">\begin{tikzpicture}[scale=1.8, every node/.style={font=\normalsize}]
-  \begin{scope}[xshift=0cm, yshift=0.3cm]
-    \draw[blue, very thick] (90:1)--(162:1)--(234:1)--(306:1)--(18:1)--cycle;
-    \fill[blue] (18:1) circle (3pt);
-    \node[blue] at (1.4,0.9) {$108^\circ$};
-    \node at (0,-1.7) {pentagon};
-    \node at (0,-2.2) {$360^\circ/108^\circ\!\approx\!3.33$ (no)};
-  \end{scope}
-  \begin{scope}[xshift=6cm, yshift=1.2cm]
-    \foreach \a in {0,120,240} {
-      \draw[red, very thick, rotate around={\a:(0,0)}]
-        (0,0)--(1,0)--(1.5,0.866)--(1,1.732)--(0,1.732)--(-0.5,0.866)--cycle;
-    }
-    \fill[red] (0,0) circle (3pt);
-    \node[red] at (1.05,-0.45) {$120^\circ$};
-    \node at (0.5,-1.5) {hexagon};
-    \node at (0.5,-2.0) {$3\!\times\!120^\circ=360^\circ$ (ok)};
-  \end{scope}
-\end{tikzpicture}</code></pre></div></details>
+<div class="figure"><img src="../images/08-对称性与群-02.svg" alt="" style="max-width:560px"></div>
 <p>三维类比：晶体有 <strong>230 种</strong>空间群（1890 年代分类完成），这是固体物理和结晶学的数学骨架。</p>
 <div class="callout insight"><p>💡 <strong>元思想</strong>：<strong>群论 + 不变量 = 完备分类</strong>。给一类对象（壁纸图案、晶体、粒子），用对称群分门别类，得到有限的、穷尽的列表。这种"分类纲领"是现代数学反复出现的模式（单李群分类、有限单群分类……）。</p></div>
 <hr>
@@ -150,7 +126,9 @@
 <ul><li>$e$：固定全部 $2^4=16$；</li><li>转 $\pm90°$（4-轮换）：四珠全同色才不变，各 $2$ 种；</li><li>转 $180°$（$(13)(24)$，两对对换）：每对同色，$2^2=4$ 种；</li><li>2 条<strong>对角线</strong>反射（固定 2 个对角顶点，对换另 2 个）：被对换的 2 珠同色，固定的 2 珠任意，各 $2^3=8$ 种；</li><li>2 条<strong>中线</strong>反射（两对对换）：每对同色，各 $2^2=4$ 种。</li></ul>
 <div class="eq-display">$$\text{手链数}=\frac{16+2+4+2+8+8+4+4}{8}=\frac{48}{8}=6.$$</div>
 <p><strong>6 种</strong>：全黑、全白、一白三黑、一黑三白、相邻两白两黑、相对两白两黑。✓</p></div></details></div>
-<div class="exercise"><p class="q"><span class="tag adv">进阶</span><strong>题 8.5</strong> 为什么五边形铺不满</p><p>证明正五边形不能铺满平面（无缝隙）。提示：铺满要求每个顶点处几个内角之和恰为 $360°$；正五边形内角是多少？能整除 $360°$ 吗？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：正五边形内角 $108°$。$360/108\approx3.33$ 不是整数，所以几个正五边形拼在顶点处凑不出 $360°$，必有缝隙。这就是结晶学约束的根源，也是为什么没有 5 重对称的壁纸图案。</p></div></details></div>
+<div class="exercise"><p class="q"><span class="tag adv">进阶</span><strong>题 8.5</strong> 为什么五边形铺不满</p><p>证明正五边形不能铺满平面（无缝隙）。提示：铺满要求每个顶点处几个内角之和恰为 $360°$；正五边形内角是多少？能整除 $360°$ 吗？</p><details class="fold"><summary>查看解答 / 提示</summary><div class="fold-body"><p><em>答</em>：正五边形内角 $108°$。$360/108\approx3.33$ 不是整数，所以几个正五边形拼在顶点处凑不出 $360°$，必有缝隙。这就是结晶学约束的根源，也是为什么没有 5 重对称的壁纸图案。</p>
+<hr>
+<div class="callout tip"><p>📚 <strong>延伸：对称性的经典应用题</strong>（正六边形 $D_6$、正方体面染色、分子对称群、柏拉图立体对称群、用对称简化计算，共 5 道），见 <a href="08-对称性与群-习题.md">08-对称性与群-习题.md</a>。它们展示对称群的四件本事——数对称、计数（伯恩赛德）、分类物质、简化计算。</p></div></div></details></div>
 </div>
 <div class="chapter-nav"><a class="prev" href="07.html"><span class="nav-label">← 上一章</span><span class="nav-title">07 · 爱尔兰根纲领</span></a><a class="next" href="09.html"><span class="nav-label">下一章 →</span><span class="nav-title">09 · 影响与意义</span></a></div>
   </main>

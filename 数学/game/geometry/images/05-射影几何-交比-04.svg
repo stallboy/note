@@ -1,45 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 手写 SVG：双圆锥的截面 —— 斜截得椭圆(红)，截面⊥轴得圆(蓝)。
-     线框双圆锥：前半缘实线、后半缘虚线；对称轴灰虚线。
-     坐标按几何精确换算（TikZ scale 1.8，再以 50px/unit 投到 SVG，y 轴翻转）。 -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="90 100 310 400" text-rendering="geometricPrecision"
+<!-- 手写 SVG：圆锥截面四联图 —— 同一个圆锥（双顶对顶锥面）被不同倾角的平面所截：
+     ① 截面 ⊥ 轴 → 圆；② 斜截 → 椭圆；③ 截面 ∥ 母线 → 抛物线（开口伸向无穷远，虚线为延伸）；
+     ④ 截面更陡、截穿两叶 → 双曲线（两支，虚线为延伸）。
+     线框锥：前缘实线、后缘虚线；四类曲线正是"同一个射影对象"在不同截面上的像。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 540" text-rendering="geometricPrecision"
      font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
 
-  <!-- 对称轴（灰虚线）：tikz (0,-3.4)~(0,3.4) -->
-  <line x1="200" y1="130" x2="200" y2="470" stroke="#9aa7b8" stroke-width="2" stroke-dasharray="6 5"/>
-
-  <!-- 锥面四条母线：顶点 (0,0)→(200,300)；上缘 ±1.6,3 → (120,150)/(280,150)；下缘 → (120,450)/(280,450) -->
-  <g fill="none" stroke="#1f3a5f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-    <line x1="200" y1="300" x2="120" y2="150"/>
-    <line x1="200" y1="300" x2="280" y2="150"/>
-    <line x1="200" y1="300" x2="120" y2="450"/>
-    <line x1="200" y1="300" x2="280" y2="450"/>
+  <!-- ============ ① 圆（截面 ⊥ 轴） ============ -->
+  <g>
+    <line x1="170" y1="40" x2="105" y2="190" stroke="#1f3a5f" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="170" y1="40" x2="235" y2="190" stroke="#1f3a5f" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M105,190 A65,16 0 0 0 235,190" fill="none" stroke="#1f3a5f" stroke-width="2.2"/>
+    <path d="M105,190 A65,16 0 0 1 235,190" fill="none" stroke="#1f3a5f" stroke-width="2.2" stroke-dasharray="5 4"/>
+    <!-- 横截圆：该高度锥半径 65·(130-40)/150 = 39 -->
+    <ellipse cx="170" cy="130" rx="39" ry="10" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+    <text x="170" y="232" text-anchor="middle" font-size="16" fill="#2563eb">圆 · 截面 ⊥ 轴</text>
   </g>
 
-  <!-- 上锥顶缘椭圆（中心 200,150，rx 80 ry 20）：前半缘实线(过 200,170=sweep0)，后半缘虚线(过 200,130=sweep1) -->
-  <g fill="none" stroke="#1f3a5f" stroke-width="2.5" stroke-linecap="round">
-    <path d="M120,150 A80,20 0 0 0 280,150"/>
-    <path d="M120,150 A80,20 0 0 1 280,150" stroke-dasharray="5 4"/>
+  <!-- ============ ② 椭圆（斜截） ============ -->
+  <g>
+    <line x1="470" y1="40" x2="405" y2="190" stroke="#1f3a5f" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="470" y1="40" x2="535" y2="190" stroke="#1f3a5f" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M405,190 A65,16 0 0 0 535,190" fill="none" stroke="#1f3a5f" stroke-width="2.2"/>
+    <path d="M405,190 A65,16 0 0 1 535,190" fill="none" stroke="#1f3a5f" stroke-width="2.2" stroke-dasharray="5 4"/>
+    <!-- 斜截椭圆：沿截面方向倾斜，两端收在母线内侧 -->
+    <ellipse cx="472" cy="120" rx="30" ry="13" fill="none" stroke="#c0392b" stroke-width="2.5"
+             transform="rotate(18 472 120)"/>
+    <text x="470" y="232" text-anchor="middle" font-size="16" fill="#c0392b">椭圆 · 斜截</text>
   </g>
 
-  <!-- 下锥底缘椭圆（中心 200,450，rx 80 ry 20）：前半缘实线(过 200,470=sweep0)，后半缘虚线(过 200,430=sweep1) -->
-  <g fill="none" stroke="#1f3a5f" stroke-width="2.5" stroke-linecap="round">
-    <path d="M120,450 A80,20 0 0 0 280,450"/>
-    <path d="M120,450 A80,20 0 0 1 280,450" stroke-dasharray="5 4"/>
+  <!-- ============ ③ 抛物线（截面 ∥ 母线） ============ -->
+  <g>
+    <line x1="170" y1="305" x2="105" y2="455" stroke="#1f3a5f" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="170" y1="305" x2="235" y2="455" stroke="#1f3a5f" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M105,455 A65,16 0 0 0 235,455" fill="none" stroke="#1f3a5f" stroke-width="2.2"/>
+    <path d="M105,455 A65,16 0 0 1 235,455" fill="none" stroke="#1f3a5f" stroke-width="2.2" stroke-dasharray="5 4"/>
+    <!-- 抛物线：交左侧母线一次，另一头穿过底口伸向无穷远（虚线延伸） -->
+    <path d="M146,360 Q185,400 196,469" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M196,469 Q204,489 228,503" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="5 4" stroke-linecap="round"/>
+    <text x="160" y="520" text-anchor="middle" font-size="16" fill="#16a34a">抛物线 · 截面 ∥ 母线</text>
   </g>
 
-  <!-- 斜截面交线 = 椭圆（红）：中心 tikz(0,1.6)→(200,220)，rx=1.35→67.5 ry=0.38→19，tikz rotate(-18°)=SVG rotate(18°) -->
-  <ellipse cx="200" cy="220" rx="67.5" ry="19" fill="none" stroke="#c0392b" stroke-width="2.5"
-           stroke-linecap="round" transform="rotate(18 200 220)"/>
-
-  <!-- 横截面交线 = 圆（蓝）：中心 tikz(0,-1.8)→(200,390)，rx=0.5→25 ry=0.14→7 -->
-  <ellipse cx="200" cy="390" rx="25" ry="7" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
-
-  <!-- 标注 -->
-  <g font-size="15">
-    <text x="305" y="215" fill="#c0392b">斜截</text>
-    <text x="305" y="235" fill="#c0392b">→ 椭圆</text>
-    <text x="305" y="385" fill="#2563eb">横截</text>
-    <text x="305" y="405" fill="#2563eb">→ 圆</text>
+  <!-- ============ ④ 双曲线（截面更陡，截穿两叶） ============ -->
+  <g>
+    <!-- 上叶 -->
+    <line x1="470" y1="380" x2="420" y2="300" stroke="#1f3a5f" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="470" y1="380" x2="520" y2="300" stroke="#1f3a5f" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M420,300 A50,13 0 0 0 520,300" fill="none" stroke="#1f3a5f" stroke-width="2.2"/>
+    <path d="M420,300 A50,13 0 0 1 520,300" fill="none" stroke="#1f3a5f" stroke-width="2.2" stroke-dasharray="5 4"/>
+    <!-- 下叶 -->
+    <line x1="470" y1="380" x2="420" y2="460" stroke="#1f3a5f" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="470" y1="380" x2="520" y2="460" stroke="#1f3a5f" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M420,460 A50,13 0 0 0 520,460" fill="none" stroke="#1f3a5f" stroke-width="2.2"/>
+    <path d="M420,460 A50,13 0 0 1 520,460" fill="none" stroke="#1f3a5f" stroke-width="2.2" stroke-dasharray="5 4"/>
+    <!-- 双曲线两支：上叶一支朝下弯、下叶一支朝上弯，虚线延伸出锥口 -->
+    <path d="M442,322 Q470,352 498,322" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M442,322 L428,283 M498,322 L512,283" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-dasharray="5 4" stroke-linecap="round"/>
+    <path d="M442,438 Q470,408 498,438" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M442,438 L428,477 M498,438 L512,477" fill="none" stroke="#7c3aed" stroke-width="2.5" stroke-dasharray="5 4" stroke-linecap="round"/>
+    <text x="470" y="520" text-anchor="middle" font-size="16" fill="#7c3aed">双曲线 · 更陡，截两叶</text>
   </g>
 </svg>

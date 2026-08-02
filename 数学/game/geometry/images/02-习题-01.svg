@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 手写 SVG：将军饮马（题1）。河 ℓ 为水平线 y=240；A(110,95)、B(360,130) 同侧；
-     B 关于 ℓ 的对称点 B'(360,350)；AB' 交 ℓ 于 P(252,240)，AP+PB = AP+PB' ≥ AB'。 -->
+     B 关于 ℓ 的对称点 B'(360,350)；AB' 交 ℓ 于 P(252,240)，AP+PB = AP+PB' ≥ AB'。
+     对比点 Q(140,240)：AQ+QB 明显更长；刻度线标出 PB=PB'。 -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 480 360" text-rendering="geometricPrecision"
      font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif">
   <!-- 河带 -->
@@ -15,8 +16,19 @@
   <!-- A-B' 虚线（过 P） -->
   <line x1="110" y1="95" x2="360" y2="350" stroke="#9aa7b8" stroke-width="1.8" stroke-dasharray="5 4"/>
 
+  <!-- 对比路径 A-Q-B（灰）与 Q-B'（灰虚） -->
+  <polyline points="110,95 140,240 360,130" fill="none" stroke="#9aa7b8" stroke-width="2" stroke-linejoin="round"/>
+  <line x1="140" y1="240" x2="360" y2="350" stroke="#c9d2dc" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <circle cx="140" cy="240" r="4" fill="#9aa7b8"/>
+  <text x="140" y="222" text-anchor="middle" fill="#6b7280" font-size="15" font-style="italic">Q</text>
+  <text x="132" y="300" fill="#6b7280" font-size="13">任取 Q：AQ+QB 更长</text>
+
   <!-- 最短路径 A-P-B（红） -->
   <polyline points="110,95 252,240 360,130" fill="none" stroke="#c0463a" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- 等长刻度：PB = PB' -->
+  <line x1="300.3" y1="179.4" x2="311.7" y2="190.6" stroke="#c0463a" stroke-width="2"/>
+  <line x1="300.3" y1="300.6" x2="311.7" y2="289.4" stroke="#c0463a" stroke-width="2"/>
 
   <!-- 点与标签 -->
   <circle cx="110" cy="95" r="4.5" fill="#1f3a5f"/>
