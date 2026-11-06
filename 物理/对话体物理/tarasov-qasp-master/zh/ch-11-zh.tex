@@ -1,0 +1,201 @@
+% !TEX root = tarasov-qasp-zh.tex
+
+\chapter[你能处理简谐运动问题吗？]{你能处理简谐运动问题吗？\label{ch-11}}
+
+\begin{dialogue}
+
+\tchr 一些考生对简谐运动（harmonic vibration）理解得不够清楚。我们先来讨论它的定义。
+
+\stda 如果振动遵循正弦规律，这样的振动就称为简谐运动：物体偏离平衡位置的位移 $x$（deviation）随时间按下列规律变化
+\begin{equation}%
+x= A \sin ( \omega t + \alpha)
+\label{eq-65}
+\end{equation}
+式中 $A$ 是振幅（amplitude，即物体偏离平衡位置的最大距离）；$\omega$ 是圆频率（circular frequency，$\omega = 2 \pi /T$，其中 $T$ 是振动周期）；$\alpha$ 是初相位（initial phase，它表明 $t=0$ 时刻物体偏离平衡位置的位移）。简谐运动的概念，可以用一个点的投影的运动来表示：这个点在半径为 $A$ 的圆周上以匀角速度 $\omega$ 旋转（\figr{fig-47}）。
+
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-11/fig-047a.pdf}
+\caption[简谐运动及其相关量。]{简谐运动及其相关量。\label{fig-47}}
+\end{figure}
+\pnote{底本此句有两处录入之误：式~\eqref{eq-65} 中的初相位误作 $a$（同句正文则作 $\alpha$，两处不一）；圆频率误作 $\omega = 2 \pi T$。经核对 1973 年 Mir 原版，后者原为 $\omega = 2 \pi /T$，显系重排时脱漏除号——下文式~\eqref{eq-70} 正是按 $2\pi A/T$ 使用的。中文版径改，初相位统一作 $\alpha$。}
+\pnote{说初相位“表明 $t=0$ 时刻偏离平衡位置的位移”，是从简的讲法：$x_{0}=A\sin\alpha$，须 $\alpha$ 与 $A$ 合在一起才能定出初始偏离，$\alpha$ 本身是相位角而不是长度。人教版选择性必修第一册的表述是：$\varphi_{0}$ 为 $t=0$ 时刻的相位，$\omega t+\varphi_{0}$ 称为相位。}
+
+\stdb 我更喜欢简谐运动的另一种定义。众所周知，振动是在回复力作用下发生的；回复力是指向平衡位置、并随物体离开平衡位置而增大的力。简谐运动就是回复力 $F$ 与物体偏离平衡位置的位移 $x$ 成正比的那种振动。于是
+\begin{equation}%
+F=kx
+\label{eq-66}
+\end{equation}
+这种力被称为“弹性”力。
+\pnote{式~\eqref{eq-66} 中的 $F$ 取回复力的大小，故写作 $F=kx$；人教版选择性必修第一册第二章第 3 节（简谐运动的回复力和能量）写作 $F=-kx$，负号表示回复力方向总与位移方向相反、指向平衡位置，两式内容相同。人教版也正是先以“位移随时间按正弦规律变化”定义简谐运动（第二章第 1 节），再以 $F=-kx$ 作为其动力学判据（第 3 节），与本章两种定义的分工相合。}
+
+\tchr 提出的两个定义我都很满意。第一种情形，简谐运动是按振动如何进行来定义的；第二种情形，是按振动由什么引起来定义的。换句话说，第一种定义采用的是振动的时空（运动学）描述，第二种采用的是因果（动力学）描述。
+
+\stdb 可是这两个定义哪一个更好呢？或者，它们也许是等价的？
+
+\tchr 不，它们不等价，第一种（运动学的）更好，它更完全。
+
+\stdb 可是，无论回复力的性质如何，它显然总会决定振动的性质呀。那我不明白，为什么我的定义就不完全了呢？
+
+\tchr 事情不完全是这样。回复力的性质并不能完全决定振动的性质。
+
+\stda 看来，现在正是回忆下面这件事的时候：某一时刻物体运动的性质，不仅由该时刻作用在物体上的力决定，还由初始条件决定，即由初始时刻物体的位置和速度决定。这一点我们在\chap{ch-04} 讨论过。
+
+\tchr 完全正确。就我们讨论的情形而言，这句话意味着：振动的性质不仅由回复力决定，还由振动是在什么条件下开始的决定。显然，可以用各种不同的方式使物体振动起来。比如，把物体从平衡位置拉开一段距离，然后轻轻释放，它就开始振动。若取振动开始的时刻为计时零点，则由式~\eqref{eq-65} 得 $\alpha=\pi/2$，而物体被拉开的距离就是振幅。物体可以从平衡位置拉开不同的距离，从而获得不同的振幅。
+
+第二种起振的方法，是给处于平衡位置的物体一个确定的初速度（推它一下）。物体同样开始振动。取振动开始的时刻为计时零点，由式~\eqref{eq-65} 得 $\alpha=0$。这种振动的振幅取决于传给物体的初速度。显然还能提出无数种介于两者之间的其他激发振动的方法。例如，把物体从平衡位置拉开，同时推它一下或拨它一下，等等。每一种方法都会给振动确定一组确定的振幅 $A$ 和初相位 $\alpha$ 的值。
+
+\stdb 您是说，$A$ 和 $\alpha$ 这两个量与回复力的性质无关吗？
+
+\tchr 正是。当你用这种或那种方法激发振动时，这两个量由你随意支配。回复力，也就是式~\eqref{eq-66} 中的系数 $k$，只决定圆频率 $\omega$，或者说只决定物体的振动周期。可以说，\hlblue{振动周期是振动物体的固有特征，而振幅 $A$ 和初相位 $\alpha$ 则取决于激发该振动的外部条件。}回到简谐运动的定义上来，我们看到：动力学定义既不包含振幅的信息，也不包含初相位的信息；运动学定义则相反，它包含这两个量的信息。
+
+\stdb 可是，既然振幅可以由我们这样随意支配，它也许就不是振动物体多么重要的特征了吧？
+
+\tchr 你错了。振幅是振动物体非常重要的特征。为了证明这一点，我们来看一个例子。一个质量为 $m$ 的小球连接在两根弹性弹簧之间，沿水平方向做振幅为 $A$ 的简谐运动（\figr{fig-48}）。回复力由表征弹簧弹性性质的弹性系数（coefficient of elasticity）$k$ 决定。求振动小球的能量。
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.5\textwidth]{figs/ch-11/fig-048a.pdf}
+\caption[在两根弹簧之间做简谐运动的小球。]{连接在两根弹性弹簧之间、沿水平方向做简谐运动的小球。\label{fig-48}}
+\end{figure}
+\pnote{底本此图图题误沿图 47（两图图题在底本中完全相同，均为 Simple harmonic motion and its relations.），与本图内容不符；中文版按图面与正文拟写图题，待考原书。}
+\pnote{本书“连接在两根弹性弹簧之间的小球”即中学的弹簧振子模型，人教版选择性必修第一册第二章正是以弹簧振子为对象讨论简谐运动。“弹性系数 $k$”在人教版必修第一册第三章（弹力一节，胡克定律 $F=kx$）中称劲度系数。}
+
+\stda 求小球的能量时，可以考察它偏移到极端位置（$x = A$）时的情形。在这个位置上小球的速度为零，因此它的总能量就是势能。后者可以确定为：把小球从平衡位置移动距离 $A$ 时克服回复力 $F$ 所做的功。于是
+\begin{equation}%
+W = FA
+\label{eq-67}
+\end{equation}
+再注意到按式~\eqref{eq-66} 此时 $F=kA$，便得
+\begin{equation*}%
+W=kA^{2}
+\end{equation*}
+
+\tchr 你的思路是对的，但犯了一个错误。式~\eqref{eq-67} 只在力为恒量的条件下才适用。而在本题中，力 $F$ 随距离变化，如\figr{fig-49} 所示。这个力在 $x=A$ 的路程上所做的功等于力曲线下方画有斜线的面积。这是一个三角形的面积，等于 $\dfrac{kA^{2}}{2}$。于是
+\begin{equation}%
+W = \frac{kA^{2}}{2}
+\label{eq-68}
+\end{equation}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.5\textwidth]{figs/ch-11/fig-049a.pdf}
+\caption[力随距离的变化。]{力随距离的变化。\label{fig-49}}
+\end{figure}
+\pnote{用 $F$--$x$ 图线下的面积求变力的功，是处理变力功的标准方法（这里也相当于取平均力 $\tfrac{kA}{2}$ 乘位移 $A$）。注意正负：从平衡位置移到 $x=A$ 的过程中回复力与位移方向相反、做负功，图线下的面积给出的是克服回复力所做的功。人教版选择性必修第一册第二章第 3 节同样给出弹簧振子的弹性势能 $E_{p}=\tfrac{kx^{2}}{2}$、总能量 $E=\tfrac{kA^{2}}{2}$，即式~\eqref{eq-68}、\eqref{eq-69}。}
+注意，\hlblue{振动物体的总能量与振幅的平方成正比。}这表明振幅是振动物体多么重要的一个特征。若 $0 < x < A$，则总能量 $W$ 是两部分之和——动能与势能：
+\begin{equation}%
+W = \frac{kA^{2}}{2} = \frac{m v^{2}}{2} + \frac{k x^{2}}{2}
+\label{eq-69}
+\end{equation}
+式~\eqref{eq-69} 使我们能够求出振动物体在离平衡位置任一距离 $x$ 处的速度 $v$。我的下一个问题是：\hlred{\figr{fig-48} 所示小球的振动周期是多少？}
+
+\stdb 要建立振动周期的公式，恐怕得用微积分。
+
+\tchr 严格地说，你是对的。不过，若同时利用简谐运动的运动学定义和动力学定义，就可以不用微积分。事实上，\figr{fig-47} 是运动学定义的图形表达，从它可以断定：物体通过平衡位置那一时刻的速度为
+\begin{equation}%
+v_{1} = \omega A = \frac{2 \pi A}{T}
+\label{eq-70}
+\end{equation}
+再利用由动力学定义得出的结果式~\eqref{eq-68}，可以断定速度 $v_{1}$ 可由能量关系求出：
+\begin{equation}%
+\frac{m v_{1}^{2}}{2} = \frac{k A^{2}}{2}
+\label{eq-71}
+\end{equation}
+（小球通过平衡位置时，它的全部能量都是动能。）把式~\eqref{eq-70} 与式~\eqref{eq-71} 联立，得
+\begin{equation*}%
+\frac{4 \pi^{2} A^{2} m}{T^{2}}=kA^{2}
+\end{equation*}
+由此得
+\begin{equation}%
+T=2 \pi \sqrt{\frac{m}{k}}
+\label{eq-72}
+\end{equation}
+前面已经说过，振动周期完全由振动系统自身的性质决定，与振动是怎样建立起来的无关。
+\pnote{这就是弹簧振子的周期公式 $T=2\pi\sqrt{m/k}$：周期只由系统自身（振子质量与劲度系数）决定，与振幅和起振方式无关，这一性质称为简谐运动的等时性（对单摆，它早在伽利略时代已被发现）。教师避开微积分、把运动学定义（参考圆）与动力学定义（能量关系）结合起来导出周期的方法，值得竞赛生掌握。}
+
+\stda 谈到振动时，我们通常遇到的不是连在弹簧上的小球，而是摆。上面得到的结果能推广到摆上去吗？
+
+\tchr 要做这样的推广，必须先弄清：在摆的情形里，是什么在扮演弹性系数 $k$ 的角色。显然，摆振动靠的不是弹性力，而是重力。我们来考察挂在长为 $l$ 的绳上的一个球（它在摆中称为摆锤，bob）。把摆锤向平衡位置的一侧拉偏，使绳与竖直方向成角 $\alpha$（\figr{fig-50}）。作用在摆锤上的是两个力：重力 $mg$ 和绳的张力 $T$。它们的合力就是回复力。从图中可以看出，它等于 $mg \sin \alpha$。
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.5\textwidth]{figs/ch-11/fig-050a.pdf}
+\caption[分析摆的运动。]{分析摆的运动。\label{fig-50}}
+\end{figure}
+\pnote{合力恰等于 $mg\sin\alpha$，成立的条件是摆锤处于极端位置（或如图所示被持住不动）：此时速度为零，绳的张力与重力沿绳方向的分量 $mg\cos\alpha$ 恰好相消。振动经过中间位置时，张力还须提供向心加速度，合力并不等于 $mg\sin\alpha$；但回复力总等于重力的切向分量 $mg\sin\alpha$。这一点在第 2 章评注中已有说明。}
+
+\stda 长度 $\overline{AB}$ 与 $\overline{AC}$ 之中，哪一个应当看作摆偏离平衡位置的距离呢（见\figr{fig-50}）？
+
+\tchr 我们分析的是摆的简谐运动。为此，必须使绳偏离平衡位置的最大角度非常小：
+\begin{equation}%
+\alpha \ll 1
+\label{eq-73}
+\end{equation}
+（注意这里角 $\alpha$ 以弧度表示；若以度表示，角 $\alpha$ 无论如何都应小于 \ang{10}）。
+\pnote{$\sin\alpha\approx\alpha$ 的相对误差在 \ang{5} 时约 $0.1\%$，在 \ang{10} 时约 $0.5\%$，因此“小于 \ang{10}”的上限已相当宽松。人教版对单摆只笼统要求“偏角很小”；用单摆做精密测量（如实验“用单摆测量重力加速度”）时，通常把偏角取得更小。}
+只要满足条件~\eqref{eq-73}，$\overline{AB}$ 与 $\overline{AC}$ 的差别就可以忽略：
+\begin{equation*}%
+\overline{AB} = l \sin \alpha \approx \overline{AC} = l \tan \alpha
+\end{equation*}
+于是你的问题就失去意义了。为确定起见，可以取 $x = \overline{AB}= l \sin \alpha$。这样，式~\eqref{eq-66} 用于摆时就取如下形式：
+\begin{equation}%
+mg \sin \alpha = k l \sin \alpha
+\tag{66a}
+\label{eq-66a}
+\end{equation}
+由此得
+\begin{equation}%
+k= \frac{mg}{l}
+\label{eq-74}
+\end{equation}
+把式~\eqref{eq-74} 代入式~\eqref{eq-72}，就得到摆的简谐运动周期公式：
+\begin{equation}%
+T=2 \pi \sqrt{\frac{l}{g}}
+\label{eq-75}
+\end{equation}
+\pnote{式~\eqref{eq-75} 即单摆周期公式，见人教版选择性必修第一册第二章第 4 节“单摆”。原书这里的摆是“质点摆锤＋轻绳”的理想模型，即中学的单摆，$l$ 为绳长；人教版中的 $l$ 则是摆长（悬点到摆球球心的距离），摆球大小不可忽略时应取绳长加球半径。另外注意式~\eqref{eq-74} 的 $k=mg/l$ 并非弹簧的劲度，而是把重力效果折算成的等效回复力系数。}
+摆的能量问题我们也要讨论。摆的总能量显然等于 $mgh$，其中 $h$ 是摆锤在极端位置上升的高度（见\figr{fig-50}）。于是
+\begin{equation}%
+W = mgh = mgl \left( 1- \cos \alpha \right) = 2mgl \sin^{2} \frac{\alpha}{2}
+\label{eq-76}
+\end{equation}
+关系式~\eqref{eq-76} 显然对角 $\alpha$ 的一切值都适用。要把这个结果过渡到关系式~\eqref{eq-68}，就必须满足摆振动的简谐性条件，即不等式~\eqref{eq-73}。这时 $\sin \alpha$ 可以用以弧度表示的角 $\alpha$ 来近似，式~\eqref{eq-76} 就变为
+\begin{equation*}%
+W \approx 2 m g l \left( \frac{\alpha}{2}\right)^{2} = mgl \left( \frac{\alpha^{2}}{2}\right)
+\end{equation*}
+再考虑到式~\eqref{eq-74}，最终得
+\begin{equation*}%
+W = k \left( \frac{(l \alpha)^{2}}{2}\right) \approx k \frac{\overline{(AB)}^{2}}{2}
+\end{equation*}
+这与式~\eqref{eq-68} 本质上是同一个式子。
+
+\stdb 如果我没记错，以前学摆的振动时，一般并没有对偏角的大小提出要求。
+
+\tchr 如果问题只涉及摆锤的能量或绳的张力，这个要求就是不必要的。在这种情形里，我们实际上研究的已经不是摆，而是小球在竖直平面内沿圆周的运动。但是，只要问题里用到周期公式~\eqref{eq-75}，摆的振动就必须是简谐的，因而偏角必须很小。比如，在第 33 题中，摆的偏角要小这一条件无关紧要，而在第 34 题中它却至关重要。
+
+\end{dialogue}
+
+\section*{习题}
+\label{prob-11}
+\addcontentsline{toc}{section}{习题}
+
+\begin{enumerate}[resume*=problems]
+\item 一个小球如\figr{fig-48} 所示做简谐运动。求小球在离平衡位置的距离分别为振幅的一半和三分之一的两点处的速度之比。
+
+\item 挂在绳上的摆锤从平衡位置被拉偏 \ang{60} 角，然后释放。求摆锤在平衡位置时与在最大偏移位置时绳中张力之比。
+
+\item 一个由挂在细绳上的小球（摆锤）构成的摆，被拉偏 \ang{5} 角。已知摆振动的圆频率等于 \SI{2}{\per\second}，求摆锤通过平衡位置时的速度。
+\end{enumerate}
+
+% 注：底本文件尾部另有一段整体处于注释状态的 sec-06 扉图块（振动与波），已按体例译排在 zh/ch-10-zh.tex 尾部，此处不再收录。
+
+% NEWTERMS: harmonic vibrations | 简谐运动 | ch-10 扉语已出现“简谐运动”，本章为正文首现（括注 harmonic vibration）；人教版选择性必修第一册第二章第 1 节同名
+% NEWTERMS: deviation | 偏离量（偏离平衡位置的位移）| 人教版径称位移 $x$；首现括注英文
+% NEWTERMS: amplitude (of vibration) | 振幅 | 人教版选择性必修第一册 2.2 同名
+% NEWTERMS: circular frequency | 圆频率 | 人教版选择性必修第一册 2.2 同名（$\omega=2\pi/T$）；即角频率
+% NEWTERMS: initial phase | 初相位 | 人教版记作 $\varphi_{0}$；底本式 (65) 误排 $a$，中文版统一作 $\alpha$
+% NEWTERMS: coefficient of elasticity | 弹性系数 | 人教版（必修第一册第三章，胡克定律）称劲度系数
+% NEWTERMS: bob | 摆锤 | 原书"a ball (called a bob in a pendulum)"
+% NEWTERMS: pendulum | 摆（单摆）| 本章原文只作 pendulum；与人教版“单摆”理想模型的对应见评注；后章“数学摆”（mathematical pendulum）之名已在 ch-10 扉语出现
+% NEWTERMS: extreme deflection / extreme position | 极端位置 | 承第 4 章 extreme position 既有译名
+% NEWTERMS: condition of harmonicity | 简谐性条件 | 原书自铸短语

@@ -1,0 +1,151 @@
+% !TEX root = tarasov-qasp-zh.tex
+
+\chapter[你能熟练运用力的分解法吗？]{你能熟练运用力的分解法吗？\label{ch-13}}
+
+\begin{dialogue}
+%
+\tchr 解力学问题时，经常需要分解力。因此，我认为把这个问题讨论得稍微详细一些是有益的。先来回忆主要的法则：要把一个力沿任意两个方向分解，须过力矢量的箭端作两条直线，再过尾端作两条直线，每一对直线分别平行于相应的分解方向。这样就得到一个平行四边形，它的两条边就是所给力的分力。这一法则如\figr{fig-54} 所示：力 $F$ 沿 $AA_{1}$ 与 $BB_{1}$ 两个方向分解。
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-13/fig-054a.pdf}
+\caption[力的分解图示。]{力的分解图示：分解的结果得到一个平行四边形。\label{fig-54}}
+\end{figure}
+\pnote{书中这条法则对任意两个不平行的方向都成立，并不要求两个方向互相垂直。国内教材默认使用的“正交分解”（\chap{ch-06} 讨论的正是这种情形）是两方向垂直的特例。当问题的约束天然沿倾斜方向时（如本章绳的两股、楔的斜面），沿这些方向直接分解，往往比先正交分解更省事。}
+
+下面来看几个以力的分解为共同思路的问题。第一个问题如\figr{fig-55} 所示：\hlred{两个相同的重物 $P$，各挂在绳的中点。绳因重物而下垂，与水平方向分别成 $\alpha_{1}$ 角与 $\alpha_{2}$ 角。哪一根绳承受的张力较大？}
+
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-13/fig-055a.pdf}
+\caption[悬挂重物的两根绳。]{两根绳的中点各挂有相同的重物 $P$，绳因重物而下垂，与水平方向分别成 $\alpha_{1}$ 角与 $\alpha_{2}$ 角。\label{fig-55}}
+\end{figure}
+\pnote{底本图 55、图 56、图 57 的图题均误作 ``Anaysing the motion of a pendulum''（首词又误拼，实为 Analysing），与各图内容（悬挂重物的绳、槽中的两个楔、双悬重绳）不符，显系录入时误沿图 58 的图题；中文版按图面与正文描述拟写这三条图题，待考原书。底本本章另有标点级小误（如 ``There' is''），径改不注。}
+
+\stda 我可以在同一张图上，把每个重物的重力沿平行于绳的两股的方向分解。由这一分解可知，绳中的张力为
+\begin{equation*}
+T=\frac{P}{2 \sin \alpha}
+\end{equation*}
+可见，下垂较小的那根绳承受较大的张力。
+\pnote{这一关系由重物的平衡条件直接得出：对称的两股绳各以张力 $T$ 拉住重物，其竖直分量合计与重力相抵，即 $2T\sin\alpha=P$。当 $\alpha\to 0$ 时 $T\to\infty$——挂有重物的绳无论用多大的力也拉不成水平直线，这正是国内教辅中以“晾衣绳”“钢缆”为背景的经典问题。}
+
+\tchr 完全正确。请告诉我，\hlred{我们能把绳拉得足够紧，使挂上重物后它一点也不下垂吗？}
+
+\stda 为什么不能呢？
+
+\tchr 先别急着回答。用一用你刚才得到的结果。
+
+\stda 啊，我明白了。不可能把绳绷得一点也不下垂。绳中的张力随角 $\alpha$ 的减小而增大。不论绳多么结实，当角 $\alpha$ 变得足够小时，绳终将被张力拉断。
+
+\tchr 要注意，悬挂重物时绳之所以下垂，源于绳的弹性性质——正是它使绳伸长。\hlblue{如果绳不能发生形变（伸长），那么任何重物也挂不到绳上。}由此可见，在建筑工程中，各种结构的强度计算与结构发生弹性形变（elastic deformation）的能力密切相关（设计人员常说，结构必须会“呼吸”）。\hlblue{过分刚硬的结构并不可取：在微小的形变下，其中产生的应力（stress）就可能过大，从而导致破坏。}这样的结构甚至可能在自身重量的作用下毁坏。
+
+在前一问题中，若忽略绳的自重，便不难求出绳的下垂角 $\alpha$ 与重物重力 $P$ 之间的关系。为此，我们利用绳或金属丝弹性拉伸的胡克定律（Hooke's law）（见习题 35）。
+
+再看一个例子。俄国有句谚语：“楔要用楔来挤出”（英语中的对应说法是 ``like cures like''，意近“以毒攻毒”）。用力的分解方法就能演示这一点 \drkgry{(\figr{fig-56}~(a))}。
+\hlred{把楔 2 打入同一槽中，对它施加力 $F$，便把楔 1 从槽中挤出。已知角 $\alpha$ 与 $\beta$。求作用在楔 1 上、使它得以被挤出槽的力。}
+
+\stda 这道题我觉得难以下手。
+
+\tchr 先把力 $F$ 沿水平方向和垂直于楔 2 的边 $AB$ 的方向分解。所得的分力记作 $F_{1}$ 与 $F_{2}$ \drkgry{(\figr{fig-56}~(b))}。分力 $F_{2}$ 被槽的左壁的反作用力所平衡；分力 $F_{1}$ 等于 $F/\tan \alpha$，将作用于楔 1。接着把这个力沿竖直方向和垂直于楔 1 的边 $CD$ 的方向分解，相应的分力为 $F_{3}$ 与 $F_{4}$ \drkgry{(\figr{fig-56}~(c))}。分力 $F_{4}$ 被槽的右壁的反作用力所平衡，而分力 $F_{3}$ 则使楔 1 得以从槽中挤出。这正是所求的力。容易看出它等于
+\begin{equation*}%
+F_{1} \tan \beta = F \left( \frac{\tan \beta}{\tan \alpha} \right)
+\end{equation*}
+\pnote{底本此式右端印作 $F\left(\tan\alpha/\tan\beta\right)$，与本段自给的中间结果不符：既然 $F_{1}=F/\tan\alpha$，所求力又是 $F_{1}\tan\beta$，就应得 $F\tan\beta/\tan\alpha$，显系分子分母倒置；中文版按推导径改，待考原书。顺带一提，$\alpha$ 越小，$F_{1}=F/\tan\alpha$ 越大——不大的作用力就能产生很大的挤压力，这正是楔（与斜面同理）省力的原理。}
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-13/fig-056a.pdf}
+\caption[以楔挤楔。]{以楔挤楔：（a）把楔 2 打入槽中，将楔 1 从槽中挤出；（b）力 $F$ 沿水平方向和垂直于边 $AB$ 的方向分解；（c）分力 $F_{1}$ 沿竖直方向和垂直于边 $CD$ 的方向分解。\label{fig-56}}
+\end{figure}
+
+
+现在来看第三个例子，如 \drkgry{(\figr{fig-57}~(a))} 所示。
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-13/fig-057a.pdf}
+\caption[悬挂两个重物的绳。]{一根绳上挂有两个重物 $P_{1}$ 与 $P_{2}$，两重物之间的一段绳 $BC$ 保持水平：（a）装置；（b）将 $P_{1}$ 沿 $AB$、$BC$ 两方向分解；（c）将 $P_{2}$ 沿 $BC$、$CD$ 两方向分解。\label{fig-57}}
+\end{figure}
+\emph{两个重物 $P_{1}$ 与 $P_{2}$ 挂在同一根绳上，两者之间的那一段绳保持水平。求角 $\beta$（角 $\alpha$ 已知），以及绳各段中的张力（$T_{AB}$、$T_{BC}$ 与 $T_{CD}$）。}
+
+这个例子与前面楔的例子相似。
+
+\stda 我先把重力 $P_{1}$ 沿 $AB$ 与 $BC$ 两个方向分解 \drkgry{(\figr{fig-57}~(b))}。由这一分解得到
+\begin{equation*}%
+T_{AB} = \frac{P_{1}}{\sin \alpha} \, \, \text{且} \, \, T_{BC} = \frac{P_{1}}{\tan \alpha}
+\end{equation*}
+这样，我们已经求出了绳中两段的张力。接着我把重力 $P_{2}$ 沿 $BC$ 与 $CD$ 两个方向分解 \drkgry{(\figr{fig-57}~(c))}。由这一分解可以写出方程
+\begin{equation*}%
+T_{BC} = \frac{P_{2}}{\tan \beta} \, \, \text{且} \, \, T_{CD} = \frac{P_{2}}{\sin \beta}
+\end{equation*}
+令两次分解所得的绳 $BC$ 段的张力相等，可以写出
+\begin{equation*}%
+\frac{P_{1}}{\tan \alpha} =  \frac{P_{2}}{\tan \beta}
+\end{equation*}
+由此得
+\begin{equation*}%
+\beta = \arctan \left( \frac{P_{2} \tan \alpha}{P_{1}} \right)
+\end{equation*}
+把这个值代入 $T_{CD}$ 的表达式，便能求出绳 $CD$ 段中的张力。
+
+\tchr 难道把这个题目做完，也就是求出力 $T_{CD}$，真有那么难吗？
+
+\stda 答案中将含有反正切值的正弦，即
+\begin{equation*}%
+T_{CD} = \frac{P_{2}}{\sin \left( \arctan \left( \dfrac {P_{2} \tan \alpha}{P_{1}} \right) \right)}
+\end{equation*}
+
+\tchr 你的答案是正确的，不过，若把 $\sin \beta$ 用 $\tan \beta$ 表示出来，它还可以写成更简单的形式。事实上
+\begin{equation*}%
+\sin \beta = \frac{\tan \beta}{ \sqrt{1 + \tan^{2} \beta}}
+\end{equation*}
+由于
+\begin{equation*}%
+\tan \beta = \tan \alpha \left( \frac{P_{2}}{P_{1}}\right)
+\end{equation*}
+我们得到
+\begin{equation*}%
+T_{CD} = \frac{P_{1}}{\tan \alpha} \sqrt{1 + \left( \frac{P_{2}}{P_{1}} \right)^{2} \tan^{2} \alpha }
+\end{equation*}
+
+\stdb 我看，参加物理考试之前，必须把数学非常认真地复习一遍。
+
+\tchr 你这话说得完全对。
+\end{dialogue}
+
+\section*{习题}
+\label{prob-13}
+\addcontentsline{toc}{section}{习题}
+
+\begin{enumerate}[resume*=problems]
+\item 电梯内有一根弹性绳，从一壁绷到另一壁，绳的中点因悬挂重物而下垂，如\figr{fig-55} 所示。电梯静止时下垂角 $\alpha$ 等于 \ang{30}，电梯加速运行时等于 \ang{45}。求电梯加速度的大小与方向。绳的重量忽略不计。
+\pnote{本题默认绳未挂重物时恰好绷直（原长等于两壁的间距）、张力按胡克定律正比于伸长量——否则题给数据不足以定解。由于绳的每一股长 $\propto 1/\cos\alpha$，张力 $T\propto(1/\cos\alpha-1)$；再由电梯内的“视重”$m(g\pm a)$（人教版必修第一册第四章“超重和失重”）得 $2T\sin\alpha=m(g\pm a)$。联立可解得 $a\approx 2.8g\approx 27~\mathrm{m/s^{2}}$，方向竖直向上（视重增大表明加速度方向向上），与书末答案（27.4 m/s²）一致。}
+
+\item 一个质量 $m = \SI{100}{\gram}$ 的摆锤，挂在长 $l =\SI{1}{\meter}$ 的细绳上，绳系于支架，如\figr{fig-58} 所示（$\alpha = \ang{30}$）。给摆锤一个 \SI[per-mode=symbol]{2}{\meter\per\second} 的水平速度，它便开始作为摆振动。求摆锤位于偏离平衡位置最远的各点时，构件 $AB$ 与 $BC$ 中所受的力。
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-13/fig-058a.pdf}
+\caption[摆的运动分析。见习题 36。]{摆的运动分析。见习题 36。\label{fig-58}}
+\end{figure}
+\pnote{关键在最大偏离处：摆锤瞬时速度为零，向心加速度为零，故绳中张力 $T=mg\cos\theta$；偏角 $\theta$ 由机械能守恒 $\cos\theta=1-v^{2}/(2gl)$ 定出（本题 $\theta\approx\ang{37}$）。此后把挂点所受的绳的拉力沿两杆 $AB$、$BC$ 的方向分解即可——这正是国内教辅中常见的“三角支架”类问题；摆锤在左、右两个极端处拉力方向不同，两杆的受力也随之不同。}
+
+\end{enumerate}
+
+
+\cleardoublepage
+
+% NEWTERMS: force resolution method | 力的分解法 | 章题；分解／分力／分解方向已由第 6 章定名，本章沿用不重复括注
+% NEWTERMS: head / tail (of a force vector) | （力矢量的）箭端 / 尾端 | 分解作图法则用语
+% NEWTERMS: branch (of a string) | （绳的）股 | 悬点两侧的绳段
+% NEWTERMS: sag / angle of sag | 下垂 / 下垂角 | 绳与水平方向的夹角；习题 35 沿用
+% NEWTERMS: wedge | 楔 | 俄语谚语“以楔挤楔”
+% NEWTERMS: slot | 槽 | 楔所嵌入的凹槽
+% NEWTERMS: reaction (of the slot wall) | （槽壁的）反作用力 | “反作用力”全书通用
+% NEWTERMS: elastic string | 弹性绳 | 习题 35
+% NEWTERMS: Hooke's law | 胡克定律 | 本章首现括注英文（截至已译各章未见）；人教版必修第一册第三章
+% NEWTERMS: elastic deformation | 弹性形变 | 第 10 章碰撞语境已用，本章为静力学语境，沿用不重复括注
+% NEWTERMS: stress | 应力 | 本章首现括注（stress）；中学不展开
+% NEWTERMS: strength analysis | 强度计算 | 建筑工程语境
+% NEWTERMS: elongation | 伸长 | |
+% NEWTERMS: lift | 电梯 | 沿用第 12 章译名（第 9 章矿井语境作“升降机”）
+% NEWTERMS: bracket | 支架 | 习题 36
+% NEWTERMS: member (of a bracket) | （支架的）构件 | 习题 36，即支架的两根杆
+% NEWTERMS: point of maximum deviation | （偏离平衡位置的）最大偏离处 | 习题 36
+% NEWTERMS: Problems (section title) | 习题 | 章末习题节标题，全书连续编号，本章为习题 35--36
