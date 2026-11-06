@@ -1272,8 +1272,10 @@
       \end{minipage}%
     \end{lrbox}%
     % build the caption box
+    % [zh-edition local patch] caption box width = figure width (not \marginparwidth),
+    % so the caption can sit below the figure in the text column.
     \begin{lrbox}{\@tufte@caption@box}%
-      \begin{minipage}[\floatalignment]{\marginparwidth}\hbox{}%
+      \begin{minipage}[\floatalignment]{\@tufte@float@contents@width}\hbox{}%
         \ifthenelse{\NOT\equal{\@tufte@stored@caption}{}}{\@tufte@orig@caption[\@tufte@stored@shortcaption]{\@tufte@stored@caption}}{}%
         \ifthenelse{\NOT\equal{\@tufte@stored@label}{}}{\@tufte@safe@label{\@tufte@stored@label}}{}% [zh-edition local patch]
         \par\vspace{-\prevdepth}%% TODO: DOUBLE-CHECK FOR SAFETY
@@ -1315,35 +1317,22 @@
   }
 
 \newcommand{\@tufte@float@textwidth}[3][0pt]{%
-  \ifthenelse{\NOT\boolean{@tufte@symmetric}\OR\boolean{@tufte@float@recto}}{%
-    % asymmetric or page is odd, so caption is on the right
-    \hbox{%
-      \usebox{#2}%
-      \hspace{\marginparsep}%
-      \smash{\raisebox{#1}{\usebox{#3}}}%
-    }%
-    \@tufte@float@debug{Caption position: [right]}%
-  }{% symmetric pages and page is even, so caption is on the left
-    \hbox{%
-      \smash{\raisebox{#1}{\usebox{#3}}}%
-      \hspace{\marginparsep}%
-      \usebox{#2}%
-    }%
-    \@tufte@float@debug{Caption position: [left]}%
-  }%
+  % [zh-edition local patch] caption below the figure, inside the text column
+  % (as in the original 1973 printed book). The margin is reserved exclusively
+  % for \pnote marginnotes; marginpar auto-stacking keeps them collision-free.
+  \par\nointerlineskip
+  \usebox{#2}%
+  \par\nointerlineskip\vspace{4pt plus 2pt}%
+  \hbox to \linewidth{\hfil\usebox{#3}\hfil}%
 }
 
 \newcommand{\@tufte@float@fullwidth}[3][0pt]{%
-  \ifthenelse{\equal{\floatalignment}{b}}%
-    {% place caption above figure
-      \ifthenelse{\NOT\boolean{@tufte@symmetric}\OR\boolean{@tufte@float@recto}}%
-        {\hfill\smash{\raisebox{#1}{\usebox{#3}}}\par\usebox{#2}\@tufte@float@debug{Caption position: [above right]}}% caption on the right
-        {\smash{\raisebox{#1}{\usebox{#3}}}\hfill\par\usebox{#2}\@tufte@float@debug{Caption position: [above left]}}% caption on the left
-    }{% place caption below figure
-      \ifthenelse{\NOT\boolean{@tufte@symmetric}\OR\boolean{@tufte@float@recto}}%
-        {\usebox{#2}\par\hfill\smash{\raisebox{#1}{\usebox{#3}}}\@tufte@float@debug{Caption position: [below right]}}% caption on the right
-        {\usebox{#2}\par\smash{\raisebox{#1}{\usebox{#3}}}\hfill\@tufte@float@debug{Caption position: [below left]}}% caption on the left
-    }%
+  % [zh-edition local patch] same stacking as the textwidth variant: caption
+  % below, centered. (#1 retained as a small extra vertical offset.)
+  \par\nointerlineskip
+  \usebox{#2}%
+  \par\nointerlineskip\vspace{4pt plus 2pt}%
+  \hbox to \linewidth{\hfil\usebox{#3}\hfil}%
 }
 
 
