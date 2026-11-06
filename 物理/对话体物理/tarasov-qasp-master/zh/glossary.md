@@ -38,6 +38,33 @@
 | area under the (velocity) graph | （速度）图像下方的面积 | |
 | uniformly variable motion | 匀变速运动 | 重复条目防歧义 |
 
+## 第 2 章（受力分析）
+
+| 英文 | 中文 | 备注 |
+|---|---|---|
+| force | 力 | |
+| interaction (between bodies) | （物体间的）相互作用 | |
+| weight | 重力 | 原书符号 $P$；人教版记 $G$ |
+| friction force | 摩擦力 | |
+| force of sliding friction | 滑动摩擦力 | |
+| coefficient of sliding friction | 滑动摩擦系数 | 原书符号 $k$；人教版记 $\mu$，称动摩擦因数 |
+| bearing reaction | 支承力 | 原书符号 $N$；人教版称支持力，记 $F_N$；原书边注又称法向力 |
+| normal force | 法向力 | 原书边注给出的别名 |
+| resultant force | 合力 | |
+| centripetal force | 向心力 | 按效果命名；本章语境中即合力 |
+| restoring force | 回复力 | 严格说为重力沿切线的分力，见第 2 章评注 |
+| tension (in the string) | （绳的）张力 | |
+| inclined plane | 斜面 | |
+| pendulum | 摆 | |
+| internal force | 内力 | |
+| pulley | 滑轮 | 质量忽略约定见第 2 章正文 |
+| material point / particle | 质点 | |
+| motion of translation | 平动 | |
+| rotational moment | 转动矩 | 即通常所说的力矩 |
+| force couple | 力偶 | |
+| centre of gravity | 重心 | |
+| at rest | 静止 | |
+
 ## 前言
 
 | 英文 | 中文 | 备注 |

@@ -108,8 +108,9 @@
 % command for refering to a chapter
 \newcommand{\chap}[1] {\textcolor{darkgray}{第~\ref{#1}~章}}
 
-% 译注层评注宏：边栏【评注】。这是本译注本的核心体例，冻结于样板章定稿。
-\newcommand{\pnote}[1]{\marginnote{\textbf{【评注】}\;#1}}
+% 译注层评注宏：边栏【评注】。可选参数为竖直偏移（正值下移），用于躲开
+% 同侧边栏的图题盒（tufte 图题不参与 marginpar 自动堆叠，需手动避让）。
+\newcommand{\pnote}[2][0pt]{\marginnote[#1]{\textbf{【评注】}\;#2}}
 
 % table of contents formatting
 
