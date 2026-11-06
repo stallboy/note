@@ -1,0 +1,150 @@
+% !TEX root = tarasov-qasp-zh.tex
+\chapter[怎样着手解动力学问题？]{怎样着手解动力学问题？\label{ch-06}}
+
+\begin{dialogue}
+\tchr 解动力学问题时，特别重要的是能够正确地确定作用在物体上的力（见\chap{ch-02}）。
+
+\std 在继续讲下去之前，我想先提一个问题：假定我已经正确地找出了作用在物体上的所有力，接下来该做什么？
+
+\tchr \hlblue{如果这些力不沿同一条直线，就应当把它们沿两个互相垂直的方向分解。}对其中每一个方向，都要分别处理该方向上的各分力；这样的方向，我们称之为“分解方向”（directions of resolution）。
+
+我们先给几条实用的建议。第一，\hlblue{应当用大的比例画力，以免分解时发生混乱。}学生为了省地方，总爱把力画成几乎看不见的小箭头，这无济于事。只要把你画的图（\figr{fig-08}）同我画的图（\figr{fig-09}）比较一下，你就会明白我的意思。第二，在尚不能正确地进行分解之前，不要急于动手。\hlblue{先要找出作用在物体上的所有力，并把它们画在图上，}然后才能开始分解其中某些力。第三，务必记住：\hlblue{力一经分解，就应当“忘掉”它的存在，只使用它的分力；要么用这个力本身，要么用它的分力，没有折中的余地。}
+\pnote{这套“沿两个互相垂直的方向分解、每个方向分别处理”的做法，就是国内教材所说的正交分解法：所研究的方向上若无加速度，该方向分力的代数和为零；有加速度，则沿加速度方向用牛顿第二定律列方程。人教版必修第一册第三章“力的分解”给出分解的方法，第四章应用牛顿运动定律解题时正是这样做的。}
+
+\std 那么分解方向该如何选取呢？
+
+\tchr 选取时要考虑物体运动的性质。可能有两种情形：
+\begin{enumerate*}[label=(\arabic*)]
+\item 物体处于静止，或沿直线做匀速运动；
+\item 物体做加速运动，且加速度的方向（至少其正负）已经给定。
+\end{enumerate*}
+
+在第一种情形里，分解方向可以任意选取，可以出于计算便利的考虑，也可以不作这种考虑。比如，设在\figr{fig-10} 所示的情形中，物体沿斜面向上匀速滑动。这时，分解方向既可取竖直方向与水平方向（\figr{fig-27}~\drkgry{(a)}），也可取沿斜面的方向与垂直于斜面的方向（\figr{fig-27}~\drkgry{(b)}），两者同样便利。
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=\textwidth]{figs/ch-06/fig-027a.pdf}
+\caption[运动物体所受各力的两种分解方式。]{运动物体所受各力的两种分解方式。\label{fig-27}}
+\end{figure}
+各力分解之后，把每个分解方向上分力的代数和取为零（记住，我们讨论的仍然是无加速度的运动）。对\figr{fig-27}~\drkgry{(a)} 所示的情形，可以写出方程组
+\begin{equation}%
+\left.
+\begin{aligned}
+N \cos \alpha -F_{fr} \sin \alpha- P & = 0 \\
+F - F_{fr} \cos \alpha - N \sin \alpha & = 0
+\label{eq-21}
+\end{aligned}
+\right\}
+\end{equation}
+对\figr{fig-27}~\drkgry{(b)} 的情形，方程组为
+\begin{equation}%
+\left.
+\begin{aligned}
+N  - P \cos \alpha -F \sin \alpha & = 0 \\
+F_{fr} + P \sin \alpha - F \cos \alpha & = 0
+\label{eq-22}
+\end{aligned}
+\right\}
+\end{equation}
+
+\std 可是这两个方程组并不相同啊。
+
+\tchr 是不相同，但它们会给出同样的结果，这一点不难验证。设要求找出能保证物体沿斜面向上匀速运动的力 $F$。把式~\eqref{eq-05} 代入方程组~\eqref{eq-21}，得
+\begin{equation*}%
+\left.
+\begin{aligned}
+N  \left( \cos \alpha - k \sin \alpha \right)  - P & = 0 \\
+F  - N \left( k \cos \alpha + \sin \alpha \right) & = 0
+\end{aligned}
+\right\}
+\end{equation*}
+从这个方程组的第一个方程得
+\begin{equation*}%
+N = \frac{P}{\cos \alpha -k \sin \alpha}
+\end{equation*}
+把它代入第二个方程，便能定出所求的力。于是
+\begin{equation*}%
+F = P \left(\frac{k \cos \alpha + \sin \alpha }{\cos \alpha - k \sin \alpha}\right)
+\end{equation*}
+从方程组~\eqref{eq-22} 出发，会得到完全相同的答案。你可以自己验证一下。
+
+\std 如果物体做加速运动，该怎么办呢？
+
+\tchr 这时分解方向的选取取决于使物体加速的方向（即合力的方向）。\hlblue{应当沿加速度的方向和垂直于加速度的方向分解力。}垂直于加速度方向上各分力的代数和取为零，而沿加速度方向各分力的代数和，按牛顿第二定律，等于物体质量与加速度的乘积。
+
+我们再回到上一问题中斜面上的物体，设它以某一加速度沿斜面向上滑动。根据前面的说明，力应按\figr{fig-27}~\drkgry{(b)} 所示的方式分解。这时，代替方程组~\eqref{eq-22}，可以写出下面的方程组
+\begin{equation}%
+\left.
+\begin{aligned}
+N  - P \cos \alpha -F \sin \alpha & = 0 \\
+F \cos \alpha - F_{fr} - P \sin \alpha & = ma = P \left( \frac{a}{g} \right)
+\label{eq-23}
+\end{aligned}
+\right\}
+\end{equation}
+利用式~\eqref{eq-05}，求得物体的加速度
+\begin{equation*}%
+a = \left( \frac{g}{P} \right) \left(F \cos \alpha - \left(P \cos \alpha + F \sin \alpha \right) k - P \sin \alpha \right)
+\end{equation*}
+\pnote{此式中底本误排为小写 $p$；本式与前文均以 $P$ 表重力（$P=mg$），故应为 $g/P$，中文版径改。}
+
+\std 在这类含加速度的问题中，可以沿别的方向（而非沿加速度方向和垂直于它的方向）分解力吗？据我对您讲解的理解，这是不应该做的。
+
+\tchr 你这个问题说明，我应当把某些地方说清楚。当然，即使是在加速度问题里，你也完全有权沿任意两个互相垂直的方向分解力。不过这样一来，要分解的就不只是力，还有加速度矢量。这种解法会带来额外的困难。为了避免不必要的复杂化，最好就按上面建议的方式去做——这是最简单的做法。物体加速度的方向总是已知的（至少知道其正负），所以完全可以拿它作依据。\hlblue{考生不会合理选取力的分解方向，正是他们解比较复杂的动力学问题时束手无策的原因之一。}
+
+\std 我们讲的都只是沿两个方向分解。不过一般说来，恐怕更应该讲沿三个互相垂直的方向分解——空间本来就是三维的。
+
+\tchr 你说得完全对。我们之所以只讲两个方向，是因为讨论的都是平面（二维）问题。一般情形下，力应沿三个方向分解；而上面所作的全部说明，这时仍然成立。还应指出，考试中照例只出二维问题；当然，也可能要求考生就三维情形作一个不太复杂的推广。
+
+\end{dialogue}
+
+\section*{习题}
+\label{prob-02}
+\addcontentsline{toc}{section}{习题}
+
+\begin{enumerate}[resume*=problems]
+\item 质量为 \SI{5}{kg} 的物体，被一个大小为 3 kgf\sidenote{原书此处使用 \emph{kgf}（千克力）为单位，此后一律使用牛顿，记作 \si{\newton}。}、方向与水平成 \ang{30} 角的力沿水平面拖动。滑动摩擦系数为 0.2。求从拉力开始作用起 \SI{10}{\second} 后物体的速度，以及这段时间内摩擦力所做的功。
+\pnote{千克力（kgf）是原书使用的力的单位，属工程单位制（米--千克力--秒制），$1~\mathrm{kgf}=9.80665~\mathrm{N}\approx 9.8~\mathrm{N}$，即质量 1 kg 的物体所受的重力。底本把本章习题的 kgf 一律改标为 N 而未换算数值：按题面 3 N 验算，拉力的水平分量约 2.6 N，小于摩擦力所能达到的量值 $kN\approx 9.5$ N，物体根本不会滑动；而书末答案（37.2 m/s 与 1280 J）恰对应 $F=3$ kgf $\approx 29.4$ N 的原书数值，习题 9（12 kgf $\approx 118$ N）与习题 11、12 的答案也都按 kgf 读法给出。中文版据此恢复原书的 kgf 计量；上面那条边注即英文重排本对此的说明，中文版照译保留。}
+
+\item 一个人拉曳拴在一起的两辆雪橇，对牵引绳施加与水平成 \ang{45} 角的力 $F=$ 12 kgf（\figr{fig-28}）。两雪橇质量相等，$m_{1}=m_{2}=$ \SI{15}{\kilogram}。雪橇滑铁与雪之间的摩擦系数为 0.02。求雪橇的加速度、拴连两雪橇的绳的张力，以及为使雪橇做匀速运动人应施加的拉力。
+
+\begin{figure}
+\centering
+\includegraphics[width=0.3\textwidth]{figs/ch-06/fig-028a.pdf}
+\caption[用绳以 45° 角拉雪橇。见习题 9。]{用绳以 \ang{45} 角拉雪橇。见习题 9。\label{fig-28}}
+\end{figure}
+\pnote{底本中图 28 与图 29 误用了同一幅图像，图 30 与图 31 亦然——这几幅“插图”实际都是原书相应整页的扫描，同页上的两幅插图与习题文字一并入画，并未按单图裁切。中文版沿用原图文件，读者查阅图 28--31 时，请在整页扫描中对照各图号与图题。另，底本图 31 的图题误沿了图 30 的文字（“斜面上的三个物体”），与图面（$P_{1}$--$P_{4}$ 四个重物）不符，中文版按图面内容另行拟写。}
+\item 如\figr{fig-29} 所示，三个质量各为 \SI{2}{\kilogram} 的相同重物挂在跨过定滑轮的一根绳上。求系统的加速度，以及连接重物 1 与重物 2 的绳的张力。
+
+\begin{figure}
+\centering
+\includegraphics[width=0.15\textwidth]{figs/ch-06/fig-029a.pdf}
+\caption[三个相互作用的物体组成的系统。见习题 10。]{由三个相互作用的物体组成的系统。见习题 10。\label{fig-29}}
+\end{figure}
+\item 计算\figr{fig-30} 所示情形中各重物的加速度和绳中的张力。已知：$\alpha=\ang{30}$，$P_{1}=4$ kgf，$P_{2}=2$ kgf，$P_{3}=8$ kgf。忽略重物与斜面间的摩擦。
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.34\linewidth]{figs/ch-06/fig-030a.pdf}
+\caption[斜面上的三个物体组成的系统。见习题 11。]{斜面上的三个物体组成的系统。见习题 11。\label{fig-30}}
+\end{figure}
+\item 考察\figr{fig-31} 所示的重物系统。这里 $P_{1}=1$ kgf，$P_{2}=2$ kgf，$P_{3}=5$ kgf，$P_{4}=0.5$ kgf，且 $\alpha=\ang{30}$。重物与各平面之间的摩擦系数均为 0.2。求这组重物的加速度、各绳中的张力，以及重物 $P_{4}$ 向下压在重物 $P_{3}$ 上的力。
+\pnote{底本此处作“$P_{5}=8$ N”，但图中并无重物 $P_{5}$；本图文件恰为原书该页的整页扫描，原题作 $P_{3}=5$ kgf，图中也只有 $P_{1}$--$P_{4}$ 四个重物。且书末答案（加速度 6.9 m/s\textsuperscript{2}、张力 8.8 N 与 16.2 N、压力 1.5 N）正与 $P_{3}=5$ kgf、$P_{4}=0.5$ kgf 的读法吻合，显系录入之误，中文版径改。}
+\pnote{重物 $P_{4}$ 压在 $P_{3}$ 上的力随系统的加速度变化：悬挂端向下加速时，它小于 $P_{4}$ 的重力（按书末答案，1.5 N $<$ 4.9 N）——这正是人教版必修第一册第四章“超重和失重”一节讨论的现象。对 $P_{4}$ 单独使用牛顿第二定律即得 $N=m_{4}(g-a)$。}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-06/fig-031a.pdf}
+\caption[习题 12 的重物系统。]{习题 12 的重物系统：$P_{3}$ 悬挂于绳端，$P_{4}$ 叠放其上。见习题 12。\label{fig-31}}
+\end{figure}
+\end{enumerate}
+
+% NEWTERMS: directions of resolution | 分解方向 | 原书自定术语：所选取的两个正交分解方向；对应国内正交分解法中的两个坐标轴方向
+% NEWTERMS: resolve (a force) / resolution of forces | （力的）分解 | 人教版必修第一册第三章“力的分解”
+% NEWTERMS: component (of a force) | 分力 | 第 3 章 components 亦译“分量”，本章按人教版用“分力”，两者全书并存
+% NEWTERMS: algebraic sum | 代数和 | |
+% NEWTERMS: kilogram-force (kgf) | 千克力 | 非SI单位，1 kgf = 9.80665 N；本章习题恢复原书 kgf 计量，见评注
+% NEWTERMS: fixed pulley | 定滑轮 | |
+% NEWTERMS: runner (of a sled) | （雪橇的）滑铁 | 雪橇底部与雪面接触的滑条；sled 雪橇已在第 3 章定名
+% NEWTERMS: weight (hanging object) | 重物 | 指悬挂于绳端的重物；第 3 章 load（叠放负载）亦译“重物”
+% NEWTERMS: work | 功 | 摩擦力所做的功
+% NEWTERMS: Problems (section title) | 习题 | 章末习题节标题，全书连续编号，本章为习题 8--12

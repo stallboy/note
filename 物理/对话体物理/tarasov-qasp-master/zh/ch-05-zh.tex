@@ -1,0 +1,217 @@
+% !TEX root = tarasov-qasp-zh.tex
+
+\chapter[运动学问题该怎样求解？]{运动学问题该怎样求解？\label{ch-05}}
+
+\begin{dialogue}
+
+\tchr \hlred{设有两个物体从某一高度下落：一个没有初速度，另一个具有沿水平方向的初速度。在本题以及此后的讨论中，我们都不计空气阻力。试比较两物体落到地面所需的时间。}
+
+\std 水平抛出的物体的运动，可以看成竖直方向和水平方向两个分运动的合运动。飞行时间由运动的竖直分量决定。由于两种情形中物体竖直方向的运动都由同样的数据决定（高度相同、初速度都没有竖直分量），两物体下落的时间相同。它等于 $\sqrt{2H/g}$，其中 $H$ 是初始高度。
+\pnote{平抛与自由落体同时落地，正是人教版必修第二册第五章《抛体运动》“实验：探究平抛运动的特点”一节中的等时性实验；学生所依据的“飞行时间由竖直分运动决定”，即运动的独立性原理——同一章“运动的合成与分解”一节的核心思想。}
+
+\tchr 完全正确。现在考虑一个更复杂的情形。\hlred{设两个物体都从高度 $H$ 处无初速下落，但其中一个在途中碰到一个与水平方向成 \ang{45} 角的固定斜面，碰撞的结果使这个物体的速度方向变成水平的 \drkgry{(\figr{fig-23})}。碰撞点位于高度 $h$ 处。试比较两物体的下落时间。}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[angle=-1.2,width=0.4\textwidth]{figs/ch-05/fig-023a.pdf}
+\caption[两个物体从同一高度下落，其中一个在途中碰到固定斜面。]{两个物体从高度 $H$ 处下落，其中一个在高度 $h$ 处碰到固定斜面。问题是比较两物体的下落时间。\label{fig-23}}
+\end{figure}
+
+\std 在落到斜面所在高度之前，两个物体所用的时间相同。由于同斜面相碰，其中一个物体获得了水平方向的速度分量。然而，这个水平分量不可能影响物体运动的竖直分量。因此我认为，在这种情形下两物体的下落时间也应当相同。
+
+\tchr 你答错了。你说水平速度分量不影响物体的竖直运动、因而不影响下落时间，这话说得对。\hlblue{物体碰到斜面时，不仅获得水平的速度分量，而且失去了速度的竖直分量，这当然会影响下落时间。}碰过斜面之后，物体是从高度 $h$ 处、在竖直方向没有初速度的情形下下落的。与斜面的碰撞推迟了物体的竖直运动，从而加长了它的下落时间。直落到地面的物体，下落时间为 $\sqrt{2H/g}$；碰斜面的物体，下落时间为 $\sqrt{2(H-h)/g}+\sqrt{2h/g}$。
+\pnote{要使竖直下落的物体碰后速度恰好变为水平，碰撞必须是光滑斜面上的完全弹性碰撞：速率不变，方向像光的反射一样“入射角等于反射角”——\ang{45} 的斜面把竖直速度转成水平速度正源于此。原书此处把“碰后速度方向变为水平”直接作为题设给出，习题 4 则明确写出“弹性地弹开”。}
+
+由此产生下面的问题：\hlred{$h$ 与 $H$ 之比为何值时，下落时间达到最大值？换句话说，斜面应当放在什么高度，才能最有效地推迟物体的下落？}
+
+\std 要给出确切的答案，我说不上来。依我看，比值 $h/H$ 不应接近 1，也不应接近 0，因为比值等于 1 或 0 就相当于根本没有斜面。斜面应当位于地面和初始点之间的某个中间位置上。
+
+\tchr 你的定性判断完全正确。不过，要得到确切的答案，你不会有困难。我们可以把物体的下落时间写成
+\begin{equation*}%
+t = \sqrt{\frac{2 H}{g}} \left( \sqrt{1-x} + \sqrt{x} \right) \, \, \text{其中} \, \, x = \frac{h}{H}
+\end{equation*}
+现在来求使函数 $t(x)$ 取最大值的 $x$。先把下落时间平方，得
+\begin{equation*}%
+t^{2} = \frac{2 H}{g} \left(  1 +2\sqrt{(1-x) \,x} \,\, \, \right)
+\end{equation*}
+时间最大时，它的平方也最大。由最后一式显然可见，当函数 $y= (1- x) \,x$ 最大时，$t^{2}$ 就最大。于是，问题归结为求二次三项式的最大值：
+\begin{equation*}%
+y = -x^{2} + x = - \left( x- \frac{1}{2}\right)^2 + \frac{1}{4}
+\end{equation*}
+这个三项式在 $x= \dfrac{1}{2}$ 时最大。因此，高度 $h$ 应取高度 $H$ 的一半。
+
+接下来关于运动学问题典型解法的讨论，将以与水平方向成一定角度向上抛出的物体为例展开，这个角度通常称为抛射角（elevation angle）。
+\pnote{斜抛运动在人教版必修第二册第五章《抛体运动》中只作简要讨论，该章以平抛运动为重点；本章的全套分解方法就是该章“运动的合成与分解”一节思想在斜抛上的直接应用。带风、带斜面的抛体问题是高考与物理竞赛的常见变式。}
+
+\std 这类问题我不太会解。
+
+\tchr 我们从这道题的通常表述开始：\hlred{物体以初速度 $v_{0}$、与水平方向成 $\alpha$ 角向上抛出。求飞行时间 $T$、到达的最大高度 $H$ 和射程 $L$。}
+
+照例，我们先求作用在物体上的力。唯一的力是重力。因此，物体沿水平方向做匀速运动，沿竖直方向以加速度 $g$ 做匀加速运动。下面我们把运动的竖直分量和水平分量分开来处理；为此，把初速度矢量分解为竖直分量（$v_{0} \sin \alpha$）和水平分量（$v_{0} \cos \alpha$）。飞行全程中，水平速度分量保持不变，竖直分量则如\figr{fig-24} 所示那样变化。
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=0.7\textwidth]{figs/ch-05/fig-024a.pdf}
+\caption[与水平方向成一角度抛出的物体。]{以角度 $\alpha$ 抛出的物体。问题是求飞行时间、到达的最大高度和射程。\label{fig-24}}
+\end{figure}
+先考察运动的竖直分量。飞行时间 $T= T_{1} +T_{2}$，其中 $T_{1}$ 是上升时间（物体沿竖直方向做匀减速运动），$T_{2}$ 是下落时间（物体沿竖直向下做匀加速运动）。在轨迹最高点（时刻 $t=T_{1}$），物体的竖直速度显然等于零。另一方面，这个速度又可以用匀减速运动的速度随时间变化的公式表示出来。于是得到
+\begin{equation*}%
+0 = v_{0} \sin \alpha - gT_{1}
+\end{equation*}
+即
+\begin{equation}%
+T_{1} = \frac{v_{0} \sin \alpha}{g}
+\label{eq-14}
+\end{equation}
+
+知道了 $T_{1}$，就能得出
+\begin{equation}%
+H = v_{0} T_{1} \sin \alpha - \frac{g T_{1}^{2}}{2} = \frac{v_{0}^{2} \sin^{2} \alpha}{2g}
+\label{eq-15}
+\end{equation}
+
+下落时间 $T_{2}$ 可以按物体从已知高度 $H$ 无竖直初速度落下所需的时间来计算：
+\begin{equation*}%
+T_{2} = \sqrt{\frac{2H}{g}} = \frac{v_{0} \sin \alpha}{g}
+\end{equation*}
+把它与式~\eqref{eq-14} 比较，可见下落时间等于上升时间。总飞行时间为
+\begin{equation}%
+T= T_{1} + T_{2} = \frac{2 \,v_{0} \sin \alpha}{g}
+\label{eq-16}
+\end{equation}
+为求射程 $L$（即物体沿水平方向通过的距离），我们利用运动的水平分量。如前所说，物体沿水平方向做匀速运动，于是
+\begin{equation}%
+L= (v_{0} \cos \alpha)\, T = \frac{v_{0}^{2} \sin 2 \alpha}{g}
+\label{eq-17}
+\end{equation}
+由式~\eqref{eq-17} 可以看出：\hlblue{若两个物体抛出时的角度之和为 \ang{90}，且初速度相等，则两物体将落在同一点。}到这里都清楚了吗？
+\pnote{互补角射程相等是式~\eqref{eq-17} 的直接推论（$\sin 2(90^{\circ}-\alpha)=\sin 2\alpha$）。注意式~\eqref{eq-16}、\eqref{eq-17} 及此结论都以落点与抛出点等高为前提，习题 7 那类落点更高的情形须回到分运动方程处理。等高且无阻力时 \ang{45} 射程最大；实际投掷项目的最佳出手角都明显小于 \ang{45}（铅球约 \ang{40}，标枪约 \ang{33}），原因是出手点高于落点、出手速度随出手角增大而减小，以及（标枪的）空气动力作用。}
+
+\std 嗯，看来都清楚了。
+
+\tchr 好。那我们再添加一点复杂因素。\hlred{设在飞行中有一个恒力 $F$ 的水平顺风（tail wind）作用在物体上。物体的重力为 $P$。请像前一题那样，求飞行时间 $T$、最大高度 $H$ 和射程 $L$。}
+
+\std 与前一题不同，物体的水平运动不再是匀速的；现在物体以水平加速度 $a= \left( F/P \right)g$ 运动。
+\pnote{$P$ 为物体的重力 $mg$（人教版记作 $G$，原书第 2 章起即用 $P$），故由牛顿第二定律，水平加速度 $a=F/m=(F/P)g$。}
+
+\tchr \hlred{运动的竖直分量有变化吗？}
+
+\std \hlblue{由于风沿水平方向施力，风不可能影响物体的竖直运动。}
+
+\tchr 好。那么请告诉我，哪些待求量应当与前一题取相同的值。
+
+\std 显然是飞行时间 $T$ 和高度 $H$。它们正是由物体竖直方向的运动决定的，因此将与前一题中的值相同。
+
+\tchr 很好。射程呢？
+
+\std 已知水平加速度和飞行时间，射程不难求出：
+\begin{equation*}%
+L  = \left( v_{0} \cos \alpha \right)T + \frac{aT^{2}}{2} = \frac{v_{0}^{2} \sin 2 \alpha}{g} + \frac{2F}{P}\frac{v_{0}^{2} \sin^{2} \alpha}{g}
+\end{equation*}
+
+\tchr 完全正确。只是这个答案最好写成另一种形式：
+\begin{equation}
+L= \frac{v_{0}^{2} \sin 2 \alpha}{g} \left( 1 + \dfrac{F}{P} \tan \alpha \right)
+\label{eq-18}
+\end{equation}
+接下来考虑一个新问题：\hlred{物体以角度 $\alpha$ 抛向一个与水平方向成 $\beta$ 角的斜面 \drkgry{(\figr{fig-25})}。物体的初速度为 $v_{0}$。求从抛出点到物体落到斜面上的那一点之间的距离 $L$。}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-05/fig-025a.pdf}
+\caption[被抛向斜面的物体。问题是求物体落到斜面处的距离。]{以角度 $\alpha$ 抛向斜面的物体。问题是求物体落到斜面上的那一点到抛出点的距离。\label{fig-25}}
+\end{figure}
+
+\std 这种题我从前试着解过一次，可是没有成功。
+
+\tchr 你不觉得这道题与前一题有相似之处吗？
+
+\std 不觉得。
+
+\tchr 设想把这道题的图转过角度 $\beta$，使斜面变成水平的（\figr{fig-26}~\drkgry{(a)}）。
+
+\begin{figure*}
+\centering
+\includegraphics[width=0.8\linewidth]{figs/ch-05/fig-026a.pdf}
+\caption[把图 25 的情形转过一定角度后得到的问题。]{把\figr{fig-25} 的图形转过角度 $\beta$，就得到一个与前面已解过的习题相类似的问题。\label{fig-26}}
+\end{figure*}
+
+这时重力就不再沿竖直方向了。现在把重力分解为竖直分量（$P \cos \beta$）和水平分量（$P \sin \beta$）。容易看出，我们又得到了前一题：力 $P \sin \beta$ 起着风力的作用，$P \cos \beta$ 起着重力的作用。因此，只要作下面的替换，就可以利用式~\eqref{eq-18} 求出答案：
+\begin{equation*}%
+P \sin \beta \,\, \text{代} \,\, F, P \cos \beta \,\, \text{代} \,\, P, \, \, \text{以及} \,\, g \cos \beta \,\, \text{代} \,\, g
+\end{equation*}
+于是得到
+\begin{equation}%
+L= \frac{v_{0}^{2} \sin 2 \alpha}{g \cos \beta } \left( 1 + \tan \beta \tan \alpha \right)
+\label{eq-19}
+\end{equation}
+当 $\beta =0$ 时，它与式~\eqref{eq-17} 相同。
+\pnote{替换 $g\to g\cos\beta$ 的来历：转过图后，沿垂直于斜面的方向只有重力的分量 $P\cos\beta$ 作用，故该方向的加速度为 $P\cos\beta/m=g\cos\beta$。}
+
+这道题还有另一种有意思的解法。引入坐标轴 $Ox$ 和 $Oy$，原点取在物体的抛出点（\figr{fig-26}~\drkgry{(b)}）。在这些坐标中，斜面由线性函数
+\begin{equation*}%
+y_{1}=-x \tan \beta
+\end{equation*}
+表示，而物体的轨迹由抛物线
+\begin{equation*}%
+y_{2}= ax^{2}+bx
+\end{equation*}
+描述，其中系数 $a$ 和 $b$ 可以用 $v_{0}$、$\alpha$ 和 $\beta$ 表示。接下来，令这两个函数的表达式相等，求两函数 $y_{1}$ 与 $y_{2}$ 的交点 $A$ 的坐标 $x_{A}$：
+\begin{equation*}%
+- x \tan \beta = ax^{2} + bx
+\end{equation*}
+由此得
+\begin{equation*}%
+x_{A} = \left( \frac{\tan \beta+b}{-a} \right)
+\end{equation*}
+进而容易求出所要求的距离
+\begin{equation}
+L= \frac{x_{A}}{\cos \beta } = - \frac{ \tan \beta + b} {a \cos \beta}
+\label{eq-20}
+\end{equation}
+剩下的事是用 $v_{0}$、$\alpha$ 和 $\beta$ 把系数 $a$ 和 $b$ 表示出来。为此，考察抛物线上的两个点——$B$ 和 $C$（见\figr{fig-26}~\drkgry{(b)}）。对这两个点分别写出抛物线方程：
+\begin{equation*}%
+\left.
+\begin{aligned}
+ y_{2C} &= ax^{2}_{C} + bx_{C} \\
+y_{2B} &= ax^{2}_{B} + bx_{B}
+\end{aligned}
+\right\}
+\end{equation*}
+点 $C$ 和 $B$ 的坐标我们是知道的。因此，上面的方程组使我们能够确定系数 $a$ 和 $b$。建议你在课余时间把这个问题的解答补全，得出式~(\ref{eq-19}) 形式的答案。
+
+\std 我更喜欢第一种解法。
+
+\tchr 这是各人趣味的问题。两种解法在性质上有本质的不同。第一种可以称为“物理”方法。它运用了物理研究方式中十分典型的模拟化归手法（我们稍稍改变了看问题的角度，把问题归结为前面讨论过的顺风问题）。第二种方法则可以称为“数学”方法：这里我们利用了两个函数，并求出了它们交点的坐标。在我看来，第一种方法更优美，但通用性较差；第二种方法的应用范围则宽广得多。例如，当抛体所在的山坡轮廓不是直线时，第二种方法原则上仍可应用：那时不用线性函数 $y_{1}$，改用与山坡轮廓相应的其他函数即可；而第一种方法在这类情形中原则上不能应用。可以指出，数学方法之所以适用范围更广，正是因为它们更具抽象性。
+\pnote{第二种方法就是中学常说的“轨迹方程法”：由 $x=(v_{0}\cos\alpha)t$、$y=(v_{0}\sin\alpha)t-gt^{2}/2$ 消去 $t$ 得轨迹方程，再与边界（斜面、挡板等）的方程联立求交点，是处理“落到斜面”类问题的标准工具。教师留作练习的一步并不难：\figr{fig-26}~\drkgry{(b)} 中 $B$ 是抛物线与 $x$ 轴的交点，$C$ 是抛物线的顶点，两者的坐标都可由式~\eqref{eq-14}—\eqref{eq-17} 的结果直接写出。}
+
+\end{dialogue}
+
+\section*{习题}
+\label{prob-01}
+\addcontentsline{toc}{section}{习题}
+
+\begin{enumerate}[series=problems,first={\small}]
+\item 物体 $A$ 以 \SI{20}{\meter \per \second} 的速度竖直向上抛出。在抛出物体 $A$ 的同时，物体 $B$ 以 \SI{4}{\meter \per \second} 的水平速度抛出，并在飞行中与物体 $A$ 相撞。已知两物体抛出点之间的水平距离等于 \SI{4}{m}。问物体 $B$ 是从多高处抛出的？并求两物体相撞前各自的飞行时间，以及相撞时刻各自的速度。
+\item 从高度分别为 \SI{2}{\metre} 和 \SI{6}{\metre} 的 $A$、$B$ 两点，同时相向抛出两个物体：一个以 \SI{8}{\meter \per \second} 的速度水平抛出；另一个以与水平方向成 \ang{45} 角斜向下的初速度抛出，且初速度的大小恰好使两物体在空中相撞。$A$、$B$ 两点之间的水平距离等于 \SI{8}{m}。试求以 \ang{45} 角抛出的物体的初速度 $v_{0}$、相撞点的坐标 $x$ 和 $y$、两物体相撞前的飞行时间 $t$，以及相撞时刻两物体的速度 $v_{A}$ 和 $v_{B}$。两物体的轨迹位于同一平面内。
+\item 两个物体从同一点以与水平方向分别成 $\alpha_{1}$ 角和 $\alpha_{2}$ 角抛出，初速度分别为 $v_{1}$ 和 $v_{2}$。经过时间 $t$ 后两物体相距多远？讨论两种情形：
+\begin{enumerate}[label=(\arabic*),leftmargin=1cm]
+\item 两物体的轨迹位于同一平面内，且两物体向相反方向抛出；
+\item 两物体的轨迹位于互相垂直的两个平面内。
+\end{enumerate}
+\item 一个物体从高度 $H$ 处无初速下落，在高度 $h$ 处碰到一个与水平方向成 \ang{30} 角的平面，并被弹性地（elastically）弹开。求物体落到地面所需的时间。
+\item 一个重力为 $P$ 的物体在飞行中受到恒力 $F$ 的水平顺风作用。要使它到达的最大高度等于射程，应以多大的抛射角（与水平方向所成的角）抛出？
+\item 一个石块以初速度 $v_{0}$ 沿垂直于斜面的方向向上抛出，斜面的倾角为 $\alpha$。石块将落在离抛出点多远的地方？
+
+\item 一个身高 \SI{1.5}{m} 的男孩，站在离一高 \SI{5}{m} 的栅栏 \SI{15}{m} 处，以与水平方向成 \ang{45} 角的方向抛出一块石头。要让石头飞过栅栏，至少应以多大的速度将石头抛出？
+\end{enumerate}
+
+% NEWTERMS: elevation angle | 抛射角 | 首现于本章过渡句；人教版必修第二册亦称抛射角
+% NEWTERMS: time of flight | 飞行时间 | |
+% NEWTERMS: time of ascent / time of descent | 上升时间 / 下落时间 | |
+% NEWTERMS: maximum height reached | （到达的）最大高度 | |
+% NEWTERMS: range | 射程 | 水平射程，落点与抛出点等高时 |
+% NEWTERMS: tail wind | 顺风 | 恒力、水平方向的风
+% NEWTERMS: trajectory | 轨迹 | 常用词，glossary 此前未收
+% NEWTERMS: elastically bounces | 弹性地弹开 | 习题 4；对应术语：弹性碰撞
+% NEWTERMS: quadratic trinomial | 二次三项式 | 数学术语，从俄语传统直译，中文数学同名
+% NEWTERMS: linear function | 线性函数（一次函数） | 数学术语
