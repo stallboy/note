@@ -1,0 +1,258 @@
+% !TEX root = tarasov-qasp-zh.tex
+
+\chapter[匀强静电场中的运动问题该怎样处理？]{匀强静电场中的运动问题该怎样处理？\label{ch-25}}
+
+\begin{dialogue}
+
+\tchr 设想一个带电体在匀强静电场（uniform electrostatic field）中运动，也就是在场内每一点，电场强度（intensity）$E$ 的大小和方向都相同的场。平行板电容器两极板之间的场就是这种场的一个例子。你能看出“带电体在匀强静电场中运动”的问题，与我们先前讨论过的哪些问题有相似之处吗？
+\pnote{严格的匀强电场只是理想模型：平行板电容器仅在两板之间、远离边缘的中央区域近似匀强，板缘处电场线向外弯曲（边缘效应），本书与中学教材都一律忽略这一效应。人教版必修第三册第十章第 3 节“电势差与电场强度的关系”（$U=Ed$）即以匀强电场为前提。}
+
+\stdb 我觉得它与引力场中物体运动的问题十分相似。在比较短的距离上，地球的引力场可以看作是匀强的。
+
+\tchr 正是。那么，静电场中的运动与引力场中的运动又有什么区别呢？
+
+\stdb 作用在物体上的力不同。在静电场中，作用在物体上的力是 $F_{e}=E\,q$（它给物体以加速度 $a_{e}=Eq/m$）；引力场中的力则是 $P=mg$（给物体以加速度 $g$）。这里 $m$ 是物体的质量，$q$ 是它的电荷。
+
+\tchr 但愿所有考生都能明白这个简单的道理：物体在任何匀强场中的运动，在运动学上都是一样的，不同的只是各种场中作用在物体上的力的大小。带电体在匀强静电场中的运动，与普通的石块在地球引力场中的运动性质相同。我们来考察一个物体同时在两种场——引力场和静电场——中运动的问题。\hlred{质量为 $m$、电荷为 $+q$ 的物体，以初速度 $v_{0}$、与水平方向成 $\alpha$ 角向上抛出。物体同时在引力场和强度为 $E$ 的匀强静电场中运动，两种场的力线（lines of force）都竖直向下\drkgry{(\figr{fig-94}~(a))}。求飞行时间 $T_{1}$、射程 $L_{1}$ 和到达的最大高度 $H_{1}$。}
+\pnote{本章反复使用的就是国内教辅所称的“等效场”法（等效重力加速度法）：把电场力 $Eq$ 与重力 $mg$ 合成一个等效重力，第 5 章的全部抛体公式、第 11--12 章的摆公式便都可照搬。人教版必修第三册第十章第 5 节“带电粒子在电场中的运动”以不计重力的平抛类比处理带电粒子；本章把它推广为“带电体在复合场中运动”的通法，是高考压轴与竞赛的常见题型。}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{figs/ch-25/fig-094a}
+\caption[两种场的力线。]{物体在其中运动的两种场的力线。\label{fig-94}}
+\end{figure}
+
+\stdb 物体受两个力：重力 $P=mg$ 和电场力（electric force）$F_{e}=Eq$。在本题中，这两个力互相平行。像\chap{ch-05} 中那样，我可以把初速度矢量分解为沿两个方向的分量……
+\pnote{底本本章有若干录入之误，中文版径改处如下：上面题设中“飞行时间”原文误作 time of light（漏排 f），三个待求量之间衍落的标点一并补出；本句“初速度矢量”后有一残损字符组合“ta)”，无从辨认，径删；本章后文“角 ex”应为角 $\alpha$（式~\eqref{eq-155} 即求 $\tan\alpha$）；式~\eqref{eq-154} 前一式的 $g^{2}$ 与 $(Eq/m)^{2}$ 之间漏排加号（式~\eqref{eq-154} 本身不误），据以径补。又，式~\eqref{139} 的标签原文即缺“eq-”前缀（全书无引用处），照底本保留；其余标点级小误（衍括号、衍问号、句中误植句点等）径改不注。}
+
+\tchr （打断）：等一下！你是想把\chap{ch-05} 中类似问题里已经演示过的解法再重复一遍吗？
+
+\stdb 是的，哪怕简略地重复一遍也好。
+
+\tchr 没有这个必要。你可以直接引用式~\eqref{eq-15}、\eqref{eq-16} 和~\eqref{eq-17} 的结果。只要设想物体是在一个“更强”的引力场中运动，这个场的总加速度等于 $g+E (q/m)$。在式~\eqref{eq-15}、\eqref{eq-16} 和~\eqref{eq-17} 中作替换
+\begin{equation}%
+ g +  \left(\frac{Eq}{m} \right) \,\, \text{代} \,\, g
+\label{139}
+\end{equation}
+就能立刻得到所要求的结果：
+\begin{align}%
+T_{1} & = \frac{2 v_{0} \sin \alpha}{ g + \left(\dfrac{Eq}{m} \right)} \label{eq-140}\\
+L_{1} &= \frac{ v_{0}^{2} \sin 2 \alpha}{g + \left(\dfrac{Eq}{m} \right)} \label{eq-141}\\
+H_{1} &=\frac{1}{2} \frac{v_{0}^{2} \sin^{2} \alpha}{g + \left(\dfrac{Eq}{m} \right)} \label{eq-142}
+\end{align}
+
+\stda 这里有一点我不明白。与\chap{ch-05} 中相应的问题相比，本题中物体上还多作用着一个力 $F_{e}$。这个力竖直向下，因而似乎不应影响物体的水平运动。可是为什么在这里它却影响了射程 $L_{1}$ 呢？
+
+\tchr 射程取决于飞行时间，而飞行时间是由物体竖直方向的运动确定的。
+
+现在把题目的条件稍作改变：\hlred{设静电场的电场线与竖直方向成 $\beta$ 角\drkgry{(\figr{fig-94}~(b))}。和前面一样，求飞行时间 $T_{2}$、射程 $L_{2}$ 和到达的最大高度 $H_{2}$。}
+
+\stda 我先把力 $F_{e}$ 分解为两个分量：竖直分量（$F_{e} \cos \beta$）和水平分量（$F_{e} \sin \beta$）。这道题使我想起\chap{ch-05} 中顺风的问题。分量 $F_{e} \sin \beta$ 在这里起着“风力”的作用。
+
+\tchr 很对。只是要记住，与你提到的顺风问题不同，这里竖直方向的力换成了另一个，即 $mg + F_{e} \cos \beta$。
+
+\stda 我要利用式~\eqref{eq-15}、\eqref{eq-16} 和~\eqref{eq-18}，在其中作如下的替换
+\begin{equation}%
+\left.
+\begin{aligned}
+g + \frac{E q \cos \beta}{m} \,\, & \text{代} \,\, g \\
+\frac{E q \sin \beta}{mg + Eq \cos \beta} \,\, & \text{代} \,\, \frac{F}{P}
+\label{eq-143}
+\end{aligned}
+\right\}
+\end{equation}
+这样，我立即得到所要求的结果
+\begin{align}%
+T_{2} & = \frac{2 v_{0} \sin \alpha}{ g +  \left(\dfrac{E q \cos \beta}{m} \right)} \label{eq-144}\\
+L_{2} &= \frac{ v_{0}^{2} \sin 2 \alpha}{g +  \left(\dfrac{E q \cos \beta}{m} \right)} \left(1 + \frac{Eq \sin \beta \tan \alpha}{mg + Eq \cos \beta} \right) \label{eq-145}\\
+H_{2} &=\frac{1}{2} \frac{v_{0}^{2} \sin^{2} \alpha}{g +  \left(\dfrac{E q \cos \beta}{m} \right)} \label{eq-146}
+\end{align}
+
+\tchr 完全正确。遗憾的是，考生常常不会在引力场中的运动与匀强静电场中的运动之间建立类比，结果这类问题对他们来说就显得难得过分了。
+\pnote{式~\eqref{eq-145} 中的 $\sin^{2}\alpha$ 应为 $\sin 2\alpha$：该式由式~\eqref{eq-18}（含 $\sin 2\alpha$）经式~\eqref{eq-143} 的替换而来，且令 $\beta=0$ 时应退化为式~\eqref{eq-141}（含 $\sin 2\alpha$；$H_{2}$ 的 $\sin^{2}\alpha$ 则承自式~\eqref{eq-15}，不误）。参照 PDF 与底本同源同误，无从核对 1973 年原版，中文版径改，待考原书。}
+
+\stda 这样的问题我们以前没有学过。我遇到过的唯一这类问题，是电子在平行板电容器两极板之间的运动，不过那里我们忽略了引力场对电子的影响。我记得，这类问题当时显得特别难。
+
+\tchr 这些问题全都是\figr{fig-94}~\drkgry{(a)} 所示问题的特例，因为电子在电容器内部运动时，可以忽略引力场的影响。我们来考虑一道这样的题。
+\pnote{“电子在电容器中不计重力”，数量级上一望便知：电子所受重力约 $9\times10^{-30}$ N，而即使在 $500~\mathrm{V/m}$ 这样的弱场（本章习题 1 的场强即取此值）中，电场力也有约 $8\times10^{-17}$ N，两者相差约 13 个数量级。人教版必修第三册第十章第 5 节处理带电粒子时同样一律不计重力。}
+
+\hlred{电子以初速度 $v_{1}$、与极板成 $\alpha_{1}$ 角飞入平行板电容器，又以与极板成 $\alpha_{2}$ 角的方向飞出电容器，如\figr{fig-95} 所示。电容器极板的长度为 $L$。求电容器场的强度 $E$ 和电子飞出电容器时的动能。电子的质量 $m$ 与电荷 $q$ 已知。}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{figs/ch-25/fig-095a}
+\caption[平行板电容器中的电子。]{平行板电容器中的电子。\label{fig-95}}
+\end{figure}
+
+我用 $v_{2}$ 表示电子飞出电容器时的速度。沿极板方向，电子做匀速飞行。由此可以确定电子在电容器内的飞行时间 $T$
+\begin{equation*}%
+T= \frac{L}{v_{1} \cos \alpha_{1}}
+\end{equation*}
+电子速度垂直于极板的初、末分量之间，由匀减速运动熟知的运动学关系相联系
+\begin{align*}
+v_{2} \sin \alpha_{2} & = v_{1} \sin \alpha_{1} - \frac{Eq}{m} \, T \\
+& = v_{1} \sin \alpha_{1} - \frac{Eq}{m} \left( \frac{L}{v_{1} \cos \alpha_{1}} \right)
+\end{align*}
+由此，注意到沿极板方向的速度分量保持不变（$v_{1} \cos \alpha_{1} = v_{2} \cos \alpha_{2}$），我们得到
+\begin{equation*}%
+v_{1} \cos \alpha_{1} \tan \alpha_{2} = v_{1} \sin \alpha_{1} - \frac{Eq}{m} \left( \frac{L}{v_{1} \cos \alpha_{1}} \right)
+\end{equation*}
+由这个方程即可确定电容器场的强度
+\begin{equation}%
+E = ( \tan \alpha_{1} - \tan \alpha_{2}) \frac{mv_{1}^{2} \cos^{2} \alpha_{1}}{qL}
+\label{eq-147}
+\end{equation}
+电子飞出电容器时的动能为
+\begin{equation}%
+\frac{mv_{2}^{2}}{2} = \frac{mv_{1}^{2}}{2} \left( \frac{\cos^{2} \alpha_{1}}{\cos^{2} \alpha_{2}} \right)
+\label{eq-148}
+\end{equation}
+这个解法里一切都清楚了吗？
+
+\stda 清楚了。现在我知道该怎样解这类问题了。
+
+\tchr 位于平行板电容器内的带电摆锤的振动问题也很有意思。我们来考察下面的问题。\hlred{质量为 $m$、电荷为 $q$ 的摆锤，用长为 $l$ 的细绳悬挂在极板水平放置的平行板电容器内。电容器场的强度为 $E$，电场线方向向下\drkgry{(\figr{fig-96}~(a))}。求这样一个摆的振动周期。}
+
+\begin{figure*}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{figs/ch-25/fig-096a}
+\caption[电容器极板间带电摆锤的振动。]{电容器极板间带电摆锤的振动。\label{fig-96}}
+\end{figure*}
+\stdb 由于本题中静电场的电场线与引力场的力线方向相同，我可以对普通摆利用式~\eqref{eq-75} 的结果，把其中的重力加速度 $g$ 换成两个加速度之和 $(g+ Eq/m)$。于是，所求的振动周期为
+\begin{equation}%
+T = 2 \pi \sqrt{\dfrac{l}{ g+\left(\dfrac{Eq}{m} \right)}}
+\label{eq-149}
+\end{equation}
+
+\tchr 完全正确。你们可以看到，只要善于运用匀强静电场中的运动与引力场中的运动之间的类比，所提的问题就非常简单。
+
+\stda 式~\eqref{eq-149} 在结构上与式~\eqref{eq-77} 相像。
+
+\tchr 确实如此。只不过在式~\eqref{eq-77} 中，加到加速度 $g$ 上的那一项来自参考系（研究摆振动的那个参考系）自身的加速度，而在式~\eqref{eq-149} 中，附加项来自一种附加的相互作用。
+
+\hlred{如果把电容器极板上电荷的符号反过来，式~\eqref{eq-149} 会变成什么样子？}
+
+\stda 这时振动周期为
+\begin{equation}%
+T = 2 \pi \sqrt{\dfrac{l}{ g- \left(\dfrac{Eq}{m} \right)}}
+\label{eq-150}
+\end{equation}
+
+\tchr 好。如果逐渐增大电容器场的强度，摆会怎样？
+
+\stda 振动周期将增大，当 $E=mg/q$ 时趋于无穷大。如果 $E$ 继续增大，我们就得把绳改系到电容器的下极板上，而不是上极板。
+\pnote{当 $E=mg/q$ 时电场力与重力恰好抵消，等效加速度为零——摆进入第 12 章讨论过的失重状态，周期趋于无穷大；$E$ 再增大，等效重力便调转方向，摆的稳定平衡位置改到悬点“上方”，绳也就得改系到下极板上。式~\eqref{eq-151} 正是这一情况的公式表述。}
+
+\tchr 这时周期的公式会是什么样子？
+
+\stda 公式将具有如下的形式
+\begin{equation}%
+T = 2 \pi \sqrt{\dfrac{l}{ \left(\dfrac{Eq}{m} \right) - g}}
+\label{eq-151}
+\end{equation}
+
+\tchr 好。现在把问题在一定程度上复杂化。\hlred{我们来考察带电摆锤在极板不是水平放置、而是竖直放置的电容器内的振动\drkgry{(\figr{fig-96}~(b))}。这时加速度 $g$ 和 $(Eq/m)$ 互相垂直。和前面一样，求摆的振动周期，此外再求摆处于平衡位置时绳与竖直方向所成的角 $\alpha$。}
+
+\stdb 考虑到本章以及\chap{ch-12} 中给出的思路，我可以立即得出结论：
+\begin{enumerate}[label=(\arabic*)]
+\item 振动周期用等效加速度 $g_{e\!f\!\!f}$ 表示，后者是地球重力加速度与静电场的加速度的矢量和；
+\item 绳的平衡方向与上述等效加速度的矢量相重合（这个方向在\figr{fig-96}~\drkgry{(b)} 中用虚线示出）。
+\end{enumerate}
+于是
+\begin{equation}%
+T = 2 \pi \sqrt{ \dfrac{l}{\sqrt{ g^{2}+ \left(\dfrac{Eq}{m} \right)^{2}}}}
+\label{eq-152}
+\end{equation}
+以及
+\begin{equation}%
+\tan \alpha = \dfrac{Eq}{gm}
+\label{eq-153}
+\end{equation}
+
+\tchr 完全正确。我想，现在再来研究一般情形就不难了：\hlred{电容器极板与水平方向成 $\beta$ 角\drkgry{(\figr{fig-96}~(c))}。提出的仍是同一个问题：求摆的振动周期，以及摆绳的平衡方向与竖直方向之间的角 $\alpha$。}
+
+\stdb 与前一情形一样，等效加速度是地球重力加速度与静电场加速度的矢量和，其方向就是摆绳的平衡方向。等效加速度 $g_{e\!f\!\!f}$ 可以利用三角学中的余弦定理求出。于是
+\begin{equation*}
+g_{e\!f\!\!f}^{2} = g^{2} + \left( \frac{Eq}{m} \right)^{2} + 2g \frac{Eq}{m} \cos \beta
+\end{equation*}
+然后
+\begin{equation}%
+T = 2 \pi \sqrt{ \dfrac{l}{\sqrt{ g^{2}+ \left(\dfrac{Eq}{m} \right)^{2} +2g \left( \dfrac{Eq}{m} \right) \cos \beta}}}
+\label{eq-154}
+\end{equation}
+$\tan \alpha$ 的值可以如下求得
+\begin{equation}%
+\tan \alpha =  \dfrac{g_{e\!f\!\!f\,x}}{g_{e\!f\!\!f\,y}} = \frac{Eq \sin \beta}{gm + Eq \cos \beta}
+\label{eq-155}
+\end{equation}
+
+\tchr 你的答案是对的。显然，当 $\beta=0$ 时，它们应给出极板水平情形的结果；当 $\beta =\ang{90}$ 时，应给出极板竖直情形的结果。请检验一下是否如此。
+
+\stdb 若 $\beta=0$，则 $\cos \beta = 1$、$\sin \beta=0$。这时式~\eqref{eq-154} 化为式~\eqref{eq-149}，且 $\tan \alpha=0$（绳的平衡位置沿竖直方向）。若 $\beta =\ang{90}$，则 $\cos \beta= 0$、$\sin \beta=1$。这时式~\eqref{eq-154} 变成式~\eqref{eq-152}，而式~\eqref{eq-155} 化为式~\eqref{eq-153}。
+
+\tchr 我想，关于带电摆锤在平行板电容器内的振动问题，我们已经完全弄清楚了。作为结束，我要你们\hlred{计算一个摆的振动周期：摆锤带电，而在摆绳的悬挂点上放着另一个电荷，其大小和符号都与摆锤上的电荷完全相同\drkgry{(\figr{fig-97})}。}
+
+这次可是完全没有任何电容器。
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-25/fig-097a}
+\caption[带两个电荷的摆。]{带两个电荷的摆：一个电荷在摆锤上，另一个在悬挂点上。\label{fig-97}}
+\end{figure}
+
+\stda 根据库仑定律（Coulomb's law），摆锤将被绳的悬点排斥，斥力为 $q^{2}/l^{2}$。这个力应给摆锤以加速度 $q^{2}/l^{2}m$。求振动周期时，必须把这个加速度考虑进去。结果我们得到下面的表达式
+\begin{equation}%
+T = 2 \pi \sqrt{ \dfrac{l}{g+ \left(\dfrac{q^{2}}{l^{2}m} \right)}}
+\label{eq-156}
+\end{equation}
+\pnote{原书静电学部分采用 CGS 静电单位制（高斯制）：第 23 章把库仑定律写作 $F=q_{1}q_{2}/r^{2}$，不含比例常数，故两个电荷同为 $q$、相距 $l$ 时斥力就是 $q^{2}/l^{2}$；本章习题中的电荷用静电单位（esu）也是同一单位制。SI 中库仑定律为 $F=kq_{1}q_{2}/r^{2}$，$k=9.0\times10^{9}~\mathrm{N\cdot m^{2}/C^{2}}$（人教版必修第三册第九章第 2 节“库仑定律”），同样的斥力为 $kq^{2}/l^{2}$。}
+
+\tchr （问\smallcaps{学生乙}）：你同意这个结果吗？
+
+\stdb 不，我不同意。要使式~\eqref{eq-156} 成立，加速度 $q^{2}/l^{2}m$ 就必须始终竖直向下。而实际上，只有当摆通过平衡位置时，它才沿这个方向。由此可见，式~\eqref{eq-156} 无论如何都是错的。不过，我想我给不出正确的答案。
+
+\tchr 你能看出式~\eqref{eq-156} 中的错误，这本身就是个好迹象。在本题中，电场力始终沿着绳的方向，因而总是被绳的反力（张力）所平衡。由此可见，电场力不会形成回复力，从而不可能影响摆的振动周期。
+\pnote{判断一个附加力是否影响摆的周期，只须看它沿圆弧切向的分量：本题电场力恒沿绳（径向），切向分量处处为零，只增大绳的张力而不改变回复力——与第 2 章“向心力不是新的力、回复力是重力的切向分量”同一思路。若电荷不放在悬点，电场力一般不再沿绳，周期就会改变。}
+
+\stdb 这就是说，本题中摆的振动周期，仍由不带电摆锤的公式即式~\eqref{eq-75} 确定？
+
+\tchr 正是。在我们现在所考察的这个情形里，电场力的场怎么也谈不上匀强，不能拿来与引力场作任何类比。
+
+\end{dialogue}
+
+\section*{习题}
+\label{prob-25}
+\addcontentsline{toc}{section}{习题}
+
+\begin{enumerate}[resume*=problems]
+\item 电子沿平行于极板的方向飞入平行板电容器，与带正电的极板相距 \SI{4}{\centi\metre}，该极板长 \SI{15}{\centi\metre}。若电容器场的强度为 \SI[per-mode=symbol]{500}{\volt\per\metre}，电子经过多长时间落到这块极板上？电子至少要以多大的速度飞入电容器，才不会落到极板上？电子的质量为 \SI{9d-28}{\gram}，电荷为 \num{4.8d-10} 静电单位（esu，electrostatic units）。
+\pnote{本题数据混用单位制：$E$ 用 SI（V/m），$q$、$m$ 却是高斯制。1 esu $\approx 3.34\times10^{-10}$ C，故 $4.8\times10^{-10}$ esu $\approx 1.6\times10^{-19}$ C（即元电荷）；$9\times10^{-28}$ g $=9\times10^{-31}$ kg，正是电子质量。最省事的办法是全用 SI 一套数据（$E=500~\mathrm{V/m}$、$q=1.6\times10^{-19}$ C、$m=9\times10^{-31}$ kg）直接计算，得 $t=3\times10^{-8}$ s。书末答案表把第二问答作 $5\times10^{8}$ m/s，按板长 15 cm 与上述 $t$ 应为 $5\times10^{6}$ m/s（恰为 $5\times10^{8}$ cm/s，当是 CGS 数据误标 SI 单位），显系误排。}
+
+\item 电子以 \SI[per-mode=symbol]{3d6}{\metre\per\second} 的速度沿平行于极板的方向飞入平行板电容器。若电子飞出电容器时与极板成 \ang{30} 角，求电容器内的场强。极板长 \SI{20}{\centi\metre}。电子的质量和电荷已知（见第 45 题）。
+\pnote{全书习题连续编号，本章习题 1--5 即第 45--49 题，故“第 45 题”就是本章习题 1，电子的质量与电荷在该题题末给出。又，底本该题速度的单位误排为“m s”（漏排除号），应为 m/s，中文版径改。}
+
+\item 在场强为 $E$ 的平行板电容器内，一个质量为 $m$、电荷为 $q$ 的摆锤系在长为 $l$ 的绳上，沿圆周匀速转动（\figr{fig-98}）。绳的倾角为 $\alpha$。求绳的张力和摆锤的动能。
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-25/fig-098a}
+\caption[平行板电容器内的摆。]{平行板电容器内的摆。\label{fig-98}}
+\end{figure}
+
+\item 质量分别为 $m_{1}$ 和 $m_{2}$、电荷分别为 $+q_{1}$ 和 $+q_{2}$ 的两个小球，用一根跨过定滑轮的绳相连。整个系统处于强度为 $E$、电场线竖直向下的匀强静电场中。求两球的加速度和绳中的张力。忽略两个带电球之间的相互作用。
+
+\item 质量为 $m$、电荷为 $+q$ 的小球系在长为 $l$ 的绳端，可在竖直平面内转动；匀强静电场的电场线竖直向上。要使小球位于最低位置时绳中的张力等于球重的 10 倍，必须在小球位于最高位置时给它多大的水平速度？
+\end{enumerate}
+
+% NEWTERMS: uniform electrostatic field | 匀强静电场 | 章题与正文首现括注；人教版必修第三册称匀强电场（第十章 $U=Ed$ 起）；保留"静电"限定以承原书并区别于引力场
+% NEWTERMS: uniform field | 匀强场 | 泛指引力场/电场等任何匀强场
+% NEWTERMS: intensity (of the field) | 电场强度 | 本章首现括注（intensity）；承 ch-22"（场的）强度"、ch-24"电场强度"；ch-23 译出后首现括注应前移
+% NEWTERMS: lines of force | 力线／电场线 | 两场（引力＋静电）并列或引力场语境用"力线"（本章首现括注），纯电场语境用"电场线"（人教版，承 ch-24；旧译"电力线"）；ch-23 正式定义译出后统一
+% NEWTERMS: electric force | 电场力 | 首现括注（electric force）；人教版必修第三册第九章第 3 节
+% NEWTERMS: charged body | 带电体 | 自明词，不括注
+% NEWTERMS: Coulomb's law | 库仑定律 | 本章首现括注；ch-23（高斯制形式）、ch-26 将正式展开
+% NEWTERMS: effective acceleration | 等效加速度 | 承 ch-12 定名，本章不重复括注
+% NEWTERMS: equilibrium direction | 平衡方向 | 承 ch-12
+% NEWTERMS: law of cosines | 余弦定理 | 数学术语
+% NEWTERMS: esu (electrostatic unit) | 静电单位 | 高斯制电荷单位；换算见习题 1 评注
+% NEWTERMS: field of electric forces | 电场力的场 | 原书用语照译（指点电荷的非匀强场）

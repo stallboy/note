@@ -1,0 +1,143 @@
+% !TEX root = tarasov-qasp-zh.tex
+
+\chapter[你会计算电路中分支部分的电阻吗？]{你会计算电路中分支部分的电阻吗？\label{ch-29}}
+
+\begin{dialogue}
+
+\tchr \hlred{计算\drkgry{\figr{fig-117}~(a)} 所示电路段的电阻。导线（引线）的电阻可以忽略。}
+
+\begin{figure}%
+\centering
+\includegraphics[width=0.5\textwidth]{figs/ch-29/fig-117a}
+\caption[由导线连接三个电阻构成的电路段。]{由导线（引线）连接三个电阻 $R$ 构成的电路段：（a）原电路；（b）学生甲设想的电流分布；（c）逐步缩短引线、并合电势相同的点的各个阶段。\label{fig-117}}
+\end{figure}
+\pnote{底本\figr{fig-117} 的图题误作 ``At what angle to the plates will the electron fly out of the capacitor.''——这是上一章（第 28 章）末题配图的图题，与本章内容毫不相干，显系录入串行；\figr{fig-119} 的图题又误沿了\figr{fig-118} 的 ``What is the total resistance of the cube?''。两处中文版均按图面内容拟写图题，待考原书（参照 PDF 与底本同误，无从核对 1973 年原版）。另：本章正文有若干排印小误——``along $R$ the dashed line'' 中 $R$ 为衍文、``maybe'' 应作 ``may be''、``together'`` 多一撇号等——均径改，不另注。}
+
+\stda 如果导线的电阻可以忽略，那引线就可以完全不考虑了。所求的电阻等于 $3R$。
+
+\tchr 你不假思索就回答了。忽略导线的电阻，与把引线本身置之不顾，是两件完全不同的事（尽管许多考生以为它们是一回事）。把一根引线（lead）从电路中去掉，意味着用无穷大的电阻去代替它；而这里恰恰相反，引线的电阻等于零。
+
+\stda 是的，当然，我刚才根本没有想一想。现在我会这样来推理：在 $A$ 点，电流将分成两股，其方向我已在\figr{fig-117}~\drkgry{(b)} 中用箭头标出。这时中间的那个电阻完全可以不考虑，总电阻（total resistance）就是 $R/2$。
+
+\tchr 又错了！我劝你采用下面这条规则：找出电路中电势相同的点，然后改变电路图，使这些点彼此重合。电路各支路中的电流保持不变，而电路图却可以大大简化。这一点我在\chap{ch-27} 中已经说过。在本题中，由于各引线的电阻都等于零，$A$ 与 $A_{1}$ 两点的电势相同；同样，$B$ 与 $B_{1}$ 两点的电势也相同。按照刚才提到的规则，我们改变电路图，使电势相同的各点最终彼此重合。为此，我们把引线的长度逐步缩短。\figr{fig-117}~\drkgry{(c)} 画出了这一操作的各个相继阶段。结果可以看出，题给的连接相当于三个电阻并联的线路。因此，这段电路的总电阻是 $R/3$。
+\pnote{学生甲的第二个答案错在以为中间的电阻被引线“短路”了：它的两端 $B_{1}$、$A_{1}$ 分属两条不同的引线，电势并不相同（$B_{1}$ 与 $B$ 等势、$A_{1}$ 与 $A$ 等势），因此它并没有被短路，而是与左右两个电阻一样，跨接在同一对等势点之间——三个电阻同为并联。}
+\pnote{“找出等势点、让它们重合”是对称电路化简的标准手法，超出人教版必修第三册第十一章《电路及其应用》正文的要求（该章第 4 节只处理规则的串联与并联），属于中学“等效电路图”画法的延伸，也是物理竞赛的常规工具；下一例的立方体线路（\figr{fig-118}）即竞赛经典题。}
+
+\stda 的确如此。从\figr{fig-117}~\drkgry{(c)} 可以一目了然地看出，各电阻是并联的。
+
+\tchr 我们来看下一个例子。\hlred{有一个由导线构成的立方体，每条导线的电阻都是 $R$（\drkgry{\figr{fig-118}~(a)}）。立方体如图所示接入电路。计算立方体的总电阻。}
+
+我们可以先从上面提到的规则入手。请指出电势相同的各点。
+
+\stda 我认为 $A$、$A_{1}$ 和 $A_{2}$ 三点电势相同（见\figr{fig-118}~\drkgry{(a)}），因为立方体的三条棱（$DA$、$DA_{1}$、$DA_{2}$）在各方面完全等效。
+
+\begin{figure}[h]%
+\centering
+\includegraphics[width=0.5\textwidth]{figs/ch-29/fig-118a}
+\caption[立方体的总电阻是多少？]{立方体的总电阻是多少？\label{fig-118}}
+\end{figure}
+
+\tchr 对，棱 $BC$、$BC_{1}$、$BC_{2}$ 也是如此。因此，$C$、$C_{1}$、$C_{2}$ 三点的电势相同。接下来，我们在上述各点把这导线立方体“拆开”，把各条棱导线弯折后再重新连接起来，使电势相同的点彼此重合。这时电路图会是什么样子？
+
+\stda 将得到\figr{fig-118}~\drkgry{(b)} 所示的电路图。
+
+\tchr 完全正确。\figr{fig-118}~\drkgry{(b)} 中所得的电路图与最初的电路图（带立方体的那张）等效，但明显更简单。现在计算所求的总电阻，你应该没有困难了。
+
+\stda 它等于
+\begin{equation*}%
+\frac{1}{3}R + \frac{1}{6}R + \frac{1}{3}R = \frac{5}{6}R
+\end{equation*}
+
+\stdb \hlred{一个由导线构成、带对角线的正方形，按\drkgry{\figr{fig-119}~(a)} 所示接入电路。你会怎样求这个图形的总电阻？}
+
+\begin{figure}[h]%
+\centering
+\includegraphics[width=0.5\textwidth]{figs/ch-29/fig-119a}
+\caption[带对角线的正方形线路的总电阻是多少？]{带对角线的正方形线路的总电阻是多少？（a）接入电路，虚线为对称轴；（b）并合电势相同的点之后所得两个相同串联部分之一。\label{fig-119}}
+\end{figure}
+
+\tchr 仍然必须寻找电势相同的点。在这个例子中我们一眼就能看出，线路有一个对称轴（axis of symmetry），我在\figr{fig-119}~\drkgry{(a)} 中用虚线把它表示出来。显然，凡位于对称轴上的点，电势都应相同，且等于 $A$、$D$ 两点电势之和的一半。于是 $O$、$O_{1}$、$O_{2}$ 三点的电势彼此相等。按照规则，可以让这三点互相重合。结果，这组电阻被分解成两个相同的部分，相互串联。其中一部分如\figr{fig-119}~\drkgry{(b)} 所示。计算这一部分的电阻并不难。若正方形中每根导线（引线）的电阻都等于 $R$，则这一部分的总电阻为 $(4/5) R$。于是，所求正方形的总电阻等于 $(8/5)R$。
+\pnote{按图面核验：正方形四条边与两条对角线共 8 段导线，每段电阻均标 $R$（两条对角线在中心 $O$ 相接），接线端 $A$、$D$ 为底边两角。并合 $O$、$O_{1}$、$O_{2}$ 后，半边电路是 $R\parallel(R/2)=R/3$ 与 $R+\left(R\parallel\frac{R}{2}\right)=\frac{4}{3}R$ 的再并联，电阻为 $\frac{4}{15}R$ 而非 $\frac{4}{5}R$；总电阻应为 $\frac{8}{15}R$ 而非 $\frac{8}{5}R$——书印数值当是分母“15”脱漏“1”的误排（参照 PDF 与底本同误，无从核对 1973 年原版，待考原书）。一个旁证：本章习题 64（同一正方形改按 $A$、$C$ 两点对角接入）书末答案为 $\frac{2}{3}R$，而按上述“8 段导线均 $R$”的图形用对称性直接计算，$A$、$C$ 之间的电阻恰为 $\frac{2}{3}R$。}
+
+\stda 您的意思是说，主要的规则就是：找出线路图上电势相同的点，再让这些点重合，从而简化线路图？
+
+\tchr 正是。最后，我想举一个无穷线路段的例子。\hlred{给定一个由无穷多个重复单元组成的电路，每个单元中含有电阻 $R_{1}$ 与 $R_{2}$（\drkgry{\figr{fig-120}~(a)}）。求 $A$、$B$ 两点之间的总电阻。}
+
+\begin{figure}%
+\centering
+\includegraphics[width=0.6\textwidth]{figs/ch-29/fig-120a}
+\caption[给定线路的总电阻是多少？]{给定线路的总电阻是多少？\label{fig-120}}
+\end{figure}
+
+\stda 也许应该用数学归纳法？先考虑一个单元，然后两个单元、三个单元，依此类推，最后设法把结果推广到 $n \to \infty$ 的 $n$ 个单元的情形。
+
+\tchr 不，这里用不着数学归纳法。我们可以从这样一个事实出发：从无穷多个元素中去掉一个，无穷多仍是无穷多。我们把第一个单元从线路图中截去（沿\figr{fig-120}~\drkgry{(a)} 中所示的虚线）。显然，剩下的仍然是无穷多个单元，因此 $C$、$D$ 两点间的电阻就应当等于所求的总电阻 $R$。于是，最初的线路图可以换成\figr{fig-120}~\drkgry{(b)} 所示的线路图。\figr{fig-120}~\drkgry{(b)} 所示电路段的总电阻为
+\begin{equation*}%
+R_{1}+\frac{RR_{2}}{(R+R_{2})}
+\end{equation*}
+既然这一段与原来的电路段等效，它的电阻就应等于所求的电阻 $R$。于是我们得到
+\begin{equation*}%
+R= R_{1} + \frac{RR_{2}}{(R+R_{2})}
+\end{equation*}
+即关于 $R$ 的一个二次方程：
+\begin{equation*}%
+R^{2} - RR_{1} - R_{1}R_{2} = 0
+\end{equation*}
+解这个方程，得
+\begin{equation}
+R = \frac{R_{1}}{2} \left( 1 + \sqrt{1 + 4 \dfrac{R_{2}}{R_{1}}}  \right)
+\label{179}
+\end{equation}
+
+\stda 嗯，这确实是一种很有意思的解题方法。
+
+\end{dialogue}
+
+\section*{习题}
+\label{prob-29}
+\addcontentsline{toc}{section}{习题}
+
+
+\begin{enumerate}[resume*=problems]
+\item 在\figr{fig-121} 所示的电路中，$\Ea=\SI{4}{\volt}$、$r= \SI{1}{\ohm}$、$R=\SI{45}{\ohm}$。求电压表（voltmeter）和电流表（ammeter）的读数。
+\pnote{图中三个电阻 $R$ 经引线接入，正是\figr{fig-117} 的三支路并联，外电阻为 $R/3=15\,\Omega$。按中学约定取理想电表：电压表内阻无穷大，并联在待测段两端而不分流；电流表内阻为零，串在干路中而不分压。$\Ea$ 与 $r$ 是电源电动势与内阻的记号，上一章已在使用，原书在第 27 章正式引入。}
+
+\begin{figure}[h]%
+\centering
+\includegraphics[width=0.6\textwidth]{figs/ch-29/fig-121a}
+\caption[电压表和电流表的读数各是多少？]{电压表和电流表的读数各是多少？\label{fig-121}}
+\end{figure}
+
+\item 求\figr{fig-119}~\drkgry{(a)} 所示正方形线路的总电阻，设它按 $A$、$C$ 两点接入电路。
+
+\item 用导线制成一个带对角线的正六边形。每根导线的电阻都等于 $R$。六边形按\figr{fig-122}~\drkgry{(a)} 所示接入电路。求六边形的总电阻。
+
+
+\item 求习题 65 中六边形的总电阻，设它按\figr{fig-122}~\drkgry{(b)} 所示接入电路。
+
+\item 计算习题 65 所给六边形的总电阻，设它按\figr{fig-122}~\drkgry{(c)} 所示接入电路。
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-29/fig-122a}
+\caption[总电阻是多少？]{总电阻是多少？\label{fig-122}}
+\end{figure}
+
+\end{enumerate}
+
+
+
+
+\cleardoublepage
+
+% NEWTERMS: branched portion of a circuit | 电路的分支部分 | 章题；人教版无固定对应词，按字面译
+% NEWTERMS: lead | 引线 | 原书与 wire 混用（首句 "wires (leads)" 自注同义）；本译常称“导线”（ch-30 同），“引线”用于可缩短的接线段，首现括注
+% NEWTERMS: total resistance | 总电阻 | 首现括注；ch-30 沿用未括注
+% NEWTERMS: branch | 支路 | 承 ch-28 用法（该章 NEWTERMS 已录），本章不括注；ch-27 译时可定全书首现
+% NEWTERMS: connected in parallel / connected in series | 并联 / 串联 | 承 ch-28 用法，本章不括注；初中术语；ch-27 译时可定全书首现
+% NEWTERMS: points with the same potential | 电势相同的点（等势点） | 电势承 ch-23/24 定名；“等势”承 ch-28 评注用法；原文为短语非术语，正文未括注英文
+% NEWTERMS: axis of symmetry | 对称轴 | 首现括注
+% NEWTERMS: section (of an infinite circuit) | （无穷电路的重复）单元 | 原文 section
+% NEWTERMS: voltmeter / ammeter | 电压表 / 电流表 | 习题 1 首现括注；初中术语；ch-28 评注曾及“电流表”（图题误沿处）
+% NEWTERMS: emf \Ea / internal resistance r | 电动势 / 内阻 | 记号承 ch-28（该章已首现括注 emf/internal resistance），本章仅评注层提及；ch-27 待译，届时首现前移
+% NEWTERMS: regular hexagon with diagonals | 带对角线的正六边形 | 习题 3—5
+% NEWTERMS: Problems (section title) | 习题 | 章末习题节标题；本章为习题 63—67（全书连续编号，待 ch-27 译出后成立，ch-28 已译），正文“习题 65”即本章第 3 题

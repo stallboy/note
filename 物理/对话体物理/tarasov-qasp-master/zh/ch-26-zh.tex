@@ -1,0 +1,240 @@
+% !TEX root = tarasov-qasp-zh.tex
+
+\chapter[你会运用库仑定律吗？]{你会运用库仑定律吗？\label{ch-26}}
+
+\begin{dialogue}
+
+\tchr 我们来更详细地讨论库仑定律（Coulomb's law），以及与运用这条定律有关的问题。首先，请陈述库仑定律。
+
+\stda 两个电荷之间的相互作用力，与这两个电荷的电荷量的乘积成正比，与它们之间距离的平方成反比。
+
+\tchr 你这条定律陈述得不完整，漏了一些内容。
+
+\stdb 也许还应补充：相互作用力与介质的介电常数（dielectric constant）$K_{e}$ 成反比。是这一点吗？
+
+\tchr 提到它当然没有坏处。但这并不是主要的疏漏。你又忘掉了力是矢量。因此，在谈到力的大小时，别忘了说明它的方向（这可以联系我们在\chap{ch-04} 中对牛顿第二定律的讨论）。
+
+\stda 现在我明白了。您是说，必须补充：电荷相互作用的力沿连接两电荷的直线取向？
+
+\tchr 这还不够。沿一条直线有两个方向。
+
+\stda 那就必须说：两电荷同号时相互排斥，异号时相互吸引。
+
+\tchr 好。现在把这些补充都汇集起来，就得到库仑定律的完整表述。再强调一点也不算多余：这条定律说的是点电荷之间的相互作用。
+\pnote{对照人教版必修第三册第九章第 2 节《库仑定律》的表述：真空中两个静止点电荷之间的相互作用力，与它们电荷量的乘积成正比，与它们距离的二次方成反比，作用力的方向在它们的连线上。教师在上面逐条补齐的“矢量方向、同斥异引、点电荷”，正是考生易漏之处。原书式中的因子 $B$ 与介电常数 $K_{e}$，在人教版中合并为静电力常量：$F=kq_{1}q_{2}/r^{2}$，$k=\dfrac{1}{4\pi\varepsilon_{0}}\approx 9.0\times10^{9}\ \mathrm{N \cdot m^{2}/C^{2}}$（真空或空气）。$K_{e}$ 即相对介电常数 $\varepsilon_{r}$（人教版必修第三册第十章第 4 节“电容器的电容”），真空的 $K_{e}=1$；它无量纲，注意不要与后文 SI 公式中的真空介电常数 $\epsilon_{0}$ 混淆。}
+
+\stdb 能不能把库仑定律写成方程的形式，使它包含这条定律的全部信息？通常的形式
+\begin{equation}%
+F = B \frac{q_{1}q_{2}}{K_{e}r^{2}}
+\label{eq-157}
+\end{equation}
+给不出关于力的方向的任何信息。
+
+\tchr 库仑定律可以这样来写。为此先要弄清我们说的是哪一个力。设我们指的是电荷 $q_{1}$ 作用在电荷 $q_{2}$ 上的力（而不是相反）。建立坐标轴，把原点取在电荷 $q_{1}$ 上。然后从原点向电荷 $q_{2}$ 所在的点引一个矢量（\figr{fig-99}）。这个矢量叫做电荷 $q_{2}$ 的矢径（radius vector）。在这种情形下，库仑定律的完整公式为
+\begin{equation}%
+\vec{F} = B \frac{q_{1}q_{2}}{K_{e}r^{3}} \vec{r}
+\label{eq-158}
+\end{equation}
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-26/fig-099a}
+\caption[库仑定律中的方向。]{库仑定律中的方向。\label{fig-99}}
+\end{figure}
+其中因子 $B$ 与单位制的选取有关。
+
+\stda 可是在这个方程里，力不是与两电荷间距离的平方成反比，而是与距离的立方成反比了！
+
+\tchr 完全不是。矢量 $(\vec{r}/r)$ 在数值上等于 1（无量纲的 1！）。它叫做单位矢量（unit vector）。它的作用只是指明方向。
+\pnote{把大小与方向一并写进公式的矢量式是大学教材的标准做法，学生乙想要的“完整信息”正是它的价值；人教版必修第三册只给出标量式，方向以文字补充——恰如下文所说，写式~\eqref{eq-157} 就须口头说明方向。矢径（radius vector）即位置矢量，亦称位矢；单位矢量（unit vector）常记作 $\hat{r}$ 或 $\vec{r}\,/\,r$，这类记号在大学教材与竞赛中随处可见。}
+
+\stda 您是说，如果问到我库仑定律，我只要写出式~\eqref{eq-158} 就行了？别的什么都不用？
+
+\tchr 只须再解释一下方程中各记号的意义。
+
+\stda 那要是我写的不是式~\eqref{eq-158}，而是式~\eqref{eq-157} 呢？
+
+\tchr 那你就必须口头指出库仑力的方向。
+
+\stda 式~\eqref{eq-158} 又是怎样显示出电荷相互吸引还是相互排斥的呢？
+
+\tchr 如果两电荷同号，乘积 $q_{1}q_{2}$ 为正。这时矢量 $\vec{F}$ 与矢量 $\vec{r}$ 平行。矢量 $\vec{F}$ 是作用在电荷 $q_{2}$ 上的力；电荷 $q_{2}$ 受到电荷 $q_{1}$ 的排斥。如果两电荷异号，乘积 $q_{1}q_{2}$ 为负，于是矢量 $\vec{F}$ 与矢量 $\vec{r}$ 反平行，即电荷 $q_{2}$ 受到电荷 $q_{1}$ 的吸引。
+
+\stda 请解释一下，关于因子 $B$ 我们应当知道些什么。
+
+\tchr 这个因子与单位制的选取有关。如果采用绝对静电单位制（absolute electrostatic system，cgse），则 $B=1$；如果采用国际单位制（SI），则 $B=\dfrac{1}{4 \pi \epsilon_{0}}$，其中常量 $\epsilon_{0} = \SI[per-mode=symbol]{8.85d-12}{\coulomb \squared \per \newton \per \metre \squared}$%{\couIomb^{2} \per \newton \metre^{2}}$
+\pnote{底本此处作 "the International System of Units (51)"，"(51)" 显系 "(SI)" 之误植，中文版径改。另备考：原书静电学部分采用绝对静电单位制（高斯制）的缘由与换算，已在\chap{ch-23} 评注中说明；关于 $\epsilon_{0}$，2019 年 SI 重新定义后它不再是无误差的导出常量，现行推荐值为 $8.854\,187\,8188(14)\times10^{-12}\ \mathrm{F/m}$（CODATA 2022，由 $\epsilon_{0}=1/(\mu_{0}c^{2})$ 与经实验测定的 $\mu_{0}$ 给出），取三位有效数字仍为 $8.85\times10^{-12}$，与原书无异。}
+
+我们来解几个运用库仑定律的题目。
+
+\begin{enumerate}[label=题 \arabic*.,font=\bfseries,series=p3,leftmargin=1cm]
+\item \hlred{四个相同的电荷 $q$ 位于正方形的四个角上。应在正方形的中心放置一个多大的异号电荷 $Q$，才能使整个电荷系统处于平衡？}
+\end{enumerate}
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-26/fig-100a}
+\caption[求中心电荷的大小。]{电荷 $Q$ 应为多大？\label{fig-100}}
+\end{figure}
+
+\stda 在这五个电荷组成的系统里，四个已知，一个未知。既然系统处于平衡，作用在五个电荷中每一个上的力之和都等于零。换句话说，我们必须逐一考察这五个电荷各自的平衡。
+
+\tchr 这就多余了。你很容易看出：不论电荷 $Q$ 的电量如何，单凭它所处的几何位置，它就处于平衡。因此，就这个电荷写平衡条件，对解题毫无贡献。由于正方形的对称性，其余四个电荷 $q$ 完全等价。所以，只须考察其中一个电荷（不论哪个）的平衡就够了。我们可以取例如点 $A$ 处的电荷（\figr{fig-100}）。有哪些力作用在这个电荷上？
+
+\stda 点 $B$ 处电荷施的力 $F_{1}$，点 $D$ 处电荷施的力 $F_{2}$，最后还有位于正方形中心的待求电荷施的力。
+
+\tchr 对不起，你怎么没有把点 $C$ 处的电荷考虑进去？
+
+\stda 可是它被中心的电荷挡住了呀。
+
+\tchr 这是一个天真幼稚的错误。要记住：在电荷系统中，每个电荷都毫无例外地受到系统中所有其他电荷的作用力。因此，你还须补上点 $C$ 处电荷作用在点 $A$ 处电荷上的力 $F_{3}$。最终的受力图如\figr{fig-100} 所示。
+\pnote{学生甲的“挡住”是一个流传很广的朴素误解：把几何上的遮挡当成了相互作用的屏障。静电力满足叠加原理——每个点电荷对某电荷的作用力与其余电荷是否存在无关，合力等于各力的矢量和；人教版必修第三册第九章“电场 电场强度”一节中场强的叠加依据的正是同一条原理。“被挡住”的电荷照样施力，这正是受力分析中漏掉 $F_{3}$ 这类“看不见”的力的原因。}
+
+\stda 现在全都清楚了。我选取方向 $AB$，把作用在点 $A$ 处电荷上的所有力投影到这个方向上。各力投影的代数和应等于零，即
+\begin{equation*}%
+F_{4} = 2F_{1} \cos \ang{45} + F_{3}
+\end{equation*}
+用 $a$ 表示正方形的边长，可把这个方程改写为
+\begin{equation*}%
+\frac{Qq}{\left( \dfrac{a^{2}}{2} \right)} = \sqrt{2} \left( \frac{q^{2}}{a^{2}} \right)+ \left( \frac{q^{2}}{2a^{2}} \right)
+\end{equation*}
+由此得
+\begin{equation}%
+Q = \frac{q}{4} \left( 2\sqrt{2} + 1 \right)
+\label{eq-159}
+\end{equation}
+
+\tchr 完全正确。这个电荷系统的平衡是稳定的吗？
+
+\stdb 不，不稳定。这是不稳定平衡（unstable equilibrium）。只要任何一个电荷稍有移动，所有电荷都会开始运动，系统就散掉了。
+
+\tchr 你说得对。要设计出静止电荷的稳定平衡位形，是完全不可能的。
+\pnote{教师这句话的内容即恩肖定理（Earnshaw's theorem，1842）：仅靠电荷间的静电相互作用，不可能使静止的点电荷系统处于稳定平衡。理由可用势的语言说清：稳定平衡要求势能有严格的局部极小，而真空中的静电势满足拉普拉斯方程，在无电荷的区域内不可能出现局部极小。这后来成为“静电囚禁不可能”的判据：离子阱（1989 年诺贝尔物理学奖）靠随时间变化的电场、光镊（2018 年诺贝尔物理学奖）靠光场实现俘获，都不是静态的库仑力位形。}
+
+\begin{enumerate}[label=题 \arabic*.,font=\bfseries,resume=p3,leftmargin=*]
+\item \hlred{两个摆球质量相同、半径相同，带有等量电荷，分别用两根等长的绳悬挂于同一点。将它们浸入介电常数为 $K_{e}$、密度为 $\rho_{0}$ 的液态电介质中。摆球材料的密度 $\rho$ 应为多少，才能使两绳张开的角在空气中与在电介质中相同？}
+\end{enumerate}
+\begin{figure}%
+\centering
+\includegraphics[width=0.5\textwidth]{figs/ch-26/fig-101a}
+\caption[摆在空气中与在液态电介质中的受力。]{摆在空气中（a）与在液态电介质中（b）时摆球的受力。$F_{e1}$、$F_{e2}$ 为两种情形中的库仑斥力，$F_{b}$ 为浮力。\label{fig-101}}
+\end{figure}
+\pnote{底本\figr{fig-101} 与\figr{fig-102} 的图题均误沿题 1 配图（\figr{fig-100}）的文字 "What is the charge of $Q$?"，与本题内容不符：题 2 的待求量是密度 $\rho$，题 3 的是电荷量 $q$，两题图中均无电荷 $Q$。显系录入（或排版）之误，中文版按图面内容拟写图题，待考原书。}
+
+\stdb 两绳张开，是由于摆球间的库仑斥力。设空气中的库仑斥力为 $F_{e1}$，液态电介质中的为 $F_{e2}$。
+
+\tchr 这两个力有什么差别？
+
+\stdb 既然按题设条件，两种情形中两绳张开的角相同，摆球间的距离也就相同。因此，力 $F_{e1}$ 与 $F_{e2}$ 的差别只来自介质的介电常数。于是
+\begin{equation}%
+F_{e1} = K_{e}F_{e2}
+\label{eq-160}
+\end{equation}
+先考察摆在空气中的情形。由摆球的平衡可以断定，力 $F_{e1}$ 与重力的矢量和应当沿绳的方向，否则它无法被绳的反作用力所平衡（\figr{fig-101}~\drkgry{(a)}）。由此得出
+\begin{equation*}%
+\frac{F_{e1}}{P} = \tan \alpha
+\end{equation*}
+其中 $\alpha$ 是绳与竖直方向之间的夹角。摆球浸入电介质后，应把力 $F_{e1}$ 换成 $F_{e2}$，把重力 $P$ 换成差值 $(P-F_{b})$，这里 $F_{b}$ 是浮力。而这几个新力的比值应仍和从前一样等于 $\tan \alpha$（\figr{fig-101}~\drkgry{(b)}）。于是
+\begin{equation*}%
+\frac{F_{e2}}{P - F_{b}} = \tan \alpha
+\end{equation*}
+利用上面两个方程，得
+\begin{equation*}%
+\frac{F_{e1}}{P} = \frac{F_{e2}}{P - F_{b}}
+\end{equation*}
+代入方程~\eqref{eq-160}，并考虑到 $P=Vg\rho$ 和 $F_{b}=Vg\rho_{0}$，得
+\begin{equation*}%
+\frac{K_{e}}{\rho} = \frac{1}{\rho - \rho_{0}}
+\end{equation*}
+所求的摆球材料密度为
+\begin{equation}%
+\rho = \frac{\rho_{0}\, K_{e}}{K_{e} - 1}
+\label{eq-161}
+\end{equation}
+
+\tchr 你的答案是正确的。
+\pnote{这道题把初中浮力（人教版初中物理八年级下册第十章）与库仑定律综合成一道经典题。顺带一个自洽性检验：一切电介质的 $K_{e}>1$，故答案 $\rho=\rho_{0}K_{e}/(K_{e}-1)$ 自动大于 $\rho_{0}$——摆球密度必大于液体密度，摆球才能浸没在液体中而绳仍保持张开；若算出 $\rho\leqslant\rho_{0}$，题设便不成立。}
+
+\begin{enumerate}[label=题 \arabic*.,font=\bfseries,resume=p3,leftmargin=*]
+\item \hlred{两个带等量电荷的摆球，质量均为 $m$，分别用长均为 $l$ 的绳悬挂于同一点；悬点处还放着第三个带同样电荷的小球\drkgry{(\figr{fig-102})}。若在平衡位置上两绳之间的夹角等于 $\alpha$，求摆球与小球的电荷 $q$。}
+\end{enumerate}
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-26/fig-102a}
+\caption[求摆球与悬点小球的电荷量。]{电荷 $q$ 应为多大？\label{fig-102}}
+\end{figure}
+
+\stdb 我们来考察摆球 $A$。它受四个力（\figr{fig-102}）作用。既然摆球处于平衡，我要把这些力沿两个方向分解为分量……
+
+\tchr （打断）这个情形有一个更简单的解法。悬点处电荷所产生的力，对绳的平衡位置毫无影响：力 $F_{e2}$ 沿着绳的方向，在绳的任何位置都被绳的反作用力所平衡。因此，本题可以当作悬点处根本没有电荷来处理。一般说来，考生不明白这一点。
+
+\stdb 那我们就把力 $F_{e2}$ 撇开不管。既然力 $F_{e1}$ 与 $P$ 的矢量和必须沿绳的方向，我们得到
+\begin{equation}%
+\frac{F_{e1}}{P} = \tan \frac{\alpha}{2}
+\label{eq-162}
+\end{equation}
+
+\tchr 注意，这个结果与悬点处电荷的存在与否无关。
+
+\stdb 由于
+\begin{equation*}%
+F_{e1} = \frac{q^{2}}{4 l^{2} \sin^{2} \left(\dfrac{\alpha}{2}\right)}
+\end{equation*}
+从方程~\eqref{eq-162} 得
+\begin{equation*}%
+\frac{q^{2}}{4 l^{2} mg \sin^{2} \left(\dfrac{\alpha}{2}\right)} = \tan \frac{\alpha}{2}
+\end{equation*}
+解出所求的电荷，得
+\begin{equation}%
+q = 2l \sin \left(\dfrac{\alpha}{2}\right) \sqrt{mg \tan \frac{\alpha}{2}}
+\label{eq-163}
+\end{equation}
+
+\tchr 你的答案是正确的。
+\pnote{留意单位制：学生的 $F_{e1}=\dfrac{q^{2}}{4l^{2}\sin^{2}(\alpha/2)}$ 中没有库仑常数因子，即默认上文 $B=1$ 的绝对静电单位制，式~\eqref{eq-163} 给出的是该单位制下的电荷（见\chap{ch-23} 评注）。中国教材一律用 SI，此时应写 $F_{e1}=\dfrac{q^{2}}{4\pi\varepsilon_{0}\cdot 4l^{2}\sin^{2}(\alpha/2)}$，即 $q=2l\sin\dfrac{\alpha}{2}\sqrt{4\pi\varepsilon_{0}\,mg\tan\dfrac{\alpha}{2}}$（单位为库仑）。直接照抄式~\eqref{eq-163} 而按 SI 代入数值，会得出错误的结果。}
+
+\stda 什么时候悬点处电荷的存在才会有影响？
+
+\tchr 譬如说，当需要求绳的张力的时候。
+
+\end{dialogue}
+
+\section*{习题}
+\label{prob-26}
+\addcontentsline{toc}{section}{习题}
+
+\begin{enumerate}[resume*=problems]
+\item 相同的电荷 $+q$ 位于正六边形的各顶点上。应在六边形的中心放置怎样的电荷，才能使整个电荷系统处于平衡？
+
+\item 质量为 $m$、电荷为 $q$ 的摆球系在长为 $l$ 的绳上，绕着一个固定的、与它带同样电荷的电荷转动（\figr{fig-103}）。绳与竖直方向的夹角为 $\alpha$。求摆球匀速转动的角速度和绳的张力。
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-26/fig-103a}
+\caption[求摆球匀速转动的角速度与绳的张力。]{求摆球匀速转动的角速度与绳的张力。\label{fig-103}}
+\end{figure}
+
+\item 质量为 $m$、电荷为 $q$ 的摆球，系在长为 $l$ 的绳端，能在竖直平面内转动。转动中心处有第二个小球，其电荷与转动摆球的电荷同号且等量。要使摆球能转一整圈，须在最低位置传给它多大的水平速度？
+\end{enumerate}
+
+\cleardoublepage
+
+\thispagestyle{empty}
+\vspace*{-1.95cm}
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width=0.75\textwidth]{figs/sec/tarasov-qasp-sec-11.pdf}
+\end{figure*}
+\vspace*{-.4cm}
+\begin{fullwidth}
+{\textsf{\Large \hlred{电流已经成为我们日常生活中不可分割的一部分，因此无须特意强调欧姆定律和焦耳—楞次定律的重要性。可是，你对这些定律掌握得如何呢？}}}
+\end{fullwidth}
+% NEWTERMS: Coulomb's law | 库仑定律 | 正文全书首现于本章（章题与首句），首现括注；人教版必修第三册第九章第 2 节《库仑定律》
+% NEWTERMS: dielectric constant / (dielectric) permittivity | 介电常数 | 正文全书首现于本章，首现括注；即人教版相对介电常数 εr（ch-24 评注层已提及），勿与真空介电常数 ε0 混淆
+% NEWTERMS: radius vector | 矢径 | 首现括注；即位置矢量（位矢）
+% NEWTERMS: unit vector | 单位矢量 | 首现括注；常记作 \hat{r} 或 \vec{r}/r
+% NEWTERMS: absolute electrostatic system of units (cgse) | 绝对静电单位制 | 正文首现括注；评注层 ch-23 已以"高斯制"名之
+% NEWTERMS: vacuum permittivity | 真空介电常数 | 正文只作"常量 ε0"，定名在评注层；现行值见评注（CODATA 2022）
+% NEWTERMS: unstable equilibrium | 不稳定平衡 | 首现括注；稳定平衡（stable equilibrium）已由 ch-14 定名
+% NEWTERMS: point charge | 点电荷 | 承 ch-23 首现括注，本章不重复括注
+% NEWTERMS: dielectric | 电介质 | 承 ch-24 定名；本章"液态电介质"为题 2 语境
+% NEWTERMS: buoyant force | 浮力 | 承 ch-16 首现括注（F_b），本章不重复
+% NEWTERMS: Earnshaw's theorem | 恩肖定理 | 仅评注层引入，1842
+% NEWTERMS: Joule-Lenz law | 焦耳—楞次定律 | 章尾格言首现；ch-27 主题（Ohm's law 欧姆定律为通行译名，不注）

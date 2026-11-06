@@ -1,0 +1,205 @@
+% !TEX root = tarasov-qasp-zh.tex
+
+\chapter[电灯泡为什么烧坏了？]{电灯泡为什么烧坏了？\label{ch-30}}
+
+\begin{dialogue}
+
+\stda 电灯泡为什么会烧坏？是因为电压过高，还是因为电流过大？
+
+\tchr 你自己会怎样回答这个问题呢？
+
+\stda 我想，是由于电流太大。
+
+\tchr 你的回答我不太喜欢。首先我要指出，按你这种提法，这个问题应当归入挑衅性的陷阱式问题一类。电灯泡烧坏，是单位时间内放出了过多热量的结果，也就是说，是电流的热效应急剧增强所致。而热效应的这种增强，又可能与多种因素的变化有关：加在灯泡上的电压、通过灯泡的电流以及灯泡本身的电阻。为此，让我们把你们已知的、用来求电流通过某一电阻 $R$ 时所发出或所消耗的功率的所有公式都回忆一遍。
+\pnote{“电压过高还是电流过大”这种二选一的提法本身就不成立：对给定的灯泡，电压、电流、电阻三者由欧姆定律联系在一起，功率由它们共同决定，教师下面的分析正是把三个量放在一起考虑。再补充一个实际现象：钨丝的电阻随温度显著变化，冷态电阻只及正常发光时的十分之一左右，因此开灯瞬间的电流可达额定值的十倍上下，灯泡多半正是在接通瞬间烧断的——金属电阻率随温度升高而增大，人教版必修第三册第十一章“导体的电阻”有讨论。如今照明已普遍改用发光二极管（LED），白炽灯渐被淘汰，但它作为电功率与焦耳定律的经典模型，仍常见于教材与试题。}
+
+\stdb 我知道下面几个公式：
+\begin{align}%
+P & = (\varphi_{1} -\varphi_{2})I \label{eq-180}\\
+P & =I^{2} R \label{eq-181}\\
+P & = \frac{ \left( \varphi_{1} -\varphi_{2} \right)^{2}}{R} \label{eq-182}
+\end{align}
+其中 $P$ 是电阻 $R$ 上发出的功率，$(\varphi_{1} -\varphi_{2})$ 是电阻 $R$ 两端的电势差，$I$ 是流过电阻 $R$ 的电流。
+
+\stda 我们过去通常只用公式 \eqref{eq-181}，它用电流的平方与电阻来表示功率。
+
+\tchr 十分明显，这三个公式是等价的，因为应用欧姆定律，可以把其中任何一个变换成其余两个。而恰恰是公式的这种等价性表明：在解决我们的问题时，不应孤立地对待电流或电压，而应当把电流、电压、电阻这三个量放在一起考虑。（对\smallcaps{学生甲}）：顺便问一下，你为什么偏爱公式 \eqref{eq-181}？
+\pnote{三个公式“等价”是有前提的：这段电路必须是纯电阻电路（欧姆定律成立）。一般情形下，$P=(\varphi_{1}-\varphi_{2})I$ 对任何一段电路都成立，是消耗的总电功率；$P=I^{2}R$ 是其中电阻发热的功率（焦耳定律 $Q=I^{2}Rt$）；而 $P=(\varphi_{1}-\varphi_{2})^{2}/R$ 只能借助欧姆定律由前两者推出。电动机、电解槽等非纯电阻负载中，总功率大于发热功率，差值转化为机械能或化学能。人教版必修第三册第十二章第 1 节“电路中的能量转化”正是这样区分电功 $W=UIt$ 与电热 $Q=I^{2}Rt$ 的：两者只在纯电阻电路中相等。本章的对象（灯泡、电炉丝）都按纯电阻处理。}
+
+\stda 通常，供给灯泡的电压是恒定的。因此，功率对电压的依赖关系没有什么特别的意义。公式 \eqref{eq-181} 是三个公式中最有用的一个。
+
+\tchr 你把公式 \eqref{eq-181} 摆在特殊地位，这就错了。来考虑下面的问题。\hlred{一个台式电炉的炉盘由三段电阻相同的炉丝组成。三段并联时，水壶中的水经过 6 分钟开始沸腾。若把三段改接成\figr{fig-123} 所示的各种连接方式，同一壶水将经过多长时间才开始沸腾？}
+
+\begin{figure}%
+\centering
+\includegraphics[width=0.5\textwidth]{figs/ch-30/fig-123a}
+\caption[不同连接方式下水壶把水烧开所需的时间。]{不同连接方式下水壶把水烧开所需的时间。\label{fig-123}}
+\end{figure}
+
+\stda 首先，我们求出\figr{fig-123} 中每种连接方式下炉盘的总电阻，并用 $R$ 表示一段炉丝的电阻。最初的情形（并联）中，总电阻 $R_{0}=R/3$。对于情形 $a$、$b$ 和 $c$（\figr{fig-123}），我们得到
+\begin{equation}%
+\left. \begin{aligned}
+R_{a} & = 3R \\
+R_{b} & = R+ \frac{R}{2}=\frac{3}{2} R \\
+R_{c} & =\frac{2R^{2}}{3R} = \frac{2}{3} R
+\label{eq-183}
+\end{aligned}
+\right\}
+\end{equation}
+其次，若用 $U$ 表示加在电炉上的电压，那么利用欧姆定律，就可以求出每种情形下流过炉盘的总电流……。
+
+\tchr （打断）电流不必求。我们用 $t_{0}$、$t_{a}$、$t_{b}$ 和 $t_{c}$ 表示各种情形下把水壶中的水加热到沸点所需的时间。放出的热量等于功率乘以加热时间，而每种情形放出的热量都相同。用公式 \eqref{eq-182} 确定功率，我们得到
+\begin{equation}%
+\frac{U^{2}t_{0}}{R_{0}} =  \frac{U^{2}t_{a}}{R_{a}} =\frac{U^{2} t_{b}}{R_{b}} = \frac{U^{2}t_{c}}{R_{c}}
+\label{eq-184}
+\end{equation}
+把式 \eqref{eq-183} 代入 \eqref{eq-184}，约去公因子（$U^{2}$ 和 $1/R$），得
+\begin{equation*}%
+3t_{0} = \frac{t_{a}}{3} = \frac{2t_{b}}{3} = \frac{3t_{c}}{2}
+\end{equation*}
+由此很容易求出所要求的值：
+\begin{align*}%
+t_{a} & = 9 t_{0}= \SI{54}{\minute}\\
+t_{b} & =\frac{9t_{0}}{2}= \SI{27}{\minute} \\
+t_{c} & =2t_{0}  = \SI{12}{\minute}
+\end{align*}
+注意，本题中用公式 \eqref{eq-182} 求功率更为方便，这正是因为加在电炉上的电压是恒定的。
+
+再看下面的问题。已知：\hlred{一个电源，电动势（emf）为 $\Ea$、内电阻（internal resistance）为 $r$；把它接到某个外电阻 $R$ 上。这个电源的效率是多少？}
+
+\stdb 电源的效率就是有用功率（useful power）与总功率之比：前者是消耗在外电阻上的功率，后者是消耗在内、外电阻上的功率之和：
+\begin{equation}%
+\eta = \frac{I^{2}R}{I^{2}(R+r)} = \frac{R}{(R+r)}
+\label{eq-185}
+\end{equation}
+\tchr 正确。\hlred{设电源的内电阻保持不变，只有外电阻变化。这时电源的效率将如何变化？}
+
+\stdb $R=0$ 时（即短路情形），$\eta=0$；$R=r$ 时，$\eta=0.5$；当 $R$ 无限增大时，效率趋近于 1。
+
+\tchr 完全正确。\hlred{那么在这种情形下，有用功率（即消耗在外电阻上的功率）将如何变化？}
+
+\stdb 既然电源的效率随 $R$ 的增大而增大，可见有用功率也将随之增大。简言之，$R$ 越大，有用功率就越大。
+
+\tchr 你错了。电源效率的提高，意味着有用功率与电源总功率之比增大；有用功率本身甚至可能减小。事实上，有用功率为
+\begin{equation}%
+P_{u} = \frac{\Ea^{2}}{(R+r)^{2}} \,R= \frac{\Ea^{2}}{r}  \frac{x}{(x+1)^{2}}
+\label{eq-186}
+\end{equation}
+其中 $x=R/r$。若 $x\ll 1$，则 $P_{u}  \propto x$；若 $x\gg 1$，则 $P_{u} \propto \frac{1}{x}$。当 $x=1$（即 $R=r$）时，有用功率 $P_{u}$ 达到最大值 $P_{u} = \Ea^{2}/4r$。\figr{fig-124} 给出了函数 $y=x/(x+1)^{2}$ 的曲线，它说明有用功率随外电阻增大而变化的情况。
+\pnote{这段讨论即中国教辅所说“电源的输出功率与外电阻的关系”：原书的有用功率即人教版的电源输出功率（$P_{\text{出}}=I^{2}R=\Ea I-I^{2}r$）。输出功率在 $R=r$ 时最大，$P_{\max}=\Ea^{2}/4r$，此时效率恰为 50\%；效率随 $R$ 单调增大，输出功率却在 $R=r$ 处取极大值——效率与输出功率是两个不同的物理量，学生乙混淆的正是这一点，这也是闭合电路问题的常见考点（人教版必修第三册第十二章第 2 节“闭合电路的欧姆定律”的习题层面；大学电路课程称 $R=r$ 为匹配，即最大功率传输定理）。由式~\eqref{eq-186} 还可证明：若两个外电阻满足 $R_{1}R_{2}=r^{2}$，则它们的输出功率相等。}
+
+\begin{figure}%
+\centering
+\includegraphics[width=0.5\textwidth]{figs/ch-30/fig-124a}
+\caption[有用功率随外电阻变化的曲线图。]{函数 $y=x/(x+1)^{2}$ 的图像，它显示有用功率随外电阻增大而变化的情况。\label{fig-124}}
+\end{figure}
+
+来考虑下面的问题。\hlred{二百只相同的电灯泡，每只电阻为 \SI{300}{\ohm}，并联接在电动势为 \SI{100}{\volt}、内电阻为 \SI{0.5}{\ohm} 的电源上。求每只灯泡上消耗的功率，以及二百只灯泡中烧坏一只后每只灯泡上功率的相对变化。导线的电阻忽略不计\drkgry{(\figr{fig-125})}。}
+
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-30/fig-125a}
+\caption[求每只灯泡消耗的功率及其相对变化。]{求每只灯泡上消耗的功率，以及二百只灯泡中烧坏一只后每只灯泡上功率的相对变化。\label{fig-125}}
+\end{figure}
+
+\stdb 外电路的总电流等于
+\begin{equation*}%
+I_{t} = \frac{\Ea}{r + \dfrac{R}{n}} = \SI{50}{\ampere}
+\end{equation*}
+通过每只灯泡的电流为 $I_{t}/n=\SI{0.25}{\ampere}$。接着可以求出每只灯泡上消耗的功率：$P=I^{2}R=\SI{37.5}{\watt}$。为确定二百只灯泡中烧坏一只后每只灯泡功率的相对变化，我先求出 $n= 199$ 时每只灯泡的功率 $P_{1}$，然后计算比值
+\begin{equation}%
+f = \frac{P_{1}- P}{P}
+\label{eq-187}
+\end{equation}
+\pnote{按题给数据核算：每只灯泡的电流为 \SI{0.25}{\ampere}，$P=I^{2}R=0.25^{2}\times 300\,\Omega=\SI{18.75}{\watt}$。原书印作 \SI{37.5}{\watt}，恰为正确值的两倍；经核对 1973 年 Mir 原版此页同样排印 37.5，当为原书自身的算术疏漏而非录入之误，译文照原书排印。此值不影响下文结论：相对变化 $f$ 只由 $P$ 与 $P_{1}$ 之比决定。}
+
+\tchr 我不赞成用这种方法来求所要求的比值 $f$。应当把 $f$ 用电阻 $R$ 和灯泡数 $n$ 表示成一般形式。于是
+\begin{align*}%
+P & = \frac{R}{n^{2}} \frac{\Ea^{2}}{\left( r + \frac{R}{n} \right)^{2}} \\
+P_{1} & = \frac{R}{(n - 1)^{2}} \frac{\Ea^{2}}{\left( r + \frac{R}{n - 1} \right)^{2}}
+\end{align*}
+把这两式代入 \eqref{eq-187}，得
+\begin{align*}%
+f & = \left( \frac{P_{1}}{P} - 1\right) = \frac{nr+R}{nr -r +R} - 1\\
+& = \frac{1}{1 - \dfrac{r}{nr+R}} - 1
+\end{align*}
+最后一式的分母中，那个分数远小于 1（因为电路里灯泡很多，而每只灯泡的电阻又远大于电源的内电阻）。因此，可以应用近似公式 \eqref{eq-173}：
+\begin{equation}
+f = \left( 1 - \frac{r}{nr+R} \right)^{-2} - 1 \approx \frac{2r}{nr+R}
+\label{eq-188}
+\end{equation}
+把数值代入式 \eqref{eq-188}，求得 $f=0.0025$。
+\pnote{此处有两处需要说明。（一）底本式~\eqref{eq-188} 中括号上的指数排作 $2$；经核对原书扫描页，原版排作 $-2$，显系录入时脱漏负号，中文版按原书改排 $-2$。（二）再往上看“代入式~\eqref{eq-187}”一步，原书排作 $f=\dfrac{nr+R}{nr-r+R}-1=\dfrac{1}{1-\frac{r}{nr+R}}-1$（各分式不带平方号）；但由上面 $P$、$P_{1}$ 的表达式严格计算，应为 $f=\left(\dfrac{nr+R}{nr-r+R}\right)^{2}-1=\left(1-\dfrac{r}{nr+R}\right)^{-2}-1$，原书此行漏排了平方号（原书自身的疏漏），译文照原书排印。式~\eqref{eq-188} 正是按带平方的形式、取 $\alpha=-2$ 应用近似公式~\eqref{eq-173} 而得：$f\approx\dfrac{2r}{nr+R}=\dfrac{2\times 0.5}{400}=0.0025$，与数值自洽。另：底本本章尚有若干排印小误（``$I/R$''应为 $1/R$、``and and''衍词、``Alter''应为 After、图~126 图题句末双句点等），径改不注。}
+
+\stdb 可是，您为什么反对先算出 $P_{1}$、再把数值代入式 \eqref{eq-187} 来求 $f$ 的做法呢？
+
+\tchr 你看，$f=0.0025$。这就是说，如果用你那种（数值）方法来得到这个结果，就必须把 $P_{1}$ 算准到小数点后第四位。而且你事先根本无法知道，$P_{1}$ 应该算到多高的精度。就本题而言，假如你把 $P_{1}$ 只算到小数点后两位，你就会得出结论：功率 $P_{1}$ 与功率 $P$ 相同。
+\pnote{教师所示意的正是中国解题教学常说的“先字母运算、后数值代入”：字母式中量级悬殊的项（如此处的 $r/(nr+R)\ll 1$）会自动显现，从而可以有针对性地取近似——式~\eqref{eq-173} 即 $(1+\lambda)^{\alpha}\cong 1+\alpha\lambda$（$\lambda\ll 1$，见\chap{ch-27}），本章取 $\alpha=-2$；近似式还便于检验极限行为（如 $r\to 0$ 时 $f\to 0$，即内阻可忽略时，一只灯泡烧坏对其余灯泡没有影响）。}
+
+\end{dialogue}
+
+\section*{习题}
+\label{prob-30}
+\addcontentsline{toc}{section}{习题}
+
+\begin{enumerate}[resume*=problems]
+\item 在\figr{fig-126} 所示的电路中，$\Ea= \SI{100}{\volt}$，$r=\SI{36}{\ohm}$，电源的效率等于 50\%。求电阻 $R$ 和有用功率。
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-30/fig-126a}
+\caption[计算电阻与有用功率。]{计算电阻 $R$ 与有用功率。\label{fig-126}}
+\end{figure}
+
+\item 把一个电源接到电阻为其内电阻 4 倍的电阻器上。如果再把一个电阻为内电阻 2 倍的附加电阻并联到外电阻上，电源的效率将改变多少（以百分数表示）？
+
+\item 若干个相同的电阻 $R$ 连接成\figr{fig-127} 所示的组合。一种情形把这个组合接到电源的点 1 与点 2 上，另一种情形接到点 1 与点 3 上。若两种情形下电源效率之比等于 16/15，求电源的内电阻，并求这两个效率的数值。
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-30/fig-127a}
+\caption[计算电源内电阻并求两情形的效率。]{计算电源的内电阻，并求两种情形下的效率。\label{fig-127}}
+\end{figure}
+\item 电炉炉盘内的各电阻连接成\figr{fig-127} 所示的组合。把这一组合接到供电网的点 1 与点 2 上，经过一段时间，500 克水被加热到沸点。若把电阻组合改接到供电网的点 1 与点 3 上，在同样的时间内能把多少水加热到沸点？两种情形下水的初温相同。忽略一切热损失。
+
+\item 1.5 升温度为 \SI{20}{\degreeCelsius} 的水，在炉盘由两段电阻相同的炉丝组成的电炉上加热 \SI{15}{\minute}。两段并联时，水开始沸腾，并有 \SI{100}{\gram} 的水化为蒸汽。若把两段改为串联而对水加热 \SI{60}{\minute}，水的情况将会怎样？汽化热为 \SI[per-mode=symbol]{539}{\calorie \per \gram}。若只接通一段，把这么多水加热到沸点需要多少时间？
+\pnote{本题以非 SI 单位给出汽化热：1 cal $=4.186$ J（热化学卡为 4.184 J），故 539 cal/g $\approx 2.26\times 10^{6}$ J/kg，与人教版教材及物理手册采用的数值一致。}
+
+
+\end{enumerate}
+
+
+\cleardoublepage
+
+\thispagestyle{empty}
+\vspace*{-1.95cm}
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width=0.75\textwidth]{figs/sec/tarasov-qasp-sec-12.pdf}
+\end{figure*}
+\vspace*{-.4cm}
+\begin{fullwidth}
+{\textsf{\Large \hlred{几何光学的定律，人类已经知晓了许多个世纪。然而，这些定律的优美与完备至今仍令我们惊叹。请通过做各种光学系统中成像作图的练习，亲自体会这一点。我们将讨论光的反射定律与折射定律。}}}
+\end{fullwidth}
+% NEWTERMS: current source | 电源 | 原书用语字面为"电流源"（источник тока），实指有电动势与内阻的电源；为避免与现代"电流源=恒流源"混淆，一律译"电源"；ch-27–29 译出后首现括注应前移
+% NEWTERMS: emf (electromotive force) | 电动势 | 本章首现括注（英文缩写 emf）；人教版必修第三册第十二章第 2 节；ch-27–29 译出后首现括注应前移
+% NEWTERMS: internal resistance | 内电阻 | 本章首现括注；即人教版"内阻"；ch-27–29 译出后首现括注应前移
+% NEWTERMS: external resistance | 外电阻 | 即外电路（负载）电阻；自明词不括注
+% NEWTERMS: useful power | 有用功率 | 本章首现括注；即人教版电源输出功率 P_出，见评注
+% NEWTERMS: (source) efficiency | （电源的）效率 | 承 ch-10"机械效率"（efficiency）；本章为电源效率，不重复括注
+% NEWTERMS: voltage | 电压 | 基础术语；ch-27–29 译出后首现括注应前移，本章不括注
+% NEWTERMS: current | 电流 | ch-24 正文已用（未括注）；ch-27–29 译出后首现括注应前移
+% NEWTERMS: resistance | 电阻 | 基础术语；ch-27–29 译出后首现括注应前移，本章不括注
+% NEWTERMS: potential difference | 电势差 | 承 ch-24"电势"（potential）；人教版必修第三册同名，不括注
+% NEWTERMS: Ohm's law | 欧姆定律 | 通行译名，不注；ch-26 章尾格言已出现
+% NEWTERMS: electric power / power | 电功率／功率 | "功率"承 ch-10（机械功率语境）；"电功率"正式展开在 ch-27–29（人教版必修第三册第十二章第 1 节），译出后括注前移
+% NEWTERMS: short circuit | 短路 | 初中已有概念，不括注
+% NEWTERMS: Joule heating / heating effect of current | 电流的热效应 | 人教版必修第三册第十二章第 1 节（焦耳定律）
+% NEWTERMS: electric table stove / burner / sections | 台式电炉／炉盘／（炉丝）段 | 生活用词，不括注
+% NEWTERMS: supply mains | 供电网 | 即市电、照明电网
+% NEWTERMS: leads | 导线 | 普通词
+% NEWTERMS: additional resistor | 附加电阻 | 习题 2
+% NEWTERMS: latent heat of vaporization | 汽化热 | 承 ch-18 定名（熔化热／汽化热），不重复括注；非 SI 单位换算见习题评注
+% NEWTERMS: approximation formula | 近似公式 | 即式 (173)：(1+λ)^α≅1+αλ，定义在 ch-27
+% NEWTERMS: electric bulb | 电灯泡 | 普通词，不括注
+% NEWTERMS: geometrical optics | 几何光学 | 章尾格言首现；ch-31 主题
+% NEWTERMS: reflection / refraction of light | 光的反射／（光的）折射 | 章尾格言首现
+% NEWTERMS: image construction | 成像（作图） | 章尾格言语境

@@ -1,0 +1,134 @@
+% !TEX root = tarasov-qasp-zh.tex
+
+\chapter[电容器能接入直流电路吗？]{电容器能接入直流电路吗？\label{ch-28}}
+
+\begin{dialogue}
+
+\tchr 我们来考虑下面的问题。\hlred{在\figr{fig-110} 所示的电路中，$C$ 是电容器的电容。设电源的电动势（emf）为 $\Ea$，内阻（internal resistance）为 $r$。求电容器极板上的电荷 $Q$。}
+
+\stda 可是，直流（direct current）电路里能用电容器吗？不管怎么说，电流是不会通过它的呀。
+
+\tchr 不通过又怎样？电流总会在并联的各支路中流动。
+\pnote{说“电流不通过电容器”，指的是充电完毕后的稳态：电路接通的一瞬，支路中有一股短暂的充电电流（暂态过程），直到极板电荷建立起的电压使电流停止。中学讨论含电容器的直流电路，一律指稳态，原书此处从简。至于交流电，虽然没有电荷穿越极板，电容器却会因反复充放电而“隔直流、通交流”——那是交变电流部分的话题。}
+
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-28/fig-110a}
+\caption[求电容器极板上的电荷。]{求电容器极板上的电荷。\label{fig-110}}
+\end{figure}
+\pnote{底本本图图题误作 ``Find the reading of the ammeter.''（求电流表的读数）：图中并无电流表，本题的所求是电容器极板上的电荷 $Q$；下一章末恰有一道求电流表读数的习题，此图题当是从彼处误沿。中文版按题意拟写图题，待考原书。}
+
+\stda 我想我现在明白了。既然电流不通过\figr{fig-110} 电路中的电容器，它也就不会通过电阻 $R_{1}$。在外电路中，电流只通过电阻 $R_{2}$。用关系式 $I = \Ea/(R_{2} + r)$ 可以求出通过 $R_{2}$ 的电流，于是 $A$、$B$ 两点间的电势差就等于电阻 $R_{2}$ 上的电压降，即
+\begin{equation}
+\varphi_{A} - \varphi_{B} = IR_{2} = \frac{\Ea R_{2}}{R_{2}+ r}
+\label{eq-175}
+\end{equation}
+接下来我就不知道该怎么做了。要求电容器极板上的电荷，我必须求出 $A$、$F$ 两点间的电势差。
+
+\tchr 你断定电流不通过电阻 $R_{1}$，这是对的。但在这种情形下，电阻上各点应当具有相同的电势（回忆一下\chap{ch-24} 中的讨论）。这就是说，$\varphi_{F} = \varphi_{B}$。由此，利用方程~\eqref{eq-175}，便得所求的电荷
+\begin{equation}%
+Q = \frac{C \Ea R_{2}}{R_{2}+ r}
+\label{eq-176}
+\end{equation}
+\pnote{底本此处作 $\varphi_{A} = \varphi_{B}$，与上下文不合：按\figr{fig-110}，中间支路为 $A$—$C$—$F$—$R_{1}$—$B$，$R_{1}$ 连接的是 $F$、$B$ 两点，“无电流则电阻等势”给出的应是 $\varphi_{F} = \varphi_{B}$；教师随即“利用方程~\eqref{eq-175}”（$\varphi_{A} - \varphi_{B} = \Ea R_{2}/(R_{2} + r) \neq 0$）求电荷，若 $\varphi_{A} = \varphi_{B}$ 便自相矛盾。中文版径改；如此则有 $Q = C(\varphi_{A} - \varphi_{F}) = C(\varphi_{A} - \varphi_{B})$，即式~\eqref{eq-176}。此误出自社区重排本还是原书排印，待考。}
+\pnote{学生甲写出的 $I = \Ea/(R_{2} + r)$ 就是闭合电路的欧姆定律（人教版必修第三册第十二章“闭合电路的欧姆定律”一节，$I = E/(R + r)$）——外电路只剩 $R_{2}$，含电容器的支路按断路处理。含容直流电路是高考的经典题型，方法要点正是这段对话所展示的：稳态下电容支路无电流，与之串联的电阻是等势的，电容器两端的电压等于它所处那段电路两端的电压。原书中电动势、内阻与这条定律要到下一章（欧姆定律）才正式展开，本章径直使用；中国教材亦不设“含容电路”专节，此题型通常见于教辅与竞赛训练。}
+
+现在考虑下面的问题。\hlred{在\figr{fig-111} 所示的电路中，$E = \SI{4}{\volt}$，$r =\SI{1}{\ohm}$，$R_{1} =\SI{3}{\ohm}$，$R_{2} = \SI{2}{\ohm}$，$C_{1} = \SI{2}{\micro\farad}$，$C_{2} = \SI{8}{\micro\farad}$，$C_{3} = \SI{4}{\micro\farad}$，$C_{4} = \SI{6}{\micro\farad}$。求电容器极板上的电荷。}
+
+\begin{figure}%
+\centering
+\includegraphics[width=0.5\textwidth]{figs/ch-28/fig-111a}
+\caption[求电容器极板上的电荷。]{求电容器极板上的电荷。\label{fig-111}}
+\end{figure}
+借此机会，请回忆一下电容器串联和并联的合成法则。
+
+\stda 我记得这些法则。电容器并联时，总电容就是各电容之和，即
+\begin{equation}%
+C = C_{1} + C_{2} +C_{3} +C_{4} +\ldots
+\label{eq-177}
+\end{equation}
+而串联时，总电容由各电容倒数之和的倒数给出。于是
+\begin{equation}%
+\frac{1}{C} = \frac{1}{C_{1}}+ \frac{1}{C_{2}}+ \frac{1}{C_{3}} \ldots
+\label{eq-178}
+\end{equation}
+\pnote{电容器串联、并联的合成法则，现行高中教材正文不作展开（人教版必修第三册第十章“电容器的电容”一节只给出 $C = Q/U$ 与平行板电容器），属高考与竞赛的常用扩展。对平行板电容器 $C \propto S/d$，两条法则各有直观图像：并联相当于极板面积相加，故电容相加；串联相当于极板间距相加，故倒数相加——恰与电阻的串并联规则相反。}
+
+\tchr 完全正确。现在利用法则~\eqref{eq-177}，求出 $A$、$B$ 两点间以及 $F$、$D$ 两点间的电容：
+\begin{eqnarray*}%
+C_{AB} = \SI{2}{\micro\farad} + \SI{8}{\micro\farad} =  \SI{10}{\micro\farad} \\
+C_{FD} = \SI{4}{\micro\farad} + \SI{6}{\micro\farad} =  \SI{10}{\micro\farad}
+\end{eqnarray*}
+$A$、$D$ 两点间的电势差等于电阻 $R_{1}$ 上的电压降。于是
+\begin{equation*}%
+\varphi_{D} - \varphi_{A} = IR_{1} = \frac{\Ea R_{1}}{R_{1} + r} = \SI{3}{\volt}
+\end{equation*}
+显然，电阻 $R_{2}$ 在电路中不起作用，可以不必考虑。既然 $C_{AB} = C_{FD}$，那么
+\begin{equation*}%
+\varphi_{B} - \varphi_{A} = \varphi_{D} - \varphi_{F} = \dfrac{\SI{3}{\volt}}{2} = \SI{1.5}{\volt}
+\end{equation*}
+\pnote{这一步原文从简，补足道理：稳态下 $A$、$D$ 之间的电容支路无电流，$R_{2}$ 上便没有电压降（$B$、$F$ 等势，与前一个电路中的 $R_{1}$ 同理），于是 $C_{AB}$ 与 $C_{FD}$ 实为串联，共同承担这 3 V；又因电荷守恒，仅通过电容器与外界耦合的中间导体（$B$—$R_{2}$—$F$ 连同两组电容器的内极板）净电荷为零，两个电容组所带电荷大小相等——电荷相等而电容又相等（各 $10~\mu\mathrm{F}$），电压便相等，各分得 $1.5~\mathrm{V}$。这就是“既然 $C_{AB} = C_{FD}$”一句的根据。}
+最后，就能求得所需的各个电荷：
+\begin{align*}%
+Q_{1} &= C_{1}(\varphi_{B} - \varphi_{A}) =  \SI{3}{\micro\coulomb} \\
+Q_{2} &= C_{2}(\varphi_{B} - \varphi_{A}) =  \SI{12}{\micro\coulomb} \\
+Q_{3} &= C_{3}(\varphi_{D} - \varphi_{F}) =  \SI{6}{\micro\coulomb}\\
+Q_{4} &= C_{4}(\varphi_{D} - \varphi_{F}) =  \SI{9}{\micro\coulomb} \\
+\end{align*}
+\end{dialogue}
+
+\section*{习题}
+\label{prob-28}
+\addcontentsline{toc}{section}{习题}
+
+\begin{enumerate}[resume*=problems]
+\item 在\figr{fig-112} 所示的电路中，$\Ea=\SI{5}{\volt}$，$r=\SI{1}{\ohm}$，$R_{2} = \SI{4}{\ohm}$，$R_{1} =\SI{3}{\ohm}$，$C=\SI{3}{\micro\farad}$。求每个电容器极板上的电荷。
+\begin{figure}%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-28/fig-112a}
+\caption[求每个电容器极板上的电荷。]{求每个电容器极板上的电荷。\label{fig-112}}
+\end{figure}
+\pnote{图中另一条电容支路上还串有一个电阻 $R_{3}$，题干未给它的数值——稳态下两条电容支路都无电流，$R_{1}$、$R_{3}$ 的取值都不影响结果（这正是本章开头那道题的思路）。}
+
+\item 已知\figr{fig-113} 所示电路图中标明的各个量，求每个电容器极板上的电荷。
+\begin{figure}%
+\centering
+\includegraphics[width=0.6\textwidth]{figs/ch-28/fig-113a}
+\caption[求每个电容器极板上的电荷。]{求每个电容器极板上的电荷。\label{fig-113}}
+\end{figure}
+
+\item 一个极板长为 $l$ 的平行板电容器接入\figr{fig-114} 所示的电路。已知电源的电动势 $\Ea$、内阻 $r$ 以及极板间的距离 $d$。电子以速度 $v_{0}$ 沿平行于极板的方向飞入电容器。应当给电容器并联一个多大的电阻 $R$，才能使电子沿与极板成 $\alpha$ 角的方向飞出电容器？设电子的质量 $m$ 和电荷 $q$ 为已知。
+\begin{figure}%
+\centering
+\includegraphics[width=0.5\textwidth]{figs/ch-28/fig-114a}
+\caption[求电阻 R。]{求电阻 $R$。\label{fig-114}}
+\end{figure}
+\pnote{习题 3--5 是“含容电路＋带电粒子偏转”的综合题：先由稳态电路定出电容器两端的电压（如本题电容器与 $R$ 并联，电压即 $IR = \Ea R/(R + r)$），再按类平抛运动处理。带电粒子在电场中的运动见人教版必修第三册第十章第 5 节，\chap{ch-25} 已就该模型作过完整讨论；本组题新增的一步是“电压由电路决定”。}
+
+\item 两个相同的、彼此垂直的平行板电容器（极板长为 $l$，极板间距离为 $d$）接入\figr{fig-115} 所示的电路。已知电源的电动势 $\Ea$ 和电阻 $r$。问电阻 $R$ 多大时，以速度 $v_{0}$ 沿平行于极板方向飞入其中一个电容器的电子，能够飞入第二个电容器，并且飞出时平行于第二个电容器的极板？电子的质量 $m$ 和电荷 $q$ 为已知。
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-28/fig-115a}
+\caption[求电阻 R。]{求电阻 $R$。\label{fig-115}}
+\end{figure}
+
+\item 一个极板长为 $l$、极板间距离为 $d$ 的平行板电容器接入\figr{fig-116} 所示的电路（已知电动势 $\Ea$ 与电阻 $R$、$r$）。电子以速度 $v_{0}$ 沿平行于极板的方向飞入电容器。若 $m$ 与 $q$ 已知，电子飞出电容器时将与极板成多大的角度？
+\begin{figure}[h]%
+\centering
+\includegraphics[width=0.5\textwidth]{figs/ch-28/fig-116a}
+\caption[电子飞出电容器时将与极板成多大的角度？]{电子飞出电容器时将与极板成多大的角度？\label{fig-116}}
+\end{figure}
+
+\end{enumerate}
+
+\cleardoublepage
+% NEWTERMS: direct current | 直流（电） | 章题与正文首现（学生甲首句括注英文）；“隔直流、通交流”见评注；ch-27（电流定律）待译，成书后首现括注可前移
+% NEWTERMS: emf | 电动势 | 本章正文首现括注（底本径用缩写 emf，即 electromotive force）；符号 $\Ea$（ℰ）对应人教版 $E$；ch-27 待译，届时首现前移
+% NEWTERMS: internal resistance | 内阻 | 本章正文首现括注；ch-27 待译，届时首现前移
+% NEWTERMS: current source | 电源 | 原书惯用语（俄源 источник тока 之英译）；不取“电流源”，以免与电子学专义 current source（恒流源）混淆
+% NEWTERMS: voltage drop | 电压降 | drop in voltage across a resistor；即 U=IR 的电压
+% NEWTERMS: external part of the circuit | 外电路 | |
+% NEWTERMS: parallel branch | 并联支路 | branch＝支路，本章电流路径语境
+% NEWTERMS: combined capacitance | 总电容 | 电容器串并联合成法则（式 177、178）；现行高中教材正文不展开，见评注
+% NEWTERMS: Problems (section title) | 习题 | 本章 5 题，全书连续编号为第 58--62 题（ch-27 习题第 53--57 题待译衔接）；书末答案 89--93 与本章对应
+% NEWTERMS: ammeter | 电流表 | 仅见于底本误沿的图题（求电流表读数），本图并无电流表，见评注；作为术语归 ch-27 及以后

@@ -1,0 +1,273 @@
+% !TEX root = tarasov-qasp-zh.tex
+% 本章文件首部无 sec 扉图块；尾部 sec-10 扉图块（服务于下一章）在英文源 ch-21.tex 内为有效代码，照译于本文件尾部。
+
+\chapter[怎样着手解气体定律的习题？]{怎样着手解气体定律的习题？\label{ch-21}}
+
+\begin{dialogue}
+
+
+\stda 我想弄清楚怎样把气体定律应用于求解各种类型的习题。
+
+\tchr 依我看，考生拿到的涉及气体定律的习题几乎都很简单。它们大多属于下面两组之一。
+\begin{description}[font=\bfseries, leftmargin=1cm]
+\item[第一组：] 以一定质量气体的状态变化为基础编制的习题；质量的数值并不使用。由于膨胀、加热和其他过程，气体从参数为 $p_{1}$、$V_{1}$ 和 $T_{1}$ 的某一状态过渡到参数为 $p_{2}$、$V_{2}$ 和 $T_{2}$ 的状态。初态与末态的参数由综合气体定律的方程互相联系：
+\begin{equation}%
+\frac{p_{1} V_{1}}{T_{1}}  = \frac{p_{2} V_{2}}{T_{2}}
+\label{119}
+\end{equation}
+习题的任务就是求出这六个参数之一。
+
+\item[第二组：] 气体状态不发生变化的习题，但气体质量的数值出现在习题中。要么在全部参数已知时求出这份质量，要么在质量与其余参数已知时求出其中一个参数。解这类习题必须知道气体的分子量。
+\end{description}
+\pnote{教师按“是否涉及质量”对习题分组，正对应中国复习资料的分类：第一组只用状态方程的比值形式（上一章式~\eqref{eq-103}）；第二组涉及质量，标准工具是克拉珀龙方程 $pV=nRT$（上一章式~\eqref{eq-104}，$n=m/\mu$ 为物质的量）。按现行教材（人教版选择性必修第三册第二章“理想气体的状态方程”），这两种形式都是要求掌握的。后面把“质量变化”的习题另立为第三组，中国教辅常称“变质量问题”，一般也单独讨论。}
+
+\stdb 我认为，解第二组习题最方便的办法是利用综合气体定律的方程~\eqref{eq-104}。
+
+\tchr 这个方程当然可以用。不过，为此必须知道普适气体常量 $R$ 的数值，而它照例是没有人记得住的。因此，实践中更方便的是采用下面的办法：设想把气体置于标准状况，用 $p_{S}$、$V_{S}$ 和 $T_{S}$ 表示该状况下气体的参数；于是可以写出方程
+\begin{equation}%
+\frac{p V}{T} = \frac{p_{S} V_{S}}{T_{S}}
+\label{eq-120}
+\end{equation}
+其中
+\begin{equation*}%
+V_{S} =  \frac{m}{\mu} \times \SI{22.4}{\litre}
+\end{equation*}
+
+\stdb 依我看，这个解法绝不比用方程~(\ref{eq-104}) 简单。这里必须记住三个数值：$P_{S}=\SI{76}{\centi\meter}$ Hg、$T_{S}=\SI{273}{\kelvin}$ 和 $V_{S}/( m/\mu) =\SI{22.4}{\litre}$。显然，只记住一个数值——普适气体常量——更简单。
+
+\tchr 尽管如此，还是我的方法更简单，因为你指出的那三个数值（标准状况下的压强、温度和 1 克分子气体的体积）谁记起来都不费力气。\hlred{设要求 \SI{58}{\gram} 空气在 8 atm 压强、\SI{91}{\degreeCelsius} 温度下的体积}。用我提议的方法来解这道题。由于空气 1 克分子的质量等于 \SI{29}{\gram}，我们共有 2 克分子。在标准状况下它们占据 \SI{44.8}{\litre} 的体积。由方程~\eqref{eq-120} 得
+\begin{equation*}%
+V = V_{S} \frac{p_{S}T}{p T_{S}} = \SI{44.8}{\litre} \times \frac{1 \times 364}{ 8 \times 273} = \SI{7.5}{\litre}
+\end{equation*}
+\pnote{“谁也记不住 $R$”的判断与现行中国课程正好相反：$R=8.31$ J/(mol·K) 是要求记住的常数（人教版选择性必修第三册，称摩尔气体常量），用 $pV=nRT$ 直接解第二组习题是标准做法。教师的“标准状况法”胜在便于心算——三个数（76 cmHg、273 K、22.4 L/mol）都好记；若压强、体积以 atm、L 计，也可用 $R=0.082$ atm·L/(mol·K)，与 8.31 J/(mol·K) 是同一常数。$R$ 的现行精确值与厘米汞柱单位换算见\chap{ch-20} 评注。}
+
+\stdb 我明白了，您取了 $p_{S} = 1 \,\,\text{atm}$。可是题设条件多半指的是工程大气压（technical atmosphere）。那样就应当取 $p_{S} = 1.034 \,\,\text{atm}$。
+
+\tchr 你说得对。物理大气压（physical atmosphere，对应标准压强）与工程大气压之间确实有差别。我只是把这一差别忽略了。
+\pnote{1 物理大气压 atm＝760 mmHg＝101 325 Pa≈$1.013\times 10^{5}$ Pa；1 工程大气压 at＝1 kgf/cm$^{2}$＝98 066.5 Pa≈0.968 atm。故标准压强折合 1.033 工程大气压，学生乙的 1.034 是近似值（准确为 1.033）。两者相差约 3\%，本题略去无妨。这两个单位属历史单位，现行课程一律以 Pa 计压强（1 atm≈$1.013\times 10^{5}$ Pa，人教版初中物理）。}
+
+\stda 您能不能指出解第一组和第二组习题时的典型困难？
+
+\tchr 我已经说过，依我看这些习题相当简单。
+
+\stda 可是考生通常会犯些什么错误呢？
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-21/fig-080a}
+\caption[一端封闭的玻璃管的三种位置。]{一端封闭的玻璃管（管内水银柱长 $\Delta l$，把一段空气柱与外界隔开）的三种位置：（a）水平放置；（b）竖直放置；（c）与竖直方向成 $\alpha$ 角放置。\label{fig-80}}
+\end{figure}
+\pnote{底本图~80、81、82 的图题均误作 ``Work done by a gas.''（与图~85 图题同文），而三图内容（玻璃管三种位置、“白”“黑”分子两种分布、活塞抽气泵）与“气体做的功”毫不相干，显系录入串行；中文版按图面与正文内容拟写图题，待考原书（参照 PDF 与底本同源，无从核对 1973 年原版）。另：本章有若干标点级排印小误——习题 5 的温度增量误用角度宏排作 $30^{\circ}$、习题 6“15 ℃”重出衍文、正文中 $\alpha$ 排作普通字母 a、温度增量“50°”与“27 °C”单位写法不一、零星多余句点与逗号等——均径改，不另注。}
+
+\tchr 除了粗心大意，出错的主要原因是不会计算气体在某一状态下的压强。来看一道关于一端封闭的玻璃管的习题。\hlred{管内有一段水银柱，把一定体积的空气与周围介质隔开。管可以在竖直平面内转动。在第一位置 \drkgry{(\figr{fig-80}(a))}，管内空气柱的长度为 $l_{1}$；在第二位置 \drkgry{(\figr{fig-80}(b))}，为 $l_{2}$。求管在第三位置——与竖直方向成 $\alpha$ 角 \drkgry{(\figr{fig-80}(c))}——时空气柱的长度 $l_{3}$。}我们把大气压强记作 $p_{A}$（以水银柱长度计），把管内水银柱的长度记作 $\Delta l$。在第一位置，管内空气的压强显然等于大气压强。在第二位置，它等于差值 $(p_{A}-\Delta l)$，因为大气压强被管内水银柱的压强与管内空气的压强之和所平衡。应用玻意耳--马略特定律，可写
+\begin{equation*}%
+l_{1} p_{A} = l_{2} (p_{A} -\Delta l)
+\end{equation*}
+由此求得大气压强为
+\begin{equation}%
+p_{A} = \Delta l \frac{l_{2}}{l_{2} - l_{1}}
+\label{eq-121}
+\end{equation}
+在第三位置，水银柱重量的一部分将由管壁的反作用力平衡。结果，管内空气的压强等于 $(p_{A}-\Delta l \cos \alpha)$。对气体的第一和第三状态应用玻意耳--马略特定律，可写
+\begin{equation*}%
+l_{1} p_{A} = l_{3} (p_{A} -\Delta l \cos \alpha)
+\end{equation*}
+由此，大气压强等于
+\begin{equation}%
+p_{A} = \Delta l \frac{l_{3} \cos \alpha}{l_{3} - l_{1}}
+\label{eq-122}
+\end{equation}
+令方程~\eqref{eq-121} 与~\eqref{eq-122} 的右端相等，得
+\begin{equation*}%
+\frac{l_{2}}{l_{2} - l_{1}} = \frac{l_{3} \cos \alpha}{l_{3} - l_{1}}
+\end{equation*}
+由此求出所求的长度
+\begin{equation}%
+l_{3}  = \frac{l_{1} l_{2}}{l_{2} -(l_{2} -  l_{1})\cos \alpha}
+\label{eq-123}
+\end{equation}
+容易看出：若 $\cos \alpha =1$，则 $l_{3}  = l_{2}$，这正是管的第二位置；若 $\cos \alpha =0$，则 $l_{3}  = l_{1}$，对应管的第一位置。
+\pnote{教师指出的压强计算正是此类习题的枢纽，也是最常见的失分点：倾斜管中水银柱只有竖直分量 $\Delta l\cos\alpha$ 压缩气柱，其余分量由管壁支承。“玻璃管封闭一段水银柱与气柱”（管口朝上、朝下、倾斜、在竖直平面内转动）是气体定律部分的高考与竞赛经典题型；所用的玻意耳--马略特定律即人教版选择性必修第三册第二章“气体的等温变化”一节（定律命名与教材表述的差异见\chap{ch-20} 评注）。}
+
+\stda 您分类中的第一组和第二组习题我明白了。可是，考试中会不会出现第一、二两组习题的组合呢？
+
+\tchr 怎么不会呢，这种可能性不能排除。来看下面这道题。\hlred{在 2 atm 压强下，\SI{16}{\gram} 氧气占据的体积为 5 升。若已知当压强升高到 5 atm 时体积减小了 1 升，气体的温度将如何变化？}
+
+\stda 氧气的质量、压强和体积都知道了，我们就能很容易地求出它的温度。于是，\SI{16}{\gram} 氧是 0.5 克分子，它在标准状况下的体积为 11.2 升。接着求得
+\begin{equation}%
+T_{1}=T_{S}\frac{p_{1}V_{1}}{p_{S}V_{S}} =273 \frac{2 \times 5}{ 1 \times 11.2} =\SI{244}{\kelvin}
+\label{eq-124}
+\end{equation}
+\tchr 完全正确。在这一步，你把这道题当作第二组的典型题处理了。
+
+\stda 然后，既然知道气体初态的温度 $T_{1}$，就可以求出末态的温度 $T_{2}$。于是
+\begin{equation*}%
+T_{2}=T_{1}\frac{p_{2}V_{2}}{p_{1}V_{1}} =244 \frac{5 \times 4}{ 2 \times 5} =\SI{488}{\kelvin}
+\end{equation*}
+把这一结果与方程~\eqref{eq-124} 相比较，可知温度升高了 \SI{244}{\kelvin}。
+
+\tchr 你的解法完全正确。正如你所看到的，这道题的后半部分是按第一组的典型题处理的。
+
+\stdb 在我们讨论一开始，谈到可能的习题分组时，您说过大多数习题属于这两组。那么，有没有在原则上区别于第一、二两组的习题呢？
+
+\tchr 有。在这两组习题中都假定气体的质量保持不变。然而，也可以编制气体质量发生变化的习题（从容器中抽出气体或向容器中充入气体）。我们姑且把这类习题归入第三组。解这类习题没有现成的规则，每一道都得个别处理。不过，在每一具体情形中，第三组习题都可以归结为前两组的习题或其组合。用两个例子就可以说明这一点。
+
+这是第一个例子。\hlred{容器中的气体在 \SI{27}{\degreeCelsius} 的温度下压强为 20 atm。求从容器中放出一半质量的气体、并把余下气体的温度升高 \SI{50}{\degreeCelsius} 之后，容器中气体的压强。}
+
+这道题与第一组习题相似，因为它涉及气体状态的变化。但随状态一同变化的还有气体的质量。为了能利用综合气体定律，我们必须研究同一份气体质量的状态变化。我们选取最终留在容器里的那部分气体质量。把它的末态参数记作 $p_{2},\, V_{2}$ 和 $T_{2}$。于是 $T_{2}=(273+27+50)= \SI{350}{\kelvin}$；$V_{2}=V$，其中 $V$ 是容器的体积；而 $P_{2}$ 是所求的压强。这份气体的初态参数该怎么表示呢？
+
+\stda 它的温度与整份气体的相同：$T_{1}= (273+27)=\SI{300}{\kelvin}$；它的体积是容器体积的一半，即 $V/2$；它的压强与整份气体的相同：$p_{1} =20$ atm。
+
+\stdb 这份气体的初态参数，我会换一种方式处理：$T_{1}=\SI{300}{\kelvin}$；体积与整份气体的相同（$V_{1}=V$），而压强等于整份气体压强的一半，即 $p_{1} =10$ atm。
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-21/fig-081a}
+\caption[“白”分子与“黑”分子的两种分布。]{容器中“白”分子与“黑”分子的两种初始分布：（a）各自聚集成宏观体积；（b）均匀混合。\label{fig-81}}
+\end{figure}
+
+
+\tchr 既然压强与体积在方程中以乘积的形式出现，你们的两个提议虽然不同，却引出同一结果。因此，本来可以不去讨论这些差别——若不是它们恰好从物理观点看颇有意趣。我们姑且把最终留在容器里的那部分气体的分子称为“白”分子，把将从容器中放出的那部分气体的分子称为“黑”分子。这样就约定了：白分子留在容器内，黑分子从容器中放出。气体的初态可以按两种方式处理：
+\begin{enumerate}[label=(\arabic*),leftmargin=1cm]
+\item 黑分子与白分子彼此分开，使得能在容器中划分出只含白分子或只含黑分子的宏观体积 \drkgry{(\figr{fig-81}(a))}；
+\item 白分子与黑分子充分混合，使得任何宏观体积中所含两种分子的数目实际相等 \drkgry{(\figr{fig-81}(b))}。
+\end{enumerate}
+
+第一种情形，每种分子各自形成体积为 $V/2$ 的气体“体”，它以 20 atm 的压强作用在器壁上，也作用在与另一“体”的假想分界面上。第二种情形，两种分子均匀分布在整个体积 $V$ 内，每种分子对器壁只施加压强的一半（器壁上任何一处，撞击中的一半来自白分子，另一半来自黑分子）。这时 $V_{1}=V$，$p_{1}=10$ atm。联系最后这一点，让我们回忆一下分压定律（law of partial pressures）：混合气体的压强等于各组分气体压强之和。我要强调，这里所说的是各种分子完全掺混在一起的混合气体。
+\pnote{分压定律即道尔顿分压定律：混合气体的压强等于各组分气体在同样温度下单独充满整个容器时的压强（分压）之和；适用前提正是教师强调的“各种分子完全掺混”——每种分子各自均匀充满全部体积，器壁上的撞击才有“各占一半”之说。此定律中学不作要求，属大学普通物理与化学的基础内容。顺带一提：给同类分子“涂色”加以区分、随后又承认这一区分的任意性，与统计物理中全同粒子不可区分性（吉布斯佯谬的讨论）遥相呼应。}
+
+\stdb 我认为第二种方式更正确，因为两种分子实际上是混合在一起的。
+
+\tchr 在所考察的这道题里，两种方式同样有根据。别忘了，我们把分子分成两类的事先（\emph{a priori}）约定完全是任意的。
+
+现在回到题解上来。对留在容器中的气体质量写出综合气体定律方程：
+\begin{equation*}%
+\frac{10 V}{300} = \frac{p_{2}V}{350}
+\end{equation*}
+由此得 $p_{2}=11.7$ atm。
+
+再来看下面这道题。\hlred{体积为 $V$ 的容器内盛有压强为 $p_{0}$ 的气体。用行程体积（stroke volume）为 $v$ 的活塞泵把气体从容器中抽出（\figr{fig-82}）。要把容器中气体的压强降到 $p_{n}$，需要多少个行程 $n$？}
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.4\textwidth]{figs/ch-21/fig-082a}
+\caption[活塞抽气泵示意图。]{用活塞泵从容器中抽气的示意图（$v$ 为行程体积，$A$、$B$ 为阀门）。\label{fig-82}}
+\end{figure}
+
+\stda 这道题看起来很简单：活塞的 $n$ 个行程使气体体积增大了 $n$ 倍 $v$。因此，可以把玻意耳--马略特定律写成
+\begin{equation*}%
+p_{0}V = p_{n} (V + nv)
+\end{equation*}
+由它就能求出行程数 $n$。
+
+\tchr 你的方程是关于哪一份气体质量的？
+
+\stda 关于最初在容器里的那份质量。
+
+\tchr 可是第一次行程之后，这份质量的一部分就完全离开了系统：活塞向左运动时，阀门 $A$ 关闭、阀门 $B$ 打开，气体便经由 $B$ 离开系统（见\figr{fig-82}）。换句话说，把气体体积逐次增大 $v$、共增大 $n$ 倍，说的已经不是同一份气体质量。因此你的方程不对。
+
+让我们逐个考察活塞的行程。从第一个行程开始。对最初在容器中的气体质量可以写出
+\begin{equation*}%
+p_{0}V = p_{1} (V + v)
+\end{equation*}
+其中 $p_{1}$ 是活塞完成第一个工作行程、到达最右端位置后气体的压强。随后活塞回到初始的最左端位置。这时，如我前面所说，阀门 $A$ 关闭，容器中气体的质量已小于初始质量。它的压强是 $p_{1}$。对这份质量可以写出方程
+\begin{equation*}%
+p_{1}V = p_{2} (V + v)
+\end{equation*}
+其中 $p_{2}$ 是第二个行程终了时气体的压强。依次处理活塞的第三、第四及其后的各个行程，得到一个玻意耳--马略特定律的方程组：
+\begin{equation}%
+\left.
+\begin{aligned}
+p_{0}V & = p_{1} (V + v)\\
+p_{1}V &= p_{2} (V + v)\\
+p_{2}V & = p_{3} (V + v)\\
+\dots{}\ldots{} &\dots{}\ldots{}\dots{}\ldots{}  \\
+p_{n-1}V & =p_{n} (V+v)
+\label{eq-125}
+\end{aligned}
+\right\}
+\end{equation}
+其中每个方程都对应一份确定的气体质量。解方程组~\eqref{eq-125}，得
+\begin{equation*}%
+p_{n}= p_{0} \left( \dfrac{V}{V+v} \right)^{n}
+\end{equation*}
+对这一结果取对数，最后得
+\begin{equation}%
+n = \frac{\log \left(\frac{p_{n}}{p_{0}}\right)}{\log \left( \frac{V}{V+v} \right)}
+\label{eq-126}
+\end{equation}
+\pnote{各次行程后容器中的压强构成等比数列：$p_{k}=p_{0}\left(\dfrac{V}{V+v}\right)^{k}$，公比 $V/(V+v)<1$。式~\eqref{eq-126} 中两个对数取任意相同的底均可；实际算出的 $n$ 一般不是整数，应取不小于它的整数——即再抽一次才能保证压强降到 $p_{n}$ 以下。这种“逐次递推、串成等比数列”的解法，正是中国教辅处理抽气、打气类变质量问题的标准方法，与教师把此类题归入“第三组”的思路一致。}
+
+\end{dialogue}
+
+\section*{习题}
+\label{prob-21}
+\addcontentsline{toc}{section}{习题}
+
+\begin{enumerate}[resume*=problems]
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.7\textwidth]{figs/ch-21/fig-083a}
+\caption[一端封闭、没入盛水银容器中的玻璃管。]{一端封闭、没入盛水银容器中的玻璃管。\label{fig-83}}
+\end{figure}
+\pnote{社区底本中图~83、84、85 的图像文件（fig-083a、fig-084a、fig-085a）实为同一张整页扫描件——页面上并排印着俄文原版中对应的三幅小图（习题 1 的玻璃管、习题 2 的玻璃管、习题 4 的活塞容器 (a)(b)）。也就是说，本章末尾三幅图编译后会显示为同一张整页图。三道题各自的正确配图即该页中对应的小图；这是底本图资产复制之误，待上游修复，中文版按原样引用，不改图。}
+\item 一端封闭的玻璃管完全没入盛水银的容器中（\figr{fig-83}）。管内空气柱的长度为 \SI{10}{\centi\meter}。要把管的上端提高到容器中水银面以上多高，管内的水银面才能与容器中的水银面相平？设为标准大气压。若管的横截面积等于 \SI{1}{\centi\meter^{2}}，计算管内空气的质量。温度为 \SI{27}{\degreeCelsius}。
+
+\item 一根一端封闭的玻璃管，开口端向下没入盛水银的容器中（\figr{fig-84}）。若温度从 \SI{27}{\degreeCelsius} 升高到 \SI{77}{\degreeCelsius}，管内的水银面将如何变化？忽略管的热膨胀。设为标准大气压。若管的横截面积为 \SI{0.5}{\centi\meter^{2}}，求管内空气的质量。
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=0.5\textwidth]{figs/ch-21/fig-084a}
+\caption[一端封闭、没入盛水银容器中的玻璃管。]{一端封闭、没入盛水银容器中的玻璃管。\label{fig-84}}
+\end{figure}
+
+\item 体积为 \SI{5}{\liter} 的容器内，空气的温度为 \SI{27}{\degreeCelsius}、压强为 20 atm。要从容器中放出多少质量的空气，它的压强才能降到 10 atm？
+\item 计算气体所做的功。气体盛在由可动活塞封闭的容器内，被等压加热而从 \SI{20}{\degreeCelsius} 升到 \SI{100}{\degreeCelsius}；活塞的横截面积为 \SI{20}{\centi\meter^{2}}，重 5 kgf。考虑两种情形：
+\begin{enumerate}
+\item 容器水平放置（\figr{fig-85}~\drkgry{(a)}）；
+\item 容器竖直放置（\figr{fig-85}~\drkgry{(b)}）。
+\end{enumerate}
+气体的初体积为 5 升。设为标准大气压。
+\pnote{kgf（千克力）为非 SI 单位：1 kgf＝9.8 N。本题活塞重 5 kgf＝49 N，横截面积 20 cm$^{2}$＝$2\times 10^{-3}$ m$^{2}$，竖直放置时活塞重给气体附加压强 $49/0.002=2.45\times 10^{4}$ Pa（约 0.24 atm）——这正是两种情形做功不同的原因。等压过程中气体做功 $W=p\,\Delta V$，$p$ 取气体自身的压强（人教版选择性必修第三册“热力学第一定律”一节）。}
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=1.1\textwidth]{figs/ch-21/fig-085a}
+\caption[气体所做的功。]{气体所做的功。\label{fig-85}}
+\end{figure}
+\item 玻璃管竖直放置、封闭端朝上，横截面积为 \SI{0.5}{\centi\meter^{2}}，管内 \SI{40}{\centi\meter} 长的空气柱被 \SI{8}{\centi\meter} 长的水银柱封闭。温度为 \SI{27}{\degreeCelsius}。若使管倾斜到与竖直方向成 \ang{60} 角，同时把温度升高 \SI{30}{\degreeCelsius}，空气柱的长度将如何变化？设为标准大气压。求管内封闭空气的质量。
+\item 房间尺寸为 $\SI{6}{\metre} \times  \SI{5}{\metre} \times \SI{3.5}{\metre}$，温度为 \SI{15}{\degreeCelsius}，相对湿度（relative humidity）为 55\%。房内水蒸气的质量是多少？若空气温度降到 \SI{10}{\degreeCelsius}，会不会结露？若空气压强等于 \SI{75}{\centi\meter} Hg，水蒸气的质量占房内空气总质量的几分之几？
+\pnote{相对湿度＝空气中水蒸气的实际压强与同温度下饱和汽压之比（以百分数计）；饱和汽与饱和汽压见\chap{ch-18}。解本题需查水的饱和汽压表：15 ℃约 12.8 mmHg，10 ℃约 9.2 mmHg。15 ℃、55\%时水汽压约 $0.55\times 12.8=7.0$ mmHg，仍小于 9.2 mmHg，故降到 10 ℃不会结露；继续降到约 6 ℃（露点）才会结露。末问用 $\rho=pM/(RT)$ 分别对水蒸气（分压 7.0 mmHg）与空气计算即可。}
+\end{enumerate}
+
+
+
+
+\cleardoublepage
+
+\thispagestyle{empty}
+\vspace*{-1.95cm}
+\begin{figure*}[!ht]
+\centering
+\includegraphics[width=0.75\textwidth]{figs/sec/tarasov-qasp-sec-10.pdf}
+\end{figure*}
+\vspace*{-.4cm}
+%\begin{centering}
+\begin{fullwidth}
+%%\paragraph{}
+{\textsf{\Large \hlred{场是什么？场是怎样描述的？在场中的运动是怎样进行的？物理学的这些基本问题，用静电场作例子来考察最为方便。我们将讨论带电物体在匀强静电场中的运动，并求解若干演示库仑定律的习题。
+}}}
+\end{fullwidth}
+
+%\cleardoublepage
+
+% NEWTERMS: gas laws | 气体定律 | 承 ch-17 章尾格言首现，沿用不重复括注
+% NEWTERMS: combined gas law | 综合气体定律 | 承 ch-20 首现括注，本章沿用不重复括注
+% NEWTERMS: universal gas constant | 普适气体常量 | 承 ch-20 首现括注；人教版称摩尔气体常量 R=8.31 J/(mol·K)，见评注
+% NEWTERMS: standard conditions | 标准状况 | 承 ch-20 首现括注；pS=76 cmHg、TS=273 K、摩尔体积 22.4 L/mol 三值见本章正文
+% NEWTERMS: law of Boyle and Mariotte | 玻意耳--马略特定律 | 承 ch-20 定名（含命名传统与教材对接评注），本章沿用不重复括注
+% NEWTERMS: law of partial pressures | 分压定律 | 首现括注；即道尔顿分压定律，中学不要求，见评注
+% NEWTERMS: physical atmosphere / technical atmosphere | 物理大气压／工程大气压 | 非SI历史单位，换算见评注
+% NEWTERMS: stroke volume | 行程体积 | 首现括注；活塞一个行程扫过的容积
+% NEWTERMS: isobaric (heating) | 等压（加热） | 承 ch-20“等压过程（isobaric process）”首现括注，本章不重复括注（习题 4）
+% NEWTERMS: relative humidity | 相对湿度 | 首现括注（习题 6）；露点概念见评注
+% NEWTERMS: white/black molecules | “白”分子／“黑”分子 | 原书为讨论任意设想的标记，非物理术语
+% NEWTERMS: glass tube sealed at one end | 一端封闭的玻璃管 | 本章核心题型用语
+% NEWTERMS: gram-molecule / molecular weight | 克分子／分子量 | 承 ch-18，不重复括注
+% NEWTERMS: examinee | 考生 | 承 ch-16
+% NEWTERMS: Problems (section title) | 习题 | 本章 6 题，全书连续编号，为第 29--34 题（ch-19、ch-20 无习题节）
