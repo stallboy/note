@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">角速度相同，线速度与半径成正比</title>
+  <desc id="desc">轮面正对读者，轴心为 O。同一半径上的内点 P₁ 与外点 P₂（ρ₂=3ρ₁）沿两条同心虚线圆转动；从时刻 t₁ 到 t₂ 两点转过相同角度 θ，外点的弧长 s₂ 与速率 v₂ 都是内点的三倍，速度沿圆周切线方向、垂直于半径。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .velocity { stroke: #245b91; stroke-width: 3; marker-end: url(#arrow); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .radius { stroke: #245b91; stroke-width: 2; }
+      .arc1 { stroke: #245b91; stroke-width: 4; fill: none; }
+      .arc2 { stroke: #c44536; stroke-width: 4; fill: none; }
+      .hollow { fill: #fff; stroke: #999; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <circle class="path" cx="415" cy="205" r="60"/>
+  <circle class="path" cx="415" cy="205" r="180"/>
+  <line class="path" x1="415" y1="205" x2="552.9" y2="89.3"/>
+  <line class="radius" x1="415" y1="205" x2="584.2" y2="266.6"/>
+  <path d="M443.2,215.3 A30 30 0 0 0 438,185.7" stroke="#999" stroke-width="1.5" fill="none"/>
+  <text class="label" x="448" y="209">θ</text>
+
+  <path class="arc1" d="M471.4,225.5 A60 60 0 0 0 461,166.4"/>
+  <path class="arc2" d="M584.2,266.6 A180 180 0 0 0 552.9,89.3"/>
+
+  <circle class="hollow" cx="461" cy="166.4" r="6"/>
+  <circle class="hollow" cx="552.9" cy="89.3" r="6"/>
+  <circle class="point" cx="471.4" cy="225.5" r="6"/>
+  <circle class="point" cx="584.2" cy="266.6" r="6"/>
+
+  <circle cx="415" cy="205" r="8" fill="#fff" stroke="#245b91" stroke-width="2.5"/>
+  <circle cx="415" cy="205" r="2.5" fill="#245b91"/>
+  <text class="label" x="396" y="225">O</text>
+
+  <line class="velocity" x1="471.4" y1="225.5" x2="486.8" y2="183.2"/>
+  <line class="velocity" x1="584.2" y1="266.6" x2="630.4" y2="139.9"/>
+  <text class="small" x="494" y="181">v₁</text>
+  <text class="small" x="638" y="136">v₂</text>
+
+  <text class="small" x="433" y="240">ρ₁</text>
+  <text class="small" x="515" y="269">ρ₂</text>
+  <text class="label" x="458" y="262">P₁</text>
+  <text class="label" x="578" y="298">P₂</text>
+  <text class="small" x="487" y="224" style="fill:#245b91">s₁</text>
+  <text class="small" x="605" y="250" style="fill:#c44536">s₂</text>
+  <text class="small" x="572" y="320">时刻 t₁</text>
+  <text class="small" x="560" y="78">时刻 t₂</text>
+
+  <text class="label" x="450" y="408" text-anchor="middle">ρ₂=3ρ₁：相同时间转过相同角度 θ；外点弧长与速率都是内点的三倍（v=ρω）</text>
+</svg>

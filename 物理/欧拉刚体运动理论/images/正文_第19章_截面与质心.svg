@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="440" viewBox="0 0 950 440" role="img" aria-labelledby="title desc">
+  <title id="title">横截面：质心的竖直线与接触点的移动</title>
+  <desc id="desc">圆柱横截面（半径 a，圆心 G），质心 C 偏心（CG=f），u 从 G 指向 C，θ 为 u 与竖直方向的夹角。叠加两个姿态：姿态一 θ=0（实线圆），姿态二 θ=θ₁（半透明重影圆）。两姿态中 C 都留在同一条竖直灰色虚线上，而接触点 T（在 G 正下方）随摆动水平移动。质心高度 z_C = a + f·cosθ，接触点处支反力 N 向上，质心处重力 Mg 向下。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowR" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c44536"/>
+    </marker>
+    <marker id="dim" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#444"/>
+    </marker>
+    <marker id="dimRev" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#444"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .ghost { fill: #dceaf5; fill-opacity: 0.4; stroke: #245b91; stroke-opacity: 0.6; stroke-width: 2.5; }
+      .point { fill: #c44536; }
+      .vec { stroke: #245b91; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .force { stroke: #c44536; stroke-width: 3; fill: none; marker-end: url(#arrowR); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .dim { stroke: #444; stroke-width: 1.8; fill: none; marker-start: url(#dimRev); marker-end: url(#dim); }
+      .ang { stroke: #666; stroke-width: 1.8; fill: none; }
+      .ground { stroke: #666; stroke-width: 2.5; }
+      .hatch { stroke: #999; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <line class="ground" x1="240" y1="350" x2="905" y2="350"/>
+  <line class="hatch" x1="260" y1="350" x2="251" y2="359"/>
+  <line class="hatch" x1="320" y1="350" x2="311" y2="359"/>
+  <line class="hatch" x1="380" y1="350" x2="371" y2="359"/>
+  <line class="hatch" x1="620" y1="350" x2="611" y2="359"/>
+  <line class="hatch" x1="680" y1="350" x2="671" y2="359"/>
+  <line class="hatch" x1="740" y1="350" x2="731" y2="359"/>
+  <line class="hatch" x1="800" y1="350" x2="791" y2="359"/>
+  <line class="hatch" x1="860" y1="350" x2="851" y2="359"/>
+
+  <line class="path" x1="490" y1="96" x2="490" y2="344"/>
+  <text class="small" x="490" y="88" text-anchor="middle">C 始终在此竖直线上</text>
+  <text class="small" x="478" y="114" text-anchor="end">姿态一：θ = 0（实线圆）</text>
+  <text class="small" x="502" y="114">姿态二：θ = θ₁（重影圆）</text>
+
+  <circle class="body" cx="490" cy="240" r="110"/>
+  <circle class="ghost" cx="563.7" cy="240" r="110"/>
+
+  <line class="path" x1="490" y1="246" x2="490" y2="344"/>
+  <line class="path" x1="563.7" y1="246" x2="563.7" y2="344"/>
+
+  <line x1="490" y1="234" x2="490" y2="157" stroke="#245b91" stroke-width="1.8"/>
+  <line class="vec" x1="563.7" y1="240" x2="497" y2="194"/>
+  <text class="small" x="547" y="209">u</text>
+  <path class="ang" d="M 563.7 190 A 50 50 0 0 0 522.8 211.3"/>
+  <text class="small" x="531" y="180">θ₁</text>
+
+  <circle class="point" cx="490" cy="240" r="6"/>
+  <text class="small" x="474" y="248" text-anchor="end">G₁</text>
+  <circle class="point" cx="563.7" cy="240" r="6"/>
+  <text class="small" x="572" y="248">G₂</text>
+
+  <circle class="point" cx="490" cy="150" r="6"/>
+  <text class="small" x="502" y="153">C₁</text>
+  <circle class="point" cx="490" cy="188" r="6"/>
+  <text class="small" x="504" y="197">C₂</text>
+  <text class="small" x="476" y="184" text-anchor="end">f</text>
+
+  <line class="force" x1="490" y1="197" x2="490" y2="227"/>
+  <text class="small" x="472" y="222" text-anchor="end">Mg</text>
+
+  <text class="small" x="571" y="296">a</text>
+  <line class="force" x1="563.7" y1="344" x2="563.7" y2="302"/>
+  <text class="small" x="573" y="326">N</text>
+
+  <circle class="point" cx="490" cy="350" r="6"/>
+  <text class="small" x="478" y="378" text-anchor="middle">T₁</text>
+  <circle class="point" cx="563.7" cy="350" r="6"/>
+  <text class="small" x="561" y="378" text-anchor="middle">T₂</text>
+  <line class="dim" x1="500" y1="364" x2="548" y2="364"/>
+
+  <line class="path" x1="490" y1="188" x2="760" y2="188"/>
+  <line class="dim" x1="760" y1="344" x2="760" y2="194"/>
+  <text class="small" x="762" y="176" text-anchor="middle">z<tspan font-size="12" dy="4">C</tspan><tspan dy="-4"> = a + f·cosθ</tspan></text>
+
+  <text class="label" x="475" y="428" text-anchor="middle">质心保持在同一竖直线上，接触点却随摆动移动</text>
+</svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title desc">
+  <title id="title">陀螺受力与力矩（第17章）</title>
+  <desc id="desc">侧视图：尖端 F 在水平面上，质心 I 在斜上方，陀螺轴与竖直方向的夹角为 l，p = cos l。重力 Mg 过质心，支反力 N 竖直向上作用于 F。两力等大反向但不共线，合成纯力偶：对质心的力矩 τ = fN·k×e，大小 Nf·sin l，方向水平、垂直于轴与竖直所成的平面；轴如图右倾时，按右手定则指入纸面。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowR" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c44536"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .vec { stroke: #245b91; stroke-width: 3; marker-end: url(#arrow); fill: none; }
+      .force { stroke: #c44536; stroke-width: 3; marker-end: url(#arrowR); fill: none; }
+      .guide { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .arc { stroke: #444; stroke-width: 1.8; fill: none; }
+      .torqueArc { stroke: #c44536; stroke-width: 2.5; marker-end: url(#arrowR); fill: none; }
+      .ground { stroke: #666; stroke-width: 2.5; }
+      .hatch { stroke: #999; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <!-- ground with hatching -->
+  <line class="ground" x1="80" y1="396" x2="620" y2="396"/>
+  <line class="hatch" x1="96"  y1="398" x2="84"  y2="412"/>
+  <line class="hatch" x1="130" y1="398" x2="118" y2="412"/>
+  <line class="hatch" x1="164" y1="398" x2="152" y2="412"/>
+  <line class="hatch" x1="198" y1="398" x2="186" y2="412"/>
+  <line class="hatch" x1="232" y1="398" x2="220" y2="412"/>
+  <line class="hatch" x1="266" y1="398" x2="254" y2="412"/>
+  <line class="hatch" x1="300" y1="398" x2="288" y2="412"/>
+  <line class="hatch" x1="334" y1="398" x2="322" y2="412"/>
+  <line class="hatch" x1="368" y1="398" x2="356" y2="412"/>
+  <line class="hatch" x1="402" y1="398" x2="390" y2="412"/>
+  <line class="hatch" x1="436" y1="398" x2="424" y2="412"/>
+  <line class="hatch" x1="470" y1="398" x2="458" y2="412"/>
+  <line class="hatch" x1="504" y1="398" x2="492" y2="412"/>
+  <line class="hatch" x1="538" y1="398" x2="526" y2="412"/>
+  <line class="hatch" x1="572" y1="398" x2="560" y2="412"/>
+  <line class="hatch" x1="606" y1="398" x2="594" y2="412"/>
+
+  <!-- auxiliary: height h and leader to torque note -->
+  <line class="guide" x1="410" y1="394" x2="410" y2="287"/>
+  <line class="guide" x1="424" y1="284" x2="707" y2="284"/>
+
+  <!-- rigid body: axis rod and flywheel disc -->
+  <polygon class="body" points="252.9,400.1 510.9,219.3 505.1,211.1 247.1,391.9"/>
+  <ellipse class="body" cx="483" cy="232.7" rx="85" ry="26" transform="rotate(55,483,232.7)"/>
+
+  <!-- unit vector e along the axis, F -> I -->
+  <line class="vec" x1="250" y1="396" x2="404" y2="288"/>
+  <!-- vertical unit vector k at F -->
+  <line class="vec" x1="250" y1="396" x2="250" y2="240"/>
+  <text class="label" x="228" y="230">k</text>
+
+  <!-- angle arc at F: l between axis and vertical -->
+  <path class="arc" d="M 250 266 A 130 130 0 0 1 356.5 321.4"/>
+  <text class="label" x="294" y="278">l</text>
+  <text class="small" x="265" y="222">p = cos l（轴与竖直夹角）</text>
+  <path class="arc" d="M 310 396 A 60 60 0 0 0 299.1 361.6"/>
+  <text class="small" x="313" y="381">90°−l</text>
+
+  <!-- forces -->
+  <line class="force" x1="232" y1="396" x2="232" y2="320"/>
+  <text class="small" x="115" y="340">N（支反力）</text>
+  <line class="force" x1="410" y1="288" x2="410" y2="358"/>
+  <text class="small" x="424" y="310" fill="#c44536">Mg</text>
+  <text class="small" x="445" y="330">过质心，对质心力矩为零</text>
+
+  <!-- key points -->
+  <circle class="point" cx="250" cy="396" r="6"/>
+  <text class="label" x="120" y="372">F（尖端）</text>
+  <circle class="point" cx="410" cy="284" r="6"/>
+  <text class="label" x="334" y="260">I（质心）</text>
+
+  <!-- length labels -->
+  <text class="small" x="330" y="352">e</text>
+  <text class="small" x="360" y="348">f = IF</text>
+  <text class="small" x="420" y="382">h = f·cos l</text>
+
+  <!-- torque: into the page, away from reader -->
+  <circle cx="724" cy="284" r="15" fill="none" stroke="#c44536" stroke-width="3"/>
+  <line x1="714.5" y1="274.5" x2="733.5" y2="293.5" stroke="#c44536" stroke-width="3"/>
+  <line x1="714.5" y1="293.5" x2="733.5" y2="274.5" stroke="#c44536" stroke-width="3"/>
+  <text class="small" x="748" y="290" fill="#c44536">τ = fN·k×e</text>
+  <text class="small" x="658" y="330">大小 |τ| = Nf·sin l</text>
+  <text class="small" x="658" y="356">方向水平，垂直于轴平面</text>
+  <text class="small" x="658" y="382">⊗ 指入纸面（背离读者）</text>
+
+  <!-- right-hand rule inset: k x e -->
+  <line class="vec" x1="760" y1="200" x2="760" y2="80"/>
+  <text class="label" x="742" y="90">k</text>
+  <line class="vec" x1="760" y1="200" x2="829.6" y2="151.2"/>
+  <text class="label" x="838" y="148">e</text>
+  <path class="torqueArc" d="M 760 138 A 62 62 0 0 1 810.8 164.4"/>
+  <circle cx="840" cy="98" r="11" fill="none" stroke="#c44536" stroke-width="2.5"/>
+  <line x1="833" y1="91" x2="847" y2="105" stroke="#c44536" stroke-width="2.5"/>
+  <line x1="833" y1="105" x2="847" y2="91" stroke="#c44536" stroke-width="2.5"/>
+  <text class="small" x="856" y="103" fill="#c44536">k×e</text>
+  <text class="small" x="715" y="228">右手定则：k 转向 e</text>
+  <text class="small" x="705" y="252">拇指 = k×e（指入纸面）</text>
+
+  <text class="label" x="450" y="448" text-anchor="middle">Mg 与 N 等大反向但不同线，合成纯力偶；对质心的力矩水平，且垂直于轴与竖直的平面</text>
+</svg>

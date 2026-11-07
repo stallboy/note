@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+  <title id="title">本体极迹与分离轨迹</title>
+  <desc id="desc">在角速度矢量端点空间中（以惯量椭球为背景），转轴端点被动能与角动量两个守恒量约束：绕最大惯量主轴 ω₁ 与绕最小惯量主轴 ω₃ 的端点附近是嵌套的闭合卵形曲线（周期运动）；红色虚线为分离轨迹 L²=2TI₂，穿过中间主轴 ω₂ 的两端，把两类周期运动分开。右下角小图：一本书绕三条主轴抛转——绕 I₁、绕 I₃ 稳定，绕中间轴 I₂ 翻转。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .pathl { stroke: #999; stroke-width: 1.4; stroke-dasharray: 7 7; fill: none; }
+      .axis { stroke: #245b91; stroke-width: 2.2; marker-end: url(#arrow); }
+      .polhode { stroke: #245b91; stroke-width: 2.4; fill: none; }
+      .polhodeF { stroke: #245b91; stroke-width: 1.8; fill: none; opacity: 0.45; }
+      .sep { stroke: #c44536; stroke-width: 2.6; stroke-dasharray: 9 6; fill: none; }
+      .lead { stroke: #bbb; stroke-width: 1; stroke-dasharray: 2 3; fill: none; }
+      .book { fill: #dceaf5; stroke: #245b91; stroke-width: 2; }
+      .iconaxis { stroke: #222; stroke-width: 1.6; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <text class="small" x="40" y="66">ω 矢端空间·惯量椭球（示意）</text>
+
+  <!-- 椭球隐影 -->
+  <ellipse cx="382" cy="235" rx="215" ry="140" fill="#dceaf5" fill-opacity="0.22" stroke="#999" stroke-width="1.4" stroke-dasharray="6 6"/>
+
+  <!-- 分离轨迹（红虚线）：两条都穿过 ω₂ 轴两端 -->
+  <path class="sep" d="M420,236 C445,175 425,98 382.5,98 C340,98 322,172 345,236"/>
+  <path class="sep" d="M420,236 C440,300 420,372 382.5,372 C345,372 328,298 345,236"/>
+  <path class="sep" d="M420,236 C490,228 562,230 582,236 C562,242 490,244 345,236 C280,242 214,242 188,236 C214,230 282,230 420,236 Z"/>
+
+  <!-- 三条主轴 -->
+  <line class="axis" x1="265" y1="315" x2="500" y2="155"/>
+  <line class="axis" x1="265" y1="155" x2="500" y2="315"/>
+  <line class="axis" x1="345" y1="236" x2="404" y2="236"/>
+  <circle cx="345" cy="236" r="4.5" fill="#c44536"/>
+  <circle cx="420" cy="236" r="4.5" fill="#c44536"/>
+  <circle cx="382" cy="236" r="2.5" fill="#999"/>
+
+  <!-- 闭合极迹：绕 I₁（右上一族）与绕 I₃（右下一族） -->
+  <ellipse class="polhode" cx="500" cy="155" rx="46" ry="26" transform="rotate(55.7 500 155)"/>
+  <ellipse class="polhode" cx="500" cy="155" rx="32" ry="18" transform="rotate(55.7 500 155)"/>
+  <ellipse class="polhode" cx="500" cy="155" rx="19" ry="11" transform="rotate(55.7 500 155)"/>
+  <ellipse class="polhode" cx="500" cy="315" rx="46" ry="26" transform="rotate(-55.7 500 315)"/>
+  <ellipse class="polhode" cx="500" cy="315" rx="32" ry="18" transform="rotate(-55.7 500 315)"/>
+  <ellipse class="polhode" cx="500" cy="315" rx="19" ry="11" transform="rotate(-55.7 500 315)"/>
+  <ellipse class="polhodeF" cx="265" cy="155" rx="24" ry="14" transform="rotate(-55.7 265 155)"/>
+  <ellipse class="polhodeF" cx="265" cy="315" rx="24" ry="14" transform="rotate(55.7 265 315)"/>
+
+  <!-- 标注 -->
+  <text class="label" x="438" y="94">ω₁</text>
+  <text class="small" x="478" y="94">（绕 I₁，最大）</text>
+  <text class="label" x="438" y="394">ω₃</text>
+  <text class="small" x="478" y="394">（绕 I₃，最小）</text>
+  <text class="label" x="436" y="222">ω₂</text>
+  <text class="small" x="470" y="222">（绕 I₂，中间）</text>
+
+  <text class="small" x="95" y="92">分离轨迹 L² = 2TI₂</text>
+  <line class="lead" x1="238" y1="97" x2="368" y2="104"/>
+
+  <text class="small" x="560" y="215">闭合本体极迹（周期运动）</text>
+  <line class="lead" x1="598" y1="222" x2="540" y2="178"/>
+
+  <!-- 右下角内嵌：抛书小图 -->
+  <rect x="640" y="285" width="240" height="167" fill="none" stroke="#999" stroke-width="1.5"/>
+  <text class="small" x="655" y="310">绕三条主轴抛转同一本书：</text>
+  <rect class="book" x="658" y="335" width="34" height="24"/>
+  <line class="iconaxis" x1="675" y1="322" x2="675" y2="376"/>
+  <rect class="book" x="743" y="335" width="34" height="24"/>
+  <line class="iconaxis" x1="732" y1="347" x2="790" y2="347"/>
+  <rect class="book" x="828" y="335" width="34" height="24"/>
+  <line class="iconaxis" x1="821" y1="363" x2="869" y2="331"/>
+  <text class="small" x="653" y="400">I₁：稳定</text>
+  <text class="small" x="733" y="400">I₃：稳定</text>
+  <text class="small" x="816" y="400">I₂：翻转</text>
+  <text class="small" x="655" y="432">（中间轴不稳定——网球拍效应）</text>
+
+  <text class="label" x="25" y="468">转轴端点被两个守恒量约束在闭合曲线上；分离轨迹把两类周期运动分开，中间主轴转动不稳定</text>
+</svg>

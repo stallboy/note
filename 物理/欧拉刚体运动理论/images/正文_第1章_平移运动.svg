@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-labelledby="title desc">
+  <title id="title">刚体的平移运动</title>
+  <desc id="desc">同一刚体在两个时刻的位置。刚体取向不变；同一时刻各点速度相同，不同时刻的共同速度可以变化。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .velocity { stroke: #245b91; stroke-width: 3; marker-end: url(#arrow); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+    </style>
+  </defs>
+
+  <path class="path" d="M170 185 Q360 45 590 125"/>
+  <path class="path" d="M270 235 Q460 95 690 175"/>
+
+  <polygon class="body" points="120,150 235,115 285,190 260,245 145,230"/>
+  <circle class="point" cx="170" cy="185" r="6"/>
+  <circle class="point" cx="270" cy="235" r="6"/>
+  <text class="label" x="151" y="178">A</text>
+  <text class="label" x="277" y="252">B</text>
+  <text class="small" x="142" y="292">时刻 t₁</text>
+
+  <polygon class="body" points="540,90 655,55 705,130 680,185 565,170"/>
+  <circle class="point" cx="590" cy="125" r="6"/>
+  <circle class="point" cx="690" cy="175" r="6"/>
+  <text class="label" x="571" y="118">A′</text>
+  <text class="label" x="697" y="192">B′</text>
+  <text class="small" x="562" y="232">时刻 t₂</text>
+
+  <line class="velocity" x1="170" y1="185" x2="225" y2="145"/>
+  <line class="velocity" x1="270" y1="235" x2="325" y2="195"/>
+  <line class="velocity" x1="590" y1="125" x2="625" y2="150"/>
+  <line class="velocity" x1="690" y1="175" x2="725" y2="200"/>
+  <text class="small" x="320" y="118">v(t₁)</text>
+  <text class="small" x="738" y="213">v(t₂)</text>
+
+  <text class="label" x="130" y="330">同一时刻各点速度相同；不同时刻的共同速度可以变化</text>
+</svg>

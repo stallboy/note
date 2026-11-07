@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+  <title id="title">球面上求不动点的构造</title>
+  <desc id="desc">球面上两点 P、Q 极短位移后到达 p、q。过 P 垂直于位移 Pp 的大圆弧上取 Q；弧 PQ 与弧 pq 延长后交于不动点 O，且 OP=Op、OQ=Oq（刻线标记）。Pp、Qq 均垂直于连线 PQ（直角记号）。过球心 G 与 O 的直线即瞬时转轴。</desc>
+  <defs>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2e7d4f"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .point { fill: #c44536; }
+      .dot { fill: #245b91; }
+      .vecG { stroke: #2e7d4f; stroke-width: 3; marker-end: url(#arrowG); }
+      .greatarc { stroke: #245b91; stroke-width: 2.5; fill: none; }
+      .sphere { stroke: #999; stroke-width: 1.5; stroke-dasharray: 7 7; fill: none; }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .dashdot { stroke: #999; stroke-width: 2; stroke-dasharray: 10 5 2 5; fill: none; }
+      .tick { stroke: #555; stroke-width: 2; fill: none; }
+      .rightang { stroke: #555; stroke-width: 1.5; fill: none; }
+    </style>
+  </defs>
+
+  <circle class="sphere" cx="380" cy="265" r="210"/>
+
+  <path class="greatarc" d="M 350 430 A 363 363 0 0 1 290 230"/>
+  <path class="greatarc" d="M 350 430 A 363 363 0 0 0 410 230"/>
+
+  <line class="vecG" x1="294" y1="230" x2="404" y2="230"/>
+  <line class="vecG" x1="325" y1="378" x2="375" y2="378"/>
+
+  <path class="rightang" d="M 290 218 L 302 218 L 302 230"/>
+  <path class="rightang" d="M 318 365 L 331 365 L 334 378"/>
+
+  <line class="tick" x1="300.5" y1="335.6" x2="310.1" y2="332.8"/>
+  <line class="tick" x1="389.9" y1="332.8" x2="399.5" y2="335.6"/>
+  <line class="tick" x1="329.4" y1="407.7" x2="338.2" y2="402.9"/>
+  <line class="tick" x1="326" y1="401.5" x2="334.8" y2="396.7"/>
+  <line class="tick" x1="361.8" y1="402.9" x2="370.6" y2="407.7"/>
+  <line class="tick" x1="365.2" y1="396.7" x2="374" y2="401.5"/>
+
+  <circle class="dot" cx="290" cy="230" r="4.5"/>
+  <text class="label" x="266" y="226">P</text>
+  <circle class="dot" cx="410" cy="230" r="4.5"/>
+  <text class="label" x="420" y="226">p</text>
+  <circle class="dot" cx="321" cy="378" r="4.5"/>
+  <text class="label" x="294" y="374">Q</text>
+  <circle class="dot" cx="379" cy="378" r="4.5"/>
+  <text class="label" x="386" y="400">q</text>
+
+  <circle class="point" cx="350" cy="430" r="6"/>
+  <text class="label" x="366" y="440">O（不动点）</text>
+  <circle class="point" cx="380" cy="265" r="6"/>
+  <text class="small" x="394" y="262">G（球心）</text>
+
+  <line class="dashdot" x1="380" y1="265" x2="343" y2="469"/>
+  <text class="label" x="402" y="356">瞬时转轴</text>
+
+  <text class="small" x="130" y="310">OP = Op</text>
+  <text class="small" x="452" y="404">OQ = Oq</text>
+  <text class="small" x="130" y="334">（刻线：弧长相等）</text>
+
+  <text class="label" x="30" y="468">给定两点及其位移，两段大圆弧的交点就是不动点 O：过球心与 O 的直线即瞬时转轴</text>
+</svg>

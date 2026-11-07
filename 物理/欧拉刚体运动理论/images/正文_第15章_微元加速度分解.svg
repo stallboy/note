@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" role="img" aria-labelledby="title desc">
+  <title id="title">转动质元的加速度分解</title>
+  <desc id="desc">双联图。(a) 匀角速绕竖直定轴转动（ω̇=0）：质元 P 在水平圆轨迹上，速度 v=ω×r 沿切线，加速度 a=ω×(ω×r) 从 P 指向转轴上的垂足 A，大小 ω²ρ（向心加速度）。(b) 角加速转动（ω̇≠0）：另出现沿切线的分量 aₜ=ω̇×r，与向心分量 aₙ 垂直。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowR" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c44536"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2e7d4f"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .rtext { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #c44536; }
+      .gtext { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #2e7d4f; }
+      .point { fill: #c44536; }
+      .vec { stroke: #245b91; stroke-width: 3; marker-end: url(#arrow); }
+      .vecR { stroke: #c44536; stroke-width: 3.5; marker-end: url(#arrowR); }
+      .vecG { stroke: #2e7d4f; stroke-width: 3; marker-end: url(#arrowG); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .shaft { stroke: #222; stroke-width: 2.5; }
+      .brg { fill: #ccc; stroke: #999; stroke-width: 1.5; }
+      .hatch { stroke: #999; stroke-width: 1.2; }
+    </style>
+  </defs>
+
+  <!-- (a) 匀角速 -->
+  <text class="label" x="95" y="38">(a) 匀角速转动（ω̇ = 0）</text>
+  <line class="shaft" x1="250" y1="62" x2="250" y2="348"/>
+  <rect class="brg" x="232" y="50" width="36" height="12"/>
+  <line class="hatch" x1="240" y1="50" x2="236" y2="62"/>
+  <line class="hatch" x1="250" y1="50" x2="246" y2="62"/>
+  <line class="hatch" x1="260" y1="50" x2="256" y2="62"/>
+  <rect class="brg" x="232" y="348" width="36" height="12"/>
+  <line class="hatch" x1="240" y1="348" x2="236" y2="360"/>
+  <line class="hatch" x1="250" y1="348" x2="246" y2="360"/>
+  <line class="hatch" x1="260" y1="348" x2="256" y2="360"/>
+  <text class="small" x="287" y="62">轴承</text>
+
+  <line class="vec" x1="250" y1="315" x2="250" y2="135" stroke-width="4"/>
+  <text class="label" x="262" y="148">ω</text>
+
+  <ellipse class="path" cx="250" cy="215" rx="115" ry="36"/>
+  <line class="path" x1="354" y1="230" x2="250" y2="230"/>
+  <circle class="point" cx="250" cy="230" r="4"/>
+  <text class="label" x="230" y="240">A</text>
+
+  <line class="vec" x1="250" y1="215" x2="354" y2="230"/>
+  <text class="label" x="284" y="206">r</text>
+
+  <circle class="point" cx="250" cy="215" r="5"/>
+  <text class="label" x="230" y="206">O</text>
+  <circle class="point" cx="354" cy="230" r="6"/>
+  <text class="label" x="366" y="236">P</text>
+  <text class="small" x="338" y="264">质元 dm</text>
+  <text class="small" x="284" y="254">ρ</text>
+
+  <line class="vecG" x1="354" y1="230" x2="302" y2="264"/>
+  <text class="gtext" x="228" y="290">v = ω×r</text>
+
+  <line class="vecR" x1="354" y1="230" x2="278" y2="230"/>
+  <text class="rtext" x="316" y="254">aₙ</text>
+  <text class="small" x="70" y="388">a = ω×(ω×r)：指向垂足 A，大小 ω²ρ（向心加速度）</text>
+
+  <line x1="550" y1="20" x2="550" y2="400" stroke="#ddd" stroke-width="1.5"/>
+
+  <!-- (b) 角加速 -->
+  <text class="label" x="665" y="38">(b) 角加速转动（ω̇ ≠ 0）</text>
+  <line class="shaft" x1="830" y1="62" x2="830" y2="348"/>
+  <rect class="brg" x="812" y="50" width="36" height="12"/>
+  <line class="hatch" x1="820" y1="50" x2="816" y2="62"/>
+  <line class="hatch" x1="830" y1="50" x2="826" y2="62"/>
+  <line class="hatch" x1="840" y1="50" x2="836" y2="62"/>
+  <rect class="brg" x="812" y="348" width="36" height="12"/>
+  <line class="hatch" x1="820" y1="348" x2="816" y2="360"/>
+  <line class="hatch" x1="830" y1="348" x2="826" y2="360"/>
+  <line class="hatch" x1="840" y1="348" x2="836" y2="360"/>
+
+  <line class="vec" x1="830" y1="315" x2="830" y2="135" stroke-width="4"/>
+  <text class="label" x="842" y="148">ω</text>
+  <line class="vecR" x1="806" y1="300" x2="806" y2="205" stroke-width="2.6"/>
+  <text class="rtext" x="778" y="258">ω̇</text>
+
+  <ellipse class="path" cx="830" cy="215" rx="115" ry="36"/>
+  <line class="path" x1="934" y1="230" x2="830" y2="230"/>
+  <circle class="point" cx="830" cy="230" r="4"/>
+  <text class="label" x="810" y="240">A</text>
+
+  <line class="vec" x1="830" y1="215" x2="934" y2="230"/>
+  <text class="label" x="884" y="207">r</text>
+
+  <circle class="point" cx="830" cy="215" r="5"/>
+  <text class="label" x="838" y="204">O</text>
+  <circle class="point" cx="934" cy="230" r="6"/>
+  <text class="label" x="946" y="236">P</text>
+  <text class="small" x="884" y="254">ρ</text>
+
+  <line class="path" x1="996" y1="188" x2="872" y2="272" stroke-dasharray="5 5" stroke-width="1.5"/>
+  <text class="small" x="918" y="178">切线（v 方向）</text>
+
+  <line class="vecR" x1="934" y1="230" x2="858" y2="230"/>
+  <text class="rtext" x="874" y="214">aₙ</text>
+  <line class="vecR" x1="934" y1="230" x2="899" y2="253" stroke-width="3"/>
+  <text class="rtext" x="895" y="290">aₜ = ω̇×r</text>
+  <text class="small" x="650" y="388">aₜ = ω̇×r：切向分量，ω̇ ≠ 0 时出现</text>
+
+  <text class="label" x="240" y="408">质元的加速度有两项：向轴的向心项 ω×(ω×r) 与变转速的切向项 ω̇×r</text>
+</svg>

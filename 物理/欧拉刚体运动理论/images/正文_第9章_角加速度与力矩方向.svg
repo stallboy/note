@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" role="img" aria-labelledby="title desc">
+  <title id="title">角加速度方向偏向小惯量主轴</title>
+  <desc id="desc">(a) 主轴平面俯视：力矩沿两主轴的45度角平分线，角加速度偏向小惯量主轴 e₁，初始转轴沿角加速度方向而非力矩方向。(b) 偏心打击矩形板的直观对照：垂直纸面向里的打击力产生力矩，角加速度偏向绕之惯量较小的长边方向。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowR" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c44536"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2e7d4f"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .vecB { stroke: #245b91; stroke-width: 3; marker-end: url(#arrow); }
+      .vecR { stroke: #c44536; stroke-width: 3; marker-end: url(#arrowR); }
+      .vecG { stroke: #2e7d4f; stroke-width: 3; marker-end: url(#arrowG); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .dashdot { stroke: #999; stroke-width: 2; stroke-dasharray: 10 5 2 5; fill: none; }
+      .anglearc { stroke: #999; stroke-width: 1.5; fill: none; }
+    </style>
+  </defs>
+
+  <!-- (a) 主轴平面俯视 -->
+  <text class="label" x="30" y="42">(a) 主轴平面俯视</text>
+  <line class="vecB" x1="250" y1="225" x2="445" y2="225"/>
+  <text class="small" x="452" y="232">e₁（I₁=I）</text>
+  <line class="vecB" x1="250" y1="225" x2="250" y2="55"/>
+  <text class="small" x="262" y="68">e₂（I₂=2I）</text>
+  <circle class="point" cx="250" cy="225" r="6"/>
+  <text class="small" x="196" y="252">质心 O</text>
+
+  <line class="vecR" x1="250" y1="225" x2="356" y2="119"/>
+  <text class="label" x="362" y="112" font-weight="bold">τ</text>
+  <line class="vecG" x1="250" y1="225" x2="429" y2="136"/>
+  <text class="label" x="434" y="130" font-weight="bold">α</text>
+  <path class="anglearc" d="M 299 200 A 55 55 0 0 0 289 186"/>
+  <text class="small" x="308" y="178">夹角</text>
+
+  <line class="dashdot" x1="429" y1="136" x2="520" y2="90"/>
+  <text class="small" x="424" y="74">初始转轴 n</text>
+  <text class="small" x="48" y="308">同样大的力矩分量，惯量小的方向响应大</text>
+
+  <!-- (b) 偏心打击矩形板 -->
+  <text class="label" x="590" y="42">(b) 偏心打击矩形板</text>
+  <rect class="body" x="717" y="135" width="226" height="160"/>
+  <line class="vecB" x1="830" y1="215" x2="1010" y2="215"/>
+  <text class="label" x="1014" y="223">e₁</text>
+  <line class="vecB" x1="830" y1="215" x2="830" y2="75"/>
+  <text class="label" x="840" y="82">e₂</text>
+  <circle class="point" cx="830" cy="215" r="6"/>
+  <text class="small" x="842" y="238">质心 O</text>
+
+  <line class="path" x1="830" y1="215" x2="892" y2="153"/>
+  <text class="small" x="856" y="176">r</text>
+  <circle class="point" cx="892" cy="153" r="6"/>
+  <circle cx="892" cy="153" r="11" fill="none" stroke="#c44536" stroke-width="2"/>
+  <line x1="884" y1="145" x2="900" y2="161" stroke="#c44536" stroke-width="2"/>
+  <line x1="900" y1="145" x2="884" y2="161" stroke="#c44536" stroke-width="2"/>
+  <text class="small" x="862" y="124">打击力 ⊗ 向里</text>
+
+  <line class="vecR" x1="830" y1="215" x2="735" y2="120"/>
+  <text class="label" x="710" y="112" font-weight="bold">τ</text>
+  <line class="vecG" x1="830" y1="215" x2="670" y2="135"/>
+  <text class="label" x="650" y="158" font-weight="bold">α</text>
+  <line class="dashdot" x1="670" y1="135" x2="605" y2="102"/>
+  <text class="small" x="598" y="90">初始转轴 n</text>
+
+  <text class="small" x="690" y="326">长边沿 e₁：绕 e₁ 轴惯量小（I₁=I）</text>
+  <text class="small" x="690" y="350">短边沿 e₂：绕 e₂ 轴惯量大（I₂=2I）</text>
+
+  <text class="label" x="30" y="408">初始转轴沿 α 方向，一般不沿力矩方向：它偏向转动惯量较小的主轴</text>
+</svg>

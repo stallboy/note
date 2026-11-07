@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="480" viewBox="0 0 1000 480" role="img" aria-labelledby="title desc">
+  <title id="title">球面标架分解（第17章）</title>
+  <desc id="desc">左图：以支撑点 F 为中心的单位球面，竖直极轴 k 向上，轴单位矢 e 的端点为 E。在 E 处画互相垂直的三个方向：e 沿轴向外，q 沿倾角 l 增大的经线方向，v 沿方位角 ψ 增大的纬线切向。角速度按式(7)分解：ω = s·e + sin l·ψ̇·q − l̇·v，其中 s 为自转分量。右图：e 端点绕竖直轴扫出半顶角 l 的进动锥（虚线），锥面上叠加沿经线的微摆弧（章动）。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2e7d4f"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .point { fill: #c44536; }
+      .sphere { fill: #dceaf5; fill-opacity: 0.35; stroke: #245b91; stroke-opacity: 0.55; stroke-width: 2; }
+      .guide { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .vec { stroke: #245b91; stroke-width: 3; marker-end: url(#arrow); fill: none; }
+      .vecThin { stroke: #245b91; stroke-width: 2.5; marker-end: url(#arrow); fill: none; }
+      .vec4 { stroke: #245b91; stroke-width: 4; marker-end: url(#arrow); fill: none; }
+      .triad { stroke: #2e7d4f; stroke-width: 3; marker-end: url(#arrowG); fill: none; }
+      .arc { stroke: #444; stroke-width: 1.8; fill: none; }
+      .leader { stroke: #999; stroke-width: 1.5; fill: none; }
+      .halo { paint-order: stroke; stroke: #ffffff; stroke-width: 5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- ============ left: triad on unit sphere ============ -->
+  <text class="label" x="250" y="62" text-anchor="middle">某瞬时：球面标架 e、q、v 与 ω 分解</text>
+  <text class="small" x="60" y="120">q：沿 l 增大（经线）</text>
+  <text class="small" x="60" y="142">v：沿 ψ 增大（纬线）</text>
+
+  <circle class="sphere" cx="250" cy="290" r="140"/>
+  <!-- meridian and latitude through E, lower polar axis -->
+  <path class="guide" d="M 250.0,150.0 L 256.1,153.5 L 262.2,158.0 L 268.1,163.6 L 273.9,170.1 L 279.6,177.5 L 285.0,185.7 L 290.2,194.8 L 295.0,204.6 L 299.5,215.0 L 303.6,226.0 L 307.3,237.5 L 310.6,249.4 L 313.4,261.6 L 315.8,274.0 L 317.6,286.6 L 318.9,299.1 L 319.7,311.6 L 320.0,323.9 L 319.7,336.0 L 318.9,347.7 L 317.6,359.0 L 315.8,369.8 L 313.4,379.9 L 310.6,389.4 L 307.3,398.1 L 303.6,406.0 L 299.5,413.0 L 295.0,419.1 L 290.2,424.2 L 285.0,428.2 L 279.6,431.2 L 273.9,433.2 L 268.1,434.0 L 262.2,433.8 L 256.1,432.4 L 250.0,430.0"/>
+  <ellipse class="guide" cx="250" cy="186" rx="93.7" ry="26.2"/>
+  <line class="guide" x1="250" y1="292" x2="250" y2="425"/>
+
+  <!-- vertical polar axis k -->
+  <line class="vec" x1="250" y1="290" x2="250" y2="130"/>
+  <text class="label" x="262" y="138">k</text>
+
+  <!-- angle l at F between k and axis -->
+  <path class="arc" d="M 250 235 A 55 55 0 0 1 277.4 242.4"/>
+  <text class="label" x="228" y="231">l</text>
+
+  <!-- support point and E -->
+  <circle class="point" cx="250" cy="290" r="6"/>
+  <text class="label" x="158" y="330">F（支点）</text>
+  <circle class="point" cx="296.8" cy="208.7" r="6"/>
+  <text class="label halo" x="270" y="196">E</text>
+
+  <!-- triad at E -->
+  <line class="vecThin" x1="296.8" y1="208.7" x2="319.3" y2="169.7"/>
+  <text class="label" x="327" y="166" fill="#245b91">e</text>
+  <line class="triad" x1="296.8" y1="208.7" x2="314.9" y2="249.9"/>
+  <text class="label" x="322" y="262" fill="#2e7d4f">q</text>
+  <line class="triad" x1="296.8" y1="208.7" x2="252.4" y2="215.9"/>
+  <text class="label" x="222" y="232" fill="#2e7d4f">v</text>
+
+  <!-- omega decomposition at F -->
+  <line class="vec" x1="250" y1="290" x2="289.9" y2="220.7"/>
+  <text class="small halo" x="297" y="232" fill="#245b91">s·e</text>
+  <text class="small halo" x="360" y="246">（s 为自转分量）</text>
+  <line class="vec" x1="250" y1="290" x2="272.0" y2="340.4"/>
+  <text class="small halo" x="210" y="366" fill="#245b91">sin l·ψ<tspan dy="-9" font-size="12">•</tspan><tspan dy="9" font-size="17">·q</tspan></text>
+  <line class="vec" x1="250" y1="290" x2="297.4" y2="282.3"/>
+  <text class="small halo" x="310" y="298" fill="#245b91">−l<tspan dy="-9" font-size="12">•</tspan><tspan dy="9" font-size="17">·v</tspan></text>
+  <line class="vec4" x1="250" y1="290" x2="349.9" y2="233.0"/>
+  <text class="label halo" x="356" y="224" fill="#245b91">ω</text>
+
+  <!-- ============ right: precession cone with nutation ============ -->
+  <text class="label" x="800" y="62" text-anchor="middle">进动锥（半顶角 l）与章动</text>
+
+  <line class="vec" x1="800" y1="390" x2="800" y2="150"/>
+  <text class="label" x="812" y="158">k</text>
+  <line class="guide" x1="800" y1="390" x2="932.5" y2="240.2"/>
+  <line class="guide" x1="800" y1="390" x2="667.5" y2="240.2"/>
+  <ellipse class="guide" cx="800" cy="226.2" rx="114.7" ry="34.4"/>
+  <ellipse class="guide" cx="800" cy="256.2" rx="148.6" ry="44.6"/>
+  <text class="small halo" x="888" y="256">l₀</text>
+  <text class="small halo" x="912" y="292">l<tspan dy="5" font-size="13">m</tspan></text>
+
+  <path class="arc" d="M 800 330 A 60 60 0 0 1 839.8 345.1"/>
+  <text class="label" x="816" y="324">l</text>
+  <circle class="point" cx="800" cy="390" r="5"/>
+
+  <line class="vec" x1="800" y1="390" x2="866.3" y2="274.6"/>
+  <text class="label" x="874" y="270" fill="#245b91">e</text>
+
+  <path class="vec" marker-end="url(#arrow)" d="M 838.5,299.2 L 833.1,298.3 L 827.4,294.8 L 821.6,289.3 L 816.0,282.6 L 810.7,275.6 L 805.9,269.3 L 801.4,264.3 L 797.3,261.3 L 793.2,260.6 L 788.9,262.1 L 784.3,265.8 L 779.2,271.2 L 773.6,277.7 L 767.6,284.5 L 761.5,290.7 L 755.5,295.3 L 749.8,297.7 L 744.8,297.4 L 740.6,294.4 L 737.4,289.1 L 735.1,282.2 L 733.7,274.6 L 732.9,267.2 L 732.2,260.9 L 731.0,256.1 L 729.0,253.4 L 725.6,252.8 L 720.9,254.4 L 714.7,257.7 L 707.6,262.5 L 700.0,267.9 L 692.5,273.3 L 685.7,277.6 L 680.1,280.3 L 676.0,280.7 L 673.6,278.6 L 673.1,274.2 L 674.3,268.1 L 676.9,260.8 L 680.4,253.5 L 684.2,246.7 L 687.3,241.1 L 689.2,237.2 L 689.2,235.1"/>
+  <text class="small halo" x="638" y="330">章动（微摆）</text>
+  <text class="small" x="800" y="414" text-anchor="middle">e 绕竖直轴转动＝进动（ψ 增大），沿经线微摆＝章动</text>
+
+  <text class="label" x="500" y="468" text-anchor="middle">进动＝方位角 ψ 变化；章动＝倾角 l 变化；角速度按 e、q、v 三方向分解</text>
+</svg>

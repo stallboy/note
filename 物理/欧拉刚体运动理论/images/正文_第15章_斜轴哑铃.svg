@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+  <title id="title">斜轴哑铃：匀速转动仍需力矩</title>
+  <desc id="desc">一根与竖直转轴成斜角刚性固连的细杆，两端各有一个等质量质点，整体绕轴匀速转动（ω 沿轴向上，上端质点速度指入纸面、下端指出纸面）。角动量 L=Iω 从轴上中心点 O 画出，明显偏离转轴；L 的端点绕轴扫出灰色虚线椭圆，力矩 τ=ω×(Iω)=dL/dt 沿端点圆切向，此刻指入纸面。上下轴承的一对等大反向反力构成力偶，提供这一力矩。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowR" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c44536"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2e7d4f"/>
+    </marker>
+    <marker id="arrowGy" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#999"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .rtext { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #c44536; }
+      .gtext { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #2e7d4f; }
+      .point { fill: #c44536; }
+      .vec { stroke: #245b91; stroke-width: 3; marker-end: url(#arrow); }
+      .vecR { stroke: #c44536; stroke-width: 3.5; marker-end: url(#arrowR); }
+      .force { stroke: #c44536; stroke-width: 2.2; marker-end: url(#arrowR); }
+      .vecG { stroke: #2e7d4f; stroke-width: 2.4; marker-end: url(#arrowG); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .shaft { stroke: #222; stroke-width: 2.5; }
+      .rod { stroke: #245b91; stroke-width: 4; stroke-linecap: round; }
+      .brg { fill: #ccc; stroke: #999; stroke-width: 1.5; }
+      .hatch { stroke: #999; stroke-width: 1.2; }
+      .hint { stroke: #999; stroke-width: 2; marker-end: url(#arrowGy); }
+    </style>
+  </defs>
+
+  <line class="shaft" x1="380" y1="55" x2="380" y2="425"/>
+  <rect class="brg" x="362" y="44" width="36" height="12"/>
+  <line class="hatch" x1="370" y1="44" x2="366" y2="56"/>
+  <line class="hatch" x1="380" y1="44" x2="376" y2="56"/>
+  <line class="hatch" x1="390" y1="44" x2="386" y2="56"/>
+  <rect class="brg" x="362" y="424" width="36" height="12"/>
+  <line class="hatch" x1="370" y1="424" x2="366" y2="436"/>
+  <line class="hatch" x1="380" y1="424" x2="376" y2="436"/>
+  <line class="hatch" x1="390" y1="424" x2="386" y2="436"/>
+
+  <!-- 轴承反力（等大反向，构成力偶） -->
+  <line class="force" x1="415" y1="63" x2="360" y2="63"/>
+  <text class="rtext" x="421" y="69">F</text>
+  <line class="force" x1="345" y1="417" x2="400" y2="417"/>
+  <text class="rtext" x="406" y="413">F</text>
+  <text class="small" x="455" y="72">两轴承反力等大反向，构成力偶</text>
+
+  <!-- 斜杆与质点 -->
+  <line class="rod" x1="478" y1="101" x2="282" y2="379"/>
+  <text class="small" x="500" y="130">刚性细杆</text>
+  <circle class="point" cx="478" cy="101" r="7"/>
+  <circle class="point" cx="282" cy="379" r="7"/>
+  <text class="small" x="492" y="96">m</text>
+  <text class="small" x="252" y="394">m</text>
+
+  <g stroke="#2e7d4f" stroke-width="2.5" fill="none">
+    <circle cx="478" cy="101" r="11"/>
+    <line x1="470" y1="93" x2="486" y2="109"/>
+    <line x1="470" y1="109" x2="486" y2="93"/>
+    <circle cx="282" cy="379" r="11"/>
+    <circle cx="282" cy="379" r="3" fill="#2e7d4f" stroke="none"/>
+  </g>
+  <text class="gtext" x="500" y="90">v（指入纸面）</text>
+  <text class="gtext" x="252" y="412">v（出纸面）</text>
+
+  <!-- 中心点、ω、L、L 端点圆、τ -->
+  <circle class="point" cx="380" cy="240" r="5"/>
+  <text class="label" x="362" y="260">O</text>
+  <line class="vec" x1="380" y1="340" x2="380" y2="130" stroke-width="4"/>
+  <text class="label" x="392" y="146">ω</text>
+
+  <ellipse class="path" cx="380" cy="159" rx="66.5" ry="19"/>
+  <line class="hint" x1="402" y1="140" x2="380" y2="140"/>
+
+  <line class="vecR" x1="380" y1="240" x2="313" y2="159"/>
+  <text class="label" x="218" y="148">L = Iω</text>
+
+  <g stroke="#c44536" stroke-width="2.8" fill="none">
+    <circle cx="286" cy="132" r="10"/>
+    <line x1="279" y1="125" x2="293" y2="139"/>
+    <line x1="279" y1="139" x2="293" y2="125"/>
+  </g>
+  <line class="force" x1="293" y1="141" x2="311" y2="157" stroke-dasharray="4 4"/>
+  <text class="label" x="150" y="118">τ = ω×(Iω)</text>
+  <text class="small" x="60" y="312">τ = dL/dt：沿 L 端点圆切向，</text>
+  <text class="small" x="60" y="336">方向指入纸面（右手定则）</text>
+
+  <text class="label" x="70" y="468">即使转速恒定，只要角动量方向跟着刚体旋转，就需要持续的力矩——由轴承提供</text>
+</svg>

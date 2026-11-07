@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-labelledby="title desc">
+  <title id="title">抛体：角动量固定而角速度变化</title>
+  <desc id="desc">一块砖形刚体被抛到空中，质心沿灰色虚线抛物线运动。五个编号姿态表示不同时刻：每个姿态质心处的红色角动量箭头 L 相互平行、等长、同向（空间固定方向）；蓝色角速度箭头 ω 沿各时刻的瞬时转轴，方向与长短都在变化。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowR" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c44536"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .vec { stroke: #245b91; stroke-width: 3; marker-end: url(#arrow); }
+      .vecR { stroke: #c44536; stroke-width: 3.5; marker-end: url(#arrowR); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .spine { stroke: #245b91; stroke-width: 1.5; opacity: 0.5; }
+      .tlabel { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #222; }
+    </style>
+  </defs>
+
+  <text class="small" x="30" y="70">L：空间固定——所有姿态的 L 平行、等长、同向</text>
+  <text class="small" x="30" y="102">ω：方向与大小一般都在变</text>
+
+  <path class="path" d="M70,320 Q500,-130 930,320"/>
+
+  <!-- 姿态 1 -->
+  <g transform="translate(156,239) rotate(-18)">
+    <rect class="body" x="-35" y="-23" width="70" height="46" rx="3"/>
+    <line class="spine" x1="-35" y1="-8" x2="35" y2="-8"/>
+  </g>
+  <line class="vecR" x1="156" y1="239" x2="156" y2="165"/>
+  <line class="vec" x1="156" y1="239" x2="130" y2="187"/>
+  <circle class="point" cx="156" cy="239" r="5"/>
+  <text class="small" x="185" y="157">L</text>
+  <text class="small" x="112" y="178">ω</text>
+  <text class="tlabel" x="211" y="294">1</text>
+
+  <!-- 姿态 2 -->
+  <g transform="translate(328,131) rotate(38)">
+    <rect class="body" x="-35" y="-23" width="70" height="46" rx="3"/>
+    <line class="spine" x1="-35" y1="-8" x2="35" y2="-8"/>
+  </g>
+  <line class="vecR" x1="328" y1="131" x2="328" y2="57"/>
+  <line class="vec" x1="328" y1="131" x2="373" y2="122"/>
+  <circle class="point" cx="328" cy="131" r="5"/>
+  <text class="small" x="357" y="49">L</text>
+  <text class="small" x="382" y="114">ω</text>
+  <text class="tlabel" x="383" y="186">2</text>
+
+  <!-- 姿态 3 -->
+  <g transform="translate(500,95) rotate(105)">
+    <rect class="body" x="-35" y="-23" width="70" height="46" rx="3"/>
+    <line class="spine" x1="-35" y1="-8" x2="35" y2="-8"/>
+  </g>
+  <line class="vecR" x1="500" y1="95" x2="500" y2="21"/>
+  <line class="vec" x1="500" y1="95" x2="437" y2="126"/>
+  <circle class="point" cx="500" cy="95" r="5"/>
+  <text class="small" x="533" y="26">L</text>
+  <text class="small" x="418" y="148">ω</text>
+  <text class="tlabel" x="555" y="150">3</text>
+
+  <!-- 姿态 4 -->
+  <g transform="translate(672,131) rotate(178)">
+    <rect class="body" x="-35" y="-23" width="70" height="46" rx="3"/>
+    <line class="spine" x1="-35" y1="-8" x2="35" y2="-8"/>
+  </g>
+  <line class="vecR" x1="672" y1="131" x2="672" y2="57"/>
+  <line class="vec" x1="672" y1="131" x2="682" y2="290"/>
+  <circle class="point" cx="672" cy="131" r="5"/>
+  <text class="small" x="701" y="49">L</text>
+  <text class="small" x="692" y="302">ω</text>
+  <text class="tlabel" x="727" y="186">4</text>
+
+  <!-- 姿态 5 -->
+  <g transform="translate(844,239) rotate(243)">
+    <rect class="body" x="-35" y="-23" width="70" height="46" rx="3"/>
+    <line class="spine" x1="-35" y1="-8" x2="35" y2="-8"/>
+  </g>
+  <line class="vecR" x1="844" y1="239" x2="844" y2="165"/>
+  <line class="vec" x1="844" y1="239" x2="799" y2="194"/>
+  <circle class="point" cx="844" cy="239" r="5"/>
+  <text class="small" x="873" y="157">L</text>
+  <text class="small" x="778" y="186">ω</text>
+  <text class="tlabel" x="799" y="294">5</text>
+
+  <text class="label" x="30" y="428">抛在空中：角动量方向固定，角速度的方向与大小一般都在变——守恒的是 L，不是 ω</text>
+</svg>

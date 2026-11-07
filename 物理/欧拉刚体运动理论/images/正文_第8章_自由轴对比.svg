@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420" role="img" aria-labelledby="title desc">
+  <title id="title">自由轴对比：主轴与非主轴上的旋转</title>
+  <desc id="desc">两个相同的哑铃状刚体绕过质心 G 的轴匀速旋转。(a) 转轴沿哑铃杆（主轴）：两质量元的向心力沿杆共线、相互抵消，轴不受力矩，方向自持。(b) 转轴与杆成夹角（非主轴）：两处向心力不共线，对质心形成力偶，轴承必须提供约束力矩 τ 维持转轴。</desc>
+  <defs>
+    <marker id="arrowB2" markerWidth="8" markerHeight="8" refX="6.5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7.5,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowG" markerWidth="8" markerHeight="8" refX="6.5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7.5,3 z" fill="#2e7d4f"/>
+    </marker>
+    <marker id="arrowR2" markerWidth="8" markerHeight="8" refX="6.5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7.5,3 z" fill="#c44536"/>
+    </marker>
+    <marker id="arrowRrev" markerWidth="8" markerHeight="8" refX="6.5" refY="3" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7.5,3 z" fill="#c44536"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .axisline { stroke: #999; stroke-width: 2; stroke-dasharray: 12 6 3 6; }
+      .velocity { stroke: #245b91; stroke-width: 3; marker-end: url(#arrowB2); }
+      .forcegreen { stroke: #2e7d4f; stroke-width: 3; marker-end: url(#arrowG); }
+      .torque { stroke: #c44536; stroke-width: 2.5; fill: none; marker-start: url(#arrowRrev); marker-end: url(#arrowR2); }
+    </style>
+  </defs>
+
+  <text class="label" x="275" y="40" text-anchor="middle">(a) 转轴沿哑铃杆：主轴</text>
+  <line class="axisline" x1="85" y1="195" x2="399" y2="195"/>
+  <rect class="body" x="175" y="190" width="200" height="10"/>
+  <circle class="body" cx="175" cy="195" r="24"/>
+  <circle class="body" cx="375" cy="195" r="24"/>
+  <circle class="point" cx="275" cy="195" r="5"/>
+  <text class="small" x="282" y="222">G</text>
+  <line class="forcegreen" x1="175" y1="184" x2="227" y2="184"/>
+  <line class="forcegreen" x1="375" y1="184" x2="323" y2="184"/>
+  <line class="velocity" x1="402" y1="195" x2="452" y2="195"/>
+  <text class="small" x="424" y="181">ω</text>
+  <text class="small" x="275" y="300" text-anchor="middle">两处向心力共线（沿杆），相互抵消</text>
+  <text class="label" x="275" y="328" text-anchor="middle">主轴：轴不受力矩，方向自持</text>
+
+  <text class="label" x="828" y="40" text-anchor="middle">(b) 转轴与杆成夹角：非主轴</text>
+  <line class="axisline" x1="705" y1="195" x2="925" y2="195"/>
+  <polygon class="body" points="750.1,136.4 905.7,245.4 899.9,253.6 744.3,144.6"/>
+  <circle class="body" cx="747.2" cy="140.5" r="24"/>
+  <circle class="body" cx="902.8" cy="249.5" r="24"/>
+  <circle class="point" cx="825" cy="195" r="5"/>
+  <text class="small" x="835" y="183">G</text>
+  <line class="forcegreen" x1="747.2" y1="140.5" x2="747.2" y2="188"/>
+  <line class="forcegreen" x1="902.8" y1="249.5" x2="902.8" y2="202"/>
+  <path class="torque" d="M 685 221 A 30 30 0 0 1 680.7 172"/>
+  <text class="label" x="650" y="201" text-anchor="end">τ</text>
+  <line class="velocity" x1="930" y1="195" x2="982" y2="195"/>
+  <text class="small" x="954" y="181">ω</text>
+  <text class="small" x="828" y="300" text-anchor="middle">两处向心力不共线，对质心形成力偶</text>
+  <text class="label" x="828" y="328" text-anchor="middle">非主轴：需要轴承提供力矩维持</text>
+
+  <text class="label" x="550" y="408" text-anchor="middle">转轴过质心还不够：只有沿主轴，转轴才自持；偏轴旋转的轴承会受交变载荷（洗衣机振动）</text>
+</svg>

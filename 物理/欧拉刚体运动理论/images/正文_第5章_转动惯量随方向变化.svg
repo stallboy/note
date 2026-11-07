@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">转动惯量随轴方向的变化</title>
+  <desc id="desc">以质心为原点的极坐标图：闭合曲线表示主平面内 I(φ)=I₁cos²φ+I₂sin²φ（I₁&gt;I₂），沿主轴 1 方向最长（I₁）、主轴 2 方向最短（I₂）；中间方向 φ 的值介于 I₂ 与 I₁ 之间。</desc>
+  <defs>
+    <marker id="arrowF" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .arrow { stroke: #245b91; stroke-width: 3; fill: none; marker-end: url(#arrowF); }
+      .radius { stroke: #999; stroke-width: 2.5; }
+      .arc { stroke: #999; stroke-width: 1.5; fill: none; }
+    </style>
+  </defs>
+
+  <!-- I(φ) 闭合曲线 -->
+  <path class="body" stroke-linejoin="round" d="M460.0,222.0 L458.7,208.1 L454.7,194.7 L448.3,182.3 L439.8,171.1 L429.5,161.6 L417.8,154.0 L405.2,148.3 L392.2,144.7 L379.2,142.8 L366.6,142.6 L354.8,143.7 L344.0,145.8 L334.3,148.5 L325.7,151.3 L318.2,154.0 L311.6,156.1 L305.6,157.5 L300.0,158.0 L294.4,157.5 L288.4,156.1 L281.8,154.0 L274.3,151.3 L265.7,148.5 L256.0,145.8 L245.2,143.7 L233.4,142.6 L220.8,142.8 L207.8,144.7 L194.8,148.3 L182.2,154.0 L170.5,161.6 L160.2,171.1 L151.7,182.3 L145.3,194.7 L141.3,208.1 L140.0,222.0 L141.3,235.9 L145.3,249.3 L151.7,261.7 L160.2,272.9 L170.5,282.4 L182.2,290.0 L194.8,295.7 L207.8,299.3 L220.8,301.2 L233.4,301.4 L245.2,300.3 L256.0,298.2 L265.7,295.5 L274.3,292.7 L281.8,290.0 L288.4,287.9 L294.4,286.5 L300.0,286.0 L305.6,286.5 L311.6,287.9 L318.2,290.0 L325.7,292.7 L334.3,295.5 L344.0,298.2 L354.8,300.3 L366.6,301.4 L379.2,301.2 L392.2,299.3 L405.2,295.7 L417.8,290.0 L429.5,282.4 L439.8,272.9 L448.3,261.7 L454.7,249.3 L458.7,235.9 Z"/>
+
+  <!-- 两条互相垂直的主轴 -->
+  <line class="arrow" x1="300" y1="222" x2="472" y2="222"/>
+  <line class="arrow" x1="300" y1="222" x2="300" y2="146"/>
+  <text class="label" x="480" y="229">I₁</text>
+  <text class="label" x="312" y="150">I₂</text>
+  <text class="small" x="386" y="242" text-anchor="middle">主轴 1</text>
+  <text class="small" x="292" y="182" text-anchor="end">主轴 2</text>
+
+  <!-- 中间方向 φ -->
+  <line class="radius" x1="300" y1="222" x2="366.6" y2="142.6"/>
+  <path class="arc" d="M346,222 A46,46 0 0 0 329.6,186.8"/>
+  <text class="small" x="354" y="202">φ</text>
+  <text class="small" x="376" y="136">I(φ)</text>
+
+  <!-- 质心 -->
+  <circle class="point" cx="300" cy="222" r="6"/>
+  <text class="label" x="300" y="256" text-anchor="middle">质心</text>
+
+  <!-- 旁注 -->
+  <text class="small" x="555" y="112">闭合曲线：I(φ) = I₁cos²φ + I₂sin²φ</text>
+  <text class="small" x="555" y="146">中间方向：I₂ &lt; I(φ) &lt; I₁</text>
+  <text class="small" x="555" y="180">主轴 = I(φ) 的驻值方向</text>
+  <text class="small" x="555" y="210">（极大 I₁，极小 I₂）</text>
+
+  <text class="label" x="145" y="408">绕不同方向的轴，转动惯量不同；中间方向是 I₁ 与 I₂ 的加权平均</text>
+</svg>

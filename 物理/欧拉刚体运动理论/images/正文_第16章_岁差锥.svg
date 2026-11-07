@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">旋转对称天体的岁差锥</title>
+  <desc id="desc">立体示意图：灰色椭圆为轨道平面，力心（太阳）位于其中心，天体沿轨道公转（角速度 ν），轨道法线为 z。扁椭球天体绕自转轴 e 快速自转（ωₛ），e 与 z 保持夹角 p 不变，其端点沿灰色虚线圆缓慢进动（速率 ϖ），扫出一个进动锥。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2e7d4f"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .vec { stroke: #245b91; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .rate { stroke: #2e7d4f; stroke-width: 3; fill: none; marker-end: url(#arrowG); }
+      .rate2 { stroke: #2e7d4f; stroke-width: 2.2; fill: none; marker-end: url(#arrowG); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .ang { stroke: #666; stroke-width: 1.8; fill: none; }
+    </style>
+  </defs>
+
+  <ellipse cx="430" cy="350" rx="320" ry="88" fill="#f0f0f0" stroke="#999" stroke-width="1.5"/>
+  <text class="small" x="150" y="322">轨道平面</text>
+
+  <ellipse class="path" cx="430" cy="350" rx="235" ry="62"/>
+  <circle cx="430" cy="350" r="15" fill="#8a8a8a" stroke="#666" stroke-width="1.5"/>
+  <text class="small" x="410" y="332" text-anchor="end">力心（太阳）</text>
+
+  <path class="rate" d="M 226.5 381 A 235 62 0 0 0 409.5 411.7"/>
+  <text class="small" x="300" y="458" text-anchor="middle">ν（公转）</text>
+
+  <ellipse class="body" cx="643" cy="376" rx="52" ry="36"/>
+  <ellipse cx="643" cy="376" rx="52" ry="13" fill="none" stroke="#245b91" stroke-width="1.5" opacity="0.6"/>
+  <path class="rate2" d="M 600.4 383.5 A 52 13 0 0 0 685.6 383.5"/>
+  <text class="small" x="643" y="458" text-anchor="middle">自转 ω<tspan font-size="12" dy="4">s</tspan></text>
+
+  <ellipse class="path" cx="643" cy="263" rx="65" ry="22"/>
+  <line class="path" x1="643" y1="376" x2="708" y2="263"/>
+  <line class="path" x1="643" y1="376" x2="688.9" y2="247.4"/>
+  <line class="path" x1="643" y1="376" x2="688.9" y2="278.6"/>
+  <text class="small" x="760" y="240">进动锥（e 扫出）</text>
+
+  <line class="path" x1="643" y1="376" x2="643" y2="252"/>
+  <line class="vec" x1="643" y1="252" x2="643" y2="185"/>
+  <text class="small" x="655" y="200">z（轨道法线）</text>
+
+  <line class="vec" x1="643" y1="376" x2="578" y2="263"/>
+  <text class="small" x="548" y="248" text-anchor="end">e（自转轴）</text>
+
+  <path d="M 643 312 A 64 64 0 0 1 615.9 318" fill="none" stroke="#666" stroke-width="2.4"/>
+  <text class="label" x="626" y="302">p</text>
+
+  <path class="rate" d="M 708 263 A 65 22 0 0 1 578 263"/>
+  <text class="small" x="748" y="302">ϖ（进动）</text>
+
+  <text class="label" x="450" y="488" text-anchor="middle">自转轴 e 保持倾角 p 不变，绕轨道法线 z 缓慢进动：这是岁差的几何</text>
+</svg>

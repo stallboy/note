@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="460" viewBox="0 0 1100 460" role="img" aria-labelledby="title desc">
+  <title id="title">球底物体的接触几何与力臂分解</title>
+  <desc id="desc">左栏侧视图：底部为球面的物体放在水平面上，灰色虚线画出完整底部球面，球心 G，接触点 T 恒在 G 正下方；固连轴 d 由 G 指向上方，质心 I 在 G 下方（f&lt;0），θ 为 d 与竖直方向 k 的夹角，h 为质心高度，接触点处有向上的支反力 N，质心处有向下的重力 Mg。右栏：从质心 I 指向接触点 T 的力臂分解为 I→G（沿 −d）与 G→T（沿 −k）两段；G→T 段与支反力 N 平行，对力矩无贡献，力矩 τ=fN k×d 垂直纸面向外。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowR" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c44536"/>
+    </marker>
+    <marker id="dim" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#444"/>
+    </marker>
+    <marker id="dimRev" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#444"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .vec { stroke: #245b91; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .force { stroke: #c44536; stroke-width: 3; fill: none; marker-end: url(#arrowR); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .dim { stroke: #444; stroke-width: 1.8; fill: none; marker-start: url(#dimRev); marker-end: url(#dim); }
+      .ang { stroke: #666; stroke-width: 1.8; fill: none; }
+      .ground { stroke: #666; stroke-width: 2.5; }
+      .hatch { stroke: #999; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <line x1="555" y1="50" x2="555" y2="415" stroke="#ccc" stroke-width="1.5"/>
+
+  <text class="small" x="60" y="58">接触几何（侧视）</text>
+  <text class="small" x="46" y="90">本图取 f&lt;0：质心 I 在球心 G 下方</text>
+
+  <line class="ground" x1="30" y1="390" x2="520" y2="390"/>
+  <line class="hatch" x1="60" y1="390" x2="51" y2="399"/>
+  <line class="hatch" x1="115" y1="390" x2="106" y2="399"/>
+  <line class="hatch" x1="170" y1="390" x2="161" y2="399"/>
+  <line class="hatch" x1="225" y1="390" x2="216" y2="399"/>
+  <line class="hatch" x1="280" y1="390" x2="271" y2="399"/>
+  <line class="hatch" x1="335" y1="390" x2="326" y2="399"/>
+  <line class="hatch" x1="390" y1="390" x2="381" y2="399"/>
+  <line class="hatch" x1="445" y1="390" x2="436" y2="399"/>
+  <line class="hatch" x1="495" y1="390" x2="486" y2="399"/>
+
+  <path class="body" d="M 149 320 A 140 140 0 0 0 391 320 C 420 220 360 98 270 98 C 180 98 120 220 149 320 Z"/>
+  <circle class="path" cx="270" cy="250" r="140"/>
+
+  <line class="path" x1="270" y1="250" x2="270" y2="390"/>
+  <line class="vec" x1="270" y1="250" x2="270" y2="165"/>
+  <text class="small" x="280" y="188">k</text>
+  <line x1="270" y1="250" x2="238" y2="318" stroke="#245b91" stroke-width="1.8"/>
+  <line class="vec" x1="270" y1="250" x2="310" y2="164"/>
+  <text class="small" x="318" y="158">d</text>
+  <path class="ang" d="M 270 195 A 55 55 0 0 1 293 200"/>
+  <text class="small" x="282" y="184">θ</text>
+
+  <text class="small" x="246" y="280" text-anchor="end">f = GI</text>
+
+  <line class="dim" x1="345" y1="250" x2="345" y2="390"/>
+  <line class="path" x1="276" y1="250" x2="345" y2="250"/>
+  <text class="small" x="355" y="322">e</text>
+
+  <line class="path" x1="238" y1="318" x2="460" y2="318"/>
+  <line class="dim" x1="460" y1="390" x2="460" y2="318"/>
+  <text class="small" x="450" y="306" text-anchor="middle">h = e + f cosθ</text>
+
+  <line class="force" x1="292" y1="388" x2="292" y2="336"/>
+  <text class="small" x="302" y="352">N</text>
+  <line class="force" x1="238" y1="327" x2="238" y2="373"/>
+  <text class="small" x="226" y="356" text-anchor="end">Mg</text>
+
+  <circle class="point" cx="270" cy="250" r="6"/>
+  <text class="small" x="256" y="244" text-anchor="end">G</text>
+  <circle class="point" cx="238" cy="318" r="6"/>
+  <text class="small" x="216" y="310" text-anchor="end">I</text>
+  <circle class="point" cx="270" cy="390" r="6"/>
+  <text class="small" x="270" y="414" text-anchor="middle">T（恒在 G 正下方）</text>
+
+  <text class="small" x="620" y="58">力臂分解</text>
+
+  <line class="ground" x1="620" y1="390" x2="1080" y2="390"/>
+  <line class="hatch" x1="640" y1="390" x2="631" y2="399"/>
+  <line class="hatch" x1="695" y1="390" x2="686" y2="399"/>
+  <line class="hatch" x1="750" y1="390" x2="741" y2="399"/>
+  <line class="hatch" x1="805" y1="390" x2="796" y2="399"/>
+  <line class="hatch" x1="860" y1="390" x2="851" y2="399"/>
+  <line class="hatch" x1="915" y1="390" x2="906" y2="399"/>
+  <line class="hatch" x1="970" y1="390" x2="961" y2="399"/>
+  <line class="hatch" x1="1025" y1="390" x2="1016" y2="399"/>
+  <line class="hatch" x1="1070" y1="390" x2="1061" y2="399"/>
+
+  <line class="vec" x1="830" y1="250" x2="830" y2="165"/>
+  <text class="small" x="842" y="188">k</text>
+  <line class="vec" x1="830" y1="250" x2="870" y2="164"/>
+  <text class="small" x="878" y="158">d</text>
+
+  <line class="path" x1="798" y1="318" x2="830" y2="390"/>
+  <text class="small" x="794" y="362" text-anchor="end">r<tspan font-size="12" dy="4">IT</tspan></text>
+
+  <line class="vec" x1="798" y1="318" x2="827" y2="257"/>
+  <text class="small" x="776" y="284" text-anchor="end">−f d</text>
+  <line class="vec" x1="830" y1="250" x2="830" y2="380"/>
+  <text class="small" x="840" y="320">−e k</text>
+
+  <line class="force" x1="862" y1="390" x2="862" y2="330"/>
+  <text class="small" x="872" y="356">N</text>
+
+  <path d="M 832 271 l 9 8 l -9 8" fill="none" stroke="#444" stroke-width="1.8"/>
+  <path d="M 864 271 l 9 8 l -9 8" fill="none" stroke="#444" stroke-width="1.8"/>
+
+  <text class="small" x="985" y="290" text-anchor="middle">−e k 段与 N 平行</text>
+  <text class="small" x="985" y="314" text-anchor="middle">（共线反向，对力矩无贡献）</text>
+
+  <circle class="point" cx="830" cy="250" r="6"/>
+  <text class="small" x="812" y="244" text-anchor="end">G</text>
+  <circle class="point" cx="798" cy="318" r="6"/>
+  <circle cx="798" cy="318" r="10" fill="none" stroke="#c44536" stroke-width="2.2"/>
+  <text class="small" x="780" y="312" text-anchor="end">I</text>
+  <circle class="point" cx="830" cy="390" r="6"/>
+  <text class="small" x="830" y="414" text-anchor="middle">T</text>
+
+  <text class="small" x="1000" y="188" text-anchor="middle">τ = fN k×d</text>
+  <text class="small" x="1000" y="214" text-anchor="middle">（⊙：垂直纸面向外）</text>
+
+  <text class="label" x="550" y="448" text-anchor="middle">接触点永远在球心正下方；球半径 e 不影响力矩，起作用的只有偏置 f</text>
+</svg>

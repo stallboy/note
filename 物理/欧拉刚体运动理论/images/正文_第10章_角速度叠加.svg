@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">两个转动的一阶叠加</title>
+  <desc id="desc">角速度矢量图：原有角速度 ω₀n₀ 加上小增量 αn₁dt（与原方向成夹角 s，已夸大）得到合成角速度 ω。增量沿原方向的分量改变角速度大小，垂直分量改变方向，偏转角 dϑ 约等于 α·sin s·dt/ω₀。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2e7d4f"/>
+    </marker>
+    <marker id="arrowGy" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#999"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .point { fill: #c44536; }
+      .vecB { stroke: #245b91; stroke-width: 3; marker-end: url(#arrow); }
+      .vecBfat { stroke: #245b91; stroke-width: 5; marker-end: url(#arrow); }
+      .vecG { stroke: #2e7d4f; stroke-width: 3; marker-end: url(#arrowG); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .comp { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; marker-end: url(#arrowGy); }
+      .anglearc { stroke: #999; stroke-width: 1.5; fill: none; }
+    </style>
+  </defs>
+
+  <circle class="point" cx="150" cy="250" r="5"/>
+  <line class="vecB" x1="150" y1="250" x2="480" y2="250"/>
+  <line class="vecG" x1="480" y1="250" x2="610" y2="175"/>
+  <line class="vecBfat" x1="150" y1="250" x2="610" y2="175"/>
+  <text class="label" x="292" y="238" font-weight="bold">ω₀n₀</text>
+
+  <line class="path" x1="480" y1="250" x2="655" y2="250"/>
+  <path class="anglearc" d="M 525 250 A 45 45 0 0 0 519 228"/>
+  <text class="label" x="534" y="243">s</text>
+
+  <line class="comp" x1="480" y1="250" x2="610" y2="250"/>
+  <line class="comp" x1="610" y1="250" x2="610" y2="175"/>
+  <text class="small" x="486" y="292">α·cos s·dt（改变大小）</text>
+  <text class="small" x="622" y="218">α·sin s·dt（改变方向）</text>
+  <text class="label" x="558" y="204" font-weight="bold">αn₁dt</text>
+
+  <rect x="302" y="170" width="34" height="30" fill="#fff" stroke="#245b91" stroke-width="2"/>
+  <text class="label" x="310" y="193" font-weight="bold">ω</text>
+
+  <path class="anglearc" d="M 245 250 A 95 95 0 0 0 244 235"/>
+  <text class="small" x="252" y="283">dϑ ≈ α·sin s·dt / ω₀</text>
+
+  <text class="label" x="30" y="408">平行分量改变角速度大小，垂直分量改变方向；两轴垂直时转速一阶不变而方向在变</text>
+</svg>

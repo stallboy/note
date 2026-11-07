@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+  <title id="title">转轴方向与单位球面</title>
+  <desc id="desc">以质心 G 为球心的单位球。三条主轴 ê₁、ê₂、ê₃ 从球心指向球面，瞬时转轴方向 n̂ 指向球面上一点 N，从各主轴端点到 N 的球面弧给出方向余弦角 ϑ₁、ϑ₂、ϑ₃。N 处的切平面内画小箭头 dn̂：方向端点只能沿切面移动，不能沿半径离开球面。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowR" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c44536"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2e7d4f"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .sphere { fill: #dceaf5; fill-opacity: 0.3; stroke: #245b91; stroke-width: 2.5; }
+      .grid { stroke: #999; stroke-width: 1.5; fill: none; }
+      .point { fill: #c44536; }
+      .vecB { stroke: #245b91; stroke-width: 3; marker-end: url(#arrow); }
+      .vecR { stroke: #c44536; stroke-width: 3; marker-end: url(#arrowR); }
+      .vecG { stroke: #2e7d4f; stroke-width: 3; marker-end: url(#arrowG); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+    </style>
+  </defs>
+
+  <circle class="sphere" cx="430" cy="250" r="185"/>
+  <ellipse class="grid" cx="430" cy="250" rx="185" ry="60"/>
+  <ellipse class="grid" cx="430" cy="250" rx="60" ry="185"/>
+
+  <line class="vecB" x1="430" y1="250" x2="581" y2="144"/>
+  <text class="label" x="590" y="140">ê₁</text>
+  <line class="vecB" x1="430" y1="250" x2="604" y2="313"/>
+  <text class="label" x="613" y="322">ê₂</text>
+  <line class="vecB" x1="430" y1="250" x2="430" y2="65"/>
+  <text class="label" x="440" y="58">ê₃</text>
+
+  <line class="vecR" x1="430" y1="250" x2="278" y2="144"/>
+  <text class="label" x="322" y="166" font-weight="bold">n̂</text>
+
+  <path class="path" d="M 581 144 Q 430 40 278 144"/>
+  <text class="small" x="388" y="128">ϑ₁</text>
+  <path class="path" d="M 604 313 Q 460 200 278 144"/>
+  <text class="small" x="405" y="205">ϑ₂</text>
+  <path class="path" d="M 430 65 Q 352 52 278 144"/>
+  <text class="small" x="330" y="92">ϑ₃</text>
+
+  <polygon points="330,117 277,98 226,171 279,190" fill="#999" fill-opacity="0.35" stroke="#777" stroke-width="1.5"/>
+  <circle class="point" cx="278" cy="144" r="6"/>
+  <text class="label" x="208" y="140">N</text>
+  <line class="vecG" x1="278" y1="144" x2="316" y2="158"/>
+  <text class="small" x="330" y="172">dn̂</text>
+
+  <circle class="point" cx="430" cy="250" r="6"/>
+  <text class="small" x="445" y="270">G（质心·球心）</text>
+
+  <text class="small" x="35" y="70">方向端点只能沿切面移动，</text>
+  <text class="small" x="35" y="94">不能沿半径离开球面</text>
+
+  <text class="label" x="30" y="468">转轴方向 = 单位球面上一点；n₁²+n₂²+n₃²=1 表现为端点不离开球面</text>
+</svg>

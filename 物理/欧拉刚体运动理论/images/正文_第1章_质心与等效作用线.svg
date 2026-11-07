@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">质心与总重力的等效作用线</title>
+  <desc id="desc">水平轻杆左端 x=0 处有质量 m 的质点，右端 x=3a 处有质量 2m 的质点，重力 mg 与 2mg 竖直向下且长度比为 1:2；总重力 3mg 的等效作用线位于 x=2a，即质心处，由对左端取矩相等决定。</desc>
+  <defs>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c44536"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .force { stroke: #c44536; stroke-width: 3; marker-end: url(#arrowRed); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .dim { stroke: #999; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <line class="path" x1="120" y1="58" x2="120" y2="245"/>
+  <line class="path" x1="520" y1="58" x2="520" y2="330"/>
+
+  <line class="dim" x1="120" y1="108" x2="680" y2="108"/>
+  <line class="dim" x1="120" y1="101" x2="120" y2="115"/>
+  <line class="dim" x1="520" y1="101" x2="520" y2="115"/>
+  <line class="dim" x1="680" y1="101" x2="680" y2="115"/>
+  <text class="small" x="320" y="100" text-anchor="middle">2a</text>
+  <text class="small" x="600" y="100" text-anchor="middle">a</text>
+
+  <text class="small" x="120" y="48" text-anchor="middle">取矩参考轴（x=0）</text>
+  <text class="small" x="520" y="48" text-anchor="middle">等效作用线（X=2a）</text>
+  <text class="small" x="680" y="48" text-anchor="middle">x=3a</text>
+
+  <rect class="body" x="112" y="143" width="576" height="14"/>
+  <circle class="body" cx="120" cy="150" r="15"/>
+  <circle class="body" cx="680" cy="150" r="28"/>
+  <text class="label" x="86" y="157">m</text>
+  <text class="label" x="714" y="157">2m</text>
+
+  <line class="force" x1="120" y1="172" x2="120" y2="222"/>
+  <text class="small" x="132" y="203">mg</text>
+  <line class="force" x1="680" y1="184" x2="680" y2="284"/>
+  <text class="small" x="694" y="240">2mg</text>
+  <line class="force" x1="520" y1="168" x2="520" y2="318"/>
+  <text class="small" x="534" y="255">3mg</text>
+
+  <text class="label" x="450" y="348" text-anchor="middle">总重力的作用线过质心：位置由力矩相等决定，不在杆中点</text>
+</svg>

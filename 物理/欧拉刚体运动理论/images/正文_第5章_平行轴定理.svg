@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400" role="img" aria-labelledby="title desc">
+  <title id="title">平行轴定理：过质心的轴转动惯量最小</title>
+  <desc id="desc">左侧：一块薄板与三条互相平行、垂直于板面的转轴（⊙ 记号），其中 ℓ_C 过质心 C，d₁、d₂ 是质心到轴的垂直距离；右侧柱状图显示 I_C、I_C+Md₁²、I_C+Md₂² 随 d′ 增大而递增。</desc>
+  <defs>
+    <marker id="arrowF" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="10" refX="1.5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M9,0 L9,6 L0,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#999"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .axisln { stroke: #999; stroke-width: 2; fill: none; }
+      .fine { stroke: #999; stroke-width: 1.5; stroke-dasharray: 7 7; fill: none; }
+      .odot { fill: #fff; stroke: #245b91; stroke-width: 2.5; }
+      .odotdot { fill: #245b91; }
+    </style>
+  </defs>
+
+  <!-- 薄板 -->
+  <polygon class="body" points="75,85 280,55 400,170 355,320 100,330"/>
+
+  <!-- 质心到各轴的垂直距离 -->
+  <line class="path" x1="240" y1="200" x2="315" y2="120"/>
+  <line class="path" x1="240" y1="200" x2="110" y2="300"/>
+
+  <!-- 三条互相平行、垂直于板面的轴（⊙ 记号） -->
+  <circle class="odot" cx="110" cy="300" r="13"/>
+  <circle class="odotdot" cx="110" cy="300" r="3.5"/>
+  <circle class="odot" cx="315" cy="120" r="13"/>
+  <circle class="odotdot" cx="315" cy="120" r="3.5"/>
+  <circle class="odot" cx="240" cy="200" r="14"/>
+  <circle class="point" cx="240" cy="200" r="6"/>
+
+  <text class="label" x="256" y="190">C</text>
+  <text class="label" x="254" y="242">ℓ_C</text>
+  <text class="label" x="328" y="112">ℓ₁</text>
+  <text class="label" x="62" y="318">ℓ₂</text>
+  <text class="label" x="293" y="168">d₁</text>
+  <text class="label" x="198" y="278">d₂</text>
+  <text class="small" x="60" y="356">d₁、d₂：质心到轴的垂直距离（不是两轴上任意两点的距离）</text>
+
+  <!-- 右侧柱状图 -->
+  <line class="axisln" x1="600" y1="330" x2="600" y2="85" marker-end="url(#arrowG)"/>
+  <text class="small" x="585" y="98">I</text>
+  <line class="axisln" x1="600" y1="330" x2="958" y2="330" marker-end="url(#arrowG)"/>
+  <text class="small" x="952" y="318" text-anchor="end">d′ 增大</text>
+  <line class="fine" x1="605" y1="245" x2="945" y2="245"/>
+
+  <rect class="body" x="615" y="245" width="80" height="85"/>
+  <rect class="body" x="720" y="180" width="80" height="150"/>
+  <rect class="body" x="825" y="105" width="80" height="225"/>
+
+  <text class="small" x="655" y="233" text-anchor="middle">I<tspan dy="4" font-size="14">C</tspan></text>
+  <text class="small" x="760" y="168" text-anchor="middle">I<tspan dy="4" font-size="14">C</tspan><tspan dy="-4">+Md₁²</tspan></text>
+  <text class="small" x="865" y="93" text-anchor="middle">I<tspan dy="4" font-size="14">C</tspan><tspan dy="-4">+Md₂²</tspan></text>
+
+  <text class="small" x="655" y="354" text-anchor="middle">d′=0（ℓ_C）</text>
+  <text class="small" x="760" y="354" text-anchor="middle">d₁（ℓ₁）</text>
+  <text class="small" x="865" y="354" text-anchor="middle">d₂（ℓ₂）</text>
+
+  <text class="label" x="180" y="388">一组平行轴中，过质心的轴转动惯量最小：I′ = I<tspan dy="5" font-size="15">C</tspan><tspan dy="-5"> + Md′²</tspan></text>
+</svg>

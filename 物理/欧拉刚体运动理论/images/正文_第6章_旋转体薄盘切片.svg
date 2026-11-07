@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">旋转体的薄盘切片</title>
+  <desc id="desc">轴测示意：母线为 u(x) 的旋转体（圆锥）绕水平 x 轴，在坐标 x 处切出厚 dx、半径 u(x) 的薄圆盘；红点 f 为整体质心，过 f 画垂直于轴的细虚线；两项贡献分别为盘绕自身直径的 ¼u²dm 与平行轴修正 (x−f)²dm。</desc>
+  <defs>
+    <marker id="arrowF" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="10" refX="1.5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M9,0 L9,6 L0,3 z" fill="#245b91"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .axisln { stroke: #245b91; stroke-width: 2.5; fill: none; marker-end: url(#arrowF); }
+      .dbl { stroke: #245b91; stroke-width: 2.5; marker-start: url(#arrowB); marker-end: url(#arrowF); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .fine { stroke: #999; stroke-width: 1.5; stroke-dasharray: 7 7; fill: none; }
+      .sect { stroke: #999; stroke-width: 1.5; fill: none; }
+      .leader { stroke: #999; stroke-width: 1.5; fill: none; }
+      .disk { fill: #dceaf5; stroke: #245b91; stroke-width: 2.5; }
+      .diskface { fill: #ffffff; stroke: #245b91; stroke-width: 2.5; }
+    </style>
+  </defs>
+
+  <!-- 旋转轴 x -->
+  <line class="axisln" x1="80" y1="240" x2="735" y2="240"/>
+  <text class="small" x="655" y="222">x（旋转轴）</text>
+
+  <!-- 旋转体轮廓（圆锥），底面椭圆端盖 -->
+  <path class="body" d="M140,240 L600,150 A42,90 0 0 1 600,330 Z"/>
+  <path class="path" d="M600,150 A42,90 0 0 0 600,330"/>
+
+  <!-- 若干中间截面（示意切片思想） -->
+  <ellipse class="sect" cx="290" cy="240" rx="13.7" ry="29.3"/>
+  <ellipse class="sect" cx="545" cy="240" rx="37" ry="79.2"/>
+
+  <!-- 坐标 x 处的薄圆盘：厚 dx、半径 u(x) -->
+  <path class="disk" d="M400,189.1 L430,183.3 A26.5,56.7 0 0 1 430,296.7 L400,290.9 A23.75,50.9 0 0 1 400,189.1 Z"/>
+  <ellipse class="diskface" cx="430" cy="240" rx="26.5" ry="56.7"/>
+
+  <!-- 半径 u(x) 与厚度 dx -->
+  <line class="dbl" x1="430" y1="240" x2="430" y2="187"/>
+  <text class="small" x="442" y="212">u(x)</text>
+  <line class="dbl" x1="400" y1="166" x2="430" y2="166"/>
+  <text class="small" x="415" y="151" text-anchor="middle">dx</text>
+
+  <!-- 整体质心 f（红点）与过 f 垂直于轴的细虚线 -->
+  <circle class="point" cx="485" cy="240" r="6"/>
+  <line class="fine" x1="485" y1="152" x2="485" y2="352"/>
+  <text class="label" x="485" y="143" text-anchor="middle">f（质心）</text>
+
+  <!-- x 的位置与 x−f -->
+  <line class="fine" x1="415" y1="298" x2="415" y2="352"/>
+  <text class="small" x="407" y="342" text-anchor="end">x</text>
+  <line class="dbl" x1="418" y1="352" x2="482" y2="352"/>
+  <text class="label" x="450" y="378" text-anchor="middle">x−f</text>
+
+  <!-- 两项几何来源 -->
+  <text class="small" x="520" y="120">¼u²dm：盘绕自身直径</text>
+  <line class="leader" x1="516" y1="126" x2="436" y2="186"/>
+  <text class="small" x="520" y="357">(x−f)²dm：平行轴修正</text>
+
+  <text class="label" x="140" y="408">把旋转体切成薄盘：两个公式分别给出沿轴与过质心垂直轴的转动惯量</text>
+</svg>

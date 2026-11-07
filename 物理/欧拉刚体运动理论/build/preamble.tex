@@ -1,0 +1,135 @@
+% ============================================================
+% 欧拉《刚体运动理论》现代汉语选编与重述 —— 合册 PDF 导言区
+% 体例：B5 tufte-book，正文窄栏 + 右边栏批注（楷体，不编号）
+% 编译：xelatex（latexmk 驱动，见 build/book.sh）
+% ============================================================
+\documentclass[b5paper,oneside]{tufte-book}
+
+% ---------- 中文（xeCJK；heading=false 避免与 tufte 标题冲突） ----------
+\usepackage[UTF8,fontset=none,heading=false]{ctex}
+\setCJKmainfont{Noto Serif SC}[AutoFakeBold=2.6,AutoFakeSlant=0.15]
+\setCJKsansfont{SimHei}[AutoFakeBold=2.6]
+\setCJKfamilyfont{zhkai}{KaiTi}[AutoFakeBold=2.2]
+\setCJKfamilyfont{zhh}{SimHei}[AutoFakeBold=2.6]
+\newcommand{\kaishu}{\CJKfamily{zhkai}}
+\newcommand{\heiti}{\CJKfamily{zhh}}
+% 公式中的中文（\mathrm{外}、公式内句号等）用文本字体排
+\xeCJKsetup{CJKmath=true}
+
+% ---------- 西文 ----------
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Adventor}
+\setmonofont{Consolas}[Scale=0.86]
+
+% ---------- 数学与表格 ----------
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs,longtable,array}
+\usepackage{etoolbox}
+% 图形搜索路径（xelatex 在仓库根目录运行，图形在 build/ 下）
+\graphicspath{{build/}}
+\AtBeginEnvironment{longtable}{\small}
+% pandoc 片段里的紧凑列表
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}}
+
+% ---------- 标题体例（节与子节不自动编号，沿用底稿手写序号） ----------
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\zihao{4}\heiti}
+  {}{0em}{}
+\titleformat{\subsection}
+  {\normalfont\zihao{-4}\heiti}
+  {}{0em}{}
+\titlespacing*{\section}{0pt}{1.5em}{0.65em}
+\titlespacing*{\subsection}{0pt}{1.15em}{0.5em}
+
+% ---------- 超链接（最后加载；bookmark 修正大纲顺序） ----------
+\usepackage{xcolor}
+\definecolor{eulerlink}{RGB}{18,64,132}
+\definecolor{eulerurl}{RGB}{0,110,110}
+\usepackage{hyperref}% 若已被更早载入则无操作
+\hypersetup{colorlinks=true,linkcolor=eulerlink,urlcolor=eulerurl,
+            citecolor=eulerlink,pdfstartview=FitH}
+\usepackage{bookmark}
+% 目录含节；书签全部由 TOC 自动生成，不用手工 \pdfbookmark（避免重复）
+\setcounter{tocdepth}{1}
+
+% ---------- 批注：复用 tufte sidenote 的边栏自动避让，隐藏编号 ----------
+\setsidenotefont{\footnotesize\kaishu}
+\renewcommand{\thefootnote}{}% 边栏批注不编号（计数器照常推进以保证避让）
+\newcommand{\pnote}[2][批注]{\sidenote[]{\heiti【#1】\;\allowbreak #2}}
+
+% ---------- 章与部 ----------
+% \eulerchapter{部}{号}{题}{label} —— 分部内沿用底本章号
+\newcommand{\eulerchapter}[4]{%
+  \clearpage
+  \setcounter{chapter}{#2}\addtocounter{chapter}{-1}%
+  \refstepcounter{chapter}%
+  \phantomsection\label{#4}%
+  \vspace*{1.8em}%
+  {\centering\zihao{-3}\heiti 第#2章\par}%
+  \vspace{0.45em}%
+  {\centering\zihao{3}\heiti #3\par}%
+  \vspace{1.4em}%
+  \markboth{第#2章\quad #3}{}%
+  \addcontentsline{toc}{chapter}{第#2章　#3}%
+}
+% 卷首无编号章：\eulerfrontchapter{题}{label}
+\newcommand{\eulerfrontchapter}[2]{%
+  \clearpage
+  \phantomsection\label{#2}%
+  \vspace*{1.8em}%
+  {\centering\zihao{3}\heiti #1\par}%
+  \vspace{1.4em}%
+  \markboth{#1}{}%
+  \addcontentsline{toc}{chapter}{#1}%
+}
+% 章铭（英文原章题）
+\newcommand{\eulerepigraph}[1]{%
+  \begin{center}\itshape\small\color{black!62}#1\end{center}%
+  \vspace{0.3em}}
+% 节（入目录；书签由 hyperref 从 TOC 自动生成）
+\newcommand{\esection}[2]{%
+  \section*{#1}%
+  \phantomsection\addcontentsline{toc}{section}{#1}}
+\newcommand{\esubsection}[1]{\subsection*{#1}}
+
+% ---------- 选编说明（章前框） ----------
+\newenvironment{xuanbian}
+  {\begin{quote}\small\kaishu{\heiti【选编说明】}\;}
+  {\end{quote}}
+
+% ---------- 插图：图题图下居中（1973 原版样式），全书连续编号 ----------
+\newcommand{\figcap}[1]{%
+  \refstepcounter{figure}%
+  \par\nopagebreak\vspace{0.45em}%
+  {\centering\footnotesize 图~\thefigure\quad #1\par}}
+% 宽图：跨正文栏与边栏，随文就位（非浮动）
+\newcommand{\figwide}[2]{%
+  \par\medskip\noindent
+  \begin{fullwidth}\centering
+    \includegraphics[width=\linewidth]{#1}%
+    \figcap{#2}%
+  \end{fullwidth}
+  \medskip\par\noindent}
+% 窄图：正文栏内浮动居中
+\newcommand{\fignorm}[2]{%
+  \begin{figure}[!h]\centering
+    \includegraphics[width=0.92\linewidth]{#1}%
+    \figcap{#2}%
+  \end{figure}}
+
+% ---------- 部页：\eulerpart{第X部分}{名}{导语}{anchor} ----------
+\newcommand{\eulerpart}[4]{%
+  \clearpage
+  \thispagestyle{empty}%
+  \vspace*{0.30\textheight}%
+  \begin{fullwidth}\centering
+    {\zihao{1}\heiti #2\par}\vspace{1.2em}
+    {\large\color{black!55}#1\par}\vspace{2.2em}
+    {\small\color{black!55}#3\par}
+  \end{fullwidth}%
+  \clearpage}
+
+% ---------- 版面微调 ----------
+\linespread{1.06}

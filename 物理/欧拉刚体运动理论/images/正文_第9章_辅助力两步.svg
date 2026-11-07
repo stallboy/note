@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="400" viewBox="0 0 1100 400" role="img" aria-labelledby="title desc">
+  <title id="title">辅助力两步分解：先力偶转动，后质心平动</title>
+  <desc id="desc">步骤一：在质心添加与外力等大反向的辅助力，两力构成力偶，刚体绕质心产生纯转动角加速度。步骤二：把力放到质心，补回平动加速度。辅助力只是分析工具。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowR" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c44536"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2e7d4f"/>
+    </marker>
+    <marker id="arrowGy" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#999"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .vecB { stroke: #245b91; stroke-width: 3; marker-end: url(#arrow); }
+      .vecR { stroke: #c44536; stroke-width: 3; marker-end: url(#arrowR); }
+      .vecG { stroke: #2e7d4f; stroke-width: 3; marker-end: url(#arrowG); }
+      .aux { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; marker-end: url(#arrowGy); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .arcG { stroke: #2e7d4f; stroke-width: 3; fill: none; marker-end: url(#arrowG); }
+    </style>
+  </defs>
+
+  <!-- 步骤一 -->
+  <text class="label" x="30" y="42">步骤一：加辅助力 −Q，只剩力偶 → 纯转动</text>
+  <polygon class="body" points="185,170 250,115 340,140 355,215 300,262 210,255 170,215"/>
+  <circle class="point" cx="270" cy="205" r="6"/>
+  <text class="label" x="280" y="228">G</text>
+  <circle class="point" cx="340" cy="140" r="6"/>
+  <text class="small" x="352" y="146">作用点</text>
+  <line class="path" x1="270" y1="205" x2="340" y2="140"/>
+  <text class="small" x="298" y="166">r</text>
+  <line class="vecR" x1="340" y1="140" x2="340" y2="72"/>
+  <text class="label" x="350" y="92" font-weight="bold">Q</text>
+  <line class="aux" x1="270" y1="205" x2="270" y2="270"/>
+  <text class="label" x="282" y="266" font-weight="bold">−Q</text>
+  <path class="arcG" d="M 326 175 A 60 60 0 1 0 214 185"/>
+  <text class="label" x="240" y="135" font-weight="bold">α</text>
+  <text class="small" x="292" y="300">辅助力只是分析工具</text>
+
+  <!-- 步骤二 -->
+  <text class="label" x="590" y="42">步骤二：把 +Q 放到质心 → 补回平动</text>
+  <polygon class="body" points="745,170 810,115 900,140 915,215 860,262 770,255 730,215"/>
+  <circle class="point" cx="830" cy="205" r="6"/>
+  <text class="label" x="840" y="228">G</text>
+  <line class="vecR" x1="805" y1="205" x2="805" y2="140"/>
+  <text class="label" x="790" y="130" font-weight="bold">Q</text>
+  <line class="vecG" x1="858" y1="205" x2="858" y2="118"/>
+  <text class="small" x="872" y="140">a<tspan font-size="13" dy="4">G</tspan><tspan dy="-4"> = Q/M</tspan></text>
+  <text class="small" x="612" y="330">+Q 过质心：只产生平动加速度，不产生转动</text>
+
+  <text class="label" x="30" y="388">单力 = 力偶产生的转动 + 过质心力产生的平动：先取力偶，再补平动</text>
+</svg>

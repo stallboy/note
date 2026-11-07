@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440" role="img" aria-labelledby="title desc">
+  <title id="title">复摆与等效单摆</title>
+  <desc id="desc">左图：复摆绕水平转轴摆动，质心 G 到轴距离 f，偏角 θ 时重力 Mg 对轴的力臂为 f·sinθ，恢复力矩使 θ 减小；振荡中心 S 在质心之外，OS=ℓ，GS=k²/f。右图：长 ℓ 的等效单摆，摆角与复摆相同，角运动完全一致。</desc>
+  <defs>
+    <marker id="arrowB" markerWidth="8" markerHeight="8" refX="6.5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7.5,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowBrev" markerWidth="8" markerHeight="8" refX="6.5" refY="3" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7.5,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowR" markerWidth="8" markerHeight="8" refX="6.5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L7.5,3 z" fill="#c44536"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .pivot { fill: #ffffff; stroke: #245b91; stroke-width: 3; }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .anglearc { stroke: #245b91; stroke-width: 2.5; fill: none; }
+      .force { stroke: #c44536; stroke-width: 3; marker-end: url(#arrowR); }
+      .torque { stroke: #c44536; stroke-width: 2.5; fill: none; marker-end: url(#arrowR); }
+      .measure { stroke: #245b91; stroke-width: 2.5; marker-start: url(#arrowBrev); marker-end: url(#arrowB); }
+      .mnt { stroke: #999; stroke-width: 2; }
+      .hatch { stroke: #999; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <text class="label" x="250" y="36" text-anchor="middle">(a) 复摆</text>
+  <text class="label" x="830" y="36" text-anchor="middle">(b) 等效单摆</text>
+
+  <line class="mnt" x1="168" y1="70" x2="338" y2="70"/>
+  <line class="hatch" x1="185" y1="70" x2="175" y2="60"/>
+  <line class="hatch" x1="205" y1="70" x2="195" y2="60"/>
+  <line class="hatch" x1="225" y1="70" x2="215" y2="60"/>
+  <line class="hatch" x1="245" y1="70" x2="235" y2="60"/>
+  <line class="hatch" x1="265" y1="70" x2="255" y2="60"/>
+  <line class="hatch" x1="285" y1="70" x2="275" y2="60"/>
+  <line class="hatch" x1="305" y1="70" x2="295" y2="60"/>
+  <line class="hatch" x1="325" y1="70" x2="315" y2="60"/>
+  <line class="mnt" x1="250" y1="70" x2="250" y2="93"/>
+  <circle class="pivot" cx="250" cy="100" r="7"/>
+  <text class="label" x="228" y="110" text-anchor="end">O</text>
+
+  <line class="path" x1="250" y1="113" x2="250" y2="240"/>
+  <polygon class="body" points="270.8,106.8 346.9,269.9 317.9,283.5 241.8,120.4"/>
+  <path class="anglearc" d="M 250 172 A 72 72 0 0 0 280.4 165.3"/>
+  <text class="small" x="254" y="192">θ</text>
+  <line class="path" x1="258" y1="100" x2="294" y2="100"/>
+  <text class="small" x="276" y="87" text-anchor="middle">f·sinθ</text>
+  <path class="torque" d="M 204.9 116.4 A 48 48 0 0 1 202.2 95.8"/>
+
+  <circle class="point" cx="298.6" cy="204.2" r="6"/>
+  <text class="small" x="264" y="220">G</text>
+  <line class="force" x1="298.6" y1="210" x2="298.6" y2="272"/>
+  <text class="small" x="260" y="238">Mg</text>
+  <text class="small" x="291" y="190">f</text>
+
+  <circle class="point" cx="349.3" cy="313" r="6"/>
+  <text class="label" x="360" y="334">S</text>
+  <line class="measure" x1="193.8" y1="126.2" x2="293.1" y2="339.2"/>
+  <text class="label" x="263" y="262">ℓ</text>
+  <line class="measure" x1="324" y1="192.4" x2="374.7" y2="301.2"/>
+  <text class="label" x="355" y="247">k²/f</text>
+
+  <line class="mnt" x1="748" y1="70" x2="918" y2="70"/>
+  <line class="hatch" x1="765" y1="70" x2="755" y2="60"/>
+  <line class="hatch" x1="785" y1="70" x2="775" y2="60"/>
+  <line class="hatch" x1="805" y1="70" x2="795" y2="60"/>
+  <line class="hatch" x1="825" y1="70" x2="815" y2="60"/>
+  <line class="hatch" x1="845" y1="70" x2="835" y2="60"/>
+  <line class="hatch" x1="865" y1="70" x2="855" y2="60"/>
+  <line class="hatch" x1="885" y1="70" x2="875" y2="60"/>
+  <line class="hatch" x1="905" y1="70" x2="895" y2="60"/>
+  <line class="mnt" x1="830" y1="70" x2="830" y2="93"/>
+  <circle class="pivot" cx="830" cy="100" r="7"/>
+  <text class="label" x="808" y="110" text-anchor="end">O</text>
+
+  <line class="path" x1="830" y1="113" x2="830" y2="385"/>
+  <line class="path" x1="830" y1="100" x2="929.3" y2="313"/>
+  <path class="anglearc" d="M 830 172 A 72 72 0 0 0 860.4 165.3"/>
+  <text class="small" x="845" y="190">θ</text>
+  <circle class="point" cx="929.3" cy="313" r="9"/>
+  <text class="label" x="944" y="324">S′</text>
+  <text class="label" x="890" y="208">ℓ</text>
+
+  <text class="label" x="550" y="428" text-anchor="middle">复摆的角运动与长 ℓ=I<tspan font-size="15" dy="5">O</tspan><tspan dy="-5">/(Mf) 的单摆完全相同；振荡中心 S 在质心之外</tspan></text>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="460" viewBox="0 0 950 460" role="img" aria-labelledby="title desc">
+  <title id="title">圆柱的线接触与支撑合力</title>
+  <desc id="desc">三维斜视图：圆柱横放在水平面上，与平面沿一条母线接触（加粗线）。过质心 C 作垂直于几何轴的参考截面（虚线椭圆）；在距参考截面 s 处（沿几何轴方向 a 为正）有另一个半透明截面，圆心为 G′。沿接触线分布的支撑力合成为竖直向上的 N，作用于该截面内的接触处；其作用线（灰色虚线）恰好穿过该截面圆心 G′。N 与 s 都是未知量，由运动确定。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#245b91"/>
+    </marker>
+    <marker id="arrowR" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c44536"/>
+    </marker>
+    <marker id="dim" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#444"/>
+    </marker>
+    <marker id="dimRev" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto-start-reverse" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#444"/>
+    </marker>
+    <style>
+      .label { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20px; fill: #222; }
+      .small { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 17px; fill: #444; }
+      .body { fill: #dceaf5; stroke: #245b91; stroke-width: 3; }
+      .point { fill: #c44536; }
+      .vec { stroke: #245b91; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .force { stroke: #c44536; stroke-width: 3; fill: none; marker-end: url(#arrowR); }
+      .force2 { stroke: #c44536; stroke-width: 2.2; fill: none; marker-end: url(#arrowR); }
+      .path { stroke: #999; stroke-width: 2; stroke-dasharray: 7 7; fill: none; }
+      .dim { stroke: #444; stroke-width: 1.8; fill: none; marker-start: url(#dimRev); marker-end: url(#dim); }
+      .axisline { stroke: #999; stroke-width: 1.8; stroke-dasharray: 5 5; fill: none; }
+      .hatch { stroke: #999; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <text class="small" x="95" y="88">N 与 s 都是未知量，由运动确定</text>
+
+  <polygon points="150,380 790,278 840,314 200,416" fill="#f0f0f0" stroke="#999" stroke-width="1.5"/>
+  <line class="hatch" x1="264" y1="406" x2="267" y2="416"/>
+  <line class="hatch" x1="328" y1="395" x2="331" y2="405"/>
+  <line class="hatch" x1="392" y1="385" x2="395" y2="395"/>
+  <line class="hatch" x1="456" y1="374" x2="459" y2="384"/>
+  <line class="hatch" x1="520" y1="364" x2="523" y2="374"/>
+  <line class="hatch" x1="584" y1="353" x2="587" y2="363"/>
+  <line class="hatch" x1="648" y1="343" x2="651" y2="353"/>
+  <line class="hatch" x1="712" y1="332" x2="715" y2="342"/>
+  <line class="hatch" x1="776" y1="322" x2="779" y2="332"/>
+  <text class="small" x="115" y="420">水平面</text>
+
+  <path class="body" d="M 200 205 L 740 121 A 30 85 0 0 1 740 291 L 200 375 A 30 85 0 0 1 200 205 Z"/>
+  <ellipse class="body" cx="200" cy="290" rx="30" ry="85"/>
+
+  <line x1="200" y1="375" x2="740" y2="291" stroke="#245b91" stroke-width="6.5"/>
+  <text class="small" x="240" y="344">接触母线</text>
+
+  <line class="axisline" x1="180" y1="294" x2="790" y2="196"/>
+  <line x1="790" y1="196" x2="832" y2="189" stroke="#245b91" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text class="small" x="856" y="174" text-anchor="middle">a（几何轴方向）</text>
+
+  <ellipse class="path" cx="470" cy="248" rx="30" ry="85"/>
+  <text class="small" x="455" y="146" text-anchor="middle">过 C 的参考截面</text>
+
+  <ellipse cx="638" cy="222" rx="30" ry="85" fill="#dceaf5" fill-opacity="0.45" stroke="#245b91" stroke-width="1.8"/>
+  <text class="small" x="638" y="104" text-anchor="middle">合力所在截面（圆心 G′）</text>
+
+  <line class="path" x1="470" y1="248" x2="465" y2="216"/>
+  <line class="path" x1="638" y1="222" x2="633" y2="190"/>
+  <line class="dim" x1="466" y1="222" x2="634" y2="196"/>
+  <text class="small" x="550" y="188" text-anchor="middle">s（沿 a 为正）</text>
+
+  <circle class="point" cx="470" cy="248" r="6"/>
+  <text class="small" x="444" y="242" text-anchor="end">C</text>
+  <circle class="point" cx="638" cy="222" r="6"/>
+  <text class="small" x="650" y="216">G′</text>
+
+  <line class="path" x1="638" y1="312" x2="638" y2="120"/>
+  <line class="force" x1="638" y1="304" x2="638" y2="252"/>
+  <text class="small" x="650" y="278">N</text>
+  <text class="small" x="650" y="322">作用线过 G′</text>
+
+  <line class="force2" x1="340" y1="351" x2="340" y2="327"/>
+  <line class="force2" x1="410" y1="340" x2="410" y2="316"/>
+
+  <text class="label" x="475" y="448" text-anchor="middle">支撑力沿接触线分布，合力大小 N 与所在截面位置 s 都待求；合力作用线过该截面圆心 G′</text>
+</svg>
