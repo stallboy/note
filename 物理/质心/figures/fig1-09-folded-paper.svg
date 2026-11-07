@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="490" viewBox="0 0 1000 490">
+  <defs><style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.muted{fill:#64748b;font-size:17px}.label{font-size:20px}.title{font-size:23px;font-weight:700}.grid{stroke:#cbd5e1;stroke-width:2}.edge{stroke:#334155;stroke-width:3}</style><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6 Z" fill="#ef8354"/></marker></defs>
+  <rect width="1000" height="490" fill="#fbfdff"/>
+  <text x="500" y="38" text-anchor="middle" class="t title">折叠：轮廓改变了，各层质量仍可追踪</text>
+  <text x="260" y="82" text-anchor="middle" class="t label">折叠前</text>
+  <rect x="80" y="145" width="360" height="180" fill="#e8f2ff" class="edge"/>
+  <line x1="260" y1="145" x2="260" y2="325" class="grid"/><line x1="350" y1="145" x2="350" y2="325" stroke="#ef8354" stroke-width="3" stroke-dasharray="8 6"/>
+  <rect x="350" y="145" width="90" height="180" fill="#ffd166" opacity=".8"/>
+  <text x="80" y="355" class="t muted">0</text><text x="252" y="355" class="t muted">2</text><text x="342" y="355" class="t muted">3</text><text x="430" y="355" class="t muted">4</text>
+  <path d="M412 115 Q380 75 338 115" stroke="#ef8354" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+  <text x="260" y="410" text-anchor="middle" class="t muted">右侧单位宽区域关于 x=3 翻折</text>
+  <text x="750" y="82" text-anchor="middle" class="t label">折叠后：双层区域面密度加倍</text>
+  <rect x="570" y="145" width="270" height="180" fill="#e8f2ff" class="edge"/>
+  <rect x="750" y="145" width="90" height="180" fill="#ffd166" opacity=".85"/>
+  <line x1="750" y1="145" x2="750" y2="325" class="grid"/>
+  <line x1="705" y1="145" x2="705" y2="325" stroke="#16a085" stroke-width="3" stroke-dasharray="7 5"/>
+  <circle cx="728" cy="235" r="10" fill="#16a085"/>
+  <text x="738" y="225" class="t label">C(7/4,1)</text>
+  <text x="570" y="355" class="t muted">0</text><text x="698" y="355" class="t muted">3/2</text><text x="742" y="355" class="t muted">2</text><text x="830" y="355" class="t muted">3</text>
+  <text x="705" y="410" text-anchor="middle" class="t muted">不能把它当作新的匀质矩形</text>
+  <text x="500" y="465" text-anchor="middle" class="t label">质量守恒 + 对称定位折叠部分 = 新质心</text>
+</svg>

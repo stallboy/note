@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
+  <defs><style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.muted{fill:#64748b;font-size:18px}.label{font-size:20px}.title{font-size:23px;font-weight:700}.axis{stroke:#64748b;stroke-width:2}</style><marker id="a" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6 Z" fill="#64748b"/></marker></defs>
+  <rect width="1000" height="500" fill="#fbfdff"/>
+  <text x="500" y="38" text-anchor="middle" class="t title">原点移动，所有位矢同步改变，质心在空间中不动</text>
+  <line x1="150" y1="410" x2="150" y2="90" class="axis" marker-end="url(#a)"/><line x1="150" y1="410" x2="860" y2="410" class="axis" marker-end="url(#a)"/>
+  <line x1="350" y1="350" x2="350" y2="130" stroke="#ef8354" stroke-width="2" marker-end="url(#a)"/><line x1="350" y1="350" x2="880" y2="350" stroke="#ef8354" stroke-width="2" marker-end="url(#a)"/>
+  <text x="130" y="438" class="t label">O</text><text x="330" y="378" class="t label" fill="#ef8354">O′</text>
+  <path d="M150 410 L350 350" stroke="#ef8354" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="225" y="365" class="t muted">a</text>
+  <g fill="#3b82f6"><circle cx="300" cy="170" r="14"/><circle cx="670" cy="180" r="14"/><circle cx="590" cy="330" r="14"/></g>
+  <circle cx="520" cy="227" r="11" fill="#16a085"/>
+  <text x="540" y="220" class="t label">C</text>
+  <g stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 5"><line x1="150" y1="410" x2="520" y2="227"/><line x1="350" y1="350" x2="520" y2="227"/></g>
+  <text x="455" y="315" class="t muted">rC − a</text><text x="290" y="320" class="t muted">rC</text>
+  <path d="M610 85 L865 85 L865 130 L610 130 Z" fill="#eef6ff"/>
+  <text x="737" y="115" text-anchor="middle" class="t label">r′i = ri − a　⇒　r′C = rC − a</text>
+  <text x="500" y="470" text-anchor="middle" class="t muted">坐标数值变了，物理点没有变</text>
+</svg>

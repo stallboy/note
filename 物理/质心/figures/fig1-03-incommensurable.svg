@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="410" viewBox="0 0 1000 410">
+  <defs><style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.muted{fill:#64748b;font-size:18px}.label{font-size:20px}.title{font-size:23px;font-weight:700}.axis{stroke:#334155;stroke-width:3}</style></defs>
+  <rect width="1000" height="410" fill="#fbfdff"/>
+  <text x="500" y="40" text-anchor="middle" class="t title">不可通约比例：平衡点被有理模型夹住</text>
+  <line x1="120" y1="205" x2="880" y2="205" class="axis"/>
+  <g stroke="#64748b" stroke-width="2"><line x1="120" y1="194" x2="120" y2="216"/><line x1="880" y1="194" x2="880" y2="216"/></g>
+  <text x="120" y="245" text-anchor="middle" class="t muted">左端</text><text x="880" y="245" text-anchor="middle" class="t muted">右端</text>
+  <path d="M300 165 L300 245 M700 165 L700 245" stroke="#3b82f6" stroke-width="3" stroke-dasharray="8 6"/>
+  <path d="M370 125 L370 285 M630 125 L630 285" stroke="#ef8354" stroke-width="3" stroke-dasharray="8 6"/>
+  <path d="M300 130 L700 130" stroke="#3b82f6" stroke-width="3"/>
+  <path d="M300 130 l18 -10 v20 z M700 130 l-18 -10 v20 z" fill="#3b82f6"/>
+  <path d="M370 290 L630 290" stroke="#ef8354" stroke-width="3"/>
+  <path d="M370 290 l18 -10 v20 z M630 290 l-18 -10 v20 z" fill="#ef8354"/>
+  <circle cx="500" cy="205" r="11" fill="#16a085"/>
+  <text x="500" y="184" text-anchor="middle" class="t label">真实平衡点</text>
+  <text x="300" y="112" text-anchor="middle" class="t muted">下侧有理近似</text><text x="700" y="112" text-anchor="middle" class="t muted">上侧有理近似</text>
+  <text x="370" y="326" text-anchor="middle" class="t muted">继续逼近</text><text x="630" y="326" text-anchor="middle" class="t muted">继续逼近</text>
+  <text x="500" y="370" text-anchor="middle" class="t label">上下界距离可任意小 ⇒ 真实位置唯一</text>
+</svg>

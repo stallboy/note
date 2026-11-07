@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="410" viewBox="0 0 1000 410">
+  <defs>
+    <style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.s{stroke:#334155;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.b{fill:#3b82f6}.r{fill:#ef8354}.g{fill:#16a085}.muted{fill:#64748b;font-size:18px}.title{font-size:23px;font-weight:700}.label{font-size:19px}</style>
+  </defs>
+  <rect width="1000" height="410" fill="#fbfdff"/>
+  <text x="500" y="38" text-anchor="middle" class="t title">从平衡经验到几何工具</text>
+  <line x1="333" y1="65" x2="333" y2="365" stroke="#dbe4ee"/>
+  <line x1="666" y1="65" x2="666" y2="365" stroke="#dbe4ee"/>
+  <text x="166" y="82" text-anchor="middle" class="t label">① 对称平衡</text>
+  <line x1="65" y1="190" x2="267" y2="190" class="s"/>
+  <path d="M166 190 L145 248 L187 248 Z" fill="#94a3b8"/>
+  <circle cx="91" cy="166" r="24" class="b"/><circle cx="241" cy="166" r="24" class="b"/>
+  <text x="166" y="171" text-anchor="middle" class="t muted">O</text>
+  <line x1="91" y1="211" x2="91" y2="237" stroke="#3b82f6" stroke-width="2"/>
+  <line x1="241" y1="211" x2="241" y2="237" stroke="#3b82f6" stroke-width="2"/>
+  <text x="166" y="282" text-anchor="middle" class="t muted">等质量、等距离</text>
+  <text x="166" y="315" text-anchor="middle" class="t muted">支点在对称中心</text>
+  <text x="500" y="82" text-anchor="middle" class="t label">② 等效合并</text>
+  <circle cx="408" cy="158" r="22" class="b"/><circle cx="492" cy="158" r="22" class="b"/>
+  <line x1="408" y1="190" x2="492" y2="190" class="s"/>
+  <path d="M450 184 L437 207 L463 207 Z" class="g"/>
+  <path d="M538 150 L590 150" stroke="#16a085" stroke-width="3"/>
+  <path d="M580 140 L594 150 L580 160" fill="none" stroke="#16a085" stroke-width="3"/>
+  <circle cx="620" cy="150" r="30" class="g"/>
+  <text x="450" y="239" text-anchor="middle" class="t muted">局部中心 + 局部总质量</text>
+  <text x="500" y="282" text-anchor="middle" class="t muted">只求整体平衡时</text>
+  <text x="500" y="315" text-anchor="middle" class="t muted">可先合并，再参与计算</text>
+  <text x="833" y="82" text-anchor="middle" class="t label">③ 分割重组</text>
+  <path d="M718 135 L825 135 L825 220 L770 220 L770 177 L718 177 Z" fill="#ffd166" stroke="#b7791f" stroke-width="3"/>
+  <line x1="770" y1="135" x2="770" y2="177" stroke="#b7791f" stroke-dasharray="6 5"/>
+  <line x1="718" y1="177" x2="770" y2="177" stroke="#b7791f" stroke-dasharray="6 5"/>
+  <path d="M850 176 L882 176" stroke="#ef8354" stroke-width="3"/>
+  <path d="M874 166 L887 176 L874 186" fill="none" stroke="#ef8354" stroke-width="3"/>
+  <rect x="899" y="125" width="58" height="55" fill="#ffd166" stroke="#b7791f" stroke-width="3"/>
+  <rect x="899" y="180" width="36" height="62" fill="#ffd166" stroke="#b7791f" stroke-width="3"/>
+  <text x="833" y="282" text-anchor="middle" class="t muted">质量不消失，位置可追踪</text>
+  <text x="833" y="315" text-anchor="middle" class="t muted">多种分法必须给出同一中心</text>
+  <text x="500" y="378" text-anchor="middle" class="t muted">对称负责“看出”，分割与合并负责“算准”</text>
+</svg>

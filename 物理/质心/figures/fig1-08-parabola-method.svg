@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.muted{fill:#64748b;font-size:17px}.label{font-size:20px}.title{font-size:23px;font-weight:700}.axis{stroke:#334155;stroke-width:2}</style>
+  <rect width="1000" height="520" fill="#fbfdff"/>
+  <text x="500" y="38" text-anchor="middle" class="t title">切片秤量：局部对应，整体合并</text>
+  <line x1="500" y1="65" x2="500" y2="465" stroke="#dbe4ee"/>
+  <path d="M100 130 Q280 130 450 450 L100 450 Z" fill="none" opacity="0"/>
+  <path d="M100 130 L450 130 L450 450 L100 450 Z" fill="#eef6ff" stroke="#334155" stroke-width="2"/>
+  <path d="M100 450 Q275 130 450 450" fill="#fbfdff" stroke="#3b82f6" stroke-width="4"/>
+  <g fill="#77aadd" opacity=".65"><rect x="135" y="205" width="12" height="245"/><rect x="190" y="158" width="12" height="292"/><rect x="245" y="134" width="12" height="316"/><rect x="300" y="143" width="12" height="307"/><rect x="355" y="183" width="12" height="267"/><rect x="405" y="252" width="12" height="198"/></g>
+  <line x1="275" y1="130" x2="275" y2="450" stroke="#ef8354" stroke-width="3" stroke-dasharray="8 6"/>
+  <circle cx="275" cy="258" r="10" fill="#16a085"/>
+  <text x="295" y="250" class="t label">G</text>
+  <text x="275" y="485" text-anchor="middle" class="t muted">对称轴；yG = 3a²/5</text>
+  <text x="275" y="95" text-anchor="middle" class="t label">抛物线弓形</text>
+  <line x1="600" y1="235" x2="910" y2="235" stroke="#334155" stroke-width="4"/>
+  <path d="M755 235 L732 295 L778 295 Z" fill="#94a3b8"/>
+  <line x1="635" y1="235" x2="635" y2="335" stroke="#3b82f6" stroke-width="3"/>
+  <line x1="875" y1="235" x2="875" y2="335" stroke="#ef8354" stroke-width="3"/>
+  <rect x="620" y="335" width="30" height="75" fill="#77aadd"/>
+  <path d="M852 335 L898 335 L875 410 Z" fill="#ffd166" stroke="#b7791f" stroke-width="2"/>
+  <text x="635" y="435" text-anchor="middle" class="t muted">未知图形薄片</text><text x="875" y="435" text-anchor="middle" class="t muted">已知图形薄片</text>
+  <text x="755" y="95" text-anchor="middle" class="t label">逐对悬挂并检查平衡</text>
+  <text x="755" y="480" text-anchor="middle" class="t muted">切片、力臂与对应关系缺一不可</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="610" viewBox="0 0 920 610">
+  <style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.shape{stroke:#334155;stroke-width:3;stroke-linejoin:round}.mid{stroke:#ef8354;stroke-width:4;stroke-dasharray:9 6}.muted{fill:#64748b;font-size:18px}.label{font-size:20px}.title{font-size:23px;font-weight:700}</style>
+  <rect width="920" height="610" fill="#fbfdff"/>
+  <text x="460" y="38" text-anchor="middle" class="t title">四块等质量小三角形：用自相似求 AG∶GD</text>
+  <path d="M460 80 L160 510 L760 510 Z" fill="#eef6ff" class="shape"/>
+  <path d="M460 510 L610 295 L310 295 Z" fill="#fff4df" class="shape"/>
+  <path d="M460 80 L610 295 L310 295 Z" fill="#e5f4ff" class="shape"/>
+  <path d="M160 510 L460 510 L310 295 Z" fill="#e9f8f1" class="shape"/>
+  <path d="M760 510 L610 295 L460 510 Z" fill="#f2ecff" class="shape"/>
+  <line x1="460" y1="80" x2="460" y2="510" class="mid"/>
+  <line x1="160" y1="510" x2="610" y2="295" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 6"/>
+  <line x1="760" y1="510" x2="310" y2="295" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 6"/>
+  <g class="t label" font-weight="700"><text x="460" y="64" text-anchor="middle">A</text><text x="135" y="535">B</text><text x="775" y="535">C</text><text x="478" y="538">D</text><text x="625" y="290">E</text><text x="280" y="290">F</text><text x="478" y="292">H</text></g>
+  <g stroke-width="3"><circle cx="460" cy="366.7" r="9" fill="#16a085"/><circle cx="460" cy="223.3" r="7" fill="#3b82f6"/><circle cx="460" cy="438.3" r="7" fill="#ef8354"/></g>
+  <g class="t label"><text x="482" y="370">G=Q</text><text x="482" y="220">T</text><text x="482" y="448">P</text></g>
+  <path d="M805 80 L805 510" stroke="#334155" stroke-width="2"/>
+  <path d="M795 80 L815 80 M795 366.7 L815 366.7 M795 510 L815 510" stroke="#334155" stroke-width="2"/>
+  <text x="835" y="236" class="t label">2 份</text><text x="835" y="455" class="t label">1 份</text>
+  <text x="460" y="575" text-anchor="middle" class="t label">x = (x/2 + (1−x/2) + 2·(x+1)/2)/4 ⇒ x = 2/3</text>
+</svg>

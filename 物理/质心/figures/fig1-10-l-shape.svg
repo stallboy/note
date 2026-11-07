@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.shape{stroke:#334155;stroke-width:3;stroke-linejoin:round}.muted{fill:#64748b;font-size:17px}.label{font-size:20px}.title{font-size:23px;font-weight:700}</style>
+  <rect width="1000" height="520" fill="#fbfdff"/>
+  <text x="500" y="38" text-anchor="middle" class="t title">L 形薄板：两条局部重心连线交出整体重心</text>
+  <path d="M180 105 L430 105 L430 220 L315 220 L315 420 L180 420 Z" fill="#eef6ff" class="shape"/>
+  <line x1="180" y1="220" x2="315" y2="220" stroke="#3b82f6" stroke-width="3" stroke-dasharray="8 6"/>
+  <rect x="180" y="105" width="250" height="115" fill="#bfe0ff" opacity=".45"/>
+  <rect x="180" y="220" width="135" height="200" fill="#d9f2e9" opacity=".45"/>
+  <circle cx="305" cy="162.5" r="8" fill="#3b82f6"/><circle cx="247.5" cy="320" r="8" fill="#3b82f6"/>
+  <line x1="305" y1="162.5" x2="247.5" y2="320" stroke="#3b82f6" stroke-width="4"/>
+  <line x1="315" y1="105" x2="315" y2="420" stroke="#ef8354" stroke-width="3" stroke-dasharray="8 6"/>
+  <circle cx="247.5" cy="262.5" r="8" fill="#ef8354"/><circle cx="372.5" cy="162.5" r="8" fill="#ef8354"/>
+  <line x1="247.5" y1="262.5" x2="372.5" y2="162.5" stroke="#ef8354" stroke-width="4"/>
+  <circle cx="277" cy="239" r="11" fill="#16a085"/>
+  <text x="292" y="254" class="t label">C</text>
+  <path d="M530 170 L610 170 M530 300 L610 300" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="690" y="150" class="t label">第一种剖分</text><text x="690" y="185" class="t muted">C 在两块矩形重心的连线上</text>
+  <text x="690" y="275" class="t label">第二种剖分</text><text x="690" y="310" class="t muted">换一种分法，再得一条约束线</text>
+  <text x="690" y="395" class="t label">交点即所求</text><text x="690" y="430" class="t muted">无需分别计算所有面积</text>
+</svg>

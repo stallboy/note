@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540">
+  <defs><style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.muted{fill:#64748b;font-size:17px}.label{font-size:20px}.title{font-size:23px;font-weight:700}.edge{stroke:#334155;stroke-width:3}</style><marker id="v" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6 Z" fill="#ef8354"/></marker></defs>
+  <rect width="1000" height="540" fill="#fbfdff"/>
+  <text x="500" y="38" text-anchor="middle" class="t title">双空腔：每一份被挖去的质量都带自己的位置矢量</text>
+  <circle cx="350" cy="270" r="190" fill="#e8f2ff" class="edge"/>
+  <circle cx="286.7" cy="270" r="63.3" fill="#fbfdff" class="edge"/>
+  <circle cx="445" cy="270" r="63.3" fill="#fbfdff" class="edge"/>
+  <line x1="130" y1="270" x2="570" y2="270" stroke="#94a3b8" stroke-width="2" stroke-dasharray="7 5"/>
+  <circle cx="350" cy="270" r="9" fill="#3b82f6"/><circle cx="286.7" cy="270" r="8" fill="#ef8354"/><circle cx="445" cy="270" r="8" fill="#ef8354"/><circle cx="347" cy="270" r="7" fill="#16a085"/>
+  <text x="350" y="245" text-anchor="middle" class="t label">O</text><text x="275" y="245" text-anchor="middle" class="t label">A</text><text x="445" y="245" text-anchor="middle" class="t label">B</text><text x="330" y="305" class="t label">C</text>
+  <path d="M350 285 L350 320 L286.7 320 L286.7 290" stroke="#ef8354" stroke-width="2" fill="none"/>
+  <path d="M350 335 L350 355 L445 355 L445 290" stroke="#ef8354" stroke-width="2" fill="none"/>
+  <text x="318" y="343" text-anchor="middle" class="t muted">d₁</text><text x="400" y="380" text-anchor="middle" class="t muted">d₂</text>
+  <text x="350" y="500" text-anchor="middle" class="t muted">示例：R=3，a=b=1，d₁=−1，d₂=3/2</text>
+  <path d="M620 140 L930 140 L930 370 L620 370 Z" fill="#eef6ff"/>
+  <text x="775" y="185" text-anchor="middle" class="t label">完整球：M₀，质心 O</text>
+  <text x="775" y="235" text-anchor="middle" class="t label">空腔 A：−m₁，位置 d₁</text>
+  <text x="775" y="280" text-anchor="middle" class="t label">空腔 B：−m₂，位置 d₂</text>
+  <line x1="665" y1="305" x2="885" y2="305" stroke="#94a3b8"/>
+  <text x="775" y="345" text-anchor="middle" class="t label">rC = −(a³d₁+b³d₂)/(R³−a³−b³)</text>
+  <text x="775" y="425" text-anchor="middle" class="t muted">若空腔重叠，必须加回重复扣除的重叠区</text>
+</svg>

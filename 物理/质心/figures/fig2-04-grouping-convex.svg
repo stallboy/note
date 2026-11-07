@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.muted{fill:#64748b;font-size:17px}.label{font-size:20px}.title{font-size:23px;font-weight:700}.link{stroke:#64748b;stroke-width:2;fill:none}</style>
+  <rect width="1000" height="520" fill="#fbfdff"/>
+  <text x="500" y="38" text-anchor="middle" class="t title">分组归并改变计算顺序，不改变最终质心</text>
+  <line x1="500" y1="70" x2="500" y2="470" stroke="#dbe4ee"/>
+  <text x="250" y="85" text-anchor="middle" class="t label">树状归并</text>
+  <g fill="#3b82f6"><circle cx="100" cy="145" r="12"/><circle cx="180" cy="145" r="12"/><circle cx="320" cy="145" r="12"/><circle cx="400" cy="145" r="12"/></g>
+  <path d="M100 157 L100 185 L140 215 M180 157 L180 185 L140 215 M320 157 L320 185 L360 215 M400 157 L400 185 L360 215" class="link"/>
+  <circle cx="140" cy="225" r="16" fill="#ef8354"/><circle cx="360" cy="225" r="16" fill="#ef8354"/>
+  <text x="140" y="265" text-anchor="middle" class="t muted">M₁,R₁</text><text x="360" y="265" text-anchor="middle" class="t muted">M₂,R₂</text>
+  <path d="M140 243 L140 285 L250 335 M360 243 L360 285 L250 335" class="link"/>
+  <circle cx="250" cy="350" r="20" fill="#16a085"/>
+  <text x="250" y="395" text-anchor="middle" class="t label">C</text>
+  <text x="250" y="450" text-anchor="middle" class="t muted">先求局部质心，再带总质量合并</text>
+  <text x="750" y="85" text-anchor="middle" class="t label">凸包夹逼</text>
+  <path d="M590 365 L655 145 L850 115 L915 340 L760 425 Z" fill="#eef6ff" stroke="#ef8354" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="#3b82f6"><circle cx="590" cy="365" r="11"/><circle cx="655" cy="145" r="11"/><circle cx="850" cy="115" r="11"/><circle cx="915" cy="340" r="11"/><circle cx="760" cy="425" r="11"/><circle cx="740" cy="260" r="11"/><circle cx="820" cy="300" r="11"/></g>
+  <circle cx="770" cy="280" r="12" fill="#16a085"/>
+  <text x="790" y="275" class="t label">C</text>
+  <text x="750" y="475" text-anchor="middle" class="t muted">正质量加权平均不会越过橡皮筋边界</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
+  <style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.shape{stroke:#334155;stroke-width:3;stroke-linejoin:round}.muted{fill:#64748b;font-size:17px}.label{font-size:20px}.title{font-size:23px;font-weight:700}</style>
+  <rect width="1000" height="500" fill="#fbfdff"/>
+  <text x="500" y="38" text-anchor="middle" class="t title">三角形可等效，任意四边形不可照搬</text>
+  <line x1="500" y1="70" x2="500" y2="450" stroke="#dbe4ee"/>
+  <text x="250" y="82" text-anchor="middle" class="t label">三角形：三顶点各放 m/3</text>
+  <path d="M250 115 L90 390 L410 390 Z" fill="#e8f2ff" class="shape"/>
+  <g fill="#3b82f6"><circle cx="250" cy="115" r="15"/><circle cx="90" cy="390" r="15"/><circle cx="410" cy="390" r="15"/></g>
+  <line x1="250" y1="115" x2="250" y2="390" stroke="#ef8354" stroke-width="3" stroke-dasharray="8 6"/>
+  <circle cx="250" cy="298.3" r="10" fill="#16a085"/>
+  <text x="270" y="302" class="t label">G</text>
+  <text x="250" y="435" text-anchor="middle" class="t muted">B、C 合并到 D：2m/3；再与 A 合并</text>
+  <text x="750" y="82" text-anchor="middle" class="t label">四边形：薄板重心 ≠ 顶点平均</text>
+  <path d="M580 380 L900 380 L740 190 L580 190 Z" fill="#fff4df" class="shape"/>
+  <g fill="#3b82f6"><circle cx="580" cy="380" r="10"/><circle cx="900" cy="380" r="10"/><circle cx="740" cy="190" r="10"/><circle cx="580" cy="190" r="10"/></g>
+  <circle cx="686.7" cy="295.6" r="10" fill="#16a085"/>
+  <circle cx="700" cy="285" r="10" fill="#ef8354"/>
+  <line x1="686.7" y1="295.6" x2="700" y2="285" stroke="#334155" stroke-width="2"/>
+  <text x="668" y="330" class="t muted">薄板</text><text x="710" y="275" class="t muted">顶点平均</text>
+  <text x="750" y="435" text-anchor="middle" class="t muted">绿色：(2/3, 4/9)　橙色：(3/4, 1/2)</text>
+</svg>

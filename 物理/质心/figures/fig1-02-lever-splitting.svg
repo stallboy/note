@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="450" viewBox="0 0 1000 450">
+  <style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.s{stroke:#334155;stroke-width:3;fill:none;stroke-linecap:round}.muted{fill:#64748b;font-size:18px}.label{font-size:20px}.title{font-size:23px;font-weight:700}</style>
+  <rect width="1000" height="450" fill="#fbfdff"/>
+  <text x="500" y="38" text-anchor="middle" class="t title">质量比 3∶2：摊成 10 个相同的对称单元</text>
+  <text x="70" y="88" class="t label">原物体</text>
+  <line x1="190" y1="145" x2="810" y2="145" class="s"/>
+  <path d="M500 145 L478 202 L522 202 Z" fill="#94a3b8"/>
+  <circle cx="376" cy="116" r="28" fill="#3b82f6"/>
+  <circle cx="686" cy="116" r="24" fill="#ef8354"/>
+  <text x="376" y="80" text-anchor="middle" class="t label">3m</text><text x="686" y="80" text-anchor="middle" class="t label">2m</text>
+  <text x="500" y="180" text-anchor="middle" class="t muted">O</text>
+  <path d="M376 165 L376 194 L500 194" stroke="#3b82f6" stroke-width="2" fill="none"/>
+  <path d="M500 210 L500 224 L686 224 L686 165" stroke="#ef8354" stroke-width="2" fill="none"/>
+  <text x="438" y="190" text-anchor="middle" class="t muted">2d</text><text x="593" y="220" text-anchor="middle" class="t muted">3d</text>
+  <text x="70" y="278" class="t label">等效摊放</text>
+  <line x1="190" y1="325" x2="810" y2="325" class="s"/>
+  <path d="M500 325 L478 382 L522 382 Z" fill="#94a3b8"/>
+  <g fill="#3b82f6" stroke="#fff" stroke-width="2">
+    <circle cx="221" cy="325" r="13"/><circle cx="283" cy="325" r="13"/><circle cx="345" cy="325" r="13"/><circle cx="407" cy="325" r="13"/><circle cx="469" cy="325" r="13"/><circle cx="531" cy="325" r="13"/>
+  </g>
+  <g fill="#ef8354" stroke="#fff" stroke-width="2">
+    <circle cx="593" cy="325" r="13"/><circle cx="655" cy="325" r="13"/><circle cx="717" cy="325" r="13"/><circle cx="779" cy="325" r="13"/>
+  </g>
+  <path d="M221 355 L221 370 L531 370 L531 355" stroke="#3b82f6" fill="none" stroke-width="2"/>
+  <path d="M593 355 L593 370 L779 370 L779 355" stroke="#ef8354" fill="none" stroke-width="2"/>
+  <text x="376" y="405" text-anchor="middle" class="t muted">6 个半份，中心仍在 −2d</text>
+  <text x="686" y="405" text-anchor="middle" class="t muted">4 个半份，中心仍在 3d</text>
+  <text x="500" y="435" text-anchor="middle" class="t muted">10 个单元整体关于 O 对称</text>
+</svg>

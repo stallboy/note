@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <defs><style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.muted{fill:#64748b;font-size:17px}.label{font-size:20px}.title{font-size:23px;font-weight:700}</style><marker id="b" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6 Z" fill="#3b82f6"/></marker><marker id="o" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6 Z" fill="#ef8354"/></marker></defs>
+  <rect width="1000" height="520" fill="#fbfdff"/>
+  <text x="500" y="38" text-anchor="middle" class="t title">质心属于物体，重力等效位置属于“物体＋外场＋姿态”</text>
+  <line x1="500" y1="70" x2="500" y2="465" stroke="#dbe4ee"/>
+  <text x="250" y="85" text-anchor="middle" class="t label">均匀引力场</text>
+  <line x1="120" y1="250" x2="380" y2="250" stroke="#334155" stroke-width="5"/>
+  <g fill="#3b82f6"><circle cx="150" cy="250" r="16"/><circle cx="220" cy="250" r="16"/><circle cx="290" cy="250" r="16"/><circle cx="360" cy="250" r="16"/></g>
+  <g stroke="#3b82f6" stroke-width="3" marker-end="url(#b)"><line x1="150" y1="275" x2="150" y2="345"/><line x1="220" y1="275" x2="220" y2="345"/><line x1="290" y1="275" x2="290" y2="345"/><line x1="360" y1="275" x2="360" y2="345"/></g>
+  <circle cx="255" cy="250" r="10" fill="#16a085"/>
+  <text x="255" y="225" text-anchor="middle" class="t label">C=G</text>
+  <text x="250" y="405" text-anchor="middle" class="t muted">平行力，大小均正比于质量</text>
+  <text x="750" y="85" text-anchor="middle" class="t label">径向非均匀引力场</text>
+  <circle cx="750" cy="440" r="42" fill="#94a3b8"/><text x="750" y="447" text-anchor="middle" class="t label">场源</text>
+  <line x1="610" y1="245" x2="890" y2="245" stroke="#334155" stroke-width="5"/>
+  <circle cx="630" cy="245" r="20" fill="#ef8354"/><circle cx="870" cy="245" r="20" fill="#ef8354"/>
+  <line x1="630" y1="270" x2="680" y2="380" stroke="#ef8354" stroke-width="5" marker-end="url(#o)"/>
+  <line x1="870" y1="270" x2="820" y2="380" stroke="#ef8354" stroke-width="3" marker-end="url(#o)"/>
+  <circle cx="750" cy="245" r="10" fill="#16a085"/><circle cx="738" cy="245" r="7" fill="#ffd166" stroke="#b7791f"/>
+  <text x="765" y="220" class="t label">C</text><text x="710" y="220" class="t label">G</text>
+  <text x="750" y="170" text-anchor="middle" class="t muted">近端受力更强，等效位置偏向场源</text>
+  <text x="500" y="490" text-anchor="middle" class="t label">均匀场：通常重合　｜　非均匀场：必须指定等效条件与姿态</text>
+</svg>

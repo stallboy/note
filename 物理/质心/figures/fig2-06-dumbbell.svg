@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+  <defs><style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.muted{fill:#64748b;font-size:17px}.label{font-size:20px}.title{font-size:23px;font-weight:700}</style><marker id="f" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0 L9 3 L0 6 Z" fill="#ef8354"/></marker></defs>
+  <rect width="1000" height="560" fill="#fbfdff"/>
+  <text x="500" y="38" text-anchor="middle" class="t title">径向场中的哑铃：等效位置的共线极限</text>
+  <circle cx="500" cy="510" r="60" fill="#94a3b8"/><text x="500" y="518" text-anchor="middle" class="t label">地球</text>
+  <line x1="500" y1="130" x2="500" y2="450" stroke="#334155" stroke-width="6"/>
+  <circle cx="500" cy="360" r="28" fill="#3b82f6"/><circle cx="500" cy="180" r="28" fill="#3b82f6"/>
+  <line x1="500" y1="390" x2="500" y2="452" stroke="#ef8354" stroke-width="6" marker-end="url(#f)"/>
+  <line x1="500" y1="210" x2="500" y2="255" stroke="#ef8354" stroke-width="3" marker-end="url(#f)"/>
+  <text x="535" y="425" class="t label">F− 较大</text><text x="535" y="245" class="t label">F+ 较小</text>
+  <line x1="400" y1="130" x2="400" y2="360" stroke="#cbd5e1" stroke-width="2"/>
+  <circle cx="500" cy="270" r="10" fill="#16a085"/><circle cx="500" cy="282" r="8" fill="#ffd166" stroke="#b7791f" stroke-width="2"/>
+  <text x="465" y="265" text-anchor="end" class="t label">C</text><text x="465" y="295" text-anchor="end" class="t label">G*</text>
+  <path d="M660 180 L660 360 M650 180 L670 180 M650 270 L670 270 M650 360 L670 360" stroke="#64748b" stroke-width="2"/>
+  <text x="685" y="230" class="t label">L/2</text><text x="685" y="325" class="t label">L/2</text>
+  <path d="M770 270 L770 510 M760 270 L780 270 M760 510 L780 510" stroke="#64748b" stroke-width="2"/>
+  <text x="795" y="395" class="t label">r</text>
+  <path d="M240 115 L410 115 L410 185 L240 185 Z" fill="#eef6ff"/>
+  <text x="325" y="143" text-anchor="middle" class="t muted">u = L/(2r)</text><text x="325" y="172" text-anchor="middle" class="t label">Δr = 2ru²/(1+u²)</text>
+  <text x="500" y="82" text-anchor="middle" class="t muted">G* 比质心 C 更靠近地心；L≪r 时 Δr≈L²/(2r)</text>
+</svg>

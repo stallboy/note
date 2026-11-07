@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="510" viewBox="0 0 1000 510">
+  <style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.muted{fill:#64748b;font-size:17px}.label{font-size:20px}.title{font-size:23px;font-weight:700}.edge{stroke:#334155;stroke-width:3}</style>
+  <rect width="1000" height="510" fill="#fbfdff"/>
+  <text x="500" y="38" text-anchor="middle" class="t title">挖空 = 完整物体 + 一个假想负质量</text>
+  <circle cx="180" cy="250" r="120" fill="#e8f2ff" class="edge"/>
+  <circle cx="180" cy="250" r="10" fill="#3b82f6"/>
+  <text x="180" y="405" text-anchor="middle" class="t label">完整圆盘：+M</text><text x="198" y="242" class="t label">O</text>
+  <text x="320" y="260" text-anchor="middle" class="t title">+</text>
+  <circle cx="440" cy="250" r="65" fill="#fff0ec" stroke="#ef8354" stroke-width="3" stroke-dasharray="8 5"/>
+  <line x1="405" y1="215" x2="475" y2="285" stroke="#ef8354" stroke-width="5"/><line x1="475" y1="215" x2="405" y2="285" stroke="#ef8354" stroke-width="5"/>
+  <text x="440" y="405" text-anchor="middle" class="t label">孔对应：−m</text>
+  <text x="535" y="260" text-anchor="middle" class="t title">=</text>
+  <path d="M750 130 A120 120 0 1 0 750 370 A120 120 0 1 0 750 130" fill="#e8f2ff"/>
+  <circle cx="750" cy="250" r="120" fill="#e8f2ff" class="edge"/>
+  <circle cx="800" cy="250" r="50" fill="#fbfdff" class="edge"/>
+  <circle cx="750" cy="250" r="8" fill="#3b82f6"/><circle cx="800" cy="250" r="8" fill="#ef8354"/><circle cx="725" cy="250" r="9" fill="#16a085"/>
+  <text x="742" y="225" class="t label">O</text><text x="810" y="225" class="t label">A</text><text x="695" y="225" class="t label">C</text>
+  <line x1="725" y1="250" x2="800" y2="250" stroke="#16a085" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="750" y="405" text-anchor="middle" class="t label">剩余质心偏向孔的反方向</text>
+  <text x="500" y="470" text-anchor="middle" class="t label">(M−m)rC = −m d　（取 O 为原点）</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="510" viewBox="0 0 1000 510">
+  <style>.t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243447}.shape{stroke:#334155;stroke-width:3;stroke-linejoin:round}.muted{fill:#64748b;font-size:18px}.label{font-size:20px}.title{font-size:23px;font-weight:700}</style>
+  <rect width="1000" height="510" fill="#fbfdff"/>
+  <text x="500" y="38" text-anchor="middle" class="t title">梯形：化为两个同高、不同底边的三角形</text>
+  <path d="M190 400 L810 400 L650 130 L380 130 Z" fill="#eef6ff" class="shape"/>
+  <path d="M190 400 L650 130 L380 130 Z" fill="#fff4df" opacity=".8"/>
+  <line x1="190" y1="400" x2="650" y2="400" stroke="#334155" stroke-width="2"/>
+  <line x1="190" y1="400" x2="650" y2="130" stroke="#334155" stroke-width="3"/>
+  <circle cx="550" cy="310" r="9" fill="#3b82f6"/>
+  <circle cx="407" cy="220" r="9" fill="#ef8354"/>
+  <line x1="550" y1="310" x2="407" y2="220" stroke="#16a085" stroke-width="4"/>
+  <circle cx="507" cy="283" r="8" fill="#16a085"/>
+  <path d="M850 130 L850 400" stroke="#64748b" stroke-width="2"/>
+  <path d="M840 130 L860 130 M840 400 L860 400" stroke="#64748b" stroke-width="2"/>
+  <path d="M90 130 L90 400 M90 220 L120 220 M90 310 L120 310" stroke="#64748b" stroke-width="2"/>
+  <text x="880" y="275" class="t label">h</text>
+  <text x="70" y="325" text-anchor="end" class="t label">h/3</text><text x="70" y="205" text-anchor="end" class="t label">2h/3</text>
+  <text x="500" y="438" text-anchor="middle" class="t label">底边 a</text><text x="515" y="110" text-anchor="middle" class="t label">底边 b</text>
+  <text x="530" y="338" class="t muted">下三角形重心</text><text x="300" y="205" class="t muted">上三角形重心</text>
+  <text x="500" y="480" text-anchor="middle" class="t label">面积权重 a∶b，故 y = h(a+2b) / [3(a+b)]</text>
+</svg>
